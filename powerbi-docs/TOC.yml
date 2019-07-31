@@ -947,6 +947,8 @@
           href: report-builder-expressions.md
         - name: Exemplos de expressões
           href: report-builder-expression-examples.md
+        - name: Paginação do relatório
+          href: paginated-reports-pagination.md
         - name: Como visualizar relatórios
           href: report-builder-previewing-reports.md
         - name: Perguntas frequentes sobre relatórios paginados

@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/27/2019
+ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67568131"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501759"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -133,7 +133,7 @@ Para usar os logs de auditoria, verifique se a configuração [**Criar logs de a
 
 A guia **Configurações de locatário** possibilita um controle refinado sobre os recursos disponibilizados para sua organização. Se você tiver dúvidas relacionadas a dados confidenciais, talvez alguns dos nossos recursos não sejam adequados para sua organização, ou talvez você queira apenas que um recurso em particular esteja disponível para um grupo específico.
 
-A imagem a seguir mostra as duas primeiras seções da guia **Configurações de locatário**.
+A imagem a seguir mostra as diversas configurações na guia **Configurações de locatário**.
 
 ![Configurações de locatário](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -169,6 +169,10 @@ As próximas seções fornecem uma visão geral dos diferentes tipos de configur
 Os usuários da organização podem acessar os recursos internos de ajuda e suporte no menu de ajuda do Power BI. Especificamente, esses parâmetros alteram o comportamento dos itens do menu Saiba mais, Comunidade e Obter ajuda.
 
 Também é possível especificar uma URL para direcionar usuários a uma solução personalizada para solicitações de licenciamento. Esse parâmetro personaliza a URL de destino do botão Atualizar conta que um usuário sem uma licença do Power BI Pro pode encontrar na caixa de diálogo Atualizar para o Power BI Pro, bem como na página Gerenciar armazenamento pessoal.
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Receber notificações por email para interrupções ou incidentes de serviço
+
+Os grupos de segurança habilitados para email receberão notificações por email se esse locatário for afetado por uma interrupção ou um incidente de serviço. Saiba mais sobre as [notificações de interrupção de serviço](service-interruption-notifications.md).
 
 ## <a name="workspace-settings"></a>Configurações do workspace
 

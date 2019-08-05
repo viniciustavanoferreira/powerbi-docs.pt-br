@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751257"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590594"
 ---
 # <a name="key-influencers-visualization"></a>Visualização de influenciadores principais
 O visual de influenciadores principais ajuda a entender os fatores que influenciam uma métrica na qual está interessado. Ele analisa os dados, classifica os fatores importantes e os exibe como influenciadores principais. Por exemplo, suponha que você queira descobrir o que influencia a variedade de pessoal, também conhecida como rotatividade. Um dos fatores pode ser a duração do contrato de trabalho e outro fator pode ser a idade do funcionário. 
@@ -132,8 +132,13 @@ A visualização mostra que sempre que o tempo de uso aumenta em 13,44 meses, em
  
 O gráfico de dispersão no painel direito plota o percentual médio de classificações baixas para cada valor de tempo de uso. Ele realça o declive com uma linha de tendência.
 
-
 ![Gráfico de dispersão para Tempo de Uso](media/power-bi-visualization-influencers/power-bi-tenure.png)
+
+## <a name="binned-continuous-key-influencers"></a>Influenciadores principais contínuos compartimentalizados
+
+Em alguns casos, você perceberá que os fatores contínuos foram automaticamente transformados em categóricos. Isso ocorre porque percebemos que a relação entre as variáveis não é linear e, portanto, não podemos descrever a relação como simplesmente um aumento ou uma diminuição (como fizemos no exemplo acima).
+
+Executamos testes de correlação para determinar a linearidade do influenciador com relação ao destino. Se o destino for contínuo, executaremos a correlação de Perasons; se o destino for categórico, executaremos testes de correlação de ponto bisserial. Se detectarmos que a relação não é suficientemente linear, realizaremos a compartimentalização supervisionada e geraremos um máximo de cinco compartimentos. Para descobrir quais compartimentos fazem mais sentido, usamos um método de compartimentalização supervisionada que examina a relação entre o fator explicativo e o destino que está sendo analisado.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretando medidas e agregações como influenciadores principais 
  
@@ -209,15 +214,14 @@ Os principais segmentos para destinos numéricos mostram grupos nos quais os pre
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas 
  
-**Quais são as limitações da versão prévia?** 
+**Quais são as limitações do visual?** 
  
-No momento, o visual de influenciadores principais está em versão prévia pública e ele tem algumas limitações. A funcionalidade não disponível no momento inclui: 
-- Análise de métricas que são agregações ou medidas.
-- Consumindo o visual no Power BI Embedded.
-- Consumindo o visual nos aplicativos móveis do Power BI.
-- Suporte à RLS.
-- Suporte ao DirectQuery.
-- Suporte à Conexão Dinâmica.
+O visual de principais influenciadores tem algumas limitações:
+
+- Não é compatível com o Direct Query
+- Não é compatível com a conexão dinâmica com o Azure Analysis Services e o SQL Server Analysis Services
+- Não é compatível com publicação na Web
+- Exige o .NET Framework 4.6 ou posterior
 
 ![Pergunta numérica](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
@@ -263,7 +267,7 @@ Esse erro ocorre porque o dispositivo não está definido no nível do cliente. 
 - Você pode alterar o resumo de dispositivos para contagem. Por exemplo, use a contagem se o número de dispositivos puder afetar a pontuação que um cliente dá. 
 - Você pode dinamizar a coluna de dispositivos para ver se o consumo do serviço em um dispositivo específico influencia a classificação de um cliente.
  
-Neste exemplo, os dados foram dinamizados para criar colunas para navegador, aplicativo móvel e tablet. Agora, você pode usar esses dispositivos específicos em **Explicar por**. Todos os dispositivos passam a ser influenciadores e o navegador tem o maior efeito sobre a pontuação do cliente.
+Neste exemplo, os dados foram dinamizados para criar novas colunas para navegador, celular e tablet (não se esqueça de excluir e recriar suas relações no modo de exibição de modelagem após dinamizar seus dados). Agora, você pode usar esses dispositivos específicos em **Explicar por**. Todos os dispositivos passam a ser influenciadores e o navegador tem o maior efeito sobre a pontuação do cliente.
 
 Mais precisamente, os clientes que não usam o navegador para consumir o serviço são 3,79 vezes mais propensos a dar uma pontuação baixa do que aqueles que usam o navegador. Mais abaixo na lista, para dispositivo móvel, o inverso é verdadeiro. Os clientes que usam o aplicativo móvel são mais propensos a dar uma pontuação baixa do que aqueles que não usam o aplicativo móvel. 
 

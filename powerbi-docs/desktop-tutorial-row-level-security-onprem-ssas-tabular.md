@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826666"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523231"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Segurança em nível de linha dinâmica com o modelo de tabela do Analysis Services
 
@@ -144,7 +144,7 @@ Depois que o modelo tabular for implantado e estiver pronto para consumo, você 
    
    Na função de **Gerente de vendas**, Pedro pode ver os dados de todas as diferentes regiões de vendas. Ele cria esse relatório (o relatório criado nas etapas da tarefa anterior) e o publica no serviço do Power BI.
    
-   Depois de publicar o relatório, ele cria um dashboard no serviço do Power BI chamado **TabularDynamicSec** com base no relatório. Na imagem a seguir, observe que Pedro consegue ver os dados correspondentes a todas as regiões de vendas.
+   Depois de publicar o relatório, a próxima etapa será criar um dashboard no serviço do Power BI chamado **TabularDynamicSec** com base no relatório. Na imagem a seguir, observe que Pedro consegue ver os dados correspondentes a todas as regiões de vendas.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -154,7 +154,7 @@ Depois que o modelo tabular for implantado e estiver pronto para consumo, você 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. Quando Carlos Silva fizer logon no serviço do **Power BI** e exibir o dashboard compartilhado criado por Pedro, ele deverá ver **somente** as vendas de sua região. 
+3. Quando Carlos Silva fizer logon no serviço do **Power BI** e exibir o dashboard compartilhado criado por Pedro, **somente** as vendas de sua região serão exibidas. 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 

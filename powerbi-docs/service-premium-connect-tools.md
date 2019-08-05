@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235057"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475627"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Conectar-se a conjuntos de dados com aplicativos cliente e ferramentas (versão prévia)
 
-Os workspaces e os conjuntos de dados do Power BI Premium dão suporte a conexões *somente leitura* da Microsoft e a ferramentas e aplicativos cliente de terceiros. 
+Os workspaces e os conjuntos de dados do Power BI Premium dão suporte a conexões *somente leitura* da Microsoft e a ferramentas e aplicativos cliente de terceiros. Por padrão, as conexões estão habilitadas
 
 > [!NOTE]
 > Este artigo pretende apenas apresentar a conectividade somente leitura com workspaces e conjuntos de dados do Power BI Premium. Ele *não* se destina a fornecer informações detalhadas sobre programação, ferramentas e aplicativos específicos, arquitetura e gerenciamento de workspaces e conjuntos de dados. Os assuntos descritos aqui exigem uma compreensão sólida da arquitetura e da administração do modelo de banco de dados de tabela do Analysis Services.
@@ -104,6 +104,10 @@ Os seguintes conjuntos de dados no serviço do Power BI não são compatíveis:
 ### <a name="roles-and-role-memberships"></a>Funções e associações de função
 
 Atualmente, as funções de modelo e as associações de função não podem ser descobertas ou exibidas usando os pontos de extremidade XMLA.
+
+## <a name="disable-connectivity"></a>Desabilitar a conectividade
+
+Por padrão, a conectividade de ponto de extremidade XMLA está habilitada para a carga de trabalho dos conjuntos de dados. Você pode desabilitar a conectividade nas [Configurações de carga de trabalho](service-admin-premium-workloads.md#workload-settings).
 
 ## <a name="audit-logs"></a>Logs de auditoria 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139091"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523146"
 ---
 # <a name="dashboard-data-classification"></a>Classificação de dados no dashboard
 Cada dashboard é diferente. Dependendo da fonte de dados à qual se conectar, provavelmente constatará que você e os colegas com os quais compartilha precisarão adotar medidas diferentes dependendo da confidencialidade dos dados. Alguns dashboards nunca devem ser compartilhados com pessoas de fora da sua empresa ou impressos, enquanto outros podem ser compartilhados livremente. Utilizando a classificação de dados no dashboard, você poderá conscientizar as pessoas que estão visualizando seus dashboards em relação ao nível de segurança que deve ser usado. É possível marcar seus dashboards com classificações definidas pelo departamento de TI da sua empresa; portanto, qualquer pessoa que estiver visualizando o conteúdo terá o mesmo nível de compreensão sobre a confidencialidade dos dados.
@@ -79,7 +79,7 @@ Depois de preencher o formulário com seus tipos de classificação, selecione *
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 
-Neste ponto, a classificação padrão será atribuída a todos os dashboards; os proprietários dos dashboards já poderão atualizar o tipo de classificação para a opção adequada para seu conteúdo. Você pode retornar aqui no futuro para adicionar ou remover tipos de classificação ou para alterar o padrão.  
+Neste ponto, todos os dashboards serão atribuídos à classificação padrão. Os proprietários de dashboard agora podem atualizar o tipo de classificação de acordo com o adequado para o conteúdo. Você pode retornar aqui no futuro para adicionar ou remover tipos de classificação ou para alterar o padrão.  
 
 > [!NOTE]
 > Há algumas coisas importantes a serem lembradas quando você voltar para fazer alterações:

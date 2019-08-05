@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
-ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67498966"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391123"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Traga suas próprias chaves de criptografia para o Power BI (versão prévia)
 
@@ -45,6 +45,9 @@ As instruções nesta seção pressupõem conhecimento básico do Azure Key Vaul
 
 1. Crie uma chave RSA com um comprimento de 4096 bits (ou use uma chave existente desse tipo), com permissões de encapsulamento e desencapsulamento.
 
+    > [!IMPORTANT]
+    > O Power BI BYOK dá suporte apenas a chaves RSA com um comprimento de 4.096 bits.
+
 1. Recomendado: Verifique se o cofre de chaves tem a opção _exclusão reversível_ habilitada.
 
 ### <a name="add-the-service-principal"></a>Adicionar a entidade de serviço
@@ -52,6 +55,9 @@ As instruções nesta seção pressupõem conhecimento básico do Azure Key Vaul
 1. No portal do Azure, no cofre de chaves, em **Políticas de acesso**, selecione **Adicionar Novo**.
 
 1. Em **Selecionar entidade**, pesquise e selecione Microsoft.Azure.AnalysisServices.
+
+    > [!NOTE]
+    > Se você não encontrar "Microsoft.Azure.AnalysisServices", é provável que a assinatura do Azure associada ao seu Azure Key Vault nunca tenha tido um recurso de Power BI associado. Em vez disso, tente pesquisar a seguinte cadeia de caracteres: 00000009-0000-0000-c000-000000000000.
 
 1. Em **Permissões de chave**, selecione **Chave de desencapsulamento** e **Chave de encapsulamento**.
 

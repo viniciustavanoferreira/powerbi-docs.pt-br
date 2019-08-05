@@ -1,6 +1,6 @@
 ---
 title: Definir configurações de fluxo de dados de espaço de trabalho
-description: Configurar um espaço de trabalho do aplicativo no Power BI para armazenar sua definição de fluxo de dados e os arquivos de dados no armazenamento do Azure Data Lake Gen2
+description: Configurar um workspace do aplicativo no Power BI para armazenar sua definição de fluxo de dados e arquivos de dados no Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168427"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523511"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Definir configurações de fluxo de dados de espaço de trabalho (versão prévia)
 

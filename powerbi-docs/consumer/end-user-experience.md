@@ -12,16 +12,16 @@ ms.topic: quickstart
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 86c8297c9a55f2b59e7c01390ff15bb3b2d4bf2e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048820"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523032"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido – Explorando o serviço do Power BI
 
-Agora que você conhece os conceitos básicos do Power BI, vamos dar uma olhada no **serviço do Power BI**. Como já mencionado, alguém da sua equipe pode ficar o tempo todo no **Power BI Desktop**, combinando dados e criando relatórios para outras pessoas. Mas, por outro lado, você pode gastar todo o seu tempo no serviço do Power BI, exibindo e interagindo com o conteúdo criado por outros (**consumindo** experiência). Neste guia de início rápido você importará dados de exemplo e os usará para aprender a explorar o serviço do Power BI. 
+Agora que você conhece os conceitos básicos do Power BI, vamos dar uma olhada no **serviço do Power BI**. Como já mencionado, alguém da sua equipe pode ficar o tempo todo no **Power BI Desktop** combinando dados e criando relatórios para outras pessoas. Mas, por outro lado, você pode gastar todo o seu tempo no serviço do Power BI, exibindo e interagindo com o conteúdo criado por outros (**consumindo** experiência). Neste guia de início rápido você importará dados de exemplo e os usará para aprender a explorar o serviço do Power BI. 
  
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -61,7 +61,7 @@ Se você for um novo usuário, haverá somente um workspace – **Meu Workspace*
 
 ![vídeo curto do workspace](./media/end-user-experience/nav.gif)
 
-Dentro dessas guias (também conhecidas como *exibições de conteúdo*), você verá informações sobre o conteúdo, bem como as ações que podem ser executadas com esse conteúdo.  Por exemplo, na guia Dashboards, você pode abrir um dashboard, pesquisar, classificar e muito mais.
+Dentro dessas guias (também conhecidas como *exibições de conteúdo*), você verá informações sobre o conteúdo, bem como as ações que podem ser executadas com ele.  Por exemplo, na guia Dashboards, você pode abrir um dashboard, pesquisar, classificar e muito mais.
 
 ![Guia Dashboards](./media/end-user-experience/power-bi-dashboard-tab.png)
 

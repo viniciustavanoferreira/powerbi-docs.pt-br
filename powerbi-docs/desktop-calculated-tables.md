@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239471"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522225"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Usando tabelas calculadas no Power BI Desktop
 Com tabelas calculadas, você pode adicionar uma nova tabela ao modelo. Mas em vez de consultar e carregar valores nas colunas de sua nova tabela por meio de uma fonte de dados, você cria uma fórmula DAX (Data Analysis Expressions) que define os valores da tabela. No Power BI Desktop, as tabelas calculadas são criadas usando o recurso Nova Tabela na Exibição de Relatório ou Exibição de Dados.
@@ -53,7 +53,7 @@ Jeff então insere a fórmula a seguir:
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-A nova tabela Western Region Employees de Jeff aparece como qualquer outra tabela na lista Campos. Ele pode criar relações com outras tabelas, adicionar medidas e colunas calculadas e adicionar qualquer um de seus campos a relatórios, assim como com qualquer outra tabela.
+A nova tabela Western Region Employees de Jeff aparece como qualquer outra tabela na lista Campos. Ele pode até criar relações com outras tabelas, adicionar medidas e colunas calculadas e acrescentar qualquer um de seus campos a relatórios, assim como com qualquer outra tabela.
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 

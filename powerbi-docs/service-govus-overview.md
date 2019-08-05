@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809130"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590453"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo dos EUA
 O **serviço do Power BI** tem uma versão disponível para clientes do Governo dos Estados Unidos como parte das assinaturas da **Comunidade do Governo dos EUA do Office 365**. A versão do **serviço do Power BI** discutida neste artigo é desenvolvida especificamente para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço do Power BI**.
@@ -48,8 +48,7 @@ O Azure é distribuído entre várias nuvens. Por padrão, é permitido que os l
 * Gov. EUA – Texas
 * Gov. EUA – Arizona
 
-Na nuvem pública, os espaços IP estão disponíveis, mas na nuvem governamental, é preciso abrir um tíquete de suporte do Azure para solicitar os intervalos de IP para os datacenters listados acima. 
-
+Na nuvem pública, os espaços IP estão disponíveis. Na nuvem governamental, confira a [documentação de serviço do Azure Governamental](https://www.microsoft.com/download/details.aspx?id=57063), que pode ser baixada, para saber as informações mais recentes.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Limitações do Power BI para o Governo dos EUA
 Alguns dos recursos disponíveis na versão comercial do **serviço do Power BI** *não* estão disponíveis no **serviço do Power BI** para clientes do Governo dos EUA. Equipe do Power BI está trabalhando ativamente para tornar esses recursos disponíveis para clientes do Governo dos EUA e atualizará este artigo quando esses recursos estiverem disponíveis.

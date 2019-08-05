@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: ddda7d6aaacbcde2d71371b316d14a9cd411bd43
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67792000"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523419"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: Faça um tour
 
-O pacote de conteúdo do exemplo de Rentabilidade do Cliente contém um painel, relatório e um conjunto de dados relacionados a uma empresa que fabrica materiais de marketing. Esse dashboard foi criado por uma diretora financeira para ver métricas-chave de seus cinco gerentes de unidade de negócios (ou executivos), produtos, clientes e margens brutas (GM). Ela pode ver rapidamente quais fatores estão afetando a lucratividade.
+O pacote de conteúdo do exemplo de Rentabilidade do Cliente contém um painel, relatório e um conjunto de dados relacionados a uma empresa que fabrica materiais de marketing. Esse dashboard foi criado por uma diretora financeira para ver métricas-chave de seus cinco gerentes de unidade de negócios (ou executivos), produtos, clientes e margens brutas (GM). Rapidamente, é possível ver quais fatores estão afetando a lucratividade.
 
 ![Dashboard para o exemplo de Rentabilidade do Cliente](media/sample-customer-profitability/power-bi-dash.png)
 
-Este exemplo faz parte de uma série que mostra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Ele foi criado usando dados reais da [obviEnce](http://www.obvience.com/) que foram mantidos anônimos. Os dados estão disponíveis em vários formatos: pacote de conteúdo, arquivo .pbix do Power BI Desktop ou pasta de trabalho do Excel. Confira [Exemplos para o Power BI](sample-datasets.md). 
+Este exemplo faz parte de uma série que mostra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Ele foi criado pela [obviEnce](http://www.obvience.com/) usando dados reais, que foram mantidos anônimos. Os dados estão disponíveis em vários formatos: pacote de conteúdo, arquivo .pbix do Power BI Desktop ou pasta de trabalho do Excel. Confira [Exemplos para o Power BI](sample-datasets.md). 
 
 Este tutorial explora o pacote de conteúdo de exemplo Rentabilidade do Cliente no serviço do Power BI. Como as experiências de relatório são muito semelhantes no Power BI Desktop e no serviço, você também pode acompanhar usando o arquivo de exemplo .pbix no Power BI Desktop. 
 
@@ -66,7 +66,7 @@ No workspace em que você salvou o exemplo, localize o dashboard Rentabilidade d
 ![Dashboard para o exemplo de Rentabilidade do Cliente](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>Blocos de painel de toda a empresa
-1. Abra o dashboard no serviço do Power BI. Esses blocos de painel dão ao nosso diretor financeiro métricas de empresa de alto nível importante para ela. Quando ela vir algo interessante, pode selecionar um bloco para examinar os dados.
+1. Abra o dashboard no serviço do Power BI. Esses blocos de dashboard dão à nossa diretora financeira métricas de empresa de alto nível importantes para ela. Quando ela vir algo interessante, pode selecionar um bloco para examinar os dados.
 
 2. Examine os blocos no lado esquerdo do painel.
 
@@ -81,7 +81,7 @@ No workspace em que você salvou o exemplo, localize o dashboard Rentabilidade d
    - A receita total para o ano é quase o orçamento.
 
 ### <a name="manager-specific-dashboard-tiles"></a>Blocos do painel específico do gerente
-Os blocos no lado direito do painel fornecem uma pontuação da equipe. A diretora financeira precisa manter controle de seus gerentes e esses blocos apresentam uma visão geral de alto nível do lucro usando GM %. Se a tendência de % GM é inesperada para qualquer gerenciador, poderá investigar mais.
+Os blocos no lado direito do painel fornecem uma pontuação da equipe. A diretora financeira precisa acompanhar seus gerentes e esses blocos apresentam uma visão geral de alto nível do lucro usando o percentual de GM. Se a tendência de percentual de GM for inesperada para qualquer gerente, ela poderá investigar mais.
 
 ![GM% para gerentes](media/sample-customer-profitability/power-bi-manager2.png)
 
@@ -89,7 +89,7 @@ Analisando os blocos do dashboard específicos para gerentes, podemos fazer as s
 
 - Todos os executivos, exceto Carlos, já excederam suas metas de vendas. No entanto, as vendas reais de Carlos são as mais altas.
 - O percentual de GM de Annelie é o mais baixo, mas podemos ver um aumento gradual desde março.
-- Valery, por outro lado, teve queda na % de GM significante.
+- Valery, por outro lado, viu uma queda significativa no percentual de GM.
 - E Andrew teve um ano volátil.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Explore os dados subjacentes do painel
@@ -139,7 +139,7 @@ Vejamos os dois membros da equipe em detalhes e quais informações podem ser ob
 1. Na segmentação **Executivo** à esquerda, selecione nome de Andrew para filtrar a página do relatório e exibir apenas os dados sobre ele:
 
    * Para um KPI rápido, examine o **Status de Receita (Total do Ano)** ; está verde, o que significa que ele tem um bom desempenho.
-   * O gráfico **% de Variação da Receita do Orçamento por Mês e Executivo** mostra que, exceto por uma queda em fevereiro, Andrew está indo bem. Sua região dominante é o leste e ele lida com 49 clientes e com cinco de sete produtos. Seu % de GM não é o mais alto nem o mais baixo.
+   * O gráfico **% de Variação da Receita do Orçamento por Mês e Executivo** mostra que, exceto por uma queda em fevereiro, Andrew está indo bem. A região mais dominante de Andrew é o leste e ele lida com 49 clientes e com cinco de sete produtos. O percentual de GM de Andrew não é o mais alto nem o mais baixo.
    * O gráfico **RevenueTY e % de Receita Var para Orçamento por Mês** mostra um histórico de lucratividade estável. No entanto, se filtrar selecionando o quadrado referente a **Central** no mapa de árvore da região, você descobrirá que Andrew tem receita apenas em março e apenas em Indiana. Essa tendência é intencional ou é algo que precisa ser examinado?
 
 2. Agora a diante com Valery. Na segmentação **Executivo**, selecione nome de Valery para filtrar a página do relatório e exibir apenas os dados sobre ela. 
@@ -150,12 +150,12 @@ Vejamos os dois membros da equipe em detalhes e quais informações podem ser ob
    * A variação de receita também mostra um cenário preocupante – ela não está alcançando suas margens de receita.
    * Valery tem apenas nove clientes, lida com apenas dois produtos e trabalha quase exclusivamente com clientes da região norte. Essa especialização poderia explicar as amplas flutuações em sua métrica.
    * Selecionar o quadrado **Norte** no mapa de árvore mostra que a margem bruta de Valery na região norte é condizente com sua margem geral.
-   * Selecionar outros quadrados de **Receita Total por Região** mostra uma história interessante: o % de GM dela varia de 23% a 79%. Os números de sua receita, em todas as regiões, exceto pela região norte, são extremamente sazonais.
+   * Selecionar outros quadrados de **Receita Total por Região** mostra uma história interessante: o percentual de GM dela varia de 23% a 79%. Os números de sua receita, em todas as regiões, exceto pela região norte, são extremamente sazonais.
 
 3. Continue explorando para descobrir por que área de Valery não apresenta um bom desempenho. Examine as regiões, as outras unidades de negócios e a próxima página do relatório: **Análise de Margem do Setor**.
 
 ### <a name="industry-margin-analysis"></a>Análise de Margem do Setor
-Esta página de relatório fornece uma fatia diferente dos dados. Examina a margem bruta para todo o setor, dividido por segmento. O diretor financeiro usa essa página para comparar as métricas de unidade da empresa e comercial para métricas do setor para ajudar a explicar tendências e lucratividade. Você poderia se perguntar por que o gráfico **% de Margem Bruta por Mês e Executivo** está nesta página, já que é específico de uma equipe. Tê-la aqui, nos permite filtrar a página pelo gerente da unidade de negócios.  
+Esta página de relatório fornece uma fatia diferente dos dados. Examina a margem bruta para todo o setor, dividido por segmento. A diretora financeira usa essa página para comparar as métricas de unidade da empresa e de negócios com as métricas do setor para ajudar a explicar tendências e lucratividade. Você poderia se perguntar por que o gráfico **% de Margem Bruta por Mês e Executivo** está nesta página, já que é específico de uma equipe. Tê-la aqui, nos permite filtrar a página pelo gerente da unidade de negócios.  
 
 ![Página de relatório de análise de margem do setor](media/sample-customer-profitability/customer6.png)
 
@@ -165,10 +165,10 @@ Esta página de relatório fornece uma fatia diferente dos dados. Examina a marg
 
 3. Conforme você seleciona cada gerente no gráfico, observe os seguintes detalhes:
    * A área de Andrew de influência abrange vários setores diferentes com diferentes amplamente % GM (a maioria do lado positivo) e % Var.
-   * O gráfico do Annelie é semelhante, exceto pelo fato de que ela se concentra em apenas alguns segmentos de mercado, com foco no segmento Federal e um foco no produto Gladius.
-   * Carlos tem um foco claro no segmento de serviços, com bom lucro. Ele aumentou bastante o % de Variação para o segmento de Alta Tecnologia e um novo segmento para ele, Industrial, executado muito bem em relação ao orçamento.
-   * Tina trabalha com alguns segmentos e tem % GM mais alta, mas o tamanho pequeno em grande parte das suas bolhas mostra que seu impacto sobre o resultado da empresa é mínimo.
-   * Valery, que é responsável por apenas um produto, trabalha apenas com cinco segmentos de mercado. Sua influência do setor é sazonal, mas sempre produz uma grande bolha, indicando um impacto significativo sobre o resultado da empresa. Os segmentos de setor explicam seu desempenho negativo?
+   * O gráfico de Annelie é semelhante, exceto pelo fato de que ela se concentra em apenas alguns segmentos de mercado, com foco no segmento Federal e no produto Gladius.
+   * Carlos tem um foco claro no segmento de serviços, com bom lucro. Ele aumentou bastante o percentual de variação no segmento de Alta Tecnologia e um novo segmento para ele, Industrial, executado muito bem em relação ao orçamento.
+   * Tina trabalha com alguns segmentos e tem o percentual de GM mais alto, mas o tamanho pequeno das suas bolhas mostra que o impacto sobre o resultado da empresa é mínimo.
+   * Valery, que é responsável por apenas um produto, trabalha apenas com cinco segmentos de mercado. Sua influência do setor é sazonal, mas sempre produz uma grande bolha, indicando um impacto significativo sobre o resultado da empresa. Os segmentos de setor explicam o desempenho negativo?
 
 ### <a name="executive-scorecard"></a>Scorecard Executivo
 Esta página está formatada como uma página de resposta da Cortana. Para saber mais, confira [Criar uma página de resposta personalizada para Cortana](service-cortana-answer-cards.md).

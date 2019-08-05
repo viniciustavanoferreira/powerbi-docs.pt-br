@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342186"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380256"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Adicionar um filtro a um relatório no Power BI
 
@@ -76,6 +76,8 @@ A propósito, esse procedimento usa o exemplo de Análise de Varejo, caso você 
     O visual é alterado para refletir o novo filtro. Se você salvar o relatório com o filtro, os leitores do relatório verão o visual filtrado a princípio, e poderão interagir com o filtro no modo de exibição de Leitura, marcando ou desmarcando valores.
      
     ![O visual filtrado](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    
+    Quando você usa o filtro em um campo usado no Visual em que o campo é agregado (por exemplo, soma, média ou contagem), está filtrando o valor *agregado* em cada ponto de dados. Portanto, pedir para filtrar o visual acima, em que **Vendas deste ano > 500.000** significaria ver apenas o ponto de dados **13 – Charleston Fashion Direct** no resultado. Filtrar em [medidas de modelo](desktop-measures.md) sempre se aplica ao valor agregado do ponto de dados.
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>Filtrar com um campo que não está no visual
 
@@ -94,6 +96,8 @@ Agora, vamos adicionar um campo novo à nossa visualização como um filtro no n
     ![O visual filtrado](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Se você salvar o relatório com o filtro, os leitores do relatório poderão interagir com o filtro **Gerente regional** no modo de exibição de Leitura, marcando ou desmarcando valores.
+    
+    Se você arrastar uma *coluna numérica* para o painel de filtro para criar um filtro de nível visual, o filtro será aplicado às *linhas de dados subjacentes*. Por exemplo, adicionar um filtro no campo **UnitCost** e defini-lo em que **UnitCost** > 20 só mostraria dados para as linhas de produtos em que o custo unitário fosse maior que 20, independentemente do custo total da unidade para os pontos de dados mostrados no visual.
 
 ## <a name="add-a-filter-to-an-entire-page"></a>Adicionar um filtro a uma página inteira
 
@@ -158,10 +162,6 @@ Vejamos como funciona o filtro de detalhamento.
 1. Selecione a seta para voltar para retornar à página do relatório anterior.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
-
-- Há situações nas quais o filtro no nível do visual e o filtro no nível da página podem retornar resultados diferentes.  Por exemplo, quando você adiciona um filtro no nível do visual, o Power BI filtra nos resultados agregados.  A agregação padrão é Soma, mas você pode [alterar o tipo de agregação](service-aggregates.md).  
-
-    Depois, ao adicionar um filtro no nível da página, o Power BI filtra sem agregação.  Ele não agrega porque uma página pode ter vários visuais, que, individualmente, podem utilizar diferentes tipos de agregação.  Portanto, o filtro é aplicado em cada linha de dados.
 
 - Se você não vir o painel Campos, verifique se você está no [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md) do relatório    
 - Se você tiver feito muitas alterações nos filtros e quiser retornar para as configurações padrão do autor do relatório, selecione **Redefinir para padrão** na barra de menus superior.

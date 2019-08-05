@@ -1,6 +1,6 @@
 ---
-title: Com base em expressão títulos no Power BI Desktop
-description: Criar títulos dinâmicos no Power BI Desktop que alteram com base em expressões programáticas, usando a formatação condicional de programação
+title: Títulos com base em expressão no Power BI Desktop
+description: Crie títulos dinâmicos no Power BI Desktop que mudam com base em expressões programáticas usando a formatação programática condicional
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,32 +10,32 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b90ef66d2c118a70f1b18ed4fe302ce1db23e45c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1b4e134ef6f8da43a1856c8a5458c8c09b2c42b5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769747"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522170"
 ---
-# <a name="expression-based-titles-in-power-bi-desktop"></a>Com base em expressão títulos no Power BI Desktop
+# <a name="expression-based-titles-in-power-bi-desktop"></a>Títulos com base em expressão no Power BI Desktop
 
-Você pode criar dinâmico, personalizado títulos de seus visuais do Power BI. Criando expressões DAX (Data Analysis) com base em campos, variáveis ou outros elementos de programação, os títulos de seus elementos visuais podem ajustar automaticamente conforme necessário. Essas alterações são com base em filtros, as seleções, ou outras interações do usuário e configurações.
+É possível criar títulos dinâmicos e personalizados para os visuais do Power BI. Ao criar DAX (Expressões de Análise de Dados) com base em campos, variáveis ou outros elementos programáticos, os títulos dos visuais podem ser ajustados automaticamente, conforme o necessário. Essas alterações são baseadas em filtros, seleções ou outras interações e configurações do usuário.
 
-![Opção de formatação condicional de captura de tela do Power BI Desktop](media/desktop-conditional-formatting-visual-titles/expression-based-title-01.png)
+![Captura de tela da opção de formatação condicional do Power BI Desktop](media/desktop-conditional-formatting-visual-titles/expression-based-title-01.png)
 
-Criação de títulos dinâmicos, às vezes chamado de *baseadas em expressão títulos*, é simples. 
+Criar títulos dinâmicos, às vezes chamados de *títulos com base em expressão*, é simples. 
 
-## <a name="create-a-field-for-your-title"></a>Criar um campo do título
+## <a name="create-a-field-for-your-title"></a>Criar um campo para o título
 
-A primeira etapa na criação de um título com base em expressão é criar um campo em seu modelo a ser usado para o título. 
+Para criar um título com base em expressão, primeiro, crie um campo no modelo, a ser usado para o título. 
 
-Há inúmeras maneiras criativas para ter o título do seu visual refletir o que você deseja que ele faça, ou o que você deseja express. Vamos dar uma olhada em alguns exemplos.
+Há várias maneiras criativas de fazer com que o título do visual reflita o que você quer dizer ou expressar. Vamos ver alguns exemplos.
 
-Você pode criar uma expressão que alterações de acordo com o contexto de filtro que recebe de visual para o nome da marca do produto. A imagem a seguir mostra a fórmula DAX para esse campo.
+É possível criar uma expressão que muda com base no contexto de filtro do nome da marca do produto recebido pelo visual. A imagem a seguir mostra a fórmula DAX de um campo desse tipo.
 
-![Fórmula de captura de tela de DAX](media/desktop-conditional-formatting-visual-titles/expression-based-title-02.png)
+![Captura de tela da fórmula DAX](media/desktop-conditional-formatting-visual-titles/expression-based-title-02.png)
 
-Outro exemplo é usando um título dinâmico que as alterações com base no idioma ou cultura do usuário. Você pode criar títulos específicos do idioma em uma medida DAX usando o `USERCULTURE()` função. Essa função retorna o código de cultura para o usuário, com base em suas configurações do navegador ou sistema operacional. Você pode usar a seguinte instrução de comutador DAX para selecionar o valor convertido correto. 
+Outro exemplo é usar um título dinâmico que muda com base no idioma ou na cultura do usuário. É possível criar títulos específicos a um idioma em uma medida DAX por meio da função `USERCULTURE()`. Essa função retorna o código da cultura do usuário, com base no sistema operacional ou nas configurações do navegador dele. É possível usar a seguinte instrução switch de DAX para selecionar o valor traduzido correto. 
 
 ```
 SWITCH (
@@ -46,33 +46,35 @@ SWITCH (
 )
 ```
 
-Ou você pode recuperar a cadeia de caracteres de uma tabela de pesquisa que contém todas as traduções. Você pode colocar essa tabela em seu modelo. 
+Outra opção é recuperar a cadeia de caracteres de uma tabela de pesquisa que contém todas as traduções. Coloque essa tabela em seu modelo. 
 
-Esses são apenas alguns exemplos que você pode usar para criar títulos dinâmicos com base em expressão, os visuais no Power BI Desktop. O que você pode fazer com seus títulos são limitados apenas pelo sua imaginação e seu modelo.
+Esses são apenas alguns exemplos de criação de títulos dinâmicos, com base em expressão, para visuais no Power BI Desktop. Você é livre para usar sua imaginação e criar seus títulos e modelos.
 
 
-## <a name="select-your-field-for-your-title"></a>Selecione o campo do título
+## <a name="select-your-field-for-your-title"></a>Selecionar um campo para o título
 
-Depois de criar a expressão DAX para o campo que você cria no seu modelo, você precisa aplicá-la ao título do seu visual.
+Após criar a expressão DAX para o campo criado no modelo, será necessário aplicá-lo ao título do visual.
 
-Para selecionar o campo e aplicá-lo, vá para o **visualizações** painel. No **formato** área, selecione **título** para mostrar as opções de título para o visual. 
+Para selecionar o campo e aplicá-lo, acesse o painel **Visualizações**. Na área **Formato**, selecione **Título** para ver as opções de título do visual. 
 
-Quando você clique com botão direito **texto do título**, é exibido um menu de contexto que permite que você selecione ***fx* formatação condicional**. Quando você seleciona esse item de menu, um **texto do título** caixa de diálogo é exibida. 
+Clique com o botão direito do mouse em **Texto do título** para ver um menu de contexto que permite selecionar ***fx*Conditional formatting**. Quando você seleciona este item de menu, uma caixa de diálogo **Texto do título** é exibida. 
 
-![Caixa de diálogo de texto de captura de tela do título](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
+![Captura de tela da caixa de diálogo Texto do título](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 
-A partir dessa janela, você pode selecionar o campo que você criou para usar para o título.
+Nessa janela, é possível selecionar o campo que você criou para usar no título.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
-Há algumas limitações na implementação atual de baseadas em expressão títulos de visuais:
+Há algumas limitações à implementação atual de títulos com base em expressão para visuais:
 
-* Atualmente não tem suporte a formatação com base em expressão no visual os influenciadores principais, os visuais do R ou Python visuais.
-* O campo que você criar para o título deve ser um tipo de dados de cadeia de caracteres. Atualmente, não há suporte para medidas que retornem números ou data/hora (ou qualquer outro tipo de dados).
+* No momento, a formatação com base em expressão não é compatível com visuais em Python, R ou Key Influencers.
+* O campo criado para o título precisa ser um tipo de dados String. Medidas que retornam números ou data/hora (ou qualquer outro tipo de dados) não são compatíveis no momento.
+* Os títulos com base em expressão não são transferidos quando você fixa um visual em um dashboard.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Este artigo descreveu como criar expressões DAX que transformam os títulos dos visuais em campos dinâmicos que podem ser alterados conforme os usuários interagem com seus relatórios. Você pode encontrar os artigos a seguir úteis também.
+Este artigo descreveu como criar expressões DAX que transformam títulos de visuais em campos dinâmicos que mudam quando o usuário interage com relatórios. Talvez você ache os artigos a seguir úteis também.
 
-* [Usar o detalhamento do relatório no Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Formatação condicional em tabelas](desktop-conditional-table-formatting.md)
+* [Usar o detalhamento no Power BI Desktop](desktop-cross-report-drill-through.md)
 * [Usar o detalhamento no Power BI Desktop](desktop-drillthrough.md)

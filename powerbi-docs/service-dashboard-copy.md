@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136402"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523179"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Criar uma cópia de um dashboard no serviço do Power BI
 ![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
- Há vários motivos diferentes para fazer uma cópia de um dashboard. Talvez você queira fazer alterações e testar seu desempenho em relação ao original ou criar versões ligeiramente diferentes para distribuir para cada colega, região ou equipe. Talvez um colega goste muito do design do seu dashboard e deseja usá-lo para criar relatórios para os gerentes dele. Outro motivo seria se você tiver um novo banco de dados com a mesma estrutura de dados e tipos de dados e desejasse reutilizar o dashboard que você já criou. Isso também pode ser feito mas requer algum trabalho no Power BI Desktop. 
+ Há vários motivos diferentes para fazer uma cópia de um dashboard. Talvez você queira fazer alterações e testar seu desempenho em relação ao original ou criar versões ligeiramente diferentes para distribuir para cada colega, região ou equipe. Talvez um colega goste muito do design do seu dashboard e deseje usá-lo para criar relatórios para os gerentes dele. Outro motivo seria se você tiver um novo banco de dados com a mesma estrutura de dados e tipos de dados e desejasse reutilizar o dashboard que você já criou. Isso também pode ser feito mas requer algum trabalho no Power BI Desktop. 
 
 Dashboards são criados (e copiados) usando o serviço do Power BI e podem ser exibidos no Power BI Mobile e Power BI Embedded.  Dashboards não estão disponíveis no Power BI Desktop. 
 

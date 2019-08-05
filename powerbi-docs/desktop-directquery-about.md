@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 07/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 19ed4e4505ed2d8eb4f3b559c0af46b2b82a0ec0
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342218"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590549"
 ---
 # <a name="using-directquery-in-power-bi"></a>Usando o DirectQuery no Power BI
 Você pode se conectar a todos os tipos de fontes de dados diferentes ao usar o **Power BI Desktop** ou o **serviço do Power BI** e fazer essas conexões de dados de maneiras diferentes. *Importe* dados para o Power BI, que é a maneira mais comum de obter dados, ou conecte-se diretamente aos dados em seu repositório de origem original, que é conhecido como **DirectQuery**. Este artigo descreve o **DirectQuery** e suas funcionalidades:
@@ -72,7 +72,7 @@ Ao usar **Obter Dados** no **Power BI Desktop** para se conectar a uma fonte de 
 * Páginas inteiras de relatório ou visuais podem ser fixadas como blocos de Dashboard. Para garantir que a abertura de um dashboard seja rápida, os blocos são atualizados automaticamente em um agendamento (por exemplo, a cada hora). A frequência dessa atualização pode ser controlada, a fim de refletir a frequência com que os dados são alterados e o grau de importância de ver os dados mais recentes. Assim, ao abrir um dashboard, os blocos refletirão os dados de acordo com o momento da última atualização, e não necessariamente as alterações mais recentes feitas à fonte subjacente. Um dashboard aberto sempre poderá ser atualizado para garantir que os dados mais recentes sejam exibidos.    
 
 ### <a name="live-connections"></a>Conexões dinâmicas
-Ao se conectar ao **SSAS** (SQL Server Analysis Services), há uma opção para importar dados ou conectar-se dinamicamente ao modelo de dados selecionado. Se você selecionar **importação**, isso definirá uma consulta em relação a essa fonte externa do SSAS e os dados serão importados normalmente. Se você optar por **conectar-se dinamicamente**, não haverá nenhuma consulta definida e todo o modelo externo será mostrado na lista de campos. Se você selecionar **DirectQuery**, as consultas serão enviadas para a fonte externa do SSAS enquanto os visuais estiverem sendo criados. No entanto, ao contrário do DirectQuery, isso não faz sentido na criação de um novo *modelo*; em outras palavras, não é possível definir novas colunas calculadas, hierarquias, relações e assim por diante. Em vez disso, você está simplesmente se conectando diretamente ao modelo SSAS externo.
+Ao se conectar ao **SSAS** (SQL Server Analysis Services), há uma opção para importar dados ou conectar-se dinamicamente ao modelo de dados selecionado. Se você selecionar **importação**, isso definirá uma consulta em relação a essa fonte externa do SSAS e os dados serão importados normalmente. Se você optar por **conectar-se dinamicamente**, não haverá nenhuma consulta definida e todo o modelo externo será mostrado na lista de campos.
 
 A situação descrita no parágrafo anterior aplica-se à conexão com as seguintes fontes, exceto que não há nenhuma opção para importar os dados:
 
@@ -116,8 +116,8 @@ Ao usar o **DirectQuery**, a experiência geral dependerá muito do desempenho d
 
 Juntamente com o desempenho da fonte subjacente, é preciso avaliar cuidadosamente a carga que será imposta sobre ela (o que muitas vezes afetará o desempenho). Como discutido mais detalhadamente abaixo, cada usuário que abre um relatório compartilhado e cada bloco de dashboard que é atualizado periodicamente, enviarão, pelo menos, uma consulta por visual à fonte subjacente. Esse fato exige que a fonte seja capaz de lidar com esse carregamento de consulta, mantendo, ao mesmo tempo, um desempenho razoável.
 
-### <a name="limited-to-a-single-source"></a>Limitado a uma única fonte
-Ao importar dados, é possível combinar dados de várias fontes em um único modelo, por exemplo, para unir facilmente alguns dados de um banco de dados do SQL Server corporativo com alguns dados locais mantidos em um arquivo do Excel. Isso não é possível ao usar o DirectQuery. Ao selecionar o DirectQuery para uma fonte, somente será possível usar dados dessa única fonte (como um único banco de dados do SQL Server).
+### <a name="security-implications-when-combining-data-sources"></a>Implicações de segurança ao combinar fontes de dados
+É possível usar várias fontes de dados em um modelo do DirectQuery, assim como ao importar dados, usando o recurso [Modelos compostos](desktop-composite-models.md). Ao fazer isso, é importante entender como os dados são movidos entre as fontes de dados subjacentes e as [implicações de segurança](desktop-composite-models.md#security-implications) que isso gera.
 
 ### <a name="limited-data-transformations"></a>Transformações de dados limitadas
 Da mesma forma, há limitações nas transformações de dados que podem ser aplicadas no **Editor de Consultas**. Com os dados importados, é possível aplicar facilmente um conjunto sofisticado de transformações para limpar e remodelar os dados antes de usá-los para criar visuais (como a análise de documentos JSON ou girar os dados de uma coluna para um formato orientado por linha). Essas transformações são mais limitadas no DirectQuery. Primeiro, ao se conectar a uma fonte OLAP, como o SAP Business Warehouse, nenhuma transformação poderá ser definida e todo o "modelo" externo será obtido da fonte. Para fontes relacionais como o SQL Server, ainda é possível definir um conjunto de transformações por consulta, mas essas transformações são limitadas por questões de desempenho. Quaisquer dessas transformações precisarão ser aplicadas a cada consulta à fonte subjacente, ao invés de uma vez a cada atualização dos dados, portanto são limitadas àquelas transformações que possam ser convertidas razoavelmente em uma única consulta nativa. Se você usa uma transformação que é muito complexa, você receberá um erro que terá que ser excluído ou o modelo terá que ser mudado para o modo de Importação.
@@ -139,7 +139,6 @@ Ao usar o **DirectQuery**, muitos desses aprimoramentos de modelo ainda poderão
 * **Nenhuma hierarquia de datas interna:** ao importar dados, por padrão, cada coluna de date/datetime também terá uma hierarquia de data interna disponível por padrão. Por exemplo, ao importar uma tabela de pedidos de vendas, que inclui uma coluna OrderDate e utilizar essa coluna em um visual, será possível escolher o nível apropriado (ano, mês, dia) a ser usado. Essa hierarquia interna de data não está disponível ao usar o modo DirectQuery. No entanto, observe que, se a tabela Date estiver disponível na fonte subjacente (como é comum em muitos data warehouses), as funções de Inteligência de Dados Temporais do DAX poderão ser usadas normalmente.
 * **Limitações em colunas calculadas:** as colunas calculadas são limitadas a serem intra-linha e, sendo assim, só podem fazer referência a valores de outras colunas da mesma tabela, sem o uso de quaisquer funções de agregação. Além disso, as funções escalares do DAX (como LEFT()) que são permitidas serão limitadas àquelas que simplesmente podem ser enviadas por push à fonte subjacente e, portanto, variarão de acordo com os recursos exatos da fonte. As funções para as quais não há suporte não serão listadas no preenchimento automático durante a criação do DAX para uma coluna calculada e resultarão em um erro se forem usadas.
 * **Não há suporte para as funções DAX pai-filho:** no modelo DirectQuery não é possível usar a família de funções DAX PATH(), que geralmente manipulam estruturas Pai-Filho (como plano de contas ou hierarquias de funcionários).
-* **Limitações para medidas:** as funções e expressões DAX que podem ser usadas em medidas são restritas. Novamente, o preenchimento automático restringirá as funções listadas e ocorrerá um erro se uma função ou expressão inválida for usada. O motivo é simplesmente garantir que as medidas limitem-se a medidas simples que tenham pouca probabilidade de, por si mesmas, causar problemas de desempenho.
 * **Não há suporte para tabelas calculadas:** a capacidade de definir uma tabela calculada usando uma expressão DAX não tem suporte no modo DirectQuery.
 * **A filtragem de relação é limitada a uma única direção:** ao usar o DirectQuery, não é possível definir a direção do Filtro Cruzado em uma relação como "Ambos". Por exemplo, com as três tabelas abaixo, não seria possível criar um visual mostrando cada Customer[Gender] e o número de Product[Category] comprados por cada um. O uso dessa filtragem bidirecional é descrito [neste white paper detalhado](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (o white paper apresenta exemplos no contexto do SQL Server Analysis Services, mas os pontos fundamentais se aplicam igualmente ao Power BI).
   
@@ -304,11 +303,11 @@ Depois que um relatório é publicado, o número máximo de consultas simultâne
 ### <a name="diagnosing-performance-issues"></a>Diagnosticar problemas de desempenho
 Esta seção descreve como diagnosticar problemas de desempenho ou obter informações mais detalhadas para permitir que os relatórios sejam otimizados.
 
-É altamente recomendável que qualquer diagnóstico de problemas de desempenho comece no **Power BI Desktop**, em vez de no **serviço do Power BI**. Isso porque é comum que os problemas de desempenho sejam simplesmente baseados no nível de desempenho da fonte subjacente e esses problemas são mais facilmente identificados e diagnosticados no ambiente bem mais isolado do **Power BI Desktop**, eliminando inicialmente alguns componentes (como o gateway do Power BI). Somente se for identificado que os problemas de desempenho não estão presentes com o Power BI Desktop, o foco de investigação deverá ser nas particularidades do relatório no serviço do Power BI.
+É altamente recomendável que qualquer diagnóstico de problemas de desempenho comece no **Power BI Desktop**, em vez de no **serviço do Power BI**. Isso porque é comum que os problemas de desempenho sejam simplesmente baseados no nível de desempenho da fonte subjacente e esses problemas são mais facilmente identificados e diagnosticados no ambiente bem mais isolado do **Power BI Desktop**, eliminando inicialmente alguns componentes (como o gateway do Power BI). Somente se for identificado que os problemas de desempenho não estão presentes com o Power BI Desktop, o foco de investigação deverá ser nas particularidades do relatório no serviço do Power BI. O [Performance Analyzer](desktop-performance-analyzer.md) é uma ferramenta útil para identificar problemas ao longo desse processo.
 
 Da mesma forma, recomenda-se primeiro tentar isolar os problemas a um visual individual, em vez de muitos visuais em uma página.
 
-Portanto, digamos que essas etapas (nos parágrafos anteriores desta seção) foram realizadas – agora temos um único visual em uma página no **Power BI Desktop** que ainda está lento. Para determinar as consultas que são enviadas pelo Power BI Desktop à fonte subjacente é possível exibir informações de diagnóstico/rastreamento que possam ser emitidas por essa fonte. Esses rastreamentos também podem conter informações úteis sobre os detalhes de como a consulta foi executada e como ela pode ser melhorada.
+Digamos que essas etapas (nos parágrafos anteriores desta seção) foram realizadas – agora temos um único visual em uma página no **Power BI Desktop** que ainda está lento. Para determinar as consultas que são enviadas para a fonte subjacente pelo Power BI Desktop, você pode usar o [Performance Analyzer](desktop-performance-analyzer.md). Também é possível exibir informações de rastreamento/diagnóstico que podem ser emitidas pela fonte de dados subjacente. Esses rastreamentos também podem conter informações úteis sobre os detalhes de como a consulta foi executada e como ela pode ser melhorada.
 
 Além disso, mesmo na ausência desses rastreamentos da fonte, é possível exibir as consultas enviadas pelo Power BI, juntamente com seus tempos de execução, conforme descrito a seguir.
 

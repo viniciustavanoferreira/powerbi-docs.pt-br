@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721201"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523430"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introdução aos pacotes de conteúdo organizacional no Power BI
 > [!NOTE]
@@ -54,23 +54,23 @@ O ciclo de vida é parecido com este:
    > 
    > 
 2. João envia um email ao grupo de distribuição, informando-os sobre o novo pacote de conteúdo.
-3. No Power BI Pro, Júlia, membro do grupo de distribuição Marketing, pesquisa e se conecta a esse pacote de conteúdo no AppSource. Agora, ela tem uma cópia somente leitura.  Ela sabe que ele é somente leitura, porque no Painel de Navegação esquerdo há um ícone de compartilhamento à esquerda do nome do painel e o nome do relatório. E quando ela seleciona o painel, um ícone de cadeado informará Julia que ela está observando um painel do pacote de conteúdo. 
-4. Digamos que ela decida personalizá-lo. Ela agora está trabalhando em sua própria cópia do painel e dos relatórios. Seu trabalho não afeta a fonte, o pacote de conteúdo original, nem outros membros do grupo de distribuição. Ela agora está trabalhando em sua própria cópia do painel e do relatório.
-5. João faz atualizações no painel e, quando estiver pronto, publica uma nova versão do pacote de conteúdo.
+3. No Power BI Pro, Júlia, membro do grupo de distribuição Marketing, pesquisa e se conecta a esse pacote de conteúdo no AppSource. Agora, ela tem uma cópia somente leitura. Ela sabe que ele é somente leitura, porque no Painel de Navegação esquerdo há um ícone de compartilhamento à esquerda do nome do dashboard e o nome do relatório. E quando ela seleciona o dashboard, um ícone de cadeado informará Julia que ela está observando um dashboard do pacote de conteúdo. 
+4. Digamos que ela decida personalizá-lo. Ela agora está trabalhando em sua própria cópia do dashboard e dos relatórios. Seu trabalho não afeta a fonte, o pacote de conteúdo original, nem outros membros do grupo de distribuição. Ela agora está trabalhando em sua própria cópia do dashboard e do relatório.
+5. João faz atualizações no dashboard e, quando estiver pronto, publicará uma nova versão do pacote de conteúdo.
    
-   * Julio, outro membro do grupo de distribuição, não personalizou o pacote de conteúdo original. As novas alterações são aplicadas automaticamente a sua versão do pacote de conteúdo.  
-   * Julia personalizou o pacote de conteúdo. Ela recebe uma notificação de que há uma nova versão.  Ela pode acessar o AppSource e obter o pacote de conteúdo atualizado sem perder sua versão personalizada. Agora, ela terá as duas versões: sua versão personalizada e o pacote de conteúdo atualizado.
+   * Julio, outro membro do grupo de distribuição, não personalizou o pacote de conteúdo original. As novas alterações são aplicadas automaticamente à versão do pacote de conteúdo de Júlia.  
+   * Julia personalizou o pacote de conteúdo. Ela recebe uma notificação de que há uma nova versão.  Júlia pode acessar o AppSource e obter o pacote de conteúdo atualizado sem perder sua versão personalizada. Agora ela terá as duas versões: a versão personalizada e o pacote de conteúdo atualizado.
 6. Digamos que altere as configurações de segurança. Julio e Julia não têm mais acesso ao conteúdo. Digamos que eles foram removidos do grupo de distribuição Marketing.
    
    * Julio não personalizou o pacote de conteúdo original, por tanto, o conteúdo será removido automaticamente. 
-   * Julia personalizou o pacote de conteúdo. Na próxima vez que ela abrir o painel todos os blocos do pacote de conteúdo original sumiram, mas os blocos de outros relatórios que ela fixou (se ela ainda tiver permissão para usá-lo) serão exibidos. Os relatórios e o conjunto de dados associados não estarão mais disponíveis (e não aparecerão em seu painel de navegação à esquerda).
+   * Julia personalizou o pacote de conteúdo. Na próxima vez que ela abrir o dashboard, todos os blocos do pacote de conteúdo original terão sumido, mas os blocos de outros relatórios que ela fixou (se ela ainda tiver permissão para usá-los) serão exibidos. Os relatórios e o conjunto de dados associados não estarão mais disponíveis (e não aparecerão no painel de navegação à esquerda).
 7. Ou então, João exclui o pacote de conteúdo.
    
    * Julio não personalizou o pacote de conteúdo original, por tanto, o conteúdo será removido automaticamente. 
-   * Julia personalizou o pacote de conteúdo. Na próxima vez que ela abrir o dashboard, todos os blocos do pacote de conteúdo original terão desaparecido, mas os blocos de outros relatórios que ela fixou ainda serão exibidos. Os relatórios e o conjunto de dados associados não estarão mais disponíveis (e não aparecerão em seu painel de navegação à esquerda).
+   * Julia personalizou o pacote de conteúdo. Na próxima vez que Júlia abrir o dashboard, todos os blocos do pacote de conteúdo original terão desaparecido, mas os blocos de outros relatórios que ela fixou ainda serão exibidos. Os relatórios e o conjunto de dados associados não estarão mais disponíveis (e não aparecerão no painel de navegação à esquerda).
 
 ## <a name="data-security"></a>Segurança de dados
-Todos os membros do grupo de distribuição têm as mesmas permissões para os dados que o criador do pacote de conteúdo. A única exceção são os conjuntos de dados de tabela locais do SSAS (SQL Server Analysis Services). Como os relatórios e dashboards se conectam dinamicamente ao modelo SSAS local, as credenciais de cada membro individual do grupo de distribuição são usadas para determinar os dados que ele poderá acessar.
+Todos os membros do grupo de distribuição têm as mesmas permissões para os dados que o criador do pacote de conteúdo. A única exceção são os conjuntos de dados de tabela locais do SSAS (SQL Server Analysis Services). Como os relatórios e dashboards se conectam dinamicamente ao modelo SSAS local, as credenciais de cada membro individual do grupo de distribuição são usadas para determinar os dados que poderão ser acessados.
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Criar e publicar um pacote de conteúdo organizacional](service-organizational-content-pack-create-and-publish.md)

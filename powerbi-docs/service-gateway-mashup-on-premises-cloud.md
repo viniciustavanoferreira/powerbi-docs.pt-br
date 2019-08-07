@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: e5a4e862c89d08b4e277cb4abae934f3fd47141e
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462195"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757628"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Mesclar ou acrescentar fontes de dados locais e na nuvem
 
@@ -61,4 +61,4 @@ Você pode usar o gateway de dados local para mesclar ou acrescentar fontes de d
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Para saber mais sobre a atualização dados para gateways, confira [Usando a fonte de dados para atualização agendada](service-gateway-enterprise-manage-scheduled-refresh.md#using-the-data-source-for-scheduled-refresh).
+Para saber mais sobre a atualização dados para gateways, confira [Usar a fonte de dados para atualização agendada](service-gateway-enterprise-manage-scheduled-refresh.md#use-the-data-source-for-scheduled-refresh).

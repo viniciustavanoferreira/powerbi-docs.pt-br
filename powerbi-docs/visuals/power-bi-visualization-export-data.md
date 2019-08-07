@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 07/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523348"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730072"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar dados de uma visualização
 
@@ -79,6 +79,8 @@ Para continuar, abra o [Relatório de exemplo de análise de compras](../sample-
     ![Captura de tela de Exportar dados com dados resumidos, xlsx e opções de exportação apresentadas.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
     Se você aplicou filtros à visualização, os dados serão exportados da maneira que foram filtrados. Ao selecionar **Exportar**, o navegador solicitará que você salve o arquivo. Após salvá-lo, abra o arquivo no Excel.
+    
+    Todos os dados usados pela hierarquia são exportados, não apenas os dados usados para o nível de detalhamento atual do visual. Por exemplo, se a visualização ainda não tiver sido detalhada do nível superior, os dados exportados incluirão todos os dados na hierarquia, não apenas os dados usados para criar o visual no nível detalhado atualmente.
 
     **Dados resumidos**: Selecione esta opção se você quiser exportar dados para o que vê nesse visual.  Esse tipo de exportação mostra somente os dados (colunas e medidas) que você escolheu para criar o visual.  Se o visual tiver uma agregação, você exportará dados agregados. Por exemplo, se um gráfico de barras mostrar quatro barras, você obterá quatro linhas de dados. Os dados resumidos estão disponíveis como *.xlsx* e *.csv*.
 
@@ -92,6 +94,8 @@ Para continuar, abra o [Relatório de exemplo de análise de compras](../sample-
     > Dependendo das configurações de relatório, talvez você tenha a opção de exportar dados subjacentes.
 
     Se você aplicou filtros à visualização, os dados serão exportados da maneira que foram filtrados. Ao selecionar **Exportar**, o navegador solicitará que você salve o arquivo. Após salvá-lo, abra o arquivo no Excel.
+    
+    Todos os dados usados pela hierarquia são exportados, não apenas os dados usados para o nível de detalhamento atual do visual. Por exemplo, se a visualização ainda não tiver sido detalhada do nível superior, os dados exportados incluirão todos os dados na hierarquia, não apenas os dados usados para criar o visual no nível detalhado atualmente.
 
     >[!WARNING]
     >A exportação de dados subjacentes permite que os usuários vejam todos os dados detalhados – todas as colunas nos dados. Os administradores do serviço do Power BI podem desativar esse recurso para sua organização. Se for o proprietário de um conjunto de dados, você poderá definir colunas proprietárias como **ocultas** para que elas não apareçam na lista **Campo** no Power BI Desktop ou no seu serviço.

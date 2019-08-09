@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840293"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624138"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Exemplos de expressões no Construtor de Relatórios do Power BI
 As expressões costumam ser usadas em relatórios paginados do Construtor de Relatórios Paginados do Power BI para controlar o conteúdo e a aparência do relatório. As expressões são escritas no Microsoft Visual Basic e podem usar funções internas, código personalizado, variáveis de grupo e relatório e variáveis definidas pelo usuário. As expressões começam com um sinal de igual (=).   
@@ -40,7 +40,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
 ##  <a name="VisualBasicFunctions"></a> Funções do Visual Basic  
  Use funções do Visual Basic para manipular os dados exibidos em caixas de texto ou usados para parâmetros, propriedades ou outras áreas do relatório. Esta seção fornece exemplos que demonstram algumas dessas funções. Para obter mais informações, confira [Membros da biblioteca de tempo de execução do Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) no MSDN.  
   
- O .NET Framework fornece muitas opções de formato personalizado, por exemplo, para formatos de data específicos. Para obter mais informações, confira [Tipos de formatação](https://go.microsoft.com/fwlink/?LinkId=112024) no MSDN.  
+ O .NET Framework fornece muitas opções de formato personalizado, por exemplo, para formatos de data específicos. Para saber mais, confira [Tipos de formatação](/dotnet/standard/base-types/formatting-types).  
   
 ### <a name="math-functions"></a>Funções matemáticas  
   

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: f603a733c6c604a89b0b9608904acdf13b66b713
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61417627"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665329"
 ---
 # <a name="power-bi-performance-best-practices"></a>Práticas recomendadas de desempenho do Power BI
 
@@ -23,11 +23,11 @@ Este artigo oferece orientação para criar relatórios rápidos e confiáveis n
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>Usar filtros para limitar os visuais de relatório para exibir apenas o que é necessário 
 
-Quanto mais dados um visual precisar exibir, mais lentamente esse visual será carregado. Embora esse princípio pareça óbvio, é fácil esquecer. Por exemplo: suponha que você tenha um grande conjunto de dados. Sobre isso, você cria um relatório com uma tabela da tabela. Os usuários finais usam segmentações na página para obter as linhas que desejam – normalmente eles só estão interessados em algumas dezenas de linhas.
+Quanto mais dados um visual precisar exibir, mais lentamente esse visual será carregado. Embora esse princípio pareça óbvio, é fácil esquecer. Por exemplo: suponha que você tenha um grande conjunto de dados. Sobre esse conjunto de dados, você cria um relatório com uma tabela da tabela. Os usuários finais usam segmentações na página para obter as linhas que desejam – normalmente eles só estão interessados em algumas dezenas de linhas.
 
-Um erro comum é ter o modo de exibição padrão da tabela não filtrado – ou seja, todas as mais de 100 milhões de linhas. Os dados para essas linhas devem ser carregados na memória e descompactados em cada atualização. Isso criou enormes cargas de memória. A solução: reduza o número máximo de itens que a tabela exibe usando o filtro "Top N". O item máximo pode ser muito maior do que o necessário pelos usuários, por exemplo, 10.000. Como resultado, a experiência do usuário final não foi alterada, mas a utilização de memória do relatório descartou várias ordens de magnitude e o desempenho foi aprimorado devidamente.
+Um erro comum é deixar o modo de exibição padrão da tabela não filtrado, ou seja, todas as mais de 100 milhões de linhas. Os dados dessas linhas são carregados na memória e descompactados a cada atualização. Esse processamento cria grandes carregamentos de memória. A solução: use o filtro “Os N principais” para reduzir o número máximo de itens que a tabela exibe. É possível definir o item máximo como maior do que o que usuários precisam, por exemplo, 10 mil. O resultado é que a experiência do usuário final não muda, mas o uso da memória cai muito. E o desempenho melhora.
 
-Uma abordagem semelhante a acima é recomendável para todos os visuais em seus relatórios. Pergunte-se: todos os dados neste visual são necessários? Existem maneiras de filtrar a quantidade de dados mostrados no visual com impacto mínimo na experiência do usuário final? Observe que as tabelas em particular podem ser caras.
+Uma abordagem semelhante a acima é recomendável para todos os visuais em seus relatórios. Pergunte-se: todos os dados neste visual são necessários? Existem maneiras de filtrar a quantidade de dados mostrados no visual com impacto mínimo na experiência do usuário final? Tabelas, em particular, podem ser caras.
 
 ## <a name="limit-visuals-on-report-pages"></a>Limitar visuais em páginas do relatório
 
@@ -37,22 +37,22 @@ O princípio acima aplica-se igualmente ao número de elementos visuais em um re
 
 Algumas práticas recomendadas:
 
-- Tabelas ou colunas que não são usadas devem ser removidas se possível. 
+- Remova tabelas ou colunas não usadas, sempre que possível. 
 - Evite contagens distintas em campos com alta cardinalidade, ou seja, milhões de valores distintos.  
-- Tome medidas para evitar campos com precisão desnecessária e alta cardinalidade. Por exemplo, você pode dividir valores datetime altamente exclusivos em colunas separadas, por exemplo, mês, ano, data etc. Ou, quando possível, use o arredondamento em campos de alta precisão para diminuir a cardinalidade (por exemplo, 13,29889 -> 13.3).
+- Tome medidas para evitar campos com precisão desnecessária e alta cardinalidade. Por exemplo, você pode dividir valores datetime altamente exclusivos em colunas separadas, por exemplo, mês, ano, data e assim por diante. Ou, quando possível, use o arredondamento em campos de alta precisão para diminuir a cardinalidade (por exemplo, 13,29889 -> 13,3).
 - Use números inteiros em vez de cadeias de caracteres, sempre que possível.
 - Fique atento a funções DAX que precisam testar cada linha em uma tabela, por exemplo, RANKX. No pior dos casos, essas funções podem aumentar exponencialmente o tempo de execução e os requisitos de memória devido ao aumento linear no tamanho da tabela.
-- Ao se conectar a fontes de dados por meio do DirectQuery, considere indexar novamente as colunas que normalmente são filtradas ou segmentadas; isso melhorará muito capacidade de resposta do relatório.  
+- Ao se conectar a fontes de dados por meio do DirectQuery, considere indexar novamente as colunas que normalmente são filtradas ou segmentadas. A indexação melhora muito a capacidade de resposta do relatório.  
 
-Para obter instruções sobre como otimizar fontes de dados para o DirectQuery, veja [DirectQuery no SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/).
+Para saber mais sobre como otimizar fontes de dados para o DirectQuery, confira [DirectQuery no SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/).
 
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>Conexão dinâmica e do DirectQuery: compreender o desempenho da fonte de dados subjacente
 
-No caso de conexão dinâmica ou do DirectQuery, quando os usuários visitam um relatório do Power BI, o Power BI envia consultas tempo real para a fonte de dados subjacente. Depois que a fonte de dados retorna com os dados da consulta, o relatório é renderizado. Como resultado, o desempenho do relatório nesses casos depende muito do desempenho da fonte de dados subjacente.
+No caso de conexão dinâmica ou do DirectQuery, quando os usuários visitam um relatório do Power BI, o Power BI envia consultas tempo real para a fonte de dados subjacente. Depois que a fonte de dados for retornada com os dados da consulta, o relatório será renderizado. Como resultado, o desempenho do relatório depende muito do desempenho da fonte de dados subjacente.
 
-Nesses casos, é importante entender o desempenho de sua fonte de dados subjacente. Fontes de dados diferentes terão ferramentas diferentes para entender o desempenho da consulta. Por exemplo, SQL Server e SQL Azure fornecem o Repositório de Consultas, que captura um histórico das consultas e suas estatísticas de tempo de execução.
+Nesses casos, é importante entender o desempenho de sua fonte de dados subjacente. Fontes de dados diferentes têm ferramentas diferentes para entender o desempenho da consulta. Por exemplo, SQL Server e SQL Azure fornecem o Repositório de Consultas, que captura um histórico das consultas e suas estatísticas de tempo de execução.
 
-Como regra geral, ao implantar relatórios do Power BI baseados em conexão dinâmica e do DirectQuery, experimente o que os usuários finais farão no Power BI Desktop. Se o relatório apresentar lentidão para ser carregado no Power BI Desktop, certamente ele terá lentidão para ser carregado no serviço para os usuários finais. 
+Ao implantar relatórios do Power BI baseados em conexão dinâmica e do DirectQuery, experimente o que os usuários finais farão no Power BI Desktop. Se o relatório apresentar lentidão para ser carregado no Power BI Desktop, ele provavelmente terá lentidão para ser carregado no serviço para os usuários finais. 
 
 ## <a name="directquery-best-practices"></a>Práticas recomendadas do DirectQuery
 
@@ -60,37 +60,37 @@ A seção a seguir descreve as práticas recomendadas gerais para se conectar po
   
 ### <a name="db-design-guidance"></a>Diretrizes de design de BD
 
-- Envie por push colunas calculadas e medidas para a fonte quando possível – quanto mais próximas estiverem da fonte, maior será a probabilidade de desempenho.
-- Otimize! Entenda os planos de execução de suas consultas, adicione índices a colunas filtradas comumente etc.
+- Envie por push colunas calculadas e medidas para a origem sempre que possível. Quanto mais próximo à origem, maior a probabilidade de desempenho.
+- Otimize! Entenda os planos de execução de suas consultas, adicione índices a colunas filtradas comumente e assim por diante.
 
 ### <a name="modeling-guidance"></a>Diretrizes de modelagem
 
 - Inicie o Power BI Desktop.
 - Evite consultas complexas no Editor de Consultas.
-- Não use a filtragem de dados relativos no Editor de Consultas.  
+- Não use a filtragem de data relativa no Editor de Consultas.  
 - Mantenha medidas simples inicialmente e adicione complexidade de forma incremental.
 - Evite relacionamentos em colunas calculadas e colunas de identificador exclusivo.
-- Tente configurar "Pressupor integridade referencial" nos relacionamentos – em muitos casos, isso pode melhorar significativamente o desempenho da consulta.  
+- Tente configurar "Pressupor integridade referencial" nos relacionamentos – em muitos casos, essa configuração melhora significativamente o desempenho da consulta.  
 
 ### <a name="general"></a>Geral
 
 - Aplique filtros primeiro.
-- Considere a possibilidade de desativar a interação entre os visuais – isso reduz a carga da consulta quando os usuários fazem destaque cruzado.
+- Considere a possibilidade de desativar a interação entre os visuais, que reduz a carga da consulta quando os usuários fazem destaque cruzado.
 - Limite o número de elementos visuais e os dados por visuais, conforme descrito acima.
-- Habilitar a segurança no nível de linha pode resultar em alterações significativas no desempenho. Teste as diferentes funções de segurança no nível de linha que os usuários assumirão.
-- Há tempos limite no nível de consulta imposto pelo serviço para garantir que as consultas de longa execução não consigam monopolizar os recursos do sistema. Consultas que demoram mais de 225 segundos atingirão o tempo limite e resultarão em um erro no nível do visual.
+- Habilitar a segurança no nível de linha pode resultar em grandes alterações no desempenho. Teste as diferentes funções de segurança no nível de linha que os usuários assumirão.
+- Há tempos limite de nível de consulta impostos pelo serviço para verificar se consultas de longa execução não podem monopolizar os recursos do sistema. Consultas que levam mais de 225 segundos atingem o tempo limite e resultam em um erro de nível do visual.
 
 ## <a name="understand-dashboards-and-query-caches"></a>Noções básicas sobre dashboards e caches de consulta
 
-Visuais fixados nos painéis são atendidos pelo cache de consulta quando o painel é carregado. Por outro lado, quando visitar um relatório, as consultas são feitas dinamicamente para a fonte de dados – o serviço do Power BI (no caso de importação) ou a fonte de dados que você especificar (no caso de conexão dinâmica e do DirectQuery).  
+Os visuais fixados nos dashboards são servidos pelo cache de consulta quando o dashboard é carregado. Por outro lado, quando visitar um relatório, as consultas são feitas dinamicamente para a fonte de dados – o serviço do Power BI (no caso de importação) ou a fonte de dados que você especificar (no caso de conexão dinâmica e do DirectQuery).  
 
 > [!NOTE]
-> Quando você fixa blocos de relatório dinâmico a um painel, eles não são atendidos do cache de consulta – em vez disso, eles se comportam como relatórios e fazem consultas em núcleos de back-end dinamicamente.
+> Quando você fixa blocos de relatório dinâmico em um dashboard, eles não são servidos do cache de consulta – em vez disso, eles se comportam como relatórios e fazem consultas a núcleos de back-end em tempo real.
 
-Como o nome sugere, recuperar os dados do cache de consulta fornece um desempenho melhor e mais consistente do que contar com a fonte de dados. Uma maneira de aproveitar essa funcionalidade é ter painéis como a primeira página de aterrissagem para seus usuários. Fixe os visuais usados com frequência e altamente solicitados aos painéis. Dessa forma, os dashboards tornam-se uma valiosa "primeira linha de defesa" que oferece desempenho consistente com menos carga na capacidade. Os usuários ainda podem clicar no relatório para examinar os detalhes.  
+Como o nome sugere, recuperar os dados do cache de consulta fornece um desempenho melhor e mais consistente do que contar com a fonte de dados. Uma maneira de aproveitar essa funcionalidade é ter painéis como a primeira página de aterrissagem para seus usuários. Fixe os visuais usados com frequência e altamente solicitados aos dashboards. Dessa forma, os dashboards tornam-se uma valiosa "primeira linha de defesa" que oferece desempenho consistente com menos carga na capacidade. Os usuários ainda podem clicar no relatório para examinar os detalhes.  
  
 
-Para a conexão dinâmica e do DirectQuery, esse cache de consulta é atualizado periodicamente ao consultar a fonte de dados. Por padrão, isso ocorre a cada hora; porém, isso pode ser definido nas configurações do conjunto de dados. Cada atualização de cache de consulta enviará consultas à fonte de dados subjacente para atualizar o cache. O número de consultas geradas depende do número de elementos visuais fixados nos painéis que dependem dessa fonte de dados. Observe que se a segurança em nível de linha estiver habilitada, as consultas serão geradas para cada contexto de segurança diferente. Por exemplo, se você tiver duas funções diferentes nas quais os usuários se encaixam, com duas exibições diferentes dos dados, durante a atualização do cache de consulta, dois conjuntos de consultas serão gerados. 
+Para a conexão dinâmica e do DirectQuery, o cache de consulta é atualizado periodicamente ao consultar a fonte de dados. Por padrão, isso ocorre a cada hora; porém, isso pode ser definido nas configurações do conjunto de dados. Cada atualização de cache de consulta enviará consultas à fonte de dados subjacente para atualizar o cache. O número de consultas geradas depende do número de visuais fixados nos dashboards que dependem dessa fonte de dados. Observe que se a segurança em nível de linha estiver habilitada, as consultas serão geradas para cada contexto de segurança diferente. Por exemplo, se você tiver duas funções diferentes que categorizam seus usuários e eles tiverem duas exibições diferentes dos dados, durante a atualização do cache de consulta, o Power BI gerará dois conjuntos de consultas. 
 
 ## <a name="understand-custom-visual-performance"></a>Entender o desempenho do visual personalizado 
 
@@ -111,7 +111,7 @@ Veja as instruções a seguir:
 
 2. **Determinar a porta que está sendo usada pelo Power BI Desktop**
 
-   Execute o prompt de comando ou o PowerShell com privilégios de administrador e use netstat para localizar a porta que o Power BI Desktop está usando para análise:
+   Execute o prompt de comando ou o PowerShell com privilégios de administrador. Além disso, use netstat para localizar a porta que o Power BI Desktop está usando para análise:
 
    `> netstat -b -n`
 
@@ -132,7 +132,7 @@ Veja as instruções a seguir:
    - Agora, o SQL Profiler está dinâmico e criando ativamente os perfis das consultas que o Power BI Desktop está enviando. 
    - À medida que as consultas são executadas, você pode ver suas respectivas durações e tempos de CPU. Com essas informações, determine quais consultas são os gargalos.  
 
-Com o SQL Profiler, é possível identificar as consultas que estão consumindo mais tempo de CPU que, por sua vez, são provavelmente os gargalos de desempenho. Os visuais, que executam essas consultas, devem ser um ponto focal de otimização contínua.
+Por meio do SQL Profiler, você pode identificar as consultas que ocupam o maior tempo de CPU. São essas consultas que provavelmente causam gargalos de desempenho. Os visuais que executam essas consultas devem ser um ponto focal de otimização contínua.
 
 ## <a name="gateway-best-practices"></a>Práticas recomendada de gateway
 
@@ -140,15 +140,15 @@ O Gateway de dados local é uma excelente ferramenta para conectar o serviço do
 
 - **Use o modo empresarial**, ao contrário do modo pessoal.
 - **Especificações de hardware recomendado para o gateway** – CPU de oito núcleos, 16 GB de RAM.
-- **Configure o monitoramento** – definir o monitoramento de desempenho no computador do gateway entende se o gateway está ficando sobrecarregado e se tornando um gargalo. Para obter mais informações, veja [Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md).
-- **Escale vertical ou horizontalmente** – se o gateway está realmente se tornando um gargalo, considere escalar verticalmente (isto é, mover o gateway para um computador mais potente com mais CPU e RAM) ou escalar horizontalmente (por exemplo, dividir conjuntos de dados em diferentes gateways). 
-- **Importação separada vs. DirectQuery** – se escalar horizontalmente, considere separar os gateways responsáveis pela importação versus aqueles responsáveis pelo DirectQuery.
+- **Configure o monitoramento** – configure o monitoramento de desempenho no computador do gateway para entender se o gateway está ficando sobrecarregado e se tornando um gargalo. Para obter mais informações, veja [Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md).
+- **Escale vertical ou horizontalmente** – se o gateway estiver realmente se tornando um gargalo, considere escalar verticalmente (isto é, mover o gateway para um computador mais potente com mais CPU e RAM) ou escalar horizontalmente (por exemplo, dividir conjuntos de dados em diferentes gateways). 
+- **Importação separada vs. DirectQuery** – se escalar horizontalmente, considere separar os gateways responsáveis pela importação versus os gateways responsáveis pelo DirectQuery.
 
 ## <a name="network-latency"></a>Latência da rede
 
-A latência de rede pode afetar o desempenho do relatório, aumentando o tempo necessário para que as solicitações acessem o serviço do Power BI e para que as respostas sejam entregues. Locatários no Power BI são atribuídos a uma região específica. É possível exibir a região de "residência" do locatário navegando até powerbi.com, selecionando?** na parte superior e, em seguida, **Sobre o Power BI**. Quando os usuários de um locatário acessam o serviço do Power BI, suas solicitações sempre são roteadas para essa região. Depois que as solicitações acessam o serviço do Power BI, o serviço pode enviar solicitações adicionais, por exemplo, para a fonte de dados subjacente ou o gateway, que também estão sujeitos à latência de rede.
+A latência de rede pode afetar o desempenho do relatório, aumentando o tempo necessário para que as solicitações acessem o serviço do Power BI e para que as respostas sejam entregues. Locatários no Power BI são atribuídos a uma região específica. Você pode exibir a região de "residência" do locatário, navegando até powerbi.com, selecionando **?** na parte superior direita e, depois, **Sobre o Power BI**. Quando os usuários de um locatário acessam o serviço do Power BI, suas solicitações sempre são roteadas para essa região. Depois que as solicitações acessam o serviço do Power BI, o serviço pode enviar solicitações adicionais, por exemplo, para a fonte de dados subjacente ou o gateway, que também estão sujeitos à latência de rede.
 
-Ferramentas como o [Teste de Velocidade do Azure](http://azurespeedtest.azurewebsites.net/) podem fornecer uma indicação da latência de rede entre o cliente e a região do Azure. Em geral, para minimizar o impacto da latência de rede, empenhe-se para manter fontes de dados, gateways e o cluster do Power BI o mais próximo possível. Se a latência de rede é um problema, tente localizar os gateways e as fontes de dados mais próximos do seu cluster do Power BI, colocando-os em máquinas virtuais.
+Ferramentas como o [Teste de Velocidade do Azure](http://azurespeedtest.azurewebsites.net/) fornecem uma indicação da latência de rede entre o cliente e a região do Azure. Em geral, para minimizar o impacto da latência de rede, empenhe-se para manter fontes de dados, gateways e o cluster do Power BI o mais próximo possível. Se a latência de rede for um problema, tente localizar os gateways e as fontes de dados mais próximos do seu cluster do Power BI, colocando-os em máquinas virtuais.
 
 Para melhorar ainda mais a latência de rede, considere usar o [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), que é capaz de criar conexões de rede mais rápidas e mais confiáveis entre os clientes e os data centers do Azure.
 

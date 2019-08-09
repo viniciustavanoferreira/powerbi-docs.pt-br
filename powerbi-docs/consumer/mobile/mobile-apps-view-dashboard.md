@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137676"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665514"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Exibir painéis e relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Telefone Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Dispositivos Windows 10](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Telefone Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhones](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPads](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Telefones Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Tablets Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Dispositivos Windows 10](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhones](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPads](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Telefones Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Tablets Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 Painéis são um portal para o ciclo de vida e processos de sua empresa. Um painel é uma visão geral, um único lugar para monitorar o estado atual do negócio.
 
@@ -57,7 +57,7 @@ Este é um dashboard do Power BI no serviço do Power BI:
    > 
    > 
    
-    Se preferir, basta virar seu telefone para os lados para exibir o dashboard no modo paisagem no seu telefone.
+    Ou, se preferir, basta virar seu telefone para os lados para exibir o dashboard no modo paisagem no seu telefone.
    
     ![Exibição de paisagem do dashboard](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 3. Passe o dedo para cima e para baixo para ver todos os blocos no painel. Você pode:
@@ -145,45 +145,6 @@ Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do s
     ![Navegação estrutural](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do seu painel e o movimento panorâmico para navegar por ele. Além disso, também é possível [tocar em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo foco e interagir com os dados.
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>Exibir painéis em seu dispositivo Windows 10
-1. Abra o aplicativo Power BI em seu dispositivo Windows 10 e entre.
-   
-   Precisa [baixar o aplicativo](http://go.microsoft.com/fwlink/?LinkID=526478) primeiro?
-2. Toque em um painel para abri-lo.   
-   
-   ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * Estrelas pretas mostram quais dashboards são seus favoritos. 
-   * A notação embaixo de cada nome de dashboard (neste exemplo, **MBI**) mostra como os dados em cada dashboard são classificados. Leia mais sobre [classificação de dados no Power BI](../../service-data-classification.md).
-   
-   Os painéis do Power BI parecem um pouco diferentes em seu telefone Windows 10. Todos os blocos aparecem com a mesma largura e são dispostos um após o outro, de cima para baixo.
-   
-   ![Exibição de retrato do dashboard](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    Você também pode virar seu telefone para os lados para exibir os dashboards no modo paisagem no telefone.
-   
-   > [!TIP]
-   > Se você for o proprietário do dashboard, no serviço do Power BI, poderá [criar uma exibição do dashboard, especificamente para telefones](../../service-create-dashboard-mobile-phone-view.md) no modo retrato. 
-   > 
-   > 
-3. No painel, é possível:
-   
-   * [Toque em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo e interagir com ele.
-   * Toque no ícone **Tela Inteira** ![ícone Tela inteira](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png) para apresentar o dashboard do Power BI sem bordas nem menus, como a exibição **Apresentação de Slides** no PowerPoint.
-   * Toque no ícone **Convidar** ![ícone Convidar](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png) para [compartilhar seu dashboard](mobile-share-dashboard-from-the-mobile-apps.md) com um colega.
-   * Toque na estrela ![estrela de Favorito](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) para [tornar o dashboard um favorito](mobile-apps-favorites.md).
-   * Toque no ícone **Fixar na Tela Inicial** para [fixar o dashboard na Tela Inicial do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). 
-4. Para voltar para a página inicial dos dashboards, toque no nome do dashboard para abrir a trilha de navegação estrutural e, em seguida, toque em **Meu Workspace**:
-   
-    ![Navegação estrutural](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>Exiba painéis no modo paisagem no seu telefone Windows 10
-Você também pode exibir painéis no modo paisagem, apenas girando seu telefone. O layout do painel muda de uma série de blocos para uma exibição de todo o painel. Você vê todos os blocos do painel dispostos da mesma forma que no serviço do Power BI.
-
-![Exibição de paisagem do dashboard](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do seu painel e o movimento panorâmico para navegar por ele. Além disso, também é possível [tocar em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo foco e interagir com os dados.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Criar uma exibição de telefone de um dashboard no serviço do Power BI
 Se você for o proprietário do dashboard, *no serviço do Power BI*, poderá criar uma exibição do dashboard, especificamente para telefones no modo retrato. 

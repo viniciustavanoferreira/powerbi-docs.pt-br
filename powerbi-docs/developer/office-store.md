@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269550"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623795"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 
@@ -22,7 +22,7 @@ Saiba como você pode publicar seu visual personalizado no AppSource para que ou
 
 Depois de criar seu visual personalizado, talvez você queira publicá-lo no AppSource para que outros possam descobrir e usá-lo. Mas, há alguns preparativos que precisam ser feitos antes disso. Para saber mais sobre como criar um visual personalizado, confira Developing a [Power BI Custom Visual](custom-visual-develop-tutorial.md) (Desenvolvimento de um visual personalizado do Power BI).
 
-   ![Office Store](media/office-store/AppSource_01.jpg)
+   ![Office Store](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>O que é o AppSource?
 
@@ -30,7 +30,7 @@ O **AppSource** é o lugar de encontrar aplicativos SaaS e suplementos para seus
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparando-se para enviar seu visual personalizado
 
-Quando você terminar ler nosso [diretrizes de visuais do Power BI](guidelines-powerbi-visuals.md), codificação e [Testando seu visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e empacotado em um arquivo pbiviz, você também deve ter o seguinte pronto para envio.
+Após terminar de ler nossas [diretrizes de visuais do Power BI](guidelines-powerbi-visuals.md), codificar e [testar seu visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e empacotá-lo em um arquivo pbiviz, você deverá ter também o seguinte pronto para envio.
 
 | Item | Necessário | Descrição |
 | --- | --- | --- |

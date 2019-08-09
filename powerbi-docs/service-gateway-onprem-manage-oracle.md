@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271464"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730248"
 ---
 # <a name="manage-your-data-source---oracle"></a>Gerenciar sua fonte de dados – Oracle
 
@@ -73,7 +73,7 @@ Depois de selecionar o tipo de fonte de dados Oracle, você preencherá as infor
 Também é necessário escolher um **Método de Autenticação**.  Ele pode ser **Windows** ou **Básico**.  Use **Básico** se for usar uma conta criada com a autenticação do Oracle em vez da autenticação do Windows. Em seguida, insira as credenciais que serão usadas para esta fonte de dados.
 
 > [!NOTE]
-> Todas as consultas à fonte de dados serão executadas com essas credenciais. Para saber mais sobre como as credenciais são armazenadas, consulte [Armazenando credenciais criptografadas na nuvem](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Todas as consultas à fonte de dados serão executadas com essas credenciais. Para saber mais sobre como as credenciais são armazenadas, confira [Armazenar credenciais criptografadas na nuvem](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Preencher as configurações de fonte de dados](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751121"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729807"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log de alterações para o Servidor de Relatório do Power BI
 
@@ -45,6 +45,10 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
             - Adicionado link mais fácil para navegação de volta para a janela de seleção PBIRS
             - Correção para o modo de Alto Contraste no PBIRS para exibir o botão Voltar, exibir mensagens visuais de aviso.
             - Correções de interface do usuário ao painel de seleção, tela de dimensionamento.
+
+    - *Versão: 2.69.5467.5201 (maio de 2019), lançada em: 30 de julho de 2019*
+        - Correções de bug
+            - Correção de registro em log de telemetria incorreto
 
 ## <a name="january-2019"></a>Janeiro de 2019
 
@@ -93,8 +97,11 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
         - O atalho e os ícones fixados permanecem após a desinstalação do Servidor de Relatórios do Power BI
         - Correção para a fixação do Servidor de Relatórios do Power BI no menu Iniciar, que apresenta texto ou ícone em preto
 
-    - *Versão: 2.65.5313.1421 (janeiro de 2019), lançamento: 22 de janeiro de 2019*
-        - Contém as alterações necessárias para conexão com o Servidor de Relatórios do Power BI (janeiro de 2019)  
+    - *Versão: 2.65.5313.1421 (janeiro de 2019), lançamento: 22 de janeiro de 2019* (novo build e nova versão)
+        - Contém as alterações necessárias para conexão com o Servidor de Relatórios do Power BI (janeiro de 2019) 
+    - *Versão: 2.65.5313.5141 (janeiro de 2019), lançada em: 31 de janeiro de 2019* (novo build e nova versão)
+        - Correções de bug
+            - Correção de registro em log de telemetria incorreto
 
 ## <a name="august-2018"></a>Agosto de 2018
 

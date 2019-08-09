@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b61d794701d18fd25ab9acb5d5208ae289376eb6
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: a09388e8b22131c9b82771385b69142b18e3cc84
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271776"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730019"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Gerenciar sua fonte de dados – SAP HANA
 
@@ -32,7 +32,7 @@ Para obter informações sobre como adicionar uma fonte de dados, consulte [Adic
 Depois de selecionar o tipo de fonte de dados SAP HANA, você preencherá as informações de **Servidor**, **Nome de usuário** e **Senha** da fonte de dados.
 
 > [!NOTE]
-> Todas as consultas à fonte de dados serão executadas com essas credenciais. Para saber mais sobre como as credenciais são armazenadas, consulte [Armazenando credenciais criptografadas na nuvem](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Todas as consultas à fonte de dados serão executadas com essas credenciais. Para saber mais sobre como as credenciais são armazenadas, confira [Armazenar credenciais criptografadas na nuvem](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Preencher as configurações de fonte de dados](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
@@ -65,7 +65,7 @@ Após a publicação, por meio do Power BI Desktop ou do recurso **Obter Dados**
 
 ### <a name="using-the-data-source-with-scheduled-refresh"></a>Usando a fonte de dados com a atualização agendada
 
-Se você estiver listado na guia **Usuários** da fonte de dados configurada no gateway e houver a correspondência entre os nomes do servidor e do banco de dados, você verá o gateway como uma opção a ser usada com a atualização agendada.
+Se estiver listado na guia **Usuários** da fonte de dados configurada no gateway e houver a correspondência entre os nomes do servidor e do banco de dados, você verá o gateway como uma opção a ser usada com a atualização agendada.
 
 ![Exibir os usuários](media/service-gateway-enterprise-manage-sap/powerbi-gateway-enterprise-schedule-refresh.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770800"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808226"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
 Os relatórios do Power BI podem se conectar a diversas fontes de dados. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis. Os dados podem ser importados ou consultados diretamente usando o DirectQuery ou uma conexão dinâmica ao SQL Server Analysis Services.
@@ -202,7 +202,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 | Banco de dados SQL do Azure |Não |Não |Sim |Não |Não |
 | SQL Data Warehouse do Azure |Não |Não |Sim |Não |Não |
 | Banco de dados Oracle |Não |Não |Sim |Sim |Sim |
-| Servidor do SAP Business Warehouse |Não |Não |Sim |Não |Sim |
+| Servidor do SAP Business Warehouse |Não |Não |Sim |Não |Não |
 | Banco de dados do SAP HANA |Não |Não |Sim |Sim |Não |
 | Banco de dados Teradata |Não |Não |Sim |Sim |Sim |
 

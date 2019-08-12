@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0525d448d5337c2c1613d8bc8f6d332a05b13e3
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409325"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867201"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelas em relatórios e dashboards do Power BI
 
@@ -35,9 +35,6 @@ As tabelas são uma ótima opção:
 * Para exibir dados em um formato tabular.
 
 * Para exibir dados numéricos por categorias.
-
-> [!NOTE]
-> Se uma tabela tiver muitos valores, considere a possibilidade de convertê-la em uma matriz e/ou fazer drill down. O máximo de pontos de dados que uma tabela exibirá é de 3.500.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

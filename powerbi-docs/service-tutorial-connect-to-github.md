@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Conectar-se a um repositório do GitHub com o Power BI'
+title: 'Tutorial: Conectar-se a um repositório GitHub com o Power BI'
 description: Neste tutorial, você se conecta a dados reais no serviço do GitHub com o Power BI, e Power BI cria dashboards e relatórios automaticamente.
 author: maggiesMSFT
 manager: kfile
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 04/19/2019
+ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3aeb1fc16ae200399125a2366a8993d45aad34c4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7540083b49e0790bfd9062d28d2655ff024d577f
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578621"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867187"
 ---
-# <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: Conectar-se a um repositório do GitHub com o Power BI
-Neste tutorial, você se conecta a dados reais no serviço do GitHub com o Power BI, e Power BI cria dashboards e relatórios automaticamente. Conectar-se para o repositório público do conteúdo do Power BI (também conhecido como um *repositório*) e ver respostas a perguntas como: Quantas pessoas contribuem com o conteúdo público do Power BI? Quem contribui mais? Qual dia da semana tem mais contribuições? E outras perguntas. 
+# <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: Conectar-se a um repositório GitHub com o Power BI
+Neste tutorial, você se conecta a dados reais no serviço do GitHub com o Power BI, e Power BI cria dashboards e relatórios automaticamente. Conecte-se ao repositório público de conteúdo do Power BI (também conhecido como *repo*) e veja as respostas para perguntas como: Quantas pessoas contribuem com o conteúdo público do Power BI? Quem contribui mais? Qual dia da semana tem mais contribuições? Dentre outras perguntas. 
 
 ![O relatório do GitHub no Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -40,7 +40,7 @@ Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gr
 
 Para concluir este tutorial, você precisará de uma conta do GitHub, caso ainda não tenha uma. 
 
-- Inscreva-se um [conta do GitHub](https://docs.microsoft.com/contribute/get-started-setup-github).
+- Inscrever-se para uma [conta do GitHub](https://docs.microsoft.com/contribute/get-started-setup-github).
 
 
 ## <a name="how-to-connect"></a>Como se conectar
@@ -49,15 +49,15 @@ Para concluir este tutorial, você precisará de uma conta do GitHub, caso ainda
    
    ![Obter aplicativos do Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. Selecione **aplicativos**, digite **GitHub** na caixa de pesquisa > **obter agora**.
+3. Selecione **Aplicativos**, digite **GitHub** na caixa de pesquisa > **Obtenha agora**.
    
    ![Get GitHub do Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
-4. Na **instalar este aplicativo do Power BI?** selecionar **instalar**.
-5. Na **seu novo aplicativo está pronto**, selecione **ir para o aplicativo**.
-6. Na **começar com seu novo aplicativo**, selecione **Conecte dados**.
+4. Em **Instalar este aplicativo do Power BI?** selecione **Instalar**.
+5. Em **Seu novo aplicativo está pronto**, selecione **Ir para o aplicativo**.
+6. Em **Introdução a seu novo aplicativo**, selecione **Conectar**.
 
-    ![Introdução ao novo aplicativo](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+    ![Introdução ao novo aplicativo](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
 7. Digite o nome do repositório e também o seu proprietário. A URL desse repositório é https://github.com/MicrosoftDocs/powerbi-docs, portanto o **Proprietário do Repositório** é **MicrosoftDocs** e o **Repositório** é **powerbi-docs**. 
    
@@ -65,18 +65,18 @@ Para concluir este tutorial, você precisará de uma conta do GitHub, caso ainda
 
 5. Insira as credenciais do GitHub que você criou. O Power BI poderá ignorar esta etapa se você já tiver entrado no GitHub em seu navegador. 
 
-6. Para **método de autenticação**, mantenha **oAuth2** selecionado \> **entrar**.
+6. Para o **Método de Autenticação**, mantenha **oAuth2** selecionado \> **Entrar**.
 
 7. Siga as telas de autenticação do GitHub. Conceda permissão para o Power BI aos dados do GitHub.
    
    Agora o Power BI pode se conectar ao GitHub e aos dados.  Os dados são atualizados uma vez por dia.
 
-8. Depois que o Power BI importar os dados, você pode ver o conteúdo de seu novo espaço de trabalho do GitHub. 
-9. Selecione a seta ao lado do nome do espaço de trabalho na barra de navegação à esquerda. Você ver que o espaço de trabalho contém um painel e um relatório. 
+8. Depois que o Power BI importa os dados, você vê os conteúdos de seu novo workspace do GitHub. 
+9. Selecione a seta ao lado do nome do workspace na barra de navegação à esquerda. Você vê que o workspace contém um dashboard e um relatório. 
 
     ![Aplicativo no painel de navegação à esquerda](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. Selecione as reticências (...) ao lado do nome do dashboard > **renomeie** > digite **dashboard do GitHub**.
+10. Selecione as reticências (…) ao lado do nome do dashboard > **Renomear** > digite **dashboard do GitHub**.
  
     ![Bloco do GitHub do Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
@@ -84,9 +84,9 @@ Para concluir este tutorial, você precisará de uma conta do GitHub, caso ainda
 
     ![Ícone de navegação global](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
-10. Selecione seu dashboard do GitHub.
+10. Selecione o seu dashboard do GitHub.
     
-    O painel do GitHub contém dados reais, para que os valores que você vê podem ser diferentes.
+    O dashboard do GitHub contém dados dinâmicos, portanto, os valores exibidos podem ser diferentes.
 
     ![Dashboard do GitHub no Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
 
@@ -94,28 +94,28 @@ Para concluir este tutorial, você precisará de uma conta do GitHub, caso ainda
 
 ## <a name="ask-a-question"></a>Fazer uma pergunta
 
-1. Coloque o cursor **faça uma pergunta sobre seus dados**. Power BI oferece **perguntas para introdução ao**. 
+1. Coloque o cursor em **Faça uma pergunta sobre os dados**. O Power BI oferece **Perguntas para você começar**. 
 
-1. Selecione **quantos usuários estão lá**.
+1. Selecione **Quantos usuários existem?** .
  
-    ![Quantos usuários estão lá](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
+    ![Quantos usuários existem?](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. Entre os dois **quantos** e **usuários existem**, digite **solicitações por pull**. 
+13. Entre **Quantos** e **usuários existem**, digite **solicitações de pull por**. 
 
-     Power BI cria um gráfico de barras mostrando o número de solicitações de pull por pessoa.
+     O Power BI cria um gráfico de barras mostrando o número de solicitações de pull por pessoa.
 
-    ![Há quantas solicitações pull por usuário](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
+    ![Quantas solicitações de pull por usuário existem?](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
-13. Selecionar para fixá-lo ao seu painel, em seguida, o pin **Exit p e r**.
+13. Selecione fixar para fixá-la ao seu dashboard e, em seguida, **Saia das P e R**.
 
 ## <a name="view-the-github-report"></a>Exibir o relatório do GitHub 
 
-1. No painel do GitHub, selecione o gráfico de colunas **solicitações de Pull por mês** para abrir o relatório relacionado.
+1. No dashboard do GitHub, selecione o gráfico de colunas com as **Solicitações de Pull por Mês** para abrir o relatório relacionado.
 
-    ![Solicitações de pull pelo gráfico de coluna do mês](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
+    ![Gráfico de colunas com as solicitações de pull por mês](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. Selecione um nome de usuário na **solicitações de pull Total por usuário** gráfico. Neste exemplo, podemos ver que a maioria de suas horas foi em fevereiro.
+2. Selecione um nome de usuário no gráfico **Total de solicitações de pull por usuário**. Neste exemplo, vemos que a maior parte de suas horas foram em fevereiro.
 
     ![Realce do relatório do GitHub do Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
@@ -123,7 +123,7 @@ Para concluir este tutorial, você precisará de uma conta do GitHub, caso ainda
  
     ![Cartão de Pontos do relatório do GitHub do Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    Aparentemente, terça-feira às 15h é o momento mais comum e o dia da semana para *confirma*, quando as pessoas fazer check-in de seu trabalho.
+    Aparentemente, terça-feira às 15h é o dia da semana e a hora mais comuns para *confirmações (commits)* , quando as pessoas fazem check-in de seus trabalhos.
 
 ## <a name="clean-up-resources"></a>Limpar recursos
 

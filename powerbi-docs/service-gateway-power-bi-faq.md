@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730256"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867063"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Perguntas frequentes do gateway de dados local – Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730256"
 
 ## <a name="power-bi"></a>Power BI
 
-**Pergunta:** Preciso atualizar o gateway pessoal? 
+**Pergunta:** Preciso atualizar o gateway de dados local (modo pessoal)?
 
-**Resposta:** Não, você pode continuar usando o gateway pessoal do Power BI.
+**Resposta:** Não, você pode continuar usando o gateway (modo pessoal) do Power BI.
 
 **Pergunta:** Há alguma permissão especial necessária para instalar o gateway e gerenciá-lo no serviço do Power BI?
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730256"
 
 **Pergunta:** Por que não consigo me conectar ao servidor do Oracle? 
 
-**Resposta:** Talvez seja necessário instalar o cliente Oracle e configurar o arquivo tnsnames.ora com as informações de servidor apropriadas para se conectar ao servidor do Oracle. Essa é uma instalação separada fora do gateway. Para obter mais informações, consulte [Instalando o cliente Oracle](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
+**Resposta:** Talvez seja necessário instalar o cliente Oracle e configurar o arquivo tnsnames.ora com as informações de servidor apropriadas para se conectar ao servidor do Oracle. Essa é uma instalação separada fora do gateway. Para obter mais informações, consulte [Instalando o cliente Oracle](service-gateway-onprem-manage-oracle.md#install-the-oracle-client).
 
 **Pergunta:** O gateway funcionará com o Azure ExpressRoute? 
 

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2019
+ms.date: 08/15/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 1ae51620a51c0dc76cd50bd85fc09aa2bfc8e026
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271999"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561035"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper de segurança do Power BI
 
@@ -46,7 +46,7 @@ Cada implantação do Power BI consiste de dois clusters – um cluster da Web d
 
 ![O WFE e o back-end](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-O Power BI usa o **AAD** (Azure Active Directory) para autenticação e gerenciamento de conta. O Power BI também usa o ATM (**Gerenciador de Tráfego do Azure**) para direcionar o tráfego de usuário para o datacenter mais próximo, determinado pelo registro DNS do cliente buscando conectar-se, para o processo de autenticação e para baixar conteúdo estático e arquivos. O Power BI usa WFE geograficamente mais próximo para distribuir com eficiência o conteúdo estático necessários e os arquivos aos usuários, com exceção dos elementos visuais personalizados que são enviados usando o **rede de entrega de conteúdo (CDN) do Azure**.
+O Power BI usa o **AAD** (Azure Active Directory) para autenticação e gerenciamento de conta. O Power BI também usa o ATM (**Gerenciador de Tráfego do Azure**) para direcionar o tráfego de usuário para o datacenter mais próximo, determinado pelo registro DNS do cliente buscando conectar-se, para o processo de autenticação e para baixar conteúdo estático e arquivos. Power BI usa o WFE geograficamente mais próximo para distribuir com eficiência o conteúdo estático necessário e os arquivos para os usuários, com exceção dos visuais personalizados que são entregues usando a **CDN (rede de distribuição de conteúdo) do Azure**.
 
 ### <a name="the-wfe-cluster"></a>O Cluster WFE
 
@@ -100,17 +100,16 @@ Um locatário do Power BI é criado no datacenter considerado mais próximo das 
 
 ### <a name="multiple-geographies-multi-geo"></a>Múltiplas Áreas Geográficas (Multi-Geo)
 
-Algumas organizações exigem uma presença do Power BI em várias áreas geográficas, ou regiões, com base nas necessidades de negócios. Por exemplo, uma empresa pode ter seu locatário do Power BI nos Estados Unidos, mas pode também fazer negócios em outras áreas geográficas, como Austrália, e precisar que os serviços e os dados do Power BI permaneçam nessa região remota.  A partir do segundo semestre de 2018, organizações com seu locatário em uma geografia também podem acessar recursos do Power BI em outra geografia quando provisionados corretamente. Esse recurso é conhecido como **múltiplas áreas geográficas** para conveniência e referência ao longo deste documento.
+Algumas organizações exigem uma presença do Power BI em várias áreas geográficas, ou regiões, com base nas necessidades de negócios. Por exemplo, uma empresa pode ter seu locatário Power BI no Estados Unidos, mas também pode fazer negócios em outras áreas geográficas, como a Austrália, e precisa de certos dados de Power BI para permanecer em repouso nessa região remota para atender às normas locais. Começando na segunda metade de 2018, as organizações com seu locatário inicial em uma geografia também podem provisionar e acessar Power BI recursos localizados em outra geografia. Esse recurso é conhecido como **múltiplas áreas geográficas** para conveniência e referência ao longo deste documento.
 
-É preciso ter em mente algumas implicações técnicas ao operar em regiões diferentes, que são esclarecidas ao longo deste documento. Considerações importantes incluem as seguintes:
+O artigo mais atual e primário para informações de várias regiões geográficas é o [suporte para configurar várias regiões geográficas para Power bi Premium](service-admin-premium-multi-geo.md) artigo. 
 
-- Uma consulta em cache armazenada em uma região remota permanecerá naquela região em repouso, no entanto, outros dados em trânsito poderão ir e vir entre várias regiões geográficas.
-- Relatórios em arquivos PBIX ou XLSX em uma região remota publicados no Power BI às vezes resultam em armazenar uma cópia ou cópia de sombra no armazenamento de Blobs do Azure do Power BI. Quando isso acontece, os dados são criptografados usando SSE (Criptografia do Serviço de Armazenamento) do Azure.
-- Ao mover dados de uma região para outra em um ambiente de várias áreas geográficas, a coleta de lixo na região da qual os dados foram movidos ocorre dentro de 7 a 10 dias, ponto em que a cópia dos dados movidos de região original é destruída.
+Há vários detalhes técnicos que devem ser avaliados no contexto de leis e regulamentos locais ao operar em geografias diferentes. Esses detalhes incluem o seguinte:
 
-A imagem a seguir ilustra como os serviços do Power BI fornecidos na região remota com um ambiente de múltiplas áreas geográficas são roteados por meio do cluster de **Back-End do Power BI**, em que é estabelecida uma conexão com a máquina virtual de assinatura do Power BI remota do cliente.
-
-![Múltiplas áreas geográficas](media/whitepaper-powerbi-security/powerbi-security-whitepaper_07.png)
+- Uma camada de execução de consulta remota é hospedada na região de capacidade remota, para garantir que o modelo de dados, os caches e a maioria dos processamentos de dados permaneçam na região de capacidade remota. Há algumas exceções, conforme detalhado no artigo [de várias regiões geográficas para Power bi Premium](service-admin-premium-multi-geo.md) .
+- Um texto de consulta armazenado em cache e o resultado correspondente armazenado em uma região remota permanecerão nessa região em repouso, no entanto, outros dados em trânsito podem passar entre várias regiões geográficas.
+- Os arquivos PBIX ou XLSX publicados (carregados) em uma capacidade de várias regiões geográficas do serviço do Power BI podem resultar em uma cópia temporariamente armazenada no armazenamento de BLOBs do Azure na região de locatário do Power BI. Em tais circunstâncias, os dados são criptografados usando o Azure Criptografia do Serviço de Armazenamento (SSE) e a cópia é agendada para coleta de lixo assim que o processamento de conteúdo do arquivo e a transferência para a região remota são concluídos. 
+- Ao mover dados entre regiões em um ambiente de várias regiões geográficas, a instância dos dados na região de origem será excluída dentro de 7-30 dias. 
 
 ### <a name="datacenters-and-locales"></a>Data centers e localidades
 
@@ -231,7 +230,7 @@ Para fontes de dados baseadas em nuvem, a Função de Movimentação de Dados cr
 
     b. ETL – criptografado no armazenamento de Blobs do Azure, mas todos os dados atualmente no armazenamento de Blobs do Azure do serviço do Power BI usam [SSE (Criptografia do Serviço de Armazenamento) do Azure](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), também conhecido como criptografia do lado do servidor. Múltiplas áreas geográficas usam também SSE.
 
-    c. Dados de push v1 – armazenados criptografado no armazenamento de Blobs do Azure, mas todos os dados atualmente no armazenamento de Blobs do Azure do serviço do Power BI usam [SSE (Criptografia do Serviço de Armazenamento) do Azure](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), também conhecido como criptografia do lado do servidor. Múltiplas áreas geográficas usam também SSE. Envio por push dados v1 foi descontinuado a partir de 2016. 
+    c. Dados de push v1 – armazenados criptografado no armazenamento de Blobs do Azure, mas todos os dados atualmente no armazenamento de Blobs do Azure do serviço do Power BI usam [SSE (Criptografia do Serviço de Armazenamento) do Azure](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), também conhecido como criptografia do lado do servidor. Múltiplas áreas geográficas usam também SSE. O push data V1 foi descontinuado a partir de 2016. 
 
     d. Dados de push v2 – armazenado criptografados no Azure SQL.
 
@@ -249,23 +248,23 @@ O Power BI fornece monitoramento de integridade de dados das seguintes maneiras:
 
    a. Os relatórios podem estar em Excel para relatórios do Office 365 ou relatórios do Power BI. O seguinte se aplica a metadados com base no tipo de relatório:
         
-    &ensp; &ensp; a. Metadados de relatório do Excel é armazenado criptografada em SQL Azure. Metadados também são armazenados no Office 365.
+    &ensp;&ensp; a. Os metadados de relatório do Excel são armazenados criptografados em SQL Azure. Os metadados também são armazenados no Office 365.
 
-    &ensp; &ensp; b. Relatórios do Power BI são armazenados criptografadas no banco de dados SQL do Azure.
+    &ensp;&ensp; b. Power BI relatórios são armazenados criptografados no banco de dados SQL do Azure.
 
 2. Dados estáticos
 
    Dados estáticos incluem artefatos, como imagens de segundo plano e elementos visuais personalizados.
 
-    &ensp; &ensp; a. Para relatórios criados com o Excel para o Office 365, nada é armazenado.
+    &ensp;&ensp; a. Para relatórios criados com o Excel para o Office 365, nada é armazenado.
 
-    &ensp; &ensp; b. Relatórios do Power BI, os dados estáticos são armazenados e criptografados no armazenamento de Blobs do Azure.
+    &ensp;&ensp; b. Relatórios do Power BI, os dados estáticos são armazenados e criptografados no armazenamento de Blobs do Azure.
 
 3. Caches
 
-    &ensp; &ensp; a. Para relatórios criados com o Excel para o Office 365, nada é armazenado em cache.
+    &ensp;&ensp; a. Para relatórios criados com o Excel para o Office 365, nada é armazenado em cache.
 
-    &ensp; &ensp; b. Para relatórios do Power BI, dados para os elementos visuais mostrados são armazenados em cache criptografadas no Banco de Dados SQL do Azure.
+    &ensp;&ensp; b. Para relatórios do Power BI, dados para os elementos visuais mostrados são armazenados em cache criptografadas no Banco de Dados SQL do Azure.
  
 
 4. Arquivos originais do Power BI Desktop (.pbix) ou do Excel (.xlsx) publicados no Power BI
@@ -282,7 +281,7 @@ Independentemente do método de criptografia usado, a Microsoft gerencia a cript
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Dados armazenados temporariamente em dispositivos não voláteis
 
-Não volátil dispositivos são dispositivos que têm a memória que persiste sem energia constante. O exemplo a seguir descreve os dados armazenados temporariamente em dispositivos não voláteis. 
+Dispositivos não voláteis são dispositivos que têm memória que persiste sem energia constante. O exemplo a seguir descreve os dados armazenados temporariamente em dispositivos não voláteis. 
 
 #### <a name="datasets"></a>Conjuntos de dados
 
@@ -355,8 +354,8 @@ A tabela a seguir lista o suporte a CBA (autenticação baseada em certificado) 
 
 | **Suporte a CBA** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (entrar no serviço) | com suporte | com suporte | Não compatível |
-| **SSRS ADFS** (conectar-se ao servidor do SSRS) | Não compatível | Compatível | Não compatível |
+| **Power BI** (entrar no serviço) | com suporte | com suporte | Sem suporte |
+| **SSRS ADFS** (conectar-se ao servidor do SSRS) | Sem suporte | Suportado | Sem suporte |
 
 Aplicativos do Power BI Mobile ativamente comunicam-se com o serviço do Power BI. Telemetria é usada para coletar estatísticas de uso do aplicativo móvel e dados semelhantes, que são transmitidos para serviços usados para monitorar o uso e a atividade. Nenhum dado pessoal é enviado com os dados de telemetria.
 
@@ -382,7 +381,7 @@ As perguntas a seguir são perguntas e respostas de segurança comuns para o Pow
 
 * **Credenciais do Power BI e credenciais de domínio:** Os usuários entram no Power BI usando um endereço de email; quando um usuário tenta se conectar a um recurso de dados, o Power BI passa o endereço de email de logon do Power BI como credenciais. Para recursos conectados ao domínio (locais ou baseados em nuvem), o email de logon é combinado com um _nome UPN_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) pelo serviço de diretório para determinar se há credenciais suficientes para permitir o acesso. Para organizações que usam endereços de email com base no trabalho para entrar no Power BI (o mesmo email que usam para fazer logon em recursos de trabalho, como _david@contoso.com_ ), o mapeamento pode ocorrer diretamente; para organizações que não usam endereços de email baseados no trabalho (como _david@contoso.onmicrosoft.com_ ), o mapeamento de diretório deve ser estabelecido para permitir o acesso a recursos locais com credenciais de logon do Power BI.
 
-* **SQL Server Analysis Services e Power BI:** Para organizações que usam o SQL Server Analysis Services local, p Power BI oferece o gateway de dados local do Power BI (que é um **Gateway**, conforme mencionado nas seções anteriores).  O gateway de dados local do Power BI pode impor RLS (Segurança em Nível de Função) em fontes de dados. Para obter mais informações sobre RLS, veja **Autenticação do usuário para fontes de dados** anteriormente neste documento. Para obter mais informações sobre gateways, consulte [gateway de dados locais](service-gateway-onprem.md).
+* **SQL Server Analysis Services e Power BI:** Para organizações que usam o SQL Server Analysis Services local, p Power BI oferece o gateway de dados local do Power BI (que é um **Gateway**, conforme mencionado nas seções anteriores).  O gateway de dados local do Power BI pode impor RLS (Segurança em Nível de Função) em fontes de dados. Para obter mais informações sobre RLS, veja **Autenticação do usuário para fontes de dados** anteriormente neste documento. Para obter mais informações sobre gateways, consulte [Gateway de dados local](service-gateway-onprem.md).
 
   Além disso, as organizações podem usar Kerberos para SSO (**logon único**) e conectar-se diretamente do Power BI a fontes de dados locais, como SQL Server, SAP HANA e Teradata. Para obter mais informações e os requisitos de configuração específicos, veja [**Usar Kerberos para SSO do Power BI para fontes de dados locais**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
 
@@ -426,11 +425,11 @@ As perguntas a seguir são perguntas e respostas de segurança comuns para o Pow
 
 **Ao trabalhar com o gateway de dados local, como as chaves de recuperação são usadas e em que local são armazenadas? E quanto ao gerenciamento de credenciais seguras?**
 
-* Durante a configuração e a instalação do gateway, o administrador de digita **Chave de Recuperação** de um gateway. Que **chave de recuperação** é usado para gerar um forte **AES** chave simétrica. Uma **RSA** chave assimétrica também é criada ao mesmo tempo.
+* Durante a configuração e a instalação do gateway, o administrador de digita **Chave de Recuperação** de um gateway. Essa **chave de recuperação** é usada para gerar uma chave simétrica **AES** forte. Uma chave assimétrica **RSA** também é criada ao mesmo tempo.
 
     Essas chaves geradas (**RSA** e **AES**) são armazenadas em um arquivo localizado no computador local. Esse arquivo também é criptografado. O conteúdo do arquivo só pode ser descriptografado por aquele computador Windows em particular e somente por aquela conta de serviço de gateway específica.
 
-    Quando um usuário insere credenciais da fonte de dados na interface do usuário do serviço do Power BI, as credenciais são criptografadas com a chave pública no navegador. O gateway descriptografa as credenciais usando a chave privada do RSA e criptografa novamente com uma chave simétrica de AES antes que os dados são armazenados no serviço do Power BI. Com esse processo, o serviço do Power BI nunca tem acesso aos dados não criptografados.
+    Quando um usuário insere credenciais da fonte de dados na interface do usuário do serviço do Power BI, as credenciais são criptografadas com a chave pública no navegador. O gateway descriptografa as credenciais usando a chave privada RSA e as criptografa novamente com uma chave simétrica AES antes que os dados sejam armazenados no serviço do Power BI. Com esse processo, o serviço do Power BI nunca tem acesso aos dados não criptografados.
 
 **Quais protocolos de comunicação são usados pelo gateway de dados local e como eles são protegidos?**
 
@@ -438,7 +437,7 @@ As perguntas a seguir são perguntas e respostas de segurança comuns para o Pow
 
   - **AMQP 1.0 – TCP + TLS**: Esse protocolo exige que as portas 443, 5671 5672 e 9350 a 9354 estejam abertas para comunicação de saída. Esse protocolo é preferível, já que tem menor sobrecarga de comunicação.
 
-  - **HTTPS – WebSockets por HTTPS + TLS**: Esse protocolo usa a porta 443 apenas. O WebSocket é iniciado por uma única mensagem HTTP CONNECT. Quando o canal é estabelecido, a comunicação é essencialmente TCP+TLS. Você pode forçar o gateway para usar esse protocolo, modificando uma configuração descrita na [artigo de gateway local](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus).
+  - **HTTPS – WebSockets por HTTPS + TLS**: Esse protocolo usa a porta 443 apenas. O WebSocket é iniciado por uma única mensagem HTTP CONNECT. Quando o canal é estabelecido, a comunicação é essencialmente TCP+TLS. Você pode forçar o gateway a usar esse protocolo modificando uma configuração descrita no [artigo gateway local](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus).
 
 **Qual é a função da CDN do Azure no Power BI?**
 
@@ -454,11 +453,11 @@ As perguntas a seguir são perguntas e respostas de segurança comuns para o Pow
 
 * Sim. Bing Mapas e visuais ESRI transmitem dados fora do serviço do Power BI para visuais que usam esses serviços. Para obter mais informações e descrições detalhadas de tráfego do locatário de fora do Power BI, veja [**Power BI e ExpressRoute**](service-admin-power-bi-expressroute.md).
 
-**Para aplicativos de modelo, o Microsoft executa qualquer segurança ou avaliação de privacidade do aplicativo antes de publicar itens na Galeria do modelo?**
-* Nº O Editor do aplicativo é responsável pelo conteúdo durante a responsabilidade do cliente para revisar e determinar se deve confiar no Editor de aplicativo do modelo. 
+**Para aplicativos de modelo, a Microsoft realiza qualquer avaliação de segurança ou privacidade do aplicativo de modelo antes de publicar itens na Galeria?**
+* Nº O editor do aplicativo é responsável pelo conteúdo, enquanto a responsabilidade do cliente de revisar e determinar se deve confiar no editor do aplicativo de modelo. 
 
-**Há aplicativos de modelo que podem enviar informações de fora da rede de cliente?**
-* Sim. É responsabilidade do cliente para examinar a política de privacidade do Editor e determinar se deseja instalar o modelo de aplicativo no locatário. Além disso, o publicador é responsável por notificar de comportamento e as capacidades do aplicativo.
+**Há aplicativos de modelo que podem enviar informações fora da rede do cliente?**
+* Sim. É responsabilidade do cliente revisar a política de privacidade do editor e determinar se deseja instalar o aplicativo de modelo no locatário. Além disso, o Publicador é responsável por notificar sobre o comportamento e os recursos do aplicativo.
 
 **E quanto à soberania de dados? Podemos provisionar locatários em data centers localizados em regiões geográficas específicas para garantir que dados não saiam das fronteiras do país?**
 

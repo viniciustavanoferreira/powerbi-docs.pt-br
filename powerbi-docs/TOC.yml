@@ -489,9 +489,9 @@
               href: reduce-the-size-of-an-excel-workbook.md
         - name: Obter dados de conjuntos de dados compartilhados
           items:
-            - name: Usar conjuntos de dados em workspaces
+            - name: Usar conjuntos de dados em espaços de trabalho
               href: service-datasets-across-workspaces.md
-            - name: Criar e compartilhar conjuntos de dados (versão prévia)
+            - name: Compartilhar conjuntos de dados (versão prévia)
               href: service-datasets-build-permissions.md
             - name: Criar relatórios com base em conjuntos de dados
               href: service-datasets-discover-across-workspaces.md
@@ -1432,3 +1432,5 @@
   items:
     - name: O que é um esquema em estrela?
       href: guidance/star-schema.md
+    - name: Reduzir o tamanho do modelo de dados
+      href: guidance/import-modeling-data-reduction.md

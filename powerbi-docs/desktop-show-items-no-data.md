@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61370421"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560844"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Mostrar itens sem dados no Power BI
 
@@ -25,7 +25,7 @@ O Power BI permite visualizar todos os tipos de dados de várias fontes. Na cria
 
 ## <a name="determining-relevant-data"></a>Determinar dados relevantes
 
-Para começar a compreender como o Power BI determina quais dados são relevantes para serem exibidos, vamos considerar uma tabela como um exemplo simples. Usando o modelo representado na seção de exemplos, localizada no final deste artigo, considere criar uma tabela com as seguintes configurações:
+Para começar a compreender como o Power BI determina quais dados são relevantes para serem exibidos, vamos considerar uma tabela como um exemplo simples. Usando o modelo representado na seção de [modelo de dados de exemplo](#example-data-model), localizada no final deste artigo, considere criar uma tabela com as seguintes configurações:
 
 **1. Grupos da mesma tabela:** *Product[Color] – Product[Size]*
 
@@ -152,6 +152,25 @@ Como são exibidas com o recurso **Show items with no data** (Mostrar itens sem 
 |Vermelho     |Brilho         |         |
 
 Nesse caso, observe como *ProductStyle[Finish]=None* não aparece na tabela. Isso ocorre porque, neste caso, o Power BI selecionou primeiro todos os valores de *Color* na tabela *Product*. Em seguida, para cada cor, o Power BI selecionou valores de *Finish* correspondentes que continham dados. Uma vez que *None* não é exibido em nenhuma combinação de *Color*, ele não é selecionado.
+
+
+## <a name="power-bi-visual-behavior"></a>Comportamento de visual do Power BI
+
+Quando **Mostrar itens sem dados** está habilitado em um campo em um visual, o recurso é habilitado automaticamente para todos os outros campos que estão no mesmo *bucket de visual* ou hierarquia. Um bucket de visual ou hierarquia pode ser o respectivo **Eixo**, **Legenda**, **Categoria**, **Linhas** ou **Colunas**.
+
+![Campos para eixo e legenda](media/desktop-show-items-no-data/show-items-no-data-04.png)
+
+Por exemplo, em um visual de matriz com quatro campos no bucket de **Linhas**, se um campo tiver a opção **Mostrar itens sem dados** habilitada, todos os itens na matriz terão essa mesma opção habilitada. Na imagem a seguir, a opção **Mostrar itens sem dados** está habilitada no primeiro campo no bucket de **Linhas**, o campo *SupplierID*. Os outros campos no bucket de **Linhas** também a têm habilitada automaticamente.
+
+![Os campos no mesmo visual habilitam automaticamente a opção Mostrar itens sem dados](media/desktop-show-items-no-data/show-items-no-data-05.png)
+
+Por outro lado, o campo *Continente* mostrado no bucket de **Colunas** *não* tem a opção **Mostrar itens sem dados** habilitada automaticamente. 
+
+Esse comportamento visual geralmente é visto quando um Visual é convertido em um tipo diferente, por exemplo, convertendo um visual de matriz em um visual de tabela. Em tais conversões, a opção **Mostrar itens sem dados** é habilitada automaticamente para qualquer campo movido para um bucket em que um campo nesse bucket tem o recurso habilitado. No exemplo anterior, se *SupplierID* tiver o recurso **Mostrar itens sem dados** habilitado e o visual for convertido em uma tabela, o campo *Continente* do bucket de **Colunas** será movido (juntamente com os campos no bucket de **Linhas**) para o único bucket usado em um visual de tabela – o bucket de **Valores**. Assim, todos os campos no bucket de **Valores** terão **Mostrar itens sem dados** habilitada.
+
+### <a name="exporting-data"></a>Como exportar dados
+
+Ao usar o recurso **Exportar dados resumidos**, o comportamento do recurso **Mostrar itens sem dados** seria o mesmo que se a exportação fosse convertida em um visual de Tabela. Dessa forma, ao exportar um visual como um visual de matriz de gráfico, os dados exportados podem parecer diferentes do visual exibido. Isso ocorre porque a conversão em um visual de tabela, como parte do processo de exportação, habilitaria **Mostrar itens sem dados** para todos os campos que estão sendo exportados. 
 
 ## <a name="example-data-model"></a>Exemplo de modelo de dados
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590594"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995280"
 ---
 # <a name="key-influencers-visualization"></a>Visualização de influenciadores principais
 O visual de influenciadores principais ajuda a entender os fatores que influenciam uma métrica na qual está interessado. Ele analisa os dados, classifica os fatores importantes e os exibe como influenciadores principais. Por exemplo, suponha que você queira descobrir o que influencia a variedade de pessoal, também conhecida como rotatividade. Um dos fatores pode ser a duração do contrato de trabalho e outro fator pode ser a idade do funcionário. 
@@ -24,9 +24,6 @@ O visual de influenciadores principais ajuda a entender os fatores que influenci
 O visual de influenciadores principais será uma ótima opção se você quiser: 
 - Veja quais fatores afetam a métrica que está sendo analisada.
 - Compare a importância relativa desses fatores. Por exemplo, os contratos de curto prazo têm mais impacto na rotatividade comparado aos contratos de longo prazo? 
-
-## <a name="key-influencer-requirements"></a>Requisitos dos influenciadores principais 
-A métrica que você analisa deve ser o campo categórico ou numérico (as agregações e as medidas ainda não têm suporte).
 
 ## <a name="features-of-the-key-influencers-visual"></a>Recursos do visual de influenciadores principais
 
@@ -44,15 +41,13 @@ A métrica que você analisa deve ser o campo categórico ou numérico (as agreg
 
 6. **Painel direito**: o painel direito contém um visual. Nesse caso, o gráfico de colunas exibe todos os valores para o **Tema** do influenciador principal, selecionado no painel esquerdo. O valor específico da **usabilidade** no painel esquerdo é mostrado em verde. Todos os outros valores para o **Tema** são mostrados em preto.
 
-7. **Linha média**: a média é calculada para todos os outros valores possíveis do **Tema**, exceto **usabilidade**. Portanto, o cálculo se aplica a todos os valores em preto. Ele informa qual percentual dos outros **Temas** deu a você uma classificação baixa. Em outras palavras, quando uma classificação é dada por um cliente, esse cliente também descreve o motivo ou o tema para a classificação. Alguns temas são usabilidade, velocidade e segurança. 
+7. **Linha média**: A média é calculada para todos os valores possíveis para o **Tema**, exceto **usabilidade** (que é o influenciador selecionado). Portanto, o cálculo se aplica a todos os valores em preto. Ele informa qual percentual dos outros **Temas** você teve uma classificação baixa. Nesse caso, 11,35% teve uma classificação baixa (mostrada pela linha pontilhada).
 
-   O **Tema é usabilidade** é o segundo maior influenciador principal para uma classificação baixa, de acordo com o visual no painel esquerdo. Se extrair a média de todos os temas e de sua contribuição para uma classificação **Baixa**, você chegará no resultado mostrado aqui em vermelho. De todos os outros temas fornecidos, apenas 11,35% são maiores que a **usabilidade**.
+8. **Caixa de seleção**: Filtra o visual no painel direito para mostrar apenas os valores que são influenciadores para esse campo. Neste exemplo, isso filtraria o visual para usabilidade, segurança e navegação.
 
-8. **Caixa de seleção**: **Mostrar apenas valores que são influenciadores**.
-
-## <a name="create-a-key-influencers-visual"></a>Criar um visual de influenciadores principais 
+## <a name="analyze-a-metric-that-is-categorical"></a>Analisar uma métrica categórica
  
-Assista a este vídeo para aprender a criar um visual de influenciadores principais. Depois, siga estas etapas para criar um. 
+Assista a este vídeo para aprender a criar um visual de influenciadores principais com uma métrica categórica. Depois, siga estas etapas para criar um. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -65,20 +60,24 @@ Seu Gerente de Produto quer que você descubra quais fatores levam os clientes a
 
     ![No painel Visualizações, selecione o modelo Influenciadores principais](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. Arraste a métrica que deseja investigar para o campo **Analisar**. O campo **Analisar** só dá suporte a variáveis categóricas ou não contínuas. Para ver o que leva um cliente a obter baixa classificação do serviço, selecione **Tabela do Cliente** > **Classificação**. 
+2. Arraste a métrica que deseja investigar para o campo **Analisar**. Para ver o que leva um cliente a obter baixa classificação do serviço, selecione **Tabela do Cliente** > **Classificação**.
+
 3. Arraste os campos que você acha que podem influenciar a **Classificação** para o campo **Explicar por**. Você pode arrastar quantos campos quiser. Nesse caso, inicie com:
     - País-Região 
     - Função na Organização 
     - Tipo de Assinatura 
     - Porte da Empresa 
-    - Tema 
-1. Para se concentrar nas classificações negativas, selecione **Baixa** na caixa suspensa **O que influencia a classificação**.  
+    - Tema
+    
+4. Deixe o campo **Expandir por** vazio. Esse campo só é usado apenas ao analisar uma medida ou um campo resumido. 
+
+5. Para se concentrar nas classificações negativas, selecione **Baixa** na caixa suspensa **O que influencia a classificação**.  
 
     ![Selecione Baixa na caixa suspensa](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
 A análise é executada no nível da tabela do campo que está sendo analisado. Nesse caso, é a métrica de **Classificação**. Essa métrica é definida em um nível de cliente. Cada cliente forneceu uma pontuação alta ou baixa. Todos os fatores explicativos devem ser definidos no nível do cliente para serem usados pelo visual. 
 
-No exemplo anterior, todos os nossos fatores explicativos têm uma relação um-para-um ou muitos para um com a métrica. Nesse caso, cada pontuação tem exatamente um tema associado a ela. Este era o tema principal da análise do cliente. Da mesma forma, os clientes provenientes de um país têm um tipo de associação e executam uma função em suas organizações. Os fatores explicativos já são atributos de um cliente e nenhuma transformação é necessária. O visual pode fazer uso imediato deles. 
+No exemplo anterior, todos os nossos fatores explicativos têm uma relação um-para-um ou muitos para um com a métrica. Neste caso, cada cliente atribuiu um único tema à sua classificação. Da mesma forma, os clientes provenientes de um país têm um tipo de associação e executam uma função em suas organizações. Os fatores explicativos já são atributos de um cliente e nenhuma transformação é necessária. O visual pode fazer uso imediato deles. 
 
 Mais adiante no tutorial, você verá exemplos mais complexos nos quais há relações um-para-muitos. Nesses casos, as colunas primeiro precisam ser agregadas no nível do cliente antes que a análise possa ser executada. 
 
@@ -89,7 +88,7 @@ Vamos dar uma olhada nos influenciadores principais para classificações baixas
 
 ### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>O primeiro fator único que influencia a probabilidade de uma classificação baixa
 
-Neste exemplo, a organização tem três funções: consumidor, administrador e editor. Ser um consumidor é o primeiro fator que contribui para uma classificação baixa. 
+Neste exemplo, o cliente pode ter três funções: consumidor, administrador e editor. Ser um consumidor é o primeiro fator que contribui para uma classificação baixa. 
 
 ![Selecionar A Função na Organização é consumidor](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
@@ -138,7 +137,7 @@ O gráfico de dispersão no painel direito plota o percentual médio de classifi
 
 Em alguns casos, você perceberá que os fatores contínuos foram automaticamente transformados em categóricos. Isso ocorre porque percebemos que a relação entre as variáveis não é linear e, portanto, não podemos descrever a relação como simplesmente um aumento ou uma diminuição (como fizemos no exemplo acima).
 
-Executamos testes de correlação para determinar a linearidade do influenciador com relação ao destino. Se o destino for contínuo, executaremos a correlação de Perasons; se o destino for categórico, executaremos testes de correlação de ponto bisserial. Se detectarmos que a relação não é suficientemente linear, realizaremos a compartimentalização supervisionada e geraremos um máximo de cinco compartimentos. Para descobrir quais compartimentos fazem mais sentido, usamos um método de compartimentalização supervisionada que examina a relação entre o fator explicativo e o destino que está sendo analisado.
+Executamos testes de correlação para determinar a linearidade do influenciador com relação ao destino. Se o destino for contínuo, executaremos a correlação de Pearsons; se o destino for categórico, executaremos testes de correlação de ponto bisserial. Se detectarmos que a relação não é suficientemente linear, realizaremos a compartimentalização supervisionada e geraremos um máximo de cinco compartimentos. Para descobrir quais compartimentos fazem mais sentido, usamos um método de compartimentalização supervisionada que examina a relação entre o fator explicativo e o destino que está sendo analisado.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretando medidas e agregações como influenciadores principais 
  
@@ -165,9 +164,29 @@ Nesse grupo, 74.3% dos clientes deram uma classificação baixa. O cliente médi
 
 ![Selecionar o primeiro principal segmento](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
 
-## <a name="working-with-numerical-data"></a>Trabalhando com os dados numéricos
+## <a name="adding-counts"></a>Como adicionar contagens
 
-Se você mover um campo numérico para o campo **Analisar**, poderá escolher como lidar com esse cenário. Você pode alterar o comportamento do visual entrando no **Painel de Formatação** e alternar entre **Tipo de Análise Categórica** e **Tipo de Análise Contínua**.
+Às vezes, um influenciador pode ter um grande impacto, mas representar muito pouco os dados. Por exemplo, **Tema** é **usabilidade** é o segundo maior influenciador para baixas classificações. No entanto, pode haver apenas alguns clientes que reclamaram da usabilidade. As contagens podem ajudá-lo a priorizar os influenciadores nos quais você deseja se concentrar.
+
+Você pode ativar as contagens por meio do **Cartão de análise** do painel formatação.
+
+![Adicionar contagens](media/power-bi-visualization-influencers/power-bi-ki-counts-toggle.png)
+
+Depois que as contagens forem ativadas, você verá um anel em volta da bolha de cada influenciador, que representa o percentual aproximada de dados que o influenciador contém. Quanto mais bolhas o anel circula, mais dados ele contém. Podemos ver que **Tema** é **usabilidade** contém uma proporção muito pequena de dados.
+
+![Mostrar contagens](media/power-bi-visualization-influencers/power-bi-ki-counts-ring.png)
+
+Você também pode usar a opção Classificar por na parte inferior esquerda do visual para classificar as bolhas por contagem primeiro, em vez de impacto. **Tipo de assinatura** é **Premier** é o principal influenciador com base na contagem.
+
+![Classificar por contagens](media/power-bi-visualization-influencers/power-bi-ki-counts-sort.png)
+
+Ter um anel completo em volta do círculo significa que o influenciador contém 100% dos dados. Você pode alterar o tipo de contagem para ser relativo ao influenciador máximo usando o menu suspenso **Tipo de contagem** no **cartão de Análise** do painel formatação. Agora, o influenciador com a maior quantidade de dados será representado por um anel completo e todas as outras contagens serão relativas a ele.
+
+![Mostrar contagens relativas](media/power-bi-visualization-influencers/power-bi-ki-counts-type.png)
+
+## <a name="analyze-a-metric-that-is-numeric"></a>Analisar uma métrica numérica
+
+Se você mover um campo numérico não resumido para o campo **Analisar**, poderá escolher como lidar com esse cenário. Você pode alterar o comportamento do visual entrando no **Painel de Formatação** e alternar entre **Tipo de Análise Categórica** e **Tipo de Análise Contínua**.
 
 ![Alterar de categórica para contínua](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
 
@@ -212,6 +231,30 @@ Os principais segmentos para destinos numéricos mostram grupos nos quais os pre
 
 ![Influenciadores de medidas de destino numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
+## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Analisar uma métrica que é uma medida ou uma coluna resumida
+
+No caso de uma medida ou coluna resumida, a análise usa como padrão o **Tipo de Análise Contínua** descrito [acima](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric). Isso não pode ser alterado. A maior diferença entre analisar uma medida/coluna resumida e uma coluna numérica não resumida é o nível no qual a análise é executada.
+
+No caso de colunas não resumidas, a análise sempre é executada no nível de tabela. No exemplo de preço da casa acima, analisamos a métrica de **Preço da casa** para ver o que influencia o aumento/redução de um preço de casa. A análise é executada automaticamente no nível da tabela. Nossa tabela tem uma ID exclusiva para cada casa, de modo que a análise é executada no nível da casa.
+
+![Tabela de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+
+Para medidas e colunas resumidas, não sabemos imediatamente em que nível analisar. Se o **Preço da casa** tiver sido resumido como uma **Média**, precisaremos considerar em qual nível gostaríamos de calcular o preço médio da casa. O preço médio da casa está no nível do bairro? Ou talvez no nível regional?
+
+Medidas e colunas resumidas são analisadas automaticamente no nível dos campos **Explicar por** usados. Imagine que temos três campos em **Explicar por** em que estamos interessados: **Qualidade da Cozinha**, **Tipo de Construção** e **Ar-Condicionado**. O **Preço Médio da Casa** seria calculado para cada combinação exclusiva desses três campos. Geralmente, é útil alternar para um modo de exibição de tabela para dar uma olhada em como são os dados que estão sendo avaliados.
+
+![Tabela de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+
+Essa análise é muito resumida e, portanto, será difícil para o modelo de regressão localizar quaisquer padrões nos dados com os quais ele pode aprender. Devemos executar a análise em um nível mais detalhado para obter resultados melhores. Se quiséssemos analisar o preço da casa no nível da casa, precisaríamos adicionar explicitamente o campo **ID** à análise. No entanto, não queremos que a ID da casa seja considerada um influenciador. Não é útil saber que, à medida que a ID da casa aumenta, o preço de uma casa aumenta. É aí que a opção fieldwell **Expandir por** é útil. Você pode usar **Expandir por** para adicionar os campos que deseja usar para definir o nível da análise sem procurar novos influenciadores.
+
+Veja a aparência da visualização depois de adicionarmos **ID** a **Expandir por**. Depois de definir o nível no qual você deseja que sua medida seja avaliada, a interpretação de influenciadores é exatamente a mesma que para as [colunas numéricas não resumidas](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
+
+![Tabela de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+
+Se você quiser saber mais sobre como é possível analisar medidas com a visualização de influenciadores de chave, assista ao tutorial a seguir.
+
+<iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas 
  
 **Quais são as limitações do visual?** 
@@ -219,7 +262,7 @@ Os principais segmentos para destinos numéricos mostram grupos nos quais os pre
 O visual de principais influenciadores tem algumas limitações:
 
 - Não é compatível com o Direct Query
-- Não é compatível com a conexão dinâmica com o Azure Analysis Services e o SQL Server Analysis Services
+- Não há suporte para a Conexão Dinâmica com o Azure Analysis Services e o SQL Server Analysis Services
 - Não é compatível com publicação na Web
 - Exige o .NET Framework 4.6 ou posterior
 
@@ -244,6 +287,12 @@ A visualização funciona ao analisar os padrões nos dados para um grupo em com
 É recomendável que você tenha pelo menos 100 observações para o estado selecionado. Nesse caso, o estado é composto pelos clientes que variam. Você também precisa de, pelo menos, 10 observações para os estados usados para comparação. Nesse caso, o estado de comparação é composto pelos clientes que não variam.
 
 Se estiver analisando um campo numérico, talvez você queira alternar de **Análise Categórica** para **Análise Contínua** no **Painel de Formatação** no cartão **Análise**.
+
+**Vejo um erro quando 'Analyze' não é resumido, a análise sempre é executada no nível de linha de sua tabela pai. Não é permitido alterar este nível por meio de campos 'Expandir por'. Por que isso acontece?**
+
+Ao analisar uma coluna numérica ou categórica, a análise sempre é executada no nível de tabela. Por exemplo, se você estiver analisando os preços da casa e a tabela contiver uma coluna de ID, a análise será executada automaticamente no nível de ID da casa. 
+
+Ao analisar uma medida ou coluna resumida, você precisará declarar explicitamente em qual nível deseja que a análise seja executada. Você pode usar **Expandir por** para alterar o nível da análise de medidas e colunas resumidas sem adicionar novos influenciadores. Se o **Preço da casa** tiver sido definido como uma medida, você poderá adicionar a coluna de ID da casa para **Expandir por** para alterar o nível da análise.
 
 **Vejo um erro indicando que um campo em *Explicar por* não está relacionado exclusivamente à tabela que contém a métrica analisada. Por que isso acontece?**
  

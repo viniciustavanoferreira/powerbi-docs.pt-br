@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462385"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68962224"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Varejo do Power BI: Faça um tour
 
@@ -92,10 +92,10 @@ Se quiser exibir a fonte de dados deste exemplo, ela também está disponível c
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Examinar um bloco criado com P e R do Power BI
 Vamos analisar mais detalhadamente.
 
-1. Mude a pergunta para *vendas deste ano**por distrito***. Observe o resultado: Perguntas e Respostas coloca automaticamente a resposta em um gráfico de barras e sugere outras frases:
+1. Altere a pergunta para _vendas deste ano **por distrito**_ . Observe o resultado: Perguntas e Respostas coloca automaticamente a resposta em um gráfico de barras e sugere outras frases:
 
    ![As vendas deste ano por distrito nas Perguntas e Respostas](media/sample-retail-analysis/retail8.png)
-2. Agora mude a pergunta para *vendas deste ano **por cep e cadeia***.
+2. Agora altere a pergunta para _vendas deste ano **por cep e cadeia**_ .
 
    Observe como o Power BI responde à pergunta enquanto você digita e exibe o gráfico apropriado.
 3. Experimente mais perguntas e confira que tipo de resultados você recebe.

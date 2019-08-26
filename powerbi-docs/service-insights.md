@@ -9,23 +9,23 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9e1c4a3942c75f41dc105e424685d32badbf3866
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61237888"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994965"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Gerar informações sobre os dados automaticamente com o Power BI
-Tem um novo conjunto de dados e não sabe exatamente por onde começar?  Você precisa criar um painel rapidamente?  Deseja procurar informações que você pode ter perdido?
+Você tem um novo conjunto de dados e não sabe exatamente por onde começar?  Você precisa criar um painel rapidamente?  Deseja procurar informações que você pode ter perdido?
 
 Execute insights rápidos para gerar visualizações interativas e interessantes com base em seus dados. Os Insights Rápidos podem ser executados em um conjunto de dados inteiro (insights rápidos) ou em um bloco de painéis específico (insights com escopo). Você pode até mesmo executar insights em um insight!
 
 > [!NOTE]
-> O Insights não funciona com DirectQuery, ele apenas funciona com os dados carregados no Power BI.
+> O Insights não funciona com DirectQuery; ele apenas funciona com os dados carregados no Power BI.
 > 
 
 O recurso de insights tem como base um crescente [conjunto de algoritmos analíticos avançados](service-insight-types.md) desenvolvido em conjunto com a Microsoft Research, os quais continuaremos a utilizar para permitir que mais pessoas encontrem informações em seus dados de maneiras novas e intuitivas.
@@ -36,63 +36,65 @@ Veja a Amanda executar insights rápidos em um conjunto de dados, abrir um insig
 <iframe width="560" height="315" src="https://www.youtube.com/embed/et_MLSL2sA8" frameborder="0" allowfullscreen></iframe>
 
 
-Agora é sua vez. Explore insights usando o [exemplo de análise de qualidade de fornecedor](sample-supplier-quality.md).
+Agora é sua vez. Explore insights usando o [exemplo de Análise de Qualidade de Fornecedor](sample-supplier-quality.md).
 
-1. Na guia **Conjuntos de dados**, selecione as reticências (...) e escolha **Obter insights**.
+1. Na guia **Conjuntos de Dados**, selecione as reticências (...) e escolha **Obter insights rápidos**.
    
     ![Guia Conjuntos de dados](media/service-insights/power-bi-ellipses.png)
    
-    ![menu de reticências](media/service-insights/power-bi-tab.png)
+    ![Menu de reticências](media/service-insights/power-bi-tab.png)
 2. O Power BI usa [vários algoritmos](service-insight-types.md) para pesquisar tendências no conjunto de dados.
    
     ![Caixa de diálogo Procurando por insights](media/service-insights/pbi_autoinsightssearching.png)
 3. Em poucos segundos, suas informações estão prontas.  Selecione **Exibir insights** para exibir as visualizações.
    
-    ![mensagem de êxito](media/service-insights/pbi_autoinsightsuccess.png)
+    ![Mensagem de êxito](media/service-insights/pbi_autoinsightsuccess.png)
    
     > [!NOTE]
     > Alguns conjuntos de dados não podem gerar insights porque os dados não são estatisticamente significativos.  Para saber mais, veja [Otimizar seus dados para insights](service-insights-optimize.md).
-   > 
+    > 
     
-1. As visualizações são exibidas em uma tela especial dos **Insights Rápidos** com até 32 cartões de insights separados. Cada cartão contém um gráfico e uma breve descrição.
+4. As visualizações são exibidas em uma tela especial dos **Insights Rápidos** com até 32 cartões de insights separados. Cada cartão contém um gráfico e uma breve descrição.
    
     ![Tela Insights Rápidos](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>Interagir com os cartões de insights
-  ![ícone fixar](media/service-insights/pbi_hover.png)
 
 1. Passe o mouse sobre um cartão e selecione o ícone de alfinete para adicionar a visualização a um dashboard.
-2. Passe o mouse sobre um cartão, selecione as reticências (...) e escolha **Exibir insights**. Isso abre a tela de insights.
+
+2. Passe o mouse sobre um cartão, selecione as reticências (...) e escolha **Exibir insights**. 
+
+    A tela de insights é aberta no Modo de foco.
    
-    ![Tela inteira do Insight](media/service-insights/power-bi-insight-focus.png)
+    ![Modo de foco do insight](media/service-insights/power-bi-insight-focus.png)
 3. No modo de Foco você pode:
    
-   * Filtrar as visualizações.  Para exibir os filtros, no canto superior direito, selecione a seta para expandir o painel Filtros.
-        ![analisar um menu de filtros expandido](media/service-insights/power-bi-insights-filter-new.png)
-   * Fixe o cartão de insight em um dashboard selecionando o ícone fixar ![ícone fixar](media/service-insights/power-bi-pin-icon.png) ou **Fixar visual**.
-   * Execute os insights no próprio cartão. Geralmente, isso é chamado de **insights com escopo**. No canto superior direito, selecione o ícone de lâmpada ![ícone Obter insights](media/service-insights/power-bi-bulb-icon.png) ou **Obter insights**.
+   * Filtrar as visualizações. Se o painel **Filtros** ainda não estiver aberto, expanda-o selecionando a seta no lado direito da janela.
+
+       ![Menu expandido Filtros de Insight](media/service-insights/power-bi-insights-filter-new.png)
+   * Fixe o cartão de insight em um dashboard selecionando **Fixar visual**.
+   * Execute insights no próprio cartão, que geralmente é denominado como *insights com escopo*. No canto superior direito, selecione o ícone de lâmpada ![ícone Obter Insights](media/service-insights/power-bi-bulb-icon.png) ou **Obter Insights**.
      
-       ![barra de menus mostrando o ícone Obter Insights](media/service-insights/pbi-autoinsights-tile.png)
+       ![Ícone Obter Insights](media/service-insights/pbi-autoinsights-tile.png)
      
      O insight é exibido à esquerda e novos cartões, com base apenas nos dados daquele único insight, são exibidos à direita.
      
-       ![insights sobre insights](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![Insights sobre insights](media/service-insights/power-bi-insights-on-insights-new.png)
 4. Para voltar à tela original de insights, no canto superior esquerdo, selecione **Sair do modo de foco**.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Executar insights em um bloco do painel
-Em vez de buscar insights em um conjunto de dados inteiro, restrinja sua pesquisa aos dados usados para criar um único bloco de painel. Geralmente, isso também é chamado de **insights com escopo**.
+Em vez de buscar insights em um conjunto de dados inteiro, restrinja sua pesquisa para realizar um insight com escopo nos dados usados para criar um único bloco de dashboard. 
 
 1. Abra um dashboard.
 2. Passe o mouse sobre um bloco. selecione as reticências (...) e escolha **Exibir insights**. O bloco é aberto no [modo de foco](service-focus-mode.md) com os cartões de insights exibidos à direita.    
    
     ![Modo de foco](media/service-insights/pbi-insights-tile.png)    
-4. Algum insight desperta seu interesse? Selecione esse cartão de insights para se aprofundar ainda mais. O insight selecionado aparece à esquerda e novos insights, com base apenas nos dados daquele único insight, são exibidos à direita.    
-6. Continue examinando seus dados e, quando encontrar um insight interessante, fixe-o ao seu painel selecionando **Fixar visual** no canto superior direito.
+3. Algum insight desperta seu interesse? Selecione esse cartão de insights para se aprofundar ainda mais. O insight selecionado aparece à esquerda e novos insights, com base apenas nos dados daquele único insight, são exibidos à direita.    
+4. Continue examinando seus dados e, quando encontrar um insight interessante, fixe-o ao seu painel selecionando **Fixar visual** no canto superior direito.
 
 ## <a name="next-steps"></a>Próximas etapas
-Se você é proprietário de um conjunto de dados, [otimize-o para os Insights Rápidos](service-insights-optimize.md)
+- Se você for proprietário de um conjunto de dados, [otimize-o para os Insights Rápidos](service-insights-optimize.md).
+- Saiba mais sobre os [tipos de Insights Rápidos disponíveis](service-insight-types.md).
 
-Saiba mais sobre os [tipos de Insights Rápidos disponíveis](service-insight-types.md)
-
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
 

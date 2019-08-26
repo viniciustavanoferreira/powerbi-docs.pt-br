@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2019
+ms.date: 08/15/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30552ee407460856fd1548073f0b3046ab508115
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567465"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530530"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorar as métricas de uso de relatórios e dashboards do Power BI
 
@@ -41,20 +41,7 @@ Você só pode executar relatórios de métricas de uso no serviço do Power BI.
 - Para obter acesso às métricas de uso para um relatório ou painel específico, é necessário ter acesso de edição a esse relatório ou painel.
 - Seu administrador do Power BI precisa ter habilitado métricas de uso para criadores de conteúdo. Ele também pode ter habilitado a coleta de dados por usuário em métricas de uso. Leia sobre como [habilitar essas opções no portal de administração](service-admin-portal.md#control-usage-metrics). 
 
-## <a name="about-the-usage-metrics-report"></a>Sobre o relatório de métrica de uso
-
-Quando você seleciona **Métrica de uso** ou o ![ícone de métricas de uso](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) próximo a um relatório ou painel, o Power BI gera um relatório predefinido com métrica de uso para esse conteúdo nos últimos 90 dias.  O relatório é semelhante aos relatórios do Power BI que você já conhece. Você pode fatiar com base em como seus usuários finais tiveram acesso – se eles acessaram pela Web, por um aplicativo móvel etc. Conforme seus dashboards e relatórios evoluírem, o relatório de métricas de uso também evoluirá e será atualizado todos os dias com novos dados.  
-
-Os relatórios de métricas de uso não são exibidos em **Recente**, **Espaços de trabalho**, **Favoritos** ou em outras listas de conteúdo. Eles não podem ser adicionados a um aplicativo. Se você fixar um bloco de um relatório de métricas de uso em um painel, não será possível adicionar esse painel a um aplicativo.
-
-Para acessar os dados do relatório ou criar seus próprios relatórios em relação ao conjunto de dados subjacente, você tem duas opções: 
-
-- Fazer uma cópia do relatório no serviço do Power BI. Confira [Salvar uma cópia do relatório de métricas de uso](#save-a-copy-of-the-usage-metrics-report) mais adiante neste artigo para obter detalhes.
-- Conectar-se ao conjunto de dados do Power BI Desktop. Confira [Estabelecer uma conexão a um conjunto de dados publicado](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) para obter detalhes.
-
-    ![Conectar-se a um conjunto de dados de relatório de uso](media/service-usage-metrics/power-bi-usage-dataset.png)
-
-## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Abrir um relatório de métrica de uso para um dashboard ou relatório
+## <a name="view-a-usage-metrics-report"></a>Exibir um relatório de métricas de uso
 
 1. Inicie no workspace que contém o dashboard ou o relatório.
 2. Na lista de conteúdo do workspace ou no dashboard ou relatório em si, selecione o ícone de **Métricas de uso**![ícone de métricas de uso](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
@@ -82,6 +69,18 @@ Para acessar os dados do relatório ou criar seus próprios relatórios em rela�
 
 ![Relatório de métricas de uso do Relatório](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
+## <a name="about-the-usage-metrics-report"></a>Sobre o relatório de métrica de uso
+
+Quando você seleciona **Métrica de uso** ou o ![ícone de métricas de uso](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) próximo a um relatório ou painel, o Power BI gera um relatório predefinido com métrica de uso para esse conteúdo nos últimos 90 dias.  O relatório é semelhante aos relatórios do Power BI que você já conhece. Você pode fatiar com base em como seus usuários finais tiveram acesso – se eles acessaram pela Web, por um aplicativo móvel etc. Conforme seus dashboards e relatórios evoluírem, o relatório de métricas de uso também evoluirá e será atualizado todos os dias com novos dados.  
+
+Os relatórios de métricas de uso não são exibidos em **Recente**, **Espaços de trabalho**, **Favoritos** ou em outras listas de conteúdo. Eles não podem ser adicionados a um aplicativo. Se você fixar um bloco de um relatório de métricas de uso em um painel, não será possível adicionar esse painel a um aplicativo.
+
+Para acessar os dados do relatório ou criar seus próprios relatórios em relação ao conjunto de dados subjacente, você tem duas opções: 
+
+- Fazer uma cópia do relatório no serviço do Power BI. Confira [Salvar uma cópia do relatório de métricas de uso](#save-a-copy-of-the-usage-metrics-report) mais adiante neste artigo para obter detalhes.
+- Conectar-se ao conjunto de dados do Power BI Desktop. Para cada workspace, o conjunto de relatórios tem o nome "Modelo de métricas de uso de relatório". Confira [Estabelecer uma conexão a um conjunto de dados publicado](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) para obter detalhes.
+
+    ![Conectar-se a um conjunto de dados de relatório de uso](media/service-usage-metrics/power-bi-usage-dataset.png)
 
 ## <a name="which-metrics-are-reported"></a>Quais métricas são relatadas?
 
@@ -105,7 +104,7 @@ Para acessar os dados do relatório ou criar seus próprios relatórios em rela�
 
 Use **Salvar como** para converter o relatório de métricas de uso em um relatório normal do Power BI que você pode personalizar para atender às suas necessidades específicas. Você também pode usar o Power BI Desktop para criar relatórios de métricas de uso personalizados com base no conjunto de dados subjacente. Confira [Estabelecer uma conexão a um conjunto de dados publicado](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) para obter detalhes.
 
-Ainda melhor, o conjunto de dados subjacente inclui os detalhes de uso de todos os dashboards ou relatórios no workspace. Isso abre mais possibilidades. Você pode, por exemplo, criar um relatório que compara todos os painéis em seu espaço de trabalho com base no uso. Ou você pode criar um painel de métricas de uso para seu aplicativo do Power BI agregando o uso em todo o conteúdo distribuído nesse aplicativo.  Confira [como remover o filtro no nível da página ](#remove-the-filter-to-see-all-workspace-usage-metrics) mais adiante neste artigo.
+Ainda melhor, o conjunto de dados subjacente inclui os detalhes de uso de todos os dashboards ou relatórios no workspace. Isso abre mais possibilidades. Você pode, por exemplo, criar um relatório que compara todos os painéis em seu espaço de trabalho com base no uso. Ou você pode criar um painel de métricas de uso para seu aplicativo do Power BI agregando o uso em todo o conteúdo distribuído nesse aplicativo.  Confira como remover o filtro e [ver todas as métricas de uso do workspace](#see-all-workspace-usage-metrics) mais adiante neste artigo.
 
 ### <a name="create-a-copy-of-the-usage-report"></a>Criar uma cópia do relatório de uso
 
@@ -121,7 +120,7 @@ Quando você cria uma cópia do relatório de uso pré-criado, somente leitura, 
 
     ![Guia Relatórios](media/service-usage-metrics/power-bi-new-report.png)
 
-## <a name="remove-the-filter-to-see-all-workspace-usage-metrics"></a>Remover o filtro para ver *todas* as métricas de uso do espaço de trabalho
+## <a name="see-all-workspace-usage-metrics"></a>Ver *todas* as métricas de uso do workspace
 
 Para ver as métricas de todos os painéis ou de todos os relatórios no espaço de trabalho, você precisa remover um filtro. Por padrão, o relatório é filtrado para exibir métricas somente para o painel ou relatório que você usou para criá-lo.
 
@@ -169,7 +168,7 @@ Além das possíveis diferenças entre métricas de uso e logs de auditoria, as 
 
 **P:**    As métricas de uso capturam as exibições de dashboards e relatórios inseridos?
 
-**R:**    Atualmente, as métricas de uso não oferecem suporte ao uso de captura para painéis e relatórios inseridos, nem para o fluxo de [publicar na Web](service-publish-to-web.md).          Nesses casos, recomendamos o uso das plataformas de análise da Web existentes para controlar o uso do aplicativo de hospedagem ou portal.
+**R:**    Atualmente, as métricas de uso não dão suporte ao uso de captura para dashboards e relatórios inseridos, nem para o fluxo de [publicar na Web](service-publish-to-web.md). Nesses casos, recomendamos o uso das plataformas de análise da Web existentes para controlar o uso do aplicativo de hospedagem ou portal.
 
 **P:**    Não consigo executar a métrica de uso em nenhum conteúdo.
 

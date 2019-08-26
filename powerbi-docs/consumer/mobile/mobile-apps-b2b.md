@@ -1,6 +1,6 @@
 ---
-title: Exibir o Power BI conteúdo como um usuário externo convidado (B2B do AD do Azure)
-description: Use aplicativos móveis do Power BI para exibir o conteúdo compartilhado com você de organização externa.
+title: Exibir conteúdo do Power BI como um usuário convidado externo (Azure AD B2B)
+description: Use aplicativos móveis do Power BI para exibir conteúdo compartilhado com você de uma organização externa.
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,16 +9,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: a15da4349ce97e34c8321909abc862e424b2839c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61338618"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490360"
 ---
-# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Exibir o conteúdo do Power BI compartilhado com você de uma organização externa
+# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Exibir conteúdo do Power BI compartilhado com você de uma organização externa
 
-Power BI é integrado com o Azure Active Directory business-to-business (Azure AD B2B) para permitir distribuição segura do conteúdo do Power BI para usuários convidados fora da sua organização. E usuários convidados externo podem usar o aplicativo móvel do Power BI para acessar o conteúdo do Power BI compartilhado com eles. 
+O Power BI integra-se ao Azure Active Directory Business-to-business (Azure AD B2B) para permitir a distribuição segura de conteúdo do Power BI a usuários convidados fora da organização. E usuários convidados externos podem usar o aplicativo móvel do Power BI para acessar o conteúdo do Power BI compartilhado com eles. 
 
 
 Aplica-se a:
@@ -27,28 +27,30 @@ Aplica-se a:
 |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Telefones Android |Tablets Android |
 
-## <a name="accessing-shared-content"></a>Acessando o conteúdo compartilhado
+## <a name="accessing-shared-content"></a>Acessando conteúdo compartilhado
 
-**Primeiro, você precisa que alguém de uma organização externa para compartilhar um item com você.** Quando alguém [compartilha um item com você](../../service-share-dashboards.md), da mesma organização ou de uma organização externa, você receberá um email com um link para que o item compartilhado. Esse link em seu dispositivo móvel a seguir abre o aplicativo móvel do Power BI. Se o aplicativo reconhece que o item foi compartilhado de uma organização externa, o aplicativo se reconecta a organização com sua identidade. O aplicativo, em seguida, carrega todos os itens que foram compartilhados com você da organização.
+**Primeiro, você precisa que alguém de uma organização externa compartilhe um item com você.** Quando alguém [compartilha um item com você](../../service-share-dashboards.md), seja da mesma organização ou de uma organização externa, você recebe um email com um link para esse item compartilhado. Seguir esse link em seu dispositivo móvel abre o aplicativo móvel do Power BI. Se reconhecer que o item foi compartilhado de uma organização externa, o aplicativo se reconectará a essa organização com sua identidade. Em seguida, o aplicativo carrega todos os itens que foram compartilhados com você dessa organização.
 
-![O Power BI aberto item compartilhado de email ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![O Power BI abre o item compartilhado do email ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
 
 > [!NOTE]
-> Se esse for o primeiro item compartilhado com você, como um usuário externo convidado, você deve solicitar o convite em um navegador. Você pode não é possível solicitar o convite no aplicativo do Power BI.
+> Se esse for o primeiro item compartilhado com você como usuário convidado externo, você precisará reivindicar o convite em um navegador. Você não pode reivindicar o convite no aplicativo do Power BI.
 
-Desde que você está conectado a uma organização externa, um cabeçalho preto aparece no aplicativo. Esse cabeçalho indica que não está conectado à sua organização inicial. Para conectar-se de volta para sua organização inicial, saia do modo de convidado.
+Enquanto você estiver conectado a uma organização externa, um cabeçalho preto aparecerá no aplicativo. Esse cabeçalho indica que você não está conectado à sua organização principal. Para se conectar à sua organização principal, saia do modo convidado.
 
-![Cabeçalho de usuário do Power BI convidado](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Cabeçalho de usuário convidado do Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
 
-Mesmo que você precisa ter um link de artefato do Power BI para conectar-se para uma organização externa, depois que seu aplicativo muda, você pode acessar todos os itens compartilhados com você (não apenas o item que você abriu no email). Para exibir todos os itens que você pode acessar na organização externa, vá para o menu de aplicativo e selecione **compartilhado comigo**. Sob **aplicativos** você encontrar aplicativos que você pode usar também.
+Embora você precise ter um link de artefato do Power BI para se conectar a uma organização externa, depois que o modo do seu aplicativo for alternado, você poderá acessar todos os itens compartilhados com você (não apenas o item que você abriu do email). Para ver todos os itens que você pode acessar na organização externa, vá até o menu do aplicativo e selecione **Compartilhado comigo**. Em **Aplicativos**, você encontra também os aplicativos que pode usar.
 
-![Menu de aplicativo do Power BI como usuário externo convidado](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Menu do aplicativo do Power BI como usuário externo convidado](./media/mobile-apps-b2b/mobile-b2b-menu.png)
 
 ## <a name="limitations"></a>Limitações
 
-- Não há suporte para acesso condicional e outras políticas do Intune no Azure AD B2B e no Power BI móvel. Isso significa que o aplicativo impõe apenas doméstica políticas da organização, se eles existirem.
-- Notificações por push são recebidas de somente o site de organização inicial (até mesmo quando o usuário está conectado como um convidado para uma organização externa). Abrindo a notificação se conectará novamente o aplicativo ao site de organização inicial do usuário.
-- Se o usuário desliga o aplicativo, quando abertos novamente o aplicativo se conecta automaticamente a organização inicial do usuário.
-- Quando conectado a uma organização externa, algumas ações estão desabilitadas: favorito itens, alertas de dados, fazer comentários e compartilhamento.
-- Dados off-line não estão disponíveis enquanto estiver conectado a uma organização externa.
-- Se você tiver o aplicativo de Portal da empresa instalado no seu dispositivo, seu dispositivo deve ser registrado.
+- Os usuários precisam ter uma conta ativa do Power BI e um locatário de página inicial.
+- Os usuários precisam estar conectados a seu locatário de página inicial do Power BI para que possam acessar o conteúdo compartilhado com eles de um locatário externo.
+- Não há suporte para o acesso condicional e para outras políticas do Intune no Azure AD B2B e no Power BI Mobile. Isso significa que o aplicativo impõe apenas as políticas da organização principal, se houver.
+- As notificações por push são recebidas somente do site da organização principal (mesmo quando o usuário está conectado como um convidado a uma organização externa). Abrir a notificação reconecta o aplicativo ao site de da organização principal do usuário.
+- Se o usuário desligar o aplicativo, quando reaberto, o aplicativo se conectará automaticamente à organização principal do usuário.
+- Quando conectado a uma organização externa, algumas ações são desabilitadas: itens favoritos, alertas de dados, comentários e compartilhamento.
+- Dados offline não ficam disponíveis enquanto o usuário está conectado a uma organização externa.
+- Se você tiver o aplicativo Portal da Empresa instalado em seu dispositivo, o dispositivo deverá ser registrado.

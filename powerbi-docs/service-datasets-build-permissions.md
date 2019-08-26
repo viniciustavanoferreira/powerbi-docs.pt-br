@@ -1,5 +1,5 @@
 ---
-title: Criar e compartilhar conjuntos de dados (versão prévia) – Power BI
+title: Compartilhar um conjunto de dados (versão prévia)
 description: Como um proprietário de conjunto de dados, você pode criar e compartilhar seus conjuntos de dados para que outras pessoas possam usá-los. Saiba como você pode manter o controle de quem tem acesso aos dados usando a permissão Criar.
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22339b3d5062c01b3795086eede24ed6a8e7d7e7
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461754"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530524"
 ---
-# <a name="create-and-share-datasets-preview"></a>Criar e compartilhar conjuntos de dados (versão prévia)
+# <a name="share-a-dataset-preview"></a>Compartilhar um conjunto de dados (versão prévia)
 
 Como um criador de *modelos de dados* no Power BI Desktop, você pode compartilhá-los como *conjuntos de dados* no serviço do Power BI. Em seguida, os criadores de relatórios poderão descobrir e reutilizar os conjuntos de dados que você compartilhou com facilidade. Saiba como compartilhá-los e como você controla quem tem acesso aos dados usando a permissão Criar.
 
@@ -31,7 +31,7 @@ Como um criador de *modelos de dados* no Power BI Desktop, você pode compartilh
     
     Os outros membros desse workspace já podem criar relatórios em outros workspaces com base nesse conjunto de dados.
 
-1. Agora você pode [criar um aplicativo](service-create-distribute-apps.md) com base nesse workspace. Quando fizer isso, na página **Permissões**, especifique quem tem permissões e o que eles podem fazer.
+1. Você também pode [publicar um aplicativo](service-create-distribute-apps.md) usando esse workspace. Quando fizer isso, na página **Permissões**, especifique quem tem permissões e o que eles podem fazer.
 
     > [!NOTE]
     > Se você selecionar **Organização inteira**, ninguém da organização terá permissões Criar. Esse problema já é conhecido. Em vez disso, especifique endereços de email em **Indivíduos ou grupos específicos**.  Caso você deseje que toda a sua organização tenha permissões Criar, especifique um alias de email para toda a organização.
@@ -46,6 +46,8 @@ O tipo de permissão Criar só é relevante para conjuntos de dados. Com ele, os
 
 Os usuários obtêm a permissão Criar de maneiras diferentes:
 
+- Se for um membro de um workspace com, pelo menos, função de Colaborador, você terá automaticamente permissão de Build para um conjunto de dados e permissão para copiar um relatório.
+ 
 - Um membro do workspace no qual reside o conjunto de dados pode atribuir a permissão a usuários ou grupos de segurança específicos na Central de permissões. Selecione as reticências (...) ao lado de um conjunto de dados > **Gerenciar Permissões**.
 
     ![Selecionar as reticências](media/service-datasets-build-permissions/power-bi-dataset-manage-permissions.png)
@@ -54,13 +56,13 @@ Os usuários obtêm a permissão Criar de maneiras diferentes:
 
     ![Central de permissões](media/service-datasets-build-permissions/power-bi-dataset-permissions.png)
 
-- Um administrador ou um membro do workspace no qual reside o conjunto de dados pode decidir, durante a publicação do aplicativo, que os usuários com a permissão no aplicativo também devem obter a permissão Criar nos conjuntos de dados subjacentes. Confira [Etapas para compartilhar seu conjunto de dados](#steps-to-sharing-your-dataset) para obter detalhes.
+- Um administrador ou um membro do workspace no qual reside o conjunto de dados pode decidir, durante a publicação do aplicativo, que os usuários com a permissão no aplicativo também devem obter a permissão Criar nos conjuntos de dados subjacentes. Confira [Etapas para compartilhar seu conjunto de dados](#steps-to-sharing-your-dataset) neste artigo para obter detalhes.
 
 - Digamos que você tenha permissões Compartilhar novamente e Criar em um conjunto de dados. Ao compartilhar um relatório ou um dashboard baseado nesse conjunto de dados, você pode especificar que os destinatários também obtenham a permissão Criar no conjunto de dados subjacente.
 
     ![Permissões Criar](media/service-datasets-build-permissions/power-bi-share-report-allow-users.png)
 
-Você pode remover as permissões Criar das pessoas para um conjunto de dados. Se você fizer isso, elas ainda poderão ver o relatório criado no conjunto de dados compartilhado, mas não poderão mais editá-lo.
+Você pode remover as permissões Criar de uma pessoa para um conjunto de dados. Se você fizer isso, elas ainda poderão ver o relatório criado no conjunto de dados compartilhado, mas não poderão mais editá-lo.
 
 ## <a name="more-granular-permissions"></a>Permissões mais granulares
 

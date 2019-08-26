@@ -6,37 +6,37 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826625"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530591"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar um aplicativo no Power BI
 
-No Power BI, você pode criar um conteúdo empacotado oficial e, em seguida, distribuí-lo para um público-alvo amplo como um *aplicativo*. Crie aplicativos nos *workspaces do aplicativo*, em que é possível colaborar no conteúdo do Power BI com seus colegas. Em seguida, é possível publicar os aplicativos concluídos em grandes grupos de pessoas em sua organização. 
+No Power BI, você pode criar um conteúdo empacotado oficial e, em seguida, distribuí-lo para um público-alvo amplo como um *aplicativo*. Você cria os aplicativos nos *workspaces*, em que é possível colaborar no conteúdo do Power BI com seus colegas. Em seguida, é possível publicar os aplicativos concluídos em grandes grupos de pessoas em sua organização. 
 
 ![Aplicativos do Power BI](media/service-create-distribute-apps/power-bi-new-apps.png)
 
-Os usuários empresariais geralmente precisam de vários dashboards e relatórios do Power BI para administrar os negócios. Com os aplicativos do Power BI, crie coleções de dashboards e relatórios e publique esses aplicativos para toda a organização ou para pessoas ou grupos específicos. Para você, como administrador ou criador de relatórios, os aplicativos facilitam o gerenciamento de permissões nessas coleções.
+Os usuários empresariais geralmente precisam de vários dashboards e relatórios do Power BI para administrar os negócios. Com os aplicativos do Power BI, crie coleções de dashboards e relatórios e publique essas coleções como aplicativos para toda a organização ou para pessoas ou grupos específicos. Para você, como administrador ou criador de relatórios, os aplicativos facilitam o gerenciamento de permissões nessas coleções.
 
 Os usuários empresariais obtêm seus aplicativos de algumas maneiras diferentes:
 
-- Eles podem encontrar e instalar seus aplicativos no Microsoft AppSource
+- Eles podem encontrar e instalar seus aplicativos no Microsoft AppSource.
 - Você pode enviar um link direto para eles.
 - Você poderá instalá-lo automaticamente nas contas do Power BI de seus colegas, se o administrador do Power BI lhe der permissão.
 
-Você pode criar o aplicativo com sua própria navegação interna, de modo que os usuários possam encontrar o conteúdo com facilidade. Eles não podem modificar o conteúdo do aplicativo. Eles podem interagir com ele no serviço do Power BI ou em um dos aplicativos móveis – filtrando, realçando e classificando os dados por conta própria. Eles recebem atualizações automaticamente e você pode controlar a frequência com que os dados são atualizados. Leia mais sobre a [experiência de aplicativo para usuários corporativos](consumer/end-user-apps.md).
+Você pode criar o aplicativo com sua própria navegação interna, de modo que os usuários possam encontrar o conteúdo com facilidade. Eles não podem modificar o conteúdo do aplicativo. Eles podem interagir com ele no serviço do Power BI ou em um dos aplicativos móveis – filtrando, realçando e classificando os dados por conta própria. Eles recebem atualizações automaticamente e você pode controlar a frequência com que os dados são atualizados. Você também pode conceder a eles permissões de build para se conectar aos conjuntos de dado subjacentes e criar cópias dos relatórios no aplicativo. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 
 ## <a name="licenses-for-apps"></a>Licenças para aplicativos
 Para criar ou atualizar um aplicativo, você precisa de uma licença do Power BI Pro. Para os *consumidores* do aplicativo, há duas opções.
 
-* Opção 1: todos os usuários empresariais precisam de licenças do **Power BI Pro** para exibir seu aplicativo. 
-* Opção 2: Se o workspace do aplicativo residir em uma capacidade Premium do Power BI, os usuários gratuitos de sua organização poderão ver o conteúdo do aplicativo. Leia [O que é o Power BI Premium?](service-premium.md) para obter detalhes.
+* **Opção 1** O workspace para este aplicativo *não* está em uma capacidade Premium do Power BI: Todos os usuários empresariais precisam de licenças do Power BI Pro para exibir seu aplicativo. 
+* **Opção 2** O workspace para este aplicativo *está* em uma capacidade Premium do Power BI: Usuários empresariais sem licenças do Power BI Pro em sua organização podem exibir conteúdo do aplicativo. No entanto, eles não podem copiar os relatórios nem criar relatórios com base nos conjuntos de valores subjacentes. Leia [O que é o Power BI Premium?](service-premium.md) para obter detalhes.
 
 ## <a name="publish-your-app"></a>Publicar seu aplicativo
 Quando os dashboards e relatórios em seu workspace estiverem prontos, escolha quais dashboards e relatórios você deseja publicar e publique-os como um aplicativo. 
@@ -57,21 +57,19 @@ Quando os dashboards e relatórios em seu workspace estiverem prontos, escolha q
    
      ![Criar seu aplicativo](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
-4. Em **Navegação**, selecione o conteúdo a ser publicado como parte do aplicativo. Em seguida, você adicionará a navegação do aplicativo para organizar o conteúdo em seções. Confira [Projetar a experiência de navegação para seu aplicativo](#design-the-navigation-experience-for-your-app) neste artigo para obter detalhes.
+4. Em **Navegação**, selecione o conteúdo a ser publicado como parte do aplicativo. Em seguida, você adicionará a navegação do aplicativo para organizar o conteúdo em seções. Confira [Projetar a experiência de navegação para seu aplicativo](#design-the-navigation-experience) neste artigo para obter detalhes.
    
      ![Navegação do aplicativo](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. Em **Permissões**, decida quem tem acesso ao aplicativo e o que pode ser feito nele. 
     - Em [workspaces clássicos](service-create-workspaces.md): todos em sua organização, pessoas específicas ou grupos de segurança do AAD (Azure Active Directory).
     - Em [workspaces da nova experiência](service-create-the-new-workspaces.md): pessoas específicas, listas de distribuição e grupos de segurança do AAD e grupos do Office 365. Todos os usuários do workspace recebem automaticamente acesso ao aplicativo para o workspace.
-    - Você pode permitir que os usuários do aplicativo se conectem aos conjuntos de dados subjacentes do aplicativo usando a permissão de build. Esses conjuntos de dados aparecerão nas experiências de pesquisa do conjunto de dados.
-    - Você pode permitir que os usuários do aplicativo façam uma cópia dos relatórios neste aplicativo no Meu workspace deles. 
+    - Você pode permitir que os usuários do aplicativo se conectem aos conjuntos de dados subjacentes do aplicativo dando a eles a permissão de build. Eles verão esses conjuntos de dados quando estiverem pesquisando conjuntos de dados compartilhados. Leia mais sobre [como permitir que os usuários se conectem aos conjuntos de dados do aplicativo](#allow-users-to-connect-to-datasets), neste artigo.
+    - Os usuários com permissão de build também podem ser permissão para copiar relatórios deste aplicativo para outro workspace. Leia mais sobre [como permitir que os usuários copiem relatórios no aplicativo](#allow-users-to-copy-reports), neste artigo.
     
     >[!IMPORTANT]
     >Se o aplicativo depende de conjuntos de dados de outros workspaces, é sua responsabilidade assegurar que todos os usuários do aplicativo tenham acesso aos conjuntos de dados subjacentes.
-> 
->     
-
+    >
 
 6. Você poderá instalar o aplicativo automaticamente para os destinatários se o administrador do Power BI tiver habilitado essa configuração para você no Portal de Administração do Power BI. Leia mais sobre como [instalar um aplicativo automaticamente](#automatically-install-apps-for-end-users) neste artigo.
 
@@ -84,26 +82,26 @@ Quando os dashboards e relatórios em seu workspace estiverem prontos, escolha q
 Envie esse link direto para as pessoas com quem você o compartilhou ou elas poderão encontrar seu aplicativo na guia Aplicativos acessando **Baixar e explorar mais aplicativos no AppSource**. Leia mais sobre a [experiência de aplicativo para usuários corporativos](consumer/end-user-apps.md).
 
 ## <a name="change-your-published-app"></a>Alterar o aplicativo publicado
-Depois de publicar seu aplicativo, você talvez queira alterá-lo ou atualizá-lo. É fácil atualizá-lo se você é um administrador ou membro do workspace do novo aplicativo. 
+Depois de publicar seu aplicativo, você talvez queira alterá-lo ou atualizá-lo. Será fácil atualizá-lo se você for um administrador ou membro do novo workspace. 
 
-1. Abra o workspace de aplicativo que corresponde ao aplicativo. 
+1. Abra o workspace que corresponde ao aplicativo. 
    
      ![Abrir workspace](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. Faça as alterações desejadas nos dashboards ou nos relatórios.
  
-     O workspace de aplicativo é sua área de preparo, portanto, suas alterações não entrarão em vigor no aplicativo até que você publique novamente. Isso permite que você faça alterações sem afetar os aplicativos publicados.  
+     O workspace é sua área de preparo, portanto, suas alterações não entrarão em vigor no aplicativo até que você publique novamente. Isso permite que você faça alterações sem afetar os aplicativos publicados.  
  
     > [!IMPORTANT]
     > Caso você remova um relatório e atualize o aplicativo, mesmo que você adicionar o relatório novamente ao aplicativo, os consumidores do aplicativo perderão todas as personalizações, como indicadores, comentários etc.  
  
-3. Volte para a lista de conteúdo do workspace do aplicativo e selecione **Atualizar aplicativo** no canto superior direito.
+3. Volte para a lista de conteúdo do workspace e selecione **Atualizar aplicativo** no canto superior direito.
    
 1. Atualize **Instalação**, **Navegação** e **Permissões**, se necessário e, em seguida, selecione **Atualizar aplicativo**.
    
 As pessoas para as quais você publicou o aplicativo verão automaticamente a versão atualizada do aplicativo. 
 
-## <a name="design-the-navigation-experience-for-your-app"></a>Projetar a experiência de navegação para seu aplicativo
+## <a name="design-the-navigation-experience"></a>Projetar a experiência de navegação
 A opção **Novo construtor de navegação** permite que você crie uma navegação personalizada para seu aplicativo. A navegação personalizada facilita para os usuários encontrar e usar o conteúdo no aplicativo. Os aplicativos existentes têm essa opção desativada e os novos aplicativos usam como padrão a opção ativada.
 
 Quando a opção está desativada, você pode selecionar a **Página de aterrissagem do aplicativo** como **Conteúdo específico**, por exemplo, um dashboard ou um relatório, ou selecionar **Nenhum** para mostrar uma lista básica de conteúdo para o usuário.
@@ -160,27 +158,32 @@ Aqui estão algumas coisas para se ter em mente ao enviar aplicativos por push p
 
 * Os aplicativos não são instalados automaticamente para os usuários convidados que não aceitaram um convite.  
 
-## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>Como permitir que usuários se conectem a conjuntos de dados subjacentes do aplicativo
-Ao marcar a opção para permitir que todos os usuários se conectem aos conjuntos de dados subjacentes do aplicativo, os usuários do aplicativo recebem a permissão de build no conjunto de dados subjacente. Isso permite que os usuários [usem os conjuntos de dados do aplicativo entre workspaces](service-datasets-across-workspaces.md) para pesquisar esses conjuntos de dados no Power BI Desktop e o serviço obtenha experiências de dados, além de ser possível criar relatórios e dashboards usando esses conjuntos de dados. 
+## <a name="allow-users-to-connect-to-datasets"></a>Permitir que os usuários se conectem a conjuntos de dados
 
-Ao desmarcar essa opção, novos usuários que você adicionar ao aplicativo não receberão a permissão de build. No entanto, as permissões existentes nos conjuntos de dados subjacentes não serão alteradas. Você pode usar a interface do usuário fornecida para remover a permissão de build manualmente de usuários do aplicativo que não deveriam mais ter a permissão. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Ao marcar a opção para **Permitir que os usuários se conectem aos conjuntos de dados subjacentes do aplicativo**, você dá aos usuários do aplicativo a *permissão de build* nesses conjuntos de dados. Com essa permissão, eles podem executar várias ações importantes:
 
-## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>Como permitir que usuários façam uma cópia dos relatórios no aplicativo
-Ao marcar a opção **Permitir que os usuários façam uma cópia dos relatórios neste aplicativo**, você permite que os usuários salvem relatórios do aplicativo no Meu Workspace deles. Em seguida, eles podem personalizar os relatórios de acordo com suas necessidades exclusivas. Essa opção exige que **Permitir que todos os usuários se conectem aos conjuntos de dados subjacentes do aplicativo usando a permissão de build** esteja habilitada. Essa funcionalidade se comporta como a nova funcionalidade [Copiar relatórios de outros workspaces](service-datasets-copy-reports.md).
+- [Usar os conjuntos de dados de aplicativo](service-datasets-across-workspaces.md) como base para os relatórios deles.
+- Pesquisar esses conjuntos de dados no Power BI Desktop e na experiência de obtenção de dados no serviço do Power BI.
+- Criar relatórios e dashboards com base nesses conjuntos de dados.
+
+Ao desmarcar essa opção, novos usuários que você adicionar ao aplicativo não receberão a permissão de build. No entanto, para usuários existentes do aplicativo, as permissões nos conjuntos de dados subjacentes não serão alteradas. Você pode remover a permissão de build manualmente de usuários do aplicativo que não deveriam mais ter a permissão. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+
+## <a name="allow-users-to-copy-reports"></a>Permitir que os usuários copiem relatórios
+
+Ao marcar a opção **Permitir que os usuários façam uma cópia dos relatórios neste aplicativo**, você permite que os usuários salvem relatórios do aplicativo no Meu Workspace deles ou em outro workspace. Para fazer uma cópia, os usuários precisam de uma licença Pro, mesmo que o relatório original esteja em um workspace em uma capacidade Premium. Em seguida, eles podem personalizar os relatórios de acordo com suas necessidades exclusivas. Você precisa selecionar a opção **Permitir que todos os usuários se conectem aos conjuntos de dados subjacentes do aplicativo usando a permissão de build** primeiro. Ao selecionar essas opções, você está habilitando a nova funcionalidade [copiar relatórios de outros workspaces](service-datasets-copy-reports.md).
 
 ## <a name="unpublish-an-app"></a>Cancelar a publicação de um aplicativo
-Qualquer membro de um workspace do aplicativo pode cancelar a publicação do aplicativo.
+Qualquer membro de um workspace pode cancelar a publicação do aplicativo.
 
 >[!IMPORTANT]
 >Quando você cancela a publicação de um aplicativo, os usuários do aplicativo perdem as personalizações. Eles perdem todos os indicadores, as assinaturas ou os comentários pessoais associados ao conteúdo do aplicativo. Só cancele a publicação de um aplicativo se você precisar removê-la.
 > 
-> 
 
-* No workspace do aplicativo, selecione as reticências ( **...** ) no canto superior direito &gt; **Cancelar a publicação do aplicativo**.
+* Em um workspace, selecione as reticências ( **...** ) no canto superior direito > **Cancelar a publicação do aplicativo**.
   
      ![Cancelar a publicação do aplicativo](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
-Essa ação desinstala o aplicativo em todos para os quais você o distribuiu e eles não terão mais acesso ao aplicativo. Ela não exclui o workspace do aplicativo ou seu conteúdo.
+Essa ação desinstala o aplicativo em todos para os quais você o distribuiu e eles não terão mais acesso ao aplicativo. Ela não exclui o workspace nem o conteúdo dele.
 
 ## <a name="view-your-published-app"></a>Exibir o aplicativo publicado
 
@@ -189,7 +192,7 @@ Quando os consumidores do aplicativo abrem seu aplicativo, eles veem a navegaç�
 ![Aplicativo com navegação](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Criar um workspace de aplicativo](service-create-workspaces.md)
+* [Criar um workspace](service-create-workspaces.md)
 * [Instalar e usar aplicativos no Power BI](consumer/end-user-apps.md)
 * [Aplicativos do Power BI para serviços externos](service-connect-to-services.md)
 * [Portal de administração do Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)

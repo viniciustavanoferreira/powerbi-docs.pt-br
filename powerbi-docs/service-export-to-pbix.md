@@ -1,5 +1,5 @@
 ---
-title: Como exportar um relatório do serviço do Power BI para o Power BI Desktop (versão prévia)
+title: Baixar um relatório do serviço do Power BI para o Power BI Desktop (versão prévia)
 description: Baixar um relatório do serviço do Power BI para um arquivo do Power BI Desktop
 author: maggiesMSFT
 manager: kfile
@@ -7,72 +7,69 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 296970466505f01ae9ad11f994fe2008563f4884
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720212"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994821"
 ---
-# <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportar um relatório do serviço do Power BI para o Desktop (visualização)
-No Power BI Desktop, você pode exportar (também conhecido como *baixar*) um relatório para o serviço do Power BI ao salvá-lo e selecionar **Publicar**. Também é possível exportar de volta e baixar um relatório do serviço do Power BI para o Desktop. A extensão para os arquivos exportados, em qualquer direção, é *.pbix*.
+# <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Baixar um relatório do serviço do Power BI para o Power BI Desktop (versão prévia)
+No Power BI Desktop, você pode publicar um relatório (um arquivo *.pbix*) do seu computador local no serviço do Power BI. Os relatórios do Power BI também podem ir para a outra direção: Você pode baixar um relatório do serviço do Power BI para o Power BI Desktop. A extensão de um relatório do Power BI, em ambos os casos, é. pbix.
 
 Há algumas limitações e considerações a serem feitas, que são abordadas neste artigo.
 
 ![Lista suspensa de arquivos](media/service-export-to-pbix/power-bi-file-export.png)
 
-## <a name="download-the-report-as-a-pbix"></a>Baixar o relatório como um .pbix
+## <a name="download-the-report-as-a-pbix-file"></a>Baixar o relatório como um arquivo .pbix
+
+Você só pode baixar relatórios [criados com o Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) após 23 de novembro de 2016 e atualizados desde então. Se ele foi criado antes disso, a opção de menu **Baixar relatório** no serviço do Power BI service ficará esmaecida.
+
 Para baixar o arquivo .pbix, siga estas etapas:
 
-1. No **serviço do Power BI**, abra o relatório que você deseja baixar no [modo de exibição de Edição](consumer/end-user-reading-view.md).
-2. Na barra de menus, selecione **Arquivo > Baixar relatório**.
-   
-   > [!NOTE]
-   > O relatório deve ter sido [criado com o Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) após 23 de novembro de 2016 – e atualizado desde então – para que você consiga baixá-lo. Caso contrário, a opção de menu *Baixar Relatório* no serviço do Power BI ficará acinzentada.
-   > 
-   > 
-3. Durante a criação do arquivo .pbix, uma faixa de status exibe o progresso. Quando o arquivo estiver pronto, você será solicitado a abrir ou salvar o arquivo .pbix. O nome do arquivo corresponde ao título do relatório.
-   
-    ![abrir, salvar ou cancelar](media/service-export-to-pbix/power-bi-save-pbix.png)
-   
-    Agora, existe a opção de abrir o arquivo .pbix no serviço do Power BI (app.powerbi.com) ou no Power BI Desktop.     
-4. Para abrir imediatamente o relatório no Desktop, selecione **Abrir**. Para salvar o arquivo em um local específico, selecione **Salvar > Salvar Como**. [Instale o Power BI Desktop](desktop-get-the-desktop.md), caso ainda não tenha feito isso.
-   
-    Ao abrir o relatório no Desktop, uma mensagem de aviso pode ser exibida informando que alguns recursos disponíveis no relatório do serviço do Power BI talvez não estejam disponíveis no Desktop.
-   
-    ![caixa de diálogo de aviso](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
+1. No serviço do Power BI, abra o relatório que você deseja baixar no [Modo de exibição de edição](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view).
 
-5. Os editores de relatórios do Power BI Desktop e do serviço do Power BI são muito semelhantes.  
+2. Na barra de navegação superior, selecione **Arquivo > Baixar relatório**.
    
-    ![Editor de relatório de área de trabalho](media/service-export-to-pbix/power-bi-desktop.png)
+3. Enquanto o relatório está baixando, uma faixa de status exibe o progresso. Quando o arquivo estiver pronto, você será perguntado onde deseja salvar o arquivo .pbix. O nome padrão do arquivo corresponde ao título do relatório.
+   
+4. [Instale o Power BI Desktop](desktop-get-the-desktop.md), caso ainda não tenha feito isso e abra o arquivo .pbix no Power BI Desktop.
+   
+    Ao abrir o relatório no Pober BI Desktop, uma mensagem de aviso pode ser exibida informando que alguns recursos disponíveis no relatório do serviço do Power BI não estão disponíveis no Power BI Desktop.
+   
+    ![Caixa de diálogo de aviso](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
+
+5. O editor de relatório do no Power BI Desktop é semelhante ao editor de relatório no serviço do Power BI.  
+   
+    ![Editor de relatórios do Power BI Desktop](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
-Há algumas considerações e limitações importantes associadas ao download (exportação) de um arquivo *.pbix* no serviço do Power BI.
+Há algumas considerações e limitações importantes associadas ao download de um arquivo .pbix no serviço do Power BI.
 
-* Para baixar o arquivo, você deve ter acesso de edição ao relatório
-* O relatório deve ter sido criado usando o **Power BI Desktop** e ter sido *publicado* no **serviço Power BI**, ou o .pbix deve ter sido *carregado* no serviço.
-* Os relatórios devem ser publicados ou atualizados após 23 de novembro de 2016. Relatórios publicados antes dessa data não poderão ser baixados.
-* Esse recurso não funcionará com relatórios criados originalmente no **serviço do Power BI**, incluindo pacotes de conteúdo.
-* Use sempre a última versão do **Power BI Desktop** ao abrir os arquivos baixados. Talvez não seja possível abrir os arquivos *.pbix* baixados em versões não atuais do **Power BI Desktop**.
-* Se o administrador tiver desativado a capacidade de exportar dados, esse recurso não estará visível no **serviço do Power BI**.
-* Conjunto de dados com a atualização incremental não pode ser baixado para um arquivo *.pbix*.
+* Para baixar o arquivo, você deve ter acesso de edição ao relatório.
+* O relatório deve ter sido criado usando o Power BI Desktop e ter sido *publicado* no serviço do Power BI ou o .pbix deve ter sido *carregado* nele.
+* Os relatórios devem ser publicados ou atualizados após 23 de novembro de 2016. Os relatórios publicados anteriormente não podem ser baixados.
+* Esse recurso não funcionará com relatórios e pacotes de conteúdo criados originalmente no serviço do Power BI.
+* Use sempre a última versão do Power BI Desktop ao abrir os arquivos baixados. Talvez não seja possível abrir os arquivos .pbix baixados em versões não atuais do Power BI Desktop.
+* Se o administrador tiver desativado a capacidade de baixar dados, esse recurso não estará visível no serviço do Power BI.
+* Conjuntos de dados com a atualização incremental não podem ser baixados para um arquivo .pbix.
 
 ## <a name="next-steps"></a>Próximas etapas
 Assista ao vídeo de um minuto **Guy in a Cube** sobre esse recurso:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>
 
-Além disso, estes são alguns outros artigos que podem ajudá-lo a saber como usar o **serviço do Power BI**:
+Veja alguns outros artigos que podem ajudá-lo a aprender a usar o serviço do Power BI:
 
 * [Relatórios no Power BI](consumer/end-user-reports.md)
 * [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
 
-Depois que você instalar o **Power BI Desktop**, o conteúdo a seguir poderá ajudá-lo a colocar ele em funcionamento rapidamente:
+Depois que você instalar o Power BI Desktop, confira o artigo a seguir para ajudá-lo a colocá-lo em funcionamento rapidamente:
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)   
+Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808235"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490378"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Inserir conteúdo do Power BI em um aplicativo para sua organização
 
@@ -35,7 +35,7 @@ Para começar, você precisa ter:
 * Uma [conta do Power BI Pro](../service-self-service-signup-for-power-bi.md).
 * Uma assinatura da [Microsoft Azure](https://azure.microsoft.com/).
 * Você precisa ter seu próprio [locatário do Azure Active Directory](create-an-azure-active-directory-tenant.md) configurado.
-* Para inserir relatórios paginados, você precisa pelo menos de uma capacidade A4/P1, confira [Qual o tamanho da capacidade Premium necessária para relatórios paginados?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
+* Para inserir relatórios paginados, você precisa pelo menos de uma capacidade P1, confira [Qual o tamanho da capacidade Premium necessária para relatórios paginados?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
 
 Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 
@@ -45,7 +45,7 @@ Caso você não tenha uma assinatura do Azure, crie uma [conta gratuita](https:/
 
 Antes de começar a inserir relatórios, dashboard ou blocos no seu aplicativo, você precisará verificar se o ambiente permite inserção com o Power BI.
 
-Você pode examinar a [Ferramenta de configuração de integração](https://aka.ms/embedsetup/UserOwnsData) para que possa iniciar rapidamente e baixar um aplicativo de exemplo que ajuda a criar um ambiente e a inserir um relatório. No caso de inserir um relatório paginado, é necessário atribuir pelo menos a capacidade A4/P1 ao workspace do aplicativo criado.
+Você pode examinar a [Ferramenta de configuração de integração](https://aka.ms/embedsetup/UserOwnsData) para que possa iniciar rapidamente e baixar um aplicativo de exemplo que ajuda a criar um ambiente e a inserir um relatório. No caso de inserir um relatório paginado, é necessário atribuir pelo menos a capacidade P1 ao workspace do aplicativo criado.
 
 Se você optar por configurar o ambiente manualmente, poderá continuar abaixo.
 
@@ -83,7 +83,7 @@ Você pode criar seus relatórios e conjuntos de dados usando o Power BI Desktop
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Criar e publicar relatórios paginados
 
-É possível criar relatórios paginados usando o [Construtor de Relatórios do Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Será possível [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) para um workspace do aplicativo atribuído a uma capacidade pelo menos A4/P1. O usuário final que carrega o relatório precisa ter uma licença do Power BI Pro para publicar em um workspace do aplicativo.
+Você pode criar seus relatórios paginados usando o [Construtor de Relatórios do Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Em seguida, você pode [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) em um workspace de aplicativo atribuído a pelo menos uma capacidade P1. O usuário final que carrega o relatório precisa ter uma licença do Power BI Pro para publicar em um workspace do aplicativo.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Insira o conteúdo usando o aplicativo de exemplo
 
@@ -152,9 +152,6 @@ Preencha as informações de **reportId** com o GUID de relatório do Power BI. 
 URL do relatório do Power BI <br>
 
 ![reportId do PBI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-URL do relatório paginado <br>
-
 
 
 URL do relatório paginado<br>
@@ -384,7 +381,7 @@ Agora que você terminou o desenvolvimento do seu aplicativo, é hora de conferi
 
 ### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
 
-Ao criar uma capacidade dedicada, você pode usufruir de um recurso dedicado ao conteúdo no workspace do aplicativo. Para relatórios paginados, você deve fazer backup do workspace de aplicativo com a capacidade de pelo menos A4/P1. É possível criar uma capacidade dedicada usando o [Power BI Premium.](../service-premium-what-is.md)
+Ao criar uma capacidade dedicada, você pode usufruir de um recurso dedicado ao conteúdo no workspace do aplicativo. Para relatórios paginados, você precisa dar suporte ao workspace do aplicativo com, pelo menos, uma capacidade P1. Você pode criar uma capacidade dedicada usando o [Power BI Premium](../service-premium-what-is.md).
 
 A tabela a seguir lista os SKUs do Power BI Premium disponíveis no [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -425,7 +422,7 @@ Administradores globais ou administradores do serviço do Power BI podem ativar 
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Neste tutorial, você aprendeu a inserir conteúdo do Power BI em um aplicativo usando a conta da organização do Power BI. Agora, você pode tentar inserir o conteúdo do Power BI em um aplicativo usando aplicativos. Também é possível tentar inserir conteúdo do Power BI para seus clientes (não compatível ainda para inserir relatórios paginados):
+Neste tutorial, você aprendeu a inserir conteúdo do Power BI em um aplicativo usando a conta da organização do Power BI. Agora, você pode tentar inserir o conteúdo do Power BI em um aplicativo usando aplicativos. Também é possível tentar inserir conteúdo do Power BI para seus clientes (ainda não há suporte para inserir relatórios paginados):
 
 > [!div class="nextstepaction"]
 > [Inserir de aplicativos](embed-from-apps.md)

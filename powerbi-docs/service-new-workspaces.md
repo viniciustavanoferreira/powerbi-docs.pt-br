@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418668"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530485"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho em novos espaços de trabalho no Power BI
 
@@ -36,7 +36,7 @@ Com os novos espaços de trabalho, é possível:
 Quando você cria um dos novos workspaces, você não está criando um grupo do Office 365 associado e subjacente. Toda a administração do workspace está no Power BI, não no Office 365. Com a nova experiência de espaço de trabalho, agora você pode adicionar um grupo do Office 365 à lista de acesso do espaço de trabalho para continuar gerenciando o acesso do usuário ao conteúdo por meio de grupos do Office 365.
 
 ## <a name="administering-new-workspace-experience-workspaces"></a>Administrar as novas experiências de espaços de trabalho
-A administração das novas experiências de espaços de trabalho está disponível agora no Power BI, ou seja, os administradores do Power BI decidem quem pode criar espaços de trabalho em uma organização. Eles também podem gerenciar e recuperar espaços de trabalho. Para fazer isso, eles precisam usar o portal de administração do Power BI ou os CmdLets do PowerShell. Para espaços de trabalho clássicos com base em grupos do Office 365, a administração continuará a ser feita no portal de administração do Office 365 e no Azure Active Directory.
+A administração das novas experiências de espaços de trabalho está disponível agora no Power BI, ou seja, os administradores do Power BI decidem quem pode criar espaços de trabalho em uma organização. Eles também podem gerenciar e recuperar workspaces usando o portal de administração do Power BI ou cmdlets do PowerShell. Para espaços de trabalho clássicos com base em grupos do Office 365, a administração continuará a ser feita no portal de administração do Office 365 e no Azure Active Directory.
 
 Em **Configurações de espaços de trabalho**, no portal de administração, os administradores podem usar a configuração Criar espaços de trabalho (nova experiência de espaços de trabalho) para permitir que todas as pessoas ou ninguém em uma organização crie uma nova experiência de espaços de trabalho. Eles também podem limitar a criação de membros de grupos de segurança específicos.
 
@@ -59,9 +59,9 @@ Para conceder acesso a um novo espaço de trabalho, adicione grupos de usuários
 
 As funções permitem que você gerencie quem pode fazer o que em um workspace para que as equipes possam colaborar. Os novos workspaces permitem que você atribua funções a indivíduos e a grupos de usuários: grupos de segurança, grupos do Office 365 e listas de distribuição. 
 
-Ao atribuir funções a um grupo de usuários, os indivíduos no grupo têm acesso ao conteúdo. Se você aninhar grupos de usuários, todos os usuários contidos terão permissão. Um usuário que está em vários grupos de usuários com diferentes funções obtém o nível mais alto de permissão concedido a eles. 
+Ao atribuir funções a um grupo de usuários, os indivíduos no grupo têm acesso ao conteúdo. Se você aninhar grupos de usuários, todos os usuários contidos terão permissão.
 
-Os novos espaços de trabalho oferecem quatro funções: administradores, membros, colaboradores e visualizadores.
+Estas são as capacidades das quatro funções: administradores, membros, colaboradores e visualizadores.
 
 |Funcionalidade   | Administrador  | Membro  | Colaborador  | Visualizador |
 |---|---|---|---|---|
@@ -74,23 +74,26 @@ Os novos espaços de trabalho oferecem quatro funções: administradores, membro
 | Criar, editar e excluir conteúdo no workspace.  |  X | X  | X  |   |
 | Publicar relatórios no workspace, excluir conteúdo.  |  X | X  | X  |   |
 | Exiba um item. |  X | X  | X  | X  |
- 
+| Criar um relatório em outro workspace com base em um conjunto de dados neste workspace. |  X | X  | X  | X <sup>1</sup>  |
+| Copiar um relatório. | X | X | X | X <sup>1</sup> |
+
+**1** Requer uma licença do Power BI Pro e [permissão de Build para conjuntos de dados](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
  
 ## <a name="licensing"></a>Licenças
 Todas as pessoas que você adiciona a um espaço de trabalho na capacidade compartilhada precisam de uma licença do Power BI Pro. No workspace, esses usuários podem colaborar nos dashboards e relatórios que você planeja publicar para um público-alvo maior ou até mesmo para toda a organização. 
 
 Para distribuir conteúdo a outras pessoas da sua organização, atribua licenças do Power BI Pro a esses usuários ou coloque o workspace em uma capacidade do Power BI Premium.
 
-Quando o espaço de trabalho está em uma capacidade do Power BI Premium, os usuários com a função de visualizador podem acessar o espaço de trabalho, mesmo se não tiverem uma licença do Power BI Pro. No entanto, se você atribuir a esses usuários uma função superior como Administrador, Membro ou Colaborador, eles não poderão acessar o espaço de trabalho. Ele serão solicitados a iniciar uma avaliação do Pro ao tentarem acessar o espaço de trabalho. Para aproveitar a capacidade de Visualizador para usuários sem licenças do Pro, verifique se os usuários com a função Visualizador não estão em outras funções do espaço de trabalho, individualmente ou por meio de um grupo de usuários. 
+Quando o espaço de trabalho está em uma capacidade do Power BI Premium, os usuários com a função de visualizador podem acessar o espaço de trabalho, mesmo se não tiverem uma licença do Power BI Pro. No entanto, se você atribuir a esses usuários uma função superior, como Administrador, Membro ou Colaborador, será solicitado que eles iniciem uma Avaliação do Pro quando tentarem acessar o workspace. Para aproveitar a capacidade de Visualizador para usuários sem licenças do Pro, verifique se os usuários com a função Visualizador não estão em outras funções do espaço de trabalho, individualmente ou por meio de um grupo de usuários. 
 
 > [!NOTE]
-> A publicação de relatórios em uma nova experiência de espaço de trabalho tem a imposição mais rigorosa das regras de licenciamento existentes. Os usuários que tentarem publicar do Power BI Desktop ou de outras ferramentas de cliente sem uma licença do Pro verão o erro "Somente usuários com licenças do Power BI Pro podem publicar neste espaço de trabalho."
+> A publicação de relatórios em uma nova experiência de espaço de trabalho tem a imposição mais rigorosa das regras de licenciamento existentes. Usuários que tentarem publicar do Power BI Desktop ou de outras ferramentas de cliente sem uma licença do Pro verão o erro "Somente usuários com licenças do Power BI Pro podem publicar neste workspace."
 
-## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Em que aspectos os novos workspaces são diferentes dos workspaces atuais?
+## <a name="how-the-new-workspaces-are-different"></a>O que é diferente nos novos workspaces
 
-Com os novos workspaces, estamos reformulando alguns recursos. Aqui estão as alterações que você pode esperar como permanentes. 
+Com os novos workspaces, reformulamos alguns recursos. Aqui estão as alterações que você pode esperar como permanentes. 
 
-* Criar esses espaços de trabalho não criará grupos do Office 365, como os espaços de trabalho clássicos fazem. No entanto, agora você pode usar um grupo do Office 365 para dar aos usuários acesso ao espaço de trabalho, atribuindo a ele uma função. 
+* Criar esses workspaces não cria grupos do Office 365, como ocorre com os workspaces clássicos. No entanto, agora você pode usar um grupo do Office 365 para dar aos usuários acesso ao espaço de trabalho, atribuindo a ele uma função. 
 * Nos espaços de trabalho clássicos, é possível adicionar apenas indivíduos às listas de membros e administradores. Nos novos workspaces, é possível adicionar vários grupos de segurança do AD, listas de distribuição ou grupos do Office 365 a essas listas para facilitar o gerenciamento de usuários. 
 - É possível criar um pacote de conteúdo organizacional de um espaço de trabalho clássico. Não é possível criar um dos novos workspaces.
 - É possível consumir um pacote de conteúdo organizacional de um espaço de trabalho clássico. Não é possível consumir um dos novos workspaces.

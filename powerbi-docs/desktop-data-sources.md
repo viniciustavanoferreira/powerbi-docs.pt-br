@@ -7,29 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/15/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324833"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560875"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 O Power BI Desktop permite se conectar a dados de várias fontes diferentes. Veja uma lista completa das fontes de dados disponíveis na parte inferior desta página.
 
 Para se conectar a dados, selecione **Obter Dados** na faixa de opções **Página Inicial** . Selecionar a seta para baixo ou o texto **Obter Dados** no botão exibe o menu de tipos de dados **Mais Comuns** mostrado na imagem a seguir:
 
-![Obter Dados no Power BI Desktop](media/desktop-data-sources/data-sources_01.png)
+![Obter Dados no Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
 Selecionar **Mais...** no menu **Mais Comuns** exibe a janela **Obter Dados**. Você também pode abrir a janela **Obter Dados** (e ignorar o menu **Mais Comuns** ) selecionando diretamente o **botão do ícone** **Obter Dados** .
 
-![Botão Obter Dados](media/desktop-data-sources/data-sources_02.png)
+![Botão Obter Dados](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> A equipe do Power BI está sempre expandindo as fontes de dados disponíveis para o **Power BI Desktop** e o **serviço do Power BI**. Assim, você verá com frequência as versões anteriores das fontes de dados de trabalho em andamento marcadas como *Beta* ou *Visualização*. Toda fonte de dados marcada como *Beta* ou *Visualização* tem suporte e funcionalidade limitados e não deve ser usada em ambientes de produção.
+> A equipe do Power BI está sempre expandindo as fontes de dados disponíveis para o **Power BI Desktop** e o **serviço do Power BI**. Assim, você verá com frequência as versões anteriores das fontes de dados de trabalho em andamento marcadas como *Beta* ou *Visualização*. Toda fonte de dados marcada como *Beta* ou *Visualização* tem suporte e funcionalidade limitados e não deve ser usada em ambientes de produção. 
+
+> Além disso, qualquer fonte de dados marcada como *Beta* ou *Versão prévia* para o **Power BI Desktop** pode não estar disponível para uso no **serviço do Power BI** ou outros serviços da Microsoft até que a fonte de dados esteja em GA (em disponibilidade geral).
 
 ## <a name="data-sources"></a>Fontes de Dados
 Tipos de dados são organizados nas categorias a seguir:
@@ -56,7 +58,7 @@ A categoria **Arquivo** fornece as seguintes conexões de dados:
 
 A imagem a seguir mostra a janela **Obter Dados** para **Arquivo**.
 
-![Obter Dados > Arquivo](media/desktop-data-sources/data-sources_03.png)
+![Obter Dados > Arquivo](media/desktop-data-sources/data-sources-03.png)
 
 A categoria **Banco de dados** fornece as seguintes conexões de dados:
 
@@ -95,16 +97,18 @@ A categoria **Banco de dados** fornece as seguintes conexões de dados:
 
 A imagem a seguir mostra a janela **Obter Dados** para **Banco de dados**.
 
-![Obter Dados > Bancos de Dados](media/desktop-data-sources/data-sources_04.png)
+![Obter Dados > Bancos de Dados](media/desktop-data-sources/data-sources-04.png)
 
-A categoria **Power BI** fornece as seguintes conexões de dados:
+A categoria **Power Platform** fornece as seguintes conexões de dados:
 
 * Conjuntos de dados do Power BI
 * Fluxos de dados do Power BI
+* Common Data Service
+* Fluxos de dados do Power Platform (Beta)
 
-A imagem a seguir mostra a janela **Obter Dados** do **Power BI**.
+A imagem a seguir mostra a janela **Obter Dados** do **Power Platform**.
 
-![Obter Dados > Power BI](media/desktop-data-sources/data-sources_05.png)
+![Obter Dados > Power BI](media/desktop-data-sources/data-sources-05.png)
 
 A categoria **Azure** fornece as seguintes conexões de dados:
 
@@ -113,7 +117,7 @@ A categoria **Azure** fornece as seguintes conexões de dados:
 * Banco de Dados do Azure Analysis Services
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
-* Azure Cosmos DB (Beta)
+* Azure Cosmos DB
 * Azure Data Lake Storage Gen2 (beta)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -124,7 +128,7 @@ A categoria **Azure** fornece as seguintes conexões de dados:
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
-![Obter Dados > Azure](media/desktop-data-sources/data-sources_06.png)
+![Obter Dados > Azure](media/desktop-data-sources/data-sources-06.png)
 
 A categoria **Serviços Online** fornece as seguintes conexões de dados:
 
@@ -134,7 +138,6 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Central do Microsoft Dynamics 365 Business (local)
-* Common Data Service
 * Microsoft Azure Consumption Insights (Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
@@ -161,6 +164,7 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * tyGraph (Beta)
 * Webtrends (Beta)
 * ZenDesk (Beta)
+* Dynamics 365 Customer Insights (beta)
 * Fonte de dados do Emigo (Beta)
 * Entersoft Business Suite (Beta)
 * Industrial App Store
@@ -168,11 +172,11 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * Segurança do Microsoft Graph (Beta)
 * Quick Base
 * TeamDesk (Beta)
-* Dynamics 365 Customer Insights (beta)
+
 
 A imagem a seguir mostra a janela **Obter Dados** para **Online Services**.
 
-![Obter Dados > Serviços Online](media/desktop-data-sources/data-sources_07.png)
+![Obter Dados > Serviços Online](media/desktop-data-sources/data-sources-07.png)
 
 A categoria **Outros** fornece as seguintes conexões de dados:
 
@@ -200,7 +204,7 @@ A categoria **Outros** fornece as seguintes conexões de dados:
 
 A imagem a seguir mostra a janela **Obter Dados** para **Outros**.
 
-![Obter Dados > Outros](media/desktop-data-sources/data-sources_08.png)
+![Obter Dados > Outros](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Neste momento, não é possível se conectar a fontes de dados personalizadas protegidas usando o Azure Active Directory.
@@ -208,15 +212,15 @@ A imagem a seguir mostra a janela **Obter Dados** para **Outros**.
 ## <a name="connecting-to-a-data-source"></a>Conectando a uma Fonte de Dados
 Para se conectar a uma fonte de dados, selecione a fonte de dados na janela **Obter Dados** e selecione **Conectar**. Na imagem a seguir, a opção **Web** é selecionada na categoria de conexão de dados **Outros** .
 
-![Conecte-se à Web](media/desktop-data-sources/data-sources_08.png)
+![Conecte-se à Web](media/desktop-data-sources/data-sources-08.png)
 
 É exibida uma janela de conexão específica para o tipo de conexão de dados usado. Se as credenciais forem necessárias, será solicitado que você as forneça. A imagem a seguir mostra uma URL sendo inserida para conectar a uma fonte de dados da Web.
 
-![URL da Web de entrada](media/desktop-data-sources/datasources_fromwebbox.png)
+![URL da Web de entrada](media/desktop-data-sources/datasources-fromwebbox.png)
 
 Quando a URL ou as informações de conexão de recurso forem inseridas, selecione **OK**. O Power BI Desktop estabelece a conexão à fonte de dados e apresenta as fontes de dados disponíveis no **Navegador**.
 
-![Tela do navegador](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![Tela do navegador](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
 Você pode carregar os dados selecionando o botão **Carregar** na parte inferior do painel **Navegador** , ou editar a consulta antes de carregar dados selecionando o botão **Editar Consulta** .
 

@@ -7,19 +7,22 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567404"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530619"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outros workspaces (versão prévia)
 
-Quando você encontrar um relatório de sua preferência, em um espaço de trabalho ou aplicativo, poderá fazer uma cópia dele e salvá-lo em um espaço de trabalho diferente. Em seguida, você pode modificar esse relatório, adicionando ou excluindo visuais e outros elementos. Você não precisa se preocupar com a criação do modelo de dados. Ele já foi criado para você. Além disso, é muito mais fácil modificar um relatório existente do que começar do zero. No entanto, você não pode publicar sua cópia do relatório em um aplicativo a partir do novo espaço de trabalho. Confira a lista de outras [considerações e limitações](service-datasets-across-workspaces.md#considerations-and-limitations) no artigo "Usar conjuntos de dados em espaço de trabalhos".
+Quando encontrar um relatório de sua preferência em um workspace ou aplicativo, você poderá fazer uma cópia dele e salvá-lo em um workspace diferente. Em seguida, você pode modificar esse relatório, adicionando ou excluindo visuais e outros elementos. Você não precisa se preocupar com a criação do modelo de dados. Ele já foi criado para você. Além disso, é muito mais fácil modificar um relatório existente do que começar do zero. No entanto, ao criar um aplicativo do novo workspace, algumas vezes você não pode publicar sua cópia do relatório no aplicativo. Para ver detalhes, confira [Considerações e limitações no artigo "Usar conjuntos de dados em workspaces"](service-datasets-across-workspaces.md#considerations-and-limitations).
+
+> [!NOTE]
+> Para fazer uma cópia, você precisa de uma licença Pro, mesmo que o relatório original esteja em um workspace em uma capacidade Premium.
 
 ## <a name="save-a-copy-of-a-report"></a>Salvar uma cópia de um relatório
 

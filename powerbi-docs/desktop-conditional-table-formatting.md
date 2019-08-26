@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222274"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561068"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formatação condicional em tabelas 
 Com a formatação condicional para tabelas, você pode especificar cores personalizadas para as células com base nos valores das células ou em outros valores ou campos, inclusive usando cores de gradiente. Também é possível exibir valores de célula com barras de dados. 
@@ -130,11 +130,17 @@ E, em seguida, é possível obter resultados como a matriz a seguir.
 
 Há muito mais variações que você pode criar apenas usando sua imaginação e um pouco do DAX.
 
-Você pode usar qualquer um dos valores listados na especificação de cor CSS no [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) para colorir os elementos visuais:
-* 3, 6 ou 8 hex de dígito códigos, por exemplo, #3E4AFF. Certifique-se de que incluir o símbolo # no início do código. "3E4AFF" não é aceito. 
-* Por exemplo, RGBA (234, 234, 234, 0,5) de valores de RGB ou RGBA
-* HSL ou HSLA, por exemplo, valores HSLA (123, 75%, 75%, 0,5)
-* Por exemplo, nas cores verde, SkyBlue, PeachPuff de nomes de cor 
+Você pode usar qualquer um dos valores listados na especificação de cor de CSS em [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/) para colorir seus visuais:
+* Códigos hexadecimais de 3, 6 ou 8 dígitos, por exemplo, #3E4AFF. Verifique se você incluiu o símbolo # no início do código. "3E4AFF" não é aceito. 
+* Valores RGB ou RGBA, por exemplo, RGBA (234, 234, 234, 0.5)
+* Valores HSL ou HSLA, por exemplo, HSLA (123, 75%, 75%, 0.5)
+* Nomes de cores, por exemplo, Green, SkyBlue, PeachPuff 
+
+## <a name="considerations-and-limitations"></a>Considerações e limitações
+Há algumas considerações para ter em mente ao trabalhar com formatação condicional de tabelas:
+
+* A formatação condicional é aplicada somente aos valores de um visual de **Matriz** e não se aplica a nenhum subtotal ou total geral. 
+
 
 ## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações, consulte o seguinte artigo:  

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/15/2018
+ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 27b3aad6f1a96c069f56ed68823b71b38115a98a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770638"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994811"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurar o acesso do aplicativo móvel do Power BI iOS a um servidor de relatório remotamente
 
@@ -63,8 +63,10 @@ Veja um exemplo de definição de política de configuração usando o Intune.
 Agora, é possível exibir e interagir com as KPIs e os relatórios do Power BI armazenados no servidor de relatório.
 
 ## <a name="next-steps"></a>Próximas etapas
-[Visão geral do administrador](admin-handbook-overview.md)  
-[Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
+
+- [Habilitar acesso remoto ao Power BI Mobile com o Proxy de Aplicativo do Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [Visão geral do administrador](admin-handbook-overview.md)  
+- [Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

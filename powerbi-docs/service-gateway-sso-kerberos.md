@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624052"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655186"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Use o Kerberos para logon único (SSO) do Power BI para fontes de dados locais
 
@@ -192,7 +192,7 @@ Agora que você entende como o Kerberos funciona com um gateway, pode configurar
 1. Baixe o CommonCryptoLib (sapcrypto.dll) versão **8.5.25 ou posterior** do SAP Launchpad e copie-o para uma pasta no computador do gateway. No mesmo diretório em que você copiou sapcrypto.dll, crie um arquivo chamado sapcrypto.ini, com o seguinte conteúdo:
 
     ```
-    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ccl/snc/enable_kerberos_in_client_role = 1
     ```
 
     O arquivo .ini contém informações de configuração necessárias do CommonCryptoLib para habilitar o SSO no cenário de gateway.
@@ -242,7 +242,7 @@ Se não for possível atualizar o relatório no serviço do Power BI, use o rast
 
     ```
     ccl/trace/level=5
-    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ccl/trace/directory=<drive>:\logs\sectrace
     ```
 
     Altere a opção _ccl/trace/directory_ para um local em que os membros do grupo de usuários autenticados possam gravar. Como alternativa, crie um arquivo .ini para alterar esse comportamento. No mesmo diretório de sapcrypto.ini e sapcrypto.dll, crie um arquivo chamado sectrace.ini, com o conteúdo a seguir.  Substitua a opção DIRECTORY por um local no computador em que o usuário autenticado possa gravar:
@@ -250,7 +250,7 @@ Se não for possível atualizar o relatório no serviço do Power BI, use o rast
     ```
     LEVEL = 5
     
-    DIRECTORY = \\<drive\\>:\logs\sectrace
+    DIRECTORY = <drive>:\logs\sectrace
     ```
 
     Agora, reproduza o problema e verifique se o local apontado por DIRECTORY contém arquivos de rastreamento. Não se esqueça de desativar o rastreamento CPIC e CCL quando terminar.

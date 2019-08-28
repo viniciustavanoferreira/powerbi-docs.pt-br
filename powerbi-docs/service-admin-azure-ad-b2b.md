@@ -35,7 +35,7 @@ Você pode convidar usuários que usam qualquer endereço de email, incluindo co
 
 ## <a name="invite-guest-users"></a>Convidar usuários convidados
 
-Os usuários convidados só precisam de convites na primeira vez que você os convida para sua organização. Há duas maneiras de convidar usuários: convites planejados e convites ad-hoc.
+Os usuários convidados só precisam de convites na primeira vez que você os convida para sua organização. Há duas maneiras de convidar usuários: convites planejados e convites ad hoc.
 
 ### <a name="planned-invites"></a>Convites planejados
 
@@ -71,7 +71,7 @@ O usuário convidado receberá um email indicando que você compartilhou o aplic
 
 ![Captura de tela de email para aplicativo compartilhado com o usuário convidado](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
-O usuário convidado deverá entrar com o endereço de email da organização. Eles receberão uma solicitação para aceitar o convite depois de entrar. Depois de entrar, o aplicativo é aberto para o usuário convidado. Para retornar ao aplicativo, basta marcar o link ou salvar o email.
+O usuário convidado deverá entrar com o endereço de email da organização. Ele receberá uma solicitação para aceitar o convite depois de entrar. Depois de entrar, o aplicativo é aberto para o usuário convidado. Para retornar ao aplicativo, basta marcar o link ou salvar o email.
 
 ## <a name="licensing"></a>Licenças
 
@@ -117,9 +117,9 @@ Para ajudar esses usuários a fazerem logon no Power BI, forneça a eles a URL d
     * Publicação direta do Power BI Desktop para o serviço do Power BI
     * Os usuários convidados não podem usar o Power BI Desktop para se conectar a conjuntos de dados de serviço no serviço do Power BI
     * Workspaces clássicos associados a Grupos do Office 365:
-        * O usuário convidado não pode criar ou ser administrador dessas áreas de trabalho
+        * O usuário convidado não pode criar ou ser administrador desses espaços de trabalho
         * Os usuários convidados podem ser membros
-    * O envio de convites ad-hoc para listas de acesso do espaço de trabalho não é uma ação compatível
+    * O envio de convites ad hoc para listas de acesso do espaço de trabalho não é uma ação compatível
     * O Power BI Publisher para Excel não é compatível com usuários convidados
     * Os usuários convidados não podem instalar um Power BI Gateway e conectá-lo à sua organização
     * Os usuários convidados não podem instalar aplicativos e publicá-los para toda a organização
@@ -137,6 +137,6 @@ Para ajudar esses usuários a fazerem logon no Power BI, forneça a eles a URL d
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Para obter mais informações, incluindo sobre como funciona a segurança de linha, confira o white paper: [Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B](https://aka.ms/powerbi-b2b-whitepaper).
+Para obter mais informações, inclusive sobre o funcionamento da segurança de linha, confira o white paper: [Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B](https://aka.ms/powerbi-b2b-whitepaper).
 
 Para saber mais sobre o Azure AD B2B, confira [O que é a colaboração do Azure AD B2B?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/).

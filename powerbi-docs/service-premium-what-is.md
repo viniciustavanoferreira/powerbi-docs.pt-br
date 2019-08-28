@@ -53,7 +53,7 @@ As assinaturas do Power BI Premium são compradas por administradores no centro 
 
 Com o Power BI Premium, você obtém *capacidades dedicadas*. Em contraste com uma capacidade compartilhada em que cargas de trabalho são executadas em recursos computacionais compartilhados com outros clientes, uma capacidade dedicada é para uso exclusivo de uma organização. Ela é isolada com recursos computacionais dedicados que oferecem desempenho confiável e consistente para conteúdo hospedado. 
 
-Os workspaces residem dentro de capacidades. Cada usuário do Power BI tem um workspace pessoal, conhecido como **Meu workspace**. Os espaços de trabalho adicionais, conhecidos como **Espaços de Trabalho do Aplicativo**, podem ser criados para habilitar a colaboração e a implantação. Por padrão, os workspaces, incluindo os pessoais, são criados na capacidade compartilhada. Quando você tem capacidades Premium, o Meu workspaces e os Workspaces do Aplicativo podem ser atribuídos a capacidades Premium.
+Os workspaces residem dentro de capacidades. Cada usuário do Power BI tem um workspace pessoal, conhecido como **Meu workspace**. Espaços de trabalho adicionais, conhecidos como **Espaços de Trabalho do Aplicativo**, podem ser criados para habilitar a colaboração e a implantação. Por padrão, os workspaces, incluindo os pessoais, são criados na capacidade compartilhada. Quando você tem capacidades Premium, o Meu workspaces e os Workspaces do Aplicativo podem ser atribuídos a capacidades Premium.
 
 ### <a name="capacity-nodes"></a>Nós de capacidade
 

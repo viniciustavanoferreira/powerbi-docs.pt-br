@@ -11,7 +11,7 @@ ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 53abb5f82b75773817c72b53dd3e522cb4ccc63e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64578739"
@@ -67,7 +67,7 @@ Caso esteja interessado em criar aplicativos de modelo para distribuí-los por c
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Distribuir aplicativos para seus colegas](service-create-distribute-apps.md)
-* [Criar novos espaços de trabalho no Power BI](service-create-the-new-workspaces.md)
+* [Criar novos workspaces no Power BI](service-create-the-new-workspaces.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

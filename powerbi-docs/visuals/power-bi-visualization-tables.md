@@ -52,7 +52,7 @@ Após obter o conjunto de dados do **Exemplo de Análise de Varejo**, você pode
 
 Crie a tabela mostrada no início do artigo para exibir valores de vendas por categoria de item.
 
-1. No **Meu Espaço de Trabalho**, selecione **Conjuntos de dados** > **Criar um relatório**.
+1. No **Meu Workspace**, selecione **Conjuntos de dados** > **Criar um relatório**.
 
     ![Captura de tela de conjuntos de dados > Criar um relatório.](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 

@@ -114,7 +114,7 @@ Para criar um dashboard para o aplicativo de modelo, basta carregar o PBIX por m
 * Considere a possibilidade de agrupamentos no dashboard para diferentes cenários, vertical ou horizontalmente.  
 
 ## <a name="sample-data"></a>Dados de exemplo
-Os aplicativos de modelo, como parte da fase de criação de aplicativo, encapsula os dados do cache no espaço de trabalho como parte do aplicativo:
+Os aplicativos de modelo, como parte da fase de criação de aplicativo, encapsula os dados do cache no workspace como parte do aplicativo:
 
 * Permite que o instalador entenda a funcionalidade e a finalidade do aplicativo antes de se conectar a dados.
 * Cria uma experiência que conduz o instalador para explorar ainda mais os recursos do aplicativo, o que leva à conexão do conjunto de dados do aplicativo.
@@ -133,7 +133,7 @@ Os aplicativos de modelo dão suporte a aplicativos somente de dados de exemplo.
 * Siga a documentação [Oferta de aplicativo do Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
 * Caso um painel faça parte do seu aplicativo, verifique se ele não está vazio.
 * Instale o aplicativo usando o link do aplicativo antes de enviá-lo, verifique se você pode conectar o conjunto de dados e a experiência de aplicativo conforme planejado.
-* Antes de carregar bpix no espaço de trabalho do aplicativo de modelo, descarregue todas as conexões desnecessárias.
+* Antes de carregar bpix no workspace do aplicativo de modelo, descarregue todas as conexões desnecessárias.
 * Siga as [Práticas recomendadas para criação de relatórios e visuais](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) do Power BI para alcançar o máximo impacto sobre os usuários e obter a aprovação para distribuição.
 
 ## <a name="known-limitations"></a>Limitações conhecidas

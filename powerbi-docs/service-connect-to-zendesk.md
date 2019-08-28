@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1edc4179b000191dfeff87387417009bc28e0ee5
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64578796"
@@ -91,7 +91,7 @@ Se você estiver tendo problemas para se conectar, verifique a URL do Zendesk e 
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [Criar novos espaços de trabalho no Power BI](service-create-the-new-workspaces.md)
+* [Criar novos workspaces no Power BI](service-create-the-new-workspaces.md)
 * [Instalar e usar aplicativos no Power BI](consumer/end-user-apps.md)
 * [Conectar-se aos aplicativos do Power BI para serviços externos](service-connect-to-services.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

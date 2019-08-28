@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136399"
@@ -29,14 +29,14 @@ As entidades vinculadas são **somente leitura**. Se você quiser criar transfor
 
 ## <a name="linked-entity-availability"></a>Disponibilidade da entidade vinculada
 
-As entidades vinculadas exigem uma assinatura [Power BI Premium](service-premium-what-is.md) para atualizar. As entidades vinculadas estão disponíveis em qualquer fluxo de dados em um espaço de trabalho que está hospedado na capacidade do Power BI Premium. Não há nenhuma limitação no fluxo de dados de origem.
+As entidades vinculadas exigem uma assinatura [Power BI Premium](service-premium-what-is.md) para atualizar. As entidades vinculadas estão disponíveis em qualquer fluxo de dados em um workspace que está hospedado na capacidade do Power BI Premium. Não há nenhuma limitação no fluxo de dados de origem.
 
-As entidades vinculadas só funcionam corretamente em novos workspaces do Power BI. Saiba mais sobre os [novos workspaces do Power BI](service-create-the-new-workspaces.md). Todos os fluxos de dados vinculados devem estar localizados em novos espaços de trabalho para funcionar corretamente.
+As entidades vinculadas só funcionam corretamente em novos workspaces do Power BI. Saiba mais sobre os [novos workspaces do Power BI](service-create-the-new-workspaces.md). Todos os fluxos de dados vinculados devem estar localizados em novos workspaces para funcionar corretamente.
 
 > [!NOTE]
 > As entidades diferem com base em se são entidades padrão ou entidades computadas. As entidades standard (em geral simplesmente chamadas de entidades) consultam uma fonte de dados externa, como um banco de dados SQL. As entidades computadas exigem capacidade Premium no Power BI e executam suas transformações em dados que já estão no armazenamento do Power BI. 
 >
->Se seu fluxo de dados não estiver em um espaço de trabalho de capacidade Premium, você ainda poderá fazer referência a uma única consulta ou combinar duas ou mais consultas, desde que as transformações não sejam definidas como transformações no armazenamento. Tais referências são consideradas entidades padrão. Para fazer isso, desative a opção **Habilitar carga** para as consultas referenciadas a fim de impedir que os dados sejam materializados e inseridos no armazenamento. A partir daí, você pode fazer referência a essas consultas **Habilitar carga = falso** e definir **Habilitar carga** para **Ativado** apenas para as consultas resultantes que você deseja concretizar.
+>Se seu fluxo de dados não estiver em um workspace de capacidade Premium, você ainda poderá fazer referência a uma única consulta ou combinar duas ou mais consultas, desde que as transformações não sejam definidas como transformações no armazenamento. Tais referências são consideradas entidades padrão. Para fazer isso, desative a opção **Habilitar carga** para as consultas referenciadas a fim de impedir que os dados sejam materializados e inseridos no armazenamento. A partir daí, você pode fazer referência a essas consultas **Habilitar carga = falso** e definir **Habilitar carga** para **Ativado** apenas para as consultas resultantes que você deseja concretizar.
 
 
 ## <a name="how-to-link-entities-between-dataflows"></a>Como vincular entidades entre fluxos de dados
@@ -51,22 +51,22 @@ Você também pode selecionar **Adicionar entidades vinculadas** do item de menu
 
 Para vincular entidades, você deverá entrar com suas credenciais do Power BI.
 
-Uma janela **Navegador** é aberta e permite que você escolha um conjunto de entidades ao qual pode se conectar. As entidades exibidas são entidades para as quais você tem permissões, em todos os espaços de trabalho em seu locatário do Power BI. 
+Uma janela **Navegador** é aberta e permite que você escolha um conjunto de entidades ao qual pode se conectar. As entidades exibidas são entidades para as quais você tem permissões, em todos os workspaces em seu locatário do Power BI. 
 
 Depois que suas entidades vinculadas são selecionadas, elas aparecem na lista de entidades para seu fluxo de dados na ferramenta de criação, com um ícone especial que as identifica como entidades vinculadas.
 
 Você também pode exibir o fluxo de dados de origem nas configurações de fluxo de dados de sua entidade vinculada.
 
 ## <a name="refresh-logic-of-linked-entities"></a>Atualizar a lógica de entidades vinculadas
-A lógica de atualização padrão das entidades vinculadas muda com base em se o fluxo de dados de origem reside no mesmo espaço de trabalho como o fluxo de dados de destino. As seções a seguir descrevem o comportamento de cada.
+A lógica de atualização padrão das entidades vinculadas muda com base em se o fluxo de dados de origem reside no mesmo workspace como o fluxo de dados de destino. As seções a seguir descrevem o comportamento de cada.
 
-### <a name="links-between-workspaces"></a>Links entre espaços de trabalho
+### <a name="links-between-workspaces"></a>Links entre workspaces
 
-A atualização dos links de entidades em espaços de trabalho diferentes comporta-se como uma fonte de dados externa. Quando o fluxo de dados é atualizado, ele leva os dados mais recentes para a entidade de fluxo de dados de origem. Se o fluxo de dados de origem for atualizado, ele não afetará automaticamente os dados no fluxo de dados de destino.
+A atualização dos links de entidades em workspaces diferentes comporta-se como uma fonte de dados externa. Quando o fluxo de dados é atualizado, ele leva os dados mais recentes para a entidade de fluxo de dados de origem. Se o fluxo de dados de origem for atualizado, ele não afetará automaticamente os dados no fluxo de dados de destino.
 
-### <a name="links-in-the-same-workspace"></a>Links no mesmo espaço de trabalho
+### <a name="links-in-the-same-workspace"></a>Links no mesmo workspace
 
-Quando ocorre a atualização dos dados para um fluxo de dados de origem, esse evento dispara automaticamente um processo de atualização para entidades dependentes em todos os fluxos de dados de destino no mesmo espaço de trabalho, incluindo as entidades calculadas com base neles. Todas as outras entidades no fluxo de dados de destino são atualizadas de acordo com a agenda do fluxo de dados. As entidades que dependem de mais de uma fonte atualizam seus dados sempre que qualquer uma das suas fontes é atualizada com êxito.
+Quando ocorre a atualização dos dados para um fluxo de dados de origem, esse evento dispara automaticamente um processo de atualização para entidades dependentes em todos os fluxos de dados de destino no mesmo workspace, incluindo as entidades calculadas com base neles. Todas as outras entidades no fluxo de dados de destino são atualizadas de acordo com a agenda do fluxo de dados. As entidades que dependem de mais de uma fonte atualizam seus dados sempre que qualquer uma das suas fontes é atualizada com êxito.
 
 É útil observar que o processo inteiro de atualização é confirmado ao mesmo tempo. Por isso, se a atualização de fluxo de dados de destino não for atualizada, o fluxo de dados de origem falhará também sua atualização.
 

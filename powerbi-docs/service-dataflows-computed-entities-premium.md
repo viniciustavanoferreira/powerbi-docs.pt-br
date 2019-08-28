@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61137722"
@@ -71,7 +71,7 @@ E é isso — a transformação é executada nos dados no fluxo de dados que res
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-É importante observar que, se você remover o espaço de trabalho da capacidade do Power BI Premium, o fluxo de dados associado não será mais atualizado. 
+É importante observar que, se você remover o workspace da capacidade do Power BI Premium, o fluxo de dados associado não será mais atualizado. 
 
 Ao trabalharem com fluxos de dados criados especificamente em uma conta do Azure Data Lake Storage Gen2 da organização, entidades vinculadas e entidades computadas só funcionam corretamente quando residem na mesma conta de armazenamento. Par obter mais informações, confira [Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)](service-dataflows-connect-azure-data-lake-storage-gen2.md).
 
@@ -87,7 +87,7 @@ Este artigo descreveu entidades e fluxos de dados computacionais disponíveis no
 * [Criação e uso de fluxos de dados no Power BI](service-dataflows-create-use.md)
 * [Usando fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
 * [Recursos do desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
-* [Definir configurações de fluxo de dados de espaço de trabalho (versão prévia)](service-dataflows-configure-workspace-storage-settings.md)
+* [Definir configurações de fluxo de dados de workspace (versão prévia)](service-dataflows-configure-workspace-storage-settings.md)
 * [Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (versão prévia)](service-dataflows-add-cdm-folder.md)
 * [Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 

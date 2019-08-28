@@ -62,7 +62,7 @@ No entanto, se você continuar usando a entidade de serviço, precisará continu
 
 ### <a name="create-an-app-workspace"></a>Criar um workspace de aplicativo
 
-Se você estiver inserindo relatórios, painéis ou blocos para seus clientes, precisará colocar o conteúdo dentro de um espaço de trabalho do aplicativo. Há diferentes tipos de workspaces que você pode configurar: o [workspaces tradicionais](../service-create-workspaces.md) ou o [novos workspaces](../service-create-the-new-workspaces.md). Se você está usando uma conta *mestra*, não importa qual tipo de workspaces você usa. No entanto, se você usa *[entidade de serviço](embed-service-principal.md)* para entrar em seu aplicativo, é necessário usar os novos workspaces. Em qualquer cenário, tanto a conta *mestra* quanto a *entidade de serviço* devem ser administradoras dos workspaces do aplicativo envolvido com o seu aplicativo.
+Se você estiver inserindo relatórios, painéis ou blocos para seus clientes, precisará colocar o conteúdo dentro de um workspace do aplicativo. Há diferentes tipos de workspaces que você pode configurar: o [workspaces tradicionais](../service-create-workspaces.md) ou o [novos workspaces](../service-create-the-new-workspaces.md). Se você está usando uma conta *mestra*, não importa qual tipo de workspaces você usa. No entanto, se você usa *[entidade de serviço](embed-service-principal.md)* para entrar em seu aplicativo, é necessário usar os novos workspaces. Em qualquer cenário, tanto a conta *mestra* quanto a *entidade de serviço* devem ser administradoras dos workspaces do aplicativo envolvido com o seu aplicativo.
 
 ### <a name="create-and-publish-your-reports"></a>Crie e publique seus relatórios
 

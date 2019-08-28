@@ -60,7 +60,7 @@ Estas instruções usam o serviço do Power BI. Para acompanhar, entre no Power 
 
 1. Selecione **Arquivo local** e navegue até o local do arquivo de exemplo.
 
-1. Selecione **Importar**. O Power BI adiciona o Exemplo Financeiro a seu espaço de trabalho como um conjunto de dados.
+1. Selecione **Importar**. O Power BI adiciona o Exemplo Financeiro a seu workspace como um conjunto de dados.
 
 1. Na lista de conteúdo **Conjuntos de dados**, selecione o ícone **Criar relatório** para o **Exemplo Financeiro**.
 

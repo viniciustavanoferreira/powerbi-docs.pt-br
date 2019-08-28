@@ -18,30 +18,30 @@ ms.locfileid: "68271207"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicar um relatório paginado no serviço do Power BI
 
-Neste artigo, você aprende a publicar um relatório paginado no serviço do Power BI fazendo o upload do computador local. Você pode carregar relatórios paginados para o Meu Espaço de Trabalho ou qualquer outro espaço de trabalho, desde que o espaço de trabalho esteja em uma capacidade Premium. Localize o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do nome do espaço de trabalho. 
+Neste artigo, você aprende a publicar um relatório paginado no serviço do Power BI fazendo o upload do computador local. Você pode carregar relatórios paginados para o Meu Workspace ou qualquer outro workspace, desde que o workspace esteja em uma capacidade Premium. Localize o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do nome do workspace. 
 
 Se sua fonte de dados de relatório está no local, você precisará [criar um gateway](#create-a-gateway) depois de fazer upload do relatório.
 
-## <a name="add-a-workspace-to-a-premium-capacity"></a>Adicionar um espaço de trabalho a uma capacidade Premium
+## <a name="add-a-workspace-to-a-premium-capacity"></a>Adicionar um workspace a uma capacidade Premium
 
-Se o espaço de trabalho não tem o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do nome, você precisará adicionar o espaço de trabalho a uma capacidade Premium. 
+Se o workspace não tem o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do nome, você precisará adicionar o workspace a uma capacidade Premium. 
 
-1. Selecione **Espaços de Trabalho**, selecione as reticências ( **...** ) ao lado do nome do espaço de trabalho e, em seguida, selecione **Editar Espaço de Trabalho**.
+1. Selecione **Workspaces**, selecione as reticências ( **...** ) ao lado do nome do workspace e, em seguida, selecione **Editar Workspace**.
 
-    ![Selecionar Editar Espaço de Trabalho](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
+    ![Selecionar Editar Workspace](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. Na caixa de diálogo **Editar Espaço de Trabalho**, expanda **Avançado** e, em seguida, deslize **Capacidade dedicada** para **Ativado**.
+1. Na caixa de diálogo **Editar Workspace**, expanda **Avançado** e, em seguida, deslize **Capacidade dedicada** para **Ativado**.
 
     ![Selecionar Capacidade Dedicada](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
-   Talvez não seja possível alterá-la. Caso contrário, entre em contato com o administrador da capacidade do Power BI Premium para conceder a você direitos de atribuição para adicionar seu espaço de trabalho a uma capacidade Premium.
+   Talvez não seja possível alterá-la. Caso contrário, entre em contato com o administrador da capacidade do Power BI Premium para conceder a você direitos de atribuição para adicionar seu workspace a uma capacidade Premium.
 
 
 ## <a name="upload-a-paginated-report"></a>Fazer upload de um relatório paginado
 
 1. Crie seu relatório paginado no Construtor de Relatórios e salve-o em seu computador local.
 
-1. Abra o serviço do Power BI em um navegador e navegue até a área de trabalho Premium onde deseja publicar o relatório. Observe o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do nome. 
+1. Abra o serviço do Power BI em um navegador e navegue até o workspace Premium onde deseja publicar o relatório. Observe o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do nome. 
 
 1. Selecione **Obter Dados**.
 

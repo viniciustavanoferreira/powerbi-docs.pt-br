@@ -85,7 +85,7 @@ Os desenvolvedores que usam o Power BI Embedded podem passar o tempo concentrado
 > [!IMPORTANT]
 > Embora a inserção exija o serviço do Power BI, os clientes não precisam ter uma conta do Power BI para exibir o conteúdo inserido de seu aplicativo. 
 
-Quando você estiver pronto para passar para a produção, seu espaço de trabalho do aplicativo deverá ser atribuído a uma capacidade dedicada. O Power BI Embedded no Microsoft Azure oferece [capacidades dedicadas](azure-pbie-create-capacity.md) a serem usadas com seus aplicativos.
+Quando você estiver pronto para passar para a produção, seu workspace do aplicativo deverá ser atribuído a uma capacidade dedicada. O Power BI Embedded no Microsoft Azure oferece [capacidades dedicadas](azure-pbie-create-capacity.md) a serem usadas com seus aplicativos.
 
 Para obter os detalhes da inserção, confira [Como inserir o conteúdo do Power BI](embed-sample-for-customers.md).
 

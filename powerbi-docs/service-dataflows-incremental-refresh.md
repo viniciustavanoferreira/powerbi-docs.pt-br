@@ -27,7 +27,7 @@ Com os fluxos de dados, você pode trazer grandes quantidades de dados para o Po
 
 ![Atualização incremental para fluxos de dados](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-O uso da atualização incremental para os fluxos de dados do Power BI requer que o espaço de trabalho onde o fluxo de dados reside esteja em [capacidade Premium](service-premium-what-is.md) para ser executado, e a fonte de dados ingerida no fluxo de dados deve ter um campo de *datetime* em que a atualização incremental possa ser filtrada. 
+O uso da atualização incremental para os fluxos de dados do Power BI requer que o workspace onde o fluxo de dados reside esteja em [capacidade Premium](service-premium-what-is.md) para ser executado, e a fonte de dados ingerida no fluxo de dados deve ter um campo de *datetime* em que a atualização incremental possa ser filtrada. 
 
 ## <a name="configuring-incremental-refresh-for-dataflows"></a>Configuração da atualização incremental para fluxos de dados
 

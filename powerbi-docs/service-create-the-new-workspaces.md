@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: d0c0781ea5d3864f1cf3627cd42d53cca632102d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61141688"
@@ -66,9 +66,9 @@ Para obter mais informações, consulte o [novos espaços de trabalho](service-n
 
     O Power BI cria o workspace e o abre. Ele é exibido na lista de workspaces dos quais você é membro. 
 
-## <a name="workspace-contact-list"></a>Lista de contatos do espaço de trabalho
+## <a name="workspace-contact-list"></a>Lista de contatos do workspace
 
-A nova lista de contatos do espaço de trabalho permite que você especifique quais usuários recebem a notificação sobre problemas que ocorrem no espaço de trabalho. Por padrão, qualquer usuário ou grupo especificado como um espaço de trabalho do administrador é notificado, mas você pode personalizar a lista. Os usuários ou grupos listados na lista de contatos serão mostrados na interface do usuário (IU) para ajudar os usuários obtêm ajuda relacionadas ao espaço de trabalho.
+A nova lista de contatos do espaço de trabalho permite que você especifique quais usuários recebem a notificação sobre problemas que ocorrem no espaço de trabalho. Por padrão, qualquer usuário ou grupo especificado como um administrador do workspace é notificado, mas você pode personalizar a lista. Os usuários ou grupos listados na lista de contatos serão mostrados na interface do usuário (IU) para ajudar os usuários a obter ajuda relacionada ao workspace.
 
 1. Acessar o novo **lista de contatos** configuração em uma das duas maneiras:
 
@@ -85,7 +85,7 @@ A nova lista de contatos do espaço de trabalho permite que você especifique qu
 
 O recurso do OneDrive do espaço de trabalho permite que você configure um grupo do Office 365 cujo armazenamento de arquivos de biblioteca de documentos do SharePoint está disponível para usuários do espaço de trabalho. Você pode criar o grupo de fora do Power BI pela primeira vez. 
 
-O Power BI não sincronizar as permissões de usuários ou grupos que estão configurados para ter acesso de espaço de trabalho com a associação de grupo do Office 365. A prática recomendada é dar ao grupo do Office 365 mesmo, cujo configurar nesse grupo de configuração do Office 365, o armazenamento de arquivos [acesso ao espaço de trabalho](#give-access-to-your-workspace). Em seguida, gerencie o acesso do espaço de trabalho por meio do gerenciamento de associação de grupo do Office 365. 
+O Power BI não sincroniza as permissões de usuários ou grupos que estão configurados para ter acesso ao workspace com a associação ao grupo do Office 365. A prática recomendada é dar ao grupo do Office 365 mesmo, cujo configurar nesse grupo de configuração do Office 365, o armazenamento de arquivos [acesso ao espaço de trabalho](#give-access-to-your-workspace). Em seguida, gerencie o acesso do espaço de trabalho por meio do gerenciamento de associação de grupo do Office 365. 
 
 1. Acessar o novo **espaço de trabalho do OneDrive** configuração em uma das duas maneiras:
 
@@ -146,7 +146,7 @@ A nova experiência de espaço de trabalho, é possível criar ou consumir pacot
 
 1. Selecione **Acessar**.
 
-1. Adicione grupos de segurança, listas de distribuição, grupos do Office 365 ou indivíduos nesses workspaces como membros, colaboradores ou administradores. Consulte [Funções nos novos espaços de trabalho](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação das diferentes funções.
+1. Adicione grupos de segurança, listas de distribuição, grupos do Office 365 ou indivíduos nesses workspaces como membros, colaboradores ou administradores. Consulte [Funções nos novos workspaces](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação das diferentes funções.
 
     ![Os workspaces adicionam membros, administradores, colaboradores](media/service-create-the-new-workspaces/power-bi-access-add-members.png)
 

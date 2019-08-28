@@ -51,7 +51,7 @@ Acompanhe Amanda em um tour sobre a experiência de navegação de serviço do P
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Exibir conteúdo (dashboards, relatórios, pastas de trabalho, conjuntos de dados, workspaces, aplicativos)
 Vamos começar observando como o conteúdo básico (dashboards, relatórios, conjuntos de dados e pastas de trabalho) está organizado. O conteúdo é exibido dentro do contexto de um workspace. Neste ponto, há apenas um workspace e ele se chama **Meu Workspace**. Normalmente, os consumidores não precisamos nem usam outros workspaces. Meu Workspace armazena todo o conteúdo que você tem. Pense nele como sua área restrita pessoal ou como área de trabalho para seu próprio conteúdo. Meu workspace é o local em que a amostra de Análise de Varejo que você acaba de baixar é salva. 
 
-Dentro do Meu Espaço de Trabalho, seu conteúdo é organizado em quatro guias: Painéis, Relatórios, Pastas de trabalho e Conjuntos de dados.
+Dentro do Meu Workspace, seu conteúdo é organizado em quatro guias: Painéis, Relatórios, Pastas de trabalho e Conjuntos de dados.
 
 ![Tela Meu workspace](./media/end-user-experience/power-bi-my-workspace.png)
 

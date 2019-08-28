@@ -14,7 +14,7 @@ ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: abf6052d7cb912f9a8ff33f064b5dc1d44f5ba3e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61049962"
@@ -41,7 +41,7 @@ Assista Exibirá o conteúdo relacionado de um dashboard. Em seguida, siga as in
 
 **Método 1**
 
-Em um espaço de trabalho, selecione a guia **Painéis** e, em seguida, selecione o ícone **Exibição relacionada** ![ícone Exibição relacionada](./media/end-user-related/power-bi-view-related-icon-new.png).
+Em um workspace, selecione a guia **Painéis** e, em seguida, selecione o ícone **Exibição relacionada**![ícone Exibição relacionada](./media/end-user-related/power-bi-view-related-icon-new.png).
 
 ![Guia Dashboard](./media/end-user-related/power-bi-view-related-dash-newer.png)
 
@@ -81,7 +81,7 @@ Neste ponto, você pode controlar diretamente o conteúdo relacionado.  Por exem
 ## <a name="view-related-content-for-a-dataset"></a>Exibir o conteúdo relacionado de um conjunto de dados
 É preciso ter no mínimo permissões de *exibição* em um conjunto de dados para abrir o painel **Conteúdo relacionado**. Neste exemplo, estamos usando o [Exemplo de Análise de Compras](../sample-procurement.md).
 
-Em um espaço de trabalho, selecione a guia **Conjuntos de dados** e, em seguida, localize o ícone **Exibição relacionada** ![ícone Exibição relacionada](./media/end-user-related/power-bi-view-related-icon-new.png).
+Em um workspace, selecione a guia **Conjuntos de dados** e, em seguida, localize o ícone **Exibição relacionada**![ícone Exibição relacionada](./media/end-user-related/power-bi-view-related-icon-new.png).
 
 ![Guia Conjuntos de dados](./media/end-user-related/power-bi-view-related-dataset-newer.png)
 

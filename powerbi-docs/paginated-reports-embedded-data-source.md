@@ -72,24 +72,24 @@ Confira [Dados de relatório no Construtor de Relatórios do Power BI](report-bu
 
 Os relatórios paginados que se conectam aos conjuntos de dados do Power BI seguem as regras para conjuntos de dados compartilhados no Power BI com algumas pequenas alterações.  Para que os usuários exibam corretamente os relatórios paginados usando conjuntos de dados do Power BI e garantam que a Segurança em Nível de Linha (RLS) esteja habilitada e imposta para os visualizadores, certifique-se de seguir estas regras:
 
-### <a name="classic-apps-and-app-workspaces"></a>Aplicativos clássicos e espaços de trabalho de aplicativo
+### <a name="classic-apps-and-app-workspaces"></a>Aplicativos clássicos e workspaces de aplicativo
 
-- .rdl no mesmo espaço de trabalho que o conjunto de dados (mesmo proprietário): Compatível
-- .rdl em um espaço de trabalho diferente daquele do conjunto de dados (mesmo proprietário): Compatível
+- .rdl no mesmo workspace que o conjunto de dados (mesmo proprietário): Compatível
+- .rdl em um workspace diferente daquele do conjunto de dados (mesmo proprietário): Compatível
 - .rdl compartilhado: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
 - Aplicativo compartilhado: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
-- .rdl no mesmo espaço de trabalho que o conjunto de dados (outro usuário): Compatível
-- .rdl em um espaços de trabalho diferente daquele do conjunto de dados (usuário diferente): você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
+- .rdl no mesmo workspace que o conjunto de dados (outro usuário): Compatível
+- .rdl em um workspace diferente daquele do conjunto de dados (usuário diferente): você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
 - Segurança em nível de função: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados para que ele seja imposto.
 
-### <a name="new-experience-apps-and-app-workspaces"></a>Novos aplicativos e espaços de trabalho de aplicativo
+### <a name="new-experience-apps-and-app-workspaces"></a>Novos aplicativos e workspaces de aplicativo
 
-- .rdl no mesmo espaço de trabalho que o conjunto de dados: Compatível
-- .rdl em um espaço de trabalho diferente daquele do conjunto de dados (mesmo proprietário): Compatível
+- .rdl no mesmo workspace que o conjunto de dados: Compatível
+- .rdl em um workspace diferente daquele do conjunto de dados (mesmo proprietário): Compatível
 - .rdl compartilhado: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
 - Aplicativo compartilhado: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
-- .rdl no mesmo espaço de trabalho que o conjunto de dados (outro usuário) - Compatível
-- .rdl em um espaço de trabalho diferente daquele do conjunto de dados (outro usuário): Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
+- .rdl no mesmo workspace que o conjunto de dados (outro usuário) - Compatível
+- .rdl em um workspace diferente daquele do conjunto de dados (outro usuário): Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
 - Segurança em nível de função: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados para que ele seja imposto
 
 ## <a name="next-steps"></a>Próximas etapas

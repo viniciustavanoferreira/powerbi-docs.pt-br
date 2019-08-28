@@ -63,11 +63,11 @@ Sim, o monitoramento está disponível como uma nova guia com os mesmos detalhes
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>Preciso de uma licença Pro para criar e publicar relatórios paginados?
 
-Você pode carregar relatórios paginados para Meu Espaço de Trabalho sem uma licença do Pro, desde que ele tenha a capacidade Premium.  No caso de outros espaços de trabalho, você deve ter uma licença do Pro para criar e publicar conteúdo para eles. Recomendamos o download e uso do Construtor de Relatórios do Power BI até mesmo sem a licença do Pro, mas saiba que não será possível publicar os relatórios paginados criados sem ela. 
+Você pode carregar relatórios paginados para Meu Workspace sem uma licença do Pro, desde que ele tenha a capacidade Premium.  No caso de outros workspaces, você deve ter uma licença do Pro para criar e publicar conteúdo para eles. Recomendamos o download e uso do Construtor de Relatórios do Power BI até mesmo sem a licença do Pro, mas saiba que não será possível publicar os relatórios paginados criados sem ela. 
 
-### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>E se eu tiver um relatório paginado em um espaço de trabalho e a carga de trabalho de relatório paginado estiver desativada?
+### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>E se eu tiver um relatório paginado em um workspace e a carga de trabalho de relatório paginado estiver desativada?
 
-Você recebe uma mensagem de erro e não pode exibir seu relatório até que a carga de trabalho seja ativada novamente. Você pode ainda excluir o relatório do espaço de trabalho.
+Você recebe uma mensagem de erro e não pode exibir seu relatório até que a carga de trabalho seja ativada novamente. Você pode ainda excluir o relatório do workspace.
 
 ### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>Qual é a memória padrão para cada um dos SKUs Premium compatíveis com relatórios paginados?
 
@@ -170,7 +170,7 @@ Ainda não, mas com certeza planejamos oferecer suporte a este cenário.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Posso compartilhar meu conteúdo de relatório paginado por meio de um aplicativo do Power BI?
 
-Sim, os relatórios paginados podem ser implantados com os aplicativos de espaço de trabalho v1 e v2. 
+Sim, os relatórios paginados podem ser implantados com os aplicativos de workspace v1 e v2. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Outros recursos específicos de relatório no Power BI, como a fixação de relatórios de blocos a painéis, funcionam com relatórios paginados?
 

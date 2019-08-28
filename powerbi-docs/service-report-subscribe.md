@@ -31,7 +31,7 @@ Você só pode criar assinaturas no serviço do Power BI. Você receberá um ema
 A **criação** de uma assinatura pode ser feita por:
 
 - Usuários com uma licença do Power BI Pro
-- Os usuários que exibem conteúdo em um espaço de trabalho ou aplicativo Premium também podem assinar conteúdo localizado lá, mesmo sem uma licença do Power BI Pro.
+- Os usuários que exibem conteúdo em um workspace ou aplicativo Premium também podem assinar conteúdo localizado lá, mesmo sem uma licença do Power BI Pro.
 
 Você não precisa editar permissões para o conteúdo (dashboard ou relatório) para criar uma assinatura para si próprio, mas precisa ter permissões de edição para criar uma para outra pessoa. 
 

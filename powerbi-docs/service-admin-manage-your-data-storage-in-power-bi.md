@@ -1,6 +1,6 @@
 ---
-title: Gerenciar o armazenamento de dados em espaços de trabalho
-description: Saiba como você pode gerenciar seu armazenamento de dados em seu espaço de trabalho individual ou do aplicativo para garantir que possa continuar publicando relatórios e conjuntos de dados.
+title: Gerenciar o armazenamento de dados em workspaces
+description: Saiba como você pode gerenciar seu armazenamento de dados em seu workspace individual ou do aplicativo para garantir que possa continuar publicando relatórios e conjuntos de dados.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -13,16 +13,16 @@ ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61189763"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gerenciar o armazenamento de dados em workspaces do Power BI
 
-Saiba como você pode gerenciar seu armazenamento de dados em seu espaço de trabalho individual ou do aplicativo para garantir que possa continuar publicando relatórios e conjuntos de dados.
+Saiba como você pode gerenciar seu armazenamento de dados em seu workspace individual ou do aplicativo para garantir que possa continuar publicando relatórios e conjuntos de dados.
 
-Os usuários e os espaços de trabalho do aplicativo têm suas próprias capacidades de dados:
+Os usuários e os workspaces do aplicativo têm suas próprias capacidades de dados:
 
 * Todos os usuários têm no máximo 10 GB de armazenamento de dados.
 * Os usuários com uma licença do Power BI Pro podem criar workspaces de aplicativo, com no máximo 10 GB de armazenamento de dados cada.
@@ -66,12 +66,12 @@ Tenha em mente que você ou outra pessoa pode ter relatórios e painéis com bas
 ## <a name="manage-your-app-workspace"></a>Gerenciar o workspace do aplicativo
 1. Selecione a seta ao lado de **Workspaces**\> selecione o nome do workspace do aplicativo.
    
-    ![Selecionar um espaço de trabalho de aplicativo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+    ![Selecionar um workspace de aplicativo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. Selecione o ícone de engrenagem ![ícone de engrenagem](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) no canto superior direito \> **Gerenciar armazenamento de grupo**.
    
     A barra superior mostra o limite de armazenamento de grupo que você usou.
    
-    ![Gerenciar armazenamento de um espaço de trabalho de aplicativo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Gerenciar armazenamento de um workspace de aplicativo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     Os conjuntos de dados e os relatórios são separados em duas guias:
    

@@ -71,7 +71,7 @@ Este glossário é um esforço conjunto da comunidade.  Não encontrou uma palav
 
 **content list (lista de conteúdo)** O índice de conteúdo de um aplicativo.
 
-**content pack (pacote de conteúdo)** uma coleção de painéis, relatórios e conjuntos de dados pré-empacotados. Agora **aplicativos**, saiba [mais sobre a nova experiência de espaço de trabalho](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
+**content pack (pacote de conteúdo)** uma coleção de painéis, relatórios e conjuntos de dados pré-empacotados. Agora **aplicativos**, saiba [mais sobre a nova experiência de workspace](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **content view (exibição de conteúdo)**
 

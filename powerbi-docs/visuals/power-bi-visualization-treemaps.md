@@ -74,7 +74,7 @@ Após obter o conjunto de dados do **Exemplo de Análise de Varejo**, você pode
 
 Crie um relatório e adicione um mapa de árvore básico.
 
-1. No **Meu Espaço de Trabalho**, selecione **Conjuntos de dados** > **Criar um relatório**.
+1. No **Meu Workspace**, selecione **Conjuntos de dados** > **Criar um relatório**.
 
     ![Captura de tela de conjuntos de dados > Criar um relatório.](media/power-bi-visualization-treemaps/power-bi-create-a-report.png)
 

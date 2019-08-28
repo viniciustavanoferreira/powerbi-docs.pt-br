@@ -29,7 +29,7 @@ Quando você receber o email, ele incluirá um link para "acessar o relatório o
 
 
 ## <a name="requirements"></a>Requisitos
-**Criar** uma assinatura por conta própria exige uma licença do Power BI Pro. Os usuários que exibem conteúdo em um espaço de trabalho ou aplicativo Premium também podem assinar conteúdo localizado lá, mesmo sem uma licença do Power BI Pro. **Assinar outras** só está disponível para o proprietário do painel. 
+**Criar** uma assinatura por conta própria exige uma licença do Power BI Pro. Os usuários que exibem conteúdo em um workspace ou aplicativo Premium também podem assinar conteúdo localizado lá, mesmo sem uma licença do Power BI Pro. **Assinar outras** só está disponível para o proprietário do painel. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Assine um dashboard ou uma página de relatório
 Se você estiver assinando um dashboard ou um relatório, o processo será semelhante. O mesmo botão permite que você assine os dashboards e relatórios do serviço do Power BI.

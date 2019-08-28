@@ -13,7 +13,7 @@ ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61063552"
@@ -35,7 +35,7 @@ No serviço do Power BI, selecione um relatório para exibi-lo na tela. Você ta
 
 Quando o relatório que você deseja exportar para o PowerPoint for exibido na tela, selecione **Arquivo > Exportar para o PowerPoint** na barra de menus do serviço do Power BI.
 
-![Aproximação da barra de navegação esquerda com o Meu Espaço de Trabalho selecionado e o menu suspenso Arquivo selecionado](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+![Aproximação da barra de navegação esquerda com o Meu Workspace selecionado e o menu suspenso Arquivo selecionado](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
    
 Um pop-up será exibido, em que você tem a opção de selecionar a **Exibição atual** ou a **Exibição padrão**.  A **Exibição atual** exporta o relatório no estado atual, que inclui as alterações ativas feitas nos valores de segmentação e filtro.  A maioria dos usuários seleciona essa opção.  Alternativamente, a seleção de **Exibição padrão** exporta o relatório em seu estado original (como o autor o compartilhou) e não reflete as alterações feitas no estado original.
     

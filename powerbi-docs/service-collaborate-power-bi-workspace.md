@@ -23,7 +23,7 @@ Os workspaces do Power BI são ótimos lugares para colaborar com seus colegas e
 A colaboração não termina com os workspaces no Power BI. Quando cria um dos workspaces clássicos no Power BI, você está criando automaticamente um grupo do Office 365 em segundo plano. O Office 365 oferece outros serviços de grupo, como compartilhamento de arquivos no OneDrive for Business, conversas no Exchange, calendário e tarefas compartilhadas e assim por diante. Leia mais sobre os [grupos no Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
 
 > [!NOTE]
-> A nova experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Office 365. Quando cria um dos novos workspaces no Power BI, você não cria mais um grupo do Office 365 em segundo plano automaticamente. Para saber mais, confira [Criar os novos espaços de trabalho no Power BI](service-create-the-new-workspaces.md).
+> A nova experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Office 365. Quando cria um dos novos workspaces no Power BI, você não cria mais um grupo do Office 365 em segundo plano automaticamente. Para saber mais, confira [Criar os novos workspaces no Power BI](service-create-the-new-workspaces.md).
 
 Você precisa de uma [licença do Power BI Pro](service-features-license-type.md) para criar um workspace.
 

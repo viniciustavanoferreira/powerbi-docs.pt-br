@@ -147,7 +147,7 @@ O Power BI fornece cmdlets adicionais para ajudar a gerenciar o BYOK em seu loca
     Get-PowerBIEncryptionKey
     ```
 
-- Use [`Get-PowerBIWorkspaceEncryptionStatus`](/powershell/module/microsoftpowerbimgmt.admin/get-powerbiworkspaceencryptionstatus) para ver se os conjuntos de dados em um espaço de trabalho são criptografados e se o seu status de criptografia está em sincronia com o espaço de trabalho:
+- Use [`Get-PowerBIWorkspaceEncryptionStatus`](/powershell/module/microsoftpowerbimgmt.admin/get-powerbiworkspaceencryptionstatus) para ver se os conjuntos de dados em um workspace são criptografados e se o seu status de criptografia está em sincronia com o workspace:
 
     ```powershell
     Get-PowerBIWorkspaceEncryptionStatus -Name'Contoso Sales'

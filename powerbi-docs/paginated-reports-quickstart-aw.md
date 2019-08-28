@@ -1,6 +1,6 @@
 ---
 title: 'Tutorial: Criar um relatório paginado e fazer upload dele no serviço do Power BI'
-description: Neste tutorial, você se conecta a um banco de dados do SQL do Azure de exemplo. Em seguida, use um assistente no Construtor de Relatórios para criar um relatório paginado. Em seguida, carregue o relatório paginado em um espaço de trabalho em uma capacidade Premium no serviço do Power BI.
+description: Neste tutorial, você se conecta a um banco de dados do SQL do Azure de exemplo. Em seguida, use um assistente no Construtor de Relatórios para criar um relatório paginado. Em seguida, carregue o relatório paginado em um workspace em uma capacidade Premium no serviço do Power BI.
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
@@ -18,7 +18,7 @@ ms.locfileid: "66839747"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Criar um relatório paginado e fazer upload dele no serviço do Power BI
 
-Neste tutorial, você se conecta a um banco de dados do SQL do Azure de exemplo. Em seguida, use um assistente no Construtor de Relatórios do Power BI para criar um relatório paginado com uma tabela que encapsula para várias páginas. Em seguida, carregue o relatório paginado em um espaço de trabalho em uma capacidade Premium no serviço do Power BI.
+Neste tutorial, você se conecta a um banco de dados do SQL do Azure de exemplo. Em seguida, use um assistente no Construtor de Relatórios do Power BI para criar um relatório paginado com uma tabela que encapsula para várias páginas. Em seguida, carregue o relatório paginado em um workspace em uma capacidade Premium no serviço do Power BI.
 
 ![Relatório paginado no serviço do Power BI](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -44,7 +44,7 @@ Aqui estão os pré-requisitos para criar o relatório paginado:
 Aqui estão os pré-requisitos para carregar seu relatório paginado no serviço do Power BI:
 
 - Você precisa de uma [licença do Power BI Pro](service-admin-power-bi-pro-in-your-organization.md).
-- Você precisa de um espaço de trabalho de aplicativo no serviço em uma [capacidade do Power BI Premium](service-premium-what-is.md). Ele tem um ícone de losango ![ícone de losango Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) ao lado do nome do espaço de trabalho.
+- Você precisa de um workspace de aplicativo no serviço em uma [capacidade do Power BI Premium](service-premium-what-is.md). Ele tem um ícone de losango ![ícone de losango Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) ao lado do nome do workspace.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Criar a matriz com um assistente
   
@@ -289,21 +289,21 @@ Agora que você criou esse relatório paginado, é hora de carregá-lo no servi�
 
 1. No serviço do Power BI, http://app.powerbi.com) no painel de navegação esquerdo, selecione **Workspaces** > **Criar espaço de trabalho do aplicativo**.
 
-2. Nomeie seu espaço de trabalho **Azure AW** ou dê outro nome exclusivo. Você é o único membro por enquanto. 
+2. Nomeie seu workspace **Azure AW** ou dê outro nome exclusivo. Você é o único membro por enquanto. 
 
 3. Selecione a seta ao lado de **Avançado** e ative **Capacidade dedicada**. 
 
-    ![Criar espaço de trabalho na capacidade Premium](media/paginated-reports-quickstart-aw/power-bi-paginated-create-workspace-premium-capacity.png)
+    ![Criar workspace na capacidade Premium](media/paginated-reports-quickstart-aw/power-bi-paginated-create-workspace-premium-capacity.png)
 
-    Se você não puder ativá-lo, precisará pedir ao administrador do Power BI para lhe dar permissão para adicionar o espaço de trabalho à capacidade Premium dedicada.
+    Se você não puder ativá-lo, precisará pedir ao administrador do Power BI para lhe dar permissão para adicionar o workspace à capacidade Premium dedicada.
 
 4. Escolha uma **capacidade dedicada disponível para este espaço de trabalho**, se for necessário > **Salvar**.
     
     ![Ícone de losango Premium](media/paginated-reports-quickstart-aw/power-bi-paginated-diamond-icon.png)
 
-    Se o espaço de trabalho não tiver uma capacidade Premium, quando você tentar carregar o relatório, verá a mensagem "Não é possível carregar o relatório paginado". Entre em contato com o administrador do Power BI para mover o espaço de trabalho.
+    Se o espaço de trabalho não tiver uma capacidade Premium, quando você tentar carregar o relatório, verá a mensagem "Não é possível carregar o relatório paginado". Entre em contato com o administrador do Power BI para mover o workspace.
 
-1. No seu espaço de trabalho, selecione **Obter Dados**.
+1. No seu workspace, selecione **Obter Dados**.
 
 2. Na caixa **Arquivos** > **Obter**.
 

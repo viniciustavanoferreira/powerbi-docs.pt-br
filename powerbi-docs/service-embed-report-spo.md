@@ -79,7 +79,7 @@ Inserir um relatório no SharePoint Online não concede automaticamente aos usu�
 > [!IMPORTANT]
 > Certifique-se de examinar quem pode ver o relatório dentro do serviço do Power BI e de conceder acesso aos que não aparecem na lista.
 
-Há duas maneiras de conceder acesso ao relatório no Power BI. A primeira maneira, se você estiver usando um grupo do Office 365 para criar seu site de equipe do SharePoint Online, será listar o usuário como membro do **workspace do aplicativo no serviço do Power BI** e da **página do SharePoint**. Para obter mais informações, consulte como [gerenciar um espaço de trabalho de aplicativo](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Há duas maneiras de conceder acesso ao relatório no Power BI. A primeira maneira, se você estiver usando um grupo do Office 365 para criar seu site de equipe do SharePoint Online, será listar o usuário como membro do **workspace do aplicativo no serviço do Power BI** e da **página do SharePoint**. Para obter mais informações, consulte como [gerenciar um workspace de aplicativo](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 A segunda maneira é inserir um relatório dentro de um aplicativo e compartilhá-lo diretamente com os usuários:  
 
@@ -141,7 +141,7 @@ Contate o proprietário da página do SharePoint Online para ajudar a resolver o
 
 ## <a name="licensing"></a>Licenças
 
-Os usuários que exibem um relatório no SharePoint precisam de uma **licença do Power BI Pro** ou o conteúdo precisa estar em um espaço de trabalho que esteja em uma capacidade do **[Power BI Premium (SKU EM ou P)](service-admin-premium-purchase.md)** .
+Os usuários que exibem um relatório no SharePoint precisam de uma **licença do Power BI Pro** ou o conteúdo precisa estar em um workspace que esteja em uma capacidade do **[Power BI Premium (SKU EM ou P)](service-admin-premium-purchase.md)** .
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 

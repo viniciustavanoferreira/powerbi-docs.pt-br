@@ -37,7 +37,7 @@ A opção **Inserir** é compatível com [Filtros de URL](service-url-filters.md
 
     ![Entrar para exibir este relatório](media/service-embed-secure/secure-embed-sign-in.png)
 
-4. Depois que o usuário entrar, o relatório será aberto e mostrará os dados, permitindo a navegação pelas páginas e a configuração de filtros. Somente os usuários com permissão de exibição poderão ver o relatório no Power BI. Todas as regras de [RLS (Segurança em Nível de Linha)](service-admin-rls.md) também são aplicadas. Por último, o usuário precisa estar licenciado corretamente, ou precisa de uma licença do Power BI Pro ou o relatório deve estar em um espaço de trabalho que esteja em uma capacidade do Power BI Premium. O usuário precisará entrar novamente toda vez que abrir uma nova janela do navegador. No entanto, uma vez conectado, outros relatórios serão carregados automaticamente.
+4. Depois que o usuário entrar, o relatório será aberto e mostrará os dados, permitindo a navegação pelas páginas e a configuração de filtros. Somente os usuários com permissão de exibição poderão ver o relatório no Power BI. Todas as regras de [RLS (Segurança em Nível de Linha)](service-admin-rls.md) também são aplicadas. Por último, o usuário precisa estar licenciado corretamente, ou precisa de uma licença do Power BI Pro ou o relatório deve estar em um workspace que esteja em uma capacidade do Power BI Premium. O usuário precisará entrar novamente toda vez que abrir uma nova janela do navegador. No entanto, uma vez conectado, outros relatórios serão carregados automaticamente.
 
     ![Inserir relatório](media/service-embed-secure/secure-embed-report.png)
 

@@ -43,7 +43,7 @@ Para acompanhar, entre no [serviço do Power BI](https://app.powerbi.com) e abra
 
 Antes de personalizar a visualização, você precisa compilá-la.
 
-1. No serviço do Power BI, expanda **Meu Espaço de Trabalho**.
+1. No serviço do Power BI, expanda **Meu Workspace**.
 
 1. Role a tela para baixo e selecione **Exemplo de Análise de Varejo** na lista de **Conjuntos de dados**.
 

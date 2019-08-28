@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61270413"
@@ -85,7 +85,7 @@ Você deve registrar o aplicativo usando a conta **mestre** do aplicativo.
 
 ## <a name="create-app-workspaces-required"></a>Criar Workspaces de aplicativo (necessário)
 
-Tire proveito dos espaços de trabalho de aplicativo para oferecer um melhor isolamento, caso seu aplicativo esteja atendendo a vários clientes. Os dashboards e relatórios ficariam isolados entre seus clientes. Você poderia usar uma conta do Power BI por Workspace de aplicativo para isolar ainda mais as experiências de aplicativos entre seus clientes.
+Tire proveito dos workspaces de aplicativo para oferecer um melhor isolamento, caso seu aplicativo esteja atendendo a vários clientes. Os dashboards e relatórios ficariam isolados entre seus clientes. Você poderia usar uma conta do Power BI por Workspace de aplicativo para isolar ainda mais as experiências de aplicativos entre seus clientes.
 
 > [!IMPORTANT]
 > Não é possível usar um workspace pessoal para tirar proveito da inserção para usuários que não são do Power BI.

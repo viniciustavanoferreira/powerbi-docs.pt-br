@@ -119,7 +119,7 @@ Se necessário, é possível verificar suas credenciais do GitHub.
 ## <a name="next-steps"></a>Próximas etapas
 
 * [Tutorial: Conectar-se a um repositório do GitHub com o Power BI](service-tutorial-connect-to-github.md)
-* [Criar novos espaços de trabalho no Power BI](service-create-the-new-workspaces.md)
+* [Criar novos workspaces no Power BI](service-create-the-new-workspaces.md)
 * [Instalar e usar aplicativos no Power BI](consumer/end-user-apps.md)
 * [Conectar-se a aplicativos do Power BI para serviços externos](service-connect-to-services.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

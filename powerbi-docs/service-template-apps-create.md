@@ -41,7 +41,7 @@ Para criar um aplicativo de modelo que pode ser distribuído para outros locatá
 
     ![Criar workspace do aplicativo](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. Em **Criar espaço de trabalho de aplicativo**, selecione **Atualizar para novo**.
+2. Em **Criar workspace de aplicativo**, selecione **Atualizar para novo**.
 
     ![Experimentar os novos workspaces](media/service-template-apps-create/power-bi-upgrade-new.png)
 

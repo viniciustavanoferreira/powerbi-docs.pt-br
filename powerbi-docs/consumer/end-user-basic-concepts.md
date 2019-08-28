@@ -1,6 +1,6 @@
 ---
 title: Serviço do Power BI – Conceitos básicos para consumidores
-description: Os aplicativos, espaço de trabalhos, painéis, relatórios, conjunto de dados e pastas de trabalho do serviço do Power BI.
+description: Os aplicativos, workspaces, painéis, relatórios, conjunto de dados e pastas de trabalho do serviço do Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -53,7 +53,7 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>Introdução aos blocos de construção
 
-Para um consumidor do Power BI, os cinco blocos de construção são: ***visualizações***, ***painéis***, ***relatórios***, ***aplicativos*** e ***conjuntos de dados***. Às vezes, eles são chamados de ***conteúdo*** do *Power BI*. O *conteúdo* existe em ***espaço de trabalhos***. Um fluxo de trabalho típico envolve todos os blocos de construção: Um *designer* do Power BI (em amarelo no diagrama abaixo) coleta dados de *conjuntos de dados*, leva esses dados para análise no Power BI, cria *relatórios* repletos de *visualizações* que realçam fatos e insights interessantes, fixa visualizações de relatórios em um painel e compartilha os relatórios e painéis com *consumidores* como você (em preto no diagrama abaixo). O *designer* os compartilha na forma de *aplicativos* ou outros tipos de conteúdo compartilhado.
+Para um consumidor do Power BI, os cinco blocos de construção são: ***visualizações***, ***painéis***, ***relatórios***, ***aplicativos*** e ***conjuntos de dados***. Às vezes, eles são chamados de ***conteúdo*** do *Power BI*. O *conteúdo* existe em ***workspaces***. Um fluxo de trabalho típico envolve todos os blocos de construção: Um *designer* do Power BI (em amarelo no diagrama abaixo) coleta dados de *conjuntos de dados*, leva esses dados para análise no Power BI, cria *relatórios* repletos de *visualizações* que realçam fatos e insights interessantes, fixa visualizações de relatórios em um painel e compartilha os relatórios e painéis com *consumidores* como você (em preto no diagrama abaixo). O *designer* os compartilha na forma de *aplicativos* ou outros tipos de conteúdo compartilhado.
 
 ![Um gráfico de fluxo de trabalho básico do Power BI.](media/end-user-basic-concepts/power-bi-workflow.png)
 
@@ -99,7 +99,7 @@ O conjunto de dados...
 
   ![Um gráfico mostrando um conjunto de dados com vários relacionamentos](media/end-user-basic-concepts/drawing2.png)
 
-Além disso, os designers podem usar conjuntos de dados de outros espaços de trabalho para criar conteúdo (relatórios, painéis) em sua área de trabalho. O Power BI mostra esses conjuntos de dados usando o ícone do conjunto de dados referenciado:
+Além disso, os designers podem usar conjuntos de dados de outros workspaces para criar conteúdo (relatórios, painéis) em seus workspaces. O Power BI mostra esses conjuntos de dados usando o ícone do conjunto de dados referenciado:
 
 ![Uma captura de tela de um banco de dados com o ícone de link.](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 

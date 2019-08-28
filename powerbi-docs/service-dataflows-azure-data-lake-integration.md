@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61150435"
@@ -48,7 +48,7 @@ O arquivo de metadados ou model.json na imagem anterior forneceria ponteiros par
 
 Com os fluxos de dados do Power BI e sua integração com o ADLS Gen2, o Power BI pode produzir dados em um data lake. Como um produtor de dados, o Power BI deve criar uma pasta do CDM para cada fluxo de dados que contém o arquivo model.json e seus arquivos de dados associados. O Power BI armazena seus dados isolados de outros produtores de dados no data lake usando *sistemas de arquivos*. Você pode ler mais sobre o sistema de arquivos e namespace hierárquico do Azure Data Lake Storage Gen2 no [artigo que os descreve](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace).
 
-O Power BI usa subpastas para fazer a desambiguidade e fornecer uma melhor organização dos dados quando apresentado no **serviço do Power BI**. A nomenclatura e estrutura das pastas representam espaços de trabalho (pastas) e fluxos de dados (pastas do CDM). O diagrama a seguir mostra como um data lake compartilhado pelo Power BI e por outros produtores de dados pode ser estruturado. Cada serviço, no caso o Dynamics 365, Dynamics para Finanças e Operações e o Power BI, cria e mantém seu próprio sistema de arquivos. Dependendo da experiência em cada serviço, as subpastas são criadas para organizar melhor as pastas do CDM dentro do sistema de arquivos. 
+O Power BI usa subpastas para fazer a desambiguidade e fornecer uma melhor organização dos dados quando apresentado no **serviço do Power BI**. A nomenclatura e estrutura das pastas representam workspaces (pastas) e fluxos de dados (pastas do CDM). O diagrama a seguir mostra como um data lake compartilhado pelo Power BI e por outros produtores de dados pode ser estruturado. Cada serviço, no caso o Dynamics 365, Dynamics para Finanças e Operações e o Power BI, cria e mantém seu próprio sistema de arquivos. Dependendo da experiência em cada serviço, as subpastas são criadas para organizar melhor as pastas do CDM dentro do sistema de arquivos. 
 
 ![fluxos de dados de vários serviços no armazenamento do Azure](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_02.jpg)
 
@@ -77,7 +77,7 @@ Este artigo forneceu uma visão geral da integração de fluxos de dados do Powe
 
 Para saber mais sobre fluxos de dados, CDM e o Azure Data Lake Storage Gen2, confira os seguintes artigos:
 
-* [Definir configurações de fluxo de dados de espaço de trabalho (versão prévia)](service-dataflows-configure-workspace-storage-settings.md)
+* [Definir configurações de fluxo de dados de workspace (versão prévia)](service-dataflows-configure-workspace-storage-settings.md)
 * [Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (versão prévia)](service-dataflows-add-cdm-folder.md)
 * [Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 

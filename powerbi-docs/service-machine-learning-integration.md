@@ -37,7 +37,7 @@ Para saber mais sobre o Azure Machine Learning:
 Para acessar um modelo do Azure ML no Power BI, o usuário deve ter acesso de**Leitura** à assinatura do Azure.  Além disso:
 
 - Para modelos do Machine Learning Studio, o acesso de **Leitura** para o serviço Web do Machine Learning Studio
-- Para modelos do Serviço do Machine Learning, o acesso de **Leitura** para o espaço de trabalho do serviço do Machine Learning
+- Para modelos do Serviço do Machine Learning, o acesso de **Leitura** para o workspace do serviço do Machine Learning
 
 As etapas neste artigo descrevem como conceder acesso a um usuário do Power BI para um modelo hospedado no serviço do Azure ML para que ele possa acessar esse modelo como uma função do Power Query.  Confira mais detalhes em [Gerenciar acesso usando o RBAC e o portal do Azure](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal).
 
@@ -61,7 +61,7 @@ As etapas neste artigo descrevem como conceder acesso a um usuário do Power BI 
 
 6. Selecione **Salvar**.
 
-7. Repita as etapas de três a seis para conceder acesso de **Leitor** ao usuário para o serviço Web específico do Machine Learning Studio *ou* para o espaço de trabalho de serviço do Machine Learning que hospeda o modelo.
+7. Repita as etapas de três a seis para conceder acesso de **Leitor** ao usuário para o serviço Web específico do Machine Learning Studio *ou* para o workspace de serviço do Machine Learning que hospeda o modelo.
 
 
 ## <a name="schema-discovery-for-machine-learning-service-models"></a>Descoberta de esquema para modelos de Serviço do Machine Learning

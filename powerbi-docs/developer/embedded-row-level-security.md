@@ -209,7 +209,7 @@ Aqui estão as etapas para começar a configurar o recurso CustomData() com seu 
 
     ![Criar Função - definir filtros de linha](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
-6. Crie um relatório PBI e publique-o em um espaço de trabalho com capacidade dedicada.
+6. Crie um relatório PBI e publique-o em um workspace com capacidade dedicada.
 
     ![Relatório PBI de exemplo](media/embedded-row-level-security/rls-sample-pbi-report.png)
 

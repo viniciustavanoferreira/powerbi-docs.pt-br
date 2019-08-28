@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136346"
@@ -25,7 +25,7 @@ Conforme o volume de dados continua a crescer, aumenta o desafio de estruturar e
 
 O Power BI apresenta **fluxos de dados** para ajudar as organizações a unificar dados de diferentes fontes e prepará-los para serem modelados. Os analistas podem criar fluxos de dados facilmente, usando ferramentas conhecidas de autoatendimento. Os fluxos de dados são usados para ingerir, transformar, integrar e enriquecer Big Data definindo conexões de fonte de dados, lógica ETL, cronogramas de atualização e muito mais. Além disso, o novo mecanismo de cálculo controlado por modelos que faz parte dos fluxos de dados torna o processo de preparação de dados mais gerenciável, mais determinista e menos complexo para analistas de dados e criadores de relatório. Do mesmo modo que as planilhas lidam com recálculos em todas as fórmulas afetadas, os fluxos de dados gerenciam as alterações de uma entidade ou elemento de dados em seu nome, automatizando atualizações e atenuando o que costumava incluir verificações de lógica tediosas e demoradas até mesmo em uma atualização básica de dados. Com os fluxos de dados, as tarefas que antes exigiam a supervisão de cientistas de dados (e muitas horas ou dias para serem concluídas) agora podem ser tratadas com alguns cliques por analistas e criadores de relatório. 
 
-Os dados são armazenados como entidades no [**Common Data Service**](https://docs.microsoft.com/powerapps/common-data-model/overview) no Azure Data Lake Storage Gen2. Os fluxos de dados são criados e gerenciados em espaços de trabalho do aplicativo usando o serviço do Power BI.  
+Os dados são armazenados como entidades no [**Common Data Service**](https://docs.microsoft.com/powerapps/common-data-model/overview) no Azure Data Lake Storage Gen2. Os fluxos de dados são criados e gerenciados em workspaces do aplicativo usando o serviço do Power BI.  
  
 Os **fluxos de dados** são projetados para usar o **Common Data Service**uma coleção padronizada, modular e extensível de esquemas de dados publicados pela Microsoft que são projetados para facilitar a criação, o uso e a análise de dados. Com esse modelo, é possível passar de fonte de dados para painéis do Power BI com quase nenhum zero atrito.
 
@@ -35,7 +35,7 @@ Em seguida, pode mapear dados para entidades padrão no Common Data Service, mod
 
 Depois de criar um fluxo de dados, você pode usar o Power BI Desktop e o serviço do Power BI para criar conjuntos de dados, relatórios, painéis e aplicativos que aproveitem o poder do Common Data Service para gerar insights detalhados sobre suas atividades comerciais. 
 
-O cronograma de atualização de dados é gerenciado diretamente no espaço de trabalho em que o fluxo de dados foi criado, assim como os conjuntos de dados. 
+O cronograma de atualização de dados é gerenciado diretamente no workspace em que o fluxo de dados foi criado, assim como os conjuntos de dados. 
 
 ## <a name="how-dataflows-work"></a>Como os fluxos de dados funcionam
 

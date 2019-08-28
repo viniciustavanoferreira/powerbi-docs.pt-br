@@ -18,7 +18,7 @@ ms.locfileid: "66839580"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service"></a>Exibir um relatório paginado no serviço do Power BI
 
-Neste artigo, você verá como exibir um relatório paginado no serviço do Power BI. Os relatórios paginados são relatórios criados no Construtor de Relatórios e carregados para qualquer espaço de trabalho em uma capacidade Premium. Localize o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do nome do espaço de trabalho. 
+Neste artigo, você verá como exibir um relatório paginado no serviço do Power BI. Os relatórios paginados são relatórios criados no Construtor de Relatórios e carregados para qualquer workspace em uma capacidade Premium. Localize o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do nome do workspace. 
 
 Os relatórios paginados têm um ícone próprio, ![Ícone do relatório paginado](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-icon.png).
 

@@ -1,5 +1,5 @@
 ---
-title: Definir configurações de fluxo de dados de espaço de trabalho
+title: Definir configurações de fluxo de dados de workspace
 description: Configurar um workspace do aplicativo no Power BI para armazenar sua definição de fluxo de dados e arquivos de dados no Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
@@ -17,62 +17,62 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 07/26/2019
 ms.locfileid: "68523511"
 ---
-# <a name="configure-workspace-dataflow-settings-preview"></a>Definir configurações de fluxo de dados de espaço de trabalho (versão prévia)
+# <a name="configure-workspace-dataflow-settings-preview"></a>Definir configurações de fluxo de dados de workspace (versão prévia)
 
-Com o Power BI e os fluxos de dados, você pode armazenar um arquivo de definição de fluxo de dados e arquivos de dados de um espaço de trabalho em sua conta do Azure Data Lake Storage Gen2. Os administradores de espaço de trabalho podem configurar o Power BI para fazer isso, e este artigo explica as etapas necessárias para chegar lá. 
+Com o Power BI e os fluxos de dados, você pode armazenar um arquivo de definição de fluxo de dados e arquivos de dados de um workspace em sua conta do Azure Data Lake Storage Gen2. Os administradores de workspace podem configurar o Power BI para fazer isso, e este artigo explica as etapas necessárias para chegar lá. 
 
-Antes de configurar o local de armazenamento de fluxo de dados do espaço de trabalho, administrador global da sua empresa deve conectar a conta de armazenamento da sua organização ao Power BI e habilitar as permissões de atribuição de armazenamento para essa conta de armazenamento. *[Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
+Antes de configurar o local de armazenamento de fluxo de dados do workspace, administrador global da sua empresa deve conectar a conta de armazenamento da sua organização ao Power BI e habilitar as permissões de atribuição de armazenamento para essa conta de armazenamento. *[Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
 
-Há duas maneiras de definir as configurações de armazenamento de fluxo de dados do espaço de trabalho: 
+Há duas maneiras de definir as configurações de armazenamento de fluxo de dados do workspace: 
 
-* Durante a criação do espaço de trabalho
-* Editando um espaço de trabalho existente
+* Durante a criação do workspace
+* Editando um workspace existente
 
 Vamos dar uma olhada em cada uma nas seções a seguir. 
 
 > [!IMPORTANT]
-> A configuração de armazenamento de fluxo de dados do espaço de trabalho só poderá ser alterada se o espaço de trabalho não contiver um fluxo de dados. Além disso, esse recurso está disponível somente na nova experiência de espaço de trabalho. Você pode aprender mais sobre o novo espaço de trabalho no artigo [Criar novos espaços de trabalho (versão prévia) no Power BI](service-create-the-new-workspaces.md).
+> A configuração de armazenamento de fluxo de dados do workspace só poderá ser alterada se o workspace não contiver um fluxo de dados. Além disso, esse recurso está disponível somente na nova experiência de workspace. Você pode aprender mais sobre o novo workspace no artigo [Criar novos workspaces (versão prévia) no Power BI](service-create-the-new-workspaces.md).
 
-## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>Criar um novo espaço de trabalho, configurar seu armazenamento de fluxo de dados
+## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>Criar um novo workspace, configurar seu armazenamento de fluxo de dados
 
 Para criar um novo espaço de trabalho de aplicativo no serviço do Power BI, selecione **espaços de trabalho > Criar espaço de trabalho de aplicativo**.
 
-![Adicionar novo espaço de trabalho](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
+![Adicionar novo workspace](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-Na caixa de diálogo do espaço de trabalho Criar um aplicativo, uma caixa amarela pode ser exibido, intitulada **Visualizar espaços de trabalho aprimorados**. Nessa área, selecione **Experimente agora**.
+Na caixa de diálogo do workspace Criar um aplicativo, uma caixa amarela pode ser exibido, intitulada **Visualizar workspaces aprimorados**. Nessa área, selecione **Experimente agora**.
 
 ![Visualizar workspaces aprimorados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
-Na caixa de diálogo exibida, você pode dar um nome exclusivo seu novo espaço de trabalho. Não selecione **Salvar** ainda, pois você precisa fazer configurações avançadas.
+Na caixa de diálogo exibida, você pode dar um nome exclusivo seu novo workspace. Não selecione **Salvar** ainda, pois você precisa fazer configurações avançadas.
 
-![Dê um nome ao novo espaço de trabalho](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
+![Dê um nome ao novo workspace](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-Em seguida, expanda a área **Avançado** da caixa de diálogo **Criar um espaço de trabalho de aplicativo**, em que você pode ativar a configuração **Armazenamento de fluxo de dados (versão prévia)** .
+Em seguida, expanda a área **Avançado** da caixa de diálogo **Criar um workspace de aplicativo**, em que você pode ativar a configuração **Armazenamento de fluxo de dados (versão prévia)** .
 
-![Configurações avançadas para o novo espaço de trabalho](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
+![Configurações avançadas para o novo workspace](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
-Selecione **Salvar** para criar o novo espaço de trabalho. Qualquer fluxo de dados novo criado nesse espaço de trabalho agora armazena seu arquivo de definição (o arquivo Model.json) e os dados da conta do Azure Data Lake Storage Gen2 da sua organização. 
+Selecione **Salvar** para criar o novo workspace. Qualquer fluxo de dados novo criado nesse workspace agora armazena seu arquivo de definição (o arquivo Model.json) e os dados da conta do Azure Data Lake Storage Gen2 da sua organização. 
 
-## <a name="update-dataflow-storage-for-an-existing-workspace"></a>Atualizar o armazenamento de fluxo de dados para um espaço de trabalho
+## <a name="update-dataflow-storage-for-an-existing-workspace"></a>Atualizar o armazenamento de fluxo de dados para um workspace
 
-Como alternativa à criação um novo espaço de trabalho, você pode atualizar um espaço de trabalho existente para armazenar o arquivo de definição e os dados na conta do Azure Data Lake Storage Gen2 da sua organização. Lembre-se de que a configuração de armazenamento de fluxo de dados só poderá ser alterada se o espaço de trabalho já não contiver um fluxo de dados.
+Como alternativa à criação um novo workspace, você pode atualizar um workspace existente para armazenar o arquivo de definição e os dados na conta do Azure Data Lake Storage Gen2 da sua organização. Lembre-se de que a configuração de armazenamento de fluxo de dados só poderá ser alterada se o workspace já não contiver um fluxo de dados.
 
-Para editar um espaço de trabalho de aplicativo, selecione as reticências **(...)**  e, em seguida, selecione **Editar espaço de trabalho**. 
+Para editar um workspace de aplicativo, selecione as reticências **(...)**  e, em seguida, selecione **Editar workspace**. 
 
 ![Editar workspace](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
-Na janela **Editar espaço de trabalho** exibida, expanda **Avançado**, depois ative o **armazenamento de fluxo de dados (versão prévia)** definindo como **Ativado**. 
+Na janela **Editar workspace** exibida, expanda **Avançado**, depois ative o **armazenamento de fluxo de dados (versão prévia)** definindo como **Ativado**. 
 
 ![Armazenamento de fluxo de dados definido como Ativado](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_06.jpg)
 
-Depois, **Salvar**, e qualquer fluxo de dados novo criado nesse espaço de trabalho agora armazena seu arquivo de definição e os dados da conta do Azure Data Lake Storage Gen2 da sua organização.
+Depois, **Salvar**, e qualquer fluxo de dados novo criado nesse workspace agora armazena seu arquivo de definição e os dados da conta do Azure Data Lake Storage Gen2 da sua organização.
 
 
 ## <a name="get-the-uri-of-stored-dataflow-files"></a>Obter o URI de arquivos de fluxo de dados armazenados
 
-Depois de criar um fluxo de dados em um espaço de trabalho atribuído à conta do Azure Data Lake da sua organização, você pode acessar seus arquivos de definição e de dados diretamente. A localização deles está disponível na página **Configurações de fluxo de dados**. Para chegar lá, siga estas etapas:
+Depois de criar um fluxo de dados em um workspace atribuído à conta do Azure Data Lake da sua organização, você pode acessar seus arquivos de definição e de dados diretamente. A localização deles está disponível na página **Configurações de fluxo de dados**. Para chegar lá, siga estas etapas:
 
-Selecione as reticências **(...)**  ao lado de um fluxo de dados listado em **Fluxos de dados** no espaço de trabalho. No menu que aparece, selecione **Configurações**.
+Selecione as reticências **(...)**  ao lado de um fluxo de dados listado em **Fluxos de dados** no workspace. No menu que aparece, selecione **Configurações**.
 
 ![Obter o URI de arquivos de fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_07.jpg)
 
@@ -89,9 +89,9 @@ Nas informações exibidas, o local da pasta do CDM do fluxo de dados aparece em
 
 Determinados recursos de fluxo de dados não são compatíveis quando o armazenamento de fluxo de dados está no Azure Data Lake Storage Gen2: 
 
-espaços de trabalho do Power BI Pro, Premium e Embedded:
-* O recurso **entidades vinculadas** só tem suporte somente entre espaços de trabalho na mesma conta de armazenamento
-* Permissões de espaço de trabalho não se aplicam a fluxos de dados armazenados no Azure Data Lake Storage Gen2; somente o proprietário do fluxo de dados pode acessá-lo.
+Os workspaces do Power BI Pro, Premium e Embedded:
+* O recurso **entidades vinculadas** só tem suporte somente entre workspaces na mesma conta de armazenamento
+* Permissões de workspace não se aplicam a fluxos de dados armazenados no Azure Data Lake Storage Gen2; somente o proprietário do fluxo de dados pode acessá-lo.
 * Caso contrário, todos os recursos de preparação de dados são os mesmos para fluxos de dados no armazenamento do Power BI
 
 
@@ -103,8 +103,8 @@ Existem algumas considerações adicionais também, descritas na lista a seguir:
 
 Os clientes do **Power BI Desktop** não podem acessar os fluxos de dados armazenados na conta do Azure Data Lake Storage Gen2, a menos que sejam os proprietários do fluxo de dados. Considere a seguinte situação:
 
-1.  Brenda cria um novo espaço de trabalho do aplicativo e o configura para armazenar fluxos de dados no data lake da organização.
-2.  Davi, que também é membro do espaço de trabalho criado por Brenda, deseja usar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado por Brenda.
+1.  Brenda cria um novo workspace do aplicativo e o configura para armazenar fluxos de dados no data lake da organização.
+2.  Davi, que também é membro do workspace criado por Brenda, deseja usar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado por Brenda.
 3.  Davi recebe um erro porque não foi adicionado como usuário autorizado à pasta do CDM do fluxo de dados no data lake.
 
     ![Erro ao tentar usar o fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
@@ -112,7 +112,7 @@ Os clientes do **Power BI Desktop** não podem acessar os fluxos de dados armaze
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Este artigo forneceu diretrizes sobre como configurar o armazenamento de espaço de trabalho para fluxos de dados. Para saber mais, confira os seguintes artigos:
+Este artigo forneceu diretrizes sobre como configurar o armazenamento de workspace para fluxos de dados. Para saber mais, confira os seguintes artigos:
 
 Para saber mais sobre fluxos de dados, CDM e o Azure Data Lake Storage Gen2, confira os seguintes artigos:
 

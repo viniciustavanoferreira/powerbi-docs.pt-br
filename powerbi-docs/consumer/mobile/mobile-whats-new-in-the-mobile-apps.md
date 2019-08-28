@@ -728,14 +728,14 @@ Leia a [postagem no blog móvel do Power BI publicada em meados de outubro](http
 Aprimoramentos nos aplicativos móveis do Power BI, Android, iOS (iPhone e iPad) e Windows. Leia a [postagem no blog móvel do Power BI publicada em meados de setembro](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx).
 
 #### <a name="android"></a>Android
-* Suporte para espaços de trabalho de grupo: colabore com colegas em espaço de trabalhos do grupo. 
+* Suporte para workspaces de grupo: colabore com colegas em workspaces do grupo. 
 * Suporte para usuários não autenticados:  para alguns cenários em que os usuários não puderem entrar no aplicativo, adicionamos uma maneira rápida e conveniente de entrar em contato com o suporte e enviar comentários.
 * Melhor experiência de usuário ao acessar painéis usando a segurança baseada em função.          
 * Formatação de dados aprimorados de gráficos e alinhamento de todos os blocos do painel. 
 
 #### <a name="ios-iphone-and-ipad"></a>iOS (iPhone e iPad)
 * Navegação nova e aprimorada: a nova navegação de gaveta aumenta a propriedade da tela e melhora a navegação através do aplicativo. 
-* Espaços de trabalho do grupo: colabore com colegas em espaço de trabalhos do grupo. 
+* Workspaces do grupo: colabore com colegas em workspaces do grupo. 
 * O processo de autenticação atualiza a qualidade, desempenho e melhorias de funcionalidade aprimoram o processo de autenticação, incluindo o suporte para SSO (Logon único). 
 * Representação de dados melhorada dos blocos do gráfico de linha para comprimir melhor o eixo x.
 * Experiência aprimorada do usuário ao usar com segurança baseada em função.

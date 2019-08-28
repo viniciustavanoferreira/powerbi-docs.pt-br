@@ -23,7 +23,7 @@ No Power BI, é possível criar *workspaces*, lugares para colaborar com colegas
 
 **Você sabia?** O Power BI oferece uma nova experiência de workspace, que agora é a padrão. Leia [Organizar o trabalho em novos workspaces](service-new-workspaces.md) para obter detalhes sobre os novos workspaces. 
 
-Quando cria um workspace, você está criando um grupo associado e subjacente do Office 365. Toda a administração do espaço de trabalho é feita no Office 365. Você pode adicionar colegas a esses workspaces como membros ou administradores. No workspace, todos podem colaborar em dashboards, relatórios e outros artigos que você planeja distribuir para um público-alvo maior. Todos que você adicionar a um workspace de aplicativo precisam de uma licença do Power BI Pro. 
+Quando cria um workspace, você está criando um grupo associado e subjacente do Office 365. Toda a administração do workspace é feita no Office 365. Você pode adicionar colegas a esses workspaces como membros ou administradores. No workspace, todos podem colaborar em dashboards, relatórios e outros artigos que você planeja distribuir para um público-alvo maior. Todos que você adicionar a um workspace de aplicativo precisam de uma licença do Power BI Pro. 
 
 ## <a name="video-apps-and-app-workspaces"></a>Vídeo: Aplicativos e workspaces de aplicativo
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>

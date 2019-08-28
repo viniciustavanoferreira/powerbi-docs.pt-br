@@ -67,7 +67,7 @@ Se quiser exibir a fonte de dados deste exemplo, ela também está disponível c
 ## <a name="new-hires"></a>Novas contratações
 Primeiro, vamos explorar as novas contratações.
 
-1. No seu espaço de trabalho, selecione a guia **Painéis** e abra o painel **Exemplo de Recursos Humanos**.
+1. No seu workspace, selecione a guia **Painéis** e abra o painel **Exemplo de Recursos Humanos**.
 2. No painel, selecione o bloco **Contagem de novas contratações, Novas contratações no mesmo período do ano passado, Alteração de % de YoY de funcionários ativos Por mês**.  
 
    ![Bloco de Contagem de novas contratações](media/sample-human-resources/hr2.png)  

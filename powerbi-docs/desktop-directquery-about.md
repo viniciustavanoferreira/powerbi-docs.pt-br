@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590549"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654765"
 ---
 # <a name="using-directquery-in-power-bi"></a>Usando o DirectQuery no Power BI
 Você pode se conectar a todos os tipos de fontes de dados diferentes ao usar o **Power BI Desktop** ou o **serviço do Power BI** e fazer essas conexões de dados de maneiras diferentes. *Importe* dados para o Power BI, que é a maneira mais comum de obter dados, ou conecte-se diretamente aos dados em seu repositório de origem original, que é conhecido como **DirectQuery**. Este artigo descreve o **DirectQuery** e suas funcionalidades:
@@ -140,11 +140,8 @@ Ao usar o **DirectQuery**, muitos desses aprimoramentos de modelo ainda poderão
 * **Limitações em colunas calculadas:** as colunas calculadas são limitadas a serem intra-linha e, sendo assim, só podem fazer referência a valores de outras colunas da mesma tabela, sem o uso de quaisquer funções de agregação. Além disso, as funções escalares do DAX (como LEFT()) que são permitidas serão limitadas àquelas que simplesmente podem ser enviadas por push à fonte subjacente e, portanto, variarão de acordo com os recursos exatos da fonte. As funções para as quais não há suporte não serão listadas no preenchimento automático durante a criação do DAX para uma coluna calculada e resultarão em um erro se forem usadas.
 * **Não há suporte para as funções DAX pai-filho:** no modelo DirectQuery não é possível usar a família de funções DAX PATH(), que geralmente manipulam estruturas Pai-Filho (como plano de contas ou hierarquias de funcionários).
 * **Não há suporte para tabelas calculadas:** a capacidade de definir uma tabela calculada usando uma expressão DAX não tem suporte no modo DirectQuery.
-* **A filtragem de relação é limitada a uma única direção:** ao usar o DirectQuery, não é possível definir a direção do Filtro Cruzado em uma relação como "Ambos". Por exemplo, com as três tabelas abaixo, não seria possível criar um visual mostrando cada Customer[Gender] e o número de Product[Category] comprados por cada um. O uso dessa filtragem bidirecional é descrito [neste white paper detalhado](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (o white paper apresenta exemplos no contexto do SQL Server Analysis Services, mas os pontos fundamentais se aplicam igualmente ao Power BI).
-  
-  ![](media/desktop-directquery-about/directquery-about_01.png)
-  
-  Novamente, o limite é imposto devido às implicações de desempenho. Uma aplicação especialmente importante disso é ao definir a Segurança em Nível de Linha como parte do relatório, pois um padrão comum é ter uma relação de muitos para muitos entre os usuários e as entidades às quais eles podem acessar e é necessário o uso de filtragem bidirecional para impor isso. No entanto, a filtragem bidirecional para modelos do DirectQuery deve ser usada com cuidado, com especial atenção a qualquer impacto negativo no desempenho.  
+* **Filtragem de relacionamentos:** O uso da filtragem bidirecional é descrito [neste white paper detalhado](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (o white paper apresenta exemplos no contexto do SQL Server Analysis Services, mas os pontos fundamentais se aplicam igualmente ao Power BI).
+
 * **Sem Clustering:** ao usar o DirectQuery, não é possível usar o recurso Clustering para localizar grupos automaticamente
 
 ### <a name="reporting-limitations"></a>Limitações de relatórios

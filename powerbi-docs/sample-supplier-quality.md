@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391268"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621304"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Análise de Varejo de fornecedor para o Power BI: Faça um tour
 
@@ -144,7 +144,7 @@ O melhor tipo material gerenciado é aquele com o menor tempo de inatividade ou 
     Havia muitos mais defeitos de matérias-primas em 2014 que em 2013.  
 
     ![Pergunta de P e R: Mostrar tipos de material, ano e quantidade total de falhas](media/sample-supplier-quality/supplier12.png)  
-6. Em seguida, altere a pergunta para: *mostrar tipos de material, ano e total de **minutos de tempo de inatividade***.  
+6. Em seguida, altere a pergunta para: _mostrar tipos de material, ano e total de **minutos de tempo de inatividade**_ .  
 
    ![Pergunta de P e R: Mostrar tipos de material, ano e tempo de inatividade total em minutos](media/sample-supplier-quality/supplier13.png)
 

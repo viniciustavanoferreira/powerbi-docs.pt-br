@@ -9,14 +9,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: df8a7b2f8564c8862a5c2db3177df42640ce295d
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: bb8c0582e08d8e1e05c78c30df0b59bd89aafbd0
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68996049"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985799"
 ---
-# <a name="understand-a-star-schema-and-the-importance-for-power-bi"></a>Entenda um esquema em estrela e a importância para o Power BI
+# <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Entenda o esquema em estrela e a importância para o Power BI
 
 Este artigo se destina a modeladores de dados do Power BI Desktop. Descreve o design do esquema em estrela e sua relevância para desenvolver modelos de dados do Power BI otimizados para desempenho e usabilidade.
 
@@ -66,7 +66,7 @@ Há muitos conceitos adicionais relacionados ao design de um esquema em estrela 
 
 No design de esquema em estrela uma **medida** é uma coluna de tabela de fatos que armazena valores a serem resumidos.
 
-Em um modelo do Power BI, uma **medida** tem uma definição diferente, mas semelhante,. É uma fórmula escrita em [DAX (Expressões de Análise de Dados)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) que realiza o resumo. As expressões de medida geralmente aproveitam funções de agregação DAX como SUM, MIN, MAX, AVERAGE etc. para produzir um resultado de valor escalar no momento da consulta (os valores nunca são armazenados no modelo). A expressão de medida pode variar de agregações de coluna simples a fórmulas mais sofisticadas que substituem o contexto de filtro e/ou as propagações de relação. Para obter mais informações, leia o artigo [Noções básicas do DAX no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics). Link Saiba mais?
+Em um modelo do Power BI, uma **medida** tem uma definição diferente, mas semelhante,. É uma fórmula escrita em [DAX (Expressões de Análise de Dados)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) que realiza o resumo. As expressões de medida geralmente aproveitam funções de agregação DAX como SUM, MIN, MAX, AVERAGE etc. para produzir um resultado de valor escalar no momento da consulta (os valores nunca são armazenados no modelo). A expressão de medida pode variar de agregações de coluna simples a fórmulas mais sofisticadas que substituem o contexto de filtro e/ou a propagação de relação. Para obter mais informações, leia o artigo [Noções básicas do DAX no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics).
 
 É importante entender que modelos do Power BI dão suporte a um segundo método de obtenção de resumo. Qualquer coluna — e normalmente colunas numéricas — pode ser resumida por um relatório visual ou P e R. Essa é uma conveniência para você como desenvolvedor de modelo, já que, em muitas instâncias, você não precisa criar medidas. Por exemplo, a coluna **Valor de Vendas** das vendas do revendedor da Adventure Works pode ser resumida de várias maneiras (soma, contagem, média, mediana, mín., máx. etc.), sem necessidade de criar uma medida para cada tipo de agregação possível.
 

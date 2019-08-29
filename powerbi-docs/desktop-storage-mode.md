@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61363257"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654749"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modo de armazenamento no Power BI Desktop
 
@@ -62,6 +62,10 @@ Há três valores para o modo de armazenamento:
 * **Dupla**: as tabelas duplas podem se comportar como armazenadas em cache ou não, dependendo do contexto da consulta enviada para o conjunto de dados do Power BI. Em alguns casos, você atende às consultas de dados armazenados em cache. Em outros casos, você atende às consultas executando uma consulta sob demanda para a fonte de dados.
 
 Alterar uma tabela para **Importação** é um operação *irreversível*. Essa propriedade não pode ser alterada de volta para DirectQuery ou Dupla.
+
+> [!NOTE]
+> Você pode usar o modo de armazenamento *Duplo* no Power BI Desktop e no serviço do Power BI.
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Restrições em tabelas duplas e do DirectQuery
 

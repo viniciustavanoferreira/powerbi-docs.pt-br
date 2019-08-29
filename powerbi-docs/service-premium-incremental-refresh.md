@@ -7,25 +7,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/21/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: c743f56de101cb63db2357acf869aba80162c181
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 4f3c709c0ea699c0c9ad7ebee61889e6c7bceef8
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559021"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985776"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Atualização incremental no Power BI Premium
 
 A atualização incremental permite conjuntos de dados muito grandes no serviço do Power BI Premium com os seguintes benefícios:
 
-- **As atualizações são mais rápidas** – somente os dados alterados precisam ser atualizados. Por exemplo, a atualização somente dos últimos cinco dias de um conjunto de dados de dez anos.
-
-- **As atualizações são mais confiáveis** – não é mais necessário manter conexões longas com sistemas de origem voláteis.
-
-- **O consumo de recursos é reduzido** – um número menor de dados para atualização reduz o consumo geral da memória e de outros recursos.
+> [!div class="checklist"]
+> * **As atualizações são mais rápidas** – somente os dados alterados precisam ser atualizados. Por exemplo, a atualização somente dos últimos cinco dias de um conjunto de dados de dez anos.
+> * **As atualizações são mais confiáveis** – não é mais necessário manter conexões longas com sistemas de origem voláteis.
+> * **O consumo de recursos é reduzido** – um número menor de dados para atualização reduz o consumo geral da memória e de outros recursos.
 
 ## <a name="configure-incremental-refresh"></a>Configurar a atualização incremental
 
@@ -51,9 +50,13 @@ Com os parâmetros definidos, em seguida, você poderá aplicar o filtro selecio
 
 ![Filtro personalizado](media/service-premium-incremental-refresh/custom-filter.png)
 
-Verifique se as linhas são filtradas com o valor da coluna *após ou igual a* **RangeStart** e *antes de* **RangeEnd**.
+Verifique se as linhas são filtradas com o valor da coluna *após ou igual a* **RangeStart** e *antes de* **RangeEnd**. Outras combinações de filtro podem resultar em uma contagem dupla de linhas.
 
 ![Filtrar linhas](media/service-premium-incremental-refresh/filter-rows.png)
+
+> [!IMPORTANT]
+> Verifique se as consultas têm um sinal de igual a (=) em **RangeStart** ou em **RangeEnd**, mas não em ambos. Se o sinal de igual a (=) existir em ambos os parâmetros, uma linha poderá atender às condições para duas partições, o que poderá levar a dados duplicados no modelo. Por exemplo,  
+> \#"Filtered Rows" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** e [OrderDate] **<= RangeEnd**) pode resultar em dados duplicados.
 
 > [!TIP]
 > Embora o tipo de dados dos parâmetros precise ser data/hora, é possível convertê-los para que correspondam aos requisitos da fonte de dados. Por exemplo, a função do Power Query a seguir converte um valor de data/hora para se parecer com uma chave alternativa de inteiro no formato *aaaammdd*, que é comum para data warehouses. A função pode ser chamada pela etapa de filtro.
@@ -152,7 +155,7 @@ Agora você pode atualizar o modelo. A primeira atualização pode demorar mais 
 
 O artigo [Solucionando problemas de atualização](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios) explica que as operações de atualização no serviço do Power BI estão sujeitas a tempos limite. As consultas também podem ser limitadas pelo tempo limite padrão da fonte de dados. A maioria das fontes relacionais permitem a substituição de tempos limite na expressão M. Por exemplo, a expressão abaixo usa a [função de acesso a dados do SQL Server](https://msdn.microsoft.com/query-bi/m/sql-database) para defini-lo para 2 horas. Cada período definido pelos intervalos de política envia uma consulta observando a configuração de tempo limite do comando.
 
-```
+```powerquery-m
 let
     Source = Sql.Database("myserver.database.windows.net", "AdventureWorks", [CommandTimeout=#duration(0, 2, 0, 0)]),
     dbo_Fact = Source{[Schema="dbo",Item="FactInternetSales"]}[Data],
@@ -164,3 +167,4 @@ in
 ## <a name="limitations"></a>Limitações
 
 No momento, para [modelos de composição](desktop-composite-models.md), a atualização incremental tem suporte somente para fontes de dados SQL Server, Banco de dados SQL do Azure, SQL Data Warehouse, Oracle e Teradata.
+

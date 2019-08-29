@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565376"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654281"
 ---
 # <a name="power-bi-premium-faq"></a>Perguntas Frequentes do Power BI Premium
 
@@ -76,9 +76,9 @@ O Power BI Premium está disponível como um complemento do Power BI Pro. O Offi
 
 **O que é o Servidor de Relatório do Power BI? Isso significa que vocês estão disponibilizando o Power BI localmente?**
 
-O Servidor de Relatório do Power BI é um servidor local que permite a implantação e a distribuição de relatórios interativos do Power BI e de relatórios paginados, completamente dentro dos limites do firewall da organização. O Servidor de Relatórios do Power BI está disponível por meio do Power BI Premium ou como um benefício para clientes com o SQL Server Enterprise Edition com Software Assurance. Entre em contato com seu representante da Microsoft para obter mais informações.
+O Servidor de Relatório do Power BI é um servidor local que permite a implantação e a distribuição de relatórios interativos do Power BI e de relatórios paginados, completamente dentro dos limites do firewall da organização. O Servidor de Relatórios do Power BI está disponível por meio do Power BI Premium ou como um benefício para clientes com o SQL Server Enterprise Edition com Software Assurance. Para obter informações sobre licenciamento, confira [Licenciamento do Servidor de Relatórios do Power BI](report-server/get-started.md#licensing-power-bi-report-server). Entre em contato com o representante da Microsoft para obter detalhes.
 
-Com Power BI Premium. o mesmo número de núcleos virtuais que uma organização provisiona na nuvem também pode ser implantado localmente por meio do Servidor de Relatórios do Power BI. Não é necessário dividir a capacidade. As organizações podem optar pelo Power BI na nuvem ou por manter os relatórios localmente com o Servidor de Relatório do Power BI e migrar para a nuvem em seu ritmo.
+Com o Power BI Premium, o mesmo número de núcleos virtuais que uma organização provisiona na nuvem também pode ser implantado no local por meio do Servidor de Relatórios do Power BI. Não é necessário dividir a capacidade. As organizações podem optar pelo Power BI na nuvem ou por manter os relatórios localmente com o Servidor de Relatório do Power BI e migrar para a nuvem em seu ritmo.
 
 Para obter mais informações, consulte [Introdução ao Servidor de Relatório do Power BI](report-server/get-started.md).
 

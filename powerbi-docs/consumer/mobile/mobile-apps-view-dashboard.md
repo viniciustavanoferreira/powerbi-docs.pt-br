@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665514"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654618"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Exibir painéis e relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -31,7 +31,7 @@ Painéis são um portal para o ciclo de vida e processos de sua empresa. Um pain
 Para ver painéis e relatórios em seu dispositivo móvel, é necessário criar ou se conectar a eles em um navegador da Web. 
 
 1. Vá até o serviço do Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [inscreva-se para ter uma conta](../../service-self-service-signup-for-power-bi.md).
-2. [Crie seus próprios dashboards e relatórios do Power BI](../../service-get-started.md) ou conecte-se a [aplicativos do Power BI](../../service-connect-to-services.md) existentes para usar uma variedade de serviços, como o [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) e o [Adobe Analytics](../../service-connect-to-adobe-analytics.md).
+2. [Crie seus próprios dashboards e relatórios do Power BI](../../service-get-started.md) ou conecte-se a [aplicativos Power BI](../../service-connect-to-services.md) existentes para uma variedade de serviços, como [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md).
 
 Este é um dashboard do Power BI no serviço do Power BI:
 

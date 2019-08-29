@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/09/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f3d67d0b57f2f04a31d99fb36476871c164aad4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65533591"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654572"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Usar modelos compostos no Power BI Desktop
 
-Anteriormente no Power BI Desktop, quando você usou um DirectQuery em um relatório, nenhuma outra conexão de dados - se DirectQuery ou importação - foram permitidas para esse relatório. Com modelos compostos, essa restrição é removida. Um relatório pode incluir perfeitamente as conexões de dados de mais de um DirectQuery ou conexão de Importar dados, em qualquer combinação que você escolher.
+Anteriormente no Power BI Desktop, quando você usava um DirectQuery em um relatório, nenhuma outra conexão de dados, seja DirectQuery ou Importação, era permitida para esse relatório. Com modelos compostos, essa restrição é removida. Um relatório pode incluir perfeitamente as conexões de dados de mais de um DirectQuery ou conexão de Importar dados, em qualquer combinação que você escolher.
 
 ![Modelos compostos no Power BI Desktop](media/desktop-composite-models/composite-models_01.png)
 
@@ -39,7 +39,7 @@ Com modelos compostos, você pode se conectar a uma variedade de fontes de dados
 * Importar dados para o Power BI, que é a maneira mais comum de obter dados.
 * Conectar-se diretamente aos dados no repositório fonte original usando o DirectQuery. Para saber mais sobre o DirectQuery, confira [Usar o DirectQuery no Power BI](desktop-directquery-about.md).
 
-Quando você usa o DirectQuery, *modelos de composição* tornam possível criar um modelo do Power BI (como uma única *. pbix* arquivo do Power BI Desktop) que faz uma ou ambas das seguintes opções:
+Quando você usa o DirectQuery, os *modelos compostos* tornam possível criar um modelo do Power BI (como um único arquivo *.pbix* do Power BI Desktop) que execute um destes procedimentos ou ambos:
 
 * Combina dados de uma ou mais fontes de DirectQuery.
 * Combina dados de fontes de DirectQuery e importação de dados.
@@ -100,7 +100,7 @@ Agora podemos criar elementos visuais usando qualquer um dos campos na lista **C
 
 ![O painel Campos](media/desktop-composite-models/composite-models_11.png)
 
-O exemplo a seguir exibe um caso comum de um *dimensão* tabela – como *produto* ou *cliente* -que é estendido com alguns dados adicionais importados de outro lugar. Também é possível fazer com que as tabelas usem o DirectQuery para se conectar a várias fontes. Para continuar o exemplo, imagine que *SalesTargets* por *País* e *Período* sejam armazenados em um banco de dados de departamento separado. Como de costume, você pode usar *GetData* para se conectar aos dados, conforme mostrado na seguinte imagem: 
+O exemplo a seguir exibe um caso comum de uma tabela *dimensão*, como *Produto* ou *Cliente*, que é estendida com alguns dados extras importados de outro lugar. Também é possível fazer com que as tabelas usem o DirectQuery para se conectar a várias fontes. Para continuar o exemplo, imagine que *SalesTargets* por *País* e *Período* sejam armazenados em um banco de dados de departamento separado. Como de costume, você pode usar *GetData* para se conectar aos dados, conforme mostrado na seguinte imagem: 
 
 ![A janela Navegador](media/desktop-composite-models/composite-models_12.png)
 
@@ -125,6 +125,9 @@ O modo de armazenamento também pode ser visto na dica de ferramenta de cada tab
 Para qualquer arquivo do Power BI Desktop (um arquivo *.pbix*) que contém algumas tabelas de DirectQuery e algumas tabelas de importação, a barra de status mostra um modo de armazenamento chamado **Misto**. Você pode clicar no termo na barra de status e alternar facilmente todas as tabelas para Importação.
 
 Para saber mais sobre o modo de armazenamento, confira [Modo de armazenamento no Power BI Desktop (versão prévia)](desktop-storage-mode.md).  
+
+> [!NOTE]
+> Você pode usar o modo de armazenamento *Misto* no Power BI Desktop e no serviço do Power BI.
 
 ## <a name="calculated-tables"></a>Tabelas calculadas
 
@@ -152,7 +155,7 @@ Por motivos semelhantes, tenha cuidado ao abrir um arquivo do Power BI Desktop e
 
 Ao usar o DirectQuery, você deve sempre considerar desempenho, principalmente para garantir que a fonte de back-end tenha recursos suficientes para fornecer uma boa experiência aos usuários. Uma boa experiência significa que os visuais são atualizados em cinco segundos ou menos. Você também deve seguir o conselho de desempenho do artigo [Usar o DirectQuery no Power BI](desktop-directquery-about.md). 
 
-O uso de modelos compostos gera considerações de desempenho adicionais. Um único visual pode resultar no envio de consultas para várias fontes, que geralmente passam os resultados de uma consulta em para uma segunda fonte. Essa situação pode resultar nas seguintes formas de execução:
+O uso de modelos compostos gera considerações de desempenho adicionais. Um único visual pode resultar no envio de consultas a várias fontes, o que geralmente passa os resultados de uma consulta para uma segunda fonte. Essa situação pode resultar nas seguintes formas de execução:
 
 * **Uma consulta SQL que inclui um grande número de valores literais**: por exemplo, um visual que solicita o total de *Valor de Vendas* para um conjunto de *Gerentes de Produto* selecionados, primeiro precisará saber quais *Produtos* eram gerenciados pelos gerentes de produto. Essa sequência deve ocorrer antes que o visual envie uma consulta SQL que inclui todas as IDs de produto em uma cláusula *WHERE*.
 
@@ -160,7 +163,7 @@ O uso de modelos compostos gera considerações de desempenho adicionais. Um ún
 
 * **Várias consultas SQL, uma por grupo por valor**: quando a agregação usa **DistinctCount** e é agrupada por alguma coluna de outra fonte, e se a fonte externa não oferece suporte à passagem eficiente de vários valores literais que definem o agrupamento, é necessário enviar uma consulta SQL por grupo por valor. 
 
-   Por exemplo, um visual que solicita uma contagem distinta de *CustomerAccountNumber* (de tabela do SQL Server) por *Gerente de Produto* (importada de uma planilha) precisa passar os detalhes da tabela *Gerentes de Produto* na consulta enviada ao SQL Server. Em outras fontes (por exemplo, Redshift), essa ação é impraticável. Em vez disso, deve haver uma consulta SQL enviada por *gerente de vendas* – até algum limite prático, no ponto em que a consulta falharia. 
+   Por exemplo, um visual que solicita uma contagem distinta de *CustomerAccountNumber* (de tabela do SQL Server) por *Gerente de Produto* (importada de uma planilha) precisa passar os detalhes da tabela *Gerentes de Produto* na consulta enviada ao SQL Server. Em outras fontes (por exemplo, Redshift), essa ação é impraticável. Em vez disso, deve haver uma consulta SQL enviada por *Gerente de Vendas* até um limite prático e, nesse ponto, a consulta falha. 
 
 Cada um desses casos tem suas próprias implicações sobre o desempenho, e os detalhes exatos variam para cada fonte de dados. Embora a cardinalidade das colunas usadas na relação que une as duas fontes permaneça baixa (alguns milhares), o desempenho não deve ser afetado. À medida que a cardinalidade cresce, você deve prestar mais atenção ao impacto sobre o desempenho resultante. Aplique essas diretrizes como uma prática recomendada. 
 
@@ -168,9 +171,9 @@ Além disso, o uso de relações *muitos para muitos* significa que consultas se
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
-Esta versão dos modelos de composição apresenta algumas limitações:
+Esta versão dos modelos compostos apresenta algumas limitações:
 
-No momento, [atualização incremental](service-premium-incremental-refresh.md) há suporte para se conectar ao SQL, Oracle e Teradata fontes de dados, apenas de modelos compostos.
+No momento, há suporte para [atualização incremental](service-premium-incremental-refresh.md) somente para modelos compostos conectando-se a fontes de dados SQL, Oracle e Teradata.
 
 As seguintes fontes (multidimensionais) do Live Connect não podem ser usadas com os modelos compostos:
 

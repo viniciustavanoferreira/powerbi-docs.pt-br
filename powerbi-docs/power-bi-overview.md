@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 05/30/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d6c9eb47d5f88a2d835c1ba6835e871b0c64bf1c
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324783"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654989"
 ---
 # <a name="what-is-power-bi"></a>O que é Power BI?
 O **Power BI** é uma coleção de serviços de software, aplicativos e conectores que trabalham juntos para transformar suas fontes de dados não relacionadas em informações coerentes, visualmente envolventes e interativas. Os dados podem estar em uma planilha do Excel ou em uma coleção de data warehouses híbridos locais ou baseados na nuvem. Com o Power BI, você pode conectar-se facilmente a fontes de dados, visualizar e descobrir conteúdo importante e compartilhá-lo com todas as pessoas que quiser.
@@ -25,11 +25,11 @@ O Power BI pode ser simples e rápido, capaz de criar insights rápidos com base
 
 ## <a name="the-parts-of-power-bi"></a>As partes do Power BI
 O Power BI consiste em: 
-- Um aplicativo de desktop do Windows chamado **Power BI Desktop**
-- Um serviço SaaS (*software como serviço*) online chamado de **serviço do Power BI** 
-- **Aplicativos móveis** do Power BI para dispositivos Windows, iOS e Android
+- Um aplicativo de desktop do Windows chamado **Power BI Desktop**.
+- Um serviço SaaS (*software como serviço*) online chamado de **serviço do Power BI**. 
+- **Aplicativos móveis** do Power BI para dispositivos Windows, iOS e Android.
 
-![Power BI Desktop, serviço, Mobile](media/power-bi-overview/power-bi-blocks.png)
+![Power BI Desktop, serviço, Mobile](media/power-bi-overview/power-bi-overview-blocks.png)
 
 Esses três elementos&mdash;Power BI Desktop, o serviço e os aplicativos móveis&mdash;são projetados para que as pessoas possam criar, compartilhar e consumir com eficiência insights empresariais da maneira mais adequada para elas ou para as respectivas funções.
 

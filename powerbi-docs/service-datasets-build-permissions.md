@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c5b880132255fbdf37996273dc6c70029e548df6
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530524"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654907"
 ---
 # <a name="share-a-dataset-preview"></a>Compartilhar um conjunto de dados (versão prévia)
 
@@ -42,7 +42,7 @@ Como um criador de *modelos de dados* no Power BI Desktop, você pode compartilh
 
 ## <a name="build-permissions-for-shared-datasets"></a>Permissões Criar para conjuntos de dados compartilhados
 
-O tipo de permissão Criar só é relevante para conjuntos de dados. Com ele, os usuários podem criar um conteúdo em um conjunto de dados, como relatórios, dashboards, blocos fixados de P e R e Descoberta de Insights. Elas também podem criar um conteúdo no conjunto de dados fora do Power BI, como planilhas do Excel por meio do recurso Analisar no Excel, XMLA e Exportar.
+O tipo de permissão Criar só é relevante para conjuntos de dados. Com ele, os usuários podem criar um conteúdo em um conjunto de dados, como relatórios, dashboards, blocos fixados de P e R e Descoberta de Insights. Elas também podem criar um conteúdo no conjunto de dados fora do Power BI, como planilhas do Excel por meio do recurso Analisar no Excel, XMLA e exportar os dados subjacentes.
 
 Os usuários obtêm a permissão Criar de maneiras diferentes:
 
@@ -72,7 +72,7 @@ Com essa permissão Criar mais granular, você pode escolher quem pode apenas ex
 
 Se o conjunto de dados estiver sendo usado por um relatório fora do workspace do conjunto de dados, você não poderá excluir esse conjunto de dados. Em vez disso, você verá uma mensagem de erro.
 
-Você poderá remover as permissões Criar. Se você fizer isso, as pessoas cujas permissões foram revogadas por você ainda poderão ver o relatório, mas não poderão mais editá-lo.
+Você poderá remover as permissões Criar. Se você fizer isso, as pessoas cujas permissões foram revogadas por você ainda poderão ver o relatório, mas não poderão mais editá-lo nem exportar dados subjacentes. Os usuários apenas com permissão de leitura ainda podem exportar dados resumidos. 
 
 ## <a name="track-your-dataset-usage"></a>Acompanhar o uso do conjunto de dados
 

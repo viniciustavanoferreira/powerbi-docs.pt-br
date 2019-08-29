@@ -8,26 +8,26 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d82b03325991276924f25da5511baadfe53127e1
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: da7b8999dfb6185b044960dde7795008d7e716f7
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523001"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655108"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Compartilhe os painéis e os relatórios do Power BI com colegas e outras pessoas
 O *compartilhamento* é uma boa maneira de conceder acesso a algumas pessoas aos dashboards e relatórios. O Power BI também oferece [várias outras maneiras para colaborar e distribuir painéis e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-![Ícone de compartilhamento em uma lista de painéis favoritos](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
+![Ícone de compartilhamento em uma lista de dashboards](media/service-share-dashboards/power-bi-share-new-look.png)
 
 Com o compartilhamento, se você compartilhar o conteúdo dentro ou fora de sua organização, você precisará de uma [licença do Power BI Pro](service-features-license-type.md). Os destinatários também precisarão de licenças do Power BI Pro, a menos que o conteúdo esteja em uma [capacidade Premium](service-premium-what-is.md). 
 
-É possível compartilhar dashboards e relatórios da maioria dos locais no serviço do Power BI: Favoritos, Recentes, Compartilhado comigo (se o proprietário permitir), Meu Workspace ou outros workspaces. Quando você compartilha um painel ou relatório, as pessoas com as quais você o compartilha poderão exibi-lo e interagir com ele, mas não poderão editá-lo. Elas veem os mesmos dados que você no painel ou relatório, a menos que a [RLS (segurança em nível de linha)](service-admin-rls.md) seja aplicada. Os colegas com quem você compartilha também podem compartilhá-lo com os colegas deles, se você permitir. As pessoas de fora da organização também podem exibir e interagir com o dashboard ou o relatório, mas não podem compartilhá-los. 
+É possível compartilhar dashboards e relatórios da maioria dos locais no serviço do Power BI: Favoritos, Recentes, Compartilhado comigo (se o proprietário permitir), Meu Workspace ou outros workspaces. Quando você compartilha um dashboard ou relatório, as pessoas com as quais você o compartilha poderão visualizá-lo e interagir com ele, mas não poderão editá-lo. Elas veem os mesmos dados que você no painel ou relatório, a menos que a [RLS (segurança em nível de linha)](service-admin-rls.md) seja aplicada. Os colegas com quem você compartilha também podem compartilhá-lo com os colegas deles, se você permitir. As pessoas de fora da organização também podem exibir e interagir com o dashboard ou o relatório, mas não podem compartilhá-los. 
 
-Você também pode [compartilhar um dashboard de qualquer um dos aplicativos móveis do Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). No entanto, não é possível compartilhar dashboards do Power BI Desktop.
+Não é possível compartilhar dashboards do Power BI Desktop. Porém, você pode [compartilhar um dashboard de qualquer um dos aplicativos móveis do Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md).  
 
 ## <a name="video-share-a-dashboard"></a>Vídeo: Compartilhar um painel
 Veja Amanda compartilhar seu dashboard com os colegas dentro e fora da empresa dela. Em seguida, siga as instruções passo a passo abaixo do vídeo para testá-la por conta própria.
@@ -55,7 +55,9 @@ Veja Amanda compartilhar seu dashboard com os colegas dentro e fora da empresa d
    
    A permissão de compartilhamento por outras pessoas é chamada *novo compartilhamento*. Se você permitir, elas poderão compartilhar novamente por meio do serviço e dos aplicativos móveis do Power BI ou encaminhar o convite por email para outras pessoas em sua organização. O convite expira após um mês. As pessoas de fora da sua organização não podem compartilhar novamente. Como o proprietário do conteúdo, você pode desativar o novo compartilhamento e pode também revogá-lo individualmente. Confira [Impedir o compartilhamento ou impedir que outras pessoas compartilhem](#stop-sharing-or-stop-others-from-sharing).
 
-5. Selecione **Compartilhar.**
+5. Se você selecionar **Permitir que os usuários criem novo conteúdo usando os conjuntos de dados subjacentes**, eles poderão criar os próprios relatórios em outros workspaces com base no conjunto de dados para o dashboard.
+
+1. Selecione **Compartilhar.**
    
    ![Selecionar o botão Compartilhar](media/service-share-dashboards/power-bi-share-dialog-share.png)  
    
@@ -63,11 +65,11 @@ Veja Amanda compartilhar seu dashboard com os colegas dentro e fora da empresa d
    
    Quando os destinatários de sua organização clicarem no link, o Power BI adicionará o painel ou relatório às suas páginas de lista **Compartilhado comigo**. Eles podem selecionar seu nome para ver todo o conteúdo que você compartilhou com eles. 
    
-   ![Página de lista Compartilhado comigo](media/service-share-dashboards/power-bi-shared-with-me-dashboards-reports.png)
+   ![Página de lista Compartilhado comigo](media/service-share-dashboards/power-bi-shared-with-me-new-look.png)
    
-   Quando os destinatários fora de sua organização clicarem no link, eles verão o painel ou relatório, mas não no portal normal do Power BI. Para saber mais, confira [Compartilhar um dashboard ou relatório com pessoas fora de sua organização](#share-a-dashboard-or-report-with-people-outside-your-organization).
+   Quando os destinatários fora de sua organização clicarem no link, eles verão o painel ou relatório, mas não no portal normal do Power BI. Para saber mais, confira [Compartilhar um dashboard ou relatório com pessoas fora de sua organização](#share-a-dashboard-or-report-outside-your-organization).
 
-## <a name="who-has-access-to-a-dashboard-or-report-you-shared"></a>Quem tem acesso a um painel ou relatório que você compartilhou?
+## <a name="see-who-has-access-to-a-dashboard-or-report"></a>Veja quem tem acesso a um dashboard ou relatório
 Às vezes, você precisa ver as pessoas com quem você compartilhou e ver com quem elas o compartilharam:
 
 1. Na lista de painéis e relatórios ou no próprio painel ou relatório, selecione **Compartilhar** ![Ícone de compartilhamento](media/service-share-dashboards/power-bi-share-icon.png). 
@@ -99,7 +101,7 @@ Somente o proprietário do painel ou relatório pode ativar e desativar o novo c
 
     ![Caixa de diálogo de aviso de compartilhamento do Power BI](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
 
-## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Compartilhar um painel ou relatório com pessoas fora de sua organização
+## <a name="share-a-dashboard-or-report-outside-your-organization"></a>Compartilhar um dashboard ou um relatório fora de sua organização
 Quando você compartilha com pessoas fora da organização, elas recebem um email com um link para o dashboard ou relatório compartilhado e precisam entrar no Power BI para vê-lo. Se não tiverem uma licença do Power BI Pro, elas poderão inscrever-se para receber uma depois de clicar no link.
 
 Depois de entrar, elas poderão ver o dashboard ou relatório compartilhado em sua própria janela do navegador, e não no portal do Power BI normal. Para acessar o dashboard ou relatório posteriormente, eles precisam indicar o link.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523480"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621248"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)
 
@@ -177,6 +177,7 @@ Esta é uma versão prévia do recurso, e o comportamento dela pode mudar confor
 * Somente os proprietários de um fluxo de dados armazenado no Azure Data Lake Storage Gen2 pode acessar seus dados por padrão. Para autorizar outras pessoas a acessarem os fluxos de dados armazenados no Azure, adicione-as à pasta do CDM do fluxo de dados 
 * A criação de fluxos de dados com entidades vinculadas só é possível quando elas são armazenados na mesma conta de armazenamento
 * Não há suporte para fontes de dados local, em capacidades compartilhadas do Power BI, em fluxos de dados armazenados no data lake da sua organização
+* Os instantâneos não são excluídos automaticamente no ADLS Gen 2. Se você quiser liberar espaço, poderá criar uma função do Azure para limpar periodicamente os instantâneos antigos.
 
 Também há alguns problemas conhecidos, conforme descrito nesta seção.
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e63025c4e8a07e9cd22c82ca7e605042fa65be0
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264308"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654137"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 
@@ -29,7 +29,7 @@ O serviço do Power BI é um serviço de análise de negócios baseado em nuvem 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Qual é a diferença entre o Power BI Pro e o Power BI Premium?
 
-O Power BI Pro é uma licença individual que permite acesso a todo o conteúdo e recursos no serviço do Power BI. Você pode até compartilhar conteúdo e colaborar com outros usuários do Pro. Somente usuários Pro podem publicar e consumir conteúdo de workspaces do aplicativo, compartilhar dashboards e assinar dashboards e relatórios.
+O Power BI Pro é uma licença individual que permite acesso a todo o conteúdo e recursos no serviço do Power BI. Você pode até compartilhar conteúdo e colaborar com outros usuários do Pro. Somente usuários Pro podem publicar conteúdo em workspaces do aplicativo, compartilhar dashboards e assinar dashboards e relatórios.
 
 O Power BI Premium oferece capacidade dedicada para entregar um desempenho mais consistente. Ele também dá suporte a volumes de dados maiores no Power BI. Para usuários individuais, o Premium possibilita a distribuição difundida de conteúdo por usuários Pro e não exige licenças por usuário para os destinatários exibirem o conteúdo.
 
@@ -90,7 +90,7 @@ Os seguintes recursos estão disponíveis para ajudá-lo a começar:
 * Vídeos de introdução em nosso [Canal do YouTube](https://www.youtube.com/user/mspowerbi)
 * Artigo [Introdução ao Power BI](../service-get-started.md)
 * [Participe de nossa comunidade](https://community.powerbi.com/) e faça perguntas
-* Para mais sugestões, confira [10 dicas para obter ajuda](../service-tips-for-finding-help.md)
+* Para mais sugestões, consulte [10 dicas para obter ajuda](../service-tips-for-finding-help.md)
 
 ## <a name="what-browsers-does-power-bi-support"></a>Quais navegadores dão suporte ao Power BI?
 

@@ -1,5 +1,5 @@
 ---
-title: Navegue pela 'nova aparência' do serviço do Power BI
+title: A "nova aparência"' do serviço do Power BI
 description: O serviço do Power BI (app.powerbi.com) tem uma nova aparência. Este artigo descreve como navegar pelos relatórios usando a nova aparência.
 author: maggiesMSFT
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: aa7de324e77b8f2b1c58e558c0814df97d997631
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471297"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654937"
 ---
-# <a name="navigate-the-new-look-of-the-power-bi-service"></a>Navegue pela 'nova aparência' do serviço do Power BI
+# <a name="the-new-look-of-the-power-bi-service"></a>A "nova aparência"' do serviço do Power BI
 
-O serviço do Power BI tem uma nova aparência. Tornamos a exibição de relatórios mais fácil para você. A nova aparência é uma experiência moderna e mais simples. que se baseia em sua familiaridade com outros produtos da Microsoft. No serviço do Power BI, fizemos do conteúdo do relatório o ponto principal de foco, mudando para um tema de cor mais leve e atualizando os ícones. Aqui está uma visão geral do que mudou na nova aparência. Consulte as seções numeradas para ver os detalhes:
+O serviço do Power BI (app.powerbi.com) tem uma nova aparência que torna mais fácil exibir e interagir com seus relatórios. A nova aparência é uma experiência moderna e mais simples. que se baseia em sua familiaridade com outros produtos da Microsoft. No serviço do Power BI, fizemos do conteúdo do relatório o ponto principal de foco, mudando para um tema de cor mais leve e atualizando os ícones. Aqui está uma visão geral do que mudou na nova aparência. Consulte as seções numeradas para ver os detalhes:
 
 ![Visão geral das alterações na nova aparência](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -35,7 +35,7 @@ Qualquer usuário serviço do Power BI pode optar por usar a nova aparência. Ba
 
 ![Optar por usar a nova aparência](media/service-new-look/power-bi-new-look-off.png)
 
-Se você precisar voltar para a aparência antiga, selecione o menu de reticências no canto superior direito.
+Se você precisar retornar à aparência antiga, deslize-a de volta para **Nova aparência** ![desativada](media/service-new-look/power-bi-new-look-toggle-on.png). Se você não visualizar essa opção, selecione o menu de reticências no canto superior direito.
 
 ![Optar por não usar a nova aparência](media/service-new-look/power-bi-new-look-on.png)
 
@@ -82,7 +82,7 @@ Os dashboards também têm uma barra de ação simplificada, assim como relatór
 
 ## <a name="no-changes-to-edit-mode"></a>Nenhuma alteração no modo de edição 
 
-Mantivemos a experiência de criação semelhante àquela na área de trabalho. As alterações da nova aparência só se aplicam ao modo de exibição de leitura.
+Mantivemos a experiência de criação semelhante àquela do desktop. As alterações da nova aparência só se aplicam ao modo de exibição de leitura.
 
 ## <a name="next-steps"></a>Próximas etapas
 

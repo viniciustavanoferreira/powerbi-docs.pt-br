@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757730"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655150"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -174,7 +174,7 @@ Também é possível especificar uma URL para direcionar usuários a uma soluç�
 
 Os grupos de segurança habilitados para email receberão notificações por email se esse locatário for afetado por uma interrupção ou um incidente de serviço. Saiba mais sobre as [notificações de interrupção de serviço](service-interruption-notifications.md).
 
-## <a name="workspace-settings"></a>Configurações do workspace
+## <a name="workspace-settings"></a>Configurações do espaço de trabalho
 
 ### <a name="create-workspaces"></a>Criar espaços de trabalho
 
@@ -188,7 +188,7 @@ No portal de administração, você também controla quais usuários têm permis
 
 ### <a name="share-content-with-external-users"></a>Compartilhar conteúdo com usuários externos
 
-Os usuários da organização podem compartilhar dashboards com usuários fora da organização. [Saiba mais](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
+Os usuários da organização podem compartilhar dashboards com usuários fora da organização. Aprenda mais sobre [como compartilhar externamente](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization).
 
 ![Configuração de usuários externos](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -386,7 +386,7 @@ Os usuários na organização podem marcar painéis com classificações indican
 > [!NOTE]
 > Essa configuração se aplica a toda a organização e não pode ser limitada a grupos específicos.
 
-## <a name="developer-settings"></a>Configurações do desenvolvedor
+## <a name="developer-settings"></a>Configurações de desenvolvedor
 
 ### <a name="embed-content-in-apps"></a>Inserir conteúdo em aplicativos
 

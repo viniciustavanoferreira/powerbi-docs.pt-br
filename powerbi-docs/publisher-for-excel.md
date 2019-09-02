@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4e9efa729b9dc4ac645bc8d3ff7df92cafc929e4
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514324"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200971"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Editor do Power BI para Excel
 Com o Microsoft **Power BI Publisher para Excel**, você pode tirar instantâneos de suas ideias mais importantes no Excel, como Tabelas Dinâmicas, gráficos e intervalos e fixá-los nos dashboards do Power BI.
@@ -32,7 +32,7 @@ Quando você fixa um elemento do Excel, um novo bloco é adicionado a um painel 
 ## <a name="download-and-install"></a>Baixar e instalar
 O Power BI Publisher para Excel é um suplemento que você pode baixar e instalar em versões de área de trabalho do Microsoft Excel 2007 e posteriores.
 
-[Baixar o Power BI Publisher para Excel](http://go.microsoft.com/fwlink/?LinkId=715729)
+[Baixar o Power BI Publisher para Excel](https://www.microsoft.com/download/details.aspx?id=50729)
 
 Depois de instalar o publicador, você verá uma nova faixa de opções do **Power BI** no Excel, na qual é possível entrar (ou sair) do Power BI, fixar elementos nos dashboards e gerenciar os elementos fixos.
 

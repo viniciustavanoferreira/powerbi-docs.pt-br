@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/26/2018
 ms.author: mshenhav
 ms.custom: ''
-ms.openlocfilehash: 7f81dc1c33cf1c7cc48dfddecce81f43fd3146c4
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 40dd5a0ed03a7d6bd258de39bb9c29dcd7390cd9
+ms.sourcegitcommit: 2b340946ed5f1deedeace4071845e1720ea155c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654311"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70064673"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Quais são os aplicativos móveis do Power BI?
 O Power BI oferece um conjunto de aplicativos móveis para dispositivos móveis com iOS, Android e Windows 10. Nos aplicativos móveis, você se conecta a e interage com os dados locais e da nuvem. 
@@ -23,6 +23,10 @@ O Power BI oferece um conjunto de aplicativos móveis para dispositivos móveis 
 ![Power BI em dispositivos móveis](./media/mobile-apps-for-mobile-devices/power-bi-mobile-apps-all-up.png)
 
 Você cria relatórios no Power BI Desktop. Você cria painéis e exibe painéis e relatórios no serviço de relatório do Power BI ([https://powerbi.com](https://powerbi.com)). Você exibe relatórios do Power BI no [Servidor de Relatórios do Microsoft Power BI](../../report-server/get-started.md). Todos esses relatórios e painéis estão disponíveis nos aplicativos móveis do Power BI, estando no local ou na nuvem. Tente exibir e interagir com eles em seu dispositivo móvel, seja no iOS (iPad, iPhone, iPod Touch ou Apple Watch), telefone ou tablet Android ou dispositivo com Windows 10.
+
+### <a name="get-the-app-from-the-application-store"></a>Obter o aplicativo da loja de aplicativos 
+
+[![Acessar o Power BI na App Store](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [![Acessar o Power BI no Google Play](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![Acessar o Power BI na Windows Store](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
 
 ## <a name="mobile-apps-for-different-devices"></a>Aplicativos móveis para dispositivos diferentes
 
@@ -33,10 +37,6 @@ Você cria relatórios no Power BI Desktop. Você cria painéis e exibe painéis
 | [![Telefone Android](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |O aplicativo móvel do Power BI para **telefones Android** leva o Power BI ao seu bolso, com acesso móvel atualizado e habilitado ao toque para as suas informações comerciais. [Filtre um relatório por sua localização geográfica](mobile-apps-geographic-filtering.md). Você pode [digitalizar códigos QR com o seu telefone Android](mobile-apps-qr-code.md) e acessar diretamente um relatório ou painel do Power BI. <br/>Comece a usar [o aplicativo móvel do Power BI para Android](mobile-android-app-get-started.md). |
 | [![Tablet Android](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |Esse aplicativo móvel pode ser executado em diferentes **tablets Android**, levando suas informações comerciais a você com acesso móvel atualizado e habilitado ao toque. Nos tablets Android, o aplicativo móvel do Power BI exibe painéis e relatórios tal como foram formatados para o serviço do Power BI. Você pode [marcar seus relatórios e dashboards favoritos](mobile-apps-favorites.md) para acessá-los rapidamente, em conjunto com seus relatórios e KPIs favoritos do Reporting Services e do Servidor de Relatório do Power BI. <br/>Comece a usar [o aplicativo móvel do Power BI para Android](mobile-android-app-get-started.md). |
 | [![Dispositivos Windows](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |O aplicativo móvel do Power BI para Windows 10 pode ser executado em qualquer dispositivo com Windows 10, incluindo telefones com Windows 10. Além dos vários recursos dos outros aplicativos móveis, o aplicativo móvel do Power BI para Windows 10 oferece recursos especiais. Por exemplo, você pode [fixar um painel do Power BI na tela inicial do Windows 10](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) por meio do aplicativo móvel do Power BI. Além disso, é possível [executar o Power BI no modo de apresentação no Surface Hub](mobile-windows-10-app-presentation-mode.md) e no aplicativo móvel do Power BI para Windows 10. <br/>Comece a usar o [aplicativo móvel do Power BI para dispositivos Windows 10](mobile-windows-10-phone-app-get-started.md). ||| 
-
-### <a name="get-the-app-from-the-application-store"></a>Obter o aplicativo da loja de aplicativos 
-
-[![Acessar o Power BI na App Store](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [![Acessar o Power BI no Google Play](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![Acessar o Power BI na Windows Store](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Suporte corporativo para aplicativos móveis do Power BI
 As organizações podem usar o Microsoft Intune para gerenciar dispositivos e aplicativos, incluindo os aplicativos móveis do Power BI para Android e iOS.

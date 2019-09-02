@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4537f2845d89361cf06bc93a6a9c435275d9464d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 61099a24f4ba0630ddf982eadf867e24bdb097a2
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61170865"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185807"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Conectar-se ao Twilio com o Power BI
 O pacote de conteúdo do Microsoft Twilio para o Power BI permite que você efetue pull de seus dados para o Power BI e cria um [painel do Twilio](https://powerbi.microsoft.com/integrations/twilio) e um relatório prontos para uso que mostram informações sobre seus dados. Também é possível criar seus relatórios e painel personalizados com base no conjunto de dados criado pelo Power BI. Os dados serão atualizados uma vez por dia, para que você veja sempre os dados mais recentes.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Conecte-se ao [pacote de conteúdo do Twilio](https://app.powerbi.com/getdata/services/twilio) para o Power BI.
 

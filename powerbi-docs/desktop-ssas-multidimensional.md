@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514758"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160232"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conectar-se a modelos multidimensionais do SSAS no Power BI Desktop
 Com o Power BI Desktop, você pode acessar **modelos Multidimensionais do SSAS**, normalmente chamados de **SSAS MD**.
@@ -78,7 +78,8 @@ Os modelos multidimensionais dão suporte à segurança do nível da dimensão e
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 Há algumas limitações no uso do **SSAS MD**:
 
-* Os servidores devem executar o SQL Server 2012 SP1 CU4 ou versões posteriores do Analysis Services para que o conector do SSAS MD do Power BI Desktop funcione corretamente
+* Os servidores devem executar o SQL Server 2012 SP1 CU4 ou versões posteriores do Analysis Services para que o conector do SSAS MD do Power BI Desktop funcione corretamente.
+* Somente as edições Enterprise e BI do SQL Server 2012 e SQL Server 2014 são compatíveis com conexões dinâmicas. Para a versão padrão do SQL Server, o SQL Server 2016 ou posterior é necessário para conexões dinâmicas.
 * *Ações* e *Conjuntos Nomeados* não são expostos no Power BI, mas você ainda pode se conectar a cubos que também contêm *Ações* ou *Conjuntos Nomeados* e criar elementos visuais e relatórios.
 * Pode ocorrer um problema em que o Power BI exibe os metadados de um modelo SSAS, mas não é possível recuperar os dados do modelo. Isso pode ocorrer quando você tem a versão de 32 bits do provedor MSOLAP instalada no sistema e não tem a versão de 64 bits. Instalar a versão de 64 bits pode resolver o problema.
 * Não é possível criar medidas no "nível de relatório" ao criar um relatório que esteja conectado em tempo real a um modelo multidimensional SSAS. As únicas medidas disponíveis são aquelas definidas no modelo multidimensional.

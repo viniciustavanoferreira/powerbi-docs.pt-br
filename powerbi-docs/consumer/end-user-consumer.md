@@ -1,38 +1,64 @@
 ---
 title: O que é um "consumidor" do Power BI?
-description: Visão geral de consumidor do Power BI, também conhecido como usuário empresarial ou usuário final.
+description: Visão geral do Power BI para consumidores (também conhecidos como usuários finais ou usuários empresariais).
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 01/22/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a4bdf9cdf56f9e7297973e1d1ce27ceb7c6447a7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7c96b8a21cceb571b1dcf3cfe9567760915c5740
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048079"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200754"
 ---
-<!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>Power BI para consumidores
-A maneira como você interage com o Power BI dependerá da sua função de trabalho. Como um *usuário final* ou *consumidor*, você é a pessoa que recebe dashboards, relatórios e aplicativos de seus colegas. Você trabalha no ***serviço do Power BI*** para examinar e interagir com esse conteúdo para tomar decisões de negócios.
 
-![Dashboard do Power BI](media/end-user-consumer/power-bi-service.png)
+Nós vivemos em uma cultura de dados, na qual as decisões de negócios são baseadas em fatos, não em opiniões. É preciso dispor de dados para tomar essas decisões e seus colegas de trabalho não deixam por menos.     
+ 
+Eles enviam todos os tipos de relatórios, planilhas, emails com gráficos e até mesmo materiais informativos impressos. À medida que os dados se acumulam, torna-se cada vez mais difícil encontrar o que precisa de forma rápida e surge a preocupação de que talvez você não esteja usando as informações mais recentes.  
+ 
+![Dashboard do Power BI](media/end-user-consumer/power-bi-consumer-pipes.png)
 
-Se você é novo no Power BI, é recomendável ler primeiro a [visão geral do Power BI](../power-bi-overview.md). Lá, você saberá mais sobre o conjunto de ferramentas que compõem o Power BI.
+## <a name="the-power-bi-service-for-consumers"></a>Serviço do Power BI para *consumidores*
 
-Como um consumidor, você não terá acesso a todos os recursos do Power BI, e não tem problema, porque seu trabalho não é criar dashboards e relatórios. Seu trabalho é usar o Power BI para análise, monitoramento, exploração e tomada de decisões.
+O Power BI torna seu trabalho mais fácil e, ao mesmo tempo, mais impactante. Todos esses dados recebidos se transformam em gráficos e grafos que facilitam a visualização para você. Em vez de longas listas ou tabelas de números e palavras, os insights de dados são representados por meio de visuais ***belos***, coloridos e atraentes que contam histórias sobre os insights contidos em seus dados. 
 
-Ao ler os artigos para os consumidores, você vai aprender a terminologia, fazer um tour no serviço do Power BI, descobrir como navegar até o conteúdo e então aprender a interagir com esse conteúdo.  Então vamos começar.
+![Dashboard do Power BI](media/end-user-consumer/power-bi-consumer-examples.png)
+ 
+Basta abrir o Serviço do Power BI em um navegador ou em um dispositivo móvel. Você e seus colegas trabalham sobre os mesmos dashboards e relatórios confiáveis, que são atualizados automaticamente para que todos trabalhem sempre com o conteúdo mais recente.   
+
+![Dashboard do Power BI](media/end-user-consumer/power-bi-funnel.png)
+
+Como o conteúdo não é estático, você pode se aprofundar buscando tendências, insights e outros aspectos de business intelligence. Explore cada parte do conteúdo e até mesmo faça perguntas usando suas próprias palavras. Ou apenas relaxe e deixe que seus dados descubram insights interessantes para você, emitam alertas quando os dados forem alterados e enviem relatórios por email com base em um agendamento prévio definido por você. Todos os seus dados, a qualquer momento, na nuvem ou no local, por meio de qualquer dispositivo. Isso é apenas o começo do que o Power BI pode fazer. 
+
+## <a name="am-i-a-power-bi-consumer"></a>Eu sou um *consumidor* do Power BI?
+
+A maneira como você interage com o Power BI dependerá da sua função de trabalho. Como um usuário final ou *consumidor*, você é a pessoa que recebe o conteúdo (dashboards, relatórios e aplicativos) de seus colegas. Você trabalha na versão online ou móvel do Power BI, que é chamada de Serviço do Power BI, revisando e interagindo com o conteúdo a fim de tomar decisões de negócios. 
+   
+Como um consumidor, você não terá acesso a todos os recursos do Power BI, e não tem problema, porque o seu trabalho não é criar dashboards e relatórios. Você usará o Serviço do Power BI para análise, monitoramento, exploração e tomada de decisões. 
+
+Sem dúvida alguma você ouvirá muito o termo "Power BI Desktop" – ou simplesmente "Desktop" – em referência a uma ferramenta autônoma usada pelos *designers* que criam e compartilham relatórios e dashboards contigo.  É importante saber que há outras ferramentas do Power BI disponíveis, mas se você for um consumidor, trabalhará apenas com o Serviço do Power BI. 
+
+
+## <a name="safely-interact-with-content"></a>Interagir com o conteúdo de modo seguro 
+Ao filtrar, segmentar, assinar e exportar conteúdo, não se preocupe – seu trabalho não estará afetando o conjunto de dados subjacente nem o conteúdo original compartilhado (dashboards, relatórios e aplicativos).  
+
+Suas ações jamais prejudicam os seus dados.  O Power BI é um ótimo lugar para explorar e experimentar sem se preocupar com o risco de prejudicar algo.  
+ 
+Isso não significa que você não é possível salvar suas alterações – você pode fazê-lo. Mas essas alterações afetam apenas a sua exibição do conteúdo. E reverter para o modo de exibição padrão original é tão fácil quanto clicar em um botão.  
+
+![Dashboard do Power BI](media/end-user-consumer/power-bi-reset.png)
+
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[Terminologia e conceitos para os *consumidores* do Power BI](end-user-basic-concepts.md)
-
-<!-- [Get started guide for *consumers*] -->
-[Introdução ao uso do serviço do Power BI](../service-get-started.md)
+[Faça um tour pelo Serviço do Power BI para consumidores](end-user-reading-view.md)    
+[Treinamento do Serviço do Power BI para consumidores](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)    
+[Terminologia e conceitos para os *consumidores* do Power BI](end-user-basic-concepts.md)    
 

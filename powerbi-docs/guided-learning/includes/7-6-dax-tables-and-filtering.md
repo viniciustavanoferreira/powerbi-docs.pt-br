@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273162"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70166667"
 ---
 Uma diferença significativa entre a linguagem de fórmula do **DAX** e do Excel é que o DAX permite passar *tabelas inteiras* entre expressões, em vez de serem restritas a um único valor. Um efeito poderoso é que o DAX permite filtrar tabelas em suas expressões e, em seguida, trabalhar com o conjunto filtrado de valores.
 
@@ -36,7 +36,7 @@ Uma pergunta comum que os construtores de relatórios do Power BI querem respond
 
 * Quantos valores existem para esta coluna?
 
-Essa pode ser uma pergunta simples de responder com uma tabela exibida na frente, mas o DAX aborda isso de maneira diferente, principalmente quando há uma relação entre as tabelas.
+Essa pode ser uma pergunta simples de responder com uma tabela na sua frente, mas o DAX aborda isso de maneira diferente, principalmente quando há uma relação entre as tabelas.
 
 Por exemplo, o Power BI e o DAX incluem valores que não estão indexados de forma cruzada corretamente. Se a relação de entrada for desfeita, o DAX adicionará uma nova linha à tabela relacionada que contém espaços em branco em todos os campos e vinculará essa nova linha à linha não indexada para garantir a integridade referencial. Se sua função incluir linhas em branco, como geralmente é o caso quando se usa **ALL**, essas linhas em branco serão incluídas no número de valores retornados para essa coluna.
 

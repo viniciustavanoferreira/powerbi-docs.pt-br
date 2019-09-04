@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1e02197f36da66a64fac95209fe8fabaa67b6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8eecbfdaa948163ab6d0623a70f237d479fcdb88
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514170"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200935"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Conectar-se a arquivos CSV no Power BI Desktop
 Conectar-se a um arquivo *CSV* (valor separado por vírgula) no Power BI Desktop é muito semelhante à conexão a uma pasta de trabalho do Excel. Ambos são fáceis, e este artigo explica como se conectar a qualquer arquivo CSV ao qual você tem acesso.
@@ -44,6 +44,10 @@ Depois de carregar os dados no Power BI Desktop, você vê a tabela e suas colun
 Isso é tudo o que você precisa fazer – os dados de seu arquivo CSV agora estão no Power BI Desktop.
 
 Você pode usar esses dados no Power BI Desktop para criar visuais, relatórios, ou para interagir com quaisquer outros dados aos quais você queira se conectar e importar, por exemplo, pastas de trabalho do Excel, bancos de dados ou qualquer outra fonte de dados.
+
+> [!IMPORTANT]
+> Quando você importa um arquivo CSV, o Power BI Desktop gera um *colunas = x* (em que *x* é o número de colunas no arquivo CSV durante a importação inicial) como uma etapa do Power Query Editor. Se, posteriormente, você adicionar mais colunas e a fonte de dados estiver definida para atualização, as colunas adicionadas além da contagem inicial de *x* colunas não serão atualizadas. 
+
 
 ## <a name="next-steps"></a>Próximas etapas
 Há todos os tipos de dados aos quais você pode se conectar usando o Power BI Desktop. Para obter mais informações sobre fontes de dados, confira os seguintes recursos:

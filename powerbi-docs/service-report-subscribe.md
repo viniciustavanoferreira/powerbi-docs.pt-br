@@ -8,19 +8,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 92dd8d7221c9c60fa4ffcd3e3ceefeda319d8670
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940920"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185719"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Obtenha uma assinatura para você e outras pessoas de relatórios e dashboards no serviço do Power BI
 
-É possível obter uma assinatura para si mesmo e para seus colegas das páginas de relatório, de dashboards e de relatórios paginados que são mais importantes para você. O Power BI envia um instantâneo por email para sua caixa de entrada. Informe ao Power BI a frequência com que deseja receber os emails: diária, semanal ou uma vez ao dia quando os dados forem atualizados.  Se escolher diária ou semanal, será possível escolher o momento em que você gostaria de executar a assinatura.  No total, você pode definir até 24 assinaturas diferentes por dia, para cada página de relatório e dashboard.
+É possível obter uma assinatura para si mesmo e para seus colegas das páginas de relatório, de dashboards e de relatórios paginados que são mais importantes para você. O Power BI envia um instantâneo por email para sua caixa de entrada. Informe ao Power BI a frequência com que deseja receber os emails: diária, semanal, por hora, mensal ou uma vez ao dia após a atualização inicial dos dados.  Se você escolher diária, semanal, por hora ou mensal, será possível selecionar a hora em que deseja executar a assinatura.  No total, você pode definir até 24 assinaturas diferentes por dia, para cada página de relatório e dashboard.
 
 ![instantâneo de email de dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -54,9 +54,9 @@ Assinar relatórios paginados é um pouco diferente. Confira [Obter uma assinatu
 
 5. Preencha os detalhes **Assunto** e **Mensagem** do email. 
 
-5. Selecione uma **Frequência** para sua assinatura: **Diária**, **Por Hora**, **Semanal** ou **Após a atualização de dados (Diária)** .  Para receber o email de assinatura somente em determinados dias, selecione **Por Hora** ou **Semanal** e escolha em quais dias você gostaria de recebê-lo.  Por exemplo, se você quiser receber o email de assinatura somente em dias úteis, selecione **Semanal** e desmarque as caixas **Sáb** e **Dom**.  
+5. Selecione uma **Frequência** para sua assinatura: **Diária**, **Por Hora**, **Semanal**, **Mensal** ou **Após a atualização dos dados (Diária)** .  Para receber o email de assinatura somente em determinados dias, selecione **Por Hora** ou **Semanal** e escolha em quais dias você gostaria de recebê-lo.  Por exemplo, se você quiser receber o email de assinatura somente em dias da semana, selecione **Semanal** e desmarque as caixas de seleção **Sáb** e **Dom**.  Se você selecionar **Mensal**, insira o(s) dia(s) do mês em que deseja receber o email da assinatura.  
 
-6. Se escolher **Diária** ou **Semanal**, você também poderá escolher uma **Hora Agendada** para a assinatura.  Você faz com que ela seja executada na hora exata ou após 15, 30 ou 45 minutos.  Selecione manhã (A.M.) ou tarde/noite (P.M.). Você também pode especificar o fuso horário.  Se você escolher **Por Hora**, selecione o **Horário Agendado** em que deseja que a assinatura inicie e ela virá a cada hora subsequente.
+6. Se você escolher **Diária**, **Por Hora, **Mensal** ou **Semanal**, também poderá selecionar uma **Hora Agendada** para a assinatura.  Você faz com que ela seja executada na hora exata ou após 15, 30 ou 45 minutos.  Selecione manhã (A.M.) ou tarde/noite (P.M.). Você também pode especificar o fuso horário.  Se você escolher **Por Hora**, selecione o **Horário Agendado** em que deseja que a assinatura inicie e ela será executada de hora em hora a partir de então.
 
 7. Por padrão, a data de início para a sua assinatura é a data em que você a cria. Você tem a opção de selecionar uma data de término. Se você não definir uma data de término, a data de término será definida automaticamente para um ano após a data de início. É possível alterar para qualquer data no futuro (até o ano 9999) a qualquer momento antes do término da assinatura. Quando uma assinatura atinge uma data de término, ela é interrompida até que você a habilite novamente. Você receberá notificações antes da data de término agendada, perguntando se deseja estendê-la.    
 
@@ -67,7 +67,7 @@ Assinar relatórios paginados é um pouco diferente. Confira [Obter uma assinatu
 7. Selecione **Salvar e fechar**. Os inscritos receberão um email e o instantâneo da página de relatório ou dashboard para a frequência e a hora que você selecionou. No total, você pode criar até 24 assinaturas por relatório ou dashboard e pode fornecer frequências, horas e destinatários exclusivos para cada assinatura.  Todas as assinaturas definidas para **Após a atualização de dados** do seu dashboard ou relatório somente enviarão um email após a primeira atualização agendada.   
       
    > [!TIP]
-   > Deseja enviar o email de uma assinatura imediatamente ou sob demanda a qualquer momento? Selecione **Executar Agora** para as assinaturas do dashboard ou do relatório que deseja enviar. Você verá uma notificação indicando que um email está sendo enviado a todos para essa assinatura específica.  Você poderá fazer isso sempre que desejar. Isso não é calculado no limite de 24 execuções de assinatura agendadas por dia e por relatório ou dashboard. Isso NÃO dispara uma atualização de dados do conjunto de dados subjacente. 
+   > Deseja enviar o email de uma assinatura imediatamente ou sob demanda a qualquer momento? Selecione **Executar Agora** para as assinaturas do dashboard ou do relatório que deseja enviar. Você verá uma notificação indicando que um email está sendo enviado a todos para essa assinatura específica.  A execução dessa ação não é calculada no limite de 24 execuções de assinatura agendadas por dia e por relatório ou dashboard. Isso NÃO dispara uma atualização de dados do conjunto de dados subjacente. 
    > 
    > 
    
@@ -103,7 +103,7 @@ Uma assinatura será encerrada se a licença Pro expirar, se o proprietário exc
 * Especificamente para assinaturas de dashboards, ainda não há suporte para alguns tipos de blocos.  Eles incluem: blocos de streaming, blocos de vídeo, blocos de conteúdo da Web personalizado.     
 * Se você compartilhar um dashboard com um colega fora de seu locatário, não será possível criar uma assinatura para esse colega também. Portanto, se você for aaron@xyz.com, poderá compartilhar com anyone@ABC.com, mas ainda não poderá incluir anyone@ABC.com, e ele não poderá assinar o conteúdo compartilhado.      
 * O Power BI pausa a atualização automaticamente em conjuntos de dados associados a dashboards e relatórios que não foram visitados há mais de dois meses.  No entanto, se você adicionar uma assinatura a um dashboard ou um relatório, ele não ficará em pausa mesmo que não seja visitado.    
-* Se você não estiver recebendo emails de assinatura, verifique se o nome UPN pode receber emails. [A equipe do Power BI está trabalhando para atenuar esse requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163), portanto, fique ligado. 
+* Se você não estiver recebendo emails de assinatura, verifique se o nome UPN pode receber emails. 
 * Se o painel ou o relatório estiver na capacidade Premium, você poderá usar o alias de email de grupo para assinaturas, em vez de inserir um endereço de email de colega de cada vez na assinatura. Os aliases são baseados no Active Directory atual. 
 
 ## <a name="next-steps"></a>Próximas etapas

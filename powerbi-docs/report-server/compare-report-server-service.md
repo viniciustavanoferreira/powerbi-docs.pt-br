@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 05/22/2019
-ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 08/29/2019
+ms.openlocfilehash: 0755b41fbeef1f62d2722e3529007dc4f8773634
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187694"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186068"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparando o Servidor de Relatórios do Power BI e o serviço do Power BI
 
@@ -44,10 +44,10 @@ O Servidor de Relatórios do Power BI e o serviço do Power BI têm muitas semel
 | Relatórios paginados | Sim | Sim | [Os relatórios paginados estão disponíveis no serviço do Power BI](../paginated-reports-report-builder-power-bi.md) em versão prévia na capacidade Premium |
 | Aplicativos móveis do Power BI | Sim | Sim | [Visão geral de aplicativos móveis no Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | Mapas do ARC GIS | Não | Sim | [Mapas do ArcGIS no serviço do Power BI e no Power BI Desktop pelo ESRI](../visuals/power-bi-visualization-arcgis.md) |
-| Assinaturas de email para relatórios do Power BI | Não | Sim | [Assine para você ou terceiros](../service-report-subscribe.md) um relatório ou um dashboard no serviço do Power BI |
-| Assinaturas de email para relatórios paginados | Sim | Não | [Entrega de email no Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| Assinaturas de email para relatórios do Power BI | Sim | Sim | [Assine para você ou terceiros](../service-report-subscribe.md) um relatório ou um dashboard no serviço do Power BI |
+| Assinaturas de email para relatórios paginados | Sim | Sim | [Obtenha uma assinatura para você e para outras pessoas de relatórios paginados no Serviço do Power BI](../paginated-reports-subscriptions.md)<br><br>[Entrega de email no Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | Alertas de dados | Não | Sim | [Alertas de dados](../service-set-data-alerts.md) no serviço do Power BI
-| RLS (Segurança em nível de linha) | Sim | Sim | Disponível nos modos de DirectQuery (fonte de dados) e de Importação <br>Segurança em nível de linha do [serviço do Power BI](../service-admin-rls.md) <br>RLS (Segurança em Nível de Linha) no [Servidor de Relatórios do Power BI](row-level-security-report-server.md) |
+| RLS (Segurança em nível de linha) | Sim | Sim | Disponível nos modos de DirectQuery (fonte de dados) e de Importação <br><br>Segurança em nível de linha do [serviço do Power BI](../service-admin-rls.md) <br><br>RLS (Segurança em Nível de Linha) no [Servidor de Relatórios do Power BI](row-level-security-report-server.md) |
 | Sair do modo de tela inteira | Não | Sim | [Modo de tela inteira](../consumer/end-user-focus.md) no serviço do Power BI |
 | Colaboração avançada com o Office 365 | Não | Sim | [Colaborar em um workspace de aplicativo](../service-collaborate-power-bi-workspace.md) com o Office 365 |
 | Visuais do R | Não | Sim | [Criar visuais R](../desktop-r-visuals.md) no Power BI Desktop e publicá-los no serviço do Power BI. Você não pode salvar relatórios do Power BI com visuais R no Servidor de Relatórios do Power BI.  |

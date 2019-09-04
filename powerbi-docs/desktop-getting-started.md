@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654838"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201018"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo ao **Guia de Introdução ao Power BI Desktop**. Esse breve tour do Power BI Desktop apresentará como ele funciona, demonstrará o que ele pode fazer e acelerará sua capacidade de criar modelos de dados robustos – juntamente com relatórios incríveis – que potencializam seus esforços de business intelligence. 
@@ -105,6 +105,9 @@ Ao selecionarmos **Editar**, o Editor de Consultas é iniciado e uma exibição 
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 Para obter mais informações sobre como se conectar a dados, veja [Conectar-se a dados no Power BI Desktop](desktop-connect-to-data.md).
+
+> [!NOTE]
+> Os dados de tabela referenciados neste artigo podem mudar ao longo do tempo. Deste modo, as etapas que você deve executar podem ser diferentes das apresentadas a seguir, exigindo que você seja criativo a respeito de como ajustar as etapas ou os resultados – e tudo isso faz parte da diversão do aprendizado. 
 
 Na próxima seção, vamos ajustar os dados para que eles atendam às nossas necessidades. O processo de ajustar dados aos quais se está conectado é chamado de *formatação* de dados.
 

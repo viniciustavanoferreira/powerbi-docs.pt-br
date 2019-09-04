@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621248"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160362"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)
 
-Você pode configurar os workspaces do Power BI para armazenar fluxos de dados na conta do Azure Data Lake Storage Gen2 da sua organização. Este artigo descreve as etapas gerais necessárias para fazer isso e fornece diretrizes e práticas recomendadas ao longo do caminho. Há algumas vantagens em configurar espaços de trabalho para armazenar definições de fluxo de dados e arquivos de dados no data lake, incluindo as seguintes:
+Você pode configurar os workspaces do Power BI para armazenar fluxos de dados na conta do Azure Data Lake Storage Gen2 da sua organização. Este artigo descreve as etapas gerais necessárias para fazer isso e fornece diretrizes e práticas recomendadas ao longo do caminho. Há algumas vantagens em configurar workspaces para armazenar definições de fluxo de dados e arquivos de dados no data lake, incluindo as seguintes:
 
 * O Azure Data Lake Storage Gen2 fornece um local de armazenamento extremamente escalonável para os dados
 * Os arquivos de definição e de dados de fluxo de dados podem ser usados pelos desenvolvedores de seu departamento de TI para aproveitar os serviços de IA (inteligência artificial) e dados do Azure, conforme demonstrado nas [amostras do GitHub dos Serviços de Dados do Azure](https://aka.ms/cdmadstutorial)
@@ -115,19 +115,19 @@ Para localizar os aplicativos do seu locatário, execute estas etapas:
 
     ![Procurar aplicativos do Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Selecione e copie as IDs de objeto do serviço do Power BI e do Power Query online nos resultados da pesquisa. Esteja pronto para colar esses valores nas próximas etapas.
+5. Selecione e copie as IDs de Objeto do serviço do Power BI Premium e do Power Query online nos resultados da pesquisa. Esteja pronto para colar esses valores nas próximas etapas.
 
-7. Em seguida, use o **Gerenciador de Armazenamento do Azure** para navegar até o sistema de arquivos *powerbi* criado na seção anterior. Siga as instruções na seção [Gerenciamento de acesso](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) do artigo [Definir permissões no nível do arquivo e diretório usando o Gerenciador de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
+6. Em seguida, use o **Gerenciador de Armazenamento do Azure** para navegar até o sistema de arquivos *powerbi* criado na seção anterior. Siga as instruções na seção [Gerenciamento de acesso](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) do artigo [Definir permissões no nível do arquivo e diretório usando o Gerenciador de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
 
-8. Para cada uma das duas IDs de objeto do Power BI coletadas na etapa 5, atribua acesso para **Ler**, **Gravar** e **Executar**, bem como ACLs padrão ao sistema de arquivos *powerbi*.
+7. Para cada uma das duas IDs de Objeto do Power BI Premium coletadas na etapa 5, atribua acesso para **Ler**, **Gravar** e **Executar**, bem como ACLs padrão ao sistema de arquivos *powerbi*.
 
    ![para ambas, atribua as três](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Para a ID de objeto do Power Query Online coletada na etapa 4, atribua acesso para **Gravar** e **Executar**, bem como ACLs padrão ao sistema de arquivos *powerbi*.
+8. Para a ID de objeto do Power Query Online coletada na etapa 4, atribua acesso para **Gravar** e **Executar**, bem como ACLs padrão ao sistema de arquivos *powerbi*.
 
    ![em seguida, atribuir acesso para gravar e executar](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. Além disso, para as **outras**, atribua o acesso **Executar** e as ACLs padrão também.
+9. Além disso, para as **outras**, atribua o acesso **Executar** e as ACLs padrão também.
 
     ![por fim, atribua o acesso Executar às outras](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
@@ -155,16 +155,16 @@ Depois que essas etapas forem concluídas com êxito, sua conta do Azure Data La
 > [!NOTE]
 > Você precisa ter permissões de Administrador Global para configurar uma conexão do Azure Data Lake Storage Gen2 no portal de administração do Power BI. No entanto, os Administradores Globais não podem conectar o armazenamento externo no portal de administração.  
 
-Em seguida, você precisa permitir que as pessoas da sua organização configurem os espaços de trabalho, o que possibilita que elas utilizem essa conta de armazenamento para definição de fluxo de dados e armazenamento de dados. Vamos fazer isso na próxima seção. 
+Em seguida, você precisa permitir que as pessoas da sua organização configurem os workspaces, o que possibilita que elas utilizem essa conta de armazenamento para definição de fluxo de dados e armazenamento de dados. Vamos fazer isso na próxima seção. 
 
 
-## <a name="allow-admins-to-assign-workspaces"></a>Permitir que os administradores atribuam espaços de trabalho
+## <a name="allow-admins-to-assign-workspaces"></a>Permitir que os administradores atribuam workspaces
 
-Por padrão, os arquivos de dados e a definição de fluxo de dados são armazenados no armazenamento fornecido pelo Power BI. Para acessar arquivos de fluxo de dados em sua própria conta de armazenamento, os administradores do espaço de trabalho devem primeiro configurar o espaço de trabalho para permitir atribuição e armazenamento de fluxos de dados na nova conta de armazenamento. Antes que um administrador do espaço de trabalho possa definir configurações de armazenamento de fluxo de dados, ele precisa receber permissões de atribuição de armazenamento no **Portal de administração do Power BI**.
+Por padrão, os arquivos de dados e a definição de fluxo de dados são armazenados no armazenamento fornecido pelo Power BI. Para acessar arquivos de fluxo de dados em sua própria conta de armazenamento, os administradores do workspace devem primeiro configurar o workspace para permitir atribuição e armazenamento de fluxos de dados na nova conta de armazenamento. Antes que um administrador do workspace possa definir configurações de armazenamento de fluxo de dados, ele precisa receber permissões de atribuição de armazenamento no **Portal de administração do Power BI**.
 
-Para conceder permissões de atribuição de armazenamento, vá para a guia **Configurações de fluxo de dados** no **portal de administração do Power BI**. Há um botão de opção para *Permitir que os administradores do espaço de trabalho atribuam espaços de trabalho para esta conta de armazenamento*, que deve ser definido como **permitir**. Depois de habilitar esse controle deslizante, selecione o botão **Aplicar** para que a alteração tenha efeito. 
+Para conceder permissões de atribuição de armazenamento, vá para a guia **Configurações de fluxo de dados** no **portal de administração do Power BI**. Há um botão de opção para *Permitir que os administradores do workspace atribuam workspaces para esta conta de armazenamento*, que deve ser definido como **permitir**. Depois de habilitar esse controle deslizante, selecione o botão **Aplicar** para que a alteração tenha efeito. 
 
-![Permitir que os administradores atribuam espaços de trabalho](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_10.jpg) 
+![Permitir que os administradores atribuam workspaces](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_10.jpg) 
 
 Isso é tudo. Os administradores do workspace do Power BI agora podem atribuir os fluxos de trabalho ao sistema de arquivos criado.
 
@@ -183,19 +183,19 @@ Também há alguns problemas conhecidos, conforme descrito nesta seção.
 
 Os clientes do Power BI Desktop não podem acessar os fluxos de dados armazenados em uma **conta do Azure Data Lake Storage**, a menos que sejam os proprietários do fluxo de dados ou tenham sido autorizados a acessar a pasta do CDM no lake. O cenário é descrito a seguir:
 
-1. Brenda cria um novo espaço de trabalho do aplicativo e o configura para armazenar fluxos de dados no data lake da organização. 
-2. Davi, que também é membro do espaço de trabalho criado por Brenda, deseja usar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado por Brenda.
+1. Brenda cria um novo workspace do aplicativo e o configura para armazenar fluxos de dados no data lake da organização. 
+2. Davi, que também é membro do workspace criado por Brenda, deseja usar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado por Brenda.
 3. Davi recebe um erro semelhante, porque não foi autorizado a acessar a pasta do CDM do fluxo de dados no lake.
 
 Perguntas e respostas comuns incluem as seguintes:
 
-**Pergunta:** E se eu tivesse criado anteriormente fluxos de dados em um espaço de trabalho e quisesse alterar o local de armazenamento?
+**Pergunta:** E se eu tivesse criado anteriormente fluxos de dados em um workspace e quisesse alterar o local de armazenamento?
 
 **Resposta:** Não é possível alterar o local de armazenamento de um fluxo de dados depois que ele foi criado. 
 
-**Pergunta:** Quando posso alterar o local de armazenamento do fluxo de dados de um espaço de trabalho?
+**Pergunta:** Quando posso alterar o local de armazenamento do fluxo de dados de um workspace?
 
-**Resposta:** A alteração do local de armazenamento do fluxo de dados de um espaço de trabalho só será permitida se o espaço de trabalho não contiver nenhum fluxo de dados.
+**Resposta:** A alteração do local de armazenamento do fluxo de dados de um workspace só será permitida se o workspace não contiver nenhum fluxo de dados.
 
 
 ## <a name="next-steps"></a>Próximas etapas
@@ -205,7 +205,7 @@ Este artigo fornece orientações sobre como se conectar a um Azure Data Lake Ge
 Para saber mais sobre fluxos de dados, CDM e o Azure Data Lake Storage Gen2, confira os seguintes artigos:
 
 * [Integração entre fluxos de dados e o Azure Data Lake (versão prévia)](service-dataflows-azure-data-lake-integration.md)
-* [Definir configurações de fluxo de dados de espaço de trabalho (versão prévia)](service-dataflows-configure-workspace-storage-settings.md)
+* [Definir configurações de fluxo de dados de workspace (versão prévia)](service-dataflows-configure-workspace-storage-settings.md)
 * [Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (versão prévia)](service-dataflows-add-cdm-folder.md)
 
 Para saber mais sobre fluxos de dados em geral, confira estes artigos:

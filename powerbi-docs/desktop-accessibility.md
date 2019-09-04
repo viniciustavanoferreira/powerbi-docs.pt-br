@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67ca5a4c8014dc295f3ffc458eca3dc5496282a
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307265"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185704"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade dos relatórios do Power BI Desktop
 O Power BI tem recursos que permitem que pessoas com deficiências consumam e interajam mais facilmente com os relatórios do Power BI Desktop. Esses recursos incluem a capacidade de consumir um relatório usando o teclado ou um leitor de tela, usar a tabulação para focar em vários objetos em uma página e o uso cuidadoso de marcadores nas visualizações.
@@ -75,6 +75,9 @@ As dicas a seguir podem ajudá-lo a criar relatórios do **Power BI Desktop** qu
 * Para cada objeto em um relatório, forneça um texto alternativo. Isso garante que seus consumidores de relatório compreendam o que você está tentando comunicar com um visual. Inclusive ajuda se eles não conseguirem ver o visual, a imagem, a forma ou a caixa de texto. Você pode fornecer um texto alternativo para qualquer objeto em um relatório do **Power BI Desktop** selecionando o objeto (como um visual, forma e assim por diante) e, no painel **Visualizações**, selecionando a seção **Formato**. Em seguida, expanda **Geral**, role até a parte inferior e preencha a caixa de texto referente a **Texto alternativo**.
   
   ![O texto alternativo para qualquer objeto em um relatório pode ser adicionado em Visualizações > Formato > Geral > caixa de texto Alt](media/desktop-accessibility/accessibility-02.png)
+  
+  O texto Alt também pode ser alterado dinamicamente com uma expressão, por exemplo, refletindo os filtros aplicados a um visual. Você define uma expressão da mesma forma que faria para o título de um visual. [Formatação condicional para títulos visuais](desktop-conditional-format-visual-titles.md)
+  
 * Verifique se os relatórios têm contraste suficiente entre o texto e as cores da tela de fundo. Há várias ferramentas, como o [Analisador de Contraste de Cores](https://developer.paciellogroup.com/resources/contrastanalyser/), que você pode usar para verificar as cores do relatório. 
 * Use fontes e tamanhos de texto que podem ser facilmente lidos. Um tamanho de texto pequeno, ou fontes que podem ser difíceis de serem lidas, não serão úteis para acessibilidade.
 * Inclua um título, rótulos de eixo e rótulos de dados em todos os visuais.

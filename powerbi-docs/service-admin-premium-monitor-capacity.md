@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008108"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030184"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorar as capacidades Premium com o aplicativo
 
@@ -65,7 +65,7 @@ O dashboard inclui as seguintes métricas:
 | --- | --- |
 | Versão | Versão do aplicativo. | 
 | Capacidades | Número de capacidades das quais você é administrador. | 
-| Workspaces | Número de espaços de trabalho em suas capacidades que estão relatando métricas.|
+| Workspaces | Número de workspaces em suas capacidades que estão relatando métricas.|
 |||
 
 #### <a name="system-summary"></a>Resumo do sistema
@@ -82,8 +82,8 @@ O dashboard inclui as seguintes métricas:
 
 | Métrica | Descrição |
 | --- | --- |
-| Conjuntos de dados | Número total de conjuntos de dados em todos os espaços de trabalho em suas capacidades.|
-| Tamanho médio dos conjuntos de dados (MB) | Tamanho médio dos conjuntos de dados em todos os espaços de trabalho em suas capacidades.|  
+| Conjuntos de dados | Número total de conjuntos de dados em todos os workspaces em suas capacidades.|
+| Tamanho médio dos conjuntos de dados (MB) | Tamanho médio dos conjuntos de dados em todos os workspaces em suas capacidades.|  
 | Contagem média de conjunto de dados carregados | Contagem média de conjuntos de dados carregados na memória. |  
 | Conjuntos de Dados – média de conjunto de dados ativos (%)| Média dos conjuntos de dados ativos nos últimos sete dias. Um conjunto de dados é definido como ativo se o usuário interagiu com visuais nos últimos três minutos. |
 | CPU – Máximo de conjuntos de dados (%)| Consumo máximo de CPU por carga de trabalho do conjunto de dados nos últimos sete dias. |
@@ -109,7 +109,7 @@ O dashboard inclui as seguintes métricas:
 
 | Métrica | Descrição |
 | --- | --- |
-| Fluxos de dados |  Número total de fluxos de dados em todos os espaços de trabalho em suas capacidades.|
+| Fluxos de dados |  Número total de fluxos de dados em todos os workspaces em suas capacidades.|
 | Total de atualizações | Número total de atualizações nos últimos sete dias.|  
 | Duração média das atualizações (minutos) | O tempo necessário para concluir a atualização. |
 | Tempos de espera médio das atualizações (minutos) | A latência entre o horário agendado e o início real da atualização.|
@@ -123,7 +123,7 @@ O dashboard inclui as seguintes métricas:
 
 | Métrica | Descrição |
 | --- | --- |
-| Relatórios paginados |  Número total de relatórios paginados em todos os espaços de trabalho em suas capacidades. |
+| Relatórios paginados |  Número total de relatórios paginados em todos os workspaces em suas capacidades. |
 | Total de exibições | Total de vezes que todos os relatórios foram exibidos pelos usuários. | 
 | Total de linhas | Total de linhas de dados em todos os relatórios.|
 | Tempo Total | Tempo total necessário para todas as fases (recuperação de dados, processamento e renderização) de todos os relatórios, em milissegundos. |
@@ -181,7 +181,7 @@ A página Conjuntos de Dados tem diferentes *áreas*, que incluem **Atualizaçõ
 
 | Seção de relatório | Métricas |
 | --- | --- |
-| Durações das consultas |  Os dados nessa seção são divididos por conjuntos de dados, espaço de trabalho e buckets de uma hora nos últimos sete dias.<br>  Total: o número total de consultas executadas para o conjunto de dados.<br>  Média: a duração média de consulta do conjunto de dados, em milissegundos<br>  Máx.: a duração da consulta de execução mais longa no conjunto de dados, em milissegundos.|
+| Durações das consultas |  Os dados nessa seção são divididos por conjuntos de dados, workspace e buckets de uma hora nos últimos sete dias.<br>  Total: o número total de consultas executadas para o conjunto de dados.<br>  Média: a duração média de consulta do conjunto de dados, em milissegundos<br>  Máx.: a duração da consulta de execução mais longa no conjunto de dados, em milissegundos.|
 | Distribuição de duração da consulta |  O histograma da duração da consulta é dividido em intervalos de consulta em milissegundos nas seguintes categorias: <= 30 ms, 30-100 ms, 100-300 ms, 300 ms-1 s, 1-3 s, 3-10 s, 10-30 s e > 30 segundos. Longas durações de consulta e longos tempos de espera indicam que a capacidade está se aproximando do limite. Também pode indicar que um único conjunto de dados está causando problemas e mais investigação é necessária. |
 | Os cinco principais conjuntos de dados por duração média |  Os cinco conjuntos de dados com a duração de consulta média mais longa, em milissegundos. |
 | Distribuições de duração da consulta por hora |  Contagens de consultas e duração média (em milissegundos) versus consumo de memória em GB divididos em buckets de uma hora relatados na hora UTC. |
@@ -192,7 +192,7 @@ A página Conjuntos de Dados tem diferentes *áreas*, que incluem **Atualizaçõ
 
 | Seção de relatório | Métricas |
 | --- | --- |
-| Tempos de espera de consulta |  Os dados nessa seção são divididos por conjuntos de dados, espaço de trabalho e buckets de uma hora nos últimos sete dias.<br>  Total: o número total de consultas executadas para o conjunto de dados.<br>  Contagem de espera: o número de consultas no conjunto de dados que aguardou recursos do sistema antes de iniciar a execução.<br>  Média: o tempo médio de espera da consulta para o conjunto de dados, em milissegundos.<br>  Máx.: a duração da consulta de espera mais longa no conjunto de dados, em milissegundos.|
+| Tempos de espera de consulta |  Os dados nessa seção são divididos por conjuntos de dados, workspace e buckets de uma hora nos últimos sete dias.<br>  Total: o número total de consultas executadas para o conjunto de dados.<br>  Contagem de espera: o número de consultas no conjunto de dados que aguardou recursos do sistema antes de iniciar a execução.<br>  Média: o tempo médio de espera da consulta para o conjunto de dados, em milissegundos.<br>  Máx.: a duração da consulta de espera mais longa no conjunto de dados, em milissegundos.|
 | Os cinco principais conjuntos de dados por tempo médio de espera |  Os cinco conjuntos de dados com o maior tempo médio de espera para iniciar a execução de uma consulta, em milissegundos. |
 | Distribuições do tempo de espera |  O histograma da duração da consulta é dividido em intervalos de consulta em milissegundos nas seguintes categorias: <= 50 ms , 50-100 ms , 100-200 ms , 200-400 ms 400 ms-1 s, 1-5 s e > 5 segundos. |
 | Distribuições de tempo de espera de consulta por hora |  As contagens de esperas de consultas e tempo de espera médio (em milissegundos) versus o consumo de memória em GB divididos em buckets de uma hora relatados na hora UTC. |
@@ -244,13 +244,13 @@ A página Conjuntos de Dados tem diferentes *áreas*, que incluem **Atualizaçõ
 
 | **Seção de relatório** | **Métricas** |
 | --- | --- |
-| Consumo da CPU |  Consumo por carga de trabalho como um percentual da capacidade total da CPU. Mostrado por hora para os sete dias anteriores. |
+| Consumo da CPU |  Consumo máximo de CPU durante a hora, por carga de trabalho como um percentual da capacidade total da CPU. Mostrado por hora para os sete dias anteriores. |
 | Consumo da memória |  Consumo máximo de memória durante a hora, em GB, por carga de trabalho (linhas sólidas), sobreposto aos limites de carga de trabalho (linha pontilhada). Mostrado por hora para os sete dias anteriores. |
 |  |  |
 
 ### <a name="ids-and-info"></a>IDs e informações
 
-A guia **IDs e Informações** contém áreas para **Capacidades**, **Espaços de Trabalho**, **Conjuntos de Dados**, **Relatórios Paginados** e **Fluxos de Dados**.
+A guia **IDs e Informações** contém áreas para **Capacidades**, **Workspaces**, **Conjuntos de Dados**, **Relatórios Paginados** e **Fluxos de Dados**.
 
 #### <a name="capacities-area"></a>Área de capacidades
 
@@ -260,32 +260,32 @@ A guia **IDs e Informações** contém áreas para **Capacidades**, **Espaços d
 | Administradores | Nomes dos administradores da capacidade. |
 |||
 
-#### <a name="workspaces-area"></a>Área Espaços de trabalho
+#### <a name="workspaces-area"></a>Área Workspaces
 
 | Seção de relatório | Métricas |
 | --- | --- |
-| Workspaces | Os nomes e IDs para todos os espaços de trabalho. |
+| Workspaces | Os nomes e IDs para todos os workspaces. |
 |||
 
 #### <a name="datasets-area"></a>Área de Conjuntos de Dados
 
 | Seção de relatório | Métricas |
 | --- | --- |
-| Conjuntos de dados | Os nomes e IDs do espaço de trabalho para todos os conjuntos de dados. |
+| Conjuntos de dados | Os nomes e IDs do workspace para todos os conjuntos de dados. |
 |||
 
 #### <a name="paginated-reports-area"></a>Área de relatórios paginados
 
 | Seção de relatório | Métricas |
 | --- | --- |
-| Relatórios paginados | Nomes, nomes do espaço de trabalho e IDs para todos os relatórios paginados. |
+| Relatórios paginados | Nomes, nomes do workspace e IDs para todos os relatórios paginados. |
 |||
 
 #### <a name="dataflows-area"></a>Área de fluxos de dados
 
 | Seção de relatório | Métricas |
 | --- | --- |
-| Fluxos de dados | Nomes de fluxo de dados, nomes de espaço de trabalho e IDs para todos os fluxos de dados. |
+| Fluxos de dados | Nomes de fluxo de dados, nomes de workspace e IDs para todos os fluxos de dados. |
 |||
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Monitorar a capacidade do Power BI Embedded

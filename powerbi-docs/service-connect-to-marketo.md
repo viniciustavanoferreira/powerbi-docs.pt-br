@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 66dcbd76d76de04675204674626c2942aef515fa
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172696"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200989"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conectar-se ao Marketo com o Power BI
 O pacote de conteúdo do Power BI para o Marketo permite que você obtenha informações sobre sua conta do Marketo com dados sobre clientes potenciais e suas atividades. A criação dessa conexão recupera seus dados e fornece automaticamente um painel e relatórios relacionados com base nesses dados.
+
+>[!IMPORTANT]
+>Este pacote de conteúdo será desativado em 4 de setembro de 2019. Se você tiver instalado este pacote de conteúdo antes dessa data, ele continuará funcionando, mas não será possível instalar um novo depois. Os aplicativos de modelo são uma substituição para os pacotes de conteúdo do serviço.
 
 Conecte-se ao [Pacote de conteúdo do Marketo](https://app.powerbi.com/getdata/services/marketo) para o Power BI.
 
@@ -79,10 +82,10 @@ A quantidade de chamadas de API que o Power BI realiza para o Marketo depende da
 | Tipo de dados | Número de Linhas | Chamadas à API |
 | --- | --- | --- |
 | Informações de clientes potenciais |15.000 |50 |
-| Atividades de email |150.000 |1.000 |
+| Atividades de email |150.000 |1\.000 |
 | Atividades de programa |15.000 |100 |
-| Atividades da Web |150.000 |1.000 |
-| Alterações no programa |7.500 |50 |
+| Atividades da Web |150.000 |1\.000 |
+| Alterações no programa |7\.500 |50 |
 | **Total de chamadas à API** | |**2,200** |
 
 ## <a name="next-steps"></a>Próximas etapas

@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/15/2019
-ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.date: 08/29/2019
+ms.openlocfilehash: 4b0ead5697dc94497609ac925a0a46142584f0ba
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307078"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185598"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Obtenha uma assinatura para você e para outras pessoas de relatórios paginados no serviço do Power BI 
 
 Agora você pode configurar assinaturas de email para você e outras pessoas para relatórios paginados no serviço do Power BI. Em geral, o processo é o mesmo que [assinar relatórios e dashboards no serviço do Power BI](service-report-subscribe.md). Este artigo esclarece as diferenças e as considerações. 
 
-Na configuração de assinaturas, escolha a frequência com que você deseja receber os emails: diariamente, semanalmente ou por hora. Se escolher diariamente ou mensalmente, será possível escolher o momento em que você gostaria de executar a assinatura. No total, você pode definir até 24 assinaturas diferentes por dia para cada relatório. 
+Na configuração de assinaturas, escolha a frequência com que deseja receber os emails: diariamente, semanalmente, mensalmente ou por hora. Você também pode escolher a hora em que deseja que a assinatura seja executada. No total, você pode definir até 24 assinaturas diferentes para cada relatório. 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>Considerações sobre assinaturas de relatório paginado 
 

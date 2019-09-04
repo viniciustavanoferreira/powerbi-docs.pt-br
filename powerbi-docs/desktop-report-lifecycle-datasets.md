@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590500"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160340"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop
 Você pode estabelecer uma conexão dinâmica a um conjunto de dados compartilhado no serviço do Power BI e criar vários relatórios diferentes com base no mesmo conjunto de dados. Isso significa que você pode criar seu modelo de dados perfeito no Power BI Desktop e publicá-lo no serviço do Power BI. Em seguida, você e outros usuários podem criar vários relatórios diferentes (em arquivos .pbix separados) usando esse mesmo Common Data Service e salvá-los em workspaces diferentes. Esse recurso é chamado de **conexão dinâmica do serviço do Power BI**.
@@ -108,4 +108,5 @@ Ao usar a **conexão dinâmica ao serviço do Power BI**, há algumas limitaçõ
 * Para Pacotes de conteúdo, é necessário primeiro criar uma cópia do pacote de conteúdo antes de usá-lo como base para o compartilhamento de relatórios e conjuntos de dados .pbix no **serviço do Power BI**.
 * Para pacotes de conteúdo da *Minha Organização*, uma vez copiados, não é possível substituir o relatório criado no serviço e/ou um relatório criado como parte da cópia de um pacote de conteúdo com uma conexão dinâmica. Tentar fazer isso resulta em um aviso solicitando que você renomeie o arquivo e o publique. Nessa situação, você pode substituir apenas relatórios conectados publicados dinamicamente.
 * A exclusão de um conjunto de dados compartilhado no **serviço do Power BI** significa que ninguém pode mais acessar o conjunto de dados do **Power BI Desktop**.
+* Os relatórios que compartilham um conjunto de dados no serviço do Power BI não são compatíveis com implantações automatizadas que usam a API REST do Power BI.
 

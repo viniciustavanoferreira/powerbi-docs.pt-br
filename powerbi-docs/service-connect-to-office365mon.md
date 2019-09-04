@@ -1,29 +1,29 @@
 ---
 title: Conectar-se ao Office365Mon com o Power BI
 description: Office365Mon para o Power BI
-author: SarinaJoan
+author: teddybercovitz
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 8/29/2019
+ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cce886edbed00075efaa43bae9c8a712929e8b9a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61170120"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159901"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Conectar-se ao Office365Mon com o Power BI
-Analisar seus dados de desempenho de integridade e interrupções do Office 365 é fácil com o Power BI e o pacote de conteúdo Office365Mon. O Power BI recupera seus dados, incluindo investigações de integridade e interrupções e, em seguida, compila um painel e relatórios prontos para uso com base em tais dados.
+Analisar seus dados de desempenho de integridade e interrupções do Office 365 é fácil com o Power BI e o aplicativo de modelo Office365Mon. O Power BI recupera seus dados, incluindo investigações de integridade e interrupções e, em seguida, compila um painel e relatórios prontos para uso com base em tais dados.
 
-Conectar-se ao [pacote de conteúdo Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) para Power BI.
+Conectar-se ao [aplicativo de modelo Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) para Power BI.
 
 >[!NOTE]
->Uma conta de administrador do Office365Mon é necessária para conectar e carregar o pacote de conteúdo do Power BI.
+>Uma conta do administrador do Office365Mon é necessária para conectar e carregar o aplicativo de modelo Power BI.
 
 ## <a name="how-to-connect"></a>Como se conectar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.

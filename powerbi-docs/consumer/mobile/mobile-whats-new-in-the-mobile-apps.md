@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665427"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030175"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -22,6 +22,12 @@ Para informações sobre “Novidades” relacionadas, consulte:
 * [Blog da equipe do Power BI para os aplicativos móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades no Power BI Desktop](../../desktop-latest-update.md)  
 * [Novidades no serviço do Power BI](../../service-whats-new.md)  
+
+## <a name="august-2019"></a>Agosto de 2019
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Acesso seguro com o Proxy do Aplicativo do Azure AD (Active Directory)
+
+Firmamos uma parceria com a equipe do Azure Active Directory para integrar os aplicativos para dispositivos móveis do Power BI com o Proxy do Aplicativo do AAD (Azure Active Directory). Com essa configuração, é possível conectar-se ao Servidor de Relatório hospedado nos limites corporativos no aplicativo do Power BI Mobile, sem precisar definir configurações locais complexas. Leia mais em [Integração entre o Power BI Mobile e o Proxy de Aplicativo do Azure AD](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Saiba [como configurar o Proxy de Aplicativo do Azure AD e o Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Julho de 2019
 

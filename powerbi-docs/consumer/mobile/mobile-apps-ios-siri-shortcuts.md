@@ -1,7 +1,7 @@
 ---
 title: Integração de aplicativo móvel do Power BI com atalhos da Siri
 description: Como usar Atalhos da Siri para acessar diretamente o conteúdo do Power BI que você precisa.
-author: michalfo
+author: KesemSharabi
 manager: mshenhav
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 0fd94e7e8f1ea54dd6544eb5c0da13c90808d7e2
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816790"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391513"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Usando Atalhos da Siri no aplicativo Power BI Mobile para iOS (versão prévia)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9f5357056c27d6461ad7f7d7fba1daa27a508868
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391160"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750933"
 ---
 # <a name="optimizing-premium-capacities"></a>Otimização de capacidades Premium
 
@@ -257,7 +257,7 @@ O conteúdo do teste pode ser adicionado aos workspaces criados na capacidade do
 
 Se você já tiver uma capacidade e os relatórios para os quais deseja fazer o teste de carga, use a [ferramenta de geração de carga do PowerShell](https://aka.ms/PowerBILoadTestingTool) para gerar rapidamente um teste de carga. A ferramenta permite que você calcule quantas instâncias de cada relatório sua capacidade pode executar em uma hora. Você pode usar a ferramenta para avaliar a habilidade da capacidade de renderizar o relatório individual ou renderizar vários relatórios diferentes em paralelo. Para obter mais informações, veja o vídeo [Microsoft Power BI: Capacidade Premium](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
 
-Para gerar um teste mais complexo, considere desenvolver um aplicativo de teste de carga que simule uma carga de trabalho realista. Para obter mais informações, veja o webinar [Teste de carga de aplicativos Power BI com o Teste de Carga do Visual Studio](https://blogs.msdn.microsoft.com/charles_sterling/2018/04/04/webinar-load-testing-power-bi-applications-with-visual-studio-load-test/).
+Para gerar um teste mais complexo, considere desenvolver um aplicativo de teste de carga que simule uma carga de trabalho realista. Para obter mais informações, veja o webinar [Teste de carga de aplicativos Power BI com o Teste de Carga do Visual Studio](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/).
 
 ## <a name="acknowledgements"></a>Agradecimentos
 

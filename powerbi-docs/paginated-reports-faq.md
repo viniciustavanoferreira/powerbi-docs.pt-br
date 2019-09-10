@@ -7,14 +7,14 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.topic: conceptual
+ms.date: 09/04/2019
+ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665365"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751526"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: PERGUNTAS FREQUENTES 
 
@@ -26,11 +26,11 @@ Este artigo responde a muitas perguntas comuns que as pessoas têm sobre relató
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Qual o tamanho da capacidade Premium que preciso para relatórios paginados?
 
-A carga de trabalho de relatórios paginados está disponível em SKUs P1 – P3.  Você também pode usá-la com SKUs A4 – A6 para cenários de inserção de SaaS.
+A carga de trabalho de relatórios paginados está disponível em SKUs P1 – P3.  Você também pode usá-la com SKUs de A4 a A6 para cenários de teste/desenvolvimento ou inseridos.
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>Qual é o limite máximo de memória que posso colocar para relatórios paginados na minha capacidade?
 
-Você pode usar até 100% da memória para essa carga de trabalho até o final de junho de 2019. 
+Você pode usar até 100% da memória para essa carga de trabalho.
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>Como funciona o acesso de usuário para relatórios paginados?
 
@@ -152,7 +152,7 @@ Você pode exportar para Microsoft Excel, Microsoft Word, Microsoft PowerPoint, 
 
 Sim, a impressão está disponível para relatórios paginados, incluindo uma experiência de visualização de impressão nova e aprimorada. 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>As assinaturas de email ainda estão disponíveis para relatórios paginados?
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>As assinaturas de email estão disponíveis para relatórios paginados?
 
 Sim, as assinaturas de email são totalmente compatíveis com relatórios paginados e incluem suporte para seis diferentes formatos de arquivo e valores de parâmetro.
 
@@ -166,7 +166,7 @@ Já há suporte para a inserção de SaaS. No momento, não há suporte para a i
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Posso fazer uma consulta detalhada de um relatório do Power BI para um relatório paginado?
 
-Ainda não, mas com certeza planejamos oferecer suporte a este cenário.
+Sim, isso pode ser feito usando parâmetros de URL com seus relatórios paginados.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Posso compartilhar meu conteúdo de relatório paginado por meio de um aplicativo do Power BI?
 

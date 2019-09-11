@@ -1,6 +1,6 @@
 ---
-title: Mapeamentos de exibição de dados
-description: Como o Power BI transforma os dados antes de passar para os visuais
+title: Entender o mapeamento de exibição de dados em visuais do Power BI
+description: Este artigo descreve como o Power BI transforma os dados antes de passá-los para elementos visuais.
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,19 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ff70b2f12921694617a736164484df1326471eea
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425173"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237230"
 ---
-# <a name="data-view-mappings-in-power-bi-visuals"></a>Mapeamentos de exibição de dados em visuais do Power BI
+# <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Entender o mapeamento de exibição de dados em visuais do Power BI
 
-Um `dataViewMappings` descreve como as funções de dados se relacionam entre si e permite que você especifique requisitos condicionais para elas.
-Há uma seção para cada um dos `dataMappings`.
+Este artigo aborda o mapeamento de exibição de dados e descreve como as funções de dados se relacionam entre si e permitem que você especifique requisitos condicionais para elas. O artigo também descreve cada tipo `dataMappings`.
 
-Cada mapeamento válido produzirá um `DataView`, mas atualmente só damos suporte à execução de uma consulta por visual, portanto, na maioria das situações, você só obterá um `DataView`. No entanto, você pode fornecer vários mapeamentos de dados com diferentes condições, os quais permitem:
+Cada mapeamento válido produz uma exibição de dados, mas atualmente há suporte para executar apenas uma consulta por visual. Normalmente, você obtém apenas uma exibição de dados. No entanto, você pode fornecer vários mapeamentos de dados com diferentes condições, que permitem:
 
 ```json
 "dataViewMappings": [
@@ -35,10 +34,10 @@ Cada mapeamento válido produzirá um `DataView`, mas atualmente só damos supor
 ]
 ```
 
-> [!NOTE]
-> É importante observar que o Power BI criará um mapeamento para um DataView se e somente se o mapeamento válido estiver preenchido em `dataViewMappings`.
+O Power BI criará um mapeamento para uma exibição de dados se e somente se o mapeamento válido estiver preenchido em `dataViewMappings`.
 
-Em outras palavras, se `categorical` estiver definido em `dataViewMappings`, mas outros mapeamentos como `table`, `single`, etc. não estiverem, assim como no exemplo a seguir:
+Em outras palavras, `categorical` pode ser definido em `dataViewMappings`, mas outros mapeamentos, como `table` ou `single`, podem não ser. Por exemplo:
+
 ```json
 "dataViewMappings": [
     {
@@ -47,7 +46,8 @@ Em outras palavras, se `categorical` estiver definido em `dataViewMappings`, mas
 ]
 ```
 
-o Power BI produzirá um `DataView` com um único mapeamento `categorical` (`table` e outros mapeamentos serão `undefined`):
+O Power BI produz uma exibição de dados com um único mapeamento `categorical` e `table` e outros mapeamentos são indefinidos:
+
 ```javascript
 {
     "categorical": {
@@ -60,16 +60,16 @@ o Power BI produzirá um `DataView` com um único mapeamento `categorical` (`tab
 
 ## <a name="conditions"></a>Condições
 
-Descreve as condições para um mapeamento de dados específico. Você poderá fornecer vários conjuntos de condições e, se os dados corresponderem a um dos conjuntos de condições descritos, o visual aceitará os dados como válidos.
+Esta seção descreve as condições para um mapeamento de dados específico. Você poderá fornecer vários conjuntos de condições e, se os dados corresponderem a um dos conjuntos de condições descritos, o visual aceitará os dados como válidos.
 
-No momento, para cada campo, você pode especificar um valor mínimo e um máximo. Representa o número de campos que podem ser associados a essa função de dados. 
+No momento, para cada campo, você pode especificar um valor mínimo e um máximo. O valor representa o número de campos que podem ser associados a essa função de dados. 
 
 > [!NOTE]
 > Se uma função de dados for omitida na condição, ela poderá ter qualquer número de campos.
 
 ### <a name="example-1"></a>Exemplo 1
 
-Você pode arrastar vários campos para cada função de dados. Neste exemplo, limitamos category a um campo de dados e measure a dois campos de dados.
+Você pode arrastar vários campos para cada função de dados. Neste exemplo, você limita a categoria a um campo de dados e a medida, a dois campos de dados.
 
 ```json
 "conditions": [
@@ -79,7 +79,9 @@ Você pode arrastar vários campos para cada função de dados. Neste exemplo, l
 
 ### <a name="example-2"></a>Exemplo 2
 
-Neste exemplo, uma entre duas condições é necessária. Ou exatamente um campo de dados de categoria e exatamente duas medidas, ou então exatamente duas categorias e exatamente uma medida.
+Neste exemplo, é exigida uma das duas condições:
+* Exatamente um campo de dados de categoria e exatamente duas medidas
+* Exatamente duas categorias e exatamente uma medida.
 
 ```json
 "conditions": [
@@ -92,10 +94,10 @@ Neste exemplo, uma entre duas condições é necessária. Ou exatamente um campo
 
 O mapeamento de dados único é a forma mais simples de mapeamento de dados. Ele aceita um único campo measure e fornece o total. Se o campo for numérico, ele fornecerá a soma. Caso contrário, ele fornecerá uma contagem de valores exclusivos.
 
-Para usar o mapeamento de dados único, você precisa definir o nome da função de dados que deseja mapear. Esse mapeamento funcionará apenas com um único campo de medida. Se um segundo campo for atribuído, nenhuma exibição de dados será gerada. Portanto, também é uma boa prática incluir uma condição que limite os dados a um campo single.
+Para usar o mapeamento de dados único, você precisa definir o nome da função de dados que deseja mapear. Esse mapeamento funciona apenas com um único campo de medida. Se um segundo campo for atribuído, nenhuma exibição de dados será gerada, portanto, também é uma boa prática incluir uma condição que limite os dados a um único campo.
 
 > [!NOTE]
-> Esse mapeamento de dados não pode ser usado em conjunto com nenhum outro mapeamento de dados. Ele se destina a reduzir os dados a um valor numérico single.
+> Esse mapeamento de dados não pode ser usado junto com nenhum outro mapeamento de dados. Ele se destina a reduzir os dados a um valor numérico single.
 
 ### <a name="example-3"></a>Exemplo 3
 
@@ -110,7 +112,7 @@ Para usar o mapeamento de dados único, você precisa definir o nome da função
 }  
 ```
 
-A exibição de dados resultante ainda conterá os outros tipos (tabela, categórico, assim por diante), mas cada mapeamento conterá apenas o valor único. A melhor prática é acessar apenas o valor em single.
+A exibição de dados resultante ainda contém os outros tipos (tabela, categórico etc.), mas cada mapeamento contém apenas o valor único. A prática recomendada é acessar o valor somente no formato único.
 
 ```JSON
 {
@@ -135,7 +137,7 @@ O mapeamento de dados categóricos é usado para obter um ou dois agrupamentos i
 
 ### <a name="example-4"></a>Exemplo 4
 
-Aqui está a definição de nosso exemplo anterior em funções de dados.
+Aqui está a definição do exemplo anterior para funções de dados:
 
 ```json
 "dataRole":[
@@ -152,7 +154,7 @@ Aqui está a definição de nosso exemplo anterior em funções de dados.
 ]
 ```
 
-Agora, o mapeamento:
+Aqui está o mapeamento:
 
 ```json
 "dataViewMappings": {
@@ -169,14 +171,14 @@ Agora, o mapeamento:
 }
 ```
 
-Trata-se de um exemplo simples que, em inglês comum, diz: "Mapear minha função de dados `category` para que, para cada campo que eu arrastar para `category`, os respectivos dados sejam mapeados para `categorical.categories`. Mapear também a minha função de dados `measure` para `categorical.values`."
+É um exemplo simples. Ele diz: "Mapear minha função de dados `category` para que cada campo que eu arrasto para `category` seja mapeado para `categorical.categories`. Mapear também a minha função de dados `measure` para `categorical.values`."
 
-* **for...in** – para todos os itens nesta função de dados, inclua-os na consulta de dados.
-* **bind...to** – produz o mesmo resultado que for...in, mas espera que a função de dados tenha uma condição que a restrinja a um campo single.
+* **for...in**: para todos os itens nesta função de dados, inclua-os na consulta de dados.
+* **bind...to**: produz o mesmo resultado que *for...in*, mas espera que a função de dados tenha uma condição que a restrinja a um campo único.
 
 ### <a name="example-5"></a>Exemplo 5
 
-Neste exemplo, usaremos as duas primeiras DataRoles do exemplo anterior, além de definir `grouping` e `measure2`.
+Este exemplo usa as duas primeiras funções de dados do exemplo anterior e, além disso, define `grouping` e `measure2`.
 
 ```json
 "dataRole":[
@@ -203,7 +205,7 @@ Neste exemplo, usaremos as duas primeiras DataRoles do exemplo anterior, além d
 ]
 ```
 
-Agora, o mapeamento:
+Aqui está o mapeamento:
 
 ```json
 "dataViewMappings":{
@@ -224,11 +226,11 @@ Agora, o mapeamento:
 }
 ```
 
-Aqui, a diferença está em como mapeamos valores categóricos. Estamos dizendo "Mapear minhas funções de dados `measure` e `measure2` a serem agrupadas pela função de dados `grouping`".
+Aqui, a diferença está em como mapeamos valores categóricos. Estamos dizendo que "Mapear minhas funções de dados `measure` e `measure2` a serem agrupadas pela função de dados `grouping`".
 
 ### <a name="example-6"></a>Exemplo 6
 
-Aqui estão as funções de dados.
+Aqui estão as funções de dados:
 
 ```json
 "dataRoles": [
@@ -250,7 +252,7 @@ Aqui estão as funções de dados.
 ]
 ```
 
-Aqui está o dataViewMapping.
+Aqui está o mapeamento de exibição de dados:
 
 ```json
 "dataViewMappings": [
@@ -277,7 +279,7 @@ Aqui está o dataViewMapping.
 ]
 ```
 
-O `dataview` categórico poderia ser visualizado desta forma.
+A exibição de dados categóricos poderia ser visualizada desta forma:
 
 | Categórica |  |  | | | |
 |-----|-----|------|------|------|------|
@@ -288,7 +290,7 @@ O `dataview` categórico poderia ser visualizado desta forma.
 | México | | 300 | x | x | x |
 | REINO UNIDO | | x | x | 75 | x |
 
-O Power BI o produzirá para você como o DataView categórico. É o conjunto de categorias.
+O Power BI a produz como a exibição de dados categóricos. É o conjunto de categorias.
 
 ```JSON
 {
@@ -310,7 +312,7 @@ O Power BI o produzirá para você como o DataView categórico. É o conjunto de
 }
 ```
 
-Cada categoria é mapeada também para um conjunto de valores. Cada um desses valores é agrupado por série, que equivale a anos.
+Cada categoria é mapeada também para um conjunto de valores. Cada um desses valores é agrupado por série, que é expressa em anos.
 
 Por exemplo, as vendas no Canadá em 2013 são nulas, as vendas no Canadá em 2014 são 50.
 
@@ -393,7 +395,7 @@ Com as funcionalidades fornecidas:
 ]
 ```
 
-A tabela `dataview` poderia ser visualizada desta forma.  
+Você pode visualizar a exibição de dados da tabela como segue:  
 
 | País| Ano | Vendas |
 |-----|-----|------|
@@ -405,7 +407,7 @@ A tabela `dataview` poderia ser visualizada desta forma.
 | REINO UNIDO | 2014 | 150 |
 | EUA | 2015 | 75 |
 
-O Power BI a produzirá para você como o DataView de tabela. Não presuma que há uma ordenação.
+O Power BI exibe os dados como a exibição de dados da tabela. Você não deve presumir que os dados sejam ordenados.
 
 ```JSON
 {
@@ -452,13 +454,13 @@ O Power BI a produzirá para você como o DataView de tabela. Não presuma que h
 }
 ```
 
-Os dados podem ser agregados selecionando o campo desejado e clicando em soma.  
+Você pode agregar os dados selecionando o campo desejado e, em seguida, selecionando soma.  
 
 ![Agregação de dados](./media/data-aggregation.png)
 
 ## <a name="matrix-data-mapping"></a>Mapeamento de dados de matriz
 
-O mapeamento de dados de matriz é semelhante ao mapeamento de dados de tabela, mas as linhas são apresentadas hierarquicamente. E um dos valores de `dataRole` pode ser usado como um valor de cabeçalho de coluna.
+O mapeamento de dados de matriz é semelhante ao mapeamento de dados de tabela, mas as linhas são apresentadas hierarquicamente. Qualquer um dos valores de função de dados pode ser usado como um valor de cabeçalho de coluna.
 
 ```json
 {
@@ -510,7 +512,7 @@ O mapeamento de dados de matriz é semelhante ao mapeamento de dados de tabela, 
 }
 ```
 
-O Power BI cria uma estrutura de dados hierárquica. A raiz da árvore inclui os dados da primeira coluna da função de dados `Category` com filhos da segunda coluna da função de dados.
+O Power BI cria uma estrutura de dados hierárquica. A raiz da hierarquia de árvore inclui os dados da coluna **Pais** da função de dados `Category`, com filhos da coluna **Filhos** da tabela de função de dados.
 
 Conjunto de dados:
 
@@ -533,11 +535,11 @@ Conjunto de dados:
 | Pai2 | Filho3 | Neto8 | Col1 | 10 |
 | Pai2 | Filho3 | Neto8 | Col2 | 13 |
 
-O visual de matriz principal do Power BI o renderiza como uma tabela.
+O visual de matriz principal do Power BI renderiza os dados como uma tabela.
 
 ![Matrix visual](./media/matrix-visual-smaple.png)
 
-O visual obtém a estrutura de dados conforme descrito abaixo (somente as primeiras duas linhas são apresentadas):
+O visual obtém sua estrutura de dados conforme descrito no código a seguir (somente as duas primeiras linhas da tabela são mostradas aqui):
 
 ```json
 {
@@ -614,9 +616,9 @@ O visual obtém a estrutura de dados conforme descrito abaixo (somente as primei
 
 ## <a name="data-reduction-algorithm"></a>Algoritmo de redução de dados
 
-Um `DataReductionAlgorithm` poderá ser aplicado se você quiser controlar a quantidade de dados recebida no DataView.
+Para controlar a quantidade de dados a serem recebidos na exibição de dados, você pode aplicar um algoritmo de redução de dados.
 
-Por padrão, todos os visuais personalizados têm o DataReductionAlgorithm principal aplicado com "count" (contagem) definida como 1.000 pontos de dados. Isso é equivalente a definir as seguintes propriedades no capabilities.json:
+Por padrão, todos os visuais personalizados têm o algoritmo de redução de dados principal aplicado com *count* definida como 1.000 pontos de dados. Isso é o mesmo que definir as seguintes propriedades no arquivo *capabilities.json*:
 
 ```json
 "dataReductionAlgorithm": {
@@ -626,23 +628,23 @@ Por padrão, todos os visuais personalizados têm o DataReductionAlgorithm princ
 }
 ```
 
-Você pode modificar o valor de 'count' para qualquer valor inteiro até 30.000. Os visuais personalizados baseados em R podem dar suporte a até 150.000 linhas.
+Você pode modificar o valor de *count* para qualquer valor inteiro até 30.000. Os visuais personalizados baseados em R podem dar suporte a até 150.000 linhas.
 
 ## <a name="data-reduction-algorithm-types"></a>Tipos de algoritmo de redução de dados
 
-Há quatro tipos de configurações de `DataReductionAlgorithm`:
+Há quatro tipos de configurações de algoritmo de redução de dados:
 
-* `top` – se você quiser limitar os dados a valores extraídos da parte superior do conjunto de dados. Os primeiros valores de "count" serão obtidos do conjunto de dados.
-* `bottom` – se você quiser limitar os dados a valores extraídos da parte inferior do conjunto de dados. Os últimos valores de "count" serão obtidos do conjunto de dados.
-* `sample` – reduza o conjunto de um algoritmo de amostragem simples limitado a um número de itens de "count". Isso significa que o primeiro e o último itens estão incluídos e há um número de itens equivalente a "count" entre eles, com intervalos iguais.
-Por exemplo, se você tiver um conjunto de dados [0, 1, 2, ... 100] e `count: 9`, você recebe os seguintes valores [0, 10, 20 ... 100]
-* `window` – carrega uma 'janela' de pontos de dados de cada vez contendo elementos "count". Atualmente, `top` e `window` são equivalentes. Há trabalho em andamento para oferecer suporte total a uma configuração de janelas.
+* `top`: se você quiser limitar os dados a valores extraídos da parte superior do conjunto de dados. Os primeiros valores de *count* serão obtidos do conjunto de dados.
+* `bottom`: se você quiser limitar os dados a valores extraídos da parte inferior do conjunto de dados. Os últimos valores de "count" serão obtidos do conjunto de dados.
+* `sample`: reduza o conjunto de um algoritmo de amostragem simples limitado a um número de itens de *count*. Isso significa que o primeiro e o último itens estão incluídos e há um número de itens equivalente a *count* entre eles, com intervalos iguais.
+Por exemplo, se você tiver um conjunto de dados [0, 1, 2, ... 100] e uma *count* de 9, receberá os valores [0, 10, 20... 100].
+* `window`: carrega uma *janela* de pontos de dados de cada vez contendo elementos *count*. Atualmente, `top` e `window` são equivalentes. Estamos trabalhando para dar suporte completo a uma configuração de janelas.
 
 ## <a name="data-reduction-algorithm-usage"></a>Uso de algoritmo de redução de dados
 
-`DataReductionAlgorithm` pode ser usado em mapeamento de `dataview` categórico, de tabela ou de matriz.
+O algoritmo de redução de dados pode ser usado em mapeamento categórico, de tabela ou de exibição de dados de matriz.
 
-Ele pode ser definido em `categories` e/ou na seção de grupo de `values` para mapeamento de dados categórico.
+Você pode definir o algoritmo em `categories` e/ou seção de grupo de `values` para mapeamento de dados categóricos.
 
 ### <a name="example-8"></a>Exemplo 8
 
@@ -677,7 +679,7 @@ Ele pode ser definido em `categories` e/ou na seção de grupo de `values` para 
 }
 ```
 
-O algoritmo de redução de dados pode ser aplicado à seção `rows` do mapeamento de `dataview` de tabela.
+Você pode aplicar o algoritmo de redução de dados à seção `rows` da tabela de mapeamento de Exibição de Dados.
 
 ### <a name="example-9"></a>Exemplo 9
 
@@ -700,4 +702,4 @@ O algoritmo de redução de dados pode ser aplicado à seção `rows` do mapeame
 ]
 ```
 
-O algoritmo de redução de dados pode ser aplicado à seção `rows` e/ou `columns` do mapeamento de `matrix` `dataview`.
+Você pode aplicar o algoritmo de redução de dados às seções `rows` e `columns` da matriz de mapeamento de Exibição de Dados.

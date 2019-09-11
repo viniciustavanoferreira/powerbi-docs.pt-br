@@ -1,32 +1,32 @@
 ---
-title: Tipos de Visual no Power BI para os consumidores
-description: Tipos de Visual no serviço do Power BI
+title: Tipos de visuais no Power BI para consumidores
+description: Tipos de visuais no serviço do Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65711610"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302544"
 ---
-# <a name="visual-types-in-power-bi"></a>Tipos de Visual no Power BI
-Você encontrará os visuais em relatórios, dashboards, aplicativos e p e r. Alguns desses tipos de visual são empacotados com o Power BI, e alguns são *visuais personalizados*. Visuais personalizados são criados fora do Power BI e de uma maneira que permite a *designers de relatório* adicioná-los a aplicativos, dashboards e relatórios do Power BI. 
+# <a name="visual-types-in-power-bi"></a>Tipos de visuais no Power BI
+Você encontrará visuais em relatórios, dashboards e P e R. Alguns desses tipos de visuais são empacotados com o Power BI e alguns são *visuais personalizados*. Visuais personalizados são criados fora do Power BI e de uma maneira que permite a *designers de relatório* adicioná-los a relatórios e dashboards do Power BI. 
 
-Este artigo é uma visão geral dos elementos visuais que são empacotados com o Power BI.  Esses são os elementos visuais que você encontrará com mais frequência. 
+Este artigo é uma visão geral de visuais empacotados com o serviço do Power BI.  Estas são os visuais que você encontrará com mais frequência. Para obter informações detalhadas sobre qualquer um desses visuais, confira a documentação do [*designer* de relatórios do Power BI sobre tipos visuais](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 > [!NOTE]
 > Para saber mais sobre visuais personalizados, pesquise-os na seção **Visuais do Power BI** do [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada visual, você encontrará uma descrição, informações do criador e capturas de tela ou um vídeo. 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lista de visuais disponíveis no Power BI
-Todos esses elementos visuais podem ser encontrados em aplicativos do Power BI, painéis, relatórios, e [especificado em p e r](end-user-q-and-a.md). Para saber como interagir com visuais, consulte [interagir com visuais em relatórios, painéis e aplicativos](end-user-visualizations.md)
+Todos esses visuais podem ser encontrados nos relatórios e nos dashboards do Power BI, bem como [especificados em P e R](end-user-q-and-a.md). Para saber como interagir com visuais, confira [Interagir com visuais em relatórios, dashboards e aplicativos](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: básico (em camadas) e empilhado
 ![gráfico da área](media/end-user-visual-type/basic-area-map-small.png)
@@ -76,14 +76,6 @@ Funis ajudam a visualizar um processo contendo estágios, enquanto os itens segu
 Por exemplo, um funil de vendas que acompanha clientes pelos estágios: Oportunidade > Oportunidade qualificada > Cliente potencial > Contrato > Fechamento. Em um relance, a forma do funil transmite a integridade do processo que você está controlando.
 Cada estágio de funil representa um percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com o primeiro estágio sendo o maior, e cada estágio subsequente, menor do que seu antecessor. Um funil em forma de pera também é útil - ele pode identificar um problema no processo. Mas, em geral, o primeiro estágio, o estágio de "entrada", é o maior.
 
-Os gráficos de funil são uma ótima opção:
-- Quando os dados são sequenciais e se movimentam em pelo menos 4 estágios.
-- Quando o número de "itens" no primeiro for maior que o número no estágio final.
-- calcular o potencial (receita de vendas/negociações/etc.) por estágios.
-- calcular e controlar as taxas de conversão e retenção.
-- revelar afunilamentos em um processo linear.
-- controlar o fluxo de trabalho do carrinho de compras.
-- rastrear o progresso e o sucesso das campanhas de propaganda/marketing.
 
 ### <a name="gauge-charts"></a>Gráficos de medidor
 ![gráfico de medidor](media/end-user-visual-type/gauge-m.png)
@@ -127,7 +119,7 @@ Use um mapa básico para associar informações categóricas e quantitativas a l
 ### <a name="maps-arcgis-maps"></a>Mapas: Mapas ArcGIS
 ![Mapa ArcGis](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-A combinação de mapas do ArcGIS e do Power BI leva o mapeamento para além da apresentação de pontos em um mapa, para um nível totalmente novo. As opções disponíveis para mapas base, tipos de localização, temas, estilos de símbolo e camadas de referência cria elementos visuais de mapas informativas fantásticos. A combinação das camadas de dados autoritativas (como dados de censo) em um mapa com análise espacial transmite uma compreensão mais profunda dos dados em seu visual.
+A combinação de mapas do ArcGIS e do Power BI leva o mapeamento para além da apresentação de pontos em um mapa, para um nível totalmente novo. As opções disponíveis para mapas base, tipos de localização, temas, estilos de símbolo e camadas de referência criam visuais de mapa informativas e impressionantes. A combinação de camadas de dados autoritativas (como dados de censo) em um mapa com análise espacial transmite uma compreensão mais profunda dos dados no visual.
 
 ### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropléticos)
 ![mapa coroplético](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
@@ -137,7 +129,7 @@ Um mapa coroplético usa sombreamento ou tonalidade ou padrões para exibir como
 ### <a name="maps-shape-maps"></a>Mapas: mapas de formas
 ![mapa de formas](media/end-user-visual-type/power-bi-shape-map2.png)
 
-Mapas de formas comparam regiões em um mapa usando cores. Ao contrário do visual Mapa, os mapas de formas não conseguem mostrar localizações geográficas precisas de pontos de dados em um mapa. Em vez disso, sua finalidade principal é mostrar comparações relativas de regiões em um mapa colorindo-as de modo diferente.
+Mapas de formas comparam regiões em um mapa usando cores. Um mapa de formas não pode mostrar locais geográficos precisos dos pontos de dados em um mapa. Em vez disso, sua finalidade principal é mostrar comparações relativas de regiões em um mapa colorindo-as de modo diferente.
 
 ### <a name="matrix"></a>Matriz
 ![matriz](media/end-user-visual-type/matrix.png)
@@ -163,12 +155,16 @@ Um gráfico de dispersão sempre tem dois eixos de valor para mostrar um conjunt
 
 Um gráfico de bolhas substitui os pontos de dados por bolhas, com o tamanho de bolha representando uma dimensão adicional dos dados.
 
-Um gráfico de pontos é semelhante a um gráfico de bolhas e um gráfico de dispersão, mas pode plotar dados numéricos ou categóricos ao longo do eixo X.
+
+
+Um gráfico de pontos é semelhante a um gráfico de bolhas e um gráfico de dispersão, mas pode plotar dados numéricos ou categóricos ao longo do eixo X. Este exemplo usa quadrados, em vez de círculos, e plota vendas ao longo do eixo X.
+
+![gráfico de pontos](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>Dispersão de alta densidade
 ![dispersão de alta densidade](media/end-user-visual-type/density-scatter.png)
 
-Por definição, os dados de alta densidade são amostrados para criar elementos visuais razoavelmente rapidamente que são dinâmicas à interatividade. A amostragem de alta densidade usa um algoritmo que elimina os pontos sobrepostos e garante que todos os pontos no conjunto de dados sejam representados no visual. Ele não apenas plota uma amostra representativa dos dados.  
+Por definição, os dados de alta densidade são amostrados para criar com uma rapidez razoável visuais que atendam à interatividade. A amostragem de alta densidade usa um algoritmo que elimina os pontos sobrepostos e garante que todos os pontos no conjunto de dados sejam representados no visual. Ele não apenas plota uma amostra representativa dos dados.  
 
 Isso assegura a melhor combinação de capacidade de resposta, representação e preservação clara de pontos importantes no conjunto de dados geral.
 
@@ -220,14 +216,14 @@ O gráfico de cascata mostram uma duração total conforme os valores são adici
 As colunas são codificadas para que você possa rapidamente aumentar e diminuir. As colunas dos valores inicial e final às vezes começam no eixo horizontal, enquanto os valores intermediários são colunas flutuantes. Devido a essa "aparência", os gráficos de cascata também são chamados de gráficos de ponte.
 
 Os gráficos de cascata são uma ótima opção:
-- quando houver alterações de medida em uma série de tempo ou categorias diferentes
+- quando houver alterações de medida no tempo ou em categorias diferentes
 - para auditar as principais alterações que contribuem para o valor total
 - para traçar o lucro anual da empresa, mostrando várias fontes de receita e chegar ao lucro total (ou perda).
 - para ilustrar o início e final do número de funcionários de sua empresa em um ano
 - para visualizar a quantidade de dinheiro, faça e gaste todo mês e o saldo parcial para sua conta.
 
-## <a name="qna"></a>Informar ao p e r qual visual será usar
-Ao digitar consultas em linguagem natural com o Power BI Q & A, você pode especificar o tipo de visual em sua consulta.  Por exemplo:
+## <a name="qna"></a>Dizer a P e R que visual usar
+Ao digitar consultas em linguagem natural com a P e R do Power BI, você pode especificar o tipo de visual em sua consulta.  Por exemplo:
 
 
 “***vendas por estado como um treemap***”
@@ -235,5 +231,5 @@ Ao digitar consultas em linguagem natural com o Power BI Q & A, você pode espec
 ![sessão de P e R](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>Próximas etapas
-[Interagir com visuais em relatórios, painéis e aplicativos](end-user-visualizations.md)    
+[Interagir com visuais em relatórios, dashboards e aplicativos](end-user-visualizations.md)    
 [A referência visual correta de sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

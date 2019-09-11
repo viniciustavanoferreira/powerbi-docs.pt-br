@@ -1,6 +1,6 @@
 ---
-title: Objetos e propriedades
-description: Propriedades personalizáveis do visual do Power BI
+title: Objetos e propriedades de visuais do Power BI
+description: Este artigo descreve as propriedades personalizáveis de visuais do Power BI.
 author: MrMeison
 ms.author: rasala
 manager: rkarlin
@@ -9,20 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c22a1cfb281c9902d490e2320b85c2f6bbb63468
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424598"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236625"
 ---
-# <a name="object-and-properties"></a>Objetos e propriedades
+# <a name="objects-and-properties-of-power-bi-visuals"></a>Objetos e propriedades de visuais do Power BI
 
-Objetos descrevem propriedades personalizáveis associadas ao visual.
-Cada objeto pode ter várias propriedades e cada propriedade tem um tipo associado a ela.
-Os tipos referem-se ao que será essa propriedade. Veja abaixo mais informações sobre tipos.
+Objetos descrevem propriedades personalizáveis associadas um visual. Um objeto pode ter várias propriedades, sendo que cada propriedade tem um tipo associado que descreve qual será a propriedade. Este artigo fornece informações sobre objetos e tipos de propriedade.
 
-`myCustomObject` é o nome interno usado para fazer referência ao objeto dentro de `dataView` e `enumerateObjectInstances`
+`myCustomObject` é o nome interno usado para fazer referência ao objeto dentro de `dataView` e `enumerateObjectInstances`.
 
 ```json
 "objects": {
@@ -33,7 +31,7 @@ Os tipos referem-se ao que será essa propriedade. Veja abaixo mais informaçõe
 }
 ```
 
-## <a name="display-name"></a>Nome de Exibição
+## <a name="display-name"></a>Nome para exibição
 
 `displayName` é o nome que será mostrado no painel de propriedades.
 
@@ -68,10 +66,11 @@ Exemplo:
 
 Há dois tipos de propriedade: `ValueTypeDescriptor` e `StructuralTypeDescriptor`.
 
-#### <a name="value-type-descriptor"></a>Descritor de Tipo de Valor
+#### <a name="value-type-descriptor"></a>Descritor de tipo de valor
 
-`ValueTypeDescriptor` são basicamente tipos primitivos e normalmente são usados como um objeto estático.
-Aqui estão alguns dos `ValueTypeDescriptor` comuns
+Os tipos `ValueTypeDescriptor` são principalmente primitivos e costumam ser usados como um objeto estático.
+
+Aqui estão alguns dos elementos `ValueTypeDescriptor` comuns:
 
 ```typescript
 export interface ValueTypeDescriptor {
@@ -84,8 +83,8 @@ export interface ValueTypeDescriptor {
 
 #### <a name="structural-type-descriptor"></a>Descritor de tipo estrutural
 
-`StructuralTypeDescriptor` são usados principalmente para objetos associados a dados.
-Preenchimento é o `StructuralTypeDescriptor` mais comum
+Tipos `StructuralTypeDescriptor` são usados principalmente para objetos associados a dados.
+O tipo `StructuralTypeDescriptor` mais comum é *fill*.
 
 ```typescript
 export interface StructuralTypeDescriptor {
@@ -95,8 +94,9 @@ export interface StructuralTypeDescriptor {
 
 ## <a name="gradient-property"></a>Propriedade de gradiente
 
-A propriedade de gradiente não pode ser definida como uma propriedade padrão. Em vez disso, você precisa definir uma regra para substituição da propriedade do seletor de cor (tipo de preenchimento).
-Veja o exemplo abaixo:
+A propriedade de gradiente não pode ser definida como uma propriedade padrão. Em vez disso, você precisa definir uma regra para substituição da propriedade do seletor de cor (tipo *fill*).
+
+Um exemplo é mostrado no código a seguir:
 
 ```json
 "properties": {
@@ -137,13 +137,13 @@ Veja o exemplo abaixo:
 }
 ```
 
-Preste atenção às propriedades `"fill"` e `"fillRule"`. A primeira é o seletor de cor, a segunda é a regra de substituição para gradiente que substituirá a propriedade de `visually` "preenchimento" quando as condições da regra forem atendidas.
+preste atenção às propriedades *fill* e *fillRule*. A primeira é o seletor de cor, a segunda é a regra de substituição para gradiente que substituirá a *propriedade fill*, `visually`, quando as condições da regra forem atendidas.
 
-Esse vínculo entre a propriedade Preenchimento e a regra de substituição é definido na seção `"rule"`->`"output"` da propriedade `"fillRule"`.
+Esse vínculo entre a propriedade *fill* e a regra de substituição é definido na seção `"rule"`>`"output"` da propriedade *fillRule*.
 
-`"Rule"`->`"InputRole"` define qual função de dados dispara a regra (condição). Neste exemplo, se a função de dados `"Gradient"` contiver dados, a regra será aplicada à propriedade `"fill"`.
+A propriedade `"Rule"`>`"InputRole"` define qual função de dados dispara a regra (condição). Neste exemplo, se a função de dados `"Gradient"` contiver dados, a regra será aplicada à propriedade `"fill"`.
 
-Abaixo, você pode ver um exemplo da função de dados que dispara a regra de preenchimento (`the last item`).
+Um exemplo da função de dados que dispara a regra de preenchimento (`the last item`) é mostrado no código a seguir:
 
 ```json
 {
@@ -170,9 +170,9 @@ Abaixo, você pode ver um exemplo da função de dados que dispara a regra de pr
 }
 ```
 
-## <a name="enumerateobjectinstances-method"></a>Método `enumerateObjectInstances`
+## <a name="the-enumerateobjectinstances-method"></a>O método enumerateObjectInstances
 
-Para usar objetos com eficiência, você precisará de uma função em seu visual personalizado chamada `enumerateObjectInstances`. Essa função preencherá o painel de propriedades com objetos e também determinará em que lugar os objetos devem estar associados no dataView.  
+Para usar objetos com eficiência, você precisa de uma função em seu visual personalizado chamada `enumerateObjectInstances`. Essa função preenche o painel de propriedades com objetos e também determina em que lugar os objetos devem estar associados no dataView.  
 
 Veja como é a aparência de uma configuração típica:
 
@@ -197,15 +197,15 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 ### <a name="properties"></a>Propriedades
 
-As propriedades no `enumerateObjectInstances` refletirão as propriedades que você definiu em seus recursos. Veja o exemplo na parte inferior da página.
+As propriedades no `enumerateObjectInstances` refletem as propriedades que você definiu em suas funcionalidades. Veja um exemplo no final deste artigo.
 
 ### <a name="objects-selector"></a>Seletor de objetos
 
-O seletor no `enumerateObjectInstances` determina o lugar em que cada objeto será associado no dataView. Há quatro opções distintas.
+O seletor no `enumerateObjectInstances` determina o lugar em que cada objeto é associado no dataView. Há quatro opções distintas.
 
 #### <a name="static"></a>estático
 
-Esse objeto será associado a metadados `dataviews[index].metadata.objects`
+Este objeto está associado a metadados `dataviews[index].metadata.objects`, como mostrado aqui.
 
 ```typescript
 selector: null
@@ -213,7 +213,7 @@ selector: null
 
 #### <a name="columns"></a>colunas
 
-Esse objeto será vinculado a colunas com o `QueryName` correspondente.
+Esse objeto é vinculado a colunas com o `QueryName` correspondente.
 
 ```typescript
 selector: {
@@ -223,7 +223,7 @@ selector: {
 
 #### <a name="selector"></a>seletor
 
-Esse objeto será associado ao elemento para o qual criamos um `selectionID`. Neste exemplo, vamos pressupor que criamos `selectionID` para alguns pontos de dados e estamos fazendo um loop neles.
+Esse objeto é associado ao elemento para o qual você criou um `selectionID`. Neste exemplo, vamos pressupor que criamos `selectionID`s para alguns pontos de dados e estamos fazendo um loop neles.
 
 ```typescript
 for (let dataPoint in dataPoints) {
@@ -234,7 +234,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>Identidade do escopo
 
-Esse objeto será vinculado a valores específicos na interseção de grupos. Por exemplo, se eu tiver categorias `["Jan", "Feb", "March", ...]` e séries `["Small", "Medium", "Large"]`, talvez queira ter um objeto na interseção de valores que correspondem a `Feb` e `Large`. Para fazer isso, eu poderia obter `DataViewScopeIdentity` das duas colunas, enviá-las por push para a variável `identities` e usar essa sintaxe com o seletor.
+Esse objeto é vinculado a valores específicos na interseção de grupos. Por exemplo, se você tiver categorias `["Jan", "Feb", "March", ...]` e séries `["Small", "Medium", "Large"]`, talvez queira ter um objeto na interseção de valores que correspondam a `Feb` e `Large`. Para fazer isso, você poderia obter `DataViewScopeIdentity` das duas colunas, enviá-las por push para a variável `identities` e usar essa sintaxe com o seletor.
 
 ```typescript
 selector: {
@@ -244,7 +244,7 @@ selector: {
 
 ##### <a name="example"></a>Exemplo
 
-Neste exemplo, mostramos a aparência de um objectEnumeration para um objeto customColor com uma propriedade `fill`. Queremos que esse objeto seja vinculado estaticamente a `dataViews[index].metadata.objects`
+O exemplo a seguir mostra como seria a aparência de um objectEnumeration para um objeto customColor com uma propriedade *fill*. Queremos que esse objeto seja vinculado estaticamente a `dataViews[index].metadata.objects`, como mostrado:
 
 ```typescript
 objectEnumeration.push({

@@ -1,6 +1,6 @@
 ---
-title: URL de inicialização
-description: Visuais do Power BI podem abrir a URL na nova guia
+title: Criar uma URL de inicialização
+description: Este artigo descreve como abrir a URL em uma nova guia usando visuais do Power BI.
 author: Guy-Moses
 ms.author: guymos
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1a7002c3b45f341c0cbc0db683bc4f8a113e21f9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 3ef6be9383b606ce865b4bcd3ccda397e471301b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424851"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236666"
 ---
-# <a name="launch-url"></a>URL de inicialização
+# <a name="create-a-launch-url"></a>Criar uma URL de inicialização
 
-A URL de inicialização permite abrir uma nova guia (ou janela) do navegador, delegando o trabalho real ao Power BI.
+Ao criar uma URL de inicialização, você pode abrir uma nova guia (ou janela) do navegador delegando o trabalho real ao Power BI.
 
 ## <a name="sample"></a>Exemplo
 
@@ -36,18 +36,21 @@ this.host.launchUrl('http://some.link.net');
 
 ## <a name="restrictions"></a>Restrições
 
-* Use apenas caminhos absolutos, não relativos. `http://some.link.net/subfolder/page.html` está ok, `/page.html` não será aberto.
-* Atualmente, somente os protocolos `http` e `https` têm suporte. Evite `ftp`, `mailto` e assim por diante.
+* Use apenas caminhos absolutos, não relativos. Por exemplo, use um caminho absoluto, como `http://some.link.net/subfolder/page.html`. O caminho relativo,`/page.html`, não será aberto.
+
+* No momento, há suporte apenas para os protocolos *HTTP* e *HTTPS*. Evite *FTP*, *MAILTO* e assim por diante.
 
 ## <a name="best-practices"></a>Práticas recomendadas
 
-1. Na maioria dos casos, é melhor abrir apenas um link como uma resposta à ação explícita de um usuário. Facilite para o usuário entender que clicar no link ou no botão resultará na abertura de uma nova guia. Disparar uma chamada `launchUrl()` sem uma ação do usuário ou como um efeito colateral de uma ação diferente pode ser confuso ou frustrante para o usuário.
-2. Se o link não for crucial para o funcionamento correto do visual, ele será redirecionado para fornecer ao autor do relatório uma maneira de desabilitar e ocultar o link. Isso é especialmente relevante para casos especiais de uso de Power BI, como inserir um relatório em um aplicativo de terceiros ou publicá-lo na Web.
-3. Evite disparar uma chamada `launchUrl()` de dentro de um loop, a função `update` do visual ou qualquer outro código recorrente com frequência.
+* Geralmente, é melhor abrir apenas um link como resposta à ação explícita de um usuário. Facilite para o usuário entender que clicar no link ou no botão resultará na abertura de uma nova guia. Disparar uma chamada `launchUrl()` sem uma ação do usuário ou como um efeito colateral de uma ação diferente pode ser confuso ou frustrante para o usuário.
 
-## <a name="step-by-step-example"></a>Exemplo passo a passo
+* Se o link não for crucial para o funcionamento correto do visual, recomendamos fornecer ao autor do relatório uma maneira de desabilitar e ocultar o link. Essa recomendação é especialmente relevante para casos especiais de uso do Power BI, como inserir um relatório em um aplicativo de terceiros ou publicá-lo na Web.
 
-### <a name="adding-a-link-launching-element"></a>Adicionando um elemento de inicialização de link
+* Evite disparar uma chamada `launchUrl()` de dentro de um loop, da função `update` do visual ou de qualquer outro código recorrente com frequência.
+
+## <a name="a-step-by-step-example"></a>Um exemplo passo a passo
+
+### <a name="add-a-link-launching-element"></a>Adicionar um elemento de inicialização de link
 
 As linhas a seguir foram adicionadas à função `constructor` do visual:
 
@@ -56,7 +59,7 @@ As linhas a seguir foram adicionadas à função `constructor` do visual:
     options.element.appendChild(this.helpLinkElement);
 ```
 
-E uma função particular que cria e anexa o elemento de âncora foi adicionada:
+Uma função particular que cria e anexa o elemento de âncora foi adicionada:
 
 ```typescript
 private createHelpLinkElement(): Element {
@@ -71,7 +74,7 @@ private createHelpLinkElement(): Element {
 };
 ```
 
-Por fim, uma entrada no arquivo visual.less define o estilo para o elemento link:
+Por fim, uma entrada no arquivo *visual.less* define o estilo para o elemento link:
 
 ```less
 .helpLink {
@@ -103,10 +106,11 @@ Por fim, uma entrada no arquivo visual.less define o estilo para o elemento link
 }
 ```
 
-### <a name="adding-a-toggling-mechanism"></a>Adicionar um mecanismo de alternância
+### <a name="add-a-toggling-mechanism"></a>Adicionar um mecanismo de alternância
 
-Isso requer a adição de um objeto estático (consulte o [tutorial de objeto estático](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)) para que o autor do relatório possa alternar a visibilidade do elemento link (o padrão é definido como oculto).
-Um objeto `showHelpLink` estático booliano foi adicionado à entrada de objetos `capabilities.json`:
+Para adicionar um mecanismo de alternância, você precisa adicionar um objeto estático para que o autor do relatório possa alternar a visibilidade do elemento de link. (O padrão é definido como *oculto*.) Para obter mais informações, confira o [tutorial objeto estático](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties).
+
+Um objeto estático booliano `showHelpLink` foi adicionado à entrada de objetos do arquivo *capabilities.json*, conforme mostrado no código a seguir:
 
 ```typescript
 "objects": {
@@ -136,4 +140,4 @@ if (settings.generalView.showHelpLink) {
 }
 ```
 
-A classe `hidden` é definida em visual.Less para controlar a exibição do elemento.
+A classe *oculto* é definida no arquivo *visual.less* para controlar a exibição do elemento.

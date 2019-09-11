@@ -1,6 +1,6 @@
 ---
-title: Dicas de ferramentas de visuais
-description: Visuais do Power BI podem exibir dicas de ferramentas
+title: Dicas de ferramenta em visuais do Power BI
+description: Este artigo discute como você pode exibir dicas de ferramenta em visuais do Power BI.
 author: AviSander
 ms.author: asander
 manager: rkarlin
@@ -9,32 +9,32 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 286c5eef2c341ad77c351008b321992597bef292
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5ad14c632955c42607206dd09a16a8fdb3670e92
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425633"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237378"
 ---
-# <a name="power-bi-visuals-tooltips"></a>Dicas de ferramentas de visuais do Power BI
+# <a name="tooltips-in-power-bi-visuals"></a>Dicas de ferramenta em visuais do Power BI
 
 Os visuais agora podem se beneficiar do suporte a dicas de ferramenta do Power BI. As dicas de ferramenta do Power BI são responsáveis pelas seguintes interações:
 
-mostrar uma dica de ferramenta;
-ocultar uma dica de ferramenta;
-mover uma dica de ferramenta.
+* mostrar uma dica de ferramenta;
+* ocultar uma dica de ferramenta;
+* mover uma dica de ferramenta.
 
-Dicas de ferramenta podem exibir um elemento textual com um título, um valor em uma determinada cor e opacidade em um conjunto especificado de coordenadas. Esses dados são fornecidos à API. O host do Power BI renderiza-os do mesmo modo que renderiza dicas de ferramenta para visuais nativos.
+Dicas de ferramenta podem exibir um elemento textual com um título, um valor em uma determinada cor e opacidade em um conjunto especificado de coordenadas. Esses dados são fornecidos à API e o host do Power BI renderiza-os do mesmo modo que renderiza dicas de ferramenta para visuais nativos.
 
-Por exemplo, dicas de ferramenta no BarChart de exemplo.
+Uma dica de ferramenta em um gráfico de barras de exemplo é mostrada na imagem a seguir:
 
-![Dicas de ferramenta de BarChart de exemplo](./media/tooltips-in-samplebarchart.png)
+![Dicas de ferramentas do gráfico de barras de exemplo](./media/tooltips-in-samplebarchart.png)
 
-A dica de ferramenta acima ilustra uma única categoria de barra e valor. Ela pode ser estendida para exibir vários valores em uma única dica de ferramenta.
+A imagem de dica de ferramenta anterior ilustra uma única categoria de barra e valor. Você pode estender uma única dica de ferramenta para exibir vários valores.
 
-## <a name="handling-tooltips"></a>Manipulando dicas de ferramenta
+## <a name="manage-tooltips"></a>Gerenciar dicas de ferramenta
 
-A interface por meio da qual você gerencia dicas de ferramenta é a 'ITooltipService'. Essa interface é usada para notificar o host de que uma dica de ferramenta precisa ser exibida, removida ou movida.
+A interface por meio da qual você gerencia dicas de ferramenta é a "ITooltipService". É usada para notificar o host de que uma dica de ferramenta precisa ser exibida, removida ou movida.
 
 ```typescript
     interface ITooltipService {
@@ -45,21 +45,23 @@ A interface por meio da qual você gerencia dicas de ferramenta é a 'ITooltipSe
     }
 ```
 
-O visual precisará escutar os eventos de mouse que ocorrerem nele e chamar os delegados `show()`, `move()` e `hide()` conforme necessário, com o conteúdo apropriado populado nos objetos `Tooltip****Options`.
+O visual precisa escutar os eventos de mouse que ocorrerem nele e chamar os delegados `show()`, `move()` e `hide()` conforme necessário, com o conteúdo apropriado populado nos objetos `Tooltip****Options`.
 `TooltipShowOptions` e `TooltipHideOptions`, por sua vez, definiriam o que exibir e como se comportar caso esses eventos ocorressem.
-Já que a chamada desses métodos envolveria eventos do usuário, tais como movimentos do mouse ou eventos de toque, seria uma boa ideia criar ouvintes para esses eventos, que por sua vez invocariam os membros `TooltipService`.
+
+Já que a chamada desses métodos envolve eventos do usuário, como movimentos do mouse ou eventos de toque, é uma boa ideia criar ouvintes para esses eventos, que, por sua vez, invocam os membros `TooltipService`.
 Nossas agregações de exemplo em uma classe chamada `TooltipServiceWrapper`.
 
-### <a name="tooltipservicewrapper-class"></a>Classe TooltipServiceWrapper
+### <a name="the-tooltipservicewrapper-class"></a>A classe TooltipServiceWrapper
 
-O propósito básico dessa classe é manter a instância do `TooltipService`, ouvir eventos de mouse D3 em elementos relevantes e, em seguida, fazer as chamadas para `hide()` e `show()` quando necessário.
-A classe mantém e gerencia qualquer estado e lógica relevantes para esses eventos e é voltada principalmente para a interface com o código D3 subjacente. A interface e a conversão de D3 estão fora do escopo deste documento.
+O propósito básico dessa classe é manter a instância do `TooltipService`, ouvir eventos de mouse D3 em elementos relevantes e, em seguida, fazer as chamadas para os elementos `hide()` e `show()` quando necessário.
 
-Você pode encontrar o código de exemplo completo no [repositório do visual SampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/981b021612d7b333adffe9f723ab27783c76fb14)
+A classe mantém e gerencia qualquer estado e lógica relevantes para esses eventos, que são voltados principalmente para a interface com o código D3 subjacente. A interface e a conversão de D3 estão fora do escopo deste artigo.
 
-### <a name="creating-tooltipservicewrapper"></a>Criar TooltipServiceWrapper
+Você pode encontrar o código de exemplo completo no [repositório do visual SampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/981b021612d7b333adffe9f723ab27783c76fb14).
 
-O construtor BarChart agora tem um membro `tooltipServiceWrapper`, que é instanciado no construtor com a instância de host `tooltipService`.
+### <a name="create-tooltipservicewrapper"></a>Criar TooltipServiceWrapper
+
+O construtor de gráfico de barras agora tem um membro `TooltipServiceWrapper`, que é instanciado no construtor com a instância de host `tooltipService`.
 
 ```typescript
         private tooltipServiceWrapper: ITooltipServiceWrapper;
@@ -89,7 +91,7 @@ A classe `TooltipServiceWrapper` contém a instância `tooltipService`, também 
 
 O ponto de entrada único para essa classe registrar ouvintes de evento é o método `addTooltip`.
 
-### <a name="addtooltip-method"></a>Método addTooltip
+### <a name="the-addtooltip-method"></a>O método addTooltip
 
 ```typescript
         public addTooltip<T>(
@@ -106,20 +108,19 @@ O ponto de entrada único para essa classe registrar ouvintes de evento é o mé
         }
 ```
 
-* **selection: d3.Selection<Element>**
-* Os elementos D3 sobre quais dicas de ferramenta são manipuladas
-* **getTooltipInfoDelegate: (args: TooltipEventArgs<T>) => VisualTooltipDataItem[]**
-* Delegado para popular o conteúdo da dica de ferramenta (o que exibir) segundo o contexto
-* **getDataPointIdentity: (args: TooltipEventArgs<T>) => ISelectionId**
-* Delegado para recuperar a ID do ponto de dados – não usado neste exemplo 
-* **reloadTooltipDataOnMouseMove?: boolean**
-* booliano que indica se os dados da dica de ferramenta devem ser atualizados durante um evento mouseMove – não usado neste exemplo
+* **selection: d3.Selection<Element>** : Os elementos d3 sobre quais dicas de ferramenta são manipuladas.
 
-Como você pode ver, `addTooltip` encerrará sem realizar nenhuma ação se o `tooltipService` estiver desabilitado ou se não houver nenhuma seleção real.
+* **getTooltipInfoDelegate: (args: TooltipEventArgs<T>) => VisualTooltipDataItem[]** : O delegado para popular o conteúdo da dica de ferramenta (o que exibir) segundo o contexto.
 
-### <a name="call-of-show-method-to-display-a-tooltip"></a>Chamada do método show para exibir uma dica de ferramenta
+* **getDataPointIdentity: (args: TooltipEventArgs<T>) => ISelectionId**: O delegado para recuperar a ID do ponto de dados (não usado neste exemplo). 
 
-`addTooltip` em seguida escuta o evento `mouseover` D3.
+* **Booliano reloadTooltipDataOnMouseMove?** : Um booliano indicando se os dados da dica de ferramenta devem ser atualizados durante um evento MouseMove (não usado neste exemplo).
+
+Como você pode ver, `addTooltip` sairá sem realizar nenhuma ação se o `tooltipService` estiver desabilitado ou se não houver nenhuma seleção real.
+
+### <a name="call-the-show-method-to-display-a-tooltip"></a>Chame o método show para exibir uma dica de ferramenta
+
+O método `addTooltip` em seguida ouve o evento D3 `mouseover`, conforme mostrado no código a seguir:
 
 ```typescript
         ...
@@ -148,22 +149,21 @@ Como você pode ver, `addTooltip` encerrará sem realizar nenhuma ação se o `t
         });
 ```
 
-* **makeTooltipEventArgs**
-* Extrai o contexto dos elementos D3 selecionados em um ToolTipEventArgs. Ele também calculará as coordenadas.
-* **getTooltipInfoDelegate**
-* Em seguida, ele cria o conteúdo da dica de ferramenta com base em ToolTipEventArgs. É um retorno de chamada para a classe BarChart, já que ela representa a lógica do visual. É o conteúdo de texto real a ser exibido na dica de ferramenta.
-* **getDataPointIdentity**
-* Não usado neste exemplo
-* **this.visualHostTooltipService.show**
-* A chamada para exibir a dica de ferramenta  
+* **makeTooltipEventArgs**: Extrai o contexto dos elementos D3 selecionados em um ToolTipEventArgs. Também calcula as coordenadas.
+
+* **getTooltipInfoDelegate**: em seguida, ele cria o conteúdo da dica de ferramenta com base em tooltipEventArgs. É um retorno de chamada para a classe BarChart, pois representa a lógica do visual. É o conteúdo de texto real a ser exibido na dica de ferramenta.
+
+* **getDataPointIdentity**: não usado neste exemplo.
+
+* **this.visualHostTooltipService.show**: a chamada para exibir a dica de ferramenta.  
 
 Tratamento adicional pode ser encontrado no exemplo para os eventos `mouseout` e `mousemove`.
 
 Para obter mais informações, confira o [repositório visual SampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/981b021612d7b333adffe9f723ab27783c76fb14).
 
-### <a name="populating-the-tooltip-content-by-gettooltipdata-method"></a>Popular o conteúdo da dica de ferramenta pelo método getTooltipData
+### <a name="populate-the-tooltip-content-by-the-gettooltipdata-method"></a>Preencher o conteúdo da dica de ferramenta pelo método getTooltipData
 
-O `BarChart` foi adicionado com um membro `getTooltipData` que simplesmente extrai a categoria, o valor e a cor do ponto de dados em um elemento VisualTooltipDataItem[].
+A classe BarChart foi adicionada com um membro `getTooltipData` que simplesmente extrai `category`, `value` e `color` do ponto de dados para um elemento VisualTooltipDataItem[].
 
 ```typescript
         private static getTooltipData(value: any): VisualTooltipDataItem[] {
@@ -176,11 +176,11 @@ O `BarChart` foi adicionado com um membro `getTooltipData` que simplesmente extr
         }
 ```
 
-Na implementação acima, o membro `header` é constante, mas pode ser usado para implementações mais complexas que exigem valores dinâmicos. Você pode preencher o `VisualTooltipDataItem[]` com mais de um elemento, o que adicionará várias linhas à dica de ferramenta. Isso pode ser útil em visuais como gráficos de barras empilhadas, em que a dica de ferramenta pode exibir dados de mais do que um único ponto de dados.
+Na implementação anterior, o membro `header` é constante, mas você pode usá-lo para implementações mais complexas que exigem valores dinâmicos. Você pode preencher o `VisualTooltipDataItem[]` com mais de um elemento, o que adiciona várias linhas à dica de ferramenta. Isso pode ser útil em visuais como gráficos de barras empilhadas, em que a dica de ferramenta pode exibir dados de mais do que um único ponto de dados.
 
-### <a name="calling-addtooltip-method"></a>Chamar o método addTooltip
+### <a name="call-the-addtooltip-method"></a>Chamar o método addTooltip
 
-A etapa final é chamar `addTooltip` quando os dados reais podem sofrer alteração. Essa chamada ocorreria no método `BarChart.update()`. Portanto, é feita uma chamada para monitorar a seleção de todos os elementos ' bar ', passando apenas o `BarChart.getTooltipData()` conforme mencionado acima.
+A etapa final é chamar o método `addTooltip` quando os dados reais podem mudar. Essa chamada ocorre no método `BarChart.update()`. É feita uma chamada para monitorar a seleção de todos os elementos 'bar', passando apenas o `BarChart.getTooltipData()`, conforme já mencionado.
 
 ```typescript
         this.tooltipServiceWrapper.addTooltip(this.barContainer.selectAll('.bar'),
@@ -188,9 +188,9 @@ A etapa final é chamar `addTooltip` quando os dados reais podem sofrer alteraç
             (tooltipEvent: TooltipEventArgs<number>) => null);
 ```
 
-## <a name="adding-report-page-tooltips"></a>Adicionar dicas de página de relatório
+## <a name="add-report-page-tooltips"></a>Adicionar dicas de ferramentas de página de relatório
 
-Para adicionar dicas de ferramenta de página de relatório, a maioria das alterações estará localizada em capabilities.json.
+Para adicionar dicas de ferramentas de página de relatório, você encontrará a maioria das alterações no arquivo *capabilities.json*.
 
 Um exemplo de esquema é
 
@@ -208,19 +208,21 @@ Um exemplo de esquema é
 }
 ```
 
-A definição de dicas de ferramentas de página de relatório pode ser feita no painel Formatar.
+Você pode definir dicas de ferramenta da página de relatório no painel **Formatar**.
 
 ![Dica de ferramenta de página de relatório](media/report-page-tooltip.png)
 
-`supportedTypes` é a configuração de dicas de ferramenta compatível com o visual e refletida no conjunto de campos. `default` especifica se a associação de dicas de ferramenta "automática" por meio do campo de dados é compatível. canvas especifica se as dicas de ferramenta de página de relatório são compatíveis.
+* `supportedTypes`: A configuração da dica de ferramenta com suporte no visual e refletida no contêiner de campos. 
+   * `default`: Especifica se a associação de dicas de ferramenta "automática" por meio do campo de dados é compatível. 
+   * `canvas`: Especifica se as dicas de ferramenta de página de relatório são compatíveis.
 
-`roles` é opcional. Uma vez definido, instrui quais funções de dados serão associadas à opção de dica de ferramenta selecionada no conjunto de campos.
+* `roles`: (Opcional) Depois de definido, ele instrui quais funções de dados estão associadas à opção de dica de ferramenta selecionada no contêiner de campos.
 
-Para obter mais informações, consulte as diretrizes de uso de dicas de ferramenta da página de relatório [Dicas de ferramenta da página de relatório](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips)
+Para obter mais informações, confira [Diretrizes de uso de dicas de ferramenta deda página de relatório](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips).
 
-Para exibir a dica de ferramenta da página de relatório, ao chamar `ITooltipService.Show(options: TooltipShowOptions)` ou `ITooltipService.Move(options: TooltipMoveOptions)`, o host do Power BI consumirá a selectionId (a propriedade `identities` do argumento `options` acima). A SelectionId deve representar os dados selecionados (categoria, série e assim por diante) do item que você focalizou acima a serem recuperados pela dica de ferramenta.
+Para exibir a dica de ferramenta da página de relatório, depois que o host do Power BI chama `ITooltipService.Show(options: TooltipShowOptions)` ou `ITooltipService.Move(options: TooltipMoveOptions)`, ele consome selectionId (propriedade `identities` do argumento `options` anterior). A ser recuperada pela dica de ferramenta, SelectionId deve representar os dados selecionados (categoria, série e assim por diante) do item que você focalizou.
 
-Exemplo de envio da selectionId para chamadas de exibição de dica de ferramenta:
+Um exemplo de envio de selectionId para chamadas de exibição de dica de ferramenta é mostrado no código a seguir:
 
 ```typescript
     this.tooltipServiceWrapper.addTooltip(this.barContainer.selectAll('.bar'),

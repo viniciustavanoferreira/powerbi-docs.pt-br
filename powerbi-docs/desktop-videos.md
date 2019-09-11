@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/04/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e742ba0686a3b7cfc2d7dab878ff71b6d17cd13a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 609b0d1a30c065227e3700b2a3a2ee284b76a8b0
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513528"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391445"
 ---
 # <a name="power-bi-desktop-videos"></a>Vídeos do Power BI Desktop
 Temos um [canal do YouTube para o Power BI](http://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)
@@ -26,11 +26,7 @@ A lista a seguir descreve todos os vídeos disponíveis sobre o Power BI Desktop
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe> 
   
-- Saiba [como criar relatórios impressionantes](https://www.youtube.com/watch?v=ByIUx-HmQbw) usando o Power BI Desktop.
+- Saiba [como criar relatórios incríveis](https://www.youtube.com/watch?v=ByIUx-HmQbw) usando o Power BI Desktop e como importar, reformatar e transformar usando o Editor do Power Query.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>  
   
-- Entenda como [importar, reformatar e transformar dados usando o Editor de Consultas](https://www.youtube.com/watch?v=ByIUx-HmQbw) no Power BI Desktop.
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe>
-

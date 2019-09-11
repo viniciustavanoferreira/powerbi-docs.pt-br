@@ -7,111 +7,164 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2018
+ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61285240"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70303078"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Criar visuais do Power BI usando Python
 Com o **Power BI Desktop**, é possível usar o **Python** para visualizar seus dados.
 
-## <a name="install-python"></a>Instalar o Python
-O **Power BI Desktop** não inclui, implanta ou instala o mecanismo **Python**. Para executar scripts Python no **Power BI Desktop**, é necessário instalar o **Python** em seu computador local separadamente. Você pode baixar e instalar o **Python** gratuitamente em vários locais, incluindo a [página de download do Python Oficial](https://www.python.org/) e o [Anaconda](https://anaconda.org/anaconda/python/). A versão atual do script Python no Power BI Desktop dá suporte a caracteres Unicode, bem como espaços (caracteres vazios) no caminho de instalação.
+## <a name="prerequisites"></a>Pré-requisitos
 
-## <a name="enable-python-visuals"></a>Habilitar visuais do Python
-Para habilitar visuais do Python, selecione **Arquivo > Opções e configurações > Opções** e, na página **Opções** exibida, verifique se sua instalação local do Python está especificada na seção **Script do Python** da janela **Opções**, conforme mostrado na imagem a seguir. Na imagem a seguir, a instalação local do caminho do Python é **C:\Python27**, e esse caminho é explicitamente fornecido na caixa de texto. Verifique se o caminho que ele exibe reflete corretamente a instalação local do Python que você deseja que o **Power BI Desktop** use.
-   
-   ![](media/desktop-python-visuals/python-visuals-1.png)
+Trabalhe com o tutorial [Executar scripts Python no Power BI Desktop](desktop-python-scripts.md) usando o seguinte script Python:
 
-Depois que você especifica a instalação do Python, está pronto para começar a criar visuais do Python.
+```python
+import pandas as pd 
+df = pd.DataFrame({ 
+    'Fname':['Harry','Sally','Paul','Abe','June','Mike','Tom'], 
+    'Age':[21,34,42,18,24,80,22], 
+    'Weight': [180, 130, 200, 140, 176, 142, 210], 
+    'Gender':['M','F','M','M','F','M','M'], 
+    'State':['Washington','Oregon','California','Washington','Nevada','Texas','Nevada'],
+    'Children':[4,1,2,3,0,2,0],
+    'Pets':[3,2,2,5,0,1,5] 
+}) 
+print (df) 
+```
+O artigo [Executar scripts do Python no Power BI Desktop](desktop-python-scripts.md) mostra como instalar o Python em seu computador local e habilitá-lo para scripts do Python no **Power BI Desktop**. Este tutorial usa dados do script acima para ilustrar a criação de visuais do Python.
 
 ## <a name="create-python-visuals-in-power-bi-desktop"></a>Criar Visuais do Python no Power BI Desktop
-1. Selecione o ícone **Visual do Python** no painel **Visualização**, como mostrado na imagem a seguir para adicionar um visual do Python.
+1. Selecione o ícone **Visual do Python** no painel **Visualização**.
    
    ![](media/desktop-python-visuals/python-visuals-2.png)
 
-   Quando você adiciona um visual do Python a um relatório, o **Power BI Desktop** faz o seguinte:
-   
-   - Uma imagem do visual do Python no espaço reservado aparece na tela de relatório.
-   
-   - O **editor de script Python** aparece na parte inferior do painel central.
-   
-   ![](media/desktop-python-visuals/python-visuals-3.png)
+1.  Na caixa de diálogo **Habilitar visuais de script** que aparece, selecione **Habilitar**. 
 
-2. Em seguida, adicione os campos que deseja consumir no seu script Python à seção **Valores** em **Campos** também, como faria com qualquer outro visual do **Power BI Desktop**. 
-    
-    Somente os campos que foram adicionados aos **Campos** estão disponíveis para seu script Python. Você pode adicionar novos campos ou remover campos desnecessários de **Campos** enquanto trabalha em seu script Python no **editor de scripts Python do Power BI Desktop**. O **Power BI Desktop** detecta automaticamente os campos que você adicionou ou removeu.
+    Quando você adiciona um visual do Python a um relatório, o **Power BI Desktop** executa as seguintes ações:
+   
+     - Uma imagem do visual do Python no espaço reservado aparece na tela de relatório.
+   
+     - O **editor de script Python** aparece na parte inferior do painel central.
+   
+    ![](media/desktop-python-visuals/python-visuals-3.png)
+
+1. Em seguida, arraste os campos **Idade**, **Crianças**, **Nome**, **Gênero**, **Animais de estimação**, **Estado** e **Peso** para a seção **Valores** em que diz "**Adicionar campos de dados aqui**". 
+
+    ![](media/desktop-python-visuals/python-visuals-15.png)
+
+   Seu script do Python só pode usar campos adicionados à seção **Valores**. Você pode adicionar ou remover campos da seção **Valores** enquanto trabalha em seu script Python. O **Power BI Desktop** detecta automaticamente as alterações de campo.
    
    > [!NOTE]
    > O tipo de agregação padrão para visuais do Python é *não resumir*.
    > 
    > 
    
-3. Agora você pode usar os dados selecionados para plotar. 
+1. Agora você pode usar os dados selecionados para plotar. 
 
-    Ao selecionar campos, o **editor de script Python** gera um código de associação de script Python com suporte com base em suas seleções na seção cinza na parte superior do painel do editor. Ao selecionar ou remover campos adicionais, o suporte de código no editor de script Python é automaticamente gerado ou removido adequadamente.
-   
-   No exemplo mostrado na imagem a seguir, três campos foram selecionados: hp, preparar e drat. Como resultado dessas seleções, o editor de script Python gerou o seguinte código de associação:
-   
-   * Um dataframe chamado **dataset** foi criado
-     * Esse dataframe é composto por diferentes campos selecionados pelo usuário
-   * A agregação padrão é *não resumir*
-   * Semelhantes aos elementos visuais de tabela, os campos são agrupados e as linhas duplicadas aparecem somente uma vez
-   
-   ![](media/desktop-python-visuals/python-visuals-4.png)
-   
-   > [!TIP]
-   > Em certos casos, talvez você não queira que ocorra um agrupamento automático, ou talvez queira exibir todas as linhas, incluindo duplicatas. Nesse caso, você pode adicionar um campo de índice ao conjunto de dados que faz com que todas as linhas sejam consideradas exclusivas, impedindo o agrupamento.
-   > 
-   > 
-   
-   O dataframe gerado é chamado de **conjunto de dados**, e você pode acessar as colunas selecionadas por seus respectivos nomes. Por exemplo, acesse o campo de engrenagem escrevendo *dataset["gear"]* em seu script Python.
+    Ao selecionar ou remover campos, o suporte de código no editor de script Python é automaticamente gerado ou removido. 
+    
+    Como resultado de suas seleções, o editor de script Python gerou o seguinte código de associação.
 
-4. Com o dataframe gerado automaticamente pelos campos selecionados, você está pronto para escrever um script Python que resulta em plotar ao dispositivo padrão do Python. Quando o script for concluído, selecione **Executar** na barra de título **editor de script Python** (**Executar** está no lado direito da barra de título).
+    * O editor criou um dataframe de **conjunto de dados** com os campos que você adicionou. 
+    * A agregação padrão é *não resumir*.
+    * Semelhantes aos elementos visuais de tabela, os campos são agrupados e as linhas duplicadas aparecem somente uma vez.
+
+        ![](media/desktop-python-visuals/python-visuals-10.png)
    
-    Ao selecionar **Executar**, o **Power BI Desktop** identifica a plotagem e a apresenta na tela. Uma vez que o processo é executado em sua instalação local do Python, certifique-se de pacotes necessários estão instalados.
+     > [!TIP] 
+     > Em certos casos, talvez você não queira que ocorra um agrupamento automático ou talvez queira exibir todas as linhas, incluindo duplicatas. Se for o caso, você poderá adicionar um campo de índice ao conjunto de dados que faz com que todas as linhas sejam consideradas exclusivas, impedindo o agrupamento.
    
-   O **Power BI Desktop** plota novamente o visual quando qualquer um dos seguintes eventos ocorre:
+   Você pode acessar colunas no conjunto de dados usando seus respectivos nomes. Por exemplo, você pode codificar o conjunto de código ["Age"] em seu script do Python para acessar o campo idade.
+
+1. Com o dataframe gerado automaticamente pelos campos selecionados, você está pronto para escrever um script Python que resulta em plotar ao dispositivo padrão do Python. Quando o script estiver concluído, selecione **Executar** na barra de título do **Editor de script do Python**.
+
+   O **Power BI Desktop** plota novamente o visual se qualquer um dos seguintes eventos ocorre:
    
    * Ao selecionar **Executar** na barra de título **Editor de script Python**
    * Sempre que ocorre uma alteração de dados, devido à atualização de dados, filtragem ou realce
+   
+   Quando você executa um script do Python que resulta em um erro, o visual do Python não é plotado e uma mensagem de erro na tela é exibida. Para obter detalhes do erro, selecione **Ver detalhes** na mensagem.
 
-    A imagem a seguir mostra um exemplo de código de plotagem a correlação, e plota as correlações entre atributos de tipos diferentes de carros.
+   Para obter uma exibição ampliada das visualizações, você pode minimizar a **editor de script Python**.
 
-    ![](media/desktop-python-visuals/python-visuals-5.png)
+Certo, vamos criar alguns visuais.
 
-5. Para obter uma exibição ampliada das visualizações, você pode minimizar a **editor de script Python**. E, claro, como outros visuais no **Power BI Desktop**, é possível cruzar o filtro da plotagem de correlação ao selecionar somente carros do tipo esporte no visual de rosca (o visual redondo à direita, na imagem de exemplo acima).
+## <a name="create-a-scatter-plot"></a>Criar um gráfico de dispersão
 
-    ![](media/desktop-python-visuals/python-visuals-6.png)
+Vamos criar um gráfico de dispersão para ver se há uma correlação entre idade e peso. 
 
-6. Você também pode modificar o script Python para personalizar o visual e aproveitar o poder do Python, adicionando parâmetros ao comando de plotagem.
+1. Em **Cole ou digite seu código de script aqui**, insira este código:
 
-    O comando original de plotagem era o seguinte:
+   ```python
+   import matplotlib.pyplot as plt 
+   dataset.plot(kind='scatter', x='Age', y='Weight', color='red')
+   plt.show() 
+   ```  
+   O painel do editor de script do Python agora deve ser assim:
 
-    plt.matshow(dataset.corr('pearson'))
+   ![](media/desktop-python-visuals/python-visuals-11.png)
 
-    Com algumas alterações ao script Python, o comando agora é o seguinte:
+   A biblioteca **matplotlib** é importada para plotar e criar nossos visuais.
 
-    plt.matshow(dataset.corr('kendall'))
+1. Quando você seleciona o botão de script **Executar**, o seguinte gráfico de dispersão é gerado na imagem visual do Python do espaço reservado.
 
-    Como resultado, o visual do Python agora plota usando o coeficiente de correlação Kendall Tau, conforme mostrado na imagem a seguir.
+   ![](media/desktop-python-visuals/python-visuals-12.png)
 
-    ![](media/desktop-python-visuals/python-visuals-7.png)
+## <a name="create-a-line-plot-with-multiple-columns"></a>Criar um gráfico de linhas com várias colunas
 
-    Ao executar um script Python que resulta em um erro, o visual do Python não é plotado e uma mensagem de erro é exibida na tela. Para obter detalhes sobre o erro, selecione **Ver detalhes** no erro do visual do Python na tela.
+ Vamos criar um gráfico de linhas para cada pessoa mostrando seu número de filhos e animais de estimação. Remova ou comente o código em **Colar ou digitar seu código de script aqui** e insira este código Python:
 
-    ![](media/desktop-python-visuals/python-visuals-8.png)
+ ```python
+ import matplotlib.pyplot as plt 
+ax = plt.gca() 
+dataset.plot(kind='line',x='Fname',y='Children',ax=ax) 
+dataset.plot(kind='line',x='Fname',y='Pets', color='red', ax=ax) 
+plt.show() 
+```
+Quando você seleciona o botão de script **Executar**, o seguinte gráfico de linhas com várias colunas é gerado.
 
-    > **Segurança de scripts do Python:** os visuais do Python são criados com base em scripts Python, que podem conter códigos com riscos de segurança ou privacidade. Ao tentar exibir ou interagir com um visual do Python pela primeira vez, o usuário recebe uma mensagem de aviso de segurança. Habilite visuais do Python somente se você confiar no autor e na fonte ou após examinar e compreender o script Python.
-    > 
-    > 
+![](media/desktop-python-visuals/python-visuals-13.png) 
+
+## <a name="create-a-bar-plot"></a>Criar um gráfico de barras
+
+Vamos criar um gráfico de barras para a idade de cada pessoa. Remova ou comente o código em **Colar ou digitar seu código de script aqui** e insira este código Python:
+
+```python
+import matplotlib.pyplot as plt 
+dataset.plot(kind='bar',x='Fname',y='Age') 
+plt.show() 
+```
+
+Quando você seleciona o botão de script **Executar**, o gráfico de barras a seguir gera:
+
+![](media/desktop-python-visuals/python-visuals-14.png) 
+
+## <a name="security"></a>Segurança
+
+> [!IMPORTANT] 
+  > **Segurança de scripts do Python:** os visuais do Python são criados com base em scripts Python, que podem conter códigos com riscos de segurança ou privacidade. Ao tentar exibir ou interagir com um visual do Python pela primeira vez, o usuário recebe uma mensagem de aviso de segurança. Habilite visuais do Python somente se você confiar no autor e na fonte ou após examinar e compreender o script Python. 
+  >  
+
+## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Mais informações sobre a plotagem com Matprolib, Pandas e Python
+
+Este tutorial foi criado para ajudá-lo a começar a criar visuais com o Python no **Power BI Desktop**. Isso mal toca a superfície das muitas opções e funcionalidades para criar relatórios visuais usando Python, Pandas e a biblioteca Matprolib. Há muito mais informações por aí e aqui estão alguns links para você começar.
+
+* Documentação no site do [Matplotlib](https://matplotlib.org/). 
+* [Tutorial do Matplotlib: um guia básico para usar o Matplotlib com Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
+* [Tutorial do Matplotlib – biblioteca Matplotlib do Python com exemplos](https://www.edureka.co/blog/python-matplotlib-tutorial/) 
+* [Referência da API do Pandas](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
+* [Visualizações do Python no Serviço Power BI](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
+* [Usando visuais do Python no Power BI ](https://www.absentdata.com/how-to-user-python-and-power-bi/)
+
 
 ## <a name="known-limitations"></a>Limitações conhecidas
+
 Os visuais do Python no **Power BI Desktop** apresentam algumas limitações:
 
 * Limitações de tamanho de dados – os dados usados pelo visual do Python para plotar são limitados a 150 mil linhas. Se mais de 150.000 linhas forem selecionadas, somente as primeiras 150.000 linhas serão usadas e uma mensagem será exibida na imagem.
@@ -122,8 +175,9 @@ Os visuais do Python no **Power BI Desktop** apresentam algumas limitações:
 * Somente plotagens realizadas no dispositivo de vídeo padrão do Python são exibidos corretamente na tela. Evite o uso explícito de um dispositivo de vídeo diferente do Python.
 
 ## <a name="next-steps"></a>Próximas etapas
+
 Dê uma olhada nas informações adicionais a seguir sobre o Python no Power BI.
 
-* [Como executar de scripts do Python no Power BI Desktop](desktop-python-scripts.md)
+* [Executar scripts do Python no Power BI Desktop](desktop-python-scripts.md)
 * [Usar um IDE do Python externo com o Power BI](desktop-python-ide.md)
 

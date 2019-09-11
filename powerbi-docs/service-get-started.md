@@ -4,61 +4,49 @@ description: Introdução ao serviço online do Power BI (app.powerbi.com)
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
-featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 08/06/2019
+ms.topic: tutorial
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 007819ead82f558efa8179a49dfba9454558dfbb
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995195"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751399"
 ---
-# <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço do Power BI (app.powerbi.com)
-Esse tutorial ajuda você a começar a usar o *serviço do Power BI*. Para compreender como o serviço do Power BI se adapta às outras ofertas do Power BI, recomendamos que você comece lendo [O que o é Power BI](power-bi-overview.md).
+# <a name="tutorial-get-started-with-the-power-bi-service"></a>Tutorial: Introdução ao serviço do Power BI
+Este tutorial é uma introdução a alguns dos recursos do *serviço do Power BI*. Nele, você se conecta a dados, cria um relatório e um dashboard e faz perguntas sobre seus dados. Você pode fazer muito mais com o serviço do Power BI, este tutorial é apenas uma prévia para despertar sua curiosidade. Para entender como o serviço do Power BI se adapta às outras ofertas do Power BI, recomendamos que leia [O que é Power BI](power-bi-overview.md).
 
-![Relacionamento entre Power BI Desktop, serviço e dispositivo móvel](media/service-get-started/power-bi-components.png)
+![Página inicial do serviço do Power BI](media/service-get-started/power-bi-service-get-started-home.png)
 
 Neste tutorial, você concluirá as etapas a seguir:
 
 > [!div class="checklist"]
-> * Localizar conteúdo de introdução para o serviço do Power BI.
-> * Entrar em sua conta online do Power BI ou inscrever-se, caso ainda não tenha uma.
+> * Entrar em sua conta online do Power BI ou inscrever-se, caso ainda não tenha uma conta.
 > * Abrir o serviço do Power BI.
 > * Obter alguns dados e abra-os no modo de exibição de relatório.
 > * Usar esses dados para criar visualizações e salvar como um relatório.
 > * Criar um dashboard fixando blocos do relatório.
-> * Adicionar outra visualização ao seu dashboard usando a ferramenta de linguagem natural de P e R.
+> * Adicionar outras visualizações ao seu dashboard usando a ferramenta de linguagem natural de P e R.
+> * Redimensionar, reorganizar e interagir com os blocos do dashboard.
 > * Limpar os recursos excluindo o conjunto de dados, o relatório e o dashboard.
+
+> [!TIP]
+> Prefere um curso de treinamento gratuito baseado no seu ritmo? [Registre-se em nosso curso Analisando e visualizando dados no EdX](http://aka.ms/edxpbi).
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Inscreva-se no serviço do Power BI
 Se você não tiver uma conta do Power BI, [inscreva-se para uma avaliação gratuita do Power BI Pro](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
 Depois de ter uma conta, insira *app.powerbi.com* no navegador para abrir o serviço do Power BI. 
 
-Se estiver procurando ajuda com o Power BI Desktop, veja [Introdução ao Power BI Desktop](desktop-getting-started.md). Se você estiver procurando ajuda para o Power BI para Celulares, consulte [Aplicativos Power BI para dispositivos móveis](consumer/mobile/mobile-apps-for-mobile-devices.md).
-
-> [!TIP]
-> Prefere um curso de treinamento gratuito baseado no seu ritmo? [Registre-se em nosso curso Analisando e visualizando dados no EdX](http://aka.ms/edxpbi).
-
-Visite nossa [playlist no YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP). Um bom vídeo para começar é a *Introdução ao serviço do Power BI*:
-> 
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
-> 
-
-## <a name="what-is-the-power-bi-service"></a>O que é o serviço do Power BI?
-Às vezes, o serviço do Microsoft Power BI é chamado de Power BI online ou app.powerbi.com. O Power BI ajuda você a manter-se atualizado com relação às informações importantes. Os *dashboards* do serviço do Power BI ajudam a controlar o ritmo de sua empresa com um clique. Seus dashboards exibem *blocos* que você pode selecionar para abrir *relatórios* e explorar mais detalhadamente. Conecte-se a vários *conjuntos de dados* para reunir todos os dados relevantes em um único lugar. Precisa de ajuda para compreender os blocos de construção que compõem o Power BI? Confira [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md).
-
-Se você tiver dados importantes em arquivos do Excel ou CSV, é possível criar um painel do Power BI para se manter informado em qualquer lugar e compartilhar informações com outras pessoas.  Você tem uma assinatura de um aplicativo SaaS como o Salesforce?  Comece conectando-se ao Salesforce para criar um dashboard automaticamente com base nesses dados ou [confira todos os outros aplicativos SaaS](service-get-data.md) aos quais você pode se conectar. Se você faz parte de uma organização, veja se algum [aplicativo](service-create-distribute-apps.md) foi publicado para você.
-
-Leia sobre todas as outras maneiras de [obter dados para o Power BI](service-get-data.md).
-
 ## <a name="step-1-get-data"></a>Etapa 1: Obter dados
-Veja um exemplo de como obter dados de um arquivo CSV. Deseja acompanhar este tutorial? [Baixar o arquivo CSV do Exemplo Financeiro](http://go.microsoft.com/fwlink/?LinkID=521962).
+
+Geralmente, quando queremos criar um relatório do Power BI, começamos no Power BI Desktop. Desta vez, vamos começar do zero criando um relatório no serviço do Power BI.
+
+Neste tutorial, obtemos os dados de um arquivo CSV. Quer me acompanhar? [Baixar o arquivo CSV do Exemplo Financeiro](http://go.microsoft.com/fwlink/?LinkID=521962).
 
 1. [Entre no Power BI](http://www.powerbi.com/). Não tem uma conta? Não se preocupe, você pode se inscrever para uma avaliação gratuita.
 2. O Power BI abre no seu navegador. Selecione **Obter dados** na parte inferior da barra de navegação esquerda.
@@ -70,52 +58,48 @@ Veja um exemplo de como obter dados de um arquivo CSV. Deseja acompanhar este tu
    ![Obter arquivos](media/service-get-started/gs1.png)
 4.  Selecionar **Arquivo local**.
    
-     ![Tela Obter dados > Arquivos](media/service-get-started/gs2.png)
+    ![Tela Obter dados > Arquivos](media/service-get-started/power-bi-service-get-data-local-file.png)
 
 5. Navegue até o arquivo no seu computador e escolha **Abrir**.
 
-5. Para este tutorial, vamos selecionar **Importar** para adicionar o arquivo do Excel como um conjunto de dados para que possamos usá-lo para criar relatórios e dashboards. Se você selecionar **Carregar**, a pasta de trabalho inteira será carregada no Power BI e você poderá abri-la e editá-la no Excel online.
+5. Para este tutorial, selecionaremos **Importar** para adicionar o arquivo do Excel como um conjunto de dados, de modo que possamos usá-lo para criar relatórios e dashboards. Se você selecionar **Carregar**, a pasta de trabalho inteira será carregada no Power BI e você poderá abri-la e editá-la no Excel online.
    
    ![Escolher importação](media/service-get-started/power-bi-import.png)
-6. Quando seu conjunto de dados estiver pronto, selecione **Exibir conjunto de dados** para abri-lo no editor de relatório. 
+6. Quando seu conjunto de dados estiver pronto, selecione **Conjuntos de dados** e, em seguida, **Criar relatório**, ao lado do **Exemplo financeiro** do conjunto de dados, para abrir o editor de relatórios. 
 
-    ![Caixa de diálogo Seu conjunto de dados está pronto](media/service-get-started/power-bi-gs.png)
+    ![Lista de conjuntos de dados](media/service-get-started/power-bi-service-datasets.png)
 
-    Já que ainda não foi criada nenhuma visualização, a tela de relatório está em branco.
+    A tela do relatório está em 	branco. Do lado direito estão os painéis **Filtros**, **Visualizações** e **Campos**.
 
-    ![Tela de relatório em branco](media/service-get-started/power-bi-report-editor.png)
+    ![Tela de relatório em branco](media/service-get-started/power-bi-service-blank-report.png)
 
-7. Observe que há uma opção para **Exibição de leitura** na barra de navegação superior. Porque você tem essa opção, isso significa que você está atualmente no modo de exibição de Edição. 
+7. Observe que há uma opção para **Exibição de leitura** na barra de navegação superior. Porque você tem essa opção, isso significa que você está atualmente no modo de exibição de Edição. Uma ótima maneira de se familiarizar com o editor de relatório é [fazer um tour](service-the-report-editor-take-a-tour.md).
 
-    ![Opção Modo de exibição de leitura](media/service-get-started/power-bi-editing-view.png)
+    ![Opção Modo de exibição de leitura](media/service-get-started/power-bi-service-reading-view.png)
 
     Enquanto estiver no Modo de Exibição de Edição, você pode criar e modificar seus relatórios por ser *proprietário* do relatório. Ou seja, você é um *criador*. Quando você compartilha seu relatório com seus colegas, eles podem apenas interagir com o relatório na exibição de Leitura. Seus colegas são *consumidores*. Saiba mais sobre os [Modos de Exibição de Leitura e de Edição](consumer/end-user-reading-view.md).
-    
-    Uma ótima maneira de se familiarizar com o editor de relatório é [fazer um tour](service-the-report-editor-take-a-tour.md).
- 
 
-## <a name="step-2-start-exploring-your-dataset"></a>Etapa 2: Começar a explorar o seu conjunto de dados
+
+## <a name="step-2-create-a-chart-in-a-report"></a>Etapa 2: Criar um gráfico em um relatório
 Agora que você se conectou aos dados, comece a explorar.  Quando encontrar algo interessante, você pode criar um dashboard para monitorá-lo e ver como ele é alterado ao longo do tempo. Vamos ver como isso funciona.
     
-1. No editor de relatórios, usaremos o painel **Campos** no lado direito da página para criar uma visualização. Marque as caixas de seleção **Vendas brutas** e **Data**.
+1. No editor de relatórios, começamos no painel **Campos**, do lado direito da página, para criar uma visualização. Marque as caixas de seleção **Vendas brutas** e **Data**.
    
-   ![Lista de campos](media/service-get-started/fields.png)
+   ![Lista de campos](media/service-get-started/power-bi-service-fields-pane-selected.png)
 
-    O Power BI analisa os dados e cria um elemento de visualização. Se você selecionou **Data** primeiro, você verá uma tabela. Se você selecionou **Vendas Brutas** primeiro, verá um gráfico. 
+    O Power BI analisa os dados e cria um elemento de visualização. Se você selecionou **Data** primeiro, você verá uma tabela. Se você selecionou **Vendas Brutas** primeiro, verá um gráfico de colunas. 
 
 2. Alterne para uma forma diferente de exibição dos dados. Vamos ver esses dados como um gráfico de linhas. Selecione o ícone de gráfico de linha do painel **Visualizações**.
    
-   ![Editor de relatório com o gráfico de linhas selecionado](media/service-get-started/gettingstart5new.png)
+   ![Editor de relatório com o gráfico de linhas selecionado](media/service-get-started/power-bi-service-select-line-chart.png)
 
 3. Este gráfico parece interessante, então vamos *fixá-lo* em um dashboard. Focalize a visualização e selecione o ícone de alfinete. Quando fixar essa visualização, ela será armazenada em seu dashboard e mantida atualizada para que você possa acompanhar rapidamente o valor mais recente.
    
-   ![Ícone de Fixar](media/service-get-started/pinnew.png)
+   ![Ícone de Fixar](media/service-get-started/power-bi-service-pin-visual.png)
 
-4. Como esse relatório é novo, você é solicitado a salvá-lo antes de fixar uma visualização no dashboard. Dê um nome ao seu relatório (por exemplo, *Vendas ao longo do tempo*) e selecione **Salvar e continuar**. 
-   
-   ![Caixa de diálogo Salvar relatório](media/service-get-started/pbi_getstartsaveb4pinnew.png)
-   
-5. Fixe o gráfico de linha ao novo dashboard e dê a ele o nome de *Exemplo financeiro para tutorial*. 
+4. Como esse relatório é novo, você é solicitado a salvá-lo antes de fixar uma visualização no dashboard. Dê um nome ao seu relatório (por exemplo, *Vendas ao longo do tempo*) e selecione **Salvar**. 
+
+5. Selecione **Novo dashboard** e dê a ele o nome *Exemplo financeiro para tutorial*. 
    
    ![Dê um nome ao relatório](media/service-get-started/power-bi-pin.png)
    
@@ -125,40 +109,106 @@ Agora que você se conectou aos dados, comece a explorar.  Quando encontrar algo
    
     ![Caixa de diálogo Fixado ao dashboard](media/service-get-started/power-bi-pin-success.png)
 
-7. Selecione **Ir para dashboard** para ver o gráfico de linha que você fixou como um bloco a seu novo dashboard. Melhore ainda mais a aparência do seu dashboard adicionando mais blocos de visualização e [renomeando, redimensionando, vinculando e reposicionando seus blocos](service-dashboard-edit-tile.md).
+7. Selecione **Ir para o dashboard** para ver o novo dashboard com o gráfico de linhas que você fixou nele como um bloco. 
    
-   ![Dashboard com visualização fixada](media/service-get-started/power-bi-new-dashboard.png)
+   ![Dashboard com visualização fixada](media/service-get-started/power-bi-service-dashboard-tile.png)
    
-8. Selecione o novo bloco em seu dashboard para retornar ao relatório. O Power BI o leva de volta para o editor de relatório no Modo de Exibição de Leitura. Para voltar ao Modo de Exibição de Edição, selecione **Editar relatório** na barra de navegação superior. Quando você estiver na exibição Editar, você pode continuar a explorar e fixar blocos. 
+8. Selecione o novo bloco em seu dashboard para retornar ao relatório. O Power BI o leva de volta ao relatório no Modo de Exibição de Leitura. 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Etapa 3:  Continuar a exploração com P e R (consulta em linguagem natural)
-1. Para explorar seus dados rapidamente, faça uma pergunta na caixa P e R. A caixa de pergunta de P e R está localizada na parte superior do dashboard (**Fazer uma pergunta sobre seus dados**) e na barra de navegação superior do seu relatório (**Fazer uma pergunta**). Por exemplo, digite *qual segmento tinha mais receita* na caixa P e R.
-   
-   ![Telas de P e R](media/service-get-started/powerbi-qna.png)
+1. Para voltar ao Modo de Exibição de Edição, selecione as reticências (...) > **Editar**, na barra de navegação superior. De volta ao Modo de Exibição de Edição você pode continuar a explorar e fixar blocos.
 
-2. O P e R pesquisa uma resposta e a apresenta na forma de visualização. Selecione o ícone fixar ![Ícone de Fixar](media/service-get-started/pbi_pinicon.png) para mostrar esta visualização em seu dashboard.
-3. Fixe a visualização no dashboard **Exemplo financeiro para tutorial**.
-   
-    ![Caixa de diálogo Fixar no dashboard](media/service-get-started/power-bi-pin2.png)
+    ![Selecione Editar para editar o relatório](media/service-get-started/power-bi-service-edit-report.png)
 
-4. Volte ao seu dashboard, no qual você vê o novo bloco.
+## <a name="step-3-explore-with-qa"></a>Etapa 3: Explorar com P e R
 
-   ![Dashboard com gráfico fixado](media/service-get-started/power-bi-final-dashboard.png)
+Para explorar seus dados rapidamente, tente fazer uma pergunta na caixa de P e R. As P e R criam consultas de linguagem natural sobre seus dados. Em um dashboard, a caixa de P e R fica na parte superior (**Faça uma pergunta sobre seus dados**). Em um relatório, ela fica na barra de navegação superior (**Faça uma pergunta**).
+
+1. Para voltar ao dashboard, selecione **Meu workspace** na barra preta do **Power BI**.
+
+    ![Voltar para Meu workspace](media/service-get-started/power-bi-service-go-my-workspace.png)
+
+1. Na guia **Dashboards**, selecione o seu dashboard.
+
+    ![Selecione o seu dashboard](media/service-get-started/power-bi-service-dashboard-tab.png)
+
+1. Selecione **Fazer uma pergunta sobre seus dados**. As P e R oferecem automaticamente uma série de sugestões.
+
+    ![Telas de P e R](media/service-get-started/power-bi-service-new-qanda.png)
+
+    > [!NOTE]
+    > Se as sugestões não forem exibidas, ative a opção **Nova experiência de P e R**.
+
+2. Algumas das sugestões retornam um único valor. Por exemplo, selecione **venda máxima**.
+
+    As P e R pesquisam uma resposta e a apresentam na forma de visualização de *cartão*.
+
+    ![Cartão de venda máxima](media/service-get-started/power-bi-service-qanda-maximum-sale.png)
+
+3. Selecione o ícone fixar ![Ícone de Fixar](media/service-get-started/pbi_pinicon.png) para mostrar essa visualização no dashboard Exemplo financeiro para tutorial.
+
+1. Role para baixo na lista **Perguntas para começar** e selecione **média de cog em cada mês**. 
+
+    ![Média de COG em cada mês](media/service-get-started/power-bi-service-qanda-average-cog.png)
+
+1. Fixe o gráfico de barras no dashboard **Exemplo financeiro para tutorial**, também.
+
+1. Coloque o cursor depois de *por mês*, no caixa P e R e digite *como linha*. Selecione **linha (Tipo de visualização)** . 
+
+    ![Visualização de gráfico como linha](media/service-get-started/power-bi-service-qanda-as-line.png)
+
+4. Selecione **Sair de P e R** para retornar ao dashboard, no qual você verá os novos blocos criados. 
+
+   ![Dashboard com gráfico fixado](media/service-get-started/power-bi-service-dashboard-qna.png)
+
+   Observe que, embora você tenha alterado o gráfico para um gráfico de linhas, o bloco permaneceu como gráfico de barras porque estava assim quando foi fixado. 
+
+## <a name="step-4-reposition-tiles"></a>Etapa 4: Reposicionar blocos
+
+O dashboard é amplo. Podemos reorganizar os blocos para fazer melhor uso do espaço do dashboard.
+
+1. Arraste o canto inferior direito do bloco do gráfico de linhas *Vendas brutas* para cima, até que ele se ajuste na mesma altura que o bloco Vendas e, em seguida, solte-o.
+
+    ![Redimensionar o bloco](media/service-get-started/power-bi-service-resize-tile.png)
+
+    Agora, os dois blocos têm a mesma altura.
+
+    ![Bloco redimensionado](media/service-get-started/power-bi-service-resized-tile.png)
+
+1. Arraste o bloco do gráfico de barras *Média de COGS* até que se ajuste abaixo do gráfico de linhas *Vendas brutas*.
+
+    Ficou bem melhor.
+
+    ![Dashboard reorganizado](media/service-get-started/power-bi-service-rearranged-dashboard.png)
+
+## <a name="step-5-interact-with-tiles"></a>Etapa 5: Interagir com os blocos
+
+Aqui está uma última interação a observar, antes de começar a criar seus próprios dashboards e relatórios. Selecionar os blocos diferentes fornece resultados diferentes. 
+
+1. Primeiro, selecione o bloco do gráfico de linhas *Vendas brutas* fixado do relatório. 
+
+    O Power BI abre o relatório no Modo de Exibição de Leitura. 
+
+2. Selecione o botão voltar do navegador. 
+
+1. Agora, selecione o bloco do gráfico de barras *Média de COGS* que você criou em P e R. 
+
+    O Power BI não abre o relatório. Em vez disso, sãos as P e R que o abrem, pois você criou esse gráfico lá.
+
 
 ## <a name="clean-up-resources"></a>Limpar recursos
 Agora que você já concluiu o tutorial, é possível excluir o conjunto de dados, o relatório e o dashboard. 
 
-1. Na barra de navegação esquerda, selecione **Meu workspace**.
+1. Na barra de navegação à esquerda, verifique se você está no **Meu workspace**.
 2. Selecione a guia **Conjuntos de dados** e localize o conjunto de dados importado para este tutorial.  
 3. Selecione as reticências (…) > **Excluir**.
 
-    ![Exclua o conjunto de dados](media/service-get-started/power-bi-delete.jpg)
+    ![Exclua o conjunto de dados](media/service-get-started/power-bi-service-delete-dataset.png)
 
-    Quando você exclui o conjunto de relatórios, o Power BI também exclui o relatório e o dashboard. 
+    Ao excluir o conjunto de dados, você verá o aviso **Todos os relatórios e blocos de dashboard que contêm dados desse conjunto de dados também serão excluídos**.
 
+4. Selecione **Excluir**.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-> [!div class="nextstepaction"]
-> [Conectar-se aos serviços online que você usa com o Power BI](service-connect-to-services.md)
+Melhore ainda mais a aparência dos dashboards adicionando mais blocos de visualização e [renomeando, redimensionando, vinculando e reposicionando os blocos existentes](service-dashboard-edit-tile.md).
 

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159962"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302651"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Fontes de dados com suporte do DirectQuery no Power BI
 
@@ -29,14 +29,16 @@ As seguintes fontes de dados dão suporte ao DirectQuery no Power BI:
 * Azure HDInsight Spark
 * [Banco de dados SQL do Azure](service-azure-sql-database-with-direct-connect.md)
 * [SQL Data Warehouse do Azure](service-azure-sql-data-warehouse-with-direct-connect.md)
+* Denodo
 * Google BigQuery
 * Consulta Interativa do HDInsight
-* Banco de dados IBM DB2
+* IBM DB2 (Provedor Microsoft))
 * IBM Netezza
 * Impala (versão 2.x)
 * MarkLogic
 * Banco de Dados Oracle (versão 12 e posterior)
 * Oracle Essbase
+* PostgreSQL
 * Servidor de Aplicativos SAP Business Warehouse
 * Servidor de Mensagens SAP Business Warehouse
 * SAP HANA
@@ -65,15 +67,24 @@ A tabela a seguir especifica se um **Gateway de dados local** é necessário par
 | SQL Data Warehouse do Azure |Não |
 | Google BigQuery |Não |
 | IBM Netezza |Sim |
+| IBM DB2 (Provedor IBM) |Sim |
+| IBM DB2 (Provedor Microsoft) |Não |
+| Banco de Dados do IBM Informix |Não |
 | Impala (versão 2.x) |Sim |
+| MySQL |Sim |
+| ODBC |Sim |
 | Banco de dados Oracle |Sim |
+| PostgreSQL |Sim |
 | Servidor de Aplicativos SAP Business Warehouse |Sim |
 | Servidor de Mensagens SAP Business Warehouse |Ainda não tem suporte no **serviço do Power BI** |
 | SAP HANA |Sim |
 | Snowflake |Sim |
 | Spark (beta), versão 0.9 e posterior |Sim |
 | SQL Server |Sim |
+| Sybase |Sim |
 | Banco de dados Teradata |Sim |
+| Vertica |Sim |
+
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>SSO (logon único) para fontes do DirectQuery
 

@@ -1,6 +1,6 @@
 ---
-title: Renderização de eventos
-description: Os visuais do Power BI podem notificar o Power BI que estão prontos para exportar para o Power Point/PDF
+title: Renderizar eventos em visuais do Power BI
+description: Os visuais do Power BI podem notificar o Power BI que estão prontos para exportar para o PowerPoint ou para PDF.
 author: Yarovinsky
 ms.author: alexyar
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 46166b3503a770e033b98474fcf9240235296cc2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425081"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237154"
 ---
-# <a name="event-service"></a>Serviço de eventos
+# <a name="render-events-in-power-bi-visuals"></a>Renderizar eventos em visuais do Power BI
 
-A nova API consiste em três métodos (iniciado, concluído ou com falha) que devem ser chamados durante a renderização.
+A nova API consiste em três métodos (`started`, `finished` ou `failed`) que devem ser chamados durante a renderização.
 
-Quando a renderização é iniciada, o código do visual personalizado chama o método renderingStarted para indicar que o processo de renderização foi iniciado.
+Quando a renderização é iniciada, o código do visual do Power BI chama o método `renderingStarted` para indicar que o processo de renderização foi iniciado.
 
-Se a renderização for concluída com êxito, o código do Visual personalizado chamará imediatamente o método `renderingFinished`, notificando os ouvintes (**principalmente 'Exportar para PDF' e 'Exportar para o PowerPoint'** ) que a imagem do visual está pronta.
+Se a renderização for concluída com êxito, o código do visual do Power BI chamará imediatamente o método `renderingFinished`, notificando os ouvintes (principalmente *Exportar para PDF* e *Exportar para o PowerPoint*) de que a imagem do visual está pronta para a exportação.
 
-Caso tenha ocorrido um problema durante o processo de renderização, impedindo que o Visual personalizado seja concluído com êxito, o código Visual personalizado deve chamar o método `renderingFailed`, notificando o ouvinte de que o processo de renderização não foi concluído. Esse método também fornece uma cadeia de caracteres opcional para a causa da falha.
+Se ocorrer um problema durante o processo, o visual do Power BI não poderá ser renderizado com êxito. Para notificar os ouvintes de que o processo de renderização não foi concluído, o código do visual do Power BI visual deve chamar o método `renderingFailed`. Esse método também fornece uma cadeia de caracteres opcional para informar um motivo para a falha.
 
 ## <a name="usage"></a>Uso
 
@@ -38,31 +38,31 @@ export interface IVisualHost extends extensibility.IVisualHost {
  */
 export interface IVisualEventService {
     /**
-     * Should be called just before the actual rendering was started. 
-     * Usually at the very start of the update method.
+     * Should be called just before the actual rendering starts, 
+     * usually at the start of the update method
      *
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingStarted(options: VisualUpdateOptions): void;
 
     /**
-     * Shoudl be called immediately after finishing successfull rendering.
+     * Should be called immediately after rendering finishes successfully
      * 
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingFinished(options: VisualUpdateOptions): void;
 
     /**
-     * Called when rendering failed with optional reason string
+     * Called when rendering fails, with an optional reason string
      * 
-     * @param options - the visual update options received as update parameter
-     * @param reason - the option failure reason string
+     * @param options - the visual update options received as an update parameter
+     * @param reason - the optional failure reason string
      */
     renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
 
-### <a name="simple-sample-the-visual-hasnt-any-animations-on-rendering"></a>Exemplo simples. O Visual não tem nenhuma animação na renderização
+### <a name="sample-the-visual-displays-no-animations"></a>Exemplo: O visual não exibe animações
 
 ```typescript
     export class Visual implements IVisual {
@@ -83,7 +83,7 @@ export interface IVisualEventService {
         }
 ```
 
-### <a name="sample-the-visual-with-animation"></a>Exemplo. O visual com animação
+### <a name="sample-the-visual-displays-animations"></a>Exemplo: O visual exibe animações
 
 Se o visual tiver animações ou funções assíncronas para renderização, o método `renderingFinished` deverá ser chamado após a animação ou dentro da função assíncrona.
 
@@ -104,7 +104,7 @@ Se o visual tiver animações ou funções assíncronas para renderização, o m
         public update(options: VisualUpdateOptions) {
             this.events.renderingStarted(options);
             ...
-            // read more https://github.com/d3/d3-transition/blob/master/README.md#transition_end
+            // Learn more at https://github.com/d3/d3-transition/blob/master/README.md#transition_end
             d3.select(this.element).transition().duration(100).style("opacity","0").end().then(() => {
                 // renderingFinished called after transition end
                 this.events.renderingFinished(options);
@@ -114,4 +114,4 @@ Se o visual tiver animações ou funções assíncronas para renderização, o m
 
 ## <a name="rendering-events-for-visual-certification"></a>Renderizar eventos para a certificação de visuais
 
-O suporte à renderização de eventos pelo visual é um dos requisitos da certificação de visuais. Leia mais sobre os [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)
+Um requisito da certificação de visuais é o suporte para renderizar eventos pelo visual. Para obter mais informações, confira [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements).

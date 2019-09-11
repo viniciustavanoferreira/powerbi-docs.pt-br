@@ -1,5 +1,5 @@
 ---
-title: Criação de um certificado SSL
+title: Criar um certificado SSL
 description: Instruções de solução alternativa para criar certificados manualmente para o servidor do desenvolvedor
 author: zBritva
 ms.author: v-ilgali
@@ -9,127 +9,128 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 3287e8a7eb1c36c3f0d8a1fc24faa0442de2dddf
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 13926603d7a5bfee987439180151d64ef5c456c2
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425426"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237260"
 ---
-# <a name="creating-ssl-certificate"></a>Criação de um certificado SSL
+# <a name="create-an-ssl-certificate"></a>Criar um certificado SSL
 
-Execute o comando a seguir para gerar o certificado usando o cmdlet New-SelfSignedCertificate do PowerShell no Windows 8 ou posterior.
+Este artigo descreve como criar um certificado SSL.
 
-A ferramenta requer a instalação do OpenSSL para o **Windows** **7**. O utilitário `openssll` precisa estar disponível na linha de comando.
-
-Para instalar o OpenSSL, visite [https://www.openssl.org](https://www.openssl.org) ou [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
+Para gerar o certificado usando o cmdlet `New-SelfSignedCertificate` do PowerShell no Windows 8 ou posterior, execute o seguinte comando:
 
 ```cmd
 pbiviz --create-cert
 ```
 
-## <a name="create-certificate-mac-os-x"></a>Criar certificado (Mac OS X)
+A ferramenta requer a instalação do OpenSSL para o Windows 7. O utilitário OpenSSL deve estar disponível na linha de comando.
 
-Geralmente, o utilitário OpenSSL está disponível em sistemas operacionais Linux ou Mac OS X.
+Para instalar o OpenSSL, acesse o site [OpenSSL](https://www.openssl.org) ou [Binários do OpenSSL](https://wiki.openssl.org/index.php/Binaries).
 
-Caso contrário, você pode instalar do
 
-gerenciador de pacotes *Brew*
 
-```cmd
-brew install openssl
-brew link openssl --force
-```
+## <a name="create-a-certificate-mac-os-x"></a>Criar um certificado (Mac OS X)
 
-ou usando o *MacPorts*
+Normalmente, o utilitário OpenSSL está disponível no sistema operacional Linux ou Mac OS X.
 
-```cmd
-sudo port install openssl
-```
+Você também pode instalar o utilitário executando um dos seguintes comandos:
+* Do gerenciador de pacotes do *Brew*:
 
-Após a instalação OpenSSL para gerar uma nova chamada de certificado:
+    ```cmd
+    brew install openssl
+    brew link openssl --force
+    ```
 
-```cmd
-pbiviz --create-cert
-```
+* Usando *MacPorts*:
 
-## <a name="create-certificate-linux"></a>Criar certificado (Linux)
+    ```cmd
+    sudo port install openssl
+    ```
 
-Os utilitários OpenSSL não estão disponíveis no seu sistema operacional Linux, você pode instalá-los usando os comandos a seguir.
-
-Para o gerenciador de pacotes *APT*:
-
-```cmd
-sudo apt-get install openssl
-```
-
-Para o *Yellowdog Updater*:
-
-```cmd
-yum install openssl
-```
-
-Para o *Redhat Package Manager*:
-
-```cmd
-rpm install openssl
-```
-
-Se o OpenSSL já estiver disponível em sua chamada do sistema operacional
+Depois de instalar o utilitário OpenSSL para gerar um novo certificado, execute o seguinte comando:
 
 ```cmd
 pbiviz --create-cert
 ```
 
-para gerar um novo certificado.
+## <a name="create-a-certificate-linux"></a>Criar um certificado (Linux)
 
-Ou obtenha-o de [https://www.openssl.org](https://www.openssl.org) ou [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
+Se o utilitário OpenSSL não estiver disponível no seu sistema operacional Linux, você poderá instalá-lo usando um dos seguintes comandos:
 
-## <a name="generate-certificate-manually"></a>Gerar certificado manualmente
+* Para o gerenciador de pacotes *APT*:
+
+    ```cmd
+    sudo apt-get install openssl
+    ```
+
+* Para o *Yellowdog Updater*:
+
+    ```cmd
+    yum install openssl
+    ```
+
+* Para o *Redhat Package Manager*:
+
+    ```cmd
+    rpm install openssl
+    ```
+
+Se o utilitário OpenSSL já estiver disponível em seu sistema operacional, gere um novo certificado executando o seguinte comando:
+
+```cmd
+pbiviz --create-cert
+```
+
+Ou você pode obter o utilitário OpenSSL acessando o site [OpenSSL](https://www.openssl.org) ou [Binários do OpenSSL](https://wiki.openssl.org/index.php/Binaries).
+
+## <a name="generate-the-certificate-manually"></a>Gerar o certificado manualmente
 
 Você pode especificar os certificados gerados por quaisquer ferramentas.
 
-Se tiver o OpenSSL instalado em seu sistema, você poderá executar o comando a seguir para gerar um novo certificado
+Se o utilitário OpenSSL já estiver instalado em seu sistema operacional, gere um novo certificado executando os seguintes comandos:
 
 ```cmd
 openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
 ```
 
-Normalmente, os certificados do servidor Web PowerBI-visuals-tools estão localizados em
+Normalmente, você pode encontrar os certificados do servidor Web do PowerBI-visuals-tools executando um dos seguintes:
 
-```cmd
-%appdata%\npm\node_modules\PowerBI-visuals-tools\certs
-```
+* Para a instância global das ferramentas:
 
-para a instância global das ferramentas
+    ```cmd
+    %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
+    ```
 
-ou
+* Para a instância local das ferramentas:
 
-```cmd
-<custom visual project root>\node_modules\PowerBI-visuals-tools\certs
-```
+    ```cmd
+    <custom visual project root>\node_modules\PowerBI-visuals-tools\certs
+    ```
 
-para a instância local das ferramentas.
+Se você usar o formato PEM, salve o arquivo de certificado como *PowerBICustomVisualTest_public.crt* e salve privateKey como *PowerBICustomVisualTest_public.key*.
 
-Você deverá salvar o arquivo de certificado como `PowerBICustomVisualTest_public.cer` e a chave privada como `PowerBICustomVisualTest_public.key` se você usa o formato PEM.
-Salve o arquivo de certificado como `PowerBICustomVisualTest_public.pfx` se você usa o formato PFX.
+Se você usar o formato PFX, salve o arquivo de certificado como *PowerBICustomVisualTest_public.pfx*.
 
-Se o arquivo de certificado PFX exigir uma senha, você deverá especificá-la em
+Se o arquivo de certificado PFX exigir uma senha, faça o seguinte:
+1. No arquivo de configuração, especifique:
 
-```cmd
-\PowerBI-visuals-tools\config.json
-```
+    ```cmd
+    \PowerBI-visuals-tools\config.json
+    ```
 
-na seção do servidor:
+1. Na seção `server`, especifique a senha substituindo o espaço reservado "*SUA FRASE SECRETA*":
 
-```cmd
-"server":{
-    "root":"webRoot",
-    "assetsRoute":"/assets",
-    "privateKey":"certs/PowerBICustomVisualTest_private.key",
-    "certificate":"certs/PowerBICustomVisualTest_public.crt",
-    "pfx":"certs/PowerBICustomVisualTest_public.pfx",
-    "port":"8080",
-    "passphrase":"YOUR PASSPHRASE"
-}
-```
+    ```cmd
+    "server":{
+        "root":"webRoot",
+        "assetsRoute":"/assets",
+        "privateKey":"certs/PowerBICustomVisualTest_private.key",
+        "certificate":"certs/PowerBICustomVisualTest_public.crt",
+        "pfx":"certs/PowerBICustomVisualTest_public.pfx",
+        "port":"8080",
+        "passphrase":"YOUR PASSPHRASE"
+    }
+    ```

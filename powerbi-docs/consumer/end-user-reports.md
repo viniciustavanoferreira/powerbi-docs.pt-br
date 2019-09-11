@@ -1,30 +1,29 @@
 ---
-title: Exibir um relatório no Power BI
-description: Relatórios no Power BI
+title: Relatórios no serviço do Power BI
+description: Relatórios no serviço do Power BI para consumidores
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532147"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391333"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
 
 Um relatório do Power BI é uma exibição de um conjunto de dados em várias perspectivas, com visuais que representam as diferentes descobertas e informações obtidas por meio desse conjunto de dados.  Um relatório pode ter um único visual ou páginas repletas de visuais. Dependendo da sua função de trabalho, você pode ser alguém que *cria* relatórios. Você também pode ser alguém que *consome* ou usa relatórios.
 
-![Captura de tela de uma página de relatório.](./media/end-user-reports/power-bi-report.png)
+![Captura de tela de uma página de relatório.](./media/end-user-reports/power-bi-reports.png)
 
-Esse relatório tem quatro páginas (ou guias), e você está visualizando a página **Sentimento**. Nesta página estão cinco visuais diferentes e um título de página.
+Esse relatório tem seis páginas (ou guias), e você está visualizando a página **Sentimento**. Nesta página estão cinco visuais diferentes e um título de página. O painel *Filtros* mostra a nós um filtro aplicado a todas as páginas do relatório. Para recolher o painel Filtros, selecione a seta ( **>** ).
 
 Se for novo no Power BI, você poderá obter uma boa base lendo [Conceitos básicos para consumidores do serviço do Power BI](end-user-basic-concepts.md). Os relatórios estão disponíveis para visualização, compartilhamento e anotações em dispositivos móveis. Para obter mais informações, consulte [Explorar relatórios nos aplicativos móveis do Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 
@@ -42,6 +41,8 @@ O Power BI baseia um relatório em um único conjunto de dados. Os *designers* d
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Salvar as alterações ou reverter para as configurações padrão
 
 Isso não significa que não é possível salvar suas alterações. Você pode fazê-lo, mas essas alterações afetam apenas a sua exibição do conteúdo. Para reverter para a exibição padrão original do relatório, selecione **Redefinir para padrão**.
+
+![Captura de tela do ícone Reverter ao padrão.](./media/end-user-reports/power-bi-reset.png)
 
 ## <a name="dashboards-versus-reports"></a>Dashboards versus relatórios
 
@@ -76,6 +77,5 @@ Ou você pode ser um *consumidor*, alguém que recebe os relatórios de outras p
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[O que é o Power BI?](../power-bi-overview.md)
-
-[Conceitos básicos para consumidores do serviço do Power BI](end-user-basic-concepts.md)
+[Abrir e exibir um relatório](end-user-report-open.md)    
+[Dashboards no serviço do Power BI](end-user-dashboards.md)

@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Hiperlinks nas tabelas
               href: power-bi-hyperlinks-in-tables.md
+            - name: Cadeias de formato personalizadas
+              href: desktop-custom-format-strings.md
             - name: Formatação condicional de tabela
               href: desktop-conditional-table-formatting.md
             - name: Formatação condicional de título baseada em expressão
@@ -675,6 +677,8 @@
               href: service-dataflows-linked-entities.md
             - name: Usar a atualização incremental com fluxos de dados
               href: service-dataflows-incremental-refresh.md
+            - name: Práticas recomendadas para fluxos de dados
+              href: service-dataflows-best-practices.md
             - name: Recursos de desenvolvedor para fluxos de dados
               href: service-dataflows-developer-resources.md
             - name: Conectar-se aos fluxos de dados no Power BI Desktop
@@ -715,6 +719,8 @@
               href: service-template-apps-install-distribute.md
             - name: 'Atualizar, excluir e extrair um aplicativo de modelo do Power BI'
               href: service-template-update-delete-extract.md
+            - name: Exemplos de aplicativos de modelo
+              href: service-template-apps-samples.md
         - name: Solucionar problemas
           items:
             - name: Esqueceu sua senha para o Power BI?

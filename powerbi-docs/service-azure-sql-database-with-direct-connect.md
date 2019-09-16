@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 96bf1a8d95f26014be09a32c1e83fb2af90f9fc0
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468087"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70987001"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Banco de Dados SQL do Azure com DirectQuery
 
@@ -27,7 +27,7 @@ Com o DirectQuery, as consultas serão enviadas de volta para o Banco de Dados S
 **Observações:**
 
 * Especifique o nome do servidor totalmente qualificado ao estabelecer a conexão (consulte abaixo para obter mais detalhes).
-* Garanta que as regras de firewall para o banco de dados estejam configuradas para "[Permitir acesso aos serviços do Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)".
+* Garanta que as regras de firewall para o banco de dados estejam configuradas para "[Permitir acesso aos serviços do Azure](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)".
 * Toda ação, como selecionar uma coluna ou adicionar um filtro, enviará uma consulta de volta ao banco de dados.
 * Os blocos são atualizados a cada hora (a atualização não precisa ser agendada). Você pode ajustar a frequência de atualização nas Configurações avançadas quando você se conectar.
 * P e R não estão disponíveis para conjuntos de dados do DirectQuery.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513119"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840953"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obter dados de arquivos de pasta de trabalho do Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -77,8 +77,6 @@ No Excel 2016, também é possível usar Publicar > Exportar. É quase a mesma c
 Ao escolher **Conectar**, sua pasta de trabalho será exibida no Power BI, exatamente como apareceria no Excel Online. Mas, ao contrário do Excel Online, você terá alguns ótimos recursos para ajudá-lo a fixar elementos de suas planilhas diretamente nos dashboards.
 
 Não é possível editar a pasta de trabalho no Power BI. No entanto, se precisar fazer alterações, clique em Editar e escolha a opção para editar a pasta de trabalho no Excel Online ou abri-la no Excel em seu computador. Todas as alterações feitas são salvas na pasta de trabalho no OneDrive.
-
-Ao escolher essa opção, o Power BI criará um conjunto de dados correspondente para a pasta de trabalho conectada. Você pode usar esse conjunto de dados para criar um relatório do Power BI, se necessário. A pasta de trabalho também será exibida no painel de navegação do workspace do Power BI em Relatórios. Pastas de trabalho conectadas têm um ícone especial do Excel.
 
 Escolha esta opção se tiver apenas dados em planilhas ou se desejar fixar intervalos, Tabelas Dinâmicas e gráficos nos dashboards.
 

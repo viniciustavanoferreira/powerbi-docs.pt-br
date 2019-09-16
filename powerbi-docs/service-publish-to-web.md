@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: d18e61343496eef63dee29afae0a9e95fb382848
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497999"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70987014"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web por meio do Power BI
 
@@ -137,7 +137,7 @@ O recurso **Publicar na Web** é compatível com a maioria das fontes de dados e
 - Relatórios que contêm medidas DAX no nível do relatório.
 - Modelos de consulta de dados de logon único.
 - [Informações confidenciais ou proprietárias](#publish-to-web-from-power-bi).
-- O recurso de autenticação automática fornecido com a opção **Inserir** não funciona com a API JavaScript do Power BI. Para a API JavaScript do Power BI, use a abordagem [o usuário possui dados](developer/embed-sample-for-your-organization.md) para inserção. Saiba mais sobre a abordagem [o usuário possui dados](developer/embed-sample-for-your-organization.md).
+- O recurso de autenticação automática fornecido com a opção **Inserir** não funciona com a API JavaScript do Power BI. Para a API JavaScript do Power BI, use a abordagem [o usuário possui dados](developer/embed-sample-for-your-organization.md) para inserção.
 
 ## <a name="tenant-setting"></a>Configuração de locatário
 

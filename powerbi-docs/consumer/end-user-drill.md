@@ -13,10 +13,10 @@ ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 29823a2f1ca7f1448df54282e0ce081310974eb3
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67265660"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo de análise em uma visualização do Power BI
@@ -228,7 +228,7 @@ Além da visualização, é possível ver a hierarquia refletida nos dados rende
 |Modo de expansão|Ano|Trimestre|Mês|Dia|
 | --- |:---:|:---:|:---:|---|
 |Único|![um ano](./media/end-user-drill/power-bi-hierarchical-year.png)|![um trimestre](media/end-user-drill/power-bi-hierarchical-quarter.png)|![um mês](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![um dia](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|Todos|![todos os anos](./media/end-user-drill/power-bi-hierarchical-year.png)|![todos os trimestres](media/end-user-drill/power-bi-hierarchical-quarter.png)|![todos os meses](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![todos os dias](media/end-user-drill/power-bi-hierarchical-all-day.png)|
+|Tudo|![todos os anos](./media/end-user-drill/power-bi-hierarchical-year.png)|![todos os trimestres](media/end-user-drill/power-bi-hierarchical-quarter.png)|![todos os meses](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![todos os dias](media/end-user-drill/power-bi-hierarchical-all-day.png)|
 
 Observe que os dados são os mesmos para relatórios **trimestrais** e **anuais**. Depois de fazer drill down para o nível de detalhe especificado para **Valores**, será possível ver como o único relatório fica mais específico e como o relatório de "todos os meses" tem mais dados.
 
@@ -260,7 +260,7 @@ Além da visualização, é possível ver a hierarquia refletida nos dados rende
 | Modo de expansão|Território|Cidade|CEP|Nome|
 | ---|:---:|:---:|:---:|---|
 |Único|![um território](./media/end-user-drill/power-bi-hierarchical-territory.png)|![uma cidade](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![um CEP](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![um nome](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Todos|![todos os territórios](./media/end-user-drill/power-bi-hierarchical-territory.png)|![todas as cidades](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![todos os CEPs](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![todos os nomes](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Tudo|![todos os territórios](./media/end-user-drill/power-bi-hierarchical-territory.png)|![todas as cidades](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![todos os CEPs](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![todos os nomes](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
  À medida que você faz drill down, é possível ver como o **único** relatório fica mais específico e como o relatório de **All** os territórios tem mais dados.
 

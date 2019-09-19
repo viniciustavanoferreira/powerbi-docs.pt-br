@@ -1,6 +1,6 @@
 - name: Power BI para consumidores
   href: power-bi-consumer-landing.md
-- name: Serviço do Power BI para consumidores
+- name: O serviço do Power BI para consumidores
   items:
     - name: Visão geral
       items:
@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: Conceitos básicos e a terminologia para os consumidores do Power BI
           href: end-user-basic-concepts.md
+        - name: Localize conteúdo usando a Página de aterrissagem inicial
+          href: end-user-home.md
         - name: Navegar pela 'nova aparência'
           href: ../service-new-look.md
     - name: Início rápido
@@ -24,9 +26,9 @@
           href: end-user-alerts.md
     - name: Como
       items:
-        - name: Painéis
+        - name: Dashboards
           items:
-            - name: Painéis
+            - name: Dashboards
               href: end-user-dashboards.md
             - name: Exibir um dashboard
               href: end-user-dashboard-open.md
@@ -148,7 +150,7 @@
               href: mobile/mobile-reports-in-the-mobile-apps.md
             - name: Interagir com blocos nos aplicativos móveis
               href: mobile/mobile-tiles-in-the-mobile-apps.md
-            - name: Compartilhar um dashboard dos aplicativos móveis do Power BI
+            - name: Compartilhar um painel dos aplicativos móveis do Power BI
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favoritos nos aplicativos móveis
               href: mobile/mobile-apps-favorites.md
@@ -160,9 +162,9 @@
               href: mobile/mobile-apps-notification-center.md
             - name: Criar um link profundo que vai a determinada localização
               href: mobile/mobile-apps-deep-link-specific-location.md
-            - name: Filtrar um relatório pela localização nos aplicativos móveis do Power BI
+            - name: Filtrar um relatório por local nos aplicativos móveis do Power BI
               href: mobile/mobile-apps-geographic-filtering.md
-            - name: Usando o OAuth para conexão com o Reporting Services
+            - name: Usando o OAuth para conectar-se ao Reporting Services
               href: mobile/mobile-oauth-ssrs.md
         - name: iOS e Android
           items:
@@ -172,7 +174,7 @@
               href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
             - name: Acessar o conteúdo de uma organização externa (B2B)
               href: mobile/mobile-apps-b2b.md
-            - name: Digitalizar um código QR do Power BI do seu telefone
+            - name: Escanear um código QR do Power BI usando seu telefone
               href: mobile/mobile-apps-qr-code.md
             - name: Anotar e compartilhar em aplicativos móveis
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md

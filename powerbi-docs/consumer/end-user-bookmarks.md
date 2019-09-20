@@ -1,5 +1,5 @@
 ---
-title: Visão geral dos indicadores no relatórios de serviço do Power BI
+title: Visão geral dos indicadores nos relatórios do serviço do Power BI
 description: Tópico de visão geral da documentação para consultas de linguagem naturais de P e R do Power BI.
 author: mihart
 manager: kvivek
@@ -12,33 +12,33 @@ ms.date: 05/10/2019
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 55fafb00135908dc4f82151b96ed04d2cf2568da
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608314"
 ---
-# <a name="what-are-bookmarks"></a>Quais são os indicadores?
-Indicadores capturam a exibição de uma página de relatório, inclusive filtros, segmentações de dados e o estado dos visuais configurada no momento. Quando você seleciona um indicador, Power BI levado de volta à exibição. Há dois tipos de indicadores - aqueles você cria por conta própria e aqueles criados pelo relatório *designers*.
+# <a name="what-are-bookmarks"></a>O que são indicadores?
+Os indicadores capturam a exibição atualmente configurada de uma página de relatório, incluindo filtros, segmentações e o estado dos visuais. Quando você seleciona um indicador, o Power BI direciona-o novamente para essa exibição. Há dois tipos de indicadores – aqueles que você cria por conta própria e aqueles criados pelos *designers* de relatórios.
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usar indicadores para compartilhar insights e criar histórias no Power BI 
-Há muitos usos para indicadores. Digamos que você descobrir um insight interessante e deseja preservá-los – criar um indicador para que você possa retornar posteriormente. Necessário sair e deseja preservar seu trabalho atual, crie um indicador. Você também pode tornar um indicador na sua exibição padrão do relatório, cada vez que você retornar, o modo de exibição da página do relatório é aberto pela primeira vez. 
+Há muitos usos para os indicadores. Digamos que você descubra um insight interessante e queira preservá-lo – crie um indicador para retornar a ele mais tarde. Precisa sair e deseja preservar seu trabalho atual? Crie um indicador. Você pode até mesmo marcar a exibição padrão do relatório, de modo que sempre que você retornar, essa exibição da página de relatório seja aberta primeiro. 
 
 Você também pode criar uma coleção de indicadores, organizá-los na ordem desejada e, posteriormente, percorrer cada indicador em uma apresentação para realçar uma série de insights que contam uma história.  
 
-![Mostre painel de indicadores, selecionando-o na faixa de opções.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
+![Mostre o Painel Indicadores selecionando-o na faixa de opções.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
 
 ## <a name="using-bookmarks"></a>Usando indicadores
-Para abrir o painel de indicadores, selecione **indicadores** na barra de menus. Para retornar ao modo de exibição publicado original do relatório, selecione **Redefinir para padrão**.
+Para abrir o painel Indicadores, selecione **Indicadores** na barra de menu. Para retornar à exibição publicada original do relatório, selecione **Redefinir para padrão**.
 
 ### <a name="report-bookmarks"></a>Indicadores de relatório
-Se o relatório *designer* incluídos indicadores de relatório, você vai encontrá-los na **relatar indicadores** título. 
+Se o *designer* de relatórios incluir indicadores de relatório, você os encontrará com o título **Indicadores de relatório**. 
 
-![Mostre indicadores de relatório.](media/end-user-bookmarks/power-bi-report-bookmark.png)
+![Mostre Indicadores de relatório.](media/end-user-bookmarks/power-bi-report-bookmark.png)
 
-Selecione um indicador para alterar esse modo de exibição de relatório. 
+Selecione um indicador para alterar para essa exibição de relatório. 
 
-![Vídeo que mostra o relatório indica que está sendo selecionado.](media/end-user-bookmarks/power-bi-bookmarks.gif)
+![Vídeo mostrando os indicadores de relatório que estão sendo selecionados.](media/end-user-bookmarks/power-bi-bookmarks.gif)
 
 ### <a name="personal-bookmarks"></a>Indicadores pessoais
 
@@ -53,15 +53,15 @@ Quando você cria um indicador, os seguintes elementos são salvos com o indicad
 * Visibilidade (de um objeto, usando o painel **Seleção**)
 * Os modos de foco ou de **Destaque** de qualquer objeto visível
 
-Configure uma página de relatório da maneira que você deseja que ela seja exibida no indicador. Depois que a página de relatório e os visuais forem organizados como você deseja, selecione **Adicionar** no painel **Indicadores** para adicionar um indicador. Neste exemplo, adicionamos alguns filtros de região e data. 
+Configure uma página de relatório da maneira que você deseja que ela seja exibida no indicador. Depois que a página de relatório e os visuais forem organizados como você deseja, selecione **Adicionar** no painel **Indicadores** para adicionar um indicador. Neste exemplo, adicionamos alguns filtros para a região e a data. 
 
-![Adicione indicadores pessoas.](media/end-user-bookmarks/power-bi-add-personal.png)
+![Adicione indicadores Pessoais.](media/end-user-bookmarks/power-bi-add-personal.png)
 
-**Power BI** cria um indicador e concede a ele um nome genérico ou um nome que você inserir. Você pode *renomeie*, *excluir*, ou *atualizar* um indicador selecionando as reticências ao lado do nome do indicador e, em seguida, selecionando a ação no menu que aparece.
+O **Power BI** cria um indicador e dá a ele um nome genérico ou um nome que você inserir. Você pode *renomear*, *excluir* ou *atualizar* um indicador selecionando as reticências ao lado do nome do indicador e, em seguida, selecionando uma ação no menu que é exibido.
 
-Quando você tiver um indicador, você pode exibi-lo simplesmente selecionando o indicador de **indicadores** painel. 
+Depois de obter um indicador, basta exibi-lo selecionando o indicador no painel **Indicadores**. 
 
-![Adicione indicadores pessoas.](media/end-user-bookmarks/power-bi-personal-bookmark.png)
+![Adicione indicadores Pessoais.](media/end-user-bookmarks/power-bi-personal-bookmark.png)
 
 
 <!--
@@ -77,7 +77,7 @@ The order of your bookmarks can become important when you use the **View** featu
 -->
 
 ## <a name="bookmarks-as-a-slide-show"></a>Indicadores como uma apresentação de slides
-Para apresentar ou exibir indicadores, na ordem, selecione **modo de exibição** da **indicadores** painel para começar uma apresentação de slides.
+Para apresentar ou exibir indicadores, em ordem, selecione **Exibir** no painel **Indicadores** para iniciar uma apresentação de slides.
 
 Quando se está no modo **Exibição**, há alguns recursos a observar:
 
@@ -85,7 +85,7 @@ Quando se está no modo **Exibição**, há alguns recursos a observar:
 2. A barra de título de indicador tem setas que permitem que você mova para o indicador anterior ou para o próximo.
 3. Você pode sair do modo de **Exibição** selecionando **Sair** no painel **Indicadores** ou então selecionando o **X** encontrado na barra de título de indicador. 
 
-![Indicador de slides](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
+![Apresentação de slides dos indicadores](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
 
 Quando se está no modo **Exibição**, é possível fechar o painel **Indicadores** (clicando no X no painel) para fornecer mais espaço para a apresentação. E enquanto se está no modo de **Exibição**, todos os visuais são interativos e estão disponíveis para realce cruzado, exatamente como eles seriam ao interagir com eles fora desse modo. 
 
@@ -155,7 +155,7 @@ Nesta versão dos **indicadores**, há algumas limitações e considerações a 
 * A maioria dos visuais personalizados deve funcionar bem com indicadores. Se você tiver problemas com o uso de indicadores e de um visual personalizado, entre em contato com o criador do visual personalizado e peça que adicione suporte a indicadores ao seu visual. 
 * Se você adicionar um visual em uma página de relatório depois de criar um indicador, o visual será exibido em seu estado padrão. Isso também significa que, se você introduzir uma segmentação em uma página em que você tiver criado indicadores anteriormente, a segmentação se comportará em seu estado padrão.
 * A movimentação de visuais após a criação de um indicador se refletirá nele. 
-* Em geral, os indicadores não serão afetados se o relatório *designer* atualiza ou republica o relatório. No entanto, se o designer faz alterações importantes para o relatório, como a remoção de campos usados por um indicador, em seguida, você receberá uma mensagem de erro na próxima vez que você tentar abrir esse indicador. 
+* Em geral, os indicadores não serão afetados se o *designer* de relatórios atualizar ou publicar novamente o relatório. No entanto, se o designer fizer alterações importantes no relatório, como remover os campos usados por um indicador, você receberá uma mensagem de erro na próxima vez que tentar abrir esse indicador. 
 
 <!--
 ## Next steps

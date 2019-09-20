@@ -13,36 +13,36 @@ ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: c6da58ff5902a95c0e032cd4ed30a6ef0cae1e55
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "66374989"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Adicione painéis, relatórios e aplicativos aos favoritos no serviço do Power BI
-Quando você adicionar um conteúdo uma *favorito*, você poderá acessá-la rapidamente na **Favoritos** lista de conteúdo e de **Power BI Home**  >   **Favoritos e frequentes**.  Os favoritos são normalmente conteúdos que você visita com mais frequência e é identificados com uma estrela amarela.
+Ao tornar o conteúdo um *favorito*, você poderá acessá-lo rapidamente na lista de conteúdo de **Favoritos** e em **Página Inicial do Power BI** > **Favoritos e frequentes**.  Os Favoritos normalmente são o conteúdo que você visita com mais frequência e são identificados com uma estrela amarela.
 
    ![Ícone de Favorito](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![Ícone de Favorito](./media/end-user-favorite/power-bi-home.png)
 
-Você também pode selecionar um único dashboard como um [painel em destaque](end-user-featured.md) no serviço do Power BI.
+Você também pode selecionar um único dashboard como um [dashboard em destaque](end-user-featured.md) no serviço do Power BI.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Adicionar um painel ou relatório como um *favorito*
 
 1. Abra um painel ou relatório que você usa com frequência. Até mesmo o conteúdo que foi compartilhado com você pode ser um *favorito*.
 
-2. Na faixa de opções superior de serviço do Power BI, selecione **favorito** ou a estrela ![ícone de estrela](./media/end-user-favorite/power-bi-favorite-icon.png) ícone.
+2. Na faixa de opções superior do serviço do Power BI, selecione **Favorito** ou o ícone de estrela ![ícone de estrela](./media/end-user-favorite/power-bi-favorite-icon.png).
    
    ![Ícone de Favorito](./media/end-user-favorite/powerbi-dashboard-favorite.png)
    
-   Você pode também favorito um dashboard ou relatório de qualquer lugar, você verá o ícone de estrela, como página inicial, recentes, aplicativos e compartilhado comigo. 
+   Você também pode adicionar um dashboard ou um relatório como um favorito em qualquer lugar em que veja o ícone de estrela, como Página Inicial, Recente, Aplicativos e Compartilhado comigo. 
    
    ![Guia Dashboard com estrela amarela](./media/end-user-favorite/power-bi-recent.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Adicionar um aplicativo como *favorito*
 
-1. No painel de navegação, selecione **aplicativos**.
+1. No painel de navegação, selecione **Aplicativos**.
 
    ![dashboard](./media/end-user-favorite/power-bi-favorite-apps.png)
 
@@ -51,10 +51,10 @@ Você também pode selecionar um único dashboard como um [painel em destaque](e
    ![passe o mouse sobre o aplicativo](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Trabalhando com *favoritos*
-1. Para acessar seus favoritos, selecione a seta do submenu à direita da vírgula **Favoritos**.  Deste local, você pode selecionar um favorito para abri-lo. Apenas cinco favoritos são listados (em ordem alfabética). Se você tiver mais de cinco, selecione **ver tudo** para abrir os conteúdo lista de Favoritos (consulte #2 abaixo). 
+1. Para acessar os favoritos, selecione a seta do submenu à direita de **Favoritos**.  Deste local, você pode selecionar um favorito para abri-lo. Apenas cinco favoritos são listados (em ordem alfabética). Se você tiver mais de cinco, selecione **Ver todos** para abrir a lista de conteúdo dos favoritos (confira o item 2 abaixo). 
    
    ![Submenu Favoritos](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. Para ver **todos os** o conteúdo que você adicionou como Favoritos, no painel de navegação, selecione **Favoritos** ou Favoritos ![ícone de estrela](./media/end-user-favorite/power-bi-favorites-icon.png) ícone.  
+2. Para ver **todo** o conteúdo que você adicionou como favoritos, no painel de navegação, selecione **Favoritos** ou o ícone de Favoritos ![ícone de estrela](./media/end-user-favorite/power-bi-favorites-icon.png).  
    
     ![janela de favorito](./media/end-user-favorite/power-bi-favorites-screen.png)
    
@@ -73,7 +73,7 @@ Você não usa mais um relatório com tanta frequência como costumava?  É poss
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
-No momento, você pode favorito de um aplicativo e esse automaticamente favoritos de todos os relatórios e painéis para que o aplicativo. Não é possível favorito de aplicativos individuais de relatórios ou painéis. 
+Atualmente, você pode adicionar um aplicativo como favorito, e isso adiciona automaticamente todos os relatórios e dashboards como favoritos nesse aplicativo. Não é possível adicionar relatórios ou dashboards de aplicativo individuais como favoritos. 
 
 ## <a name="next-steps"></a>Próximas etapas
 [Power BI – conceitos básicos](end-user-basic-concepts.md)

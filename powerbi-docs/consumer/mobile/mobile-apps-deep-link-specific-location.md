@@ -10,101 +10,101 @@ ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
 ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "64906524"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Criar um link para um local específico nos aplicativos móveis do Power BI
-Você pode usar os links para acessar diretamente a itens específicos no Power BI: Relatório, o painel e lado a lado.
+Use links para acessar diretamente itens específicos no Power BI: Relatório, Dashboard e Bloco.
 
-Há basicamente dois cenários para usar os links no Power BI Mobile: 
+Há principalmente dois cenários para o uso de links no Power BI Mobile: 
 
-* Para abrir o Power BI, do **fora do aplicativo**e acessar o conteúdo específico (painel/relatório/aplicativo). Isso geralmente é um cenário de integração, quando você deseja abrir o Power BI para celulares de outro aplicativo. 
-* Para **navegue** dentro do Power BI. Isso é geralmente quando você deseja criar uma navegação personalizada no Power BI.
+* Abrir o Power BI **fora do aplicativo** e acessar um conteúdo específico (relatório/dashboard/aplicativo). Isso geralmente é um cenário de integração, quando você deseja abrir o Power BI Mobile em outro aplicativo. 
+* Para **navegar** dentro do Power BI. Isso geralmente ocorre quando você deseja criar uma navegação personalizada no Power BI.
 
 
-## <a name="use-links-from-outside-of-power-bi"></a>Use os links de fora do Power BI
-Quando você usa um link de fora do aplicativo do Power BI, você deseja certificar-se de que ele seja aberto pelo aplicativo, e se o aplicativo não estiver instalado no dispositivo e, em seguida, para oferecer ao usuário para instalá-lo. Criamos um formato de link especial para oferecer suporte a exatamente isso. Esse formato de link, garantirá que o dispositivo estiver usando o aplicativo para abrir o link, e se o aplicativo não estiver instalado no dispositivo, ele oferecerá o usuário a ir para a loja para obtê-lo.
+## <a name="use-links-from-outside-of-power-bi"></a>Usar links fora do Power BI
+Ao usar um link fora do aplicativo do Power BI, o ideal será verificar se ele será aberto pelo aplicativo e, se o aplicativo não estiver instalado no dispositivo, oferecer ao usuário a opção para instalá-lo. Criamos um formato de link especial para dar suporte exatamente a isso. Esse formato de link garantirá que o dispositivo esteja usando o aplicativo para abrir o link e, se o aplicativo não estiver instalado no dispositivo, ele oferecerá ao usuário a opção para acessar a loja e obtê-lo.
 
-O link deve começar com o seguinte  
+O link deverá começar com o seguinte  
 ```html
 https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
 
 > [!IMPORTANT]
-> Se o seu conteúdo é hospedado no datacenter especial, como análise do governo, China, etc. O link deve começar com o endereço do Power BI à direita, como `app.powerbigov.us` ou `app.powerbi.cn`.   
+> Se o conteúdo estiver hospedado em um datacenter especial como Governo, China etc. O link deverá começar com o endereço correto do Power BI, como `app.powerbigov.us` ou `app.powerbi.cn`.   
 >
 
 
-O **parâmetros de consulta** são:
-* **ação** (obrigatório) = OpenApp / OpenDashboard / OpenTile / AbrirRelatório
-* **appId** = se você quiser abrir um relatório ou painel que fazem parte de um aplicativo 
-* **groupObjectId** = se você quiser abrir um relatório ou painel que fazem parte do espaço de trabalho (mas não meu espaço de trabalho)
-* **dashboardObjectId** = ID de objeto do painel de controle (se a ação for OpenDashboard ou OpenTile)
-* **reportObjectId** = ID de objeto de relatório (se a ação é AbrirRelatório)
-* **tileObjectId** = ID de objeto de bloco (se a ação é OpenTile)
-* **reportPage** = se você quiser abrir a seção de relatório específico (se a ação é AbrirRelatório)
-* **ctid** = item ID da organização (relevante para o cenário B2B. Isso pode ser omitido se o item pertence à organização do usuário).
+Os **QUERY PARAMS** são:
+* **action** (obrigatório) = OpenApp/OpenDashboard/OpenTile/OpenReport
+* **appId** = caso deseje abrir um relatório ou um dashboard que faz parte de um aplicativo 
+* **groupObjectId** = caso deseje abrir um relatório ou um dashboard que faz parte do workspace (mas não do Meu workspace)
+* **dashboardObjectId** = ID de objeto do dashboard (se a ação for OpenDashboard ou OpenTile)
+* **reportObjectId** = ID de objeto do relatório (se a ação for OpenReport)
+* **tileObjectId** = ID de objeto do bloco (se a ação for OpenTile)
+* **reportPage** = caso deseje abrir uma seção de relatório específica (se a ação for OpenReport)
+* **ctid** = ID da organização do item (relevante para o cenário B2B. Isso pode ser omitido se o item pertence à organização do usuário).
 
 **Exemplos:**
 
-* Link do aplicativo abrir 
+* Abrir o link do aplicativo 
   ```html
   https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
   ```
 
-* Abrir o painel que é parte de um aplicativo 
+* Abrir o dashboard que faz parte de um aplicativo 
   ```html
   https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
   ```
 
-* Abra o relatório que faz parte de um espaço de trabalho
+* Abrir o relatório que faz parte de um workspace
   ```html
   https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
   ```
 
-### <a name="how-to-get-the-right-link-format"></a>Como obter o formato de link à direita
+### <a name="how-to-get-the-right-link-format"></a>Como obter o formato de link correto
 
 #### <a name="links-of-apps-and-items-in-app"></a>Links de aplicativos e itens no aplicativo
 
-Para **aplicativos e relatórios e painel que fazem parte de um aplicativo**, a maneira mais fácil de obter o link é ir para o espaço de trabalho do aplicativo e escolha "Atualizar aplicativo". Isso abrirá a experiência de "Aplicativo de publicação" e, na guia acesso, você encontrará uma **Links** seção. Expandir que seção e você verá a lista do aplicativo e links de todo o seu conteúdo que pode ser usado para acessá-los diretamente.
+Para **aplicativos, relatórios e dashboards que fazem parte de um aplicativo**, a maneira mais fácil de obter o link é acessar o workspace do aplicativo e escolher "Atualizar aplicativo". Isso abrirá a experiência "Publicar aplicativo" e na guia Acesso, você encontrará uma seção **Links**. Expandindo essa seção, você verá a lista de aplicativos e todos os links de conteúdo que podem ser usados para acessá-los diretamente.
 
-![Links de aplicativo publicar do Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
+![Links de Publicar aplicativo do Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-#### <a name="links-of-items-not-in-app"></a>Links de itens fora do aplicativo 
+#### <a name="links-of-items-not-in-app"></a>Links de itens que não estão no aplicativo 
 
-Para relatórios e painéis que não fazem parte de um aplicativo, você precisa extrair as IDs da URL do item.
+Para relatórios e dashboards que não fazem parte de um aplicativo, você precisa extrair as IDs da URL do item.
 
-Por exemplo, para localizar o caractere de 36 **dashboard** ID de objeto, navegue até o painel específico no serviço do Power BI 
+Por exemplo, para localizar a ID de objeto de 36 caracteres do **dashboard**, navegue até o dashboard específico no serviço do Power BI 
 
 ```html
 https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
 ```
 
-Para localizar o caractere de 36 **relatório** ID de objeto, navegue até o relatório específico no serviço do Power BI.
-Este é um exemplo de relatório de "Meu espaço de trabalho"
+Para localizar a ID de objeto de 36 caracteres do **relatório**, navegue até o relatório específico no serviço do Power BI.
+Este é um exemplo de relatório de "Meu Workspace"
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
 ```
-A URL acima também contém a página de relatório específico **"ReportSection3"** .
+A URL acima contém também a página de relatório específica **"ReportSection3"** .
 
-Este é um exemplo de um relatório de espaço de trabalho (não meu espaço de trabalho)
+Este é um exemplo de um relatório de um workspace (não Meu Workspace)
 
 ```html
 https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
 ```
 
-## <a name="use-links-inside-power-bi"></a>Use os links dentro do Power BI
+## <a name="use-links-inside-power-bi"></a>Usar links no Power BI
 
-Links dentro do Power BI estão trabalhando nos aplicativos móveis exatamente como no serviço do Power BI.
+Os links no Power BI funcionam nos aplicativos móveis exatamente como no serviço do Power BI.
 
-Se você quiser adicionar link para seu relatório que aponta para outro item do Power BI, você pode copiar apenas essa URL do item da barra de endereços do navegador. Leia mais sobre [como adicionar um hiperlink a uma caixa de texto em um relatório](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
+Caso deseje adicionar um link ao relatório que aponte para outro item do Power BI, basta copiar essa URL de item da barra de endereços do navegador. Leia mais sobre [como adicionar um hiperlink a uma caixa de texto em um relatório](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
 
-## <a name="use-report-url-with-filter"></a>Use a URL de relatório com filtro
-Mesmo que o serviço do Power BI, aplicativos móveis do Power BI também dar suporte a URL de relatório que contém um parâmetro de consulta de filtro. Você pode abrir um relatório no aplicativo móvel do Power BI e filtrá-los para um estado específico. Por exemplo, essa URL abre o relatório de vendas e filtrá-los por região
+## <a name="use-report-url-with-filter"></a>Usar a URL de relatório com o filtro
+Similarmente ao serviço do Power BI, os aplicativos do Power BI Mobile também dão suporte à URL de relatório que contém um parâmetro de consulta de filtro. Abra um relatório no aplicativo do Power BI Mobile e filtre-o para um estado específico. Por exemplo, esta URL abre o relatório de Vendas e o filtra por Território
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'

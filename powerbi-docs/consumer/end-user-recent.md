@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61054813"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Conteúdo **recente** no serviço do Power BI
@@ -37,7 +37,7 @@ Se você tem mais de cinco itens recentemente visitados, selecione **Ver todos**
 
 ![exibir todo o conteúdo recente](./media/end-user-recent/power-bi-recent-list.png)
 
-Aqui você pode ser interagir com o conteúdo como faria individual [ **painéis**](end-user-dashboards.md), [ **relatórios**](end-user-reports.md), e  **Pastas de trabalho** guias e de aplicativos <!--[**Apps**](end-user-apps.md)--> tela.
+Nele, você pode interagir com o conteúdo da mesma forma que faria nas guias [**Dashboards**](end-user-dashboards.md), [**Relatórios**](end-user-reports.md) e **Pastas de Trabalho** individuais e na tela de <!--[**Apps**](end-user-apps.md)--> aplicativos.
 
 ## <a name="next-steps"></a>Próximas etapas
 <!--[Power BI service Apps](end-user-apps.md)-->

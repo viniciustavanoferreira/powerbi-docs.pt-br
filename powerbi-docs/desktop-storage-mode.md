@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654749"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841300"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modo de armazenamento no Power BI Desktop
 
@@ -42,6 +42,9 @@ A definição do modo de armazenamento no Power BI Desktop é um dos três recur
 * **Relações muitos-para-muitos**: com *modelos compostos*, você pode estabelecer *relações muitos-para-muitos* entre as tabelas. *Relações muitos-para-muitos* removem os requisitos para valores exclusivos nas tabelas. Elas também removem as soluções alternativas anteriores, como introduzir novas tabelas somente para estabelecer relações. Para mais informações, confira [Relações muitos para muitos no Power BI Desktop](desktop-many-to-many-relationships.md).
 
 * **Modo de armazenamento**: agora você pode especificar quais visuais exigem uma consulta para fontes de dados de back-end. Visuais que não exigem uma consulta serão importados, mesmo se forem baseados no DirectQuery. Esse recurso ajuda a melhorar o desempenho e reduzir a carga de back-end. Antes, mesmo visuais simples como as segmentações iniciavam consultas enviadas para fontes de back-end. O modo de armazenamento é descrito em detalhes neste artigo.
+
+> [!NOTE]
+> Você pode ver o modo de armazenamento atual selecionando a exibição **Modelo**, selecionando a tabela de interesse e, na seção **Avançado** do painel **Propriedades**, exibir o valor **Modo de armazenamento**.
 
 ## <a name="use-the-storage-mode-property"></a>Usar a propriedade de modo de armazenamento
 

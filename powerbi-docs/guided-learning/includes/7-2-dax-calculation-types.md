@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6ed1690ec77880467007200c30038d185c98d6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273158"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70847650"
 ---
 Há dois cálculos principais que podem ser criados usando o DAX:
 
@@ -26,7 +26,7 @@ A seguinte imagem mostra uma fórmula DAX que está sendo criada no Power BI:
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_1.png)
 
-Você também pode omitir por completo o nome da tabela e usar apenas o nome da coluna, mas essa é uma prática inadequada para a escrita de funções bem-definidas (e assim, para limpar o código do DAX). Nomes de coluna devem sempre incluir os colchetes.
+Você também pode omitir por completo o nome da tabela e usar apenas o nome da coluna, mas essa é não uma prática recomendada para a escrita de funções bem-definidas (e, portanto, para limpar o código do DAX). Nomes de coluna devem sempre incluir os colchetes.
 
 É uma prática recomendada *sempre* fazer o seguinte:
 
@@ -36,7 +36,7 @@ Você também pode omitir por completo o nome da tabela e usar apenas o nome da 
 ## <a name="creating-calculated-columns"></a>Criando colunas calculadas
 **Colunas calculadas** serão úteis quando você desejar segmentar ou filtrar o valor ou se quiser um cálculo para cada linha na tabela.
 
-Você pode criar colunas calculadas no Power BI Desktop selecionando **Nova Coluna** na guia **Modelagem**. É melhor estar na exibição Dados (em vez da exibição Relatório ou **Relações**), já que você pode ver a nova coluna criada e a **Barra de Fórmulas** é populada e está pronta para a fórmula DAX.
+Você pode criar colunas calculadas no Power BI Desktop selecionando **Nova Coluna** na guia **Modelagem**. É melhor estar na exibição **Dados** (em vez da exibição **Relatório** ou **Relações**), já que você pode ver a nova coluna criada e a **Barra de Fórmulas** é populada e está pronta para a fórmula DAX.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_2a.png)
 

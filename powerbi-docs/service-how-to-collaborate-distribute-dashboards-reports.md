@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 00574228fbfa8954b8cfb9cb026a9230eb1bd73e
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816531"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841650"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Maneiras de compartilhar seu trabalho no Power BI
 
@@ -31,7 +31,7 @@ Você criou painéis e relatórios. Talvez você também tenha colaborado neles 
 
 Não importa qual opção você escolher, para compartilhar seu conteúdo você precisa de uma [licença do Power BI Pro](service-features-license-type.md) ou então o conteúdo precisa estar em uma [capacidade Premium](service-premium-what-is.md). Os requisitos de licença variam para os colegas que exibem o conteúdo que você compartilha, dependendo da opção escolhida. As seções a seguir apresentam mais detalhes. 
 
-![Aplicativos no serviço do Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
+![Aplicativos no serviço do Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-new-look.png)
 
 *Aplicativos de serviço do Power BI*
 
@@ -41,7 +41,7 @@ Quando as equipes trabalham juntas, elas precisam de acesso aos mesmos documento
 
 Os workspaces fornecem funções que determinam quais permissões seus colegas de trabalho têm. Você pode usar essas funções para determinar quem pode gerenciar todo o workspace ou editar e distribuir seu conteúdo.
 
-![Workspaces](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![Workspaces](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 É comum você colocar conteúdo no Meu Workspace e compartilhá-lo. Mas os workspaces são melhores para colaboração do que o Meu Workspace, porque eles permitem a propriedade conjunta do conteúdo. Você e toda a sua equipe podem fazer atualizações facilmente ou conceder acesso aos outros. O Meu workspace é mais bem usado por indivíduos para conteúdo pessoal ou pontual.
 
@@ -55,21 +55,23 @@ O Power BI tem uma nova experiência de workspace. Leia [Criar os novos workspac
 
 ## <a name="distribute-insights-in-an-app"></a>Distribuir insights em um aplicativo
 
-Digamos que você deseja distribuir o dashboard para um público-alvo amplo da sua organização. Você e seus colegas criaram um *workspace* e, em seguida, criaram e refinaram dashboards, relatórios e conjuntos de dados no workspace. Agora você seleciona os dashboards e relatórios desejados e os publica como um aplicativo &#151; em um grupo ou em toda a sua organização.
+Digamos que você deseja distribuir o dashboard para um público-alvo amplo da sua organização. Você e seus colegas criaram um *workspace* e, em seguida, criaram e refinaram dashboards, relatórios e conjuntos de dados no workspace. Agora você seleciona os painéis e relatórios desejados e os publica como um aplicativo, em um grupo ou em toda a sua organização.
 
-![Ícone Publicar aplicativo](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
+![Ícone Publicar aplicativo](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
-Os aplicativos são fáceis de descobrir e instalar no serviço do Power BI ([https://powerbi.com](https://powerbi.com)). Você pode enviar aos usuários corporativos um link direto para o aplicativo ou eles podem pesquisar por ele no AppSource. Se o administrador do Power BI der permissão, você poderá instalar um aplicativo automaticamente em contas do Power BI de seus colegas de trabalho. Leia mais sobre [publicação de aplicativos](service-create-distribute-apps.md).
+Os aplicativos são fáceis de descobrir e instalar no serviço do Power BI ([https://app.powerbi.com](https://app.powerbi.com)). Você pode enviar aos usuários corporativos um link direto para o aplicativo ou eles podem pesquisar por ele no AppSource. Se o administrador do Power BI der permissão, você poderá instalar um aplicativo automaticamente em contas do Power BI de seus colegas de trabalho. Leia mais sobre [publicação de aplicativos](service-create-distribute-apps.md).
 
 Após instalarem um aplicativo, eles poderão vê-lo em seu navegador ou dispositivo móvel.
 
 Para que seus usuários exibam seu aplicativo, eles também precisam ter uma licença do Power BI Pro ou o aplicativo precisa ser armazenado em uma capacidade do Power BI Premium. Leia [O que é o Power BI Premium?](service-premium-what-is.md) para obter detalhes.
 
-É possível publicar aplicativos para os que estão fora de sua organização também. Eles podem exibir e interagir com o conteúdo do aplicativo, mas não podem compartilhá-lo com outras pessoas. Agora você pode criar *aplicativos de modelo* e implantá-los para qualquer cliente do Power BI.
+É possível publicar aplicativos para as pessoas que estão fora de sua organização também. Eles podem exibir e interagir com o conteúdo do aplicativo, mas não podem compartilhá-lo com outras pessoas. Agora você pode criar *aplicativos de modelo* e implantá-los para qualquer cliente do Power BI.
 
 ## <a name="share-a-dataset"></a>Compartilhar um conjunto de dados
 
 Sejamos francos, algumas pessoas têm maior habilidade na criação de modelos de dados bem projetado de alta qualidade em seus relatórios. Talvez você seja essa pessoa. Toda a organização pode se beneficiar do uso dos mesmos modelos de dados bem projetados. Os *conjuntos de dados compartilhados* preenchem essa função. Quando você cria um relatório com um modelo de dados que todos devem usar, você pode salvar o relatório no serviço do Power BI e dar às pessoas certas a permissão para usá-lo. Em seguida, eles podem criar relatórios com base no seu conjunto de dados. Dessa forma, todas as pessoas baseiam os relatórios nos mesmos dados, observando a mesma "versão da verdade".
+
+![Encontrar um conjunto de dados compartilhado](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-shared-datasets.png)
 
 Leia mais sobre [criação e uso de conjuntos de dados compartilhados](service-datasets-across-workspaces.md).
 
@@ -77,9 +79,9 @@ Leia mais sobre [criação e uso de conjuntos de dados compartilhados](service-d
 
 Digamos que você tenha finalizado um dashboard e um relatório em seu próprio Meu Workspace ou em um workspace e deseje que outras pessoas tenham acesso a ele. Uma maneira de fazer isso é *compartilhá-lo*. 
 
-![Ícone Compartilhar](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
+![Compartilhar um relatório](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-É necessário ter uma licença do Power BI Pro para compartilhar o conteúdo e as pessoas com quem você o compartilha também precisam ou o conteúdo precisa estar em um workspace em uma [capacidade Premium](service-premium-what-is.md). Quando você compartilha um dashboard ou relatório, os destinatários podem exibi-lo e interagir com ele, mas não podem editá-lo. Elas veem os mesmos dados que você no dashboard e nos relatórios, a menos que a RLS (Segurança em Nível de Linha) seja aplicada ao conjunto de dados subjacente. Os colegas com quem você o compartilha podem compartilhá-lo com os colegas deles, se você permitir. 
+É necessário ter uma licença do Power BI Pro para compartilhar o conteúdo e as pessoas com quem você o compartilha também precisam ou o conteúdo precisa estar em um espaço de trabalho em uma [capacidade Premium](service-premium-what-is.md). Quando você compartilha um dashboard ou relatório, os destinatários podem exibi-lo e interagir com ele, mas não podem editá-lo. Elas veem os mesmos dados que você no dashboard e nos relatórios, a menos que a RLS (Segurança em Nível de Linha) seja aplicada ao conjunto de dados subjacente. Os colegas com quem você o compartilha podem compartilhá-lo com os colegas deles, se você permitir. 
 
 Você também pode compartilhar com pessoas de fora da sua organização. Elas também podem exibir o dashboard ou relatório ou interagir com ele também, mas não podem compartilhá-lo. 
 

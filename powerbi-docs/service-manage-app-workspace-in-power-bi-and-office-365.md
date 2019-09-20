@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 278d631e755c4d484db0788b6c58fca9cfce4616
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961894"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903774"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Gerenciar seu workspace de aplicativo no Power BI e no Office 365
 
@@ -72,7 +72,7 @@ Você também pode editar aspectos de um workspace de aplicativo diretamente no 
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Adicionar uma imagem e definir outras propriedades do workspace
 
-Quando você distribuir seu aplicativo do workspace do aplicativo, a imagem que você adicionar aqui será a imagem de seu aplicativo. Confira a seção [Adicionar uma imagem ao workspace de aplicativo do Office 365 (opcional)](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) do artigo **Criar os workspaces**.
+Quando você distribuir seu aplicativo do workspace do aplicativo, a imagem que você adicionar aqui será a imagem de seu aplicativo. Confira [Adicionar uma imagem ao espaço de trabalho de aplicativo do Office 365](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) do artigo **Criar novos espaços de trabalho**.
 
 1. Na exibição do Outlook para Office 365 do seu workspace de aplicativo, acesse a guia **Sobre** e selecione **Editar**.
 

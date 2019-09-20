@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0bb8d796af5139cd89f4bdfa0a8da10603acb2ed
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530575"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70904018"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Criar workspaces clássicos no Power BI
 
@@ -23,53 +23,49 @@ No Power BI, é possível criar *workspaces*, lugares para colaborar com colegas
 
 **Você sabia?** O Power BI oferece uma nova experiência de workspace, que agora é a padrão. Leia [Organizar o trabalho em novos workspaces](service-new-workspaces.md) para obter detalhes sobre os novos workspaces. 
 
-Quando cria um workspace, você está criando um grupo associado e subjacente do Office 365. Toda a administração do workspace é feita no Office 365. Você pode adicionar colegas a esses workspaces como membros ou administradores. No workspace, todos podem colaborar em dashboards, relatórios e outros artigos que você planeja distribuir para um público-alvo maior. Todos que você adicionar a um workspace de aplicativo precisam de uma licença do Power BI Pro. 
+Quando cria um workspace, você está criando um grupo associado e subjacente do Office 365. Toda a administração do workspace é feita no Office 365. Você pode adicionar colegas a esses workspaces como membros ou administradores. No workspace, todos podem colaborar em dashboards, relatórios e outros artigos que você planeja distribuir para um público-alvo maior. Todas as pessoas que você adiciona a um workspace precisam de uma licença do Power BI Pro. 
 
-## <a name="video-apps-and-app-workspaces"></a>Vídeo: Aplicativos e workspaces de aplicativo
+## <a name="video-apps-and-workspaces"></a>Vídeo: Aplicativos e espaços de trabalho
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Criar um workspace de aplicativo clássico com base em um grupo do Office 365
+## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Criar um espaço de trabalho clássico com base em um grupo do Office 365
 
-Quando você cria um workspace de aplicativo, ele é criado em um grupo do Office 365.
+Quando você cria um espaço de trabalho, ele é criado em um grupo do Office 365.
 
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
 
 Ao criá-lo pela primeira vez, talvez seja necessário aguardar uma hora ou mais para que o workspace seja propagado para o Office 365. 
 
-### <a name="add-an-image-to-your-office-365-app-workspace-optional"></a>Adicionar uma imagem ao seu workspace de aplicativo do Office 365 (opcional)
+### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Adicionar uma imagem ao seu espaço de trabalho do Office 365 (opcional)
 Por padrão, o Power BI cria um pequeno círculo colorido com as iniciais do seu aplicativo. Mas talvez você queira personalizá-lo com uma imagem. Para adicionar uma imagem, você precisa de uma licença do Exchange Online.
 
 1. Selecione **Workspaces**, selecione as reticências (...) ao lado do nome do workspace e, em seguida, **Membros**. 
    
-     ![Selecionar Membros do Workspace](media/service-create-distribute-apps/power-bi-apps-workspace-members.png)
+     ![Selecionar Membros do Workspace](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
     A conta do Office 365 Outlook do workspace é aberta em uma nova janela do navegador.
-2. Quando você focaliza sobre o círculo colorido na parte superior esquerda, ele se transforma em um ícone de lápis. Selecione-a.
+2. Selecione o lápis **Editar**.
    
-     ![Ícone de lápis do Office 365](media/service-create-distribute-apps/power-bi-apps-workspace-edit-image.png)
-3. Selecione o ícone de lápis novamente e localize a imagem que você deseja usar.
+     ![Ícone de lápis do Office 365](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+3. Selecione a imagem da câmera e encontre a imagem que quer usar.
    
-     ![Selecionar o lápis novamente](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
+     ![Selecionar a imagem da câmera](media/service-create-workspaces/power-bi-workspace-old-camera.png)
 
      As imagens podem ser arquivos .png, .jpg ou .bmp. O tamanho do arquivo pode ser grande, de até 3 MB. 
 
-4. Selecione **Salvar**.
-   
-     ![Selecionar Salvar](media/service-create-distribute-apps/power-bi-apps-workspace-save-image.png)
+4. Selecione **OK** e, em seguida, **Salvar**.
    
     A imagem substitui o círculo colorido na janela do Office 365 Outlook. 
    
-     ![Imagem personalizada](media/service-create-distribute-apps/power-bi-apps-workspace-image-in-office-365.png)
+     ![Imagem personalizada](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    
     Em alguns minutos, ela também será exibida no aplicativo do Power BI.
-   
-     ![Imagem personalizada](media/service-create-distribute-apps/power-bi-apps-image.png)
 
-## <a name="add-content-to-your-app-workspace"></a>Adicionar conteúdo ao seu workspace de aplicativo
+## <a name="add-content-to-your-workspace"></a>Adicionar conteúdo ao seu espaço de trabalho
 
-Após criar um workspace de aplicativo, será hora de adicionar conteúdo a ele. É tão simples quanto adicionar conteúdo ao Meu workspace, exceto que outras pessoas também podem ver e trabalhar no workspace. Uma grande diferença é que, quando terminar, você poderá publicar o conteúdo como um aplicativo. Quando você exibe conteúdo na lista de conteúdo de um workspace de aplicativo, o nome do workspace de aplicativo é listado como o proprietário.
+Após a criação de um espaço de trabalho, é hora de adicionar conteúdo a ele. É tão simples quanto adicionar conteúdo ao Meu workspace, exceto que outras pessoas também podem ver e trabalhar no workspace. Uma grande diferença é que, quando terminar, você poderá publicar o conteúdo como um aplicativo. Quando você exibe conteúdo na lista de conteúdo de um espaço de trabalho, o nome do espaço de trabalho é listado como o proprietário.
 
-### <a name="connect-to-third-party-services-in-app-workspaces"></a>Conectar-se a serviços de terceiros em workspaces de aplicativo
+### <a name="connect-to-third-party-services-in-workspaces"></a>Conectar-se a serviços de terceiros em espaços de trabalho
 
 Os aplicativos são fornecidos para todos os serviços de terceiros com os quais o Power BI é compatível, tornando fácil para você obter dados dos serviços usados, como o Microsoft Dynamics CRM, Salesforce ou Google Analytics. É possível publicar aplicativos organizacionais para dar aos seus usuários os dados de que precisam.
 
@@ -96,7 +92,7 @@ Os aplicativos são a evolução dos pacotes de conteúdo organizacional. Se voc
 * Ao longo do tempo, pretendemos descontinuar os pacotes de conteúdo organizacional, portanto, é recomendável que você crie aplicativos de agora em diante.  
 * Com a versão prévia da nova experiência de workspace, estamos dando os primeiros passos para preterir os pacotes de conteúdo organizacional. Não é possível consumi-los ou criá-los nos workspaces de versão prévia.
 
-Confira [Em que aspectos os novos workspaces de aplicativo são diferentes dos workspaces existentes?](service-new-workspaces.md#how-the-new-workspaces-are-different) para comparar os dois. 
+Confira [Em que aspectos os novos espaços de trabalho são diferentes dos espaços de trabalho existentes?](service-new-workspaces.md#how-the-new-workspaces-are-different) para comparar os dois. 
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Instalar e usar aplicativos no Power BI](service-create-distribute-apps.md)

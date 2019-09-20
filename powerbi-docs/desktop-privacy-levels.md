@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 05/08/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c522a9e6c40f4164ee82675c40c3110b174d017
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d3405a434c8b3add7bb39f20d5aa65e066e4b73d
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513922"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841332"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Níveis de privacidade do Power BI Desktop
 No **Power BI Desktop**, os níveis de privacidade especificam um nível de isolamento que define o grau que uma fonte de dados será isolada de outras fontes de dados. Apesar de o nível de isolamento restrito bloquear a troca de informações entre as fontes de dados, ele poderá reduzir a funcionalidade e causar um impacto no desempenho.
@@ -52,7 +52,7 @@ Para configurar um nível de privacidade da fonte de dados, selecione a fonte de
 | **Combinar os dados de acordo com as definições de Nível de privacidade de cada origem** (ativada e a configuração padrão) |As configurações de nível de privacidade são usadas para determinar o nível de isolamento entre fontes de dados ao combinar dados. |
 | **Ignorar os níveis de Privacidade e melhorar potencialmente o desempenho** (desativada) |No entanto, os níveis de privacidade não são considerados ao combinar dados; podem aumentar o desempenho e a funcionalidade dos dados. |
 
-> **Observação de segurança:** habilitar **Níveis de Privacidade** selecionando **Ignore os Níveis de Privacidade e melhore potencialmente o desempenho** na caixa de diálogo **Níveis de Privacidade** pode expor dados confidenciais para uma pessoa não autorizada. Não habilite os **Níveis de Privacidade** a menos que você tenha certeza de que a fonte de dados não contém dados confidenciais.
+> **Observação de segurança:** Selecionar **Ignore os Níveis de Privacidade e melhore potencialmente o desempenho** na caixa de diálogo **Níveis de Privacidade** pode expor dados confidenciais para uma pessoa não autorizada. Não *desative* essa configuração, a menos que você tenha certeza de que a fonte de dados não contém dados confidenciais.
 > 
 > 
 

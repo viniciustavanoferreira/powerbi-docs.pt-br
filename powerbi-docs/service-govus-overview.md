@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590453"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841639"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo dos EUA
 O **serviço do Power BI** tem uma versão disponível para clientes do Governo dos Estados Unidos como parte das assinaturas da **Comunidade do Governo dos EUA do Office 365**. A versão do **serviço do Power BI** discutida neste artigo é desenvolvida especificamente para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço do Power BI**.
@@ -48,7 +48,7 @@ O Azure é distribuído entre várias nuvens. Por padrão, é permitido que os l
 * Gov. EUA – Texas
 * Gov. EUA – Arizona
 
-Na nuvem pública, os espaços IP estão disponíveis. Na nuvem governamental, confira a [documentação de serviço do Azure Governamental](https://www.microsoft.com/download/details.aspx?id=57063), que pode ser baixada, para saber as informações mais recentes.
+Na nuvem pública, os espaços IP estão disponíveis. Na nuvem governamental, confira a [documentação de serviço do Azure Governamental](https://www.microsoft.com/download/details.aspx?id=57063), que pode ser baixada, para obter as informações mais recentes.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Limitações do Power BI para o Governo dos EUA
 Alguns dos recursos disponíveis na versão comercial do **serviço do Power BI** *não* estão disponíveis no **serviço do Power BI** para clientes do Governo dos EUA. Equipe do Power BI está trabalhando ativamente para tornar esses recursos disponíveis para clientes do Governo dos EUA e atualizará este artigo quando esses recursos estiverem disponíveis.
@@ -85,13 +85,13 @@ As seguintes perguntas (e respostas) são fornecidas para ajudá-lo a obter rapi
 
 **Resposta:** A inscrição (geralmente chamada de *integração*) pode ser diferente, dependendo da licença e da assinatura existentes. Consulte o artigo [Inscrever-se no Power BI para o Governo dos EUA](service-govus-signup.md) para obter mais informações.
 
-**Pergunta:** A URL para conectar-se ao **Power BI** para o Governo dos EUA é diferente da URL do **Power BI** comercial?
+**Pergunta:** A URL para conectar-se ao **Power BI** para o Governo dos EUA é diferente da URL do **Power BI** comercial? Há uma URL diferente para clientes com GCC High (Nuvem da Comunidade Governamental – Alta)?
 
 **Resposta:** Sim, as URLs são diferentes. A tabela a seguir mostra cada URL:
 
-| URL da versão comercial | URL de versão do Governo dos EUA |
-| --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+| URL da versão comercial | URL de versão do Governo dos EUA | URL do US Government para GCC High |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 **Pergunta:** Minha conta é provisionada em mais de uma nuvem nacional. Ao usar o **Power BI Desktop**, como fazer para selecionar a nuvem a qual posso me conectar?
 

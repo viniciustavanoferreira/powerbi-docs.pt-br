@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534561"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903908"
 ---
-1. Comece criando o workspace. Selecione **Workspaces** > **Criar workspace do aplicativo**. 
+1. Comece criando o workspace. Selecione **Espaços de trabalho** > **Criar espaço de trabalho**. 
    
-     ![Criar workspace do aplicativo](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![Criar o workspace](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     Aqui você colocará o conteúdo no qual você e seus colegas colaboram.
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534561"
    
      ![Definir como edição ou somente exibição](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     Somente adicione pessoas ao workspace do aplicativo para que elas possam editar o conteúdo. Caso a pessoa só precise exibir o conteúdo, não adicione-a ao workspace. Você pode incluí-la quando publicar o aplicativo.
+     Somente adicione pessoas ao espaço de trabalho para que elas possam editar o conteúdo. Caso a pessoa só precise exibir o conteúdo, não adicione-a ao workspace. Você pode incluí-la quando publicar o aplicativo.
 
 5. Adicione os endereços de email das pessoas que você deseja que tenham acesso ao workspace e selecione **Adicionar**. Você não pode adicionar aliases de grupos, apenas indivíduos.
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534561"
 
 O Power BI cria o workspace e o abre. Ele aparece na lista de workspaces dos quais você é um membro. Como você é um administrador, você pode selecionar as reticências (...) para voltar e fazer alterações, adicionar novos membros ou alterar as permissões deles.
 
-![Editar workspace](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![Editar workspace](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

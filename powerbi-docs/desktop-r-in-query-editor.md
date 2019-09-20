@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e2a970ecbf7b341d4feaba4e90a862841ba8bb17
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560901"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841521"
 ---
 # <a name="use-r-in-query-editor"></a>Uso do R no Editor de Consultas
 
@@ -84,6 +84,9 @@ Para demonstrar o uso do **R** no **Editor de Consultas**, usaremos um conjunto 
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
     ```
+
+    > [!NOTE]
+    > Talvez você precise substituir uma variável chamada *output* para criar corretamente o novo conjunto de dados com os filtros aplicados.
 
 7. Ao selecionar **OK**, o **Editor de Consultas** exibirá um aviso sobre a privacidade dos dados.
 

@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654416"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841280"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>A nova experiência de filtro em relatórios do Power BI
 
 Os filtros no Power BI têm novas funcionalidades e um novo design. Ao escolher a nova experiência de filtro, será possível formatar o painel Filtros para se parecer com o restante do relatório. Você poderá bloquear e ocultar até mesmo filtros. Ao criar seu relatório, você não verá mais o painel Filtros antigo no painel Visualizações. É possível editar e formatar todos os filtros no painel Filtros. 
 
-![Nova experiência de filtro](media/power-bi-report-filter/power-bi-filter-reading.png)
+![Nova experiência de filtro](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-Veja a seguir o que você pode fazer no novo e exclusivo painel Filtros enquanto cria um relatório:
+Como um designer de relatório, veja a seguir algumas das tarefas que você pode fazer no novo Painel de filtros:
 
 - Adicionar e remover campos para filtrar. 
 - Alterar o estado do filtro.
@@ -207,7 +207,7 @@ Agora é possível modificar as configurações padrão do painel de filtros com
 
 ## <a name="sort-the-filter-pane"></a>Classificar o painel de filtros
 
-A funcionalidade de classificação personalizada é parte da nova experiência de painel de filtros. Os criadores de relatório podem arrastar e soltar os filtros para reorganizá-los na ordem desejada.
+A funcionalidade de classificação personalizada é parte da nova experiência de painel de filtros. Os criadores de relatório podem arrastar e soltar os filtros para reorganizá-los em qualquer ordem.
 
 ![Reorganizar a ordem de classificação de filtros](media/power-bi-report-filter/power-bi-filter-sort.gif)
 

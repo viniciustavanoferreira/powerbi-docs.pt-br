@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 39c6dc8a60be67f8f9e99e01ae1c7249166c5ddb
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665394"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877737"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Traga suas próprias chaves de criptografia para o Power BI (versão prévia)
 
@@ -66,7 +66,7 @@ As instruções nesta seção pressupõem conhecimento básico do Azure Key Vaul
 1. Selecione **OK**, em seguida, **Salvar**.
 
 > [!NOTE]
-> Para revogar o acesso de Power BI aos seus dados no futuro, remova os direitos de acesso a essa entidade de serviço em seu Azure Key Vault.
+> Para revogar o acesso do Power BI aos seus dados no futuro, remova os direitos de acesso a essa entidade de serviço de seu Azure Key Vault.
 
 ### <a name="create-an-rsa-key"></a>Criar uma chave RSA
 
@@ -123,11 +123,31 @@ O cmdlet aceita dois parâmetros de opção que afetam a criptografia para as ca
 > [!IMPORTANT]
 > Se você especificar `-Default`, todas as capacidades criadas no locatário, neste ponto, serão criptografadas usando a chave que você especificar (ou uma chave padrão atualizada). Não é possível desfazer a operação padrão, portanto, você perde a capacidade de criar uma capacidade Premium em seu locatário que não usa o BYOK.
 
-Depois de habilitar o BYOK em seu locatário, use [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) para definir a chave de criptografia para uma ou mais capacidades do Power BI:
+Depois de habilitar o BYOK em seu locatário, defina a chave de criptografia para uma ou mais capacidades do Power BI:
 
-```powershell
-Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-```
+1. Use [`Get-PowerBICapacity`](/powershell/module/microsoftpowerbimgmt.capacities/get-powerbicapacity) para obter a ID de capacidade necessária para a próxima etapa.
+
+    ```powershell
+    Get-PowerBICapacity -Scope Individual
+    ```
+
+    O cmdlet retorna uma saída semelhante à seguinte:
+
+    ```
+    Id              : xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    DisplayName     : Test Capacity
+    Admins          : adam@sometestdomain.com
+    Sku             : P1
+    State           : Active
+    UserAccessRight : Admin
+    Region          : North Central US
+    ```
+
+1. Use [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) para definir a chave de criptografia:
+
+    ```powershell
+    Set-PowerBICapacityEncryptionKey-CapacityId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -KeyName 'Contoso Sales'
+    ```
 
 Você tem controle sobre como usar o BYOK em seu locatário. Por exemplo, para criptografar uma capacidade única, chame `Add-PowerBIEncryptionKey` sem `-Activate` ou `-Default`. Em seguida, chame `Set-PowerBICapacityEncryptionKey` para a capacidade do local em que você deseja habilitar o BYOK.
 

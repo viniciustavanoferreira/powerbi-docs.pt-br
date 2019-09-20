@@ -1,20 +1,20 @@
 ---
 title: 'DAX: Função DIVIDE versus operador dividir (/)'
 description: Orientação sobre quando usar a função de divisão DAX.
-author: guyinacube
+author: peter-myers
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/05/2019
+ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d22491ee314ebcebd4479c4e57dbfdf7a6a1ffdb
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 7516aaedb886e7b9e0f57ed76f0a7c5e40efbd6d
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70010427"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877842"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: Função DIVIDE versus operador dividir (/)
 
@@ -34,15 +34,15 @@ DIVIDE(<numerator>, <denominator> [,<alternateresult>])
 
 A função DIVIDE foi projetada para lidar automaticamente com casos de divisão por zero. Se um resultado alternativo não for passado e o denominador for zero ou ficar EM BRANCO, a função retornará EM BRANCO. Se um resultado alternativo for passado, ele será retornado, em vez de EM BRANCO.
 
-A função de divisão é conveniente porque poupa sua expressão de primeiro testar o valor do denominador. A função também é otimizada para testar o valor do denominador, em vez da função [IF](/dax/if-function-dax). Usar DIVIDE também leva a uma expressão mais concisa e elegante.
+A função de divisão é conveniente porque poupa sua expressão de primeiro testar o valor do denominador. A função também é otimizada para testar o valor do denominador, em vez da função [IF](/dax/if-function-dax). O ganho de desempenho é significativo, já que a verificação para divisão por zero é dispendiosa. Usar DIVIDE também leva a uma expressão mais concisa e elegante.
 
 ## <a name="example"></a>Exemplo
 
-A expressão de medida a seguir produz uma divisão segura, mas envolve o uso de três funções DAX.
+A expressão de medida a seguir produz uma divisão segura, mas envolve o uso de quatro funções DAX.
 
 ```dax
 
-=IF(ISBLANK([Sales]) || [Sales] = 0, BLANK(), [Profit] / [Sales])
+=IF(OR(ISBLANK([Sales]), [Sales] == 0), BLANK(), [Profit] / [Sales])
 
 ```
 

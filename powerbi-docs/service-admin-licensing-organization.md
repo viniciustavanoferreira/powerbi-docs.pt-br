@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c5a3b2b3e74d636f8d9af75e4c84b7fd61bd2139
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099823"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877882"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Licenciamento do Power BI na sua organização
 
@@ -31,11 +31,11 @@ Como administrador, você pode comprar e atribuir licenças do Power BI Pro e in
 
 Licenças do Power BI Pro são adquiridas por meio do Microsoft Office 365 ou de um parceiro certificado da Microsoft. Depois de comprar as licenças, você pode atribuí-las a cada usuário. Para obter mais informações, consulte [Comprar e atribuir licenças do Power BI Pro](service-admin-purchasing-power-bi-pro.md).
 
-### <a name="power-bi-pro-license-expiration"></a>Validade da licença do Power BI Pro
+### <a name="power-bi-pro-license-expiration"></a>Expiração de licença do Power BI Pro
 
 Há um período de carência após a expiração de uma licença do Power BI Pro. Para licenças que fazem parte de uma compra de licença de volume, o período de carência é de 90 dias. Se você adquiriu a licença diretamente, o período de carência é de 30 dias.
 
-O Power BI Pro tem o mesmo ciclo de vida de assinatura que o Office 365. Para obter mais informações, consulte [o que acontece com meus dados e o acesso quando termina minha Office 365 para a assinatura de negócios?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
+O Power BI Pro tem o mesmo ciclo de vida de assinatura que o Office 365. Para saber mais, confira [O que acontece com meus dados e o acesso quando termina minha assinatura do Office 365 para empresas?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Avaliação do Power BI Pro para indivíduos
 
@@ -125,7 +125,7 @@ Se o bloco de licenças ilimitado do Power BI (Gratuito) não estiver disponíve
 
 Como administrador, você pode optar por habilitar ou desabilitar as inscrições de usuários individuais por meio do AAD (Azure Active Directory). Esta seção do artigo mostra como gerenciar inscrições com comandos do PowerShell. Para obter mais informações sobre o Azure PowerShell, consulte [Visão geral do Azure PowerShell](/powershell/azure/overview).
 
-A configuração do AAD que controla a inscrição é **AllowAdHocSubscriptions**. Na maioria dos locatários, isso estará definido como *true*, o que significa que ela está habilitada. Se você adquiriu o Power BI por meio de um parceiro, ela pode estar definida como *false*, o que significa que ela está desabilitada. Se você alterar a configuração de *true* para *false*, novos usuários na sua organização serão impedidos de se inscreverem individualmente. Os usuários que se inscreveram para o Power BI antes da alteração da configuração manterão suas licenças.
+A configuração do Azure AD que controla a inscrição é **AllowAdHocSubscriptions**. Na maioria dos locatários, isso estará definido como *true*, o que significa que ela está habilitada. Se você adquiriu o Power BI por meio de um parceiro, ela pode estar definida como *false*, o que significa que ela está desabilitada. Se você alterar a configuração de *true* para *false*, novos usuários na sua organização serão impedidos de se inscreverem individualmente. Os usuários que se inscreveram para o Power BI antes da alteração da configuração manterão suas licenças. Observe que, com uma configuração de *false*, os usuários ainda podem se inscrever para uma avaliação do Pro.
 
 1. Entre no Azure Active Directory usando suas credenciais do Office 365. A primeira linha do script do PowerShell a seguir solicita suas credenciais. Na segunda linha, você será conectado ao Azure Active Directory.
 
@@ -136,7 +136,7 @@ A configuração do AAD que controla a inscrição é **AllowAdHocSubscriptions*
 
    ![Entrada do Azure Active Directory](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. Depois de entrar, execute o comando a seguir para ver para como seu locatário está configurado atualmente. (Observe que 'fl' abaixo usa a letra "l", não o número 1).
+1. Depois de entrar, execute o comando a seguir para ver para como seu locatário está configurado atualmente. (Observe que 'fl' abaixo usa a letra 'l', e não o número 1).
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 

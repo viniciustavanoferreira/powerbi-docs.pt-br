@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391735"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903818"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Exiba um relatório no serviço do Power BI para *consumidores*
 Um relatório é uma ou mais páginas de visuais. Os relatórios são criados por *designers* do Power BI e [compartilhados com *consumidores* diretamente](end-user-shared-with-me.md) ou como parte de um [aplicativo](end-user-apps.md). 
@@ -30,7 +30,7 @@ Vamos abrir um relatório que foi compartilhado com você diretamente e, em segu
    ![Home page](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Abrir um relatório que foi compartilhado com você
-Os *designers* do Power BI podem compartilhar um relatório individual diretamente com você por meio de um link no email ou adicionando-o à Página Inicial do Power BI. O conteúdo compartilhado dessa forma aparece no contêiner **Compartilhado comigo** na barra de navegação esquerda e na seção **Compartilhado comigo** da tela Página Inicial.
+Os *designers* do Power BI podem compartilhar um relatório individual diretamente com você por meio de um link no email ou adicionando-o automaticamente. O conteúdo compartilhado dessa forma aparece no contêiner **Compartilhado comigo** na barra de navegação esquerda e na seção **Compartilhado comigo** da tela Página Inicial.
 
 1. Abra o serviço do Power BI (app.powerbi.com).
 
@@ -50,6 +50,12 @@ Os *designers* do Power BI podem compartilhar um relatório individual diretamen
 
    ![guias de página do relatório](./media/end-user-report-open/power-bi-ytd.png)
 
+6. Observe o painel **Filtros** à direita. Os filtros que foram aplicados a esta página de relatório, ou a todo o relatório, aparecem aqui.
+
+7. Focalizar um visual de relatório revela vários ícones e reticências (...). Para ver os filtros aplicados a um visual específico, selecione o ícone de filtro. Aqui, selecionamos o ícone de filtro para o gráfico de linha *Total de unidades por período consecutivo e região*.
+
+   ![guias de página do relatório](./media/end-user-report-open/power-bi-visual-filters.png)
+
 6. Agora, estamos vendo toda a página do relatório. Para alterar a exibição (aplicar zoom) da página, selecione a lista suspensa Exibição no canto superior direito e escolha **Tamanho real**.
 
    ![alterar zoom](./media/end-user-report-open/power-bi-fit-new.png)
@@ -59,21 +65,26 @@ Os *designers* do Power BI podem compartilhar um relatório individual diretamen
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Abra um relatório que faz parte de um aplicativo
 Se você já tiver recebido aplicativos de seus colegas ou do AppSource, esses aplicativos estarão disponíveis na Página Inicial e no contêiner **Aplicativos** na barra de navegação. Uma [aplicativo](end-user-apps.md) é um pacote de dashboards e relatórios.
 
+### <a name="prerequisites"></a>Pré-requisitos
+Para acompanhar, baixe o aplicativo Vendas e Marketing.
+1. No navegador, navegue até appsource.microsoft.com.
+1. Pesquise "Vendas e Marketing" e selecione **Microsoft Sample-Sales & marketing.**
+1. Selecione **Obtenha agora** > **Continuar** > **Instalar** para instalar o aplicativo em seu Contêiner de aplicativos. 
+
+Abra o aplicativo de seu Contêiner de aplicativos ou da Página Inicial.
 1. Volte à Página Inicial clicando em **Página Inicial** na barra de navegação.
 
 7. Role para baixo até ver **Meus aplicativos**.
 
-   ![Home page](./media/end-user-report-open/power-bi-my-apps.png)
+   ![Home page](./media/end-user-report-open/power-bi-app.png)
 
-8. Selecione um dos aplicativos para abri-lo. Dependendo das opções definidas pelo *designer* de aplicativo, o aplicativo abrirá um dashboard ou um relatório. Se selecionar o aplicativo:
-    - abrir um relatório, está tudo pronto.
-    - abrir um dashboard, confira ***Abrir um relatório de um dashboard***, abaixo.
+8. Selecione seu novo aplicativo de Vendas e marketing para abri-lo. Dependendo das opções definidas pelo *designer* de aplicativo, o aplicativo abrirá um dashboard ou um relatório. Este aplicativo é aberto em um dashboard.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Abrir um relatório por meio de um dashboard
 Relatórios podem ser abertos de um dashboard. A maioria dos [blocos](end-user-tiles.md) de dashboard são *fixados* de relatórios. Selecionar um bloco abre o relatório que foi usado para criá-lo. 
 
-1. Em um dashboard, selecione um bloco. Neste exemplo, selecionamos o bloco do gráfico de colunas “Total de Unidades Acumuladas no Ano...”.
+1. No painel, selecione um bloco. Neste exemplo, selecionamos o bloco do gráfico de colunas “Total de Unidades Acumuladas no Ano...”.
 
     ![dashboard com bloco selecionado](./media/end-user-report-open/power-bi-dashboard.png)
 
@@ -94,5 +105,6 @@ Conforme você ficar mais familiarizado com a navegação no serviço do Power B
 - e muito mais
 
 ## <a name="next-steps"></a>Próximas etapas
-[Abrir e exibir um dashboard](end-user-dashboard-open.md)
+[Abrir e exibir um painel](end-user-dashboard-open.md)    
+[Filtros de relatório](end-user-report-filter.md)
 

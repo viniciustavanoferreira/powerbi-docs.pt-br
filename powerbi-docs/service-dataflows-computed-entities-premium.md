@@ -85,8 +85,8 @@ Este artigo descreveu entidades e fluxos de dados computacionais disponíveis no
 
 * [Preparação de dados de autoatendimento com fluxos de dados](service-dataflows-overview.md)
 * [Criação e uso de fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Usando fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
-* [Recursos do desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
+* [Como usar fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
+* [Recursos de desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 * [Definir configurações de fluxo de dados de workspace (versão prévia)](service-dataflows-configure-workspace-storage-settings.md)
 * [Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (versão prévia)](service-dataflows-add-cdm-folder.md)
 * [Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)](service-dataflows-connect-azure-data-lake-storage-gen2.md)

@@ -11,7 +11,7 @@ ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976718"
@@ -29,8 +29,8 @@ Em uma topologia de quatro servidores do Servidor de Relatórios do Power BI e c
 
 | Carga de trabalho | 8 núcleos/32 GB de RAM | 16 núcleos/64 GB de RAM |
 | --- | --- | --- |
-| **Intensa de Relatório do Power BI** (>60%) |1.000 usuários |3.000 usuários |
-| **Intensa de Relatório Paginado (RDL)** (>60%) |2.000 usuários |3.200 usuários |
+| **Intensa de Relatório do Power BI** (>60%) |1\.000 usuários |3\.000 usuários |
+| **Intensa de Relatório Paginado (RDL)** (>60%) |2\.000 usuários |3\.200 usuários |
 
 Em cada execução, o recurso mais sobrecarregado foi a CPU. Devido a isso, o aumento do número de núcleos no Servidor de Relatórios do Power BI gerará um ganho maior na confiabilidade do sistema do que o aumento da quantidade de memória ou de espaço em disco rígido. 
 
@@ -86,8 +86,8 @@ Na Microsoft, temos uma implantação de produção do Servidor de Relatórios d
 
 | Carga de trabalho | 8 núcleos/32 GB | 16 núcleos/64 GB |
 | --- | --- | --- |
-| **Intensa de Relatório do Power BI** |1.000 usuários |3.000 usuários |
-| **Intensa de Relatório Paginado** |2.000 usuários |3.200 usuários |
+| **Intensa de Relatório do Power BI** |1\.000 usuários |3\.000 usuários |
+| **Intensa de Relatório Paginado** |2\.000 usuários |3\.200 usuários |
 
 ### <a name="view-results"></a>Exibir os resultados
 Selecione um relatório para exibir os resultados do teste de carga.

@@ -162,9 +162,9 @@ Pode haver ocasiões em que a conexão a fontes de dados para fluxos de dados ap
 Este artigo descreveu como criar seu próprio **fluxo de dados**, bem como um conjunto de dados e relatório no **Power BI Desktop** para tirar proveito dele. Os artigos a seguir são úteis para ver cenários e obter mais informações ao usar fluxos de dados:
 
 * [Preparação de dados de autoatendimento com fluxos de dados](service-dataflows-overview.md)
-* [Usando entidades computadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [Usando fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
-* [Recursos do desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
+* [Como usar entidades computadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Como usar fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
+* [Recursos de desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 * [Integração entre fluxos de dados e o Azure Data Lake (versão prévia)](service-dataflows-azure-data-lake-integration.md)
 
 Leia este artigo de visão geral para saber mais sobre o Common Data Service:

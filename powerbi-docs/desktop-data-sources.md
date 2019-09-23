@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560875"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142274"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 O Power BI Desktop permite se conectar a dados de várias fontes diferentes. Veja uma lista completa das fontes de dados disponíveis na parte inferior desta página.
@@ -188,11 +188,11 @@ A categoria **Outros** fornece as seguintes conexões de dados:
 * HDFS (Arquivo do Hadoop)
 * Spark
 * Script do R
-* Script Python
+* Script do Python
 * ODBC
 * OLE DB
 * BI360 – Relatórios Financeiros e Orçamento (Beta)
-* Denado
+* Denodo
 * Grade de Informações (Beta)
 * Paxata 
 * QubolePresto (Beta)

@@ -12,7 +12,7 @@ ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61276367"
@@ -95,7 +95,7 @@ O mapa preenchido pode usar estatísticas ou limites dinâmicos. O Power BI tent
 
 ### <a name="kpi"></a>KPI
 - Eixo da tendência
-- 3.500 inferiores
+- 3\.500 inferiores
 
 ### <a name="line-chart"></a>Gráfico de linhas
 Confira [Como funciona a amostragem de linhas](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)

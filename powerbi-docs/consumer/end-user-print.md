@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/13/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 02aed3d69ee5d6ce344138a57853bd0b2a06036b
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608557"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100185"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Impressão no serviço do Power BI
 Imprima um dashboard inteiro, um bloco do dashboard, uma página de relatório ou um visual de relatório no serviço do Power BI. Relatórios podem ser impressos somente com uma página por vez – não é possível imprimir o relatório inteiro ao mesmo tempo.
@@ -34,7 +33,7 @@ Imprima um dashboard inteiro, um bloco do dashboard, uma página de relatório o
    
 
    
-    ![caixa de diálogo imprimir](./media/end-user-print/pbi_print_dash_new2.png)
+    ![caixa de diálogo imprimir](./media/end-user-print/power-bi-print-dash.png)
 
 ## <a name="print-a-dashboard-tile"></a>Imprimir um bloco do dashboard
 1. Abra o dashboard no [modo de tela inteira](end-user-focus.md) selecionando o ícone de tela inteira ![ícone de tela inteira](./media/end-user-print/power-bi-full-screen-icon.png) na barra de menus superior.

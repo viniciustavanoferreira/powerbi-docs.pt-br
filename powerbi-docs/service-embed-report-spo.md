@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: ec70f4c9d6f3e6f51210a32f7efac7f160f462cb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498015"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073607"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Inserir com Web Part de Relatório no SharePoint Online
 
@@ -157,7 +157,7 @@ Os usuários que exibem um relatório no SharePoint precisam de uma **licença d
 
 * O Power BI não dá suporte aos mesmos idiomas localizados que o SharePoint Online. Como resultado, você não verá a localização correta no relatório inserido.
 
-* Você pode encontrar problemas se usar o Internet Explorer 10. Você pode examinar o [suporte dos navegadores para o Power BI](consumer/end-user-browsers.md) e para o [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
+* Você pode encontrar problemas se usar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * A Web part do Power BI não está disponível para [nuvens nacionais](https://powerbi.microsoft.com/clouds/).
 

@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/13/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ea81f7c264e4329ae29bb71e0fa8b038604504a1
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b2d658daade3ab1aa2a1c09dc33c0e7d48636910
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608395"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141510"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Aceitar a versão prévia dos recursos do serviço do Power BI
 ## <a name="what-are-preview-features"></a>O que é a *versão prévia dos recursos*?
@@ -30,7 +29,7 @@ ms.locfileid: "65608395"
    ![Menu Configurações](./media/end-user-preview-features/power-bi-settings.png).
 2. Selecione a guia **Geral**. Se existirem visualizações, você verá uma opção para **Visualizar recursos** ou você verá um recurso de visualização listado à esquerda.  Neste exemplo, há uma visualização listada para Mapas ArcGIS. 
    
-   ![Guia Geral](./media/end-user-preview-features/power-bi-preview-arcgis.png)
+   ![Guia Geral](./media/end-user-preview-features/power-bi-preview-esri.png)
 3. Selecione o botão de opção **Ativar** ou marque a caixa de seleção para experimentar a nova experiência. Em seguida, selecione **Aplicar**.
 4. Para desligar a versão prévia dos recursos, siga as etapas 1 a 3 acima e, na etapa 3, escolha **Desativado** ou remova a marca de seleção e selecione **Aplicar**.
 

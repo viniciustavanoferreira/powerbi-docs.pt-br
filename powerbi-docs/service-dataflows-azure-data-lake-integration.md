@@ -84,9 +84,9 @@ Para saber mais sobre fluxos de dados, CDM e o Azure Data Lake Storage Gen2, con
 Para saber mais sobre fluxos de dados em geral, confira estes artigos:
 
 * [Criação e uso de fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Usando entidades computadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [Usando fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
-* [Recursos do desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
+* [Como usar entidades computadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Como usar fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
+* [Recursos de desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Para saber mais sobre o armazenamento do Azure, você pode ler estes artigos:
 * [Guia de segurança do Armazenamento do Microsoft Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

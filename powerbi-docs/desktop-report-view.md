@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514622"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142202"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Exibição de Relatório no Power BI Desktop
 Se você já trabalhou com o Power BI, você sabe como é fácil criar relatórios que fornecem ideias e perspectivas dinâmicas sobre seus dados. O Power BI também conta com recursos mais avançados no Power BI Desktop. Com o Power BI Desktop, você pode criar consultas avançadas, efetuar mashup de dados provenientes de várias fontes, criar relações entre tabelas e muito mais.
@@ -61,9 +61,11 @@ Você pode usar um elemento visual de um relatório do Power BI Desktop em outro
 
 A capacidade de copiar e colar elementos visuais é útil para pessoas que criam e atualizam vários relatórios frequentemente. Ao copiar entre arquivos, as configurações e formatação definidas explicitamente no painel de formatação serão utilizadas, enquanto os elementos visuais que dependem do tema ou das configurações padrão são atualizados automaticamente de acordo com o tema do relatório de destino. Portanto, quando você consegue deixar a formatação do visual exatamente como quer, pode copiar e colar esse visual em novos relatórios e preservar todo o trabalho de formatação.
 
-![Erro ao copiar/colar o visual – nenhum campo de dados](media/desktop-report-view/report-view_05.png)
+Se os campos do modelo forem diferentes, você verá um erro no visual e um aviso sobre quais campos não existem. O erro é semelhante à experiência exibida ao excluir um campo no modelo usado por um visual. 
 
-Se os campos do modelo forem diferentes, você verá um erro no visual e um aviso sobre quais campos não existem. O erro é semelhante à experiência exibida ao excluir um campo no modelo usado por um visual. Para corrigir o erro, basta substituir os campos inválidos pelos campos que você deseja usar do modelo do relatório no qual você colou o visual. Se você estiver usando um visual personalizado, também deverá importar esse visual personalizado para o relatório de destino.
+![Erro ao copiar/colar o visual – nenhum campo de dados](media/desktop-report-view/report-view_07.png)
+
+Para corrigir o erro, basta substituir os campos inválidos pelos campos que você deseja usar do modelo do relatório no qual você colou o visual. Se você estiver usando um visual personalizado, também deverá importar esse visual personalizado para o relatório de destino.
 
 
 

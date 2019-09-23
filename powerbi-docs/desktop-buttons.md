@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9d884df7fdfa6d0f16e7963c00a1100186d70546
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239508"
@@ -42,7 +42,7 @@ Os seguintes cartões no painel **Visualizações** permitem que você ajuste a 
 * Texto do botão
 * Ícone
 * Contorno
-* Preencher
+* Preenchimento
 
 Para selecionar como o botão deve ser exibido para cada estado, expanda um dos cartões e selecione na lista suspensa que aparece na parte superior do cartão. Na imagem a seguir, você vê o cartão **Contorno** expandido, com a lista suspensa selecionada para mostrar os três estados:
 

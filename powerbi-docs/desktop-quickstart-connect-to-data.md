@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514449"

@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730216"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164534"
 ---
 # <a name="manage-data-sources"></a>Gerenciar fontes de dados
 
@@ -123,9 +123,9 @@ O gateway de dados local é compatível com as seguintes fontes de dados para Po
 | **Fonte de dados** | **Live/DirectQuery** | **Atualização manual ou agendada (configurada pelo usuário)** |
 | --- | --- | --- |
 | Amazon Redshift |Sim |Sim |
+| Analysis Services |Sim |Sim |
 | Cubos do AtScale |Sim |Sim |
 | Azure Active Directory |Não |Sim |
-| Azure Analysis Services |Sim |Sim |
 | Armazenamento de Blobs do Azure |Não |Sim |
 | Azure DevOps Server |Não |Sim |
 | Armazenamento de Tabelas do Azure |Não |Sim |

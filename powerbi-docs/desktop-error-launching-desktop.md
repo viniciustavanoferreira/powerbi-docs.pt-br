@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 19dc98b4f402176b2ae511236015ea25d7e4178b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454421"

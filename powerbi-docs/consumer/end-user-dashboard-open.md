@@ -3,20 +3,19 @@ title: Exibir um painel do Power BI
 description: Painéis são um recurso importante do serviço do Power BI. Saiba como abrir e exibir um painel.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b8d604b8872bae14bc2ffeeb16b56b1b3a98e056
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608445"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141375"
 ---
 # <a name="view-a-dashboard"></a>Exibir um dashboard
 Os *consumidores* do Power BI gastam muito tempo exibindo dashboards. Os dashboards são projetados para realçar as informações específicas de relatórios e conjuntos de dados subjacentes. E os consumidores de Power BI usam essas informações para acompanhamento, monitoramento, responder perguntas, testes e muito mais para tomar decisões de negócios controladas por dados.
@@ -39,7 +38,7 @@ O Power BI Pro é necessário para compartilhar dashboards e para exibir dashboa
 
 Você pode encontrar os dashboards em todos os contêineres na barra de navegação à esquerda. 
 
-![ícone de dashboard](media/end-user-dashboard-open/opendash.gif)
+![ícone de dashboard](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **Página Inicial** 
 - **Favoritos** – se tiver [definido um dashboard como favorito](end-user-favorite.md)

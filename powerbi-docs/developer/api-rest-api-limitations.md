@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 6699167cecebea5085eff4621c077096fd4c6c2e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61385133"
@@ -29,7 +29,7 @@ ms.locfileid: "61385133"
 * Se a tabela tem 250.000 ou mais linhas, 120 solicitações de linhas POST por hora por conjunto de dados
 * Máximo de 200 mil linhas armazenadas por tabelas no conjunto de dados PEPS
 * Máximo de cinco mil linhas armazenadas por tabela no conjunto de dados “sem política de retenção”  
-* 4.000 caracteres por valor para coluna de cadeia de caracteres na operação de linhas POST
+* 4\.000 caracteres por valor para coluna de cadeia de caracteres na operação de linhas POST
   
 ## <a name="see-also"></a>Consulte também
 

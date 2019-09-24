@@ -9,24 +9,24 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: c0cc6b19e69ebe6400d25b77c15cf577d765c415
-ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
-ms.translationtype: HT
+ms.openlocfilehash: d1289a3e030f0a93c5c2ce3b68b7cf92c378a7e0
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "65201168"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194775"
 ---
 # <a name="whitepapers-for-power-bi"></a>White papers para o Power BI
 
 White papers permitem que você explore os tópicos do Power BI em um nível mais profundo. Aqui você pode encontrar uma lista de white papers disponíveis para o Power BI.
 
-| White paper | Descrição | Data |
+| White paper | Descrição | Date |
 | --- | --- | --- |
+| [Planejando uma implantação do Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |Este white paper técnico descreve as considerações para uma implantação organizacional segura e com bom desempenho do Power BI. | Julho de 2018 |
 | [Os fluxos de dados e o Power BI](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Este white paper descreve em detalhes técnicos os fluxos de dados e as funcionalidades e iniciativas por trás dos recursos e funções dos fluxo de dados. | Novembro de 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Descreve o Power BI Premium, tanto como ele é quando lançado quanto como ele evoluirá. | Outubro de 2017 |
 | [Planejamento e Implantação do Power BI Premium](whitepaper-powerbi-premium-deployment.md)| Este documento fornece diretrizes e as melhores práticas para o planejamento e a implantação da capacidade premium para cargas de trabalho bem definidas.| Março de 2019 |
 | [Planejar a capacidade para análise inserida com o Power BI Premium](https://aka.ms/pbiewhitepaper) |Este documento fornece orientações para o desenvolvedor de aplicativos/ISV determinar a capacidade mais apropriada para seu negócio. | Outubro de 2017 |
-| [Planejando uma implantação do Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |Este white paper técnico descreve as considerações para uma implantação organizacional segura e com bom desempenho do Power BI. | Julho de 2018 |
 | [Diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI](report-server/capacity-planning.md) |Este documento tem como objetivo oferecer diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI, com o compartilhamento de resultados de diversas execuções de teste de carga de várias cargas de trabalho em um servidor de relatório. | Março de 2018 |
 | [Segurança](service-admin-power-bi-security.md) |Fornece uma explicação detalhada de segurança no Power BI. | Março de 2019 |
 | [Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md)|Este documento explica como distribuir conteúdos para os usuários de fora da organização usando a integração do Azure Active Directory Business-to-business (AAD B2B).| Março de 2019 |
@@ -35,7 +35,6 @@ White papers permitem que você explore os tópicos do Power BI em um nível mai
 | [Filtragem bidirecional](desktop-bidirectional-filtering.md) |Explica a filtragem cruzada bidirecional no Power BI Desktop (o white paper também aborda o SQL Server Analysis Services 2016, pois ambos têm o mesmo comportamento). | Julho de 2018 |
 | [DirectQuery no SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |Para SQL Server 2016, o DirectQuery foi reprojetado para melhorar consideravelmente a velocidade e o desempenho, no entanto, agora está também mais complexo de compreender e implementar. | Janeiro de 2017 |
 | [Power BI e SAP BW](https://aka.ms/powerbiandsapbw)| Este documento descreve como os clientes da SAP podem se beneficiar conectando o Power BI aos sistemas SAP BW (Business Warehouse) existentes deles.| Fevereiro de 2018 |
-| [Abordagens de implantação e governança do Power BI](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | Fornece conceitos, opções e sugestões para governança no ecossistema do Power BI. | Março de 2016 |
 | [Protegendo o modelo semântico de BI tabular](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Este documento apresenta o modelo de segurança para a semântica de BI tabular e Power BI. Você aprenderá como criar funções, implementar a segurança dinâmica, definir configurações de representação, gerenciar funções e escolher um método para se conectar a modelos que funciona no contexto da segurança de rede. | Abril de 2016 |
 | [Power BI e GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Este link leva você até a lista de white papers no Portal de Confiança do Serviço, incluindo o white paper sobre o RGPD do Microsoft Power BI. | Abril de 2018 |
 

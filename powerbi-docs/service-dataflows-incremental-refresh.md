@@ -33,7 +33,7 @@ O uso da atualização incremental para os fluxos de dados do Power BI requer qu
 
 Um fluxo de dados pode conter várias entidades. A atualização incremental é configurada no nível da entidade, permitindo que um fluxo de dados armazene entidades totalmente atualizadas e entidades atualizadas incrementalmente.
 
-Para configurar uma entidade incremental atualizada, comece configurando a entidade como faria com qualquer outra. Saiba mais sobre como configurar o fluxo de dados em [Preparação de dados de autoatendimento no Power BI](service-dataflows-overview.md).
+Para configurar uma entidade incremental atualizada, comece configurando a entidade como faria com qualquer outra. Para saber mais sobre como configurar o fluxo de dados, leia o artigo [Preparação de dados de autoatendimento no Power BI](service-dataflows-overview.md).
 
 Após o fluxo de dados ser criado e salvo, selecione o ícone da **atualização incremental** na exibição de entidade, conforme mostrado na imagem a seguir:
 
@@ -96,7 +96,7 @@ Ao mover um fluxo de dados de uma atualização incremental para completa, todos
 
 ## <a name="dataflow-incremental-refresh-and-datasets"></a>Conjuntos de dados e fluxo de dados de atualização incremental
 
-A atualização incremental do fluxo de dados e a do conjunto de dados foram desenvolvidas para trabalhar em conjunto. Há compatibilidade e é aceitável ter uma entidade de atualização incremental em um fluxo de dados, totalmente carregada em um conjunto de dados, ou uma entidade totalmente carregada em um fluxo de dados incrementalmente carregado para um conjunto de dados. 
+A atualização incremental do fluxo de dados e a do conjunto de dados foram desenvolvidas para trabalhar em conjunto. Há permissão e suporte para uma entidade de atualização incremental em um fluxo de dados, totalmente carregada em um conjunto de dados, ou uma entidade totalmente carregada em um fluxo de dados carregado de modo incremental para um conjunto de dados. 
 
 Ambas as abordagens de acordo com as definições especificadas por você nas configurações de atualização.
 Leia mais sobre a atualização incremental em [atualização incremental no Power BI Premium](service-premium-incremental-refresh.md).

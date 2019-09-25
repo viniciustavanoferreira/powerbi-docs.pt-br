@@ -1,5 +1,5 @@
 ---
-title: Adicionar imagens, vídeos e muito mais ao seu dashboard
+title: Adicionar imagens, vídeos e outros elementos a seu dashboard
 description: Documentação de como usar o widget Adicionar bloco para adicionar uma imagem, um vídeo, uma caixa de texto, um código da Web e um bloco de dados de streaming em um dashboard.
 author: maggiesMSFT
 manager: kfile
@@ -18,9 +18,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/06/2019
 ms.locfileid: "68832578"
 ---
-# <a name="add-images-videos-and-more-to-your-dashboard"></a>Adicionar imagens, vídeos e muito mais ao seu dashboard
+# <a name="add-images-videos-and-more-to-your-dashboard"></a>Adicionar imagens, vídeos e outros elementos a seu dashboard
 
-Adicionando blocos ao seu dashboard, você pode colocar imagens, caixas de texto, vídeos, fluxos de dados ou códigos da Web no dashboard. 
+Adicione blocos a seu dashboard para incluir imagens, caixas de texto, vídeos, dados de streaming ou códigos da Web. 
 
 Veja Amanda adicionar blocos a um dashboard.
 
@@ -31,7 +31,7 @@ Veja Amanda adicionar blocos a um dashboard.
 ## <a name="add-an-image-video-or-other-tile"></a>Adicionar uma imagem, um vídeo ou outro bloco
 Você pode adicionar uma imagem, uma caixa de texto, um vídeo, dados de streaming ou código da Web diretamente ao seu dashboard.
 
-1. Selecione **Adicionar bloco** na barra de menus superior do dashboard. Dependendo das limitações de espaço, você poderá ver apenas o sinal de adição ![sinal de adição](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
+1. Selecione **Adicionar bloco** na barra de menus superior do dashboard. Dependendo das limitações de espaço, talvez você veja apenas o sinal de adição sinal de adição.
    
     ![Ícone Adicionar bloco](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
 2. Selecione o tipo de bloco para adicionar: 
@@ -49,7 +49,7 @@ Você pode adicionar uma imagem, uma caixa de texto, um vídeo, dados de streami
     ![Janela Adicionar bloco](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Adicionar uma imagem
-Se quiser adicionar o logotipo de sua empresa ou alguma outra imagem ao dashboard, salve o arquivo de imagem online e vincule a ele. Certifique-se de que não sejam necessárias credenciais de segurança para acessar o arquivo de imagem. Por exemplo, como o OneDrive e o SharePoint exigem autenticação, as imagens armazenadas lá não podem ser adicionadas a um dashboard dessa maneira.  
+Caso queira adicionar o logotipo da sua empresa ou outra imagem, salve o arquivo de imagem online e vincule-o ao dashboard. Certifique-se de que não sejam necessárias credenciais de segurança para acessar o arquivo de imagem. Por exemplo, como o OneDrive e o SharePoint exigem autenticação, as imagens armazenadas lá não podem ser adicionadas a um dashboard dessa maneira.  
 
 1. Na janela **Adicionar bloco**, selecione **Imagem** > **Avançar**.
 
@@ -83,7 +83,7 @@ Para adicionar um título de dashboard, digite o título na caixa de texto e aum
 
    b. Insira e formate o **Conteúdo** da caixa de texto.  
 
-   c. Opcionalmente, defina um link personalizado para o título. Um link personalizado pode ser um site externo ou um painel ou relatório no workspace. No entanto, nesse exemplo, adicionamos hiperlinks na própria caixa de texto e deixaremos a opção **Definir link personalizado** desmarcada.
+   c. Opcionalmente, defina um link personalizado para o título. Um link personalizado pode ser um site externo ou um painel ou relatório no workspace. No entanto, neste exemplo, como adicionamos hiperlinks na própria caixa de texto, deixaremos desmarcada a opção **Definir link personalizado**.
 
    d. Selecione **Aplicar**. 
 
@@ -99,11 +99,11 @@ Quando você adiciona um bloco de vídeo do YouTube ou Vimeo a seu painel, o ví
 1. Na janela **Adicionar bloco**, selecione **Vídeo** > **Avançar**.
 2. Adicione informações sobre o vídeo na janela **Adicionar bloco de vídeo**:   
    
-   a. Para exibir um título e um subtítulo na parte superior do bloco de vídeo, selecione **Exibir título e subtítulo** e insira um **Título** e um **Subtítulo** opcional. Neste exemplo, vamos adicionar um **Subtítulo** e, em seguida, convertê-lo em um hiperlink para a playlist inteira no YouTube.
+   a. Para exibir um título e um subtítulo na parte superior do bloco de vídeo, selecione **Exibir título e subtítulo** e insira um **Título** e um **Subtítulo** opcional. Neste exemplo, adicionaremos um **Subtítulo** e o converteremos em um hiperlink para a playlist inteira no YouTube.
 
    b. Insira a **URL do Vídeo**.
 
-   c. Adicione um hiperlink para o **Título** e o **Subtítulo**, para que seus colegas possam exibir toda a playlist no YouTube depois de assistirem ao vídeo inserido. Para fazer isso, em **Funcionalidade**, selecione **Definir link personalizado** e, em seguida, insira a **URL** para a playlist.
+   c. Adicione um hiperlink ao **Título** e ao **Subtítulo**, para que seus colegas possam ver a playlist inteira no YouTube depois de assistirem ao vídeo inserido. Para fazer isso, em **Funcionalidade**, selecione **Definir link personalizado** e, em seguida, insira a **URL** para a playlist.
 
    d. Selecione **Aplicar**.  
 
@@ -126,16 +126,16 @@ Você pode usar o PubNub para adicionar dados de streaming, como feeds do Twitte
 1. Na janela **Adicionar bloco**, selecione **Dados de Streaming Personalizados** > **Avançar**.
 2. Selecione **Adicionar conjunto de dados de streaming**.
 3. Crie um **Novo conjunto de dados de streaming** usando a API do Power BI ou o PubNub.
-4. Preencha os campos **Nome do conjunto de dados**, **Chave de assinatura** e **Nome do canal**. Se for uma conexão segura, ela também terá uma chave de autorização. Você pode usar os valores de exemplo do PubNub para experimentar.
+4. Preencha os campos **Nome do conjunto de dados**, **Chave de assinatura** e **Nome do canal**. Se for uma conexão segura, ela também terá uma chave de autorização. Você pode usar os valores de exemplo para experimentar o PubNub.
 5. Selecione **Avançar**.
-    Você vê os campos que estão disponíveis no conjunto de dados, com os tipos de dado e o formato JSON.
+    Você vê os campos que estão disponíveis no conjunto de dados, com os tipos de dados e o formato JSON.
 6. Selecione **Conectar**.
     Você criou um conjunto de dados de streaming.
 7. Volte para o dashboard e, mais uma vez, selecione **Adicionar bloco** > **Dados de Streaming Personalizados** > **Avançar**.
-8. Selecione o conjunto de dados de sensor que você criou > **Avançar**.
+8. Selecione o conjunto de dados de sensor que você criou, em seguida, clique em **Avançar**.
 9. Selecione o tipo de visual desejado. Geralmente, gráficos de linhas funcionam bem para esses dados.
 10. Selecione o **Eixo**, a **Legenda** e os **Valores**.
-11. Decida o período que deseja exibir, em segundos, minutos ou horas.
+11. Decida o período para exibição dos dados: segundos, minutos ou horas.
 12. Selecione **Avançar**.
 13. Forneça um **Título** e um **Subtítulo**, se desejar.
 14. Fixe-o ao seu dashboard.
@@ -147,11 +147,11 @@ Você pode usar o PubNub para adicionar dados de streaming, como feeds do Twitte
 
 3. Crie um **Novo conjunto de dados de streaming** usando a API do Power BI ou o PubNub.
 
-4. Preencha os campos **Nome do conjunto de dados**, **Chave de assinatura** e **Nome do canal**. Se for uma conexão segura, ela também terá uma chave de autorização. Você pode usar os valores de exemplo do PubNub para experimentar.
+4. Preencha os campos **Nome do conjunto de dados**, **Chave de assinatura** e **Nome do canal**. Se for uma conexão segura, ela também terá uma chave de autorização. Você pode usar os valores de exemplo para experimentar o PubNub.
 
 5. Selecione **Avançar**.
 
-   Você vê os campos que estão disponíveis no conjunto de dados, com os tipos de dado e o formato JSON.
+   Você vê os campos que estão disponíveis no conjunto de dados, com os tipos de dados e o formato JSON.
 
 6. Selecione **Conectar**.
 
@@ -159,13 +159,13 @@ Você pode usar o PubNub para adicionar dados de streaming, como feeds do Twitte
 
 7. Volte para o dashboard e, mais uma vez, selecione **Adicionar bloco** > **Dados de Streaming Personalizados** > **Avançar**.
 
-8. Selecione o conjunto de dados de sensor que você criou > **Avançar**.
+8. Selecione o conjunto de dados de sensor que você criou, em seguida, clique em **Avançar**.
 
 9. Selecione o tipo de visual desejado. Geralmente, gráficos de linhas funcionam bem para esses dados.
 
 10. Selecione o **Eixo**, a **Legenda** e os **Valores**.
 
-11. Decida o período que deseja exibir, em segundos, minutos ou horas.
+11. Decida o período para exibição dos dados: segundos, minutos ou horas.
 
 12. Selecione **Avançar**.
 
@@ -174,7 +174,7 @@ Você pode usar o PubNub para adicionar dados de streaming, como feeds do Twitte
 14. Fixe-o ao seu dashboard.
 
 ## <a name="add-web-content"></a>Adicionar conteúdo da Web
-Você pode colar ou digitar qualquer conteúdo HTML, como um bloco, para seu relatório ou dashboard. Insira o código de inserção manualmente ou copie/cole de sites como o Twitter, o YouTube, o embed.ly e assim por diante.
+Você pode colar ou digitar qualquer conteúdo HTML, como um bloco, em seu relatório ou dashboard. Insira o código de inserção manualmente ou obtenha a URL de sites como: Twitter, YouTube, embed.ly etc.
 
 1. Na janela **Adicionar bloco**, selecione **Conteúdo da Web** > **Avançar**.
 
@@ -232,7 +232,7 @@ Você pode colar ou digitar qualquer conteúdo HTML, como um bloco, para seu rel
 ## <a name="edit-a-tile"></a>Editar um bloco
 Para fazer alterações em um bloco existente:
 
-1. Passe o mouse sobre o canto superior direito do bloco e selecione as reticências (...).
+1. Posicione o cursor sobre o canto superior direito do bloco e clique em (...).
    
     ![selecionar reticências do bloco](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Selecione **Editar detalhes** para exibir a janela **Detalhes do bloco** e fazer alterações.
@@ -241,7 +241,7 @@ Para fazer alterações em um bloco existente:
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 * Para facilitar ainda mais a movimentação do bloco em seu dashboard, adicione um título e um subtítulo opcional.
-* Se você quiser inserir conteúdo de um site, mas ele não fornecer o código de inserção para copiar e colar, confira embed.ly para obter ajuda sobre a geração do código de inserção.
+* Se você quiser inserir conteúdo de um site, mas ele não disponibilizar o código de inserção para cópia, acesse embed.ly para obter ajuda sobre a geração do código de inserção.
 
 ## <a name="next-steps"></a>Próximas etapas
 [Introdução aos blocos de dashboard para designers do Power BI](service-dashboard-tiles.md)

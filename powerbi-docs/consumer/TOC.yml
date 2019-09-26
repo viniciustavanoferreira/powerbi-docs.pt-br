@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: Ativar as versões prévias dos recursos
               href: end-user-preview-features.md
+            - name: Receber notificações no serviço do Power BI
+              href: end-user-notification-center.md
         - name: Obter dados
           items:
             - name: Aplicativos no Power BI

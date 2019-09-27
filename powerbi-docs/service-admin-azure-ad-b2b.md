@@ -139,4 +139,4 @@ Para ajudar esses usuários a entrar no Power BI, forneça a eles a URL do locat
 
 Para obter mais informações, inclusive sobre o funcionamento da segurança de linha, confira o white paper: [Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B](https://aka.ms/powerbi-b2b-whitepaper).
 
-Para saber mais sobre o Azure AD B2B, confira [O que é a colaboração do Azure AD B2B?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/).
+Para saber mais sobre o Azure AD B2B, confira [O que é o acesso de usuários convidados na colaboração B2B do Azure Active Directory?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/).

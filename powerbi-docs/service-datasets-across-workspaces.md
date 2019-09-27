@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/16/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 258dd735c5ba97122d9e93f888e65cf2030f01eb
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530469"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074119"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introdução ao uso de conjuntos de dados entre workspaces (versão prévia)
 
@@ -55,6 +55,7 @@ Se você cria conjuntos de dados, quando criar um com o qual outras pessoas poss
 Os recursos específicos e as experiências criadas com base nas funcionalidades do conjunto de dados compartilhado são licenciados de acordo com os cenários existentes. Por exemplo:
 
 - Em geral, a descoberta e a conexão a conjuntos de dados compartilhados estão disponíveis para qualquer pessoa. No entanto, os usuários sem uma licença Pro só podem se conectar aos conjuntos de dados que residem no Meu Workspace pessoal.
+- Os usuários sem uma licença Pro só podem consumir relatórios e painéis criados em um conjunto de dados compartilhado se ambos os espaços de trabalho (aquele que mantém o conteúdo e aquele que contém o conjunto de dados) estiverem hospedados em uma capacidade Premium.
 - No Power BI Desktop, usuários sem uma licença Pro só podem ver conjuntos de dados de sua área Meu Workspace.
 - Copiar relatórios entre workspaces requer uma licença Pro.
 - A cópia de relatórios por meio de um aplicativo exige uma licença Pro, como era necessário para pacotes de conteúdo organizacional.
@@ -66,7 +67,7 @@ Os recursos específicos e as experiências criadas com base nas funcionalidades
 - Digamos que você crie um relatório no Workspace A que se baseia em um conjunto de dados no Workspace B. Ao criar um aplicativo para o Workspace A, você só poderá incluir esse relatório no aplicativo do Workspace A se você também for membro do Workspace B.
 - Em um workspace clássico, a experiência de descoberta de conjunto de dados mostra apenas os conjuntos de dados desse workspace.
 - Caso você deseje adicionar um relatório com base em um conjunto de dados compartilhado a um aplicativo, você precisará ser membro do workspace do conjunto de dados. Esse é um problema conhecido.
-- O recurso “Publicar na Web” não funciona para um relatório baseado em um conjunto de dados compartilhado. Isso ocorre por design.
+- Por design, o recurso "Publicar na Web" não funciona em relatórios baseados em conjuntos de dados compartilhados.
 - Se duas pessoas forem membros de um workspace que acessa um conjunto de dados compartilhado, talvez apenas uma delas veja o conjunto de dados relacionado no workspace. Somente as pessoas com, pelo menos, acesso de leitura ao conjunto de dados podem ver o conjunto de dados compartilhado. 
 
 ## <a name="next-steps"></a>Próximas etapas

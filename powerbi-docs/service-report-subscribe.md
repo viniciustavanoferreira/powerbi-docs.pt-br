@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185719"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073433"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Obtenha uma assinatura para você e outras pessoas de relatórios e dashboards no serviço do Power BI
 
@@ -56,7 +56,7 @@ Assinar relatórios paginados é um pouco diferente. Confira [Obter uma assinatu
 
 5. Selecione uma **Frequência** para sua assinatura: **Diária**, **Por Hora**, **Semanal**, **Mensal** ou **Após a atualização dos dados (Diária)** .  Para receber o email de assinatura somente em determinados dias, selecione **Por Hora** ou **Semanal** e escolha em quais dias você gostaria de recebê-lo.  Por exemplo, se você quiser receber o email de assinatura somente em dias da semana, selecione **Semanal** e desmarque as caixas de seleção **Sáb** e **Dom**.  Se você selecionar **Mensal**, insira o(s) dia(s) do mês em que deseja receber o email da assinatura.  
 
-6. Se você escolher **Diária**, **Por Hora, **Mensal** ou **Semanal**, também poderá selecionar uma **Hora Agendada** para a assinatura.  Você faz com que ela seja executada na hora exata ou após 15, 30 ou 45 minutos.  Selecione manhã (A.M.) ou tarde/noite (P.M.). Você também pode especificar o fuso horário.  Se você escolher **Por Hora**, selecione o **Horário Agendado** em que deseja que a assinatura inicie e ela será executada de hora em hora a partir de então.
+6. Se você escolher **Diária**, **Por Hora**, **Mensal** ou **Semanal**, também poderá selecionar uma **Hora Agendada** para a assinatura.  Você faz com que ela seja executada na hora exata ou após 15, 30 ou 45 minutos.  Selecione manhã (A.M.) ou tarde/noite (P.M.). Você também pode especificar o fuso horário.  Se você escolher **Por Hora**, selecione o **Horário Agendado** em que deseja que a assinatura inicie e ela será executada de hora em hora a partir de então.
 
 7. Por padrão, a data de início para a sua assinatura é a data em que você a cria. Você tem a opção de selecionar uma data de término. Se você não definir uma data de término, a data de término será definida automaticamente para um ano após a data de início. É possível alterar para qualquer data no futuro (até o ano 9999) a qualquer momento antes do término da assinatura. Quando uma assinatura atinge uma data de término, ela é interrompida até que você a habilite novamente. Você receberá notificações antes da data de término agendada, perguntando se deseja estendê-la.    
 

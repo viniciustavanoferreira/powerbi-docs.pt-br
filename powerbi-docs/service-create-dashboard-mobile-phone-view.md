@@ -1,5 +1,5 @@
 ---
-title: Otimizar um dashboard para telefones celulares – Power BI
+title: Otimizar um painel para telefones celulares – Power BI
 description: Saiba como criar uma exibição personalizada de qualquer um de seus painéis do Power BI, especificamente para exibição em celulares.
 author: maggiesMSFT
 manager: kfile
@@ -12,15 +12,15 @@ ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61158146"
 ---
-# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Otimizar um dashboard para telefones celulares – Power BI 
-Ao exibir painéis no modo retrato em um telefone, observe os blocos do painel são dispostos um após o outro, tudo com o mesmo tamanho. No serviço do Power BI, você pode criar uma exibição personalizada de um dashboard, especificamente para o modo de retrato em telefones. Mesmo se você criar uma exibição de telefone, quando você virar o telefone, você verá o painel são disposto no serviço.
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Otimizar um painel para telefones celulares – Power BI 
+Ao exibir painéis no modo retrato em um celular, observe que os blocos do painel são dispostos um após o outro, todos com o mesmo tamanho. No serviço do Power BI, você pode criar uma exibição personalizada de painel, especificamente para o modo retrato em telefones. Ao virar o telefone para os lados, você verá o painel da forma como ele está disposto no serviço, mesmo que você tenha projetado uma exibição para telefone.
 
-Você está procurando informações sobre como exibir painéis em um dispositivo móvel? Tente este início rápido [explorar painéis e relatórios nos aplicativos móveis do Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md) em vez disso.
+Procurando informações sobre como exibir painéis em um dispositivo móvel? Experimente o início rápido [Explorar painéis e relatórios nos aplicativos móveis do Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 > [!NOTE]
 > Durante a edição da exibição de telefone, qualquer pessoa que exibe o dashboard em um telefone pode ver as alterações feitas em tempo real. Por exemplo, se você desafixar todos os blocos na exibição de telefone do dashboard, de repente, o dashboard no telefone não terá nenhum bloco. 

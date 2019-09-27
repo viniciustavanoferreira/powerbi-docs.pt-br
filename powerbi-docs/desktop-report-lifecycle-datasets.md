@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160340"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164496"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop
 Você pode estabelecer uma conexão dinâmica a um conjunto de dados compartilhado no serviço do Power BI e criar vários relatórios diferentes com base no mesmo conjunto de dados. Isso significa que você pode criar seu modelo de dados perfeito no Power BI Desktop e publicá-lo no serviço do Power BI. Em seguida, você e outros usuários podem criar vários relatórios diferentes (em arquivos .pbix separados) usando esse mesmo Common Data Service e salvá-los em workspaces diferentes. Esse recurso é chamado de **conexão dinâmica do serviço do Power BI**.
@@ -74,7 +74,7 @@ Concluído o processo, o **Power BI Desktop** mostrará o sucesso da publicaçã
 
 ![Publicação bem-sucedida](media/desktop-report-lifecycle-datasets/report-lifecycle_07.png)
 
-Agora que seu relatório com o conjunto de dados está no serviço do Power BI, você também pode *promovê-lo* para atestar sua qualidade e confiabilidade. Você ainda pode solicitar que ele seja *certificado* por uma autoridade central em seu locatário do Power BI. Com um desses endossos, seu conjunto de dados sempre será exibido no tópico da lista quando as pessoas estiverem procurando por conjuntos de dados. Se estiver interessado, você poderá ler mais sobre o processo de [promoção de seu conjunto de dados](service-datasets-promote.md). 
+Agora que seu relatório com o conjunto de dados está no serviço do Power BI, você também pode *promovê-lo* para atestar sua qualidade e confiabilidade. Você ainda pode solicitar que ele seja *certificado* por uma autoridade central em seu locatário do Power BI. Com um desses endossos, seu conjunto de dados será sempre exibido no início da lista, quando as pessoas estiverem procurando conjuntos de dados. Se estiver interessado, você poderá ler mais sobre o processo de [promoção de seu conjunto de dados](service-datasets-promote.md). 
 
 A última etapa é definir a *permissão de build* para o conjunto de dados no qual o relatório se baseia. A permissão de build determina quem pode ver e usar seu conjunto de dados. Você pode defini-la no workspace ou quando você compartilha um aplicativo do workspace. Leia mais sobre como definir a [permissão de build](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 

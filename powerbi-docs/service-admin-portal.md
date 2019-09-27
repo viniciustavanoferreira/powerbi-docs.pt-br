@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 09/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655150"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175250"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -47,6 +47,7 @@ Há nove guias no portal. O restante deste artigo fornece informações sobre ca
 * [Elementos visuais da organização](#organizational-visuals)
 * [Armazenamento de fluxo de dados (versão prévia)](#dataflowStorage)
 * [Workspaces](#workspaces)
+* [Identidade visual personalizada](#custom-branding)
 
 ## <a name="usage-metrics"></a>Métricas de uso
 
@@ -59,7 +60,7 @@ Quando o painel for carregado, você verá duas seções de blocos. A primeira i
 
 Aqui está uma análise do que você verá em cada bloco:
 
-* Contagem distinta de todos os painéis, relatórios e conjuntos de dados no espaço de trabalho do usuário.
+* Contagem distinta de todos os painéis, relatórios e conjuntos de dados no workspace do usuário.
   
     ![Contagem distinta de painéis, relatórios e conjuntos de dados](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
@@ -174,13 +175,13 @@ Também é possível especificar uma URL para direcionar usuários a uma soluç�
 
 Os grupos de segurança habilitados para email receberão notificações por email se esse locatário for afetado por uma interrupção ou um incidente de serviço. Saiba mais sobre as [notificações de interrupção de serviço](service-interruption-notifications.md).
 
-## <a name="workspace-settings"></a>Configurações do espaço de trabalho
+## <a name="workspace-settings"></a>Configurações do workspace
 
-### <a name="create-workspaces"></a>Criar espaços de trabalho
+### <a name="create-workspaces"></a>Criar workspaces
 
-Os administradores usam a configuração **Criar espaços de trabalho** para indicar quais usuários na organização podem criar espaço de trabalhos de aplicativo para colaborar em painéis, relatórios e outros tipos de conteúdo. Saiba mais sobre [espaços de trabalho de aplicativo](service-create-the-new-workspaces.md).
+Os administradores usam a configuração **Criar workspaces** para indicar quais usuários na organização podem criar workspaces de aplicativo para colaborar em painéis, relatórios e outros tipos de conteúdo. Saiba mais sobre [workspaces de aplicativo](service-create-the-new-workspaces.md).
 
-O portal de administração tem outra seção de configurações sobre os espaços de trabalho em seu locatário. Nesta seção, é possível classificar e filtrar a lista de espaços de trabalho e exibir os detalhes de cada um deles. Confira [Espaços de trabalho](#workspaces) para obter detalhes.
+O portal de administração tem outra seção de configurações sobre os workspaces em seu locatário. Nesta seção, é possível classificar e filtrar a lista de workspaces e exibir os detalhes de cada um deles. Confira [Workspaces](#workspaces) para obter detalhes.
 
 No portal de administração, você também controla quais usuários têm permissões para distribuir aplicativos para a organização. Confira [Publicar pacotes de conteúdo e aplicativos para toda a organização](#publish-content-packs-and-apps-to-the-entire-organization).
 
@@ -416,7 +417,7 @@ As três configurações controlam a capacidade de aplicativos de modelo para pu
 
 ### <a name="publish-template-apps"></a>Publicar aplicativos de modelo
 
-Os usuários na organização podem criar espaços de trabalho de aplicativos de modelo. Controle quais usuários podem publicar aplicativos de modelo ou distribuí-los para clientes fora de sua organização por meio do [AppSource](https://appsource.microsoft.com) ou de outro método de distribuição.
+Os usuários na organização podem criar workspaces de aplicativos de modelo. Controle quais usuários podem publicar aplicativos de modelo ou distribuí-los para clientes fora de sua organização por meio do [AppSource](https://appsource.microsoft.com) ou de outro método de distribuição.
 
 ![Portal de administração do Power BI, configuração Criar aplicativos de modelo](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
@@ -518,11 +519,26 @@ Por padrão, os dados usados com o Power BI são armazenados no armazenamento in
 
 ## <a name="workspaces"></a>Workspaces
 
-Como administrador, você pode exibir os workspaces que existem em seu locatário. É possível classificar e filtrar a lista de workspaces e exibir os detalhes de cada um deles. As colunas da tabela correspondem às propriedades retornadas pela [API REST do administrador do Power BI](/rest/api/power-bi/admin) para espaços de trabalho. Os espaços de trabalho pessoais são do tipo **PersonalGroup**, os espaços de trabalho clássicos são do tipo **Group** e os espaços de trabalho de experiência do novo espaço de trabalho são do tipo **Workspace**. Para saber mais, confira [Criar os novos espaços de trabalho no Power BI](service-create-the-new-workspaces.md).
+Como administrador, você pode exibir os workspaces que existem em seu locatário. É possível classificar e filtrar a lista de workspaces e exibir os detalhes de cada um deles. As colunas da tabela correspondem às propriedades retornadas pela [API REST do administrador do Power BI](/rest/api/power-bi/admin) para workspaces. Os espaços de trabalho pessoais são do tipo **PersonalGroup**, os espaços de trabalho clássicos são do tipo **Group** e os espaços de trabalho de experiência do novo espaço de trabalho são do tipo **Workspace**. Para saber mais, confira [Criar os novos workspaces no Power BI](service-create-the-new-workspaces.md).
 
 ![Lista de workspaces](media/service-admin-portal/workspaces-list.png)
 
+## <a name="custom-branding"></a>Identidade visual personalizada
 
+Como administrador, você pode personalizar a aparência do Power BI para toda a organização. Atualmente, há três opções principais:
+
+![Opções de identidade visual personalizada](media/service-admin-portal/power-bi-custom-branding.png)
+
+* **Carregar logotipo**: para obter melhores resultados, carregue um logotipo salvo como .png de 10 KB ou menor, e com pelo menos 200 x 30 pixels.
+
+* **Carregar imagem de capa**: para obter melhores resultados, carregue uma imagem de capa salva como .jpg ou .png de 1 MB ou menor, e com pelo menos 1920 x 160 pixels.
+
+* **Selecionar cores do tema**: você pode selecionar o tema com base em um hexadecimal #, RGB, valor ou palete fornecido.
+
+
+Para saber mais, confira o tópico [Personalizar a identidade visual da organização](http://aka.ms/orgBranding).
+
+![Lista de workspaces](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Próximas etapas
 
 [Administração do Power BI em sua organização](service-admin-administering-power-bi-in-your-organization.md)  

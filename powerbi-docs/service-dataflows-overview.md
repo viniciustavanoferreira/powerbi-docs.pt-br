@@ -108,10 +108,10 @@ Ao armazenarem dados comerciais no formato padronizado do **Common Data Service*
 Este artigo ofereceu uma visão geral da preparação de dados de autoatendimento para big data no Power BI e muitas maneiras de utilizá-la. Os artigos a seguir oferecem mais detalhes sobre cenários de uso comuns para fluxos de dados. 
 
 * [Criação e uso de fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Usando entidades computadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [Usando fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
-* [Recursos do desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
-* [Integração de fluxos de dados e o Azure Data Lake](service-dataflows-azure-data-lake-integration.md)
+* [Como usar entidades computadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Como usar fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
+* [Recursos de desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
+* [Integração entre fluxos de dados e o Azure Data Lake](service-dataflows-azure-data-lake-integration.md)
 
 Confira mais informações sobre o Power Query e a atualização agendada nestes artigos:
 * [Visão geral da Consulta no Power BI Desktop](desktop-query-overview.md)

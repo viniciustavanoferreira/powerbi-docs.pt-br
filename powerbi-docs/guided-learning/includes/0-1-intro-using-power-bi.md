@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 1c000b2bfce4b6eeaa40b1a641321a20cea49d13
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051080"
@@ -17,7 +17,7 @@ Conforme Will explica as várias coisas que você pode fazer com o Power BI, lem
 
 ![](media/0-1-intro-using-power-bi/c0a1_1.png)
 
-Como mencionamos anteriormente, você pode gastar todo o seu tempo no **serviço do Power BI**, obtendo dados e criando dashboards – e isso é bom. Outra pessoa em sua equipe pode gastar seu tempo em todo **Power BI Desktop**, isso é bom também. Para ajudá-lo a entender o continuum completo do Power BI e o que ele pode fazer, vamos lhe mostrar tudo isso... e depois você poderá decidir como usá-lo para tirar o máximo proveito.
+Como mencionamos anteriormente, você pode gastar todo o seu tempo no **serviço do Power BI**, obtendo dados e criando dashboards – e isso é bom. Um membro de sua equipe pode gastar todo o tempo no **Power BI Desktop**, e isso também é bom. Para ajudá-lo a entender o continuum completo do Power BI e o que ele pode fazer, vamos lhe mostrar tudo isso... e depois você poderá decidir como usá-lo para tirar o máximo proveito.
 
 Então, vamos nos aprofundar e deixar que Will nos oriente nessa experiência. A primeira tarefa prioritária é entender os blocos de construção básicos do Power BI, que fornecerão uma base sólida para aprender como o Power BI transforma os dados em relatórios e visuais interessantes.
 

@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454478"
@@ -28,7 +28,7 @@ Vamos examinar com mais detalhes alguns dos elementos encontrados na **Exibiçã
 
 1. **Ícone da Exibição de Dados** – selecionar esse ícone para inserir a Exibição de Dados.
 
-2. **Grade de Dados** – mostra a tabela selecionada e todas as colunas e linhas presentes nela. As colunas ocultadas na **Exibição de Relatório** ficam esmaecidas. Clique duas vezes em uma coluna para as opções.
+2. **Grade de Dados** – mostra a tabela selecionada e todas as colunas e linhas presentes nela. As colunas ocultadas na **Exibição de Relatório** ficam esmaecidas. Você pode clicar com o botão direito do mouse em uma coluna para ver as opções.
 
 3. **Faixa de opções de modelagem** – aqui você pode gerenciar relações, criar cálculos e alterar o tipo de dados, o formato e a categoria de dados de uma coluna.
 

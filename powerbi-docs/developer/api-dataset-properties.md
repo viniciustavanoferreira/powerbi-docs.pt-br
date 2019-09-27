@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61386283"
@@ -31,7 +31,7 @@ ID     |  GUID       | Identificador exclusivo do sistema todo para o conjunto d
 Nome     | Cadeia de caracteres        | Nome do conjunto de dados definido pelo usuário.        | False        | True        
 tabelas     | Tabela[]        | Coleção de tabelas.        |  False       | False        
 relacionamentos     | Relação[]        | Coleção de relações entre tabelas.        | False        |  False  
-defaultMode     | Cadeia de caracteres        | Determina se o conjunto de dados é enviado, transmitido, ou ambos, com valores de "Push" e "Streaming".         | False        |  False
+defaultMode     | Cadeia de caracteres        | Determina se o conjunto de dados é enviado, transmitido ou as duas opções, com valores de "Push" e "Streaming".         | Falso        |  False
 
 ## <a name="table"></a>Table
 
@@ -50,7 +50,7 @@ Nome     |  Cadeia de caracteres        | Nome da coluna definido pelo usuário.
 tipo de dados     |  Cadeia de caracteres       |  Suporte para [tipos de dados EDM](https://msdn.microsoft.com/library/ee382832.aspx) e restrições. Consulte [Restrições de tipo de dados](#DataTypeRestrictions).      |  False       | True        
 formatString     | Cadeia de caracteres        | Uma cadeia de caracteres que descreve como o valor deve ser formatado quando ele for exibido. Para saber mais sobre a formatação da cadeia de caracteres, consulte [conteúdo de FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
 sortByColumn    | Cadeia de caracteres        |   Nome da cadeia de caracteres de uma coluna na mesma tabela para ser usada para classificar a coluna atual.     | False        | False       
-dataCategory     | Cadeia de caracteres        |  Valor da cadeia de caracteres a ser usada para a categoria de dados que descreve os dados dentro desta coluna. Alguns valores comuns incluem: endereço, cidade, continente, país, imagem, ImageUrl, latitude, longitude, organização, local, código postal, estado ou província, WebUrl       |  False       | False        
+dataCategory     | Cadeia de caracteres        |  Valor da cadeia de caracteres a ser usada para a categoria de dados que descreve os dados dentro desta coluna. Alguns valores comuns incluem: endereço, cidade, continente, país, imagem, ImageUrl, latitude, longitude, organização, local, código postal, estado ou província, WebUrl       |  Falso       | False        
 isHidden    |  Boolean       |  Propriedade que indica se a coluna está oculta da exibição. O padrão é false.       | False        | False        
 summarizeBy     | Cadeia de caracteres        |  Método de agregação padrão para a coluna. Os valores incluem: padrão, nenhum, soma, mín, máx, contagem, média, contagem distinta     |  False       | False
 
@@ -68,7 +68,7 @@ isHidden     | Cadeia de caracteres        |  Se for true, a tabela ficará ocul
 Nome  |Type  |Descrição  |Somente leitura  |Necessário 
 ---------|---------|---------|---------|---------
 Nome     | Cadeia de caracteres        | Nome da relação definido pelo usuário. Ele também é usado como o identificador da relação.        | False       | True        
-crossFilteringBehavior     | Cadeia de caracteres        |    A direção do filtro da relação: OneDirection (padrão), BothDirections, Automatic       | False        | False        
+crossFilteringBehavior     | Cadeia de caracteres        |    A direção do filtro da relação: OneDirection (padrão), BothDirections, Automatic       | Falso        | False        
 fromTable     | Cadeia de caracteres        | Nome da tabela de chave estrangeira.        | False        | True         
 fromColumn    | Cadeia de caracteres        | Nome da coluna de chave estrangeira.        | False        | True         
 toTable    | Cadeia de caracteres        | Nome da tabela de chave primária.        | False        | True         

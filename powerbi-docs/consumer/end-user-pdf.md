@@ -8,39 +8,39 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 66ac187d002c1606f96694bb45a5d44ba2ad2279
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61047945"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141288"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 Com o Power BI, você pode publicar seu relatório em formato PDF e criar facilmente um documento baseado no relatório do Power BI. Quando você **exportar para PDF**, cada página no relatório do Power BI se torna uma página individual no seu documento PDF.
 
 ## <a name="how-to-export-your-power-bi-report-to-pdf"></a>Como exportar um relatório do Power BI para o PDF
-No serviço do Power BI, selecione um relatório para exibi-lo na tela. Você também pode selecionar um relatório na Página Inicial, Aplicativos ou em qualquer outra seção no painel de navegação esquerdo.
+No serviço do Power BI, selecione um relatório para exibi-lo na tela. Você pode também selecionar um relatório na sua Página Inicial, em Aplicativos ou em qualquer outro contêiner do painel de navegação esquerdo.
 
-1. Selecione **Arquivo** > **Exportar para PDF** na barra de menus.
+1. Selecione **Exportar** > **PDF** na barra de menus.
 
-    ![Seleção de Arquivo na barra de menus e seta apontando para Exportar para PDF](media/end-user-pdf/power-bi-export-pdf.png)
+    ![Selecionar Exportar na barra de menus apontando a seta para Exportar como PDF](media/end-user-pdf/power-bi-export.png)
 
-    Um pop-up será exibido, em que você tem a opção de selecionar **Exibição atual** ou **Exibição padrão**.  A **Exibição atual** exporta o relatório no estado atual, que inclui as alterações ativas feitas nos valores de segmentação e filtro.  A maioria dos usuários seleciona essa opção.  Alternativamente, a seleção da **Exibição padrão** exporta o relatório em seu estado original (como o autor o compartilhou) e não reflete as alterações feitas no estado original.
+    Na janela pop-up exibida, você tem a opção de selecionar **Valores Atuais** ou **Valores Padrão**.  A opção **Valores Atuais** exporta o relatório no estado atual, que inclui as alterações ativas feitas nos valores de segmentação e de filtro.  A maioria dos usuários seleciona essa opção.  Como alternativa, a seleção de **Valores padrão** exporta o relatório em seu estado original (como o *designer* o compartilhou) e não reflete as alterações feitas no estado original.
     
-    Além disso, há uma caixa de seleção para marcar se você deseja ou não exportar as guias ocultas de um relatório.  Basta marcar essa caixa se desejar exportar somente as guias de relatório visíveis para você no navegador.  Se preferir obter todas as guias ocultas como parte da exportação, deixe-a desmarcada.  Se a caixa de seleção estiver esmaecida, não haverá guias ocultas no relatório.  Depois de fazer as seleções, clique no botão Exportar para continuar.
+    Além disso, há uma caixa de seleção para marcar se você deseja ou não exportar as guias ocultas de um relatório.  Basta marcar essa caixa, caso pretenda exportar somente as guias de relatório visíveis para você no navegador.  Se preferir obter todas as guias ocultas como parte da exportação, deixe-a desmarcada.  Se a caixa de seleção estiver esmaecida, não haverá guias ocultas no relatório.  Depois de fazer as seleções, selecione o botão Exportar para continuar.
     
     É exibida uma barra de progresso no canto superior direito. Exportar pode levar alguns minutos e você pode continuar a trabalhar no Power BI enquanto o relatório está sendo exportado.
 
-    ![Mensagem de progresso da exportação](media/end-user-pdf/power-bi-export-message.png)
+    ![Mensagem de progresso da exportação](media/end-user-pdf/power-bi-export-progress.png)
 
     Depois de concluído, o banner de notificação muda para informá-lo de que o serviço do Power BI terminou o processo de exportação.
 
 2. O arquivo estará disponível quando o navegador exibir os arquivos baixados. Na imagem a seguir, ele é mostrado como uma faixa de download na parte inferior da janela do navegador.
 
-    ![Local do arquivo baixado](media/end-user-pdf/power-bi-save-file.png)
+    ![Local do arquivo baixado](media/end-user-pdf/power-bi-export-done.png)
 
 E isso é tudo para ele. Você pode baixar o arquivo e abri-lo com qualquer visualizador de PDF, como o disponível no Microsoft Edge.
 

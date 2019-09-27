@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d2ba4809ce5c6664350ec81b57b6fc717a13879f
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140899"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164565"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Conectar-se a fontes de dados para fluxos de dados do Power BI
 
@@ -23,7 +23,7 @@ Com os fluxos de dados do Power BI, você pode se conectar a várias fontes de d
 
 Este artigo lista várias fontes de dados disponíveis para criar fluxos de dados ou a serem adicionadas a eles e descreve como criar esses fluxos de dados usando essas fontes de dados.
 
-Para obter uma visão geral de como criar e usar fluxos de dados, consulte [criando e usando fluxos de dados no Power BI](service-dataflows-create-use.md).
+Para obter uma visão geral de como criar e usar fluxos de dados, confira [Criando e usando fluxos de dados no Power BI](service-dataflows-create-use.md).
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>Criar um fluxo de dados usando uma fonte de dados
 
@@ -73,7 +73,7 @@ A categoria **Banco de dados** inclui as seguintes conexões de dados disponíve
 * Banco de dados MySQL
 * Banco de dados Oracle
 * Banco de dados PostgreSQL
-* Banco de dados do SQL Server
+* Banco de Dados do SQL Server
 * Banco de dados Sybase
 * Banco de dados Teradata
 * Vertica
@@ -156,7 +156,6 @@ E, em seguida, o script conecta-se à fonte de dados especificada.
 
 A lista a seguir mostra quais conectores você pode usar no momento copiando e colando a consulta M em uma consulta em branco:
 
-* SAP Business Warehouse 
 * Azure Analysis Services
 * Adobe Analytics
 * ODBC
@@ -178,9 +177,9 @@ Este artigo mostrou a quais fontes de dados você pode se conectar para fluxos d
 
 * [Preparação de dados de autoatendimento no Power BI](service-dataflows-overview.md)
 * [Criação e uso de fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Usando entidades computadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [Usando fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
-* [Recursos do desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
+* [Como usar entidades computadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Como usar fluxos de dados com fontes de dados locais](service-dataflows-on-premises-gateways.md)
+* [Recursos de desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 * [Integração entre fluxos de dados e o Azure Data Lake (versão prévia)](service-dataflows-azure-data-lake-integration.md)
 
 Confira mais informações sobre o Power Query e a atualização agendada nestes artigos:

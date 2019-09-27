@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: mblythe
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9047ae7f74a7589d242531a5af18f6094c2b03a6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1c8c65d9b0f0b669d46d73d739be24f29f623743
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523931"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164456"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Habilitar a criptografia para SAP HANA
 
@@ -63,7 +63,7 @@ Obtenha o certificado assinado por uma AC (autoridade de certificação) que sej
     openssl x509 -req -days 365 -in Server\_Req.pem -sha256 -extfile /etc/ssl/openssl.cnf -extensions usr\_cert -CA CA\_Cert.pem -CAkey CA\_Key.pem -CAcreateserial -out Server\_Cert.pem
     ```
 
-    Se você ainda não tiver um AC que possa ser usado, crie um AC raiz seguindo as etapas descritas em[Proteger a comunicação entre o SAP HANA Studio e o servidor SAP HANA com SSL](https://blogs.sap.com/2015/09/28/securing-the-communication-between-sap-hana-studio-and-sap-hana-server-through-ssl/).
+    Se você ainda não tiver um AC que possa ser usado, crie um AC raiz seguindo as etapas descritas em [Proteger a comunicação entre o SAP HANA Studio e o servidor SAP HANA com SSL](https://blogs.sap.com/2015/09/28/securing-the-communication-between-sap-hana-studio-and-sap-hana-server-through-ssl/).
 
 1. Crie a cadeia de certificados do servidor HANA combinando o certificado do servidor, a chave e o certificado da AC (o nome key.pem é a convenção para o SAP HANA):
 

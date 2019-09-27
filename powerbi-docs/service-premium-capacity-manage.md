@@ -1,5 +1,5 @@
 ---
-title: Gerenciar capacidades do Microsoft Power BI Premium
+title: Gerenciar as capacidades do Microsoft Power BI Premium
 description: Descreve as tarefas de gerenciamento para as capacidades do Power BI Premium.
 author: mgblythe
 ms.author: mblythe
@@ -11,155 +11,154 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e4bb907e12d3c0b07408f069d9b238599756e8e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565236"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175214"
 ---
-# <a name="managing-premium-capacities"></a>Gerenciando as capacidades Premium
+# <a name="managing-premium-capacities"></a>Gerenciamento de capacidades Premium
 
-Gerenciar o Power BI Premium envolve criar, gerenciar e monitorar as capacidades Premium.
+O gerenciamento do Power BI Premium envolve a criação, o gerenciamento e o monitoramento de capacidades Premium. Este artigo fornece uma visão geral das capacidades; confira [Configurar e gerenciar capacidades](service-admin-premium-manage.md) para obter instruções passo a passo.
 
-## <a name="creating-and-managing-capacities"></a>Criar e gerenciar as capacidades
+## <a name="creating-and-managing-capacities"></a>Criar e gerenciar capacidades
 
-O **configurações de capacidade** página do portal de administração do Power BI exibe o número de núcleos adquiridos e as capacidades Premium disponíveis. A página permite que os administradores globais do Office 365 ou administradores de serviço do Power BI para criar as capacidades Premium de núcleos virtuais disponíveis, ou para modificar as capacidades de Premium existentes.
+A página **Configurações de Capacidade** do Portal de administração do Power BI exibe o número de núcleos virtuais comprados e as capacidades Premium disponíveis. A página possibilita aos Administradores globais do Office 365 e aos administradores de serviços do Power BI criar capacidades Premium com base em núcleos virtuais disponíveis ou modificar capacidades Premium existentes.
 
-Ao criar uma capacidade Premium, os administradores precisam definir:
+Ao criar uma capacidade Premium, os administradores devem definir:
 
-- Nome da capacidade (exclusivo dentro do Locatário).
-- Capacidade admin(s).
+- Nome da capacidade (exclusivo no locatário).
+- Administradores de capacidades.
 - Tamanho da capacidade.
-- Região de residência de dados.
+- Região da residência de dados.
 
-Pelo menos um administrador de capacidade deve ser atribuído. Os usuários atribuídos como administradores de capacidade podem:
+Pelo menos um Administrador de capacidade deve ser atribuído. Os usuários atribuídos como Administradores de capacidades podem:
 
-- Atribua espaços de trabalho à capacidade.
-- Gerencie permissões de usuário, para adicionar os usuários com permissões de atribuição (para habilitá-los para atribuir espaços de trabalho à capacidade) ou os administradores de capacidade adicional.
-- Gerencie cargas de trabalho, para configurar o uso máximo da memória para cargas de trabalho de fluxos de dados e relatórios paginados.
-- Reinicie a capacidade, para redefinir todas as operações devido a uma sobrecarga do sistema.
+- Atribuir espaços de trabalho à capacidade.
+- Gerenciar permissões de usuário para adicionar Administradores de capacidade adicionais ou usuários com permissões de atribuição (para permitir que eles atribuam espaços de trabalho à capacidade).
+- Gerenciar cargas de trabalho para configurar o uso máximo de memória para cargas de trabalho paginadas de relatórios e fluxos de dados.
+- Reiniciar a capacidade para redefinir todas as operações em caso de sobrecarga do sistema.
 
-Os administradores de capacidade não podem acessar o conteúdo do espaço de trabalho, a menos que explicitamente atribuído em permissões de espaço de trabalho. Eles também não tem acesso a todas as áreas de administração do Power BI (a menos que explicitamente atribuído), como as métricas de uso, os logs de auditoria ou as configurações de locatário. É importante, os administradores de capacidade não tem permissões para criar novas capacidades ou dimensionar as capacidades existentes. Os administradores são atribuídos em uma base por capacidade, garantindo que eles podem apenas exibir e gerenciar as capacidades às quais eles estão atribuídos.
+Os Administradores de capacidade não podem acessar o conteúdo do espaço de trabalho, a menos que estejam explicitamente atribuídos nas permissões do espaço de trabalho. Eles também não têm acesso a todas as áreas de administração do Power BI (a menos que sejam explicitamente atribuídas), como métricas de uso, logs de auditoria ou configurações de locatário. É importante ressaltar que os Administradores de capacidade não têm permissões para criar novas capacidades ou dimensionar as capacidades existentes. Os administradores são atribuídos por capacidade e isso garante que eles possam visualizar e gerenciar apenas as capacidades às quais estão atribuídos.
 
-Tamanho da capacidade é selecionado de uma lista de opções de SKU disponíveis que é restrito pelo número de núcleos disponíveis no pool. É possível criar várias capacidades do pool, o que poderia ser provenientes de um ou mais adquirido SKUs. Por exemplo, um SKU P3 (32 núcleos) poderia ser usados para criar as capacidades de três: um P2 (16 núcleos) e P1 duas (2 x 8 núcleos virtuais). Melhorar o desempenho e escala podem ser obtidos com a criação de menores porte capacidades, conforme descrito na [otimizando as capacidades do Premium](service-premium-capacity-optimize.md) artigo. A imagem a seguir mostra uma configuração de exemplo para a organização fictícia Contoso consiste em cinco capacidades de Premium (3 x 2 e P1 x P3) com cada contendo espaços de trabalho do aplicativo e vários espaços de trabalho na capacidade compartilhada.
+O tamanho da capacidade é escolhido em uma lista disponível de opções do SKU, que é restrita pelo número de núcleos virtuais disponíveis no pool. É possível criar várias capacidades a partir do pool e elas podem ser originárias de um ou mais SKUs adquiridos. Por exemplo, o SKU de uma P3 (32 núcleos virtuais) pode ser usado para criar três capacidades: uma P2 (16 núcleos virtuais) e duas P1 (2 x 8 núcleos virtuais). É possível obter desempenho e dimensionamento aprimorados com a criação de capacidades de tamanho menor, conforme descrito no artigo [Otimização de capacidades Premium](service-premium-capacity-optimize.md). A imagem a seguir mostra um exemplo de configuração para a organização fictícia Contoso, que é composta por cinco capacidades Premium (3 x P1 e 2 x P3), cada uma contendo espaços de trabalho de aplicativos e vários espaços de trabalho com capacidade compartilhada.
 
 ![Uma configuração de exemplo para a organização fictícia Contoso](media/service-premium-capacity-manage/contoso-organization-example.png)
 
-Uma capacidade Premium pode ser atribuída a uma região diferente de região de residência do locatário do Power BI, conhecido como várias áreas geográficas. Várias áreas geográficas proporciona controle administrativo sobre quais datacenters em regiões geográficas definidas, o conteúdo do Power BI reside. A lógica para uma implantação de várias áreas geográficas é normalmente usada em corporativo ou conformidade do governo, em vez de desempenho e escala. Relatório e o carregamento do painel ainda envolve as solicitações para a região de residência de metadados. Para obter mais informações, consulte [suporte de várias áreas geográficas para o Power BI Premium](service-admin-premium-multi-geo.md).
+Uma capacidade Premium pode ser atribuída a uma região que não seja a região inicial do locatário do Power BI, conhecida como Multi-Geo. A Multi-Geo fornece controle administrativo sobre quais datacenters em regiões geográficas definidas seu conteúdo do Power BI reside. A lógica por trás de uma implantação multi-geográfica, normalmente, visa à conformidade corporativa ou governamental e não ao desempenho e ao dimensionamento. O carregamento de relatórios e painéis ainda envolve solicitações de metadados para a região de residência. Para saber mais, confira [Suporte Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
 
-Os administradores de serviço do Power BI e administradores globais do Office 365 podem modificar as capacidades Premium. Especificamente, eles podem:
+Os administradores de serviços do Power BI e os Administradores Globais do Office 365 podem modificar as capacidades Premium. Especificamente, podem:
 
-- Altere o tamanho da capacidade para escalar verticalmente ou reduzir verticalmente recursos.
-- Adicionar ou remover administradores de capacidade.
+- Alterar o tamanho da capacidade para reduzir ou ampliar o dimensionamento dos recursos.
+- Adicionar ou remover Administradores de capacidade.
 - Adicionar ou remover usuários que têm permissões de atribuição.
-- Adicionar ou remover as cargas de trabalho adicionais.
-- Altere as regiões.
+- Adicionar ou remover cargas de trabalho adicionais.
+- Alterar regiões.
 
-São necessárias permissões de atribuição para atribuir um espaço de trabalho a uma capacidade Premium específica. As permissões podem ser concedidas para a organização inteira, usuários específicos ou grupos.
+São necessárias permissões de atribuição para atribuir um espaço de trabalho a uma capacidade Premium específica. As permissões podem ser concedidas a toda a organização, usuários específicos ou grupos.
 
-Por padrão, as capacidades Premium dão suporte a cargas de trabalho associadas à execução de consultas no Power BI. Capacidades Premium também dão suporte a cargas de trabalho adicionais: **Inteligência Artificial (Cognitive Services)** , **relatórios paginados**, e **fluxos de dados**. Cada carga de trabalho exige a configuração a memória máxima (como uma porcentagem do total de memória disponível) que pode ser usada pela carga de trabalho. É importante entender que aumentar as alocações de memória máximo pode afetar o número de modelos de Active Directory que pode ser hospedado e a taxa de transferência de atualizações. 
+Por padrão, as capacidades Premium dão suporte às cargas de trabalho associadas à execução de consultas do Power BI. As capacidades Premium também dão suporte a cargas de trabalho adicionais: **IA (Serviços Cognitivos)** , **Relatórios Paginados** e **Fluxos de Dados**. Cada carga de trabalho permite a configuração da memória máxima (como um percentual do total de memória disponível), que pode ser usada pela carga de trabalho. É importante entender que o aumento da alocação máxima de memória pode afetar o número de modelos ativos que podem ser hospedados e a taxa de transferência de atualizações. 
 
-Memória dinamicamente alocada para fluxos de dados, mas é estaticamente alocada para relatórios paginados. O motivo para alocar estaticamente a memória máxima é que os relatórios paginados executado dentro de um espaço protegido de independente da capacidade. Tome cuidado quando configuração paginado relatórios memória, pois reduz a memória disponível para carregar modelos. Para obter mais informações, consulte o [configurações de memória padrão](service-admin-premium-workloads.md#default-memory-settings).
+A memória é dinamicamente alocada para fluxos de dados, mas é alocada estaticamente para relatórios paginados. O motivo para alocar estaticamente a memória máxima é que os relatórios paginados são executados em um espaço contido e seguro da capacidade. Deve-se tomar cuidado ao configurar a memória de relatórios paginados, pois isso reduz a memória disponível para o carregamento de modelos. Para saber mais, confira as [Configurações de memória padrão](service-admin-premium-workloads.md#default-memory-settings).
 
-Excluir uma capacidade Premium, é possível e não resultará na exclusão de seus espaços de trabalho e o conteúdo. Em vez disso, ele move nenhum espaço de trabalho atribuído à capacidade compartilhada. Quando a capacidade Premium foi criada em uma região diferente, o espaço de trabalho é movido para uma capacidade compartilhada da região de residência.
+As capacidades Premium podem ser excluídas, mas isso não levará à exclusão de seus espaços de trabalho e conteúdo. Em vez disso, os espaços de trabalho atribuídos são movidos para a capacidade compartilhada. Se a capacidade Premium é criada em uma região diferente, o espaço de trabalho é movido para a capacidade compartilhada da região de origem.
 
-### <a name="assigning-workspaces-to-capacities"></a>Atribuir espaços de trabalho para as capacidades
+### <a name="assigning-workspaces-to-capacities"></a>Atribuir espaços de trabalho às capacidades
 
-Espaços de trabalho podem ser atribuídos a uma capacidade Premium no portal de administração do Power BI ou, para um espaço de trabalho do aplicativo na **espaço de trabalho** painel.
+Os espaços de trabalho podem ser atribuídos a uma capacidade Premium no Portal de administração do Power BI ou, no caso de um espaço de trabalho de aplicativos, no painel **Espaço de trabalho**.
 
-Os administradores de capacidade, bem como os administradores globais do Office 365 ou administradores de serviço do Power BI, podem atribuir espaços de trabalho no portal de administração do Power BI em massa. Em massa atribuída pode aplicar a:
+Os Administradores de capacidade, além dos Administradores globais do Office 365 ou os administradores de serviços do Power BI, podem atribuir espaços de trabalho em massa no Portal de administração do Power BI. A atribuição em massa pode se aplicar a:
 
-- **Espaços de trabalho por usuários** -todos os espaços de trabalho pertencentes a esses usuários, incluindo espaços de trabalho pessoas, são atribuídos à capacidade Premium. Isso incluirá a reatribuição de espaços de trabalho quando eles já estão atribuídos a uma capacidade Premium diferente. Além disso, os usuários também recebem permissões de atribuição de espaço de trabalho.
+- **Espaços de trabalho por usuários**: todos os espaços de trabalho desses usuários, incluindo espaços de trabalho pessoais, são atribuídos à capacidade Premium. Isso inclui a reatribuição de espaços de trabalho quando eles já estão atribuídos a uma capacidade Premium diferente. Além disso, os usuários também recebem permissões de atribuição de espaços de trabalho.
 
 - **Workspaces específicos**
-- **Espaços de trabalho de toda a organização** -todos os espaços de trabalho, incluindo espaços de trabalho pessoas, são atribuídos à capacidade Premium. Todos os usuários atuais e futuros recebem permissões de atribuição de espaço de trabalho. Essa abordagem não é recomendada. Uma abordagem mais direcionada é preferencial.
+- **Espaços de trabalho de toda a organização**: todos os espaços de trabalho, incluindo espaços de trabalho pessoais, são atribuídos à capacidade Premium. Todos os usuários atuais e futuros recebem permissões de atribuição de espaços de trabalho. Essa abordagem não é recomendada. Dê preferência a uma abordagem mais direcionada.
 
-Um espaço de trabalho pode ser adicionado a uma capacidade Premium usando o **espaço de trabalho** painel fornecendo ao usuário é um administrador do espaço de trabalho e tem permissões de atribuição.
+Um espaço de trabalho pode ser adicionado a uma capacidade Premium usando o painel **Espaço de trabalho** desde que o usuário seja um administrador do espaço de trabalho e tenha permissões de atribuição.
 
-![Usando o painel de espaço de trabalho para atribuir um espaço de trabalho a uma capacidade Premium](media/service-premium-capacity-manage/assign-workspace-capacity.png)
+![Usar o painel Espaço de trabalho para atribuir um espaço de trabalho a uma capacidade Premium](media/service-premium-capacity-manage/assign-workspace-capacity.png)
 
-Os administradores do espaço de trabalho podem remover um espaço de trabalho de uma capacidade (capacidade compartilhada) sem a necessidade de permissões de atribuição. Remover espaços de trabalho da capacidade dedicada efetivamente Realoca espaço de trabalho para capacidade compartilhada. Observe que a remoção de um espaço de trabalho de uma capacidade Premium pode ter consequências negativas, resultando, por exemplo, conteúdo compartilhado se torne indisponível para o Power BI gratuito licenciado usuários ou a suspensão de atualização agendada quando elas excedem as concessões com suporte por capacidade compartilhada.
+Os administradores de espaços de trabalho podem remover um espaço de trabalho de uma capacidade (para uma capacidade compartilhada) sem a permissão de atribuição. A remoção de espaços de trabalho de capacidades dedicadas realoca efetivamente o espaço de trabalho em uma capacidade compartilhada. Observe que a remoção de um espaço de trabalho de uma capacidade Premium pode ter consequências negativas, resultando, por exemplo, na indisponibilidade do conteúdo compartilhado para usuários licenciados do Power BI Free, ou na suspensão da atualização agendada quando eles excederem os limites compatíveis com as capacidades compartilhadas.
 
-No serviço do Power BI, um espaço de trabalho atribuído a uma capacidade Premium será facilmente identificado pelo ícone de losango que adorna o nome do espaço de trabalho.
+No serviço do Power BI, um espaço de trabalho atribuído a uma capacidade Premium é facilmente identificado pelo ícone de losango que ilustra o nome do espaço de trabalho.
 
-![Identificando um espaço de trabalho atribuído a uma capacidade Premium](media/service-premium-capacity-manage/premium-diamond-icon.png)
+![Identificar um espaço de trabalho atribuído a uma capacidade Premium](media/service-premium-capacity-manage/premium-diamond-icon.png)
 
-## <a name="monitoring-capacities"></a>Capacidades de monitoramento
+## <a name="monitoring-capacities"></a>Monitorar capacidades
 
-Monitoramento de capacidades Premium fornece aos administradores uma compreensão de como as capacidades são executados. As capacidades podem ser monitoradas usando o portal de administração do Power BI ou o **métricas de capacidade do Power BI Premium** aplicativo (Power BI).
+O monitoramento de capacidades Premium fornece aos administradores uma compreensão de como as capacidades são executadas. As capacidades podem ser monitoradas usando o Portal de administração do Power BI ou o aplicativo **Métricas de capacidade do Power BI Premium** (Power BI).
 
 ### <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
-No portal de administração, para cada capacidade, o **integridade** guia fornece métricas de resumidas para cada carga de trabalho habilitada e a capacidade. As métricas mostram uma média nos últimos sete dias.  
+No Portal de administração de cada capacidade, a guia **Integridade** oferece métricas de resumo para a capacidade e cada carga de trabalho habilitada. As métricas mostram uma média dos últimos sete dias.  
 
-No nível de capacidade, as métricas são cumulativas de todas as cargas de trabalho habilitadas. as métricas a seguir são fornecidas:
+No nível da capacidade, as métricas representam o valor cumulativo de todas as cargas de trabalho ativadas. São fornecidas as seguintes métricas:
 
-- **UTILIZAÇÃO da CPU** -fornece a utilização média da CPU como uma porcentagem de CPU total disponível para a capacidade.  
-- **USO de memória** -fornece a média de utilização de memória (em GB) como um total de memória disponível para a capacidade. 
+- **UTILIZAÇÃO DA CPU**: fornece a utilização média da CPU como uma porcentagem do total disponível da CPU para a capacidade.  
+- **USO DA MEMÓRIA**: fornece o uso médio da memória (em GB) como um total da memória disponível para a capacidade. 
 
-Para cada carga de trabalho habilitada, utilização da CPU e uso de memória são fornecidos, bem como um número de métricas específicas de carga de trabalho. Por exemplo, para a carga de trabalho do fluxo de dados **Contagem Total** mostra total de atualizações para cada fluxo de dados, e **duração média** mostra a duração média da atualização para o fluxo de dados.
+Para cada carga de trabalho habilitada são fornecidos o uso da memória e a utilização da CPU, além de uma série de métricas específicas da carga de trabalho. Por exemplo, para a carga de trabalho Fluxo de dados, a **Contagem Total** mostra as atualizações totais para cada fluxo de dados e a **Duração Média** mostra a duração média da atualização do fluxo de dados.
 
-![Guia de integridade de capacidade no portal](media/service-premium-capacity-manage/admin-portal-health-dataflows.png)
+![Guia Integridade da capacidade no portal](media/service-premium-capacity-manage/admin-portal-health-dataflows.png)
 
-Para saber mais sobre todas as métricas disponíveis para cada carga de trabalho, consulte [monitorar as capacidades no portal de administração](service-admin-premium-monitor-portal.md).
+Para saber mais sobre todas as métricas disponíveis para cada carga de trabalho, confira [Monitorar capacidades no portal de administração](service-admin-premium-monitor-portal.md).
 
-Os recursos de monitoramento no portal de administração do Power BI são projetados para fornecer um resumo rápido das métricas de capacidade de chave. Para obter mais monitoramento, é recomendável usar o **métricas de capacidade do Power BI Premium** aplicativo.
+Os recursos de monitoramento no Portal de administração do Power BI foram projetados para fornecer um resumo rápido das principais métricas de capacidade. Para realizar um monitoramento mais detalhado, recomenda-se usar o aplicativo **Métricas de capacidade do Power BI Premium**.
 
-### <a name="power-bi-premium-capacity-metrics-app"></a>Power BI Premium métricas de capacidade de aplicativo
+### <a name="power-bi-premium-capacity-metrics-app"></a>Aplicativo Métricas de capacidade do Power BI Premium
 
-O [aplicativo de métricas de capacidade do Power BI Premium](https://appsource.microsoft.com/product/power-bi/pbi_pcmm.pbi-premiumcapacitymonitoring?tab=Overview) é um aplicativo do Power BI disponíveis para os administradores de capacidade e é instalado como qualquer outro aplicativo do Power BI. Ele contém um painel e relatório.
+O aplicativo [Métricas de capacidade do Power BI Premium](https://appsource.microsoft.com/product/power-bi/pbi_pcmm.pbi-premiumcapacitymonitoring?tab=Overview) é um aplicativo do Power BI disponível para administradores de capacidade e é instalado como qualquer outro aplicativo do Power BI. Ele conta com um painel e um relatório.
 
-![Power BI Premium métricas de capacidade de aplicativo](media/service-premium-capacity-manage/capacity-metrics-app.png)
+![Aplicativo Métricas de capacidade do Power BI Premium](media/service-premium-capacity-manage/capacity-metrics-app.png)
 
-Quando o aplicativo é aberto, o painel é carregado para apresentar vários blocos de expressar uma exibição agregada em todas as capacidades dos quais o usuário é um administrador de capacidade. O layout do painel inclui cinco seções principais:
+Quando o aplicativo abre, o painel é carregado para apresentar vários blocos que expressam uma exibição agregada sobre todas as capacidades das quais o usuário é um Administrador de capacidade. O layout do painel contém cinco seções principais:
 
-- **Visão geral** -versão do aplicativo, o número de espaços de trabalho e as capacidades
-- **Resumo do sistema** -métricas de memória e CPU
-- **Resumo do conjunto de dados** - número de conjuntos de dados, DQ/LC, atualização e métricas de consulta
-- **Resumo do fluxo de dados** - número de fluxos de dados e métricas do conjunto de dados
-- **Paginado relatório Resumo de** - atualizar e exibir métricas
+- **Visão geral**: versão do aplicativo, número de capacidades e espaços de trabalho
+- **Resumo do sistema**: métricas de memória e CPU
+- **Resumo do conjunto de dados**: número de conjuntos de dados, DQ/LC, métricas de atualização e consulta
+- **Resumo do fluxo de dados**: número de fluxos de dados e métricas do conjunto de dados
+- **Resumo do relatório paginado**: atualizar e exibir métricas
 
-O relatório subjacente, do qual os blocos do painel foram fixados, pode ser acessado clicando em qualquer bloco do dashboard. Ele fornece uma perspectiva mais detalhada de cada uma das seções do painel e dá suporte a filtragem interativa. 
+O relatório subjacente, do qual os blocos do painel foram fixados, pode ser acessado clicando em qualquer bloco do painel. Ele oferece uma perspectiva mais detalhada de cada uma das seções do painel e dá suporte à filtragem interativa. 
 
-Filtragem pode ser feita com a configuração de segmentações de dados por intervalo de datas, capacidade, espaço de trabalho e carga de trabalho (relatório, conjunto de dados, fluxo de dados) e selecionando os elementos dentro do relatório visuais cruzar filtrar a página de relatório. Filtragem cruzada é uma técnica poderosa para restringi-lo a períodos de tempo específico, as capacidades, espaços de trabalho, conjuntos de dados, etc. e pode ser muito útil ao executar a análise da causa raiz.
+É possível executar a filtragem com a definição de segmentações por intervalo de datas, capacidade, espaço de trabalho e carga de trabalho (relatório, conjunto de dados, fluxo de dados) e a escolha de elementos nos recursos visuais do relatório para filtrar a página do relatório. A filtragem cruzada é uma técnica avançada para restringir períodos de tempo, capacidades, espaços de trabalho, conjuntos de dados, etc. específicos e pode ser muito útil durante a execução da análise de causa raiz.
 
-Para obter informações detalhadas sobre as métricas de relatório e painel no aplicativo, consulte [capacidades Premium de Monitor com o aplicativo](service-admin-premium-monitor-capacity.md).
+Para saber mais sobre o painel e as métricas de relatório no aplicativo, confira [Monitorar as capacidades Premium com o aplicativo](service-admin-premium-monitor-capacity.md).
 
-### <a name="interpreting-metrics"></a>Interpretando as métricas
+### <a name="interpreting-metrics"></a>Interpretar métricas
 
-As métricas devem ser monitoradas para estabelecer uma compreensão de linha de base de atividade de carga de trabalho e uso do recurso. Se a capacidade de se tornar lento, é importante entender quais métricas para monitorar e as conclusões que você pode fazer.
+As métricas devem ser monitoradas para se estabelecer um entendimento básico do uso de recursos e da atividade da carga de trabalho. Se a capacidade ficar lenta, é importante entender quais métricas monitorar e quais conclusões tirar.
 
-O ideal é que consultas deverá concluir dentro de um segundo para proporcionar experiências responsivas a usuários de relatório e permitir maior taxa de transferência de consulta. Geralmente é uma preocupação menor quando faz com que os processos em segundo plano – incluindo atualizações - vezes mais tempo para concluir.
+O ideal seria que as consultas fossem concluídas em um segundo para oferecer experiências dinâmicas para relatar usuários e permitir uma taxa de transferência de consulta mais elevada. Normalmente, é uma preocupação menor quando os processos em segundo plano (incluindo atualizações) levam mais tempo para concluir.
 
-Em geral, os relatórios lentos podem ser uma indicação de uma capacidade de superaquecimento. Quando os relatórios de falham ao carregar, isso é uma indicação de uma capacidade em excesso aquecida. Em qualquer situação, a causa raiz pode ser atribuível a muitos fatores, incluindo:
+Em geral, relatórios lentos podem ser uma indicação de uma capacidade com superaquecimento. Quando os relatórios não carregam, é indicação de uma capacidade superaquecida. Em qualquer situação, a causa raiz pode ser atribuível a muitos fatores, incluindo:
 
-- **Consultas com falha** certamente indicar pressão de memória e um modelo não pôde ser carregado na memória. O serviço do Power BI tentará carregar um modelo por 30 segundos antes de falhar.
+- **Falha em consultas** certamente indica pressão da memória e que não foi possível carregar um modelo na memória. O serviço do Power BI tentará carregar um modelo por 30 segundos antes de falhar.
 
-- **Tempos de espera de consulta excessiva** pode ser devido a vários motivos:
-  - A necessidade de serviço do Power BI, primeiro remova o modelo (s) e, em seguida, carregar o modelo será consultada (Lembre-se que taxas mais altas de conjunto de dados remoção sozinhas não são uma indicação de estresse de capacidade, a menos que acompanhada por consulta tempos de espera longos que indicam a sobrecarga de memória).
-  - Modelo tempo de carregamento (especialmente a espera para carregar um modelo grande na memória).
-  - Consultas de longa execução.
-  - Número excessivo de conexões LC\DQ (excedendo os limites de capacidade).
+- **Tempos de espera excessivos em consultas** podem derivar de vários motivos:
+  - A necessidade do serviço do Power BI primeiro remover o modelo e depois carregar o modelo a ser consultado (lembre-se de que taxas mais altas de remoção do conjunto de dados não são apenas uma indicação de estresse da capacidade, a menos que sejam acompanhadas por longos tempos de espera de consulta que indicam ultrapaginação de memória).
+  - Tempos de carregamento do modelo (especialmente a espera para carregar um modelo grande na memória).
+  - Consultas de execução prolongada.
+  - Muitas conexões LC\DQ (excedendo os limites de capacidade).
   - Saturação da CPU.
-  - Designs de relatório complexo com um número excessivo de elementos visuais em uma página (Lembre-se que cada elemento visual é uma consulta).
+  - Designs complexos de relatórios com um número excessivo de recursos visuais em uma página (lembre-se de que cada visual é uma consulta).
 
-- **As durações de consulta longa** pode indicar que os designs de modelo não são otimizados, especialmente quando vários conjuntos de dados estão ativos em uma capacidade, e apenas um conjunto de dados está produzindo durações de consulta longa. Isso sugere que a capacidade é recursos suficientemente, e se o conjunto de dados em questão está apenas lenta ou abaixo do ideal. Consultas de longa execução pode ser problemático porque pode bloquear o acesso a recursos exigida por outros processos.
-- **Atualizar longos tempos de espera** indicar memória insuficiente, devido a muitos modelos de Active Directory, consumindo memória ou uma atualização de um problema está impedindo a outra é atualizada (excedendo limites de atualização paralela).
+- As **longas durações das consultas** podem indicar que os designs do modelo não estão otimizados, especialmente quando vários conjuntos de dados estão ativos em uma capacidade e apenas um conjunto de dados está produzindo longas durações de consultas. Isso sugere que a capacidade tem recursos suficientes e que o conjunto de dados em questão está abaixo do ideal ou é apenas lento. As consultas de execução prolongada podem ser problemáticas, pois podem bloquear o acesso aos recursos exigidos por outros processos.
+- Os **longos tempos de espera de atualização** indicam memória insuficiente devido a muitos modelos ativos que consomem memória ou que uma atualização problemática está bloqueando outras atualizações (excedendo os limites de atualizações paralelas).
 
-Uma explicação mais detalhada de como usar as métricas é abordada a [capacidades Premium otimizando](service-premium-capacity-optimize.md) artigo.
+Uma explicação mais detalhada de como usar as métricas é abordada no artigo [Otimização de capacidades Premium](service-premium-capacity-optimize.md).
 
-## <a name="acknowledgements"></a>Confirmações
+## <a name="acknowledgements"></a>Agradecimentos
 
-Este artigo foi escrito por Peter Myers, MVP de plataforma de dados e independente profissional de BI com [bit a bit soluções](https://www.bitwisesolutions.com.au/).
+Este artigo foi escrito por Peter Myers, MVP de plataforma de dados e especialista independente de BI da [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
 
 ## <a name="next-steps"></a>Próximas etapas
 
 > [!div class="nextstepaction"]
-> [Otimizando as capacidades Premium](service-premium-capacity-optimize.md)   
+> [Otimização de capacidades Premium](service-premium-capacity-optimize.md)   
 > [!div class="nextstepaction"]
 > [Configurar cargas de trabalho em uma capacidade Premium](service-admin-premium-workloads.md)   
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 
-||||||

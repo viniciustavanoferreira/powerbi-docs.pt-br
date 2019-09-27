@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 928e93c724a47f48aff1f87ee51f9a8c907774d6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454272"
@@ -32,7 +32,7 @@ Por exemplo, você pode criar um gráfico de dispersão com base na atividade de
 ## <a name="how-high-density-scatter-charts-work"></a>Como funcionam os gráficos de dispersão de alta densidade
 Anteriormente, o **Power BI** selecionava uma coleção de pontos de dados de exemplo em toda a gama de dados subjacentes de uma maneira determinística para criar um gráfico de dispersão. Especificamente, o Power BI selecionava as primeira e última linhas de dados na série de gráficos de dispersão e, em seguida, dividia as linhas restantes igualmente, de modo que o total de 3.500 pontos de dados fossem plotados no gráfico de dispersão. Por exemplo, se a amostra tivesse 35.000 linhas, a primeira e a última linha seriam selecionadas para plotagem e, a cada dez linhas, as linhas também seriam plotadas (35.000/10 = a cada dez linhas = 3.500 pontos de dados). Além disso, antes, os pontos ou valores nulos que não podiam ser plotados (como valores de texto) na série de dados não eram mostrados e, portanto, não eram considerados durante a geração do visual. Com essa amostragem, a densidade percebida do gráfico de dispersão também era baseada nos pontos de dados representativos e, portanto, a densidade implícita do visual era uma particularidade dos pontos amostrados e não da coleção completa dos dados subjacentes.
 
-Quando você habilita **amostragem de alta densidade**, Power BI implementa um algoritmo que elimina os pontos sobrepostos e garante que os pontos no visual podem ser atingidos ao interagir com o visual. O algoritmo também garante que todos os pontos no conjunto de dados sejam representados no visual, fornecendo contexto para o significado dos pontos selecionados, em vez de apenas plotar uma amostra representativa.
+Ao habilitar a **Amostragem de alta densidade**, o Power BI implementa um algoritmo que elimina os pontos sobrepostos e garante que os pontos no visual possam ser alcançados durante a interação com o visual. O algoritmo também garante que todos os pontos no conjunto de dados sejam representados no visual, fornecendo contexto para o significado dos pontos selecionados, em vez de apenas plotar uma amostra representativa.
 
 Por definição, os dados de alta densidade são amostrados para criar com uma rapidez razoável visualizações que atendam à interatividade. Um número muito grande de pontos de dados em um visual pode atrasá-lo e diminuir a visibilidade de tendências. Portanto, a maneira em que esses dados são amostrados é o que orienta a criação do algoritmo de amostragem para oferecer a melhor experiência de visualização e garantir que todos os dados sejam representados. No Power BI, o algoritmo foi melhorado para fornecer a melhor combinação de capacidade de resposta, representação e preservação clara de pontos importantes no conjunto de dados geral.
 
@@ -42,7 +42,7 @@ Por definição, os dados de alta densidade são amostrados para criar com uma r
 > 
 
 ## <a name="how-the-new-scatter-chart-sampling-algorithm-works"></a>Como funciona o novo algoritmo de amostragem de gráfico de dispersão
-O novo algoritmo de **amostragem de alta densidade** para gráficos de dispersão utiliza métodos que capturam e representam os dados subjacentes com mais eficiência e elimina os pontos sobrepostos. Ele faz isso começando com um pequeno raio em cada ponto de dados (o tamanho do círculo visual de determinado ponto na visualização). Em seguida, ele aumenta o raio de todos os pontos de dados; quando dois (ou mais) pontos de dados são sobrepostos, um único círculo (do tamanho do raio maior) representa os pontos de dados sobrepostos. O algoritmo continua aumentando o raio dos pontos de dados até que o valor do raio resulte em um número razoável de pontos de dados – 3.500 – exibidos no gráfico de dispersão.
+O novo algoritmo de **Amostragem de alta densidade** para gráficos de dispersão usa métodos que capturam e representam os dados subjacentes com mais eficiência e elimina os pontos sobrepostos. Ele faz isso começando com um pequeno raio em cada ponto de dados (o tamanho do círculo visual de determinado ponto na visualização). Em seguida, ele aumenta o raio de todos os pontos de dados; quando dois (ou mais) pontos de dados são sobrepostos, um único círculo (do tamanho do raio maior) representa os pontos de dados sobrepostos. O algoritmo continua aumentando o raio dos pontos de dados até que o valor do raio resulte em um número razoável de pontos de dados – 3.500 – exibidos no gráfico de dispersão.
 
 Os métodos deste algoritmo garantem que as exceções sejam representadas no visual resultante. O algoritmo respeita a escala ao determinar a sobreposição também, de modo que as escalas exponenciais sejam visualizadas com fidelidade aos pontos subjacentes visualizados.
 
@@ -56,7 +56,7 @@ O algoritmo também preserva a forma geral do gráfico de dispersão.
 Além disso, os pontos de dados que não podem ser plotados (como valores nulos ou valores de texto) são ignorados, para que outro valor que pode ser plotado seja selecionado, garantindo ainda que a forma verdadeira do gráfico de dispersão seja mantida.
 
 ### <a name="when-the-standard-algorithm-for-scatter-charts-is-used"></a>Quando o algoritmo padrão para gráficos de dispersão é usado
-Há circunstâncias em que **amostragem de alta densidade** não pode ser aplicado a um gráfico de dispersão e original algoritmo é usado. Essas circunstâncias são as seguintes:
+Há circunstâncias em que a **Amostragem de alta densidade** não pode ser aplicada a um gráfico de dispersão e o algoritmo original é usado. Essas circunstâncias são as seguintes:
 
 * Se você clicar com o botão direito do mouse em um valor em **Detalhes** e defini-lo como **Mostrar itens sem dados** no menu, o gráfico de dispersão será revertido para o algoritmo original.
   
@@ -68,7 +68,7 @@ Há circunstâncias em que **amostragem de alta densidade** não pode ser aplica
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Como ativar a amostragem de alta densidade em um gráfico de dispersão
-Para ativar **amostragem de alta densidade**, selecione um gráfico de dispersão, vá para o **formatação** painel, expanda o **geral** cartão e, na parte inferior do cartão, deslize o **Amostragem de alta densidade** ativar/desativar o controle deslizante **em**.
+Para ativar a **Amostragem de alta densidade**, selecione um gráfico de dispersão, acesse o painel **Formatação**, expanda o cartão **Geral** e, na parte inferior do cartão, deslize o controle deslizante de alternância **Amostragem de alta densidade** para **Ativar**.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
@@ -83,7 +83,7 @@ Para ativar **amostragem de alta densidade**, selecione um gráfico de dispersã
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 O algoritmo de amostragem de alta densidade é uma melhoria importante no Power BI, mas há algumas considerações que você precisa saber ao trabalhar com valores de alta densidade e gráficos de dispersão.
 
-* O **amostragem de alta densidade** algoritmo funciona apenas com conexões dinâmicas para modelos baseados em serviço do Power BI, modelos importados ou DirectQuery.
+* O algoritmo de **Amostragem de alta densidade** funciona apenas com conexões dinâmicas em modelos baseados no serviço do Power BI, modelos importados ou o DirectQuery.
 
 ## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre amostragem de alta densidade em outros gráficos, confira o artigo a seguir.

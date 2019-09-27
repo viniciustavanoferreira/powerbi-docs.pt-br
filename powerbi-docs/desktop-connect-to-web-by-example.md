@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514082"
@@ -64,7 +64,7 @@ Aí, você pode criar visuais ou usar os dados da página da Web ao criar seus r
 ## <a name="next-steps"></a>Próximas etapas
 Há muitos tipos de dados aos quais você pode se conectar usando o **Power BI Desktop**. Para obter mais informações sobre fontes de dados, confira os seguintes recursos:
 
-* [Adicionar coluna pelo exemplo](desktop-add-column-from-example.md)
+* [Adicionar coluna por exemplo](desktop-add-column-from-example.md)
 * [Conectar-se a uma página da Web](desktop-connect-to-web.md)
 * [Fontes de dados no Power BI Desktop](desktop-data-sources.md)
 * [Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)

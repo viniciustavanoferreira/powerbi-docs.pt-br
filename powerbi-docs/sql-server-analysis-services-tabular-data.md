@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769918"
@@ -31,15 +31,15 @@ No Power BI, há duas maneiras pelas quais você pode se conectar a um servidor 
 
 1. Em **Meu Workspace**, selecione **Obter dados**. Você também poderá alterar para um workspace de grupo, se houver um disponível.
 
-   ![Conectar-se para o botão obter dados](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![Conectar-se ao botão Obter Dados](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. Selecione **Bancos de Dados e Mais**.
 
-   ![Conectar-se para obter dados 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+   ![Conectar-se para Obter Dados 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
 3. Selecione **SQL Server Analysis Services** > **Conectar**.
 
-   ![Conectar-se para obter dados 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+   ![Conectar-se para Obter Dados 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
 4. Selecione um servidor. Se você não vir servidores listados aqui, isso significa que um gateway e uma fonte de dados não estão configurados, ou que sua conta não está listada na guia **Usuários** da fonte de dados no gateway. Verifique com o seu administrador.
 
@@ -47,7 +47,7 @@ No Power BI, há duas maneiras pelas quais você pode se conectar a um servidor 
 
 Depois de se conectar ao modelo, ele será exibido no seu site do Power BI em **Meu Workspace/Conjuntos de Dados**. Se você for alternado para um workspace de grupo, o conjunto de dados será exibido no grupo.
 
-![Conectar-se ao conjunto de dados](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
+![Conectar-se a um conjunto de dados](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
 ## <a name="dashboard-tiles"></a>Blocos de dashboard
 

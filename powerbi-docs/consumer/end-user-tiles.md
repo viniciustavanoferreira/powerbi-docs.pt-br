@@ -4,24 +4,23 @@ description: Tudo sobre blocos de dashboard no Power BI para consumidores. Isso 
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050024"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142112"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Blocos de painel no Power BI
-Um bloco é um instantâneo dos dados fixados no dashboard por um *designer*. Um bloco pode ser criado de relatórios, conjuntos de dados, dashboards, caixas de P e R, SSRS (SQL Server Reporting Services) e muito mais.  Essa captura de tela mostra vários blocos diferentes fixados a um dashboard.
+Um bloco é um instantâneo dos dados fixados no dashboard por um *designer*. Os *designers* podem criar blocos de relatórios, conjuntos de dados, painéis, caixas de P e R, Excel, SSRS (SQL Server Reporting Services) e muito mais.  Essa captura de tela mostra vários blocos diferentes fixados a um dashboard.
 
-![Dashboard do Power BI](./media/end-user-tiles/power-bi-dashboard.png)
+![Dashboard do Power BI](./media/end-user-tiles/power-bi-dash.png)
 
 
 Além dos blocos fixados de relatórios, os *designers* podem adicionar blocos autônomos diretamente no dashboard usando **Adicionar bloco**. Os blocos autônomos incluem: caixas de texto, imagens, vídeos, dados de streaming e conteúdo da Web.
@@ -38,15 +37,15 @@ Precisa de ajuda para compreender os blocos de construção que compõem o Power
 
     - bloco criado usando P e R
    
-        ![ícone de reticências](./media/end-user-tiles/power-bi-menu1.png)
+        ![ícone de reticências](./media/end-user-tiles/power-bi-options-1.png)
 
     - bloco criado de uma pasta de trabalho
    
-        ![ícone de reticências](./media/end-user-tiles/power-bi-menu2.png)
+        ![ícone de reticências](./media/end-user-tiles/power-bi-options-2.png)
 
     - bloco criado de um relatório
    
-        ![ícone de reticências](./media/end-user-tiles/power-bi-menu3.png)
+        ![ícone de reticências](./media/end-user-tiles/power-bi-options-3.png)
    
     A partir daqui, você pode:
    
@@ -56,9 +55,12 @@ Precisa de ajuda para compreender os blocos de construção que compõem o Power
    
 
    * [Abrir a pasta de trabalho que foi usada para criar este bloco ](end-user-reports.md) ![ícone de planilha](./media/end-user-tiles/power-bi-open-worksheet.png)  
-    * [Exibir o bloco no modo de foco ](end-user-focus.md) ![ícone de foco](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [Executar insights ](end-user-insights.md) ![ícone de insights](./media/end-user-tiles/power-bi-insights.png)
-    * [Adicionar um comentário e iniciar uma discussão](end-user-comment.md) ![ícone de comentário](./media/end-user-tiles/comment-icons.png)
+   * [Exibir o bloco no modo de foco ](end-user-focus.md) ![ícone de foco](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [Exibir insights ](end-user-insights.md) ![ícone de insights](./media/end-user-tiles/power-bi-insights.png)
+   * [Adicionar um comentário e iniciar uma discussão](end-user-comment.md) ![ícone de comentário](./media/end-user-tiles/comment-icons.png)
+   * [Gerenciar alertas definidos em um bloco de painel](end-user-alerts.md)  ![ícone de alerta](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Abrir os dados no Excel](end-user-export.md) ![ícone de exportação](./media/end-user-tiles/power-bi-export-icon.png)
+
 
 3. Para fechar o menu de ação, selecione uma área em branco na tela.
 

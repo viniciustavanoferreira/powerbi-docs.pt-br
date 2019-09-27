@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: Criar um modelo de aprendizado de máquina no Power BI (visualização)'
-description: Neste tutorial, você cria um modelo de aprendizado de máquina no Power BI.
+title: 'Tutorial: Criar um modelo de Machine Learning no Power BI (versão prévia)'
+description: Neste tutorial, você cria um modelo de Machine Learning no Power BI.
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -13,187 +13,187 @@ ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 611d6f6c923e6cb68af94840c4266a0b6dee7651
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61406165"
 ---
-# <a name="tutorial-build-a-machine-learning-model-in-power-bi-preview"></a>Tutorial: Criar um modelo de aprendizado de máquina no Power BI (visualização)
+# <a name="tutorial-build-a-machine-learning-model-in-power-bi-preview"></a>Tutorial: Criar um modelo de Machine Learning no Power BI (versão prévia)
 
-Este artigo de tutorial, você usa **automatizada de aprendizado de máquina** para criar e aplicar um modelo de previsão binária no Power BI. O tutorial inclui orientações para a criação de um fluxo de dados do Power BI e usar as entidades definidas no fluxo de dados para treinar e validar um modelo de machine learning diretamente no Power BI. Em seguida, usamos esse modelo de pontuação para gerar previsões.
+Neste artigo do tutorial, você usa o **Machine Learning Automatizado** para criar e aplicar um modelo de previsão binária no Power BI. O tutorial inclui orientações para a criação de um fluxo de dados do Power BI e o uso das entidades definidas no fluxo de dados para treinar e validar um modelo de machine learning diretamente no Power BI. Em seguida, usamos esse modelo na pontuação para gerar previsões.
 
-Primeiro, você criará um modelo, para prever a intenção de compra de compradores online com base em um conjunto de seus atributos de sessão online de aprendizado de máquina de previsão binária. Um conjunto de dados do aprendizado de máquina do parâmetro de comparação é usado para este exercício. Depois que um modelo é treinado, o Power BI gerará automaticamente um relatório de validação, explicando os resultados do modelo. Você pode, em seguida, examine o relatório de validação e aplicar o modelo para seus dados para pontuação.
+Primeiro, você criará um modelo de machine learning de Previsão Binária para prever a intenção de compra de compradores online com base em um conjunto de atributos da sessão online. Usamos um conjunto de dados de machine learning de referência neste exercício. Depois de treinar um modelo, o Power BI gera automaticamente um relatório de validação explicando os resultados do modelo. Em seguida, você pode examinar o relatório de validação e aplicar o modelo aos seus dados para pontuação.
 
-Neste tutorial consiste as seguintes etapas:
+Este tutorial consiste nas seguintes etapas:
 
 > [!div class="checklist"]
-> * Criar um fluxo de dados com os dados de entrada
-> * Crie e treine um modelo de aprendizado de máquina
-> * Examine o relatório de validação de modelo
+> * Criar um fluxo de dados de entrada
+> * Criar e treinar um modelo de machine learning
+> * Examinar o relatório de validação do modelo
 > * Aplicar o modelo a uma entidade de fluxo de dados
-> * Usando a saída de pontuação do modelo em um relatório do Power BI
+> * Usar a saída pontuada do modelo em um relatório do Power BI
 
-## <a name="create-a-dataflow-with-the-input-data"></a>Criar um fluxo de dados com os dados de entrada
+## <a name="create-a-dataflow-with-the-input-data"></a>Criar um fluxo de dados de entrada
 
-A primeira parte deste tutorial é criar um fluxo de dados com dados de entrada. Esse processo demora algumas etapas, conforme mostrado nas seções a seguir, começando com a obtenção de dados.
+A primeira parte deste tutorial é criar um fluxo de dados com dados de entrada. Esse processo consiste em algumas etapas, conforme mostrado nas seções a seguir, começando pela obtenção de dados.
 
 ### <a name="get-data"></a>Obter dados
 
-A primeira etapa na criação de um fluxo de dados é ter suas fontes de dados prontos. Em nosso caso, usamos um conjunto de dados de aprendizado de máquina de um conjunto de sessões online, alguns dos quais culminou em uma compra. O conjunto de dados contém um conjunto de atributos sobre essas sessões, que usaremos para treinar nosso modelo.
+A primeira etapa na criação de um fluxo de dados é ter suas fontes de dados prontas. Em nosso caso, usamos um conjunto de dados de machine learning de um conjunto de sessões online, algumas das quais culminaram em uma compra. O conjunto de dados contém um conjunto de atributos sobre essas sessões que usaremos para treinar nosso modelo.
 
-Você pode baixar o conjunto de dados do site do UC Irvine.  Também temos isso está disponível, para fins deste tutorial, do seguinte link: [online_shoppers_intention.csv](https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv).
+Você pode baixar o conjunto de dados no site UC Irvine.  Para os fins deste tutorial, também temos isso disponível no link a seguir: [online_shoppers_intention.csv](https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv).
 
 ### <a name="create-the-entities"></a>Criar as entidades
 
 Para criar as entidades em seu fluxo de dados, entre no serviço do Power BI e navegue até um workspace na capacidade dedicada que tenha a versão prévia de IA habilitada.
 
-Se você ainda não tiver um espaço de trabalho, você pode criar uma selecionando **espaços de trabalho** no menu de navegação à esquerda no serviço do Power BI e selecione **criar espaço de trabalho do aplicativo** na parte inferior do painel que é exibida. Isso abre um painel à direita para inserir os detalhes do espaço de trabalho. Insira um nome de espaço de trabalho e selecione **avançado**. Confirme que o espaço de trabalho usa a capacidade dedicada usando o botão de opção e que é atribuído a uma instância de uma capacidade dedicada que tem a versão prévia da IA ativada. Depois, selecione **Salvar**.
+Se você ainda não tem um espaço de trabalho, pode criar um escolhendo **Espaços de trabalho** no menu de navegação à esquerda no serviço do Power BI e marcando **Criar espaço de trabalho do aplicativo** na parte inferior do painel exibido. Um painel é exibido à direita para inserir os detalhes do espaço de trabalho. Insira um nome para o espaço de trabalho e escolha **Avançado**. Confirme se o espaço de trabalho utiliza a Capacidade dedicada usando o botão de opção e se está atribuído a uma instância de capacidade dedicada que tenha a visualização de IA habilitada. Depois, selecione **Salvar**.
 
 ![Criar um workspace](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-01.png)
 
-Depois que o espaço de trabalho é criado, você pode selecionar **Skip** no canto inferior direito da tela de boas-vinda, conforme mostrado na imagem a seguir.
+Após criar o espaço de trabalho, é possível escolher **Ignorar** na parte inferior direita da tela de Boas-vindas, conforme mostrado na imagem a seguir.
 
-![Ignore se você tiver um espaço de trabalho](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-02.png)
+![Ignorar se você tem um espaço de trabalho](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-02.png)
 
-Selecione o **fluxos de dados (visualização)** guia. Selecione o **Create** botão na parte superior direita do espaço de trabalho e, em seguida, selecione **fluxo de dados**.
+Escolha a guia **Fluxos de dados (versão prévia)** . Escolha o botão **Criar** no canto superior direito do espaço de trabalho. Em seguida, escolha **Fluxo de dados**.
 
-![Criar um fluxo de dados](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-03.png)
+![Criar o fluxo de dados](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-03.png)
 
-Selecione **Adicionar novas entidades**. Isso inicia um **Power Query** editor no navegador.
+Selecione **Adicionar novas entidades**. Isso inicia o editor do **Power Query** no navegador.
 
 ![Adicionar nova entidade](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-04.png)
 
-Selecione **arquivo de texto/CSV** como uma fonte de dados, mostrado na imagem a seguir.
+Escolha **Arquivo de texto/CSV** como uma fonte de dados, conforme mostrado na imagem a seguir.
 
-![Arquivo de texto/CSF selecionado](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-05.png)
+![Arquivo de texto/CSV escolhido](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-05.png)
 
-No **conectar-se a uma fonte de dados** que aparece em seguida, cole o link a seguir para o *online_shoppers_intention.csv* para o **URL ou caminho do arquivo** caixa e, em seguida, selecione  **Próxima**.
+Na opção **Conectar-se a uma Fonte de Dados** que aparece a seguir, cole o link para o arquivo *online_shoppers_intention.csv* na caixa **URL ou caminho do arquivo** e escolha **Avançar**.
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv`
 
 ![Caminho do arquivo](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-06.png)
 
-O Power Query Editor mostra uma visualização dos dados do arquivo CSV. Selecione **transformar tabela** na faixa de opções de comando e, em seguida, selecione **usar primeira linha como cabeçalhos** no menu que aparece. Isso adiciona o _promovidos a cabeçalhos_ etapa de consulta para o **as etapas aplicadas** seção à direita da tela. Você pode renomear a consulta para um nome mais amigável, alterando o valor na **nome** caixa encontrado no painel direito. Por exemplo, você pode alterar o nome da consulta _visitante Online_.
+O Power Query Editor mostra uma versão prévia dos dados do arquivo CSV. Escolha **Transformar tabela** na faixa de opções de comandos e escolha **Usar a primeira linha como cabeçalho** no menu exibido. Isso adiciona a etapa de consulta _Cabeçalhos promovidos_ à seção **Etapas aplicadas** à direita da tela. Você pode renomear a consulta com um nome mais amigável alterando o valor na caixa **Nome** localizada no painel direito. Por exemplo, altere o nome da consulta para _Visitantes online_.
 
-![Altere para um nome amigável](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-07.png)
+![Alterar para um nome amigável](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-07.png)
 
-Alguns dos tipos de dados de atributo neste conjunto de dados são _numéricos_ ou _booliano_, embora elas poderão ser interpretadas como cadeias de caracteres por **Power Query**. Selecione o ícone de tipo de atributo na parte superior de cada cabeçalho de coluna para alterar as colunas listadas abaixo para os seguintes tipos:
+Alguns dos tipos de dados de atributo neste conjunto de dados são _numéricos_ ou _Boolianos_, embora possam ser interpretados como cadeias de caracteres pelo **Power Query**. Escolha o ícone do tipo de atributo na parte superior de cada cabeçalho de coluna para alterar as colunas listadas abaixo para os seguintes tipos:
 
 * **Número decimal:** Administrative_Duration; Informational_Duration; ProductRelated_Duration; BounceRates; ExitRates; PageValues; SpecialDay
-* **True/False:** Fim de semana; Receita
+* **Verdadeiro/Falso:** Weekend; Revenue
 
 ![Alterar tipo de dados](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-08.png)
 
-O **previsão binária** modelo que Treinaremos requer um campo booliano como um rótulo que identifica os resultados da últimas observações. Neste conjunto de dados, o _receita_ atributo indica a compra, e esse atributo já está disponível como um valor booliano. Portanto, não precisamos adicionar uma coluna calculada para o rótulo. Outros conjuntos de dados, talvez você precise transformar atributos do rótulo existente em uma coluna booleana.
+O modelo **Previsão Binária** que treinaremos exige um campo booliano como um rótulo que identifica os resultados das observações anteriores. Nesse conjunto de dados, o atributo _Receita_ indica compra e esse atributo já está disponível como um Booliano. Portanto, não precisamos adicionar uma coluna calculada ao rótulo. Em outros conjuntos de dados, talvez seja necessário transformar os atributos de rótulo existentes em uma coluna booliana.
 
-Selecione o **feito** botão para fechar o Editor do Power Query. Isso mostra a lista de entidades com o _visitantes Online_ dados que adicionamos. Selecione **salve** no canto superior direito, forneça um nome para o fluxo de dados e, em seguida, selecione **salvar** na caixa de diálogo, conforme mostrado na imagem a seguir.
+Escolha o botão **Concluído** para fechar o Power Query Editor. Isso mostra a lista de entidades com os dados de _Visitantes online_  que adicionamos. Escolha **Salvar** no canto superior direito, dê um nome para o fluxo de dados e, em seguida, escolha **Salvar** no diálogo, conforme mostrado na imagem a seguir.
 
 ![Salvar o fluxo de dados](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-09.png)
 
 ### <a name="refresh-the-dataflow"></a>Atualizar fluxo de dados
 
-Salvando os resultados do fluxo de dados em uma notificação que está sendo exibida, informando que seu fluxo de dados foi salva. Selecione **atualizar agora** para incluir os dados da origem no fluxo de dados.
+Salvar o fluxo de dados resulta na exibição de uma notificação informando que seu fluxo de dados foi salvo. Escolha **Atualizar agora** para utilizar os dados da origem no fluxo de dados.
 
 ![Atualizar agora](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-10.png)
 
 Selecione **Fechar** no canto superior direito e aguarde até que a atualização do fluxo de dados termine.
 
-Você também pode atualizar seu fluxo de dados usando o **ações** comandos. O fluxo de dados mostra o carimbo de hora quando a atualização foi concluída.
+Também é possível atualizar seu fluxo de dados usando os comandos **Ações**. O fluxo de dados exibe o carimbo de data/hora de quando a atualização é concluída.
 
-![Carimbo de hora de atualização](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-11.png)
+![Carimbo de data/hora da atualização](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-11.png)
 
-## <a name="create-and-train-a-machine-learning-model"></a>Crie e treine um modelo de aprendizado de máquina
+## <a name="create-and-train-a-machine-learning-model"></a>Criar e treinar um modelo de machine learning
 
-Selecione o fluxo de dados após a atualização ter sido concluída. Para adicionar um modelo de aprendizado de máquina, selecione a **modelo ML aplicar** botão na **ações** para a entidade básica que contém as informações de rótulo e dados de treinamento e, em seguida, selecione **adicionar um modelo de aprendizado de máquina**.
+Escolha o fluxo de dados após a atualização ser concluída. Para adicionar um modelo de machine learning, selecione o botão **Aplicar modelo ML** na lista **Ações** da entidade base que contém seus dados de treinamento e informações de rótulo e, em seguida, escolha **Adicionar um modelo de machine learning**.
 
 ![Adicionar um modelo de machine learning](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-12.png)
 
-A primeira etapa para a criação de nosso modelo de aprendizado de máquina é identificar os dados históricos, incluindo o campo de rótulo que você deseja prever. O modelo será criado pelo aprendizado desses dados.
+A primeira etapa para criar nosso modelo de machine learning é identificar os dados históricos, incluindo o campo de rótulo que você deseja prever. O modelo será criado de acordo com o que foi aprendido com esses dados.
 
-No caso do conjunto de dados que estamos usando, esse é o **receita** campo. Selecione **receita** como o valor de 'campo de resultado históricos' e selecione **próxima**.
+No caso do conjunto de dados que estamos usando, este é o campo **Receita**. Escolha **Receita** como o valor do “Campo de resultado histórico” e, em seguida, escolha **Avançar**.
 
-![Selecione os dados históricos](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-13.png)
+![Escolher dados históricos](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-13.png)
 
-Em seguida, podemos deve selecionar o tipo de modelo para criar de aprendizado de máquina. Power BI analisa os valores no campo de resultado históricos que você identificou e sugere os tipos de modelos de aprendizado de máquina que podem ser criados para prever esse campo.
+Em seguida, devemos escolher o tipo de modelo de machine learning a ser criado. O Power BI analisa os valores no campo de resultado histórico que você identificou e sugere os tipos de modelos de machine learning que podem ser criados para prever esse campo.
 
-Nesse caso, uma vez que estamos estiver prevendo um resultado binário de se um usuário faça uma compra ou não, selecione **previsão binária** para o tipo de modelo e, em seguida, clicar em Avançar.
+Nesse caso, como estamos prevendo um resultado binário de um usuário fazer ou não uma compra, escolha **Previsão Binária** para o tipo de modelo e escolha Avançar.
 
-![Previsão binária selecionado](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-14.png)
+![Previsão binária escolhida](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-14.png)
 
-Em seguida, o Power BI faz uma verificação preliminar dos dados e sugere as entradas que o modelo poderia usar. Você tem a opção de personalizar os campos de entrada usados para o modelo. Em nosso conjunto de dados estruturado, para selecionar todos os campos, selecione a caixa de seleção ao lado do nome da entidade. Selecione **próxima** para aceitar as entradas.
+Em seguida, o Power BI faz uma verificação preliminar dos dados e sugere as entradas que o modelo pode usar. Você tem a opção de personalizar os campos de entrada usados no modelo. Em nosso conjunto de dados coletados, para escolher todos os campos, marque a caixa de seleção ao lado do nome da entidade. Escolha **Avançar** para aceitar as entradas.
 
-![Marque a caixa de seleção próxima](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-15.png)
+![Selecione Avançar](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-15.png)
 
-Na etapa final, podemos deve fornecer um nome para o nosso modelo, bem como os rótulos amigáveis para os resultados a ser usado no relatório gerado automaticamente que resumirá os resultados da validação do modelo. Em seguida, temos que nomear o modelo _previsão de intenção de compra_e os rótulos verdadeiros e falsos como _compra_ e _nenhuma compra_. Depois, selecione **Salvar**.
+Na etapa final, devemos dar um nome ao modelo, além de rótulos amigáveis para os resultados que serão usados no relatório gerado automaticamente que resumirá os resultados da validação do modelo. Em seguida, precisamos dar o nome _Previsão de intenção de compra_ ao modelo e os rótulos _Compra_ e _Não compra_ a verdadeiro e falso, respectivamente. Depois, selecione **Salvar**.
 
 ![Salvar o modelo](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-16.png)
 
-Nosso modelo de machine learning agora está pronto para treinamento. Selecione **atualizar agora** para iniciar o treinamento do modelo.
+Nosso modelo de machine learning já está pronto para treinamento. Escolha **Atualizar agora** para começar a treinar o modelo.
 
 ![Atualizar agora](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-17.png)
 
-Iniciar o processo de treinamento por amostragem e normalizar os dados históricos e dividir seu conjunto de dados em duas novas entidades *dados de treinamento de previsão de intenção de compra* e *teste de previsão de intenção de compra Dados*.
+O processo de treinamento começará dando exemplos, normalizando seus dados históricos e dividindo seu conjunto de dados em duas novas entidades *Dados de treinamento da previsão de intenção de compra* e *Dados de teste da previsão de intenção de compra*.
 
-Dependendo do tamanho do conjunto de dados, o processo de treinamento pode levar de alguns minutos a algumas horas. Neste ponto, você pode ver o modelo na **modelos de aprendizado de máquina** guia de fluxo de dados. O _pronto_ status indica que o modelo foi enfileirado para treinamento ou está em treinamento.
+Dependendo do tamanho do conjunto de dados, o processo de treinamento pode levar de alguns minutos a algumas horas. Neste ponto, você pode ver o modelo na guia **Modelos de machine learning** do fluxo de dados. O status _Pronto_ indica que o modelo foi colocado na fila para treinamento ou está em treinamento.
 
 ![Pronto para treinamento](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-18.png)
 
-Embora o modelo seja treinamento, você não conseguirá exibir ou editar o fluxo de dados. Você pode confirmar que o modelo está sendo treinado e validado por meio do status do fluxo de dados. Isso é exibido como uma atualização de dados em andamento na **fluxos de dados** guia do espaço de trabalho.
+Embora o modelo esteja em treinamento, você não poderá exibir ou editar o fluxo de dados. Pode, entretanto, confirmar que o modelo está sendo treinado e validado por meio do status do fluxo de dados. Isso é exibido como uma atualização de dados em andamento na guia **Fluxos de dados** do espaço de trabalho.
 
-![No processo](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-19.png)
+![Em andamento](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-19.png)
 
-Depois que o treinamento do modelo for concluído, o fluxo de dados exibe um tempo de atualização atualizado. Você pode confirmar que o modelo é treinado, navegando até a **modelos de aprendizado de máquina** guia no fluxo de dados. O modelo que você criou deve mostrar o status como **treinados** e o **última treinado** tempo deve ser atualizado.
+Após a conclusão do treinamento do modelo, o fluxo de dados exibe um tempo de atualização corrigido. Você pode confirmar se o modelo está treinado navegando até a guia **Modelos de machine learning** no fluxo de dados. O modelo que você criou deve exibir o status **Treinado** e o horário do **Último treino** já deve estar atualizado.
 
-![Treinado pela última vez em](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-20.png)
+![Último treino em](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-20.png)
 
-## <a name="review-the-model-validation-report"></a>Examine o relatório de validação de modelo
+## <a name="review-the-model-validation-report"></a>Examinar o relatório de validação do modelo
 
-Para examinar o relatório de validação de modelo, na **modelos de aprendizado de máquina, s** eleger o **Exibir relatório de desempenho e aplicar modelo** botão no **ações** coluna do modelo de . Este relatório descreve como o modelo de aprendizado de máquina é tende a ter.
+Para examinar o relatório de validação do modelo, nos **Modelos de machine learning**, selecione o botão **Exibir o relatório de desempenho e aplicar o modelo** na coluna **Ações** do modelo. Este relatório descreve qual a probabilidade do seu modelo de machine learning ser executado.
 
-No **desempenho do modelo** página do relatório, selecione **os influenciadores principais** para exibir as previsões principais para o seu modelo. Você pode selecionar uma das previsões para ver como a distribuição de resultado é associado essa previsão.
+Na página **Desempenho do modelo** do relatório, escolha **Principais influenciadores** para exibir os principais indicadores do modelo. Você pode escolher um dos indicadores para ver como a distribuição de resultados está associada a esse indicador.
 
 ![Desempenho do modelo](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-21.png)
 
-Você pode usar o **limite de probabilidade** segmentação na página de desempenho do modelo para examinar sua influência sobre a precisão e a recuperação para o modelo.
+Usar a segmentação **Limite de probabilidade** na página Desempenho do modelo para examinar sua influência na Precisão e Recall do modelo.
 
 ![Limite de probabilidade](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-22.png)
 
-As outras páginas do relatório descrevem as métricas de desempenho de estatísticas para o modelo.
+As outras páginas do relatório descrevem as métricas de desempenho estatístico para o modelo.
 
-O relatório também inclui uma página de detalhes de treinamento que descreve as iterações diferentes que foram executadas, como os recursos foram extraídos de entradas e os hiperparâmetros para o modelo final usado.
+O relatório também contém uma página Detalhes do Treinamento, que descreve as diferentes iterações executadas, como os recursos foram extraídos das entradas e os hiperparâmetros do modelo final usado.
 
 ## <a name="apply-the-model-to-a-dataflow-entity"></a>Aplicar o modelo a uma entidade de fluxo de dados
 
-Selecione o **aplicar modelo** botão na parte superior do relatório para invocar esse modelo quando o fluxo de dados é atualizado. No **aplicar** caixa de diálogo, você pode especificar a entidade de destino que tem os dados de origem para o qual o modelo deve ser aplicado.
+Selecione o botão **Aplicar modelo** na parte superior do relatório para chamar esse modelo após atualizar o fluxo de dados. Na caixa de diálogo **Aplicar**, especifique a entidade de destino que tem os dados de origem aos quais o modelo deve ser aplicado.
 
 ![Aplicar o modelo](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-23.png)
 
-Quando solicitado, você deve **Refresh** o fluxo de dados para visualizar os resultados do seu modelo.
+Quando solicitado, você deve **Atualizar** o fluxo de dados para exibir os resultados do modelo.
 
-Aplicar o modelo criará uma nova entidade, com o sufixo **enriquecida < model_name >** acrescentado à entidade ao qual você aplicou o modelo. Em nosso caso, aplicar o modelo para o **OnlineShoppers** entidade criará **OnlineShoppers enriquecida com a previsão de intenção de compra**, que inclui a saída prevista do modelo.
+A aplicação do modelo criará uma nova entidade, com o sufixo **enriched <nome_modelo>** anexado à entidade à qual você aplicou o modelo. No nosso caso, aplicar o modelo à entidade **Visitantes online** criará a **Previsão de intenção de compra enriquecida de Visitantes online**, que inclui a saída prevista do modelo.
 
-Aplicar um modelo de previsão binária adiciona três colunas com os influenciadores principais do registro específicas para a previsão, pontuação de probabilidade e o resultado previsto, cada um prefixado com o nome de coluna especificado.
+A aplicação de um modelo de Previsão Binária adiciona três colunas com resultado previsto, pontuação de probabilidade e os principais influenciadores específicos do registro para a previsão, cada um deles tem um prefixo com o nome da coluna especificado.
 
-![Três colunas de resultado](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-24.png)
+![Três colunas de resultados](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-24.png)
 
-Devido a um problema conhecido, as colunas de saída pontuada na entidade enriquecida só são acessíveis do Power BI Desktop. Para visualizar esses no serviço, você deve usar uma entidade de visualização especial.
+Devido a um problema conhecido, as colunas de saída pontuadas na entidade enriquecida só podem ser acessadas no Power BI Desktop. Para visualizá-las no serviço, você deve usar uma entidade de visualização especial.
 
-Depois que a atualização de fluxo de dados for concluída, você pode selecionar o **OnlineShoppers enriquecida com a visualização de previsão de intenção de compra** entidade para exibir os resultados.
+Após finalizar a conclusão da atualização do fluxo de dados, é possível escolher a entidade **Visualização da previsão de intenção de compra enriquecida de Visitantes online** para visualizar os resultados.
 
 ![Exibir os resultados](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-25.png)
 
-## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>Usando a saída de pontuação do modelo em um relatório do Power BI
+## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>Usar a saída pontuada do modelo em um relatório do Power BI
 
-Para usar a saída pontuada do modelo de aprendizado de máquina, você pode se conectar ao seu fluxo de dados da área de trabalho do Power BI usando o conector de fluxos de dados. O **OnlineShoppers enriquecida com a previsão de intenção de compra** entidade agora pode ser usada para incorporar as previsões de seu modelo em relatórios do Power BI.
+Para usar a saída pontuada a partir do modelo de machine learning, conecte-se ao fluxo de dados no Power BI Desktop usando o conector Fluxo de dados. A entidade **Previsão de intenção de compra enriquecida de Visitantes online** já pode ser usada para incorporar as previsões a partir do modelo nos relatórios do Power BI.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Neste tutorial, você criou e aplicado a um modelo de previsão binária no Power BI usando as seguintes etapas:
+Neste tutorial, você criou e aplicou um modelo de previsão binária no Power BI usando estas etapas:
 
-* Criar um fluxo de dados com os dados de entrada
-* Crie e treine um modelo de aprendizado de máquina
-* Examine o relatório de validação de modelo
+* Criar um fluxo de dados de entrada
+* Criar e treinar um modelo de machine learning
+* Examinar o relatório de validação do modelo
 * Aplicar o modelo a uma entidade de fluxo de dados
-* Usando a saída de pontuação do modelo em um relatório do Power BI
+* Usar a saída pontuada do modelo em um relatório do Power BI
 
-Para obter mais informações sobre a automação de aprendizado de máquina no Power BI, consulte [automatizada de aprendizado de máquina no Power BI (visualização)](service-machine-learning-automated.md).
+Para saber mais sobre a automação do Microsoft Azure Machine Learning no Power BI, confira [Machine Learning Automatizada no Power BI (versão prévia)](service-machine-learning-automated.md).

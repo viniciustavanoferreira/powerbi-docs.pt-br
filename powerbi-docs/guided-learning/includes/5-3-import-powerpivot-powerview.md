@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: e87ea8470464e458c1da2037f25adfcee857361e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61271205"
@@ -16,5 +16,5 @@ Caso sua pasta de trabalho tenha **planilhas do Power View**, isso não represen
 
 ![](media/5-3-import-powerpivot-powerview/5-3_2.png)
 
-E aqui está um dos excelentes recursos do Power BI: Se você usar o Power Query ou Power Pivot para se conectar, consultar e carregar dados de uma fonte de dados externa, depois de ter importado sua pasta de trabalho no Power BI, você pode configurar **atualização agendada**. Com a atualização agendada, o Power BI usará as informações de conexão da pasta de trabalho para se conectar diretamente à fonte de dados e consultar e carregar todos os dados alterados. Todas as visualizações nos relatórios serão atualizadas automaticamente também.
+Aqui está um dos excelentes recursos do Power BI: se você usar o Power Query ou o Power Pivot para se conectar, consultar e carregar dados de uma fonte de dados externa, depois de importar sua pasta de trabalho no Power BI, você poderá configurar uma **atualização agendada**. Com a atualização agendada, o Power BI usará as informações de conexão da pasta de trabalho para se conectar diretamente à fonte de dados e consultar e carregar todos os dados alterados. Todas as visualizações nos relatórios serão atualizadas automaticamente também.
 

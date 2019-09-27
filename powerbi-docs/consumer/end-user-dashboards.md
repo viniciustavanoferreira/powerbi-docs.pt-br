@@ -3,20 +3,19 @@ title: O que é um painel e como faço para abri-lo?
 description: Os dashboards são um recurso chave do serviço do Power BI.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cad6aeeb156534052241d5183a575b222736230a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608342"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141937"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards para consumidores de serviço do Power BI
 
@@ -54,8 +53,8 @@ Os relatórios geralmente são confundidos com os dashboards, já que eles tamb�
 | Pode ver campos e tabelas do conjunto de dados subjacentes |Não. Pode exportar dados, mas não consegue ver tabelas e campos no dashboard de controle em si. |Sim. Pode ver as tabelas de conjunto de dados e os campos e valores. |
 
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>Criadores de dashboard e consumidores de dashboard
-Como ***consumidor*** do Power BI, você recebe dashboards de *criadores*. Saiba mais sobre dashboards nos seguintes tópicos:
+## <a name="dashboard-designers-and-dashboard-consumers"></a>Designers e consumidores de painel
+Como ***consumidor*** do Power BI, você recebe painéis de *designers*. Saiba mais sobre dashboards nos seguintes tópicos:
 
 * [Exibir um dashboard](end-user-dashboard-open.md)
 * Saiba mais sobre [blocos de dashboard](end-user-tiles.md) e o que acontece quando você seleciona um.

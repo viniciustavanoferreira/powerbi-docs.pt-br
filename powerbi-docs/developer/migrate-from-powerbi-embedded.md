@@ -131,7 +131,7 @@ Conjuntos de dados armazenados em cache referem-se a arquivos PBIX que tinham im
 3. Salve o PBIX.
 4. Chame Importar PBIX para o workspace SaaS.
 5. Atualizar a cadeia de conexão chamando - POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. Obter identificadores de GW e a fonte de dados chamando – GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+6. Obter identificadores de Gateway e de fonte de dados chamando GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Atualizar credenciais do usuário chamando - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Relatórios e conjunto de dados antigos

@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: e30a79796fd4d5538406a85a3297a23b2c09a61a
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d21199d8960df4db5027115704533bd3d5d8097c
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751399"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142256"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Solução de problemas de valores aninhados retornados como texto no serviço do Power BI
 
 ## <a name="cause"></a>Causa
 
-No passado, houve casos em que um relatório do Power BI foi atualizado corretamente no Desktop, mas falhou no serviço do Power BI com um erro como “Não é possível converter o valor “[Table]” para o tipo de Tabela”. Uma das causas desse erro é quando o Firewall de Privacidade de Dados (link aqui?) armazena em buffer uma fonte de dados, valores não escalares aninhados (como tabelas, registros, listas e funções) são convertidos automaticamente em valores de texto (como “[Table]” ou “[Record]”).
+No passado, houve casos em que um relatório do Power BI foi atualizado corretamente no Desktop, mas falhou no serviço do Power BI com um erro como “Não é possível converter o valor “[Table]” para o tipo de Tabela”. Uma das causas desse erro é que, quando o Firewall de Privacidade de Dados armazena em buffer uma fonte de dados, os valores não escalares aninhados (como tabelas, registros, listas e funções) são convertidos automaticamente em valores de texto (como “[Table]” ou “[Record]”).
 
 Agora que o serviço do Power BI dá suporte à configuração dos níveis de privacidade (ou desativa o Firewall inteiramente), esses erros podem ser evitados ao [definir as configurações de privacidade da fonte de dados](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) no serviço do Power BI para ser não privado.
 

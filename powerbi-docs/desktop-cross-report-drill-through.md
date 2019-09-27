@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903769"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100092"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Usar o detalhamento entre relatórios no Power BI Desktop
 
@@ -32,7 +32,7 @@ Com o recurso de detalhamento entre relatórios no Power BI Desktop, você pode 
 
 
 > [!NOTE]
-> Os relatórios compartilhados individualmente em *Meu Espaço de Trabalho*, que são relatórios que aparecem como *[Compartilhados comigo](service-share-dashboards.md#share-a-dashboard-or-report)* , só podem ser acessados no espaço de trabalho do qual foram originalmente compartilhados. 
+> Com o recurso de detalhamento entre relatórios no Power BI Desktop, você pode saltar contextualmente de um relatório para outro. Isso vale desde que os relatórios estejam dentro do mesmo espaço de trabalho ou aplicativo no serviço do Power BI. Mas não é aplicável ao acessar relatórios compartilhados individualmente no *Meu espaço de trabalho* ([Relatórios compartilhados comigo](service-share-dashboards.md#share-a-dashboard-or-report)); em vez disso, você precisa acessar o relatório no espaço de trabalho no qual foi originalmente compartilhado.
 
 
 ## <a name="enable-cross-report-drillthrough"></a>Habilitar o detalhamento entre relatórios

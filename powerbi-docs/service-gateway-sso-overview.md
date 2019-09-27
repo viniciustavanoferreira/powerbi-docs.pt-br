@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271865"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100376"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Visão geral de SSO (logon único) para gateways no Power BI
 
-Você pode obter conectividade ininterrupta de logon único, habilitando relatórios do Power BI e dashboards para serem atualizados com base em dados locais, configurando o gateway de dados local tanto com delegação restrita do Kerberos quanto com SAML (Security Assertion Markup Language). O gateway de dados local facilita SSO com o DirectQuery, que é usado para a conexão às fontes de dados locais.
+Você pode obter conectividade ininterrupta de logon único ao habilitar os relatórios do Power BI e painéis para serem atualizados em tempo real com base em dados locais, configurando o gateway de dados local tanto com delegação restrita do Kerberos quanto com SAML (Security Assertion Markup Language). O gateway de dados local dá suporte ao SSO com o DirectQuery, que é usado para a conexão às fontes de dados locais.
 
 No momento, damos suporte para as seguintes fontes de dados:
 
@@ -52,8 +52,7 @@ Veja abaixo mais detalhes sobre essas etapas:
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Agora que você entende as noções básicas de SSO, leia informações mais detalhadas sobre Kerberos e SAML:
+Agora que você entendeu as noções básicas de SSO pelo gateway, leia mais informações detalhadas sobre Kerberos e SAML:
 
 * [Logon único (SSO) – Kerberos](service-gateway-sso-kerberos.md)
-* [Logon único (SSO) – Kerberos – baseado em recurso](service-gateway-sso-kerberos-resource.md)
 * [Logon único (SSO) – SAML](service-gateway-sso-saml.md)

@@ -3,20 +3,19 @@ title: Exportar relatórios do Power BI para o PowerPoint
 description: Saiba como exportar um relatório do Power BI para o PowerPoint.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a798afead16174f66fadba87c795d5377747e93
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61063552"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141440"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar relatórios do Power BI para o PowerPoint
 Com o Power BI, você pode publicar seu relatório no **Microsoft PowerPoint** e criar facilmente um conjunto de slides com base em seu relatório do Power BI. Quando você **exporta para o PowerPoint**, ocorre o seguinte:
@@ -29,27 +28,24 @@ Com o Power BI, você pode publicar seu relatório no **Microsoft PowerPoint** e
 Obter o **relatório do Power BI** exportado no **PowerPoint** é rápido. Basta seguir as etapas descritas na próxima seção.
 
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Como exportar um relatório do Power BI para o PowerPoint
-No serviço do Power BI, selecione um relatório para exibi-lo na tela. Você também pode selecionar um relatório na **Página Inicial**, **Aplicativos** ou em qualquer outra seção no painel esquerdo.
+No serviço do Power BI, selecione um relatório para exibi-lo na tela. Você pode também selecionar um relatório na **Página Inicial**, em **Aplicativos** ou em qualquer outro contêiner, no painel de navegação esquerdo.
 
-![Seleção de Arquivo na barra de menus e seta apontando para Exportar para o PowerPoint](media/end-user-powerpoint/power-bi-publish.png)
+Quando o relatório que você deseja exportar para o PowerPoint for exibido na tela, selecione **Exportar > PowerPoint**, na barra de menus.
 
-Quando o relatório que você deseja exportar para o PowerPoint for exibido na tela, selecione **Arquivo > Exportar para o PowerPoint** na barra de menus do serviço do Power BI.
+![Selecione Exportar na barra de menus](media/end-user-powerpoint/power-bi-export.png)
 
-![Aproximação da barra de navegação esquerda com o Meu Workspace selecionado e o menu suspenso Arquivo selecionado](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
    
-Um pop-up será exibido, em que você tem a opção de selecionar a **Exibição atual** ou a **Exibição padrão**.  A **Exibição atual** exporta o relatório no estado atual, que inclui as alterações ativas feitas nos valores de segmentação e filtro.  A maioria dos usuários seleciona essa opção.  Alternativamente, a seleção de **Exibição padrão** exporta o relatório em seu estado original (como o autor o compartilhou) e não reflete as alterações feitas no estado original.
+Uma janela pop-up será exibida, em que você tem a opção de selecionar **Valores Atuais** ou **Valores Padrão**.  A opção **Valores Atuais** exporta o relatório no estado atual, que inclui as alterações ativas feitas nos valores de segmentação e de filtro.  A maioria dos usuários seleciona essa opção.  Como alternativa, a seleção de **Valores Padrão** exporta o relatório no estado original (como o autor o compartilhou) e não reflete as alterações feitas no estado original.
+
+![Selecione o que exportar](media/end-user-powerpoint/power-bi-current-values.png)
     
-Além disso, há uma caixa de seleção para marcar se você deseja ou não exportar as guias ocultas de um relatório.  Basta marcar essa caixa se desejar exportar somente as guias de relatório visíveis para você no navegador.  Se preferir obter todas as guias ocultas como parte da exportação, deixe-a desmarcada.  Se a caixa de seleção estiver esmaecida, não haverá guias ocultas no relatório.  Depois de fazer as seleções, clique em **Exportar** para continuar.
+Além disso, há uma caixa de seleção para marcar se você deseja ou não exportar as guias ocultas de um relatório.  Basta marcar essa caixa, caso pretenda exportar somente as guias de relatório visíveis para você no navegador.  Se preferir obter todas as guias ocultas como parte da exportação, deixe-a desmarcada.  Se a caixa de seleção estiver esmaecida, não haverá guias ocultas no relatório.  Depois de fazer as seleções, escolha **Exportar** para continuar.
 
 Você verá uma faixa de notificação no canto superior direito da janela do navegador de serviço do Power BI de que o relatório está sendo exportado para o PowerPoint. Isso pode levar alguns minutos e você pode continuar a trabalhar no Power BI enquanto o relatório está sendo exportado.
 
-![notificação de exportação para o PowerPoint em andamento](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![notificação de exportação para o PowerPoint em andamento](media/end-user-powerpoint/power-bi-export-progress.png)
 
-Depois de concluído, o banner de notificação muda para informá-lo de que o serviço do Power BI terminou o processo de exportação.
-
-![Exibição da mensagem de êxito](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
-
-O arquivo estará disponível quando o navegador exibir os arquivos baixados. Na imagem a seguir, ele é mostrado como uma faixa de download na parte inferior da janela do navegador.
+Depois de concluído, o banner de notificação muda para informá-lo de que o serviço do Power BI terminou o processo de exportação. O arquivo estará disponível quando o navegador exibir os arquivos baixados. Na imagem a seguir, ele é mostrado como uma faixa de download na parte inferior da janela do navegador.
 
 ![seta apontando para a notificação do navegador na parte inferior da tela](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 

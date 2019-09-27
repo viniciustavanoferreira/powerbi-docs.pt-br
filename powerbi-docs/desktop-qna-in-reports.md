@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61284653"
@@ -23,9 +23,9 @@ Usar linguagem natural e expressões comuns para fazer perguntas sobre seus dado
 Para habilitar P e R para interpretar com êxito a coleção de perguntas a qual é capaz de responder, a seção de P e R deve fazer suposições sobre o modelo. Se a estrutura do modelo não atender a uma ou mais dessas suposições, ajuste o seu modelo. Esses ajustes para P e R são as mesmas otimizações de práticas recomendadas para qualquer modelo no Power BI, independentemente se você usar P e R. 
 
 > [!NOTE]
-> P e r só estão disponível ao trabalhar com um modelo que contenha **importado** dados ou para conexões dinâmicas SSAS. Não há suporte para modelos DirectQuery.
+> O mecanismo de P e R esta disponível apenas ao trabalhar com um modelo que contenha dados **importados** ou conexões dinâmicas para o SSAS. Não há suporte para modelos do DirectQuery.
 >
-> P e R exigem a seguinte atualização do tempo de execução do C, quando você está usando uma versão do Windows anterior ao Windows 10. Você pode tentar instalar atualizações importantes do Windows Update ou instalar o componente necessário da Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
+> P e R exigem a seguinte atualização do tempo de execução do C, quando você está usando uma versão do Windows anterior ao Windows 10. Você pode tentar instalar atualizações importantes do Windows Update ou instalar o componente necessário da Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows )
 >
 >
 

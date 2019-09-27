@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 30cd80cbeafe2da4468a0049bfa0c34715bce0d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051109"
@@ -31,7 +31,7 @@ Esses três elementos – o **Desktop**, o **serviço** e o **Mobile** – foram
 ## <a name="how-power-bi-matches-your-role"></a>Como o Power BI corresponde à sua função
 A forma de uso do Power BI pode depender de sua função em um projeto ou uma equipe. E outras pessoas, em outras funções, podem usar o Power BI de modo diferente, o que é aceitável.
 
-Por exemplo, você poderia usar principalmente o **serviço do Power BI**, mas seu colega de trabalho que trabalha com cálculos de grandes dados numéricos e com a criação de relatórios de negócios pode fazer uso extensivo do **Power BI Desktop** (e publicar relatórios do Desktop no serviço do Power BI, que você exibirá mais tarde). E outra colega de trabalho, nas vendas, pode usar principalmente o aplicativo de telefone do Power BI para monitorar o progresso em cotas de vendas e analisar os detalhes do novo cliente potencial de vendas.
+Por exemplo, você poderia usar principalmente o **serviço do Power BI**, mas seu colega de trabalho que trabalha com cálculos de grandes dados numéricos e com a criação de relatórios de negócios pode fazer uso extensivo do **Power BI Desktop** (e publicar relatórios do Desktop no serviço do Power BI, que você exibirá mais tarde). Outro colega de trabalho, da área de vendas, talvez use principalmente o aplicativo para telefone do Power BI para monitorar o andamento das cotações de vendas e analisar detalhes sobre novas vendas potenciais.
 
 Você também pode usar cada elemento do **Power BI** em momentos diferentes, dependendo de seu objetivo ou de sua função em determinado projeto ou esforço.
 

@@ -1,5 +1,5 @@
 ---
-title: Otimize os relatórios para os aplicativos móveis – Power BI
+title: Otimizar relatórios para os aplicativos móveis - Power BI
 description: Aprenda a otimizar as páginas de relatório para aplicativos móveis do Power BI criando uma versão de retrato do relatório, especificamente para telefones e tablets.
 author: maggiesMSFT
 manager: kfile
@@ -12,19 +12,19 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61310508"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Otimize os relatórios para os aplicativos móveis do Power BI
-Você pode melhorar a experiência de exibição de relatórios nos aplicativos móveis com a criação de um layout de retrato. No Power BI Desktop e no serviço do Power BI, você pode reorganizar e redimensiona elementos visuais de relatório para uma experiência ideal no modo retrato.  
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Otimizar relatórios para os aplicativos móveis do Power BI
+É possível melhorar a experiência de exibição de relatórios nos aplicativos móveis criando um layout de retrato. No Power BI Desktop e no serviço do Power BI, você reorganiza e redimensiona os visuais de relatório para obter uma experiência ideal no modo retrato.  
 
-Procurando informações sobre como exibir relatórios em um dispositivo móvel em vez disso? Tente este início rápido [explorar painéis e relatórios nos aplicativos móveis do Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
+Está procurando informações sobre como exibir relatórios em um dispositivo móvel? Experimente este início rápido: [Explorar painéis e relatórios nos aplicativos móveis do Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 ![Relatório otimizado em um telefone](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-Além disso, você pode criar [ *responsiva* visuais](#optimize-a-visual-for-any-size) e [segmentações responsivas](#enhance-slicers-to-work-well-in-phone-reports) que são redimensionados bem em qualquer lugar. Se você adicionar filtros ao relatório, eles aparecerão automaticamente no relatório otimizado.
+Além disso, você pode criar [ visuais *responsivos*](#optimize-a-visual-for-any-size) e [segmentações responsivas](#enhance-slicers-to-work-well-in-phone-reports) que redimensionam adequadamente em qualquer lugar. Se você adicionar filtros ao relatório, eles aparecerão automaticamente no relatório otimizado.
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Criar uma versão de retrato de uma página de relatório
 
@@ -44,7 +44,7 @@ Após criar um relatório, é possível otimizá-lo para telefones e tablets.
    
     ![Arrastar e soltar um visual](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    Você pode adicionar alguns ou todos os elementos visuais da página de relatório mestre à página de relatório do telefone. Você pode adicionar cada elemento visual apenas uma vez. Você não precisa incluir todos os elementos visuais.
+    Você pode adicionar alguns ou todos os elementos visuais da página de relatório mestre à página de relatório do telefone. Você pode adicionar cada elemento visual apenas uma vez. Você não precisa incluir todos os visuais.
 
 4. Você pode redimensionar os elementos visuais na grade, como você faria para blocos em dashboards e dashboards móveis.
    

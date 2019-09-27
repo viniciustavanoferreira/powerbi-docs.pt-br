@@ -9,18 +9,18 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 08/10/2017
+ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769709"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073510"
 ---
 # <a name="get-started-with-third-party-apps"></a>Introdução a aplicativos de terceiros
 
-Com o Power BI, você pode usar um aplicativo criado por uma empresa ou indivíduo diferente da Microsoft. Por exemplo, você pode usar um aplicativo de terceiros que integra blocos do Power BI em um aplicativo da web personalizados. Quando você usa um aplicativo de terceiros, você será solicitado a conceder a esse aplicativo determinadas permissões para sua conta do Power BI e recursos. É importante que você somente conceda permissões para aplicativos que você conhece e confia. Permissões para um aplicativo podem ser revogadas em qualquer momento. Veja [Revogar permissões de aplicativos de terceiros](#revoke).
+Com o Power BI, você pode usar um aplicativo criado por uma empresa ou indivíduo diferente da Microsoft. Por exemplo, é possível usar um aplicativo de terceiros que integra blocos do Power BI a um aplicativo Web interno personalizado. Ao usar um aplicativo de terceiros, é solicitado que você conceda a esse aplicativo determinadas permissões para sua conta e recursos do Power BI. É importante que você somente conceda permissões para aplicativos que você conhece e confia. Permissões para um aplicativo podem ser revogadas em qualquer momento. Veja [Revogar permissões de aplicativos de terceiros](#revoke).
 
 Aqui estão os tipos de acesso que um aplicativo pode solicitar.
 
@@ -49,13 +49,13 @@ Aqui estão os tipos de acesso que um aplicativo pode solicitar.
 
 ## <a name="revoke-third-party-app-permissions"></a>Revogar permissões de aplicativos de terceiros
 
-Você pode revogar permissões para um aplicativo de terceiros indo para o site meus aplicativos do Office 365.
+Você pode revogar permissões para um aplicativo de terceiros no site Meus aplicativos do Office 365.
 
-Sobre o **Office 365 meus aplicativos** do site, aqui está como revogar permissões de terceiros:
+Para revogar permissões de terceiros no site **Meus aplicativos do Office 365**, faça o seguinte:
 
 1. Vá para o [site Meus aplicativos do Office 365](https://portal.office.com/myapps).
 
-2. Sobre o **meus aplicativos** página, localize o aplicativo de terceiros.
+2. Na página **Meus aplicativos**, localize o aplicativo de terceiros.
 
 3. Passe o mouse sobre o bloco do aplicativo, clique no botão **(…)** e, em seguida, clique em **Remover**.
 

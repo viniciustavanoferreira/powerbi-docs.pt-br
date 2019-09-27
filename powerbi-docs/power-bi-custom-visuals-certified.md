@@ -12,14 +12,14 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
 ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454554"
 ---
 # <a name="certified-custom-visuals"></a>Visuais personalizados certificados
 
-## <a name="what-are-certified-custom-visuals"></a>O que são visuais personalizados **_certificados_** ?
+## <a name="what-are-_certified_-custom-visuals"></a>O que são visuais personalizados **_certificados_** ?
 
 Visuais personalizados certificados são visuais nos **Marketplace** que cumprem determinados requisitos de **código especificado** que a **equipe do Microsoft Power BI** testou e aprovou. Depois que um visual personalizado é certificado, ele oferece mais recursos. Assim, você pode [exportar para o PowerPoint](consumer/end-user-powerpoint.md) e pode exibir o visual em emails recebidos quando um usuário [assina páginas do relatório](consumer/end-user-subscribe.md).
 
@@ -44,12 +44,12 @@ A Microsoft pode remover um elemento visual da [lista de certificados](#list-of-
 Para [certificar](#certified-custom-visuals) seu visual personalizado, verifique se ele cumpre o seguinte:  
 
 * Aprovado pelo Microsoft AppSource. Seu visual personalizado deve estar no nosso [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
-* Visual personalizado é escrito com controle de versão **v2.5 API** ou superior.
-* Repositório de código está disponível para análise pela equipe do Power BI (por instância, o código-fonte (JavaScript ou TypeScript) em formato legível está disponível para nós, por meio do GitHub).
+* O visual personalizado é gravado com a **versão 2.5 ou superior da API**.
+* O repositório de códigos está disponível para análise pela equipe do Power BI. Por exemplo, o código-fonte (JavaScript ou TypeScript) em formato legível por humanos está disponível para nós por meio do GitHub.
 
     >[!Note]
     > Você não precisa compartilhar publicamente seu código no Github.
-* Requisitos de repositório de código:
+* Requisitos do repositório de códigos:
    * Deve incluir o conjunto mínimo necessário de arquivos:
       * .gitignore
       * capabilities.json
@@ -57,21 +57,21 @@ Para [certificar](#certified-custom-visuals) seu visual personalizado, verifique
       * package.json
       * package-lock.json
       * tsconfig.json
-   * Não deve incluir a pasta node_modules (Adicionar node_modules .gitingore arquivo)
-   * **instalar o NPM** comando não deve retornar erros.
-   * **auditoria de NPM** comando deve retornar todos os avisos com nível alto ou moderado.
-   * **pacote pbiviz** comando não deve retornar erros.
-   * Deve incluir [TSlint da Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) sem nenhuma configuração substituída, e esse comando não deve retornar erros lint.
-   * O pacote compilado do Visual personalizado deve corresponder ao pacote enviado (hash de md5 dos dois arquivos deve ser igual).
-* Requisitos de código de origem:
-   * O visual deve dar suporte à [API de eventos de renderização](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
-   * Certifique-se de que nenhum código arbitrário/dinâmico é executado (incorreta: Eval (), não é seguro usar setTimeout (), requestAnimationFrame(), setinterval (alguma função com a entrada do usuário), entrada/dados de usuário em execução).
-   * Certifique-se de DOM é manipulado com segurança (incorreta: innerHTML, D3.html (< algum usuário/entrada de dados >), use a limpeza para entrada de usuário/data antes de adicioná-lo para o DOM.
-   * Certifique-se de que não há nenhuma exceções/erros de javascript no console do navegador para quaisquer dados de entrada. Os usuários podem usar seu visual com um intervalo diferente de dados inesperados, portanto, o visual não deve falhar. Você pode usar [esse relatório de exemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como um conjunto de dados de teste.
+   * Não deve incluir a pasta node_modules (adicionar node_modules ao arquivo .gitingore)
+   * O comando de **instalação npm** não deve retornar nenhum erro.
+   * O comando de **auditoria npm** não deve retornar nenhum aviso com nível alto ou moderado.
+   * O comando do **pacote pbiviz** não deve retornar nenhum erro.
+   * Deve incluir o [TSlint da Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) sem nenhuma configuração substituída, e esse comando não deve retornar nenhum erro de lint.
+   * O pacote compilado do Visual Personalizado deve corresponder ao pacote enviado (o hash MD5 de ambos os arquivos deve ser igual).
+* Requisitos do código-fonte:
+   * O visual deve ter suporte para [renderização da API de Eventos](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
+   * Garantir que nenhum código arbitrário/dinâmico seja executado (bad: eval(), não seguro para uso de setTimeout(), requestAnimationFrame(), setInterval (alguma função com entrada do usuário), executando entradas/dados do usuário).
+   * Garantir que o DOM seja manipulado de forma segura (bad: innerHTML, D3.html(<algumas entradas/dados do usuário>), e usar a limpeza para entradas/dados do usuário, antes de adicioná-lo ao DOM.
+   * Garantir que não haja erros/exceções de javascript no console do navegador para os dados de entrada. Os usuários podem usar seu visual com um intervalo diferente de dados inesperados, portanto o visual não deve falhar. Use [este relatório de exemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como um conjunto de dados de teste.
 
-* Se as propriedades na capabilities.json forem alteradas, certifique-se de que eles não interrompam relatórios do usuário existente.
+* Se as propriedades em capabilities.json forem alteradas, verifique se elas não interrompem os relatórios existentes do usuário.
 
-* Certifique-se de que o visual é compatível com o [diretrizes para visuais do Power BI](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Nenhuma marca d'água é permitidas**.
+* Garantir que o visual esteja em conformidade com as [diretrizes para visuais do Power BI](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Não é permitido o uso de marcas-d'água**.
 
 * Usa somente componentes OSS analisáveis públicos (bibliotecas JS ou TypeScript públicos. O código-fonte está disponível para revisão e não tem vulnerabilidades conhecidas). Não podemos verificar um visual personalizado usando um componente comercial.
 

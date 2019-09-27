@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b0dc84d7b2d8da0df8a9e61a43f35898d197c188
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513710"
@@ -30,16 +30,16 @@ Você pode conectar-se a dados no Project Online por meio do Power BI Desktop.
 3. Escolha **feed OData** e selecione **Conectar**.
 4. Insira o endereço para o feed OData na caixa URL e, em seguida, clique em OK.
    
-   Se o endereço do seu site do Project Web App semelhante *https://\<tenantname\>.sharepoint.com/sites/pwa*, em seguida, o endereço que você vai inserir para o OData Feed é *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
+   Se o endereço do seu site do Project Web App for semelhante a *https://\<nomedolocatário\>.sharepoint.com/sites/pwa*, o endereço que você inserirá para o Feed OData será *https://\<nomedolocatário\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
    Para nosso exemplo, estamos usando https://contoso.sharepoint.com/sites/pwa/default.aspx
 5. O Power BI Desktop solicitará que você se autentique com sua conta do Office 365. Selecione Conta organizacional e, em seguida, insira suas credenciais.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 
-A conta usada para conectar-se ao OData feed deve ter pelo menos acessar o Visualizador de portfólio para o site do Project Web App. 
+A conta usada para se conectar ao feed OData deve ter pelo menos o acesso do Visualizador do portfólio para o site do Project Web App. 
 
-Aqui, você pode escolher a quais tabelas deseja se conectar e criar uma consulta.  Quer uma ideia de como começar?  A seguinte postagem de blog mostra como criar um gráfico de seus dados do Project Online de progresso.  A postagem de blog refere-se ao uso do Power Query para se conectar ao Project Online, mas isso se aplica também ao Power BI Desktop.
+Aqui, você pode escolher a quais tabelas deseja se conectar e criar uma consulta.  Quer uma ideia de como começar?  A postagem de blog a seguir mostra como criar um Gráfico de Burndown com base em seus dados do Project Online.  A postagem de blog refere-se ao uso do Power Query para se conectar ao Project Online, mas isso se aplica também ao Power BI Desktop.
 
-[Criando gráficos de progresso para o projeto usando o Power Pivot e Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
+[Criação de Gráficos de Burndown para o Project usando o Power Pivot e o Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
 

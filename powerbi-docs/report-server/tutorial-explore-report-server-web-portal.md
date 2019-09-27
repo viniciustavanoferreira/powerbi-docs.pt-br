@@ -11,7 +11,7 @@ ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65240026"
@@ -37,7 +37,7 @@ Para este tutorial, você precisará de uma assinatura do Azure. Se não tiver u
 
 Felizmente, a equipe do Power BI criou uma VM que vem com o Servidor de Relatórios do Power BI já instalado.
 
-1. No Azure Marketplace, selecione o servidor de relatório do Power BI. Esse link abre-lo diretamente: [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
+1. No Azure Marketplace, selecione o Servidor de Relatórios do Power BI. Este link abre-o diretamente: [Servidor de Relatórios do Power BI](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
 
 2. Selecione **Obter agora**.
 3. Para aceitar os termos de uso e a política de privacidade do provedor, selecione **Continuar**.
@@ -46,13 +46,13 @@ Felizmente, a equipe do Power BI criou uma VM que vem com o Servidor de Relatór
 
     ![Criar VM do Servidor de Relatórios do Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
-5. Na **etapa 1, básico**, para **nome da VM**, chamá-lo **reportservervm**.
+5. Em **Etapa 1, Noções básicas**, para **Nome da VM**, insira **reportservervm**.
 
-    O nome da VM de servidor de relatório do Power BI não pode conter traços.
+    O nome da VM do Servidor de Relatórios do Power BI não pode conter traços.
 
 5. Crie um nome de usuário e senha.
 
-6. Para **grupo de recursos**, selecione **criar novo**e chamá-lo **reportserverresourcegroup** > **Okey**.
+6. Para **Grupo de recursos**, selecione **Criar novo** e chame-o de **reportserverresourcegroup** > **OK**.
 
     Se você usar o tutorial mais de uma vez, será necessário dar um nome diferente ao grupo de recursos. Você não pode repetir o nome do grupo de recursos em uma assinatura. 
 
@@ -60,15 +60,15 @@ Felizmente, a equipe do Power BI criou uma VM que vem com o Servidor de Relatór
 
 7. Mantenha os outros valores padrão > **OK**.
 
-8. Na **etapa 2 configurações**, mantenha os padrões > **Okey**.
+8. Em **Etapa 2, Configurações**, mantenha os valores padrão > **OK**.
  
-    O **conta de armazenamento do SQL** e **conta de armazenamento de diagnóstico** valores também devem ser exclusivos. Se você percorrer o tutorial mais de uma vez, você precisa dar-lhes nomes diferentes.
+    Os valores de **Conta de armazenamento do SQL** e **Conta de armazenamento de diagnóstico** também devem ser exclusivos. Se você usar o tutorial mais de uma vez, será necessário atribuir nomes diferentes aos grupos de recursos.
 
-9. Na **etapa 3 resumo**, examine suas seleções > **Okey**.
+9. Em **Etapa 3, Resumo**, examine as seleções > **OK**.
 
-10. Na **comprar o etapa 4**, revise os termos da política de privacidade e de usuário > **criar**.
+10. Em **Etapa 4, Comprar**, examine os Termos do usuário e a política de privacidade > **Criar**.
 
-    O **enviando implantação para o servidor de relatório do Power BI** processo pode levar vários minutos.
+    O processo **Enviando implantação para o Servidor de Relatórios do Power BI** pode levar alguns minutos.
 
 ## <a name="connect-to-your-virtual-machine"></a>Conectar-se à sua máquina virtual
 
@@ -84,13 +84,13 @@ Felizmente, a equipe do Power BI criou uma VM que vem com o Servidor de Relatór
 
     ![Conectar-se à máquina virtual](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. No **conectar-se a máquina virtual** painel, mantenha os padrões e selecione **baixar arquivo RDP**.
+5. No painel **Conectar-se à máquina virtual**, mantenha os valores padrão e selecione **Baixar Arquivo RDP**.
 
-1. No **Conexão de área de trabalho remota** caixa de diálogo, selecione **Connect**.
+1. Na caixa de diálogo **Conexão de Área de Trabalho Remota**, selecione **Conectar**.
 
 6. Insira o nome e a senha que você criou para a VM > **OK**.
 
-7. A próxima caixa de diálogo diz **a identidade do computador remoto não pode ser identificada**. Selecione **Sim**.
+7. A caixa de diálogo seguinte exibe o aviso: **A identidade do computador remoto não pode ser identificada**. Selecione **Sim**.
 
    Pronto! Sua nova VM é aberta.
 
@@ -104,7 +104,7 @@ Quando sua VM abrir, estes são os itens que você verá na área de trabalho.
 |---------|---------|
 |![Número 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Relatórios de exemplo do Power BI (.PBIX) |
 |![Número 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Links para documentação do Servidor de Relatórios do Power BI |
-|![Número 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Inicia o Power BI Desktop otimizado para o servidor de relatório do Power BI (de janeiro de 2019) |
+|![Número 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Iniciar o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI (janeiro de 2019) |
 |![Número 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Abre o portal da Web do Servidor de Relatórios do Power BI no navegador |
 |![Número 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Inicia o SQL Server Data Tools para criar relatórios paginados (.RDL) |
 
@@ -163,7 +163,7 @@ Você pode exibir e interagir com relatórios do Power BI no portal da Web e ini
 
 1. Selecione **Permitir** para permitir que este site abra um programa em seu computador. 
 
-     O relatório é aberto no Power BI Desktop. Anote o nome na barra superior, "Power BI Desktop (de janeiro de 2019)". Trata-se da versão otimizada para o Servidor de Relatórios do Power BI.
+     O relatório é aberto no Power BI Desktop. Observe o nome na barra superior, "Power BI Desktop (janeiro de 2019)". Trata-se da versão otimizada para o Servidor de Relatórios do Power BI.
 
     Use a versão do Power BI Desktop instalada na VM. Você não pode entrar em vários domínios para carregar um relatório.
 

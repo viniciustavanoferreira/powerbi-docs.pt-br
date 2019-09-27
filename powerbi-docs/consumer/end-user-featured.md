@@ -5,22 +5,21 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608607"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141341"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Painéis em destaque no serviço do Power BI
-## <a name="create-a-featured-dashboard"></a>Criar um Dashboard em destaque
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Painéis em destaque no serviço do Power BI
+## <a name="create-a-featured-dashboard"></a>Criar um painel em destaque
 Muitos de nós temos um painel que é visitado mais do que qualquer outro.  Pode ser o painel que usamos para administrar nossos negócios, ou talvez um que contenha uma agregação de blocos de vários painéis e relatórios diferentes.
 
 ![ícone definir como em destaque](./media/end-user-featured/power-bi-dropdown.png)
@@ -52,7 +51,7 @@ Veja Amanda criar um dashboard em destaque e depois siga as instruções abaixo 
 1. Siga as etapas 1 e 2 acima.
    
     ![Janela Alterar dashboard em destaque](./media/end-user-featured/power-bi-change-feature.png)
-2. Selecione **Definir como em destaque**. Remover o destaque de um dashboard não o remove do workspace.  
+2. Selecione **Definir como em destaque**. Remover o destaque de um painel não o remove do Power BI.  
    
     ![mensagem de êxito](./media/end-user-featured/power-bi-unfeature-new.png)
 

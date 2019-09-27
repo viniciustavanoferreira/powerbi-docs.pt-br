@@ -11,7 +11,7 @@ ms.date: 04/15/2019
 ms.author: davidi
 ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61329857"
@@ -27,7 +27,7 @@ Os administradores usam a seguinte chave do Registro para desabilitar o formulá
 Key: HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop
 valueName: ShowLeadGenDialog
 ```
-Você também pode experimentar a seguinte chave tiver sido bem-sucedida para alguns clientes com base em suas configurações:
+Você pode também experimentar a chave a seguir, que tem sido muito útil para alguns clientes com base nas configurações deles:
 
 ```
 Key: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Microsoft Power BI Desktop

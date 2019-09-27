@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877818"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175198"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrando o Power BI – perguntas frequentes
 
@@ -38,6 +38,7 @@ Este artigo aborda perguntas frequentes sobre a administração do Power BI. Par
 
 * [Como isso mudará minha maneira de gerenciar identidades dos usuários em minha organização hoje?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Como podemos gerenciar o Power BI?](#how-do-we-manage-power-bi)
+* [Qual é o processo para gerenciar um locatário criado pela Microsoft para meus usuários?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [Se eu tiver vários domínios, poderei controlar o locatário do Office 365 ao qual os usuários serão adicionados?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Como remover o Power BI para usuários que já se inscreveram?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Como posso saber se novos usuários ingressaram em meu locatário?](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -172,6 +173,14 @@ Há três cenários que podem se aplicar aos usuários em sua organização:
 O Power BI fornece um portal de administração que permite exibir estatísticas de uso, fornece um link para o Centro de administração do Microsoft 365 para gerenciar usuários e grupos e fornece a capacidade de controlar configurações de locatário.
 
 Para usar o portal de administração do Power BI, sua conta deve ser marcada como **Administrador Global** no Office 365 ou no Azure Active Directory ou ter recebido a função de administrador do serviço do Power BI na sua conta de usuário. Para saber mais, confira [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md) e [Portal de administração do Power BI](service-admin-portal.md).
+
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Qual é o processo para gerenciar um locatário criado pela Microsoft para meus usuários?
+
+Quando um usuário de autoatendimento se inscreve em um serviço de nuvem que usa o Azure AD, o serviço o adiciona a um diretório não gerenciado do Azure AD com base no domínio de email. É possível declarar e gerenciar o locatário que foi criado usando um processo conhecido como *tomada de controle do administrador*. Para saber mais, veja [Tomar o controle em um diretório não gerenciado como administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover). O tipo de tomada de controle que você realiza depende da existência de um locatário gerenciado associado com seu domínio:
+
+* O Power BI dá suporte à tomada do controle interno da administração. Ao executar uma tomada de controle _interno_ da administração de um diretório do Azure não gerenciado, você é adicionado como administrador global do diretório não gerenciado. Nenhum usuário, domínio ou plano de serviço é migrado para qualquer outro diretório que você administra.
+
+* O Power BI já não dá suporte à tomada do controle externo da administração. Ao executar uma tomada de controle _externo_ da administração de um diretório do Azure não gerenciado, você adiciona o nome de domínio DNS do diretório não gerenciado ao diretório gerenciado do Azure. Ao fazer isso, cria-se um mapeamento de usuários para recursos no diretório gerenciado do Azure, para que os usuários possam continuar acessando os serviços sem interrupção.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>Se eu tiver vários domínios, poderei controlar o locatário do Office 365 ao qual os usuários serão adicionados?
 

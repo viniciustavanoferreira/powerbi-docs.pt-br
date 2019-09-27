@@ -169,9 +169,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Preencha a informação **AADAuthorityUrl** com a URL que permite a você inserir no locatário organizacional ou inserir com um usuário convidado.
 
-Para inserir com seu locatário organizacional, use a URL: *https://login.microsoftonline.com/common/oauth2/authorize* .
+Para inserir com seu locatário organizacional, use a URL: *https://login.microsoftonline.com/common/oauth2/authorize*.
 
-Para inserir com um convidado, use a URL *https://login.microsoftonline.com/report-owner-tenant-id* , em que você adiciona a ID de locatário do proprietário do relatório substituindo *relatório-proprietário-locatário-id*.
+Para inserir com um convidado, use a URL *https://login.microsoftonline.com/report-owner-tenant-id*, em que você adiciona a ID de locatário do proprietário do relatório substituindo *relatório-proprietário-locatário-id*.
 
 ### <a name="run-the-application"></a>Execute o aplicativo
 
@@ -205,7 +205,7 @@ Para obter um relatório paginado ou do Power BI, use a operação [Obter Relat�
 
 A operação [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) retorna uma lista de relatórios. É possível obter um relatório individual na lista de relatórios.
 
-Para fazer a chamada à API REST, você deve incluir um cabeçalho *Autorização* no formato *Portador {token de acesso}* .
+Para fazer a chamada à API REST, você deve incluir um cabeçalho *Autorização* no formato *Portador {token de acesso}*.
 
 #### <a name="get-reports-with-the-rest-api"></a>Obter relatórios com a API REST
 

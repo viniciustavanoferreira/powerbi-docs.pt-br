@@ -43,7 +43,7 @@ Este artigo descreve as várias abordagens e as analisa de acordo com vários cr
 
 **[Workspace do Power BI](../service-create-workspaces.md)** : um contêiner para o conteúdo no Power BI.
 
-**Artefatos do Power BI**: há vários artefatos do Power BI em espaços de trabalho do Power BI como dashboards, relatórios, conjuntos de dados e fluxos de dados.
+**Artefatos do Power BI**: há vários artefatos do Power BI em workspaces do Power BI como dashboards, relatórios, conjuntos de dados e fluxos de dados.
 
 **[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)** : um conjunto de APIs públicas que permite aos desenvolvedores compilar aplicativos que gerenciam o conteúdo do Power BI e inserir elementos do Power BI.
 
@@ -55,7 +55,7 @@ Este artigo descreve as várias abordagens e as analisa de acordo com vários cr
 
 **Capacidade**: um conjunto de recursos dedicado à execução do serviço do Power BI. [Capacidades do Power BI Premium](../service-premium-what-is.md) Destinadas às empresas que usam o Power BI internamente. Já as[capacidades do Power BI Embedded](azure-pbie-create-capacity.md) servem para desenvolvedores de aplicativos desenvolverem aplicativos SaaS para terceiros.
 
-**[Licença do Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** : licença para um usuário, que concede direitos para publicar conteúdo em espaços de trabalho do aplicativo, consumir aplicativos sem capacidade Premium, compartilhar dashboards e se inscrever em dashboards e relatórios.
+**[Licença do Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** : licença para um usuário, que concede direitos para publicar conteúdo em workspaces do aplicativo, consumir aplicativos sem capacidade Premium, compartilhar dashboards e se inscrever em dashboards e relatórios.
 
 **[Modos de conectividade de dados](../desktop-directquery-about.md)** : a conexão de fontes de dados com o Power BI pode ser feita de vários modos:
 
@@ -113,13 +113,13 @@ Recomendamos testar e medir a carga esperada em sua capacidade simulando o uso e
 
 Há duas abordagens para aplicativos SaaS que oferecem aos usuários a capacidade de editar e criar relatórios ou carregar dados no serviço como parte do fluxo:
 
-   * [Modo de edição/criação em um iFrame interno](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View): o usuário vê o relatório ou uma nova tela em branco dentro do aplicativo SaaS. Dessa forma, ele pode usar a barra de ferramentas do Power BI para criar conteúdo com base em um conjunto de dados no espaço de trabalho. Recomendamos essa opção, pois fica no contexto do usuário em um ambiente familiar. É mais fácil começar a trabalhar e editar, e o usuário cria um relatório anexado a um conjunto de dados existente.
+   * [Modo de edição/criação em um iFrame interno](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View): o usuário vê o relatório ou uma nova tela em branco dentro do aplicativo SaaS. Dessa forma, ele pode usar a barra de ferramentas do Power BI para criar conteúdo com base em um conjunto de dados no workspace. Recomendamos essa opção, pois fica no contexto do usuário em um ambiente familiar. É mais fácil começar a trabalhar e editar, e o usuário cria um relatório anexado a um conjunto de dados existente.
 
-   * Use o Power BI Desktop para criar conteúdo e carregá-lo por meio da interface do usuário do aplicativo SaaS no espaço de trabalho. Nessa abordagem, os usuários têm mais ferramentas para trabalhar usando o Power BI Desktop. No entanto, não recomendamos essa abordagem, pois os usuários precisam estar familiarizados com mais uma ferramenta fora do contexto do aplicativo SaaS. Carregar um arquivo PBIX significa que o usuário está adicionando mais um conjunto de dados, que talvez seja uma duplicata de conjuntos de dados já presentes no espaço de trabalho.
+   * Use o Power BI Desktop para criar conteúdo e carregá-lo por meio da interface do usuário do aplicativo SaaS no workspace. Nessa abordagem, os usuários têm mais ferramentas para trabalhar usando o Power BI Desktop. No entanto, não recomendamos essa abordagem, pois os usuários precisam estar familiarizados com mais uma ferramenta fora do contexto do aplicativo SaaS. Carregar um arquivo PBIX significa que o usuário está adicionando mais um conjunto de dados, que talvez seja uma duplicata de conjuntos de dados já presentes no workspace.
 
 ## <a name="power-bi-workspace-based-isolation"></a>Isolamento com base no Workspace do Power BI
 
-No isolamento com base no Workspace do Power BI, o aplicativo SaaS oferece suporte a vários locatários a partir de um único locatário do Power BI. O isolamento com base no espaço de trabalho inclui todo o conteúdo do Power BI usado por locatários diferentes. A separação de locatários é realizada no nível do Workspace do Power BI, ao criar vários espaços de trabalho. Cada espaço de trabalho contém os conjuntos de dados, relatórios e dashboards relevantes para esse locatário. Além disso, cada espaço de trabalho está conectado apenas aos dados desse locatário. Se você precisar de mais isolamento, crie um usuário *mestre* ou uma entidade de serviço para cada espaço de trabalho e seu conteúdo.
+No isolamento com base no Workspace do Power BI, o aplicativo SaaS oferece suporte a vários locatários a partir de um único locatário do Power BI. O isolamento com base no workspace inclui todo o conteúdo do Power BI usado por locatários diferentes. A separação de locatários é realizada no nível do Workspace do Power BI, ao criar vários espaços de trabalho. Cada workspace contém os conjuntos de dados, relatórios e dashboards relevantes para esse locatário. Além disso, cada workspace está conectado apenas aos dados desse locatário. Se você precisar de mais isolamento, crie um usuário *mestre* ou uma entidade de serviço para cada workspace e seu conteúdo.
 
 ![Workspace](media/multi-tenant-saas/multi-tenant-saas-workspace.png)
 
@@ -132,13 +132,13 @@ Há duas abordagens principais para gerenciar dados do locatário.
 
 Se o armazenamento do aplicativos SaaS mantém um banco de dados por locatário, a escolha natural é usar conjuntos de dados de locatário único no Power BI, com a cadeia de conexão de cada conjunto de dados apontando para o banco de dados correspondente.
 
-Se o armazenamento do aplicativo SaaS está usando um banco de dados multilocatário para todos os locatários, é fácil separar os locatários por espaço de trabalho. Configure a conexão do banco de dados com o conjunto de dados do Power BI usando uma consulta de banco de dados com parâmetros para recuperar somente os dados relevantes do locatário. Atualize a conexão usando o [Power BI Desktop](../desktop-query-overview.md) ou a [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) com [parâmetros](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) na consulta.
+Se o armazenamento do aplicativo SaaS está usando um banco de dados multilocatário para todos os locatários, é fácil separar os locatários por workspace. Configure a conexão do banco de dados com o conjunto de dados do Power BI usando uma consulta de banco de dados com parâmetros para recuperar somente os dados relevantes do locatário. Atualize a conexão usando o [Power BI Desktop](../desktop-query-overview.md) ou a [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) com [parâmetros](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) na consulta.
 
 ### <a name="data-isolation"></a>Isolamento de dados
 
-Os dados nesse modelo de locação são separados no nível do espaço de trabalho. Um mapeamento simples entre um espaço de trabalho e um locatário impede que os usuários de um locatário vejam o conteúdo de outro locatário. O uso de um único usuário *mestre* exige que você tenha acesso a todos os diferentes espaços de trabalho. A configuração de quais dados mostrar a um usuário final é definida durante a [geração do token inserido](https://docs.microsoft.com/rest/api/power-bi/embedtoken), um processo somente back-end que os usuários finais não podem ver ou alterar.
+Os dados nesse modelo de locação são separados no nível do workspace. Um mapeamento simples entre um workspace e um locatário impede que os usuários de um locatário vejam o conteúdo de outro locatário. O uso de um único usuário *mestre* exige que você tenha acesso a todos os diferentes workspaces. A configuração de quais dados mostrar a um usuário final é definida durante a [geração do token inserido](https://docs.microsoft.com/rest/api/power-bi/embedtoken), um processo somente back-end que os usuários finais não podem ver ou alterar.
 
-Para adicionar mais isolamento, um desenvolvedor de aplicativos pode definir um usuário *mestre* ou um aplicativo por espaço de trabalho, ao invés de um único usuário *mestre* ou aplicativo com acesso a vários espaços de trabalho. Assim, você garante que qualquer erro humano ou vazamento de credencial não cause a exposição dos dados de vários clientes.
+Para adicionar mais isolamento, um desenvolvedor de aplicativos pode definir um usuário *mestre* ou um aplicativo por workspace, ao invés de um único usuário *mestre* ou aplicativo com acesso a vários workspaces. Assim, você garante que qualquer erro humano ou vazamento de credencial não cause a exposição dos dados de vários clientes.
 
 ### <a name="scalability"></a>Escalabilidade
 
@@ -156,31 +156,31 @@ Com o isolamento com base no Workspace do Power BI, talvez um desenvolvedor de a
    * Personalizações não planejadas para locatários específicos
    * Frequência de atualizações do conjunto de dados
 
-Por exemplo, a criação de um espaço de trabalho para um novo locatário é uma tarefa comum, e precisa de automação. Com a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/), você pode conseguir [automação total durante a criação de espaços de trabalho](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/).
+Por exemplo, a criação de um workspace para um novo locatário é uma tarefa comum, e precisa de automação. Com a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/), você pode conseguir [automação total durante a criação de workspaces](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/).
 
 ### <a name="multi-geo-needs"></a>Necessidades do Multi-Geo
 
-O Multi-Geo envolve a compra de capacidade nas regiões desejadas e atribuição de um espaço de trabalho para essa capacidade. Se você precisar oferecer suporte a locatários diferentes em regiões diferentes, precisará atribuir ao espaço de trabalho do locatário uma capacidade na região desejada. Essa tarefa é uma operação simples, cujo custo é ter todos os espaços de trabalho na mesma capacidade. No entanto, se você tiver locatários que precisam de dados residentes em várias regiões, todos os artefatos no espaço de trabalho precisam ser duplicados em cada capacidade regional, aumentando a complexidade de gerenciamento e de custo.
+O Multi-Geo envolve a compra de capacidade nas regiões desejadas e atribuição de um workspace para essa capacidade. Se você precisar oferecer suporte a locatários diferentes em regiões diferentes, precisará atribuir ao workspace do locatário uma capacidade na região desejada. Essa tarefa é uma operação simples, cujo custo é ter todos os workspaces na mesma capacidade. No entanto, se você tiver locatários que precisam de dados residentes em várias regiões, todos os artefatos no workspace precisam ser duplicados em cada capacidade regional, aumentando a complexidade de gerenciamento e de custo.
 
 ### <a name="cost"></a>Custo
 
-Os desenvolvedores de aplicativo que usam o Power BI Embedded precisam [adquirir a capacidade do Power BI Embedded para entrar em produção](embed-sample-for-customers.md#move-to-production).  É importante entender o impacto do modelo de isolamento com base no espaço de trabalho e seus efeitos sobre as capacidades.
+Os desenvolvedores de aplicativo que usam o Power BI Embedded precisam [adquirir a capacidade do Power BI Embedded para entrar em produção](embed-sample-for-customers.md#move-to-production).  É importante entender o impacto do modelo de isolamento com base no workspace e seus efeitos sobre as capacidades.
 
-O modelo de isolamento com base no espaço de trabalho combina com as capacidades pelos seguintes motivos:
+O modelo de isolamento com base no workspace combina com as capacidades pelos seguintes motivos:
 
-   * O menor objeto que você pode atribuir de forma independente a uma capacidade é um espaço de trabalho (ou seja, você não pode atribuir um relatório, por exemplo). Assim, ao separar locatários por espaços de trabalho, você obtém flexibilidade total no gerenciamento de cada locatário e suas necessidades de desempenho, e na otimização de utilização da capacidade por meio da redução vertical. Por exemplo, locatários grandes e essenciais com alto volume e volatilidade podem ser gerenciados em uma capacidade separada para garantir um nível consistente de serviços, agrupando locatários menores em outra capacidade para otimizar os custos.
+   * O menor objeto que você pode atribuir de forma independente a uma capacidade é um workspace (ou seja, você não pode atribuir um relatório, por exemplo). Assim, ao separar locatários por workspaces, você obtém flexibilidade total no gerenciamento de cada locatário e suas necessidades de desempenho, e na otimização de utilização da capacidade por meio da redução vertical. Por exemplo, locatários grandes e essenciais com alto volume e volatilidade podem ser gerenciados em uma capacidade separada para garantir um nível consistente de serviços, agrupando locatários menores em outra capacidade para otimizar os custos.
 
-   * Separar os espaços de trabalho também significa separar conjuntos de dados entre locatários, para que os modelos de dados possam vir em partes menores, ao invés de em um único conjunto de dados grande. Essa tarefa permite que a capacidade gerencie melhor o uso da memória, removendo conjuntos de dados pequenos e não utilizados, mantendo os usuários satisfeitos com o desempenho.
+   * Separar os workspaces também significa separar conjuntos de dados entre locatários, para que os modelos de dados possam vir em partes menores, ao invés de em um único conjunto de dados grande. Essa tarefa permite que a capacidade gerencie melhor o uso da memória, removendo conjuntos de dados pequenos e não utilizados, mantendo os usuários satisfeitos com o desempenho.
 
 Os desenvolvedores de aplicativos precisam considerar o limite de atualizações paralelas, pois os processos de atualização podem precisar de capacidade adicional quando você tiver vários conjuntos de dados.
 
 ### <a name="content-customization-and-authoring"></a>Criação e personalização de conteúdo
 
-Para os principais casos de uso de criação de conteúdo, o desenvolvedor do aplicativo precisa considerar cuidadosamente quais locatários podem ter recursos de edição e quantos usuários em cada locatário podem editar. Permitir que vários usuários em cada locatário possam editar resulta na geração de muito conteúdo que pode atingir um limite do conjunto de dados, como o número de relatórios por conjunto de dados ou o número de conjuntos de dados em um espaço de trabalho. Se você conceder aos usuários esse recurso, recomendamos o monitoramento da geração de conteúdo e o escalonamento vertical, conforme necessário. Pelos mesmos motivos, não recomendamos o uso desse recurso para personalização do conteúdo, quando cada usuário pode fazer pequenas alterações em um relatório e salvá-lo por conta própria. Se o aplicativo SaaS permitir a personalização do conteúdo, considere a introdução e comunicação de políticas de retenção de espaço de trabalho para o conteúdo específico do usuário a fim de facilitar o fluxo de exclusão do conteúdo quando os usuários finais mudarem para um novo cargo, saírem da empresa ou não usarem mais a plataforma.
+Para os principais casos de uso de criação de conteúdo, o desenvolvedor do aplicativo precisa considerar cuidadosamente quais locatários podem ter recursos de edição e quantos usuários em cada locatário podem editar. Permitir que vários usuários em cada locatário possam editar resulta na geração de muito conteúdo que pode atingir um limite do conjunto de dados, como o número de relatórios por conjunto de dados ou o número de conjuntos de dados em um workspace. Se você conceder aos usuários esse recurso, recomendamos o monitoramento da geração de conteúdo e o escalonamento vertical, conforme necessário. Pelos mesmos motivos, não recomendamos o uso desse recurso para personalização do conteúdo, quando cada usuário pode fazer pequenas alterações em um relatório e salvá-lo por conta própria. Se o aplicativo SaaS permitir a personalização do conteúdo, considere a introdução e comunicação de políticas de retenção de workspace para o conteúdo específico do usuário a fim de facilitar o fluxo de exclusão do conteúdo quando os usuários finais mudarem para um novo cargo, saírem da empresa ou não usarem mais a plataforma.
 
 ## <a name="row-level-security-based-isolation"></a>Isolamento com base em segurança no nível da linha
 
-Com o isolamento com base em segurança no nível da linha, o aplicativo SaaS usa um único espaço de trabalho para hospedar vários locatários. Isso significa que cada relatório, dashboard e conjunto de dados de artefato do Power BI é criado depois que todos os locatários os usam. Separe os dados entre locatários usando a [segurança no nível da linha](embedded-row-level-security.md) no conjunto de dados multilocatário. Quando os usuários finais fazem logon no aplicativo SaaS e abrem um conteúdo, um token inserido é gerado para a sessão desse usuário, com as funções e filtros que garantem que o usuário veja somente os dados para os quais ele tem permissão. Se os usuários do mesmo locatário não têm permissão para exibir os mesmos dados, o desenvolvedor do aplicativo precisa implementar funções hierárquicas entre locatários e no mesmo locatário.
+Com o isolamento com base em segurança no nível da linha, o aplicativo SaaS usa um único workspace para hospedar vários locatários. Isso significa que cada relatório, dashboard e conjunto de dados de artefato do Power BI é criado depois que todos os locatários os usam. Separe os dados entre locatários usando a [segurança no nível da linha](embedded-row-level-security.md) no conjunto de dados multilocatário. Quando os usuários finais fazem logon no aplicativo SaaS e abrem um conteúdo, um token inserido é gerado para a sessão desse usuário, com as funções e filtros que garantem que o usuário veja somente os dados para os quais ele tem permissão. Se os usuários do mesmo locatário não têm permissão para exibir os mesmos dados, o desenvolvedor do aplicativo precisa implementar funções hierárquicas entre locatários e no mesmo locatário.
 
 ![Segurança em nível de linha](media/multi-tenant-saas/multi-tenant-saas-rls.png)
 
@@ -190,7 +190,7 @@ A implementação do isolamento com base em segurança no nível da linha é mai
 
 ### <a name="data-isolation"></a>Isolamento de dados
 
-Com o isolamento com base em segurança no nível da linha, a separação de dados é realizada usando [definições de segurança no nível da linha](embedded-row-level-security.md) no conjunto de dados, o que significa que todos os dados coexistem. Essa forma de separação de dados é mais suscetível à perda de dados por meio de erro do desenvolvedor. Mesmo que a segurança no nível da linha seja feita no back-end e esteja protegida contra um usuário final, se os dados forem altamente confidenciais ou os clientes estiverem pedindo a separação dos dados, talvez seja melhor usar o isolamento com base no espaço de trabalho.
+Com o isolamento com base em segurança no nível da linha, a separação de dados é realizada usando [definições de segurança no nível da linha](embedded-row-level-security.md) no conjunto de dados, o que significa que todos os dados coexistem. Essa forma de separação de dados é mais suscetível à perda de dados por meio de erro do desenvolvedor. Mesmo que a segurança no nível da linha seja feita no back-end e esteja protegida contra um usuário final, se os dados forem altamente confidenciais ou os clientes estiverem pedindo a separação dos dados, talvez seja melhor usar o isolamento com base no workspace.
 
 ### <a name="scalability"></a>Escalabilidade
 
@@ -198,7 +198,7 @@ Com o isolamento com base em segurança no nível da linha, os dados precisam se
 
 ### <a name="automation--operational-complexity"></a>Automação e complexidade operacional
 
-O gerenciamento de artefatos é muito mais fácil usando o isolamento com base em segurança no nível da linha do que com o isolamento com base no espaço de trabalho, pois há apenas uma versão de um artefato para cada ambiente (desenvolvimento/teste/produção), em vez de uma versão por locatário. Em grande escala, o gerenciamento de artefatos significa administrar e atualizar dezenas de artefatos, ao invés de milhares a dezenas de milhares.
+O gerenciamento de artefatos é muito mais fácil usando o isolamento com base em segurança no nível da linha do que com o isolamento com base no workspace, pois há apenas uma versão de um artefato para cada ambiente (desenvolvimento/teste/produção), em vez de uma versão por locatário. Em grande escala, o gerenciamento de artefatos significa administrar e atualizar dezenas de artefatos, ao invés de milhares a dezenas de milhares.
 
 O Power BI ainda não tem uma API para modificar ou criar regras e funções de RLS. A adição ou alteração de funções pode ser feita apenas manualmente no Power BI Desktop. Se for necessário aplicar uma hierarquia RLS, talvez seja complicado e arriscado de gerenciar se você não planejar cuidadosamente.
 
@@ -208,7 +208,7 @@ Outra complexidade operacional é a necessidade de monitorar atentamente a utili
 
 ### <a name="multi-geo-needs"></a>Necessidades do Multi-Geo
 
-Como todos os dados são armazenados em um único conjunto de dados, é um desafio atender aos requisitos de residência de dados que exigem a associação de determinados dados a locais específicos. Também pode aumentar consideravelmente o custo do uso de várias regiões, pois todos os dados são replicados e armazenados em cada região. Se apenas um número limitado de locatários precisar de regiões geográficas diferentes, você pode manter apenas os dados desses locatários em uma região diferente, usando o modelo de isolamento com base no espaço de trabalho descrito acima.
+Como todos os dados são armazenados em um único conjunto de dados, é um desafio atender aos requisitos de residência de dados que exigem a associação de determinados dados a locais específicos. Também pode aumentar consideravelmente o custo do uso de várias regiões, pois todos os dados são replicados e armazenados em cada região. Se apenas um número limitado de locatários precisar de regiões geográficas diferentes, você pode manter apenas os dados desses locatários em uma região diferente, usando o modelo de isolamento com base no workspace descrito acima.
 
 ### <a name="cost"></a>Custo
 
@@ -216,14 +216,14 @@ A principal despesa com o isolamento com base em segurança no nível da linha �
 
 ### <a name="content-customization-and-authoring"></a>Criação e personalização de conteúdo
 
-À medida que os usuários finais editam ou criam relatórios, eles podem usar o conjunto de dados multilocatário de produção. Por esse motivo, recomendamos somente o uso da opção de iFrame inserido para editar ou [criar relatórios](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View), pois ela depende do mesmo conjunto de dados, com segurança no nível da linha aplicada. Pode ser dispendioso e difícil de gerenciar ter usuários carregando arquivos PBIX com conjuntos de dados adicionais no isolamento baseado em segurança no nível da linha. Além disso, quando os usuários geram novo conteúdo no mesmo espaço de trabalho, você precisa se certificar de que o espaço de trabalho de produção não atinja seus limites e compilar um mecanismo robusto para distinguir qual conteúdo está conectado a qual locatário.
+À medida que os usuários finais editam ou criam relatórios, eles podem usar o conjunto de dados multilocatário de produção. Por esse motivo, recomendamos somente o uso da opção de iFrame inserido para editar ou [criar relatórios](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View), pois ela depende do mesmo conjunto de dados, com segurança no nível da linha aplicada. Pode ser dispendioso e difícil de gerenciar ter usuários carregando arquivos PBIX com conjuntos de dados adicionais no isolamento baseado em segurança no nível da linha. Além disso, quando os usuários geram novo conteúdo no mesmo workspace, você precisa se certificar de que o workspace de produção não atinja seus limites e compilar um mecanismo robusto para distinguir qual conteúdo está conectado a qual locatário.
 
 ## <a name="summary-comparison-of-the-different-approaches"></a>Comparação resumida das diferentes abordagens
 
 > [!Important]
 > A análise a seguir baseia-se no estado atual do produto. Como estamos lançando novos recursos mensalmente, continuamos a fornecer novos recursos que solucionam as limitações e os pontos fracos existentes. Verifique nossas postagens mensais no blog para ver as novidades e volte a este artigo para ver como os novos recursos afetam a recomendação do modelo de locação.
 
-| Critérios de avaliação | Com base no espaço de trabalho   | Com base na segurança no nível da linha  |  |  |
+| Critérios de avaliação | Com base no workspace   | Com base na segurança no nível da linha  |  |  |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---|---|
 | Arquitetura de dados  | Mais fácil quando há um banco de dados por locatário  | Mais fácil quando todos os dados de todos os locatários estão em um único data warehouse   |  |  |
 | Isolamento de dados  | Bom. Cada locatário tem um conjunto de dados dedicado.  | Moderado. Todos os dados estão no mesmo conjunto de dados compartilhado, mas são gerenciados por meio do controle de acesso.  |  |  |
@@ -237,9 +237,9 @@ A principal despesa com o isolamento com base em segurança no nível da linha �
 
 **Limites de artefato do Power BI:**
 
-* O número de espaços de trabalho V1 (grupos) dos quais um único usuário/aplicativo pode ser membro/administrador é de 250.
-* O número de espaços de trabalho V2 (pastas) dos quais um único usuário/aplicativo pode ser membro/administrador é de 1000.
-* O número de conjuntos de dados em um único espaço de trabalho é de 1000.
+* O número de workspaces V1 (grupos) dos quais um único usuário/aplicativo pode ser membro/administrador é de 250.
+* O número de workspaces V2 (pastas) dos quais um único usuário/aplicativo pode ser membro/administrador é de 1000.
+* O número de conjuntos de dados em um único workspace é de 1000.
 * O número de relatórios/dashboards conectados a um único conjunto de dados é de 1000.
 * O limite de tamanho de memória do conjunto de dados para carregar um arquivo *.pbix* é de 10 GB.
 

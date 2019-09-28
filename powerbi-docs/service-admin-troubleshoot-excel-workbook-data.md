@@ -1,6 +1,6 @@
 ---
-title: 'Erro: Não foi possível encontrar nenhum dado em sua pasta de trabalho do Excel'
-description: 'Erro: Não foi possível encontrar nenhum dado em sua pasta de trabalho do Excel'
+title: 'Erro: Não foi possível localizar nenhum dado na sua pasta de trabalho do Excel'
+description: 'Erro: Não foi possível localizar nenhum dado na sua pasta de trabalho do Excel'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -13,19 +13,19 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101366"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Erro: Não foi possível encontrar nenhum dado em sua pasta de trabalho do Excel
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Erro: Não foi possível localizar nenhum dado na sua pasta de trabalho do Excel
 
 >[!NOTE]  
 >Este artigo se aplica ao Excel 2007 e posterior.
 
 Quando você importa uma pasta de trabalho do Excel para o Power BI, poderá ver o seguinte erro:
 
-*Erro: Não foi possível encontrar nenhum dado formatado como uma tabela. Para importar do Excel para o serviço do Power BI, você precisará formatar os dados como uma tabela. Selecione todos os dados que você deseja na tabela e pressione Ctrl + T.*
+*Erro: Não foi possível encontrar nenhum dado formatado como uma tabela. Para importar do Excel para o serviço do Power BI, é necessário formatar os dados como uma tabela. Selecione todos os dados desejados na tabela e pressione Ctrl+T.*
 
 ![Não foi possível encontrar dados na pasta de trabalho](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 

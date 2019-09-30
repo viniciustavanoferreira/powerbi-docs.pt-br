@@ -1,22 +1,22 @@
 ---
 title: Adicionar opções de formatação a um visual personalizado do Power BI
 description: Um tutorial sobre como desenvolver opções de formato visual personalizado do Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61379396"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194591"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Adicionar opções de formatação a um visual personalizado do Power BI
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Tutorial: Adicionar opções de formatação a um visual do Power BI
 
 Nesse tutorial, vamos mostrar como adicionar propriedades comuns ao visual.
 
@@ -263,4 +263,4 @@ Para obter dicas de como depurar seu visual personalizado, veja o [guia depuraç
 
 ## <a name="next-steps"></a>Próximas etapas
 
-É possível listar seu visual desenvolvido recentemente para outras pessoas usarem enviando-o para o **AppSource**. Para saber mais sobre esse processo, veja [Publicar visuais personalizados no AppSource](office-store.md).
+É possível listar seu visual desenvolvido recentemente para outras pessoas usarem enviando-o para o **AppSource**. Para saber mais sobre esse processo, veja [Publicar visuais do Power BI no AppSource](office-store.md).

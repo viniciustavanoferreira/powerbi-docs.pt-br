@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 4bc24df67dd7d2b8ac0ae987ad2e50cff082c73f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710386"
@@ -21,7 +21,7 @@ Este artigo faz parte do passo a passo para [enviar dados por push a um conjunto
 
 Na **etapa 2**, [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md), de Enviar dados por push a um conjunto de dados, você obteve um token para autenticar-se no **Azure AD**. Nesta etapa, você usa o token para chamar a operação [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
 
-Para fazer uma chamada para um recurso REST, você usa uma URL que localiza o recurso e envia uma cadeia de caracteres JSON (JavaScript Object Notation), que descreve o conjunto de dados, ao recurso de serviço do Power BI. Um recurso REST identifica a parte do serviço do Power BI com que você deseja trabalhar. Para enviar dados por push ao conjunto de dados, o recurso de destino é um **Conjunto de Dados**. A URL que identifica um conjunto de dados é https://api.PowerBI.com/v1.0/myorg/datasets. Se você estiver enviando dados dentro de um grupo, a url é https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+Para fazer uma chamada para um recurso REST, você usa uma URL que localiza o recurso e envia uma cadeia de caracteres JSON (JavaScript Object Notation), que descreve o conjunto de dados, ao recurso de serviço do Power BI. Um recurso REST identifica a parte do serviço do Power BI com que você deseja trabalhar. Para enviar dados por push ao conjunto de dados, o recurso de destino é um **Conjunto de Dados**. A URL que identifica um conjunto de dados é https://api.PowerBI.com/v1.0/myorg/datasets. Se você enviar dados por push dentro de um grupo, a URL será https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Para autenticar uma operação REST do Power BI, você adiciona o token que recebeu em [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md) a um cabeçalho de solicitação:
 

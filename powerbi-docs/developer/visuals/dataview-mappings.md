@@ -1,20 +1,20 @@
 ---
 title: Entender o mapeamento de exibição de dados em visuais do Power BI
 description: Este artigo descreve como o Power BI transforma os dados antes de passá-los para elementos visuais.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237230"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193538"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Entender o mapeamento de exibição de dados em visuais do Power BI
 
@@ -618,7 +618,7 @@ O visual obtém sua estrutura de dados conforme descrito no código a seguir (so
 
 Para controlar a quantidade de dados a serem recebidos na exibição de dados, você pode aplicar um algoritmo de redução de dados.
 
-Por padrão, todos os visuais personalizados têm o algoritmo de redução de dados principal aplicado com *count* definida como 1.000 pontos de dados. Isso é o mesmo que definir as seguintes propriedades no arquivo *capabilities.json*:
+Por padrão, todos os visuais do Power BI têm o algoritmo de redução de dados principal aplicado com *count* definida como 1000 pontos de dados. Isso é o mesmo que definir as seguintes propriedades no arquivo *capabilities.json*:
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ Por padrão, todos os visuais personalizados têm o algoritmo de redução de da
 }
 ```
 
-Você pode modificar o valor de *count* para qualquer valor inteiro até 30.000. Os visuais personalizados baseados em R podem dar suporte a até 150.000 linhas.
+Você pode modificar o valor de *count* para qualquer valor inteiro até 30.000. Os visuais do Power BI baseados em R podem dar suporte a até 150000 linhas.
 
 ## <a name="data-reduction-algorithm-types"></a>Tipos de algoritmo de redução de dados
 

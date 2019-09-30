@@ -1,24 +1,24 @@
 ---
 title: Adicionar suporte a indicador para visuais do Power BI
 description: Os visuais do Power BI podem manipular a alternância de indicadores
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237289"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194448"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Adicionar suporte a indicador para visuais do Power BI
 
-Com os indicadores de relatório do Power BI, você pode capturar uma exibição configurada de uma página de relatório, o estado de seleção e o estado de filtragem do visual. Mas isso requer ação adicional do lado dos visuais personalizados para dar suporte ao indicador e reagir corretamente às alterações.
+Com os indicadores de relatório do Power BI, você pode capturar uma exibição configurada de uma página de relatório, o estado de seleção e o estado de filtragem do visual. Mas isso requer ação adicional do lado dos visuais do Power BI para dar suporte ao indicador e reagir corretamente às alterações.
 
 Para obter mais informações sobre indicadores, confira [Usar indicadores para compartilhar informações e criar histórias no Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
 
@@ -32,7 +32,7 @@ Se o visual interagir com outros visuais, selecionar pontos de dados ou filtrar 
 
 2. Atualize a API do visual para a versão 1.11.0 para usar `registerOnSelectCallback` em uma instância do `SelectionManager`. É necessário para visuais sem filtro que usam o `SelectionManager` simples, em vez do `InteractivityService`.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Como os visuais personalizados interagem com o Power BI em indicadores de relatório
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Como os visuais do Power BI interagem com o Power BI em indicadores de relatório
 
 Vamos considerar o seguinte cenário: você deseja criar vários indicadores na página do relatório, com um estado de seleção diferente em cada indicador.
 

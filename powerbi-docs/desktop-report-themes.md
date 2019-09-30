@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 37304f9d23c514c7223b3eca481bf3b7b2258ac4
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904420"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327850"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usar Temas de relatório no Power BI Desktop
 Com os **Temas de Relatório** você pode aplicar mudanças no design do seu relatório inteiro, como usar cores corporativas, mudar conjuntos de ícones ou aplicar uma nova formatação visual padrão. Quando você aplica um **Tema de Relatório**, todos os elementos visuais do seu relatório passam a usar as cores e formatação do tema selecionado. Algumas exceções aplicam-se e são descritas neste artigo.
@@ -475,7 +475,8 @@ Uma enumeração, normalmente usada para opções de formatação de menu suspen
 
 
 ```json
-      "general":
+{
+      "general":{ 
         "responsive": {
           "type": [
             "bool"
@@ -486,7 +487,7 @@ Uma enumeração, normalmente usada para opções de formatação de menu suspen
           "description": [
             "The visual will adapt to size changes"
           ]
-        }
+        },
         "legend": {
         "show": {
           "type": [
@@ -4378,4 +4379,6 @@ A seção a seguir define as enumerações que podem ser usadas no arquivo JSON.
          ]
        }
     }
+  }
+}
 ```

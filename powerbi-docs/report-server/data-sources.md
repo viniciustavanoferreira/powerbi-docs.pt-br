@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808226"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71401820"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
 Os relatórios do Power BI podem se conectar a diversas fontes de dados. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis. Os dados podem ser importados ou consultados diretamente usando o DirectQuery ou uma conexão dinâmica ao SQL Server Analysis Services.
@@ -31,7 +31,7 @@ Outras fontes de dados podem funcionar mesmo que não estejam na lista de compat
 
 | **Fonte de dados** | **Dados armazenados em cache** | **Atualização agendada** | **Live/DirectQuery** |
 | --- | --- | --- | --- |
-| Banco de dados do SQL Server |Sim |Sim |Sim |
+| Banco de Dados do SQL Server |Sim |Sim |Sim |
 | SQL Server Analysis Services |Sim |Sim |Sim |
 | Banco de Dados SQL do Azure |Sim |Sim |Sim |
 | SQL Data Warehouse do Azure |Sim |Sim |Sim |
@@ -71,7 +71,7 @@ Outras fontes de dados podem funcionar mesmo que não estejam na lista de compat
 | Lista do SharePoint Online |Sim |Não |Não |
 | Snowflake |Sim |Não |Não |
 | Banco de dados Sybase |Sim |Sim |Não |
-| Banco de dados Teradata |Sim |Sim |Sim |
+| Teradata |Sim |Sim |Sim |
 | Texto/CSV |Sim |Sim |Não |
 | Web |Sim |Sim |Não |
 | XML |Sim |Sim |Não |
@@ -119,7 +119,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 
 | **Fonte de dados** | **Autenticação Anônima** | **Autenticação da Chave** | **Nome de Usuário e Senha** | **Autenticação do Windows** |
 | --- | --- | --- | --- | --- |
-| Banco de dados do SQL Server |Não |Não |Sim |Sim |
+| Banco de Dados do SQL Server |Não |Não |Sim |Sim |
 | SQL Server Analysis Services |Não |Não |Sim |Sim |
 | Web |Sim |Não |Sim |Sim |
 | Banco de dados SQL do Azure |Não |Não |Sim |Não |
@@ -197,7 +197,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 
 | **Fonte de dados** | **Autenticação Anônima** | **Autenticação da Chave** | **Nome de Usuário e Senha** | **Autenticação do Windows** | **Autenticação Integrada do Windows** |
 | --- | --- | --- | --- | --- | --- |
-| Banco de dados do SQL Server |Não |Não |Sim |Sim |Sim |
+| Banco de Dados do SQL Server |Não |Não |Sim |Sim |Sim |
 | SQL Server Analysis Services |Não |Não |Sim |Sim |Sim |
 | Banco de dados SQL do Azure |Não |Não |Sim |Não |Não |
 | SQL Data Warehouse do Azure |Não |Não |Sim |Não |Não |

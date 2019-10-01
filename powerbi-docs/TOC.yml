@@ -1442,11 +1442,13 @@
           href: service-admin-power-bi-security.md
 - name: Diretrizes
   items:
-    - name: Práticas recomendadas para fluxos de dados
-      href: service-dataflows-best-practices.md
+    - name: Visão geral
+      href: guidance/overview.md
     - name: O que é um esquema em estrela?
       href: guidance/star-schema.md
     - name: Reduzir o tamanho do modelo de dados
       href: guidance/import-modeling-data-reduction.md
     - name: Função DIVIDE versus operador dividir (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Práticas recomendadas para fluxos de dados
+      href: service-dataflows-best-practices.md

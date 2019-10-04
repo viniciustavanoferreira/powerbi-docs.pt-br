@@ -127,7 +127,7 @@
               href: desktop-connect-pdf.md
             - name: Conectar-se ao Adobe Analytics
               href: desktop-connect-adobe-analytics.md
-            - name: Conectar a um banco de dados Oracle
+            - name: Conectar-se a um banco de dados Oracle
               href: desktop-connect-oracle-database.md
             - name: Como executar de scripts do Python no Power BI Desktop
               href: desktop-python-scripts.md
@@ -139,7 +139,7 @@
               href: desktop-python-visuals.md
             - name: Execução de scripts do R no Power BI Desktop
               href: desktop-r-scripts.md
-            - name: Usando o R no Editor de Consultas
+            - name: Uso de R no Editor de Consultas
               href: desktop-r-in-query-editor.md
             - name: Usar um IDE R externo com o Power BI
               href: desktop-r-ide.md
@@ -157,11 +157,11 @@
               href: desktop-connect-bigquery.md
             - name: Conectar-se a um banco de dados Impala no Power BI Desktop
               href: desktop-connect-impala.md
-            - name: Conectar-se ao feed OData no Power BI Desktop
+            - name: Conectar-se a um feed OData no Power BI Desktop
               href: desktop-connect-odata.md
             - name: Conectar-se a um banco de dados do Amazon Redshift no Power BI Desktop
               href: desktop-connect-redshift.md
-            - name: Conectar-se à página da Web do Power BI Desktop
+            - name: Conectar-se a uma página da Web no Power BI Desktop
               href: desktop-connect-to-web.md
             - name: Conectar-se a um warehouse de computação Snowflake no Power BI Desktop
               href: desktop-connect-snowflake.md
@@ -175,17 +175,17 @@
               href: desktop-analysis-services-tabular-data.md
             - name: Usar o DirectQuery no Power BI Desktop
               href: desktop-use-directquery.md
-            - name: DirectQuery para bancos de dados Oracle e Teradata
+            - name: DirectQuery para Oracle e Teradata
               href: desktop-directquery-for-oracle-teradata.md
             - name: DirectQuery e SAP Business Warehouse (BW)
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery e SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Supor configuração de integridade referencial no Power BI Desktop
+            - name: Configuração Pressupor integridade referencial no Power BI Desktop
               href: desktop-assume-referential-integrity.md
             - name: Usar o conector SAP BW no Power BI Desktop
               href: desktop-sap-bw-connector.md
-            - name: Usar links do OneDrive for Business no Power BI Desktop
+            - name: Usar os links do OneDrive for Business no Power BI Desktop
               href: desktop-use-onedrive-business-links.md
             - name: 'Serviço de terceiros: Conector do Facebook para Power BI Desktop'
               href: service-facebook-connector.md
@@ -227,7 +227,7 @@
               href: desktop-export-to-pdf.md
             - name: P e R no Power BI Desktop
               href: desktop-qna-in-reports.md
-            - name: Painel Análise no Power BI Desktop
+            - name: Painel de análise no Power BI Desktop
               href: desktop-analytics-pane.md
             - name: Use insights para explicar aumentos e reduções
               href: desktop-insights.md
@@ -351,7 +351,7 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Matrix visual
               href: visuals/desktop-matrix-visual.md
-            - name: Criar análises avançadas e visualizações usando scripts R no Power BI
+            - name: Criar visualizações e análise avançadas usando scripts do R no Power BI
               href: visuals/service-r-visuals.md
             - name: Gráficos de medidor radial no Power BI
               href: visuals/power-bi-visualization-radial-gauge-charts.md
@@ -361,7 +361,7 @@
               href: visuals/power-bi-visualization-scatter.md
             - name: Gráficos de dispersão de alta densidade
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: Usar os Mapas de Forma no Power BI Desktop (Visualização)
+            - name: Usar mapas de formas no Power BI Desktop (Preview)
               href: visuals/desktop-shape-map.md
             - name: Segmentação de Dados no Power BI
               href: visuals/power-bi-visualization-slicers.md
@@ -395,7 +395,7 @@
       items:
         - name: Vídeos do Power BI Desktop
           href: desktop-videos.md
-        - name: Atualizações mensais anteriores do Power BI Desktop
+        - name: Atualizações mensais anteriores ao Power BI Desktop
           href: desktop-latest-update-archive.md
         - name: Política de privacidade referente ao comentário Enviar um Smiley do Power BI Desktop
           href: desktop-send-smile-privacy-statement.md
@@ -541,7 +541,7 @@
               href: refresh-csv-file-onedrive.md
             - name: Cache de consulta no Power BI Premium
               href: power-bi-query-caching.md
-        - name: Painéis
+        - name: Dashboards
           items:
             - name: Introdução aos painéis
               href: service-dashboards.md
@@ -573,7 +573,7 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: Criar um código QR para um bloco
               href: service-create-qr-code-for-tile.md
-            - name: Classificação de dados do dashboard
+            - name: Classificação de dados no dashboard
               href: service-data-classification.md
             - name: Temas de dashboard
               href: service-dashboard-themes.md
@@ -657,11 +657,11 @@
               href: service-embed-report-spo.md
             - name: Inserir o relatório em um site ou portal seguro
               href: service-embed-secure.md
-            - name: Publicar do Power BI para a Web
+            - name: Publicar na Web por meio do Power BI
               href: service-publish-to-web.md
             - name: Compartilhar um dashboard que é vinculado a uma pasta de trabalho do Excel no OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Editor do Power BI para Excel
+            - name: Power BI Publisher para Excel
               href: publisher-for-excel.md
         - name: Preparação de dados de autoatendimento
           items:
@@ -777,13 +777,13 @@
                   href: service-connect-to-at-internet.md
                 - name: Logs de Auditoria do Azure
                   href: service-connect-to-azure-audit-logs.md
-                - name: Engajamento Móvel do Azure
+                - name: Azure Mobile Engagement
                   href: service-connect-to-azure-mobile.md
                 - name: Microsoft Azure Consumption Insights
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: ID de Circuito
+                - name: ID de circuito
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
                   href: service-connect-to-clickdimensions.md
@@ -813,7 +813,7 @@
                   href: service-connect-to-planview.md
                 - name: Prevedere
                   href: service-connect-to-prevedere.md
-                - name: Project Online
+                - name: Projeto Online
                   href: service-connect-to-project-online.md
                 - name: Projectplace
                   href: service-connect-to-projectplace.md
@@ -967,111 +967,7 @@
           href: report-builder-url-pass-parameters.md
         - name: Publicar um relatório paginado
           href: paginated-reports-save-to-power-bi-service.md
-- name: Power BI para desenvolvedores
-  items:
-    - name: O que os desenvolvedores podem fazer com o Power BI
-      href: developer/what-can-you-do.md
-    - name: Análise integrada
-      items:
-        - name: Visão geral
-          items:
-            - name: O que é a incorporação com o Power BI?
-              href: developer/embedding.md
-            - name: O que é o Power BI Embedded no Azure?
-              href: developer/azure-pbie-what-is-power-bi-embedded.md
-        - name: Tutoriais
-          items:
-            - name: Inserir o conteúdo para clientes
-              href: developer/embed-sample-for-customers.md
-            - name: Inserir o conteúdo para sua organização
-              href: developer/embed-sample-for-your-organization.md
-            - name: Inserir conteúdo para nuvens nacionais
-              href: developer/embed-sample-for-customers-national-clouds.md
-        - name: Conceitos
-          items:
-            - name: Práticas recomendadas de desempenho
-              href: developer/embedded-performance-best-practices.md
-            - name: Entidade de serviço
-              href: developer/embed-service-principal.md
-            - name: Segurança em nível de linha
-              href: developer/embedded-row-level-security.md
-            - name: Gerenciar vários locatários
-              href: developer/embed-multi-tenancy.md
-            - name: Log de diagnósticos do Azure para o Power BI Embedded
-              href: developer/azure-pbie-diag-logs.md
-            - name: Perguntas frequentes sobre incorporação
-              href: developer/embedded-faq.md
-            - name: Permissões do Power BI
-              href: developer/power-bi-permissions.md
-        - name: Como
-          items:
-            - name: Inserir de um aplicativo
-              href: developer/embed-from-apps.md
-            - name: Instalar aplicativos automaticamente
-              href: developer/embed-auto-install-app.md
-            - name: Crie um locatário do Azure Active Directory
-              href: developer/create-an-azure-active-directory-tenant.md
-            - name: Registrar um aplicativo
-              href: developer/register-app.md
-            - name: Obter um token de acesso do Azure AD
-              href: developer/get-azuread-access-token.md
-            - name: Incorporação de P e R
-              href: developer/qanda.md
-            - name: Solucione problemas do aplicativo inserido
-              href: developer/embedded-troubleshoot.md
-            - name: Gerenciar capacidades no Azure
-              items:
-                - name: Criar uma capacidade no Azure
-                  href: developer/azure-pbie-create-capacity.md
-                - name: Criar uma capacidade usando o Multi-Geo no Azure
-                  href: developer/embedded-multi-geo.md
-                - name: Dimensionar uma capacidade no Azure
-                  href: developer/azure-pbie-scale-capacity.md
-                - name: Pausar e iniciar uma capacidade no Azure
-                  href: developer/azure-pbie-pause-start.md
-            - name: Migrar de Coleções de Workspaces
-              items:
-                - name: Como migrar de Coleções de workspaces do Power BI?
-                  href: developer/migrate-from-powerbi-embedded.md
-                - name: Ferramenta de migração
-                  href: developer/migrate-tool.md
-                - name: Trechos de código de migração
-                  href: developer/migrate-code-snippets.md
-        - name: Referência
-          items:
-            - name: APIs
-              items:
-                - name: APIs REST do Resource Management do Azure
-                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
-                - name: APIs REST do Power BI
-                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
-                - name: Referência da API REST do Power BI
-                  href: developer/rest-api-reference.md
-            - name: Download do SDK do .NET
-              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-            - name: Inserir layouts personalizados em um aplicativo
-              href: developer/embedded-custom-layout.md
-        - name: Recursos
-          items:
-            - name: Centro de Desenvolvimento
-              href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: Ferramenta de configuração de inserção
-              href: 'https://aka.ms/embedsetup'
-            - name: Amostra de espaço de JavaScript
-              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-            - name: Wiki do JavaScript do Power BI
-              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
-            - name: Repositório Git do JavaScript
-              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-            - name: 'Repositório Git C# do Power BI'
-              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-            - name: Exemplos
-              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Comunidade do Power BI
-              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-            - name: Stack Overflow
-              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: Elementos visuais personalizados
+    - name: Visuais Personalizados
       items:
         - name: Visão geral
           items:
@@ -1201,7 +1097,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Download do SDK do .NET
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-- name: Servidor de Relatório do Power BI
+- name: Servidor de Relatórios do Power BI
   items:
     - name: Visão geral
       items:
@@ -1285,7 +1181,7 @@
               href: report-server/upgrade.md
             - name: Migrar um servidor de relatório
               href: report-server/migrate-report-server.md
-            - name: Configure o Kerberos para usar relatórios do Power BI
+            - name: Configurar o Kerberos para usar relatórios do Power BI
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Configurar remotamente o acesso ao aplicativo móvel
               href: report-server/configure-powerbi-mobile-apps-remote.md
@@ -1413,7 +1309,7 @@
           href: service-admin-power-bi-expressroute.md
         - name: Uso do B2B do Azure AD
           href: service-admin-azure-ad-b2b.md
-        - name: Segurança de nível de linha com o Power BI
+        - name: Segurança em nível de linha com o Power BI
           href: service-admin-rls.md
         - name: Workspace arquivado do Power BI
           href: service-admin-power-bi-archived-workspace.md

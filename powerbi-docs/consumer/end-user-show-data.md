@@ -4,25 +4,26 @@ description: Este documento explica como os consumidores do Power BI podem “ve
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5b36ded0863685726f9af3104b43c507b9a3c4d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d35cdc6e2c6d2c2632fe8a9776ddc366436cff94
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608026"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71251499"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Mostrar os dados que foram usados para criar o visual
+# <a name="show-data-with-power-bi-reports"></a>Mostrar dados com relatórios do Power BI
 
-Um visual do Power BI é construído usando dados dos conjuntos de dados subjacentes. Se você estiver interessado em ver o que acontece nos bastidores, o Power BI permitirá *exibir* os dados usados para criar o visual. Quando você seleciona **Mostrar Dados**, o Power BI exibe os dados abaixo (ou ao lado) do visual.
+Um visual do Power BI é construído usando dados dos conjuntos de dados subjacentes. Se você estiver interessado em ver o que acontece nos bastidores, o serviço do Power BI permitirá *exibir* os dados usados para criar o visual em um relatório. Quando você seleciona **Mostrar Dados**, o Power BI exibe os dados abaixo (ou ao lado) do visual.
 
+Em um dashboard, para ver os dados subjacentes, use [Exportar para o Excel](end-user-export.md)
 
+## <a name="show-the-data-being-used-to-create-a-report-visual"></a>Mostrar os dados usados para criar um visual de relatório
 1. No serviço do Power BI, [abra um relatório](end-user-report-open.md) e selecione um visual.  
 2. Para exibir os dados por trás do visual, selecione as reticências (...) e escolha **Mostrar dados**.
    

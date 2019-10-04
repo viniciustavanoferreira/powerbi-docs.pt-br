@@ -10,22 +10,35 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd78fc1411f1eb4e9148bb12ddf6d9805954cfd7
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d90ef12e1971ddc81928746f338ba927a48d5b23
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839726"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195168"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Gráficos de rosca no Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Um gráfico de rosca é semelhante a um gráfico de pizza que mostra a relação das partes com um todo. A única diferença é que o centro está em branco e permite o espaço para um rótulo ou ícone.
 
+## <a name="prerequisite"></a>Pré-requisito
+
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+
+1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
+   
+2. Encontre sua cópia do **arquivo PBIX de exemplo de Análise de Varejo**
+
+1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+
+
 ## <a name="create-a-doughnut-chart"></a>Crie um gráfico de rosca
-Essas instruções usam o Exemplo de Análise de Varejo para criar um gráfico de rosca que exibe as vendas deste ano por categoria. Para acompanhar, [baixe o exemplo](../sample-datasets.md) para o serviço do Power BI ou o Power BI Desktop.
 
-1. Comece em uma página de relatório em branco. Caso esteja usando o serviço do Power BI, certifique-se de abrir o relatório no [Modo de Exibição de Edição](../service-interact-with-a-report-in-editing-view.md).
-
-2. No painel Campos, selecione **Vendas** \> **Vendas do Ano Passado**.  
+1. Inicie em uma página de relatório em branco e, no painel Campos, selecione **Vendas** \> **Vendas do Ano Passado**.  
    
 3. No painel Visualizações, selecione o ícone de gráfico de rosca ![ícone de gráfico de rosca](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) para converter seu gráfico de barras em um gráfico de rosca. Se as **Vendas do Ano Passado** não estiverem na área **Valores**, arraste-as para lá.
      

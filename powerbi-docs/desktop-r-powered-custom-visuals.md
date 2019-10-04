@@ -1,37 +1,37 @@
 ---
-title: Usar elementos visuais personalizados baseados em R no Power BI
-description: Usar elementos visuais personalizados baseados em R no Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+title: Usar visuais do Power BI baseados em R no Power BI
+description: Usar visuais do Power BI baseados em R no Power BI
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b5f8677b3207122831e3d2cae6c07aa5bbcb9983
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61278459"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194603"
 ---
-# <a name="use-r-powered-custom-visuals-in-power-bi"></a>Usar elementos visuais personalizados baseados em R no Power BI
+# <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Usar visuais do Power BI baseados em R no Power BI
 
-No **Power BI Desktop** e no **serviço do Power BI**, você pode usar visuais personalizados baseados em R sem nenhum conhecimento do R e sem nenhum script do R. Isso permite que você aproveite o poder analítico e visual de elementos visuais e dos scripts do R, sem a necessidade de aprender ou fazer programação em R.
+No **Power BI Desktop** e no **serviço do Power BI**, você pode usar visuais do Power BI baseados em R sem nenhum conhecimento de R e sem nenhum script de R. Isso permite que você aproveite o poder analítico e visual de elementos visuais e dos scripts do R, sem a necessidade de aprender ou fazer programação em R.
 
-Para usar visuais personalizados baseados em R, primeiro, selecione e baixe o elemento visual personalizado R em que está interessado na galeria [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) de **visuais personalizados** do Power BI.
+Para usar visuais do Power BI baseados em R, primeiro, selecione e baixe o visual personalizado de R em que está interessado na galeria [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) de **visuais do Power BI**.
 
 ![R visual 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
 As seções a seguir descrevem como selecionar, carregar e usar elementos visuais baseados em R no **Power BI Desktop**.
 
-## <a name="use-r-custom-visuals"></a>Uso visuais personalizados do R
+## <a name="use-r-power-bi-visuals"></a>Usar visuais do Power BI em R
 
-Para usar elementos visuais personalizados baseados em R, baixe cada elemento visual da biblioteca de **elementos visuais personalizados**, depois, usar o elemento visual como qualquer outro tipo de elemento visual no **Power BI Desktop**. Há duas maneiras de obter visuais personalizados – você pode baixá-los do site **AppSource** online ou procurar e obtê-los no **Power BI Desktop**. 
+Para usar visuais do Power BI baseados em R, baixe cada visual da biblioteca de **visuais do Power BI**, depois, use o visual como qualquer outro tipo de visual no **Power BI Desktop**. Há duas maneiras de obter visuais do Power BI: você pode baixá-los do site **AppSource** online ou procurar e obtê-los no **Power BI Desktop**. 
 
-### <a name="get-custom-visuals-from-appsource"></a>Obter visuais personalizados do AppSource
+### <a name="get-power-bi-visuals-from-appsource"></a>Obter visuais do Power BI do AppSource
 
 Abaixo estão as etapas para procurar e selecionar visuais no site **AppSource** online:
 
@@ -50,7 +50,7 @@ Abaixo estão as etapas para procurar e selecionar visuais no site **AppSource**
 
    ![R visual 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   Você não precisa instalar o R para usar elementos visuais personalizados baseados em R no **serviço do Power BI**, no entanto, se você quiser usar elementos visuais personalizados baseados em R no **Power BI Desktop**, *instale* o R no computador local. Você pode baixar o R nos seguintes locais:
+   Você não precisa instalar o R para usar visuais do Power BI baseados em R no **serviço do Power BI**, no entanto, se quiser usar visuais do Power BI baseados em R no **Power BI Desktop**, *instale* o R no computador local. Você pode baixar o R nos seguintes locais:
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
@@ -79,25 +79,25 @@ Abaixo estão as etapas para procurar e selecionar visuais no site **AppSource**
 
     Verifique a biblioteca com frequência, pois novos visuais estão sendo adicionados o tempo todo.
 
-### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>Importar visuais personalizados do **Power BI Desktop**
+### <a name="get-power-bi-visuals-from-within-power-bi-desktop"></a>Obter visuais do Power BI do **Power BI Desktop**
 
-1. Você também pode importar visuais personalizados do **Power BI Desktop**. No **Power BI Desktop**, clique nas reticências (...) no painel **Visualizações** e selecione **Importar do marketplace**.
+1. Você também pode obter visuais do Power BI do **Power BI Desktop**. No **Power BI Desktop**, clique nas reticências (...) no painel **Visualizações** e selecione **Importar do marketplace**.
 
    ![R visual 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. Quando você faz isso, a caixa de diálogo **Visuais do Power BI** é exibida, na qual você pode percorrer os visuais personalizados disponíveis e selecionar o que você deseja. Você pode pesquisar por nome, selecionar uma categoria ou apenas percorrer os visuais disponíveis. Quando você estiver pronto, basta selecionar **Adicionar** para adicionar o visual personalizado para **Power BI Desktop**.
+2. Quando você faz isso, a caixa de diálogo **Visuais do Power BI** é exibida, na qual você pode percorrer os visuais do Power BI disponíveis e selecionar o que você deseja. Você pode pesquisar por nome, selecionar uma categoria ou apenas percorrer os visuais disponíveis. Quando você estiver pronto, basta selecionar **Adicionar** para adicionar o visual personalizado para **Power BI Desktop**.
 
    ![R visual 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
-## <a name="contribute-r-powered-custom-visuals"></a>Contribuição de visuais personalizados baseados em R
+## <a name="contribute-r-powered-power-bi-visuals"></a>Contribuir com visuais do Power BI baseados em R
 
-Se você criar elementos visuais do R para uso em seus relatórios, poderá compartilhar esses elementos visuais com o mundo colocando o seu elemento visual personalizado na **galeria de elementos visuais personalizados**. Contribuições são feitas por meio do GitHub e o processo é descrito nas seguintes localizações:
+Se você criar elementos visuais do R para uso em seus relatórios, poderá compartilhar esses elementos visuais com o mundo colocando o seu elemento visual personalizado na **galeria de visuais do Power BI**. Contribuições são feitas por meio do GitHub e o processo é descrito nas seguintes localizações:
 
-* [Contribuição na galeria de elementos visuais personalizados baseados em R](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [Contribuição com a galeria de visuais do Power BI baseados em R](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
-## <a name="troubleshoot-r-powered-custom-visuals"></a>Solução de problemas de visuais personalizados baseados em R
+## <a name="troubleshoot-r-powered-power-bi-visuals"></a>Solução de problemas com visuais do Power BI baseados em R
 
-Os elementos visuais personalizados baseados em R têm determinadas dependências que devem ser atendidas para que os elementos visuais funcionem corretamente. Quando os elementos visuais personalizados baseados em R não executam ou não carregam corretamente, o problema é geralmente um dos seguintes:
+Os visuais do Power BI baseados em R têm determinadas dependências que devem ser atendidas para que funcionem corretamente. Quando os visuais do Power BI baseados em R não são executados ou carregados corretamente, o problema é geralmente um dos seguintes:
 
 * O mecanismo de R está ausente
 * Erros no script de R no qual o elemento visual se baseia
@@ -150,7 +150,7 @@ A equipe do Power BI está trabalhando ativamente para atenuar esses problemas a
 
 Analise as informações adicionais a seguir sobre o R no Power BI.
 
-* [Galeria de elementos visuais personalizados do Power BI](https://app.powerbi.com/visuals/)
+* [Galeria de visuais do Power BI](https://app.powerbi.com/visuals/)
 * [Executando scripts do R no Power BI Desktop](desktop-r-scripts.md)
 * [Criar elementos visuais do R no Power BI Desktop](desktop-r-visuals.md)
 * [Usar um IDE R externo com o Power BI](desktop-r-ide.md)

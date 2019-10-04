@@ -11,18 +11,25 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9ad87d851f52db6cd2720c9e3bd5d4bb7b189a7
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408877"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71191428"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Os gráficos de cascata mostram o total em execução à medida que o Power BI adiciona ou subtrai valores. São úteis para entender como um valor inicial (como a receita líquida) é afetado por uma série de alterações positivas e negativas.
 
 As colunas são codificadas por cores para que você possa notar rapidamente aumentos e diminuições. Com frequência, as colunas de valor inicial e final [iniciam-se no eixo horizontal](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "iniciam-se no eixo horizontal"), enquanto os valores intermediários são colunas flutuantes. Devido a esse estilo, os gráficos de cascata também são chamados de gráficos de ponte.
+
+   > [!NOTE]
+   > Este vídeo usa uma versão mais antiga do Power BI Desktop.
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -40,35 +47,30 @@ Os gráficos de cascata são uma ótima opção:
 
 * Para visualizar o quanto você ganha e gasta mensalmente, e o saldo parcial da sua conta.
 
-## <a name="prerequisites"></a>Pré-requisitos
+## <a name="prerequisite"></a>Pré-requisito
 
-* O serviço do Power BI ou o Power BI Desktop
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Relatório Exemplo de Análise de Varejo
+1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
+   
+2. Encontre sua cópia do **arquivo PBIX de exemplo de Análise de Varejo**
 
-## <a name="get-the-retail-analysis-sample-report"></a>Obter o relatório de exemplo de Análise de Varejo
+1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-Essas instruções usam o exemplo de análise de varejo. Criar uma visualização requer permissões de edição para o conjunto de dados e o relatório. Felizmente, os exemplos do Power BI são todos editáveis. Se alguém compartilhar um relatório com você, é possível criar visualizações em relatórios. Para acompanhar, obtenha o [Relatório de exemplo de Análise de Varejo](../sample-datasets.md).
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
-Após obter o conjunto de dados do **Exemplo de Análise de Varejo**, você pode começar a usar.
 
 ## <a name="create-a-waterfall-chart"></a>Criar um gráfico de cascata
 
 Crie um gráfico de cascata que exibe a variação de vendas (vendas estimadas versus vendas reais) por mês.
 
-1. No **Meu Workspace**, selecione **Conjuntos de dados** > **Criar um relatório**.
-
-    ![Captura de tela de conjuntos de dados > Criar um relatório.](media/power-bi-visualization-waterfall-charts/power-bi-create-a-report.png)
-
 1. No painel **Campos**, selecione **Vendas** > **Variação do Total de Vendas**.
 
    ![Captura de tela de vendas > Variação do Total de Vendas selecionada e o visual resultante.](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
 
-1. Selecione o ícone de cascata ![Captura de tela do ícone de cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png) para converter o gráfico em um mapa de árvore.
+1. Selecione o ícone de cascata ![Captura de tela do ícone de cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
-    Se a **Variação Total de Vendas** não estiver na área do **eixo Y**, arraste-a para lá.
-
-    ![Modelos de visualização](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![Modelos de visualização](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
 1. Selecione **Hora** > **FiscalMonth** para adicioná-la à caixa **Categoria**.
 
@@ -76,19 +78,25 @@ Crie um gráfico de cascata que exibe a variação de vendas (vendas estimadas v
 
 1. Verifique se o Power BI classificou o gráfico de cascata em ordem cronológica. No canto superior direito do gráfico, selecione as reticências (...).
 
-    Verifique se há um indicador amarelo ao lado esquerdo das opções **Classificar em ordem crescente** e **FiscalMonth**
+    Para este exemplo, selecionaremos **Classificar em ordem crescente**
 
-    ![Selecione classificar por > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    Verifique se há um indicador amarelo ao lado esquerdo de **Classificar em ordem crescente.** Isso indica que a opção selecionada está sendo aplicada.
+
+    ![Selecione Classificar por > Ordem crescente](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+
+    Em seguida, vamos clicar em **Classificar por** e selecionar **FiscalMonth**. Assim como na etapa anterior, um indicador amarelo ao lado de sua seleção indica quando sua opção de seleção está sendo aplicada.
+
+    ![Selecione classificar por > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
 
     Você também pode examinar os valores do eixo X e ver se estão na ordem de **Jan** à **Ago**.
 
     Aprofunde-se um pouco mais para ver o que está contribuindo mais para as alterações a cada mês.
 
-1. Arraste **Repositório** > **Região** para o bucket **Divisão**.
+1.  Selecione **Repositório** > **Território**, que adicionará **Território** ao bucket **Divisão**.
 
     ![Mostra Repositório no bucket de Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    Por padrão, o Power BI adiciona os cinco principais colaboradores a aumentos ou diminuições por mês.
+    Por padrão, o Power BI adiciona os cinco principais colaboradores a aumentos ou diminuições por mês. A imagem abaixo expandiu nosso painel de visualização para incluir mais dados. 
 
     ![Mostra Repositório no bucket de Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
 
@@ -101,20 +109,6 @@ Crie um gráfico de cascata que exibe a variação de vendas (vendas estimadas v
     Uma rápida análise revela que as regiões de Ohio e Pensilvânia são os maiores colaboradores para a movimentação, negativa e positiva, em nosso gráfico de cascata.
 
     ![gráfico de cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-
-    É uma descoberta interessante. Ohio e Pensilvânia têm um impacto significativo devido às vendas nessas duas regiões serem muito maiores do que nas outras? Você pode verificar isso.
-
-1. Crie um mapa que examina o valor de vendas deste ano e as vendas do último ano por território.
-
-    ![close-up do mapa em PA e Ohio](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
-
-    O mapa corrobora a teoria. Ele mostra que essas duas regiões tiveram o valor mais alto de vendas no ano passado (tamanho da bolha) e neste ano (sombreamento da bolha).
-
-## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
-
-Para obter informações sobre como usar o painel **Filtros**, veja [Adicionar um filtro a um relatório no modo de exibição de Edição](../power-bi-report-add-filter.md).
-
-Realçar uma coluna em um gráfico de cascata faz a filtragem cruzada dos filtros com outras visualizações na página do relatório e vice-versa. No entanto, a coluna **Total** não dispara o realce ou responde à filtragem cruzada.
 
 ## <a name="next-steps"></a>Próximas etapas
 

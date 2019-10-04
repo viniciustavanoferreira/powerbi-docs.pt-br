@@ -1,47 +1,47 @@
 ---
-title: Visuais personalizadas no Power BI certificados
-description: Requisitos e processos para enviar um visual personalizado para certificação. E uma lista de visuais personalizados já certificados.
-author: sranins
-ms.author: rasala
-manager: kfile
+title: Visuais do Power BI certificados
+description: Requisitos e processos para enviar um visual personalizado para certificação. E uma lista de visuais do Power BI já certificados.
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d806a0ed35a6e8270a154708279faacefeb6e510
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454554"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195698"
 ---
-# <a name="certified-custom-visuals"></a>Visuais personalizados certificados
+# <a name="get-a-power-bi-visual-certified"></a>Certificar um visual do Power BI
 
-## <a name="what-are-_certified_-custom-visuals"></a>O que são visuais personalizados **_certificados_** ?
+## <a name="what-are-_certified_-power-bi-visuals"></a>O que são visuais do Power BI **_certificados_** ?
 
-Visuais personalizados certificados são visuais nos **Marketplace** que cumprem determinados requisitos de **código especificado** que a **equipe do Microsoft Power BI** testou e aprovou. Depois que um visual personalizado é certificado, ele oferece mais recursos. Assim, você pode [exportar para o PowerPoint](consumer/end-user-powerpoint.md) e pode exibir o visual em emails recebidos quando um usuário [assina páginas do relatório](consumer/end-user-subscribe.md).
+Visuais do Power BI certificados são visuais nos **Marketplace** que cumprem determinados requisitos de **código especificado** que a **equipe do Microsoft Power BI** testou e aprovou. Depois que um visual personalizado é certificado, ele oferece mais recursos. Assim, você pode [exportar para o PowerPoint](consumer/end-user-powerpoint.md) e pode exibir o visual em emails recebidos quando um usuário [assina páginas do relatório](consumer/end-user-subscribe.md).
 
-**Visuais personalizados certificados** são usados como [visuais personalizados padrão](power-bi-custom-visuals.md). Visuais personalizados certificados podem ser adicionados ao **serviço do Power BI**, a um **relatório do Power BI Desktop** e exibidos com o **Power BI mobile** e o **Power BI Embedded**.
+**Visuais do Power BI certificados** são usados como [visuais do Power BI padrão](power-bi-custom-visuals.md). Visuais do Power BI certificados podem ser adicionados ao **serviço do Power BI**, a um **relatório do Power BI Desktop** e exibidos com o **Power BI mobile** e o **Power BI Embedded**.
 
-Os testes executados foram projetados para verificar se o visual não acessa serviços ou recursos externos. A **Microsoft** *não* é a autora de visuais personalizados de terceiros e recomenda aos clientes contatar o autor diretamente para verificar a funcionalidade do visual em questão.
+Os testes executados foram projetados para verificar se o visual não acessa serviços ou recursos externos. A **Microsoft** *não* é a autora de visuais do Power BI de terceiros e recomenda aos clientes contatar o autor diretamente para verificar a funcionalidade do visual em questão.
 
 O processo de certificação é opcional e fica a critério dos desenvolvedores decidir se desejam que seus visuais no marketplace sejam certificados.  
 
-**Visuais personalizados não certificados** não necessariamente significam visuais não seguros. Alguns visuais não são certificados, pois não são compatíveis com um ou mais dos [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Por exemplo, conectar-se a um serviço externo, como o mapa de visuais, ou usar bibliotecas comerciais ou visuais.
+**Visuais do Power BI não certificados** não são necessariamente visuais não seguros. Alguns visuais não são certificados, pois não são compatíveis com um ou mais dos [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Por exemplo, conectar-se a um serviço externo, como o mapa de visuais, ou usar bibliotecas comerciais ou visuais.
 
 Você é um desenvolvedor da Web e está interessado em criar suas próprias visualizações e adicioná-las ao  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Veja  **[Desenvolvimento de um visual personalizado do Power BI](developer/custom-visual-develop-tutorial.md)** para saber mais.
 
-## <a name="removal-of-power-bi-certified-custom-visuals"></a>Remoção dos Visuais personalizados certificados do Power BI
+## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Remoção dos visuais do Power BI certificados
 
-A Microsoft pode remover um elemento visual da [lista de certificados](#list-of-custom-visuals-that-have-been-certified) a seu critério.
+A Microsoft pode remover um elemento visual da [lista de certificados](#list-of-power-bi-visuals-that-have-been-certified) a seu critério.
 
 ## <a name="getting-a-custom-visualcertified"></a>Certificando um visual personalizado
 
 ### <a name="certification-requirements"></a>Requisitos de certificação
 
-Para [certificar](#certified-custom-visuals) seu visual personalizado, verifique se ele cumpre o seguinte:  
+Para [certificar](#get-a-power-bi-visual-certified) seu visual personalizado, verifique se ele cumpre o seguinte:  
 
 * Aprovado pelo Microsoft AppSource. Seu visual personalizado deve estar no nosso [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
 * O visual personalizado é gravado com a **versão 2.5 ou superior da API**.
@@ -84,15 +84,15 @@ Para [certificar](#certified-custom-visuals) seu visual personalizado, verifique
 
 Para enviar um visual personalizado para certificação:
 
-1. Envie um email para a equipe de Suporte de Visuais Personalizados do Power BI (pbicvsupport@microsoft.com). No email, inclua as seguintes informações:
+1. Envie um email para a equipe de Suporte de Visuais do Power BI (pbicvsupport@microsoft.com). No email, inclua as seguintes informações:
     * Título: Solicitação de certificação visual
     * Link para o repositório do GitHub em que o código-fonte legível por humanos está hospedado
     * [Cumprir os requisitos](#certification-requirements)
     * Passar a revisão de código
 
-2. A equipe de Visuais Personalizados da Microsoft notifica você quando seu visual personalizado é certificado e adicionado à [lista de certificados](#list-of-custom-visuals-that-have-been-certified) ou rejeitado com um relatório dos problemas que precisam ser corrigidos. É responsabilidade do desenvolvedor manter uma linha aberta de comunicação com a Microsoft e atualizar os visuais certificados como necessário.
+2. A equipe de Visuais do Power BI da Microsoft notifica você quando seu visual personalizado é certificado e adicionado à [lista de certificados](#list-of-power-bi-visuals-that-have-been-certified) ou rejeitado com um relatório dos problemas que precisam ser corrigidos. É responsabilidade do desenvolvedor manter uma linha aberta de comunicação com a Microsoft e atualizar os visuais certificados como necessário.
 
-## <a name="list-of-custom-visuals-that-have-been-certified"></a>Lista de visuais personalizados que foram certificados
+## <a name="list-of-power-bi-visuals-that-have-been-certified"></a>Lista de visuais do Power BI que foram certificados
 
 | Link para AppSource | Link para o vídeo |
 | --- | --- |
@@ -192,7 +192,7 @@ Para enviar um visual personalizado para certificação:
 
 ## <a name="faq"></a>PERGUNTAS FREQUENTES
 
-Para obter mais informações sobre visuais, acesse [Perguntas frequentes sobre visuais certificados](power-bi-custom-visuals-faq.md#certified-custom-visuals).
+Para obter mais informações sobre visuais, acesse [Perguntas frequentes sobre visuais certificados](#get-a-power-bi-visual-certified).
 
 ## <a name="next-steps"></a>Próximas etapas
 
@@ -200,6 +200,6 @@ Para obter mais informações sobre visuais, acesse [Perguntas frequentes sobre 
 * [Playlist de visuais personalizados da Microsoft no YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Visualizações no Power BI](visuals/power-bi-report-visualizations.md)  
 * [Visualizações personalizadas no Power BI](power-bi-custom-visuals.md)  
-* [Publicar visuais personalizados no Microsoft AppSource](developer/office-store.md)  
+* [Publicar visuais do Power BI no Microsoft AppSource](developer/office-store.md)  
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)

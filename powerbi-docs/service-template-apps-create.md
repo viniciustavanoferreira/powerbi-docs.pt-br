@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264555"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195401"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar um aplicativo de modelo no Power BI
 
@@ -47,7 +47,7 @@ Para criar um aplicativo de modelo que pode ser distribuído para outros locatá
 
 3. Insira um nome, uma descrição (opcional) e a imagem de logotipo (opcional) para o workspace do aplicativo.
 
-4. Selecione **Desenvolver um aplicativo de modelo**.
+4. Expanda a seção **Avançado** e selecione **Desenvolver um aplicativo de modelo**.
 
     ![Desenvolver um aplicativo de modelo](media/service-template-apps-create/power-bi-template-app-develop.png)
 
@@ -77,18 +77,20 @@ Agora que há algum conteúdo no workspace, você está pronto para empacotá-lo
 
     **Identidade Visual**
 
-    ![Identidade Visual](media/service-template-apps-create/power-bi-create-branding.png)
+    ![Identidade visual](media/service-template-apps-create/power-bi-create-branding.png)
     - Nome do aplicativo
     - Descrição
     - Site de suporte (o link é apresentado nas informações do aplicativo após a redistribuição do aplicativo de modelo como aplicativo da organização)
     - Logotipo do aplicativo (limite de tamanho do arquivo 45K, taxa de proporção de 1:1, formatos .png, .jpg e .jpeg)
     - Cores do tema de aplicativo
 
-    **Conteúdo**
+    **Navegação**
 
-    **Página de aterrissagem do aplicativo:** Defina um relatório ou dashboard como a página de aterrissagem do seu aplicativo. Use uma página de aterrissagem que dará a impressão correta:
+    Ative o **Novo construtor de navegação**, no qual você pode definir o painel de navegação esquerdo do aplicativo (confira [Projetar a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) neste artigo para obter detalhes).
 
-    ![Conteúdo](media/service-template-apps-create/power-bi-create-content.png)
+   ![Definir a página de aterrissagem do aplicativo](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    **Página de aterrissagem do aplicativo:** Se decidir recusar o construtor de navegação, você terá a opção de selecionar a página de aterrissagem do aplicativo. Defina um relatório ou um dashboard para ser a página de aterrissagem do aplicativo. Use uma página de aterrissagem que dê a impressão certa.
 
     **Controle**
 
@@ -107,7 +109,6 @@ Agora que há algum conteúdo no workspace, você está pronto para empacotá-lo
     - **Valor**: valor de parâmetro padrão.
     - **Obrigatório**: use essa opção para exigir o que o instalador insira um parâmetro específico do usuário.
     - **Bloqueio**: o bloqueio impede que o instalador atualize um parâmetro.
-    - **Estático**: Habilitar caso o aplicativo contenha *apenas* dados de exemplo. Quando você seleciona **Estático**, o assistente de instalação não solicita que os usuários se conectem a uma fonte de dados.
 
     **Acesso** Na fase de teste, decida quais outras pessoas em sua organização podem instalar e testar o aplicativo. Não se preocupe, você sempre poderá voltar e alterar essas configurações posteriormente (a configuração não afeta o acesso do aplicativo de modelo distribuído).
 

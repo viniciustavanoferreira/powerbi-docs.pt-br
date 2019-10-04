@@ -7,37 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f43bb105f7e17ce453e96c6eff875349efd45cb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b4c7cb484b296ccab395e18eb2b0089ffd5c7
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239615"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327813"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Combinar arquivos (binários) no Power BI Desktop
-Uma abordagem eficiente para a importação de dados no **Power BI Desktop** é combinar vários arquivos, que têm o mesmo esquema, em uma única tabela lógica. Com a versão de novembro de 2016 do **Power BI Desktop** (e versões posteriores), essa abordagem conveniente e popular se tornou mais conveniente e mais expansiva, como descrito neste artigo.
+Uma abordagem eficiente para a importação de dados no **Power BI Desktop** é combinar vários arquivos, que têm o mesmo esquema, em uma única tabela lógica. Essa abordagem conveniente e popular se tornou mais conveniente e mais expansiva, como descrito neste artigo.
 
 Para iniciar o processo de combinação de arquivos da mesma pasta, selecione **Obter Dados > Arquivo > Pasta**.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-files-binaries-behavior"></a>Comportamento anterior de combinar arquivos (binários)
-Antes da versão de novembro de 2016 do **Power BI Desktop**, essa funcionalidade era chamada de **Combinar binários**, e era possível combinar certos tipos de arquivo com a transformação **combinar binários**, mas havia limitações:
 
-* As transformações não eram consideradas para cada arquivo individual antes dos arquivos serem combinados em uma única tabela. Assim, geralmente, era necessário combinar arquivos e filtrar os *valores de cabeçalho* filtrando as linhas como parte do processo de edição.
-* A transformação **Combinar binários** funcionava apenas para arquivos de *texto* ou *CSV* e não funcionava em outros formatos de arquivo com suporte, como pastas de trabalho do Excel, arquivos JSON e outros.
-
-Os clientes solicitaram uma operação **combinar binários** mais intuitiva e, portanto, a transformação foi aprimorada e renomeada como **combinar arquivos**.
-
-## <a name="current-combine-files-behavior"></a>Comportamento atual de combinar arquivos
-Agora, o **Power BI Desktop** manipula a operação **combinar arquivos** com mais eficiência. Comece selecionando **combinar arquivos** na guia de faixa de opções **Página Inicial** no **Editor de Consultas** ou na própria coluna.
+## <a name="combine-files-behavior"></a>Comportamento de combinar arquivos
+Você pode **combinar arquivos (binários)** selecionando **combinar arquivos** na guia de faixa de opções **Página Inicial** no **Editor de Consultas** ou na própria coluna.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-A transformação **combinar arquivos** agora se comporta da seguinte maneira:
+A transformação **combinar arquivos** se comporta da seguinte maneira:
 
 * A transformação **combinar arquivos** analisa cada arquivo de entrada e determina o formato de arquivo correto a ser usado, como *texto*, *pasta de trabalho do Excel* ou arquivo *JSON*.
 * A transformação permite selecionar um objeto específico do primeiro arquivo, por exemplo, uma *pasta de trabalho do Excel*, para ser extraído.
@@ -51,7 +44,11 @@ A transformação **combinar arquivos** agora se comporta da seguinte maneira:
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-Com o novo comportamento da operação **combinar arquivos**, combine todos os arquivos de determinada pasta com facilidade, desde que eles tenham o mesmo tipo de arquivo e estrutura (por exemplo, as mesmas colunas).
+> [!NOTE]
+> O escopo de sua seleção em uma pasta de trabalho do Excel afetará o comportamento de combinar binários. Por exemplo, você pode selecionar uma planilha específica para combinar essa planilha ou pode selecionar a raiz para combinar o arquivo completo. Selecionar uma pasta combina os arquivos encontrados nela. 
+
+
+Com o comportamento da operação **combinar arquivos**, combine todos os arquivos de determinada pasta com facilidade, desde que eles tenham o mesmo tipo de arquivo e estrutura (por exemplo, as mesmas colunas).
 
 Além disso, aplique etapas de transformação ou extração adicionais de forma fácil modificando a *consulta de exemplo* criada automaticamente, sem precisar se preocupar em modificar ou criar outras etapas da *consulta de função*. As alterações à *consulta de exemplo* são geradas automaticamente na *consulta de função* vinculada.
 

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564931"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305663"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Reiniciar uma capacidade do Power BI Premium
 
@@ -31,7 +31,7 @@ O Power BI está melhorando constantemente em relação à maneira de proteger o
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>O processo de reinicialização é seguro? Perderei dados?
 
-Todos os dados, as definições, os relatórios e os dashboards salvos em sua capacidade permanecem totalmente intactos após a reinicialização. Quando você reinicia uma capacidade, todas as atualizações agendadas e ad hoc em andamento são interrompidas. O serviço tentará repetir atualizações quando a capacidade esteja disponível. Os usuários que estiverem interagindo com a capacidade perderão o trabalho não salvo. Eles deverão atualizar seus navegadores após a conclusão da reinicialização.
+Todos os dados, as definições, os relatórios e os dashboards salvos em sua capacidade permanecem totalmente intactos após a reinicialização. Quando você reinicia uma capacidade, todas as atualizações agendadas e ad hoc em andamento são interrompidas. O serviço tenta novas atualizações quando a capacidade está disponível. Os usuários que estiverem interagindo com a capacidade perderão o trabalho não salvo. Eles deverão atualizar seus navegadores após a conclusão da reinicialização.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Como reiniciar uma capacidade?
 

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841300"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327707"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modo de armazenamento no Power BI Desktop
 
 No Microsoft Power BI Desktop, é possível especificar o *modo de armazenamento* das tabelas. O *Modo de armazenamento* permite controlar se o Power BI Desktop armazenamento dados da tabela em cache na memória para relatórios. 
 
-![Modo de armazenamento no Power BI Desktop](media/desktop-storage-mode/storage-mode_01.png)
+![Modo de armazenamento no Power BI Desktop](media/desktop-storage-mode/storage-mode-01.png)
 
 Definir o modo de armazenamento oferece muitas vantagens. Você pode definir o modo de armazenamento para cada tabela individualmente no seu modelo. Essa ação habilita um único conjunto de dados, que fornece os seguintes benefícios:
 
@@ -48,13 +48,10 @@ A definição do modo de armazenamento no Power BI Desktop é um dos três recur
 
 ## <a name="use-the-storage-mode-property"></a>Usar a propriedade de modo de armazenamento
 
-O modo de armazenamento é uma propriedade que pode ser definida em cada tabela do modelo. Para definir o modo de armazenamento, no painel **Campos**, clique com o botão direito do mouse na tabela cujas propriedades você deseja definir e selecione **Propriedades**.
+O modo de armazenamento é uma propriedade que pode ser definida em cada tabela do modelo. Para definir o modo de armazenamento ou exibir sua configuração atual, na exibição **Modelo**, selecione a tabela cujas propriedades deseja exibir ou definir e, em seguida, selecione o painel **Propriedades**, expanda a seção **Avançado** e expanda o menu suspenso **Modo de armazenamento**.
 
-![O comando Propriedades no menu contextual](media/desktop-storage-mode/storage-mode_02.png)
+![O comando Propriedades no menu contextual](media/desktop-storage-mode/storage-mode-02.png)
 
-A propriedade atual é exibida na lista suspensa **Modo de armazenamento** no painel **Propriedades de campo** da tabela. É possível exibir o modo de armazenamento atual ou modificá-lo.
-
-![Definição do modo de armazenamento para uma tabela](media/desktop-storage-mode/storage-mode_03.png)
 
 Há três valores para o modo de armazenamento:
 
@@ -77,11 +74,11 @@ As tabelas duplas têm as mesmas restrições de função que as tabelas DirectQ
 ## <a name="propagation-of-dual"></a>Propagação de Dupla
 Considere o seguinte modelo simples, em que todas as tabelas são de uma única fonte que dá suporte à Importação e DirectQuery.
 
-![Exemplo da exibição de relações para o modo de armazenamento](media/desktop-storage-mode/storage-mode_04.png)
+![Exemplo da exibição de relações para o modo de armazenamento](media/desktop-storage-mode/storage-mode-04.png)
 
 Digamos que, de início, todas as tabelas nesse modelo sejam do tipo DirectQuery. Se alterarmos, então, o **modo de armazenamento** da tabela *SurveyResponse* para Importação, a seguinte janela de aviso aparecerá:
 
-![Janela de aviso do modo de armazenamento](media/desktop-storage-mode/storage-mode_05.png)
+![Janela de aviso do modo de armazenamento](media/desktop-storage-mode/storage-mode-05.png)
 
 As tabelas de dimensão (*Customer*, *Geography* e *Date*) podem ser definidas como **Dupla** para reduzir o número de relações fracas no conjunto de dados e melhorar o desempenho. Normalmente, as relações fracas envolvem pelo menos uma tabela do DirectQuery, na qual a lógica de associação não pode ser enviada para os sistemas de origem. O fato de que as tabelas **Duplas** podem agir como DirectQuery ou Importação ajuda a evitar isso.
 
@@ -123,15 +120,15 @@ As consultas que fizerem referência às tabelas do modo **Duplo** retornarão o
 
 Seguindo com o exemplo anterior, a consulta a seguir se refere apenas a uma coluna da tabela *Data*, que está no modo **Duplo**. Portanto, a consulta precisa ter uma ocorrência no cache.
 
-![Script para diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode_06.png)
+![Script para diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode-06.png)
 
 A consulta a seguir se refere apenas a uma coluna da tabela *Vendas*, que está no modo **DirectQuery**. Portanto, ela *não* deve ter ocorrência no cache.
 
-![Script para diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode_07.png)
+![Script para diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode-07.png)
 
 A consulta a seguir é interessante porque combina as duas colunas. Esta consulta não tem ocorrência no cache. Inicialmente, você pode esperar que ela recupere os valores *CalendarYear* do cache e os valores *SalesAmount* da fonte e depois combine os resultados, mas isso seria uma abordagem menos eficiente do que enviar a operação SUM/GROUP BY para o sistema de origem. Se a operação for propagada para a fonte, o número de linhas retornadas provavelmente será muito menor. 
 
-![Script para diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode_08.png)
+![Script para diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Esse comportamento é diferente das [relações muitos para muitos no Power BI Desktop](desktop-many-to-many-relationships.md) ao combinar tabelas armazenadas e não armazenadas em cache.
@@ -145,7 +142,7 @@ O modo de armazenamento *Duplo* é uma otimização de desempenho. Ele só deve 
 ## <a name="data-view"></a>Exibição de dados
 Se pelo menos uma tabela no conjunto de dados tiver o modo de armazenamento definido como **Importação** ou **Duplo**, a guia **Exibição de dados** será exibida.
 
-![Exibição de dados no Power BI Desktop](media/desktop-storage-mode/storage-mode_09.png)
+![Exibição de dados no Power BI Desktop](media/desktop-storage-mode/storage-mode-03.png)
 
 Quando selecionadas em **Exibição de dados**, as tabelas **Dupla** e **Importação** mostram os dados armazenados em cache. As tabelas DirectQuery não mostram dados, e uma mensagem é exibida informando que as tabelas DirectQuery não podem ser mostradas.
 

@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: ac9ffa4d1186a8ca6d4e2d55da4311bbce55903e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161118"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194708"
 ---
 # <a name="funnel-charts"></a>Gráficos de funil
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Um gráfico de funil ajuda você a visualizar um processo linear com estágios conectados sequenciais. Por exemplo, um funil de vendas que acompanha clientes pelos estágios: Oportunidade \> Oportunidade qualificada \> Cliente potencial \> Contrato \> Fechamento.  Em um relance, a forma do funil transmite a integridade do processo que você está controlando.
 
 Cada estágio de funil representa um percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com o primeiro estágio sendo o maior, e cada estágio subsequente, menor do que seu antecessor.  Um funil em forma de pera também é útil - ele pode identificar um problema no processo.  Mas, em geral, o primeiro estágio, o estágio de "entrada", é o maior.
@@ -39,27 +42,43 @@ Os gráficos de funil são uma ótima opção:
 ## <a name="working-with-funnel-charts"></a>Como trabalhar com gráficos de funil
 Gráficos de funil:
 
-* Podem ser fixado por meio dos relatórios e de perguntas e respostas.
 * Podem ser classificados.
 * Vários suportes.
 * Podem ser realçados e cruzados por outras visualizações na mesma página de relatório.
 * Podem ser usados para destacar e cruzar outras visualizações na mesma página de relatório.
+   > [!NOTE]
+   > Assista a este vídeo para ver Will criar um gráfico de funil usando o exemplo de Vendas e Marketing. Em seguida, siga as etapas abaixo do vídeo para tentar você mesmo, usando o arquivo PBIX de exemplo de Análise de Oportunidade
+   > 
+   > 
+## <a name="prerequisite"></a>Pré-requisito
+
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Oportunidade](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
+).
+
+1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
+   
+2. Encontre sua cópia do **arquivo PBIX de exemplo de Análise de Oportunidade**
+
+1. Abra o **arquivo PBIX de exemplo de Análise de Oportunidade** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+
 
 ## <a name="create-a-basic-funnel-chart"></a>Criar um gráfico de funil básico
-Assista a este vídeo para ver Will criar um gráfico de Funil usando a amostra de Vendas e Marketing.
+Assista a este vídeo para ver Will criar um gráfico de funil usando o exemplo de Vendas e Marketing.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 Agora crie seu próprio gráfico de funil que mostra o número de oportunidades que temos em cada um de nossos estágios de vendas.
 
-Essas instruções usam o Exemplo de Análise de Oportunidade. Para acompanhar, [baixe o exemplo](../sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou do Power BI Desktop.   
-
-1. Comece em uma página de relatório em branco e selecione o campo **SalesStage** \> **Sales Stage**. Caso esteja usando o serviço do Power BI, certifique-se de abrir o relatório no [Modo de Exibição de Edição](../service-interact-with-a-report-in-editing-view.md).
+1. Comece em uma página de relatório em branco e selecione o campo **SalesStage** \> **Sales Stage**.
    
-    ![selecionar estágio de vendas](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
-2. [Converta o gráfico](power-bi-report-change-visualization-type.md) em um funil. Observe que **Estágio de Vendas** está no contêiner **Grupo** . 
-3. No painel **Campos**, selecione **Fato** \> **Contagem de Oportunidades**.
+    ![selecionar estágio de vendas](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
+
+1. Selecione o ícone de funil ![ícone de gráfico de funil](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) para converter o gráfico de colunas em um gráfico de funil.
+
+2. No painel **Campos**, selecione **Fato** \> **Contagem de Oportunidades**.
    
     ![criar o gráfico de funil](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Passar o mouse sobre uma barra exibe uma variedade de informações.
@@ -67,10 +86,10 @@ Essas instruções usam o Exemplo de Análise de Oportunidade. Para acompanhar, 
    * O nome do estágio
    * Número de oportunidades no momento deste estágio
    * Taxa de conversão geral (% do cliente potencial) 
-   * Passo a passo (também conhecido como taxa de eliminação) que é % do estágio anterior (nesse caso, Estágio de Proposta/Estágio de Solução)
+   * Passo a passo (também conhecido como taxa de eliminação), que é % do estágio anterior (nesse caso, Estágio de Proposta/Estágio de Solução)
      
-     ![detalhes da barra Proposta](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Adicionar o Funil como um bloco do dashboard](../service-dashboard-tiles.md). 
+     ![detalhes da barra Proposta](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
+
 6. [Salve o relatório](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
@@ -82,15 +101,6 @@ Realçar uma barra em um funil faz a filtragem cruzada das outras visualizaçõe
    
    ![breve vídeo mostrando interações de visuais](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. Para definir as preferências de como os visuais são realçados e filtrados de forma cruzada entre si, veja [Interações de visuais no Power BI](../service-reports-visual-interactions.md)
-
-## <a name="create-a-funnel-chart-using-qa"></a>Criar um gráfico de funil usando P e R
-Abra o painel de Exemplo de Análise de Oportunidade ou qualquer outro painel que tenha pelo menos uma visualização fixada do conjunto de dados de Exemplo de Análise de Oportunidade.  Quando você digitar uma pergunta em P e R, o Power BI procura por respostas em todos os conjuntos de dados associados (blocos fixados) ao o painel selecionado. Para obter mais informações, veja [Power BI – Conceitos básicos](../service-basic-concepts.md).
-
-1. No painel de Exemplo de Análise de Oportunidade, comece a digitar sua pergunta na caixa de perguntas P e R.
-   
-   ![caixa de pergunta e funil](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
-   
-2. Certifique-se de adicionar "como funil" para o que Power BI saiba qual tipo de visualização você prefere.
 
 ## <a name="next-steps"></a>Próximas etapas
 

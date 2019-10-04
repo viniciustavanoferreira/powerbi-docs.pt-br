@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985715"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305696"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são os relatórios paginados no Power BI Premium?
 
@@ -36,14 +36,13 @@ Os relatórios paginados têm sua própria ferramenta de design, o Construtor de
 
 Um único relatório paginado pode ter várias fontes de dados diferentes. Ele não tem um modelo de dados subjacente, ao contrário dos relatórios do Power BI. Para a versão inicial de relatórios paginados no serviço do Power BI, você cria fontes de dados inseridas e conjuntos de dados no próprio relatório. Por enquanto, não é possível usar fontes de dados compartilhadas ou conjuntos de dados compartilhados. Você pode criar relatórios no Construtor de Relatórios no computador local. Se um relatório se conectar a dados locais, depois de carregar o relatório no serviço do Power BI, você precisará criar um gateway e redirecionar a conexão de dados. Aqui estão as fontes de dados às quais você pode se conectar no momento:
 
-- Banco de Dados SQL do Azure e SQL Data Warehouse do Azure
+- Banco de Dados SQL do Azure e Data Warehouse (via Basic e oAuth)
 - Azure Analysis Services (via SSO)
 - SQL Server por meio de um gateway
 - SSAS (SQL Server Analysis Services) via gateway
-- Conjuntos de dados do Power BI Premium
+- Conjuntos de dados do Power BI
 - Oracle
 - Teradata
-- Fontes adicionais à medida que forem adicionadas
 
 ## <a name="design-your-report"></a>Projetar seu relatório  
 
@@ -79,10 +78,10 @@ Confira o artigo [Obter uma assinatura para você e para outras pessoas de um re
 Aqui estão alguns outros recursos que não têm suporte na versão inicial:
 
 - Fixar páginas de relatório ou visuais em painéis do Power BI. Você ainda pode fixar visualizações a um painel do Power BI de um relatório paginado local em um Servidor de Relatórios do Microsoft Power BI ou em um Servidor de Relatórios do Reporting Services. Confira [Fixar itens do Reporting Services em painéis do Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) para obter mais informações.
-- Recursos interativos, como mapas de documento e botões de mostrar/ocultar.
-- Sub-relatórios e relatórios detalhados.
+- Mapas do Documento.
+- Sub-relatórios e relatórios detalhados.  No entanto, você pode considerar o uso de parâmetros de URL com relatórios paginados para chegar aos cenários de detalhamento.
 - Fontes de dados compartilhadas e conjuntos de dados compartilhados.
-- Elementos visuais de relatórios do Power BI.
+
  
 ## <a name="next-steps"></a>Próximas etapas
 

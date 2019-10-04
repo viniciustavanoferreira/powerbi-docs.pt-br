@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: b04feaff983f2a4384fc87028355143264c6e6b1
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391902"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325531"
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Existem ocasiões em que você talvez queira usar o Excel para exibir e interagir com um conjunto de dados do Power BI. Com o recurso **Analisar no Excel**, você pode fazer isso e acessar recursos de Tabela Dinâmica, gráfico e segmentação no Excel com base no conjunto de dados existente no Power BI.
@@ -25,11 +25,13 @@ Existem ocasiões em que você talvez queira usar o Excel para exibir e interagi
 Há alguns requisitos para o uso do recurso **Analisar no Excel**:
 
 * Há suporte para o recurso **Analisar no Excel** no Microsoft Excel 2010 SP1 e posterior.
+
 * As Tabelas Dinâmicas do Excel não têm suporte para agregação do tipo "arrastar e soltar" dos campos numéricos. Seu conjunto de dados no Power BI *deve ter medidas predefinidas*.
 * Algumas empresas podem ter regras de Política de Grupo que impedem a instalação das atualizações necessárias do recurso **Analisar no Excel** no Excel. Se você não conseguir instalar as atualizações, verifique com seu administrador.
 * **Analisar no Excel** requer que o conjunto de dados esteja no Power BI Premium ou que o usuário tenha uma licença do Power BI Pro. Para saber mais sobre as diferenças na funcionalidade entre os tipos de licença, leia sobre os [Recursos do Power BI por tipo de licença](service-features-license-type.md). 
 * Os usuários poderão se conectar aos conjuntos de dados por meio de Analisar no Excel, se tiverem permissão de leitura no conjunto de dados subjacente.  Um usuário poderia ter isso de diversas maneiras, tais como sendo um membro do workspace que contém o conjunto de dados, recebendo o compartilhamento de um relatório ou dashboard que use o conjunto de dados ou, por fim, tendo permissão para um aplicativo que contém o conjunto de dados.
 * O **Analisar no Excel** é um recurso do serviço do Power BI e não está disponível no Servidor de Relatórios do Power BI ou no Power BI Embedded. 
+* Só há suporte para **Analisar no Excel** em computadores que executam o Microsoft Windows.
 
 ## <a name="how-does-it-work"></a>Como funciona?
 Quando você seleciona **Analisar no Excel** no menu de reticências (...) associado a um conjunto de dados ou relatório no **Power BI**, o Power BI cria um arquivo .ODC e o baixa do navegador para o computador.

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751567"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305757"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar um aplicativo no Power BI
 
@@ -190,6 +190,13 @@ Essa ação desinstala o aplicativo em todos para os quais você o distribuiu e 
 Quando os consumidores do aplicativo abrem seu aplicativo, eles veem a navegação que você criou, em vez do painel de navegação à esquerda padrão do Power BI. A navegação do aplicativo lista os relatórios e os dashboards nas seções definidas. Ela também lista as páginas individuais em cada relatório, em vez de apenas o nome do relatório.
 
 ![Aplicativo com navegação](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>Considerações e limitações
+Coisas para se lembrar a respeito da publicação de aplicativos:
+
+* Você pode ter no máximo 100 usuários ou grupos na lista de acesso do aplicativo. No entanto, você pode conceder acesso a mais de 100 usuários ao aplicativo. Para fazer isso, use um ou mais grupos de usuários que contenham todos os usuários desejados.
+* Para a nova experiência de workspace, se o usuário adicionado à lista de acesso do aplicativo já tiver acesso ao aplicativo por meio do workspace, ele não será mostrado na lista de acesso do aplicativo.  
+
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Criar um workspace](service-create-workspaces.md)

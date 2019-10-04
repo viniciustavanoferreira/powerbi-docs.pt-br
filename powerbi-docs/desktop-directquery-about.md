@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654765"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305791"
 ---
 # <a name="using-directquery-in-power-bi"></a>Usando o DirectQuery no Power BI
 Você pode se conectar a todos os tipos de fontes de dados diferentes ao usar o **Power BI Desktop** ou o **serviço do Power BI** e fazer essas conexões de dados de maneiras diferentes. *Importe* dados para o Power BI, que é a maneira mais comum de obter dados, ou conecte-se diretamente aos dados em seu repositório de origem original, que é conhecido como **DirectQuery**. Este artigo descreve o **DirectQuery** e suas funcionalidades:
@@ -137,6 +137,7 @@ O termo *modelagem*, nesse contexto, significa o ato de refinar e enriquecer os 
 Ao usar o **DirectQuery**, muitos desses aprimoramentos de modelo ainda poderão ser realizados e certamente ainda haverá o princípio de que os dados brutos estarão sendo aprimorados para melhorar o consumo posterior. No entanto, há alguns recursos de modelagem que não estão disponíveis ou são limitados ao usar o DirectQuery. Geralmente, as limitações são aplicadas para evitar problemas de desempenho. O conjunto de limitações que são comuns a todas as fontes de DirectQuery estão na lista com marcadores abaixo. Limitações adicionais podem ser aplicadas a fontes individuais, conforme descrito em *Detalhes específicos da fonte de dados*, que encontra-se próximo ao final deste artigo.
 
 * **Nenhuma hierarquia de datas interna:** ao importar dados, por padrão, cada coluna de date/datetime também terá uma hierarquia de data interna disponível por padrão. Por exemplo, ao importar uma tabela de pedidos de vendas, que inclui uma coluna OrderDate e utilizar essa coluna em um visual, será possível escolher o nível apropriado (ano, mês, dia) a ser usado. Essa hierarquia interna de data não está disponível ao usar o modo DirectQuery. No entanto, observe que, se a tabela Date estiver disponível na fonte subjacente (como é comum em muitos data warehouses), as funções de Inteligência de Dados Temporais do DAX poderão ser usadas normalmente.
+* **Suporte para data/hora com precisar apenas até os segundos:** ao usar colunas de hora em seu conjunto de dados, o Power BI emite apenas consultas para a origem subjacente até o nível de detalhe dos segundos. Não são enviadas consultas à origem do DirectQuery para obter informações de milissegundos, portanto, você precisará remover essa parte das horas das colunas de origem.
 * **Limitações em colunas calculadas:** as colunas calculadas são limitadas a serem intra-linha e, sendo assim, só podem fazer referência a valores de outras colunas da mesma tabela, sem o uso de quaisquer funções de agregação. Além disso, as funções escalares do DAX (como LEFT()) que são permitidas serão limitadas àquelas que simplesmente podem ser enviadas por push à fonte subjacente e, portanto, variarão de acordo com os recursos exatos da fonte. As funções para as quais não há suporte não serão listadas no preenchimento automático durante a criação do DAX para uma coluna calculada e resultarão em um erro se forem usadas.
 * **Não há suporte para as funções DAX pai-filho:** no modelo DirectQuery não é possível usar a família de funções DAX PATH(), que geralmente manipulam estruturas Pai-Filho (como plano de contas ou hierarquias de funcionários).
 * **Não há suporte para tabelas calculadas:** a capacidade de definir uma tabela calculada usando uma expressão DAX não tem suporte no modo DirectQuery.

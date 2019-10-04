@@ -11,26 +11,31 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8222194359077cb0d88286a33d1c9b2a05f6bd80
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: d776425d4c19070c00658cbd588c5421d22a0057
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390980"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192836"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersão, gráficos de bolhas e gráficos de pontos no Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Um gráfico de dispersão sempre tem dois eixos de valor para mostrar um conjunto de dados numéricos em um eixo horizontal e outro conjunto de valores numéricos em um eixo vertical. O gráfico exibe pontos na interseção de um valor numérico de x e y, combinando esses valores em pontos de dados individuais. O Power BI pode distribuir esses pontos de dados de maneira uniforme ou não pelo eixo horizontal. Ele depende dos dados que o gráfico representa.
 
 Assista a este vídeo para ver Will criar um gráfico de dispersão e, em seguida, siga as etapas abaixo para criar uma.
-
+   > [!NOTE]
+   > Este vídeo usa uma versão mais antiga do Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 Você pode definir o número de pontos de dados até um máximo de 10 mil.  
 
 ## <a name="when-to-use-a-scatter-chart-bubble-chart-or-a-dot-plot-chart"></a>Quando usar um gráfico de dispersão ou de bolhas, um gráfico de pontos
 
-### <a name="scatter-and-bubble-charts"></a>Gráficos de Dispersão e Bolhas
+### <a name="scatter-and-bubble-charts"></a>Gráficos de dispersão e bolhas
 
 Um gráfico de dispersão mostra a relação entre dois valores numéricos. Um gráfico de bolhas substitui os pontos de dados por bolhas, com o *tamanho* de bolha representando uma terceira dimensão de dados adicional.
 
@@ -65,7 +70,7 @@ Além do que os gráficos de dispersão podem fazer por você, os gráficos de b
 
 ### <a name="dot-plot-charts"></a>Gráficos de pontos
 
-Um gráfico de pontos é semelhante a um gráfico de bolhas e um gráfico de dispersão, mas você pode plotar dados numéricos ou categóricos ao longo do eixo X.
+Um gráfico de pontos é semelhante a um gráfico de bolhas e um gráfico de dispersão, mas é usado para plotar dados categóricos ao longo do eixo X.
 
 ![Captura de tela de um gráfico de pontos.](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
@@ -73,17 +78,20 @@ Eles são uma ótima opção se você quiser incluir dados categóricos ao longo
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-* O serviço do Power BI
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Relatório Exemplo de Análise de Varejo
+1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
+   
+2. Encontre sua cópia do **arquivo PBIX de exemplo de Análise de Varejo**
+
+1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+
 
 ## <a name="create-a-scatter-chart"></a>Criar um gráfico de dispersão
 
-Para acompanhar, entre no [serviço do Power BI](https://app.powerbi.com) e abra o relatório [Exemplo de Análise de Varejo](../sample-datasets.md) no modo de exibição [Editar relatório](../service-interact-with-a-report-in-editing-view.md).
-
-1. Selecione o ![Captura de tela do ícone de adição amarelo.](media/power-bi-visualization-scatter/power-bi-yellow-plus-icon.png) para criar uma página de relatório em branco.
-
-1. No painel **Campos**, selecione esses campos:
+1. Inicie em uma página de relatório em branco e, no painel **Campos**, selecione estes campos:
 
     * **Vendas** > **Vendas por pé quadrado**
 
@@ -113,11 +121,11 @@ Agora vamos adicionar uma terceira dimensão.
 
 1. Focalize uma bolha. O tamanho da bolha reflete o valor das **Vendas Deste Ano**.
 
-    ![exibição de dicas de ferramenta](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![exibição de dicas de ferramenta](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
 1. Para definir o número de pontos de dados a serem mostrados em seu gráfico de bolhas, na seção **Formato** do painel **Visualizações**, expanda o cartão **Geral** e ajuste o **Volume de Dados**.
 
-    ![Captura de tela do painel Visualizações com o ícone de Formato, lista suspensa Geral e opção de Volume de dados destacados.](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png)
+    ![Captura de tela do painel Visualizações com o ícone de Formato, lista suspensa Geral e opção de Volume de dados destacados.](media/power-bi-visualization-scatter/pbi-scatter-data-volume.png)
 
     É possível definir o volume máximo de dados para qualquer número até 10.000. Para garantir um bom desempenho ao definir os números mais altos, faça um teste antes.
 
@@ -128,7 +136,7 @@ Agora vamos adicionar uma terceira dimensão.
 
     Para [melhorar a acessibilidade](../desktop-accessibility.md), considere adicionar formas de marcador a cada linha. Para selecionar a forma do marcador, expanda **Formas**, selecione **Forma do marcador** e, em seguida, selecione uma forma.
 
-    ![Captura de tela da lista suspensa de Formas com as opções de Forma do marcador destacadas.](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+    ![Captura de tela da lista suspensa de Formas com as opções de Forma do marcador destacadas.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
     Você pode alterar a forma do marcador para losango, triângulo ou quadrado. Usar uma forma de marcador diferente para cada linha torna mais fácil para os consumidores do relatório diferenciar as linhas (ou áreas) umas das outras.
 
@@ -146,15 +154,15 @@ No painel **eixo X**, remova **Vendas por pé quadrado** e substitua por **Distr
 
 O gráfico de dispersão contém apenas um ponto de dados que agrega todos os valores nos eixos X e Y?  Ou talvez ele agrega todos os valores em uma linha horizontal ou vertical?
 
-![Captura de tela de um gráfico de dispersão com um ponto de dados.](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
+![Captura de tela de um gráfico de dispersão com um ponto de dados.](media/power-bi-visualization-scatter/pbi-scatter-tshoot1.png)
 
 Adicione um campo à caixa **Detalhes** para informar o Power BI como agrupar os valores. O campo deve ser exclusivo para cada ponto que você deseja plotar. Um simples número de linha ou campo de ID serve.
 
-![Captura de tela de um gráfico de dispersão com RowNum adicionado à caixa Detalhes.](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
+![Captura de tela de um gráfico de dispersão com RowNum adicionado à caixa Detalhes.](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 
 Se você não tiver isso em seus dados, crie um campo que concatena os valores X e Y juntos em algo exclusivo por ponto:
 
-![Captura de tela de um gráfico de dispersão com TempTime adicionado à caixa Detalhes.](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+![Captura de tela de um gráfico de dispersão com TempTime adicionado à caixa Detalhes.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
 Para criar um novo campo, [use o Editor de Consultas do Power BI Desktop para adicionar uma Coluna de Índice](../desktop-add-custom-column.md) ao conjunto de dados. Em seguida, adicione essa coluna à caixa de visualização **Detalhes**.
 

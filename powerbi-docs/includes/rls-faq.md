@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 0592cb7ef076f8094aca565d955cc238b2181068
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: cd0696b44e285119193059304c89cfa04c755771
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560965"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409347"
 ---
 ## <a name="faq"></a>PERGUNTAS FREQUENTES
 **Pergunta:** E se eu já tiver criado funções e regras para um conjunto de dados no serviço do Power BI? Elas ainda funcionariam se eu não fizesse nada?  
@@ -19,3 +19,5 @@ ms.locfileid: "69560965"
 **Pergunta:** A RLS permite ocultar dados detalhados, mas conceder acesso aos dados resumidos nos visuais?  
 **Resposta:** Não. Você protege linhas individuais de dados, mas os usuários sempre podem ver os detalhes ou os dados resumidos.
 
+**Pergunta:** Minha fonte de dados já tem funções de segurança definidas (por exemplo, funções do SQL Server ou funções do SAP BW). Qual é a relação entre essas funções e a RLS?  
+**Resposta:** A resposta depende de você estar importando dados ou usando o DirectQuery. Se você estiver importando dados para o conjunto de dados do Power BI, as funções de segurança em sua fonte de dados não serão usadas. Nesse caso, você deve definir a RLS para impor regras de segurança para usuários que se conectam ao Power BI. Se você estiver usando o DirectQuery, as funções de segurança em sua fonte de dados serão usadas. Quando um usuário abre um relatório, o Power BI envia uma consulta para a fonte de dados subjacente, que aplica as regras de segurança aos dados com base nas credenciais do usuário.

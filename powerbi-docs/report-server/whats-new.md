@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187307"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325562"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
 
-Saiba mais sobre o que há de novo no servidor de relatório do Power BI e Power BI Desktop otimizado para o servidor de relatório do Power BI. Este artigo aborda as principais áreas de recursos e é atualizado conforme novos itens são lançados.
+Saiba mais sobre as novidades do Servidor de Relatórios do Power BI e sobre o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI. Este artigo aborda as principais áreas de recursos e é atualizado a cada novo lançamento.
 
 Para saber mais sobre as “Novidades” do Power BI, consulte:
 
@@ -26,31 +26,86 @@ Para saber mais sobre as “Novidades” do Power BI, consulte:
 * [Novidades no Power BI Desktop](../desktop-latest-update.md)
 * [Novidades em aplicativos móveis para o Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Maio de 2019: Área de trabalho do Power BI para Power BI Report Server
+## <a name="september-2019"></a>Setembro de 2019
 
-Consulte a [servidor de relatório do Power BI de maio de 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) postagem de blog para obter detalhes sobre os novos recursos.
+Consulte a postagem no blog [Servidor de Relatórios do Power BI Setembro de 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/) para obter detalhes sobre todos os novos recursos.
 
-Aqui estão alguns dos destaques da versão:
+A atualização de Setembro de 2019 do Servidor de Relatórios do Power BI está repleta de novos recursos de relatório do Power BI. Estes são alguns dos destaques:
+
+- **Filtros no nível do visual para segmentações** Você pode adicionar um filtro no nível do visual às segmentações. Ele funciona como todos os outros filtros no nível do visual, filtrando apenas a segmentação em si e nenhum outro visual. Esse filtro é útil para filtrar espaços em branco ou quando você quer usar filtros de medidas.
+- **Conjuntos de ícones para tabelas e matrizes** Com os ícones de KPI, você pode configurar regras para mostrar diferentes conjuntos de ícones em sua tabela e matriz, de forma semelhante aos conjuntos de ícones do Excel.
+- **Agrupamento de visuais** Agora, você pode agrupar visuais, formas, caixas de texto, imagens e botões em uma página de relatório, assim como ocorre no PowerPoint. Ao agrupar os objetos, você pode movê-los e redimensioná-los juntos. O agrupamento facilita o trabalho em relatórios com muitos objetos dispostos em camadas em cada página.
+- **Novos temas padrão** Para acompanhar as novas opções JSON de temas, estamos atualizando os temas disponíveis para os relatórios e alterando o tema padrão para novos relatórios. O novo tema padrão se alinha melhor com a linguagem de design da Microsoft e segue as melhores práticas de design para visuais. 
+- **Design do painel atualizado** Atualizamos grande parte de nossa interface. Atualizamos todos os painéis, o rodapé e o seletor de exibição com uma cor mais clara, um espaçamento atualizado e introduzimos novos ícones. O novo design é a primeira etapa para atualizar a interface inteira.
+
+Aqui está a lista completa de recursos. 
+
+### <a name="reporting"></a>Relatórios
+
+- Design do painel atualizado
+- Filtros no nível do visual para segmentações
+- Classificação para o painel do analisador de desempenho
+- Dicas de ferramenta no cabeçalho do visual
+- Personalização de rótulo do total de tabela e da matriz
+- Suporte para sincronização da segmentação de hierarquia
+- Tamanhos de fonte uniformes entre visuais
+- Conjuntos de ícones para tabela e matriz
+- Suporte percentual para formatação condicional por regras
+- O novo painel de filtro agora está em disponibilidade geral
+- Suporte a cores de dados ao usar o eixo de reprodução em gráficos de dispersão
+- Melhorias de desempenho ao usar a data relativa e segmentações suspensas
+- Agrupamento de visuais
+- Classes de cor e texto em temas
+- Novos temas padrão
+
+### <a name="analytics"></a>Análise
+
+- Cadeias de formato personalizadas
+- Atualizações de formatação condicional para opções de formatação
+
+    - Cores de segundo plano e do título dos visuais
+    - Cores do cartão
+    - Cores e preenchimento do medidor
+    - Texto alternativo
+    - Cor da borda
+
+- Avisos de formatação condicional
+- Melhoria de detectabilidade de detalhamento
+- Novas expressões DAX: REMOVEFILTERS e CONVERT
+- Novo operador de comparação DAX: ==
+
+### <a name="data-preparation"></a>Preparação de dados
+
+- Melhorias no IntelliSense M
+- Nova transformação: Dividir coluna por posições
+- Copiar para a área de transferência da criação de perfil de dados
+
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Maio de 2019: Power BI Desktop para o Servidor de Relatórios do Power BI
+
+Confira a postagem no blog [Servidor de Relatórios do Power BI Maio de 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) para obter detalhes sobre todos os novos recursos.
+
+Estes são alguns dos destaques da versão:
 
 ### <a name="performance-analyzer"></a>Analisador de desempenho 
 
-Se o relatório é executado mais lentamente do que o esperado, tente o analisador de desempenho no Power BI Desktop. Quando você iniciá-lo, ele cria um arquivo de log com informações sobre cada ação realizada no relatório. Leia mais sobre o [Performance Analyzer](../desktop-performance-analyzer.md).
+Se o relatório for executado mais lentamente do que o esperado, experimente o Performance Analyzer no Power BI Desktop. Quando é iniciado, ele cria um arquivo de log com informações sobre cada ação executada no relatório. Saiba mais sobre o [Performance Analyzer](../desktop-performance-analyzer.md).
 
-### <a name="new-modeling-view"></a>Novo modo de exibição de modelagem
+### <a name="new-modeling-view"></a>Nova exibição de modelagem
 
-Na nova exibição de modelagem no Power BI Desktop, você pode exibir e trabalhar com conjuntos de dados complexos que contêm muitas tabelas. Destaques incluem vários layouts de diagrama e em massa de edição de colunas, medidas e tabelas. Leia mais sobre [exibição da modelagem](../desktop-modeling-view.md).
+Na nova exibição de Modelagem no Power BI Desktop, você pode exibir e trabalhar com conjuntos de dados complexos que contêm muitas tabelas. Os destaques incluem vários layouts de diagrama e edição em massa de colunas, medidas e tabelas. Leia mais sobre a [exibição de Modelagem](../desktop-modeling-view.md).
 
 ### <a name="accessible-visual-interaction"></a>Interação visual acessível
 
-Você pode agora pontos de dados de acesso em muitos dos visuais internos usando a navegação de teclado. Leia mais sobre [acessibilidade nos relatórios do Power BI](../desktop-accessibility.md).
+Agora, você pode acessar pontos de dados em muitos dos visuais internos usando a navegação por teclado. Saiba mais sobre [acessibilidade nos relatórios do Power BI](../desktop-accessibility.md).
 
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>Formatação de títulos e ações de URL da web condicional
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>Títulos de formatação condicional e ações de URL da Web
 
-Relatórios do Power BI são interativos. Faz sentido que os títulos em um relatório seria dinâmicos, para refletir o estado atual do relatório. Você pode usar a mesma expressão ligada à formatação para tornar as URLs de imagens, formas e botões dinâmicos. Leia mais sobre [baseadas em expressão títulos](../desktop-conditional-format-visual-titles.md).
+Os relatórios do Power BI são interativos. Faz sentido que os títulos de um relatório sejam dinâmicos, de forma a refletir o estado atual do relatório. Você pode usar a mesma formatação associada à expressão para tornar as URLs de seus botões, formas e imagens dinâmicas. Leia mais sobre [títulos baseados em expressões](../desktop-conditional-format-visual-titles.md).
 
 ### <a name="cross-highlight-by-axis-labels"></a>Realce cruzado por rótulos de eixo
 
-Selecione os rótulos de eixo de categoria em um visual para os outros elementos em uma página, realce cruzado, exatamente como você selecionaria os pontos de dados em um visual. Leia mais sobre [realce cruzado](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+Selecione os rótulos de categoria do eixo em um visual para realçar de maneira cruzada os outros elementos em uma página, assim como você selecionaria os pontos de dados de um visual. Saiba mais sobre o [realce cruzado](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
 
 ### <a name="all-the-new-features"></a>Todos os novos recursos
 
@@ -60,43 +115,43 @@ Aqui está a lista de todos os novos recursos:
 
 - Realce cruzado em um único ponto em gráficos de linhas 
 - Quebra automática de linha em títulos 
-- Atualizar interação visual padrão para filtro cruzado ¬
-- Cantos arredondados para bordas visuais 
-- Selecione segmentação de dados única  
-- Suporte ao mapa de calor para o Bing maps  
+- Atualização da interação padrão de visual com a filtragem cruzada
+- Cantos arredondados para bordas de visuais 
+- Segmentação com seleção única  
+- Suporte para mapa de calor para os mapas do Bing  
 - Realce cruzado por rótulos de eixo  
-- Dica de ferramenta padrão de formatação  
-- Suporte de URL com a web estático para botões, imagens e formas  
-- Opções de alinhamento de página   
+- Formatação de dica de ferramenta padrão  
+- Suporte de URL da Web estático para botões, formas e imagens  
+- Opções de alinhamento da página   
 - Aprimoramentos do painel de seleção  
 - Interação visual acessível  
-- Formatação de títulos de visuais condicional  
-- Formatação para ações de URL da web para botões, imagens e formas condicional
-- Painel do analisador de desempenho
-- Navegação de teclado de tabela e matriz
-- Controle de posição de rótulo de dados de linha
+- Formatação condicional para títulos de visuais  
+- Formatação condicional para ações de URL da Web para botões, imagens e formas
+- Painel do Performance Analyzer
+- Navegação por teclado em matrizes e tabelas
+- Controle de posição do rótulo de dados de linha
 - Controle de tamanho de texto de indicador visual de KPI
 
 ### <a name="analytics"></a>Análise
 
-- Mostrar datas como uma hierarquia geralmente disponível  
+- A exibição de datas como hierarquia já está em disponibilidade geral  
 
 ### <a name="modeling"></a>Modelagem
 
-- Modelagem novo modo de exibição já está disponível
+- O novo modo de exibição de modelagem já está em disponibilidade geral
 - Novas funções do DAX
-- Atualizar para a função ALLSELECTED DAX
-- Desabilitar as tabelas de data automática de novos relatórios
+- Atualização a função ALLSELECTED DAX
+- Desabilitar tabelas de data automática para novos relatórios
 
 ## <a name="may-2019-power-bi-report-server"></a>Maio de 2019: Servidor de Relatórios do Power BI
 
 ### <a name="support-for-trusted-visuals"></a>Suporte para visuais confiáveis
 
-Adicionamos suporte para visuais confiável no servidor de relatório do Power BI. Atualmente, damos suporte a elementos visuais Mapbox e PowerOn. ESRI, Visio e o PowerApps não têm suporte para esta versão.)
+Adicionamos suporte para Visuais Confiáveis para o Servidor de Relatórios do Power BI. Atualmente, damos suporte a visuais do Mapbox e do PowerOn. Não há suporte para ESRI, Visio e PowerApps nesta versão.
 
-### <a name="improved-security-features"></a>Recursos de segurança aprimorada
+### <a name="improved-security-features"></a>Recursos de segurança aprimorados
 
-**RestrictedResourceMimeTypeForUpload**, quais os administradores podem usar para especificar uma lista separada por vírgulas de tipos de mime proibidos, por exemplo, texto/html.
+**RestrictedResourceMimeTypeForUpload**, que os administradores podem usar para especificar uma lista separada por vírgulas de tipos MIME banidos, por exemplo, text/html.
 
 ## <a name="january-2019"></a>Janeiro de 2019
 

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61193496"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409346"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Definir funções e regras no Power BI Desktop
 É possível definir funções e regras no Power BI Desktop. Quando você publica no Power BI, ele também publica as definições de função.
@@ -35,8 +35,14 @@ Para definir funções de segurança, siga estas etapas.
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 8. Depois de criar a expressão DAX, você pode selecionar a seleção acima da caixa de expressão para validar a expressão.
-   
+      
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   
+   > [!NOTE]
+   > Nessa caixa de expressão, use vírgulas para separar argumentos da função DAX, mesmo que esteja usando uma localidade que normalmente usa separadores de ponto e vírgula (por exemplo, francês ou alemão). 
+   >
+   >
+   
 9. Selecione **Salvar**.
 
 Não é possível atribuir usuários a uma função no Power BI Desktop. Você pode atribuí-los no serviço do Power BI. É possível habilitar a segurança dinâmica no Power BI Desktop fazendo uso das funções DAX *username()* ou *userprincipalname()* e configurando as relações corretas. 

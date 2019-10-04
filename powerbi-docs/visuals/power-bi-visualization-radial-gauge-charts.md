@@ -11,23 +11,28 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8b0db9aebe72d54aa464ec012e614ae0ec5bc723
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 020d7edcf6bc499623df93a9def30285a37cffc6
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390394"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194301"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidor radial no Power BI
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Um gráfico de medidor radial tem um arco circular e mostra um único valor que acompanha o progresso em relação a um objetivo/KPI (indicador chave de desempenho). A linha (ou *agulha*) representa o valor de meta ou destino. O sombreamento representa o progresso em relação a esse objetivo. O valor dentro do arco representa o valor do progresso. O Power BI distribui uniformemente todos os valores possíveis ao longo do arco, do mínimo (valor mais à esquerda) para o máximo (valor mais à direita).
 
-![Captura de tela de medidor radial.](media/power-bi-visualization-radial-gauge-charts/gauge_m.png)
+![Captura de tela de medidor radial.](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
 Neste exemplo, você é um revendedor de carros, controlando a média de vendas da equipe por mês. A agulha representa uma meta de vendas de 140 carros. A média mínima possível de vendas é 0 e o máximo é 200.  O sombreamento azul mostra que a equipe tem uma média de aproximadamente 120 vendas neste mês. Felizmente, há ainda outra semana para atingir a meta.
 
 Veja Will mostrando como criar elementos visuais de métrica únicos: medidores, cartões e KPIs.
-
+   > [!NOTE]
+   > Este vídeo usa uma versão mais antiga do Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-radial-gauge"></a>Quando usar um medidor radial
@@ -44,43 +49,39 @@ Os medidores radiais são uma ótima opção para:
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-* O serviço do Power BI ou o Power BI Desktop
+Este tutorial usa o [arquivo do Excel de Exemplo Financeiro](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Pasta de trabalho do Excel de exemplo financeiro: [baixe o exemplo diretamente](http://go.microsoft.com/fwlink/?LinkID=521962).
+1. Na seção superior esquerda da barra de menus, selecione **Obter Dados** > **Excel**
+   
+2. Encontre sua cópia do **arquivo do Excel de Exemplo Financeiro**
+
+1. Abra o **arquivo do Excel de Exemplo Financeiro** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecione **finanças** e **Sheet1**
+
+1. Clique em **Carregar**
+
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+
+
 
 ## <a name="create-a-basic-radial-gauge"></a>Criar um medidor radial básico
 
-Estas instruções usam o serviço do Power BI. Para acompanhar, entre no Power BI e abra o arquivo Exemplo Financeiro do Excel.
+### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>Etapa 1: criar um medidor para acompanhar as Vendas Brutas
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>Etapa 1: abrir o arquivo do Excel de Exemplo Financeiro
-
-1. Se ainda não fez isso, baixe o [arquivo do Excel de Exemplo Financeiro](../sample-financial-download.md). Lembre-se do local em que você o salvou.
-
-1. No serviço do Power BI, selecione **Obter dados** > **Arquivos**.
-
-1. Selecione **Arquivo local** e navegue até o local do arquivo de exemplo.
-
-1. Selecione **Importar**. O Power BI adiciona o Exemplo Financeiro a seu workspace como um conjunto de dados.
-
-1. Na lista de conteúdo **Conjuntos de dados**, selecione o ícone **Criar relatório** para o **Exemplo Financeiro**.
-
-    ![Captura de tela da lista de conjuntos de dados com uma seta apontando para o ícone Criar relatório para o Exemplo Financeiro.](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
-
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Etapa 2: criar um medidor para acompanhar as Vendas Brutas
-
-Na última seção, quando você tiver selecionado o ícone **Criar relatório**, o Power BI criou um relatório em branco na exibição de edição.
+1. Comece em uma página de relatório em branco
 
 1. No painel **Campos**, selecione **Vendas Brutas**.
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. Altere a agregação para **Médio**.
 
-   ![Captura de tela do painel Campos com Vendas Brutas e a Agregação de Média destacada.](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
+   ![Captura de tela do painel Campos com Vendas Brutas e a Agregação de Média destacada.](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
-1. Selecionar o ícone de medidor ![Captura de tela do ícone de medidor.](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png) para converter o gráfico de colunas em um gráfico de medidor.
+1. Selecionar o ícone de medidor ![Captura de tela do ícone de medidor.](media/power-bi-visualization-radial-gauge-charts/gaugeicon-new.png) para converter o gráfico de colunas em um gráfico de medidor.
 
-    ![Captura de tela do gráfico de medidor.](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+    ![Captura de tela do gráfico de medidor.](media/power-bi-visualization-radial-gauge-charts/gauge-no-target.png)
 
     Dependendo de quando você baixa o arquivo de **Exemplo Financeiro**, você poderá ver os números que não correspondem a esses números.
 
@@ -95,7 +96,7 @@ Na última seção, quando você tiver selecionado o ícone **Criar relatório**
 
    O Power BI adiciona uma agulha para representar o valor de destino de **US$ 145.480**.
 
-   ![Captura de tela do gráfico de medidor com a média de COGS adicionada.](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   ![Captura de tela do gráfico de medidor com a média de COGS adicionada.](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 
     Observe que ultrapassamos o nosso alvo.
 
@@ -110,7 +111,7 @@ Na Etapa 2, o Power BI usou o campo **Valor** para definir automaticamente o val
 
 1. Altere a agregação para **Máximo**.
 
-   ![Captura de tela do painel Campos com Vendas Brutas e a Agregação máxima destacada.](media/power-bi-visualization-radial-gauge-charts/setmaximum_new.png)
+   ![Captura de tela do painel Campos com Vendas Brutas e a Agregação máxima destacada.](media/power-bi-visualization-radial-gauge-charts/setmaximum-new.png)
 
    O medidor é redesenhado com um novo valor de término, 1,21 milhão em vendas brutas.
 
@@ -119,8 +120,6 @@ Na Etapa 2, o Power BI usou o campo **Valor** para definir automaticamente o val
 ### <a name="step-5-save-your-report"></a>Etapa 5: Salvar seu relatório
 
 1. [Salve o relatório](../service-report-save.md).
-
-1. [Adicione o gráfico de medidor como um bloco do dashboard](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>Use as opções de formatação manual para definir os valores Mínimo, Máximo e Destino
 
@@ -136,7 +135,7 @@ Na Etapa 2, o Power BI usou o campo **Valor** para definir automaticamente o val
 
 1. Desmarque a opção **COGS** no painel **Campos** para remover o valor de destino.
 
-    ![Captura de tela da opção COGS desmarcada.](media/power-bi-visualization-radial-gauge-charts/pbi_remove_target.png)
+    ![Captura de tela da opção COGS desmarcada.](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
 1. Quando o campo **Destino** aparecer no **Eixo do medidor**, insira um valor.
 

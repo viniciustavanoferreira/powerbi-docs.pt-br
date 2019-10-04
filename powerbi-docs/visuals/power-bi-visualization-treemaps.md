@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4c28071917dbe5669e6e35bd416236ef7047eb24
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 1de5869bc5b422dc98a13316022f653f62675829
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408845"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192642"
 ---
 # <a name="treemaps-in-power-bi"></a>Mapas de árvore no Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 O treemaps exibe dados hierárquicos, como um conjunto de retângulos aninhados. Cada nível da hierarquia é representado por um retângulo colorido (ramificação) que contém retângulos menores (folhas). O Power BI baseia o tamanho do espaço dentro de cada retângulo no valor da medida. Os retângulos são organizados no tamanho da parte superior esquerda (maior) à parte inferior direita (menor).
 
@@ -40,6 +42,11 @@ Você poderia comparar o número de itens vendidos em outras categorias de roupa
 
 Deseja ver alguém criar um mapa de árvore primeiro? Pule para 2:10 neste vídeo para assistir Amanda criar um mapa de árvore.
 
+   > [!NOTE]
+   > Este vídeo usa uma versão mais antiga do Power BI Desktop.
+   > 
+   > 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>Quando usar um mapa de árvore
@@ -58,15 +65,18 @@ Os treemps são uma ótima opção:
 
 * Para identificar padrões, exceções, colaboradores mais importantes e exceções.
 
-## <a name="prerequisites"></a>Pré-requisitos
+## <a name="prerequisite"></a>Pré-requisito
 
-* O serviço do Power BI ou o Power BI Desktop
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Relatório Exemplo de Análise de Varejo
+1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
+   
+2. Encontre sua cópia do **arquivo PBIX de exemplo de Análise de Varejo**
 
-## <a name="get-the-retail-analysis-sample-report"></a>Obter o relatório de exemplo de Análise de Varejo
+1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-Essas instruções usam o exemplo de análise de varejo. Criar uma visualização requer permissões de edição para o conjunto de dados e o relatório. Felizmente, os exemplos do Power BI são todos editáveis. Se alguém compartilhar um relatório com você, é possível criar visualizações em relatórios. Para acompanhar, obtenha o [Relatório de exemplo de Análise de Varejo](../sample-datasets.md).
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+
 
 Após obter o conjunto de dados do **Exemplo de Análise de Varejo**, você pode começar a usar.
 
@@ -74,25 +84,22 @@ Após obter o conjunto de dados do **Exemplo de Análise de Varejo**, você pode
 
 Crie um relatório e adicione um mapa de árvore básico.
 
-1. No **Meu Workspace**, selecione **Conjuntos de dados** > **Criar um relatório**.
-
-    ![Captura de tela de conjuntos de dados > Criar um relatório.](media/power-bi-visualization-treemaps/power-bi-create-a-report.png)
 
 1. No painel **Campos**, selecione a medida **Vendas** > **Vendas do Ano Passado**.
 
-   ![Captura de tela de vendas > Vendas do Ano Passado selecionada e o visual resultante.](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
+   ![Captura de tela de vendas > Vendas do Ano Passado selecionada e o visual resultante.](media/power-bi-visualization-treemaps/treemapfirstvalue-new.png)
 
 1. Selecione o ícone de mapa de árvore ![Captura de tela do ícone do mapa de árvore](media/power-bi-visualization-treemaps/power-bi-treemap-icon.png) para converter o gráfico em um mapa de árvore.
 
-   ![Captura de tela do mapa de árvore sem configuração.](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
+   ![Captura de tela do mapa de árvore sem configuração.](media/power-bi-visualization-treemaps/treemapconvertto-new.png)
 
-1. Arraste **Item** > **Categoria** para a seção **Grupo**.
+1. Selecione **Item** > **Categoria**, o que adicionará **Categoria** à caixa **Grupo**.
 
     O Power BI cria um mapa de árvore no qual o tamanho dos retângulos se baseia no total de vendas e a cor representa a categoria. Na essência que você criou uma hierarquia que descreve visualmente o tamanho relativo do total de vendas por categoria. A categoria **Masculino** tem as maiores vendas e categoria **Meias e Roupa Íntima** tem as vendas mais baixas.
 
     ![Captura de tela do mapa de árvore configurado.](media/power-bi-visualization-treemaps/power-bi-complete.png)
 
-1. Arraste **Repositório** > **Cadeia** para a seção **Detalhes** para concluir o mapa de árvore. Agora você pode comparar as vendas do ano passado por categoria e cadeia.
+1. Selecione **Repositório** > **Cadeia**, o que adicionará **Cadeia** à caixa **Detalhes** para concluir o mapa de árvore. Agora você pode comparar as vendas do ano passado por categoria e cadeia.
 
    ![Captura de tela do mapa de árvore com Loja > Cadeia adicionada aos detalhes.](media/power-bi-visualization-treemaps/power-bi-details.png)
 
@@ -103,19 +110,14 @@ Crie um relatório e adicione um mapa de árvore básico.
 
     Por exemplo, focalizando **Fashions Direct** no retângulo **090-Home** revela a dica de ferramenta para a parte Fashion Direct da categoria de Home.
 
-   ![Captura de tela da dica de ferramenta da Página Inicial exibida.](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
+   ![Captura de tela da dica de ferramenta da Página Inicial exibida.](media/power-bi-visualization-treemaps/treemaphoverdetail-new.png)
 
-1. Adicione o mapa de árvore como um [bloco do painel (fixe o visual)](../service-dashboard-tiles.md).
-
-1. Salve [o relatório](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
 
-Para obter informações sobre como usar o painel **Filtros**, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
+Realçar uma **Categoria** ou **Detalhe** em um mapa de árvore filtra e destaca de forma cruzada as outras visualizações na página do relatório. Para acompanhar, adicione alguns visuais a esta página do relatório ou copie o mapa de árvore para uma das outras páginas neste relatório. A imagem abaixo do mapa de árvore foi copiada para a página **Visão geral**. 
 
-Realçar uma **Categoria** ou **Detalhe** em um mapa de árvore filtra e destaca de forma cruzada as outras visualizações na página do relatório e vice-versa. Para acompanhar, adicione alguns visuais a esta página do relatório ou copie o mapa de árvore para uma das outras páginas neste relatório.
-
-1. No mapa de árvore, selecione uma **Categoria** ou uma **Cadeia** de dentro de uma **Categoria**. Isso destacará de forma cruzada as outras visualizações na página. Selecionando **050-Shoes**, por exemplo, mostra que as vendas do ano passado de sapatos foram **US$3.640,471** com a **Fashions Direct** representando **US$ 2.174,185** dessas vendas.
+1. No mapa de árvore, selecione uma **Categoria** ou uma **Cadeia** de dentro de uma **Categoria**. Isso destacará de forma cruzada as outras visualizações na página. Selecionar **050-Shoes**, por exemplo, mostra que as vendas do ano passado de sapatos foram de **US$ 16.352.432**, com a **Fashions Direct** representando **US$ 2.174.185** dessas vendas.
 
    ![Captura de tela do relatório de Visão Geral de Vendas da Loja mostrando o realce cruzado.](media/power-bi-visualization-treemaps/treemaphiliting.png)
 

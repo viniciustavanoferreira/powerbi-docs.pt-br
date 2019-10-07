@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994821"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715178"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Baixar um relatório do serviço do Power BI para o Power BI Desktop (versão prévia)
 No Power BI Desktop, você pode publicar um relatório (um arquivo *.pbix*) do seu computador local no serviço do Power BI. Os relatórios do Power BI também podem ir para a outra direção: Você pode baixar um relatório do serviço do Power BI para o Power BI Desktop. A extensão de um relatório do Power BI, em ambos os casos, é. pbix.
@@ -26,7 +26,7 @@ Há algumas limitações e considerações a serem feitas, que são abordadas ne
 
 ## <a name="download-the-report-as-a-pbix-file"></a>Baixar o relatório como um arquivo .pbix
 
-Você só pode baixar relatórios [criados com o Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) após 23 de novembro de 2016 e atualizados desde então. Se ele foi criado antes disso, a opção de menu **Baixar relatório** no serviço do Power BI service ficará esmaecida.
+Você só pode baixar relatórios [criados com o Power BI Desktop](/learn/modules/publish-share-power-bi/2-publish-reports) após 23 de novembro de 2016 e atualizados desde então. Se ele foi criado antes disso, a opção de menu **Baixar relatório** no serviço do Power BI service ficará esmaecida.
 
 Para baixar o arquivo .pbix, siga estas etapas:
 

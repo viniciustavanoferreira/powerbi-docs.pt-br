@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302651"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945197"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Fontes de dados com suporte do DirectQuery no Power BI
 
@@ -45,7 +45,7 @@ As seguintes fontes de dados dão suporte ao DirectQuery no Power BI:
 * Snowflake
 * Spark (versão 0.9 e posterior)
 * SQL Server
-* Banco de dados Teradata
+* Teradata
 * Vertica
 
 As fontes de dados que têm **(Beta)** ou **(Versão prévia)** depois do nome estão sujeitas a alterações e não há suporte para que elas sejam usadas em produção. É possível que também não haja suporte para elas após a publicação de um relatório no **serviço do Power BI**, o que significa que abrir um relatório publicado ou explorar o conjunto de dados pode resultar em um erro.
@@ -82,7 +82,7 @@ A tabela a seguir especifica se um **Gateway de dados local** é necessário par
 | Spark (beta), versão 0.9 e posterior |Sim |
 | SQL Server |Sim |
 | Sybase |Sim |
-| Banco de dados Teradata |Sim |
+| Teradata |Sim |
 | Vertica |Sim |
 
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: d2c0ab82a3b262a975c461a4414ed7fd3b1bc060
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
+ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075895"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "71691241"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparando o Servidor de Relatórios do Power BI e o serviço do Power BI
 
@@ -53,6 +53,7 @@ O Servidor de Relatórios do Power BI e o serviço do Power BI têm muitas semel
 | Visuais do R | Não | Sim | [Criar visuais R](../desktop-r-visuals.md) no Power BI Desktop e publicá-los no serviço do Power BI. Você não pode salvar relatórios do Power BI com visuais R no Servidor de Relatórios do Power BI.  |
 | Versões prévias dos recursos | Não | Sim | [Aceitar recursos de visualização do serviço](../consumer/end-user-preview-features.md) do Power BI |
 | Visuais personalizados | Sim | Sim | [Elementos visuais personalizados no Power BI](../power-bi-custom-visuals.md) |
+| Modelos compostos | Não | Sim |
 | Power BI Desktop | Versão otimizada para o Servidor de Relatório, disponível para download com o Servidor de Relatório | Versão otimizado para o serviço do Power BI, disponível na Windows Store | [Power BI Desktop para o servidor de relatório](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop para o serviço do Power BI](http://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Próximas etapas

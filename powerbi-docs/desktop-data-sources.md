@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142274"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945276"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 O Power BI Desktop permite se conectar a dados de várias fontes diferentes. Veja uma lista completa das fontes de dados disponíveis na parte inferior desta página.
@@ -72,7 +72,7 @@ A categoria **Banco de dados** fornece as seguintes conexões de dados:
 * Banco de dados MySQL
 * Banco de dados PostgreSQL
 * Banco de dados Sybase
-* Banco de dados Teradata
+* Teradata
 * Banco de dados do SAP HANA
 * Servidor de Aplicativos SAP Business Warehouse
 * Servidor de Mensagens SAP Business Warehouse
@@ -118,7 +118,7 @@ A categoria **Azure** fornece as seguintes conexões de dados:
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (beta)
+* Azure Data Lake Storage Gen2 (Beta)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark

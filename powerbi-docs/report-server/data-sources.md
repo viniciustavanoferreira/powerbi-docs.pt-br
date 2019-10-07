@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401820"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945826"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
 Os relatórios do Power BI podem se conectar a diversas fontes de dados. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis. Os dados podem ser importados ou consultados diretamente usando o DirectQuery ou uma conexão dinâmica ao SQL Server Analysis Services.
@@ -157,7 +157,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 | Lista do SharePoint Online |Não |Não |Não |Não |
 | Snowflake |Não |Não |Não |Não |
 | Banco de dados Sybase |Não |Não |Sim |Sim |
-| Banco de dados Teradata |Não |Não |Sim |Sim |
+| Teradata |Não |Não |Sim |Sim |
 | appFigures (Beta) |Não |Não |Não |Não |
 | Banco de dados do Analysis Services do Azure (Beta) |Não |Não |Não |Não |
 | Azure Cosmos DB (Beta) |Não |Não |Não |Não |
@@ -204,7 +204,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 | Banco de dados Oracle |Não |Não |Sim |Sim |Sim |
 | Servidor do SAP Business Warehouse |Não |Não |Sim |Não |Não |
 | Banco de dados do SAP HANA |Não |Não |Sim |Sim |Não |
-| Banco de dados Teradata |Não |Não |Sim |Sim |Sim |
+| Teradata |Não |Não |Sim |Sim |Sim |
 
 
 ## <a name="next-steps"></a>Próximas etapas

@@ -3,18 +3,18 @@ title: Diretrizes de planejamento de capacidade do Servidor de Relatórios do Po
 description: Este documento oferece diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI, com o compartilhamento de resultados de execuções de teste de carga de várias cargas de trabalho.
 author: parthsha
 manager: kfile
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3631c814876c5fbb14fa2bab376b212137858b2a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60976718"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71946135"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI
 O Servidor de Relatórios do Power BI é uma solução de relatórios corporativos e de BI de autoatendimento que os clientes podem implantar em suas instalações, protegida pelo firewall. Ele combina a funcionalidade de relatório interativo do Power BI Desktop com a plataforma de servidor local do SQL Server Reporting Services. Com o uso intenso e cada vez maior de análises e relatórios nas empresas, a inclusão no orçamento da infraestrutura de hardware e das licenças de software necessárias para dimensionar para uma base de usuários corporativos pode ser um desafio. Este documento tem como objetivo oferecer diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI, com o compartilhamento de resultados de diversas execuções de teste de carga de várias cargas de trabalho em um servidor de relatório. Embora os relatórios, as consultas e os padrões de uso das organizações variem muito, os resultados apresentados neste documento, juntamente com os testes reais usados e uma descrição detalhada de como eles foram executados, servem como um ponto de referência para qualquer pessoa que está no processo de planejamento do estágio inicial da implantação do Servidor de Relatórios do Power BI.

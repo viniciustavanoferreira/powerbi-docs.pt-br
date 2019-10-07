@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 748594dcf9f71677057b8641e44f1408bebd1b89
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841639"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715342"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo dos EUA
 O **serviço do Power BI** tem uma versão disponível para clientes do Governo dos Estados Unidos como parte das assinaturas da **Comunidade do Governo dos EUA do Office 365**. A versão do **serviço do Power BI** discutida neste artigo é desenvolvida especificamente para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço do Power BI**.
@@ -103,7 +103,7 @@ Você pode fazer muito com o Power BI. Para obter mais informações e aprendiza
 
 * [Inscrever-se para o Power BI para o Governo dos EUA](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demonstração do governo dos EUA do Power BI</a>
-* [Aprendizagem Orientada para o Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [Aprendizagem Orientada para o Power BI](guided-learning/index.md)
 * [Introdução ao serviço do Power BI](service-get-started.md)
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 

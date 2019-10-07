@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/30/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cb009e29c05ce318c5931fb418617e1ef63f4f
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70937060"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715307"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Adicionar hiperlinks (URLs) a uma tabela
 Este tópico ensina como adicionar hiperlinks (URLs) a uma tabela. Você usa Power BI Desktop para adicionar hiperlinks (URLs) a uma tabela ou matriz. Em seguida, no Serviço do Power BI ou no Power BI Desktop, é possível adicioná-los às suas matrizes e tabelas de relatório. 
@@ -57,7 +57,7 @@ O procedimento para adicionar um hiperlink depende se você importou os dados ou
 
     ![Ícone da URL Ativar](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. (Opcional) [Publique o relatório do Power BI Desktop no Serviço do Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) e abra o relatório no Serviço do Power BI. Os hiperlinks funcionarão lá também.
+1. (Opcional) [Publique o relatório do Power BI Desktop no Serviço do Power BI](/learn/modules/publish-share-power-bi/2-publish-reports) e abra o relatório no Serviço do Power BI. Os hiperlinks funcionarão lá também.
 
 ### <a name="for-data-connected-with-directquery"></a>Para dados conectados com DirectQuery
 Você não pode criar uma coluna no modo DirectQuery.  No entanto, se seus dados já contêm URLs, você pode transformá-los em hiperlinks.
@@ -65,7 +65,7 @@ Você não pode criar uma coluna no modo DirectQuery.  No entanto, se seus dados
 1. Na exibição Relatório, crie uma tabela usando um campo que contém as URLs.
 2. Selecione a coluna e, na guia **Modelagem**, escolha **Categoria de Dados**no menu suspenso.
 3. Selecione **URL da Web**. Os hiperlinks estarão em azul e sublinhados.
-4. (Opcional) [Publique o relatório do Power BI Desktop no Serviço do Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) e abra o relatório no Serviço do Power BI. Os hiperlinks funcionarão lá também.
+4. (Opcional) [Publique o relatório do Power BI Desktop no Serviço do Power BI](/learn/modules/publish-share-power-bi/2-publish-reports) e abra o relatório no Serviço do Power BI. Os hiperlinks funcionarão lá também.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>Criar um hiperlink de tabela ou matriz no Excel Power Pivot
 Outra maneira de adicionar hiperlinks às tabelas e matrizes do Power BI é criar hiperlinks no conjunto de dados antes de importar/conectar-se ao conjunto de dados no Power BI. Este exemplo usa uma pasta de trabalho do Excel.

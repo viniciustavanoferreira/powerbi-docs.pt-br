@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: a99aad87763edce54996f0a485fde5498fb1df11
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100376"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968605"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Visão geral de SSO (logon único) para gateways no Power BI
 
@@ -30,6 +30,8 @@ No momento, damos suporte para as seguintes fontes de dados:
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
 
+No momento, não damos suporte ao SSO para [M-extensions](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
+
 Quando um usuário interage com um relatório do DirectQuery no serviço do Power BI, cada operação de filtro cruzado, de fatia, de classificação e de edição de relatório pode resultar em consultas de execução dinâmica com relação à fonte de dados local subjacente. Quando o SSO é configurado para a fonte de dados, as consultas são executadas na identidade do usuário que interage com o Power BI (isto é, por meio da experiência na Web ou de aplicativos móveis do Power BI). Dessa forma, cada usuário vê precisamente os dados para os quais têm permissões na fonte de dados subjacente. Com o logon único configurado, não há cache de dados compartilhados entre usuários diferentes.
 
 ## <a name="query-steps-when-running-sso"></a>Etapas de consulta ao executar SSO
@@ -40,13 +42,13 @@ Uma consulta executada com SSO é formada por três etapas, conforme mostrado no
 
 Veja abaixo mais detalhes sobre essas etapas:
 
-1. Para cada consulta, o **serviço do Power BI** inclui o *nome UPN* ao enviar uma solicitação de consulta ao gateway configurado.
+1. Para cada consulta, o **serviço do Power BI** inclui o *nome UPN*, ou seja, o nome de usuário totalmente qualificado do usuário atualmente conectado no serviço do Power BI ao enviar uma solicitação de consulta ao gateway configurado.
 
 2. O gateway precisa mapear o UPN do Azure Active Directory para uma identidade do Active Directory local.
 
    a.  Se o Azure AD DirSync (também conhecido como *Azure AD Connect*) for configurado, o mapeamento funcionará automaticamente no gateway.
 
-   b.  Caso contrário, o gateway pode pesquisar e mapear o UPN do Azure AD para um usuário local ao executar uma pesquisa em relação ao domínio do Active Directory local.
+   b.  Caso contrário, o gateway pode pesquisar e mapear o UPN do Azure AD para um usuário local do AD executando uma pesquisa no domínio do Active Directory local.
 
 3. O processo do serviço do gateway representa o usuário local mapeado, abre a conexão ao banco de dados subjacente e envia a consulta. O gateway não precisa estar instalado no mesmo computador que o banco de dados.
 

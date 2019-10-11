@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/21/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2d2eb51c5aad44572f1b427248fd85ef19a6306f
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985689"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968883"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho em uma capacidade Premium
 
@@ -29,18 +29,18 @@ As cargas de trabalho de consulta são otimizadas para os recursos determinados 
 
 |                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| IA | Não aplicável | Não aplicável | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% |
-| Fluxos de dados | Não aplicável |Padrão de 20%; mínimo de 12%  | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 3% | Padrão de 20%; mínimo de 2%  |
-| Relatórios paginados | Não aplicável |Não aplicável | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
+| IA | N/D | N/D | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% |
+| Fluxos de dados | N/D |Padrão de 20%; mínimo de 12%  | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 3% | Padrão de 20%; mínimo de 2%  |
+| Relatórios paginados | N/D |N/D | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
 | | | | | | |
 
 ### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>SKUs do Microsoft Azure para cenários PaaS (Plataforma como Serviço)
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| IA | Não aplicável                      | 20% padrão; 100% mínimo                     | 20% padrão; 50% mínimo                     | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% |
+| IA | N/D                      | 20% padrão; 100% mínimo                     | 20% padrão; 50% mínimo                     | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% |
 | Fluxos de dados         | Padrão de 40%; mínimo de 40% | Padrão de 24%; mínimo de 24% | Padrão de 20%; mínimo de 12% | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 3% | Padrão de 20%; mínimo de 2%   |
-| Relatórios paginados | Não aplicável                      | Não aplicável                      | Não aplicável                     | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
+| Relatórios paginados | N/D                      | Não aplicável                      | N/D                     | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
 | | | | | | |
 
 ## <a name="workload-settings"></a>Configurações de carga de trabalho
@@ -59,18 +59,59 @@ A carga de trabalho de IA permite que você use serviços cognitivos e Machine L
 
 ### <a name="datasets"></a>Conjuntos de dados
 
-A carga de trabalho de conjuntos de dados está habilitada por padrão e não pode ser desabilitada. Use as configurações a seguir para controlar o comportamento da carga de trabalho.
+A carga de trabalho de conjuntos de dados está habilitada por padrão e não pode ser desabilitada. Use as configurações a seguir para controlar o comportamento da carga de trabalho. Há informações de uso adicionais abaixo da tabela para algumas das configurações.
 
 | Nome da Configuração | Descrição |
 |---------------------------------|----------------------------------------|
 | **Memória Máxima (%)** | O percentual máximo de memória disponível que os conjuntos de dados podem usar em uma capacidade. |
 | **Ponto de Extremidade XMLA** | Especifica que as conexões de aplicativos cliente respeitam o conjunto de associação do grupo de segurança nos níveis do workspace e do aplicativo. Para obter mais informações, confira [Conectar-se a conjuntos de dados com ferramentas e aplicativos cliente](service-premium-connect-tools.md). |
-| **Contagem máxima de conjuntos de linhas intermediárias** | O número máximo de linhas intermediárias retornado por DirectQuery. O valor padrão é de 1.000.000 e o intervalo permitido é de 100.000 a 2.147.483.647. Use essa configuração para controlar o impacto de relatórios com uso intensivo de recursos ou mal designados. |
-| **Tamanho máximo do conjunto de dados offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Esse é o tamanho compactado em disco. O valor padrão é definido pelo SKU e o intervalo permitido é de 0,1 a 10 GB. Use essa configuração para impedir que os criadores de relatório publiquem um grande conjunto de dados que possa afetar negativamente a capacidade. |
-| **Contagem máxima do conjunto de linhas de resultado** | O número máximo de linhas retornadas em uma consulta DAX. O valor padrão é -1 (nenhum limite) e o intervalo permitido é de 100.000 a 214.7483.647. Use essa configuração para controlar o impacto de relatórios com uso intensivo de recursos ou mal designados. |
-| **Limite de memória de consulta (%)** | O percentual máximo de memória disponível que pode ser usada para resultados temporários em uma consulta ou em uma medida DAX. Use essa configuração para controlar o impacto de relatórios com uso intensivo de recursos ou mal designados. |
-| **Tempo limite da consulta (segundos)** | A quantidade máxima de tempo antes que uma consulta expire. O padrão é de 3.600 segundos (1 hora). Um valor de 0 especifica que as consultas não atingirão o tempo limite. Use essa configuração para manter um melhor controle de consultas de longa execução. |
+| **Contagem máxima de conjuntos de linhas intermediárias** | O número máximo de linhas intermediárias retornado por DirectQuery. O valor padrão é de 1.000.000 e o intervalo permitido é de 100.000 a 2.147.483.647. |
+| **Tamanho máximo do conjunto de dados offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Esse é o tamanho compactado em disco. O valor padrão é definido pelo SKU e o intervalo permitido é de 0,1 a 10 GB. |
+| **Contagem máxima do conjunto de linhas de resultado** | O número máximo de linhas retornadas em uma consulta DAX. O valor padrão é -1 (nenhum limite) e o intervalo permitido é de 100.000 a 214.7483.647. |
+| **Limite de memória de consulta (%)** | O percentual máximo de memória disponível que pode ser usada para resultados temporários em uma consulta ou em uma medida DAX. |
+| **Tempo limite da consulta (segundos)** | A quantidade máxima de tempo antes que uma consulta expire. O padrão é de 3.600 segundos (1 hora). Um valor de 0 especifica que as consultas não atingirão o tempo limite. |
 |  |  |  |
+
+#### <a name="max-intermediate-row-set-count"></a>Contagem Máxima de Conjuntos de Linhas Intermediárias
+
+Use essa configuração para controlar o impacto de relatórios com uso intensivo de recursos ou mal designados. Quando uma consulta a um conjunto de dados do DirectQuery apresenta um resultado muito grande do banco de dados de origem, isso pode causar um pico no uso da memória e uma sobrecarga de processamento. Essa situação pode levar à insuficiência de recursos para outros usuários e relatórios. Essa configuração permite que o administrador de capacidade ajuste quantas linhas uma consulta individual pode buscar da fonte de dados.
+
+Como alternativa, se a capacidade puder dar suporte a mais de um milhão de linhas por padrão e você tiver um conjunto de dados grande, aumente essa configuração para buscar mais linhas.
+
+Observe que essa configuração afeta apenas as consultas do DirectQuery, enquanto a [Contagem Máxima de Conjuntos de Linhas de Resultado](#max-result-row-set-count) afeta as consultas DAX.
+
+#### <a name="max-offline-dataset-size"></a>Tamanho Máximo do Conjunto de Dados Offline
+
+Use essa configuração para impedir que os criadores de relatório publiquem um grande conjunto de dados que possa afetar negativamente a capacidade. Observe que o Power BI não pode determinar o tamanho real em memória até que o conjunto de dados seja carregado na memória. É possível que um conjunto de dados com um tamanho offline menor possa ter um volume de memória maior do que um conjunto de dados com um tamanho offline maior.
+
+Se você tiver um conjunto de dados que seja maior que o tamanho especificado para essa configuração, o conjunto de dados falhará ao ser carregado quando um usuário tentar acessá-lo.
+
+#### <a name="max-result-row-set-count"></a>Contagem Máxima de Conjuntos de Linhas de Resultado
+
+Use essa configuração para controlar o impacto de relatórios com uso intensivo de recursos ou mal designados. Se esse limite for atingido em uma consulta DAX, um usuário do relatório verá o erro a seguir. Ele deverá copiar os detalhes do erro e contatar um administrador.
+
+![Não foi possível carregar os dados deste visual](media/service-admin-premium-workloads/could-not-load-data.png)
+
+Observe que essa configuração afeta apenas as consultas DAX, enquanto a configuração [Contagem Máxima de Conjuntos de Linhas Intermediárias](#max-intermediate-row-set-count) afeta as consultas do DirectQuery.
+
+#### <a name="query-memory-limit"></a>Limite de Memória de Consulta
+
+Use essa configuração para controlar o impacto de relatórios com uso intensivo de recursos ou mal designados. Algumas consultas e alguns cálculos podem apresentar resultados intermediários que usam muita memória na capacidade. Essa situação pode fazer com que outras consultas sejam executadas muito lentamente, causar a remoção de outros conjuntos de dados da capacidade e levar erros de memória insuficiente para outros usuários da capacidade.
+
+Essa configuração se aplica à atualização de dados e à renderização de relatório. A atualização de dados executa a atualização de dados da fonte de dados e a atualização de consulta, a menos que a atualização de consulta esteja desabilitada. Se a atualização de consulta não estiver desabilitada, esse limite de memória também se aplicará a essas consultas. As consultas com falha fazem com que o estado de atualização agendada seja relatado como uma falha, mesmo que a atualização de dados tenha sido bem-sucedida.
+
+#### <a name="query-timeout"></a>Tempo Limite da Consulta
+
+Use essa configuração para manter um melhor controle das consultas de execução longa, o que pode fazer com que os relatórios sejam carregados lentamente para os usuários. Essa configuração se aplica à atualização de dados e à renderização de relatório. A atualização de dados executa a atualização de dados da fonte de dados e a atualização de consulta, a menos que a atualização de consulta esteja desabilitada. Se a atualização de consulta não estiver desabilitada, essa limitação de tempo limite também se aplicará a essas consultas.
+
+Essa configuração se aplica a uma única consulta e não ao tempo necessário para executar todas as consultas associadas à atualização de um conjunto de dados ou um relatório. Considere o seguinte exemplo:
+
+- A configuração **Tempo Limite da Consulta** é 1.200 (20 minutos).
+- Há cinco consultas a serem executadas, e cada uma delas é executada por 15 minutos.
+
+O tempo combinado de todas as consultas é de 75 minutos, mas o limite de configuração não é atingido porque todas as consultas individuais são executadas em menos de 20 minutos.
+
+Observe que os relatórios do Power BI substituem esse padrão com um tempo limite muito menor para cada consulta na capacidade. O tempo limite para cada consulta geralmente é de cerca de três minutos.
 
 ### <a name="dataflows"></a>Fluxos de dados
 

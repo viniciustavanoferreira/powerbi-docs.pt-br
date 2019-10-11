@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342166"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968743"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtros e realce em relatórios do Power BI
  Este artigo apresenta a você a filtragem e o realce no serviço do Power BI. A experiência é quase exatamente igual no Power BI Desktop. Os *Filtros* removem tudo, menos os dados que você deseja se concentrar. *Realce* não é filtragem. Ele não remove dados, mas realça um subconjunto dos dados visíveis. Os dados não realçados permanecem visíveis, mas esmaecidos.
@@ -28,7 +28,7 @@ Há muitas maneiras diferentes de filtrar e realçar relatórios no Power BI. Co
 * Uma apresentação detalhada dos [controles de filtro e realce disponíveis na exibição Edição](power-bi-report-add-filter.md) no Power BI Desktop e no serviço do Power BI. O artigo faz uma análise detalhada dos tipos de filtros, como data e hora, numéricos e texto. Ele também aborda as diferenças entre as opções básica e avançada.
 * Agora que você aprendeu como filtros e realce funcionam por padrão, [saiba como alterar a maneira pela qual as visualizações em uma página filtram e realçam umas às outras](service-reports-visual-interactions.md)
 
-**Você sabia?** O Power BI tem uma nova experiência de filtro, atualmente em versão prévia. Leia mais sobre [a nova experiência de filtro em relatórios do Power BI](power-bi-report-filter.md).
+**Você sabia?** O Power BI tem uma nova experiência de filtro. Leia mais sobre [a nova experiência de filtro em relatórios do Power BI](power-bi-report-filter.md).
 
 ![Nova experiência de filtro](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 

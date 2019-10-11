@@ -4,23 +4,25 @@ description: Quick Insights e View Insights com o Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/2/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327771"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943917"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de Insights com suporte para o Power BI
+
+O serviço do Power BI pode procurar insights automaticamente em seus dashboards ou seus relatórios.
+
 ## <a name="how-does-insights-work"></a>Como o Insights funciona?
-O Power BI pesquisa com rapidez diferentes subconjuntos do conjunto de dados durante a aplicação de um conjunto de algoritmos sofisticados para descobrir informações que possam ser interessantes. Ele examina ao máximo possível um conjunto de dados no período de tempo designado.
+O Power BI pesquisa rapidamente diferentes subconjuntos do conjunto de dados. À medida que ele pesquisa, o Power BI aplica um conjunto de algoritmos sofisticados para descobrir insights potencialmente interessantes. Ele examina ao máximo possível um conjunto de dados no período de tempo designado.
 
 Você pode executar insights em um conjunto de dados ou bloco de painel.   
 
@@ -50,7 +52,7 @@ Detecta os casos em que os pontos de dados não estão distantes da média.
 ## <a name="majority-major-factors"></a>Maioria (Principais fatores)
 Encontra casos em que a maioria de um valor total pode ser atribuída a um único fator quando dividida por outra dimensão.  
 
-![Exemplo de principais fatores](./media/end-user-insight-types/pbi_auto_insight_types_majority.png)
+![Exemplo de fatores principais](./media/end-user-insight-types/pbi_auto_insight_types_majority.png)
 
 ## <a name="overall-trends-in-time-series"></a>Tendências gerais na série temporal
 Detecta as tendências ascendentes ou descendentes em dados de série temporal.
@@ -74,8 +76,6 @@ Para dados em uma série temporal, detecta quando há datas ou horas específica
 
 ## <a name="next-steps"></a>Próximas etapas
 [Insights do Power BI](end-user-insights.md)
-
-Se você é proprietário de um conjunto de dados, [otimize-o para Insights](../service-insights-optimize.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

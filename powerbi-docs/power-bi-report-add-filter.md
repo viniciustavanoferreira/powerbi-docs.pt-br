@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380256"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968797"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Adicionar um filtro a um relatório no Power BI
 
+[!INCLUDE [power-bi-service-new-look-include](includes/power-bi-service-new-look-include.md)]
+
 Este artigo explica como adicionar um filtro de página, um filtro de visualização, um filtro de relatório ou um filtro de detalhamento a um relatório no Power BI. Os exemplos neste artigo estão no serviço do Power BI. As etapas são quase idênticas no Power BI Desktop.
 
-**Você sabia?** O Power BI tem uma nova experiência de filtro, atualmente em versão prévia. Leia mais sobre [a nova experiência de filtro em relatórios do Power BI](power-bi-report-filter.md).
+**Você sabia?** O Power BI tem uma nova experiência de filtro. Leia mais sobre [a nova experiência de filtro em relatórios do Power BI](power-bi-report-filter.md).
 
 ![Nova experiência de filtro](media/power-bi-report-add-filter/power-bi-filter-reading.png)
 
@@ -140,7 +142,7 @@ Para continuar, baixe o [exemplo de Rentabilidade do Cliente](sample-customer-pr
 Vejamos como funciona o filtro de detalhamento.
 
 1. Inicie a página do relatório **Scorecard da Equipe**.    
-2. Vamos supor que você é Andrew Ma e deseja ver a página do relatório Equipe Executiva filtrada somente com os seus dados.  No gráfico da área superior esquerda, clique com o botão direito do mouse em qualquer ponto de dados verde para abrir a opção de menu Detalhamento.
+2. Vamos supor que você é Andrew Ma e deseja ver a página do relatório Equipe Executiva filtrada somente com os seus dados.  No gráfico de áreas do canto superior esquerdo, clique com o botão direito do mouse em qualquer ponto de dados verde para abrir a opção de menu Detalhamento.
    
     ![Iniciar a ação de detalhamento](media/power-bi-report-add-filter/power-bi-drillthrough.png)
 3. Selecione **Detalhamento > Equipe Executiva** executar uma consulta drill-through na página de relatório chamada **Equipe Executiva**. A página é filtrada para mostrar informações do ponto de dados no qual você clicou com o botão direito do mouse, nesse caso, Andrew Ma. Apenas o campo que está nos filtros de Detalhamento é passados para a página de relatório de detalhamento.  

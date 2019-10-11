@@ -1,6 +1,6 @@
 ---
 title: Usar gráficos de faixa de opções no Power BI
-description: Criar e consumir gráficos de faixa de opções no serviço do Power BI e no Power BI Desktop
+description: Criar e consumir gráficos de faixa de opções no Power BI Desktop
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -10,20 +10,34 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: e6044f3a2cfdbfc40d0497ebde25780336dc1dc4
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840102"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715494"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Usar gráficos de faixa de opções no Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Você pode usar gráficos de faixa de opções para visualizar dados e descobrir rapidamente qual categoria de dados tem a classificação mais alta (maior valor). Gráficos de faixa de opções são eficazes para mostrar alterações na classificação, com o maior intervalo (valor) sempre exibido na parte superior de cada período. 
 
-![gráfico de faixa de opções](media/desktop-ribbon-charts/ribbon-charts_01.png)
+![gráfico de faixa de opções](media/desktop-ribbon-charts/ribbon-charts-01.png)
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+
+1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
+   
+2. Encontre sua cópia do **arquivo PBIX de exemplo de Análise de Varejo**
+
+1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 ## <a name="create-a-ribbon-chart"></a>Criar um gráfico de faixa de opções
-Para acompanhar, abra o [Relatório de exemplo de análise de varejo](../sample-retail-analysis.md). 
 
 1. Para criar um gráfico de faixa de opções, selecione **Gráfico de faixa de opções** no painel **Visualizações**.
 
@@ -31,13 +45,13 @@ Para acompanhar, abra o [Relatório de exemplo de análise de varejo](../sample-
 
     Os gráficos de faixa de opções conectam uma categoria de dados no continuum de tempo visualizado usando faixas de opções, permitindo que você veja como determinada categoria é classificada em todo o intervalo do eixo x do gráfico (geralmente, a linha do tempo).
 
-2. Selecione campos para **Eixo**, **Legenda** e **Valor**.  Neste exemplo, selecionamos: **Data**, **Categoria** e **Vendas deste ano**.  
+2. Selecione campos para **Eixo**, **Legenda** e **Valor**.  Neste exemplo, selecionamos: **Store** > **OpenDate**, **Item** > **Category** e **Sales** > **Vendas deste ano** > **Valor**.  
 
     ![campos selecionados](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
-    Já que o conjunto de dados contém dados para apenas um ano, removemos o campo **Ano** do **Eixo** também. 
+    Como o conjunto de dados contém dados para apenas um ano, removemos os campos **Ano** e **Trimestre** da lista **Eixo**.
 
-3. O gráfico de faixa de opções mostra a classificação a cada dois meses. Observe como a classificação é alterada ao longo do tempo.  Por exemplo, a categoria Inicial passa de terceira para quarta e para terceira novamente. A categoria Juniores passa de terceira para quinta em julho. 
+3. O gráfico de faixa de opções mostra a classificação para cada mês. Observe como a classificação é alterada ao longo do tempo. Por exemplo, a categoria Página Inicial passa de segunda a quinta, de fevereiro a março.
 
     ![gráfico de faixa de opções](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
@@ -57,7 +71,7 @@ Já que o gráfico de faixa de opções não tem rótulos do eixo y, você talve
 
 ![opções de formatação para rótulos de dados](media/desktop-ribbon-charts/power-bi-labels.png)
 
-Defina as opções de formatação para seus rótulos de dados.  Neste exemplo, definimos a cor do texto para branco, as casas decimais para zero e unidades de exibição para milhares. 
+Defina as opções de formatação para seus rótulos de dados. Neste exemplo, definimos a cor do texto como branca e as unidades de exibição como milhares.
 
 ![modelo de faixa de opções no painel de Visualização](media/desktop-ribbon-charts/power-bi-data-labels.png)
 

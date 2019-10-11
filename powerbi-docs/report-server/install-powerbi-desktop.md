@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: bbd9a3884b3b6b0cd235471b0746f605e3872aff
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/03/2019
+ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325746"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968635"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 
-Para criar relatórios do Power BI para o Servidor de Relatórios do Power BI você precisa baixar e instalar o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI. Essa versão é diferente do Power BI Desktop usado com o serviço do Power BI. Por exemplo, a versão do Power BI Desktop para o serviço do Power BI inclui a versão prévia dos recursos que não estão na versão do Servidor de Relatórios do Power BI até que sejam liberados. Usar essa versão garante que o servidor de relatórios pode interagir com uma versão conhecida dos relatórios e do modelo. 
+Para criar relatórios do Power BI para o Servidor de Relatórios do Power BI, você precisará baixar e instalar a versão do Power BI Desktop otimizada para o Servidor de Relatórios do Power BI. Essa versão é diferente do Power BI Desktop usado com o serviço do Power BI. Por exemplo, a versão do Power BI Desktop para o serviço do Power BI inclui a versão prévia dos recursos que não estão na versão do Servidor de Relatórios do Power BI até que estejam em disponibilidade geral. Usar essa versão garante que o servidor de relatórios pode interagir com uma versão conhecida dos relatórios e do modelo. 
 
 A boa notícia é que você pode instalar o Power BI Desktop e o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI lado a lado no mesmo computador.
 
@@ -32,7 +32,7 @@ A maneira mais fácil de ter certeza que você tem a versão mais recente do Pow
 
     Ou vá para a home page do [Servidor de Relatórios do Power BI](https://powerbi.microsoft.com/report-server/) e selecione **Opções de download avançadas**.
 
-2. Na página do Centro de Download, selecione **Baixar**.
+2. Na página Centro de Download, selecione um idioma e, em seguida, selecione **Baixar**.
 
 3. Dependendo do seu computador, selecione: 
 
@@ -65,7 +65,11 @@ Editar um relatório do Power BI no Servidor de Relatórios do Power BI ou criar
 
 Os relatórios do Power BI no Servidor de Relatórios do Microsoft Power BI e no serviço do Power BI (http://app.powerbi.com), assim como nos aplicativos móveis do Power BI) agem praticamente da mesma maneira, mas alguns recursos são diferentes.
 
-### <a name="in-a-browser"></a>Em um navegador
+### <a name="selecting-a-language"></a>Como selecionar um idioma
+
+Para o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI, selecione o idioma ao instalar o aplicativo. Você não poderá alterá-lo depois, mas poderá instalar uma versão em outro idioma.
+
+### <a name="report-visuals-in-a-browser"></a>Relatar visuais em um navegador
 
 Os relatórios do Servidor de Relatórios do Power BI dão suporte a quase todas as visualizações, inclusive visuais personalizados. Os relatórios do Servidor de Relatório do Power BI não dão suporte a:
 
@@ -74,7 +78,7 @@ Os relatórios do Servidor de Relatórios do Power BI dão suporte a quase todas
 * Trilhas
 * Recursos de visualização do Power BI Desktop
 
-### <a name="in-the-power-bi-mobile-apps"></a>Nos aplicativos móveis do Power BI
+### <a name="reports-in-the-power-bi-mobile-apps"></a>Relatórios nos aplicativos móveis do Power BI
 
 Os relatórios do Servidor de Relatório do Power BI dão suporte a toda a funcionalidade básica nos [aplicativos móveis do Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md), incluindo:
 
@@ -92,7 +96,7 @@ Os relatórios do Servidor de Relatório do Power BI não dão suporte a estes r
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop para versões anteriores do Servidor de Relatórios do Power BI
 
-Se seu servidor de relatório é de uma versão anterior, você precisa da versão correspondente do Power BI Desktop. Este é o link para baixar a versão anterior.
+Se seu servidor de relatório é de uma versão anterior, você precisa da versão correspondente do Power BI Desktop. Este é o link para baixar uma versão anterior.
 
 - Microsoft Power BI Desktop ([otimizado para o Servidor de Relatórios do Power BI – janeiro de 2019](https://go.microsoft.com/fwlink/?linkid=2055039))
 

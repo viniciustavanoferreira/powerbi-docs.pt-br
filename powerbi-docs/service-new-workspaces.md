@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750896"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715205"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho em novos workspaces no Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "70750896"
 A nova experiência de workspace atingiu a disponibilidade geral (GA) e agora é o workspace padrão. Você ainda poderá continuar a criar e usar [espaços de trabalho clássicos](service-create-workspaces.md) com base em Grupos do Office 365. 
 
 > [!NOTE]
-> Para impor a Segurança em Nível de Linha (RLS) para usuários que procuram conteúdo em um espaço de trabalho, use a função Visualizador. Se a função Visualizador ainda não estiver disponível em seu locatário, continue a usar [espaços de trabalho clássicos](service-create-workspaces.md) e selecione a opção **Membros só podem ver o conteúdo do Power BI**. Como alternativa, publique um aplicativo do Power BI para esses usuários ou use o compartilhamento para distribuir o conteúdo.
+> Para impor a Segurança em Nível de Linha (RLS) para usuários que procuram conteúdo em um espaço de trabalho, use a função Visualizador. Para impor a RLS sem fornecer acesso ao workspace, publique um aplicativo do Power BI para esses usuários ou use o compartilhamento para distribuir conteúdo.
 
 Com os novos workspaces, é possível:
 
@@ -73,11 +73,14 @@ Estas são as capacidades das quatro funções: administradores, membros, colabo
 | Permitir que outras pessoas compartilhem novamente os itens. |  X | X  |   |   |
 | Criar, editar e excluir conteúdo no workspace.  |  X | X  | X  |   |
 | Publicar relatórios no workspace, excluir conteúdo.  |  X | X  | X  |   |
-| Criar um relatório em outro workspace com base em um conjunto de dados neste workspace. |  X | X  | X  | X <sup>1</sup>  |
-| Copiar um relatório. | X | X | X | X <sup>1</sup> |
+| Criar um relatório em outro workspace com base em um conjunto de dados neste workspace. |  X | X  | X  |   |
+| Copiar um relatório. | X | X | X |  |
 | Exibir e interagir com um item. |  X | X  | X  | X  |
 
-**1** Requer uma licença do Power BI Pro e [permissão de Build para conjuntos de dados](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
+> [!NOTE]
+>Para copiar um relatório e criar um relatório em outro workspace com base em um conjunto de dados nesse workspace, as pessoas precisarão atender a critérios adicionais:
+>- Elas precisam ter uma licença do Power BI Pro. 
+>- Elas precisam ter a permissão Criar no conjunto de dados. Para conjuntos de dados nesse workspace, as pessoas com as funções Administrador, Membro e Colaborador têm a permissão Criar por meio das funções de workspace delas.
  
 ## <a name="licensing"></a>Licenças
 Todas as pessoas que você adiciona a um workspace na capacidade compartilhada precisam de uma licença do Power BI Pro. No workspace, esses usuários podem colaborar nos dashboards e relatórios que você planeja publicar para um público-alvo maior ou até mesmo para toda a organização. 

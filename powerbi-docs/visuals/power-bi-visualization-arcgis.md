@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e001d35761eb7918aab2c427c3400df526e4dbc0
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 87a8333c89f2682640649e757984c6b02e10c3a8
+ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192246"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "71691277"
 ---
 # <a name="arcgis-maps-in-power-bi-desktop-by-esri"></a>Mapas do ArcGIS no Power BI Desktop pela ESRI
 
@@ -333,6 +333,8 @@ Quando um usuário se inscreve para uma assinatura Plus oferecida pela Esfri por
 
 Para obter perguntas técnicas detalhadas sobre como o ArcGIS Maps for Power BI da Esri funciona, contate a Esri por meio do site de suporte.
 
+**Quais dados são enviados para a Esri?**
+Leia na [documentação](https://doc.arcgis.com/en/maps-for-powerbi/get-started/data-transfer.htm) da Esri sobre quais dados são transferidos para ela.
 
 **O uso do ArcGIS Maps para Power BI é cobrado?**
 

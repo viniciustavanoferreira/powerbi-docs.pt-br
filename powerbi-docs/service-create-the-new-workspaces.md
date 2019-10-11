@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2de6d79971e59879e65d2e3cf652caf156d80cf
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904032"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715521"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar novos espaços de trabalho no Power BI
 
@@ -28,7 +28,7 @@ Confira as mudanças. Nos novos espaços de trabalho, é possível:
 - Usar funções de workspaces mais granulares para obter um gerenciamento de permissões mais flexível em um workspace.
 
 > [!NOTE]
-> Para impor a RLS (segurança no nível da linha) para usuários do Power BI Pro que estão navegando pelo conteúdo de um espaço de trabalho, continue usando os [espaços de trabalho clássicos](service-create-workspaces.md). Selecione a opção **Os membros só podem exibir conteúdo do Power BI**. Como alternativa, publique um aplicativo do Power BI para esses usuários ou use o compartilhamento para distribuir o conteúdo. A Função de Visualizador que chegará em breve permitirá esse cenário no futuro em espaços de trabalho com uma experiência.
+> Para impor a RLS (Segurança em Nível de Linha) para usuários do Power BI Pro que estão navegando pelo conteúdo de um workspace, atribua os usuários à função espectador.
 
 Para saber mais, confira o artigo [Novos espaços de trabalho](service-new-workspaces.md).
 
@@ -42,7 +42,7 @@ Para saber mais, confira o artigo [Novos espaços de trabalho](service-new-works
    
      ![Nova experiência de espaço de trabalho](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     Se você selecionar **Reverter para clássico**, criará um espaço de trabalho com base em um Grupo do Office 365. Use essa opção se você precisar da opção **Os membros só podem exibir conteúdo do Power BI** para impor a RLS (segurança no nível da linha) para membros do espaço de trabalho.
+     Se você selecionar **Reverter para clássico**, criará um [workspace baseado em um Grupo do Office 365](service-create-workspaces.md). 
 
 2. Nomeie o workspace. Se o nome não estiver disponível, edite-o para criar um exclusivo.
    
@@ -76,7 +76,7 @@ O novo contato do espaço de trabalho permite que você especifique quais usuár
 
     No painel de navegação esquerdo, selecione a seta ao lado de **Espaços de trabalho**, selecione as reticências (...) ao lado do nome do espaço de trabalho > **Configurações do espaço de trabalho**. O painel **Configurações** é aberto.
 
-    ![Configurações do espaço de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
+    ![Configurações do workspace](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. Em **Avançado** > **Lista de contatos**, aceite o padrão, **Administradores de espaço de trabalho** ou adicione sua própria lista de **Usuários ou grupos específicos**. 
 3. Selecione **Salvar**.
@@ -93,7 +93,7 @@ O Power BI não sincroniza as permissões de usuários ou grupos que estão conf
 
     No painel de navegação esquerdo, selecione a seta ao lado de **Espaços de trabalho**, selecione as reticências (...) ao lado do nome do espaço de trabalho > **Configurações do espaço de trabalho**. O painel **Configurações** é aberto.
 
-    ![Configurações do espaço de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
+    ![Configurações do workspace](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. Em **Avançado** > **OneDrive do espaço de trabalho**, digite o nome do grupo do Office 365 que você criou anteriormente. O Power BI seleciona automaticamente o OneDrive para o grupo.
 

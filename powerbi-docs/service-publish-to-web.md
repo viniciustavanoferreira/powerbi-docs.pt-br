@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "70987014"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239917"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web por meio do Power BI
 
@@ -113,7 +113,7 @@ Após criar um código de inserção no recurso **Publicar na Web**, será poss�
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Atualizações em relatórios e atualização de dados
 
-Depois de criar seu código de inserção no recurso **Publicar na Web** e compartilhá-lo, o relatório será atualizado com todas as alterações feitas, e o link do código de inserção ficará ativo imediatamente. Qualquer pessoa que abrir o link poderá vê-lo. Após essa ação inicial, contudo, as atualizações em relatórios ou visuais poderão levar aproximadamente uma hora até se tornarem visíveis para seus usuários. Se você precisar que as atualizações sejam disponibilizadas imediatamente, poderá excluir o código de inserção e criar um novo. Para saber mais, confira a seção [**Como isso funciona**](#howitworks) posteriormente neste artigo. 
+Depois de criar seu código de inserção no recurso **Publicar na Web** e compartilhá-lo, o relatório será atualizado com todas as alterações feitas, e o link do código de inserção ficará ativo imediatamente. Qualquer pessoa que abrir o link poderá vê-lo. Após essa ação inicial, contudo, as atualizações em relatórios ou visuais poderão levar aproximadamente uma hora até se tornarem visíveis para seus usuários. Para saber mais, confira a seção [**Como isso funciona**](#howitworks) posteriormente neste artigo. 
 
 ## <a name="data-refresh"></a>Atualização de dados
 

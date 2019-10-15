@@ -15,9 +15,9 @@
         - name: Tutoriais
           items:
             - name: Desenvolver um visual do Power BI
-              href: custom-visual-develop-tutorial.md
+              href: visuals/custom-visual-develop-tutorial.md
             - name: Adicionar opções de formatação
-              href: custom-visual-develop-tutorial-format-options.md
+              href: visuals/custom-visual-develop-tutorial-format-options.md
             - name: Adicionar testes de unidade para o projeto visual
               href: visuals/unit-tests-introduction.md
         - name: Conceitos

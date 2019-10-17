@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270846"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020811"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma fonte de dados incorporada para relatórios paginados no serviço do Power BI
 
@@ -76,21 +76,21 @@ Os relatórios paginados que se conectam aos conjuntos de dados do Power BI segu
 
 - .rdl no mesmo workspace que o conjunto de dados (mesmo proprietário): Compatível
 - .rdl em um workspace diferente daquele do conjunto de dados (mesmo proprietário): Compatível
-- .rdl compartilhado: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
-- Aplicativo compartilhado: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
+- .rdl compartilhado: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
+- Aplicativo compartilhado: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
 - .rdl no mesmo workspace que o conjunto de dados (outro usuário): Compatível
-- .rdl em um workspace diferente daquele do conjunto de dados (usuário diferente): você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
-- Segurança em nível de função: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados para que ele seja imposto.
+- .rdl em um workspace diferente daquele do conjunto de dados (usuário diferente): você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
+- Segurança em nível de função: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados para que ela seja imposta.
 
 ### <a name="new-experience-apps-and-app-workspaces"></a>Novos aplicativos e workspaces de aplicativo
 
 - .rdl no mesmo workspace que o conjunto de dados: Compatível
 - .rdl em um workspace diferente daquele do conjunto de dados (mesmo proprietário): Compatível
-- .rdl compartilhado: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
-- Aplicativo compartilhado: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
+- .rdl compartilhado: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
+- Aplicativo compartilhado: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
 - .rdl no mesmo workspace que o conjunto de dados (outro usuário) - Compatível
-- .rdl em um workspace diferente daquele do conjunto de dados (outro usuário): Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados
-- Segurança em nível de função: Você precisa criar permissões atribuídas a cada usuário que visualiza o relatório no nível do conjunto de dados para que ele seja imposto
+- .rdl em um workspace diferente daquele do conjunto de dados (outro usuário): Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
+- Segurança em nível de função: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados para que ela seja imposta
 
 ## <a name="next-steps"></a>Próximas etapas
 

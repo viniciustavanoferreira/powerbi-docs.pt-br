@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715521"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020099"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar novos espaços de trabalho no Power BI
 
@@ -68,7 +68,7 @@ Para saber mais, confira o artigo [Novos espaços de trabalho](service-new-works
 
 ## <a name="workspace-contact-list"></a>Lista de contatos do workspace
 
-O novo contato do espaço de trabalho permite que você especifique quais usuários recebem a notificação sobre problemas que ocorrem no espaço de trabalho. Por padrão, qualquer usuário ou grupo especificado como um administrador do workspace é notificado, mas você pode personalizar a lista. Os usuários ou grupos listados na lista de contatos serão mostrados na interface do usuário (IU) para ajudar os usuários a obter ajuda relacionada ao workspace.
+Você pode especificar quais usuários recebem a notificação sobre problemas que ocorrem no workspace. Por padrão, qualquer usuário ou grupo especificado como um administrador do workspace é notificado, mas você pode personalizar a lista adicionando-os à *lista de contatos*. Os usuários ou grupos na lista de contatos serão exibidos na interface do usuário (IU) para ajudar os usuários a obter ajuda relacionada ao workspace.
 
 1. Acesse a nova configuração de **Lista de contatos** usando uma destas duas maneiras:
 
@@ -79,6 +79,9 @@ O novo contato do espaço de trabalho permite que você especifique quais usuár
     ![Configurações do workspace](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. Em **Avançado** > **Lista de contatos**, aceite o padrão, **Administradores de espaço de trabalho** ou adicione sua própria lista de **Usuários ou grupos específicos**. 
+
+    ![Contatos do Workspace](media/service-create-the-new-workspaces/power-bi-workspace-contacts.png)
+
 3. Selecione **Salvar**.
 
 ## <a name="workspace-onedrive"></a>OneDrive do Workspace
@@ -103,34 +106,15 @@ O Power BI não sincroniza as permissões de usuários ou grupos que estão conf
 
 ### <a name="access-the-workspace-onedrive-location"></a>Acessar o local do OneDrive do espaço de trabalho
 
-Depois de configurar o local do OneDrive, você pode acessá-lo de alguns locais diferentes no espaço de trabalho:
+Depois de configurar a localização do OneDrive, você pode acessá-lo da mesma forma que acessa outras fontes de dados no serviço do Power BI.
 
-- Selecione **Espaços de trabalho** > *Nome do espaço de trabalho* > o menu das reticências ( **...** ) > **Arquivos**. 
+1. No painel de navegação à esquerda, selecione **Obter Dados** e, na caixa **Arquivos**, selecione **Obter**.
 
-    ![Local dos arquivos no espaço de trabalho](media/service-new-workspaces/power-bi-new-workspace-files.png)
+    ![Obter dados, obter arquivos](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
-- Selecione as reticências ( **...** ) no canto superior direito do espaço de trabalho > **Arquivos**.
-
-    ![Local dos arquivos no espaço de trabalho](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-    
-- Na experiência **Obter Dados** > **Arquivos**. A entrada **OneDrive – Business** é seu próprio OneDrive for Business. O segundo OneDrive é aquele que você adicionou.
+1.  A entrada **OneDrive – Business** é seu próprio OneDrive for Business. O segundo OneDrive é aquele que você adicionou.
 
     ![Local dos arquivos no espaço de trabalho - obter dados](media/service-create-the-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
-
-## <a name="add-content-to-your-workspace"></a>Adicionar conteúdo ao seu espaço de trabalho
-
-Após criar uma experiência de novo espaço de trabalho, é hora de adicionar conteúdo a ele. A adição de conteúdo é semelhante nos espaços de trabalho novo e clássico. Use o botão Criar ou use Obter Dados para adicionar conteúdo ao seu espaço de trabalho.
-
-1. Na tela **Boas-vindas** do seu novo espaço de trabalho, é possível adicionar conteúdo. 
-
-    ![Nova tela de boas-vindas do workspace](media/service-create-the-new-workspaces/power-bi-workspace-get-data.png)
-
-1. Por exemplo, selecione **Exemplos** > **Exemplo de rentabilidade do cliente**.
-
-> [!NOTE]
-> Não é possível adicionar pacotes de conteúdo organizacional ou pacotes de conteúdo de terceiros aos novos espaços de trabalho. Os aplicativos estão disponíveis para vários pacotes de conteúdo de terceiros que você usou anteriormente. Use os espaços de trabalho clássicos se você precisar continuar usando pacotes de conteúdo. Os pacotes de conteúdo estão obsoletos, portanto, é uma prática recomendada usar os aplicativos em vez disso.
-
-Quando você exibe conteúdo na lista de conteúdo de um espaço de trabalho, o nome do espaço de trabalho é listado como o proprietário.
 
 ### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Conectar-se aos serviços de terceiros em novos espaços de trabalho
 
@@ -142,9 +126,7 @@ Na nova experiência de espaços de trabalho, não é possível criar ou consumi
 
 1. Na lista de conteúdo do espaço de trabalho, como você é administrador, verá uma nova ação, **Acesso**.
 
-    ![Lista de conteúdo de espaço de trabalho](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-
-1. Selecione **Acessar**.
+    ![Lista de conteúdo de espaço de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
 1. Adicione grupos de segurança, listas de distribuição, grupos do Office 365 ou indivíduos nesses workspaces como membros, colaboradores ou administradores. Consulte [Funções nos novos workspaces](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação das diferentes funções.
 

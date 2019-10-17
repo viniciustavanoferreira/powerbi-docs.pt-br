@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d48214cffcc17da9c105f7277b721c03946d5c2
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961797"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020659"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Tutorial: Criar e publicar um pacote de conteúdo organizacional do Power BI
 
@@ -26,7 +26,7 @@ Criar pacotes de conteúdo é diferente de compartilhar dashboards ou colaborar 
 A criação de um pacote de conteúdo organizacional requer uma [conta Power BI Pro](https://powerbi.microsoft.com/pricing) para você e seus colegas.
 
 > [!NOTE]
-> Não é possível criar ou instalar pacotes de conteúdo organizacional na nova versão prévia de experiências de workspace. Se você ainda não começou, agora é um bom momento para atualizar seus pacotes de conteúdo para aplicativos. Saiba [mais sobre a nova experiência de workspace](service-create-the-new-workspaces.md).
+> Não é possível criar ou instalar pacotes de conteúdo organizacional nas novas experiências de workspace. Se você ainda não começou, agora é um bom momento para atualizar seus pacotes de conteúdo para aplicativos. Saiba [mais sobre a nova experiência de workspace](service-create-the-new-workspaces.md).
 
 ## <a name="create-and-publish-a-content-pack"></a>Criar e publicar um pacote de conteúdo
 

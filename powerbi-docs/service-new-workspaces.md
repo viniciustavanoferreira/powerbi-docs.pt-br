@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715205"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020695"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho em novos workspaces no Power BI
 
@@ -78,8 +78,8 @@ Estas são as capacidades das quatro funções: administradores, membros, colabo
 | Exibir e interagir com um item. |  X | X  | X  | X  |
 
 > [!NOTE]
->Para copiar um relatório e criar um relatório em outro workspace com base em um conjunto de dados nesse workspace, as pessoas precisarão atender a critérios adicionais:
->- Elas precisam ter uma licença do Power BI Pro. 
+>Para copiar um relatório e criar um relatório em outro workspace com base em um conjunto de dados nesse workspace, as pessoas precisam atender a critérios adicionais:
+>- Elas precisam ter uma licença do Power BI Pro. Confira a próxima seção, [Licenciamento](#licensing), para saber mais detalhes.
 >- Elas precisam ter a permissão Criar no conjunto de dados. Para conjuntos de dados nesse workspace, as pessoas com as funções Administrador, Membro e Colaborador têm a permissão Criar por meio das funções de workspace delas.
  
 ## <a name="licensing"></a>Licenças
@@ -141,7 +141,7 @@ Alguns recursos funcionam de forma diferente dos workspaces atuais nos novos wor
 - Os membros podem ou não compartilhar novamente: substituídos pela função Colaborador
 - Workspaces somente leitura: Em vez de conceder aos usuários o acesso somente leitura a um espaço de trabalho, atribua aos usuários uma função de Visualizador que permite acesso somente leitura semelhante ao conteúdo de um espaço de trabalho.
 - Os usuários sem uma licença do Pro poderão acessar o espaço de trabalho se ele estiver em uma capacidade Power BI Premium, mesmo se os usuários tiverem somente a função de Visualizador.
-- Para permitir que os usuários com a função de Visualizador exportem dados, verifique se eles têm a permissão Criar nos conjuntos de dados no workspace. Leia mais sobre a [Permissão Criar em conjuntos de dados](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Para permitir que os usuários com a função de Visualizador exportem dados, verifique se eles têm a permissão Criar nos conjuntos de dados no workspace. Leia mais sobre a [Permissão Criar em conjuntos de dados](service-datasets-build-permissions.md).
 - Nenhum botão **Sair do workspace**.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes

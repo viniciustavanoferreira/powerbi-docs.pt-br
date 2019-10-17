@@ -2,20 +2,20 @@
 title: Cache de consulta no Power BI Premium
 description: Cache de consulta no Power BI Premium
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076172"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020526"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Cache de consulta no Power BI Premium/Embedded
 
@@ -26,13 +26,13 @@ As organizações com o Power BI Premium ou o Power BI Embedded podem aproveitar
 
 Os resultados da consulta em cache são específicos ao contexto do conjunto de dados e do usuário e sempre respeitam as regras de segurança. No momento, o serviço apenas consulta o cache para a página inicial à qual você é levado. Em outras palavras, consultas não são armazenadas em cache quando você interage com o relatório. O cache de consulta respeita [indicadores pessoais](consumer/end-user-bookmarks.md#personal-bookmarks) e [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/), de modo que as consultas geradas por um relatório personalizado serão armazenadas em cache. [Blocos de dashboard](service-dashboard-tiles.md) que são ativados pelas mesmas consultas também são beneficiados quando a consulta é armazenada em cache. O desempenho é especialmente beneficiado quando um conjunto de dados é acessado com frequência e não precisa ser atualizado com frequência. O cache de consulta também pode reduzir a carga da capacidade do Premium/Embedded ao diminuir o número total de consultas.
 
-Você controla o comportamento de cache de consulta na página **Configurações** para o conjunto de dados no serviço do Power BI. Ele tem duas configurações possíveis:
+Você controla o comportamento de cache de consulta na página **Configurações** para o conjunto de dados no serviço do Power BI. Ele tem três configurações possíveis:
 
+- **Padrão de Capacidade**: Cache de consulta Desativado
 - **Desligado**: Não use cache de consulta para esse conjunto de dados.
-
 - **Ligado**: Use o cache de consulta para esse conjunto de dados.
 
-![Caixa de diálogo de cache de consulta](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![Caixa de diálogo de cache de consulta](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 

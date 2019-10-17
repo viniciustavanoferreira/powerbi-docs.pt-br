@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305757"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020230"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar um aplicativo no Power BI
 
@@ -30,7 +30,7 @@ Os usuários empresariais obtêm seus aplicativos de algumas maneiras diferentes
 - Você pode enviar um link direto para eles.
 - Você poderá instalá-lo automaticamente nas contas do Power BI de seus colegas, se o administrador do Power BI lhe der permissão.
 
-Você pode criar o aplicativo com sua própria navegação interna, de modo que os usuários possam encontrar o conteúdo com facilidade. Eles não podem modificar o conteúdo do aplicativo. Eles podem interagir com ele no serviço do Power BI ou em um dos aplicativos móveis – filtrando, realçando e classificando os dados por conta própria. Eles recebem atualizações automaticamente e você pode controlar a frequência com que os dados são atualizados. Você também pode conceder a eles permissões de build para se conectar aos conjuntos de dado subjacentes e criar cópias dos relatórios no aplicativo. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Você pode criar o aplicativo com sua própria navegação interna, de modo que os usuários possam encontrar o conteúdo com facilidade. Eles não podem modificar o conteúdo do aplicativo. Eles podem interagir com ele no serviço do Power BI ou em um dos aplicativos móveis – filtrando, realçando e classificando os dados por conta própria. Eles recebem atualizações automaticamente e você pode controlar a frequência com que os dados são atualizados. Você também pode conceder a eles permissões de build para que se conectem aos conjuntos de dados subjacentes e criem cópias dos relatórios no aplicativo. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md).
 
 ## <a name="licenses-for-apps"></a>Licenças para aplicativos
 Para criar ou atualizar um aplicativo, você precisa de uma licença do Power BI Pro. Para os *consumidores* do aplicativo, há duas opções.
@@ -166,11 +166,11 @@ Ao marcar a opção para **Permitir que os usuários se conectem aos conjuntos d
 - Pesquisar esses conjuntos de dados no Power BI Desktop e na experiência de obtenção de dados no serviço do Power BI.
 - Criar relatórios e dashboards com base nesses conjuntos de dados.
 
-Ao desmarcar essa opção, novos usuários que você adicionar ao aplicativo não receberão a permissão de build. No entanto, para usuários existentes do aplicativo, as permissões nos conjuntos de dados subjacentes não serão alteradas. Você pode remover a permissão de build manualmente de usuários do aplicativo que não deveriam mais ter a permissão. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Ao desmarcar essa opção, novos usuários que você adicionar ao aplicativo não receberão a permissão Criar. No entanto, para usuários existentes do aplicativo, as permissões nos conjuntos de dados subjacentes não serão alteradas. Você pode remover a permissão Criar manualmente de usuários do aplicativo que não deveriam mais ter essa permissão. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md).
 
 ## <a name="allow-users-to-copy-reports"></a>Permitir que os usuários copiem relatórios
 
-Ao marcar a opção **Permitir que os usuários façam uma cópia dos relatórios neste aplicativo**, você permite que os usuários salvem relatórios do aplicativo no Meu Workspace deles ou em outro workspace. Para fazer uma cópia, os usuários precisam de uma licença Pro, mesmo que o relatório original esteja em um workspace em uma capacidade Premium. Em seguida, eles podem personalizar os relatórios de acordo com suas necessidades exclusivas. Você precisa selecionar a opção **Permitir que todos os usuários se conectem aos conjuntos de dados subjacentes do aplicativo usando a permissão de build** primeiro. Ao selecionar essas opções, você está habilitando a nova funcionalidade [copiar relatórios de outros workspaces](service-datasets-copy-reports.md).
+Ao marcar a opção **Permitir que os usuários façam uma cópia dos relatórios neste aplicativo**, você permite que os usuários salvem relatórios do aplicativo no Meu Workspace deles ou em outro workspace. Para fazer uma cópia, os usuários precisam de uma licença Pro, mesmo que o relatório original esteja em um workspace em uma capacidade Premium. Em seguida, eles podem personalizar os relatórios de acordo com suas necessidades exclusivas. Você precisa selecionar a opção **Permitir que todos os usuários se conectem aos conjuntos de dados subjacentes do aplicativo usando a permissão Criar** primeiro. Ao selecionar essas opções, você está habilitando a nova funcionalidade [copiar relatórios de outros workspaces](service-datasets-copy-reports.md).
 
 ## <a name="unpublish-an-app"></a>Cancelar a publicação de um aplicativo
 Qualquer membro de um workspace pode cancelar a publicação do aplicativo.

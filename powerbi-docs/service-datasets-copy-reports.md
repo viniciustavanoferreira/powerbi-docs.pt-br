@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530619"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020833"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outros workspaces (versão prévia)
 
@@ -32,7 +32,7 @@ Quando encontrar um relatório de sua preferência em um workspace ou aplicativo
 
     ![Salvar uma cópia de um relatório](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    Você só verá o ícone **Salvar uma cópia** se o relatório estiver em um workspace da nova experiência e você tiver [permissões Criar](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Mesmo que tiver acesso ao workspace, você precisará ter permissões Criar no conjunto de dados.
+    Você só verá o ícone **Salvar uma cópia** se o relatório estiver em um workspace da nova experiência e você tiver a [permissão Criar](service-datasets-build-permissions.md). Mesmo que tiver acesso ao workspace, você precisará ter a permissão Criar no conjunto de dados.
 
 3. Em **Salvar uma cópia deste relatório**, dê um nome ao relatório e selecione o workspace de destino.
 

@@ -7,22 +7,22 @@ ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 77be33787599cfbb50916093d0445cf586511d90
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903774"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020763"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Gerenciar seu workspace de aplicativo no Power BI e no Office 365
 
 Como criador ou administrador de um [workspace de aplicativo no Power BI](service-create-distribute-apps.md) ou no Office 365, você gerencia alguns aspectos do seu workspace no Power BI. Outros aspectos que você gerencia no Office 365.
 
 > [!NOTE]
-> A nova versão prévia de experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Office 365. Você não criará automaticamente um grupo do Office 365 sempre que criar um dos novos workspaces. Leia sobre [criar os workspaces](service-create-the-new-workspaces.md).
+> A nova experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Office 365. Você não cria automaticamente um grupo do Office 365 sempre que cria um dos novos workspaces. Leia sobre [criar os workspaces](service-create-the-new-workspaces.md).
 
 No **Power BI**, você pode:
 

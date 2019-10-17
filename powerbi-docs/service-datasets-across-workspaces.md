@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074119"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020777"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introdução ao uso de conjuntos de dados entre workspaces (versão prévia)
 
@@ -23,7 +23,7 @@ Business intelligence é uma atividade colaborativa. É importante estabelecer c
 
 ![Selecionar um conjunto de dados compartilhado](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-No Power BI, os criadores de conjuntos de dados podem manter controle de quem tem acesso a seus dados usando a [Permissão Compilar](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Os criadores de conjuntos de dados também podem *certificar* ou *promover* conjuntos de dados para que outras pessoas possam descobri-los. Dessa forma, os autores do relatório sabem quais conjuntos de dados são de alta qualidade e oficiais, e eles podem usar esses conjuntos de dados sempre que criarem no Power BI. Os administradores de locatários têm uma nova configuração de locatário para [controlar o uso de conjuntos de dados em workspaces](service-datasets-admin-across-workspaces.md).
+No Power BI, os criadores de conjuntos de dados podem manter controle de quem tem acesso a seus dados usando a [Permissão Compilar](service-datasets-build-permissions.md). Os criadores de conjuntos de dados também podem *certificar* ou *promover* conjuntos de dados para que outras pessoas possam descobri-los. Dessa forma, os autores do relatório sabem quais conjuntos de dados são de alta qualidade e oficiais, e eles podem usar esses conjuntos de dados sempre que criarem no Power BI. Os administradores de locatários têm uma nova configuração de locatário para [controlar o uso de conjuntos de dados em workspaces](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Compartilhamento de conjuntos de dados e a nova experiência de workspace
 
@@ -44,7 +44,7 @@ Quando você encontrar um relatório de seu interesse, em um workspace ou um apl
 
 ## <a name="build-permission-for-datasets"></a>Permissão Criar em conjuntos de dados
 
-Com o tipo de permissão Compilar, se for um criador de conjuntos de dados, você poderá determinar quem em sua organização pode criar novo conteúdo em seus conjuntos de dados. Pessoas com a permissão Compilar também podem criar um conteúdo no conjunto de dados fora do Power BI, como planilhas do Excel, por meio do recurso Analisar no Excel, XMLA e Exportar. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Com o tipo de permissão Criar, se você for um criador de conjuntos de dados, poderá determinar quem em sua organização pode criar novo conteúdo em seus conjuntos de dados. Pessoas com a permissão Criar também podem criar um conteúdo no conjunto de dados fora do Power BI, como planilhas do Excel, por meio do recurso Analisar no Excel, XMLA e Exportar. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md).
 
 ## <a name="promotion-and-certification"></a>Promoção e certificação
 
@@ -54,19 +54,17 @@ Se você cria conjuntos de dados, quando criar um com o qual outras pessoas poss
 
 Os recursos específicos e as experiências criadas com base nas funcionalidades do conjunto de dados compartilhado são licenciados de acordo com os cenários existentes. Por exemplo:
 
-- Em geral, a descoberta e a conexão a conjuntos de dados compartilhados estão disponíveis para qualquer pessoa. No entanto, os usuários sem uma licença Pro só podem se conectar aos conjuntos de dados que residem no Meu Workspace pessoal.
-- Os usuários sem uma licença Pro só podem consumir relatórios e painéis criados em um conjunto de dados compartilhado se ambos os espaços de trabalho (aquele que mantém o conteúdo e aquele que contém o conjunto de dados) estiverem hospedados em uma capacidade Premium.
-- No Power BI Desktop, usuários sem uma licença Pro só podem ver conjuntos de dados de sua área Meu Workspace.
+- Em geral, a descoberta e a conexão a conjuntos de dados compartilhados estão disponíveis para qualquer pessoa, não é um recurso restrito ao Premium.
+- Os usuários sem uma licença Pro só poderão usar conjuntos de dados entre workspaces para a criação de relatórios se esses conjuntos de dados residirem no Meu Workspace desses usuários ou em um workspace com suporte Premium. A mesma restrição de licenciamento se aplicará se eles criarem relatórios no Power BI Desktop ou no serviço do Power BI.
 - Copiar relatórios entre workspaces requer uma licença Pro.
 - A cópia de relatórios por meio de um aplicativo exige uma licença Pro, como era necessário para pacotes de conteúdo organizacional.
 - A promoção e a certificação de conjuntos de dados exigem uma licença Pro.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
+- Como editor de aplicativos, você precisa ter a certeza de que seu público-alvo tem acesso aos conjuntos de dados fora do workspace do aplicativo. Caso contrário, os usuários terão problemas ao interagir com seu aplicativo: os relatórios não serão abertos sem acesso ao conjunto de dados e os blocos do painel serão mostrados como bloqueados. Além disso, os usuários não poderão abrir o aplicativo se o primeiro item em sua navegação for um relatório sem acesso ao conjunto de dados.
 - A criação de um relatório com base em um conjunto de dados em outro workspace exige a nova experiência de workspace em ambas as extremidades: O relatório e o conjunto de dados precisam estar em uma nova experiência de workspace.
-- Digamos que você crie um relatório no Workspace A que se baseia em um conjunto de dados no Workspace B. Ao criar um aplicativo para o Workspace A, você só poderá incluir esse relatório no aplicativo do Workspace A se você também for membro do Workspace B.
 - Em um workspace clássico, a experiência de descoberta de conjunto de dados mostra apenas os conjuntos de dados desse workspace.
-- Caso você deseje adicionar um relatório com base em um conjunto de dados compartilhado a um aplicativo, você precisará ser membro do workspace do conjunto de dados. Esse é um problema conhecido.
 - Por design, o recurso "Publicar na Web" não funciona em relatórios baseados em conjuntos de dados compartilhados.
 - Se duas pessoas forem membros de um workspace que acessa um conjunto de dados compartilhado, talvez apenas uma delas veja o conjunto de dados relacionado no workspace. Somente as pessoas com, pelo menos, acesso de leitura ao conjunto de dados podem ver o conjunto de dados compartilhado. 
 

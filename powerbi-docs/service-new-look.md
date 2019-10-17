@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654937"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239955"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>A "nova aparência"' do serviço do Power BI
 
-O serviço do Power BI (app.powerbi.com) tem uma nova aparência que torna mais fácil exibir e interagir com seus relatórios. A nova aparência é uma experiência moderna e mais simples. que se baseia em sua familiaridade com outros produtos da Microsoft. No serviço do Power BI, fizemos do conteúdo do relatório o ponto principal de foco, mudando para um tema de cor mais leve e atualizando os ícones. Aqui está uma visão geral do que mudou na nova aparência. Consulte as seções numeradas para ver os detalhes:
+O serviço do Power BI (app.powerbi.com) tem uma nova aparência que torna mais fácil exibir e interagir com seus relatórios. A nova aparência é mais simples e se baseia em sua familiaridade com outros produtos da Microsoft. No serviço do Power BI, fizemos do conteúdo do relatório o ponto principal de foco, mudando para um tema de cor mais leve e atualizando os ícones. Aqui está uma visão geral do que mudou na nova aparência. Consulte as seções numeradas para ver os detalhes:
 
 ![Visão geral das alterações na nova aparência](media/service-new-look/power-bi-new-look-changes.png)
+
+Procurando uma ação específica? Confira [A "nova aparência": Para onde foram as ações?](service-new-look-where-actions.md)
 
 ## <a name="quick-tour-of-the-changes"></a>Tour rápido pelas alterações
 
@@ -70,7 +72,7 @@ Procurando as ações do menu **Arquivo**? As ações que costumavam ficar no me
 
 ## <a name="6-new-filter-experience"></a>6. Nova experiência de filtro
 
-Atualizações recentes, tais como a exibição de filtros aplicados e o novo painel filtros, estão disponíveis por padrão com a nova aparência. Mesmo que os designers de relatórios não tenham feito a atualização para a nova experiência de filtros, você verá o novo painel de filtros.
+Atualizações recentes, tais como a exibição de filtros aplicados e o novo painel filtros, estão disponíveis por padrão com a nova aparência. Mesmo que os seus designers de relatórios não tenham feito a atualização para a nova experiência de filtros, você verá o novo painel de filtros.
 
 ![Redefinição de filtro](media/service-new-look/power-bi-new-look-filters.png)
 

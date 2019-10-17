@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164496"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020486"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop
 Você pode estabelecer uma conexão dinâmica a um conjunto de dados compartilhado no serviço do Power BI e criar vários relatórios diferentes com base no mesmo conjunto de dados. Isso significa que você pode criar seu modelo de dados perfeito no Power BI Desktop e publicá-lo no serviço do Power BI. Em seguida, você e outros usuários podem criar vários relatórios diferentes (em arquivos .pbix separados) usando esse mesmo Common Data Service e salvá-los em workspaces diferentes. Esse recurso é chamado de **conexão dinâmica do serviço do Power BI**.
@@ -35,7 +35,7 @@ Digamos que Anna (uma analista de negócios) pertence à sua equipe e é ótima 
 Todos adoram os relatórios e conjuntos de dados de Anna, e é aí que o problema começa: cada membro do grupo tentará criar *sua própria versão* do conjunto de dados e depois compartilhar seus próprios relatórios com a equipe. De repente, surge uma infinidade de relatórios (de diferentes conjuntos de dados) no workspace da equipe no **serviço do Power BI**. Qual deles é o mais recente? Os conjuntos de dados eram os mesmos ou quase os mesmos? Quais eram as diferenças? Com o recurso de **conexão dinâmica ao serviço do Power BI**, tudo isso pode mudar para melhor. Na próxima seção, veremos como os demais membros da equipe podem usar o conjunto de dados publicado de Anna em seus próprios relatórios e workspaces e usar o mesmo conjunto de dados consistente, verificado e publicado para criar seus próprios relatórios exclusivos.
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Conectar-se a um conjunto de dados do serviço do Power BI usando uma conexão dinâmica
-Depois de criar o relatório (e o conjunto de dados no qual se baseou), Anna o publica no **serviço do Power BI** e ele será exibido no workspace da equipe no serviço do Power BI. Se ela o salvar em um *novo workspace de experiência*, então poderá definir a permissão de build para torná-lo disponível para visualização e uso por todas as pessoas dentro e fora do workspace.
+Depois de criar o relatório (e o conjunto de dados no qual se baseou), Anna o publica no **serviço do Power BI** e ele será exibido no workspace da equipe no serviço do Power BI. Se ela o salvar em um *novo workspace de experiência*, poderá definir a permissão Criar para disponibilizá-lo para visualização e uso por todas as pessoas dentro e fora do workspace.
 
 Para saber mais sobre novos workspaces de experiência, confira [Workspaces de aplicativo](service-new-workspaces.md).
 
@@ -76,7 +76,7 @@ Concluído o processo, o **Power BI Desktop** mostrará o sucesso da publicaçã
 
 Agora que seu relatório com o conjunto de dados está no serviço do Power BI, você também pode *promovê-lo* para atestar sua qualidade e confiabilidade. Você ainda pode solicitar que ele seja *certificado* por uma autoridade central em seu locatário do Power BI. Com um desses endossos, seu conjunto de dados será sempre exibido no início da lista, quando as pessoas estiverem procurando conjuntos de dados. Se estiver interessado, você poderá ler mais sobre o processo de [promoção de seu conjunto de dados](service-datasets-promote.md). 
 
-A última etapa é definir a *permissão de build* para o conjunto de dados no qual o relatório se baseia. A permissão de build determina quem pode ver e usar seu conjunto de dados. Você pode defini-la no workspace ou quando você compartilha um aplicativo do workspace. Leia mais sobre como definir a [permissão de build](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+A última etapa é definir a *permissão de build* para o conjunto de dados no qual o relatório se baseia. A permissão de build determina quem pode ver e usar seu conjunto de dados. Você pode defini-la no workspace ou quando você compartilha um aplicativo do workspace. Leia mais sobre como definir a [permissão de build](service-datasets-build-permissions.md).
 
 Em seguida, vejamos como os outros colegas de equipe com acesso ao workspace onde o relatório (e o conjunto de dados) foi publicado podem se conectar ao conjunto de dados e criar seus próprios relatórios.
 

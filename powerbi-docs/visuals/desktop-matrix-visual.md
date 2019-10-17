@@ -10,17 +10,20 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2f50a6fc9fccc35333257caaf3efeb8185c8caff
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 0015921990bb35a7ac5e6652b018ef16485e5b9c
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390378"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164553"
 ---
-# <a name="use-the-matrix-visual-in-power-bi"></a>Usar o visual de Matriz no Power BI
-O visual **matriz** é semelhante a uma **tabela**.  Uma tabela dá suporte a duas dimensões e os dados são simples, o que significa que os valores duplicados são exibidos e não agregados. Uma matriz facilita significativamente a exibição dos dados entre várias dimensões – ela dá suporte a um layout em níveis. A matriz agrega automaticamente os dados e permite fazer drill down. 
+# <a name="use-the-matrix-visual-in-power-bi"></a>Usar o visual de matriz no Power BI
 
-Você pode criar visuais de matriz em relatórios do **Power BI Desktop** e **serviço do Power BI**, além de fazer realce cruzado de elementos na matriz com outros visuais na página desse relatório. Por exemplo, é possível selecionar linhas, colunas e até mesmo células individuais e fazer o realce cruzado. Além disso, células individuais e seleções de várias célula podem ser copiadas e coladas em outros aplicativos. 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+O visual de matriz é semelhante a uma tabela.  Uma tabela dá suporte a duas dimensões e os dados são simples, o que significa que os valores duplicados são exibidos e não agregados. Uma matriz facilita significativamente a exibição dos dados entre várias dimensões – ela dá suporte a um layout em níveis. A matriz agrega automaticamente os dados e permite fazer drill down. 
+
+Você pode criar visuais de matriz em relatórios do **Power BI Desktop** e fazer o realce cruzado de elementos na matriz com outros visuais na página desse relatório. Por exemplo, é possível selecionar linhas, colunas e até mesmo células individuais e fazer o realce cruzado. Além disso, células individuais e seleções de várias célula podem ser copiadas e coladas em outros aplicativos. 
 
 ![matriz com realce cruzado e gráfico de rosca](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -29,7 +32,7 @@ Há muitos recursos associados à matriz e vamos abordá-los nas próximas seç�
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Noções básicas sobre como o Power BI calcula totais
 
-Antes de aprender a usar o elemento visual **Matriz**, é importante saber como o Power BI calcula valores totais e subtotais em tabelas e matrizes. Para linhas de totais e subtotais, o Power BI avalia a medida sobre todas as linhas nos dados subjacentes – não se trata de uma simples adição dos valores nas linhas visíveis ou exibidas. Isso significa que você pode acabar com valores diferentes na linha de total do que o esperado.
+Antes de aprender a usar o elemento visual de matriz, é importante saber como o Power BI calcula valores totais e subtotais em tabelas e matrizes. Para linhas de totais e subtotais, o Power BI avalia a medida sobre todas as linhas nos dados subjacentes – não se trata de uma simples adição dos valores nas linhas visíveis ou exibidas. Isso significa que você pode acabar com valores diferentes na linha de total do que o esperado.
 
 Dê uma olhada nos seguintes visuais de matriz. 
 
@@ -83,7 +86,7 @@ Além de usar esses ícones, você pode selecionar qualquer um desses cabeçalho
 
 Observe que há algumas opções no menu que aparece, que geram resultados diferentes:
 
-Selecionar **Fazer Drill Down** expande a matriz no nível *dessa* linha, *excluindo* todos os outros cabeçalhos de linha, exceto o cabeçalho de linha que foi selecionado. Na imagem a seguir **Proposta** > **Fazer Drill Down** foi selecionado. Observe que as outras linhas de nível superior não aparecem mais na matriz. Essa maneira de analisar é um recurso útil que fica ainda mais interessante quando chegamos à seção de **realce cruzado**.
+Selecionar **Fazer Drill Down** expande a matriz no nível *dessa* linha, *excluindo* todos os outros cabeçalhos de linha, exceto o cabeçalho de linha que foi selecionado. Na imagem a seguir **Proposta** > **Fazer Drill Down** foi selecionado. Observe que as outras linhas de nível superior não aparecem mais na matriz. Essa maneira de analisar é um recurso útil que fica ainda mais interessante quando chegamos à seção de realce cruzado.
 
 ![matriz detalhada em um nível](media/desktop-matrix-visual/power-bi-drill-down-matrix.png)
 
@@ -100,7 +103,7 @@ Você também pode usar o item de menu **Expandir** para controlar ainda mais a 
 ![Matriz depois que Expandir é aplicada à Proposta](media/desktop-matrix-visual/power-bi-matrix-expand.png)
 
 ### <a name="drill-down-on-column-headers"></a>Drill down nos cabeçalhos de coluna
-Semelhante à capacidade de fazer drill down em linhas, também é possível fazer drill down em **colunas**. Na imagem a seguir, há dois campos no espaço do campo **Colunas**, criando uma hierarquia semelhante à que já usamos para as linhas anteriormente neste artigo. No espaço do campo **Colunas**, temos *Região* e *Segmento*. Assim que o segundo campo foi adicionado a **Colunas**, um novo menu suspenso foi exibido no visual; atualmente, ele mostra **Linhas**.
+Semelhante à capacidade de fazer drill down em linhas, também é possível fazer drill down em colunas. Na imagem a seguir, há dois campos no espaço do campo **Colunas**, criando uma hierarquia semelhante à que já usamos para as linhas anteriormente neste artigo. No espaço do campo **Colunas**, temos *Região* e *Segmento*. Assim que o segundo campo foi adicionado a **Colunas**, um novo menu suspenso foi exibido no visual; atualmente, ele mostra **Linhas**.
 
 ![Matriz após adição do segundo valor de coluna](media/desktop-matrix-visual/power-bi-matrix-row.png)
 
@@ -108,7 +111,7 @@ Para fazer drill down em colunas, selecione **Colunas** no menu *Fazer drill on*
 
 ![menu para drill down de colunas](media/desktop-matrix-visual/power-bi-matrix-column.png)
 
-Quando você seleciona **Fazer Drill Down**, o próximo nível da hierarquia de coluna para *Região > Leste* é exibido, que, nesse caso, é *Contagem da oportunidade*. A outra região é exibida, mas fica esmaecida.
+Quando você seleciona **Fazer Drill Down**, o próximo nível da hierarquia de coluna para *Região > Leste* é exibido, que, nesse caso, é *Contagem da oportunidade*. A outra região está oculta.
 
 ![matriz com drill down de coluna em um nível](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
@@ -119,21 +122,21 @@ O restante dos itens do menu funcionam nas colunas da mesma maneira que nas linh
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Layout de nível com visuais de matriz
 
-O visual **Matriz** recua automaticamente as subcategorias em uma hierarquia abaixo de cada pai, chamado de **Layout de nível**.
+O visual de matriz recua automaticamente as subcategorias em uma hierarquia abaixo de cada pai, chamado de Layout de nível.
 
-Na versão original do visual de matriz, as subcategorias eram mostradas em uma coluna inteiramente diferente, ocupando muito mais espaço no visual. A imagem a seguir mostra a tabela no visual de **Matriz** original. Observe as subcategorias em uma coluna separada.
+Na versão original do visual de matriz, as subcategorias eram mostradas em uma coluna inteiramente diferente, ocupando muito mais espaço no visual. A imagem a seguir mostra a tabela no visual de matriz original. Observe as subcategorias em uma coluna separada.
 
 ![Captura de tela do visual Matriz antigo mostrando as subcategorias em uma coluna separada.](media/desktop-matrix-visual/matrix-visual_14.png)
 
-Na imagem a seguir, há um visual **Matriz** com o **Layout de nível** em ação. Observe que a categoria *Computadores* tem suas subcategorias (Acessórios de Computadores, Desktops, Laptops, Monitores e assim por diante) ligeiramente recuadas, fornecendo um visual mais limpo e muito mais compacto.
+Na imagem a seguir, há um visual de matriz com o layout de nível em ação. Observe que a categoria *Computadores* tem suas subcategorias (Acessórios de Computadores, Desktops, Laptops, Monitores e assim por diante) ligeiramente recuadas, fornecendo um visual mais limpo e muito mais compacto.
 
 ![maneira atual de como essa matriz formata dados](media/desktop-matrix-visual/matrix-visual_13.png)
 
-Você pode ajustar facilmente as configurações do layout de nível. Com o visual **Matriz** selecionado, na seção **Formatar** (o ícone de rolo de pintura) do painel **Visualizações**, expanda a seção **Cabeçalhos de linha**. Você tem duas opções: a opção (que habilita ou desabilita) **Layout de nível** e o **Recuo do layout de nível** (especifica a quantidade de recuo, em pixels).
+Você pode ajustar facilmente as configurações do layout de nível. Com o visual de matriz selecionado, na seção **Formatar** (o ícone de rolo de pintura) do painel **Visualizações**, expanda a seção de cabeçalhos de linha. Você tem duas opções: a opção de layout de nível (que o habilita ou desabilita) e o recuo do layout de nível (que especifica a quantidade de recuo em pixels).
 
 ![Cartão de cabeçalhos de linha exibindo controle de Layout de nível](media/desktop-matrix-visual/power-bi-stepped-matrix.png)
 
-Se você desativar o **Layout de nível**, o Power BI mostrará as subcategorias em outra coluna em vez de recuadas abaixo da categoria pai.
+Se você desativar o layout de nível, o Power BI mostrará as subcategorias em outra coluna em vez de recuadas abaixo da categoria pai.
 
 ## <a name="subtotals-with-matrix-visuals"></a>Subtotais com visuais de matriz
 
@@ -141,7 +144,7 @@ Ative ou desative os subtotais em visuais de matriz, linhas e colunas. Na imagem
 
 ![matriz mostrando totais e subtotais](media/desktop-matrix-visual/matrix-visual_20.png)
 
-Na seção **Formato** do painel **Visualizações**, expanda o cartão **Subtotais** e defina o controle deslizante **Subtotais da Linha** como **Desativado**. Quando você fizer isso, os subtotais não serão mostrados.
+Na seção de formato do painel Visualizações, expanda o cartão **Subtotais** e defina o controle deslizante subtotais da linha como **Desativado**. Quando você fizer isso, os subtotais não serão mostrados.
 
 ![matriz com subtotais desativados](media/desktop-matrix-visual/matrix-visual_21.png)
 
@@ -149,16 +152,15 @@ O mesmo processo se aplica aos subtotais da coluna.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Realce cruzado com visuais de matriz
 
-Com o visual **Matriz**, você pode selecionar os elementos na matriz como a base para o realce cruzado. Selecione uma coluna em uma **Matriz** e o Power BI realça a coluna, como em outros visuais na página do relatório. Esse tipo de destaque cruzado era um recurso comum de outros visuais e seleções de ponto de dados, então agora o visual **Matriz** oferece a mesma função.
+Com o visual de matriz, você pode selecionar os elementos na matriz como a base para o realce cruzado. Selecione uma coluna em uma matriz e o Power BI realça a coluna, como em outros visuais na página do relatório. Esse tipo de destaque cruzado era um recurso comum de outros visuais e seleções de ponto de dados, então agora o visual de matriz oferece a mesma função.
 
-Além disso, usar Ctrl + clique também funciona para o realce cruzado. Por exemplo, na imagem a seguir, uma coleção de subcategorias foi selecionada no visual **Matriz**. Observe como os itens que não foram selecionados no visual estão esmaecidos e como os outros visuais na página refletem as seleções feitas no visual **Matriz**.
+Além disso, usar Ctrl + clique também funciona para o realce cruzado. Por exemplo, na imagem a seguir, uma coleção de subcategorias foi selecionada no visual de matriz. Observe como os itens que não foram selecionados no visual estão esmaecidos e como os outros visuais na página refletem as seleções feitas no visual de matriz.
 
-![Captura de tela do visual Matriz com dois outros visuais demonstrando a função Ctrl+clique para realce cruzado.](media/desktop-matrix-visual/matrix-visual_16.png)
+![Captura de tela do visual de matriz com dois outros visuais demonstrando a função Ctrl+clique para realce cruzado.](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>Copiar valores do Power BI para uso em outros aplicativos
 
 Sua matriz ou tabela pode ter conteúdo que você deseja usar em outros aplicativos: Dynamics CRM, Excel e outros relatórios do Power BI. Clicando com o botão direito do mouse no Power BI, é possível copiar uma única célula ou uma seleção de células na área de transferência. Em seguida, cole-as em outro aplicativo.
-
 
 
 * Para copiar o valor de uma única célula, selecione-a, clique com o botão direito do mouse e escolha **Copiar valor**. Com o valor de célula não formatado em sua área de transferência, agora é possível colá-lo em outro aplicativo.
@@ -175,8 +177,16 @@ Sua matriz ou tabela pode ter conteúdo que você deseja usar em outros aplicati
 
     ![Captura de tela mostrando linhas e colunas do Excel com os valores colados nelas.](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
+* Para fazer uma cópia do próprio visual que contém apenas as células selecionadas, selecione uma ou mais células usando Ctrl, clique com o botão direito do mouse e escolha **Copiar visual**
+
+    ![Captura de tela mostrando a opção Copiar visual](media/desktop-matrix-visual/power-bi-copy-visual.png)
+
+* A cópia será outra visualização de matriz, mas só conterá os dados copiados.
+
+    ![Captura de tela mostrando o exemplo de Copiar visual](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Sombreamento e cores da fonte com visuais de matriz
-Com o visual de matriz, você pode aplicar **Formatação condicional** (cores e sombreamento e barras de dados) ao plano de fundo das células na matriz, bem como pode aplicar formatação condicional aos próprios valores e texto.
+Com o visual de matriz, você pode aplicar a formatação condicional (cores e sombreamento e barras de dados) ao plano de fundo das células na matriz, bem como pode aplicar formatação condicional aos próprios valores e texto.
 
 Para aplicar a formatação condicional, selecione o visual de matriz e abra o painel **Formatar**. Expanda o cartão **Formatação condicional** e para **Cor do plano de fundo**, **Cor da fonte** ou **Barras de dados**, mova o controle deslizante para **Ativado**. A ativação de uma dessas opções exibe um link para *Controles avançados*, que permite personalizar as cores e os valores da formatação de cor.
   

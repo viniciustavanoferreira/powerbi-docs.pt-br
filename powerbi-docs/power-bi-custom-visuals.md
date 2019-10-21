@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946188"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307479"
 ---
 # <a name="visuals-in-power-bi"></a>Visuais no Power BI
 
@@ -57,7 +57,7 @@ O que é o [AppSource](developer/office-store.md)? É o lugar em que você pode 
 Os visuais certificados para o Power BI são visuais de marketplace que passaram por rigorosos testes de qualidade adicionais e são compatíveis em outros cenários, como [assinaturas de email](service-report-subscribe.md) e para serem [exportados para o PowerPoint](service-publish-to-powerpoint.md).
 Para ver a lista de visuais do Power BI certificados ou para enviar seus próprios, confira [Visuais do Power BI certificados](power-bi-custom-visuals-certified.md).
 
-Você é um desenvolvedor da Web e está interessado em criar suas próprias visualizações e adicioná-las ao AppSource? Confira [Desenvolvimento de um visual personalizado do Power BI](developer/custom-visual-develop-tutorial.md) e saiba como [publicar visuais do Power BI no AppSource](developer/office-store.md).
+Você é um desenvolvedor da Web e está interessado em criar suas próprias visualizações e adicioná-las ao AppSource? Confira [Developing a Power BI custom visual](developer/visuals/custom-visual-develop-tutorial.md) (Desenvolvimento de um visual personalizado do Power BI) e saiba como [publicar visuais personalizados no AppSource](developer/office-store.md).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Importar um visual personalizado de um arquivo
 

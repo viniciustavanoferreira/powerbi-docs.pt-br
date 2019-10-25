@@ -7,16 +7,16 @@ ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66050986"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544270"
 ---
 # <a name="troubleshooting-tile-errors"></a>Solucionando problemas de erros de bloco
 Veja abaixo os erros comuns que podem ser encontrados com blocos e uma explicação.
@@ -65,16 +65,16 @@ O campo provavelmente foi excluído ou renomeado. É possível remover o campo q
 
 Isso geralmente é um problema temporário. Se você tentar novamente mais tarde e ainda receber essa mensagem, contate o suporte.
 
-**Blocos continuam a mostrar dados não filtrados depois de habilitar o logon único (SSO).**
+**Os blocos continuam a mostrar dados não filtrados depois de habilitar o logon único (SSO).**
 
-Isso pode acontecer se o conjunto de dados subjacente é configurado para usar o modo DirectQuery ou uma Conexão dinâmica ao Analysis Services por meio de um gateway de dados local. Nesse caso, os blocos continuam a mostrar os dados não filtrados depois de habilitar o SSO para a fonte de dados até que a próxima atualização de bloco é devida. Na próxima atualização lado a lado, o Power BI usa o SSO, conforme configurado e blocos de mostram os dados filtrados de acordo com a identidade do usuário. 
+Isso pode acontecer se o conjunto de dados subjacente estiver configurado para usar o modo DirectQuery ou uma conexão dinâmica para Analysis Services por meio de um gateway de dados local. Nesse caso, os blocos continuam a mostrar os dados não filtrados depois de habilitar o SSO para a fonte de dados até que a atualização do próximo bloco seja concluída. Na próxima atualização do bloco, o Power BI usa o SSO como configurado, e os blocos mostram os dados filtrados de acordo com a identidade do usuário. 
 
-Se você quiser ver os dados filtrados imediatamente, você pode forçar uma atualização do bloco selecionando as reticências (...) no canto superior direito de um dashboard e selecionando **atualizar blocos do dashboard**.
+Se você quiser ver os dados filtrados imediatamente, poderá forçar uma atualização de bloco selecionando as reticências (...) no canto superior direito de um painel e selecionando **Atualizar os blocos de painel**.
 
-Como um proprietário de conjunto de dados, você também pode alterar a frequência de atualização de bloco e defini-lo como 15 minutos para acelerar a atualização do bloco. Selecione o ícone de engrenagem no canto superior direito de serviço do Power BI e, em seguida, selecione **configurações**. Sobre o **as configurações** página, selecione o **conjuntos de dados** guia. Expandir **atualização do cache agendada** e altere **frequência de atualização**. Verifique se que você redefinir a configuração para a frequência de atualização original depois que o Power BI executa a próxima atualização de bloco.
+Como um proprietário de conjunto de dados, você também pode alterar a frequência de atualização do bloco e defini-la como 15 minutos para acelerar a atualização do bloco. Selecione o ícone de engrenagem no canto superior direito do serviço do Power BI e escolha **Configurações**. Na página **Configurações**, selecione a guia **Conjunto de dados**. Expanda **Atualização do cache agendada** de atualização do cache e altere **Atualizar frequência**. Certifique-se de redefinir a configuração para a frequência de atualização original depois que o Power BI executar a atualização do próximo bloco.
 
 > [!NOTE]
-> O **atualização do cache agendada** seção só está disponível para conjuntos de dados no modo DirectQuery/LiveConnection. Conjuntos de dados no modo de importação não exigem uma atualização do bloco separado porque os blocos são atualizados automaticamente durante a próxima atualização de dados agendada.
+> A seção **Atualização do cache agendada** só está disponível para conjuntos de dados no modo DirectQuery/LiveConnection. Os conjuntos de dados no modo Importar não exigem uma atualização de bloco separada, pois os blocos são atualizados automaticamente durante a próxima atualização de dados agendada.
 
 ## <a name="contact-support"></a>Contatar o suporte
 Caso ainda esteja tendo algum problema, [contate o suporte](https://support.powerbi.com) para investigá-lo mais detalhadamente.

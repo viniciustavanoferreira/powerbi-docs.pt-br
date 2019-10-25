@@ -10,19 +10,22 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: b7a4021999a39d88b78d31aaa55d7f9c08a93d8e
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839855"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544159"
 ---
 # <a name="basic-area-chart"></a>Gráfico de área básico
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 O gráfico de áreas básico (também conhecido como gráfico de áreas em camadas) baseia-se no gráfico de linhas. A área entre o eixo e a linha é preenchida com cores para indicar o volume. 
 
 Os gráficos de área enfatizam a magnitude da alteração ao longo do tempo e pode ser usado para chamar a atenção para o valor total entre uma tendência. Por exemplo, os dados que representam o lucro ao longo do tempo podem ser plotados em um gráfico de área para enfatizar o lucro total.
 
-![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
 ## <a name="when-to-use-a-basic-area-chart"></a>Quando usar um gráfico de áreas básico
 Os gráficos de áreas básicos são uma ótima opção:
@@ -31,29 +34,32 @@ Os gráficos de áreas básicos são uma ótima opção:
 * para as séries individuais representando conjunto contável fisicamente
 
 ### <a name="prerequisites"></a>Pré-requisitos
- - Serviço do Power BI
- - Exemplo de análise de varejo
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-Para acompanhar, entre no Power BI e selecione **Obter Dados \> Exemplos \> Exemplo de Análise de Varejo > Conectar** e escolha **Ir para o dashboard**. 
+1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
+   
+2. Encontre sua cópia do **arquivo PBIX de exemplo de Análise de Varejo**
+
+1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+
 
 ## <a name="create-a-basic-area-chart"></a>Criar um gráfico de áreas básico
  
 
-1. No painel "Exemplo de análise de varejo", selecione o bloco **Armazenamentos Totais** para abrir o relatório “Exemplo de Análise de Varejo”.
-2. Selecione **Editar** para abrir o relatório no Modo de Exibição de Edição.
-3. Adicione uma nova página de relatório selecionando o ícone amarelo de mais (+) na parte inferior do relatório.
-4. Crie um novo gráfico de área que mostra este ano de vendas e as vendas do ano passado por mês.
+1. Estas etapas ajudarão você a criar um gráfico de área que mostra este ano de vendas e as vendas do ano passado por mês.
    
    a. No painel Campos, selecione **Vendas \> Vendas do Último Ano** e **Vendas deste Ano > Valor**.
 
-   ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
+   ![valores de dados do gráfico de área](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
    b.  Converta o gráfico em um gráfico de área básico, selecionando o ícone de Gráfico de área do painel Visualizações.
 
-   ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
+   ![ícone do gráfico de área](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  Selecione **Hora \> Mês** para adicionar ao **Eixo**.   
-   ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+   c.  Selecione **Hora \> FiscalMonth** para adicioná-la à seção **Eixo** também.   
+   ![valores de eixo do gráfico de área](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  Para exibir o gráfico por mês, selecione as reticências (canto superior direito do visual) e escolha **Classificar por mês**. Para alterar a ordem de classificação, selecione as reticências novamente e selecione **Classificar em ordem crescente** ou **Classificar em ordem decrescente**.
 
@@ -62,14 +68,11 @@ Para obter informações sobre como usar o painel Filtros, veja [Adicionar um fi
 
 Para destacar uma área específica em seu gráfico, selecione essa área ou a respectiva borda superior.  Ao contrário de outros tipos de visualização, se houver outras visualizações na mesma página, destacar um gráfico de área básico não aplicará filtro cruzado às outras visualizações na página do relatório. No entanto, os gráficos de áreas são um alvo de filtragem cruzada acionado por outras visualizações na página do relatório. 
 
-1. Teste-o selecionando seu gráfico de área e copiando-o para outra página de relatório (CTRL-C e CTRL-V).
-2. Selecione uma das áreas sombreadas e, em seguida, outra área sombreada. Você não observará nenhum impacto às outras visualizações na página.
+1. Teste-o selecionando seu gráfico de área e copiando-o para outra página do relatório **Análise de novas lojas** (Ctrl+C e Ctrl+V).
+2. Selecione uma das áreas sombreadas do gráfico de área e, em seguida, a outra área sombreada. Você não observará nenhum impacto às outras visualizações na página.
+1. Agora, selecione um elemento. Observe o impacto sobre o gráfico de área – ele é filtrado.
 
-    ![Vendas neste ano selecionadas no gráfico de área](media/power-bi-visualization-basic-area-chart/power-bi-select-area.png)
-
-3. Agora selecione um elemento em uma das outras visualizações na página, como uma barra de gráfico de coluna ou um mês em um gráfico de linha. Observe o impacto sobre o gráfico de área – ele é filtrado.  
-
-    ![Barra FT Oglethorpe selecionada](media/power-bi-visualization-basic-area-chart/power-bi-filter.png) 
+    ![Exemplos de filtro](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
 Para obter mais informações, consulte [Interações visuais em relatórios](../service-reports-visual-interactions.md)
 

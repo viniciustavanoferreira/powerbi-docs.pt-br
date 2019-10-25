@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968797"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544922"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Adicionar um filtro a um relatório no Power BI
 
@@ -51,11 +51,12 @@ Você pode adicionar um filtro de nível visual a um visual específico de duas 
 * Filtre um campo que já está sendo usado pela visualização.
 * Identifique um campo que ainda não esteja sendo usado pela visualização e adicione esse campo diretamente ao bucket **Filtros no nível do visual**.
 
-A propósito, esse procedimento usa o exemplo de Análise de Varejo, caso você queira baixá-lo para acompanhar. Faça o download do [Exemplo de Análise de Varejo](sample-retail-analysis.md).
+
+A propósito, esse procedimento usa o exemplo de Análise de Varejo, caso você queira baixá-lo para acompanhar. Baixe o pacote de conteúdo de [exemplo de Análise de Varejo](sample-retail-analysis.md#get-the-content-pack-for-this-sample).
 
 ### <a name="filter-the-fields-in-the-visual"></a>Filtrar os campos no visual
 
-1. Selecione **Editar relatório** para abrir o relatório no Modo de Exibição de Edição.
+1. Selecione **Mais opções (...)** > **Editar relatório** para abrir seu relatório no modo de exibição de Edição.
    
    ![Botão Editar relatório](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -85,7 +86,7 @@ A propósito, esse procedimento usa o exemplo de Análise de Varejo, caso você 
 
 Agora, vamos adicionar um campo novo à nossa visualização como um filtro no nível do visual.
    
-1. No painel Campos, selecione o campo que você deseja adicionar como um novo filtro no nível do visual e arraste-o até a **área de Filtros no nível do visual**.  Neste exemplo, arrastaremos **Gerente Regional** para o bucket **Filtros no nível do visual**, pesquisaremos por **an** e selecionaremos os três gerentes. 
+1. No painel Campos, selecione o campo que você deseja adicionar como um novo filtro no nível do visual e arraste-o até a **área de Filtros no nível do visual**.  Neste exemplo, arrastaremos **Gerente Regional** para o bucket **Filtros no nível do visual**, pesquisaremos por **an** e selecionaremos os três gerentes.
      
     ![Arraste um campo para o painel Filtros](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -105,7 +106,9 @@ Agora, vamos adicionar um campo novo à nossa visualização como um filtro no n
 
 Também é possível adicionar um filtro de nível de página a uma página inteira.
 
-1. Selecione **Editar relatório** para abrir o relatório no Modo de Exibição de Edição.
+1. No serviço Power BI, abra o relatório de análise de varejo e vá para a página **Vendas Mensais do Distrito**. 
+
+2. Selecione **...** > **Editar relatório** para abrir o relatório no modo de exibição de Edição.
    
    ![Botão Editar relatório](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Abra o painel de visualizações e filtros e o painel Campos (se ainda não estiverem abertos).
@@ -122,19 +125,21 @@ Também é possível adicionar um filtro de nível de página a uma página inte
 Com o detalhamento no serviço do Power BI Desktop e do Power BI Desktop, você pode criar uma página de relatório de *destino* que tem como foco uma entidade específica, como um fornecedor, cliente ou fabricante. Agora, de outras páginas de relatório, os usuários podem clicar com o botão direito do mouse em um ponto de dados da entidade em questão e executar uma consulta drill-through na página focalizada.
 
 ### <a name="create-a-drillthrough-filter"></a>Criar um filtro de detalhamento
-Para continuar, baixe o [exemplo de Rentabilidade do Cliente](sample-customer-profitability.md). Vamos supor que você deseja uma página concentrada em áreas de negócios executivos.
+Para continuar, baixe o [exemplo de Rentabilidade do Cliente](sample-customer-profitability.md#get-the-content-pack-for-this-sample). Vamos supor que você deseja uma página concentrada em áreas de negócios executivos.
 
-1. Selecione **Editar relatório** para abrir o relatório no modo de exibição de Edição.
+1. No serviço Power BI, abra o relatório de análise de varejo e vá para a página **Vendas Mensais do Distrito**.
+
+2. Selecione **Mais opções (...)** > **Editar relatório** para abrir seu relatório no modo de exibição de Edição.
    
    ![Botão Editar relatório](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. Adicione uma nova página ao relatório e chame-a de **Equipe Executiva**. Essa será a página de *destino* do detalhamento.
 2. Adicione visualizações que acompanham as principais métricas das áreas de negócios executivos da equipe.    
-3. Adicione também **Executivo > Nome do Executivo** aos filtros de detalhamento.    
+3. Na tabela **Executivos**, arraste **Executivo** para os filtros de detalhamento também.    
    
     ![Adicione um valor a filtros de detalhamento](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    Observe que o Power BI adiciona uma seta para voltar à página do relatório.  Selecionar essa seta faz com que os usuários retornem à página do relatório de *origem*: a página que eles estavam quando aceitaram o detalhamento. A seta para voltar só funciona no Modo de Exibição de Leitura.
+    Observe que o Power BI adiciona uma seta para voltar à página do relatório.  Selecionar essa seta faz com que os usuários retornem à página do relatório de *origem*: a página que eles estavam quando aceitaram o detalhamento. No modo de exibição de Edição, mantenha pressionada a tecla Ctrl para selecionar a seta para voltar
    
      ![A seta para voltar](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -145,7 +150,7 @@ Vejamos como funciona o filtro de detalhamento.
 2. Vamos supor que você é Andrew Ma e deseja ver a página do relatório Equipe Executiva filtrada somente com os seus dados.  No gráfico de áreas do canto superior esquerdo, clique com o botão direito do mouse em qualquer ponto de dados verde para abrir a opção de menu Detalhamento.
    
     ![Iniciar a ação de detalhamento](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. Selecione **Detalhamento > Equipe Executiva** executar uma consulta drill-through na página de relatório chamada **Equipe Executiva**. A página é filtrada para mostrar informações do ponto de dados no qual você clicou com o botão direito do mouse, nesse caso, Andrew Ma. Apenas o campo que está nos filtros de Detalhamento é passados para a página de relatório de detalhamento.  
+3. Selecione **Detalhamento > Equipe Executiva** executar uma consulta drill-through na página de relatório chamada **Equipe Executiva**. A página é filtrada para mostrar informações do ponto de dados no qual você clicou com o botão direito do mouse, nesse caso, Andrew Ma. Todos os filtros na página de origem são aplicados à página de relatório de detalhamento.  
    
     ![Selecionar a ação de detalhamento](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Log de alterações para o Servidor de Relatório do Power BI
+title: Log de alterações do Servidor de Relatórios do Power BI
 description: Esse log de alterações é para o Servidor de Relatório do Power BI e lista novos itens juntamente com correções de bug para cada build lançado.
 ms.author: jaimeta
 author: jtarquino
@@ -8,15 +8,15 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/31/2018
-ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/09/2019
+ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325717"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259972"
 ---
-# <a name="changelog-for-power-bi-report-server"></a>Log de alterações para o Servidor de Relatório do Power BI
+# <a name="change-log-for-power-bi-report-server"></a>Log de alterações do Servidor de Relatórios do Power BI
 
 Esse log de alterações é para o Servidor de Relatório do Power BI e lista novos itens juntamente com correções de bug para cada build lançado.
 
@@ -24,12 +24,19 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
 
 ## <a name="september-2019"></a>Setembro de 2019
 
-- **Servidor de Relatório do Power BI**          
+- **Servidor de Relatório do Power BI**
+    - *Versão: 1.6.7221.30698 (Build 15.0.1102.620), lançamento: 9 de outubro de 2019*
+        - Correções de bug
+            - Correção do visual personalizado de filtro de texto.
+            - Correção do desempenho de segmentações suspensas.
+            - Correção de PII da faixa da telemetria.
+          - Correção de URLs que não diferenciam maiúsculas de minúsculas.
+             
     - *Versão 1.6.7206.38019 (Build 15.0.1102.597), lançamento: 26 de setembro de 2019*
         - Atualizações de segurança
         - Correções de bug
            - Relatórios paginados
-             - Correção para problemas de acessibilidade encontrados ao usar o IE e o Edge.
+             - Correção de problemas de acessibilidade encontrados ao usar o Internet Explorer e o Microsoft Edge.
              - Correção de problemas com o SAP HANA durante o teste de conexão.
              - Correção de problemas encontrados ao fornecer a lista de endereços de email.
              - Correção para relatórios do Power BI que usam uma fonte de dados do DirectQuery e autenticação integrada.
@@ -43,10 +50,17 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
              - Atualização da API Web: /PowerBIReports({Id})/DataSources (PATCH) para permitir atualizações de cadeia de conexão.
          
 - **Power BI Desktop (otimizado para o Servidor de Relatórios do Power BI)**
+
+    - *Versão: 2.73.5586.1241 (setembro de 2019), lançamento: 9 de outubro de 2019*
+        - Correções de bug
+            - Correção do visual personalizado de filtro de texto.
+            - Correção do desempenho de segmentações suspensas.
+            - Correção de PII da faixa da telemetria.
+            
     - *Versão: 2.73.5586.821 (Setembro de 2019), lançamento: 26 de setembro de 2019* (novo build e nova versão)
-    - Contém as alterações necessárias para conexão com o Servidor de Relatórios do Power BI (Setembro de 2019)
+        - Contém as alterações necessárias para conexão com o Servidor de Relatórios do Power BI (Setembro de 2019)
 
-
+    
 ## <a name="may-2019"></a>Maio de 2019
 
 - **Servidor de Relatório do Power BI**          

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020327"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543394"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI de um relatório
 Você já leu [Introdução a dashboards no Power BI](service-dashboards.md) e agora deseja criar o seu próprio. Há diferentes maneiras de criar um painel. Por exemplo, é possível criar um dashboard com base em um relatório, do zero, com base em um conjunto de dados ou duplicando um existente.  
@@ -68,9 +68,9 @@ Neste passo a passo, vamos importar um dos conjuntos de dados de exemplo do Powe
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Abrir o relatório e fixar blocos no dashboard
 1. No mesmo workspace, selecione a guia **Relatórios** e selecione **Exemplo de Análise de Compras** para abrir o relatório.
 
-    ![Guia Relatórios](media/service-dashboard-create/power-bi-reports.png) O relatório é aberto no Modo de exibição de leitura. Observe que ele tem duas guias na parte inferior: **Análise de Desconto** e **Visão Geral de Gastos**. Cada guia representa uma página do relatório.
+    ![Guia Relatórios](media/service-dashboard-create/power-bi-reports.png) O relatório é aberto no Modo de exibição de leitura. Observe que ele tem duas guias à esquerda: **Análise de Desconto** e **Visão Geral de Gastos**. Cada guia representa uma página do relatório.
 
-2. Selecione **Editar relatório** para abrir o relatório no modo de exibição de Edição.
+2. Selecione **Mais opções (...)**  > **Editar relatório** para abrir seu relatório no modo de exibição de Edição.
 
     ![Relatório no Modo de exibição de leitura](media/service-dashboard-create/power-bi-reading-view.png)
 3. Passe o mouse sobre uma visualização para revelar as opções disponíveis. Para adicionar a visualização a um dashboard, selecione o ícone de pino ![Ícone de Fixar](media/service-dashboard-create/power-bi-pin-icon.png).

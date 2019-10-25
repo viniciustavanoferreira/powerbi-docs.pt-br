@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823483"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259950"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Integração do Azure Machine Learning no Power BI
 
@@ -70,7 +70,7 @@ Os cientistas de dados usam principalmente o Python para o desenvolvimento e at�
 
 Esse arquivo de esquema precisa ser incluído no serviço Web implantado dos modelos do Serviço do Machine Learning. Para gerar automaticamente o esquema para o serviço Web, é necessário fornecer uma amostra da entrada/saída no script de entrada do modelo implantado. Confira a subseção sobre a Geração de esquema automático do Swagger (opcional) na documentação Implantar modelos com o Serviço do Azure Machine Learning. O link inclui o script de entrada de exemplo com as instruções para a geração de esquema. 
 
-Especificamente, as funções *@input_schema* e *@output_schema* no script de entrada referenciam os formatos de exemplo de entrada e saída nas variáveis *input_sample* e *output_sample* e usam essas amostras para gerar uma especificação de OpenAPI (Swagger) para o serviço Web durante a implantação.
+Especificamente, as funções *\@input_schema* e *\@output_schema* no script de entrada referenciam os formatos de exemplo de entrada e saída nas variáveis *input_sample* e *output_sample* e usam essas amostras para gerar uma especificação de OpenAPI (Swagger) para o serviço Web durante a implantação.
 
 Essas instruções para a geração de esquema pela atualização do script de entrada também precisam ser aplicadas aos modelos criados com experimentos de aprendizado de máquina automatizados usando o SDK do Azure Machine Learning.
 
@@ -85,7 +85,7 @@ Você pode invocar qualquer modelo do Azure ML para o qual recebeu acesso direta
 
 Selecione o botão **Editar** para abrir o Power Query Editor para as entidades em seu fluxo de dados.
 
-![Power Query Editor](media/service-machine-learning-integration/machine-learning-integration_06.png)
+![Editor do Power Query](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
 Selecione o botão **Insights de IA** na faixa de opções e selecione a pasta _Modelos do Azure Machine Learning_ no menu de navegação à esquerda. Todos os modelos do Azure ML aos quais você tem acesso são listados aqui como funções do Power Query. Além disso, os parâmetros de entrada do modelo do Azure ML são mapeados automaticamente como parâmetros da função correspondente do Power Query.
 

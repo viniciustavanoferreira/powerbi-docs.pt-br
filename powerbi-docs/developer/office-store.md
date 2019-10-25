@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944816"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307664"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Publicar visuais do Power BI no AppSource
 
 Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo.
 
-Depois de criar seu visual personalizado, talvez você queira publicá-lo no AppSource para que outros possam descobrir e usá-lo. Mas, há alguns preparativos que precisam ser feitos antes disso. Para saber mais sobre como criar um visual personalizado, confira Developing a [Power BI Custom Visual](custom-visual-develop-tutorial.md) (Desenvolvimento de um visual personalizado do Power BI).
+Depois de criar seu visual personalizado, talvez você queira publicá-lo no AppSource para que outros possam descobrir e usá-lo. Mas, há alguns preparativos que precisam ser feitos antes disso. Para saber mais sobre como criar um visual personalizado, confira Developing a [Power BI Custom Visual](visuals/custom-visual-develop-tutorial.md) (Desenvolvimento de um visual personalizado do Power BI).
 
    ![Office Store](media/office-store/appsource-01.png)
 
@@ -30,7 +30,7 @@ O **AppSource** é o lugar de encontrar aplicativos SaaS e suplementos para seus
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparando-se para enviar seu visual personalizado
 
-Após terminar de ler nossas [diretrizes de visuais do Power BI](guidelines-powerbi-visuals.md), codificar e [testar seu visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e empacotá-lo em um arquivo pbiviz, você deverá ter também o seguinte pronto para envio.
+Após terminar de ler nossas [diretrizes de visuais do Power BI](guidelines-powerbi-visuals.md), programar e [testar seu visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) para empacotá-lo em um arquivo pbiviz, você também deverá preparar o seguinte para envio.
 
 | Item | Necessário | Descrição |
 | --- | --- | --- |
@@ -147,7 +147,7 @@ Depois de criar seu visual, você tem a opção de certificá-lo. Isso significa
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[Desenvolvimento de um visual personalizado do Power BI](custom-visual-develop-tutorial.md)  
+[Desenvolvimento de um visual personalizado do Power BI](visuals/custom-visual-develop-tutorial.md)  
 [Visualizações no Power BI](../visuals/power-bi-report-visualizations.md)  
 [Visualizações personalizadas no Power BI](../power-bi-custom-visuals.md)  
 [*Certificando* um visual personalizado](../power-bi-custom-visuals-certified.md)

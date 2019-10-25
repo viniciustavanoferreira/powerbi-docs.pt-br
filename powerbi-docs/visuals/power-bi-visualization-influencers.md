@@ -10,14 +10,17 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995280"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544075"
 ---
 # <a name="key-influencers-visualization"></a>Visualização de influenciadores principais
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 O visual de influenciadores principais ajuda a entender os fatores que influenciam uma métrica na qual está interessado. Ele analisa os dados, classifica os fatores importantes e os exibe como influenciadores principais. Por exemplo, suponha que você queira descobrir o que influencia a variedade de pessoal, também conhecida como rotatividade. Um dos fatores pode ser a duração do contrato de trabalho e outro fator pode ser a idade do funcionário. 
  
 ## <a name="when-to-use-key-influencers"></a>Quando usar os influenciadores principais 
@@ -49,6 +52,10 @@ O visual de influenciadores principais será uma ótima opção se você quiser:
  
 Assista a este vídeo para aprender a criar um visual de influenciadores principais com uma métrica categórica. Depois, siga estas etapas para criar um. 
 
+   > [!NOTE]
+   > Este vídeo usa uma versão mais antiga do Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Seu Gerente de Produto quer que você descubra quais fatores levam os clientes a deixar revisões negativas sobre nosso serviço de nuvem. Para acompanhar, abra o [arquivo PBIX de Comentários do Cliente](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) no Power BI Desktop. Baixe também o [arquivo do Excel de Comentários do Cliente para o serviço do Power BI ou o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
@@ -137,7 +144,7 @@ O gráfico de dispersão no painel direito plota o percentual médio de classifi
 
 Em alguns casos, você perceberá que os fatores contínuos foram automaticamente transformados em categóricos. Isso ocorre porque percebemos que a relação entre as variáveis não é linear e, portanto, não podemos descrever a relação como simplesmente um aumento ou uma diminuição (como fizemos no exemplo acima).
 
-Executamos testes de correlação para determinar a linearidade do influenciador com relação ao destino. Se o destino for contínuo, executaremos a correlação de Pearsons; se o destino for categórico, executaremos testes de correlação de ponto bisserial. Se detectarmos que a relação não é suficientemente linear, realizaremos a compartimentalização supervisionada e geraremos um máximo de cinco compartimentos. Para descobrir quais compartimentos fazem mais sentido, usamos um método de compartimentalização supervisionada que examina a relação entre o fator explicativo e o destino que está sendo analisado.
+Executamos testes de correlação para determinar a linearidade do influenciador com relação ao destino. Se o destino for contínuo, executaremos a correlação de Pearson e, se o destino for categórico, executaremos testes de correlação de pontos biseriais. Se detectarmos que a relação não é suficientemente linear, realizaremos a compartimentalização supervisionada e geraremos um máximo de cinco compartimentos. Para descobrir quais compartimentos fazem mais sentido, usamos um método de compartimentalização supervisionada que examina a relação entre o fator explicativo e o destino que está sendo analisado.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretando medidas e agregações como influenciadores principais 
  
@@ -245,7 +252,7 @@ Medidas e colunas resumidas são analisadas automaticamente no nível dos campos
 
 ![Tabela de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
-Essa análise é muito resumida e, portanto, será difícil para o modelo de regressão localizar quaisquer padrões nos dados com os quais ele pode aprender. Devemos executar a análise em um nível mais detalhado para obter resultados melhores. Se quiséssemos analisar o preço da casa no nível da casa, precisaríamos adicionar explicitamente o campo **ID** à análise. No entanto, não queremos que a ID da casa seja considerada um influenciador. Não é útil saber que, à medida que a ID da casa aumenta, o preço de uma casa aumenta. É aí que a opção fieldwell **Expandir por** é útil. Você pode usar **Expandir por** para adicionar os campos que deseja usar para definir o nível da análise sem procurar novos influenciadores.
+Essa análise é muito resumida e, portanto, será difícil para o modelo de regressão localizar quaisquer padrões nos dados com os quais ele pode aprender. Devemos executar a análise em um nível mais detalhado para obter resultados melhores. Se quiséssemos analisar o preço da casa no nível da casa, precisaríamos adicionar explicitamente o campo **ID** à análise. No entanto, não queremos que a ID da casa seja considerada um influenciador. Não é útil saber que, à medida que a ID da casa aumenta, o preço de uma casa aumenta. É aí que a opção do campo **Expandir por** é muito útil. Você pode usar **Expandir por** para adicionar os campos que deseja usar para definir o nível da análise sem procurar novos influenciadores.
 
 Veja a aparência da visualização depois de adicionarmos **ID** a **Expandir por**. Depois de definir o nível no qual você deseja que sua medida seja avaliada, a interpretação de influenciadores é exatamente a mesma que para as [colunas numéricas não resumidas](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
 

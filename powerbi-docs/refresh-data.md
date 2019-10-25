@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325028"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307932"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -309,6 +309,13 @@ O ícone de aviso ajuda a indicar problemas atuais no conjunto de dados, mas tam
 > [!NOTE]
 > Há um link para exibir o histórico de atualização nas configurações do conjunto de dados. Também é possível recuperar um histórico de atualização de maneira programática usando a [API REST do Power BI](/rest/api/power-bi/datasets/getrefreshhistoryingroup). Usando uma solução personalizada, você pode monitorar o histórico de atualização de vários conjuntos de dados de forma centralizada.
 
+## <a name="automatic-page-refresh"></a>Atualização automática de página
+
+A atualização automática de página funciona em um nível de página de relatório e permite que os autores de relatório definam um intervalo de atualização para visuais em uma página que está ativa apenas quando a página é consumida. A atualização automática de página só está disponível para fontes de dados do DirectQuery. O intervalo mínimo de atualização depende do tipo de workspace em que o relatório está publicado e das configurações de capacidade do administrador para workspace Premium.
+
+Saiba mais no artigo sobre [atualização de página automática](desktop-automatic-page-refresh.md).
+
+
 ## <a name="best-practices"></a>Práticas recomendadas
 
 Verificar regularmente o histórico de atualização de seus conjuntos de dados é uma das melhores práticas mais importantes que você pode adotar para garantir que os relatórios e dashboards usem dados atuais. Se descobrir problemas, resolva-os imediatamente e faça o acompanhamento com os proprietários da fonte de dados e os administradores do gateway, se necessário.
@@ -324,6 +331,7 @@ Além disso, considere as seguintes recomendações para estabelecer e manter pr
 - Use uma implantação de gateway de dados corporativos confiável para conectar seus conjuntos de dados a fontes de dados locais. Se observar falhas de atualização relacionadas ao gateway, como gateway não disponível ou sobrecarregado, confira os administradores do gateway para adicionar mais gateways a um cluster existente ou implantar um novo cluster (escalar verticalmente versus expandir).
 - Use gateways de dados separados para os conjuntos de dados de importação e os de DirectQuery/LiveConnect, para que importações de dados durante a atualização agendada não afetem o desempenho de relatórios e dashboards baseados em conjuntos de dados de DirectQuery/LiveConnect, que consultam as fontes de dados a cada interação do usuário.
 - Certifique-se de que o Power BI possa enviar notificações de falha de atualização para sua caixa de correio. Filtros de spam podem bloquear as mensagens de email ou movê-las para uma pasta separada em que você pode não notá-las imediatamente.
+
 
 ## <a name="next-steps"></a>Próximas etapas
 

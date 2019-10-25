@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/16/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a9e8d2aaab7c0b3ed1daea32486260d09bc6f6a2
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945197"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511643"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Fontes de dados com suporte do DirectQuery no Power BI
 
@@ -76,7 +76,7 @@ A tabela a seguir especifica se um **Gateway de dados local** é necessário par
 | Banco de dados Oracle |Sim |
 | PostgreSQL |Sim |
 | Servidor de Aplicativos SAP Business Warehouse |Sim |
-| Servidor de Mensagens SAP Business Warehouse |Ainda não tem suporte no **serviço do Power BI** |
+| Servidor de Mensagens SAP Business Warehouse |Sim |
 | SAP HANA |Sim |
 | Snowflake |Sim |
 | Spark (beta), versão 0.9 e posterior |Sim |
@@ -97,6 +97,7 @@ A opção de SSO entra em vigor em todos os conjuntos de dados que usam essa fon
 - Impala
 - SAP HANA
 - SAP BW
+- Servidor de mensagens do SAP BW (versão prévia)
 - Spark
 - SQL Server
 - Teradata

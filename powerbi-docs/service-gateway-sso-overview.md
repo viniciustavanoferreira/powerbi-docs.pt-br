@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a99aad87763edce54996f0a485fde5498fb1df11
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: b1379bb783b090362215eaf7c317bbea435d1eec
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968605"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259922"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Visão geral de SSO (logon único) para gateways no Power BI
 
@@ -25,7 +25,9 @@ No momento, damos suporte para as seguintes fontes de dados:
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) e [SAML](service-gateway-sso-saml.md))
-* SAP BW ([Kerberos](service-gateway-sso-kerberos.md))
+* Servidor de aplicativos SAP BW ([Kerberos ](service-gateway-sso-kerberos.md))
+* Servidor de mensagens SAP BW ([Kerberos ](service-gateway-sso-kerberos.md)) – visualização pública
+* Oracle ([Kerberos ](service-gateway-sso-kerberos.md)) – visualização pública
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))

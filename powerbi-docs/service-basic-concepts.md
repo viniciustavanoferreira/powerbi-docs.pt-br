@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770783"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72542960"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço do Power BI
 
@@ -33,10 +33,11 @@ Quando abre o serviço do Power BI no navegador, você começa a trabalhar na Te
 3. Botão Página inicial do Power BI
 4. Botões de ícone, incluindo configurações, ajuda e comentários
 5. Caixa de pesquisa
-6. Blocos de um dashboard favorito
-7. Relatórios e dashboards favoritos e frequentes
+6. Painéis, relatórios, workspaces favoritos e frequentes
+7. Painéis, relatórios e workspaces recentes
+8. Seus workspaces
 
-Os usuários finais dos relatórios e painéis têm a mesma experiência inicial no serviço do Power BI em um navegador.
+Você e os usuários finais dos seus relatórios e painéis têm a mesma experiência inicial no serviço do Power BI em um navegador.
 
 Nos aprofundaremos nesses recursos mais tarde, mas primeiro vamos examinar alguns conceitos do Power BI. Mas se preferir, assista primeiro a este vídeo.  Nele, Will examina os conceitos básicos e oferece um tour pelo serviço do Power BI.
 
@@ -44,7 +45,7 @@ Nos aprofundaremos nesses recursos mais tarde, mas primeiro vamos examinar algun
 
 
 ## <a name="power-bi-concepts"></a>Conceitos do Power BI
-Os quatro maiores blocos de construção do Power BI são: **_dashboards_** , **_relatórios_** , **_pastas de trabalho_** e **_conjuntos de dados_** . E eles ficam todos organizados em **_workspaces_** . É importante entender os workspaces antes de nos aprofundarmos nos quatro blocos de construção, então, vamos começar com essa parte.
+Os quatro maiores blocos de construção do Power BI são: **_dashboards_**, **_relatórios_**, **_pastas de trabalho_** e **_conjuntos de dados_**. E eles ficam todos organizados em **_workspaces_**. É importante entender os workspaces antes de nos aprofundarmos nos quatro blocos de construção, então, vamos começar com essa parte.
 
 ## <a name="workspaces"></a>Workspaces
 Workspaces são contêineres para painéis, relatórios, pastas de trabalho e conjunto de dados no Power BI. Há dois tipos de workspaces: *Meu Workspace* e *workspaces de aplicativo*. Então, o que é um *aplicativo*? Um *aplicativo* do Power BI é uma coleção de painéis e relatórios projetados para fornecer métricas-chave aos usuários finais do programa na organização. Embora sejam interativos, os usuários finais não podem editar os aplicativos.
@@ -85,7 +86,7 @@ Conjuntos de dados podem ser atualizados, renomeados, explorados e removidos. Us
 * [Conjuntos de dados de amostra para o Power BI](sample-datasets.md)
 
 ## <a name="reports"></a>Relatórios
-Um relatório do Power BI é uma ou mais páginas de visualizações como gráficos de linhas, mapas e mapas de árvore. As visualizações também são chamadas de **_visuais_** . Todas as visualizações em um relatório vêm de um único conjunto de dados. É possível criar relatórios do zero dentro do Power BI, importá-los com painéis que os colegas compartilharam com você, ou o Power BI pode criá-los quando você se conectar a conjuntos de dados do Excel, Power BI Desktop, banco de dados ou aplicativos SaaS.  Por exemplo, quando você se conecta a uma pasta de trabalho do Excel que contém planilhas do Power View, o Power BI cria um relatório baseado nessas planilhas. E quando você se conecta a um aplicativo SaaS, o Power BI importa um relatório pré-criado.
+Um relatório do Power BI é uma ou mais páginas de visualizações como gráficos de linhas, mapas e mapas de árvore. As visualizações também são chamadas de **_visuais_**. Todas as visualizações em um relatório vêm de um único conjunto de dados. É possível criar relatórios do zero dentro do Power BI, importá-los com painéis que os colegas compartilharam com você, ou o Power BI pode criá-los quando você se conectar a conjuntos de dados do Excel, Power BI Desktop, banco de dados ou aplicativos SaaS.  Por exemplo, quando você se conecta a uma pasta de trabalho do Excel que contém planilhas do Power View, o Power BI cria um relatório baseado nessas planilhas. E quando você se conecta a um aplicativo SaaS, o Power BI importa um relatório pré-criado.
 
 Há dois modos para exibir e interagir com relatórios: *Exibição de leitura* e *Exibição de edição*. Ao abrir um relatório, ele é exibido na Exibição de leitura. Se você tem permissões de edição, vê **Editar relatório** no canto superior esquerdo e pode exibir o relatório na Exibição de edição.  Se um relatório está em um espaço de trabalho, todos com uma função de *administrador*, *membro* ou *colaborador* podem editá-lo. Eles têm acesso a todos os recursos de exploração, design, criação e compartilhamento da Exibição de edição para esse relatório. As pessoas com as quais eles compartilham o relatório podem explorar e interagir com o relatório na Exibição de leitura.   
 
@@ -195,8 +196,8 @@ O P e R procura uma resposta no conjunto(s) de dados conectado ao painel.  Um co
 
 Assim que você começa a digitar sua pergunta, o P e R leva você até a página de P e R. Conforme você digita, o P e R ajuda você a fazer a pergunta certa e encontrar a melhor resposta com reformulações, preenchimento automático, sugestões e muito mais. Quando você encontrar uma visualização (resposta) de que gosta, fixe-a em seu painel. Para obter mais informações, veja [P e R no Power BI](power-bi-q-and-a.md).
 
-### <a name="4-icon-buttons"></a>4. **Botões de ícone**
-Os ícones no canto superior direito são seus recursos para configurações, notificações, downloads, obter ajuda e fornecer comentários à equipe do Power BI. Selecione a seta dupla para abrir o dashboard no modo **Tela inteira**.  
+### <a name="4-icons-in-the-black-header-bar"></a>4. **Ícones na barra de cabeçalho preta**
+Os ícones no canto superior direito são seus recursos para configurações, notificações, downloads, obter ajuda, ativar ou desativar a **Nova aparência** e fornecer comentários à equipe do Power BI.  
 
 ![botões de ícone](media/service-basic-concepts/power-bi-icons.png)
 
@@ -217,8 +218,8 @@ Selecionar **Power BI** leva você de volta à sua página inicial do Power BI.
 
    !["Power BI" no serviço](media/service-basic-concepts/version-new.png)
 
-### <a name="8-labeled-icon-buttons"></a>8. **Botões de ícone rotulados**
-Essa área da tela contém opções adicionais para interagir com o conteúdo (neste caso, com o painel).  Além dos ícones rotulados que ficam visíveis, ao selecionar as reticências, são reveladas opções para duplicar, imprimir, atualizar o painel e muito mais.
+### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **Ícones rotulados na barra de menus cinza**
+Essa área da tela contém opções adicionais para interagir com o conteúdo (neste caso, com o painel).  Além dos ícones rotulados que ficam visíveis, ao selecionar **Mais opções (…)** são reveladas opções para duplicar, imprimir, atualizar o painel e muito mais.
 
    ![Botões de ícone rotulados](media/service-basic-concepts/power-bi-labeled-icons.png)
 

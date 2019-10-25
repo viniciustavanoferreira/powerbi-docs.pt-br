@@ -211,8 +211,6 @@
               href: desktop-calculated-tables.md
             - name: Medidas no Power BI Desktop
               href: desktop-measures.md
-            - name: Editar esquema linguístico de P e R
-              href: power-bi-q-and-a-linguistic-schema.md
             - name: Importar e exibir os KPIs (Visualização)
               href: desktop-import-and-display-kpis.md
         - name: Criar relatórios
@@ -227,8 +225,6 @@
               href: desktop-tooltips.md
             - name: Exportar como PDF e imprimir relatórios
               href: desktop-export-to-pdf.md
-            - name: P e R no Power BI Desktop
-              href: desktop-qna-in-reports.md
             - name: Painel de análise no Power BI Desktop
               href: desktop-analytics-pane.md
             - name: Use insights para explicar aumentos e reduções

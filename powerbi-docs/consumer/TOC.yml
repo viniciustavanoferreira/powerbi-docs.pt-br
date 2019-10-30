@@ -48,6 +48,8 @@
               href: end-user-report-open.md
             - name: Alterar o modo de exibição de um relatório
               href: end-user-report-view.md
+            - name: Alterar a ordem de classificação em um elemento visual
+              href: end-user-change-sort.md
             - name: Usar filtros em um relatório
               href: end-user-report-filter.md
             - name: Saiba como elementos visuais de relatório realizam filtragem cruzada entre si

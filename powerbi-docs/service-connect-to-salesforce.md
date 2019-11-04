@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc562c1c75f72e0ada23580aa0698f6463c129bb
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814308"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060811"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Conectar-se ao Salesforce com o Power BI
 Com o Power BI, você pode se conectar facilmente à sua conta do Salesforce.com. Com essa conexão, você pode recuperar os dados do Salesforce e ter um dashboard e relatórios automaticamente fornecidos.
@@ -91,7 +91,7 @@ Se você receber uma mensagem "Não é possível conectar ao servidor remoto" ao
 
 
 ## <a name="next-steps"></a>Próximas etapas
-[O que é o Power BI?](power-bi-overview.md)
+[O que é o Power BI?](fundamentals/power-bi-overview.md)
 
 [Fontes de dados para o serviço do Power BI](service-get-data.md)
 

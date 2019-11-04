@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: bc3fdd40848975dea675ce63955184686912ffd7
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544922"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891903"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Adicionar um filtro a um relatório no Power BI
 
@@ -56,7 +56,7 @@ A propósito, esse procedimento usa o exemplo de Análise de Varejo, caso você 
 
 ### <a name="filter-the-fields-in-the-visual"></a>Filtrar os campos no visual
 
-1. Selecione **Mais opções (...)** > **Editar relatório** para abrir seu relatório no modo de exibição de Edição.
+1. Selecione **Mais opções (...)**  > **Editar relatório** para abrir seu relatório no modo de exibição de Edição.
    
    ![Botão Editar relatório](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -108,7 +108,7 @@ Também é possível adicionar um filtro de nível de página a uma página inte
 
 1. No serviço Power BI, abra o relatório de análise de varejo e vá para a página **Vendas Mensais do Distrito**. 
 
-2. Selecione **...** > **Editar relatório** para abrir o relatório no modo de exibição de Edição.
+2. Selecione **...**  > **Editar relatório** para abrir o relatório no modo de exibição de Edição.
    
    ![Botão Editar relatório](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Abra o painel de visualizações e filtros e o painel Campos (se ainda não estiverem abertos).
@@ -129,13 +129,13 @@ Para continuar, baixe o [exemplo de Rentabilidade do Cliente](sample-customer-pr
 
 1. No serviço Power BI, abra o relatório de análise de varejo e vá para a página **Vendas Mensais do Distrito**.
 
-2. Selecione **Mais opções (...)** > **Editar relatório** para abrir seu relatório no modo de exibição de Edição.
+2. Selecione **Mais opções (...)**  > **Editar relatório** para abrir seu relatório no modo de exibição de Edição.
    
    ![Botão Editar relatório](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. Adicione uma nova página ao relatório e chame-a de **Equipe Executiva**. Essa será a página de *destino* do detalhamento.
 2. Adicione visualizações que acompanham as principais métricas das áreas de negócios executivos da equipe.    
-3. Na tabela **Executivos**, arraste **Executivo** para os filtros de detalhamento também.    
+3. Na tabela **Executivos**, arraste **Executivo** para a caixa de filtros de detalhamento.    
    
     ![Adicione um valor a filtros de detalhamento](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
@@ -150,7 +150,7 @@ Vejamos como funciona o filtro de detalhamento.
 2. Vamos supor que você é Andrew Ma e deseja ver a página do relatório Equipe Executiva filtrada somente com os seus dados.  No gráfico de áreas do canto superior esquerdo, clique com o botão direito do mouse em qualquer ponto de dados verde para abrir a opção de menu Detalhamento.
    
     ![Iniciar a ação de detalhamento](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. Selecione **Detalhamento > Equipe Executiva** executar uma consulta drill-through na página de relatório chamada **Equipe Executiva**. A página é filtrada para mostrar informações do ponto de dados no qual você clicou com o botão direito do mouse, nesse caso, Andrew Ma. Todos os filtros na página de origem são aplicados à página de relatório de detalhamento.  
+3. Selecione **Detalhamento > Equipe Executiva** executar uma consulta drill-through na página de relatório chamada **Equipe Executiva**. A página é filtrada para mostrar informações do ponto de dados no qual você clicou com o botão direito do mouse, nesse caso, Andrew Ma. Quaisquer filtros na página de origem são aplicados à página do relatório de detalhamento.  
    
     ![Selecionar a ação de detalhamento](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

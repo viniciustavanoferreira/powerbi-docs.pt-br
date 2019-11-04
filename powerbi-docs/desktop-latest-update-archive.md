@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307737"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429715"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores ao Power BI Desktop
 
@@ -36,7 +36,7 @@ As seções a seguir descrevem atualizações de meses anteriores do **Power BI 
 
 ## <a name="september-2019-update-2735586561"></a>Atualização de setembro de 2019 (2.73.5586.561)
 
-Nossas atualizações de setembro são como um feliz retorno para a escola – novas coisas para aprender, colocar o papo em dia com os amigos que não encontramos nas férias e oportunidades para aplicar o que sabemos em melhores relatórios futuros. 
+Nossas atualizações de setembro foram como uma volta às aulas emocionante - coisas novas para aprender, atualizações de amigos sobre o que perdemos durante o verão e oportunidades para aplicar o que sabemos para um melhor desempenho no futuro. 
 
 Você pode [baixar a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop), agora fornecido como um único arquivo .exe que contém todos os idiomas com suporte. Se você estiver executando o Windows 10, obtenha também o **Power BI Desktop** do Windows Store. As versões mensais são as mesmas, embora a numeração de versão possa diferir entre elas, independentemente da maneira como você instala o **Power BI Desktop**. Consulte [este artigo](desktop-get-the-desktop.md) para obter mais informações. 
 
@@ -107,8 +107,8 @@ Você também pode baixar as versões anteriores do Power BI Desktop, se for nec
 
 Selecione os links a seguir para baixar esta versão anterior: 
 
-* [Versão de setembro de 2019 do Power BI Desktop – 32 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
-* [Versão de setembro de 2019 do Power BI Desktop – 64 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+* [Versão de setembro de 2019 do Power BI Desktop - 32 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
+* [Versão de setembro de 2019 do Power BI Desktop - 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>Atualização de agosto de 2019 (2.72.5556.801)
@@ -767,7 +767,7 @@ As seguintes atualizações eram novas no **Power BI Desktop** em outubro:
 ### <a name="reporting"></a>Relatórios
 
 * Pesquisar nos cartões de filtro [[vídeo]](https://youtu.be/cT3L2VzgBRU?t=56) [[artigo]](power-bi-reports-filters-and-highlighting.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
-* Melhorias de acessibilidade para a criação de experiências [[vídeo]](https://youtu.be/cT3L2VzgBRU?t=118) [[artigo]](desktop-accessibility.md#arranging-items-in-field-buckets) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* Melhorias de acessibilidade para a criação de experiências [[vídeo]](https://youtu.be/cT3L2VzgBRU?t=118) [[artigo]](desktop-accessibility-overview.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
 * Melhorias de desempenho para ArcGIS Map [[vídeo]](https://youtu.be/cT3L2VzgBRU?t=333) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
@@ -980,7 +980,7 @@ As atualizações a seguir foram introduzidas no **Power BI Desktop** em junho:
 
 ### <a name="reporting"></a>Relatórios
 
-* Suporte para alto contraste em relatórios [[vídeo]](https://youtu.be/4VpGtWSrssE?t=13s)  [[artigo]](desktop-accessibility.md#high-contrast-support-for-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* Suporte para alto contraste em relatórios [[vídeo]](https://youtu.be/4VpGtWSrssE?t=13s)  [[artigo]](desktop-accessibility-overview.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * Controle de raio de rosca [[vídeo]](https://youtu.be/4VpGtWSrssE?t=6m1s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * Controle de posição de rótulos de detalhes da pizza e da rosca  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=7m19s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * Formatar rótulos de dados separadamente para cada medida em um gráfico de combinação [[vídeo]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 

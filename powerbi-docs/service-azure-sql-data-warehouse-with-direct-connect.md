@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448437"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060699"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>SQL Data Warehouse do Azure com DirectQuery
 
@@ -98,7 +98,7 @@ Seu nome do servidor totalmente qualificado e o nome do banco de dados podem ser
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [O que é o Power BI?](power-bi-overview.md)  
+* [O que é o Power BI?](fundamentals/power-bi-overview.md)  
 * [Obter dados para o Power BI](service-get-data.md)  
 * [SQL Data Warehouse do Azure](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 

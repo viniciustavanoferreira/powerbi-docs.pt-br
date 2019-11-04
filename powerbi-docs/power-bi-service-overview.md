@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a4d8b094fe10b674d315b1982e1dc34148ba6d1d
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70775730"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060866"
 ---
 # <a name="what-is-the-power-bi-service"></a>O que é o serviço do Power BI?
 O **Power BI** é uma coleção de serviços de software, aplicativos e conectores que trabalham em conjunto a fim de ajudá-lo a criar, compartilhar e consumir insights empresariais da maneira mais eficiente para você e para seus negócios. O *serviço* do Microsoft Power BI (app.powerbi.com), às vezes chamado de Power BI online, é a parte SaaS (*software como serviço*) do Power BI. No serviço do Power BI, os *dashboards* ajudam a controlar o ritmo dos seus negócios de forma simples. Os dashboards exibem *blocos* que você pode selecionar para abrir *relatórios* e explorar mais detalhadamente. Os dashboards e relatórios se conectam a *conjuntos de dados* que reúnem todos os dados relevantes em um único lugar. 
@@ -26,7 +26,7 @@ Precisa de ajuda para compreender os blocos de construção que compõem o Power
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-Os outros componentes principais do Power BI são o aplicativo de área de trabalho do Windows **Power BI Desktop** e os **aplicativos móveis** do Power BI para dispositivos Windows, iOS e Android. Você e seus colegas podem usar esses três elementos – &mdash;o Power BI Desktop, o serviço e os aplicativos móveis&mdash; – para criar, compartilhar e consumir insights empresariais. Para obter uma visão geral, leia [O que é Power BI](power-bi-overview.md).
+Os outros componentes principais do Power BI são o aplicativo de área de trabalho do Windows **Power BI Desktop** e os **aplicativos móveis** do Power BI para dispositivos Windows, iOS e Android. Você e seus colegas podem usar esses três elementos – &mdash;o Power BI Desktop, o serviço e os aplicativos móveis&mdash; – para criar, compartilhar e consumir insights empresariais. Para obter uma visão geral, leia [O que é Power BI](fundamentals/power-bi-overview.md).
 
 ## <a name="creating-reports-in-the-service"></a>Criando relatórios no serviço
 Em um fluxo de trabalho típico do Power BI, você começa criando um relatório no Power BI Desktop e, em seguida, publicando-o no serviço do Power BI.  

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61349345"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060286"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introdução ao aplicativo móvel do Power BI em dispositivos Android
 O aplicativo Android para Microsoft Power BI oferece a experiência móvel do BI para Power BI, Servidor de Relatório do Power BI e Reporting Services. Exiba e interaja com os dashboards de sua empresa localmente e na nuvem em qualquer lugar, com acesso móvel dinâmico e habilitado para toque. Explore os dados em dashboards e compartilhe com seus colegas em mensagens de email ou de texto. 
@@ -23,7 +23,7 @@ O aplicativo Android para Microsoft Power BI oferece a experiência móvel do BI
 
 Crie relatórios do Power BI no Power BI Desktop e publique-os:
 
-* [Publique-os no serviço do Power BI](../../power-bi-overview.md) e crie dashboards.
+* [Publique-os no serviço do Power BI](../../fundamentals/power-bi-overview.md) e crie dashboards.
 * [Publique-os localmente no Servidor de Relatórios do Power BI](../../report-server/quickstart-create-powerbi-report.md).
 
 Em seguida, no aplicativo do Power BI para Android, você interage com os dashboards e relatórios, localmente ou na nuvem.
@@ -136,7 +136,7 @@ Aqui estão algumas outras coisas que podem ser feitas no aplicativo do Power BI
 
 ### <a name="see-also"></a>Consulte também
 * [Baixe o aplicativo Android](http://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicativos Android.
-* [O que é o Power BI?](../../power-bi-overview.md)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
 

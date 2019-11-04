@@ -71,6 +71,8 @@
               href: visuals/landing-page.md
             - name: URL de inicialização
               href: visuals/launch-url.md
+            - name: API de armazenamento local
+              href: visuals/local-storage.md
             - name: Renderização de eventos
               href: visuals/event-service.md
             - name: Classificação

@@ -395,6 +395,8 @@
               href: desktop-access-database-errors.md
             - name: Solucionar problemas ao iniciar o Power BI Desktop
               href: desktop-error-launching-desktop.md
+            - name: Solução de problemas do modelo DirectQuery no Power BI Desktop
+              href: desktop-directquery-troubleshoot.md
     - name: Referência
       items:
         - name: Tipos de dados no Power BI Desktop
@@ -661,7 +663,7 @@
           items:
             - name: Criar os novos workspaces
               href: service-create-the-new-workspaces.md
-            - name: Criar workspaces do aplicativo
+            - name: Criar workspaces
               href: service-create-workspaces.md
             - name: Publicar aplicativos de workspaces
               href: service-create-distribute-apps.md
@@ -1175,6 +1177,8 @@
       href: guidance/dax-error-functions.md
     - name: Práticas recomendadas para fluxos de dados
       href: service-dataflows-best-practices.md
+    - name: Diretrizes do modelo DirectQuery no Power BI Desktop
+      href: guidance/directquery-model-guidance.md
     - name: White papers
       items:
         - name: Visão geral dos white papers

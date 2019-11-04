@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307829"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021348"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um visual do Power BI
 
@@ -71,7 +71,7 @@ Para [certificar](#get-a-power-bi-visual-certified) seu visual personalizado, ve
 
 * Se as propriedades em capabilities.json forem alteradas, verifique se elas não interrompem os relatórios existentes do usuário.
 
-* Garantir que o visual esteja em conformidade com as [diretrizes para visuais do Power BI](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Não é permitido o uso de marcas-d'água**.
+* Garantir que o visual esteja em conformidade com as [diretrizes para visuais do Power BI](./developer/guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases). **Não é permitido o uso de marcas-d'água**.
 
 * Usa somente componentes OSS analisáveis públicos (bibliotecas JS ou TypeScript públicos. O código-fonte está disponível para revisão e não tem vulnerabilidades conhecidas). Não podemos verificar um visual personalizado usando um componente comercial.
 
@@ -192,7 +192,7 @@ Para enviar um visual personalizado para certificação:
 
 ## <a name="faq"></a>PERGUNTAS FREQUENTES
 
-Para obter mais informações sobre visuais, acesse [Perguntas frequentes sobre visuais certificados](#get-a-power-bi-visual-certified).
+Para obter mais informações sobre visuais, acesse [Perguntas frequentes sobre visuais certificados](power-bi-custom-visuals-faq.md#certified-power-bi-visuals).
 
 ## <a name="next-steps"></a>Próximas etapas
 

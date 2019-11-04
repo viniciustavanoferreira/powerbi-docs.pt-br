@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8bab7179d8ac344b0cf099fb11352e024d6dfd47
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256328"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72717016"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar relatórios do Power BI para o PowerPoint
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Com o Power BI, você pode publicar seu relatório no Microsoft PowerPoint e criar facilmente um conjunto de slides com base em seu relatório do Power BI. Quando você exporta para o PowerPoint, ocorre o seguinte:
 
 * Cada página no relatório do Power BI se torna um slide individual no PowerPoint.

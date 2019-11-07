@@ -499,7 +499,8 @@
               href: service-tips-for-finding-help.md
             - name: Notificações de interrupção de serviço
               href: service-interruption-notifications.md
-        - name: Estenda o Power BI
+        - name: |
+            Estenda o Power BI
           items:
             - name: Microsoft Flow e Power BI
               href: service-flow-integration.md
@@ -1109,6 +1110,8 @@
       items:
         - name: White paper sobre planejamento de capacidade
           href: report-server/capacity-planning.md
+        - name: Conformidade da extensão de renderização de PDFs
+          href: report-server/rendering-extension-support.md
 - name: Gateways
   items:
     - name: Visão geral

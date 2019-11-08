@@ -3,19 +3,19 @@ title: Implantando e gerenciando capacidades de Power BI Premium
 description: Entenda o potencial do Power BI Premium e aprenda a projetar, implantar, monitorar e solucionar problemas de soluções escalonáveis.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: eecbc43f26cebc12884ae6c5143a815f6e310ce5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432353"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73786339"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Implantando e gerenciando capacidades de Power BI Premium
 
@@ -61,7 +61,7 @@ Todo o conteúdo de Power BI é armazenado e gerenciado em espaços de trabalho 
 O conteúdo de Power BI a seguir é armazenado em espaços de trabalho:
 
 - Fluxos de dados
-- Conjuntos de dados
+- Conjuntos de Dados
 - Pastas de Trabalho
 - Relatórios
 - Dashboards
@@ -74,7 +74,7 @@ Os fluxos de dados só podem ser criados e gerenciados em espaços de trabalho, 
 
 Para obter mais informações, consulte a [preparação de dados de autoatendimento no documento Power bi (versão prévia)](service-dataflows-overview.md) .
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 Power BI DataSets representam uma fonte de dados prontos para relatórios e visualização. Há muitos tipos de conjuntos de valores, criados por:
 

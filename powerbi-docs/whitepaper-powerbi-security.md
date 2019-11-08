@@ -3,19 +3,19 @@ title: White paper de segurança do Power BI
 description: Whitepaper que aborda e descreve a arquitetura de segurança e implementação para o Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4cb2ae69044b156d5f8a4bd554f8386808fb6b9e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 8cbb1c4b25cacae5cb025f85790be6a1657b0482
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430506"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787754"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper de segurança do Power BI
 
@@ -34,13 +34,13 @@ ms.locfileid: "73430506"
 
 O **Power BI** é uma oferta de serviço de software online (_SaaS_, ou Software como serviço) da Microsoft que permite que você crie de modo rápido e fácil dashboards, relatórios, conjuntos de dados e visualizações de Business Intelligence de autoatendimento. Com o Power BI, você pode se conectar a várias fontes de dados diferentes, combinar e moldar os dados usando essas conexões e criar relatórios e dashboards que podem ser compartilhados com outras pessoas.
 
-O serviço do Power BI é regido pelos [Termos de Serviços Online da Microsoft](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e a [Política de Privacidade do Microsoft Enterprise](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para o local de processamento de dados, consulte os termos de Local de Processamento de Dados nos Termos de Serviços Online da Microsoft. Para obter informações de conformidade, o [Microsoft Trust Center](https://www.microsoft.com/trustcenter) é o principal recurso para o Power BI. A equipe do Power BI está trabalhando duro para trazer a seus clientes as mais recentes inovações e produtividade. O Power BI está atualmente na camada D da [estrutura de conformidade do Office 365](http://go.microsoft.com/fwlink/p/?LinkID=618494).
+O serviço do Power BI é regido pelos [Termos de Serviços Online da Microsoft](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e a [Política de Privacidade do Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para o local de processamento de dados, consulte os termos de Local de Processamento de Dados nos Termos de Serviços Online da Microsoft. Para obter informações de conformidade, o [Microsoft Trust Center](https://www.microsoft.com/trustcenter) é o principal recurso para o Power BI. A equipe do Power BI está trabalhando duro para trazer a seus clientes as mais recentes inovações e produtividade. O Power BI está atualmente na camada D da [estrutura de conformidade do Office 365](https://go.microsoft.com/fwlink/p/?LinkID=618494).
 
 Este artigo descreve a segurança do Power BI dando uma explicação da arquitetura do Power BI, então explicando como os usuários são autenticados para o Power BI e as conexões de dados são estabelecidas e, por fim, descrevendo como o Power BI armazena e move os dados pelo serviço. A última seção é dedicada a perguntas relacionadas à segurança, sendo fornecidas respostas para cada uma.
 
 ## <a name="power-bi-architecture"></a>Arquitetura do Power BI
 
-O serviço do **Power BI** se baseia no **Azure**, que é a [plataforma de computação em nuvem](http://azure.microsoft.com/overview/what-is-azure/) da Microsoft. O Power BI atualmente está implantado em muitos datacenters em todo o mundo – há muitas implantações ativas disponibilizadas para clientes nessas regiões atendidas por esses datacenters, e um número igual de implantações passivas que servem como backups para cada implantação ativa.
+O serviço do **Power BI** se baseia no **Azure**, que é a [plataforma de computação em nuvem](https://azure.microsoft.com/overview/what-is-azure/) da Microsoft. O Power BI atualmente está implantado em muitos datacenters em todo o mundo – há muitas implantações ativas disponibilizadas para clientes nessas regiões atendidas por esses datacenters, e um número igual de implantações passivas que servem como backups para cada implantação ativa.
 
 Cada implantação do Power BI consiste de dois clusters – um cluster da Web de Front-End (**WFE**) e um cluster de **Back-End**. Esses dois clusters são mostrados na imagem a seguir e fornece o pano de fundo para o restante deste artigo. 
 
@@ -117,8 +117,8 @@ O Power BI é oferecido em determinadas regiões com base em no local em que os 
 
 Os links a seguir fornecem informações adicionais sobre datacenters do Azure.
 
-- [Regiões do Azure](http://azure.microsoft.com/regions/) – informações sobre os locais e a presença global do Azure
-- [Serviços do Azure, por região](http://azure.microsoft.com/regions/#services) – uma listagem completa dos serviços do Azure (serviços de infraestrutura e serviços de plataforma) disponíveis na Microsoft em cada região.
+- [Regiões do Azure](https://azure.microsoft.com/regions/) – informações sobre os locais e a presença global do Azure
+- [Serviços do Azure, por região](https://azure.microsoft.com/regions/#services) – uma listagem completa dos serviços do Azure (serviços de infraestrutura e serviços de plataforma) disponíveis na Microsoft em cada região.
 
 Atualmente, a serviço do Power BI está disponível em regiões específicas, atendidas por data centers, conforme descrito na [central de confiabilidade da Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). O link a seguir mostra um mapa de datacenters do Power BI, você pode passar o mouse sobre uma região para ver os datacenters nela localizados:
 
@@ -126,7 +126,7 @@ Atualmente, a serviço do Power BI está disponível em regiões específicas, a
 
 A Microsoft também fornece os datacenters para soberanias. Para obter mais informações sobre a disponibilidade de serviço do Power BI para nuvens nacionais, veja [Nuvens nacionais do Power BI](https://powerbi.microsoft.com/clouds/).
 
-Para obter mais informações sobre o local em que seus dados serão armazenados e como serão usados, veja [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where). Compromissos sobre o local dos dados em repouso do cliente são especificados nos **Termos de Processamento de Dados** dos [Termos do Microsoft Online Services](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
+Para obter mais informações sobre o local em que seus dados serão armazenados e como serão usados, veja [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where). Compromissos sobre o local dos dados em repouso do cliente são especificados nos **Termos de Processamento de Dados** dos [Termos do Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
 
 ## <a name="user-authentication"></a>Autenticação de Usuário
 
@@ -136,7 +136,7 @@ A autenticação do usuário para o serviço do Power BI consiste em uma série 
 
 A sequência de autenticação de usuário para o serviço do Power BI ocorre conforme descrito nas próximas etapas, que são ilustradas nas imagens a seguir.
 
-1. Um usuário inicia uma conexão ao serviço do Power BI de um navegador digitando o endereço do Power BI na barra de endereços (como https://app.powerbi.com) ou selecionando _Entrar_ da página de aterrissagem do Power BI https://powerbi.microsoft.com)). A conexão é estabelecida usando HTTPS e TLS 1.2, e todas as comunicações subsequentes entre o navegador e o serviço do Power BI usam HTTPS. A solicitação é enviada para o **Gerenciador de Tráfego do Azure**.
+1. Um usuário inicia uma conexão ao serviço do Power BI de um navegador digitando o endereço do Power BI na barra de endereços (como https://app.powerbi.com) ou selecionando _Entrar_ da página de aterrissagem do Power BI https://powerbi.microsoft.com) ). A conexão é estabelecida usando HTTPS e TLS 1.2, e todas as comunicações subsequentes entre o navegador e o serviço do Power BI usam HTTPS. A solicitação é enviada para o **Gerenciador de Tráfego do Azure**.
 
 2. O **Gerenciador de Tráfego do Azure** verifica o registro DNS do usuário para determinar o datacenter mais próximo em que o Power BI é implantado e responde ao DNS com o endereço IP do WFE do cluster para o qual o usuário deve ser enviado.
 
@@ -201,7 +201,7 @@ As chaves de criptografia de gateway com base na chave de recuperação nunca sa
 
 Para fontes de dados baseadas em nuvem, a Função de Movimentação de Dados criptografa as chaves de criptografia usando métodos [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx). Você pode aprender mais sobre o [recurso de banco de dados Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx).
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de conexão etc.)
 
@@ -283,7 +283,7 @@ Independentemente do método de criptografia usado, a Microsoft gerencia a cript
 
 Dispositivos não voláteis são dispositivos que têm memória que persiste sem energia constante. O exemplo a seguir descreve os dados armazenados temporariamente em dispositivos não voláteis. 
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de conexão etc.)
 
@@ -371,7 +371,7 @@ O cache de dados do Power BI Mobile permanece no dispositivo por duas semanas ou
 
 Aplicativos do Power BI Mobile não veem pastas no dispositivo. 
 
-Todas as três plataformas para as quais o Power BI Mobile está disponível têm suporte para o Microsoft Intune, um serviço de software que fornece gerenciamento de aplicativos e dispositivos móveis. Com o Intune habilitado e configurado, os dados no dispositivo móvel são criptografados e o próprio aplicativo do Power BI não pode ser instalado em um cartão SD. Você pode [Saber mais sobre o Microsoft Intune](http://www.microsoft.com/cloud-platform/microsoft-intune).
+Todas as três plataformas para as quais o Power BI Mobile está disponível têm suporte para o Microsoft Intune, um serviço de software que fornece gerenciamento de aplicativos e dispositivos móveis. Com o Intune habilitado e configurado, os dados no dispositivo móvel são criptografados e o próprio aplicativo do Power BI não pode ser instalado em um cartão SD. Você pode [Saber mais sobre o Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune).
 
 ## <a name="power-bi-security-questions-and-answers"></a>Perguntas e respostas sobre segurança do Power BI
 
@@ -487,7 +487,7 @@ Para obter mais informações sobre o Power BI, veja os seguintes recursos.
 - [Introdução ao Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
 - [API REST do Power BI – Visão Geral](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Referência da API do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [Gateway de dados local](service-gateway-onprem.md)
+- [On-premises data gateway (Gateway de dados local)](service-gateway-onprem.md)
 - [Power BI e ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Nuvens nacionais do Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)

@@ -113,6 +113,8 @@
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: Mostrar itens sem dados no Power BI
           href: desktop-show-items-no-data.md
+        - name: Data/hora automática no Power BI Desktop
+          href: desktop-auto-date-time.md
         - name: Conectar-se a dados
           items:
             - name: Fontes de dados no Power BI Desktop
@@ -499,7 +501,8 @@
               href: service-tips-for-finding-help.md
             - name: Notificações de interrupção de serviço
               href: service-interruption-notifications.md
-        - name: Estenda o Power BI
+        - name: |
+            Estenda o Power BI
           items:
             - name: Microsoft Flow e Power BI
               href: service-flow-integration.md

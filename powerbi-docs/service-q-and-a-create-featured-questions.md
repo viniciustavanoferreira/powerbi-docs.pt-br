@@ -2,7 +2,6 @@
 title: Criar perguntas em destaque para as P e R do Power BI
 description: Documentação sobre como criar perguntas em destaque para a P e R do Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 138c14e98485777d84130854c7811a33b74dffd3
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721128"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881113"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Criar perguntas em destaque para as P e R do Power BI
 Se você possui um conjunto de dados, você pode adicionar suas próprias perguntas em destaque a esse conjunto de dados. E a P e R do Power BI mostrará essas perguntas para seus colegas que consomem relatórios com base nesse conjunto de dados.  As perguntas em destaque fornecem aos seus colegas algumas ideias sobre os tipos de perguntas que eles podem fazer sobre o conjunto de dados. As perguntas em destaque que você adiciona cabe a você – adicione perguntas populares, perguntas que exibem resultados interessantes ou perguntas que podem ser difíceis de formular.
@@ -50,5 +49,5 @@ Este artigo usa a [amostra de Vendas de Análise de Varejo](sample-datasets.md).
 - [Use P e R em dashboards e relatórios](power-bi-tutorial-q-and-a.md)  
 - [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)  
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

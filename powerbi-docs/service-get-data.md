@@ -2,7 +2,6 @@
 title: Fontes de dados do Power BI
 description: Fontes de dados do Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: ac8b403163ea2599955afd79d8e95659b8cc5bed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511670"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881422"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Fontes de dados do serviço do Power BI
 Dados são o coração do Power BI. Digamos que você está explorando dados. Você pode fazer isso criando gráficos e dashboards ou fazendo perguntas com **P e R**. As visualizações e respostas resultantes estarão obtendo dados subjacentes de um conjunto de dados. Mas de onde vem esse conjunto de dados? Bem, ele vem de uma fonte de dados.

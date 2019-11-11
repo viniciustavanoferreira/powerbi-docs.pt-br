@@ -2,7 +2,6 @@
 title: Introdução aos blocos de dashboard para designers do Power BI
 description: Este artigo descreve os blocos de dashboard no Power BI, que inclui blocos criados com base nos relatórios do SSRS (SQL Server Reporting Services).
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994854"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872799"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introdução aos blocos de dashboard para designers do Power BI
 
@@ -99,8 +98,8 @@ Quando você seleciona um bloco, o que acontece em seguida depende de como você
 - [Introdução a dashboards para designers do Power BI](service-dashboards.md)  
 - [Atualizar dados no Power BI](refresh-data.md)
 - [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
-- [Integrar blocos do Power BI em documentos do Office](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Integrar blocos do Power BI em documentos do Office](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Fixar itens do Reporting Services em dashboards do Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 

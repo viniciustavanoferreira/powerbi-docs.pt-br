@@ -2,7 +2,6 @@
 title: Gerenciar sua fonte de dados – Analysis Services
 description: Como gerenciar o gateway de dados local e as fontes de dados que pertencem ao gateway. Isso é para o Analysis Services em ambos o modo de tabela e o multidimensional.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 02036d8b8fe35729a97a18dc5e058805d089b128
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 646bbc2e1923c3c325fce4c8f745e6b9914133f2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730194"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881671"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerenciar sua fonte de dados – Analysis Services
 
@@ -117,7 +116,7 @@ Para configurar o gateway para executar a pesquisa do Active Directory:
 
 1. [Baixe e instale o gateway mais recente](/data-integration/gateway/service-gateway-install).
 
-2. No gateway, altere o serviço do gateway de dados local para ser executado com uma conta de domínio, em vez de uma conta de serviço local. Caso contrário, a pesquisa do Active Directory não funcionará corretamente em tempo de execução. Vá para o [aplicativo de gateway de dados local](/data-integration/gateway/service-gateway-app) em seu computador e acesse **Configurações de serviço** > **Alterar conta de serviço**. Certifique-se de ter a chave de recuperação para esse gateway, porque é preciso restaurá-lo no mesmo computador, a menos que você deseje criar um novo gateway em vez disso. Reinicie o serviço do gateway para que a alteração entre em vigor.
+2. No gateway, altere o serviço do gateway de dados local para ser executado com uma conta de domínio, em vez de uma conta de serviço local. Caso contrário, a pesquisa do Active Directory não funcionará corretamente em runtime. Vá para o [aplicativo de gateway de dados local](/data-integration/gateway/service-gateway-app) em seu computador e acesse **Configurações de serviço** > **Alterar conta de serviço**. Certifique-se de ter a chave de recuperação para esse gateway, porque é preciso restaurá-lo no mesmo computador, a menos que você deseje criar um novo gateway em vez disso. Reinicie o serviço do gateway para que a alteração entre em vigor.
 
 3. Vá até a pasta de instalação do gateway, *C:\Arquivos de Programas\Gateway de dados local* como um administrador para garantir que você tem permissões de gravação e edite. Abra o arquivo *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*.
 
@@ -284,5 +283,5 @@ Você pode usar uma conexão dinâmica em instâncias de tabela ou multidimensio
 * [Solução de problemas do gateway de dados local](/data-integration/gateway/service-gateway-tshoot)
 * [Solucionar problemas de gateways – Power BI](service-gateway-onprem-tshoot.md)
 
-Mais perguntas? Experimente a [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente a [Comunidade do Power BI](https://community.powerbi.com/).
 

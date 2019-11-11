@@ -2,7 +2,6 @@
 title: Mesclar ou acrescentar fontes de dados locais e na nuvem
 description: Use o gateway de dados local para mesclar ou acrescentar fontes de dados locais e na nuvem na mesma consulta.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e5a4e862c89d08b4e277cb4abae934f3fd47141e
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 079e3c785277c91bdc09f91c083e80abd6bdd36b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757628"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881615"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Mesclar ou acrescentar fontes de dados locais e na nuvem
 

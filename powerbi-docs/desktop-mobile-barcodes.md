@@ -3,18 +3,17 @@ title: Marcar um campo de código de barras no Power BI Desktop para os aplicati
 description: Quando você marca um campo de código de barras em seu modelo no Power BI Desktop, é possível filtrar dados em busca de códigos de barras automaticamente no aplicativo do Power BI no iPhone.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
-ms.openlocfilehash: 43d722e6667114ce5c3705270a0b55b541685108
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d2b034d6e58f98169a5b1b260571001d5a929f28
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61293546"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866600"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Marcar código de barras no Power BI Desktop para os aplicativos móveis
 
@@ -48,5 +47,5 @@ Estes serão os códigos de barras reconhecidos pelo Power BI se você conseguir
 * [Digitalizar um código de barras do aplicativo Power BI em seu iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [Problemas com a digitalização de código de barras em um iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Categorização de dados no Power BI Desktop](desktop-data-categorization.md)  
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

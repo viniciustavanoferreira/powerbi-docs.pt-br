@@ -2,7 +2,6 @@
 title: 'Tutorial: combinar dados do Excel e de um feed OData no Power BI Desktop'
 description: 'Tutorial: combinar dados do Excel e de um feed OData'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160395"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866082"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: combinar dados de vendas do Excel e de um feed OData
 
@@ -35,7 +34,7 @@ Você vai importar cada conjunto de dados e realizar operações de transformaç
 
 Primeiro, importe os dados de produto da pasta de trabalho do Excel Products.xlsx no Power BI Desktop.
 
-1. [Baixe a pasta de trabalho Products.xlsx do Excel](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) e salve-a como **Products.xlsx**.
+1. [Baixe a pasta de trabalho Products.xlsx do Excel](https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) e salve-a como **Products.xlsx**.
    
 2. Selecione a seta suspensa ao lado de **Obter Dados** na guia **Página Inicial** da faixa de opções do Power BI Desktop e, em seguida, selecione **Excel** no menu suspenso **Mais Comum**. 
    
@@ -52,7 +51,7 @@ Primeiro, importe os dados de produto da pasta de trabalho do Excel Products.xls
    
 Uma visualização de tabela é aberta no **Power Query Editor**, no qual é possível aplicar transformações para limpar os dados.
    
-![Power Query Editor](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+![Editor do Power Query](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
    
 >[!NOTE]
 >Também é possível abrir o **Power Query Editor** selecionando **Editar Consultas** > **Editar Consultas** na faixa de opções **Início** do Power BI Desktop, clicando com o botão direito do mouse ou escolhendo **Mais opções** ao lado de qualquer consulta em **Exibição de Relatório** e selecionando **Editar Consulta**.
@@ -76,7 +75,7 @@ Em seguida, importe os dados de pedido do feed OData de exemplo do sistema de ve
    
    ![Obter OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. Na caixa de diálogo **Feed OData**, cole a URL do feed OData da Northwind, `http://services.odata.org/V3/Northwind/Northwind.svc/`. Selecione **OK**.
+2. Na caixa de diálogo **Feed OData**, cole a URL do feed OData da Northwind, `https://services.odata.org/V3/Northwind/Northwind.svc/`. Selecione **OK**.
    
    ![Caixa de diálogo do feed OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -271,7 +270,7 @@ Selecione um produto do gráfico **Quantidade por ProductName** para ver o mapa 
 Seu relatório concluído combina dados do arquivo do Excel Products.xlsx e do feed OData da Northwind em elementos visuais que ajudam a analisar informações de pedidos, períodos e produtos de diferentes países. Quando seu relatório estiver pronto, você poderá [fazer upload dele no serviço do Power BI](desktop-upload-desktop-files.md) ou compartilhá-lo com outros usuários do Power BI.
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Leia outros tutoriais do Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Assista a vídeos do Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Visite o Fórum do Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Leia o Blog do Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Leia outros tutoriais do Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Assista a vídeos do Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Visite o Fórum do Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Leia o Blog do Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)

@@ -2,7 +2,6 @@
 title: Gerenciar sua fonte de dados – SAP HANA
 description: Como gerenciar o gateway de dados local e as fontes de dados que pertencem ao gateway. Este artigo é específico para SAP HANA.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/16/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3e1ea53abeff39609515b0b615f9e000432e9c6
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 577f0b26052ecc5fbe5f4e5b4da624da2b6e06c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303167"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881718"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Gerenciar sua fonte de dados – SAP HANA
 
@@ -74,5 +73,5 @@ Se estiver listado na guia **Usuários** da fonte de dados configurada no gatewa
 * [Solução de problemas do gateway de dados local](/data-integration/gateway/service-gateway-tshoot)
 * [Solucionar problemas de gateways – Power BI](service-gateway-onprem-tshoot.md) 
 
-Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 

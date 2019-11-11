@@ -3,19 +3,18 @@ title: Cache de consulta no Power BI Premium
 description: Cache de consulta no Power BI Premium
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 1f1d88e2484d48e1f479523dddf6bb0cb63e5d0f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020526"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875208"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Cache de consulta no Power BI Premium/Embedded
 

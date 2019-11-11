@@ -3,19 +3,18 @@ title: Práticas recomendadas de desempenho do Power BI
 description: Este artigo oferece orientação para criar relatórios rápidos e confiáveis no Power BI
 author: Bhavik-MSFT
 ms.author: bhmerc
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841490"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875103"
 ---
 # <a name="power-bi-performance-best-practices"></a>Práticas recomendadas de desempenho do Power BI
 
@@ -54,7 +53,7 @@ Para saber mais sobre como otimizar fontes de dados para o DirectQuery, confira 
 
 No caso de conexão dinâmica ou do DirectQuery, quando os usuários visitam um relatório do Power BI, o Power BI envia consultas tempo real para a fonte de dados subjacente. Depois que a fonte de dados for retornada com os dados da consulta, o relatório será renderizado. Como resultado, o desempenho do relatório depende muito do desempenho da fonte de dados subjacente.
 
-Nesses casos, é importante entender o desempenho de sua fonte de dados subjacente. Fontes de dados diferentes têm ferramentas diferentes para entender o desempenho da consulta. Por exemplo, SQL Server e SQL Azure fornecem o Repositório de Consultas, que captura um histórico das consultas e suas estatísticas de tempo de execução.
+Nesses casos, é importante entender o desempenho de sua fonte de dados subjacente. Fontes de dados diferentes têm ferramentas diferentes para entender o desempenho da consulta. Por exemplo, SQL Server e SQL Azure fornecem o Repositório de Consultas, que captura um histórico das consultas e suas estatísticas de runtime.
 
 Ao implantar relatórios do Power BI baseados em conexão dinâmica e do DirectQuery, experimente o que os usuários finais farão no Power BI Desktop. Se o relatório apresentar lentidão para ser carregado no Power BI Desktop, ele provavelmente terá lentidão para ser carregado no serviço para os usuários finais. 
 
@@ -152,7 +151,7 @@ O Gateway de dados local é uma excelente ferramenta para conectar o serviço do
 
 A latência de rede pode afetar o desempenho do relatório, aumentando o tempo necessário para que as solicitações acessem o serviço do Power BI e para que as respostas sejam entregues. Locatários no Power BI são atribuídos a uma região específica. Você pode exibir a região de "residência" do locatário, navegando até powerbi.com, selecionando **?** na parte superior direita e, depois, **Sobre o Power BI**. Quando os usuários de um locatário acessam o serviço do Power BI, suas solicitações sempre são roteadas para essa região. Depois que as solicitações acessam o serviço do Power BI, o serviço pode enviar solicitações adicionais, por exemplo, para a fonte de dados subjacente ou o gateway, que também estão sujeitos à latência de rede.
 
-Ferramentas como o [Teste de Velocidade do Azure](http://azurespeedtest.azurewebsites.net/) fornecem uma indicação da latência de rede entre o cliente e a região do Azure. Em geral, para minimizar o impacto da latência de rede, empenhe-se para manter fontes de dados, gateways e o cluster do Power BI o mais próximo possível. Se a latência de rede for um problema, tente localizar os gateways e as fontes de dados mais próximos do seu cluster do Power BI, colocando-os em máquinas virtuais.
+Ferramentas como o [Teste de Velocidade do Azure](https://azurespeedtest.azurewebsites.net/) fornecem uma indicação da latência de rede entre o cliente e a região do Azure. Em geral, para minimizar o impacto da latência de rede, empenhe-se para manter fontes de dados, gateways e o cluster do Power BI o mais próximo possível. Se a latência de rede for um problema, tente localizar os gateways e as fontes de dados mais próximos do seu cluster do Power BI, colocando-os em máquinas virtuais.
 
 Para melhorar ainda mais a latência de rede, considere usar o [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), que é capaz de criar conexões de rede mais rápidas e mais confiáveis entre os clientes e os data centers do Azure.
 

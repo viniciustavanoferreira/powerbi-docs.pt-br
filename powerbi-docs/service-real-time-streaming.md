@@ -2,7 +2,6 @@
 title: Streaming em tempo real no Power BI
 description: Obtenha o fluxo de dados em tempo real e elementos visuais no Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307353"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871727"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming em tempo real no Power BI
 Com o streaming em tempo real do Power BI, você pode transmitir dados e atualizar painéis em tempo real. Qualquer visual ou painel que possa ser criado no Power BI também pode ser criado para exibir e atualizar dados e visuais em tempo real. Os dispositivos e fontes de fluxo de dados podem ser sensores de fábrica, fontes de mídia social, métricas de uso do serviço e tudo o mais de que dados sensíveis ao tempo possam ser coletados ou transmitidos.
@@ -238,7 +237,7 @@ Aqui está uma lista de verificação que você pode usar para solucionar o prob
 
 ## <a name="automatic-page-refresh"></a>Atualização automática de página
 
-A atualização automática de página funciona em um nível de página de relatório e permite que os autores de relatório definam um intervalo de atualização para visuais em uma página que está ativa apenas quando a página é consumida. A atualização automática de página só está disponível para fontes de dados do DirectQuery. O intervalo mínimo de atualização depende do tipo de workspace em que o relatório está publicado e das configurações de capacidade do administrador para workspace Premium.
+A atualização automática de página funciona em um nível de página de relatório e permite que os autores de relatório definam um intervalo de atualização para visuais em uma página que está ativa apenas quando a página é consumida. A atualização automática de página está disponível apenas para fontes de dados DirectQuery. O intervalo mínimo de atualização depende do tipo de workspace em que o relatório está publicado e das configurações de capacidade do administrador para workspace Premium.
 
 Saiba mais no artigo sobre [atualização de página automática](desktop-automatic-page-refresh.md).
 

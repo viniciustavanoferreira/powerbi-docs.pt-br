@@ -2,7 +2,6 @@
 title: Compartilhar dashboard vinculado a um arquivo do Excel no OneDrive – Power BI
 description: Leia sobre como compartilhar dashboards conectados a uma planilha do Excel no OneDrive for Business, com blocos fixados dessa pasta de trabalho.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721439"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871455"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Compartilhar um dashboard do Power BI que vincula-se a um arquivo do Excel no OneDrive
 No Power BI, você pode [se conectar a pastas de trabalho do Excel no OneDrive for Business](service-excel-workbook-files.md) e fixar blocos em um dashboard por meio da pasta de trabalho. Quando você compartilha esse painel ou cria um pacote de conteúdo que o inclui:
@@ -57,5 +56,5 @@ O compartilhamento de um dashboard de um workspace do Power BI é semelhante ao 
 ## <a name="next-steps"></a>Próximas etapas
 * [Fixar um bloco em um dashboard do Power BI no Excel](service-dashboard-pin-tile-from-excel.md)
 * [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

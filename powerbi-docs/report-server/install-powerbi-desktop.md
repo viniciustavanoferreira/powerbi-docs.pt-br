@@ -3,18 +3,17 @@ title: Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Po
 description: Saiba como instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/03/2019
-ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968635"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874110"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 
@@ -55,7 +54,7 @@ A versão do Power BI Desktop para o serviço do Power BI não tem o mês nem o 
 ## <a name="file-extension-association"></a>Associação de extensão de arquivo
 Se você instalar o Power BI Desktop e o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI no mesmo computador, a instalação mais recente do Power BI Desktop terá a associação de arquivo com o arquivo .pbix. Assim, quando você clicar duas vezes em um arquivo .pbix, ele iniciará o Power BI Desktop instalado mais recentemente.
 
-Se você tiver o Power BI Desktop e, em seguida, instalar o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI, todos os arquivos .pbix serão abertos no Power BI Desktop otimizado para o Servidor de Relatórios do Power BI por padrão. Se, em vez disso, você preferir que o Power BI Desktop seja o padrão para iniciar ao abrir um arquivo .pbix, reinstale o [Power BI Desktop da Microsoft Store](http://aka.ms/pbidesktopstore).
+Se você tiver o Power BI Desktop e, em seguida, instalar o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI, todos os arquivos .pbix serão abertos no Power BI Desktop otimizado para o Servidor de Relatórios do Power BI por padrão. Se, em vez disso, você preferir que o Power BI Desktop seja o padrão para iniciar ao abrir um arquivo .pbix, reinstale o [Power BI Desktop da Microsoft Store](https://aka.ms/pbidesktopstore).
 
 Sempre é possível abrir a versão do Power BI Desktop que você deseja usar primeiro. E, em seguida, abra o arquivo no Power BI Desktop.
 
@@ -63,7 +62,7 @@ Editar um relatório do Power BI no Servidor de Relatórios do Power BI ou criar
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-Os relatórios do Power BI no Servidor de Relatórios do Microsoft Power BI e no serviço do Power BI (http://app.powerbi.com), assim como nos aplicativos móveis do Power BI) agem praticamente da mesma maneira, mas alguns recursos são diferentes.
+Os relatórios do Power BI no Servidor de Relatórios do Microsoft Power BI e no serviço do Power BI (https://app.powerbi.com), assim como nos aplicativos móveis do Power BI) agem praticamente da mesma maneira, mas alguns recursos são diferentes.
 
 ### <a name="selecting-a-language"></a>Como selecionar um idioma
 

@@ -2,7 +2,6 @@
 title: Otimizar um painel para telefones celulares – Power BI
 description: Saiba como criar uma exibição personalizada de qualquer um de seus painéis do Power BI, especificamente para exibição em celulares.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61158146"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872851"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Otimizar um painel para telefones celulares – Power BI 
 Ao exibir painéis no modo retrato em um celular, observe que os blocos do painel são dispostos um após o outro, todos com o mesmo tamanho. No serviço do Power BI, você pode criar uma exibição personalizada de painel, especificamente para o modo retrato em telefones. Ao virar o telefone para os lados, você verá o painel da forma como ele está disposto no serviço, mesmo que você tenha projetado uma exibição para telefone.
@@ -59,5 +58,5 @@ Procurando informações sobre como exibir painéis em um dispositivo móvel? Ex
 ## <a name="next-steps"></a>Próximas etapas
 * [Criar relatórios otimizados para os aplicativos de telefone do Power BI](desktop-create-phone-report.md)
 * [Criar visuais responsivos otimizados para qualquer tamanho](visuals/desktop-create-responsive-visuals.md)
-* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

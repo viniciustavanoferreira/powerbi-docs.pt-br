@@ -2,7 +2,6 @@
 title: Onde está localizado meu locatário do Power BI?
 description: Saiba onde está localizado seu locatário do Power BI e como essa localização é selecionada. É importante compreender isso, já que é algo que pode afetar suas interações com o serviço.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 621b15d682cf2992559f76fa9f8f18bfe68ac93b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074148"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873335"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Onde está localizado meu locatário do Power BI?
 
@@ -44,5 +43,5 @@ O Power BI seleciona uma região de dados mais próxima de sua seleção, o que 
 > [!IMPORTANT]
 > Não é possível alterar a seleção após a criação do locatário.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

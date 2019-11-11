@@ -2,7 +2,6 @@
 title: Criar páginas de resposta personalizadas do Power BI para a Cortana
 description: Criar páginas de resposta personalizadas para a Cortana no Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 06f155676dffa7b5f87ce61a8b342708793ef2c6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375233"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853734"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Use o serviço do Power BI Desktop para criar uma Página de Resposta personalizada para a Cortana
 Use os recursos completos do Power BI para criar páginas de relatório especiais chamadas *Páginas de respostas da Cortana* (e, às vezes, chamadas de *Cartões de respostas da Cortana*) projetadas especialmente para responder perguntas sobre a Cortana.
 
 > [!IMPORTANT]
-> Integração com o Cortana está sendo preterida no Power BI. A partir de 11 de junho, Cortana deixarão de funcionar para todos os painéis e relatórios.
+> A integração com a Cortana será preterida no Power BI. A partir de 11 de junho, a Cortana não será mais compatível com dashboards e relatórios.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
@@ -96,5 +95,5 @@ Os resultados com respostas com pontuação alta (como uma correspondência comp
 
 Ainda não consegue fazer com que a Cortana funcione com o Power BI?  Experimente a [solução de problemas da Cortana](service-cortana-troubleshoot.md).
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

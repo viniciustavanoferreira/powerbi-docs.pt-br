@@ -2,7 +2,6 @@
 title: Gerenciar sua fonte de dados – Oracle
 description: Como gerenciar o gateway de dados local e as fontes de dados que pertencem ao gateway.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832463"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872477"
 ---
 # <a name="manage-your-data-source---oracle"></a>Gerenciar sua fonte de dados – Oracle
 
@@ -29,11 +28,11 @@ Para conectar o gateway ao servidor Oracle, o Provedor de dados Oracle para .NET
 
 Para versões de 32 bits do Power BI Desktop, use o seguinte link para baixar e instalar o cliente Oracle de 32 bits:
 
-* [ODAC (Oracle Data Access Components) de 32 bits com Ferramentas de desenvolvimento da Oracle para Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [ODAC (Oracle Data Access Components) de 32 bits com Ferramentas de desenvolvimento da Oracle para Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 Para versões de 64 bits do Power BI Desktop ou para o gateway de dados local, use o seguinte link para baixar e instalar o cliente Oracle de 64 bits:
 
-* [ODAC de 64 bits, 12.2c versão 1 (12.2.0.1.0) para Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [ODAC de 64 bits, 12.2c versão 1 (12.2.0.1.0) para Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 Após o cliente ser instalado, configure o arquivo tnsnames.ora com as informações apropriadas para seu banco de dados. O Power BI Desktop e o gateway saem do net_service_name definido no arquivo tnsnames.ora. Se net_service_name não estiver configurado, você não poderá se conectar. O caminho padrão de tnsnames.ora é `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Para saber mais sobre como configurar arquivos tnsnames.ora, consulte [Oracle: Parâmetros de nomenclatura local (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
 
@@ -132,5 +131,5 @@ Para obter informações adicionais de solução de problemas relativas ao gatew
 * [Solucionar problemas de gateways – Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 

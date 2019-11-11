@@ -3,19 +3,18 @@ title: Dados de relatório no Construtor de Relatórios do Power BI
 description: A primeira etapa na criação de um relatório no Construtor de Relatórios Paginados do Power BI é criar fontes de dados e conjuntos de dados que representem os dados subjacentes do relatório.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: 3c2f6882e9480802d40ff61580ebfda9bbf3b14a
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: cbcb710a806c400ea33ac4d605614b5325277d07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840316"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860430"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Dados de relatório no Construtor de Relatórios do Power BI
 

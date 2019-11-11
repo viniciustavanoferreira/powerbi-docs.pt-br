@@ -1,8 +1,7 @@
 ---
-title: Conectar-se aos dados do Azure Consumption Insights no Power BI Desktop
+title: Conectar-se aos dados do Azure Consumption Insights no Power BI desktop
 description: Conectar-se com facilidade ao Azure e obter insights sobre consumo e uso usando o Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 44a9e361a1f5031963ba5ce33ee44c7b21f5459b
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307540"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876520"
 ---
-# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Conectar-se aos dados do Azure Consumption Insights no Power BI Desktop
+# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Conectar-se aos dados do Azure Consumption Insights no Power BI desktop
 
-Você pode usar o Power BI Desktop para se conectar ao Azure e obter dados detalhados sobre o uso do serviço do Azure de sua organização. Com esses dados, você pode criar medidas e relatórios personalizados para entender melhor e analisar seus gastos do Azure.
+Você pode usar o Power BI Desktop para se conectar ao Azure e obter dados detalhados sobre o uso do serviço do Azure de sua organização. Com esses dados, você pode criar relatórios e medidas personalizados para entender e analisar melhor seus gastos do Azure.
 
 > [!NOTE]
-> O Microsoft Azure Consumption Insights (beta) tem um suporte limitado. Para a nova funcionalidade, use o [Conector do Gerenciamento de Custos do Azure no Power BI](desktop-connect-azure-cost-management.md).
+> Há suporte limitado para o Microsoft Azure Consumption Insights (Beta). Para novas funcionalidades, use o [conector do Gerenciamento de Custos do Azure para o Power BI](desktop-connect-azure-cost-management.md).
 
 ## <a name="connect-with-azure-consumption-insights"></a>Conectar-se com o Azure Consumption Insights
 
@@ -234,7 +233,7 @@ As colunas e os nomes dos detalhes no portal do Azure são semelhantes na API e 
 
 Você pode se conectar a vários tipos diferentes de fontes de dados com o Power BI Desktop. Para obter mais informações, consulte os seguintes artigos:
 
-* [Conectar-se aos dados de Gerenciamento de Custos do Azure no Power BI Desktop](desktop-connect-azure-cost-management.md)
+* [Conectar-se aos dados de gerenciamento de custos do Azure no Power BI desktop](desktop-connect-azure-cost-management.md)
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Fontes de dados no Power BI Desktop](desktop-data-sources.md)
 * [Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)

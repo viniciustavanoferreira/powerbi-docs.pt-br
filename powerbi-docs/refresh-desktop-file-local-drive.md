@@ -2,7 +2,6 @@
 title: Atualizar um conjunto de dados criado com base em um arquivo do Power BI Desktop – local
 description: Atualizar um conjunto de dados criado com base em um arquivo do Power BI Desktop em uma unidade local
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/04/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 58727627656a3cb22ad7fce626d0c7e6ce746440
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: b96163b433998ad92860ad6c234aac4126cf5486
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816493"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874369"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base em um arquivo do Power BI Desktop em uma unidade local
 
@@ -68,5 +67,5 @@ Lembre-se de deixar a opção **Enviar email de notificação de falha de atuali
 - [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)
 - [Solução de problemas do Gateway do Power BI – Pessoal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

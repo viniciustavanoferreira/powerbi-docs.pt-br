@@ -2,7 +2,6 @@
 title: Compartilhe os painéis e os relatórios do Power BI com colegas e outras pessoas
 description: Como compartilhar relatórios e dashboards do Power BI com colegas dentro e fora de sua organização e o que você precisa saber sobre compartilhamento.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da7b8999dfb6185b044960dde7795008d7e716f7
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 05a134f50f9a09ae5b51578a5e4e5f0a01a95740
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655108"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871518"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Compartilhe os painéis e os relatórios do Power BI com colegas e outras pessoas
 O *compartilhamento* é uma boa maneira de conceder acesso a algumas pessoas aos dashboards e relatórios. O Power BI também oferece [várias outras maneiras para colaborar e distribuir painéis e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -121,7 +120,7 @@ Coisas para se lembrar a respeito do compartilhamento de painéis e relatórios:
 
 * Em geral, você e seus colegas veem os mesmos dados no painel ou relatório. Portanto, se você tiver permissões para ver mais dados do que eles, eles poderão ver todos os seus dados no painel ou relatório. No entanto, se a [RLS (segurança em nível de linha)](service-admin-rls.md) for aplicada ao conjunto de dados subjacente a um painel ou relatório, as credenciais de cada pessoa serão usadas para determinar quais dados elas podem acessar.
 * Todas as pessoas com quem você compartilha o dashboard podem vê-lo e interagir com os relatórios relacionados no [Modo de Exibição de Leitura](consumer/end-user-reading-view.md#reading-view). Elas não podem criar relatórios nem salvar alterações nos relatórios existentes.
-* Ninguém pode ver nem baixar o conjunto de dados, mas é possível acessá-lo diretamente usando o recurso Analisar no Excel. Um administrador pode restringir a capacidade de usar o Analisar no Excel de todos em um grupo. No entanto, a restrição é para todos nesse grupo, para cada espaço de trabalho ao qual ele pertence.
+* Ninguém pode ver nem baixar o conjunto de dados, mas é possível acessá-lo diretamente usando o recurso Analisar no Excel. Um administrador pode restringir a capacidade de usar o Analisar no Excel de todos em um grupo. No entanto, a restrição é para todos nesse grupo, para cada workspace ao qual ele pertence.
 * Qualquer pessoa pode [atualizar os dados](refresh-data.md) manualmente.
 * Se você usar o Office 365 para email, poderá compartilhar com os membros de um grupo de distribuição inserindo o endereço de email associado ao grupo de distribuição.
 * Os colegas de trabalho que têm o mesmo domínio de email que você e os colegas cujos domínios são diferentes, mas estão registrados no mesmo locatário, podem compartilhar o dashboard com outras pessoas. Por exemplo, se os domínios contoso.com e contoso2.com estiverem registrados no mesmo locatário e o endereço de email for konrads@contoso.com, tanto ravali@contoso.com quanto gustav@contoso2.com poderão ser compartilhados, desde que você tenha concedido permissão para compartilhar.
@@ -167,5 +166,5 @@ Para compartilhar um dashboard ou relatório, você precisa de permissão para c
 * Tem comentários? Vá para o [site da comunidade do Power BI](https://community.powerbi.com/) para fazer sugestões.
 * [Como devo colaborar e compartilhar relatórios e dashboards?](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Compartilhar um relatório do Power BI filtrado](service-share-reports.md).
-* Dúvidas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+* Dúvidas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 

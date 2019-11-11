@@ -2,7 +2,6 @@
 title: Dicas para criar um painel bom no Power BI
 description: Dicas para criar um painel bom no Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023764"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877398"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Dicas para criar um painel bom no Power BI
 Agora que você criou um painel e adicionou alguns blocos, pense em como tornar seu painel não apenas bonito, mas também funcional. Em geral, isso significa fazer destacar as informações mais importantes e torná-las claras e organizadas.
@@ -24,8 +23,6 @@ Agora que você criou um painel e adicionou alguns blocos, pense em como tornar 
 
 > [!TIP]
 > Gosta deste dashboard? Você pode baixá-lo, bem como os relatórios relacionados, no AppSource. Vá até **Obter dados** > **Serviços**. Procure **Exemplo da Microsoft – Vendas e Marketing** > **Obter agora**.
-
-Muitos dos princípios de design dos relatórios se aplicam também aos dashboards. Leia o white paper [Best design principles for reports and visualizations](visuals/power-bi-visualization-best-practices.md) (Princípios recomendados para relatórios e visualizações) para saber mais.
 
 Veja algumas dicas para trabalhar com dashboards.
 
@@ -85,4 +82,4 @@ Para dominar a arte do design do painel excelente, considere a possibilidade de 
 ## <a name="next-steps"></a>Próximas etapas
 [Criar um painel por meio de um relatório](service-dashboard-create.md)  
 [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

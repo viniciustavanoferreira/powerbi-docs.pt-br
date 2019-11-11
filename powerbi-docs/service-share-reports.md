@@ -2,7 +2,6 @@
 title: Duas maneiras de compartilhar um relatório filtrado do Power BI
 description: Aprenda duas maneiras de filtrar um relatório do Power BI e compartilhá-lo com colegas de trabalho em sua organização.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877721"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871438"
 ---
 # <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Duas maneiras de compartilhar um relatório filtrado do Power BI
 O *compartilhamento* é uma boa maneira de conceder acesso a algumas pessoas aos dashboards e relatórios. Se você deseja compartilhar uma versão filtrada de um relatório? Talvez um relatório que mostre apenas os dados para uma cidade específica, vendedor ou ano. Tente filtrar um relatório e compartilhá-lo ou criar uma URL personalizada. O relatório é filtrado quando os destinatários o abrem pela primeira vez. Eles poderão remover o filtro modificando a URL. 
@@ -74,6 +73,6 @@ Confira o artigo [Filtrar um relatório usando parâmetros da cadeia de consulta
 ## <a name="next-steps"></a>Próximas etapas
 * [Maneiras de compartilhar seu trabalho no Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Compartilhar um dashboard](service-share-dashboards.md)
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 * Tem comentários? Vá para o [site da comunidade do Power BI](https://community.powerbi.com/) para fazer sugestões.
 

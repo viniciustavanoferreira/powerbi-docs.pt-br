@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847651"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799634"
 ---
 Bem-vindo à seção **Aprendizado Interativo** do Power BI, desenvolvida para apresentá-lo ao **DAX**.
 
 **DAX** significa **Data Analysis Expressions**, e é a linguagem de fórmula usada no Power BI (também usada pelo Power BI nos bastidores). O DAX também pode ser encontrado em outras ofertas da Microsoft, como o Power Pivot e SSAS Tabular, mas estes tópicos de Aprendizado Interativo se concentram em como o DAX é usado – e pode ser usado por você – no Power BI.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX e essa série de vídeos de Aprendizado Interativo
-O objetivo desta seção **Aprendizado Interativo** é ensinar a você noções básicas e fundamentos do DAX – considerações sobre o DAX, como ele funciona e os recursos mais úteis, explicados (e compreendidos com muita experiência) por um renomado especialista no DAX, [Alberto Ferrari](http://www.sqlbi.com/learning-dax).
+O objetivo desta seção **Aprendizado Interativo** é ensinar a você noções básicas e fundamentos do DAX – considerações sobre o DAX, como ele funciona e os recursos mais úteis, explicados (e compreendidos com muita experiência) por um renomado especialista no DAX, [Alberto Ferrari](https://www.sqlbi.com/learning-dax).
 
 ![Retrato de Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
@@ -30,7 +30,7 @@ O DAX usa a sobrecarga de operador, o que significa que é possível combinar ti
 
 Em particular, há um tipo de dados com o qual você provavelmente trabalhará muito no Power BI: **DateTime**. **DateTime** é armazenado como um valor de ponto flutuante com partes de inteiro e decimal. DateTime pode ser usado com precisão para cálculos de qualquer período após 1º de março de 1900.
 
-> Conteúdo do vídeo gentilmente cedido por [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Conteúdo do vídeo gentilmente cedido por [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
 > 
 > 
 

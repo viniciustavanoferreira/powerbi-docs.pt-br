@@ -2,7 +2,6 @@
 title: Usar gateways pessoais no Power BI
 description: Fornece informações sobre o gateway de dados local (modo pessoal) para o Power BI que os indivíduos podem usar para se conectar a dados locais.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b910f20935c76f8723d8ca876cb57d811976772b
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729929"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881512"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Usar gateways pessoais no Power BI
 
@@ -102,4 +101,4 @@ A Combinação Rápida em um gateway pessoal ajuda a ignorar níveis de privacid
 
 * [Definindo as configurações de proxy do gateway de dados locais](/data-integration/gateway/service-gateway-proxy)  
 
-Mais perguntas? Experimente a [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente a [Comunidade do Power BI](https://community.powerbi.com/).

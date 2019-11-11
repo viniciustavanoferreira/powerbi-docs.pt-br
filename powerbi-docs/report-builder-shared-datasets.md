@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431518"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791275"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Usar conjuntos de dados compartilhados no Construtor de Relatórios do Power BI
 
@@ -30,7 +30,7 @@ Aqui está uma lista de o que você precisa e não precisa para usar um conjunto
 - Para acessar um conjunto de dados do Power BI, você precisa ter permissão de build para esse conjunto. Leia sobre [permissão de build](service-datasets-build-permissions.md).
 - Você não precisa de uma licença do Power BI Pro para criar um relatório paginado no Construtor de Relatórios. 
 - Você precisa de uma licença do Power BI Pro para publicar o relatório paginado. Você também precisa de pelo menos uma função de colaborador para um workspace em uma capacidade Premium. 
-- Opcional: Se você quiser acompanhar este artigo, baixe o arquivo [.pbix de exemplo de análise de varejo](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), abra-o no Power BI Desktop e adicione uma tabela com muitas colunas. No painel **Formatar**, desative os **Totais**. Em seguida, publique-o em um workspace no serviço do Power BI.
+- Opcional: Se você quiser acompanhar este artigo, baixe o arquivo [.pbix de exemplo de análise de varejo](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), abra-o no Power BI Desktop e adicione uma tabela com muitas colunas. No painel **Formatar**, desative os **Totais**. Em seguida, publique-o em um workspace no serviço do Power BI.
 
     ![Totais desativados](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

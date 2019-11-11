@@ -3,18 +3,17 @@ title: Adicionar opções de formatação a um visual personalizado do Power BI
 description: Um tutorial sobre como desenvolver opções de formato visual personalizado do Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: e953fdc9741a7faa69f1dab04f2298f8b7d5db13
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 084ef3affcec7a177bab95aa5809161dd591858a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72309124"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880212"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Tutorial: Adicionar opções de formatação a um visual do Power BI
 
@@ -129,7 +128,7 @@ Você pode adicionar propriedades personalizadas para ativar a configuração da
     import { VisualSettings } from "./settings";
     ```
 
-    e, na classe **Visual**, adicione a propriedade a seguir:
+    e na classe **Visual**, adicione a seguinte propriedade:
 
     ```typescript
     private visualSettings: VisualSettings;
@@ -221,7 +220,7 @@ Insira valores de propriedade para o projeto visual personalizado, atualize o ar
 
 6. Salve o arquivo **pbiviz.json**.
 
-7. No objeto **assets**, observe que o documento define um caminho para um ícone. O ícone é a imagem que aparece no painel **_Visualizações_**. Ele deve ser um arquivo **PNG**, *20 pixels por 20 pixels*.
+7. No objeto **assets**, observe que o documento define um caminho para um ícone. O ícone é a imagem que aparece no painel **_Visualizações_** . Ele deve ser um arquivo **PNG**, *20 pixels por 20 pixels*.
 
 8. No Windows Explorer, copie o arquivo icon.png, e cole-o para substituir o arquivo padrão localizado na pasta assets.
 
@@ -249,7 +248,7 @@ Agora você pode abrir o relatório do Power BI Desktop e importar o visual pers
 
 1. Abra o **Power BI Desktop**, crie um novo relatório com qualquer *conjunto de dados de amostra*
 
-2. No painel **_Visualizações_**, selecione as **reticências** e, em seguida, selecione **Importar do arquivo**.
+2. No painel **_Visualizações_** , selecione as **reticências** e, em seguida, selecione **Importar do arquivo**.
 
     ![Adicionar visualização personalizada à área de trabalho](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
@@ -261,7 +260,7 @@ Agora você pode abrir o relatório do Power BI Desktop e importar o visual pers
 
 6. Após a importação bem-sucedida, selecione **OK**.
 
-7. Verifique se o visual foi adicionado ao painel **_Visualizações_**.
+7. Verifique se o visual foi adicionado ao painel **_Visualizações_** .
 
     ![Exibir no painel de visualização do Power BI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

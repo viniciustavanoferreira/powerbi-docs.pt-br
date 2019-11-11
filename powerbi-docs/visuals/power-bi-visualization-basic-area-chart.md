@@ -2,7 +2,6 @@
 title: Gráfico de área básico
 description: Gráfico de área básico.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7a4021999a39d88b78d31aaa55d7f9c08a93d8e
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: ccba97d7fc4df050b9685dd9c2a69af36f62a485
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544159"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880963"
 ---
 # <a name="basic-area-chart"></a>Gráfico de área básico
 
@@ -34,7 +33,7 @@ Os gráficos de áreas básicos são uma ótima opção:
 * para as séries individuais representando conjunto contável fisicamente
 
 ### <a name="prerequisites"></a>Pré-requisitos
-Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
    
@@ -48,7 +47,7 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://downl
 ## <a name="create-a-basic-area-chart"></a>Criar um gráfico de áreas básico
  
 
-1. Estas etapas ajudarão você a criar um gráfico de área que mostra este ano de vendas e as vendas do ano passado por mês.
+1. Essas etapas ajudarão você a criar um gráfico de áreas que exibe as vendas deste ano e as vendas do ano passado por mês.
    
    a. No painel Campos, selecione **Vendas \> Vendas do Último Ano** e **Vendas deste Ano > Valor**.
 
@@ -56,9 +55,9 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://downl
 
    b.  Converta o gráfico em um gráfico de área básico, selecionando o ícone de Gráfico de área do painel Visualizações.
 
-   ![ícone do gráfico de área](media/power-bi-visualization-basic-area-chart/convertchart.png)
+   ![ícone de gráfico de área](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  Selecione **Hora \> FiscalMonth** para adicioná-la à seção **Eixo** também.   
+   c.  Selecione **Tempo \> MêsFiscal** para adicioná-lo à caixa **Eixo**.   
    ![valores de eixo do gráfico de área](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  Para exibir o gráfico por mês, selecione as reticências (canto superior direito do visual) e escolha **Classificar por mês**. Para alterar a ordem de classificação, selecione as reticências novamente e selecione **Classificar em ordem crescente** ou **Classificar em ordem decrescente**.
@@ -68,9 +67,9 @@ Para obter informações sobre como usar o painel Filtros, veja [Adicionar um fi
 
 Para destacar uma área específica em seu gráfico, selecione essa área ou a respectiva borda superior.  Ao contrário de outros tipos de visualização, se houver outras visualizações na mesma página, destacar um gráfico de área básico não aplicará filtro cruzado às outras visualizações na página do relatório. No entanto, os gráficos de áreas são um alvo de filtragem cruzada acionado por outras visualizações na página do relatório. 
 
-1. Teste-o selecionando seu gráfico de área e copiando-o para outra página do relatório **Análise de novas lojas** (Ctrl+C e Ctrl+V).
-2. Selecione uma das áreas sombreadas do gráfico de área e, em seguida, a outra área sombreada. Você não observará nenhum impacto às outras visualizações na página.
-1. Agora, selecione um elemento. Observe o impacto sobre o gráfico de área – ele é filtrado.
+1. Experimente, selecionando o gráfico de áreas e copiando-o para a página do relatório **Nova Análise de Loja** (CTRL-C e CTRL-V).
+2. Selecione uma das áreas sombreadas do gráfico de áreas e selecione a outra área sombreada. Você não observará nenhum impacto às outras visualizações na página.
+1. Agora selecione um elemento. Observe o impacto no gráfico de áreas - ele é filtrado cruzadamente.
 
     ![Exemplos de filtro](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 

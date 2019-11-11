@@ -3,19 +3,18 @@ title: Como configurar cargas de trabalho no Power BI Premium
 description: Saiba como configurar cargas de trabalho em uma capacidade Premium do Power BI.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307387"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856827"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho em uma capacidade Premium
 
@@ -70,7 +69,7 @@ A carga de trabalho de conjuntos de dados está habilitada por padrão e não po
 | **Contagem máxima do conjunto de linhas de resultado** | O número máximo de linhas retornadas em uma consulta DAX. O valor padrão é -1 (nenhum limite) e o intervalo permitido é de 100.000 a 214.7483.647. |
 | **Limite de memória de consulta (%)** | O percentual máximo de memória disponível que pode ser usada para resultados temporários em uma consulta ou em uma medida DAX. |
 | **Tempo limite da consulta (segundos)** | A quantidade máxima de tempo antes que uma consulta expire. O padrão é de 3.600 segundos (1 hora). Um valor de 0 especifica que as consultas não atingirão o tempo limite. |
-| **Atualização automática de página (versão prévia)** | Alternar ativar/desativar para permitir que os workspaces Premium tenham relatórios com a atualização automática de página. |
+| **Atualização automática de página (visualização)** | Botão de alternância para permitir que espaços de trabalho premium tenham relatórios com atualização automática de página. |
 | **Intervalo mínimo de atualização** | Se a atualização automática de página estiver ativada, esse será o intervalo mínimo permitido para o intervalo de atualização de página. O valor padrão é cinco minutos, e o mínimo permitido é um segundo. |
 |  |  |  |
 
@@ -115,7 +114,7 @@ O tempo combinado de todas as consultas é de 75 minutos, mas o limite de config
 
 Observe que os relatórios do Power BI substituem esse padrão com um tempo limite muito menor para cada consulta na capacidade. O tempo limite para cada consulta geralmente é de cerca de três minutos.
 
-#### <a name="automatic-page-refresh-preview"></a>Atualização automática de página (versão prévia)
+#### <a name="automatic-page-refresh-preview"></a>Atualização automática de página (visualização)
 
 Quando habilitada, a atualização automática de página permite que os usuários da capacidade Premium atualizem páginas de relatórios em um intervalo definido nas fontes do DirectQuery. Como administrador de capacidade, você pode fazer o seguinte:
 
@@ -124,9 +123,9 @@ Quando habilitada, a atualização automática de página permite que os usuári
 
 A imagem a seguir mostra o local da configuração do intervalo de atualização automática:
 
-![configuração de administrador para o intervalo de atualização automática](media/service-admin-premium-workloads/automatic-refresh-interval.png)
+![configuração de administrador para intervalo de atualização automática](media/service-admin-premium-workloads/automatic-refresh-interval.png)
 
-As consultas criadas pela atualização automática de página vão diretamente para a fonte de dados, portanto, é importante considerar a confiabilidade e a carga dessas fontes ao permitir a atualização automática de página em sua organização. 
+As consultas criadas pela atualização automática de página vão diretamente para a fonte de dados; portanto, é importante considerar a confiabilidade e carga dessas fontes ao permitir a atualização automática de página em sua organização. 
 
 ### <a name="dataflows"></a>Fluxos de dados
 
@@ -195,7 +194,7 @@ O [aplicativo de Métricas de capacidade do Power BI Premium](service-admin-prem
 
 [Otimizar as capacidades do Power BI Premium](service-premium-capacity-optimize.md)     
 [Preparação de dados de autoatendimento no Power BI com Fluxos de dados](service-dataflows-overview.md)   
-[O que são os relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
-[Atualização automática de página no Power BI Desktop (versão prévia)](desktop-automatic-page-refresh.md)
+[O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
+[Atualização automática de página no Power BI Desktop (visualização)](desktop-automatic-page-refresh.md)
 
-Mais perguntas? [Perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Perguntar à Comunidade do Power BI](https://community.powerbi.com/)

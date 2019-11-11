@@ -2,7 +2,6 @@
 title: Compartilhar um conjunto de dados (versão prévia)
 description: Como um proprietário de conjunto de dados, você pode criar e compartilhar seus conjuntos de dados para que outras pessoas possam usá-los. Saiba como compartilhá-los.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c490228a1dfa1e6c842db3c41ab077a99f35f975
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: ce8a404a53eebb88bbd72998f10fd94a649b8af8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72021104"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872478"
 ---
 # <a name="share-a-dataset-preview"></a>Compartilhar um conjunto de dados (versão prévia)
 
@@ -55,4 +54,4 @@ Quando você tiver um conjunto de dados compartilhado em seu workspace, talvez v
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Uso do R no Editor do Power Query
 description: Uso do R no Editor de Consultas do Power BI Desktop para análise avançada
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841521"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877936"
 ---
 # <a name="use-r-in-query-editor"></a>Uso do R no Editor de Consultas
 
@@ -50,7 +49,7 @@ Instalar a **mice**:
 
 Para demonstrar o uso do **R** no **Editor de Consultas**, usaremos um conjunto de dados de exemplo de mercado de ações contido em um arquivo .csv e seguiremos as seguintes etapas:
 
-1. [Baixe o arquivo **EuStockMarkets_NA.csv**](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Lembre-se do local em que você o salvou.
+1. [Baixe o arquivo **EuStockMarkets_NA.csv**](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Lembre-se do local em que você o salvou.
 
 1. Carregue o arquivo no **Power BI Desktop**: na faixa de opções **Página Inicial**, selecione **Obter Dados > Texto/CSV**.
 
@@ -108,7 +107,7 @@ Agora, podemos criar um visual para ver como o código de script do R preencheu 
 Você pode salvar todos os visuais concluídos em um arquivo .pbix do **Power BI Desktop** e usar o modelo de dados e os respectivos scripts do R no serviço do Power BI.
 
 > [!NOTE]
-> Você pode [baixar um arquivo .pbix](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) com todas essas etapas concluídas.
+> Você pode [baixar um arquivo .pbix](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) com todas essas etapas concluídas.
 
 Depois de carregar o arquivo .pbix no serviço do Power BI, você precisará executar etapas adicionais para habilitar a atualização de dados de serviço e os visuais atualizados:  
 

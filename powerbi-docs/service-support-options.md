@@ -2,19 +2,18 @@
 title: Opções de suporte do Power BI Pro e do Power BI Premium
 description: Este artigo descreve as opções de suporte disponíveis para clientes do Power BI Pro e do Power BI Premium.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305827"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871408"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Opções de suporte do Power BI Pro e do Power BI Premium
 
@@ -55,4 +54,4 @@ Com esse workshop, você terá uma visão geral completa dos recursos e das func
 
   - **WorkshopPLUS – IA de dados: análise de dados avançada com o Power BI** Este curso proporcionará o conhecimento para entender e implementar os princípios-chave dos aspectos de modelagem de dados no Power BI usando ferramentas como o Power BI Desktop e o serviço de nuvem para publicação e consumo de ativos de BI. Em seguida, o curso abrange as noções básicas do desenvolvimento de relatórios, análise integrada no Power BI para inserir o conteúdo em aplicativos personalizados, dashboards em tempo real e análise avançada envolvendo ciência de dados e desenvolvimento no Power BI.
 
-Entre em contato com o gerente técnico de contas da Microsoft para saber mais detalhes. Se você ainda não tiver um contrato do Suporte Premier da Microsoft, saiba mais em [Suporte Premier](https://support.microsoft.com/en-us/premier).
+Entre em contato com o gerente técnico de contas da Microsoft para saber mais detalhes. Se você ainda não tiver um contrato do Suporte Premier da Microsoft, saiba mais em [Suporte Premier](https://support.microsoft.com/premier).

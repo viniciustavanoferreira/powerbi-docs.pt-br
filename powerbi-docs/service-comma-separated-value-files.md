@@ -2,7 +2,6 @@
 title: Obter dados de arquivos CSV (Valores Separados por Vírgula)
 description: Saiba como obter dados de arquivos CSV no Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513330"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855516"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Obter dados de arquivos CSV (Valores Separados por Vírgula)
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-Arquivos de valores separados por vírgula, geralmente conhecidos como .CSV, são arquivos de texto simples com linhas de dados em que cada valor é separado por uma vírgula. Esses tipos de arquivos podem conter grandes quantidades de dados em um tamanho do arquivo relativamente pequeno, tornando-os uma fonte de dados ideal para o Power BI. É possível baixar um arquivo .CSV de exemplo [aqui](http://go.microsoft.com/fwlink/?LinkID=619356).
+Arquivos de valores separados por vírgula, geralmente conhecidos como .CSV, são arquivos de texto simples com linhas de dados em que cada valor é separado por uma vírgula. Esses tipos de arquivos podem conter grandes quantidades de dados em um tamanho do arquivo relativamente pequeno, tornando-os uma fonte de dados ideal para o Power BI. É possível baixar um arquivo .CSV de exemplo [aqui](https://go.microsoft.com/fwlink/?LinkID=619356).
 
 Caso você tenha um .CSV, é hora de inseri-lo em seu site do Power BI como um conjunto de dados, no qual será possível começar a explorar seus dados, criar alguns dashboards e compartilhar suas ideias com outras pessoas.
 

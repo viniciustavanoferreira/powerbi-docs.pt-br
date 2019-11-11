@@ -3,18 +3,17 @@ title: Linha do tempo de suporte para Servidor de Relatório do Power BI
 description: Uma lista das versões e a disponibilidade do Servidor de Relatório do Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/26/2019
-ms.openlocfilehash: 982c1553459a6b6a7e3380b71b2c05772da72496
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: ef1608f35b1d038322e1c2aa5a6a3e41f47f8d02
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325603"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873970"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Linha do tempo de suporte para Servidor de Relatório do Power BI
 

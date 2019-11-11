@@ -2,7 +2,6 @@
 title: Usar agregações no Power BI Desktop
 description: Execute análises interativas em Big Data no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325207"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876735"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Agregações no Power BI Desktop
 
@@ -60,7 +59,7 @@ A imagem a seguir mostra este modelo.
 ![tabela de agregação em um modelo](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> A tabela **Agregação de vendas** é apenas outra tabela; portanto, ela tem a flexibilidade de ser carregada de diversas formas. Por exemplo, a agregação pode ser executada no banco de dados de origem usando processos ETL/ELT ou pela [Expressão M](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) para a tabela. Ela pode usar o Modo de armazenamento de importação com ou sem a [atualização incremental no Power BI Premium](service-premium-incremental-refresh.md) ou pode ser o DirectQuery e otimizada para consultas rápidas usando [índices columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Essa flexibilidade permite arquiteturas equilibradas que distribuem a carga de consulta para evitar gargalos.
+> A tabela **Agregação de vendas** é apenas outra tabela; portanto, ela tem a flexibilidade de ser carregada de diversas formas. Por exemplo, a agregação pode ser executada no banco de dados de origem usando processos ETL/ELT ou pela [Expressão M](/powerquery-m/power-query-m-function-reference) para a tabela. Ela pode usar o Modo de armazenamento de importação com ou sem a [atualização incremental no Power BI Premium](service-premium-incremental-refresh.md) ou pode ser o DirectQuery e otimizada para consultas rápidas usando [índices columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Essa flexibilidade permite arquiteturas equilibradas que distribuem a carga de consulta para evitar gargalos.
 
 ### <a name="storage-mode"></a>Modo de armazenamento 
 Vamos continuar com o exemplo que estamos usando. Podemos definir o modo de armazenamento de **Agregação de vendas** como **Importação** para agilizar as consultas.

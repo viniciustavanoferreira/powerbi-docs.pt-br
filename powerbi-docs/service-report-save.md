@@ -2,7 +2,6 @@
 title: Salve um relatório no Power BI
 description: Salvar um relatório no serviço do Power BI e no Power BI Desktop
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d5237ebbaf1be6aac7fcde252754436067ae932e
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1dfb75595de939f99bf269d67bf9c29a2f0db249
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720820"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871622"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Salvar um relatório no serviço do Power BI e no Power BI Desktop
 Depois de fazer alterações em um relatório no Power BI, você poderá salvá-lo, salvá-lo com um novo nome ou apenas fechá-lo sem salvar as alterações. Digamos que você abra o relatório, cria uma visualização e fixa-o em seu painel. Se você fechá-lo agora sem salvar as alterações, o bloco permanece no painel, mas a visualização não será salva no relatório. Ao clicar nesse bloco no painel, o relatório é aberto, mas a visualização não existe mais no relatório.
@@ -41,5 +40,5 @@ Leia mais sobre [relatórios no Power BI](consumer/end-user-reports.md)
 
 [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

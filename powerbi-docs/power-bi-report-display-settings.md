@@ -2,7 +2,6 @@
 title: A página exibe as configurações em um relatório do Power BI
 description: Configurações de exibição de página e configurações de visualização de página para um relatório
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 97df2d6910f0215bd01875c88ea5d81d5dcc2c7c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720835"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875133"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as configurações em um relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Às vezes, isso pode ser desafiador, porque você e seus colegas podem exibir esses relatórios em telas com taxas de proporção e tamanhos diferentes. 
@@ -80,5 +79,5 @@ Leia mais sobre [relatórios no Power BI](consumer/end-user-reports.md)
 
 [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Dez dicas para obter ajuda com suas perguntas do Power BI
 description: Veja 10 maneiras de obter ajuda quando tiver uma dúvida sobre o funcionamento do Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060316"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876935"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Dez dicas para obter ajuda com suas perguntas do Power BI
 Alguma vez você já ficou frustrado ao usar o Power BI ou sentiu dificuldades ao não obter respostas para suas perguntas sobre ele quando precisou, ou seja, não encontrou ajuda a tempo (Just-In-Time)? 
@@ -55,7 +54,7 @@ Você pode encontrar outras opções online, como:
 * Procure sessões de treinamento presenciais "**Dashboard em um dia**".
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7\. Pergunte ou pesquise na comunidade do Power BI
-Faça perguntas e encontre respostas na [comunidade do Power BI](http://community.powerbi.com). Especialistas em BI do mundo todo participam ativamente da comunidade. Aproveite o conhecimento deles usando esse recurso.
+Faça perguntas e encontre respostas na [comunidade do Power BI](https://community.powerbi.com). Especialistas em BI do mundo todo participam ativamente da comunidade. Aproveite o conhecimento deles usando esse recurso.
 
 ## <a name="8-join-or-create-a-power-bi-user-group"></a>8\. Faça parte ou crie um grupo de usuários do Power BI
 Faça parte de um [grupo de usuário do Power BI](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups) e peça ao seu grupo para que ajudem a responder suas perguntas. Ou comece seu próprio grupo de usuários e crie uma comunidade de pessoas que se ajudam, com foco em suas necessidades: na sua área, para seus dados, no seu fuso horário.
@@ -70,5 +69,5 @@ Por exemplo, digamos que você esteja se perguntando se é possível compartilha
 
 ## <a name="next-steps"></a>Próximas etapas
 * [O que é o Power BI?](fundamentals/power-bi-overview.md)
-* Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/)
+* Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/)
 * Ainda tem um problema? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/)

@@ -3,18 +3,17 @@ title: Hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Onl
 description: Além de exibir os relatórios do Power BI no portal da Web, o Servidor de Relatórios do Power BI pode hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online).
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769574"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874102"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure seu servidor de relatório para hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online)
 
@@ -54,7 +53,7 @@ Realize esses procedimentos no servidor que executará o Servidor do Office Onli
 
 Se você planeja usar os recursos do Excel Online que utilizam acesso a dados externos (como o Power Pivot), observe que o Servidor do Office Online deve residir na mesma floresta do Active Directory que seus usuários, bem como qualquer fonte de dados externa que você planeje acessar usando a autenticação baseada no Windows.
 
-1. Baixar o Servidor do Office Online do [VLSC (Centro de Atendimento de Licenciamento por Volume)](http://go.microsoft.com/fwlink/p/?LinkId=256561). O download está localizado nesses produtos do Office no portal do VLSC. Para fins de desenvolvimento, você pode baixar o OOS dos downloads do assinante do MSDN.
+1. Baixar o Servidor do Office Online do [VLSC (Centro de Atendimento de Licenciamento por Volume)](https://go.microsoft.com/fwlink/p/?LinkId=256561). O download está localizado nesses produtos do Office no portal do VLSC. Para fins de desenvolvimento, você pode baixar o OOS dos downloads do assinante do MSDN.
 2. Execute o Setup.exe.
 3. Na página **Leia os termos de licença para Software Microsoft**, selecione **Aceito os termos deste contrato** e **Continuar**.
 4. Na página **Escolher um local do arquivo**, selecione a pasta na qual você deseja que os arquivos do Servidor do Office Online sejam instalados (por exemplo, C:\Arquivos de Programas\Microsoft Office Web Apps\*) e selecione **Instalar Agora**. Se a pasta especificada não existir, o assistente de instalação a criará para você.
@@ -69,7 +68,7 @@ Os pacotes de idioma do Servidor do Office Online permitem que os usuários exib
 
 Para instalar os pacotes de idiomas, siga estas etapas.
 
-1. Baixe os pacotes de idiomas do Servidor do Office Online do [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/p/?LinkId=798136).
+1. Baixe os pacotes de idiomas do Servidor do Office Online do [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=798136).
 2. Execute **wacserverlanguagepack.exe**.
 3. No assistente do pacote de idiomas do Servidor do Office Online, na página **Leia os termos de licença para Software Microsoft**, selecione **Aceito os termos deste contrato** e **Continuar**.
 4. Quando a instalação do Servidor do Office Online for concluída, selecione **Fechar**.
@@ -86,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parâmetros**
 
-* **– InternalURL** é o FQDN (nome de domínio totalmente qualificado) do servidor que executa o servidor do Office Online, como `http://servername.contoso.com`.
+* **– InternalURL** é o FQDN (nome de domínio totalmente qualificado) do servidor que executa o servidor do Office Online, como `https://servername.contoso.com`.
 * **– ExternalURL** é o FQDN que pode ser acessado na Internet.
 * **– CertificateName** é o nome amigável do certificado.
 
@@ -95,12 +94,12 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 Use o comando New-OfficeWebAppsFarm para criar um novo farm do Servidor do Office Online que consiste em um único servidor, conforme mostrado no exemplo a seguir.
 
 ```powershell
-New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
+New-OfficeWebAppsFarm -InternalURL "https://servername" -AllowHttp
 ```
 
 **Parâmetros**
 
-* **– InternalURL** é o nome do servidor que executa o Servidor do Office Online, como `http://servername`.
+* **– InternalURL** é o nome do servidor que executa o Servidor do Office Online, como `https://servername`.
 * **– AllowHttp** configura o farm para usar o HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Verifique se o farm do Servidor do Office Online foi criado com êxito
@@ -168,7 +167,7 @@ Para evitar problemas de firewall, talvez seja necessário abrir as portas 2382 
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>Configurar o Servidor de Relatórios do Power BI para usar o Servidor de OOS
 
-Na página **Geral** das **Configurações do site**, insira a URL de descoberta do OOS. A URL de descoberta do OOS é a *InternalUrl* usada ao implantar o servidor do OOS, seguida por */hosting/discovery*. Por exemplo, `http://servername/hosting/discovery`, para HTTP. E, `https://server.contoso.com/hosting/discovery` para HTTPS.
+Na página **Geral** das **Configurações do site**, insira a URL de descoberta do OOS. A URL de descoberta do OOS é a *InternalUrl* usada ao implantar o servidor do OOS, seguida por */hosting/discovery*. Por exemplo, `https://servername/hosting/discovery`, para HTTP. E, `https://server.contoso.com/hosting/discovery` para HTTPS.
 
 Para obter as **Configurações do site**, selecione o **ícone de engrenagem** no canto superior direito e selecione **Configurações do site**.
 
@@ -187,6 +186,6 @@ Depois de inserir a URL de descoberta e selecionar **Aplicar**, a seleção de u
 [Visão geral do administrador](admin-handbook-overview.md)  
 [Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Baixar o Construtor de Relatórios](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Baixar o SSDT (SQL Server Data Tools)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

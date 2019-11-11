@@ -2,7 +2,6 @@
 title: Certificar conjuntos de dados (versão prévia) – Power BI
 description: Saiba como orientar os usuários corporativos a conjuntos de dados confiáveis e de alta qualidade.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567334"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877156"
 ---
 # <a name="certify-datasets-preview"></a>Certificar conjuntos de dados (versão prévia)
 
@@ -43,4 +42,4 @@ Leia mais sobre como os administradores de locatários [controlam o uso de conju
 ## <a name="next-steps"></a>Próximas etapas
 
 * Leia mais sobre [como usar conjuntos de dados em workspaces](service-datasets-across-workspaces.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

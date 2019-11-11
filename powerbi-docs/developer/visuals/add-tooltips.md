@@ -3,18 +3,17 @@ title: Dicas de ferramenta em visuais do Power BI
 description: Este artigo discute como você pode exibir dicas de ferramenta em visuais do Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 3b530da369dad2bcecde47c8f92202387abd42a6
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193697"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880350"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Dicas de ferramenta em visuais do Power BI
 
@@ -108,13 +107,13 @@ O ponto de entrada único para essa classe registrar ouvintes de evento é o mé
         }
 ```
 
-* **selection: d3.Selection<Element>**: Os elementos d3 sobre quais dicas de ferramenta são manipuladas.
+* **selection: d3.Selection<Element>** : Os elementos d3 sobre quais dicas de ferramenta são manipuladas.
 
-* **getTooltipInfoDelegate: (args: TooltipEventArgs<T>) => VisualTooltipDataItem[]**: O delegado para popular o conteúdo da dica de ferramenta (o que exibir) segundo o contexto.
+* **getTooltipInfoDelegate: (args: TooltipEventArgs<T>) => VisualTooltipDataItem[]** : O delegado para popular o conteúdo da dica de ferramenta (o que exibir) segundo o contexto.
 
 * **getDataPointIdentity: (args: TooltipEventArgs<T>) => ISelectionId**: O delegado para recuperar a ID do ponto de dados (não usado neste exemplo). 
 
-* **Booliano reloadTooltipDataOnMouseMove?**: Um booliano indicando se os dados da dica de ferramenta devem ser atualizados durante um evento MouseMove (não usado neste exemplo).
+* **Booliano reloadTooltipDataOnMouseMove?** : Um booliano indicando se os dados da dica de ferramenta devem ser atualizados durante um evento MouseMove (não usado neste exemplo).
 
 Como você pode ver, `addTooltip` sairá sem realizar nenhuma ação se o `tooltipService` estiver desabilitado ou se não houver nenhuma seleção real.
 

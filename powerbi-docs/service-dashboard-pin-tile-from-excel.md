@@ -2,7 +2,6 @@
 title: Como fixar um bloco em um painel do Power BI no Excel
 description: Fixe um bloco em um painel do Power BI do Excel no OneDrive para Empresas. Ficar intervalos, gráficos e tabelas
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138012"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877423"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Fixar um bloco em um painel do Power BI a partir do Excel
 Antes de fixar um bloco da sua pasta de trabalho do Excel, conecte-a ao serviço do Power BI (app.powerbi.com). Essencialmente, a conexão com uma pasta de trabalho abre uma versão somente leitura vinculada dessa pasta de trabalho no serviço do Power BI e permite fixar intervalos nos dashboards. É possível até fixar uma planilha inteira em um dashboard.  
 Se uma pasta de trabalho foi compartilhada com você, será possível exibir os blocos fixados pelo proprietário, mas você não poderá criar blocos de dashboard. 
 
-Para obter informações mais aprofundadas sobre como o Excel e o Power BI funcionam em conjunto, consulte [Obter dados de arquivos de pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkID=521962).
+Para obter informações mais aprofundadas sobre como o Excel e o Power BI funcionam em conjunto, consulte [Obter dados de arquivos de pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 Assista a Will demonstrar várias maneiras de importar dados e de conectar-se a pastas de trabalho do Excel.
 
@@ -81,12 +80,12 @@ A seleção de um bloco de pasta de trabalho abre a pasta de trabalho vinculada 
  ![vídeo](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
-Recursos sem suporte: o Power BI usa os Serviços do Excel para recuperar os blocos da pasta de trabalho. Portanto, como não há suporte para alguns recursos na API REST dos Serviços do Excel, eles não serão vistos nos blocos do Power BI. Por exemplo: minigráficos, formatação condicional de conjunto de ícones e segmentações de tempo. Para obter uma lista completa de recursos sem suporte, veja [Recursos sem suporte na API REST dos Serviços do Excel](http://msdn.microsoft.com/library/office/ff394477.aspx)
+Recursos sem suporte: o Power BI usa os Serviços do Excel para recuperar os blocos da pasta de trabalho. Portanto, como não há suporte para alguns recursos na API REST dos Serviços do Excel, eles não serão vistos nos blocos do Power BI. Por exemplo: minigráficos, formatação condicional de conjunto de ícones e segmentações de tempo. Para obter uma lista completa de recursos sem suporte, veja [Recursos sem suporte na API REST dos Serviços do Excel](https://msdn.microsoft.com/library/office/ff394477.aspx)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Compartilhar um dashboard que contém links para uma pasta de trabalho do Excel](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Obter dados das pastas de trabalho do Excel](service-excel-workbook-files.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

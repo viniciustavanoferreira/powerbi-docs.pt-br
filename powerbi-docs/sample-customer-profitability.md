@@ -2,7 +2,6 @@
 title: 'Exemplo de Rentabilidade do Cliente para o Power BI: Faça um tour'
 description: 'Exemplo de Rentabilidade do Cliente para o Power BI: Faça um tour'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: ddda7d6aaacbcde2d71371b316d14a9cd411bd43
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523419"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874029"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: Faça um tour
 
@@ -53,11 +52,11 @@ Antes de usar o exemplo, primeiro você deve baixá-lo como um [pacote de conte�
 
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o arquivo. pbix para este exemplo
 
-Como alternativa, você pode baixar o exemplo de Rentabilidade do Cliente como um [arquivo.pbix](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix), que é projetado para uso com o Power BI Desktop.
+Como alternativa, você pode baixar o exemplo de Rentabilidade do Cliente como um [arquivo.pbix](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix), que é projetado para uso com o Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkId=529781). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529781). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que é nosso painel está dizendo?
 
@@ -108,7 +107,7 @@ Dois blocos neste dashboard, **Destino vs Real** e **Crescimento de receita ano 
 
     b. A primeira Tabela Dinâmica informa que o crescimento de receita de Carlos para seu produto principal, Primus, diminuiu 152% com relação ao ano passado. O gráfico **Variação de Receita Ano a Ano** mostra que, na maioria dos meses, ele está abaixo do orçamento.  
 
-    ![Tabela dinâmica](media/sample-customer-profitability/power-bi-pivotchart.png)
+    ![Tabela Dinâmica](media/sample-customer-profitability/power-bi-pivotchart.png)
 
     ![Resultados de Carlos](media/sample-customer-profitability/power-bi-carlos.png)
 

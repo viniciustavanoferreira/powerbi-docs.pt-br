@@ -2,7 +2,6 @@
 title: Integração entre fluxos de dados e o Azure Data Lake
 description: Visão geral de como os fluxos de dados do Power BI integram-se ao Azure Data Lake Storage Gen2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5b13fdc1f65fe2650ea0fb4fee1be20611ac3e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150435"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877306"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Integração entre fluxos de dados e o Azure Data Lake (versão prévia)
 
@@ -97,4 +96,4 @@ Leia este artigo de visão geral para saber mais sobre o Common Data Service:
 * [Pastas do CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Definição de arquivo de modelo do CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-E você pode sempre tentar [fazer perguntas à Comunidade do Power BI](http://community.powerbi.com/).
+E você pode sempre tentar [fazer perguntas à Comunidade do Power BI](https://community.powerbi.com/).

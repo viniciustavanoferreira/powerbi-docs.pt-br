@@ -2,7 +2,6 @@
 title: Visão geral de Consulta no Power BI Desktop
 description: Visão geral de Consulta no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 56c38a4e42dcdb3fb22e9dc92446c7e963f50e3e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513562"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876294"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Visão geral de Consulta no Power BI Desktop
 Com o **Power BI Desktop** você pode se conectar ao mundo dos dados, criar relatórios atraentes e fundamentais e compartilhar seus esforços com outras pessoas — que poderão se basear em seu trabalho e expandir seus esforços de business intelligence.
@@ -47,7 +46,7 @@ Sem conexões de dados, o **Editor de Consultas** é exibido como um painel em b
 
 Quando uma consulta é carregada, a exibição do **Editor de Consultas** torna-se mais interessante. Se nos conectarmos à fonte de dados da Web a seguir, o **Editor de Consultas** carrega informações sobre os dados, que você pode começar a formatar em seguida.
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Eis como o **Editor de Consultas** aparece após o estabelecimento de uma conexão de dados:
 

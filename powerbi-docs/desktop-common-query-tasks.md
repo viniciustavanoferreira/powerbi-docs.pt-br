@@ -2,7 +2,6 @@
 title: Tarefas comuns de consulta no Power BI Desktop
 description: Tarefas comuns de consulta no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239455"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878668"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tarefas comuns de consulta no Power BI Desktop
 Ao trabalhar na janela do **Editor de Consultas** do Power BI Desktop, há uma série de tarefas frequentemente usadas. Este documento demonstra as tarefas comuns e fornece links para informações adicionais. 
@@ -31,9 +30,9 @@ As tarefas comuns de consulta demonstradas aqui são as seguintes:
 
 Usaremos algumas conexões de dados para concluir essas tarefas. Os dados estão disponíveis para conexão ou download, caso você deseje executar essas tarefas por conta própria.
 
-A primeira conexão de dados é uma pasta de trabalho do Excel, que pode ser baixada [desse link](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). A outra é um recurso da Web (que também é usado em outro conteúdo de ajuda do Power BI Desktop), que pode ser acessado aqui:
+A primeira conexão de dados é uma pasta de trabalho do Excel, que pode ser baixada [desse link](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). A outra é um recurso da Web (que também é usado em outro conteúdo de ajuda do Power BI Desktop), que pode ser acessado aqui:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 É nas etapas necessárias para conectar-se a ambas as fontes de dados que começam as tarefas comuns de Consulta.
 
@@ -142,7 +141,7 @@ Todas as etapas aplicadas de cada consulta são mantidas pelo Editor de Consulta
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Veja aqui o **Editor Avançado**, com as etapas de consulta associadas à consulta **USA\_StudentEnrollment** exibida. Essas etapas são criadas na Linguagem de Fórmula do Power Query, frequentemente designada como **M**. Para obter informações, veja [Saiba mais sobre as fórmulas do Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Para exibir a especificação da linguagem, confira a [Especificação da Linguagem de Fórmula do Microsoft Power Query para Excel](http://go.microsoft.com/fwlink/?linkid=320633).
+Veja aqui o **Editor Avançado**, com as etapas de consulta associadas à consulta **USA\_StudentEnrollment** exibida. Essas etapas são criadas na Linguagem de Fórmula do Power Query, frequentemente designada como **M**. Para obter informações, veja [Saiba mais sobre as fórmulas do Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Para exibir a especificação da linguagem, confira a [Especificação da Linguagem de Fórmula do Microsoft Power Query para Excel](/powerquery-m/excel-workbook).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

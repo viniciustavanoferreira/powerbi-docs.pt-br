@@ -2,7 +2,6 @@
 title: Aceitar a versão prévia dos recursos
 description: Como ligar (e desligar) recursos do Power BI em Versão Prévia.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b2d658daade3ab1aa2a1c09dc33c0e7d48636910
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5189c92c9da29b38d9ffaa4bf59e271e08fc4b2c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141510"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862714"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Aceitar a versão prévia dos recursos do serviço do Power BI
 ## <a name="what-are-preview-features"></a>O que é a *versão prévia dos recursos*?
@@ -34,5 +33,5 @@ ms.locfileid: "71141510"
 4. Para desligar a versão prévia dos recursos, siga as etapas 1 a 3 acima e, na etapa 3, escolha **Desativado** ou remova a marca de seleção e selecione **Aplicar**.
 
 
-Tem dúvidas ou comentários? [Acesse o fórum da comunidade do Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
+Tem dúvidas ou comentários? [Acesse o fórum da comunidade do Power BI](https://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
 

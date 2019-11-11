@@ -3,19 +3,18 @@ title: Segurança do Power BI
 description: Segurança do Power BI. Como o Power BI está relacionado ao Azure Active Directory e a outros serviços do Azure. Este tópico também inclui um link para um white paper que fornece mais detalhes.
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: a5dac73fd2555b0ae53b0618dbc10f831db1149b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074724"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873484"
 ---
 # <a name="power-bi-security"></a>Segurança do Power BI
 
@@ -46,7 +45,7 @@ A linha pontilhada na imagem do cluster de **Back-End**, representada acima, esc
 
 ## <a name="user-authentication"></a>Autenticação de Usuário
 
-O Power BI usa o [AAD](http://azure.microsoft.com/services/active-directory/) (Azure Active Directory) para autenticar os usuários que entram no serviço do Power BI e, em seguida, usa as credenciais de logon do Power BI sempre que um usuário tenta acessar recursos que exigem autenticação. Os usuários entram no serviço do Power BI usando o endereço de email usado para estabelecer sua conta do Power BI; o Power BI usa esse email de logon como o *usuário efetivo*, que é passado para os recursos sempre que um usuário tenta se conectar a dados. O *nome de usuário efetivo* é então mapeado para um *UPN* ([Nome UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) e resolvido para a conta de domínio do Windows associada, na qual a autenticação é aplicada.
+O Power BI usa o [AAD](https://azure.microsoft.com/services/active-directory/) (Azure Active Directory) para autenticar os usuários que entram no serviço do Power BI e, em seguida, usa as credenciais de logon do Power BI sempre que um usuário tenta acessar recursos que exigem autenticação. Os usuários entram no serviço do Power BI usando o endereço de email usado para estabelecer sua conta do Power BI; o Power BI usa esse email de logon como o *usuário efetivo*, que é passado para os recursos sempre que um usuário tenta se conectar a dados. O *nome de usuário efetivo* é então mapeado para um *UPN* ([Nome UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) e resolvido para a conta de domínio do Windows associada, na qual a autenticação é aplicada.
 
 Para organizações que usaram emails de trabalho para o logon do Power BI (como <em>david@contoso.com</em>), o mapeamento de *usuário efetivo* para UPN é simples. Para organizações que não usaram emails de trabalho para efetuar logon no Power BI (como <em>david@contoso.onmicrosoft.com</em>), o mapeamento entre o AAD e as credenciais locais exigirá que a [sincronização de diretório](https://technet.microsoft.com/library/jj573653.aspx) funcione corretamente.
 

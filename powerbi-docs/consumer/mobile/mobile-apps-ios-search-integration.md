@@ -2,19 +2,18 @@
 title: Integração de pesquisa de dispositivo iOS com Power BI
 description: Use a pesquisa de dispositivo (destaque) para localizar e acessar o conteúdo que você precisa
 author: michalfo
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f89895650bb0b81533aeddbc149f225742dc9d3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66817066"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879225"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Use a integração de Pesquisa de Dispositivo (destaque) do iOS com o aplicativo Power BI Mobile para iOS (versão prévia)
 Use a pesquisa de dispositivo iOS para localizar e acessar o conteúdo que você precisa.
@@ -51,7 +50,7 @@ A pesquisa de dispositivo, da plataforma Siri, também incluirá sugestões com 
 ## <a name="next-steps"></a>Próximas etapas
 Saiba mais sobre o aplicativo móvel do Power BI fazendo o seguinte: 
 
-* Baixe o [aplicativo móvel do Power BI para iPhone](http://go.microsoft.com/fwlink/?LinkId=522062)
+* Baixe o [aplicativo móvel do Power BI para iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
 * Siga [@MSPowerBI no Twitter](https://twitter.com/MSPowerBI)
-* Participe da conversa na [Comunidade do Power BI](http://community.powerbi.com/)
+* Participe da conversa na [Comunidade do Power BI](https://community.powerbi.com/)
 

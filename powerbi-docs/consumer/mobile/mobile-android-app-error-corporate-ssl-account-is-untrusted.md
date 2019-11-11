@@ -3,19 +3,18 @@ title: Como corrigir "Certificado SSL corporativo não é confiável"
 description: Ao entrar no aplicativo Android para o Power BI, você poderá ver a mensagem “Não foi possível autenticar porque seu certificado SSL corporativo não é confiável
 .": ''
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/28/2019
 ms.author: mshenhav
-ms.openlocfilehash: 19bcdf08d4eacff5e080bf1a2f987ea848e4bfb9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cde8a4bbaed9ef10940b7a102d40a8bc6009e9b9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70840914"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879475"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Como corrigir "Certificado SSL corporativo não é confiável" – Power BI
 Ao entrar no aplicativo móvel Android para o Microsoft Power BI, você verá a mensagem “Não foi possível autenticar porque o certificado SSL corporativo não é confiável para este dispositivo. Contate o administrador de TI da sua empresa". 
@@ -41,9 +40,9 @@ As configurações de fuso horário no seu dispositivo podem estar erradas.
 Acesse **Configurações** > **Sistema** > **Data e hora** para verificá-las.
 
 ## <a name="custom-authentication-server"></a>Servidor de autenticação personalizado
-Se você estiver usando um servidor de autenticação personalizado, o certificado SSL no servidor de autenticação corporativa poderá não ser válido. Trabalhe com a TI da sua organização para testar a configuração do servidor de autenticação corporativa, seguindo as orientações [deste artigo](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
+Se você estiver usando um servidor de autenticação personalizado, o certificado SSL no servidor de autenticação corporativa poderá não ser válido. Trabalhe com a TI da sua organização para testar a configuração do servidor de autenticação corporativa, seguindo as orientações [deste artigo](https://support.microsoft.com/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Baixe o aplicativo Android](http://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicativos Android.
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/) 
+* [Baixe o aplicativo Android](https://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicativos Android.
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/) 
 

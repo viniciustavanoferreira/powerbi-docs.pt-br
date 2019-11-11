@@ -2,7 +2,6 @@
 title: Conectar-se a um banco de dados Oracle
 description: Etapas e downloads necessários para conectar o Oracle ao Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3dce16287c9cdcb7882e332e338137f7598b4010
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: 7c91095cf321fed56a0cb1c3c6bd1113f380a524
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200895"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878504"
 ---
 # <a name="connect-to-an-oracle-database"></a>Conectar-se a um banco de dados Oracle
 Para se conectar a um banco de dados Oracle com o **Power BI Desktop**, o software cliente Oracle correto deve estar instalado no computador que executa o Power BI Desktop. O software cliente Oracle que você usa depende de qual versão do Power BI Desktop está instalada – a versão de **32 bits** ou a de **64 bits**.
@@ -30,11 +29,11 @@ Para determinar qual versão do Power BI Desktop está instalada, selecione **Ar
 ## <a name="installing-the-oracle-client"></a>Instalando o cliente Oracle
 Para versões de **32 bits** do Power BI Desktop, use o seguinte link para baixar e instalar o cliente Oracle de **32 bits**:
 
-* [ODAC (Oracle Data Access Components) de 32 bits com Ferramentas de desenvolvimento da Oracle para Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [ODAC (Oracle Data Access Components) de 32 bits com Ferramentas de desenvolvimento da Oracle para Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 Para versões de **64 bits** do Power BI Desktop, use o seguinte link para baixar e instalar o cliente Oracle de **64 bits**:
 
-* [ODAC de 64 bits 12c, versão 4 (12.1.0.2.4) para Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [ODAC de 64 bits 12c, versão 4 (12.1.0.2.4) para Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>Conectar-se a um banco de dados Oracle
 Depois de instalar o driver de cliente Oracle correspondente, você pode se conectar a um banco de dados Oracle. Para fazer a conexão, execute as seguintes etapas:

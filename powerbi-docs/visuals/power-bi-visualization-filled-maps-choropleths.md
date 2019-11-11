@@ -2,7 +2,6 @@
 title: Mapas coropléticos no Power BI
 description: Documentação sobre como criar Mapas coropléticos no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544373"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870955"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas coropléticos no Power BI
 
@@ -47,8 +46,8 @@ Mapas coropléticos são uma ótima opção:
 * para obter uma visão geral da distribuição entre os locais geográficos.
 
 ### <a name="prerequisites"></a>Pré-requisitos
-Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
-1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**.
    
 2. Encontre sua cópia do **arquivo PBIX de exemplo de Análise de Varejo**
 
@@ -60,7 +59,7 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://downl
 ## <a name="create-a-basic-filled-map"></a>Criar um mapa coroplético básico
 Neste vídeo, Kim cria um mapa básico e o converte em um mapa coroplético.
    > [!NOTE]
-   > Este vídeo usa uma versão mais antiga do Power BI Desktop.
+   > Este vídeo usa uma versão anterior do Power BI Desktop.
    > 
    > 
 
@@ -75,7 +74,7 @@ Neste vídeo, Kim cria um mapa básico e o converte em um mapa coroplético.
    ![modelos com o ícone para o mapa coroplético realçado](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. Filtre o mapa para exibir somente os Estados Unidos.
 
-   a.  À esquerda do painel Visualizações, procure o painel **Filtros**. Expanda-o se ele estiver minimizado
+   a.  À esquerda do painel Visualizações, procure o painel **Filtros**. Expanda-o se estiver minimizado
 
    b.  Passe o mouse sobre **Estado** e selecione a divisa de expansão  
    ![Filtros de nível visual mostrando Estado (todos)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
@@ -115,11 +114,11 @@ Realçar um local em um Mapa coroplético faz a filtragem cruzada com outras vis
 
     ![Guia Sentimento selecionada](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. Mova e redimensione as visualizações na página para aumentar o espaço disponível e, em seguida, use CTRL-V para colar o mapa coroplético do relatório anterior. Confira as imagens a seguir.
+4. Mova e redimensione as visualizações na página para aumentar o espaço disponível e, em seguida, use CTRL-V para colar o mapa coroplético do relatório anterior. (Veja as seguintes imagens)
 
    ![Mapa coroplético adicionado à página Sentimento](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. No mapa coroplético, selecione um estado.  Isso destaca e filtra de forma cruzada as outras visualizações na página. Selecionar **Texas**, por exemplo, mostra que o sentimento é 75 e que Texas está no Distrito Central nº 23.   
+5. No mapa coroplético, selecione um estado.  Isso destaca e filtra cruzadamente as outras visualizações na página. Selecionar **Texas**, por exemplo, mostra que o Sentimento é 75 e que o Texas está no Distrito Central nº 23.   
    ![Texas selecionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. Selecione um ponto de dados no gráfico de linhas na VanArsdel – Sentimento por Mês. Isso filtra o mapa coroplético para mostrar os dados de Sentimento para VanArsdel, e não a concorrência.  
    ![novo sombreamento](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)

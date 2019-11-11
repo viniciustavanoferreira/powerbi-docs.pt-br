@@ -2,7 +2,6 @@
 title: 'Tutorial: Importar e analisar dados de uma página da Web'
 description: 'Tutorial: Importar e analisar dados de uma página da Web com o Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514625"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879585"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Tutorial: Analisar dados de página da Web usando o Power BI Desktop
 
@@ -29,7 +28,7 @@ Como fã de futebol de longa data, você deseja criar um relatório dos vencedor
 
 ## <a name="connect-to-a-web-data-source"></a>Conectar-se a uma fonte de dados da Web
 
-Você pode obter os dados dos vencedores da UEFA na tabela de resultados da página do Campeonato Europeu de Futebol na Wikipédia, em http://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
+Você pode obter os dados dos vencedores da UEFA na tabela de resultados da página do Campeonato Europeu de Futebol na Wikipédia, em https://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
 
 ![Tabela de resultados da Wikipédia](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ Para importar os dados:
    >[!NOTE]
    >Também é possível selecionar o próprio item **Obter Dados** ou, ainda, selecionar **Obter Dados** na caixa de diálogo **Começar** do Power BI e, em seguida, selecionar **Web** na seção **Todos** ou **Outros** da caixa de diálogo **Obter Dados** e, então, selecionar **Conectar**.
    
-2. Na caixa de diálogo **Da Web**, cole a URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` na caixa de texto **URL** e, em seguida, selecione **OK**.
+2. Na caixa de diálogo **Da Web**, cole a URL `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship` na caixa de texto **URL** e, em seguida, selecione **OK**.
    
     ![Caixa de diálogo Obter Dados de](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -59,7 +58,7 @@ Para importar os dados:
    
    Uma visualização da tabela é aberta no **Power Query Editor**, no qual é possível aplicar transformações para limpar os dados. 
    
-   ![Power Query Editor](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+   ![Editor do Power Query](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
    
 ## <a name="shape-data-in-power-query-editor"></a>Formatar dados no Power Query Editor
 
@@ -186,8 +185,8 @@ Para alterar o mapa para um gráfico de pizza, selecione-o e, em seguida, seleci
 O Power BI Desktop fornece uma experiência perfeita de ponta a ponta, desde a obtenção de dados por meio de uma ampla variedade de fontes de dados e a modelagem desses dados para atender às suas necessidades de análise, até a visualização de tais dados de maneiras avançadas e interativas. Quando seu relatório estiver pronto, você poderá [carregá-lo no Power BI](desktop-upload-desktop-files.md) e criar painéis baseados nele, que poderão ser compartilhados com outros usuários do Power BI.
 
 ## <a name="see-also"></a>Consulte também
-* [Leia outros tutoriais do Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Assista a vídeos do Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Visite o Fórum do Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Leia o Blog do Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Leia outros tutoriais do Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Assista a vídeos do Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Visite o Fórum do Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Leia o Blog do Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)
 

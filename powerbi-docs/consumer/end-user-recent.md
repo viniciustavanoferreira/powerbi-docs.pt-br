@@ -2,7 +2,6 @@
 title: Exibir conteúdo visitado recentemente no serviço do Power BI
 description: documentação para recentes no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256254"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862418"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Conteúdo **recente** no serviço do Power BI
 Conteúdo recente são os últimos itens que você visitou no serviço do Power BI, até um máximo de 20 itens.  Isso inclui: dashboards, relatórios, aplicativos e pastas de trabalho.
@@ -53,5 +52,5 @@ As ações disponíveis para você dependerão das configurações atribuídas p
 ## <a name="next-steps"></a>Próximas etapas
 [Aplicativos do serviço do Power BI](end-user-apps.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

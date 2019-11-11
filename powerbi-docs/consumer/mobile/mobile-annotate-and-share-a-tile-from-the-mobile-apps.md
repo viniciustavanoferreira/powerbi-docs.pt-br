@@ -2,19 +2,18 @@
 title: Anotar e compartilhar nos aplicativos móveis do Power BI
 description: 'Leia sobre anotação e compartilhamento de blocos, relatórios e visuais do aplicativo móvel do Microsoft Power BI para iOS e Android. '
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 013cbc58a8404fa803a14c73b1668be1215cf642
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841464"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879490"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotar e compartilhar um bloco, relatório ou visual nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -74,5 +73,5 @@ Você também pode [compartilhar um bloco do aplicativo móvel do Power BI para 
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Compartilhar um dashboard dos aplicativos móveis do Power BI](mobile-share-dashboard-from-the-mobile-apps.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

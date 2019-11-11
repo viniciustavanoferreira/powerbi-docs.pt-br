@@ -2,7 +2,6 @@
 title: Inscreva-se para o Power BI para clientes do Governo dos Estados Unidos
 description: Para clientes do Governo dos EUA, saiba como se inscrever em sua organização do Governo dos EUA para o serviço do Governo dos EUA do Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ca9233f6373f8732f0996a09d7fe83ea18431f88
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c24ed4b605b0e0d8176fc5428d6c30aa2dd131cd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715314"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872267"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrar sua organização do Governo dos EUA no serviço do Power BI
 O **serviço do Power BI** tem uma versão disponível para clientes do Governo dos Estados Unidos como parte das assinaturas da **Comunidade do Governo dos EUA do Office 365**. A versão do **serviço do Power BI** abordada neste artigo foi desenvolvida para clientes do Governo dos EUA, e é separada e diferente da versão comercial do **serviço do Power BI**.

@@ -2,7 +2,6 @@
 title: Formatação de tabela condicional no Power BI Desktop
 description: Aplicar formatação personalizada a tabelas
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 14bddde618d4ef623fb91593a6a62cdb5be851a6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544004"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876608"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formatação condicional em tabelas 
 Com a formatação condicional para tabelas, você pode especificar cores personalizadas para as células com base nos valores das células ou em outros valores ou campos, inclusive usando cores de gradiente. Também é possível exibir valores de célula com barras de dados. 
@@ -140,9 +139,9 @@ Você pode usar qualquer um dos valores listados na especificação de cor de CS
 Há algumas considerações para ter em mente ao trabalhar com formatação condicional de tabelas:
 
 * A formatação condicional é aplicada somente aos valores de um visual de **Matriz** e não se aplica a nenhum subtotal ou total geral. 
-* A formatação condicional não é aplicada à linha de **Total**
-* Qualquer tabela que não tenha um agrupamento é exibida como uma única linha que não aceita a formatação condicional.
-* Se você usar o formato de gradiente com valores máx/mín. automáticos ou formatação baseada em regra com regras de porcentagem, a formatação condicional não poderá ser aplicada quando seus dados contiverem valores NaN. NaN significa “Não é um número”, geralmente causado por um erro de divisão por zero. Você pode usar a [função DIVIDE () DAX ](https://docs.microsoft.com/dax/divide-function-dax) para evitar esses erros.
+* A formatação condicional não é aplicada à linha **Total**
+* Qualquer tabela que não possui um agrupamento é exibida como uma única linha sem suporte à formatação condicional.
+* Se você usar o formato gradiente com valores máximos/mínimos automáticos ou formatação baseada em regras com regras de porcentagem, a formatação condicional não poderá ser aplicada quando seus dados contiverem valores NaN. NaN significa 'Não é um número', geralmente causado por um erro de divisão por zero. Você pode usar a [função DIVIDE() DAX](https://docs.microsoft.com/dax/divide-function-dax) para evitar esses erros.
 
 
 ## <a name="next-steps"></a>Próximas etapas

@@ -2,7 +2,6 @@
 title: Usar a segmentação de intervalo numérico no Power BI Desktop
 description: Saiba como usar uma segmentação para restringir a intervalos numéricos no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa1311f93cd6b543d552070b990f1bada551a699
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 535dbe2b1765d788e59d928f7303ce4696aa163b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307061"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879691"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Usar a segmentação de intervalo numérico no Power BI Desktop
 Com a segmentação de intervalo numérico, você pode aplicar todos os tipos de filtros a qualquer coluna numérica em seu modelo de dados. Há três opções para filtrar seus dados numéricos: entre números, menor ou igual a um número ou maior ou igual a um número. Isso pode parecer simples, mas é uma maneira eficiente de filtrar seus dados.

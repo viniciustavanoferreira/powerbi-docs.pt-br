@@ -2,7 +2,6 @@
 title: Visualizações de cartão (blocos de números grandes)
 description: Criar uma Visualização de cartão no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 268b69362f0f8c98ba01fbd0673fc46856d54ba2
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195551"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870987"
 ---
 # <a name="card-visualizations"></a>Visualizações de cartão
 
@@ -27,7 +26,7 @@ ms.locfileid: "71195551"
 
 ## <a name="prerequisite"></a>Pré-requisito
 
-Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 1. Na seção superior esquerda da barra de menus, selecione **Arquivo** \> **Abrir**
    

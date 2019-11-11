@@ -2,7 +2,6 @@
 title: O que é o serviço do Power BI?
 description: Visão geral do serviço do Power BI e como ele se ajusta às outras partes do Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 featuredvideoid: B2vd4MQrz4M
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060866"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874980"
 ---
 # <a name="what-is-the-power-bi-service"></a>O que é o serviço do Power BI?
 O **Power BI** é uma coleção de serviços de software, aplicativos e conectores que trabalham em conjunto a fim de ajudá-lo a criar, compartilhar e consumir insights empresariais da maneira mais eficiente para você e para seus negócios. O *serviço* do Microsoft Power BI (app.powerbi.com), às vezes chamado de Power BI online, é a parte SaaS (*software como serviço*) do Power BI. No serviço do Power BI, os *dashboards* ajudam a controlar o ritmo dos seus negócios de forma simples. Os dashboards exibem *blocos* que você pode selecionar para abrir *relatórios* e explorar mais detalhadamente. Os dashboards e relatórios se conectam a *conjuntos de dados* que reúnem todos os dados relevantes em um único lugar. 

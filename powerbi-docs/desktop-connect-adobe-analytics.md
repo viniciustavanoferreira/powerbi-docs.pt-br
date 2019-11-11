@@ -2,7 +2,6 @@
 title: Conectar-se ao Adobe Analytics no Power BI Desktop
 description: Conecte-se facilmente e use o Adobe Analytics no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: aa1c75a30d82a818ec82730c1939d1427b751dfc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 097c3e5be411c05a99df75bca5ec3e7abe0b19e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239405"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878653"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Conectar-se ao Adobe Analytics no Power BI Desktop 
 No **Power BI Desktop**, você pode se conectar ao **Adobe Analytics** e usar os dados subjacentes, assim como em qualquer outra fonte de dados no Power BI Desktop. 

@@ -2,7 +2,6 @@
 title: Usar agrupamento no Power BI Desktop
 description: Saiba como agrupar visuais no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6b6266547704077769174c2ae0a9675503f10dca
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: d67fbacece27ab75a3add89541dad77ce51a91f8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69029570"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867489"
 ---
 # <a name="use-grouping-in-power-bi-desktop"></a>Usar agrupamento no Power BI Desktop
 Com o **agrupamento** no **Power BI Desktop**, você pode agrupar visuais em seu relatório, como botões, caixas de texto, imagens de forma e qualquer visual que você criar, assim como você agrupa itens no PowerPoint. O agrupamento de visuais em um relatório permite que você trate o grupo como um único objeto, de modo que mover, redimensionar e trabalhar com camadas em seu relatório se torna mais fácil, mais rápido e mais intuitivo.

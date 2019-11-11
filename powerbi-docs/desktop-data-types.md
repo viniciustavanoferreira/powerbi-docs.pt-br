@@ -2,7 +2,6 @@
 title: Tipos de dados no Power BI Desktop
 description: Tipos de dados no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391781"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868533"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados com suporte no Power BI Desktop e DAX (Data Analysis Expressions). 
@@ -71,7 +70,7 @@ O Power BI Desktop dá suporte a cinco tipos de dados de Data/Hora na Visualiza�
 **Verdadeiro/Falso** – um valor Booliano de Verdadeiro ou Falso.
 
 ### <a name="blanksnulls-type"></a>Tipo em branco/nulos
-**Em branco** - é um tipo de dados em DAX que representa e substitui nulos SQL. Você também pode gerar um elemento em branco usando a função [BLANK](http://msdn.microsoft.com/library/ee634820.aspx) e testar elementos em branco usando a função lógica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+**Em branco** - é um tipo de dados em DAX que representa e substitui nulos SQL. Você também pode gerar um elemento em branco usando a função [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) e testar elementos em branco usando a função lógica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
 
 ### <a name="table-data-type"></a>Tipo de dados de tabela
 O DAX usa um tipo de dados de tabela em muitas funções, como agregações e cálculos de inteligência de dados temporais. Algumas funções exigem uma referência a uma tabela; outras funções retornam uma tabela que pode ser usada como entrada para outras funções. Em algumas funções que exigem uma tabela como entrada, você pode especificar uma expressão que é avaliada como uma tabela; para algumas funções, é necessária uma referência a uma tabela base. Para obter informações sobre os requisitos de funções específicas, consulte [Referência de função DAX](https://msdn.microsoft.com/library/ee634396.aspx).

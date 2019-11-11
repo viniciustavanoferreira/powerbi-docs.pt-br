@@ -2,7 +2,6 @@
 title: Usar insights para explicar aumentos e diminuições em visuais (versão prévia)
 description: Obtenha insights com facilidade em aumentos ou diminuições no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 69b6cd3200627c5b0523fce914eae5899e594c27
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61297126"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867228"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Usar insights no Power BI Desktop para explicar os aumentos e as diminuições exibidos nos visuais (versão prévia)
 

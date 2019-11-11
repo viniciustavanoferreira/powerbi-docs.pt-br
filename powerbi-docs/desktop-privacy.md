@@ -2,7 +2,6 @@
 title: Privacidade do Power BI Desktop
 description: Opções de Privacidade do Power BI Desktop
 author: MI77
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/14/2018
 ms.author: willthom
 LocalizationGroup: Learn more
-ms.openlocfilehash: 9051ec4ea5bb9f60637e389bd77defb5590604c6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 538464477a65600efd7b8486ff2fee281d1d4500
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61289634"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866294"
 ---
 # <a name="power-bi-desktop-privacy"></a>Privacidade do Power BI Desktop
 

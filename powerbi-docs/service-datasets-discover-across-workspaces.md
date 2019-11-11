@@ -2,7 +2,6 @@
 title: Criar relatórios com base em conjuntos de dados de diferentes workspaces (versão prévia) – Power BI
 description: Saiba como você pode compartilhar um conjunto de dados com usuários em toda a organização. Em seguida, eles podem criar relatórios com base no conjunto de dados em seus próprios workspaces.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 371507eb86e1b68225e9d66ee3a1363b0e163d4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567453"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877164"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Criar relatórios com base em conjuntos de dados de diferentes workspaces (versão prévia)
 
@@ -63,4 +62,4 @@ Há dois tipos diferentes de conjuntos de dados endossados. Os proprietários de
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

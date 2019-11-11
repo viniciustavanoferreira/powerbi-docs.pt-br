@@ -2,7 +2,6 @@
 title: Saiba como se conectar a fluxos de dados no Power BI
 description: Saiba mais os fluxos de dados funcionam no Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ae260e36d0ca7363a3b21242087813d951cf4983
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945803"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872678"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Conectar-se a fontes de dados para fluxos de dados do Power BI
 

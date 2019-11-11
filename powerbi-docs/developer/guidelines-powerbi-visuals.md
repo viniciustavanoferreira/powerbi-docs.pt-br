@@ -3,18 +3,17 @@ title: Diretrizes para visuais do Power BI
 description: Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo por meio de uma compra.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 4e17406b0b4e616a9857cf40298a7931e2b65427
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84c873c925c7e733c70b309d5cc2476dff2e553b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944849"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863946"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes para visuais do Power BI
 Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) seu visual no AppSource para que outras pessoas descubram e usem, verifique se você seguiu as diretrizes para criar uma experiência excelente para seus usuários. 

@@ -3,18 +3,17 @@ title: Objetos e propriedades de visuais do Power BI
 description: Este artigo descreve as propriedades personalizáveis de visuais do Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b2043c6727e4cf8c5c46c4e277b01a9ea04a969b
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193526"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879877"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Objetos e propriedades de visuais do Power BI
 
@@ -31,7 +30,7 @@ Objetos descrevem propriedades personalizáveis associadas um visual. Um objeto 
 }
 ```
 
-## <a name="display-name"></a>Nome para exibição
+## <a name="display-name"></a>Nome de exibição
 
 `displayName` é o nome que será mostrado no painel de propriedades.
 

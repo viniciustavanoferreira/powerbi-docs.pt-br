@@ -188,6 +188,8 @@
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Digitalizar um código de barras do aplicativo no seu iPhone
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: Configurar usando o gerenciamento de dispositivo móvel
+              href: mobile/mobile-app-configuration.md
         - name: iOS
           items:
             - name: Introdução ao aplicativo do iOS
@@ -202,8 +204,6 @@
               href: mobile/mobile-apps-iOS-search-integration.md
             - name: Aplicativo Power BI Apple Watch
               href: mobile/mobile-apple-watch.md
-            - name: Configurar usando o gerenciamento de dispositivo móvel
-              href: mobile/mobile-app-configuration.md
         - name: Dispositivos Android
           items:
             - name: Introdução ao aplicativo Android

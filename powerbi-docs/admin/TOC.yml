@@ -40,8 +40,6 @@
           href: ../service-admin-health.md
         - name: Fechar sua conta
           href: ../service-admin-closing-your-account.md
-        - name: ExpressRoute
-          href: ../service-admin-power-bi-expressroute.md
         - name: Uso do B2B do Azure AD
           href: ../service-admin-azure-ad-b2b.md
         - name: Proteção de dados

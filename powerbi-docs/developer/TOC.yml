@@ -12,7 +12,7 @@
         - name: Visão geral
           items:
             - name: Visuais no Power BI
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: Tutoriais
           items:
             - name: Desenvolver um visual do Power BI
@@ -24,11 +24,11 @@
         - name: Conceitos
           items:
             - name: Visuais para organizações no Power BI
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: Diretrizes para visuais do Power BI
               href: guidelines-powerbi-visuals.md
             - name: Perguntas frequentes sobre visuais
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: Usando as funcionalidades
               href: visuals/capabilities.md
             - name: Mapeamentos de exibição de dados
@@ -40,12 +40,12 @@
         - name: Como
           items:
             - name: Certificar um visual
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: Publicar visuais personalizados no AppSource
               href: office-store.md
             - name: Usar elementos visuais personalizados baseados em R no Power BI
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: Permitir interações visuais
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: Interações visuais
               href: visuals/visuals-interactions.md
             - name: Adicionar seleções
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: Habilitar a sincronização de segmentações
               href: visuals/enable-sync-slicers.md
             - name: Solucionar problemas de visuais do Power BI
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: Migrar para o novo powerbi-visuais-tools
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: Referência
           items:
             - name: Página de aterrissagem

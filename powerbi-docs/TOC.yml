@@ -477,6 +477,10 @@
               href: service-the-report-editor-take-a-tour.md
             - name: Fontes de dados do Power BI
               href: service-get-data.md
+            - name: Entender os conjuntos de dados do Power BI
+              href: service-datasets-understand.md
+            - name: Entender os modos de conjuntos de dados do Power BI
+              href: service-dataset-modes-understand.md
             - name: Atualizar dados no Power BI
               href: refresh-data.md
         - name: Colaborar no Power BI
@@ -1125,31 +1129,3 @@
       items:
         - name: Atualizações mensais de gateway
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: Diretrizes
-  items:
-    - name: Visão geral
-      href: guidance/overview.md
-    - name: O que é um esquema em estrela?
-      href: guidance/star-schema.md
-    - name: Reduzir o tamanho do modelo de dados
-      href: guidance/import-modeling-data-reduction.md
-    - name: Função DIVIDE versus operador dividir (/)
-      href: guidance/dax-divide-function-operator.md
-    - name: A importância da dobragem de consultas
-      href: guidance/power-query-folding.md
-    - name: Uso apropriado de funções de erro
-      href: guidance/dax-error-functions.md
-    - name: Práticas recomendadas para fluxos de dados
-      href: service-dataflows-best-practices.md
-    - name: Diretrizes do modelo DirectQuery no Power BI Desktop
-      href: guidance/directquery-model-guidance.md
-    - name: White papers
-      items:
-        - name: Visão geral dos white papers
-          href: whitepapers.md
-        - name: White paper de segurança do Power BI
-          href: whitepaper-powerbi-security.md
-        - name: Implantação premium do Power BI
-          href: whitepaper-powerbi-premium-deployment.md
-        - name: Distribuir o Power BI externamente usando o Azure Active Directory B2B
-          href: whitepaper-azure-b2b-power-bi.md

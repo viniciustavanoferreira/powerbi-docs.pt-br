@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: 8ed27d830e0bc779fc7ecb8e3aa8fde11b8d9c61
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207638"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432271"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Atualizar, excluir e extrair um aplicativo de modelo
 
@@ -65,7 +65,7 @@ Reverter para a versão anterior de um aplicativo de modelo agora é mais fácil
 A versão do workspace é redefinida e você pode continuar a desenvolver e distribuir o aplicativo de modelo a partir do workspace recém-extraído.
 
 ## <a name="delete-template-app-version"></a>Excluir a versão do aplicativo de modelo
-Um workspace de aplicativo de modelo é a origem de um aplicativo de modelo distribuído ativo. Para proteger os usuários do aplicativo de modelo, não é possível excluir um workspace sem primeiro remover todas as versões do aplicativo criadas no workspace.
+Um workspace de modelo é a origem de um aplicativo de modelo distribuído ativo. Para proteger os usuários do aplicativo de modelo, não é possível excluir um workspace sem primeiro remover todas as versões do aplicativo criadas no workspace.
 A exclusão de uma versão do aplicativo também exclui a url do aplicativo, que não funcionará mais.
 
 1. No painel de gerenciamento de versão, selecione as reticências **(...)**  e, em seguida, **Excluir**.

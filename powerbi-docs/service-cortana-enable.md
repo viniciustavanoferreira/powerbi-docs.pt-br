@@ -2,25 +2,24 @@
 title: Habilitar a Cortana para o Power BI
 description: Use o Cortana com o Power BI para obter respostas de seus dados. Ative a Cortana para cada conjunto de dados do Power BI e habilite a Cortana para acessar seus conjuntos de dados de dispositivos Windows.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: a631bc37c193521b2acc367a0c6d8540419e3b79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375148"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872897"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Habilitar a Cortana para acessar os relatórios do Power BI (e seus conjuntos de dados subjacentes)
 Você já leu a [Introdução à Cortana e ao Power BI](service-cortana-intro.md) (se não, convém lê-la primeiro e depois voltar). E agora você deseja testá-la por conta própria.  Antes de fazer perguntas em linguagem natural na Cortana e encontrar respostas nos dados armazenados nos ***relatórios*** do Power BI, há alguns requisitos. Especificamente, você precisará fazer o seguinte.
 
 > [!IMPORTANT]
-> Integração com o Cortana está sendo preterida no Power BI. A partir de 11 de junho, Cortana deixarão de funcionar para todos os painéis e relatórios.
+> A integração com a Cortana será preterida no Power BI. A partir de 11 de junho, a Cortana não será mais compatível com dashboards e relatórios.
 
 No serviço do Power BI,
 
@@ -42,7 +41,7 @@ Você precisará entrar no serviço do Power BI (não no Power BI Desktop) e rep
 2. O conjunto de dados associado a esse relatório é **Vendas da Contoso**.
    
     ![Conjunto de dados Vendas da Contoso](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. À direita do nome do conjunto de dados, selecione **reticências (...) > Configurações**.  
+3. À direita do nome do conjunto de dados, selecione **Mais opções** (...) > Configurações**.  
    
     ![Escolher configurações](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. Selecione **P e R e Cortana** > **Permitir que a Cortana acesse este conjunto de dados** > **Aplicar**.
@@ -84,5 +83,5 @@ O Cortana usará essa conta corporativa ou de estudante para verificar o Power B
 
 [Solucionar problemas de integração da Cortana e do Power BI](service-cortana-troubleshoot.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

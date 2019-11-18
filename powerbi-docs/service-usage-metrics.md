@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 6b34fc07afb082115ef5fb537badbae989e21cec
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530530"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432299"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorar as métricas de uso de relatórios e dashboards do Power BI
 
@@ -86,7 +86,7 @@ Para acessar os dados do relatório ou criar seus próprios relatórios em rela�
 
 | Métrica | Painel | Relatório | Descrição |
 | --- | --- | --- | --- |
-| Segmentação do método de distribuição |sim |sim |Como os usuários têm acesso ao conteúdo. Há três métodos possíveis: os usuários podem acessar o dashboard ou o relatório sendo membros de um [workspace do aplicativo](consumer/end-user-experience.md), fazendo com que o conteúdo seja [compartilhado com eles](service-share-dashboards.md) ou instalando um aplicativo/pacote de conteúdo.  Observe que as exibições por meio de um aplicativo são contadas como um "pacote de conteúdo". |
+| Segmentação do método de distribuição |sim |sim |Como os usuários têm acesso ao conteúdo. Há três métodos possíveis: os usuários podem acessar o dashboard ou o relatório sendo membros de um [workspace](consumer/end-user-experience.md), fazendo com que o conteúdo seja [compartilhado com eles](service-share-dashboards.md) ou instalando um aplicativo/pacote de conteúdo.  Observe que as exibições por meio de um aplicativo são contadas como um "pacote de conteúdo". |
 | Segmentação de plataformas |sim |sim |O dashboard ou o relatório foi acessado pelo serviço do Power BI (powerbi.com) ou por um dispositivo móvel? O dispositivo móvel inclui todos os nossos aplicativos iOS, Android e Windows. |
 | Segmentação da página de relatório |não |sim |Se o relatório tiver mais de uma página, segmente o relatório por página(s) que foi exibido. Se houver uma opção de lista "Em Branco", isso significará que uma página de relatório foi adicionada recentemente (em até 24 horas, o nome real da nova página será exibido na lista de segmentação) e/ou que páginas do relatório foram excluídas. "Em branco" captura esses tipos de situações. |
 | Exibições por dia |sim |sim |Número total de exibições por dia – uma exibição é definida como um usuário que carrega uma página ou dasbhoard de relatório. |
@@ -152,11 +152,18 @@ O Power BI está disponível em nuvens nacionais separadas. Essas nuvens oferece
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-É importante entender as diferenças que podem ocorrer ao comparar as métricas de uso e os logs de auditoria, e por quê. Os *Logs de auditoria* são coletados usando dados do serviço do Power BI, e as *Métricas de uso* são coletadas no cliente. As contagens de agregação das atividades nos logs de auditoria nem sempre correspondem às métricas de uso, por estes motivos:
+### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>Discrepâncias entre os logs de auditoria e as métricas de uso
+
+É importante entender as diferenças que podem ocorrer ao comparar as métricas de uso e os logs de auditoria, e por quê. Os *Logs de auditoria* são coletados usando dados do serviço do Power BI e as *métricas de uso* são coletadas no cliente. As contagens de agregação das atividades nos logs de auditoria nem sempre correspondem às métricas de uso, por estes motivos:
 
 * Às vezes, as métricas de uso podem apresentar uma contagem inferior de atividades devido a conexões de rede inconsistentes, bloqueadores de anúncios ou outros problemas que podem interromper o envio de eventos do cliente.
 * Certos tipos de modos de exibição não são incluídos em métricas de uso, conforme descrito anteriormente neste artigo.
 * Às vezes, as métricas de uso podem apresentar uma contagem superior de atividades, em situações nas quais o cliente é atualizado sem a necessidade de envio de uma solicitação de volta ao serviço do Power BI.
+
+### <a name="other-considerations"></a>Outras considerações
+
+Você precisa exibir o conteúdo em seu workspace, de dentro desse workspace, pelo menos uma vez. Se não houver exibições do conteúdo do próprio workspace pelo menos uma vez, os dados não serão correlacionados das exibições do aplicativo no Relatório de Métricas de Uso. Para desbloquear o processamento de dados para este relatório, basta exibir o conteúdo do workspace pelo menos uma vez.
+
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

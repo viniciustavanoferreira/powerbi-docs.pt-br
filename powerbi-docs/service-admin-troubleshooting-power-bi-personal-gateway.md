@@ -2,7 +2,6 @@
 title: Solução de problemas do gateway do Power BI (modo pessoal)
 description: Solução de problemas do gateway do Power BI (modo pessoal)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543534"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873390"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Solução de problemas do gateway do Power BI (modo pessoal)
 
@@ -111,7 +110,7 @@ Se você receber um erro quando os blocos do painel forem atualizados, consulte 
 ### <a name="refresh-history"></a>Histórico de atualização
 O **Histórico de Atualização** pode ajudá-lo a ver quais erros ocorreram, além de fornecer dados úteis se você precisa criar uma solicitação de suporte. É possível exibir atualizações agendadas e sob demanda. Aqui você pode acessar o **Histórico de atualização**.
 
-1. No painel de navegação do Power BI, em **Conjuntos de Dados**, selecione um conjunto de dados. Abra o menu e selecione **Agendar atualização**.
+1. No painel de navegação do Power BI, em **Conjuntos de dados**, selecione um conjunto de dados. Abra o menu e selecione **Agendar atualização**.
 
    ![Selecione Agendar Atualização](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
 1. Em **Configurações para...** , selecione **Histórico de Atualização**. 
@@ -128,7 +127,7 @@ O **Gateway do Gerenciamento de Dados** e os logs do **PowerBIGateway** estivere
 ![Gateway do Gerenciamento de Dados e logs do PowerBIGateway](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Rastreamento do Fiddler
-[Fiddler](http://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP. Você pode ver a comunicação com o serviço do Power BI do computador cliente. Essa comunicação pode mostrar erros e outras informações relacionadas.
+[Fiddler](https://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP. Você pode ver a comunicação com o serviço do Power BI do computador cliente. Essa comunicação pode mostrar erros e outras informações relacionadas.
 
 ![Rastreamento do Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ Como alternativa, você pode ir para a pasta temporária (%temp%) e procurar por
 - [Solução de problemas de erros de bloco](refresh-troubleshooting-tile-errors.md)  
 - [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md) 
  
-Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 

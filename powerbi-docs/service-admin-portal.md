@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305890"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442867"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -169,7 +169,9 @@ As próximas seções fornecem uma visão geral dos diferentes tipos de configur
 
 Os usuários da organização podem acessar os recursos internos de ajuda e suporte no menu de ajuda do Power BI. Especificamente, esses parâmetros alteram o comportamento dos itens do menu Saiba mais, Comunidade e Obter ajuda.
 
-Também é possível especificar uma URL para direcionar usuários a uma solução personalizada para solicitações de licenciamento. Esse parâmetro personaliza a URL de destino do botão Atualizar conta que um usuário sem uma licença do Power BI Pro pode encontrar na caixa de diálogo Atualizar para o Power BI Pro, bem como na página Gerenciar armazenamento pessoal.
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+
+Especificando uma URL para solicitações de licenciamento, você personaliza a URL de destino do botão **Atualizar conta** que um usuário sem uma licença do Power BI Pro pode encontrar na caixa de diálogo **Atualizar para o Power BI Pro**, bem como na página **Gerenciar armazenamento pessoal**. Além disso, o Power BI não oferece mais o botão **Experimente o Pro gratuitamente** na caixa de diálogo ou na página de armazenamento, para garantir que o Power BI oriente seus usuários de forma confiável ao longo dos processos definidos em sua organização com sua solução de gerenciamento de licenças.
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Receber notificações por email para interrupções ou incidentes de serviço
 
@@ -179,7 +181,7 @@ Os grupos de segurança habilitados para email receberão notificações por ema
 
 ### <a name="create-workspaces"></a>Criar workspaces
 
-Os administradores usam a configuração **Criar workspaces** para indicar quais usuários na organização podem criar workspaces de aplicativo para colaborar em painéis, relatórios e outros tipos de conteúdo. Saiba mais sobre [workspaces de aplicativo](service-create-the-new-workspaces.md).
+Os administradores usam a configuração **Criar workspaces** para indicar quais usuários na organização podem criar workspaces para colaborar em dashboards, relatórios e outros tipos de conteúdo. Saiba mais sobre [workspaces](service-create-the-new-workspaces.md).
 
 O portal de administração tem outra seção de configurações sobre os workspaces em seu locatário. Nesta seção, é possível classificar e filtrar a lista de workspaces e exibir os detalhes de cada um deles. Confira [Workspaces](#workspaces) para obter detalhes.
 

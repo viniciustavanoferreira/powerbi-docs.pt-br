@@ -10,16 +10,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391804"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429683"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Inserir conteúdo do Power BI em um aplicativo para seus clientes
 
-Com o **Power BI Embedded no Azure**, você pode inserir relatórios, painéis ou blocos em um aplicativo usando app owns data. **App owns data** representa um aplicativo que usa o Power BI como sua plataforma de análise incorporada. Como **desenvolvedor ISV**, é possível criar conteúdo do Power BI que exibe relatórios, painéis ou blocos em um aplicativo totalmente integrado e interativo, sem precisar que os usuários tenham uma licença do Power BI. Este tutorial demonstra como integrar um relatório em um aplicativo usando o SDK do .NET do Power BI com a API JavaScript do Power BI usando o **Power BI Embedded no Azure** para clientes.
+Com o **Power BI Embedded no Azure** ou a **Inserção do Power BI no Office**, você pode inserir relatórios, dashboards ou blocos em um aplicativo usando app owns data. **App owns data** representa um aplicativo que usa o Power BI como sua plataforma de análise incorporada. Como um **ISV** ou um **desenvolvedor**, é possível criar conteúdo do Power BI que exiba relatórios, dashboards ou blocos em um aplicativo totalmente integrado e interativo, sem precisar que os usuários tenham uma licença do Power BI. Este tutorial demonstra como integrar um relatório em um aplicativo usando o SDK do .NET do Power BI com a API JavaScript do Power BI.
 
 ![Relatório de Inserção do Power BI](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
@@ -33,12 +33,9 @@ Neste tutorial, você aprenderá a:
 Para começar, você precisa ter:
 
 * Uma [conta Power BI Pro](../service-self-service-signup-for-power-bi.md) (uma conta mestra que é um nome de usuário e senha para entrar em sua conta do Power BI Pro) ou uma [entidade de serviço (token somente de aplicativo)](embed-service-principal.md).
-* Uma assinatura da [Microsoft Azure](https://azure.microsoft.com/).
 * Você precisa ter seu próprio [locatário do Azure Active Directory](create-an-azure-active-directory-tenant.md) configurado.
 
 Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
-
-Caso você não tenha uma assinatura do Azure, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Configurar seu ambiente de desenvolvimento de análise integrada
 
@@ -60,13 +57,13 @@ No entanto, se você continuar usando a entidade de serviço, precisará continu
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar seu ambiente do Power BI
 
-### <a name="create-an-app-workspace"></a>Criar um workspace de aplicativo
+### <a name="create-a-workspace"></a>Criar um workspace
 
-Se você estiver inserindo relatórios, painéis ou blocos para seus clientes, precisará colocar o conteúdo dentro de um workspace do aplicativo. Há diferentes tipos de workspaces que você pode configurar: o [workspaces tradicionais](../service-create-workspaces.md) ou o [novos workspaces](../service-create-the-new-workspaces.md). Se você está usando uma conta *mestra*, não importa qual tipo de workspaces você usa. No entanto, se você usa *[entidade de serviço](embed-service-principal.md)* para entrar em seu aplicativo, é necessário usar os novos workspaces. Em qualquer cenário, tanto a conta *mestra* quanto a *entidade de serviço* devem ser administradoras dos workspaces do aplicativo envolvido com o seu aplicativo.
+Se você estiver inserindo relatórios, dashboards ou blocos para seus clientes, precisará colocar o conteúdo dentro de um workspace. Há diferentes tipos de workspaces que você pode configurar: o [workspaces tradicionais](../service-create-workspaces.md) ou o [novos workspaces](../service-create-the-new-workspaces.md). Se você está usando uma conta *mestra*, não importa qual tipo de workspaces você usa. No entanto, se você usa *[entidade de serviço](embed-service-principal.md)* para entrar em seu aplicativo, é necessário que você use os novos workspaces. Em qualquer cenário, tanto a conta *mestra* quanto a *entidade de serviço* devem ser administradoras dos workspaces envolvidos com o seu aplicativo.
 
 ### <a name="create-and-publish-your-reports"></a>Crie e publique seus relatórios
 
-É possível criar seus relatórios e conjuntos de dados usando o Power BI Desktop e, em seguida, publicar esses relatórios em um workspace do aplicativo. Há duas maneiras de realizar essa tarefa: Como um usuário final, você pode publicar relatórios para um workspace de aplicativo tradicional com uma conta mestra (licença do Power BI Pro). Se você estiver usando a entidade de serviço, poderá publicar relatórios nos novos workspaces usando as [APIs de REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
+É possível criar seus relatórios e conjuntos de dados usando o Power BI Desktop e, em seguida, publicar esses relatórios em um workspace. Há duas maneiras de realizar essa tarefa: Como um usuário final, você pode publicar relatórios para um workspace tradicional com uma conta mestra (licença do Power BI Pro). Se você estiver usando a entidade de serviço, poderá publicar relatórios nos novos workspaces usando as [APIs de REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
 
 As etapas a seguir explicam como publicar seu relatório PBIX em seu workspace do Power BI.
 
@@ -78,7 +75,7 @@ As etapas a seguir explicam como publicar seu relatório PBIX em seu workspace d
 
    ![Relatório de área de trabalho do PBI](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. Publique em **workspaces do aplicativo**. Esse processo é diferente dependendo de se você está usando uma conta mestra (licença do Power Pro) ou entidade de serviço. Se você estiver usando uma conta mestra, poderá publicar seu relatório por meio do Power BI Desktop.  Agora, se você estiver usando a entidade de serviço, deverá usar as APIs REST do Power BI.
+3. Publique em **workspaces**. Esse processo é diferente dependendo de se você está usando uma conta mestra (licença do Power Pro) ou entidade de serviço. Se você estiver usando uma conta mestra, poderá publicar seu relatório por meio do Power BI Desktop.  Agora, se você estiver usando a entidade de serviço, deverá usar as APIs REST do Power BI.
 
 ## <a name="embed-content-using-the-sample-application"></a>Insira conteúdo usando o aplicativo de exemplo
 
@@ -139,7 +136,7 @@ Para obter a **applicationId**, siga estas etapas:
 
 Esse atributo é necessário para ambos os AuthenticationTypes (conta mestra e [entidade de serviço](embed-service-principal.md)).
 
-Preencha as informações de **workspaceId** com o GUID do workspace (grupo) do aplicativo do Power BI. Você pode obter essas informações da URL quando conectado ao serviço do Power BI ou usando o Powershell.
+Preencha as informações de **workspaceId** com o GUID do workspace (grupo) do Power BI. Você pode obter essas informações da URL quando conectado ao serviço do Power BI ou usando o Powershell.
 
 URL <br>
 
@@ -268,11 +265,23 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Criar o token de inserção
+Gere um token de inserção, que pode ser usado por meio da API do JavaScript. Há dois tipos de APIs, o primeiro grupo contém cinco APIs, cada uma gera um token de inserção para um item específico. O segundo grupo, que contém apenas uma API, gera um token que pode ser usado para inserir vários itens.
 
-Gerou um token de inserção, que pode ser usado a partir da API do JavaScript. O token de inserção é específico ao item que está sendo inserido. Sempre que você inserir uma parte do conteúdo do Power BI, precisará criar um novo token de inserção para ele. Para obter mais informações, incluindo qual **accessLevel** usar, consulte [API GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
+**APIs para gerar um token de inserção para um item específico**
 
-*Um exemplo de criação de um token de inserção para um relatório, dashboard ou bloco está disponível dentro do arquivo Services\EmbedService.cs no [aplicativo de exemplo](https://github.com/Microsoft/PowerBI-Developer-Samples).*
+O token de inserção criado com essas APIs é específico do item que está sendo inserido. Sempre que você inserir um item do Power BI (assim como um relatório, dashboard ou bloco) com essas APIs, será necessário criar um token de inserção para ele.
+* [GenerateTokenInGroup de dashboards](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [GenerateTokenInGroup de conjuntos de dados](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [GenerateTokenForCreateInGroup de relatórios](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [GenerateTokenInGroup de relatórios](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [GenerateTokenInGroup de blocos](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
+Exemplos de criação de um token de inserção para um relatório, dashboard ou bloco, estão disponíveis nos seguintes arquivos no [aplicativo de exemplo](https://github.com/Microsoft/PowerBI-Developer-Samples).
+* Services\EmbedService.cs
+* Models\EmbedConfig.cs
+* Models\TileEmbedConfig.cs
+
+Veja abaixo um exemplo de código para usar a API de token de inserção GenerateTokenInGroup de relatórios.
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
@@ -290,7 +299,55 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-Uma classe é criada para **EmbedConfig** e **TileEmbedConfig**. Uma amostra está disponível nos arquivos **Modelos\EmbedConfig.cs** e **Modelos\TileEmbedConfig.cs**.
+**API para gerar um token de inserção para vários itens**<a id="multiEmbedToken"></a>
+
+A API de inserção [Gerar Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) gera um token que pode ser usado para inserir vários itens.
+
+Ele também pode ser usado para selecionar dinamicamente um conjunto de dados ao inserir um relatório. Para obter mais informações sobre esse uso da API, confira [associação dinâmica](embed-dynamic-binding.md).
+
+
+Veja abaixo um exemplo de como usar essa API.
+ 
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+var reports = new List<GenerateTokenRequestV2Report>()
+{ 
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = false,
+        Id = report1.Id
+    },
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = true,
+        Id = report2.Id
+    }
+};
+
+var datasets= new List<GenerateTokenRequestV2Dataset>()
+{
+    new GenerateTokenRequestV2Dataset(dataset1.Id),
+    new GenerateTokenRequestV2Dataset(dataset2.Id),
+    new GenerateTokenRequestV2Dataset(dataset3.Id),
+};
+
+var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
+{
+    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
+    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
+};
+
+var request = new GenerateTokenRequestV2()
+{
+    Datasets = datasetsRequestDetails ?? null,
+    Reports = reportsRequestDetails,
+    TargetWorkspaces = targetWSRequestdetials ?? null,
+};
+
+var token = client.GetClient().EmbedToken.GenerateToken(request);
+```
 
 ### <a name="load-an-item-using-javascript"></a>Carregar um item usando o JavaScript
 
@@ -345,35 +402,40 @@ Aqui está uma amostra que usa um modelo de **EmbedConfig** e de **TileEmbedConf
 
 ## <a name="move-to-production"></a>Mover para a produção
 
-Agora que você terminou o desenvolvimento do seu aplicativo, é hora de conferir uma capacidade dedicada para o workspace do seu aplicativo. 
+Agora que você terminou o desenvolvimento do seu aplicativo, é hora de conferir uma capacidade dedicada ao workspace. 
 
 > [!Important]
-> É necessário ter capacidade dedicada para passar para a produção.
+> É necessário ter capacidade dedicada para passar para a produção. Todos workspaces (aqueles que contêm os relatórios ou dashboards e os que contêm os conjuntos de dados) devem ser atribuídos a uma capacidade.
 
 ### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
 
-Ao criar uma capacidade dedicada, é possível tirar proveito de um recurso dedicado para o seu cliente. Você pode comprar uma capacidade dedicada no [portal do Microsoft Azure](https://portal.azure.com). Para obter detalhes sobre como criar uma capacidade do Power BI Embedded, veja [Criar capacidade do Power BI Embedded no portal do Azure](azure-pbie-create-capacity.md).
+Ao criar uma capacidade dedicada, é possível tirar proveito de um recurso dedicado para o seu cliente. Há dois tipos de capacidade dentre as quais você pode escolher:
+* **Power BI Premium** – uma assinatura do Office 356 de nível de locatário disponível em duas famílias de SKU, *EM* e *P*. Ao inserir conteúdo do Power BI, essa solução é conhecida como *inserção do Power BI*. Para obter mais informação sobre essa assinatura, consulte [o que é Power BI Premium?](../service-premium-what-is.md)
+* **Azure Power BI Embedded** – é possível comprar uma capacidade dedicada no [portal do Microsoft Azure](https://portal.azure.com). Essa assinatura usa os SKUs *A*. Para obter detalhes sobre como criar uma capacidade do Power BI Embedded, veja [Criar capacidade do Power BI Embedded no portal do Azure](azure-pbie-create-capacity.md).
+> [!NOTE]
+> Com SKUs A, não é possível acessar o conteúdo do Power BI com uma licença gratuita do Power BI.
 
-Use a tabela a seguir para determinar qual capacidade do Power BI Embedded melhor atende as suas necessidades.
+A tabela a seguir descreve os recursos e limites de cada SKU. Para determinar qual capacidade atende melhor às suas necessidades, consulte a tabela [Qual SKU devo comprar para meu cenário](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario).
 
-| Nó de capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de back-end | Núcleos de front-end | Limites de conexão dinâmica/DirectQuery|
-| --- | --- | --- | --- | --- | --- |
-| A1 |1 núcleo virtual |0,5 núcleo, 3 GB de RAM |0,5 núcleo |0 5 por segundo |
-| A2 |2 núcleos virtuais |1 núcleo, 5 GB de RAM |1 núcleo | 10 por segundo |
-| A3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | 15 por segundo |
-| A4 |8 núcleos virtuais |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |
-| A5 |16 núcleos virtuais |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |
-| A6 |32 núcleos virtuais |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |
+| Nós de Capacidade | Total de núcleos virtuais | Núcleos virtuais de back-end | RAM (GB) | Núcleos virtuais de front-end | DirectQuery/Conexão Dinâmica (por s) | Paralelismo de atualização de modelo |
+| --- | --- | --- | --- | --- | --- | --- |
+| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
+| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| | | | | | | |
 
-**_Com os SKUs A, não é possível acessar o conteúdo do Power BI com uma licença do Power BI GRATUITA._**
+### <a name="development-testing"></a>Testes de desenvolvimento
 
-Usar tokens inseridos com licenças PRO destina-se a teste de desenvolvimento, portanto, o número de tokens inseridos que uma conta mestra ou entidade de serviço do Power BI pode gerar é limitado. Uma capacidade dedicada requer inserção em um ambiente de produção. Não há limite para a quantidade de tokens inseridos que você pode gerar com uma capacidade dedicada. Acesse [Recursos Disponíveis](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) para verificar o valor de uso que indica o uso inserido atual, em percentual. A quantidade de uso é por conta mestre.
+Usar tokens inseridos com licenças Pro destina-se a teste de desenvolvimento, portanto, o número de tokens inseridos que uma conta mestra ou entidade de serviço do Power BI pode gerar é limitado. Uma capacidade dedicada requer inserção em um ambiente de produção. Não há limite para a quantidade de tokens inseridos que você pode gerar com uma capacidade dedicada. Acesse [Recursos Disponíveis](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) para verificar o valor de uso que indica o uso inserido atual, em percentual. A quantidade de uso é por conta mestre.
 
 Para obter mais informações, consulte [Artigo sobre planejamento de capacidade de análise integrada](https://aka.ms/pbiewhitepaper).
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Atribua um workspace de aplicativo a uma capacidade dedicada
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Atribua um workspace a uma capacidade dedicada
 
-Depois de criar uma capacidade dedicada, você pode atribuir o workspace do aplicativo a uma capacidade dedicada.
+Depois de criar uma capacidade dedicada, você pode atribuir o workspace a uma capacidade dedicada.
 
 Para atribuir uma capacidade dedicada a um workspace usando [entidade de serviço](embed-service-principal.md), use a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Quando você estiver usando as APIs REST do Power BI, use a [ID de objeto de entidade de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id).
 
@@ -387,9 +449,9 @@ Siga as etapas abaixo para atribuir uma capacidade dedicada a um workspace usand
 
     ![Atribuir capacidade dedicada](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. Depois que você selecionar **Salvar**, será exibido um **losango** próximo ao nome do workspace do aplicativo.
+3. Depois que você selecionar **Salvar**, será exibido um **losango** próximo ao nome do workspace.
 
-    ![workspace do aplicativo vinculado a uma capacidade](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    ![workspace vinculado a uma capacidade](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 

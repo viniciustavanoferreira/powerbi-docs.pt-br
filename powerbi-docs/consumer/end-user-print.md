@@ -2,7 +2,6 @@
 title: Impressão no serviço do Power BI
 description: Como imprimir um dashboard, um bloco ou uma página de relatório no serviço do Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100185"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862783"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Impressão no serviço do Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Imprima um dashboard inteiro, um bloco do dashboard, uma página de relatório ou um visual de relatório no serviço do Power BI. Relatórios podem ser impressos somente com uma página por vez – não é possível imprimir o relatório inteiro ao mesmo tempo.
 
    > [!NOTE]
@@ -37,7 +39,7 @@ Imprima um dashboard inteiro, um bloco do dashboard, uma página de relatório o
 
 ## <a name="print-a-dashboard-tile"></a>Imprimir um bloco do dashboard
 1. Abra o dashboard no [modo de tela inteira](end-user-focus.md) selecionando o ícone de tela inteira ![ícone de tela inteira](./media/end-user-print/power-bi-full-screen-icon.png) na barra de menus superior.
-3. [Abra o bloco no modo de foco](end-user-focus.md) focalizando para revelar as reticências (...) e escolhendo **Abrir no modo de foco** ou o ícone de foco ![Ícone de foco](./media/end-user-print/power-bi-focus-icon.png).
+3. [Abra o bloco no modo de foco](end-user-focus.md) passando o mouse para revelar **Mais opções** (...) e escolhendo **Abrir no modo de foco** ou o ![ícone Foco](./media/end-user-print/power-bi-focus-icon.png).
    
     ![menu de reticências](./media/end-user-print/power-bi-menu-options.png)
 4. Focalize o bloco para revelar o menu Opções.
@@ -79,5 +81,5 @@ Somente uma página de relatório pode ser impressa por vez.
 ## <a name="next-steps"></a>Próximas etapas
 [Compartilhar relatórios e dashboards com seus colegas e outras pessoas](../service-share-dashboards.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61157452"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431974"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Excluir quase tudo no serviço do Power BI
 Este artigo ensina como excluir um dashboard, um relatório, uma pasta de trabalho, um conjunto de dados, um aplicativo, uma visualização e um workspace no serviço do Power BI.
@@ -71,7 +71,7 @@ Se um conjunto de dados fizer parte de um ou mais [pacotes de conteúdo organiza
 
 ### <a name="to-delete-a-dataset"></a>Para excluir um conjunto de dados
 1. Em seu workspace, selecione a guia **Conjuntos de dados**.
-2. Localize o conjunto de dados para excluir e selecione as reticências (...).  
+2. Localize o conjunto de dados para excluir e selecione **Mais opções** (...).  
 
     ![Guia Conjuntos de dados](media/service-delete/power-bi-delete-datasetnew.png)
 3. No menu suspenso, selecione **Excluir**.
@@ -81,40 +81,41 @@ Se um conjunto de dados fizer parte de um ou mais [pacotes de conteúdo organiza
 
    ![Caixa de diálogo Excluir dashboard](media/service-delete/power-bi-delete-dataset-confirm.png)
 
-## <a name="delete-an-app-workspace"></a>Excluir um workspace de aplicativo
+## <a name="delete-a-workspace"></a>Excluir um workspace
 > [!WARNING]
-> Quando você cria um workspace do aplicativo, você cria um grupo do Office 365. E quando você exclui um workspace do aplicativo, você exclui esse grupo do Office 365. Isso significa que o grupo também será excluído de outros produtos do O365 como o SharePoint e o Microsoft Teams.
+> Quando você cria um workspace, você cria um grupo do Office 365. E quando você exclui um workspace, você exclui esse grupo do Office 365. Isso significa que o grupo também será excluído de outros produtos do O365 como o SharePoint e o Microsoft Teams.
 >
 >
 
-Como autor do workspace do aplicativo, você poderá excluí-lo. Ao excluí-lo, o aplicativo associado também é excluído de todos os membros do grupo e removido do seu AppSource, caso você tenha publicado o aplicativo para toda a sua organização. Excluir um workspace de aplicativo é diferente de sair de um workspace de aplicativo.
+Como autor do workspace, você poderá excluí-lo. Ao excluí-lo, o aplicativo associado também é excluído de todos os membros do grupo e removido do seu AppSource, caso você tenha publicado o aplicativo para toda a sua organização. Excluir um workspace é diferente de sair dele.
 
-### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Para excluir um workspace de aplicativo – caso você seja um Administrador
+### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Para excluir um workspace – caso você seja um administrador
 1. No menu de navegação à esquerda, selecione **Workspaces**
 
-    ![Workspaces de aplicativo](media/service-delete/power-bi-delete-workspace.png)
-2. Selecione as reticências (...) à direita do workspace a ser excluída e escolha **Editar workspace**.
+2. Selecione **Mais opções** (...) à direita do workspace a ser excluído e escolha **Editar workspace**.
 
-   ![menu de reticências &gt; Editar workspace](media/service-delete/power-bi-edit-workspace.png)
+    ![Workspaces](media/service-delete/power-bi-delete-workspace.png)
+
 3. Na janela **Editar workspace**, selecione **Excluir workspace** > **Excluir**.
 
     ![excluir workspace](media/service-delete/power-bi-delete-workspace2.png)
 
-### <a name="to-remove-an-app-workspace-from-your-list"></a>Para remover um workspace de aplicativo da sua lista
-Se você não deseja mais ser um membro de um workspace de aplicativo, você pode ***sair*** dele e ele será removido da sua lista. Sair de um workspace deixa-o no lugar para todos os outros membros do workspace.  
+### <a name="to-remove-a-workspace-from-your-list"></a>Para remover um workspace da sua lista
+Se não desejar mais ser membro de um workspace, você poderá ***sair*** dele e ele será removido da sua lista. Sair de um workspace deixa-o no lugar para todos os outros membros do workspace.  
 
 > [!IMPORTANT]
-> Se você for o único Administrador do workspace do aplicativo, o Power BI não permitirá que você saia.
+> Se você for o único administrador do workspace, o Power BI não permitirá que você saia.
 >
 >
 
-1. Inicie o workspace de aplicativo que você deseja remover.
-2. No canto superior direito, selecione as reticências (...) e escolha **Sair do workspace** > **Sair**.
+1. Inicie no workspace que você deseja remover.
+
+2. No canto superior direito, selecione **Mais opções** (...) e escolha **Sair do workspace** > **Sair**.
 
       ![sair do workspace](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
-   > As opções exibidas na lista suspensa dependem se você é um Administrador ou um Membro desse workspace do aplicativo.
+   > As opções exibidas na lista suspensa dependem se você é um Administrador ou um Membro desse workspace.
    >
    >
 

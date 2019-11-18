@@ -2,19 +2,18 @@
 title: 'Início Rápido: Explorar dashboards e relatórios nos aplicativos móveis'
 description: Neste início rápido, você explora um dashboard e um relatório de exemplo nos aplicativos móveis do Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60975643"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879268"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: Explorar dashboards e relatórios nos aplicativos móveis do Power BI
 Neste início rápido, você explora um dashboard e um relatório de exemplo no aplicativo móvel do Power BI em um telefone Android. Você também pode acompanhar em outros aplicativos móveis. 
@@ -35,7 +34,7 @@ Painéis são um portal para o ciclo de vida e processos de sua empresa. Um pain
 Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
 ### <a name="install-the-power-bi-for-android-app"></a>Instale o aplicativo do Power BI para Android
-[Baixe o aplicativo do Power BI para Android](http://go.microsoft.com/fwlink/?LinkID=544867) no Google Play.
+[Baixe o aplicativo do Power BI para Android](https://go.microsoft.com/fwlink/?LinkID=544867) no Google Play.
 
 O Power BI funciona em dispositivos Android que executam o sistema operacional Android 5.0 ou posterior. Para verificar seu dispositivo, acesse **Configurações** > **Sobre o dispositivo** > **Versão do Android**.
 
@@ -44,11 +43,11 @@ A primeira etapa do início rápido é baixar a amostra de Análise de Varejo no
 
 1. Abra o serviço do Power BI no navegador (app.powerbi.com) e entre.
 
-1. Selecione o ícone de navegação global para abrir o painel de navegação esquerdo.
+1. Selecione o ícone de navegação global para abrir o painel de navegação.
 
     ![Ícone de navegação global](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. No painel de navegação esquerdo, selecione **Workspaces** > **Meu Workspace**.
+2. No painel de navegação, selecione **Workspaces** > **Meu Workspace**.
 
     ![Meu Workspace](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
@@ -135,7 +134,7 @@ Depois de concluir este início rápido, você poderá excluir o dashboard, o re
 
 1. Abra o serviço do Power BI (app.powerbi.com) e entre.
 
-2. No painel de navegação esquerdo, selecione **Workspaces** > **Meu Workspace**.
+2. No painel de navegação, selecione **Workspaces** > **Meu Workspace**.
 
     Está vendo a estrela amarela indicando que é um favorito?
 

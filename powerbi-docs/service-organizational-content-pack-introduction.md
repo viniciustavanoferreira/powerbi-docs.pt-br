@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020606"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431736"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introdução aos pacotes de conteúdo organizacional no Power BI
 > [!NOTE]
@@ -26,7 +26,7 @@ Você distribui regularmente relatórios por email para a sua equipe? Tente o se
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-A criação de pacotes de conteúdo é diferente do compartilhamento de dashboards ou da colaboração neles em um workspace de aplicativo. Leia [Como devo colaborar e compartilhar relatórios e dashboards?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir sobre a melhor opção para sua situação. 
+Criar pacotes de conteúdo é diferente de compartilhar dashboards ou colaborar neles em um workspace. Leia [Como devo colaborar e compartilhar relatórios e dashboards?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir sobre a melhor opção para sua situação. 
 
 No AppSource, procure ou pesquise os pacotes de conteúdo publicados em toda a organização, em grupos de distribuição ou de segurança e nos [grupos do Office 365 dos quais você faz parte](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Se você não é um membro de um grupo específico, não verá os pacotes de conteúdo compartilhados com esse grupo. Todos os membros do grupo têm o mesmo acesso somente leitura aos dados do pacote de conteúdo, relatórios, pastas de trabalho e painéis (a menos que eles sejam uma fonte de dados do SSAS (SQL Server Analysis Services); nesse caso, os privilégios são herdados com a fonte de dados).
 
@@ -50,7 +50,7 @@ O ciclo de vida é parecido com este:
 1. No Power BI Pro, João cria um pacote de conteúdo e o publica no grupo de distribuição Marketing. As configurações de atualização são herdadas com o conjunto de dados e só podem ser alteradas por João.
    
    > [!NOTE]
-   > Se João criar o pacote de conteúdo em um [workspace de aplicativo do Power BI](service-create-distribute-apps.md) do qual ele faz parte, mesmo se ele sair do workspace, os outros usuários que estiverem no workspace do Power BI poderão assumir a propriedade.
+   > Se João criar o pacote de conteúdo em um [workspace do Power BI](service-create-distribute-apps.md) do qual ele faz parte, mesmo se ele sair do workspace, os outros usuários que estiverem no workspace do Power BI poderão assumir a propriedade.
    > 
    > 
 2. João envia um email ao grupo de distribuição, informando-os sobre o novo pacote de conteúdo.
@@ -58,7 +58,7 @@ O ciclo de vida é parecido com este:
 4. Digamos que ela decida personalizá-lo. Ela agora está trabalhando em sua própria cópia do dashboard e dos relatórios. Seu trabalho não afeta a fonte, o pacote de conteúdo original, nem outros membros do grupo de distribuição. Ela agora está trabalhando em sua própria cópia do dashboard e do relatório.
 5. João faz atualizações no dashboard e, quando estiver pronto, publicará uma nova versão do pacote de conteúdo.
    
-   * Julio, outro membro do grupo de distribuição, não personalizou o pacote de conteúdo original. As novas alterações são aplicadas automaticamente à versão do pacote de conteúdo de Júlia.  
+   * Julio, outro membro do grupo de distribuição, não personalizou o pacote de conteúdo original. As novas alterações são aplicadas automaticamente à versão do pacote de conteúdo de Júlio.  
    * Julia personalizou o pacote de conteúdo. Ela recebe uma notificação de que há uma nova versão.  Júlia pode acessar o AppSource e obter o pacote de conteúdo atualizado sem perder sua versão personalizada. Agora ela terá as duas versões: a versão personalizada e o pacote de conteúdo atualizado.
 6. Digamos que altere as configurações de segurança. Julio e Julia não têm mais acesso ao conteúdo. Digamos que eles foram removidos do grupo de distribuição Marketing.
    

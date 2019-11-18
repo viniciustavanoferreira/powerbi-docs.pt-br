@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b7327a7b32aacd222efc422263187f29285bd73
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8de1b483f31a540cf27a89d94167d919a2a85e95
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075766"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431434"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B
 
@@ -81,7 +81,7 @@ Ao usar o recurso [Permitir que os usuários externos convidados editem e gerenc
 
 ### <a name="use-power-bi-premium"></a>Usar o Power BI Premium
 
-A atribuição do espaço de trabalho do aplicativo à [capacidade do Power BI Premium](service-premium-what-is.md) permite que o usuário convidado use o aplicativo sem precisar de uma licença do Power BI Pro. O Power BI Premium também permite que aplicativos aproveitem outros recursos, como taxas mais altas de atualização, capacidade dedicada e tamanhos grandes de modelos.
+A atribuição do workspace à [capacidade do Power BI Premium](service-premium-what-is.md) permite que o usuário convidado use o aplicativo sem precisar de uma licença do Power BI Pro. O Power BI Premium também permite que aplicativos aproveitem outros recursos, como taxas mais altas de atualização, capacidade dedicada e tamanhos grandes de modelos.
 
 ![Diagrama da experiência do usuário convidado com o Power BI Premium.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -113,6 +113,8 @@ Para ajudar esses usuários a entrar no Power BI, forneça a eles a URL do locat
 
 * Por padrão, o Azure AD B2B externo limita os convidados ao consumo apenas de conteúdo. Os convidados de Azure AD B2B externos podem exibir aplicativos, painéis, relatórios, além de exportar dados e criar assinaturas de email para painéis e relatórios. Eles não podem acessar os workspaces ou publicar seu próprio conteúdo. No entanto, essas restrições não se aplicam a usuários convidados que obtêm acesso por meio do recurso [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization).
 
+* Para convidar usuários convidados, uma licença do Power BI Pro é necessária. Os usuários da avaliação do Pro não podem convidar usuários convidados no Power BI.
+
 * Algumas experiências não estão disponíveis para usuários convidados habilitados por meio do recurso [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Para atualizar ou publicar relatórios, eles precisarão usar a interface do usuário da Web do serviço do Power BI, incluindo Obter Dados para carregar arquivos do Power BI Desktop.  Não há suporte para as seguintes experiências:
     * Publicação direta do Power BI Desktop para o serviço do Power BI
     * Os usuários convidados não podem usar o Power BI Desktop para se conectar a conjuntos de dados de serviço no serviço do Power BI
@@ -127,7 +129,12 @@ Para ajudar esses usuários a entrar no Power BI, forneça a eles a URL do locat
     * Os usuários convidados não podem usar o Analisar no Excel
     * Os usuários convidados não podem ser @mentioned em comentários
     * Os usuários convidados não podem usar assinaturas
-    * Usuários convidados que usam essa funcionalidade devem ter uma conta corporativa ou de estudante. Os usuários convidados usando contas pessoais terão mais limitações devido a restrições de entrada.
+    * Usuários convidados que usam essa funcionalidade devem ter uma conta corporativa ou de estudante. 
+    
+* Os usuários convidados usando contas pessoais terão mais limitações, devido a restrições de entrada.
+    * Eles podem usar experiências de consumo no serviço do Power BI por meio de um navegador da Web
+    * Eles não podem usar os aplicativos Power BI Mobile.
+    * Eles não poderão entrar para fornecer credenciais em situações nas quais uma conta corporativa ou de estudante for necessária.
 
 * No momento, este recurso não está disponível com a web part de relatório do Power BI para o SharePoint Online.
 

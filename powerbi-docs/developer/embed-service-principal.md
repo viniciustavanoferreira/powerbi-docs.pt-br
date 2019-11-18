@@ -3,19 +3,18 @@ title: Entidade de serviço com o Power BI
 description: Saiba como registrar um aplicativo no Azure Active Directory usando a entidade de serviço para uso com a inserção de conteúdo do Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073096"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877648"
 ---
 # <a name="service-principal-with-power-bi"></a>Entidade de serviço com o Power BI
 
@@ -58,8 +57,8 @@ Há diferenças entre o uso de uma entidade de serviço e uma conta mestra padr�
 |------------------------------------------------------|---------------------|-------------------|
 | Pode entrar no serviço do Power BI  | Sim | Não |
 | Habilitado no portal de Administração do Power BI | Não | Sim |
-| [Funciona com workspaces do aplicativo (v1)](../service-create-workspaces.md) | Sim | Não |
-| [Funciona com os novos workspaces do aplicativo (v2)](../service-create-the-new-workspaces.md) | Sim | Sim |
+| [Funciona com workspaces (v1)](../service-create-workspaces.md) | Sim | Não |
+| [Funciona com os novos workspaces (v2)](../service-create-the-new-workspaces.md) | Sim | Sim |
 | Precisa ser um administrador do workspace se usado com o Power BI Embedded | Sim | Sim |
 | Pode usar as APIs REST do Power BI | Sim | Sim |
 | Precisa de um administrador global para criar | Sim | Não |
@@ -141,7 +140,7 @@ Não há recurso de interface do usuário para mover artefatos e recursos do Pow
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>Como obter a ID de objeto da entidade de serviço
 
-Para atribuir uma entidade de serviço a um novo workspace do aplicativo, você deve usar as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Para fazer referência a uma entidade de serviço para operações ou fazer alterações, você usa a **ID de objeto de entidade de serviço** – por exemplo, aplicação de uma entidade de serviço como um administrador a um workspace.
+Para atribuir uma entidade de serviço a um novo workspace, você deve usar as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Para fazer referência a uma entidade de serviço para operações ou fazer alterações, você usa a **ID de objeto de entidade de serviço** – por exemplo, aplicação de uma entidade de serviço como um administrador a um workspace.
 
 Abaixo estão as etapas para obter a ID de objeto da entidade de serviço do portal do Azure.
 
@@ -166,7 +165,7 @@ Abaixo está um exemplo de script para recuperar a ID de objeto da entidade de s
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-* A entidade de serviço só funciona com [novos workspaces do aplicativo](../service-create-the-new-workspaces.md).
+* A entidade de serviço só funciona com [novos workspaces](../service-create-the-new-workspaces.md).
 * Não há suporte para **Meu Workspace** ao usar a entidade de serviço.
 * É necessária capacidade dedicada ao passar para produção.
 * Você não pode entrar no portal do Power BI usando a entidade de serviço.

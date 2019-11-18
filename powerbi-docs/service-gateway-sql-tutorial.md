@@ -2,7 +2,6 @@
 title: 'Tutorial: Conectar-se a dados locais no SQL Server'
 description: Saiba como usar o SQL Server como uma fonte de dados do gateway, incluindo como atualizar dados.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307394"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881545"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar os dados de um banco de dados do SQL Server local
 
@@ -114,9 +113,9 @@ No Power BI Desktop, você se conectou diretamente ao banco de dados do SQL Serv
     | Opção | Valor |
     | --- | --- |
     | Nome da Fonte de Dados | AdventureWorksProducts |
-    | Tipo de Fonte de Dados | SQL Server |
+    | Tipo de fonte de dados | SQL Server |
     | Servidor | O nome de sua instância do SQL Server, SQLServer01 (deve ser idêntico ao que você especificou no Power BI Desktop). |
-    | Banco de dados | O nome do seu banco de dados do SQL Server, AdventureWorksDW (deve ser idêntico ao que você especificou no Power BI Desktop). |
+    | Banco de Dados | O nome do seu banco de dados do SQL Server, AdventureWorksDW (deve ser idêntico ao que você especificou no Power BI Desktop). |
     | Método de Autenticação | Windows ou Basic (normalmente Windows). |
     | Nome de usuário | A conta de usuário que você usa para se conectar ao SQL Server. |
     | Senha | A senha da conta usada para se conectar ao SQL Server. |
@@ -131,7 +130,7 @@ No Power BI Desktop, você se conectou diretamente ao banco de dados do SQL Serv
 
 Agora que você conectou seu conjunto de dados no Power BI ao seu banco de dados do SQL Server local por meio de um gateway de dados, siga estas etapas para configurar uma agenda de atualização. Atualizar seu conjunto de dados de forma programada ajuda a garantir que seus relatórios e dashboards tenham os dados mais recentes.
 
-1. No painel de navegação à esquerda, abra **Meu Workspace** \> **Conjuntos de dados**. Selecione as reticências ( **...** ) para o conjunto dedados **AdventureWorksProducts**, em seguida, selecione **Agendar a atualização**.
+1. No painel de navegação, abra **Meu Workspace** \> **Conjuntos de Dados**. Selecione as reticências ( **...** ) para o conjunto dedados **AdventureWorksProducts**, em seguida, selecione **Agendar a atualização**.
 
     > [!NOTE]
     > Selecione as reticências para o conjunto de dados **AdventureWorksProducts** e não as reticências para o relatório com o mesmo nome. O menu de contexto do relatório **AdventureWorksProducts** não inclui uma opção **Agendar atualização**.
@@ -149,7 +148,7 @@ Agora que você conectou seu conjunto de dados no Power BI ao seu banco de dados
 
 ## <a name="perform-an-on-demand-refresh"></a>Executar uma atualização sob demanda
 
-Agora que você configurou uma agenda de atualização, o Power BI atualiza o conjunto de dados no próximo horário agendado, dentro de uma margem de 15 minutos. Se você quiser atualizar os dados mais cedo, por exemplo, para testar sua configuração de gateway e fonte de dados, execute uma atualização sob demanda usando a opção **Atualizar agora** no menu de conjunto de dados no painel de navegação esquerdo. Atualizações sob demanda não afetam o horário da próxima atualização agendada, mas são contabilizadas com relação ao limite de atualizações diárias, mencionado na seção anterior.
+Agora que você configurou uma agenda de atualização, o Power BI atualiza o conjunto de dados no próximo horário agendado, dentro de uma margem de 15 minutos. Se você quiser atualizar os dados mais cedo, por exemplo, para testar sua configuração de gateway e fonte de dados, execute uma atualização sob demanda usando a opção **Atualizar agora** no menu de conjunto de dados no painel de navegação. Atualizações sob demanda não afetam o horário da próxima atualização agendada, mas são contabilizadas com relação ao limite de atualizações diárias, mencionado na seção anterior.
 
 Para fins ilustrativos, simule uma alteração nos dados de exemplo atualizando a tabela DimProduct no banco de dados AdventureWorksDW usando o SSMS (SQL Server Management Studio).
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 Agora, siga estas etapas para que os dados atualizados possam fluir por meio da conexão de gateway para o conjunto de dados e para os relatórios no Power BI.
 
-1. No serviço do Power BI, no painel de navegação esquerdo, selecione e expanda **Meu Workspace**.
+1. No serviço do Power BI, no painel de navegação, selecione e expanda **Meu Workspace**.
 
 2. Em **Conjuntos de dados**, para o conjunto de dados **AdventureWorksProducts**, selecione as reticências ( **...** ) e selecione **Atualizar agora**.
 

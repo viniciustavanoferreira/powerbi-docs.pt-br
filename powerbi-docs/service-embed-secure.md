@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: d140e39cdd30f5e2078f24c55fda5ea7040e0ad4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867101"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431869"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserir um relatório em um site ou portal seguro
 
@@ -49,7 +49,7 @@ A opção **Inserir** é compatível com [Filtros de URL](service-url-filters.md
 
 A opção **Inserir** não permite automaticamente que os usuários exibam o relatório. As permissões de exibição são definidas no serviço do Power BI.
 
-No serviço do Power BI, você pode compartilhar relatórios inseridos com usuários que necessitam de acesso. Se estiver usando um grupo do Office 365, você poderá listar o usuário como um membro do workspace do aplicativo. Para obter mais informações, consulte como [gerenciar seu workspace do aplicativo no Power BI e no Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+No serviço do Power BI, você pode compartilhar relatórios inseridos com usuários que necessitam de acesso. Se estiver usando um grupo do Office 365, você poderá listar o usuário como um membro do workspace. Para obter mais informações, consulte como [gerenciar seu workspace no Power BI e no Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Licenças
 

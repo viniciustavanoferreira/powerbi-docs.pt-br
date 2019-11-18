@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715307"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060747"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Adicionar hiperlinks (URLs) a uma tabela
 Este tópico ensina como adicionar hiperlinks (URLs) a uma tabela. Você usa Power BI Desktop para adicionar hiperlinks (URLs) a uma tabela ou matriz. Em seguida, no Serviço do Power BI ou no Power BI Desktop, é possível adicioná-los às suas matrizes e tabelas de relatório. 
@@ -44,7 +44,7 @@ O procedimento para adicionar um hiperlink depende se você importou os dados ou
     ![Links de azuis e sublinhados](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    > As URLS devem começar com **http:// , https://** ou **www**.
+    > As URLS devem começar com determinados prefixos. Para obter a lista completa, confira [Considerações e solução de problemas](#considerations-and-troubleshooting).
     >
    
 1. Se não quiser exibir uma URL longa em uma tabela, você poderá exibir um ícone de hiperlink  ![Ícone de Hiperlink](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) em vez disso. Observe que você não consegue exibir ícones em matrizes.
@@ -80,8 +80,9 @@ Outra maneira de adicionar hiperlinks às tabelas e matrizes do Power BI é cria
 4. Coloque o cursor na coluna que contém as URLs que você deseja transformar em hiperlinks nas tabelas do Power BI.
    
    > [!NOTE]
-   > As URLS devem começar com **http:// , https://** ou **www**.
+   > As URLS devem começar com determinados prefixos. Para obter a lista completa, confira [Considerações e solução de problemas](#considerations-and-troubleshooting).
    > 
+   
 5. No grupo **Propriedades de relatório** , selecione na lista suspensa **Categoria de dados** e escolha **URL do Web**. 
    
    ![Lista suspensa de categoria de dados no Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,6 +93,16 @@ Outra maneira de adicionar hiperlinks às tabelas e matrizes do Power BI é cria
    ![Criar uma tabela no Power BI com o campo de URL](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
+
+As URLS devem começar com uma das seguintes opções:
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
 P: Posso usar uma URL personalizada como um hiperlink em uma tabela ou matriz?    
 R: Não. Você pode usar um ícone de link. Se precisar de texto personalizado para os hiperlinks e a lista de URLs for pequena, use uma caixa de texto.
 

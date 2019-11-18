@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020777"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431937"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introdução ao uso de conjuntos de dados entre workspaces (versão prévia)
 
@@ -62,7 +62,7 @@ Os recursos específicos e as experiências criadas com base nas funcionalidades
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-- Como editor de aplicativos, você precisa ter a certeza de que seu público-alvo tem acesso aos conjuntos de dados fora do workspace do aplicativo. Caso contrário, os usuários terão problemas ao interagir com seu aplicativo: os relatórios não serão abertos sem acesso ao conjunto de dados e os blocos do painel serão mostrados como bloqueados. Além disso, os usuários não poderão abrir o aplicativo se o primeiro item em sua navegação for um relatório sem acesso ao conjunto de dados.
+- Como editor de aplicativos, você precisa ter a certeza de que seu público-alvo tem acesso aos conjuntos de dados fora do workspace. Caso contrário, os usuários terão problemas ao interagir com seu aplicativo: os relatórios não serão abertos sem acesso ao conjunto de dados e os blocos do painel serão mostrados como bloqueados. Além disso, os usuários não poderão abrir o aplicativo se o primeiro item em sua navegação for um relatório sem acesso ao conjunto de dados.
 - A criação de um relatório com base em um conjunto de dados em outro workspace exige a nova experiência de workspace em ambas as extremidades: O relatório e o conjunto de dados precisam estar em uma nova experiência de workspace.
 - Em um workspace clássico, a experiência de descoberta de conjunto de dados mostra apenas os conjuntos de dados desse workspace.
 - Por design, o recurso "Publicar na Web" não funciona em relatórios baseados em conjuntos de dados compartilhados.

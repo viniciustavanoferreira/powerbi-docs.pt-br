@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655042"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060987"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
@@ -30,11 +30,43 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>Maio de 2019
-* [Navegação personalizada](service-create-distribute-apps.md) para Aplicativos do Power BI.
-* Tipos de anexos adicionais (PPTX, XLSX, DOCX, CSV, XML) disponíveis para assinaturas de email em relatórios paginados.
+### <a name="october-2019"></a>Outubro de 2019
+* Nova ação do Microsoft Flow para atualizar os conjuntos de dados do Power BI.
+* [Lista de contato](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) para relatórios e dashboards no serviço do Power BI.
 
 ## <a name="previous-months-2019"></a>Meses anteriores (2019)
+### <a name="september-2019"></a>Setembro de 2019
+* Atualizações da configuração de conexão para [aplicativos de modelo](service-template-apps-overview.md).
+
+### <a name="august-2019"></a>Agosto de 2019
+* Novas configurações de capacidade para o Power BI Premium.
+* [Identidade visual personalizada](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/) para a sua organização.
+* Exportação de dados resumida com permissão de build.
+* Suporte a parâmetros de URL para [relatórios paginados](paginated-reports-report-builder-power-bi.md).
+* Suporte a assinaturas de email mensais. 
+
+### <a name="july-2019"></a>Julho de 2019
+* Suporte a conjuntos de dados não Premium para [relatórios paginados](paginated-reports-report-builder-power-bi.md).
+* Disponibilidade geral das [agregações](desktop-aggregations.md) do Power BI.
+* Enviar notificações de atualização para outras pessoas.
+* [Ferramenta de teste](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) para as capacidades do Power BI Premium.
+* Versão prévia pública das [notificações de disponibilidade de serviço](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/).
+* Versão prévia pública da [Nova aparência](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/) dos relatórios do Power BI.
+* Nova região do Power BI na África do Sul.
+
+### <a name="june-2019"></a>Junho de 2019
+* Versão prévia pública dos [conjuntos de dados compartilhados e certificados](service-datasets-across-workspaces.md).
+* As métricas de IA disponíveis no [aplicativo de Métricas de Capacidade Premium](service-admin-premium-monitor-capacity.md).
+* Disponibilidade geral dos [aplicativos de modelo](service-template-apps-overview.md) do Power BI.
+* Disponibilidade geral dos [relatórios paginados](paginated-reports-report-builder-power-bi.md) no Power BI.
+* Versão prévia pública do [BYOK](service-encryption-byok.md) (Bring Your Own Key) para o Power BI Premium.
+* Função de visualizador para a [nova experiência de workspace](service-new-workspaces.md).
+
+### <a name="may-2019"></a>Maio de 2019
+* [Navegação personalizada](service-create-distribute-apps.md) para Aplicativos do Power BI.
+* Tipos de anexos adicionais (PPTX, XLSX, DOCX, CSV, XML) disponíveis para assinaturas de email em relatórios paginados.
+* [Comentários](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) para relatórios do Power BI no serviço.
+
 ### <a name="april-2019"></a>Abril de 2019
 * Disponibilidade geral de [fluxos de dados](service-dataflows-overview.md) do Power BI.
 * Disponibilidade geral da nova experiência de workspaces.
@@ -731,7 +763,7 @@ Confira o [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 * A confiabilidade de atualização com o OneDrive foi aprimorada.  Algumas situações em que as pastas de trabalho não foram atualizadas por meio do OneDrive foram resolvidas.
 
 ## <a name="next-steps"></a>Próximas etapas
-[O que é o Power BI?](power-bi-overview.md)  
+[O que é o Power BI?](fundamentals/power-bi-overview.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -2,19 +2,18 @@
 title: Introdução ao aplicativo móvel do Power BI em dispositivos Android
 description: Saiba como o aplicativo móvel Android para Microsoft Power BI leva o Power BI para o seu bolso, com acesso móvel a informações comerciais locais e na nuvem.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060286"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876793"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introdução ao aplicativo móvel do Power BI em dispositivos Android
 O aplicativo Android para Microsoft Power BI oferece a experiência móvel do BI para Power BI, Servidor de Relatório do Power BI e Reporting Services. Exiba e interaja com os dashboards de sua empresa localmente e na nuvem em qualquer lugar, com acesso móvel dinâmico e habilitado para toque. Explore os dados em dashboards e compartilhe com seus colegas em mensagens de email ou de texto. 
@@ -34,7 +33,7 @@ Descubra as [novidades nos aplicativos móveis do Power BI](../../mobile-whats-n
 
 ### <a name="get-the-app"></a>Obtenha o aplicativo
 
-[Baixe o aplicativo do Power BI para Android](http://go.microsoft.com/fwlink/?LinkID=544867) no Google Play.
+[Baixe o aplicativo do Power BI para Android](https://go.microsoft.com/fwlink/?LinkID=544867) no Google Play.
   
 O Power BI pode ser executado em diferentes dispositivos Android que executam o sistema operacional Android 5.0 ou posterior. Para verificar seu dispositivo, acesse **Configurações** > **Sobre o dispositivo** > **Versão do Android**. 
 
@@ -44,9 +43,9 @@ Mesmo sem se inscrever ou se conectar, depois de abrir o aplicativo é possível
 Descubra as [novidades nos aplicativos móveis do Power BI](../../mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Inscrever-se no serviço do Power BI na Web
-Se você ainda não se inscreveu, acesse o [serviço do Power BI (http://powerbi.com/)](http://powerbi.com/)) para se inscrever em sua conta e criar e armazenar dashboards e relatórios, além de reunir dados. Em seguida, entre no Power BI de seu dispositivo Android para ver seus próprios dashboards, de qualquer lugar.
+Se você ainda não se inscreveu, acesse o [serviço do Power BI (https://powerbi.com/)](https://powerbi.com/)) para se inscrever em sua conta e criar e armazenar dashboards e relatórios, além de reunir dados. Em seguida, entre no Power BI de seu dispositivo Android para ver seus próprios dashboards, de qualquer lugar.
 
-1. No serviço do Power BI, toque em [Inscrever-se](http://go.microsoft.com/fwlink/?LinkID=513879) para criar uma conta do Power BI.
+1. No serviço do Power BI, toque em [Inscrever-se](https://go.microsoft.com/fwlink/?LinkID=513879) para criar uma conta do Power BI.
 2. Comece a [criar seus próprios dashboards e relatórios](../../service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Introdução ao aplicativo do Power BI em seu dispositivo
@@ -88,14 +87,14 @@ Você pode exibir e interagir com os exemplos de dashboard do Power BI, mas há 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Encontre seu conteúdo nos aplicativos móveis do Power BI
 Seus dashboards e relatórios são armazenados em locais diferentes nos aplicativos móveis do Power BI, dependendo de onde eles vieram. Leia sobre [finding your content in the mobile apps](../../mobile-apps-quickstart-view-dashboard-report.md) (localizando seu conteúdo em aplicativos móveis). Além disso, a qualquer momento, você pode pesquisar por qualquer coisa que você tenha nos aplicativos móveis do Power BI. 
 
-![Painel de navegação à esquerda](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+![Painel de navegação](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Exibir seus dashboards, KPIs e relatórios favoritos
 Na página Favoritos nos aplicativos móveis, você verá todos os seus dashboards favoritos do Power BI, juntamente com os KPIs e relatórios do Servidor de Relatório do Power BI e do Reporting Services. Quando você torna um painel *favorito* no aplicativo móvel do Power BI, você pode acessá-lo de todos os seus dispositivos, incluindo o serviço do Power BI no seu navegador. 
 
 * Toque em **Favoritos**.
   
-   ![Favoritos no painel de navegação à esquerda](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
+   ![Favoritos no painel de navegação](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
   
    Seus favoritos do Power BI e do portal da Web do Servidor de Relatório do Power BI e do Reporting Services estão todos nesta página.
   
@@ -135,8 +134,8 @@ Aqui estão algumas outras coisas que podem ser feitas no aplicativo do Power BI
 * Criar [relatórios no Power BI Desktop e publicá-los no portal da Web do Servidor de Relatório do Power BI](../../report-server/quickstart-create-powerbi-report.md)
 
 ### <a name="see-also"></a>Consulte também
-* [Baixe o aplicativo Android](http://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicativos Android.
+* [Baixe o aplicativo Android](https://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicativos Android.
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 
 

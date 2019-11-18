@@ -2,7 +2,6 @@
 title: Conectar-se ao Project Online com o Power BI
 description: Project Online para o Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023777"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854646"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Conectar-se ao Project Web App com o Power BI
 O Microsoft Project Web App é uma solução online flexível para PPM (gerenciamento de portfólio de projetos) e para o trabalho cotidiano. O Project Web App permite que as organizações comecem, priorizem investimentos de portfólio de projetos e atinjam o valor comercial pretendido. O Aplicativo de Modelo do Project Web App para Power BI permite aproveitar informações do Project Web App para ajudar a gerenciar projetos, portfólios e recursos.
@@ -24,7 +23,7 @@ Conecte-se ao [Aplicativo de Modelo do Project Web App](https://appsource.micros
 
 ## <a name="how-to-connect"></a>Como se conectar
 
-1. Selecione **Aplicativos** no painel de navegação esquerdo > selecione **Obter aplicativos** no canto superior direito.
+1. Selecione **Aplicativos** no painel de navegação > selecione **Obter aplicativos** no canto superior direito.
 
     ![Obter aplicativos](media/service-connect-to-project-online/GetApps.png)
 
@@ -52,7 +51,7 @@ Conecte-se ao [Aplicativo de Modelo do Project Web App](https://appsource.micros
 
 9. Você verá uma notificação indicando que os dados estão sendo carregados. Dependendo do tamanho de sua conta, isso pode levar algum tempo. Depois que o Power BI importa os dados, você vê os conteúdos de seu novo workspace. Talvez seja necessário atualizar o conjunto de informações para receber as atualizações mais recentes. 
 
-    Após o Power BI importar os dados, você verá o relatório com 13 páginas e um conjunto de dados no painel de navegação esquerdo. 
+    Após o Power BI importar os dados, você verá o relatório com 13 páginas e um conjunto de dados no painel de navegação. 
 
 10. Depois que seus relatórios estiverem prontos, vá em frente e comece a explorar os dados de seu Project Web App! O Aplicativo de Modelo vem com 13 relatórios avançados e detalhados para a visão geral do portfólio (seis páginas de relatório), a visão geral de recursos (cinco páginas de relatório) e o status de projeto (duas páginas de relatório). 
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195247"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432347"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalar e distribuir aplicativos de modelo em sua organização – Power BI
 
@@ -57,7 +57,7 @@ Em um navegador, selecione este link para abrir o AppSource filtrado para aplica
 
 4. Na caixa de diálogo, selecione **Instalar**.
 
-    ![Instalar aplicativo](media/service-template-apps-install-distribute/power-install-dialog.png) Se você já tiver uma licença do Power BI Pro, o aplicativo será instalado com seu workspace do aplicativo associado. Personalize o aplicativo no workspace associado.
+    ![Instalar aplicativo](media/service-template-apps-install-distribute/power-install-dialog.png) Se você já tiver uma licença do Power BI Pro, o aplicativo será instalado com o workspace associado. Personalize o aplicativo no workspace associado.
 
     Quando a instalação for bem-sucedida, você verá uma notificação indicando que o novo aplicativo está pronto.
 4. Selecione **Ir para o aplicativo**.
@@ -71,7 +71,7 @@ Em um navegador, selecione este link para abrir o AppSource filtrado para aplica
 
     Se desejar, ignore esta caixa de diálogo e acesse o workspace associado diretamente por meio de **Workspaces** no painel de navegação à esquerda.
     >[!NOTE]
-    >Ao instalar um aplicativo modelo, tanto um *aplicativo organizacional* quanto um *workspace do aplicativo* também serão instalados. Leia mais sobre a [distribuição de aplicativos no Power BI](service-create-distribute-apps.md).
+    >Ao instalar um aplicativo de modelo, são instalados um *aplicativo organizacional* e um *workspace*. Leia mais sobre a [distribuição de aplicativos no Power BI](service-create-distribute-apps.md).
  
 6. Antes de compartilhá-lo com seus colegas de trabalho, o ideal é conectar-se aos seus próprios dados. Talvez você também deseje modificar o relatório ou o dashboard para adequá-lo à sua organização. Além disso, nesta altura, você poderá adicionar outros relatórios ou dashboards.
 

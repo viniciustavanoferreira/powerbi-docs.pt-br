@@ -2,20 +2,19 @@
 title: Fontes de dados no Power BI Desktop
 description: Fontes de dados no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307848"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878361"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 O Power BI Desktop permite se conectar a dados de várias fontes diferentes. Veja uma lista completa das fontes de dados disponíveis na parte inferior desta página.
@@ -234,7 +233,7 @@ Você pode criar um arquivo .PBIDS para simplificar a experiência de **Obter da
 
 Quando um autor abre um arquivo .PBIDS, o Power BI Desktop é aberto e solicita ao usuário as credenciais para autenticar e conectar-se à fonte de dados especificada no arquivo. A caixa de diálogo de Navegação é exibida e o usuário deve selecionar as tabelas da fonte de dados a serem carregadas no modelo. Os usuários também podem precisar selecionar os bancos de dados se um não estiver especificado no arquivo .PBIDS. 
 
-Desse ponto em diante, o usuário pode começar a criar visualizações ou revisitar Fontes recentes para carregar um novo conjunto de tabelas no modelo. 
+Desse ponto em diante, o usuário pode começar a criar visualizações ou revisitar *Fontes recentes* para carregar um novo conjunto de tabelas no modelo. 
 
 Atualmente, os arquivos .PBIDS dão suporte apenas a uma única fonte de dados em um arquivo. A especificação de mais de uma fonte de dados resulta em um erro. 
 
@@ -364,21 +363,20 @@ A URL deve indicar o site do SharePoint em si e não uma lista dentro do site. O
 **SQL Server**
 ```
 { 
-  “version”: “0.1”, 
-  “connections”: [ 
+  "version": "0.1", 
+  "connections": [ 
     { 
-      “details”: { 
-        “protocol”: “tds”, 
-        “address”: { 
-          “server”: “server-name-here”, 
-          “database”: “db-name-here (optional)” 
+      "details": { 
+        "protocol": "tds", 
+        "address": { 
+          "server": "server-name-here", 
+          "database": "db-name-here (optional) "
         } 
       }, 
-      “options”: {}, 
-      “mode”: “DirectQuery” 
+      "options": {}, 
+      "mode": "DirectQuery" 
     } 
   ] 
-} 
 } 
 ```
  
@@ -419,6 +417,24 @@ A URL deve indicar o site do SharePoint em si e não uma lista dentro do site. O
 ```
  
 
+**Fluxo de dados**
+```
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "powerbi-dataflows",
+        "address": {
+          "workspace":"workspace id (Guid)",
+          "dataflow":"optional dataflow id (Guid)",
+          "entity":"optional entity name"
+        }
+       }
+    }
+  ]
+}
+```
 
 
 ## <a name="next-steps"></a>Próximas etapas

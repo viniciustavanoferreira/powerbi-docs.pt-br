@@ -2,7 +2,6 @@
 title: RLS (segurança em nível de linha) com o Power BI
 description: Como configurar a segurança em nível de linha para conjuntos de dados importados e DirectQuery para o serviço do Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 7d2bfbfb53914fea43014c78d88ac0c66559466c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 6ce3a65489c60cabb1dd705ce3243c4cec6abe40
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431353"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873529"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>RLS (segurança em nível de linha) com o Power BI
 
@@ -28,7 +27,7 @@ A RLS (segurança em nível de linha) com o Power BI pode ser usada para restrin
 
 Por padrão, a filtragem de segurança em nível de linha usa filtros unidirecionais, independentemente se as relações forem definidas para unidirecional ou bidirecional. Habilite manualmente o filtro cruzado bidirecional com a segurança em nível de linha selecionando a relação e marcando a caixa de seleção **Aplicar filtro de segurança em ambas as direções**. Você deverá marcar essa caixa quando também tiver implementado a segurança dinâmica em nível de linha no nível do servidor, em que a segurança em nível de linha se baseia no nome de usuário ou na ID de logon.
 
-Para obter mais informações, consulte [Filtragem cruzada bidirecional usando o DirectQuery no Power BI Desktop](desktop-bidirectional-filtering.md) e o artigo técnico [Protegendo o modelo semântico de BI de tabela](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
+Para obter mais informações, consulte [Filtragem cruzada bidirecional usando o DirectQuery no Power BI Desktop](desktop-bidirectional-filtering.md) e o artigo técnico [Protegendo o modelo semântico de BI de tabela](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
 ![Aplicar filtro de segurança](media/service-admin-rls/rls-apply-security-filter.png)
 
@@ -105,4 +104,4 @@ Se você publicar seu relatório do Power BI Desktop em um workspace no serviço
 ## <a name="next-steps"></a>Próximas etapas
 [RLS (segurança em nível de linha) com o Power BI Desktop](desktop-rls.md)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

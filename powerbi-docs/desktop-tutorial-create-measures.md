@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513879"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019343"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Criar suas próprias medidas no Power BI Desktop
 Você pode criar algumas das soluções de análise de dados mais poderosas no Power BI Desktop usando medidas. As medidas ajudam você a executar cálculos em seus dados conforme você interage com os relatórios. Este tutorial serve como guia para que você compreenda as medidas e crie suas próprias medidas básicas no Power BI Desktop.
@@ -60,7 +60,7 @@ Quando você cria suas próprias medidas, elas são adicionadas à lista Campos 
 
 Você deseja analisar as vendas líquidas subtraindo descontos e devoluções dos valores de vendas totais. Para qualquer contexto que exista em sua visualização, você precisa de uma medida que subtraia a soma de DiscountAmount e ReturnAmount da soma de SalesAmount. Não há um campo para Net Sales na lista Fields, mas você tem os blocos de construção para criar sua própria medida para calcular as vendas líquidas. 
 
-1.  Clique com o botão direito do mouse na tabela **Sales** na lista Fields, ou passe o mouse sobre a tabela e selecione as reticências de **Mais opções** (...), depois selecione **Nova Medida**. Isso salvará sua nova medida na tabela Sales, onde será mais fácil de ser encontrada.
+1.  Clique com o botão direito do mouse na tabela **Vendas** na lista Campos ou passe o mouse sobre a tabela e selecione **Mais opções** (...) e **Nova Medida**. Isso salvará sua nova medida na tabela Sales, onde será mais fácil de ser encontrada.
     
     ![Nova medida](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

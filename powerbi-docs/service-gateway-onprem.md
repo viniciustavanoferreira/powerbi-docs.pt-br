@@ -3,19 +3,18 @@ title: Gateway de dados local
 description: Este artigo é uma visão geral do gateway de dados local para o Power BI. É possível usar este gateway para trabalhar com fontes de dados do DirectQuery. Você também pode usar este gateway para atualizar conjuntos de dados de nuvem com dados locais.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730287"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872454"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>O que é um gateway de dados local?
 
@@ -42,13 +41,13 @@ Há dois tipos distintos de gateways, cada um para cenários diferentes:
 Há quatro etapas principais para usar um gateway.
 
 1. [Baixe e instale o gateway](/data-integration/gateway/service-gateway-install) em um computador local.
-2. [Configure](/data-integration/gateway/service-gateway-app) o gateway com base em seu firewall e outros requisitos de rede.
-3. [Adicione administradores de gateway](/data-integration/gateway/service-gateway-manage) que também podem gerenciar e administrar outros requisitos de rede.
-4. [Solucione problemas](service-gateway-onprem-tshoot.md) do gateway em caso de erros.
+1. [Configure](/data-integration/gateway/service-gateway-app) o gateway com base em seu firewall e outros requisitos de rede.
+1. [Adicione administradores de gateway](/data-integration/gateway/service-gateway-manage) que também podem gerenciar e administrar outros requisitos de rede.
+1. [Use o gateway](service-gateway-sql-tutorial.md) para atualizar uma fonte de dados local.
+1. [Solucione problemas](service-gateway-onprem-tshoot.md) do gateway em caso de erros.
 
 ## <a name="next-steps"></a>Próximas etapas
 
 * [Instalar o gateway de dados local](/data-integration/gateway/service-gateway-install)
 
-
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

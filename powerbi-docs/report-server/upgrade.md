@@ -3,25 +3,24 @@ title: Atualizar o Servidor de Relatório do Power BI
 description: Saiba como atualizar o Servidor de Relatório do Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 52863ea4bd666547a9c63b3add1d2d9c0626adc7
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839706"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873953"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Atualizar o Servidor de Relatório do Power BI
 
 Saiba como atualizar o Servidor de Relatório do Power BI.
 
- **Baixe** ![baixe](media/upgrade/download.png "baixe")
+ **Baixar** ![baixar](media/upgrade/download.png "baixar")
 
 Para baixar o Servidor de Relatório do Power BI e o Power BI Desktop otimizado para o Servidor de Relatório do Power BI, acesse [Relatórios locais com o Servidor de Relatório do Power BI](https://powerbi.microsoft.com/report-server/).
 
@@ -63,11 +62,11 @@ A atualização do Servidor de Relatório do Power BI é simples. Há apenas alg
 
 2. Selecione **Atualizar o Servidor de Relatório do Power BI**.
 
-    ![Atualizar o Servidor de Relatórios do Microsoft Power BI](media/upgrade/reportserver-upgrade1.png "Upgrade Power BI Report Server")
+    ![Atualizar o Servidor de Relatórios do Power BI](media/upgrade/reportserver-upgrade1.png "Atualizar o Servidor de Relatórios do Power BI")
 
 3. Leia e concorde com os termos e condições da licença e, em seguida, selecione **Atualizar**.
 
-    ![Contrato de licença](media/upgrade/reportserver-upgrade-eula.png "License agreement")
+    ![Contrato de licença](media/upgrade/reportserver-upgrade-eula.png "Contrato de licença")
 
 4. Após uma atualização bem-sucedida, você pode selecionar **Configurar o Servidor de Relatório** para iniciar o Gerenciador de Configurações do Reporting Services ou pode selecionar **Fechar** para sair do instalador.
 

@@ -1,8 +1,7 @@
 ---
 title: Recursos do serviço do Power BI por tipo de licença
-description: 'No serviço do Power BI, os usuários têm capacidades definidas conforme os dois tipos de licença: por usuário (gratuita e Pro) e com base em capacidade.'
+description: No serviço do Power BI, os usuários definiram funcionalidades com base no tipo de licença por usuário que eles têm (gratuita ou Pro) e se o conteúdo no qual estão agindo está em um workspace atribuído a uma capacidade do Power BI Premium.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 47070a7e215235826a35ba777683c2114ba612ec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65554423"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881792"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Recursos do serviço do Power BI por tipo de licença
 
@@ -37,7 +36,7 @@ Aqui está uma lista de recursos com suporte pelo tipo de licença por usuário.
 | Inserir controles e APIs |![Recurso não disponível](media/features-license-type/not-available.png) |![Recurso disponível](media/features-license-type/available.png) |
 | **Colaboração** | | |
 | Compartilhamento ponto a ponto |![Recurso não disponível](media/features-license-type/not-available.png) |![Recurso disponível](media/features-license-type/available.png) |
-| Workspaces de aplicativo |![Recurso não disponível](media/features-license-type/not-available.png) |![Recurso disponível](media/features-license-type/available.png) |
+| Workspaces |![Recurso não disponível](media/features-license-type/not-available.png) |![Recurso disponível](media/features-license-type/available.png) |
 | Analisar no Excel, analisar no Power BI Desktop |![Recurso não disponível](media/features-license-type/not-available.png) |![Recurso disponível](media/features-license-type/available.png) |
 
 ## <a name="next-steps"></a>Próximas etapas

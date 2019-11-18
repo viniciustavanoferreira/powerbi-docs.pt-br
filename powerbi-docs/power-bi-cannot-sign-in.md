@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bdac9b5d0377055d842ae4b64b914deb76660a41
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769836"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021430"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Solucionar problemas de entrada no Power BI
 
@@ -49,6 +49,9 @@ Outra opção para entrar em contato com o Suporte da Microsoft para obter ajuda
 ## <a name="power-bi-community"></a>Comunidade do Power BI
 
 Se você não consegue criar uma postagem no fórum na página da comunidade, é porque o [Fórum da comunidade do Power BI](https://community.powerbi.com/) também exige que você entre.
+
+> [!Note]
+> Confira [Suporte da comunidade](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport) para obter detalhes adicionais.
 
 ## <a name="next-steps"></a>Próximas etapas
 

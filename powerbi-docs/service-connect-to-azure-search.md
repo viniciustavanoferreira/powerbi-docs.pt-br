@@ -2,7 +2,6 @@
 title: Conectar-se ao Azure Search com o Power BI
 description: Azure Search para o Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060922"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873119"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Conectar-se ao Azure Search com o Power BI
 A Análise de Tráfego do Azure Search permite que você monitore e entenda o tráfego para o serviço de Azure Search. O pacote de conteúdo de Azure Search para o Power BI fornece informações detalhadas sobre seus dados de pesquisa, incluindo Search, Indexação, Status do Serviço e a Latência dos últimos 30 dias. Mais detalhes podem ser encontrados na [postagem do blog do Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -25,7 +24,7 @@ A Análise de Tráfego do Azure Search permite que você monitore e entenda o tr
 Conectar-se ao [pacote de conteúdo do Azure Search](https://app.powerbi.com/getdata/services/azure-search) para o Power BI.
 
 ## <a name="how-to-connect"></a>Como se conectar
-1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
+1. Selecione **Obter Dados** na parte inferior do painel de navegação.
    
    ![](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. Na caixa **Serviços** , selecione **Obter**.
@@ -40,7 +39,7 @@ Conectar-se ao [pacote de conteúdo do Azure Search](https://app.powerbi.com/get
 5. Selecione **Chave** como Mecanismo de Autenticação e forneça sua chave de conta de armazenamento. Clique em **Entrar** para iniciar o processo de carregamento.
    
    ![](media/service-connect-to-azure-search/creds.png)
-6. Quando o carregamento for concluído, um novo painel, relatório e modelo aparecerão no Painel de Navegação. Selecione o painel para exibir os dados importados por você.
+6. Quando o carregamento for concluído, um novo dashboard, relatório e modelo aparecerão no painel de navegação. Selecione o painel para exibir os dados importados por você.
    
     ![](media/service-connect-to-azure-search/dashboard2.png)
 

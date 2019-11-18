@@ -2,7 +2,6 @@
 title: 'Exemplo de Vendas e Marketing para o Power BI: Faça um tour'
 description: 'Exemplo de Vendas e Marketing para o Power BI: Faça um tour'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391371"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873809"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de Vendas e Marketing para o Power BI: Faça um tour
 
@@ -56,11 +55,11 @@ Antes de usar o exemplo, primeiro você deve baixá-lo como um [pacote de conte�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o arquivo. pbix para este exemplo
 
-Como alternativa, você pode baixar o exemplo de Vendas e Marketing como um [arquivo .pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), que é projetado para uso com o Power BI Desktop.
+Como alternativa, você pode baixar o exemplo de Vendas e Marketing como um [arquivo .pbix](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), que é projetado para uso com o Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkId=529785). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529785). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que é nosso painel está dizendo?
 Vamos começar nosso tour no painel e examinar as peças que o CMO decidiu fixar. Podemos ver informações sobre nossa participação no mercado, vendas e sensibilidade. Os dados são divididos por região, hora e concorrência.
@@ -82,7 +81,7 @@ Ao usar o P e R, você pode descobrir detalhes adicionais nos dados.
 
    ![Pergunta de P e R: Total de unidades por segmento para VanArsdel](media/sample-sales-and-marketing/sales2.png)
 3. Nossa participação nas categorias **Moderação** e **Conveniência** é alta; esses segmentos são aqueles em que podemos concorrer.
-4. Retorne ao painel selecionando o **Exemplo de Vendas e Marketing** na barra de navegação superior.
+4. Retorne ao dashboard selecionando o **Exemplo de Vendas e Marketing** no painel de navegação.
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Com o que aparece participação de mercado total para a categoria (versus região)?
 1. Observe o bloco **Total de Unidades Acumuladas no Ano por Fabricante, Região**. Qual é a participação de mercado total da unidade por categoria?

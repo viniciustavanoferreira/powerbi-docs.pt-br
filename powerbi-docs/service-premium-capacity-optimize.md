@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: fc983fe9027f6d94c5394d524a6417a64719a8ac
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750933"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431692"
 ---
 # <a name="optimizing-premium-capacities"></a>Otimização de capacidades Premium
 
@@ -33,7 +33,7 @@ Por fim, as abordagens de teste e o dimensionamento da capacidade Premium conclu
 
 Ao tentar obter a melhor utilização e desempenho, há algumas práticas recomendadas, incluindo:
 
-- Usar workspaces de aplicativo em vez de workspaces pessoais.
+- Usar workspaces em vez de workspaces pessoais.
 - Separar o SSBI (BI de autoatendimento e comercialmente crítico) em diferentes capacidades.
 
   ![Separar o BI de Autoatendimento e comercialmente crítico em diferentes capacidades](media/service-premium-capacity-optimize/separate-capacities.png)

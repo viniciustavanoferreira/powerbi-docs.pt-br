@@ -2,7 +2,6 @@
 title: Usar parâmetros What if para visualizar variáveis
 description: Criar sua própria variável What if para imaginar e visualizar variáveis nos relatórios do Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513477"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876037"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Criar e usar um parâmetro What if para visualizar variáveis no Power BI Desktop
 Começando com o lançamento de agosto de 2018 do **Power BI Desktop**, você pode criar variáveis **What if** para seus relatórios, interagir com a variável como uma segmentação e visualizar e quantificar diferentes valores de chave em seus relatórios.
@@ -50,7 +49,7 @@ Vamos criar um exemplo simples do uso de um parâmetro **What if**. Criamos o pa
 
 ![](media/desktop-what-if/what-if_05.png)
 
-A nova medida simplesmente será o valor total de vendas, com a taxa de desconto aplicada. Obviamente, você pode criar medidas complexas e interessantes, que permitem aos consumidores dos relatórios visualizar a variável do parâmetro **What if**. Por exemplo, você pode criar um relatório que permite que o pessoal de vendas ver que suas compensações se eles atendam a determinadas metas de vendas ou percentuais, ou ver o efeito de vendas em descontos aumentado.
+A nova medida simplesmente será o valor total de vendas, com a taxa de desconto aplicada. Obviamente, você pode criar medidas complexas e interessantes, que permitem aos consumidores dos relatórios visualizar a variável do parâmetro **What if**. Por exemplo, você poderá criar um relatório que permitirá ao pessoal de vendas ver suas remunerações se eles cumprirem determinadas metas ou percentuais de vendas ou ver o efeito do aumento das vendas em descontos maiores.
 
 Depois de digitarmos a fórmula de medida na barra de fórmulas e nomeá-la **Vendas após o Desconto**, vemos o resultado:
 

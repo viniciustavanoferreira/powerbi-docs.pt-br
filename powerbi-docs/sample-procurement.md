@@ -2,7 +2,6 @@
 title: 'Exemplo de análise de compras: Faça um tour'
 description: 'Exemplo de Análise de Varejo para o Power BI: Faça um tour'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462270"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873873"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Varejo para o Power BI: Faça um tour
 
@@ -58,11 +57,11 @@ Antes de usar o exemplo, primeiro você deve baixá-lo como um [pacote de conte�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o arquivo. pbix para este exemplo
 
-Como alternativa, você pode baixar o exemplo de Análise de Compras como um [arquivo .pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), que foi projetado para uso com o Power BI Desktop. 
+Como alternativa, você pode baixar o exemplo de Análise de Compras como um [arquivo .pbix](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), que foi projetado para uso com o Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkId=529784). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529784). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 
 ## <a name="spending-trends"></a>Tendências de gastos
@@ -99,7 +98,7 @@ Vamos explorar as áreas de gastos no México.
       ![Busca detalhada de Bens Indiretos e Serviços para o México](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Selecione a seta para cima no canto superior esquerdo do gráfico para fazer drill up.
 4. Selecione a seta novamente para desativar os detalhes.  
-5. Na barra de navegação superior, selecione **Exemplo de Análise de Compras** para retornar ao painel.
+5. No painel de navegação superior, selecione **Exemplo de Análise de Compras** para retornar ao dashboard.
 
 ## <a name="evaluate-different-cities"></a>Avaliar cidades diferentes
 Podemos usar o realce para avaliar cidades diferentes.

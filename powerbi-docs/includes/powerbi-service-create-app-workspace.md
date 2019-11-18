@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903908"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021095"
 ---
 1. Comece criando o workspace. Selecione **Espaços de trabalho** > **Criar espaço de trabalho**. 
    
@@ -53,7 +53,7 @@ ms.locfileid: "70903908"
 
 7. Selecione **Salvar**.
 
-O Power BI cria o workspace e o abre. Ele aparece na lista de workspaces dos quais você é um membro. Como você é um administrador, você pode selecionar as reticências (...) para voltar e fazer alterações, adicionar novos membros ou alterar as permissões deles.
+O Power BI cria o workspace e o abre. Ele aparece na lista de workspaces dos quais você é um membro. Como você é um administrador, poderá selecionar **Mais opções** (...) para voltar e fazer alterações, adicionar novos membros ou alterar as permissões deles.
 
 ![Editar workspace](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

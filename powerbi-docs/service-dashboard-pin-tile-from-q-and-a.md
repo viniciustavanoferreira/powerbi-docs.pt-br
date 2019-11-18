@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138947"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432098"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Fixar um bloco em um dashboard de P e R
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como fixar um bloco de P e R
@@ -52,7 +52,7 @@ Para acompanhar, abra o [painel de exemplo da Análise de Varejo](sample-retail-
    ![painel com blocos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
-* Quando você começa a digitar uma pergunta, o P e R imediatamente começa a procurar a melhor resposta de todos os conjuntos de dados associados com o painel atual.  O “dashboard atual” é o dashboard listado na barra de navegação superior. Por exemplo, essa pergunta está sendo feita no dashboard de **exemplo Análise de Varejo**, que faz parte do workspace de aplicativo **mihart**.
+* Quando você começa a digitar uma pergunta, o P e R imediatamente começa a procurar a melhor resposta de todos os conjuntos de dados associados com o painel atual.  O “dashboard atual” é o dashboard listado na barra de navegação superior. Por exemplo, essa pergunta está sendo feita no dashboard de **exemplo Análise de Varejo**, que faz parte do workspace **mihart**.
 
   ![trilhas](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Como a P e R sabe quais conjuntos de dados deverão ser usados**?  A P e R tem acesso a todos os conjuntos de dados que têm pelo menos uma visualização fixada nesse dashboard.

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269204"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429163"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Snippets de código para migrar conteúdo da Coleção de workspaces do Power BI
 
@@ -167,7 +167,7 @@ Neste snippet, estamos usando credenciais sem criptografia para fins de simplici
 
 Você precisará recriar o relatório para o conjunto de dados criado.
 
-Neste snippet, presumimos que o conjunto de dados que pode ser enviado por push já esteja em um workspace do aplicativo no ambiente de SaaS. Para obter informações sobre a API de envio por push, consulte [Enviar dados por push a um conjunto de dados do Power BI](walkthrough-push-data.md).
+Neste snippet, presumimos que o conjunto de dados que pode ser enviado por push já esteja em um workspace no ambiente de SaaS. Para obter informações sobre a API de envio por push, consulte [Enviar dados por push a um conjunto de dados do Power BI](walkthrough-push-data.md).
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

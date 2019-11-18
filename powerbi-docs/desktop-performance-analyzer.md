@@ -1,8 +1,7 @@
 ---
-title: Usar o analisador de desempenho para examinar o desempenho do elemento de relatório no Power BI Desktop
-description: Descubra como os elementos visuais e elementos de relatório são executados em termos de capacidade de resposta e o uso de recursos
+title: Usar o Performance Analyzer para examinar o desempenho do elemento de relatório no Power BI Desktop
+description: Descubra como os visuais e elementos de relatório estão sendo executados em termos de uso de recursos e capacidade de resposta
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,74 +9,74 @@ ms.topic: conceptual
 ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1851e0a55bf01073a6591f64de43830a72eca89b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65854403"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866420"
 ---
-# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Usar o analisador de desempenho para examinar o desempenho do elemento de relatório
+# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Usar o Performance Analyzer para examinar o desempenho do elemento de relatório
 
-Na **Power BI Desktop** encontre fora como cada um dos elementos do relatório, como elementos visuais e as fórmulas DAX, está o desempenho. Usando o **Performance Analyzer**, você pode ver e registro de logs que medir como cada um dos elementos do relatório executa quando os usuários interagem com eles, e quais aspectos do seu desempenho estão com uso intensivo de recursos de mais (ou menos).
+No **Power BI Desktop**, você pode descobrir como cada um de seus elementos de relatório, como visuais e fórmulas DAX, estão sendo executados. Usando o **Performance Analyzer**, você pode ver e registrar logs que medem como cada um de seus elementos de relatório é executado quando os usuários interagem com eles e quais aspectos de seu desempenho consomem mais (ou menos) recursos.
 
 ![Analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-01.png)
 
-Analisador de desempenho inspeciona e exibe durante o tempo necessário para a atualização ou atualização de todos os elementos visuais interações do usuário que iniciar e apresenta as informações para que você pode exibir, fazer uma busca detalhada ou exportar os resultados. Analisador de desempenho pode ajudar a identificar elementos visuais que estão afetando o desempenho de seus relatórios e identificar o motivo do impacto.
+O Performance Analyzer inspeciona e exibe a duração necessária para atualizar ou atualizar todos os visuais que as interações do usuário iniciam e apresenta as informações para que você possa exibir, fazer drill down ou exportar os resultados. O Performance Analyzer pode ajudar a identificar visuais que estão afetando o desempenho de seus relatórios e o motivo do impacto.
 
-## <a name="displaying-the-performance-analyzer-pane"></a>Exibindo o painel do analisador de desempenho
+## <a name="displaying-the-performance-analyzer-pane"></a>Exibir o painel do Performance Analyzer
 
-Na **Power BI Desktop** selecionar a **exibição** faixa de opções. No **mostram** área da **exibição** faixa de opções que você pode selecionar a caixa de seleção ao lado de **Performance Analyzer** para exibir o painel do analisador de desempenho.
+No **Power BI Desktop**, selecione a faixa de opções **Exibir**. Na área **Mostrar** da faixa de opções **Exibir**, você pode marcar a caixa de seleção ao lado do **Performance Analyzer** para exibir o painel do Performance Analyzer.
 
-![Selecione o analisador de desempenho na faixa de opções de exibição](media/desktop-performance-analyzer/performance-analyzer-02.png)
+![Selecionar o Performance Analyzer na faixa de opções Exibir](media/desktop-performance-analyzer/performance-analyzer-02.png)
 
-Depois de selecionado, o analisador de desempenho é exibido no seu próprio painel, à direita da tela do relatório.
+Depois de selecionado, o Performance Analyzer será exibido em seu próprio painel, à direita da tela do relatório.
 
-## <a name="using-performance-analyzer"></a>Usando o analisador de desempenho
+## <a name="using-performance-analyzer"></a>Usar o Performance Analyzer
 
-Medidas de analisador de desempenho o tempo de processamento (incluindo o tempo para criar ou atualizar um visual) necessárias para atualizar os elementos de relatório iniciados como resultado de qualquer interação do usuário que resulta na execução de uma consulta. Por exemplo, ajustar uma segmentação de dados requer o visual de segmentação de dados a ser modificada, uma consulta a serem enviados para o modelo de dados e os visuais afetados que devem ser atualizados como resultado das novas configurações. 
+O Performance Analyzer mede o tempo de processamento (incluindo o tempo para criar ou atualizar um visual) necessário para atualizar os elementos de relatório iniciados como resultado de qualquer interação do usuário que resulte na execução de uma consulta. Por exemplo, ajustar uma segmentação requer que o visual dela seja modificado e que uma consulta seja enviada para o modelo de dados, além de requerer os visuais afetados que devem ser atualizados como resultado das novas configurações. 
 
-Para que o analisador de desempenho começar a gravar, simplesmente selecione **iniciar a gravação**
+Para que o Performance Analyzer comece a gravar, basta selecionar **Iniciar gravação**
 
 ![Iniciar gravação](media/desktop-performance-analyzer/performance-analyzer-03.png)
 
-As ações tomadas no relatório são exibidas e registradas no painel de analisador de desempenho, na ordem em que o visual é carregado pelo Power BI. Por exemplo, talvez você tenha um relatório que os usuários disseram leva muito tempo para atualizar. Ou alguns visuais em um relatório de levar muito tempo para exibir quando um controle deslizante é ajustado. Analisador de desempenho pode informar a você qual visual é o culpado e identifica quais aspectos do visual está levando a duração mais longa para processar. 
+As ações executadas no relatório são exibidas e registradas no painel do Performance Analyzer, na ordem em que o visual é carregado pelo Power BI. Por exemplo, talvez os usuários tenham dito que um relatório demora muito para ser atualizado. Ou determinados visuais em um relatório demoram muito para serem exibidos quando uma segmentação é ajustada. O Performance Analyzer pode informar qual visual é o culpado e identificar quais aspectos do visual estão demorando mais para serem processados. 
 
-Depois que você inicia a gravação, o **inicie a gravação** botão ficará esmaecido out (inativo, uma vez que você já tenha começado a gravação) e o **parar** botão está ativo. 
+Depois de iniciar a gravação, o botão **Iniciar gravação** fica esmaecido (inativo, pois você já começou a gravar) e o botão **Parar** fica ativo. 
 
-Analisador de desempenho coleta e exibe as informações de medição de desempenho em tempo real. Para que cada vez que você clicar em um visual, mover uma segmentação de dados ou interaja de qualquer maneira, o analisador de desempenho exibe imediatamente os resultados de desempenho no seu painel.
+O Performance Analyzer coleta e exibe as informações de medição do desempenho em tempo real. Portanto, sempre que você clica em um visual, move uma segmentação ou interage de qualquer outra maneira, o Performance Analyzer exibe imediatamente os resultados de desempenho em seu painel.
 
-Se o painel tem mais informações que podem ser exibidos, uma barra de rolagem será exibida navegar para obter informações adicionais.
+Se o painel tiver mais informações que possam ser exibidas, uma barra de rolagem será exibida para navegar até informações adicionais.
 
-Cada interação tem um identificador de seção no painel, que descreve a ação que iniciou as entradas de log. Na imagem a seguir, a interação era que os usuários alteraram uma segmentação de dados.
+Cada interação tem um identificador de seção no painel, descrevendo a ação que iniciou as entradas do log. Na imagem a seguir, a interação era que os usuários alterassem uma segmentação.
 
-![Seções com base no tipo de interação](media/desktop-performance-analyzer/performance-analyzer-04.png)
+![Seções baseadas no tipo de interação](media/desktop-performance-analyzer/performance-analyzer-04.png)
 
-Informações de log do cada visual incluem o tempo gasto (duração) para concluir as seguintes categorias de tarefas:
+As informações de log de cada visual inclui o tempo gasto (duração) para concluir as seguintes categorias de tarefas:
 
-* **Consulta DAX** -se uma consulta DAX era necessária, isso é o tempo entre o visual enviando a consulta e para o Analysis Services retornar os resultados.
-* **Exibição visual** -tempo necessário para o visual desenhar na tela, incluindo o tempo necessário para recuperar todas as imagens da web ou geocodificação. 
-* **Outros** -tempo necessário para o visual para consultas de preparação, aguardando outros elementos visuais concluir ou executar outros tipos de processamento em segundo plano.
+* **Consulta DAX** – se uma consulta DAX foi exigida, esse é o tempo entre o visual enviar a consulta e o Analysis Services retornar os resultados.
+* **Exibição do visual** – o tempo necessário para o visual ser desenhado na tela, incluindo o tempo necessário para recuperar imagens da Web ou geocodificação. 
+* **Outro** – tempo exigido pelo Visual para preparar consultas, aguardar a conclusão de outros visuais ou executar outros processamentos em segundo plano.
 
 ![elementos de informações de log](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
-Depois que você já interagi com elementos do relatório que deseja medir com o analisador de desempenho, você pode selecionar o **parar** botão. As informações de desempenho permanecem no painel depois que você seleciona **parar** para analisar.
+Depois de interagir com os elementos do relatório que você deseja medir com o Performance Analyzer, você poderá selecionar o botão **Parar**. As informações do desempenho continuarão no painel depois de você selecionar **Parar** para analisar.
 
-Para limpar as informações no painel do analisador de desempenho, selecione **limpar**. Todas as informações são apagadas e não é salvo quando você seleciona **clara**. Consulte a próxima seção para aprender a salvar informações nos logs. 
+Para limpar as informações no painel do Performance Analyzer, selecione **Limpar**. Todas as informações são apagadas e não são salvas quando você seleciona **Limpar**. Confira a próxima seção para aprender a salvar informações em logs. 
 
-## <a name="refreshing-visuals"></a>Atualização de visuais
+## <a name="refreshing-visuals"></a>Atualizar visuais
 
-Você pode selecionar **Refresh visuais** no painel de analisador de desempenho para atualizar todos os visuais na página atual do relatório e, portanto, têm o analisador de desempenho coletar informações sobre todos esses visuais.
+Você pode selecionar **Atualizar visuais** no painel do Performance Analyzer para atualizar todos os visuais na página atual do relatório e, assim, fazer o Performance Analyzer coletar informações sobre todos esses visuais.
 
-Você também pode atualizar elementos visuais individuais. Durante a gravação de analisador de desempenho, você pode selecionar **Refresh este visual** localizado no canto superior direito de cada visual, para atualizar esse visual e capturar suas informações de desempenho.
+Você também pode atualizar visuais individuais. Quando o Performance Analyzer está gravando, você pode selecionar **Atualizar este visual** encontrado no canto superior direito de cada visual para atualizá-lo e capturar suas informações de desempenho.
 
 ![atualizar um visual individual](media/desktop-performance-analyzer/performance-analyzer-07.png)
 
-## <a name="saving-performance-information"></a>Salvando informações de desempenho
+## <a name="saving-performance-information"></a>Salvar informações de desempenho
 
-Você pode salvar as informações que cria o analisador de desempenho sobre um relatório selecionando o **exportar** botão. Selecionando **exportar** cria um arquivo. JSON com informações do painel de analisador de desempenho. 
+Você pode salvar as informações que o Performance Analyzer cria sobre um relatório selecionando o botão **Exportar**. A seleção de **Exportar** cria um arquivo .json com informações do painel do Performance Analyzer. 
 
-![Salve o arquivo de log para o analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-05.png)
+![Salvar o arquivo de log do Performance Analyzer](media/desktop-performance-analyzer/performance-analyzer-05.png)
 
 
 ## <a name="next-steps"></a>Próximas etapas

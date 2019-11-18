@@ -2,7 +2,6 @@
 title: Criar uma cópia de um dashboard do Power BI
 description: 'Como duplicar um dashboard do Power BI '
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523179"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872835"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Criar uma cópia de um dashboard no serviço do Power BI
 ![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -28,7 +27,7 @@ Dashboards são criados (e copiados) usando o serviço do Power BI e podem ser e
 Para fazer uma cópia de um dashboard, você deve ser o *criador* do dashboard. Os dashboards que foram compartilhados com você como aplicativo não podem ser duplicados.
 
 1. Abra o dashboard.
-2. No canto superior direito, selecione as reticências (...) e escolha **Duplicar dashboard**.
+2. No canto superior direito, selecione **Mais opções** (...) e escolha **Duplicar dashboard**.
    
    ![menu de reticências](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Dê um nome ao dashboard e selecione **Duplicar**. 
@@ -40,15 +39,15 @@ Para fazer uma cópia de um dashboard, você deve ser o *criador* do dashboard. 
 
 5.    Abra o novo dashboard e edite conforme necessário. Aqui estão algumas coisas que talvez você queira fazer a seguir:    
     a. [Mover, renomear, redimensionar ou até mesmo excluir blocos](service-dashboard-edit-tile.md).  
-    b. Editar detalhes do bloco e hiperlinks selecionando as reticências (...) do bloco e escolhendo **Editar detalhes**.  
+    b. Editar detalhes do bloco e hiperlinks selecionando o bloco **Mais opções** (...) e escolhendo **Editar detalhes**.  
     c. [Adicionar novos blocos na barra de menus do dashboard](service-dashboard-add-widget.md) (**Adicionar bloco**)  
     d. Fixar novos blocos [de P e R](service-dashboard-pin-tile-from-q-and-a.md) ou [de relatórios](service-dashboard-pin-tile-from-report.md).  
-    e. Renomear o dashboard, ativar ou desativar a P e R e definir o fluxo do bloco do painel Configurações do dashboard.  (selecionar o menu suspenso de reticências (...) do dashboard e escolher **Configurações**)  
+    e. Renomear o dashboard, ativar ou desativar a P e R e definir o fluxo do bloco do painel Configurações do dashboard.  (selecionar o menu suspenso **Mais opções** (...) do dashboard e escolher **Configurações**)  
     f. Compartilhar seu dashboard diretamente com seus colegas ou como parte de um aplicativo do Power BI. 
 
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Dicas para projetar um ótimo dashboard](service-dashboards-design-tips.md) 
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

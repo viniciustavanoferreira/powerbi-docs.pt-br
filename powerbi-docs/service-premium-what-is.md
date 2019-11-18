@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305854"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431640"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -53,7 +53,7 @@ As assinaturas do Power BI Premium são compradas por administradores no centro 
 
 Com o Power BI Premium, você obtém *capacidades dedicadas*. Em contraste com uma capacidade compartilhada em que cargas de trabalho são executadas em recursos computacionais compartilhados com outros clientes, uma capacidade dedicada é para uso exclusivo de uma organização. Ela é isolada com recursos computacionais dedicados que oferecem desempenho confiável e consistente para conteúdo hospedado. 
 
-Os workspaces residem dentro de capacidades. Cada usuário do Power BI tem um workspace pessoal, conhecido como **Meu workspace**. Espaços de trabalho adicionais, conhecidos como **Espaços de Trabalho do Aplicativo**, podem ser criados para habilitar a colaboração e a implantação. Por padrão, os workspaces, incluindo os pessoais, são criados na capacidade compartilhada. Quando você tem capacidades Premium, o Meu workspaces e os Workspaces do Aplicativo podem ser atribuídos a capacidades Premium.
+Os workspaces residem dentro de capacidades. Cada usuário do Power BI tem um workspace pessoal, conhecido como **Meu workspace**. Workspaces adicionais, conhecidos como **workspaces**, podem ser criados para habilitar a colaboração e a implantação. Por padrão, os workspaces, incluindo os pessoais, são criados na capacidade compartilhada. Quando você tem capacidades Premium, tanto Meus Workspaces quanto workspaces podem ser atribuídos a capacidades Premium.
 
 ### <a name="capacity-nodes"></a>Nós de capacidade
 
@@ -71,7 +71,7 @@ Os recursos e limites de cada SKU Premium (e o SKU A de tamanho equivalente) sã
 
 | Nós de Capacidade | Total de núcleos virtuais | Núcleos virtuais de back-end | RAM (GB) | Núcleos virtuais de front-end | DirectQuery/Conexão Dinâmica (por s) | Paralelismo de atualização de modelo |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |

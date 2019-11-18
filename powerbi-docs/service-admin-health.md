@@ -2,7 +2,6 @@
 title: Controlar a integridade do serviço do Power BI no Office 365
 description: Saiba como exibir a integridade de serviço atual e histórica no Centro de administração do Microsoft 365.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 579950320c3193e9cc1921a06d5b121ff0b58ae0
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 0e944dfa34bec1e1c1816cf80d7dc2df7252b65a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075351"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857698"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Controlar a integridade do serviço do Power BI no Office 365
 
@@ -29,7 +28,7 @@ Para saber mais sobre funções, confira [Funções de administrador relacionada
 
 1. Entre no [centro de administração do Microsoft 365](https://portal.office.com/adminportal).
 
-1. Na barra de navegação esquerda, selecione **Mostrar tudo** > **Integridade** > **Integridade do serviço**. Nosso sistema exibirá a página da Integridade do serviço:
+1. No painel de navegação, selecione **Mostrar tudo** > **Integridade** > **Integridade do serviço**. Nosso sistema exibirá a página da Integridade do serviço:
 
     ![Captura de tela do Centro de administração do Microsoft 365 com as opções Integridade e Integridade do Serviço exibidas.](media/service-admin-health/service-health-tile.png)
 

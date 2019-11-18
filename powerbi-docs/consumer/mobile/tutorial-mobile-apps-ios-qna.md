@@ -2,19 +2,18 @@
 title: 'Tutorial: Fazer perguntas com o analista virtual de P e R nos aplicativos iOS'
 description: Neste tutorial, faça perguntas sobre dados de exemplo com suas próprias palavras com o analista virtual da P e R no aplicativo móvel do Power BI em seu dispositivo iOS.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337029"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869648"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Faça perguntas sobre seus dados com o analista virtual de P e R nos aplicativos Power BI para iOS
 
@@ -42,7 +41,7 @@ Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gr
 ## <a name="prerequisites"></a>Pré-requisitos
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Instalar o aplicativo Power BI para iOS
-[Baixe o aplicativo para iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Baixe o aplicativo para iPhone") na Apple App Store para seu iPad, iPhone ou iPod Touch.
+[Baixe o aplicativo iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Baixe o aplicativo para iPhone") da Apple App Store para o seu iPad, iPhone ou iPod Touch.
 
 Essas versões oferecem suporte ao aplicativo Power BI para iOS:
 - iPad com iOS 10 ou posterior.
@@ -54,11 +53,11 @@ A primeira etapa do tutorial é baixar a amostra de Análise de Oportunidade no 
 
 1. Abra o serviço do Power BI no navegador (app.powerbi.com) e entre.
 
-1. Selecione o ícone de navegação global para abrir o painel de navegação esquerdo.
+1. Selecione o ícone de navegação global para abrir o painel de navegação.
 
     ![Ícone de navegação global](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. No painel de navegação esquerdo, selecione **Workspaces** > **Meu Workspace**.
+2. No painel de navegação, selecione **Workspaces** > **Meu Workspace**.
 
     ![Meu Workspace](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -72,7 +71,7 @@ A primeira etapa do tutorial é baixar a amostra de Análise de Oportunidade no 
 
 4. Selecione o **Exemplo de Análise de Oportunidade**.
  
-    ![Exemplo de Análise de Oportunidade](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![Exemplo de análise de oportunidade](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. Selecione **Conectar**.  
   
@@ -117,7 +116,7 @@ Quando terminar este tutorial, você pode excluir o dashboard, o relatório e o 
 
 1. Abra o serviço do Power BI (app.powerbi.com) e entre.
 
-2. No painel de navegação esquerdo, selecione **Workspaces** > **Meu Workspace**.
+2. No painel de navegação, selecione **Workspaces** > **Meu Workspace**.
 
 3. Na guia **Dashboards**, selecione o ícone de lata de lixo de **Excluir**, ao lado do dashboard Análise de Oportunidade.
 

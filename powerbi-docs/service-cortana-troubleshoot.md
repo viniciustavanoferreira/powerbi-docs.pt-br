@@ -2,7 +2,6 @@
 title: Solucionar problemas da Cortana para o Power BI
 description: Se você estiver com problemas para usar a Cortana com o Power BI, experimente estas sugestões.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 678910000a0062836004b208cb401774c9eb2a9a
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542876"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872889"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Solucionar problemas da Cortana para o Power BI
 Este artigo faz parte de uma série. 
@@ -39,7 +38,7 @@ Se ainda estiver com problemas para integrar a Cortana com o Power BI, você vei
    * “mostrar vendas” *não* retornará um resultado do Power BI.   
    * “mostrar vendas do AF16”, “vendas AF16”, “mostrar vendas AF16” e “mostrar vendas f” *retornarão* um resultado do Power BI.    
    * Adicionar a palavra “powerbi” conta como uma das duas palavras necessárias, portanto “vendas do Power BI” *retornará* resultado do Power BI.
-5. Você tem acesso ou permissões para editar os relatórios ou dashboards? Para os relatórios, verifique se o conteúdo que você está tentando pesquisar tem um [cartão de respostas](service-cortana-answer-cards.md).  Para os dashboards, verifique se o conteúdo que você está tentando pesquisar está em **Compartilhado comigo**, um workspace do aplicativo ou em **Meu workspace**. [Use a ferramenta de solução de problemas](#try-the-cortana-troubleshooting-tool) para ajudar a identificar o problema.
+5. Você tem acesso ou permissões para editar os relatórios ou dashboards? Para os relatórios, verifique se o conteúdo que você está tentando pesquisar tem um [cartão de respostas](service-cortana-answer-cards.md).  Para os dashboards, verifique se o conteúdo que você está tentando pesquisar está em **Compartilhado comigo**, um workspace ou em **Meu workspace**. [Use a ferramenta de solução de problemas](#try-the-cortana-troubleshooting-tool) para ajudar a identificar o problema.
 6. Você está usando um dispositivo móvel?  No momento, só há suporte para a integração do Power BI e da Cortana em dispositivos móveis do Windows.
 7. A Cortana está configurada para o idioma Inglês?  A integração atual do Power BI com a Cortana tem suporte apenas em inglês. Abra a Cortana e selecione o ícone de engrenagem para exibir as Configurações. Role para baixo até **Idioma da Cortana** e confirme se ela está configurada para uma das opções em Inglês.
 
@@ -96,4 +95,4 @@ Procurando por um dashboard que foi compartilhado com você?  Abra o Power BI > 
 * A consulta deve ter duas ou mais palavras, intencionalmente.  Se sua consulta for muito curta, adicione a palavra "show".
 * Algumas cadeias de consulta com preposições podem não funcionar (por exemplo, vendas por item). Tente termos de consulta diferentes que não utilizam preposições e sejam significativos/exclusivos.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

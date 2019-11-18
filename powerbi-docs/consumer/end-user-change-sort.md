@@ -2,7 +2,6 @@
 title: Alterar como um gráfico é classificado em um relatório
 description: Altere como um gráfico é classificado em um relatório do Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aaf2af2209097b75a4a6aee4faa062bc432dd765
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e325d13dd8001e8da41dc5602bf3f7dbba2f371f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019945"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852382"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Altere como um gráfico é classificado em um relatório do Power BI
 
@@ -29,7 +28,7 @@ Se estiver usando dados numéricos (como valores de vendas) ou dados de texto (c
 
 Não é possível classificar os visuais de um dashboard. Em um relatório do Power BI, você pode classificar a maioria das visualizações em ordem alfabética pelos nomes das categorias no gráfico ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico é classificado alfabeticamente pela categoria **nome de loja**.
 
-![gráfico de barras classificado pelo eixo X em ordem alfabética](media/end-user-change-sort/pbi_chartsortcategory.png)
+![gráfico de barras classificado pelo eixo X em ordem alfabética](media/end-user-change-sort/pbi-chartsortcategory.png)
 
 É fácil alterar a classificação de uma categoria (nome do repositório) para um valor (vendas por pés quadrados).
 

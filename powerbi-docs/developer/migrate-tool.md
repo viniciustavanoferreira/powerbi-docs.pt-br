@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f839c8d4208dd63cab411ef5dae064fdb3d2fa95
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61271834"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429432"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Ferramenta de migração Power BI Embedded
 
@@ -130,9 +130,9 @@ Um caminho será criado automaticamente para você. Se desejar, você poderá al
 > [!NOTE]
 > Isso não executa o download. Isso só especifica a estrutura do local para o local em que os relatórios serão baixados.
 
-#### <a name="upload-plan"></a>Plano de upload
+#### <a name="upload-plan"></a>Fazer Upload de Plano
 
-Aqui, você pode especificar um prefixo para ser usado para os Workspaces do Aplicativo que serão criados no serviço do Power BI. Depois do prefixo, estará o GUID do workspace que existia no Azure.
+Aqui, você pode especificar um prefixo para ser usado para os workspaces que serão criados no serviço do Power BI. Depois do prefixo, estará o GUID do workspace que existia no Azure.
 
 ![Carregar plano](media/migrate-tool/migrate-tool-upload-plan.png)
 
@@ -167,21 +167,21 @@ Depois que o download for concluído, selecione a guia **Criar Grupos**.
 
 ## <a name="step-3-create-groups"></a>Etapa 3: Criar Grupos
 
-Após ter baixado os relatórios disponíveis, você pode ir para a guia **Criar Grupos**. Esta guia criará os workspaces do aplicativo no serviço do Power BI com base no plano de migração que você criou. Ela criará o workspace do aplicativo com o nome fornecido na guia **Carregar** em **Analisar e Planejar a Migração**.
+Após ter baixado os relatórios disponíveis, você pode ir para a guia **Criar Grupos**. Esta guia criará os workspaces no serviço do Power BI com base no plano de migração que você criou. Ela criará o workspace com o nome fornecido na guia **Carregar** em **Analisar e Planejar a Migração**.
 
 ![Criar grupos](media/migrate-tool/migrate-tool-create-groups.png)
 
-Para criar os workspaces do aplicativo, você pode selecionar **Criar Grupos Selecionados** ou **Criar Todos os Grupos Ausentes**.
+Para criar os workspaces, você pode selecionar **Criar Grupos Selecionados** ou **Criar Todos os Grupos Ausentes**.
 
-Quando selecionar uma dessas opções, você será solicitado a entrar. *Use as credenciais do serviço do Power BI no qual você deseja criar os workspaces do aplicativo.*
+Quando selecionar uma dessas opções, você será solicitado a entrar. *Use as credenciais do serviço do Power BI no qual você deseja criar os workspaces.*
 
 ![Criar entrada do grupo](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
-Isso criará o workspace do aplicativo no serviço do Power BI. Os relatórios não serão carregados no workspace do aplicativo.
+Isso criará o workspace no serviço do Power BI. Os relatórios não serão carregados no workspace.
 
-Você pode confirmar se o workspace do aplicativo foi criado entrando no Power BI e validando se o workspace existe. Você observará que não há nada no workspace.
+Você pode confirmar se o workspace foi criado entrando no Power BI e validando se o workspace existe. Você observará que não há nada no workspace.
 
-![Workspace de aplicativo](media/migrate-tool/migrate-tool-app-workspace.png)
+![workspace](media/migrate-tool/migrate-tool-app-workspace.png)
 
 Após o workspace ser sido criado, você poderá passar para a guia **Carregar**.
 
@@ -235,9 +235,9 @@ Para o item com falha, podemos alterar o nome do SaaSTargetReportName.
 
 Podemos, em seguida, abrir novamente o plano na ferramenta de migração e carregar o relatório com falha.
 
-Voltando ao Power BI, podemos ver que os relatórios e conjuntos de dados foram carregados no workspace do aplicativo.
+Voltando ao Power BI, podemos ver que os relatórios e conjuntos de dados foram carregados no workspace.
 
-![Carregar workspace do aplicativo](media/migrate-tool/migrate-tool-upload-app-workspace.png)
+![Carregar workspace](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
 <a name="upload-local-file"></a>
 
@@ -264,7 +264,7 @@ Em seguida, você poderá atualizar a cadeia de conexão do conjunto de dados no
 
 ## <a name="embedding"></a>Inserção
 
-Agora que seus relatórios foram migrados do serviço Power BI Embedded do Azure para o serviço do Power BI, você pode atualizar seu aplicativo e começar a inserir os relatórios neste workspace do aplicativo.
+Agora que seus relatórios foram migrados do serviço Power BI Embedded do Azure para o serviço do Power BI, você pode atualizar seu aplicativo e começar a inserir os relatórios neste workspace.
 
 Para obter mais informações, consulte [Como migrar o conteúdo da coleção de workspaces do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md).
 

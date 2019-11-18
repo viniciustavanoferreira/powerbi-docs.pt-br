@@ -9,14 +9,17 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903818"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019460"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Exiba um relatório no serviço do Power BI para *consumidores*
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Um relatório é uma ou mais páginas de visuais. Os relatórios são criados por *designers* do Power BI e [compartilhados com *consumidores* diretamente](end-user-shared-with-me.md) ou como parte de um [aplicativo](end-user-apps.md). 
 
 Há muitas maneiras diferentes de abrir um relatório e mostraremos duas delas: abrir na Página Inicial e em um dashboard. 
@@ -52,7 +55,7 @@ Os *designers* do Power BI podem compartilhar um relatório individual diretamen
 
 6. Observe o painel **Filtros** à direita. Os filtros que foram aplicados a esta página de relatório, ou a todo o relatório, aparecem aqui.
 
-7. Focalizar um visual de relatório revela vários ícones e reticências (...). Para ver os filtros aplicados a um visual específico, selecione o ícone de filtro. Aqui, selecionamos o ícone de filtro para o gráfico de linha *Total de unidades por período consecutivo e região*.
+7. Passar o mouse sobre um visual de relatório revela vários ícones e **Mais opções** (...). Para ver os filtros aplicados a um visual específico, selecione o ícone de filtro. Aqui, selecionamos o ícone de filtro para o gráfico de linha *Total de unidades por período consecutivo e região*.
 
    ![guias de página do relatório](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -102,6 +105,7 @@ Conforme você ficar mais familiarizado com a navegação no serviço do Power B
 - Usando [Exibição relacionada](end-user-related.md)    
 - Em um email, quando alguém [compartilha com você](../service-share-reports.md) ou [define um alerta](end-user-alerts.md)    
 - No [Centro de notificações](end-user-notification-center.md)    
+- Em um workspace
 - e muito mais
 
 ## <a name="next-steps"></a>Próximas etapas

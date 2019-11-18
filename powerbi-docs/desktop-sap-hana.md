@@ -2,7 +2,6 @@
 title: Usar o SAP HANA no Power BI Desktop
 description: Usar o SAP HANA no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1932848cb2f8ad7d75e841870265cc22308467c2
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: bf258597f6369541fb9a221c8d423e8a9078a3a4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200894"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879762"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Usar o SAP HANA no Power BI Desktop
-Com o Power BI Desktop, agora você pode acessar bancos de dados do **SAP HANA** . Para usar o **SAP HANA**, o driver ODBC do SAP HANA deve ser instalado no computador cliente local para que a conexão de dados do **SAP HANA** para o Power BI Desktop funcione corretamente. É possível baixar o driver ODBC do SAP HANA no [Centro de Download de Software SAP](https://support.sap.com/swdc). Estando nele, pesquise os computadores com Windows em SAP HANA CLIENT. Como o **Centro de Download de Software SAP** altera sua estrutura com frequência, não estão disponíveis diretrizes mais específicas para navegar nesse site.
+Com o Power BI Desktop, agora você pode acessar bancos de dados do **SAP HANA** . Para usar o **SAP HANA**, o driver ODBC do SAP HANA deve ser instalado no computador cliente local para que a conexão de dados do **SAP HANA** para o Power BI Desktop funcione corretamente. Você pode baixar as ferramentas de cliente SAP HANA de [Ferramentas de Desenvolvimento SAP](https://tools.hana.ondemand.com/#hanatools), que contém o driver ODBC necessário. Como alternativa, você pode obtê-lo do [Centro de Download de Software SAP](https://support.sap.com/swdc). No portal de software, pesquise os computadores com Windows em SAP HANA CLIENT. Como o **Centro de Download de Software SAP** altera sua estrutura com frequência, não estão disponíveis diretrizes mais específicas para navegar nesse site.
 
 Para se conectar a um banco de dados **SAP HANA**, selecione **Obter Dados > Banco de Dados > Banco de Dados SAP HANA**, conforme mostrado na imagem a seguir:
 
@@ -39,7 +38,7 @@ Esta versão contém vários recursos para o **SAP HANA**, como mostrado na list
 * Inclui Navegação Otimizada para modelos do HANA
 * O Power BI dá suporte a parâmetros de Variáveis e Entrada do **SAP HANA**
 * Exibições de Cálculo baseadas em contêiner do HDI
-  * O suporte para Exibições de Cálculo baseadas em contêiner do HDI está em versão prévia pública na versão de agosto de 2019 do Power BI Desktop. Para acessar suas Exibições de Cálculo baseadas em contêiner do HDI no Power BI, verifique se os usuários do banco de dados do HANA que você usa com o Power BI têm permissão para acessar o contêiner de runtime do HDI que armazena as exibições que você deseja acessar. Para conceder esse acesso, você deve criar uma função que permita o acesso a seu contêiner do HDI e atribuir a função ao usuário do banco de dados HANA que será usado com o Power BI (esse usuário também deve ter permissão para ler as tabelas do sistema no esquema \_SYS\_BI, como é o normal). Leia a documentação oficial do SAP para obter instruções detalhadas sobre como criar e atribuir funções de banco de dados. [Esta postagem no blog do SAP](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fblogs.sap.com%2F2018%2F01%2F24%2Fthe-easy-way-to-make-your-hdi-container-accessible-to-a-classic-database-user%2F&data=02%7C01%7Cv-adbold%40microsoft.com%7Cf7e0a405fe334598ba0608d7096ef5b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636988244476739316&sdata=PuRu61GPRYp34mLuGbQk6gdbRikdgbxfqo8q1RBQtm0%3D&reserved=0) pode ser um bom ponto de partida.
+  * O suporte para Exibições de Cálculo baseadas em contêiner do HDI está em versão prévia pública na versão de agosto de 2019 do Power BI Desktop. Para acessar suas Exibições de Cálculo baseadas em contêiner do HDI no Power BI, verifique se os usuários do banco de dados do HANA que você usa com o Power BI têm permissão para acessar o contêiner de runtime do HDI que armazena as exibições que você deseja acessar. Para conceder esse acesso, você deve criar uma função que permita o acesso a seu contêiner do HDI e atribuir a função ao usuário do banco de dados HANA que será usado com o Power BI (esse usuário também deve ter permissão para ler as tabelas do sistema no esquema \_SYS\_BI, como é o normal). Leia a documentação oficial do SAP para obter instruções detalhadas sobre como criar e atribuir funções de banco de dados. [Esta postagem no blog do SAP](https://blogs.sap.com/2018/01/24/the-easy-way-to-make-your-hdi-container-accessible-to-a-classic-database-user/) pode ser um bom ponto de partida.
   * Observe que atualmente há algumas limitações às variáveis do HANA anexadas a Exibições de Cálculo baseadas em HDI. Essas limitações devem-se a erros no lado do HANA e serão abordadas em versões futuras do SAP HANA. Primeiro, não é possível aplicar uma variável do HANA a uma coluna compartilhada de uma Exibição de Cálculo baseada em contêiner do HDI. Essa limitação pode ser corrigida Atualizando para o HANA 2 versão 37.02 e posteriores ou HANA 2 versão 42 e posteriores. Segundo, valores padrão de várias entradas para variáveis e parâmetros atualmente não aparecem na interface do usuário do Power BI. Isso também ocorre devido a um erro no SAP HANA; no entanto, a SAP ainda não anunciou um conserto.
 
 ## <a name="limitations-of-sap-hana"></a>Limitações do SAP HANA

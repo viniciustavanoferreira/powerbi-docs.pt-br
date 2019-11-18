@@ -1,5 +1,5 @@
 ---
-title: Configurar SSO – Kerberos
+title: Configurar o SSO baseado em Kerberos do serviço do Power BI para fontes de dados locais
 description: Configure seu gateway com o Kerberos para habilitar o SSO do Power BI para fontes de dados locais
 author: mgblythe
 ms.author: mblythe
@@ -8,82 +8,86 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0fb52262790c6c1935d8152f043f726a9471817d
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 030c1880915029739ca38b6a57f9ab310e9b1f60
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71969003"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020355"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurar o SSO baseado em Kerberos do serviço do Power BI para fontes de dados locais
 
-Use a [delegação restrita de Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) para habilitar a conectividade ininterrupta de SSO. A habilitação do SSO facilita a atualização de dados de fontes locais em relatórios e dashboards do Power BI, respeitando as permissões no nível de usuário configuradas nessas fontes.
+A habilitação do SSO facilita a atualização de dados de fontes locais em relatórios e dashboards do Power BI, respeitando as permissões no nível de usuário configuradas nessas fontes. Use a [delegação restrita de Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) para habilitar a conectividade ininterrupta de SSO. 
+
+## <a name="prerequisites"></a>Pré-requisitos
 
 Vários itens devem ser configurados para que a delegação restrita de Kerberos funcione corretamente, incluindo os _SPNs_ (nomes das entidades de serviço) e as configurações de delegação nas contas de serviço.
 
-### <a name="prerequisite-1-install-and-configure-the-microsoft-on-premises-data-gateway"></a>Pré-requisito 1: Instalar e configurar o gateway de dados local da Microsoft
+### <a name="install-and-configure-the-microsoft-on-premises-data-gateway"></a>Instalar e configurar o gateway de dados local da Microsoft
 
 O gateway de dados local é compatível com atualização in-loco e com o _controle das configurações_ de gateway existentes.
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Pré-requisito 2: executar o serviço Windows do gateway como uma conta de domínio
+### <a name="run-the-gateway-windows-service-as-a-domain-account"></a>executar o serviço Windows do gateway como uma conta de domínio
 
-Em uma instalação padrão, o gateway é executado como uma conta de serviço do computador local (especificamente, _NT Service\PBIEgwService_), conforme mostrado na imagem a seguir:
+Em uma instalação padrão, o gateway é executado como uma conta de serviço local do computador, **NT Service\PBIEgwService**.
 
-![Captura de tela da conta de serviço](media/service-gateway-sso-kerberos/service-account.png)
+![Conta de serviço local do computador](media/service-gateway-sso-kerberos/service-account.png)
 
 Para habilitar a delegação restrita de Kerberos, o gateway precisa ser executado como uma conta de domínio, a menos que a instância do Azure AD (Azure Active Directory) já esteja sincronizada com a instância do Active Directory local (usando o Azure AD DirSync/Connect). Para alternar para uma conta de domínio, confira [Mudar a conta de serviço de gateway](/data-integration/gateway/service-gateway-service-account).
 
 > [!NOTE]
-> Se o Microsoft Azure Active Directory Connect está configurado e as contas de usuário estão sincronizadas, o serviço do gateway não precisa executar pesquisas no Microsoft Azure Active Directory local no tempo de execução. Ao invés disso, basta usar o SID do serviço local para que o serviço de gateway conclua toda a configuração necessária no Microsoft Azure Active Directory. As etapas de configuração da delegação restrita de Kerberos descritas neste artigo são as mesmas que as etapas de configuração exigidas no contexto do Microsoft Azure Active Directory. Elas são simplesmente aplicadas ao objeto de computador do gateway (conforme identificado pelo SID do serviço local) no Microsoft Azure AD em vez da conta de domínio.
+> Se o Microsoft Azure Active Directory Connect está configurado e as contas de usuário estão sincronizadas, o serviço do gateway não precisa executar pesquisas no Microsoft Azure Active Directory local no runtime. Em vez disso, basta usar o SID do serviço local para que o serviço de gateway conclua toda a configuração necessária no Azure AD. As etapas de configuração da delegação restrita de Kerberos descritas neste artigo são as mesmas exigidas no contexto do Azure AD. Elas são aplicadas ao objeto de computador do gateway (conforme identificado pelo SID do serviço local) no Azure AD em vez da conta de domínio.
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Pré-requisito 3: ter direitos de administrador de domínio para configurar definições de SPNs (SetSPN) e da delegação restrita de Kerberos
+## <a name="obtain-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Ter direitos de administrador de domínio para definir configurações de SPNs (SetSPN) e da delegação restrita do Kerberos
 
-Não é recomendado que um administrador de domínio conceda temporária ou permanentemente direitos para outra pessoa configurar os SPNs e a delegação de Kerberos sem exigir que a pessoa tenha direitos de administrador de domínio. Na seção a seguir, abordaremos as etapas de configuração recomendadas mais detalhadamente.
+Para definir configurações de SPNs e delegação de Kerberos, o administrador do domínio precisa evitar conceder direitos a pessoas que não têm direitos de administrador de domínio. Na seção a seguir, abordaremos as etapas de configuração recomendadas mais detalhadamente.
 
 ## <a name="configure-kerberos-constrained-delegation-for-the-gateway-and-data-source"></a>Configurar a delegação restrita de Kerberos para o gateway e a fonte de dados
 
-Como administrador de domínio, configure um SPN para a conta de domínio do serviço do gateway (se exigido) e defina as configurações de delegação na conta de domínio do serviço do gateway.
+Se necessário, configure um SPN para a conta de domínio do serviço do gateway como administrador do domínio e defina configurações de delegação na conta de domínio do serviço do gateway.
 
 ### <a name="configure-an-spn-for-the-gateway-service-account"></a>Configurar um SPN para a conta de serviço do gateway
 
 Primeiro, determine se um SPN já foi criado para a conta de domínio usada como a conta de serviço do gateway:
 
-1. Como administrador de domínio, inicialize **Usuários e Computadores do Active Directory**.
+1. Como administrador do domínio, inicie o snap-in **Usuários e Computadores do Active Directory** do MMC (Console de Gerenciamento Microsoft).
 
-2. Clique com o botão direito do mouse no domínio, selecione **Localizar** e insira o nome da conta de serviço do gateway.
+2. No painel esquerdo, clique com o botão direito do mouse no nome de domínio, selecione **Localizar** e insira o nome da conta de serviço do gateway.
 
 3. No resultado da pesquisa, clique com o botão direito do mouse na conta de serviço do gateway e selecione **Propriedades**.
 
-4. Se a guia **Delegação** está visível na caixa de diálogo **Propriedades**, isso indica que já foi criado um SPN e é possível pular para [Decidir entre a delegação restrita de Kerberos padrão ou baseada em recursos](#decide-on-resource-based-or-standard-kerberos-constrained-delegation).
+4. Se a guia **Delegação** estiver visível na caixa de diálogo **Propriedades**, isso indica que já foi criado um SPN e é possível pular para [Decidir o tipo de delegação restrita de Kerberos a ser usado](#decide-on-the-type-of-kerberos-constrained-delegation-to-use).
 
-    Se não há uma guia **Delegação** na caixa de diálogo **Propriedades**, crie manualmente um SPN na conta para habilitá-la. Use a [ferramenta setspn](https://technet.microsoft.com/library/cc731241.aspx) fornecida com o Windows (é necessário ter direitos de administrador de domínio para criar o SPN).
+5. Se não houver uma guia **Delegação** na caixa de diálogo **Propriedades**, crie manualmente um SPN na conta para habilitá-la. Use a [ferramenta setspn](https://technet.microsoft.com/library/cc731241.aspx) fornecida com o Windows (é necessário ter direitos de administrador de domínio para criar o SPN).
 
-    Por exemplo, imagine que a conta de serviço do gateway seja **Contoso\GatewaySvc** e o nome do computador com o serviço do gateway em execução seja **MyGatewayMachine**. Para definir o SPN para a conta de serviço do gateway, é preciso executar o seguinte comando:
+   Por exemplo, imagine que a conta de serviço do gateway é **Contoso\GatewaySvc** e que o serviço de gateway está em execução em um computador chamado **MyGatewayMachine**. Para definir o SPN da conta de serviço do gateway, execute o seguinte comando:
 
-    ![Imagem do comando de definição do SPN](media/service-gateway-sso-kerberos/set-spn.png)
+   ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
-    Você também pode definir o SPN usando o snap-in Usuários e Computadores do Active Directory do MMC (Console de Gerenciamento Microsoft).
+   Também é possível definir o SPN usando o snap-in **Usuários e Computadores do Active Directory** do MMC.
 
-### <a name="decide-on-resource-based-or-standard-kerberos-constrained-delegation"></a>Decidir entre a delegação restrita de Kerberos padrão ou baseada em recursos
+### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>Decida o tipo de delegação restrita de Kerberos a ser usado
 
-As definições de delegação podem ser configuradas _tanto_ para delegação restrita de Kerberos baseada em recursos, quanto para a delegação restrita de Kerberos padrão. Use a delegação baseada em recursos se sua fonte de dados pertence a um domínio diferente daquele do gateway, mas observe que essa abordagem exige o Windows Server 2012 ou posterior. Confira a [página de visão geral sobre a delegação restrita de Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) para saber mais sobre as diferenças entre as duas abordagens à delegação.
+É possível definir as configurações de delegação para a delegação restrita de Kerberos padrão ou baseada em recursos. Use a delegação baseada em recursos (que exige o Windows Server 2012 ou versões posteriores) se a fonte de dados pertencer a um domínio diferente daquele do gateway. Para saber mais sobre as diferenças entre as duas abordagens de delegação, confira [Visão geral da delegação restrita de Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview).
 
- Depois de decidir qual abordagem você deseja usar, vá para __ a seção [Configurar a conta de serviço do gateway para a delegação restrita de Kerberos padrão](#configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation) _ou_ [Configurar a conta de serviço do gateway para a delegação restrita de Kerberos baseada em recursos ](#configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation). Não preencha as duas subseções.
+ De acordo com a abordagem que você quer usar, acesse uma das seguintes seções. Não conclua ambas as seções:
+ - [Configurar a conta de serviço do gateway para delegação restrita de Kerberos padrão](#configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation)
+- [Configurar a conta de serviço do gateway para delegação restrita de Kerberos baseada em recursos](#configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation). 
 
 ## <a name="configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation"></a>Configurar a conta de serviço do gateway para delegação restrita de Kerberos padrão
 
 > [!NOTE]
-> Conclua as etapas nesta seção se quiser habilitar a delegação restrita de Kerberos padrão. Se quiser habilitar a delegação restrita de Kerberos baseada em recursos, execute as etapas na subseção [Configurar a conta de serviço do gateway para a delegação restrita de Kerberos baseada em recursos](#configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation).
+> Conclua as etapas nesta seção se quiser habilitar a [delegação restrita de Kerberos padrão](/windows-server/security/kerberos/kerberos-constrained-delegation-overview). Caso contrário, se quiser habilitar a delegação restrita de Kerberos baseada em recursos, conclua as etapas em [Configurar a conta de serviço do gateway para a delegação restrita de Kerberos baseada em recursos](#configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation).
 
-Agora defina as configurações de delegação para a conta de serviço do gateway. Há diversas ferramentas que podem ser usadas para realizar essas etapas. Aqui, usaremos Usuários e Computadores do Active Directory, que é um snap-in do MMC (Console de Gerenciamento Microsoft) para administrar e publicar informações no diretório. Ele está disponível nos controladores de domínio padrão, mas também pode ser habilitado pela configuração do Recurso do Windows em outros computadores.
+Agora, defina as configurações de delegação para a conta de serviço do gateway. Há diversas ferramentas que podem ser usadas para realizar essas etapas. Aqui, usaremos **Usuários e Computadores do Active Directory**, que é um snap-in do MMC para administrar e publicar informações no diretório. Ele está disponível nos controladores de domínio por padrão, mas também pode ser habilitado pela configuração de recursos do Windows.
 
-Precisamos configurar a delegação restrita de Kerberos com o trânsito de protocolos. Com a delegação restrita, é preciso ser explícito sobre para quais serviços você deseja permitir que o gateway apresente credenciais delegadas. Por exemplo, somente o SQL Server ou o servidor SAP HANA aceita chamadas de delegação da conta de serviço do gateway.
+Precisamos configurar a delegação restrita de Kerberos com o trânsito de protocolos. Com a delegação restrita, é preciso ser explícito sobre para quais serviços você permite que o gateway apresente credenciais delegadas. Por exemplo, somente o SQL Server ou o servidor SAP HANA aceita chamadas de delegação da conta de serviço do gateway.
 
-Esta seção pressupõe que você já tenha configurado SPNs para as fontes de dados subjacentes (como SQL Server, SAP HANA, SAP BW, Teradata ou Spark). Para saber como configurar os SPNs do servidor de fonte de dados, confira a documentação técnica do respectivo servidor de banco de dados. Você também pode ver o título *Que SPN seu aplicativo exige?* na postagem no blog [Minha Lista de Verificação do Kerberos](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160).
+Esta seção pressupõe que você já tenha configurado SPNs para as fontes de dados subjacentes (como SQL Server, SAP HANA, SAP BW, Teradata ou Spark). Para saber como configurar esses SPNs do servidor de fonte de dados, consulte a documentação técnica do respectivo servidor de banco de dados e confira a seção *Qual é o SPN do seu aplicativo?* na postagem no blog [Minha lista de verificação do Kerberos](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160).
 
-Nas etapas a seguir, suponhamos que haja um ambiente local com dois computadores no mesmo domínio: um computador do gateway e um servidor de banco de dados que executa o SQL Server já configurado para SSO baseado em Kerberos. As etapas podem ser adotadas para uma das demais fontes de dados compatíveis, desde que a fonte de dados já tenha sido configurada para logon único baseado em Kerberos. Para este exemplo, vamos também supor as configurações e os nomes a seguir:
+Nas etapas a seguir, suponhamos que haja um ambiente local com dois computadores no mesmo domínio: um computador do gateway e um servidor de banco de dados que executa o SQL Server já configurado para SSO baseado em Kerberos. As etapas podem ser adotadas para uma das demais fontes de dados compatíveis, desde que a fonte de dados já tenha sido configurada para logon único baseado em Kerberos. Neste exemplo, vamos usar as seguintes configurações:
 
 * Domínio do Active Directory (Netbios): **Contoso**
 * Nome do computador do gateway: **MyGatewayMachine**
@@ -93,7 +97,7 @@ Nas etapas a seguir, suponhamos que haja um ambiente local com dois computadores
 
 Defina as configurações de delegação da seguinte maneira:
 
-1. Com direitos de administrador de domínio, abra **Usuários e Computadores do Active Directory**.
+1. Com direitos de administrador de domínio, abra o snap-in do MMC **Usuários e Computadores do Active Directory**.
 
 2. Clique com o botão direito do mouse na conta de serviço do gateway (**Contoso\GatewaySvc**) e escolha **Propriedades**.
 
@@ -105,24 +109,30 @@ Defina as configurações de delegação da seguinte maneira:
 
 6. Na nova caixa de diálogo, selecione **Usuários ou Computadores**.
 
-7. Insira a conta de serviço para a fonte de dados, por exemplo, uma fonte de dados SQL Server pode ter uma conta de serviço como **Contoso\SQLService**. Um SPN apropriado para a fonte de dados já deve ter sido definido nessa conta. Depois que a conta tiver sido adicionada, selecione **OK**.
+7. Insira a conta de serviço da fonte de dados e selecione **OK**.
 
-8. Selecione o SPN que você criou para o servidor de banco de dados. Em nosso exemplo, o SPN começa com **MSSQLSvc**. Se você tiver adicionado o SPN NetBIOS e o FQDN para o serviço de banco de dados, selecione ambos. Talvez você veja apenas um.
+   Por exemplo, uma fonte de dados do SQL Server pode ter uma conta de serviço como *Contoso\SQLService*. Um SPN apropriado para a fonte de dados já deve ter sido definido nessa conta. 
 
-9. Selecione **OK**. Agora você deverá ver o SPN na lista de serviços para os quais a conta de serviço do gateway pode apresentar credenciais delegadas.
+8. Selecione o SPN que você criou para o servidor de banco de dados. 
 
-    ![Captura de tela da caixa de diálogo Propriedades do Conector de Gateway](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
+   Em nosso exemplo, o SPN começa com *MSSQLSvc*. Se você tiver adicionado o SPN NetBIOS e o FQDN para o serviço de banco de dados, selecione ambos. Talvez você veja somente um.
 
-Agora, pule para [Conceder direitos de política local da conta de serviço do gateway no computador do gateway](#grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine) para continuar o processo de instalação.
+9. Selecione **OK**. 
+
+   Agora você deverá ver o SPN na lista de serviços para os quais a conta de serviço do gateway pode apresentar credenciais delegadas.
+
+    ![Caixa de diálogo "Propriedades" do Conector de Gateway](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
+
+10. Para continuar o processo de configuração, vá para [Conceder direitos de política local da conta de serviço do gateway no computador do gateway](#grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine).
 
 ## <a name="configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation"></a>Configurar a conta de serviço do gateway para delegação restrita de Kerberos baseada em recursos
 
 > [!NOTE]
-> Conclua as etapas nesta seção se quiser habilitar a delegação restrita de Kerberos baseada em recursos. Se quiser habilitar a delegação restrita de Kerberos padrão, execute as etapas na subseção [Configurar a conta de serviço do gateway para a delegação restrita de Kerberos padrão](#configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation).
+> Conclua as etapas nesta seção se quiser habilitar a [delegação restrita de Kerberos baseada em recursos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview#resource-based-constrained-delegation-across-domains). Caso contrário, se quiser habilitar a delegação restrita de Kerberos padrão, conclua as etapas em [Configurar a conta de serviço do gateway para a delegação restrita de Kerberos padrão](#configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation).
 
-Use a [delegação restrita de Kerberos baseada em recursos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) para habilitar a conectividade de logon único no Windows Server 2012 e versões posteriores, permitindo que os serviços de front-end e back-end estejam em domínios diferentes. Para que isso funcione, o domínio de serviço de back-end precisa confiar no domínio do serviço de front-end.
+Use a [delegação restrita de Kerberos baseada em recursos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview#resource-based-constrained-delegation-across-domains) para habilitar a conectividade de logon único no Windows Server 2012 e versões posteriores. Assim, você permite que os serviços de front-end e back-end estejam em domínios diferentes. Para que isso funcione, o domínio de serviço de back-end precisa confiar no domínio do serviço de front-end.
 
-Nas etapas a seguir, suponhamos que haja um ambiente local com dois computadores em diferentes domínios: um gateway e um servidor de banco de dados que executa o SQL Server que já estava configurado para logon único baseado em Kerberos. As etapas podem ser adotadas para uma das demais fontes de dados compatíveis, desde que a fonte de dados já tenha sido configurada para logon único baseado em Kerberos. Para este exemplo, vamos também supor as configurações e os nomes a seguir:
+Nas etapas a seguir, suponhamos que haja um ambiente local com dois computadores em diferentes domínios: um gateway e um servidor de banco de dados que executa o SQL Server que já estava configurado para logon único baseado em Kerberos. As etapas podem ser adotadas para uma das demais fontes de dados compatíveis, desde que a fonte de dados já tenha sido configurada para logon único baseado em Kerberos. Neste exemplo, vamos usar as seguintes configurações:
 
 * Domínio de front-end do Active Directory (NetBIOS): **ContosoFrontEnd**
 * Domínio de back-end do Active Directory (NetBIOS): **ContosoBackEnd**
@@ -131,103 +141,107 @@ Nas etapas a seguir, suponhamos que haja um ambiente local com dois computadores
 * Nome do computador da fonte de dados do SQL Server: **TestSQLServer**
 * Conta de serviço da fonte de dados do SQL Server: **ContosoBackEnd\SQLService**
 
-Considerando os nomes e as configurações do exemplo, conclua as seguintes etapas de configuração:
+Conclua as seguintes etapas de configuração:
 
-1. No controlador de domínio para o domínio **ContosoFrontEnd**, verifique se não há configurações de delegação aplicadas à conta de serviço do gateway usando o snap-in **Usuários e Computadores do Active Directory** do MMC (Console de Gerenciamento Microsoft).
+1. Use o snap-in do MMC **Usuários e Computadores do Active Directory** no controlador do domínio **ContosoFrontEnd** e verifique se não há configurações de delegação aplicadas à conta de serviço do gateway.
 
     ![Propriedades do conector de gateway](media/service-gateway-sso-kerberos-resource/gateway-connector-properties.png)
 
-2. Usando o **Usuários e Computadores do Active Directory** no controlador de domínio para o domínio **ContosoBackEnd**, verifique se não há configurações de delegação aplicadas à conta de serviço do back-end.
+2. Use **Usuários e Computadores do Active Directory** no controlador do domínio **ContosoBackEnd** e verifique se não há configurações de delegação aplicadas à conta de serviço do back-end.
 
     ![Propriedades do serviço do SQL](media/service-gateway-sso-kerberos-resource/sql-service-properties.png)
 
-3. Além disso, verifique se o atributo **msDS-AllowedToActOnBehalfOfOtherIdentity** dessa conta também não está definido. Você pode encontrar esse atributo no **Editor de Atributos**, conforme mostrado na imagem a seguir:
+3. Na guia **Editor de Atributos** das propriedades da conta, verifique se o atributo **msDS-AllowedToActOnBehalfOfOtherIdentity** não está definido.
 
     ![Atributos do serviço SQL](media/service-gateway-sso-kerberos-resource/sql-service-attributes.png)
 
-4. Crie um grupo em **Usuários e Computadores do Active Directory** no controlador de domínio para o domínio **ContosoBackEnd**. Adicione a conta de serviço do gateway a esse grupo, como mostrado na imagem a seguir. A imagem mostra um novo grupo chamado _ResourceDelGroup_ e a conta de serviço do gateway, **GatewaySvc**, adicionados a esse grupo.
+4. Em **Usuários e Computadores do Active Directory**, crie um grupo no controlador do domínio **ContosoBackEnd**. Adicione a conta de serviço do gateway **GatewaySvc** ao grupo **ResourceDelGroup**. 
 
     ![Propriedades do grupo](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-5. Abra um prompt de comando e execute os seguintes comandos no controlador de domínio para o domínio **ContosoBackEnd** com a finalidade de atualizar o atributo **msDS-AllowedToActOnBehalfOfOtherIdentity** da conta de serviço do back-end:
+5. Abra um prompt de comando e execute os seguintes comandos no controlador do domínio **ContosoBackEnd** para atualizar o atributo **msDS-AllowedToActOnBehalfOfOtherIdentity** da conta de serviço do back-end:
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
     Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
-6. Você pode verificar que a atualização será refletida na guia "Editor de atributo", nas propriedades da conta de serviço de back-end em **Usuários e computadores do Active Directory.** O **msDS-AllowedToActOnBehalfOfOtherIdentity** deve ser definido agora.
+6. Em **Usuários e Computadores do Active Directory**, verifique se a atualização será refletida na guia **Editor de Atributos** nas propriedades da conta de serviço de back-end. 
 
 ## <a name="grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine"></a>Conceder direitos de política local da conta de serviço do gateway no computador do gateway
 
-Por fim, no computador que executa o serviço do gateway (**MyGatewayMachine** em nosso exemplo), é necessário conceder à conta de serviço do gateway a política local **Representar um cliente após autenticação** e **Atuar como parte do sistema operacional (SeTcbPrivilege)** . Execute e verifique essa configuração com o Editor de Política de Grupo Local (**gpedit**).
+Por fim, no computador que executa o serviço do gateway (**MyGatewayMachine** em nosso exemplo), conceda à conta de serviço do gateway as políticas locais **Representar um cliente após autenticação** e **Atuar como parte do sistema operacional (SeTcbPrivilege)** . Execute essa configuração com o Editor de Política de Grupo Local (**gpedit.msc**).
 
-1. No computador do gateway, execute: *gpedit.msc*.
+1. No computador do gateway, execute: **gpedit.msc**.
 
 2. Acesse a **Política de Computador Local** &gt; **Configuração do Computador** &gt; **Configurações do Windows** &gt; **Configurações de Segurança** &gt; **Políticas Locais** &gt; **Atribuição de Direitos de Usuário**.
 
-    ![Captura de tela da estrutura de pastas da Política do Computador Local](media/service-gateway-sso-kerberos/user-rights-assignment.png)
+    ![Estrutura de pastas da Política do Computador Local](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
 3. Em **Atribuição de Direitos de Usuário**, na lista de políticas, selecione **Representar um cliente após a autenticação**.
 
-    ![Captura de tela de Representar uma política de cliente](media/service-gateway-sso-kerberos/impersonate-client.png)
+    ![Representar uma política de cliente](media/service-gateway-sso-kerberos/impersonate-client.png)
+    
+4. Clique com o botão direito do mouse na política, abra **Propriedades** e exiba a lista de contas. 
 
-    Clique com o botão direito do mouse e abra **Propriedades**. Verifique a lista de contas. Ela precisa incluir a conta de serviço do gateway (**Contoso\GatewaySvc** ou **ContosoFrontEnd\GatewaySvc**, dependendo do tipo de delegação restrita).
+    A lista precisa incluir a conta de serviço do gateway (**Contoso\GatewaySvc** ou **ContosoFrontEnd\GatewaySvc**, dependendo do tipo de delegação restrita).
 
-4. Em **Atribuição de Direitos de Usuário**, na lista de políticas, selecione **Atuar como parte do sistema operacional (SeTcbPrivilege)** . Verifique se a conta de serviço do gateway também está incluída na lista de contas.
+5. Em **Atribuição de Direitos de Usuário**, selecione **Atuar como parte do sistema operacional (SeTcbPrivilege)** na lista de políticas. Verifique se a conta de serviço do gateway está incluída na lista de contas.
 
-5. Reinicie o processo do serviço do **gateway de dados local**.
+6. Reinicie o processo do serviço do **gateway de dados local**.
 
-### <a name="set-user-mapping-configuration-parameters-on-the-gateway-machine-if-required"></a>Definir parâmetros de configuração do mapeamento de usuário no computador do gateway, se necessário
+### <a name="set-user-mapping-configuration-parameters-on-the-gateway-machine-if-necessary"></a>Definir parâmetros de configuração do mapeamento de usuário no computador do gateway (se necessário)
 
-Se você não tem o Microsoft Azure Active Directory Connect configurado, siga estas etapas para mapear um usuário do serviço do Power BI para um usuário local do Active Directory. Cada usuário do Active Directory mapeado dessa maneira precisa ter permissões de logon único para sua fonte de dados. Para saber mais, confira este [vídeo do Guy in a Cube](https://www.youtube.com/watch?v=NG05PG9aiRw).
+Se você não tem o Microsoft Azure Active Directory Connect configurado, siga estas etapas para mapear um usuário do serviço do Power BI para um usuário local do Active Directory. Cada usuário do Active Directory mapeado dessa maneira precisa ter permissões de logon único para sua fonte de dados. Para saber mais, confira o [vídeo do Guy in a Cube](https://www.youtube.com/watch?v=NG05PG9aiRw).
 
-1. Abra o arquivo de configuração do gateway principal, `Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll`. Por padrão, esse arquivo é armazenado em C:\Arquivos de Programas\On-premises data gateway.
+1. Abra o arquivo de configuração de gateway principal, Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll. Por padrão, esse arquivo é armazenado em C:\Arquivos de Programas\On-premises data gateway.
 
-1. Defina **ADUserNameLookupProperty** como um atributo do Active Directory não utilizado. Suponhamos que `msDS-cloudExtensionAttribute1` seja usado nas etapas a seguir, embora esse atributo esteja disponível apenas no Windows Server 2012 e posterior. Defina **ADUserNameReplacementProperty** como `SAMAccountName`. Salve o arquivo de configuração.
+1. Defina **ADUserNameLookupProperty** como um atributo do Active Directory não utilizado. Use o `msDS-cloudExtensionAttribute1` nas etapas a seguir. Esse atributo só está disponível no Windows Server 2012 e versões posteriores. 
+
+1. Defina **ADUserNameReplacementProperty** como `SAMAccountName` e, em seguida, salve o arquivo de configuração.
 
 1. Na guia **Serviços** do Gerenciador de Tarefas, clique com o botão direito do mouse no serviço do gateway e selecione **Reiniciar**.
 
     ![Captura de tela da guia Serviços do Gerenciador de Tarefas](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-1. Para cada usuário do serviço do Power BI para o qual você deseja habilitar o SSO de Kerberos, defina a propriedade `msDS-cloudExtensionAttribute1` de um usuário local do Active Directory (com permissão de SSO na fonte de dados) como o nome de usuário completo (ou seja, UPN) do usuário do serviço do Power BI. Por exemplo, se você efetua login no serviço do Power BI como `test@contoso.com` e deseja mapear esse usuário para um usuário local do Active Directory com permissões de SSO, como `test@LOCALDOMAIN.COM`, defina o atributo `msDS-cloudExtensionAttribute1` de `test@LOCALDOMAIN.COM` como `test@contoso.com`.
+1. Para cada usuário do serviço do Power BI em que você deseja habilitar o SSO de Kerberos, defina a propriedade `msDS-cloudExtensionAttribute1` de um usuário local do Active Directory (com permissão de SSO na fonte de dados) como o nome de usuário completo (UPN) do usuário do serviço do Power BI. Por exemplo, se você entrar no serviço do Power BI como test@contoso.com e deseja mapear esse usuário para um usuário local do Active Directory com permissões de SSO, como test@LOCALDOMAIN.COM, defina o atributo `msDS-cloudExtensionAttribute1` desse usuário como test@contoso.com.
 
-    Defina a propriedade `msDS-cloudExtensionAttribute1` usando o snap-in Usuários e Computadores do Active Directory do MMC (Console de Gerenciamento Microsoft):
+    Defina a propriedade `msDS-cloudExtensionAttribute1` com o snap-in do MMC "Usuários e Computadores do Active Directory":
     
-    1. Como administrador de domínio, inicie Usuários e Computadores do Active Directory.
+    1. Como administrador de domínio, inicialize **Usuários e Computadores do Active Directory**.
     
-    1. Clique com o botão direito do mouse no domínio, selecione Localizar e digite o nome da conta do usuário local do Active Directory para o qual você deseja mapear.
+    1. Clique com o botão direito do mouse no nome de domínio, selecione **Localizar** e digite o nome da conta do usuário local do Active Directory que você deseja mapear.
     
     1. Selecione a guia **Editor de Atributo**.
     
-        Localize a propriedade `msDS-cloudExtensionAttribute1` e clique duas vezes nela. Defina o valor como o nome de usuário completo (ou seja, UPN) do usuário que você usou para entrar no serviço do Power BI.
+        Localize a propriedade `msDS-cloudExtensionAttribute1` e clique duas vezes nela. Defina o valor como o nome de usuário completo (UPN) do usuário que você usou para entrar no serviço do Power BI.
     
     1. Selecione **OK**.
     
-        ![Captura de tela da caixa de diálogo Editor de Atributos de Cadeia de Caracteres](media/service-gateway-sso-kerberos/edit-attribute.png)
+        ![Janela do Editor de Atributo de Cadeia de Caracteres](media/service-gateway-sso-kerberos/edit-attribute.png)
     
     1. Selecione **Aplicar**. Verifique se o valor correto foi definido na coluna **Valor**.
 
 ## <a name="complete-data-source-specific-configuration-steps"></a>Concluir as etapas de configuração específicas da fonte de dados
 
-O SAP HANA e o SAP BW têm requisitos e pré-requisitos de configuração adicionais específicos para cada fonte de dados, e estes precisam ser atendidos antes de ser possível estabelecer uma conexão de logon único através do gateway com essas fontes de dados. Confira a [página de configurações do SAP HANA](service-gateway-sso-kerberos-sap-hana.md) e a [página de configurações do SAP BW – CommonCryptoLib (sapcrypto.dll)](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md) para saber mais. Também é possível [configurar o SAP BW para uso com a biblioteca SNC gx64krb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md). Porém, essa biblioteca não é recomendada pela Microsoft já que não é mais compatível com SAP. Você deve usar CommonCryptoLib _ou_ gx64krb5 como sua biblioteca SNC. Não realize estas etapas de configuração para as duas bibliotecas.
+O SAP HANA e o SAP BW têm requisitos e pré-requisitos de configuração adicionais específicos para cada fonte de dados e eles precisam ser atendidos antes de ser possível estabelecer uma conexão de SSO por meio do gateway com essas fontes de dados. Para saber mais, confira [Configuração do SAP HANA](service-gateway-sso-kerberos-sap-hana.md) e a [página de configurações do SAP BW – CommonCryptoLib (sapcrypto.dll)](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). Embora seja possível [configurar o SAP BW para uso com a biblioteca SNC gx64krb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md), essa biblioteca não é recomendada porque já não é mais compatível com o SAP. Você deve usar CommonCryptoLib _ou_ gx64krb5 como sua biblioteca SNC. Não conclua as etapas de configuração para as duas bibliotecas.
 
 > [!NOTE]
-> Outras bibliotecas SNC também podem funcionar no SSO do BW, mas não têm suporte oficial da Microsoft.
+> Embora outras bibliotecas SNC também possam funcionar no SSO do BW, mas não têm mais suporte oficial da Microsoft.
 
 ## <a name="run-a-power-bi-report"></a>Executar um relatório do Power BI
 
 Depois de concluir todas as etapas de configuração, use a página **Gerenciar Gateway** no Power BI para configurar a fonte de dados que será usada para SSO. Se há vários gateways, escolha o gateway configurado para o SSO do Kerberos. Em seguida, nas **Configurações Avançadas** da fonte de dados, verifique se a opção **Usar SSO via Kerberos para consultas do DirectQuery** está marcada.
 
-![Captura de tela da opção Configurações avançadas](media/service-gateway-sso-kerberos/advanced-settings.png)
+![Opções Configurações avançadas](media/service-gateway-sso-kerberos/advanced-settings.png)
 
- Publique um relatório **baseado em DirectQuery** no Power BI Desktop. Esse relatório deve usar dados acessíveis para o usuário que é mapeado para o usuário do Azure Active Directory que entra no serviço do Power BI. Você deve usar o DirectQuery em vez de importar, devido a como a atualização funciona. Ao atualizar relatórios baseados em importação, o gateway usa as credenciais inseridas nos campos **Nome de usuário** e **Senha** de quando você criou a fonte de dados. Em outras palavras, o SSO do Kerberos **não** é usado. Além disso, ao publicar, não se esqueça de escolher o gateway configurado para SSO caso haja vários gateways. No serviço do Power BI, agora você deve ser capaz de atualizar o relatório ou criar um novo com base no conjunto de dados publicado.
+ Publique um relatório baseado em DirectQuery no Power BI Desktop. Esse relatório deve usar dados acessíveis para o usuário que é mapeado para o usuário do (Azure) Active Directory que entra no serviço do Power BI. Você deve usar o DirectQuery em vez de importar, devido à maneira como a atualização funciona. Ao atualizar relatórios baseados em importação, o gateway usa as credenciais inseridas nos campos **Nome de usuário** e **Senha** de quando você criou a fonte de dados. Em outras palavras, o SSO do Kerberos *não* é usado. Ao publicar, escolha o gateway configurado para SSO caso haja vários gateways. No serviço do Power BI, agora é possível atualizar o relatório ou criar um novo com base no conjunto de dados publicado.
 
-Essa configuração funciona na maioria dos casos. No entanto, dependendo do ambiente, pode haver configurações diferentes com o Kerberos. Se o relatório ainda não for carregado, contate o administrador de domínio para investigar o caso. Se a fonte de dados é o SAP BW, veja também as seções de solução de problemas das páginas de configuração específicas da fonte de dados para [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) e [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting), dependendo da biblioteca do SNC escolhida.
+Essa configuração funciona na maioria dos casos. No entanto, dependendo do ambiente, pode haver configurações diferentes com o Kerberos. Se o relatório ainda não for carregado, fale com o administrador de domínio para investigar o caso. Se a fonte de dados for o SAP BW, veja as seções de solução de problemas das páginas de configuração específicas da fonte de dados para [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) e [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting), dependendo da biblioteca do SNC escolhida.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Para obter mais informações sobre o **gateway de dados local** e o **DirectQuery**, confira os seguintes recursos:
+Para saber mais sobre o gateway de dados local e o DirectQuery, confira estes recursos:
 
 * [O que é um gateway de dados local?](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery no Power BI](desktop-directquery-about.md)

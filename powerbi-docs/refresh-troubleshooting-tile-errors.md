@@ -2,7 +2,6 @@
 title: Solucionando problemas de erros de bloco
 description: Erros comuns que podem ser encontrados quando um bloco tenta ser atualizado no Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544270"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877499"
 ---
 # <a name="troubleshooting-tile-errors"></a>Solucionando problemas de erros de bloco
 Veja abaixo os erros comuns que podem ser encontrados com blocos e uma explicação.
 
 > [!NOTE]
-> Se você encontrar um erro que não esteja listado abaixo, e que esteja causando problemas, solicite ajuda no [site da comunidade](http://community.powerbi.com/) ou crie um [tíquete de suporte](https://powerbi.microsoft.com/support/).
+> Se você encontrar um erro que não esteja listado abaixo, e que esteja causando problemas, solicite ajuda no [site da comunidade](https://community.powerbi.com/) ou crie um [tíquete de suporte](https://powerbi.microsoft.com/support/).
 > 
 > 
 
@@ -38,7 +37,7 @@ Contate o proprietário do dashboard para verificar se o modelo e as fontes de d
 
 **Os visuais personalizados foram desabilitados pelo administrador.**
 
-O administrador do Power BI desabilitou o uso de visuais personalizados para sua organização ou seu grupo de segurança. Você não poderá usar visuais personalizados no [Microsoft Marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) nem importar visuais particulares por meio de um arquivo. Você só poderá usar o conjunto pré-empacotado de visuais.
+O administrador do Power BI desabilitou o uso de visuais personalizados para sua organização ou seu grupo de segurança. Você não poderá usar visuais personalizados no [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) nem importar visuais particulares por meio de um arquivo. Você só poderá usar o conjunto pré-empacotado de visuais.
 
 
 **As formas de dados devem conter ao menos um grupo ou cálculo que produza dados. Entre em contato com o proprietário do painel.**
@@ -69,7 +68,7 @@ Isso geralmente é um problema temporário. Se você tentar novamente mais tarde
 
 Isso pode acontecer se o conjunto de dados subjacente estiver configurado para usar o modo DirectQuery ou uma conexão dinâmica para Analysis Services por meio de um gateway de dados local. Nesse caso, os blocos continuam a mostrar os dados não filtrados depois de habilitar o SSO para a fonte de dados até que a atualização do próximo bloco seja concluída. Na próxima atualização do bloco, o Power BI usa o SSO como configurado, e os blocos mostram os dados filtrados de acordo com a identidade do usuário. 
 
-Se você quiser ver os dados filtrados imediatamente, poderá forçar uma atualização de bloco selecionando as reticências (...) no canto superior direito de um painel e selecionando **Atualizar os blocos de painel**.
+Se você quiser ver os dados filtrados imediatamente, poderá forçar uma atualização de bloco selecionando **Mais opções** (...) no canto superior direito de um dashboard e, em seguida, selecionando **Atualizar os blocos de dashboard**.
 
 Como um proprietário de conjunto de dados, você também pode alterar a frequência de atualização do bloco e defini-la como 15 minutos para acelerar a atualização do bloco. Selecione o ícone de engrenagem no canto superior direito do serviço do Power BI e escolha **Configurações**. Na página **Configurações**, selecione a guia **Conjunto de dados**. Expanda **Atualização do cache agendada** de atualização do cache e altere **Atualizar frequência**. Certifique-se de redefinir a configuração para a frequência de atualização original depois que o Power BI executar a atualização do próximo bloco.
 
@@ -82,5 +81,5 @@ Caso ainda esteja tendo algum problema, [contate o suporte](https://support.powe
 ## <a name="next-steps"></a>Próximas etapas
 [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 [Solução de problemas do Power BI Personal Gateway](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

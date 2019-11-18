@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841409"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73018083"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Análise do Facebook com o Power BI Desktop
 
@@ -147,7 +147,7 @@ Agora que você importou os dados da página do Facebook, conseguirá obter info
    
    ![Gráfico de barras](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. Selecione as reticências (...) no canto superior direito da visualização e selecione **Classificar por Número de comentários** para classificar a tabela por número decrescente de comentários. 
+4. Selecione **Mais opções** (...) no canto superior direito da visualização e **Classificar por número de comentários** para classificar a tabela por número decrescente de comentários. 
    
    ![Classificar por número de comentários](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +184,7 @@ O eixo X (número de comentários) do gráfico não mostra os valores exatos, e 
 
 Muito melhor, mas todos os rótulos de dados tem uma casa decimal **,0**, o que é perturbador e enganoso, já que **Número de postagens** deve ser um número inteiro. Você precisa mudar o tipo de dados da coluna **Número de postagens** para Número Inteiro.
 
-1. Para editar o tipo de dados, clique com botão direito em **Consulta1** na lista Fields, ou passe o mouse sobre ele e selecione as reticências **Mais opções** (...), depois selecione **Editar Consulta**. Você também pode selecionar **Editar Consultas** na área **Dados externos** da guia Página Inicial na faixa de opções e, depois, selecionar **Editar Consultas** na lista suspensa. O **Editor do Power Query** do Power BI Desktop é aberto em uma janela separada.
+1. Para editar o tipo de dados, clique com botão direito do mouse em **Consulta1** na lista Campos ou passe o mouse sobre ele e selecione **Mais opções** (...) e **Editar Consulta**. Você também pode selecionar **Editar Consultas** na área **Dados externos** da guia Página Inicial na faixa de opções e, depois, selecionar **Editar Consultas** na lista suspensa. O **Editor do Power Query** do Power BI Desktop é aberto em uma janela separada.
    
    ![Editar consulta na lista Fields](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Editar consultas na faixa de opções](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    

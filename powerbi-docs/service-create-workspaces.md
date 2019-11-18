@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020254"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021117"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Criar workspaces clássicos no Power BI
 
@@ -39,7 +39,7 @@ Ao criá-lo pela primeira vez, talvez seja necessário aguardar uma hora ou mais
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Adicionar uma imagem ao seu espaço de trabalho do Office 365 (opcional)
 Por padrão, o Power BI cria um pequeno círculo colorido com as iniciais do seu aplicativo. Mas talvez você queira personalizá-lo com uma imagem. Para adicionar uma imagem, você precisa de uma licença do Exchange Online.
 
-1. Selecione **Workspaces**, selecione as reticências (...) ao lado do nome do workspace e, em seguida, **Membros**. 
+1. Selecione **Workspaces**, selecione **Mais opções** (...) ao lado do nome do workspace e, em seguida, **Membros**. 
    
      ![Selecionar Membros do Workspace](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

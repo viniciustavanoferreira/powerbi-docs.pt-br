@@ -2,19 +2,18 @@
 title: Linhagem de dados (versão prévia)
 description: Em projetos modernos de BI (business intelligence), entender o fluxo de dados da fonte de dados para o destino é um desafio crucial para muitos clientes.
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: e91f1d5084957ee7266161b9a34f916e2902d1f4
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 774b8b19f8b199e1d98b2bd5e079b35f1a9a6935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019575"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877359"
 ---
 # <a name="data-lineage-preview"></a>Linhagem de dados (versão prévia)
 Em projetos modernos de BI (business intelligence), entender o fluxo de dados da fonte de dados para o destino pode ser um desafio. O desafio será ainda maior se você tiver criado projetos analíticos avançados que abrangem uma variedade de fontes de dados, artefatos e dependências.  Perguntas como "o que acontecerá se eu alterar esses dados?" ou "por que este relatório não está atualizado?" podem ser difíceis de responder. Elas podem exigir uma equipe de especialistas ou uma investigação profunda para serem entendidas. Desenvolvemos a exibição de linhagem de dados para ajudar você a responder a essas perguntas.
@@ -55,7 +54,7 @@ Em conjuntos de dados, você vê a hora da última atualização e se um conjunt
  
 Se um relatório no workspace for criado em um conjunto de dados em outro workspace, você verá o nome do workspace de origem no cartão do conjunto de dados. Selecione o nome do workspace de origem para acessar esse workspace.
  
-- Em qualquer artefato, selecione as reticências (...) para exibir o menu de opções. Ele apresenta todas as mesmas ações disponíveis na exibição de lista.
+- Em qualquer artefato, selecione **Mais opções** (...) para exibir o menu de opções. Ele apresenta todas as mesmas ações disponíveis na exibição de lista.
   
 Para ver mais metadados em conjuntos de dados, selecione o próprio cartão do conjunto de dados. Informações adicionais sobre o conjunto de dados são exibidas em um painel lateral.
 
@@ -89,7 +88,8 @@ A exibição de linhagem é uma tela interativa. Use o mouse e o touchpad para n
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-A exibição de linhagem não está disponível no Internet Explorer. Confira [Navegadores compatíveis com o Power BI](power-bi-browsers.md) para obter detalhes.
+- A exibição de linhagem não está disponível no Internet Explorer. Confira [Navegadores compatíveis com o Power BI](power-bi-browsers.md) para obter detalhes.
+- A exibição de linhagem não está disponível no Meu Workspace.
 
 ## <a name="next-steps"></a>Próximas etapas
 

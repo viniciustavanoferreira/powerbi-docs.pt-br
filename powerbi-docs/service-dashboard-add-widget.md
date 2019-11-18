@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832578"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020433"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adicionar imagens, vídeos e outros elementos a seu dashboard
 
@@ -31,7 +31,7 @@ Veja Amanda adicionar blocos a um dashboard.
 ## <a name="add-an-image-video-or-other-tile"></a>Adicionar uma imagem, um vídeo ou outro bloco
 Você pode adicionar uma imagem, uma caixa de texto, um vídeo, dados de streaming ou código da Web diretamente ao seu dashboard.
 
-1. Selecione **Adicionar bloco** na barra de menus superior do dashboard. Dependendo das limitações de espaço, talvez você veja apenas o sinal de adição sinal de adição.
+1. Selecione **Adicionar bloco** na barra de menus superior do dashboard. Dependendo das limitações de espaço, você poderá ver apenas o sinal de adição ![sinal de adição](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
     ![Ícone Adicionar bloco](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
 2. Selecione o tipo de bloco para adicionar: 
@@ -232,7 +232,7 @@ Você pode colar ou digitar qualquer conteúdo HTML, como um bloco, em seu relat
 ## <a name="edit-a-tile"></a>Editar um bloco
 Para fazer alterações em um bloco existente:
 
-1. Posicione o cursor sobre o canto superior direito do bloco e clique em (...).
+1. Posicione o cursor sobre o canto superior direito do bloco e selecione **Mais opções** (...).
    
     ![selecionar reticências do bloco](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Selecione **Editar detalhes** para exibir a janela **Detalhes do bloco** e fazer alterações.

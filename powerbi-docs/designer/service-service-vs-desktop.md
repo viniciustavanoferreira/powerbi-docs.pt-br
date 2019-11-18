@@ -2,7 +2,6 @@
 title: Comparando o Power BI Desktop e o serviço do Power BI
 description: O Power BI Desktop é uma ferramenta completa para criação de relatório e análise de dados. O serviço do Power BI é um serviço online, baseado em nuvem para equipes e empresas editarem relatórios e colaborarem neles de forma leve.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e2985f4a27d8471bcfce80d40f2263e2be07d38c
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064343"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879010"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparando o Power BI Desktop e o serviço do Power BI
 
@@ -38,7 +37,7 @@ No aplicativo e no serviço, você cria e edita *relatórios*. Um relatório pod
 
 Os editores de relatório no Power BI Desktop e no serviço são semelhantes. Eles são formados por três seções:  
 
-1. As barras de navegação superiores, diferentes no Power BI Desktop e no serviço    
+1. Os painéis de navegação superiores, diferentes no Power BI Desktop e no serviço    
 2. A tela de relatório     
 3. Os painéis **Campos**, **Visualizações** e **Filtros**
 

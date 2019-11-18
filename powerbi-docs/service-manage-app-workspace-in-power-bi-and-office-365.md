@@ -2,7 +2,6 @@
 title: Gerenciar seu workspace no Power BI e no Office 365
 description: Os workspaces no Power BI são uma experiência de colaboração criada com base em grupos do Office 365. Gerencie seus workspaces no Power BI e também no Office 365.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1317d11b11624ca6187eb91d5350a698bf164f63
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431809"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872066"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Gerenciar seu workspace no Power BI e no Office 365
 
@@ -87,4 +86,4 @@ Quando você distribuir seu aplicativo do workspace, a imagem que você adiciona
 
 * [Publicar um aplicativo no Power BI](service-create-distribute-apps.md)
 
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

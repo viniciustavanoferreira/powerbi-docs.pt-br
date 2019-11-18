@@ -3,18 +3,17 @@ title: O que os desenvolvedores podem fazer com o Power BI?
 description: O Power BI oferece uma ampla variedade de opções para desenvolvedores. Isso vai desde a inserção até elementos visuais personalizados e conjuntos de dados de streaming.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9105edd88e83f17f4d6e75a7e45dc123a6789713
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307450"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875683"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>O que os desenvolvedores podem fazer com o Power BI?
 
@@ -22,7 +21,7 @@ Os desenvolvedores têm diferentes opções ao tentar incluir o conteúdo do Pow
 
 ## <a name="embedding-power-bi-content"></a>Inserção de conteúdo do Power BI
 
-O serviço do Power BI (SaaS) e o serviço do Power BI Embedded no Azure (PaaS) têm APIs para inserir seus painéis e seus relatórios. Esse recurso significa que você pode acessar os recursos mais recentes do Power BI, tais como dashboards, gateways e workspaces de aplicativo, ao inserir seu conteúdo.
+O serviço do Power BI (SaaS) e o serviço do Power BI Embedded no Azure (PaaS) têm APIs para inserir seus painéis e seus relatórios. Esse recurso significa que você pode acessar os recursos mais recentes do Power BI, tais como dashboards, gateways e workspaces ao inserir seu conteúdo.
 
 É possível acessar a [Ferramenta de configuração de inserção](https://aka.ms/embedsetup) para começar rapidamente e baixar um aplicativo de exemplo.
 

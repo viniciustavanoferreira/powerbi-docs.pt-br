@@ -2,7 +2,6 @@
 title: Criar e publicar um pacote de conteúdo organizacional – Power BI
 description: Neste tutorial, você criará um pacote de conteúdo organizacional, restringirá o acesso a um grupo específico e o publicará na biblioteca de pacotes de conteúdo de sua organização no Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020659"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872003"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Tutorial: Criar e publicar um pacote de conteúdo organizacional do Power BI
 
@@ -34,9 +33,9 @@ Imagine que você é o Gerente de Versão da Contoso e está se preparando para 
 
 Quer me acompanhar? No [serviço do Power BI](https://powerbi.com), acesse **Meu Workspace**. Em seguida, acesse **Obter Dados** > **Exemplos** > **Exemplo de Análise de Oportunidades** > **Conectar** para obter sua própria cópia.
 
-1. No painel de navegação esquerdo, selecione **Workspaces** > **Meus workspaces**.
+1. No painel de navegação, selecione **Workspaces** > **Meus workspaces**.
 
-1. Na barra de navegação superior, selecione o ícone de engrenagem ![Captura de tela do ícone de engrenagem.](media/service-organizational-content-pack-create-and-publish/cog.png) > **Criar pacote de conteúdo**.
+1. Na painel de navegação superior, selecione o ícone de engrenagem ![Captura de tela do ícone de engrenagem.](media/service-organizational-content-pack-create-and-publish/cog.png) > **Criar pacote de conteúdo**.
 
    ![Captura de tela da interface do usuário com foco no ícone de engrenagem e na opção Criar pacote de conteúdo.](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ Quer me acompanhar? No [serviço do Power BI](https://powerbi.com), acesse **Meu
 
 * [O que é o OneDrive for Business?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

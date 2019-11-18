@@ -10,15 +10,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751399"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060388"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Tutorial: Introdução ao serviço do Power BI
-Este tutorial é uma introdução a alguns dos recursos do *serviço do Power BI*. Nele, você se conecta a dados, cria um relatório e um dashboard e faz perguntas sobre seus dados. Você pode fazer muito mais com o serviço do Power BI, este tutorial é apenas uma prévia para despertar sua curiosidade. Para entender como o serviço do Power BI se adapta às outras ofertas do Power BI, recomendamos que leia [O que é Power BI](power-bi-overview.md).
+Este tutorial é uma introdução a alguns dos recursos do *serviço do Power BI*. Nele, você se conecta a dados, cria um relatório e um dashboard e faz perguntas sobre seus dados. Você pode fazer muito mais com o serviço do Power BI, este tutorial é apenas uma prévia para despertar sua curiosidade. Para entender como o serviço do Power BI se adapta às outras ofertas do Power BI, recomendamos que leia [O que é Power BI](fundamentals/power-bi-overview.md).
 
 ![Página inicial do serviço do Power BI](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -115,7 +115,7 @@ Agora que você se conectou aos dados, comece a explorar.  Quando encontrar algo
    
 8. Selecione o novo bloco em seu dashboard para retornar ao relatório. O Power BI o leva de volta ao relatório no Modo de Exibição de Leitura. 
 
-1. Para voltar ao Modo de Exibição de Edição, selecione as reticências (...) > **Editar**, na barra de navegação superior. De volta ao Modo de Exibição de Edição você pode continuar a explorar e fixar blocos.
+1. Para voltar ao Modo de exibição de edição, selecione **Mais opções** (...) > **Editar**, na barra de navegação superior. De volta ao Modo de Exibição de Edição você pode continuar a explorar e fixar blocos.
 
     ![Selecione Editar para editar o relatório](media/service-get-started/power-bi-service-edit-report.png)
 
@@ -200,7 +200,7 @@ Agora que você já concluiu o tutorial, é possível excluir o conjunto de dado
 
 1. Na barra de navegação à esquerda, verifique se você está no **Meu workspace**.
 2. Selecione a guia **Conjuntos de dados** e localize o conjunto de dados importado para este tutorial.  
-3. Selecione as reticências (…) > **Excluir**.
+3. Selecione **Mais opções** (...) > **Excluir**.
 
     ![Exclua o conjunto de dados](media/service-get-started/power-bi-service-delete-dataset.png)
 

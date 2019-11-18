@@ -2,7 +2,6 @@
 title: Solucionar problemas de atualização
 description: Solucionar problemas de atualização
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: d79fc47ff30d7f28827290268ba01edf09643032
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169031"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860506"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solucionar problemas de atualização
 
 Aqui você pode encontrar informações sobre cenários diferentes que você pode encontrar ao atualizar dados no serviço Power BI.
 
 > [!NOTE]
-> Se você encontrar um cenário que não esteja listado abaixo e que esteja causando problemas, solicite ajuda no [site da comunidade](http://community.powerbi.com/) ou crie um [tíquete de suporte](https://powerbi.microsoft.com/support/).
+> Se você encontrar um cenário que não esteja listado abaixo e que esteja causando problemas, solicite ajuda no [site da comunidade](https://community.powerbi.com/) ou crie um [tíquete de suporte](https://powerbi.microsoft.com/support/).
 >
 >
 
@@ -92,5 +91,5 @@ A atualização de dados também pode falhar devido a credenciais armazenadas em
 - [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 - [Solução de problemas do Gateway do Power BI – Pessoal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI da Microsoft](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI da Microsoft](https://community.powerbi.com/)
 

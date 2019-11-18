@@ -3,18 +3,17 @@ title: Instalar o Servidor de Relatório do Power BI
 description: Saiba como instalar o Servidor de Relatório do Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839447"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874131"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar o Servidor de Relatório do Power BI
 
@@ -50,7 +49,7 @@ Se você adquiriu o Power BI Premium, dentro da guia **Configurações Premium**
 
 Quando você seleciona **Chave do Servidor de Relatórios do Microsoft Power BI**, é exibida uma caixa de diálogo que contém a chave do produto (Product Key). É possível copiá-la e usá-la com a instalação.
 
-![Chave do produto (Product Key)](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Chave do produto (Product Key) do Servidor de Relatórios do Power BI")
+![Chave do produto (Product Key)](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Chave do produto (Product Key) do Servidor de Relatório do Power BI")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise SA (Software Assurance)
 
@@ -127,14 +126,14 @@ As reservas de URL são compostas por um prefixo, nome de host, porta e diretór
 | Parte | Descrição |
 | --- | --- |
 | Prefixo |O prefixo padrão é HTTP. Se você tiver instalado anteriormente um certificado de protocolo SSL, a instalação tentará criar reservas de URL que usem o prefixo HTTPS. |
-| Nome do host |O nome do host padrão é um curinga forte (+). Especifica que o servidor de relatório aceita qualquer solicitação HTTP na porta designada para qualquer nome de host resolvido para o computador, incluindo `http://<computername>/reportserver`, `http://localhost/reportserver` ou `http://<IPAddress>/reportserver.` |
+| Nome do host |O nome do host padrão é um curinga forte (+). Especifica que o servidor de relatório aceita qualquer solicitação HTTP na porta designada para qualquer nome de host resolvido para o computador, incluindo `https://<computername>/reportserver`, `https://localhost/reportserver` ou `https://<IPAddress>/reportserver.` |
 | Porta |A porta padrão é 80. Se você usar uma porta diferente da porta 80, será necessário adicioná-la explicitamente à URL ao abrir o portal da Web em uma janela do navegador. |
 | Diretório virtual |Por padrão, os diretórios virtuais são criados no formato de ReportServer para o serviço Web do Servidor de Relatório e Reports para o portal da Web. Para o serviço Web do Servidor de Relatório, o diretório virtual padrão é **reportserver**. Para o portal da Web, o diretório virtual padrão é **relatórios**. |
 
 Um exemplo de cadeia de caracteres de URL completa pode ser o seguinte:
 
-* `http://+:80/reportserver`, fornece acesso ao servidor de relatório.
-* `http://+:80/reports`, fornece acesso ao portal da Web.
+* `https://+:80/reportserver`, fornece acesso ao servidor de relatório.
+* `https://+:80/reports`, fornece acesso ao portal da Web.
 
 ## <a name="firewall"></a>Firewall
 

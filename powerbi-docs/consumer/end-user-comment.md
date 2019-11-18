@@ -2,7 +2,6 @@
 title: Adicionar comentários a dashboards e relatórios
 description: Este documento mostra como adicionar comentários a um dashboard, relatório ou visual e como usar comentários para conversar com colaboradores.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100675"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852025"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Adicionar comentários a um dashboard ou relatório
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Adicione um comentário pessoal ou inicie uma conversa sobre um dashboard ou relatório com seus colegas. O recurso **comentário** é apenas uma das maneiras como um *consumidor* pode colaborar com outras pessoas. 
 
 ![vídeo de comentários](media/end-user-comment/comment.gif)
@@ -64,7 +66,7 @@ Os processos para adicionar comentários a um painel ou relatório são semelhan
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>Adicionar um comentário a um visual de dashboard ou relatório específico
 Além de adicionar comentários a um dashboard inteiro ou a uma página de relatório inteira, você pode adicionar comentários a blocos individuais do dashboard e visuais individuais de relatório. Os processos são semelhantes e, neste exemplo, estamos usando um relatório.
 
-1. Focalize o visual e selecione o as reticências (…).    
+1. Passe o mouse sobre o visual e selecione **Mais opções** (...).    
 2. No menu suspenso, selecione **Abrir os comentários**.
 
     ![“Adicionar um comentário” é a primeira opção](media/end-user-comment/power-bi-report-comment.png)  

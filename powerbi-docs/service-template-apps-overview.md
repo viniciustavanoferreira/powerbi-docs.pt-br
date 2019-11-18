@@ -2,19 +2,18 @@
 title: O que são os aplicativos de modelo do Power BI?
 description: Este artigo é uma visão geral do programa de aplicativos de modelo do Power BI. Saiba como criar aplicativos do Power BI com pouca ou nenhuma codificação e implantá-los para qualquer cliente do Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: tebercov
-ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 4b4e32f787d2d262d604ff0745f8c028e9fff949
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408202"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871330"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são os aplicativos de modelo do Power BI?
 
@@ -61,7 +60,7 @@ Veja a seguir as etapas de alto nível.
 
 1. Enviar o conteúdo à Plataforma do Cloud Partner para publicação. 
 
-1. Ativar sua oferta no AppSource e mover o aplicativo para produção no Power BI.
+1. Ative sua oferta no AppSource e mova o aplicativo para produção no Power BI.
 2. Agora você poderá iniciar o desenvolvimento da próxima versão no mesmo workspace, em pré-produção. 
 
 ## <a name="requirements"></a>Requisitos

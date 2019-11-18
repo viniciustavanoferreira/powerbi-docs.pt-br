@@ -2,7 +2,6 @@
 title: Criar e gerenciar relações no Power BI Desktop
 description: Criar e gerenciar relações no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61312207"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869129"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerenciar relações no Power BI Desktop
 Quando você importa várias tabelas, é provável que você realize algumas análises usando dados de todas essas tabelas. Relações entre essas tabelas são necessárias para calcular os resultados com precisão e exibir as informações corretas em seus relatórios. O Power BI Desktop torna fácil a criação dessas relações. Na verdade, na maioria dos casos, você não precisará fazer nada - o recurso de Detecção Automática pode fazer isso por você. No entanto, em alguns casos, talvez você precise criar relações por conta própria, ou talvez seja necessário fazer algumas alterações em uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e compreender como criá-las e editá-las.
@@ -64,13 +63,13 @@ Quando você cria ou edita uma relação, pode configurar opções adicionais. P
 Consulte a seção Noções básicas sobre opções adicionais, mais adiante neste artigo, para obter mais detalhes sobre quando alterar a cardinalidade.
 
 ## <a name="cross-filter-direction"></a>Direção do filtro cruzado
-**Ambas** – a direção padrão mais comum. Isso significa que, para fins de filtragem, ambas as tabelas são tratadas como se fossem uma única tabela. **Ambas** é ideal para uma única tabela que tem uma série de tabelas de pesquisa em torno dela. Um exemplo é uma tabela de dados reais de Vendas com uma tabela de pesquisa por departamento. Isso é frequentemente chamado de Configuração de esquema em estrela (uma tabela central com várias Tabelas de pesquisa). No entanto, se você tiver duas ou mais tabelas que também têm tabelas de pesquisa (com algumas em comum), não seria vantajoso para você usar a configuração “Ambas”. Para continuar o exemplo anterior, nesse caso, você também tem uma tabela de vendas de orçamento que registra o orçamento de destino para cada departamento. E a tabela de departamento é conectada tanto à tabela de vendas quanto à de alocação. Evite a configuração “Ambas” para esse tipo de configuração.
+**Ambas** – Para fins de filtragem, ambas as tabelas são tratadas como se fossem uma única tabela. **Ambas** é ideal para uma única tabela que tem uma série de tabelas de pesquisa em torno dela. Um exemplo é uma tabela de dados reais de Vendas com uma tabela de pesquisa por departamento. Isso é frequentemente chamado de Configuração de esquema em estrela (uma tabela central com várias Tabelas de pesquisa). No entanto, se você tiver duas ou mais tabelas que também têm tabelas de pesquisa (com algumas em comum), não seria vantajoso para você usar a configuração “Ambas”. Para continuar o exemplo anterior, nesse caso, você também tem uma tabela de vendas de orçamento que registra o orçamento de destino para cada departamento. E a tabela de departamento é conectada tanto à tabela de vendas quanto à de alocação. Evite a configuração “Ambas” para esse tipo de configuração.
 
-**Única** – as opções de filtragem em tabelas conectadas funcionam na tabela em que os valores estão sendo agregados. Se você importar uma tabela do Power Pivot no Excel 2013 ou um modelo de dados anterior, todas as relações terão uma única direção. 
+**Única** – A descrição padrão mais comum, o que significa que as opções de filtragem em tabelas conectadas funcionam na tabela na qual os valores estão sendo agregados. Se você importar uma tabela do Power Pivot no Excel 2013 ou um modelo de dados anterior, todas as relações terão uma única direção. 
 
 Consulte a seção de opções adicionais Noções básicas, mais adiante neste artigo, para obter mais detalhes sobre quando alterar a direção do filtro cruzado.
 
-## <a name="make-this-relationship-active"></a>Tornar esta relação ativa
+## <a name="make-this-relationship-active"></a>Ativar esta relação
 Quando marcada, isso significa que a relação serve como a relação ativa, padrão. Em casos nos quais há mais de uma relação entre duas tabelas, a relação ativa fornece uma maneira para o Power BI Desktop criar automaticamente visualizações que incluem ambas as tabelas.
 
 Veja a seção Noções básicas sobre opções adicionais mais adiante neste artigo para obter mais detalhes sobre quando tornar ativa uma relação específica.

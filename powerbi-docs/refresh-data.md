@@ -2,7 +2,6 @@
 title: Atualizar dados no Power BI
 description: Este artigo descreve as funcionalidades de atualização de dados do Power BI e suas dependências no nível conceitual.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 422d742748fc6880b0636bd3a0c5de7011a3ff0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307932"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860785"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -93,14 +92,14 @@ Uma operação de atualização do Power BI pode ser composta por vários tipos 
 
 #### <a name="data-refresh"></a>Atualização de dados
 
-Para usuários do Power BI, atualização de dados normalmente significa importar dados das fontes de dados originais para um conjunto de dados, seja com base em um agendamento de atualização ou sob demanda. Você pode executar várias atualizações de conjuntos de dados diariamente, o que poderá ser necessário se os dados de origem subjacentes forem alterados com frequência. O Power BI limita os conjuntos de dados na capacidade compartilhada a oito atualizações diárias. Se o conjunto de dados residir em uma capacidade Premium, você poderá executar até 48 atualizações por dia. Para obter mais informações, confira Configurando a atualização agendada mais adiante neste artigo.
+Para usuários do Power BI, atualização de dados normalmente significa importar dados das fontes de dados originais para um conjunto de dados, seja com base em um agendamento de atualização ou sob demanda. Você pode executar várias atualizações de conjuntos de dados diariamente, o que poderá ser necessário se os dados de origem subjacentes forem alterados com frequência. O Power BI limita os conjuntos de dados na capacidade compartilhada a oito atualizações diárias. Se o conjunto de dados residir em uma capacidade Premium, você poderá executar até 48 atualizações por dia nas configurações do conjunto de dados. Para obter mais informações, confira Configurando a atualização agendada mais adiante neste artigo.
 
-Também é importante ressaltar que a limitação de atualizações diária se aplica às atualizações agendadas e sob demanda, combinadas. Você pode disparar uma atualização sob demanda selecionando **Atualizar agora** no menu do conjunto de dados, como ilustrado na captura de tela a seguir. Também é possível disparar uma atualização de dados de maneira programática usando a API REST do Power BI. Confira [Conjuntos de dados – atualizar o conjunto de dados](/rest/api/power-bi/datasets/refreshdataset) se tiver interesse em criar sua própria solução de atualização.
+Também é importante ressaltar que a limitação da capacidade compartilhada quanto às atualizações diárias se aplica às atualizações agendadas e da API, combinadas. Você também pode disparar uma atualização sob demanda selecionando **Atualizar agora** no menu do conjunto de dados, como ilustrado na captura de tela a seguir. As atualizações sob demanda não estão incluídas na limitação de atualizações. Observe também que os conjuntos de dados em uma capacidade Premium não impõem limitações para atualizações de API. Se tiver interesse em criar sua própria solução de atualização usando a API REST do Power BI, confira [Conjuntos de Dados – Atualizar Conjunto de Dados](/rest/api/power-bi/datasets/refreshdataset).
 
 ![Atualizar agora](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> As atualizações de dados precisam ser concluídas em menos de 2 horas. Se os conjuntos de dados precisarem de operações de atualização mais longas, considere mover o conjunto de dados para uma capacidade Premium. No Premium, a duração máxima da atualização é de 5 horas.
+> As atualizações de dados precisam ser concluídas em menos de 2 horas na capacidade compartilhada. Se os conjuntos de dados precisarem de operações de atualização mais longas, considere mover o conjunto de dados para uma capacidade Premium. No Premium, a duração máxima da atualização é de 5 horas.
 
 #### <a name="onedrive-refresh"></a>Atualização do OneDrive
 
@@ -134,7 +133,7 @@ Após uma atualização de dados, no entanto, os resultados da consulta armazena
 
 #### <a name="tile-refresh"></a>Atualização de bloco
 
-O Power BI mantém um cache para cada visual de bloco em seus dashboards e atualiza proativamente os caches de bloco quando dados são alterados. Em outras palavras, a atualização dos blocos ocorre automaticamente após uma atualização de dados. Isso vale para operações de atualização agendadas e sob demanda. Também é possível forçar uma atualização do bloco selecionando as reticências (...) no canto superior direito de um dashboard e selecionando **Atualizar os blocos de painel**.
+O Power BI mantém um cache para cada visual de bloco em seus dashboards e atualiza proativamente os caches de bloco quando dados são alterados. Em outras palavras, a atualização dos blocos ocorre automaticamente após uma atualização de dados. Isso vale para operações de atualização agendadas e sob demanda. Também é possível forçar uma atualização do bloco selecionando **Mais opções** (...) no canto superior direito de um dashboard e selecionando **Atualizar os blocos do dashboard**.
 
 ![Atualizar blocos do dashboard](media/refresh-data/refresh-dashboard-tiles.png)
 
@@ -277,7 +276,7 @@ Na seção **Atualização agendada**, você define a frequência e os slots de 
 
 ![Configurar a atualização agendada](media/refresh-data/configure-scheduled-refresh.png)
 
-Após a configuração de um agendamento de atualização, a página de configurações do conjunto de dados informa o horário da próxima atualização, como na captura de tela acima. Se você quiser atualizar os dados mais cedo, por exemplo, para testar sua configuração de gateway e fonte de dados, execute uma atualização sob demanda usando a opção **Atualizar agora** no menu de conjunto de dados no painel de navegação esquerdo. Atualizações sob demanda não afetam o horário da próxima atualização agendada, mas são contabilizadas com relação ao limite de atualizações diárias, conforme explicado anteriormente neste artigo.
+Após a configuração de um agendamento de atualização, a página de configurações do conjunto de dados informa o horário da próxima atualização, como na captura de tela acima. Se você quiser atualizar os dados mais cedo, por exemplo, para testar sua configuração de gateway e fonte de dados, execute uma atualização sob demanda usando a opção **Atualizar agora** no menu de conjunto de dados no painel de navegação. Atualizações sob demanda não afetam o horário da próxima atualização agendada, mas são contabilizadas com relação ao limite de atualizações diárias, conforme explicado anteriormente neste artigo.
 
 Observe também que o horário de atualização configurado talvez não seja o horário exato em que o Power BI iniciará o próximo processo agendado. O Power BI inicia as atualizações agendadas com base no melhor esforço. O objetivo é iniciar a atualização dentro de 15 minutos do slot de horário agendado, mas um atraso de até uma hora poderá ocorrer se o serviço não puder alocar os recursos necessários mais cedo.
 
@@ -311,7 +310,7 @@ O ícone de aviso ajuda a indicar problemas atuais no conjunto de dados, mas tam
 
 ## <a name="automatic-page-refresh"></a>Atualização automática de página
 
-A atualização automática de página funciona em um nível de página de relatório e permite que os autores de relatório definam um intervalo de atualização para visuais em uma página que está ativa apenas quando a página é consumida. A atualização automática de página só está disponível para fontes de dados do DirectQuery. O intervalo mínimo de atualização depende do tipo de workspace em que o relatório está publicado e das configurações de capacidade do administrador para workspace Premium.
+A atualização automática de página funciona em um nível de página de relatório e permite que os autores de relatório definam um intervalo de atualização para visuais em uma página que está ativa apenas quando a página é consumida. A atualização automática de página está disponível apenas para fontes de dados DirectQuery. O intervalo mínimo de atualização depende do tipo de workspace em que o relatório está publicado e das configurações de capacidade do administrador para workspace Premium.
 
 Saiba mais no artigo sobre [atualização de página automática](desktop-automatic-page-refresh.md).
 
@@ -339,4 +338,4 @@ Além disso, considere as seguintes recomendações para estabelecer e manter pr
 [Ferramentas para solucionar problemas de atualização](service-gateway-onprem-tshoot.md)  
 [Solucionar problemas de atualização](refresh-troubleshooting-refresh-scenarios.md)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

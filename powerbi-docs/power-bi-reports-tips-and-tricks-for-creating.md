@@ -2,7 +2,6 @@
 title: Dicas para criar relatórios impressionantes
 description: Dicas e truques para criar relatórios no serviço do Power BI e no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d7f2c83cf1d0f29f2c0d0c6e621a253acdd3ce41
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721361"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860875"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Dicas e truques para criar relatórios no Power BI Desktop e no serviço do Power BI
 Para aproveitar ao máximo seus dados, às vezes você precisa de uma ajuda extra. Reunimos algumas dicas e truques que você pode usar ao criar relatórios no Microsoft Power BI Desktop, serviço do Power BI *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot habilitado e o Power Query instalado e habilitado.
@@ -115,11 +114,11 @@ Vejamos um exemplo:
 
 Se carregarmos conjuntos de dados de solicitações ativas de suporte ao cliente e outro conjunto de dados de itens de trabalho que têm os seguintes esquemas:
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
 >
 >
 
-Quando desejamos acompanhar todos os incidentes e itens de trabalho relacionados a um CustomerName específico, não podemos simplesmente criar uma relação entre esses dois conjuntos de dados.  Alguns WorkItems não podem estar relacionados a um CustomerName, portanto, esse campo estaria em branco ou seria NULL.  Pode haver vários registros em WorkItems e CustomerIncidents para um determinado CustomerName.  
+Quando desejamos acompanhar todos os incidentes e itens de trabalho relacionados a um CustomerName específico não podemos simplesmente criar uma relação entre esses dois conjuntos de dados.  Alguns WorkItems não podem estar relacionados a um CustomerName, portanto, esse campo estaria em branco ou seria NULL.  Pode haver vários registros em WorkItems e CustomerIncidents para um determinado CustomerName.  
 
 #### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>Como criar relações no Power BI Desktop quando os dados contêm valores nulos ou em branco
 Os conjuntos de dados geralmente contêm colunas com valores nulos ou em branco.  Isso pode causar problemas ao tentar usar relações.  Basicamente, você tem duas opções para solucionar os problemas.  É possível remover as linhas com valores nulos ou em branco.  Você pode fazer isso usando o recurso de filtro na guia de consulta ou, se estiver mesclando consultas, selecionar a opção “Mantenha somente as linhas correspondentes”. Como alternativa, você pode substituir os valores nulos ou em branco por valores que funcionam em relações, normalmente cadeias de caracteres como “NULL” e “(Blank)”.   Não há nenhuma abordagem certa aqui - filtrar linhas no estágio de consulta remove as linhas e pode afetar os cálculos e as estatísticas de resumo.  A última abordagem preserva essas linhas de dados, mas pode fazer com que linhas não relacionadas apareçam relacionadas no modelo, gerando erros de cálculo.  Se você adotar a última solução, lembre-se de usar filtros na Exibição/Gráfico quando apropriado para garantir que você esteja obtendo resultados precisos.  O mais importante é avaliar quais linhas são mantidas e removidas e entender o impacto geral na análise.  
@@ -163,12 +162,9 @@ DAX é a linguagem de fórmula de cálculo no Power BI Desktop.  Ele é otimizad
 
 [Referência do DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[Central de recursos do DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[Central de recursos do DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Serviço do Power BI *e* Power BI Desktop
-
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Leia o White Paper: [princípios para a criação de relatórios do Power BI](visuals/power-bi-visualization-best-practices.md)
-Este documento fornece as práticas recomendadas para a criação de relatórios no Power BI. Começando com o planejamento, ele aborda os princípios de design que podem ser aplicados aos relatórios e às páginas, bem como os visuais individuais que compõem esse relatório. Muitas dessas práticas recomendadas também se aplicam ao design de dashboard.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leia e/ou assista a “How to design visually stunning reports (and dashboards) in Power BI” (Como criar relatórios [e dashboards] visualmente impressionantes no Power BI)
 O membro da comunidade Miguel Myers é Cientista de Dados e Designer Gráfico.
@@ -226,4 +222,4 @@ Alguns dos nossos livros favoritos incluem:
 
 [Relatórios no Power BI](consumer/end-user-reports.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

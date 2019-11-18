@@ -2,19 +2,18 @@
 title: Exibir painéis e relatórios nos aplicativos móveis do Power BI
 description: Criar e conectar-se aos painéis e relatórios no serviço do Power BI. Em seguida, exiba-os nos aplicativos móveis do Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059810"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870661"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Exibir painéis e relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -40,7 +39,7 @@ Este é um dashboard do Power BI no serviço do Power BI:
 ## <a name="view-dashboards-on-your-iphone"></a>Exibir painéis em seu iPhone
 1. Abra o aplicativo Power BI em seu iPhone e entre.
    
-   Precisa [baixar o aplicativo do iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) da Apple App Store?
+   Precisa [baixar o aplicativo do iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) da Apple App Store?
 2. Toque em um painel para abri-lo.  
    
     ![Tocar no dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do s
 ## <a name="view-dashboards-on-your-ipad"></a>Exibir painéis em seu iPad
 1. Abra o aplicativo Power BI.
    
-   Precisa [baixar o aplicativo iPad](http://go.microsoft.com/fwlink/?LinkId=522062) na Apple App Store primeiro?
+   Precisa [baixar o aplicativo iPad](https://go.microsoft.com/fwlink/?LinkId=522062) na Apple App Store primeiro?
 2. Toque em **Dashboards** na parte superior do aplicativo.  
    
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do s
 ## <a name="view-dashboards-on-your-android-phone"></a>Exibir painéis no seu telefone Android
 1. Abra o aplicativo Power BI em seu telefone Android e entre.
    
-   Precisa [baixar o aplicativo Android](http://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
+   Precisa [baixar o aplicativo Android](https://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
 2. Toque em um painel para abri-lo.   
    
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -127,7 +126,7 @@ Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do s
 ## <a name="view-dashboards-on-your-android-tablet"></a>Exibir dashboards em seu tablet Android
 1. Abra o aplicativo do Power BI em seu tablet Android e entre.
    
-   Precisa [baixar o aplicativo Android](http://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
+   Precisa [baixar o aplicativo Android](https://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
 2. Toque em um painel para abri-lo.   
    
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -154,8 +153,8 @@ Se você for o proprietário do dashboard, *no serviço do Power BI*, poderá cr
 Leia mais sobre como [criar uma exibição de telefone de um dashboard](../../service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Baixar o aplicativo Android](http://go.microsoft.com/fwlink/?LinkID=544867) no Google Play  
+* [Baixar o aplicativo Android](https://go.microsoft.com/fwlink/?LinkID=544867) no Google Play  
 * [Introdução ao aplicativo do Android para o Power BI](mobile-android-app-get-started.md)  
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

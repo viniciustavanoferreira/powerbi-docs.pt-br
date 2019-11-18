@@ -3,20 +3,19 @@ title: Dicas e truques para fazer perguntas com P e R
 description: Dicas e truques para fazer perguntas com a P e R no Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a3d70824949d214404b25b401930fc69cb47ad4e
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408183"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72774731"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas na P e R do Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecida pela P e R
@@ -79,7 +78,9 @@ A P e R faz todo o possível para entender e responder à pergunta que está sen
 * fornece uma visualização da resposta na forma de um visual. O visual é atualizado conforme você digita e edita a pergunta (ele não aguarda até que você pressione Enter).
 * sugere termos de substituição do(s) conjunto(s) de dados subjacente(s) quando você move o cursor de volta para a caixa de pergunta.
 * reformula a pergunta com base nos dados do(s) conjunto(s) de dados subjacente(s). A P e R substitui as palavras usadas por sinônimos do(s) conjunto(s) de dados subjacente(s). Ao ler a reformulação, você sabe se a P e R entendeu sua pergunta ou não. 
-* esmaece as palavras que não são entendidas.
+* adiciona um sublinhado duplo às palavras que ele não entende.
+* adiciona um sublinhado simples às palavras que ele entende.
+* permite que você entre em contato com o proprietário do relatório ou do dashboard quando seu termo não for encontrado ou sua pergunta não obtiver resultados.
 
 ## <a name="dont-stop-now"></a>Não parar agora
 Depois que a P e R exibir os resultados, é só conversar! Use os recursos interativos do visual e da P e R para descobrir mais informações.

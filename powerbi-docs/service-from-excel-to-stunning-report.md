@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995044"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020990"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Da pasta de trabalho do Excel para um relatório incrível no serviço do Power BI
 Sua gerente deseja ver um relatório sobre os números de vendas mais recentes combinado com as impressões da última campanha no final do dia. Porém, os dados mais recentes residem em vários sistemas de terceiros e em arquivos em seu laptop. No passado, levava várias horas para criar visuais e formatar um relatório e você começava a se sentir ansioso.
@@ -111,7 +111,7 @@ Que tal exibir um visual mostrando as vendas por produto e segmento de mercado? 
 
 2. Altere o tipo de gráfico escolhendo um dos ícones no menu **Visualizações**. Por exemplo, altere-o para um **Gráfico de colunas empilhadas**. 
 
-3. Para classificar o gráfico, selecione as reticências (...) > **Classificar por**.
+3. Para classificar o gráfico, selecione **Mais opções** (...) > **Classificar por**.
 
    ![Gráfico de colunas empilhadas no editor de relatório](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 

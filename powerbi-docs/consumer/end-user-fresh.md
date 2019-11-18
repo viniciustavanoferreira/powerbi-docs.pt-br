@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141727"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019787"
 ---
 # <a name="your-content-is-up-to-date"></a>O conteúdo está atualizado
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Como *consumidor*, você interage com o conteúdo que é criado por *designers* e compartilhado com você. Talvez você se pergunte se o conteúdo está atualizado ou talvez só queira saber quando esse conteúdo foi atualizado pela última vez. Saber que você está trabalhando com o conteúdo mais atualizado proporciona confiança.  
  
 ![Dashboard do Power BI](media/end-user-fresh/power-bi-dashboards.png)
@@ -63,7 +66,7 @@ Caso tenha interesse, você poderá pesquisar a data da última atualização da
 ### <a name="dashboard-tiles"></a>Blocos de dashboard
 Para blocos do dashboard, exiba o bloco no modo de foco para ver o carimbo de data/hora da Última atualização.
 
-1. Em um bloco do dashboard, selecione as reticências (...) e escolha **Aberto no modo de foco**.
+1. Em um bloco do dashboard, selecione **Mais opções** (...) e **Abrir no modo de foco**.
 
     ![menu exibido após a seleção das reticências](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +75,7 @@ Para blocos do dashboard, exiba o bloco no modo de foco para ver o carimbo de da
     ![navegador ampliado mostrando a última atualização](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>Painéis e relatórios
-Outra maneira de pesquisar uma data de última atualização é usando a **Exibição relacionada**.  A **Exibição relacionada** está disponível selecionando a reticências (...) na barra de menus superior do Power BI.
+Outra maneira de pesquisar uma data de última atualização é usando a **Exibição relacionada**.  A **Exibição relacionada** está disponível selecionando **Mais opções** (...) na barra de menus superior do Power BI.
 
 ![Selecionar Exibição relacionada no menu](media/end-user-fresh/power-bi-view-related-dropdown.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: aef50d58dc11269c2c30010c1ca89843689f45c4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654572"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017672"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Usar modelos compostos no Power BI Desktop
 
@@ -53,7 +53,7 @@ Por exemplo, usando modelos compostos, você pode criar um modelo que combina os
 Um modelo que combina dados de mais de uma origem de DirectQuery ou que combina o DirectQuery com a importação de dados é chamado de *modelo composto*.
 
 
-Você pode criar relações entre tabelas, como de costume, mesmo quando essas tabelas são provenientes de fontes diferentes, com a seguinte restrição: quaisquer relações que são de origem cruzada devem ser definidas com a cardinalidade de *muitos para muitos*, independentemente de sua cardinalidade real. O comportamento dessas relações é o mesmo que o comportamento normal de relações*muitos para muitos*, conforme descrito em [Relações muitos para muitos no Power BI Desktop (versão prévia)](desktop-many-to-many-relationships.md). 
+É possível criar relações entre tabelas, como sempre, mesmo as tabelas provenientes de outras origens. Todas as relações de origem cruzada são criadas com uma cardinalidade de *muitos para muitos*, independentemente da cardinalidade atual. É possível alterá-las para "um para muitos", "muitos para um" ou "um para um". Independentemente da cardinalidade definida, as relações de origem cruzada têm comportamentos diferentes em que não é possível usar as funções DAX para recuperar valores no lado "um" do lado "muitos". Também é possível ver o impacto de desempenho em comparação com as relações "muitos para muitos" na mesma origem.
 
 > [!NOTE]
 > No contexto de modelos compostos, todas as tabelas importadas efetivamente são uma única fonte, independentemente da fonte de dados subjacente real da qual são importadas.   
@@ -88,7 +88,7 @@ Da mesma forma, na exibição **Relacionamento** no Power BI Desktop, agora pode
 
 ![Exibição de relações de tabelas](media/desktop-composite-models/composite-models_08.png)
 
-Agora, precisamos relacionar essas tabelas às outras tabelas no modelo. Como sempre, criamos um relacionamento entre a tabela **Bicicleta** do SQL Server e a tabela importada **ProductManagers**. Ou seja, o relacionamento entre *Bike[ProductName]* e *ProductManagers[ProductName]* . Conforme discutido anteriormente, todos os relacionamentos que passam pela origem devem ter a cardinalidade padrão *muitos para muitos*. 
+Agora, precisamos relacionar essas tabelas às outras tabelas no modelo. Como sempre, criamos um relacionamento entre a tabela **Bicicleta** do SQL Server e a tabela importada **ProductManagers**. Ou seja, o relacionamento entre *Bike[ProductName]* e *ProductManagers[ProductName]* . Conforme discutido anteriormente, todas as relações que passam pela origem têm a cardinalidade padrão *muitos para muitos*. 
 
 ![A janela "Criar relacionamento"](media/desktop-composite-models/composite-models_09.png)
 

@@ -2,7 +2,6 @@
 title: Mostrar os dados que foram usados para criar o visual
 description: Este documento explica como os consumidores do Power BI podem “ver” os dados usados para criar um visual.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,14 +9,16 @@ ms.topic: conceptual
 ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d35cdc6e2c6d2c2632fe8a9776ddc366436cff94
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 83248967f721526f61e63aa92b1e51f22ddbefa9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71251499"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861541"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Mostrar dados com relatórios do Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Um visual do Power BI é construído usando dados dos conjuntos de dados subjacentes. Se você estiver interessado em ver o que acontece nos bastidores, o serviço do Power BI permitirá *exibir* os dados usados para criar o visual em um relatório. Quando você seleciona **Mostrar Dados**, o Power BI exibe os dados abaixo (ou ao lado) do visual.
 
@@ -25,7 +26,7 @@ Em um dashboard, para ver os dados subjacentes, use [Exportar para o Excel](end-
 
 ## <a name="show-the-data-being-used-to-create-a-report-visual"></a>Mostrar os dados usados para criar um visual de relatório
 1. No serviço do Power BI, [abra um relatório](end-user-report-open.md) e selecione um visual.  
-2. Para exibir os dados por trás do visual, selecione as reticências (...) e escolha **Mostrar dados**.
+2. Para exibir os dados por trás do visual, selecione **Mais opções** (...) e escolha **Mostrar dados**.
    
    ![selecione Mostrar dados](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
 3. Por padrão, os dados são exibidos abaixo do visual.

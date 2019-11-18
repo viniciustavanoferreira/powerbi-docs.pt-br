@@ -2,19 +2,18 @@
 title: Comece a usar o aplicativo móvel do Power BI para iOS
 description: Saiba como o aplicativo móvel do Microsoft Power BI para iOS leva o Power BI para o seu bolso, com acesso móvel a informações comerciais localmente e na nuvem.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67499005"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870195"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introdução ao aplicativo móvel do Power BI em dispositivos iOS
 O aplicativo Microsoft Power BI para iOS no iPhone, iPad ou iPod Touch oferece a experiência móvel do BI para Power BI, Servidor de Relatórios do Power BI e Reporting Services. Exiba e interaja com os dashboards de sua empresa localmente e na nuvem em qualquer lugar, com acesso móvel dinâmico e habilitado para toque. Explore os dados em dashboards e compartilhe com seus colegas em mensagens de email ou de texto. Além disso, mantenha atualizado com seus dados mais recentes em seu [Apple Watch](mobile-apple-watch.md).  
@@ -31,7 +30,7 @@ Em seguida, no aplicativo móvel do Power BI para iOS, você interage com os das
 Descubra as [novidades nos aplicativos móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>Baixar o aplicativo
-[Baixe o aplicativo iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Baixe o aplicativo iOS") na Apple App Store para seu iPhone, iPad ou iPod Touch.
+[Baixe o aplicativo iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Baixar o aplicativo iOS") da Apple App Store para o seu iPhone, iPad ou iPod Touch.
 
 Você pode executar o aplicativo do Power BI para iOS em qualquer dispositivo com iOS 11 ou posterior. 
 
@@ -75,7 +74,7 @@ Você pode exibir e interagir com os exemplos de dashboard do Power BI, mas há 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Encontre seu conteúdo nos aplicativos móveis do Power BI
 Seus dashboards e relatórios são armazenados em locais diferentes nos aplicativos móveis do Power BI, dependendo de onde eles vieram. Leia sobre [finding your content in the mobile apps](mobile-apps-quickstart-view-dashboard-report.md) (localizando seu conteúdo em aplicativos móveis). Além disso, a qualquer momento, você pode pesquisar por qualquer coisa que você tenha nos aplicativos móveis do Power BI. 
 
-![Painel de navegação à esquerda](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![Painel de navegação](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 Leia mais sobre [finding your content in the mobile apps](mobile-apps-quickstart-view-dashboard-report.md) (localizando seu conteúdo em aplicativos móveis).
 
@@ -84,7 +83,7 @@ Na página Favoritos nos aplicativos móveis, você verá todos os seus dashboar
 
 * Toque em **Favoritos**.
   
-   ![Favoritos no painel de navegação à esquerda](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   ![Favoritos no painel de navegação](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
    Você vê todos os seus favoritos juntos nesta página:
   
@@ -109,7 +108,7 @@ Leia mais sobre [Configurar aplicativos móveis do Power BI com o Microsoft Intu
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [O que é o Power BI?](../../power-bi-overview.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 
 

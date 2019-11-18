@@ -3,19 +3,18 @@ title: Configurar e gerenciar capacidades no Power BI Premium
 description: Saiba como é possível gerenciar o Power BI Premium e habilitar o acesso a conteúdo para toda a organização.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e9214fbb78b501b49e8c2115423ec1c6f55e65d7
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 04f5b1f639b7abdbbe789a23e5d7a54790ad50a5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175624"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857093"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configurar e gerenciar capacidades no Power BI Premium
 
@@ -98,7 +97,7 @@ Administradores do Power BI e Administradores Globais do Office 365 podem altera
 
 ### <a name="manage-user-permissions"></a>Gerenciar permissões de usuário
 
-É possível atribuir administradores de capacidade adicionais, bem como atribuir usuários que tenham permissões de *atribuição de capacidade*. Os usuários que tiverem permissões de atribuição poderão atribuir um workspace do aplicativo a uma capacidade se eles forem administradores desse workspace. Eles também podem atribuir o *Meu workspace* pessoal à capacidade. Os usuários com permissões de atribuição não têm acesso ao portal de administração.
+É possível atribuir administradores de capacidade adicionais, bem como atribuir usuários que tenham permissões de *atribuição de capacidade*. Os usuários que tiverem permissões de atribuição poderão atribuir um workspace a uma capacidade se eles forem administradores desse workspace. Eles também podem atribuir o *Meu workspace* pessoal à capacidade. Os usuários com permissões de atribuição não têm acesso ao portal de administração.
 
 > [!NOTE]
 > Para o Power BI Embedded, os administradores de capacidade são definidos no portal do Microsoft Azure.
@@ -109,7 +108,7 @@ Em **Permissões do usuário**, expanda **Usuários com permissões de atribuiç
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Atribuir um workspace a uma capacidade
 
-Há duas maneiras de atribuir um workspace a uma capacidade: no portal de administração e em um workspace do aplicativo.
+Há duas maneiras de atribuir um workspace a uma capacidade: no portal de administração e em um workspace.
 
 ### <a name="assign-from-the-admin-portal"></a>Atribuir do portal de administração
 
@@ -127,22 +126,22 @@ Os administradores de capacidade, juntamente com os administradores do Power BI 
    | --- | --- |
    | **Workspaces por usuários** | Quando você atribui workspaces por usuário ou grupo, todos os workspaces pertencentes a esses usuários são atribuídos à capacidade Premium, incluindo o workspace pessoal do usuário. Tais usuários obtêm permissões de atribuição de workspace automaticamente.<br>Isso inclui workspaces já atribuídos a uma capacidade diferente. |
    | **Workspaces específicos** | Insira o nome do workspace específico para atribuir à capacidade selecionada. |
-   | **Workspaces de toda a organização** | Atribuir workspaces de toda a organização à capacidade Premium atribuirá todos os workspaces do aplicativo e Meus Workspaces em sua organização a essa capacidade Premium. Além disso, todos os usuários atuais e futuros terão permissão para reatribuir workspaces individuais a essa capacidade. |
+   | **Workspaces de toda a organização** | Atribuir workspaces de toda a organização à capacidade Premium atribuirá todos os workspaces e Meus Workspaces em sua organização a essa capacidade Premium. Além disso, todos os usuários atuais e futuros terão permissão para reatribuir workspaces individuais a essa capacidade. |
    | | |
 
 1. Selecione **Aplicar**.
 
-### <a name="assign-from-app-workspace-settings"></a>Atribuir das configurações de workspace de aplicativo
+### <a name="assign-from-workspace-settings"></a>Atribuir das configurações de workspace
 
-Também é possível atribuir um workspace do aplicativo a uma capacidade Premium das configurações desse workspace. Para mover um workspace para uma capacidade, é necessário ter permissões de administrador para esse workspace e também permissões de atribuição de capacidade para essa capacidade. Note que os administradores de workspace podem sempre remover um workspace da capacidade Premium.
+Também é possível atribuir um workspace a uma capacidade Premium das configurações desse workspace. Para mover um workspace para uma capacidade, é necessário ter permissões de administrador para esse workspace e também permissões de atribuição de capacidade para essa capacidade. Note que os administradores de workspace podem sempre remover um workspace da capacidade Premium.
 
-1. Edite um workspace do aplicativo selecionando as reticências ( **…** ) e então **Editar workspace**.
+1. Edite um workspace selecionando as reticências **(. . .)** e então **Editar workspace**.
 
     ![Editar o workspace no botão de reticências do menu de contexto](media/service-admin-premium-manage/edit-app-workspace.png)
 
 1. Em **Editar workspace**, expanda **Avançado**.
 
-1. Selecione a capacidade à qual você deseja atribuir esse workspace do aplicativo.
+1. Selecione a capacidade à qual você deseja atribuir esse workspace.
 
     ![Lista suspensa de seleção de capacidade](media/service-admin-premium-manage/app-workspace-advanced.png)
 
@@ -166,4 +165,4 @@ Para obter mais informações, consulte [Instalar o Servidor de Relatório do Po
 
 [Como gerenciar capacidades Premium](service-premium-capacity-manage.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

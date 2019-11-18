@@ -2,7 +2,6 @@
 title: Como atualizar suas credenciais do pacote de conteúdo Xero
 description: Se você usa o pacote de conteúdo Xero Power BI, você pode ter tido um problema com a atualização diária do pacote de conteúdo devido a um incidente de serviço recente do Power BI.
 author: SarinaJoan
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c750b4e3bea0649405316fe9e789234c32bba817
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020074"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871673"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Como atualizar suas credenciais do pacote de conteúdo Xero se a atualização tiver falhado
 Se você usa o pacote de conteúdo Xero Power BI, você pode ter tido um problema com a atualização diária do pacote de conteúdo devido a um incidente de serviço recente do Power BI.
@@ -45,10 +44,10 @@ Caso perceba que a atualização falhou como mostrado acima, siga estas etapas p
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-Se você ainda estiver com problemas de atualização, não hesite em entrar em contato conosco em [http://support.powerbi.com](http://support.powerbi.com) 
+Se você ainda estiver com problemas de atualização, não hesite em entrar em contato conosco em [https://support.powerbi.com](https://support.powerbi.com) 
 
 Para aprender mais sobre o pacote de conteúdo do Xero para o Power BI, visite a [página de ajuda do pacote de conteúdo Xero](service-connect-to-xero.md).
 
 ### <a name="next-steps"></a>Próximas etapas
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

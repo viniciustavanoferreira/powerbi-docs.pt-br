@@ -2,7 +2,6 @@
 title: A nova experiência de filtro em relatórios do Power BI
 description: Os filtros no Power BI estão recebendo novas funcionalidades e um novo design.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841280"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875160"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>A nova experiência de filtro em relatórios do Power BI
 
@@ -44,7 +43,7 @@ A nova experiência de filtro é ativada por padrão para novos relatórios. Voc
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>Ativar novos filtros para um relatório existente no Power BI Desktop
 
 1. No Power BI Desktop, em um relatório existente, selecione **Arquivo** > **Opções e Configurações** > **Opções**
-2. Na barra de navegação à esquerda, em **Arquivo atual**, selecione **Configurações de relatório**.
+2. No painel de navegação, em **Arquivo atual**, selecione **Configurações de relatório**.
 3. Em **Experiência de filtragem**, selecione **Habilitar o painel de filtros atualizado e mostrar filtros no cabeçalho do visual para este relatório**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Ativar novos filtros para um relatório existente no serviço
@@ -238,5 +237,5 @@ Experimente a nova experiência de filtro. Forneça seus comentários sobre esse
 - [Filtros e realce em relatórios](power-bi-reports-filters-and-highlighting.md)
 - [Diferentes tipos de filtros no Power BI](power-bi-report-filter-types.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

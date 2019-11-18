@@ -2,19 +2,18 @@
 title: Técnicas de redução de dados para Modelagem de importação
 description: Entenda diferentes técnicas que ajudam a reduzir os dados carregados em Modelos de importação.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 794ded1bc310cfcecc609f48ee4f0595693ceeb3
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69520170"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875620"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Técnicas de redução de dados para Modelagem de importação
 
@@ -29,7 +28,7 @@ Apesar das eficiências obtidas pelo mecanismo de armazenamento VertiPaq, é imp
 - Modelos menores têm uma atualização de dados mais rápida, resultando em relatórios com latência mais baixa, maior taxa de transferência de atualização de conjuntos de dados e menor pressão sobre o sistema de origem e os recursos de capacidade.
 - Tabelas com menos linhas podem resultar em avaliações com cálculo mais rápido, o que pode proporcionar um melhor desempenho de consulta de modo geral.
 
-Sete técnicas de redução de dados diferentes são abordadas neste artigo. Elas incluem:
+Oito técnicas de redução de dados diferentes são abordadas neste artigo. Elas incluem:
 
 - [Remover colunas desnecessárias](#remove-unnecessary-columns)
 - [Remover linhas desnecessárias](#remove-unnecessary-rows)
@@ -37,6 +36,7 @@ Sete técnicas de redução de dados diferentes são abordadas neste artigo. Ela
 - [Otimizar tipos de dados de coluna](#optimize-column-data-types)
 - [Preferência por colunas personalizadas](#preference-for-custom-columns)
 - [Desabilitar a carga de consulta do Power Query](#disable-power-query-query-load)
+- [Desabilitar data/hora automática](#disable-auto-datetime)
 - [Mudar para o modo misto](#switch-to-mixed-mode)
 
 ## <a name="remove-unnecessary-columns"></a>Remover colunas desnecessárias
@@ -85,6 +85,10 @@ No entanto, em alguns casos, as colunas calculadas do modelo podem ser a melhor 
 Consultas do Power Query destinadas a dar suporte à integração de dados com outras consultas não devem ser carregadas no modelo. Para evitar o carregamento da consulta no modelo, não deixe de desabilitar o carregamento de consultas nesses casos.
 
 ![Desabilitando a carga de uma consulta do Power Query](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+
+## <a name="disable-auto-datetime"></a>Desabilitar data/hora automática
+
+O Power BI Desktop inclui uma opção chamada de _Data/hora automática_. Quando habilitada, ela cria uma tabela de data/hora automática para colunas de dados darem suporte a autores de relatório ao configurar filtros, o agrupamento e a busca detalhada para períodos de tempo do calendário. As tabelas ocultas são, na verdade, tabelas calculadas que aumentarão o tamanho do modelo. Para obter diretrizes sobre como usar essa opção, consulte as [Diretrizes automáticas de data/hora no artigo Power BI Desktop](../desktop-auto-date-time.md).
 
 ## <a name="switch-to-mixed-mode"></a>Mudar para o modo misto
 

@@ -1,19 +1,19 @@
 ---
 title: Exemplos de expressões no Construtor de Relatórios do Power BI
 description: As expressões costumam ser usadas em relatórios paginados do Construtor de Relatórios Paginados do Power BI para controlar o conteúdo e a aparência do relatório.
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624138"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728563"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Exemplos de expressões no Construtor de Relatórios do Power BI
 As expressões costumam ser usadas em relatórios paginados do Construtor de Relatórios Paginados do Power BI para controlar o conteúdo e a aparência do relatório. As expressões são escritas no Microsoft Visual Basic e podem usar funções internas, código personalizado, variáveis de grupo e relatório e variáveis definidas pelo usuário. As expressões começam com um sinal de igual (=).   
@@ -35,10 +35,10 @@ Este tópico fornece exemplos de expressões que podem ser usadas para tarefas c
 Para obter mais informações sobre expressões simples e complexas, nas quais você pode usar expressões, e os tipos de referências que podem ser incluídas em uma expressão, confira os tópicos em [Expressões no Construtor de Relatórios do Power BI](report-builder-expressions.md). 
   
 ## <a name="functions"></a>Funções  
- Muitas expressões em um relatório contêm funções. Formate dados, aplique lógica e acesse os metadados de relatório usando essas funções. Escreva expressões que usam funções da biblioteca em tempo de execução do Microsoft Visual Basic e dos namespaces `xref:System.Convert` e `xref:System.Math`. Adicione referências a funções de outros assemblies ou de um código personalizado. Use também classes do Microsoft .NET Framework, incluindo `xref:System.Text.RegularExpressions`.  
+ Muitas expressões em um relatório contêm funções. Formate dados, aplique lógica e acesse os metadados de relatório usando essas funções. Escreva expressões que usam funções da biblioteca em tempo de execução do Microsoft Visual Basic e dos namespaces `xref:System.Convert` e `xref:System.Math`. Você pode adicionar referências a funções no código personalizado. Use também classes do Microsoft .NET Framework, incluindo `xref:System.Text.RegularExpressions`.  
   
 ##  <a name="VisualBasicFunctions"></a> Funções do Visual Basic  
- Use funções do Visual Basic para manipular os dados exibidos em caixas de texto ou usados para parâmetros, propriedades ou outras áreas do relatório. Esta seção fornece exemplos que demonstram algumas dessas funções. Para obter mais informações, confira [Membros da biblioteca de tempo de execução do Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) no MSDN.  
+ Use funções do Visual Basic para manipular os dados exibidos em caixas de texto ou usados para parâmetros, propriedades ou outras áreas do relatório. Esta seção fornece exemplos que demonstram algumas dessas funções. Para obter mais informações, confira [Membros da Biblioteca de Runtime do Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) no MSDN.  
   
  O .NET Framework fornece muitas opções de formato personalizado, por exemplo, para formatos de data específicos. Para saber mais, confira [Tipos de formatação](/dotnet/standard/base-types/formatting-types).  
   
@@ -476,7 +476,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     ```  
   
 ##  <a name="CustomCode"></a> Código personalizado  
- Use um código personalizado em um relatório. O código personalizado é inserido em um relatório ou armazenado em um assembly personalizado que é usado no relatório.  
+ Use um código personalizado inserido em um relatório. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Como usar variáveis de grupo para agregação personalizada  
  Inicialize o valor para uma variável de grupo que seja local a um escopo de grupo específico e, em seguida, inclua uma referência a essa variável em expressões. Uma das maneiras de usar uma variável de grupo com um código personalizado é implementar uma agregação personalizada. 

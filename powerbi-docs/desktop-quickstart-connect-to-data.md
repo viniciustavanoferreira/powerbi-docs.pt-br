@@ -2,7 +2,6 @@
 title: 'Início Rápido: Conectar-se a dados'
 description: Conectar-se a uma fonte de dados no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514449"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876206"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Início Rápido: Conectar-se a dados no Power BI Desktop
 
@@ -28,12 +27,12 @@ Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gr
 ## <a name="prerequisites"></a>Pré-requisitos
 
 Para concluir as etapas neste artigo, você precisará do seguinte:
-* Baixe e instale o **Power BI Desktop**, que é um aplicativo gratuito executado no computador local. Você pode [baixar o **Power BI Desktop**](https://powerbi.microsoft.com/desktop) diretamente ou obtê-lo [na **Microsoft Store**](http://aka.ms/pbidesktopstore).
-* [Baixe esta pasta de trabalho do Excel de exemplo](http://go.microsoft.com/fwlink/?LinkID=521962) e crie uma pasta chamada *C:\PBID-qs*, na qual você pode armazenar o arquivo do Excel. As etapas posteriores neste início rápido pressupõem que esse é o local do arquivo da pasta de trabalho do Excel baixado.
+* Baixe e instale o **Power BI Desktop**, que é um aplicativo gratuito executado no computador local. Você pode [baixar o **Power BI Desktop**](https://powerbi.microsoft.com/desktop) diretamente ou obtê-lo [na **Microsoft Store**](https://aka.ms/pbidesktopstore).
+* [Baixe esta pasta de trabalho do Excel de exemplo](https://go.microsoft.com/fwlink/?LinkID=521962) e crie uma pasta chamada *C:\PBID-qs*, na qual você pode armazenar o arquivo do Excel. As etapas posteriores neste início rápido pressupõem que esse é o local do arquivo da pasta de trabalho do Excel baixado.
 
 ## <a name="launch-power-bi-desktop"></a>Inicie o Power BI Desktop
 
-Depois de instalar **Power BI Desktop**, inicie o aplicativo para que ele esteja em execução no computador local. Você verá uma tela em branco, em que poderá criar visuais e relatórios de dados aos quais se conectar. 
+Depois de instalar **Power BI Desktop**, inicie o aplicativo para que ele esteja em execução no computador local. Você verá um tutorial do Power BI. Siga o tutorial ou clique aqui e comece com uma tela em branco, em que você criará visuais e relatórios com base nos dados aos quais se conectará. 
 
 ![Power BI Desktop – tela em branco](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 

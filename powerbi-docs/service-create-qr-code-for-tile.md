@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e08d37f3db6156de21f00813a90b1c7544345abe
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168998"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021179"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um bloco no Power BI a ser usado nos aplicativos móveis
 Os códigos QR no Power BI podem conectar qualquer coisa do mundo real diretamente às informações do BI relacionadas &#151; não é necessária navegação ou pesquisa.
@@ -27,8 +27,8 @@ Os colegas com quem você compartilhou o painel podem [digitalizar o código QR 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Criar um código QR para um bloco
 1. Abra um painel no serviço do Power BI.
-2. Selecione as reticências (...) no canto superior direito do bloco e selecione **modo Foco** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
-3. Selecione as reticências (...) no canto superior direito e selecione **Gerar código QR**. 
+2. Selecione **Mais opções** (...) no canto superior direito do bloco e selecione **modo de Foco** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
+3. Selecione **Mais opções** (...) no canto superior direito e selecione **Gerar código QR**. 
    
     ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. Será exibida uma caixa de diálogo com o código QR. 

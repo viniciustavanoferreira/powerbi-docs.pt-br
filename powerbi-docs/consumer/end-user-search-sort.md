@@ -3,22 +3,25 @@ title: Pesquisar e classificar seu conteúdo no serviço do Power BI
 description: documentação para pesquisar e classificar conteúdo em Meu workspace do Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302763"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891780"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisando, buscando e classificando seu conteúdo no serviço do Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Há muitas maneiras de navegar pelo seu conteúdo no serviço do Power BI. O conteúdo é organizado dentro do seu workspace por tipo: dashboards e relatórios.  E o conteúdo também é organizado por uso: favoritos, recentes, aplicativos, compartilhado comigo e em destaque. Para uma parada de navegação, a *Página Inicial* do Power BI organiza o conteúdo todo em uma única página. Esses caminhos diferentes em seu conteúdo permitem que você localize rapidamente aquilo de que precisa no serviço do Power BI.  
 
 ## <a name="navigation-within-workspaces"></a>Navegação em workspaces
@@ -31,7 +34,7 @@ No **Meu workspace**, o serviço do Power BI separa seu conteúdo por tipo: dash
 
 ________________________________________
 ## <a name="navigation-using-the-search-field"></a>Navegação usando o campo Pesquisar
-Use a exibição de conteúdo **Meu workspace** para pesquisar, filtrar e classificar seu conteúdo. No campo Pesquisar, digite todo ou parte do nome de um dashboard, relatório, pasta de trabalho ou proprietário.  
+Use a exibição de conteúdo **Meu workspace** para pesquisar, filtrar e classificar o conteúdo. No campo Pesquisar, digite todo ou parte do nome de um dashboard, relatório, pasta de trabalho ou proprietário.  
 
 Se você tiver apenas alguns conteúdos, não será necessário pesquisar e classificar.  Porém, quando você tem longas listas de dashboards e relatórios, verá que pesquisa e classificação são extremamente úteis. Por exemplo, a lista de relatórios abaixo tem 83 itens. 
 
@@ -41,13 +44,13 @@ Você também pode classificar o conteúdo por nome ou por proprietário. Observ
 
 ![classificar conteúdo](./media/end-user-experience/power-bi-sort-new.png)
 
-Nem todas as colunas podem ser classificadas. Passe o mouse sobre os cabeçalhos de coluna para descobrir quais podem ser classificados.
+Nem todas as colunas podem ser classificadas. Posicione o cursor sobre os títulos de coluna para descobrir quais deles podem ser classificados.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-left-nav-bar"></a>Navegação usando a barra de navegação esquerda
-A barra de navegação esquerda classifica seu conteúdo de maneiras que o ajudam a encontrar o que precisa rapidamente.  
+## <a name="navigation-using-the-navigation-pane"></a>Navegação usando o painel de navegação
+O painel de navegação classifica o conteúdo de modo a ajudar você a encontrar o que precisa rapidamente.  
 
-![barra de navegação esquerda](./media/end-user-search-sort/power-bi-navbar.png)
+![painel de navegação à esquerda](./media/end-user-search-sort/power-bi-navbar.png)
 
 
 - O conteúdo que é compartilhado com você está disponível em **Compartilhado comigo**.

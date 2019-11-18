@@ -1,40 +1,39 @@
 ---
-title: Usar o logon único (SSO) para fontes de dados locais
+title: Visão geral de SSO (logon único) para gateways no Power BI
 description: Configure seu gateway para habilitar o SSO (logon único) do Power BI para fontes de dados locais.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b1379bb783b090362215eaf7c317bbea435d1eec
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.openlocfilehash: 43394e8f09327ebcb858ff5644b30daee1793444
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259922"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872370"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Visão geral de SSO (logon único) para gateways no Power BI
 
-Você pode obter conectividade ininterrupta de logon único ao habilitar os relatórios do Power BI e painéis para serem atualizados em tempo real com base em dados locais, configurando o gateway de dados local tanto com delegação restrita do Kerberos quanto com SAML (Security Assertion Markup Language). O gateway de dados local dá suporte ao SSO com o DirectQuery, que é usado para a conexão às fontes de dados locais.
+Ao configurar o gateway de dados local, você obterá conectividade ininterrupta de logon único para atualizar os relatórios e os dashboards do Power BI em tempo real, com base em dados locais. Você tem a opção de configurar o seu gateway com a delegação restrita do [Kerberos](service-gateway-sso-kerberos.md) ou a SAML ([Security Assertion Markup Language](service-gateway-sso-saml.md)). O gateway de dados local é compatível com o SSO usando o [DirectQuery](desktop-directquery-about.md), que se conecta a fontes de dados locais.
 
-No momento, damos suporte para as seguintes fontes de dados:
+O Power BI é compatível com as seguintes fontes de dados:
 
-* SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
-* SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) e [SAML](service-gateway-sso-saml.md))
-* Servidor de aplicativos SAP BW ([Kerberos ](service-gateway-sso-kerberos.md))
-* Servidor de mensagens SAP BW ([Kerberos ](service-gateway-sso-kerberos.md)) – visualização pública
-* Oracle ([Kerberos ](service-gateway-sso-kerberos.md)) – visualização pública
-* Teradata ([Kerberos](service-gateway-sso-kerberos.md))
-* Spark ([Kerberos](service-gateway-sso-kerberos.md))
-* Impala ([Kerberos](service-gateway-sso-kerberos.md))
+* SQL Server (Kerberos)
+* SAP HANA (Kerberos e SAML)
+* Servidor de Aplicativos SAP BW (Kerberos)
+* Servidor de Mensagens SAP BW (Kerberos) – versão prévia pública
+* Oracle (Kerberos) – versão prévia pública
+* Teradata (Kerberos)
+* Spark (Kerberos)
+* Impala (Kerberos)
 
-No momento, não damos suporte ao SSO para [M-extensions](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
+No momento, não fornecemos suporte ao SSO para [extensões M](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
 
-Quando um usuário interage com um relatório do DirectQuery no serviço do Power BI, cada operação de filtro cruzado, de fatia, de classificação e de edição de relatório pode resultar em consultas de execução dinâmica com relação à fonte de dados local subjacente. Quando o SSO é configurado para a fonte de dados, as consultas são executadas na identidade do usuário que interage com o Power BI (isto é, por meio da experiência na Web ou de aplicativos móveis do Power BI). Dessa forma, cada usuário vê precisamente os dados para os quais têm permissões na fonte de dados subjacente. Com o logon único configurado, não há cache de dados compartilhados entre usuários diferentes.
+Quando um usuário interagir com um relatório do DirectQuery no serviço do Power BI, cada operação de filtro cruzado, de fatia, de classificação e de edição de relatório poderá resultar em consultas que são executadas dinamicamente sobre à fonte de dados local subjacente. Quando o SSO é configurado para a fonte de dados, as consultas são executadas sob a identidade do usuário que interage com o Power BI (isto é, por meio da experiência na Web ou de aplicativos móveis do Power BI). Portanto, cada usuário enxerga precisamente os dados para os quais tem permissões na fonte de dados subjacente. Com o logon único configurado, não há nenhum cache de dados compartilhados entre diferentes usuários.
 
 ## <a name="query-steps-when-running-sso"></a>Etapas de consulta ao executar SSO
 
@@ -42,21 +41,21 @@ Uma consulta executada com SSO é formada por três etapas, conforme mostrado no
 
 ![Etapas de consulta SSO](media/service-gateway-sso-overview/sso-query-steps.png)
 
-Veja abaixo mais detalhes sobre essas etapas:
+Veja abaixo mais detalhes sobre cada etapa:
 
-1. Para cada consulta, o **serviço do Power BI** inclui o *nome UPN*, ou seja, o nome de usuário totalmente qualificado do usuário atualmente conectado no serviço do Power BI ao enviar uma solicitação de consulta ao gateway configurado.
+1. Para cada consulta, o serviço do Power BI inclui o *nome UPN*, que representa o nome de usuário totalmente qualificado do usuário que está conectado no serviço do Power BI no momento em que ele envia uma solicitação de consulta ao gateway configurado.
 
-2. O gateway precisa mapear o UPN do Azure Active Directory para uma identidade do Active Directory local.
+2. O gateway deve mapear o UPN do Azure Active Directory para uma identidade local do Active Directory:
 
-   a.  Se o Azure AD DirSync (também conhecido como *Azure AD Connect*) for configurado, o mapeamento funcionará automaticamente no gateway.
+   a. Se o Azure AD DirSync (também conhecido como *Azure AD Connect*) for configurado, o mapeamento funcionará automaticamente no gateway.
 
    b.  Caso contrário, o gateway pode pesquisar e mapear o UPN do Azure AD para um usuário local do AD executando uma pesquisa no domínio do Active Directory local.
 
-3. O processo do serviço do gateway representa o usuário local mapeado, abre a conexão ao banco de dados subjacente e envia a consulta. O gateway não precisa estar instalado no mesmo computador que o banco de dados.
+3. O processo do serviço do gateway representa o usuário local mapeado, abre a conexão com o banco de dados subjacente e, em seguida, envia a consulta. Não é necessário instalar o gateway no mesmo computador que o banco de dados.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Agora que você entendeu as noções básicas de SSO pelo gateway, leia mais informações detalhadas sobre Kerberos e SAML:
+Agora que você entendeu as noções básicas de habilitar o SSO por meio do gateway, leia informações mais detalhadas sobre o Kerberos e o SAML:
 
 * [Logon único (SSO) – Kerberos](service-gateway-sso-kerberos.md)
 * [Logon único (SSO) – SAML](service-gateway-sso-saml.md)

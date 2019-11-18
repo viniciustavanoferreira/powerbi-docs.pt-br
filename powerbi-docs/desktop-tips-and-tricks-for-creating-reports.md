@@ -2,7 +2,6 @@
 title: Dicas e truques para criar relatórios no Power BI
 description: Conheça as práticas recomendadas para criação de relatórios no serviço do Power BI e no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 41e5ff75e9b6fd48e3101d30999e8d570f34a270
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514066"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865839"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Dicas e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo seus dados, às vezes você precisa de uma ajuda extra. Reunimos algumas dicas e truques que você pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot habilitado e o Power Query instalado e habilitado. 
@@ -28,19 +27,19 @@ Você pode obter mais informações no [Centro de Recursos do Power Query](https
 É possível também exibir a [Referência de Fórmula](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
 
 ## <a name="data-types-in-query-editor"></a>Tipos de dados no Editor de Consultas
-Ao usar o Editor de Consultas no Power BI Desktop para carregar dados, fazemos a melhor estimativa sobre a detecção do tipo de dados. Ao usar fórmulas, às vezes, as configurações de tipo de dados nas colunas não são preservadas. Verifique se o tipo de dados das colunas está correto depois de fazer as seguintes operações:  Carregar dados inicialmente na guia de consulta, Primeira Linha como Cabeçalho, Adicionar coluna, Agrupar por, Mesclar, Acrescentar e antes de pressionar para carregar os dados pela primeira vez.
+Ao usar o Editor de Consultas no Power BI Desktop para carregar dados, fazemos a melhor estimativa sobre a detecção do tipo de dados. Ao usar fórmulas, às vezes, as configurações de tipo de dados nas colunas não são preservadas. Verifique se o tipo de dados das colunas está correto depois de realizar as seguintes operações:  Carregar dados inicialmente na guia de consulta, Primeira Linha como Cabeçalho, Adicionar coluna, Agrupar por, Mesclar, Acrescentar e antes de pressionar para carregar os dados pela primeira vez.
 
 Um item importante a ser lembrado: itálico na grade de dados não significa que o tipo de dados está configurado corretamente, apenas que os dados não são considerados um Texto.
 
 ## <a name="reference-queries-in-the-query-editor"></a>Consultas de referência no Editor de Consultas
-No navegador do Editor de consultas no Power BI Desktop, quando o botão direito do mouse uma das consultas, uma opção para "Referência" está disponível. Isso é útil pelo seguinte motivo:
+No navegador do Editor de Consultas no Power BI Desktop, quando você clica com o botão direito do mouse em uma das consultas, uma opção para "Referência" fica disponível. Isso é útil pelo seguinte motivo:
 
 * Quando você usa arquivos como fonte de dados para uma consulta, o caminho absoluto para o arquivo é armazenado na consulta. Ao compartilhar ou mover o arquivo do Power BI Desktop ou a pasta de trabalho do Excel, você economizará tempo quando atualizar os caminhos atualizando-o apenas uma vez, em vez de atualizar os caminhos.
 
-Por padrão, todas as consultas são carregadas em uma planilha do Excel ou no modelo de dados (ou em ambos). Algumas consultas são etapas intermediárias e não se destina para os usuários finais. Ao fazer referência a consultas como mencionado acima, isso costuma acontecer. Você pode controlar o comportamento do carregamento clicando duas vezes a consulta no navegador e alternando a opção "Habilitar carregar" da consulta. Quando *habilitar a carga* não tem uma marca de seleção ao lado dele, a consulta ainda estará disponível na guia de consulta e você pode usá-lo com outras consultas. É especialmente útil na combinação com transformações de Mesclagem, Acréscimo e Referência. No entanto, já que os resultados da consulta não são carregados no modelo de dados, a consulta não agrupará a lista de campo dos relatórios ou o modelo de dados. 
+Por padrão, todas as consultas são carregadas em uma planilha do Excel ou no modelo de dados (ou em ambos). Algumas consultas são etapas intermediárias e não se destinam aos usuários finais. Ao fazer referência a consultas como mencionado acima, isso costuma acontecer. Você pode controlar o comportamento do carregamento da consulta clicando com o botão direito do mouse no navegador e alternando a opção “Habilitar Carregar”. Quando *Habilitar Carregar* não tiver uma marca de seleção ao seu lado, a consulta ainda estará disponível na guia de consulta e você poderá usá-la com outras consultas. É especialmente útil na combinação com transformações de Mesclagem, Acréscimo e Referência. No entanto, já que os resultados da consulta não são carregados no modelo de dados, a consulta não agrupará a lista de campo dos relatórios ou o modelo de dados. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Gráficos de dispersão precisam de um identificador de ponto
-Com um exemplo de uma tabela simples de Temperaturas e da Hora em que a leitura foi realizada. Se você plotar isso diretamente em um gráfico de dispersão, o Power BI agregará todos os valores em um único ponto. Para mostrar os pontos de dados individuais, você deve adicionar um campo ao bucket detalhes no campo bem. Uma maneira simples de fazer isso no Power BI Desktop é na guia de consulta usando a opção "Adicionar coluna de índice" na faixa de opções "Adicionar Coluna". 
+Com um exemplo de uma tabela simples de Temperaturas e da Hora em que a leitura foi realizada. Se você plotar isso diretamente em um gráfico de dispersão, o Power BI agregará todos os valores em um único ponto. Para mostrar os pontos de dados individuais, você deve adicionar um campo ao bucket Detalhes no contêiner do campo. Uma maneira simples de fazer isso no Power BI Desktop é na guia de consulta usando a opção "Adicionar coluna de índice" na faixa de opções "Adicionar Coluna". 
 
 ## <a name="reference-lines-in-your-report"></a>Linhas de referência em seu relatório
 Você pode usar uma coluna calculada no Power BI Desktop para definir uma linha de referência. Identifique a tabela e coluna nas quais você deseja criar uma linha de referência. Selecione “Nova coluna” na faixa de opções e, na barra de fórmulas, digite a seguinte fórmula:
@@ -50,7 +49,7 @@ Você pode usar uma coluna calculada no Power BI Desktop para definir uma linha 
 Esta coluna calculada retornará o valor 100, independentemente de onde ele for usado. A nova coluna aparecerá na Lista Campos. Adicione a coluna calculada do Valor de Destino a um gráfico de linhas para mostrar como qualquer série se relaciona a essa linha de referência específica. 
 
 ## <a name="sort-by-another-column"></a>Classificar por outra coluna
-Quando você usa um valor categórico (cadeia de caracteres) no Power BI para os eixos de gráfico ou em uma segmentação de dados ou filtro, a ordem padrão é alfabética. Se você precisar substituir essa ordem, por exemplo para elementos como dias da semana ou meses, em seguida, você pode informar ao Power BI Desktop classifique por uma coluna diferente. Para obter mais informações, consulte [classificar por coluna no Power BI Desktop](desktop-sort-by-column.md).
+Quando você usa um valor categórico (cadeia de caracteres) no Power BI para os eixos de gráfico ou em uma segmentação de dados ou filtro, a ordem padrão é alfabética. Se precisar substituir essa ordem, por exemplo, para elementos como dias da semana ou meses, você poderá especificar que o Power BI Desktop classifique por uma coluna diferente. Para saber mais, confira [Classificar por coluna no Power BI Desktop](desktop-sort-by-column.md).
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Criando mapas mais facilmente com dicas para o Bing
 O Power BI é integrado ao Bing para fornecer as coordenadas de mapa padrão (um processo chamado codificação geográfica) para facilitar a criação de mapas. O Bing usa alguns algoritmos e dicas para tentar obter o local certo, mas é sua melhor estimativa. Para aumentar a probabilidade de uma codificação geográfica correta, você pode usar as seguintes dicas:
@@ -62,7 +61,7 @@ Algumas designações são ambíguas quando consideradas no contexto de vários 
 Sempre é possível fornecer locais específicos de latitude e longitude no serviço do Power BI ou Desktop. Quando você faz isso, também é necessário transmitir um campo Local; caso contrário, os dados serão agregados por padrão e o local da latitude e longitude talvez não corresponda ao esperado.
 
 ## <a name="categorizing-geographic-fields-to-hint-bings-geocoding"></a>Categorizando campos geográficos para fornecer dicas de codificação geográfica do Bing
-Outra maneira de assegurar que os campos sejam codificados geograficamente de maneira correta é definir a Categoria de Dados nos campos de dados. No Power BI Desktop, selecione a tabela desejada, vá para a faixa de opções avançada e, em seguida, defina a categoria de dados para o endereço, cidade, continente, país/região, país, CEP, estado ou província. Essas categorias de dados ajudam o Bing a codificar corretamente os dados. Para saber mais, veja [Categorização de dados no Power BI Desktop](desktop-data-categorization.md).
+Outra maneira de assegurar que os campos sejam codificados geograficamente de maneira correta é definir a Categoria de Dados nos campos de dados. No Power BI Desktop, selecione a tabela desejada, vá para a faixa de opções Avançado e defina a Categoria de Dados como Endereço, Cidade, Continente, País/Região, País, Código Postal, Estado ou Província. Essas categorias de dados ajudam o Bing a codificar corretamente os dados. Para saber mais, veja [Categorização de dados no Power BI Desktop](desktop-data-categorization.md).
 
 ## <a name="better-geocoding-with-more-specific-locations"></a>Melhor codificação geográfica com locais mais específicos
 Às vezes, até mesmo a definição das categorias de dados para o mapeamento é insuficiente. Crie um local mais específico como um endereço usando o Editor de Consultas no Power BI Desktop. Use o recurso Adicionar Coluna para criar uma coluna personalizada. Em seguida, crie o local desejado da seguinte maneira: 
@@ -86,7 +85,7 @@ Definindo buckets para criar um histograma - Determine qual consulta contém o c
 
 Verifique se o tipo de dados é um número para a coluna agregada resultante. Agora você pode usar o grupo pela técnica descrita no Histograma Mais Simples para obter o histograma. Essa opção trata de mais pontos de dados, mas ainda não ajuda com a varredura.
 
-Definindo um histograma que dá suporte à varredura - varredura é quando elementos visuais são vinculados para que quando um usuário seleciona um ponto de dados em um elemento visual, o outros visuais na página do relatório realcem ou filtrem pontos de dados relacionados ao ponto de dados selecionado. Como estamos manipulando dados no momento da consulta, precisaremos criar uma relação entre tabelas e garantir que saibamos qual item detalhado se relaciona ao bucket no histograma e vice-versa.
+Definindo um histograma que dá suporte à varredura – Varredura é quando os visuais são vinculados para que, quando um usuário selecionar um ponto de dados em um elemento visual, os outros elementos visuais na página do relatório realcem ou filtrem pontos de dados relacionados ao ponto de dados selecionado. Como estamos manipulando dados no momento da consulta, precisaremos criar uma relação entre tabelas e garantir que saibamos qual item detalhado se relaciona ao bucket no histograma e vice-versa.
 
 Inicie o processo usando a opção “Referência” na consulta que contém o campo no qual você deseja criar um histograma. Nomeie a nova consulta “Buckets”. Para este exemplo, vamos chamar a consulta original “Detalhes”. Em seguida, remova todas as colunas, exceto a coluna que você usará como o bucket do histograma. Agora, use o recurso “Remover Duplicatas” na consulta, no menu de atalho ao selecionar a coluna, para que os valores restantes sejam os valores exclusivos na coluna. Se você tiver números decimais, primeiro você poderá usar a dica para definir buckets para criar um histograma para obter um conjunto gerenciável de buckets. Agora, verifique os dados mostrados na visualização da consulta. Se você vir valores nulos ou em branco, você precisará corrigi-los antes de criar uma relação. Veja “Criando relações quando os dados contêm valores nulos ou em branco”. Usar essa abordagem pode ser problemático devido à necessidade de classificação. Para que os buckets sejam classificados corretamente, veja “Ordem de classificação: fazem com que as categorias apareçam na ordem desejada”. 
 
@@ -161,4 +160,4 @@ DAX é a linguagem de fórmula de cálculo no Power BI Desktop. Ele é otimizado
 
 [Referência do DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[Central de recursos do DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[Central de recursos do DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)

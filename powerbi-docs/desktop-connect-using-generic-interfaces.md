@@ -2,7 +2,6 @@
 title: Conectar-se a dados usando interfaces genéricas no Power BI Desktop
 description: Saiba como se conectar a fontes de dados diferentes com interfaces genéricas no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513748"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868993"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Conectar-se a dados usando interfaces genéricas no Power BI Desktop
 Conecte-se a uma variedade de fontes de dados diferentes no **Power BI Desktop**, usando conectores de dados internos que vão desde **bancos de dados do Access** até recursos do **Zendesk**, como mostra a janela **Obter Dados**. Conecte-se também a todos os *outros* tipos de fontes de dados para expandir ainda mais as opções de conectividade, com o uso das interfaces genéricas (como **ODBC** ou **APIs REST**) internas do **Power BI Desktop**.
@@ -48,16 +47,16 @@ A lista a seguir fornece detalhes sobre alguns exemplos de fontes de dados às q
 
 | Conector genérico do Power BI Desktop | Fonte de dados externa | Link para mais informações |
 | --- | --- | --- |
-| ODBC |Cassandra |[Driver ODBC do Cassandra](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
+| ODBC |Cassandra |[Driver ODBC do Cassandra](https://www.simba.com/drivers/cassandra-odbc-jdbc/) |
 | ODBC |Couchbase DB |[Couchbase e Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
-| ODBC |DynamoDB |[Driver ODBC do DynamoDB](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
-| ODBC |Google BigQuery |[Driver ODBC do BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |HBase |[Driver ODBC do HBase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
-| ODBC |Hive |[Driver ODBC do Hive](http://www.simba.com/drivers/hive-odbc-jdbc/) |
+| ODBC |DynamoDB |[Driver ODBC do DynamoDB](https://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
+| ODBC |Google BigQuery |[Driver ODBC do BigQuery](https://www.simba.com/drivers/bigquery-odbc-jdbc/) |
+| ODBC |HBase |[Driver ODBC do HBase](https://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |Hive |[Driver ODBC do Hive](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[Informações sobre o IBM Netezza](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
-| ODBC |Presto |[Driver ODBC do Presto](http://www.simba.com/drivers/presto-odbc-jdbc/) |
+| ODBC |Presto |[Driver ODBC do Presto](https://www.simba.com/drivers/presto-odbc-jdbc/) |
 | ODBC |Projeto Online |[Artigo de projeto online](desktop-project-online-connect-to-data.md) |
-| ODBC |Progress OpenEdge |[Postagem do blog de driver ODBC do Progress OpenEdge](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.progress.com%2Fblogs%2Fconnect-microsoft-power-bi-to-openedge-via-odbc-driver&data=02%7C01%7CMatt.Masson%40microsoft.com%7C5e63742e6c454308b58a08d4034b5923%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636137069555329811&sdata=gSu2Rq3vZ0uBVOgjaXxd8Y3uBf%2B8DidX6PG33jwAduY%3D&reserved=0) |
+| ODBC |Progress OpenEdge |[Postagem do blog de driver ODBC do Progress OpenEdge](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>Fontes de dados acessíveis por meio do OLE DB
 O conector para **OLE DB** do **Power BI Desktop** permite que você importe dados de qualquer driver OLE DB de terceiros apenas especificando uma *cadeia de conexão*. Como opção, especifique também uma instrução SQL para ser executada no driver OLE DB.

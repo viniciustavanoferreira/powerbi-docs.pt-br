@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225827"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020109"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Fixar um bloco de um painel para outro painel
 Uma maneira de adicionar um novo [bloco de painel](consumer/end-user-tiles.md) é copiando-o de outro painel. Ao clicar em cada um desses blocos, haverá um link para onde foi criado – em P e R ou em um relatório. 
@@ -26,7 +26,7 @@ Uma maneira de adicionar um novo [bloco de painel](consumer/end-user-tiles.md) �
 ## <a name="pin-a-tile-to-another-dashboard"></a>Fixar um bloco em outro dashboard
 1. [Obter dados](service-get-data.md). Este modelo usa o [Exemplo de Análise de Gastos de TI](sample-it-spend.md).
 2. Abrir um [painel](consumer/end-user-dashboards.md)
-3. Passe o mouse sobre o bloco que você deseja fixar, selecione as reticências (...) e escolha o **Bloco de pino**.  
+3. Passe o mouse sobre o bloco que você deseja fixar, selecione **Mais opções** (...) e **Fixar bloco**.  
    
    ![menu de reticências](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Fixe o bloco em um painel existente ou em um novo painel. 

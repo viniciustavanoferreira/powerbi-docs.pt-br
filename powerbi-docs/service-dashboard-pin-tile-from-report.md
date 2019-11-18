@@ -2,7 +2,6 @@
 title: Fixar um bloco em um painel do Power BI por meio de um relatório
 description: Fixe um bloco em um painel do Power BI a partir de um relatório.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 24d706108bab274ef6aae8733f1fc11d212f13eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624079"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852618"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Fixar um bloco em um painel do Power BI por meio de um relatório
 
@@ -52,7 +51,7 @@ Agora crie seu próprio dashboard usando um dos relatórios de exemplo do Power 
    Uma mensagem de êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um bloco, ao dashboard.
    
    ![Mensagem de êxito](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
-5. No painel de navegação, selecione o painel com o novo bloco. [Edite a exibição e o comportamento do bloco](service-dashboard-edit-tile.md) ou selecione o bloco para retornar ao relatório.
+5. No painel de navegação, selecione o dashboard com o novo bloco. [Edite a exibição e o comportamento do bloco](service-dashboard-edit-tile.md) ou selecione o bloco para retornar ao relatório.
 
 ## <a name="pin-an-entire-report-page"></a>Fixar uma página inteira do relatório
 Outra opção é fixar uma página inteira de relatório em um dashboard, que é uma maneira fácil de fixar mais de uma visualização por vez. Quando você fixa uma página inteira, os blocos são *dinâmicos*. Ou seja, você pode interagir com eles lá no dashboard. As alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos usados no gráfico, também são refletidas no bloco do dashboard.  
@@ -66,5 +65,5 @@ Para saber mais, confira [Fixar uma página inteira de relatório](service-dashb
 - [Atualizar dados no Power BI](refresh-data.md)
 - [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

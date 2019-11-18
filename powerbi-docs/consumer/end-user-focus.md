@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327793"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019820"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Exibir o conteúdo em mais detalhes: modo de foco e modo de tela inteira
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -97,11 +99,11 @@ Há duas formas de abrir o modo de foco; uma de criar dashboards e outra de visu
 
 1. Abra um painel no serviço do Power BI.
 
-2. Passe o mouse sobre um bloco do dashboard ou visual do relatório, selecione as reticências (...) e escolha **Abrir no modo de foco**.
+2. Passe o mouse sobre um bloco do dashboard ou visual do relatório, selecione **Mais opções** (...) e **Abrir no modo de foco**.
 
     ![menu de reticências para bloco](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. O bloco é aberto e ocupa toda a tela do relatório. Observe que você ainda tem um painel **Filtros** que pode ser usado para interagir com o visual. O painel **Filtros** pode ser recolhido. 
+2. O bloco é aberto e ocupa toda a tela do relatório. Observe que você ainda tem um painel **Filtros** que pode ser usado para interagir com o visual. O painel **Filtros** pode ser recolhido.
 
    ![tela do relatório de preenchimento de bloco](media/end-user-focus/power-bi-focus-filter.png)
 

@@ -3,18 +3,17 @@ title: Enviar dados por push a um conjunto de dados
 description: Enviar dados por push a um conjunto de dados do Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222154"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875441"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Enviar dados por push a um conjunto de dados do Power BI
 
@@ -43,7 +42,7 @@ Estas são as operações para enviar dados por push a um conjunto de dados:
 * [Postar Linhas](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [Obter grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-Você pode criar um conjunto de dados no Power BI passando uma cadeia de caracteres JSON (JavaScript Object Notation) para o serviço do Power BI. Para saber mais sobre o JSON, veja [Apresentando o JSON](http://json.org/).
+Você pode criar um conjunto de dados no Power BI passando uma cadeia de caracteres JSON (JavaScript Object Notation) para o serviço do Power BI. Para saber mais sobre o JSON, veja [Apresentando o JSON](https://json.org/).
 
 A cadeia de caracteres JSON para um conjunto de dados tem o seguinte formato:
 
@@ -112,13 +111,13 @@ Para um esquema de tabela do Power BI, você pode usar os seguintes tipos de dad
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Saiba mais sobre como enviar dados por push ao Power BI
 
-Para começar a enviar dados por push a um conjunto de dados, consulte [Etapa 1: Registrar um aplicativo com o Azure Active Directory](walkthrough-push-data-register-app-with-azure-ad.md) no painel de navegação à esquerda.
+Para começar a enviar dados por push a um conjunto de dados, consulte [Etapa 1: Registrar um aplicativo no Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) no painel de navegação.
 
 [Próxima etapa >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Próximas etapas
 
 [Inscrever-se no Power BI](create-an-azure-active-directory-tenant.md)  
-[Introdução ao JSON](http://json.org/)  
+[Introdução ao JSON](https://json.org/)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

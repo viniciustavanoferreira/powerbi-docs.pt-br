@@ -2,7 +2,6 @@
 title: Resolver problemas de importação do Access e .XLS no Power BI Desktop
 description: Solucionar problemas de importação de bancos de dados do Access e planilhas .XLS no Power BI Desktop e Power Query
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 085a21404fefe214656f31d077c6cba401b8219e
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 83a3cc769ea9451ffa5320710bd0f04934d51393
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922539"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878994"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Resolver problemas de importação de arquivos do Access e .XLS no Power BI Desktop
 
@@ -24,7 +23,7 @@ No Power BI Desktop, os bancos de dados do Access e as versões anteriores de pa
 
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>Situação 1: Nenhum mecanismo de banco de dados do Access instalado
 
-Se a mensagem de erro do Power BI Desktop indicar que o mecanismo de banco de dados do Access não está instalado, instale a versão de 32 ou 64 bits do mecanismo de banco de dados do Access que corresponde à versão do Power BI Desktop. Instale o Mecanismo de Banco de Dados do Access na [página de downloads](http://www.microsoft.com/download/details.aspx?id=13255).
+Se a mensagem de erro do Power BI Desktop indicar que o mecanismo de banco de dados do Access não está instalado, instale a versão de 32 ou 64 bits do mecanismo de banco de dados do Access que corresponde à versão do Power BI Desktop. Instale o Mecanismo de Banco de Dados do Access na [página de downloads](https://www.microsoft.com/download/details.aspx?id=13255).
 
 >[!NOTE]
 >Se a versão de bits instalada do mecanismo de banco de dados do Access for diferente da versão de bits de instalação do Microsoft Office, os aplicativos do Office não poderão usar o mecanismo de banco de dados do Access.
@@ -72,7 +71,7 @@ Se as três soluções anteriores não forem viáveis, será possível instalar 
 
 Para instalar as duas versões de bits do mecanismo de banco de dados do Access, siga estas etapas:
 
-1. Instale as duas versões de bits do mecanismo de banco de dados do Access na [página de download](http://www.microsoft.com/download/details.aspx?id=13255). 
+1. Instale as duas versões de bits do mecanismo de banco de dados do Access na [página de download](https://www.microsoft.com/download/details.aspx?id=13255). 
 
 1. Execute cada versão do mecanismo de banco de dados do Access usando a opção */passive*. Por exemplo:
    
@@ -84,7 +83,7 @@ Para instalar as duas versões de bits do mecanismo de banco de dados do Access,
 
 Se você estiver usando uma assinatura do Office 365, **Office 2013** ou **Office 2016**, o provedor do mecanismo de banco de dados do Access será registrado em uma localização do Registro virtual que *só* pode ser acessada pelos processos do Microsoft Office. Como resultado, o Mecanismo de Mashup (que é responsável por executar o Excel fora do Office 365 e o Power BI Desktop e não é um processo do Office) não pode usar o provedor do mecanismo de banco de dados do Access.
 
-Para corrigir essa situação, [baixe e instale o componente redistribuível do mecanismo de banco de dados do Access](http://www.microsoft.com/download/details.aspx?id=13255) que corresponde à versão de bits da instalação do Power BI Desktop. Para obter mais informações sobre versões de bits, confira as seções anteriores deste artigo.
+Para corrigir essa situação, [baixe e instale o componente redistribuível do mecanismo de banco de dados do Access](https://www.microsoft.com/download/details.aspx?id=13255) que corresponde à versão de bits da instalação do Power BI Desktop. Para obter mais informações sobre versões de bits, confira as seções anteriores deste artigo.
 
 ## <a name="other-situations-that-can-cause-import-issues"></a>Outras situações que podem causar problemas de importação
 

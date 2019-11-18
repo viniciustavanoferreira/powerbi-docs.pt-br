@@ -2,19 +2,18 @@
 title: Analista virtual de P e R nos aplicativos iOS – Power BI
 description: Faça perguntas sobre dados de exemplo com suas próprias palavras com o analista virtual de P e R no aplicativo móvel do Power BI em seu dispositivo iOS.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60976945"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879373"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de P e R nos aplicativos iOS – Power BI
 
@@ -35,7 +34,7 @@ Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gr
 ## <a name="prerequisites"></a>Pré-requisitos
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Instalar o aplicativo Power BI para iOS
-[Baixe o aplicativo para iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Baixe o aplicativo para iPhone") na Apple App Store para seu iPad, iPhone ou iPod Touch.
+[Baixe o aplicativo iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Baixe o aplicativo para iPhone") da Apple App Store para o seu iPad, iPhone ou iPod Touch.
 
 Essas versões oferecem suporte ao aplicativo Power BI para iOS:
 - iPad com iOS 10 ou posterior.
@@ -49,7 +48,7 @@ A primeira etapa é baixar as amostras de Análise de Varejo e Análise de Oport
 
 1. Abra o serviço do Power BI (app.powerbi.com) e entre.
 
-2. No painel de navegação à esquerda, selecione **Workspaces**, **Meu workspace**.
+2. No painel de navegação, selecione **Workspaces**, **Meu workspace**.
 
 3. No canto inferior esquerdo, selecione **Obter Dados**.
    

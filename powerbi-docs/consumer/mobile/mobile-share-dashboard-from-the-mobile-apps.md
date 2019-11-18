@@ -2,19 +2,18 @@
 title: Compartilhar um dashboard ou relatório dos aplicativos móveis do Power BI
 description: Convide outras pessoas para exibir seus dashboards e relatórios compartilhando links nos aplicativos móveis do Power BI. Saiba como.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274245"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879095"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartilhar um dashboard ou relatório dos aplicativos móveis do Power BI
 Aplica-se a:
@@ -86,7 +85,7 @@ Só será possível descompartilhar se você for o proprietário.
 3. Para descompartilhar, toque no círculo vermelho ao lado de um nome e toque em **Excluir**.
 
 ## <a name="share-from-your-android-device"></a>Compartilhar do seu dispositivo Android
-1. Na página inicial de dashboards ou de relatórios, toque nas reticências (...) e toque em **Convidar um colega**.
+1. Na página inicial de dashboards ou de relatórios, toque em **Mais opções** (...) e em **Convidar um colega**.
    
    ![Convidar um colega](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. Ou, em um dashboard, toque no ícone Convidar ![Ícone Convidar](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
@@ -147,5 +146,5 @@ Só será possível descompartilhar se você for o proprietário.
 ## <a name="next-steps"></a>Próximas etapas
 * [Anotar e compartilhar um instantâneo de um bloco, relatório ou visual nos aplicativos móveis](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Compartilhar um dashboard ou relatório no Power BI](../../service-share-dashboards.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

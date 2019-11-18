@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 1612ae952489a047be884a25842bd47fd70d8447
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239955"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020203"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>A "nova aparência"' do serviço do Power BI
 
@@ -66,7 +66,7 @@ Não removemos nenhuma das funcionalidades da antiga aparência. Você pode enco
 
 ### <a name="where-are-file-menu-actions"></a>Onde estão as ações do menu Arquivo?
 
-Procurando as ações do menu **Arquivo**? As ações que costumavam ficar no menu **Arquivo** agora também estão no menu de reticências (...). 
+Procurando as ações do menu **Arquivo**? As ações que costumavam ficar no menu **Arquivo** agora também estão no menu **Mais opções** (...). 
 
 ![Menu Arquivo na nova aparência](media/service-new-look/power-bi-file-menu-new-look.gif)
 

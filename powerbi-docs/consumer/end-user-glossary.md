@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903670"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429884"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário do serviço do Power BI
 O serviço do Power BI pode apresentar terminologia confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar sobre a terminologia, por isso pode ser útil até mesmo salvá-lo como favorito. Outro excelente recurso para aprender sobre os blocos de construção que compõem o serviço do Power BI são os [Conceitos básicos](end-user-basic-concepts.md). O artigo com Conceitos básicos fornece uma visão geral de alto nível das *partes* do Power BI e como elas estão conectadas.
@@ -37,10 +37,8 @@ Este glossário é um esforço conjunto da comunidade.  Não encontrou uma palav
 
 **answer card, answer page (cartão de respostas, página de respostas)** Consulte cartão de respostas da Cortana.
 
-**app, apps (aplicativo, aplicativos)**
+**app, apps (aplicativo, aplicativos)** 
 
- 
-**app workspace (workspace de aplicativo)** Todos os workspaces no Power BI, exceto o Meu workspace, agora são workspaces de aplicativo. O conteúdo pode ser empacotado em um aplicativo do Power BI. Os que estão armazenados na capacidade Premium podem ser compartilhados com usuários Gratuitos. Workspaces pessoais (em Meu workspace) podem ser hospedados na capacidade Premium.  
 
 **AppSource** Repositório online centralizado em que você pode navegar e descobrir painéis, relatórios, conjuntos de dados e aplicativos para download.
 
@@ -54,7 +52,7 @@ Este glossário é um esforço conjunto da comunidade.  Não encontrou uma palav
 
 **bookmark (indicador)** Uma exibição dos dados capturados no painel Indicadores de um relatório no Power BI Desktop ou serviço. No Desktop, os indicadores são salvos no arquivo de relatório .pbix para compartilhamento no serviço do Power BI
   
-**breadcrumbs (trilhas)** A navegação na parte superior esquerda para navegar rapidamente entre workspaces de aplicativo.
+**breadcrumbs (trilhas)** A navegação na parte superior esquerda para navegar rapidamente entre workspaces.
 
 ## <a name="c"></a>C
 
@@ -177,7 +175,7 @@ Primeira instância: menções subsequentes ou espaços estreitos da navegação
 
 **modeling (modelagem)** [Power BI Desktop] Deixar os dados que você conectou prontos para uso no Power BI. Isso inclui criar relações entre tabelas em várias fontes de dados, criar medidas e atribuir métricas.
 
-**My workspace (Meu workspace)** O workspace para cada cliente do Power BI criar conteúdo. Se quiserem empacotar tudo o que for criado aqui em um aplicativo e tiverem permissões de *designer*, poderão carregá-lo para o workspace de aplicativo apropriado ou criar um novo.
+**My workspace (Meu workspace)** O workspace para cada cliente do Power BI criar conteúdo. Se quiserem empacotar tudo o que for criado aqui em um aplicativo e tiverem permissões de *designer*, poderão carregá-lo para o workspace apropriado ou criar um workspace para esse fim.
 
 ## <a name="n"></a>N
 
@@ -222,7 +220,7 @@ Primeira instância: menções subsequentes ou espaços estreitos da barra de na
 
 **Power BI**, **serviço do Power BI**, **Power BI Desktop** e **Power BI Mobile** são algumas das ofertas do Power BI. *Power BI* é o termo geral. Ele geralmente é usado no lugar do nome completo do produto, como *serviço do Power BI* e *Power BI Mobile*, após a primeira menção do nome completo do produto.
 
-**Power BI Desktop** também é conhecido como *Desktop*. O aplicativo Windows gratuito do Power BI que você pode instalar no computador local e que permite que você se conecte, transforme e visualize seus dados. Usado por administradores e criadores de relatórios. Para obter mais informações, consulte [O que é Power BI](../power-bi-overview.md).
+**Power BI Desktop** também é conhecido como *Desktop*. O aplicativo Windows gratuito do Power BI que você pode instalar no computador local e que permite que você se conecte, transforme e visualize seus dados. Usado por administradores e criadores de relatórios. Para obter mais informações, consulte [O que é Power BI](../fundamentals/power-bi-overview.md).
 
 **Power BI Embedded** Um produto usado por desenvolvedores para inserir dashboards e relatórios do Power BI em seus próprios aplicativos, sites e ferramentas.
 
@@ -232,7 +230,7 @@ Primeira instância: menções subsequentes ou espaços estreitos da barra de na
 
 **Power BI Report Server (Servidor de Relatórios do Power BI)** Uma nova oferta com a marca do SSRS lançada com o Power BI Premium para permitir que as organizações criem sistemas de BI híbridos e distribuídos (uma combinação de implantações de nuvem e locais). O Embedded oferece uma maneira localizada de armazenar e gerenciar relatórios do Power BI.
 
-**Power BI service (Serviço do Power BI)** Um serviço online de SaaS (Software como serviço). Para obter mais informações, consulte [O que é Power BI](../power-bi-overview.md).
+**Power BI service (Serviço do Power BI)** Um serviço online de SaaS (Software como serviço). Para obter mais informações, consulte [O que é Power BI](../fundamentals/power-bi-overview.md).
 
 **Power BI service connector (Conector de serviço do Power BI)** Este conector permite que os usuários do Power BI Desktop se conectem a conjuntos de dados no serviço do Power BI por meio do Desktop. Eles podem criar um modelo uma vez e reutilizá-lo em vários relatórios e dashboards.
 
@@ -325,7 +323,7 @@ Dashboards do Power BI contêm blocos de relatório.
 
 **workbook (pasta de trabalho)** Uma pasta de trabalho do Excel a ser usada como uma fonte de dados. As pastas de trabalho podem conter um modelo de dados com uma ou mais tabelas de dados carregadas nele usando tabelas vinculadas, Power Query ou Power Pivot.
 
-**workspace** Contêineres para dashboards, relatórios e conjunto de dados no Power BI. Consulte workspace de aplicativo nesta coleção de termos.
+**workspace** Contêineres para dashboards, relatórios e conjunto de dados no Power BI. Os usuários podem colaborar no conteúdo em qualquer workspace, exceto no Meu workspace. O conteúdo pode ser empacotado em um aplicativo do Power BI. Os que estão armazenados na capacidade Premium podem ser compartilhados com usuários Gratuitos. Workspaces pessoais (em Meu workspace) podem ser hospedados na capacidade Premium.
 
 ## <a name="x"></a>X
 **x-axis (eixo x)**  

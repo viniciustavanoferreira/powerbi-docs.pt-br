@@ -2,18 +2,17 @@
 title: Usar o visual de P e R do Power BI
 description: Como configurar o visual de P e R do Power BI
 author: mihart
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a32c19f07a052aff74fec8062631ea8621d5de18
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775926"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870851"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Introdução ao visual de P e R do Power BI
 
@@ -38,7 +37,7 @@ O visual de P e R consiste em quatro componentes principais:
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-1. Este tutorial usa o [exemplo de arquivo PBIX de Vendas e Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix). 
+1. Este tutorial usa o [exemplo de arquivo PBIX de Vendas e Marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix). 
 
 1. Na seção superior esquerda da barra de menus do Power BI Desktop, selecione **Arquivo** > **Abrir**
    

@@ -2,7 +2,6 @@
 title: 'Exemplo de recursos humanos: Faça um tour'
 description: 'Exemplo de Recursos Humanos do Power BI: Faça um tour'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462342"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858857"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos do Power BI: Faça um tour
 
@@ -58,11 +57,11 @@ Antes de usar o exemplo, primeiro você deve baixá-lo como um [pacote de conte�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o arquivo. pbix para este exemplo
 
-Como alternativa, você pode baixar o exemplo de Recursos Humanos como um [arquivo.pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix), que é projetado para uso com o Power BI Desktop.
+Como alternativa, você pode baixar o exemplo de Recursos Humanos como um [arquivo.pbix](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix), que é projetado para uso com o Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkId=529780). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529780). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 ## <a name="new-hires"></a>Novas contratações
 Primeiro, vamos explorar as novas contratações.
@@ -87,7 +86,7 @@ Primeiro, vamos explorar as novas contratações.
 
 4. Selecione diferentes faixas etárias e gêneros nos gráficos para explorar as relações entre idade, gênero, região e grupo étnico.
 
-5. Selecione **Exemplo de Recursos Humanos** na barra de navegação superior para retornar ao painel.
+5. Selecione **Exemplo de Recursos Humanos** no painel de navegação superior para retornar ao dashboard.
 
    ![Retornar ao painel](media/sample-human-resources/power-bi-breadcrumbs.png)
 
@@ -133,7 +132,7 @@ Abra novamente no relatório no modo de Exibição de Edição. Você pode alter
 
 8. Você também pode seguir as mesmas etapas para o gráfico de pizza **Contagem de funcionários ativos por gênero**, alterando-o para separações em vez de funcionários ativos. Examine os dados de separação voluntário por gênero para ver se você encontrar quaisquer outras informações.
 
-9. Selecione **Exemplo de Recursos Humanos** na barra de navegação superior para retornar ao painel. Você pode optar por salvar as alterações feitas no relatório.
+9. Selecione **Exemplo de Recursos Humanos** no painel de navegação superior para retornar ao dashboard. Você pode optar por salvar as alterações feitas no relatório.
 
 ## <a name="bad-hires"></a>Contratações incorretas
 A última área para explorar são as contratações incorretas. Contratações incorretas são definidas como funcionários que não duraram mais de 60 dias. Estamos contratando rapidamente, mas são bons candidatos?
@@ -147,7 +146,7 @@ A última área para explorar são as contratações incorretas. Contratações 
 
 3. Se você examinar o gráfico de rosca **Contagem de contratações incorretas por gênero** e selecionar regiões diferentes na segmentação **Região**, observará que a região Leste é a única região com mais contratações incorretas femininas do que masculinas.  
 
-4. Selecione o nome do painel na barra de navegação superior para retornar ao painel.
+4. Selecione o nome do dashboard no painel de navegação superior para retornar ao dashboard.
 
 ## <a name="ask-a-question-in-the-dashboard-qa-box"></a>Faça uma pergunta na caixa de pergunta P e R do painel
 Na [caixa de pergunta P e R](power-bi-tutorial-q-and-a.md) no painel, você poderá fazer uma pergunta sobre seus dados usando linguagem natural. A P e R reconhece as palavras que você digita e descobre onde, em seu conjunto de dados, a resposta será encontrada.

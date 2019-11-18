@@ -2,7 +2,6 @@
 title: Configurar a atualização agendada
 description: Isso inclui as etapas para selecionar um gateway e configurar a atualização agendada.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816627"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860708"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurar a atualização agendada
 
@@ -30,7 +29,7 @@ Vamos descrever as opções disponíveis tanto para o [Gateway de dados local (m
 
 Para acessar a tela da **Atualização agendada**, faça o seguinte.
 
-1. Selecione as **reticências (...)** ao lado de um conjunto de dados listado em **Conjuntos de Dados**.
+1. Selecione **Mais opções** ao lado de um conjunto de dados listado em **Conjuntos de Dados**.
 2. Selecione **Agendar Atualização**.
 
     ![Agendar atualização](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -127,5 +126,5 @@ Para alguns conjuntos de dados, há suporte para a atualização agendada em gat
 - [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 - [Solução de problemas do Gateway do Power BI – Pessoal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

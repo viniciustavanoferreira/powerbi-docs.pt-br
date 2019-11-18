@@ -2,19 +2,18 @@
 title: Notificações de interrupção de serviço
 description: Saiba mais sobre como receber notificações por email quando há uma interrupção ou degradação do serviço do Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: f1d1a22f676873e3a68edf891c4b23522904ddd9
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: 90ab6c48465a9b7dc5eecca457953f77c727304c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169023"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872178"
 ---
 # <a name="service-interruption-notifications"></a>Notificações de interrupção de serviço
 
@@ -52,4 +51,4 @@ Um administrador de locatário do Power BI habilita as notificações no portal 
 
 [Opções de suporte do Power BI Pro e do Power BI Premium](service-support-options.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

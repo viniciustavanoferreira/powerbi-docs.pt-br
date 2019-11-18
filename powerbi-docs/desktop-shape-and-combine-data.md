@@ -1,5 +1,5 @@
 ---
-title: Formatar e combinar dados de várias fontes
+title: 'Tutorial: Formatar e combinar dados no Power BI Desktop'
 description: Neste tutorial, você aprenderá a formatar e combinar dados no Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,234 +7,301 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/08/2019
+ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2835dd34ce5ba2d7bc6be8659b87eb1f550fdc28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 19e0fa75426cd3e3f72ce9c01712b8d1c52e4abf
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514581"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922573"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Formatar e combinar dados no Power BI Desktop
 
-Com o **Power BI Desktop**, você pode se conectar a vários tipos diferentes de fontes de dados e formatar esses dados para atender às suas necessidades, possibilitando que você crie relatórios visuais para compartilhar com outras pessoas. *Formatar* dados significa transformá-los – como renomear colunas ou tabelas, converter o texto em números, remover linhas, definir a primeira linha como títulos e assim por diante. *Combinar* dados significa conectar-se a duas ou mais fontes de dados, formatá-las conforme o necessário e consolidá-las em uma consulta útil.
+Com o Power BI Desktop, você pode se conectar a muitos tipos diferentes de fontes de dados e, em seguida, formatar esses dados de acordo com suas necessidades, possibilitando a criação de relatórios visuais para compartilhar com outras pessoas. *Formatar* dados significa transformá-los: renomear colunas ou tabelas, converter texto em números, remover linhas, definir a primeira linha como títulos etc. *Combinar* dados significa conectar-se a duas ou mais fontes de dados, formatá-las conforme necessário e, em seguida, consolidá-las em uma consulta útil.
 
 Neste tutorial, você aprenderá a:
 
-* Formatar dados usando o **Editor de Consultas**
-* Conectar-se a uma fonte de dados
-* Conectar-se a outra fonte de dados
-* Combinar essas fontes de dados e criar um modelo de dados a ser usado em relatórios
+* Formatar dados usando o Editor de Consultas.
+* Conectar-se a diferentes fontes de dados.
+* Combinar essas fontes de dados e criar um modelo de dados a ser usado em relatórios.
 
-Este tutorial demonstra como formatar uma consulta usando o Power BI Desktop, destacando algumas das tarefas mais comuns. A consulta usada aqui é descrita mais detalhadamente, incluindo como criar a consulta do zero, em [Introdução ao Power BI Desktop](desktop-getting-started.md).
+Este tutorial demonstra como formatar uma consulta usando o Power BI Desktop, destacando as tarefas mais comuns. A consulta usada aqui é descrita mais detalhadamente, incluindo como criar a consulta do zero, em [Introdução ao Power BI Desktop](desktop-getting-started.md).
 
-É útil saber que o **Editor de Consultas** no Power BI Desktop faz uso abundante tanto de menus de atalho quanto da faixa de opções. A maioria das opções que você pode selecionar na faixa de opções **Transformar** também está disponível com um clique do botão direito do mouse em um item (como uma coluna) e a seleção no menu que é exibido.
+O Editor de Consultas no Power BI Desktop faz uso abundante de menus de atalho, bem como da faixa de opções **Transformar**. A maioria das opções que você pode selecionar na faixa de opções também está disponível com um clique do botão direito do mouse em um item, como uma coluna, e com a seleção de uma opção no menu que é exibido.
 
 ## <a name="shape-data"></a>Formatar dados
-Ao formatar dados no Editor de Consultas, você fornece instruções passo a passo (que o Editor de Consultas executa para você) para ajustar os dados conforme são carregados e apresentados pelo Editor de Consultas. A fonte de dados original não é afetada; apenas esta exibição específica dos dados é ajustada, ou *formatada*.
+Ao formatar dados no Editor de Consultas, você fornece instruções passo a passo para que o Editor de Consultas realize o ajuste dos dados conforme eles são carregados, apresentando-os. A fonte de dados original não é afetada; apenas essa exibição específica dos dados é ajustada ou *formatada*.
 
-As etapas especificadas (como renomear uma tabela, transformar um tipo de dados ou excluir colunas) são registradas pelo Editor de Consultas. Sempre que essa consulta se conectar à fonte de dados, essas etapas serão executadas para que os dados sejam sempre formatados da maneira especificada. Esse processo ocorre sempre que você usa o recurso Editor de Consultas no Power BI Desktop, ou para qualquer pessoa que usa sua consulta compartilhada, como no serviço do **Power BI** Essas etapas são capturadas sequencialmente no painel **Configurações de Consulta**, em **Etapas Aplicadas**.
+As etapas especificadas (como renomear uma tabela, transformar um tipo de dados ou excluir uma coluna) são registradas pelo Editor de Consultas. Toda vez que essa consulta se conecta à fonte de dados, o Editor de Consultas executa essas etapas para que os dados sempre sejam formatados da maneira que você especificar. Esse processo ocorre sempre que você usa o Editor de Consultas ou para qualquer pessoa que usa sua consulta compartilhada, como no serviço do Power BI. Essas etapas são capturadas sequencialmente no painel **Configurações de Consulta**, em **Etapas Aplicadas**. Veremos cada uma dessas etapas nos próximos parágrafos.
 
-A imagem a seguir mostra o painel **Configurações de Consulta** para uma consulta que foi formatada – abordaremos cada uma dessas etapas nos próximos parágrafos.
+![Etapas aplicadas nas Configurações de Consulta](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished2.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished2.png)
+Em [Introdução ao Power BI Desktop](desktop-getting-started.md), vamos usar os dados de aposentadoria, que encontramos ao nos conectarmos a uma fonte de dados da Web, para formatá-los de acordo com nossas necessidades. Adicionaremos uma coluna personalizada para calcular a classificação com base em todos os dados sendo fatores iguais e compararemos essa coluna com a coluna existente, **Classificação**.  
 
-Com os dados de aposentadoria da [Introdução ao Power BI Desktop](desktop-getting-started.md), que encontramos ao nos conectarmos a uma fonte de dados da Web, vamos formatá-los para que eles adaptem às nossas necessidades.
+1. Na faixa de opções **Adicionar Coluna**, selecione **Coluna Personalizada**, que permite adicionar uma coluna personalizada.
 
-Para começar, vamos adicionar uma coluna personalizada para calcular a classificação com base em todos os dados sendo fatores iguais, e vamos comparar isso com a coluna existente _Classificação_.  Esta é a faixa de opções de **Adicionar Coluna**, com uma seta apontando para o botão **Coluna Personalizada**, que permite a adição de uma coluna personalizada.
+    ![Selecionar Coluna Personalizada](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
+1. Na janela **Coluna Personalizada**, em **Nome da nova coluna**, insira _Nova Classificação_. Em **Fórmula de coluna personalizada**, insira os seguintes dados:
 
-Na caixa de diálogo **Coluna Personalizada**, em **Nome da nova coluna**, insira _Nova Classificação_ e, em **Fórmula de coluna personalizada**, digite o seguinte:
-
+    ```
     ([Cost of living] + [Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 8
+    ```
+ 
+1. Verifique se a mensagem de status indica *Nenhum erro de sintaxe foi detectado* e selecione **OK**.
 
-Verifique se a mensagem de status indica _"Nenhum erro de sintaxe foi detectado."_ e clique em **OK**.
+    ![Página Coluna Personalizada sem erros de sintaxe](media/desktop-shape-and-combine-data/shapecombine_customcolumndialog.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_customcolumndialog.png)
+1. Para manter os dados da coluna consistentes, transforme os valores da nova coluna em números inteiros. Para alterá-los, clique com o botão direito do mouse no título da coluna e, em seguida, selecione **Alterar Tipo \> Número Inteiro**. 
 
-Para manter os dados da coluna consistentes, permita a transformação dos valores da nova coluna em números inteiros. Basta clicar com o botão direito do mouse no título da coluna e selecionar **Alterar Tipo \> Número Inteiro** para alterá-los. 
+    Caso precise escolher mais de uma coluna, selecione uma coluna, mantenha pressionada a tecla **SHIFT**, selecione colunas adjacentes adicionais e, em seguida, clique com o botão direito do mouse em um título de coluna. Você também pode usar a tecla **CTRL** para escolher colunas não adjacentes.
 
-Se você precisar escolher mais de uma coluna, primeiro selecionamos uma coluna, mantemos pressionada a tecla **SHIFT**, selecionamos colunas adjacentes adicionais e clicamos com o botão direito do mouse em um título de coluna para alterar todas as colunas selecionadas. Você também pode usar a tecla **CTRL** para escolher colunas não adjacentes.
+    ![Selecionar os dados da coluna Número Inteiro](media/desktop-shape-and-combine-data/shapecombine_changetype2.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_changetype2.png)
+1. Para *transformar* tipos de dados de coluna, nos quais você transforma o tipo de dados atual em outro, selecione **Tipo de Dados Texto** na faixa de opções **Transformar**. 
 
-Você também pode *transformar* os tipos de dados de coluna na faixa de opções de **Transformar**. Esta é a faixa de opções **Transformar** , com uma seta apontando para o botão **Tipo de Dados** , que permite transformar o tipo de dados atual em outro.
+   ![Selecionar Tipo de Dados Texto](media/desktop-shape-and-combine-data/queryoverview_transformribbonarrow.png)
 
-![](media/desktop-shape-and-combine-data/queryoverview_transformribbonarrow.png)
+1. Em **Configurações de Consulta**, a lista **Etapas Aplicadas** reflete todas as etapas de formatação aplicadas aos dados. Para remover uma etapa do processo de formatação, selecione o **X** à esquerda da etapa. 
 
-Observe que em **Configurações de Consulta**, as **Etapas Aplicadas** refletem todas as etapas de formatação aplicadas aos dados. Se eu desejar remover qualquer etapa do processo de formatação, basta eu selecionar o **X** à esquerda da etapa. Na imagem a seguir, **Etapas Aplicadas** reflete as etapas realizadas até agora: conectar-se ao site (**Fonte**), selecionar a tabela (**Navegação**) e, ao carregar a tabela, o Editor de Consulta alterou automaticamente as colunas com números em formato de texto, de *Texto* para *Número Inteiro* (**Tipo Alterado**). As duas últimas etapas mostram nossas ações anteriores com **Personalização Adicionada** e **Tipo Alterado1**. 
+    Na seguinte imagem, a lista **Etapas Aplicadas** reflete as etapas adicionadas até o momento: 
+     - **Fonte**: Conexão ao site.
+     - **Navegação**: Seleção da tabela. 
+     - **Tipo Alterado**: Alteração das colunas de número baseadas em texto de *Texto* para *Número Inteiro*. 
+     - **Personalização Adicionada**: Adição de uma coluna personalizada.
+     - **Tipo Alterado1**: A última etapa aplicada.
 
-![](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly2.png)
+       ![Lista de etapas aplicadas](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly2.png)
 
-Antes que possamos trabalhar com essa consulta, precisamos fazer algumas alterações para colocar os dados nela contidos aonde desejamos:
+## <a name="adjust-data"></a>Ajustar os dados
 
-* *Ajustar as classificações removendo uma coluna* – decidimos que **Custo de vida** é um não fator em nossos resultados. Depois de remover essa coluna, percebemos o problema de que os dados permanecem inalterados, apesar de ser fácil de corrigir usando o Power BI Desktop, e demonstre um recurso interessante das **Etapas Aplicadas** na Consulta.
-* *Corrigir alguns erros* – já que removemos uma coluna, precisamos reajustar nossos cálculos na coluna **Nova Classificação**. Isso envolve a alteração de uma fórmula.
-* *Classificar os dados* – com base nas colunas **Nova Classificação** e **Classificação**. 
-* *Substituir dados* – vamos destacar como substituir um valor específico, e a necessidade de inserir uma **Etapa Aplicada**.
-* *Alterar o nome da tabela* – **Tabela 0** não é um descritor útil, mas é simples modificá-lo.
+Antes de trabalharmos com essa consulta, precisamos fazer algumas alterações para ajustar os dados:
 
-Para remover a coluna **Custo de vida**, basta selecionar a coluna e escolher a guia **Página Inicial** na faixa de opções, depois **Remover Colunas**, como mostra a figura a seguir.
+   - Ajustar as classificações removendo uma coluna.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
+       Decidimos que o **Custo de vida** é um não fator em nossos resultados. Depois de remover essa coluna, descobrimos que os dados permanecem inalterados. 
 
-Observe que os valores de _Nova Classificação_ não foram alterados; isso ocorre devido à ordem das etapas. Já que o Editor de Consultas registra as etapas sequencialmente, porém de modo independente uma da outra, você pode mover cada **Etapa Aplicada** na sequência, para cima ou para baixo. Apenas clique com botão direito em qualquer etapa, e o Editor de Consultas fornecerá um menu que permite o seguinte: **Renomear**, **Excluir**, **Excluir** **Até o Fim** (remove a etapa atual e todas as etapas subsequentes), **Mover para Cima** ou **Mover para Baixo**. Vá em frente e mova a última etapa, _Colunas Removidas_ para cima da etapa _Personalização Adicionada_.
+   - Corrigir alguns erros.
 
-![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
+       Como removemos uma coluna, precisamos reajustar nossos cálculos na coluna **Nova Classificação**, que envolve a alteração de uma fórmula.
 
-Em seguida, selecione a etapa _Personalização Adicionada_. Observe que agora os dados mostram _Erro_, o qual precisamos resolver. 
+   - Classificar os dados.
 
-![](media/desktop-shape-and-combine-data/shapecombine_error2.png)
+       Classifique os dados com base nas colunas **Nova Classificação** e **Classificação**.
+ 
+   - Substituir os dados.
 
-Existem algumas maneiras de obter mais informações sobre cada erro. É possível selecionar a célula (sem clicar na palavra **Erro**) ou clicar diretamente na palavra **Erro** . Se você selecionar a célula *sem* clicar diretamente na palavra **Erro**, o Editor de Consultas exibirá as informações de erro na parte inferior da janela.
+       Destacaremos como substituir um valor específico e a necessidade de inserir uma **Etapa Aplicada**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_errorinfo2.png)
+   - Alterar o nome da tabela. 
 
-Se você clicar na palavra *Erro* diretamente, a Consulta criará uma **Etapa Aplicada** no painel **Configurações de Consulta** e exibirá informações sobre o erro. Não queremos seguir esse caminho, portanto selecione **Cancelar**.
+       Como a **Tabela 0** não é um descritor útil para a tabela, alteraremos o nome dela.
 
-Para corrigir os erros, selecione a coluna _Nova Classificação_, depois exiba a fórmula de dados da coluna abrindo a faixa de opções **Exibição** e marcando a caixa de seleção **Barra de fórmulas**. 
+1. Para remover a coluna **Custo de vida**, selecione a coluna, escolha a guia **Página Inicial** na faixa de opções e, em seguida, selecione **Remover Colunas**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
+    ![Selecionar Remover Colunas](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Agora você pode remover o parâmetro _Custo de vida_ e diminuir o divisor, alterando a fórmula a seguir: 
+   Observe que os valores de **Nova Classificação** não foram alterados devido à ordenação das etapas. Como o Editor de Consultas registra as etapas sequencialmente, porém, de modo independente uma da outra, você pode mover cada **Etapa Aplicada** na sequência, para cima ou para baixo. 
 
+1. Clicar com o botão direito do mouse em uma etapa. O Editor de Consultas fornece um menu que permite executar as seguintes tarefas: 
+   - **Renomear**: renomeie a etapa.
+   - **Excluir**: Exclua a etapa.
+   - **Excluir** **Até o Fim**: Remova a etapa atual e todas as etapas seguintes.
+   - **Mover para Cima**: Mova a etapa para cima na lista.
+   - **Mover para Baixo**: Mova a etapa para baixo na lista.
+
+1. Mova a última etapa, **Colunas Removidas**, para logo cima da etapa **Personalização Adicionada**.
+
+   ![Mover uma etapa para cima em Etapas Aplicadas](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
+
+1. Selecione a etapa **Personalização Adicionada**. 
+
+   Observe que agora os dados mostram _Erro_, o qual precisaremos resolver.
+
+   ![Resultado de erro nos dados da coluna](media/desktop-shape-and-combine-data/shapecombine_error2.png)
+
+   Existem algumas maneiras de obter mais informações sobre cada erro. Se você selecionar a célula sem clicar na palavra *Erro*, o Editor de Consultas exibirá as informações de erro na parte inferior da janela.
+
+   ![Informações de erro no Editor de Consultas](media/desktop-shape-and-combine-data/shapecombine_errorinfo2.png)
+
+   Se você selecionar a palavra *Erro* diretamente, o Editor de Consultas criará uma **Etapa Aplicada** no painel **Configurações de Consulta** e exibirá informações sobre o erro. 
+
+1. Como não precisamos exibir informações sobre os erros, selecione **Cancelar**.
+
+1. Para corrigir os erros, selecione a coluna **Nova Classificação** e, em seguida, exiba a fórmula de dados da coluna selecionando a caixa de seleção **Barra de Fórmulas** na guia **Exibir**. 
+
+   ![Selecionar Barra de Fórmulas](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
+
+1. Remova o parâmetro _Custo de vida_ e diminuir o divisor alterando a fórmula da seguinte maneira: 
+   ```
     Table.AddColumn(#"Removed Columns", "New Rank", each ([Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 7)
+   ```
 
-Selecione a marca de seleção verde à esquerda da caixa fórmula ou pressione **Enter**, e os dados deverão ser substituídos por valores revisados e, agora, a etapa **Personalização Adicionada** deve ser concluída *sem erros* .
+1. Marque a marca de seleção verde à esquerda da caixa da fórmula ou pressione **Enter**.
 
-> [!NOTE]
-> Você também pode **Remover Erros** (usando a faixa de opções ou o menu de clique com o botão direito do mouse), que remove linhas com erros. Nesse caso, ele teria removido todas as linhas de nossos dados, e esse não era nosso objetivo, gostamos de todos os nossos dados e queremos mantê-los na tabela.
+  O Editor de Consultas substitui os dados pelos valores revisados e a etapa **Personalização Adicionada** é concluída sem erros.
 
-Agora temos que classificar os dados com base na coluna **Nova Classificação**. Primeiro, selecione a última etapa aplicada, **Tipo1 Alterado** para obter os dados mais recentes. Em seguida, selecione a lista suspensa ao lado do cabeçalho de coluna **Nova Classificação** e selecione **Classificar em Ordem Crescente**.
+   > [!NOTE]
+   > Selecione também **Remover Erros** usando a faixa de opções ou o menu de atalho, que remove as linhas com erros. No entanto, não queremos fazer isso neste tutorial porque queríamos preservar os dados na tabela.
 
-![](media/desktop-shape-and-combine-data/shapecombine_sort.png)
+1. Classifique os dados com base na coluna **Nova Classificação**. Primeiro, selecione a última etapa aplicada, **Tipo Alterado1**, para exibir os dados mais recentes. Em seguida, selecione a lista suspensa localizada ao lado do cabeçalho de coluna **Nova Classificação** e selecione **Classificar em Ordem Crescente**.
 
-Observe que agora os dados estão classificados de acordo com a **Nova Classificação**.  No entanto, se você examinar a coluna **Classificação**, perceberá que os dados não estão classificados corretamente em casos nos quais o valor de **Nova Classificação** é um horário. Para corrigir isso, selecione a coluna **Nova Classificação** e altere a fórmula na **Barra de Fórmulas** para o seguinte:
+   ![Classificar os dados na coluna Nova Classificação](media/desktop-shape-and-combine-data/shapecombine_sort.png)
 
+   Agora os dados estão classificados de acordo com a **Nova Classificação**. No entanto, se você examinar a coluna **Classificação**, perceberá que os dados não estão classificados corretamente em casos nos quais o valor de **Nova Classificação** é um empate. Corrigiremos isso na próxima etapa.
+
+1. Para corrigir o problema de classificação de dados, selecione a coluna **Nova Classificação** e altere a fórmula na **Barra de Fórmulas** para a seguinte fórmula:
+
+   ```
     = Table.Sort(#"Changed Type1",{{"New Rank", Order.Ascending},{"Rank", Order.Ascending}})
+   ```
 
-Selecione a marca de seleção verde à esquerda da caixa fórmula ou pressione **Enter**, e as linhas agora devem ser ordenadas de acordo com _Nova Classificação_ e _Classificação_.
+1. Marque a marca de seleção verde à esquerda da caixa da fórmula ou pressione **Enter**. 
 
-Além disso, é possível selecionar uma **Etapa Aplicada** em qualquer lugar na lista e continuar formatando os dados nesse ponto na sequência. O Editor de Consultas inserirá automaticamente uma nova etapa diretamente após a **Etapa Aplicada**selecionada no momento. Vamos experimentar.
+   Agora as linhas estão ordenadas de acordo com as colunas **Nova Classificação** e **Classificação**. Além disso, é possível selecionar uma **Etapa Aplicada** em qualquer lugar na lista e continuar formatando os dados nesse ponto na sequência. O Editor de Consultas insere de maneira automática uma nova etapa diretamente após a **Etapa Aplicada** selecionada no momento. 
 
-Primeiro, selecione a **Etapa Aplicada** anterior à adição da coluna personalizada; seria a etapa _Colunas Removidas_. Aqui, substituiremos o valor da classificação _Clima_ no Arizona. Clique com o botão direito na célula apropriada que contém a classificação _Clima_ e selecione *Substituir Valores...* no menu exibido. Observe qual **Etapa Aplicada** está selecionada no momento (a etapa anterior à etapa _Personalização Adicionada_).
+1. Em **Etapa Aplicada**, selecione a etapa que precede a coluna personalizada, que é a etapa **Colunas Removidas**. Aqui, substituiremos o valor da classificação **Clima** no Arizona. Clique com o botão direito na célula apropriada que contém a classificação **Clima** do Arizona e, em seguida, selecione **Substituir Valores**. Observe qual **Etapa Aplicada** está selecionada no momento.
 
-![](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
+   ![Selecionar Substituir Valores na coluna](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
 
-Já que estamos inserindo uma etapa, o Editor de Consultas nos avisa sobre o perigo de fazer isso: etapas subsequentes poderiam causar uma fragmentação da consulta. Precisamos ser cuidadosos e ponderados! Como este é um tutorial e nós estamos enfatizando um recurso realmente interessante do Editor de Consultas para demonstrar como você pode criar, excluir, inserir e reorganizar as etapas, vamos continuar em frente e selecionar **Inserir**.
+1. Selecione **Inserir**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
+    Como estamos inserindo uma etapa, o Editor de Consultas nos alerta sobre o perigo de fazer isso; as etapas seguintes podem causar uma fragmentação da consulta. 
 
-Altere o valor para _51_ e os dados para Arizona são substituídos. Quando você cria uma nova Etapa Aplicada, o Editor de Consultas a nomeia com base na ação - nesse caso, **Valor Substituído**. Quando você tem mais de uma etapa com o mesmo nome em sua consulta, o Editor de Consultas adiciona um número (em sequência) a cada **Etapa Aplicada** subsequente, para diferenciá-las.
+    ![Verificação de Inserir Etapa](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
 
-Agora, selecione a última **Etapa Aplicada**, _Linhas Classificadas_ e observe que os dados mudaram com relação à nova classificação do Arizona.  Isso ocorre porque inserimos a etapa _Valor Substituído_ no local correto, antes da etapa _Personalização Adicionada_.
+1. Altere o valor dos dados para _51_. 
 
-Tudo bem que foi um pouco complexo, mas ainda assim foi um bom exemplo de quão poderoso e versátil o Editor de Consultas pode ser.
+   O Editor de Consultas substitui os dados para o Arizona. Quando você cria uma **Etapa Aplicada**, o Editor de Consultas a nomeia com base na ação; nesse caso, **Valor Substituído**. Se você tiver mais de uma etapa com o mesmo nome na consulta, o Editor de Consultas adicionará um número (em sequência) a cada **Etapa Aplicada** seguinte, para diferenciá-las.
 
-Por fim, desejamos alterar o nome dessa tabela para algo descritivo. Ao criar relatórios, é especialmente útil ter nomes de tabela descritivos, principalmente quando nos conectamos a várias fontes de dados e eles estão listados no painel **Campos** da exibição **Relatório** .
+1. Selecione a última **Etapa Aplicada**, **Linhas Classificadas**. 
 
-É fácil alterar o nome da tabela: no painel **Configurações de Consulta** , em **Propriedades**, basta digitar o novo nome da tabela, como mostrado na imagem a seguir, e pressionar **Enter**. Vamos chamar essa tabela de *RetirementStats*.
+   Observe que os dados foram alterados em relação à nova classificação do Arizona. Essa alteração ocorre porque inserimos a etapa **Valor Substituído** na localização correta, antes da etapa **Personalização Adicionada**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_renametable2.png)
+1. Por fim, desejamos alterar o nome dessa tabela para algo descritivo. No painel **Configurações de Consulta**, em **Propriedades**, insira o novo nome da tabela e, em seguida, selecione **Enter**. Nomeie essa tabela *RetirementStats*.
 
-Muito bem, a formatação desses dados foi realizada na medida necessária. Em seguida, vamos nos conectar a outra fonte de dados e combinar dados.
+   ![Renomear tabela em Configurações de Consulta](media/desktop-shape-and-combine-data/shapecombine_renametable2.png)
+
+   Quando começamos a criar relatórios, é útil ter nomes de tabelas descritivos, especialmente quando nos conectamos a várias fontes de dados, que estão listadas no painel **Campos** da exibição **Relatório**.
+
+   Agora formatamos nossos dados na medida necessária. Em seguida, vamos nos conectar a outra fonte de dados e combinar dados.
 
 ## <a name="combine-data"></a>Combinar dados
-Esses dados sobre vários estados são interessantes e serão úteis para a criação de consultas e esforços de análise adicionais. Mas há um problema: a maioria dos dados usam uma abreviação de duas letras para códigos de estado, em vez de utilizar o nome completo do estado. Precisamos de alguma maneira de associar os nomes de estado às suas abreviações.
+Os dados sobre vários estados são interessantes e serão úteis para a criação de consultas e esforços de análise adicionais. Mas há um problema: a maioria dos dados usam uma abreviação de duas letras para códigos de estado, em vez de utilizar o nome completo do estado. Precisamos de uma maneira de associar os nomes de estados às respectivas abreviações.
 
-Estamos com sorte: há outra fonte de dados pública que faz exatamente isso, mas ela também precisa de um tanto considerável de formatação antes que possamos conectá-la à nossa tabela de aposentadoria. Eis o recurso da Web para abreviações de estado:
+Estamos com sorte: há outra fonte de dados pública que faz exatamente isso, mas ela precisa de uma quantidade razoável de formatação antes que possamos conectá-la à nossa tabela de aposentadoria. Para formatar os dados, siga estas etapas:
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+1. Na faixa de opções **Página Inicial** no Editor de Consultas, selecione **Nova Fonte \> Web**. 
 
-Na faixa de opções **Página Inicial** no Editor de Consultas, selecionamos **Nova Fonte \> Web** e digitamos o endereço, selecionamos **Conectar** para o Navegador mostrar o que ele encontrou nessa página da Web.
+2. Insira o endereço do site de abreviações de estados, *http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations* , e, em seguida, selecione **Conectar**.
 
- ![](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
+   O Navegador exibirá o conteúdo do site.
 
-Selecionamos **Códigos e abreviações...** porque isso inclui os dados que queremos, mas será necessária bastante formatação para que os dados da tabela sejam equivalentes ao que desejamos.
+    ![Página do Navegador](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
 
-> [!TIP]
-> Há uma maneira mais rápida ou mais fácil de realizar as etapas abaixo? Sim, podemos criar uma *relação* entre as duas tabelas e formatar os dados com base nessa relação. As etapas a seguir ainda são válidas para aprender a trabalhar com tabelas, mas saiba que as relações podem ajudá-lo rapidamente a usar os dados de várias tabelas.
+1. Selecione **Códigos e abreviações**. 
+
+   > [!TIP]
+   > Será necessário um pouco de formatação para reduzir os dados dessa tabela até o que desejamos. Há uma maneira mais rápida ou mais fácil de realizar as etapas abaixo? Sim, podemos criar uma *relação* entre as duas tabelas e formatar os dados com base nessa relação. As etapas a seguir ainda são úteis para aprender a trabalhar com tabelas; no entanto, as relações podem ajudar você rapidamente a usar os dados de várias tabelas.
 > 
 > 
 
-Para formatar esses dados, realizamos as seguintes etapas:
+Para colocar os dados em forma, siga estas etapas:
 
-* Remover a primeira linha – ela é resultado do modo como a tabela da página Web foi criada, e não precisamos dela. Na faixa de opções **Página Inicial**, selecione **Reduzir Linhas\> Remover Linhas \> Remover Primeiras Linhas**.
+1. Remova a linha superior. Como ela é o resultado do modo como a tabela da página Web foi criada, não precisamos dela. Na faixa de opções **Página Inicial**, selecione **Reduzir Linhas\> Remover Linhas \> Remover Primeiras Linhas**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
+    ![Selecionar Remover Linhas Superiores](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
 
-A janela **Remover Primeiras Linhas** é exibida, permitindo que você especifique o número de linhas que deseja remover.
+    A janela **Remover Primeiras Linhas** é exibida, permitindo que você especifique o número de linhas que deseja remover.
 
->[!NOTE]
->Se, acidentalmente, o Power BI importar os cabeçalhos de tabela como uma linha em sua tabela de dados, você pode selecionar **Usar Primeira Linha como Cabeçalho** da guia **Página Inicial**, ou na guia **Transformar** na faixa de opções, para corrigir a tabela.
+    > [!NOTE]
+    > Se, acidentalmente, o Power BI importar os cabeçalhos de tabela como uma linha em sua tabela de dados, você pode selecionar **Usar Primeira Linha como Cabeçalho** da guia **Página Inicial**, ou na guia **Transformar** na faixa de opções, para corrigir a tabela.
 
-* Remova as últimas 26 linhas – são todas referentes a territórios, que não precisamos incluir. Na faixa de opções **Página Inicial**, selecione **Reduzir Linhas \> Remover Linhas \> Remover Últimas Linhas**.
+1. Remova as últimas 26 linhas. Essas linhas são territórios dos EUA, que não precisamos incluir. Na faixa de opções **Página Inicial**, selecione **Reduzir Linhas \> Remover Linhas \> Remover Últimas Linhas**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
+    ![Selecionar Remover Linhas Inferiores](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
 
-* Como a tabela RetirementStats não tem informações de Washington D.C., precisamos filtrá-la de nossa lista. Selecione a seta suspensa ao lado da coluna Status de Região e desmarque a caixa de seleção ao lado de **Distrito federal**.
+1. Como a tabela RetirementStats não contém informações de Washington D.C., precisamos filtrá-la de nossa lista. Selecione a lista suspensa **Status da Região** e, em seguida, desmarque a caixa de seleção ao lado de **Distrito federal**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
+    ![Limpar caixa de seleção Distrito federal](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Remover algumas colunas desnecessárias, precisamos apenas do mapeamento do estado para a sua abreviação oficial de duas letras para que possamos remover as seguintes colunas: **Coluna1**, **Column3**, **Coluna4** e **Coluna6** a**Coluna11**. Primeiro, selecione **Column1**, mantenha pressionada a tecla **CTRL** e selecione as outras colunas a serem removidas (isso permite que você selecione várias colunas não contíguas). Na guia Página Inicial da faixa de opções, selecione **Remover Colunas \> Remover Colunas**.
+1. Remova algumas colunas desnecessárias. Como precisamos apenas do mapeamento de cada estado para a respectiva abreviação oficial de duas letras, podemos remover as seguintes colunas: **Column1**, **Column3**, **Column4** e **Column6** até **Column11**. Primeiro, selecione **Column1**, em seguida, mantenha pressionada a tecla **CTRL** e selecione cada uma das outras colunas a serem removidas. Na guia **Página Inicial** da faixa de opções, selecione **Remover Colunas \> Remover Colunas**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
+   ![Remover coluna](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 
->[!NOTE]
->Esse é um bom momento para destacar que a *sequência* de etapas aplicadas no Editor de Consultas é importante e pode afetar o modo de formatação dos dados. Também é importante considerar como uma etapa pode afetar outra etapa subsequente; se você remover uma etapa das Etapas Aplicadas, as etapas subsequentes podem não se comportar como pretendido originalmente, devido ao impacto da sequência de etapas da consulta.
+   > [!NOTE]
+   > Esse é um bom momento para destacar que a *sequência* de etapas aplicadas no Editor de Consultas é importante e pode afetar o modo de formatação dos dados. Também é importante considerar como uma etapa pode afetar outra etapa subsequente; se você remover uma etapa das Etapas Aplicadas, as etapas subsequentes podem não se comportar como pretendido originalmente, devido ao impacto da sequência de etapas da consulta.
 
->[!NOTE]
->Ao redimensionar a janela do Editor de Consultas para diminuir a largura, alguns itens de faixa de opções são condensados para fazer o melhor uso do espaço visível. Ao aumentar a largura da janela do Editor de Consultas, os itens da faixa de opções são expandidos para fazer o melhor uso da área aumentada da faixa de opções.
+   > [!NOTE]
+   > Ao redimensionar a janela do Editor de Consultas para diminuir a largura, alguns itens de faixa de opções são condensados para fazer o melhor uso do espaço visível. Ao aumentar a largura da janela do Editor de Consultas, os itens da faixa de opções são expandidos para fazer o melhor uso da área aumentada da faixa de opções.
 
-* Renomear as colunas e a própria tabela – como de costume, há duas maneiras de renomear uma coluna: primeiro selecione a coluna e depois selecione **Renomear** na guia **Transformar** da faixa de opções ou clique com o botão direito do mouse e selecione **Renomear...** no menu exibido. A imagem a seguir tem setas apontando para ambas as opções; você precisa escolher apenas uma.
+1. Renomeie as colunas e a tabela. Há algumas maneiras de renomear uma coluna: Primeiro, selecione a coluna e, em seguida, selecione **Renomear** na guia **Transformar** na faixa de opções ou clique com o botão direito do mouse e selecione **Renomear**. A imagem a seguir tem setas apontando para ambas as opções; você precisa escolher apenas uma.
 
-![](media/desktop-shape-and-combine-data/shapecombine_rename.png)
+   ![Renomear coluna no Editor de Consultas](media/desktop-shape-and-combine-data/shapecombine_rename.png)
 
-Vamos renomeá-las para *Nome do Estado* e *Código do Estado*. Para renomear a tabela, basta digitar o nome na caixa **Nome** do painel **Configurações de Consulta** . Vamos chamar essa tabela de *StateCodes*.
+1. Renomeie as colunas para *State Name* e *State Code*. Para renomear a tabela, insira o **Nome** no painel **Configurações de Consulta**. Nomeie essa tabela *StateCodes*.
 
-Agora que nós já formatamos a tabela StateCodes como desejamos, vamos combinar essas duas tabelas, ou consultas, em uma; como as tabelas que temos agora são o resultado das consultas que aplicamos aos dados, elas geralmente são designadas como *consultas*.
+## <a name="combine-queries"></a>Combinar consultas
 
-Há duas maneiras principais de combinar consultas – *mesclando* e *acrescentando*.
+Agora que formatamos a tabela StateCodes da maneira que desejamos, vamos combinar essas duas tabelas, ou consultas, em uma só. Como as tabelas que temos agora são o resultado das consultas que aplicamos aos dados, elas são geralmente chamadas de *consultas*.
 
-Quando você tem uma ou mais colunas que deseja adicionar a outra consulta, você **mescla** as consultas. Quando você tem linhas adicionais de dados que deseja adicionar a uma consulta existente, você **acrescenta** a consulta.
+Há duas maneiras principais de combinar consultas: *mesclagem* e *acréscimo*.
 
-Nesse caso, desejamos mesclar consultas. Para começar, no painel esquerdo do Editor de Consultas, selecione a consulta *na qual* queremos que a outra consulta seja mesclada, que nesse caso é *RetirementStats*. Em seguida, selecione **Combinar \> Mesclar Consultas** na guia **Página Inicial** da faixa de opções.
+- Quando você tem uma ou mais colunas que deseja adicionar a outra consulta, você *mescla* as consultas. 
+- Quando você tem linhas adicionais de dados que deseja adicionar a uma consulta existente, você *acrescenta* a consulta.
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergequeries.png)
+Nesse caso, desejamos mesclar as consultas. Para se conectar, siga essas etapas:
+ 
+1. No painel esquerdo do Editor de Consultas, selecione a consulta *com a qual* deseja mesclar a outra consulta. Nesse caso, **RetirementStats**. 
 
-Você poderá ser solicitado a definir os níveis de privacidade, para garantir que os dados sejam combinados sem a inclusão ou transferência de dados que você não quer que sejam transferidos.
+1. Selecione **Combinar \> Mesclar Consultas** na guia **Página Inicial** da faixa de opções.
 
-Em seguida, a janela **Mesclar** é exibida, solicitando que selecionemos qual tabela gostaríamos de mesclar à tabela selecionada e as colunas correspondentes a serem usadas para a mesclagem. Selecione State na tabela *RetirementStats* (consulta) e selecione a consulta *StateCodes* (fácil nesse caso, já que há somente mais uma consulta – quando você se conectar a várias fontes de dados, existirão muitas consultas entre as quais escolher). Quando selecionamos as colunas correspondentes corretas – **State** de *RetirementStats*, e **State Name** de *StateCodes* – a janela **Mesclar** tem a aparência semelhante à mostrada a seguir e o botão **OK** é habilitado.
+   ![Selecionar Mesclar Consultas](media/desktop-shape-and-combine-data/shapecombine_mergequeries.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
+   Talvez você precise definir os níveis de privacidade, a fim de garantir que os dados sejam combinados sem incluir nem transferir dados que você não deseja transferir.
 
-Uma **NewColumn** é criada no final da consulta, que consiste no conteúdo da tabela (consulta) que foi mesclada com a consulta existente. Todas as colunas da consulta mesclada são condensadas na **NewColumn**, mas você pode optar por **Expandir** a tabela e incluir quaisquer colunas que desejar.
+   A janela **Mesclar** será exibida. Ela solicita a seleção da tabela que você deseja mesclar com a tabela selecionada e as colunas correspondentes a serem usadas para a mesclagem. 
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergenewcolumn.png)
+1. Selecione **State** na tabela RetirementStats e, em seguida, a consulta **StateCodes**. 
 
-Para expandir a tabela mesclada e selecionar quais colunas deseja incluir, selecione o ícone de expansão (![Expandir](media/desktop-shape-and-combine-data/icon.png)). A janela **Expandir** é exibida.
+   Quando você seleciona as colunas correspondentes corretas, o botão **OK** é habilitado.
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergeexpand.png)
+   ![Janela Mesclar](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
-Nesse caso, como só queremos a coluna **State Code** , selecionamos apenas essa coluna e, em seguida, selecionamos **OK**. Desmarcamos a caixa de seleção Usar nome da coluna original como prefixo, porque não precisamos nem desejamos essa opção; se deixarmos essa opção selecionada, a coluna mesclada será nomeada **NewColumn.State Code** (o nome da coluna original ou **NewColumn**, seguido de um ponto e do nome da coluna que está sendo introduzida na consulta).
+1. Selecione **OK**.
 
->[!NOTE]
->Quer experimentar como inserir a tabela **NewColumn**? Você pode experimentar um pouco e, se não gostar dos resultados, basta excluir essa etapa da lista **Etapas Aplicadas** no painel **Configurações de Consulta** ; sua consulta retornará ao estado anterior à aplicação dessa etapa **Expandir** . Você pode refazer essas ações livremente, quantas vezes desejar, até que o processo de expansão tenha a aparência desejada.
+   O Editor de Consultas cria uma coluna **NewColumn** ao final da consulta, que consiste no conteúdo da tabela (consulta) que foi mesclada com a consulta existente. Todas as colunas da consulta mesclada são condensadas na coluna **NewColumn**, mas você pode **Expandir** a tabela e incluir as colunas desejadas.
 
-Agora temos uma única consulta (tabela) que combinou duas fontes de dados, cada uma das quais foi desenvolvida para atender às nossas necessidades. Essa consulta pode servir como base para muitas conexões de dados adicionais interessantes – como estatísticas de custo de moradia, dados demográficos ou oportunidades de trabalho em qualquer estado.
+   ![Coluna NewColumn](media/desktop-shape-and-combine-data/shapecombine_mergenewcolumn.png)
 
-Para aplicar as alterações e fechar o Editor de Consultas, selecione **Fechar e Aplicar** na guia de faixa de opções **Página Inicial**. O conjunto de dados transformado aparece no Power BI Desktop, pronto para ser usado para a criação de relatórios.
+1. Para expandir a tabela mesclada e selecionar as colunas a serem incluídas, selecione o ícone de expansão (![ícone Expandir](media/desktop-shape-and-combine-data/icon.png)). 
 
-![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
+   A janela **Expandir** é exibida.
+
+   ![NewColumn na consulta](media/desktop-shape-and-combine-data/shapecombine_mergeexpand.png)
+
+1. Nesse caso, queremos apenas a coluna **State Code**. Selecione essa coluna, desmarque **Usar nome da coluna original como prefixo** e, em seguida, selecione **OK**.
+
+   Se tivéssemos deixado a caixa de seleção marcada para **Usar o nome da coluna original como prefixo**, a coluna mesclada seria nomeada **NewColumn.State Code**.
+
+   > [!NOTE]
+   > Deseja explorar como inserir a tabela NewColumn? Você pode experimentar um pouco e, se não gostar dos resultados, basta excluir essa etapa da lista **Etapas Aplicadas** no painel **Configurações de Consulta** ; sua consulta retornará ao estado anterior à aplicação dessa etapa **Expandir** . Você pode fazer isso quantas vezes quiser, até que o processo de expansão tenha a aparência desejada.
+
+   Agora temos uma única consulta (tabela) que combina duas fontes de dados, cada uma das quais foi formatada de acordo com nossas necessidades. Essa consulta pode servir como base para muitas conexões de dados adicionais e interessantes, como estatísticas de custo de moradia, dados demográficos ou oportunidades de trabalho em qualquer estado.
+
+1. Para aplicar as alterações e fechar o Editor de Consultas, selecione **Fechar e Aplicar** na guia de faixa de opções **Página Inicial**. 
+
+   O conjunto de dados transformado aparece no Power BI Desktop, pronto para ser usado para a criação de relatórios.
+
+   ![Selecionar Fechar e Aplicar](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 
 ## <a name="next-steps"></a>Próximas etapas
-Há inúmeras coisas que você pode fazer com o Power BI Desktop. Para obter mais informações sobre seus recursos, consulte as seguintes fontes:
+Para obter mais informações sobre o Power BI Desktop e as funcionalidades dele, confira os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-* [Visão geral de Consulta com o Power BI Desktop](desktop-query-overview.md)
+* [Visão geral da Consulta no Power BI Desktop](desktop-query-overview.md)
 * [Fontes de dados no Power BI Desktop](desktop-data-sources.md)
 * [Conectar-se a dados no Power BI Desktop](desktop-connect-to-data.md)
 * [Tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)   

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207585"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019624"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Exibir insights de dados em blocos do painel com o Power BI
 Cada bloco de [visual](end-user-tiles.md) em seu dashboard é uma porta de entrada para exploração de dados. Quando você seleciona um bloco, ele abre um relatório ou [abre a seção de P e R](end-user-q-and-a.md), em que você pode filtrar, classificar e examinar o conjunto de dados do relatório. E quando você executa insights, o Power BI faz a exploração de dados para você.
@@ -31,7 +31,7 @@ O recurso de insights tem como base um crescente [conjunto de algoritmos analít
 Quando você executar insights em um bloco do dashboard, o Power BI pesquisa apenas os dados usados para criar esse bloco de dashboard único. 
 
 1. [Abra um dashboard](end-user-dashboards.md).
-2. Passe o mouse sobre um bloco. Selecione as reticências (...) e escolha **Exibir insights**. 
+2. Passe o mouse sobre um bloco. Selecione **Mais opções** (...) e **Exibir insights**. 
 
     ![modo de menu de reticências](./media/end-user-insights/power-bi-hovers.png)
 

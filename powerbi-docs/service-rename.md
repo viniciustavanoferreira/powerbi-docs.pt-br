@@ -2,7 +2,6 @@
 title: Renomear dashboards, relatórios, workspaces, páginas de relatório, conjuntos de dados
 description: Renomear quase tudo no serviço do Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 905ef263084cf531e6b38fb4640286e4d78697ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273326"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871710"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Renomear quase tudo no serviço do Power BI
 Este artigo ensina como renomear um dashboard, um relatório, uma página de relatório, uma pasta de trabalho, um conjunto de dados, um aplicativo e um workspace no serviço do Power BI.
@@ -28,9 +27,9 @@ Este artigo ensina como renomear um dashboard, um relatório, uma página de rel
 | Relatório em um workspace |Sim |Não |
 | Pasta de trabalho em um workspace |Sim |Não |
 | Conjunto de dados em um workspace |Sim |Não |
-| Workspace de aplicativo |Sim, se você for o proprietário ou tiver permissões de Administrador |Não |
-| Aplicativos publicados |Não na Tela do aplicativo, mas o nome do aplicativo pode ser alterado no workspace do aplicativo e publicado novamente com um novo nome, se você tiver permissões de Administrador |Não |
-| Conteúdo do aplicativo (dashboard, relatório, pasta de trabalho, conjunto de dados) |Não na Tela do aplicativo, mas o conteúdo do aplicativo pode ser renomeado no workspace do aplicativo e publicado novamente com um novo nome, se você tiver permissões de Administrador |Não |
+| workspace |Sim, se você for o proprietário ou tiver permissões de Administrador |Não |
+| Aplicativos publicados |Não na tela do Aplicativo, mas o nome do aplicativo poderá ser alterado no workspace e publicado novamente com um novo nome se você tiver permissões de Administrador |Não |
+| Conteúdo do aplicativo (dashboard, relatório, pasta de trabalho, conjunto de dados) |Não na tela do Aplicativo, mas o conteúdo do aplicativo poderá ser renomeado no workspace e publicado novamente com um novo nome se você tiver permissões de Administrador |Não |
 | Conteúdo em **Compartilhado comigo** |Não |Não |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Renomear um dashboard, um relatório ou uma pasta de trabalho
@@ -45,7 +44,7 @@ Este artigo ensina como renomear um dashboard, um relatório, uma página de rel
 1. Inicie em um workspace e selecione a guia **Conjuntos de dados**.
    
    ![guia Conjuntos de dados do workspace](media/service-rename/power-bi-ellipses.png)
-2. Focalize o item para renomear, selecione as reticências (...) e escolha **Renomear**.  
+2. Focalize o item a ser renomeado, selecione **Mais opções** (...) e escolha **Renomear**.  
    
       ![selecione Renomear](media/service-rename/power-bi-rename-datasets.png)
    
@@ -57,11 +56,11 @@ Este artigo ensina como renomear um dashboard, um relatório, uma página de rel
    
      ![Painel Renomear](media/service-rename/power-bi-rename.png)
 
-## <a name="rename-an-app-workspace"></a>Renomear um Workspace de aplicativo
-Qualquer pessoa com permissões de Administrador pode renomear um workspace de aplicativo.
+## <a name="rename-a-workspace"></a>Renomear um workspace
+Qualquer pessoa com permissões de Administrador pode renomear um workspace.
 
 1. Inicie no workspace que você deseja renomear.
-2. No canto superior direito, selecione as reticências (...) e escolha **Editar workspace**. Se essa opção não aparecer, você não tem permissões para renomear este workspace. 
+2. No canto superior direito, selecione **Mais opções** (...) e escolha **Editar workspace**. Se essa opção não aparecer, você não tem permissões para renomear este workspace. 
    
     ![selecione Editar workspace](media/service-rename/power-bi-edit-workspace.png)
 3. Digite um novo nome de workspace e selecione **Salvar**.
@@ -85,7 +84,7 @@ Não gosta do nome de uma página em seu relatório do Power BI?  Um novo nome e
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 * Se o item a ser renomeado foi compartilhado com você ou faz parte de um pacote de conteúdo, você não verá o ícone de engrenagem e não terá acesso às Configurações.
-* Na guia **Conjuntos de dados**, se você não vir as reticências (...), expanda a janela do seu navegador.
+* Na guia **Conjuntos de dados**, se você não vir **Mais opções** (...), expanda a janela do navegador.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

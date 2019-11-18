@@ -2,7 +2,6 @@
 title: Gerar informações sobre os dados automaticamente com o Power BI
 description: Saiba como obter informações sobre seus conjuntos de dados e blocos de painéis.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994965"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872236"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Gerar informações sobre os dados automaticamente com o Power BI
 Você tem um novo conjunto de dados e não sabe exatamente por onde começar?  Você precisa criar um painel rapidamente?  Deseja procurar informações que você pode ter perdido?
@@ -38,7 +37,7 @@ Veja a Amanda executar insights rápidos em um conjunto de dados, abrir um insig
 
 Agora é sua vez. Explore insights usando o [exemplo de Análise de Qualidade de Fornecedor](sample-supplier-quality.md).
 
-1. Na guia **Conjuntos de Dados**, selecione as reticências (...) e escolha **Obter insights rápidos**.
+1. Na guia **Conjuntos de dados**, selecione **Mais opções** (...) e **Obter insights rápidos**.
    
     ![Guia Conjuntos de dados](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +61,7 @@ Agora é sua vez. Explore insights usando o [exemplo de Análise de Qualidade de
 
 1. Passe o mouse sobre um cartão e selecione o ícone de alfinete para adicionar a visualização a um dashboard.
 
-2. Passe o mouse sobre um cartão, selecione as reticências (...) e escolha **Exibir insights**. 
+2. Passe o mouse sobre um cartão, selecione **Mais opções** (...) e **Exibir insights**. 
 
     A tela de insights é aberta no Modo de foco.
    
@@ -86,7 +85,7 @@ Agora é sua vez. Explore insights usando o [exemplo de Análise de Qualidade de
 Em vez de buscar insights em um conjunto de dados inteiro, restrinja sua pesquisa para realizar um insight com escopo nos dados usados para criar um único bloco de dashboard. 
 
 1. Abra um dashboard.
-2. Passe o mouse sobre um bloco. selecione as reticências (...) e escolha **Exibir insights**. O bloco é aberto no [modo de foco](service-focus-mode.md) com os cartões de insights exibidos à direita.    
+2. Passe o mouse sobre um bloco. Selecione **Mais opções** (...) e **Exibir insights**. O bloco é aberto no [modo de foco](service-focus-mode.md) com os cartões de insights exibidos à direita.    
    
     ![Modo de foco](media/service-insights/pbi-insights-tile.png)    
 3. Algum insight desperta seu interesse? Selecione esse cartão de insights para se aprofundar ainda mais. O insight selecionado aparece à esquerda e novos insights, com base apenas nos dados daquele único insight, são exibidos à direita.    
@@ -96,5 +95,5 @@ Em vez de buscar insights em um conjunto de dados inteiro, restrinja sua pesquis
 - Se você for proprietário de um conjunto de dados, [otimize-o para os Insights Rápidos](service-insights-optimize.md).
 - Saiba mais sobre os [tipos de Insights Rápidos disponíveis](service-insight-types.md).
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 

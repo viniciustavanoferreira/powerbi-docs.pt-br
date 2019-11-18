@@ -2,7 +2,6 @@
 title: Usar o DirectQuery no Power BI Desktop
 description: Use o DirectQuery, também chamado de Conexão dinâmica, no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654773"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876062"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usar o DirectQuery no Power BI Desktop
 Com o **Power BI Desktop**, ao se conectar à fonte de dados, sempre é possível importar uma cópia dos dados para o **Power BI Desktop**. Para algumas fontes de dados, uma abordagem alternativa está disponível: conectar-se diretamente à fonte de dados usando o **DirectQuery**.
@@ -70,7 +69,7 @@ Os três pontos a seguir devem ser levados em consideração ao usar o **DirectQ
       The resultset of a query to external data source has exceeded
   
   Essa situação pode ocorrer com um gráfico simples que inclui uma coluna de cardinalidade muito alta, com a opção de agregação definida como *Não resumir*. O visual precisa ter somente colunas com uma cardinalidade abaixo de 1 milhão ou deve ter aplicados os filtros apropriados.
-* **Segurança** - Todos os usuários que utilizam um relatório publicado, conectem-se à fonte de dados de back-end usando as credenciais inseridas após a publicação para o serviço do Power BI. Essa é a mesma situação de quando dados são importados: todos os usuários veem os mesmos dados, independentemente das regras de segurança definidas na fonte de back-end. Os clientes que desejam ter a segurança por usuário implementada com fontes do DirectQuery devem usar a RLS. [Saiba mais sobre a RLS](service-admin-rls.md).
+* **Segurança** – Por padrão, todos os usuários que utilizam um relatório publicado conectam-se à fonte de dados de back-end usando as credenciais inseridas após a publicação para o serviço do Power BI. Essa é a mesma situação de quando dados são importados: todos os usuários veem os mesmos dados, independentemente das regras de segurança definidas na fonte de back-end. Clientes que querem que a segurança por usuário seja implementada com as fontes de DirectQuery devem usar a RLS ou configurar a autenticação restrita ao Kerberos na fonte. O Kerberos não está disponível para todas as fontes. [Saiba mais sobre a RLS](service-admin-rls.md). [Saiba mais sobre o Kerberos no DirectQuery](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos). 
 * **Recursos com suporte** - Nem todos os recursos do **Power BI Desktop** têm suporte no modo **DirectQuery**, ou têm algumas limitações. Além disso, há alguns recursos no serviço do Power BI (como *Quick Insights*) que não estão disponíveis para conjuntos de dados que usam o **DirectQuery**. Como tal, a limitação desses recursos ao usar o **DirectQuery** deve ser levada em consideração ao determinar se irá usar o **DirectQuery**.   
 
 ## <a name="publish-to-the-power-bi-service"></a>Publicar no serviço do Power BI
@@ -88,7 +87,7 @@ O Power BI exibe a janela **Configurações** . Lá, selecione a guia **Conjunto
 
 Até que as credenciais sejam fornecidas, abrir um relatório publicado ou explorar um conjunto de dados criado com uma conexão do **DirectQuery** com os resultados dessas fontes de dados resultará em um erro.
 
-Para fontes de dados diferentes de **Banco de Dados SQL do Azure**, **SQL Data Warehouse do Azure** e **Redshift** que usam o DirectQuery, um **Gateway de dados local** deverá ser instalado e a fonte de dados deverá ser registrada para estabelecer uma conexão de dados. [Saiba mais sobre o Gateway de dados local](http://go.microsoft.com/fwlink/p/?LinkID=627094).
+Para fontes de dados diferentes de **Banco de Dados SQL do Azure**, **SQL Data Warehouse do Azure** e **Redshift** que usam o DirectQuery, um **Gateway de dados local** deverá ser instalado e a fonte de dados deverá ser registrada para estabelecer uma conexão de dados. [Saiba mais sobre o Gateway de dados local](https://go.microsoft.com/fwlink/p/?LinkID=627094).
 
 ## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre o **DirectQuery**, confira os seguintes recursos:

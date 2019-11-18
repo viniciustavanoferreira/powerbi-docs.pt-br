@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: a2b51d2a03a9d3b88d31bc7d7d232fef0b2251d6
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175214"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431729"
 ---
 # <a name="managing-premium-capacities"></a>Gerenciamento de capacidades Premium
 
@@ -42,7 +42,7 @@ Pelo menos um Administrador de capacidade deve ser atribuído. Os usuários atri
 
 Os Administradores de capacidade não podem acessar o conteúdo do espaço de trabalho, a menos que estejam explicitamente atribuídos nas permissões do espaço de trabalho. Eles também não têm acesso a todas as áreas de administração do Power BI (a menos que sejam explicitamente atribuídas), como métricas de uso, logs de auditoria ou configurações de locatário. É importante ressaltar que os Administradores de capacidade não têm permissões para criar novas capacidades ou dimensionar as capacidades existentes. Os administradores são atribuídos por capacidade e isso garante que eles possam visualizar e gerenciar apenas as capacidades às quais estão atribuídos.
 
-O tamanho da capacidade é escolhido em uma lista disponível de opções do SKU, que é restrita pelo número de núcleos virtuais disponíveis no pool. É possível criar várias capacidades a partir do pool e elas podem ser originárias de um ou mais SKUs adquiridos. Por exemplo, o SKU de uma P3 (32 núcleos virtuais) pode ser usado para criar três capacidades: uma P2 (16 núcleos virtuais) e duas P1 (2 x 8 núcleos virtuais). É possível obter desempenho e dimensionamento aprimorados com a criação de capacidades de tamanho menor, conforme descrito no artigo [Otimização de capacidades Premium](service-premium-capacity-optimize.md). A imagem a seguir mostra um exemplo de configuração para a organização fictícia Contoso, que é composta por cinco capacidades Premium (3 x P1 e 2 x P3), cada uma contendo espaços de trabalho de aplicativos e vários espaços de trabalho com capacidade compartilhada.
+O tamanho da capacidade é escolhido em uma lista disponível de opções do SKU, que é restrita pelo número de núcleos virtuais disponíveis no pool. É possível criar várias capacidades a partir do pool e elas podem ser originárias de um ou mais SKUs adquiridos. Por exemplo, o SKU de uma P3 (32 núcleos virtuais) pode ser usado para criar três capacidades: uma P2 (16 núcleos virtuais) e duas P1 (2 x 8 núcleos virtuais). É possível obter desempenho e dimensionamento aprimorados com a criação de capacidades de tamanho menor, conforme descrito no artigo [Otimização de capacidades Premium](service-premium-capacity-optimize.md). A imagem a seguir mostra um exemplo de configuração para a organização fictícia Contoso, que é composta por cinco capacidades Premium (3 x P1 e 2 x P3), cada uma contendo workspaces e vários workspaces com capacidade compartilhada.
 
 ![Uma configuração de exemplo para a organização fictícia Contoso](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -66,7 +66,7 @@ As capacidades Premium podem ser excluídas, mas isso não levará à exclusão 
 
 ### <a name="assigning-workspaces-to-capacities"></a>Atribuir espaços de trabalho às capacidades
 
-Os espaços de trabalho podem ser atribuídos a uma capacidade Premium no Portal de administração do Power BI ou, no caso de um espaço de trabalho de aplicativos, no painel **Espaço de trabalho**.
+Os workspaces podem ser atribuídos a uma capacidade Premium no Portal de administração do Power BI ou no painel **Workspace**.
 
 Os Administradores de capacidade, além dos Administradores globais do Office 365 ou os administradores de serviços do Power BI, podem atribuir espaços de trabalho em massa no Portal de administração do Power BI. A atribuição em massa pode se aplicar a:
 

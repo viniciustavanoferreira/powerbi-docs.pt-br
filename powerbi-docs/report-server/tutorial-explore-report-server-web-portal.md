@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65240026"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021621"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Explorar o portal da Web do Servidor de Relatórios do Power BI em uma VM
 Neste tutorial, você cria uma máquina virtual do Azure com o Servidor de Relatórios do Power BI já instalado, para que possa experimentar a exibição, a edição e o gerenciamento de relatórios paginados e de exemplo do Power BI, bem como de KPIs.
@@ -189,7 +189,7 @@ Você pode exibir e gerenciar relatórios paginados e iniciar o Construtor de Re
 
 ### <a name="manage-a-paginated-report"></a>Gerenciar um relatório paginado
 
-1. No portal da Web, em **Relatórios Paginados**, selecione as reticências (...) ao lado de **Pedido de Vendas** > **Gerenciar**.
+1. No portal da Web, em **Relatórios paginados**, selecione **Mais opções** (...) ao lado de **Pedido de Vendas** > **Gerenciar**.
 
 1. Selecione **Parâmetros**, altere o valor padrão de **SalesOrderNumber** para **SO50689** > **Aplicar**.
 
@@ -219,7 +219,7 @@ Você pode exibir e gerenciar relatórios paginados e iniciar o Construtor de Re
 
 Você pode editar relatórios paginados no Construtor de Relatórios e pode iniciar o Construtor de Relatórios diretamente no navegador.
 
-1. No portal da Web, selecione as reticências (...) ao lado de **Pedido de Vendas** > **Editar no Construtor de Relatórios**.
+1. No portal da Web, selecione **Mais opções** (...) ao lado de **Pedido de Vendas** > **Editar no Construtor de Relatórios**.
 
 1. Selecione **Permitir** para permitir que este site abra um programa em seu computador.
 

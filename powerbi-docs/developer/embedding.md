@@ -3,7 +3,6 @@ title: Análise integrada com o Power BI
 description: O Power BI oferece APIs para usar análises integradas para seus dashboards e relatórios nos aplicativos. Saiba mais sobre a integração com o Power BI em ambientes de PaaS e SaaS usando software de análise integrada, ferramentas de análise integrada ou ferramentas de business intelligence inseridas.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
@@ -17,16 +16,16 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: ccd5917b91d9dd0576f0f4607f84f849f6df145d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391521"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875765"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Análise integrada com o Power BI
 
-O serviço do Power BI (SaaS) e o serviço do Power BI Embedded no Azure (PaaS) têm APIs para inserir seus painéis e seus relatórios. Ao inserir um conteúdo, isso fornece acesso aos recursos mais recentes do Power BI, como dashboards, gateways e workspaces do aplicativo.
+O serviço do Power BI (SaaS) e o serviço do Power BI Embedded no Azure (PaaS) têm APIs para inserir seus painéis e seus relatórios. Ao inserir conteúdo, isso fornece acesso aos recursos mais recentes do Power BI, como dashboards, gateways e workspaces.
 
 É possível acessar a [Ferramenta de configuração de inserção](https://aka.ms/embedsetup) para começar rapidamente e baixar um aplicativo de exemplo.
 
@@ -85,7 +84,7 @@ Os desenvolvedores que usam o Power BI Embedded podem passar o tempo concentrado
 > [!IMPORTANT]
 > Embora a inserção exija o serviço do Power BI, os clientes não precisam ter uma conta do Power BI para exibir o conteúdo inserido de seu aplicativo. 
 
-Quando você estiver pronto para passar para a produção, seu workspace do aplicativo deverá ser atribuído a uma capacidade dedicada. O Power BI Embedded no Microsoft Azure oferece [capacidades dedicadas](azure-pbie-create-capacity.md) a serem usadas com seus aplicativos.
+Quando você estiver pronto para passar para a produção, seu workspace deverá ser atribuído a uma capacidade dedicada. O Power BI Embedded no Microsoft Azure oferece [capacidades dedicadas](azure-pbie-create-capacity.md) a serem usadas com seus aplicativos.
 
 Para obter os detalhes da inserção, confira [Como inserir o conteúdo do Power BI](embed-sample-for-customers.md).
 
@@ -102,4 +101,4 @@ Agora você pode tentar inserir o conteúdo do Power BI em um aplicativo ou tent
 > [!div class="nextstepaction"]
 >[Inserir para seus clientes](embed-sample-for-customers.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

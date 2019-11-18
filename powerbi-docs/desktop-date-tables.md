@@ -2,7 +2,6 @@
 title: Definir e usar tabelas de datas no Power BI Desktop
 description: Saiba como definir uma tabela como uma tabela de datas e o que isso significa no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b2a7f4434ac82a125352eaefdd2417d9039b710f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454376"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868615"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Definir e usar tabelas de datas no Power BI Desktop
 
 O **Power BI Desktop** funciona nos bastidores para identificar automaticamente as colunas que representam datas e, em seguida, cria hierarquias de datas e outros metadados de habilitação para seu modelo, em seu nome. Você pode usar essas hierarquias internas ao criar recursos de relatório como elementos visuais, tabelas, medidas rápidas, segmentações de dados e assim por diante. O Power BI Desktop faz isso criando tabelas ocultas em seu nome, que você pode usar para seus relatórios e expressões DAX.
+
+Para obter mais informações sobre esse comportamento automático, leia o artigo [Data/hora automática no Power BI Desktop](desktop-auto-date-time.md).
 
 Muitos analistas de dados preferem criar suas próprias tabelas de datas, e isso é bom. No **Power BI Desktop**, você pode especificar a tabela que deseja que seu modelo use como sua **tabela de datas** e posteriormente criar elementos visuais relacionados a datas, tabelas, medidas rápidas e assim por diante usando dados de data dessa tabela. Quando você especifica sua própria tabela de datas, controla as hierarquias de datas criadas em seu modelo e usa-as em **medidas rápidas** e outras operações que usam a tabela de datas do seu modelo. 
 
@@ -73,8 +74,7 @@ Quando você especifica sua própria **tabela de datas**, precisa se garantir qu
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Você também pode estar interessado nos artigos a seguir.
+Você também pode estar interessado nos seguintes artigos:
 
+* [Data/hora automática no Power BI Desktop](desktop-auto-date-time.md)
 * [Tipos de dados no Power BI Desktop](desktop-data-types.md)
-
- 

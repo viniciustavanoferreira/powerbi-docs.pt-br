@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195401"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432146"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar um aplicativo de modelo no Power BI
 
@@ -33,19 +33,19 @@ Estes são os requisitos para a criação de um aplicativo de modelo:
 - Familiaridade com os [conceitos básicos do Power BI](service-basic-concepts.md)
 - Permissões para compartilhar um aplicativo de modelo publicamente. Confira o [portal de administração do Power BI, configurações de Aplicativo de modelo](service-admin-portal.md#template-apps-settings) para obter mais detalhes.
 
-## <a name="create-the-template-app-workspace"></a>Criar o workspace do aplicativo de modelo
+## <a name="create-the-template-workspace"></a>Criar o workspace de modelo
 
-Para criar um aplicativo de modelo que pode ser distribuído para outros locatários do Power BI, você precisa criá-lo em um dos novos workspaces do aplicativo.
+Para criar um aplicativo de modelo que pode ser distribuído para outros locatários do Power BI, você precisa criá-lo em um dos novos workspaces.
 
-1. No serviço do Power BI, selecione **Workspaces** > **Criar workspace do aplicativo**.
+1. No serviço do Power BI, selecione **Workspaces** > **Criar workspace**.
 
-    ![Criar workspace do aplicativo](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![Criar o workspace](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. Em **Criar workspace de aplicativo**, selecione **Atualizar para novo**.
+2. Em **Criar workspace**, selecione **Atualizar para novo**.
 
     ![Experimentar os novos workspaces](media/service-template-apps-create/power-bi-upgrade-new.png)
 
-3. Insira um nome, uma descrição (opcional) e a imagem de logotipo (opcional) para o workspace do aplicativo.
+3. Insira um nome, uma descrição (opcional) e a imagem de logotipo (opcional) para o workspace.
 
 4. Expanda a seção **Avançado** e selecione **Desenvolver um aplicativo de modelo**.
 
@@ -57,9 +57,9 @@ Para criar um aplicativo de modelo que pode ser distribuído para outros locatá
 
 ## <a name="create-the-content-in-your-template-app"></a>Criar o conteúdo no aplicativo de modelo
 
-Assim como ocorre com um workspace comum do aplicativo do Power BI, a próxima etapa é criar o conteúdo no workspace.  
+Assim como ocorre com um workspace comum do Power BI, a próxima etapa é criar o conteúdo no workspace.  
 
-- [Crie o conteúdo do Power BI](power-bi-creator-landing.md) no workspace do aplicativo.
+- [Crie o conteúdo do Power BI](power-bi-creator-landing.md) no workspace.
 
 Caso esteja usando parâmetros no Power Query, verifique se eles têm um tipo bem definido (por exemplo, Texto). Não há suporte para os tipos Qualquer e Binário.
 
@@ -69,7 +69,7 @@ O artigo [Dicas para a criação de aplicativos de modelo no Power BI](service-t
 
 Agora que há algum conteúdo no workspace, você está pronto para empacotá-lo em um aplicativo de modelo. A primeira etapa é criar um aplicativo de modelo de teste, acessível somente na organização do locatário.
 
-1. No workspace do aplicativo de modelo, selecione **Criar aplicativo**.
+1. No workspace de modelo, selecione **Criar aplicativo**.
 
     ![Criar aplicativo](media/service-template-apps-create/power-bi-create-app.png)
 
@@ -133,7 +133,7 @@ O URL não muda quando você se move entre os estágios de lançamento. A promo�
 
 Vamos percorrer os estágios:
 
-1. No workspace do aplicativo de modelo, selecione **Gerenciamento de Versão**.
+1. No workspace de modelo, selecione **Gerenciamento de Versão**.
 
     ![Ícone do gerenciamento de versão](media/service-template-apps-create/power-bi-release-management-icon.png)
 

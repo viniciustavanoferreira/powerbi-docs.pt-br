@@ -2,7 +2,6 @@
 title: Atalhos de teclado no Power BI Desktop
 description: Como o Power BI Desktop pode ser acessado usando atalhos de teclado
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3fecda9af7f329e32f07dc2967e5f6cf7ee553d6
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73181104"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869370"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Atalhos de teclado no Power BI Desktop
 

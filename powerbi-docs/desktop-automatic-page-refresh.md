@@ -2,7 +2,6 @@
 title: Atualização automática de página no Power BI Desktop (visualização)
 description: Saiba como atualizar automaticamente as páginas para fontes do DirectQuery no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546dffe20d6840544eca1360945482630a686069
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307974"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878762"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Atualização automática de página no Power BI Desktop (visualização)
 
@@ -112,7 +111,7 @@ As **capacidades** são um conceito fundamental do Power BI que representa um co
 
 Na capacidade compartilhada, as cargas de trabalho são executadas em recursos computacionais compartilhados com outros clientes. Como a capacidade deve compartilhar recursos, limitações são impostas para garantir *equilíbrio*, como definir o tamanho máximo do modelo (1 GB) e a frequência máxima de atualização diária (oito vezes por dia).
 
-Os **workspaces** do Power BI residem em capacidades e representam contêineres de segurança, colaboração e implantação. Cada usuário do Power BI tem um workspace pessoal, conhecido como **Meu workspace**. Workspaces adicionais podem ser criados para habilitar a colaboração e a implantação. Eles são conhecidos como **Workspaces do Aplicativo**. Por padrão, os workspaces, incluindo os pessoais, são criados na **capacidade compartilhada**.
+Os **workspaces** do Power BI residem em capacidades e representam contêineres de segurança, colaboração e implantação. Cada usuário do Power BI tem um workspace pessoal, conhecido como **Meu workspace**. Workspaces adicionais podem ser criados para habilitar a colaboração e a implantação. Eles são conhecidos como **workspaces**. Por padrão, os workspaces, incluindo os pessoais, são criados na **capacidade compartilhada**.
 
 Confira alguns detalhes dos dois cenários de workspaces:
 

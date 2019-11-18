@@ -12,14 +12,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b52a858d10bb7f508d39e2d4e9678e48e01394f5
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100333"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019437"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Exibir conteúdo relacionado no serviço do Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 O painel **Conteúdo relacionado** mostra como o conteúdo do serviço do Power BI (dashboards, relatórios e conjuntos de dados) está interconectado. O painel **Conteúdo relacionado** também é uma plataforma de lançamento para executar ações. Aqui, é possível abrir um painel, abrir um relatório, gerar insights, analisar os dados no Excel e muito mais.  
 
 No Power BI, os relatórios são gerados a partir de conjuntos de dados, visualizações de relatórios são fixadas em painéis e os elementos visuais dos painéis nos redirecionam aos relatórios. Mas como saber quais painéis hospedam elementos visuais do seu relatório de Marketing? E como localizar esses painéis? O seu painel Compras utiliza elementos visuais de mais de um conjunto de dados? Nesse caso, que nomes receberam e como é possível abri-los e editá-los? Seu conjunto de dados de RH está sendo usado em algum relatório ou painel? Ou, pode ser movido sem desfazer links? Perguntas como essas podem ser todas respondidas no painel **Conteúdo relacionado**.  O painel exibe o conteúdo relacionado, permite que você tenha controle sobre o conteúdo e navegue facilmente pelo conteúdo relacionado.
@@ -36,7 +39,7 @@ Assista Exibirá o conteúdo relacionado de um dashboard. Em seguida, siga as in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
-Com um painel ou relatório aberto, selecione as reticências (...) na barra de menus e escolha **Exibição relacionada** na lista suspensa.
+Com um dashboard ou relatório aberto, selecione **Mais opções** (...) na barra de menus e escolha **Exibição relacionada** na lista suspensa.
 
 ![Menu suspenso de reticências](./media/end-user-related/power-bi-dropdown.png)
 

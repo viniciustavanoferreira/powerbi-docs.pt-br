@@ -2,21 +2,20 @@
 title: Exportar dados de um visual do Power BI
 description: Exporte dados de um visual de relatório e visual de painel e exiba-os no Excel.
 author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589520"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851330"
 ---
 # <a name="export-data-from-a-visual"></a>Exportar dados de um visual
 
@@ -26,11 +25,11 @@ Se desejar ver os dados usados para criar um visual, [você poderá exibi-los no
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>A partir de um visual em um painel do Power BI
 
-1. Comece em um painel do Power BI. Aqui estamos usando o painel do aplicativo ***Exemplo de Vendas e marketing***. Você pode [baixar esse aplicativo em AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
+1. Comece em um painel do Power BI. Aqui estamos usando o painel do aplicativo ***Exemplo de Vendas e marketing***. Você pode [baixar esse aplicativo em AppSource.com](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
 
     ![Painel do aplicativo](media/end-user-export/power-bi-dashboards.png)
 
-2. Passe o mouse sobre um visual para revelar as reticências (...) e clique para exibir o menu de ação.
+2. Passe o mouse sobre um visual para revelar **Mais opções** (...) e clique para exibir o menu de ação.
 
     ![Menu que aparece quando as reticências são selecionadas](media/end-user-export/power-bi-action-menu.png)
 

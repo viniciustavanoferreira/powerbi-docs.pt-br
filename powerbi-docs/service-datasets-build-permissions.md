@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 069ec5e0c767bcfcb0a4a41c2180ae78146800f2
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020955"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020296"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Permissão Criar para conjuntos de dados compartilhados (versão prévia)
 
@@ -29,7 +29,7 @@ Você pode conceder a permissão Criar para um conjunto de dados de diferentes f
 
 - Membros de um workspace com, pelo menos, uma função de Colaborador têm automaticamente a permissão Criar para um conjunto de dados nesse workspace e permissão para copiar um relatório.
  
-- Os membros do workspace no qual reside o conjunto de dados podem atribuir a permissão a usuários ou grupos de segurança específicos na Central de permissões. Se você é membro do workspace, selecione as reticências (...) ao lado de um conjunto de dados > **Gerenciar Permissões**.
+- Os membros do workspace no qual reside o conjunto de dados podem atribuir a permissão a usuários ou grupos de segurança específicos na Central de permissões. Se você for membro do workspace, selecione **Mais opções** (...) ao lado de um conjunto de dados > **Gerenciar Permissões**.
 
     ![Selecionar as reticências](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -50,11 +50,11 @@ Você pode remover a permissão Criar de uma pessoa em um conjunto de dados. Se 
 Em algum momento, talvez seja necessário remover a permissão Criar de alguns usuários de um conjunto de dados compartilhado. 
 
 1. Em um workspace, acesse a página da lista **Conjuntos de dados**. 
-1. Selecione as reticências (...) ao lado do conjunto de dados > **Gerenciar permissão**.
+1. Selecione **Mais opções** (...) ao lado do conjunto de dados > **Gerenciar permissão**.
 
     ![Gerenciar permissões](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecione as reticências (...) ao lado de um nome > **Remover permissão Criar**.
+1. Selecione **Mais opções** (...) ao lado de um nome > **Remover build**.
 
     ![Remover permissão Criar](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -80,11 +80,11 @@ Digamos que você tenha distribuído um aplicativo de um workspace para um grupo
 1. Selecione **Atualizar**.
 
 1. No workspace, acesse a página da lista **Conjuntos de dados**. 
-1. Selecione as reticências (...) ao lado do conjunto de dados > **Gerenciar permissão**.
+1. Selecione **Mais opções** (...) ao lado do conjunto de dados > **Gerenciar permissão**.
 
     ![Gerenciar permissões](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecione as reticências (...) ao lado do nome > **Remover permissão Criar**.
+1. Selecione **Mais opções** (...) ao lado de um nome > **Remover build**.
 
     ![Remover permissão Criar](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

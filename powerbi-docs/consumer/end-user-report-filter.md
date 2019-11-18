@@ -2,23 +2,24 @@
 title: Fazer um tour pelo painel Filtros do relatório
 description: Como adicionar um filtro a um relatório no serviço do Power BI para consumidores
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a1dee67279e6f43c0ff8008338f7b8a9f5a2d41a
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: af784c772ddbdd895f7e6c576d91d4e2fec8ffeb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70840982"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862058"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Faça um tour pelo painel Filtros do relatório
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Este artigo oferece uma visão geral do painel **Filtros** do relatório no serviço do Power BI. Use os filtros para descobrir novos insights em seus dados.
 
@@ -34,11 +35,14 @@ Quando um colega compartilhar um relatório com você, não se esqueça de exami
 
 O painel **Filtros** contém os filtros que o *designer* de relatórios adicionou ao relatório. *Consumidores* como você podem interagir com os filtros existentes e salvar as alterações, mas não podem adicionar novos filtros ao relatório. Por exemplo, na captura de tela acima, o designer adicionou três filtros no nível de página: **Segmento é Tudo**, **Ano é 2014** e **Região é Central**. Você pode interagir e alterar esses filtros, mas não pode adicionar um quarto filtro no nível de página.
 
-No serviço do Power BI, os relatórios de mantêm as alterações feitas no painel **Filtros**. O serviço realiza essas alterações por meio da versão móvel do relatório.
+No serviço do Power BI, os relatórios de mantêm as alterações feitas no painel **Filtros**. O serviço realiza essas alterações por meio da versão móvel do relatório. 
 
 Para redefinir o painel **Filtros** para os padrões do designer, selecione **Redefinir para padrão** na barra de menus superior.
 
 ![Captura de tela do ícone Redefinir para padrão.](media/end-user-report-filter/power-bi-reset-icon.png) 
+
+> [!NOTE]
+> Se você não vir a opção **Redefinir para o padrão**, ela poderá ter sido desabilitada pelo *designer* de relatório. O *designer* também pode bloquear filtros específicos para que você não possa alterá-los.
 
 ## <a name="view-all-the-filters-for-a-report-page"></a>Exibir todos os filtros para uma página de relatório
 

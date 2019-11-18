@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 2fdc893ac8545df8fc64f45959a418018a189c84
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020099"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020459"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar novos espaços de trabalho no Power BI
 
@@ -74,7 +74,7 @@ Você pode especificar quais usuários recebem a notificação sobre problemas q
 
     No painel **Criar um espaço de trabalho** ao criá-lo pela primeira vez.
 
-    No painel de navegação esquerdo, selecione a seta ao lado de **Espaços de trabalho**, selecione as reticências (...) ao lado do nome do espaço de trabalho > **Configurações do espaço de trabalho**. O painel **Configurações** é aberto.
+    No painel de navegação esquerdo, selecione a seta ao lado de **workspaces**, selecione **Mais opções** (...) ao lado do nome do workspace > **Configurações do workspace**. O painel **Configurações** é aberto.
 
     ![Configurações do workspace](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +94,7 @@ O Power BI não sincroniza as permissões de usuários ou grupos que estão conf
 
     No painel **Criar um espaço de trabalho** ao criá-lo pela primeira vez.
 
-    No painel de navegação esquerdo, selecione a seta ao lado de **Espaços de trabalho**, selecione as reticências (...) ao lado do nome do espaço de trabalho > **Configurações do espaço de trabalho**. O painel **Configurações** é aberto.
+    No painel de navegação esquerdo, selecione a seta ao lado de **workspaces**, selecione **Mais opções** (...) ao lado do nome do workspace > **Configurações do workspace**. O painel **Configurações** é aberto.
 
     ![Configurações do workspace](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 

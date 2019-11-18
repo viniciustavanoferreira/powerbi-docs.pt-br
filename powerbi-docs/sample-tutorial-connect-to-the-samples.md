@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391514"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020624"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Conectar-se aos exemplos no serviço do Power BI
 
@@ -91,7 +91,7 @@ Agora, explore o dashboard, o conjunto de dados e o relatório por conta própri
      
    ![Novo relatório](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. Outra maneira de explorar o conjunto de dados é executar os [Insights rápidos](consumer/end-user-insights.md). Selecione as reticências (...) e, em seguida, escolha **Obter insights rápidos**. Quando os insights estiverem prontos, selecione **Exibir insights**.
+1. Outra maneira de explorar o conjunto de dados é executar os [Insights rápidos](consumer/end-user-insights.md). Selecione **Mais opções** (...) e, em seguida, escolha **Obter insights rápidos**. Quando os insights estiverem prontos, selecione **Exibir insights**.
      
     ![Relatório de Insights](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

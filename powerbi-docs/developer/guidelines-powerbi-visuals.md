@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 84c873c925c7e733c70b309d5cc2476dff2e553b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e650b1eb8fd05db54b9d0bf9021eaa881d28832e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863946"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128190"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes para visuais do Power BI
 Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) seu visual no AppSource para que outras pessoas descubram e usem, verifique se você seguiu as diretrizes para criar uma experiência excelente para seus usuários. 
@@ -52,7 +52,7 @@ Os ícones informativos, caso haja, no modo de leitura, devem estar em conformid
 
 Até recentemente, o Marketplace (AppSource) aceitava apenas os visuais gratuitos do Power BI. Essa política foi alterada (em dezembro de 2018) para que você também possa enviar os visuais para o AppSource com uma etiqueta de preço "uma compra adicional pode ser necessária". 
 
-Os visuais "compra adicional pode ser necessária" são semelhantes a suplementos de IAP (compra no aplicativo) na Office Store. Os desenvolvedores também podem enviar esses visuais para a certificação após a equipe do AppSource aprova-los e depois de verificar se eles estão em conformidade com os requisitos de certificação. Para saber mais sobre os requisitos, confira [Visuais do Power BI certificados](../power-bi-custom-visuals-certified.md).
+Os visuais "compra adicional pode ser necessária" são semelhantes a suplementos de IAP (compra no aplicativo) na Office Store. Os desenvolvedores também podem enviar esses visuais para a certificação após a equipe do AppSource aprova-los e depois de verificar se eles estão em conformidade com os requisitos de certificação. Para saber mais sobre os requisitos, confira [Visuais do Power BI certificados](../developer/power-bi-custom-visuals-certified.md).
 
 > [!NOTE]
 > Para o visual ser certificado, ele não deverá acessar serviços ou recursos externos.

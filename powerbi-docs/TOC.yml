@@ -80,7 +80,7 @@
         - name: Membro padrão em modelos multidimensionais no Power BI
           href: desktop-default-member-multidimensional-models.md
         - name: Perguntas frequentes sobre visuais
-          href: power-bi-custom-visuals-faq.md
+          href: developer/power-bi-custom-visuals-faq.md
     - name: Como
       items:
         - name: Obter o Power BI Desktop
@@ -673,6 +673,8 @@
           items:
             - name: Criar os novos workspaces
               href: service-create-the-new-workspaces.md
+            - name: Atualizar workspaces clássicos
+              href: designer/service-upgrade-workspaces.md
             - name: Criar workspaces
               href: service-create-workspaces.md
             - name: Publicar aplicativos de workspaces

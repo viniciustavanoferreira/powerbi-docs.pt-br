@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: 677e2b96da533b62cafc724a2f4498591d91057a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f1d1a22f676873e3a68edf891c4b23522904ddd9
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073568"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169023"
 ---
 # <a name="service-interruption-notifications"></a>Notificações de interrupção de serviço
 
@@ -28,7 +28,7 @@ Neste momento, enviamos emails para os seguintes _cenários de confiabilidade_:
 - Confiabilidade de atualização do modelo
 - Confiabilidade de atualização de consulta
 
-Exemplos dessas notificações incluem quando os usuários experimentam um atraso estendido em operações como abertura de relatórios, atualização de conjuntos de dados ou execuções de consultas. Depois que um incidente é resolvido, você recebe um email de acompanhamento.
+Notificações são enviadas quando há um _atraso estendido_ em operações como abertura de relatórios, atualização de conjuntos de dados ou execuções de consultas. Depois que um incidente é resolvido, você recebe um email de acompanhamento.
 
 > [!NOTE]
 > Este recurso no momento está disponível apenas para capacidades dedicadas no Power BI Premium. Ele não está disponível para capacidade compartilhada ou inserida.

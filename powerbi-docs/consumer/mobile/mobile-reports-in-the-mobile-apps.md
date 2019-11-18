@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ab96cc6d17d340c626775bf2a03e225968985835
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985739"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019387"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -45,7 +45,7 @@ Há dois ícones para relatórios em aplicativos do Power BI Mobile:
 > [!NOTE]
 > Quando você segura o telefone na orientação paisagem, sempre obtém o layout de paisagem, mesmo que a página do relatório esteja no layout do telefone.
 
-Para obter um relatório de um dashboard, toque nas reticências (…) no canto superior direito de um bloco e então toque em **Abrir relatório**:
+Para ver um relatório no dashboard, toque em **Mais opções** (...) no canto superior direito do bloco e em **Abrir relatório**:
   
   ![Abrir relatório](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +59,7 @@ Um toque é o mesmo que um clique com o mouse. Portanto, se desejar realizar um 
 Quando você toca em um valor de segmentação, o valor é selecionado e o restante do relatório é dividido por esse valor.
 Quando você toca em um link, botão ou indicador, a ação definida pelo autor do relatório ocorrerá.
 
-Você provavelmente observou que, quando você toca em um visual, uma borda é exibida. No canto superior direito da borda, você verá reticências (…). Se você tocar nas reticências, verá um menu das ações que você pode executar no visual:
+Você provavelmente observou que, quando você toca em um visual, uma borda é exibida. No canto superior direito da borda, você verá **Mais opções** (...). Se você tocar nas reticências, verá um menu das ações que você pode executar no visual:
 
 ![Visual e menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +92,7 @@ Para obter mais informações, leia sobre como [adicionar detalhamento no Power 
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>Usando as ações no rodapé do relatório
-No rodapé do relatório, você pode executar várias ações na página de relatório atual ou em todo o relatório. O rodapé dá acesso rápido às ações usadas com mais frequência. Você pode acessar outras ações tocando no botão de reticências (…):
+No rodapé do relatório, você pode executar várias ações na página de relatório atual ou em todo o relatório. O rodapé dá acesso rápido às ações usadas com mais frequência. Você pode acessar outras ações tocando no botão **Mais opções** (...):
 
 ![Rodapé do relatório](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +105,7 @@ Você pode percorrer páginas de relatório passando o dedo da borda da tela par
 - Exibir todas as ações de relatório.
 
 #### <a name="all-report-actions"></a>Todas as ações de relatório
-Ao tocar no botão de reticências (…) no rodapé do relatório, você verá todas as ações que podem ser executadas em um relatório:
+Ao tocar no botão de reticências **Mais opções** (...) no rodapé do relatório, você verá todas as ações que podem ser executadas em um relatório:
 
 
 ![Todas as ações de relatório](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)

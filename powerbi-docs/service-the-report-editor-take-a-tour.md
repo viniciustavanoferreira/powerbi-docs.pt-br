@@ -2,7 +2,6 @@
 title: Fazer um tour pelo editor de relatório
 description: No Power BI Desktop e no serviço do Power BI, o editor de relatório é onde você cria os relatórios que seus usuários finais veem. Ele é semelhante nos dois ambientes.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023729"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871354"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Visão geral do editor de relatório no Power BI
 
@@ -34,14 +33,14 @@ No serviço do Power BI, o editor de relatório só está disponível no Modo de
 
 O editor de relatórios do Power BI é dividido em várias seções principais:  
 
-1. Barra de navegação superior
+1. Painel de navegação superior
 1. Tela de relatório
 1. Painel Filtros
 1. Painel Visualizações
 1. Painel Campos
 
-## <a name="1-the-top-navigation-bar"></a>1. A barra de navegação superior
-São várias as ações disponíveis na barra de navegação superior, com novas ações adicionadas a todo momento. Para obter informações sobre uma ação específica, use o sumário da documentação do Power BI ou a caixa de Pesquisa.
+## <a name="1-the-top-nav-pane"></a>1. O painel de navegação superior
+São várias as ações disponíveis no painel de navegação superior, com novas ações sendo adicionadas a todo momento. Para obter informações sobre uma ação específica, use o sumário da documentação do Power BI ou a caixa de Pesquisa.
 
 
 ## <a name="2-the-report-canvas"></a>2. A tela de relatório
@@ -140,7 +139,7 @@ O Power BI usa vários ícones diferentes para indicar os tipos de campos em um 
 |![Campo numérico](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | Campo numérico: campos numéricos são agregações que podem ser somadas ou calculadas em médias, por exemplo. As agregações são importadas com os dados definidos no modelo de dados em que seu relatório se baseia. Para obter mais informações, veja [Agregações em relatórios do Power BI](service-aggregates.md). |
 |![Coluna calculada não numérica](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | Coluna calculada com um tipo de dados não numérico: uma nova coluna não numérica criada com uma fórmula DAX (Data Analysis Expressions) que define os valores da coluna. Leia mais sobre [colunas calculadas](desktop-calculated-columns.md). |
 |![Coluna calculada numérica](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   Coluna calculada numérica: uma nova coluna criada com uma fórmula DAX (Data Analysis Expressions) que define os valores da coluna. Leia mais sobre [colunas calculadas](desktop-calculated-columns.md). |
-|![Measure](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Medida: uma medida tem sua própria fórmula embutida em código. Não é possível alterar o cálculo; por exemplo, se ele for uma soma, ele só poderá ser uma soma. Os valores não são armazenados em uma coluna. Eles são calculados em tempo real, dependendo apenas de sua localização em um visual. Para obter mais informações, leia [Noções básicas sobre medidas](desktop-measures.md). |
+|![Medida](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Medida: uma medida tem sua própria fórmula embutida em código. Não é possível alterar o cálculo; por exemplo, se ele for uma soma, ele só poderá ser uma soma. Os valores não são armazenados em uma coluna. Eles são calculados em tempo real, dependendo apenas de sua localização em um visual. Para obter mais informações, leia [Noções básicas sobre medidas](desktop-measures.md). |
 |![Grupo de medidas](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | Grupo de medidas  |
 |![Ícone de KPI](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI: uma indicação visual que comunica a quantidade de progresso feito em relação a uma meta mensurável. Leia mais sobre visuais de [KPI (indicador chave de desempenho)](visuals/power-bi-visualization-kpi.md) |
 |![Ícone de hierarquia](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  Hierarquia dos campos: selecione a seta para ver os campos que compõem a hierarquia.  Assista a este vídeo do Power BI no YouTube sobre [Como criar e trabalhar com hierarquias](https://www.youtube.com/watch?v=q8WDUAiTGeU) para obter mais informações. |
@@ -156,5 +155,5 @@ Mais sobre os relatórios no [serviço do Power BI](service-report-create-new.md
 
 [Conceitos básicos para designers do Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

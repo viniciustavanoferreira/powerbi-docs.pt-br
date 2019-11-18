@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269305"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429135"
 ---
 # <a name="power-bi-permissions"></a>Permissões do Power BI
 
@@ -42,7 +42,7 @@ As permissões do Power BI fornecem a um aplicativo a capacidade de executar det
 Um aplicativo pode solicitar permissões ao tentar entrar na página do usuário pela primeira vez ao passar as permissões solicitadas no parâmetro de escopo da chamada. Se as permissões forem concedidas, um token de acesso será retornado ao aplicativo, e poderá ser usado em chamadas à API futuras. O acesso pode ser usado somente por um aplicativo específico.
 
 > [!NOTE]
-> As APIs do Power BI ainda se referem aos workspaces do aplicativo como grupos. As referências a grupos significam que você está trabalhando com workspaces do aplicativo.
+> As APIs do Power BI ainda se referem aos workspaces como grupos. As referências a grupos significam que você está trabalhando com workspaces.
 
 ## <a name="requesting-permissions"></a>Solicitando permissões
 

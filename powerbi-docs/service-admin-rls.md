@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 7d2bfbfb53914fea43014c78d88ac0c66559466c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074837"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431353"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>RLS (segurança em nível de linha) com o Power BI
 
@@ -70,7 +70,7 @@ Você também pode ver quantos membros fazem parte da função pelo número entr
 
 Você pode validar que a função definida está funcionando corretamente ao testar a função. 
 
-1. Selecione as **reticências (...)** ao lado da função.
+1. Selecione **Mais opções** (...) ao lado da função.
 2. Selecione **Testar dados como função**
 
 ![Testar como função](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +89,12 @@ Para retornar à exibição normal, selecione **Voltar à Segurança de Nível d
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Usando RLS com workspaces do aplicativo no Power BI
+## <a name="using-rls-with-workspaces-in-power-bi"></a>Usando RLS com workspaces no Power BI
 
-Se você publicar seu relatório do Power BI Desktop em um workspace do aplicativo no serviço do Power BI, as funções serão aplicadas aos membros somente leitura. Será necessário indicar que os membros só podem exibir o conteúdo do Power BI nas configurações de workspace do aplicativo.
+Se você publicar seu relatório do Power BI Desktop em um workspace no serviço do Power BI, as funções serão aplicadas aos membros somente leitura. Será necessário indicar que os membros só podem exibir o conteúdo do Power BI nas configurações de workspace.
 
 > [!WARNING]
-> Se você tiver configurado o workspace do aplicativo para que os membros tenham permissões de edição, as funções RLS não serão aplicadas a eles. Os usuários poderão ver todos os dados.
+> Se você tiver configurado o workspace para que os membros tenham permissões de edição, as funções RLS não serão aplicadas a eles. Os usuários poderão ver todos os dados.
 
 ![Configurações de grupo](media/service-admin-rls/rls-group-settings.png)
 

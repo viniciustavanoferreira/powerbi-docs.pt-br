@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073607"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431894"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Inserir com Web Part de Relatório no SharePoint Online
 
@@ -79,11 +79,11 @@ Inserir um relatório no SharePoint Online não concede automaticamente aos usu�
 > [!IMPORTANT]
 > Certifique-se de examinar quem pode ver o relatório dentro do serviço do Power BI e de conceder acesso aos que não aparecem na lista.
 
-Há duas maneiras de conceder acesso ao relatório no Power BI. A primeira maneira, se você estiver usando um grupo do Office 365 para criar seu site de equipe do SharePoint Online, será listar o usuário como membro do **workspace do aplicativo no serviço do Power BI** e da **página do SharePoint**. Para obter mais informações, consulte como [gerenciar um workspace de aplicativo](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Há duas maneiras de conceder acesso ao relatório no Power BI. A primeira maneira, se você estiver usando um grupo do Office 365 para criar seu site de equipe do SharePoint Online, será listar o usuário como membro do **workspace no serviço do Power BI** e da **página do SharePoint**. Para obter mais informações, consulte como [gerenciar um workspace](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 A segunda maneira é inserir um relatório dentro de um aplicativo e compartilhá-lo diretamente com os usuários:  
 
-1. O autor, que deve ser um usuário Pro, cria um relatório em um workspace do aplicativo. Para compartilhar com *usuários gratuitos do Power BI*, o workspace do aplicativo precisa ser definido como um *workspace Premium*.
+1. O autor, que deve ser um usuário Pro, cria um relatório em um workspace. Para compartilhar com *usuários gratuitos do Power BI*, o workspace precisa ser definido como um *workspace Premium*.
 
 2. O autor publica o aplicativo e instala-o. O autor precisa instalar o aplicativo para que ele tenha acesso à URL do relatório usada para inserção no SharePoint Online.
 
@@ -93,7 +93,7 @@ A segunda maneira é inserir um relatório dentro de um aplicativo e compartilh�
 
 4. O autor abre o aplicativo e vai para o relatório.
 
-5. O autor copia a URL do relatório de inserção do relatório instalado pelo aplicativo. Não use a URL do relatório original do workspace do aplicativo.
+5. O autor copia a URL do relatório de inserção do relatório instalado pelo aplicativo. Não use a URL do relatório original do workspace.
 
 6. Crie um novo site de equipe no SharePoint Online.
 

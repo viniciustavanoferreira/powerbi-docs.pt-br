@@ -2,7 +2,6 @@
 title: Favoritos no serviço do Power BI (painéis, relatórios, aplicativos)
 description: Documentação sobre como definir painéis, relatórios e aplicativos como favoritos no serviço do Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256381"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852646"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Adicionar painéis, relatórios e aplicativos aos favoritos no serviço do Power BI
 Ao tornar o conteúdo um *favorito*, você poderá acessá-lo rapidamente na lista de conteúdo de **Favoritos** e em **Página Inicial do Power BI** > **Favoritos + frequentes**. Os Favoritos normalmente representam o conteúdo que você visita com mais frequência e são identificados com uma estrela amarela.
@@ -53,7 +52,7 @@ Você também pode selecionar um único dashboard como um [Dashboard em destaque
 1. Para acessar os favoritos, selecione a seta do submenu à direita de **Favoritos**. Deste local, você pode selecionar um favorito para abri-lo. Até cinco favoritos são listados em ordem alfabética. Se você tiver mais de cinco, selecione **Ver todos** para abrir a lista de conteúdo dos favoritos. 
    
    ![Submenu Favoritos](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. Para ver todo o conteúdo que você adicionou aos favoritos, no painel de navegação, selecione **Favoritos** ou o ícone de Favoritos ![ícone de estrela](./media/end-user-favorite/power-bi-favorites-icon.png). 
+2. Para ver todo o conteúdo que você adicionou como favoritos, no painel de navegação, selecione **Favoritos** ou o ícone de Favoritos ![ícone de estrela](./media/end-user-favorite/power-bi-favorites-icon.png). 
    
     ![Janela favoritos](./media/end-user-favorite/power-bi-fav-screen.png)
    
@@ -62,7 +61,7 @@ Você também pode selecionar um único dashboard como um [Dashboard em destaque
 ## <a name="unfavorite-content"></a>Remover conteúdo dos favoritos
 Se não usa mais um relatório com tanta frequência, você poderá removê-lo dos Favoritos. Quando você remove um conteúdo dos Favoritos, ele é removido de sua lista de Favoritos, mas não do Power BI.
 
-1. No painel de navegação esquerdo, selecione **Favoritos** para abrir a tela **Favoritos**.
+1. No painel de navegação, selecione **Favoritos** para abrir a tela **Favoritos**.
    
    ![tela Favoritos](./media/end-user-favorite/power-bi-un-favorite.png)
 2. Selecione a estrela amarela ao lado do conteúdo que deseja remover dos Favoritos.
@@ -76,5 +75,5 @@ Atualmente, você pode adicionar um aplicativo como favorito, e isso adiciona au
 
 ## <a name="next-steps"></a>Próximas etapas
 - [Power BI: conceitos básicos](end-user-basic-concepts.md)
-- Mais perguntas? Experimente a [Comunidade do Power BI](http://community.powerbi.com/).
+- Mais perguntas? Experimente a [Comunidade do Power BI](https://community.powerbi.com/).
 

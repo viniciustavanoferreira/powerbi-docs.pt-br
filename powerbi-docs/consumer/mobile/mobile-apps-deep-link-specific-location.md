@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906524"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429913"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Criar um link para um local específico nos aplicativos móveis do Power BI
 Use links para acessar diretamente itens específicos no Power BI: Relatório, Dashboard e Bloco.
@@ -69,7 +69,7 @@ Os **QUERY PARAMS** são:
 
 #### <a name="links-of-apps-and-items-in-app"></a>Links de aplicativos e itens no aplicativo
 
-Para **aplicativos, relatórios e dashboards que fazem parte de um aplicativo**, a maneira mais fácil de obter o link é acessar o workspace do aplicativo e escolher "Atualizar aplicativo". Isso abrirá a experiência "Publicar aplicativo" e na guia Acesso, você encontrará uma seção **Links**. Expandindo essa seção, você verá a lista de aplicativos e todos os links de conteúdo que podem ser usados para acessá-los diretamente.
+Para **aplicativos, relatórios e dashboards que fazem parte de um aplicativo**, a maneira mais fácil de obter o link é acessar o workspace e escolher "Atualizar aplicativo". Isso abrirá a experiência "Publicar aplicativo" e na guia Acesso, você encontrará uma seção **Links**. Expandindo essa seção, você verá a lista de aplicativos e todos os links de conteúdo que podem ser usados para acessá-los diretamente.
 
 ![Links de Publicar aplicativo do Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -118,5 +118,5 @@ Seus comentários nos ajudam a decidir o que implementar no futuro, portanto, n�
 * [Aplicativos do Power BI para dispositivos móveis](mobile-apps-for-mobile-devices.md)
 * Siga @MSPowerBI no Twitter
 * Participe da conversa na [Comunidade do Power BI](http://community.powerbi.com/)
-* [O que é o Power BI?](../../power-bi-overview.md)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 

@@ -2,7 +2,6 @@
 title: Exportar relatórios do Power BI para o PowerPoint
 description: Saiba como exportar um relatório do Power BI para o PowerPoint.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 840f2462ea9fc6b2d748b3803445c5ee4b155bdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717016"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862909"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar relatórios do Power BI para o PowerPoint
 
@@ -31,7 +30,7 @@ Com o Power BI, você pode publicar seu relatório no Microsoft PowerPoint e cri
 Obter o **relatório do Power BI** exportado no **PowerPoint** é rápido. Siga as etapas descritas na próxima seção.
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Exportar um relatório do Power BI para o PowerPoint
-No serviço do Power BI, selecione um relatório para exibi-lo na tela. Você pode também selecionar um relatório na **Página Inicial**, em **Aplicativos** ou em qualquer outro contêiner no painel de navegação esquerdo.
+No serviço do Power BI, selecione um relatório para exibi-lo na tela. Você pode também selecionar um relatório na **Página Inicial**, em **Aplicativos** ou em qualquer outro contêiner, no painel de navegação.
 
 Quando o relatório que você deseja exportar para o PowerPoint for exibido na tela, selecione **Exportar** > **PowerPoint** na barra de menus.
 
@@ -60,7 +59,7 @@ Quando você abre o arquivo do PowerPoint que o Power BI exportou, encontra algu
 
 1. A primeira página do conjunto de slides inclui o nome do relatório e um link para que você possa **Exibir no Power BI** o relatório no qual o conjunto de slides se baseia.
 2. Você também obtém algumas informações úteis sobre o relatório. **Última atualização de dados** mostra a data e a hora em que o relatório exportado se baseia. **Baixado em** mostra a data e a hora em que o relatório de Power BI foi exportado para um arquivo do PowerPoint.
-3. Cada página do relatório é um slide separado, conforme mostrado no painel de navegação esquerdo. 
+3. Cada página do relatório é um slide separado, conforme mostrado no painel de navegação. 
 4. O relatório publicado é renderizado no idioma de acordo com as configurações do Power BI ou pela configuração de localidade do seu navegador. Para obter ou definir sua preferência de idioma, selecione o ícone de engrenagem ![Ícone de engrenagem](media/end-user-powerpoint/power-bi-settings-icon.png) > **Configurações** > **Geral** > **Idioma**. Para obter informações sobre localidade, confira [Idiomas com suporte e países ou regiões do Power BI](../supported-languages-countries-regions.md).
 5. A apresentação do PowerPoint inclui um slide de rosto com a hora de exportação no fuso horário correto.
 

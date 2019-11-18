@@ -2,7 +2,6 @@
 title: Criar um dashboard do Power BI de um relatório
 description: Criar um dashboard do Power BI de um relatório
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543394"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853401"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI de um relatório
 Você já leu [Introdução a dashboards no Power BI](service-dashboards.md) e agora deseja criar o seu próprio. Há diferentes maneiras de criar um painel. Por exemplo, é possível criar um dashboard com base em um relatório, do zero, com base em um conjunto de dados ou duplicando um existente.  
@@ -44,11 +43,11 @@ Veja a Amanda criar um novo dashboard fixando visualizações de um relatório. 
 ## <a name="import-a-dataset-with-a-report"></a>Importar um conjunto de dados com um relatório
 Neste passo a passo, vamos importar um dos conjuntos de dados de exemplo do Power BI e usá-lo para criar nosso novo painel. O exemplo que usamos é uma pasta de trabalho do Excel com duas planilhas do PowerView. Quando o Power BI importa a pasta de trabalho, ele adiciona um conjunto de dados e um relatório ao seu workspace. O relatório é criado automaticamente das planilhas do PowerView.
 
-1. Baixe o arquivo do Excel de [exemplo de Análise de Compras](http://go.microsoft.com/fwlink/?LinkId=529784). É recomendável salvá-lo em seu OneDrive for Business.
+1. Baixe o arquivo do Excel de [exemplo de Análise de Compras](https://go.microsoft.com/fwlink/?LinkId=529784). É recomendável salvá-lo em seu OneDrive for Business.
 2. Abra o serviço do Power BI no seu navegador (app.powerbi.com).
-3. No painel de navegação esquerdo, selecione **Meu Workspace** e selecione **Obter Dados**.
+3. No painel de navegação, selecione **Meu Workspace** e **Obter Dados**.
 
-    ![Painel de navegação à esquerda](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![painel de navegação](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. Em **Arquivos**, selecione **Obter**.
 
    ![Obter arquivos](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ Neste passo a passo, vamos importar um dos conjuntos de dados de exemplo do Powe
    ![Mensagem de êxito](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> Você sabia? Você pode restringir a barra de navegação esquerda selecionando o ícone com três linhas na parte superior ![Mostrar ou ocultar o ícone do painel de navegação](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Isso garante mais espaço para o relatório.
+> Você sabia? Você pode restringir o painel de navegação selecionando o ícone com três linhas na parte superior ![mostrar ou ocultar o ícone do painel de navegação](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Isso garante mais espaço para o relatório.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Abrir o relatório e fixar blocos no dashboard
 1. No mesmo workspace, selecione a guia **Relatórios** e selecione **Exemplo de Análise de Compras** para abrir o relatório.
@@ -118,4 +117,4 @@ Parabéns! Você criou seu primeiro dashboard! Agora que você tem um dashboard,
 * [Power BI – conceitos básicos](service-basic-concepts.md)
 * [Dicas para projetar um ótimo dashboard](service-dashboards-design-tips.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).

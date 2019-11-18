@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832444"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021327"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Colaborar em um workspace clássico
 Os workspaces do Power BI são ótimos lugares para colaborar com seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicativos*. Este artigo é sobre os workspaces *clássicos* e originais.  
@@ -45,7 +45,7 @@ Depois de criar um arquivo do Power BI Desktop, você pode publicá-lo em um wor
 ## <a name="collaborate-in-office-365"></a>Colaborar no Office 365
 A colaboração no Office 365 inicia-se no workspace clássico no Power BI.
 
-1. No serviço do Power BI, selecione a seta ao lado de **Workspaces** > selecione as reticências (...) ao lado do nome do workspace. 
+1. No serviço do Power BI, selecione a seta ao lado de **Workspaces** > selecione **Mais opções** (...) ao lado do nome do seu workspace. 
    
    ![Menu Workspaces](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. Nesse menu, você pode colaborar com seu grupo de algumas maneiras: 
@@ -56,7 +56,7 @@ A colaboração no Office 365 inicia-se no workspace clássico no Power BI.
    Na primeira vez em que você acessar seu workspace de grupo no Office 365, isso poderá demorar algum tempo. Aguarde de 15 a 30 minutos, em seguida, atualize seu navegador.
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Ter uma conversa de grupo no Office 365
-1. Selecione as reticências (...) ao lado do nome do workspace \> **Conversas**. 
+1. Selecione **Mais opções** (...) ao lado do nome do seu workspace \> **Conversas**. 
    
     ![Guia Conversas](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +66,7 @@ A colaboração no Office 365 inicia-se no workspace clássico no Power BI.
 2. Leia mais sobre [conversas em grupo no Outlook para o Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>Agendar um evento no calendário do workspace de grupo
-1. Selecione as reticências (...) ao lado do nome do workspace \> **Calendário**. 
+1. Selecione **Mais opções** (...) ao lado do nome do seu workspace \> **Calendário**. 
    
    ![Guia Calendário](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

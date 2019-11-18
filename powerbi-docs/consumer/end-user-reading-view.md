@@ -13,12 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236983"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019585"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Início Rápido: saiba mais sobre as funcionalidades do Power BI para *consumidores*
 Neste início rápido, você aprenderá como interagir com o Power BI para descobrir informações de negócios controladas por dados. Este artigo não visa ser um aprofundamento do tema, mas sim uma passagem rápida por muitas das ações disponíveis para **consumidores** do Power BI.
@@ -118,7 +118,7 @@ Os visuais são compostos por pontos de dados e, ao focalizar um ponto de dados,
 ### <a name="favorite-a-dashboard"></a>Adicionar um dashboard como favorito
 Quando você adicionar um conteúdo a um *favorito*, poderá acessá-lo da barra de navegação. A barra de navegação fica visível de praticamente qualquer área do Power BI. Os favoritos normalmente são os dashboards, páginas de relatório e aplicativos que você visita com mais frequência.
 
-No canto superior direito do serviço do Power BI, selecione **Favorito** ou, se não estiver visível, selecione as reticências (…) e selecione **Favorito** na lista suspensa. 
+No canto superior direito do serviço do Power BI, selecione **Favorito** ou, se não estiver visível, selecione **Mais opções** (...) e **Favorito** na lista suspensa. 
    
 ![Ícone de Favorito](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +168,7 @@ Saiba mais sobre o [modo de foco e o modo de tela inteira](end-user-focus.md)
 ### <a name="sort-a-visualization"></a>Classificar uma visualização
 Os visuais em uma página de relatório podem ser classificadas e salvas com as alterações aplicadas. 
 
-Focalize um visual para ativá-lo e selecione as reticências (…) para abrir as opções de classificação.
+Passe o mouse sobre um visual para ativá-lo e selecione **Mais opções** (...) para abrir as opções de classificação.
 
 ![classificar um gráfico](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +177,7 @@ Saiba mais sobre [como classificar visuais](end-user-search-sort.md)
 ### <a name="show-the-data-used-to-create-a-visualization"></a>Mostrar os dados usados para criar uma visualização
 Uma visualização do Power BI é construída usando dados dos conjuntos de dados subjacentes. Se você estiver interessado em ver o que acontece nos bastidores, o Power BI permitirá *exibir* os dados usados para criar o visual. Ao selecionar **Mostrar Dados**, o Power BI exibirá os dados abaixo (ou ao lado) da visualização.
 
-Com um visual ativo, selecione as reticências (…) e escolha **Mostrar dados**.
+Com um visual ativo, selecione **Mais opções** (...) e **Mostrar dados**.
    
    ![selecionar Mostrar dados](./media/end-user-show-data/power-bi-explore-show-data.png)
 

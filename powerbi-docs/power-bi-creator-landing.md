@@ -10,12 +10,12 @@ ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 64e77a97ec8f316473d6b953b506b323b69bfd0e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239891"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431524"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI para designers de relatório
 
@@ -37,7 +37,7 @@ Você é mais consumidor do Power BI? Seja bem-vindo também. Sugerimos começar
                                           <h3>Introdução à criação com o Power BI</h3> 
                                           <p></p>
                                                <a href="desktop-what-is-desktop.md">Começar com o Power BI Desktop</a><br/> 
-                                               <a href="power-bi-overview.md">Começar com o serviço do Power BI</a><br/> 
+                                               <a href="fundamentals/power-bi-overview.md">Começar com o serviço do Power BI</a><br/> 
                                                <a href="report-server/get-started.md">O que é o Servidor de Relatórios do Power BI?</a>
                                     </div> 
                               </div> 
@@ -156,7 +156,7 @@ Você é mais consumidor do Power BI? Seja bem-vindo também. Sugerimos começar
                                           <h3>Compartilhar seu trabalho</h3> 
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Como devo colaborar e compartilhar?</a><br/>
-                                                <a href="service-create-workspaces.md">Workspace de aplicativo no serviço do Power BI</a> 
+                                                <a href="service-create-workspaces.md">Workspaces no serviço do Power BI</a> 
                                     </div> 
                               </div> 
                         </div> 

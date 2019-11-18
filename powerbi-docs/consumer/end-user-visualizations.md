@@ -2,7 +2,6 @@
 title: Trabalhar com visualizações como um consumidor
 description: Conceitos e terminologia do Power BI – visualizações e visuais. O que é uma visualização ou um visual do Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379968"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860979"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagir com visuais em relatórios, dashboards e aplicativos
 
@@ -52,7 +51,7 @@ Para muitas dessas opções, o administrador ou o *designer* pode desabilitar su
 |[Pedir ao Power BI para procurar por tendências ou fatos interessantes](end-user-insights.md) nos dados do visual para você.  Esses visuais gerados automaticamente são chamados de *insights*.     |    sim     |  para todo o relatório, não por visual       | não   |
 |[Exibir apenas um visual por vez usando o modo de *foco*](end-user-focus.md).     | sim        |   sim      | N/A  |
 |[Pesquisar quando o visual foi atualizado pela última vez](end-user-fresh.md).     |  sim       |    sim     | N/A  |
-|[Exibir apenas um visual por vez, sem bordas nem barras de navegação, usando o modo de *tela inteira* ou de *foco*](end-user-focus.md).     |   sim      |  sim       | por padrão  |
+|[Exibir apenas um visual por vez, sem bordas nem painéis de navegação, usando o modo de *tela inteira* ou de *foco*](end-user-focus.md).     |   sim      |  sim       | por padrão  |
 |[Imprimir](end-user-print.md).     |  sim       |   sim      | não  |
 |[Examinar o visual adicionando e modificando os filtros.](end-user-report-filter.md)     |    não     |   sim      | não  |
 |Focalizar um visual para revelar detalhes adicionais e dicas de ferramentas.     |    sim     |   sim      | sim  |

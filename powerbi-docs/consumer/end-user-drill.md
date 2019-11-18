@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589500"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019889"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modo de análise em um visual no Power BI
 
@@ -128,7 +128,7 @@ Ter um mapa de árvore que mostra apenas um CEP não é informativo.  Portanto, 
 ## <a name="show-the-data-as-you-drill"></a>Mostrar os dados durante a análise
 Use **Mostrar dados** para obter uma visão dos bastidores. Sempre que você analisa ou expande os dados, a opção **Mostrar dados** exibe os dados usados para criar o visual. Isso pode ajudar você a entender como as hierarquias, a análise e a expansão funcionam em conjunto para criar visuais. 
 
-No canto superior direito, selecione as reticências (...) e, em seguida, selecione **Mostrar Dados**. 
+No canto superior direito, selecione **Mais opções** (...) e **Mostrar Dados**. 
 
 ![Captura de tela do menu de reticências.](./media/end-user-drill/power-bi-ellipses.png)
 

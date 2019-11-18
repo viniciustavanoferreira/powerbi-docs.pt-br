@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161204"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775966"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
@@ -48,7 +48,7 @@ Para obter mais informações, veja [Gráfico de área básica](power-bi-visuali
 ### <a name="cards-single-number"></a>Cartões: número único
 ![cartão de número](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
-Para obter mais informações, confira [Criar um Cartão (bloco de número grande)](power-bi-visualization-card.md).
+Para obter mais informações, consulte [Criar um Cartão (bloco de número grande)](power-bi-visualization-card.md).
 
 ### <a name="combo-charts"></a>Gráficos de combinação
 ![gráficos de combinação](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
@@ -87,7 +87,7 @@ Para obter mais informações, veja [Gráficos de medidor no Power BI](power-bi-
 
 Um gráfico de influenciador principal exibe os principais colaboradores para um resultado ou valor selecionado.
 
-Para obter mais informações, confira [Gráficos de influenciador principal no Power BI](power-bi-visualization-influencers.md)
+Para obter mais informações, consulte [Gráficos de influenciador principal no Power BI](power-bi-visualization-influencers.md)
 
 ### <a name="kpis"></a>KPIs
 ![Gráfico KPI](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -147,6 +147,14 @@ Para obter mais informações, veja [Visuais de matriz no Power BI](desktop-matr
 >[!TIP]
 >Gráficos de pizza mostram a relação das partes com um todo. 
 
+### <a name="qa-visual"></a>Visual de P e R
+![Visuais de P e R](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
+
+>[!TIP]
+>Semelhante à [experiência de P e R em dashboards](../power-bi-tutorial-q-and-a.md), o visual d e P e R permite que você faça perguntas sobre seus dados usando linguagem natural. 
+
+Para saber mais, confira [Visuais de P e R no Power BI](power-bi-visualization-q-and-a.md).
+
 ### <a name="r-script-visuals"></a>Visuais de script R
 ![Visuais do R](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
@@ -195,7 +203,7 @@ Para obter mais informações, veja [Adicionar um widget de imagem a um dashboar
 >[!TIP]
 >Trabalhe bem com comparações quantitativas entre itens em que há várias categorias.
 
-Para obter mais informações, confira [Trabalhando com tabelas no Power BI](power-bi-visualization-tables.md).
+Para obter mais informações, consulte [Trabalhando com tabelas no Power BI](power-bi-visualization-tables.md).
 
 ### <a name="treemaps"></a>Treemaps
 ![mapa de árvore](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)

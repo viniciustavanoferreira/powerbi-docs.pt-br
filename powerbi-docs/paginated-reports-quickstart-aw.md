@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839747"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431680"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Criar um relatório paginado e fazer upload dele no serviço do Power BI
 
@@ -44,7 +44,7 @@ Aqui estão os pré-requisitos para criar o relatório paginado:
 Aqui estão os pré-requisitos para carregar seu relatório paginado no serviço do Power BI:
 
 - Você precisa de uma [licença do Power BI Pro](service-admin-power-bi-pro-in-your-organization.md).
-- Você precisa de um workspace de aplicativo no serviço em uma [capacidade do Power BI Premium](service-premium-what-is.md). Ele tem um ícone de losango ![ícone de losango Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) ao lado do nome do workspace.
+- Você precisa de um workspace no serviço em uma [capacidade do Power BI Premium](service-premium-what-is.md). Ele tem um ícone de losango ![ícone de losango Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) ao lado do nome do espaço de trabalho.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Criar a matriz com um assistente
   
@@ -58,7 +58,7 @@ Aqui estão os pré-requisitos para carregar seu relatório paginado no serviço
   
 4.  Na página **Escolher um conjunto de dados**, selecione **Criar um conjunto de dados** > **Avançar**.  
 
-    ![Crie um conjunto de dados](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
+    ![Criar um conjunto de dados](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
 5.  Na página **Escolha uma conexão com uma fonte de dados**, selecione **Nova**. 
 
@@ -137,7 +137,7 @@ Aqui estão os pré-requisitos para carregar seu relatório paginado no serviço
 
     - OrderQty
     - UnitPrice
-    - LineTotal
+    - LinhaTotal
 
     O Construtor de Relatórios automaticamente fez a soma dos campos na caixa **Valores**.
 
@@ -287,7 +287,7 @@ Mais um aprimoramento de formatação antes de publicar o relatório no serviço
 
 Agora que você criou esse relatório paginado, é hora de carregá-lo no serviço do Power BI.
 
-1. No serviço do Power BI, http://app.powerbi.com) no painel de navegação esquerdo, selecione **Workspaces** > **Criar espaço de trabalho do aplicativo**.
+1. No serviço do Power BI, http://app.powerbi.com) no painel de navegação esquerdo, selecione **Workspaces** > **Criar workspace**.
 
 2. Nomeie seu workspace **Azure AW** ou dê outro nome exclusivo. Você é o único membro por enquanto. 
 
@@ -297,11 +297,11 @@ Agora que você criou esse relatório paginado, é hora de carregá-lo no servi�
 
     Se você não puder ativá-lo, precisará pedir ao administrador do Power BI para lhe dar permissão para adicionar o workspace à capacidade Premium dedicada.
 
-4. Escolha uma **capacidade dedicada disponível para este espaço de trabalho**, se for necessário > **Salvar**.
+4. Escolha uma **capacidade dedicada disponível para este workspace**, se for necessário &gt; **Salvar**.
     
     ![Ícone de losango Premium](media/paginated-reports-quickstart-aw/power-bi-paginated-diamond-icon.png)
 
-    Se o espaço de trabalho não tiver uma capacidade Premium, quando você tentar carregar o relatório, verá a mensagem "Não é possível carregar o relatório paginado". Entre em contato com o administrador do Power BI para mover o workspace.
+    Se o workspace não tiver uma capacidade Premium, quando você tentar carregar o relatório, verá a mensagem &quot;Não é possível carregar o relatório paginado&quot;. Entre em contato com o administrador do Power BI para mover o workspace.
 
 1. No seu workspace, selecione **Obter Dados**.
 

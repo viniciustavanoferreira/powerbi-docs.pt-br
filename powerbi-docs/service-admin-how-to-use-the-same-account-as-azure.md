@@ -2,7 +2,6 @@
 title: Usando a mesma conta para Power BI e o Azure
 description: Como usar o mesmo logon de conta para o Power BI e o Azure
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f9659ad657c4466ad58eb40d4a07916b46f9536a
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 11fecb5ff87c454b32b2504fba3914f397265184
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877787"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873624"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Usando a mesma conta para Power BI e o Azure
 
@@ -29,9 +28,9 @@ Se você deseja usar o mesmo logon para o Azure e o Power BI, certifique-se de e
 
 Você pode adicionar sua conta organizacional como um coadministrador no Azure seguindo estas etapas:
 
-1. Entre no [portal do Azure](http://portal.azure.com/). Se você for um usuário em vários diretórios do Azure, selecione **Assinaturas** e filtre para exibir somente o diretório e as assinaturas que deseja editar.
+1. Entre no [portal do Azure](https://portal.azure.com/). Se você for um usuário em vários diretórios do Azure, selecione **Assinaturas** e filtre para exibir somente o diretório e as assinaturas que deseja editar.
 
-1. No painel de navegação, selecione **Controle de acesso (IAM)** e, em seguida, selecione **Adicionar** \> **Adicionar coadministrador**.
+1. No painel de navegação, selecione **Controle de acesso (IAM)** e, em seguida, selecione **Adicionar** \> **Adicionar co-administrador**.
 
     ![Adicionar um coadministrador no portal do Azure](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 
@@ -39,4 +38,4 @@ Você pode adicionar sua conta organizacional como um coadministrador no Azure s
 
 1. Da próxima vez que você entrar no portal do Azure, use seu endereço de email organizacional.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

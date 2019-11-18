@@ -7,66 +7,93 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 25295447736ddb674d23a7b4ac34aa04f44887ba
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408547"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922525"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Adicionar uma coluna personalizada no Power BI Desktop
-Você pode adicionar facilmente uma nova coluna personalizada de dados ao modelo usando o **Editor de Consultas** no **Power BI Desktop**. É possível criar e renomear sua coluna personalizada usando botões fáceis para criar [fórmulas M](https://msdn.microsoft.com/library/mt270235.aspx) que definam a coluna personalizada. A fórmula M tem um [conjunto de conteúdo de referência de função abrangente](https://msdn.microsoft.com/library/mt779182.aspx). 
 
-![](media/desktop-add-custom-column/add-custom-column_01.png)
+No Power BI Desktop, adicione com facilidade uma nova coluna personalizada de dados ao modelo usando o Editor de Consultas. Com o Editor de Consultas, crie e renomeie sua coluna personalizada para criar [consultas de fórmula M do PowerQuery](https://docs.microsoft.com/en-us/powerquery-m/quick-tour-of-the-power-query-m-formula-language) a fim de definir a coluna personalizada. As consultas de fórmula M do PowerQuery têm um [conjunto de conteúdo de referência de função abrangente](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 
 
-A criação de uma coluna personalizada é outra **Etapa Aplicada** à consulta criada no **Editor de Consultas**, o que significa que ela pode ser alterada, movida mais cedo ou mais tarde ou modificada a qualquer momento.
+Quando você cria uma coluna personalizada no Editor de Consultas, o Power BI Desktop a adiciona como uma **Etapa Aplicada** às **Configurações de Consulta** da consulta. Ela pode ser alterada, movida ou modificada a qualquer momento.
 
-## <a name="use-query-editor-to-add-a-new-custom-column"></a>Usar o Editor de consultas para adicionar uma nova coluna personalizada
-Para criar uma nova coluna personalizada, inicie o **Editor de Consultas**. Para fazer isso, selecione **Editar consultas** na faixa de opções **Início** no **Power BI Desktop**.
+![Página Adicionar Coluna Personalizada](media/desktop-add-custom-column/add-custom-column_01.png)
 
-![](media/desktop-add-custom-column/add-column-from-example_02.png)
+## <a name="use-query-editor-to-add-a-custom-column"></a>Usar o Editor de Consultas para adicionar uma coluna personalizada
 
-Uma vez que o **Editor de Consultas** é iniciado e você tem alguns dados carregados, pode adicionar uma coluna personalizada selecionando a guia **Adicionar Coluna** na faixa de opções e, em seguida, selecionando **Coluna Personalizada**.
+Para começar a criar uma coluna personalizada, siga estas etapas:
 
-![](media/desktop-add-custom-column/add-custom-column_02.png)
+1. Inicie o Power BI Desktop e carregue alguns dados.
 
-É exibida a janela **Adicionar Coluna Personalizada**, que é descrita na seção a seguir.
+2. Na guia **Página Inicial** da faixa de opções, selecione **Editar Consultas** e, em seguida, selecione **Editar Consultas** no menu.
+
+   ![Selecionar Editar Consultas](media/desktop-add-custom-column/add-column-from-example_02.png)
+
+   A janela do **Editor de Consultas** será exibida. 
+
+2. Na guia **Adicionar Coluna** da faixa de opções, selecione **Coluna Personalizada**.
+
+   ![Selecionar Coluna Personalizada](media/desktop-add-custom-column/add-custom-column_02.png)
+
+   A janela **Adicionar Coluna Personalizada** será exibida.
 
 ## <a name="the-add-custom-column-window"></a>A janela Adicionar Coluna Personalizada
-Na janela **Adicionar Coluna Personalizada**, você vê a lista de campos disponíveis no painel à direita, o nome da coluna personalizada na parte superior (é possível renomeá-la apenas digitando um novo nome na caixa de texto) e a [fórmula **M**](https://msdn.microsoft.com/library/mt779182.aspx) que você cria (ou escreve) com base na inserção de campos da direita, na adição de operadores e na criação da fórmula na qual sua nova coluna personalizada será definida. 
 
-![](media/desktop-add-custom-column/add-custom-column_03.png)
+A janela **Adicionar Coluna Personalizada** apresenta os seguintes recursos: 
+- Uma lista de colunas disponíveis, na lista **Colunas disponíveis** à direita.
+
+- O nome inicial da coluna personalizada, na caixa **Nome da nova coluna**. Você pode renomear essa coluna.
+
+- As [consultas de fórmula M do PowerQuery](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-function-reference), na caixa **Fórmula de coluna personalizada**. Crie essas consultas criando a fórmula na qual a nova coluna personalizada é definida. 
+
+   ![Página Adicionar Coluna Personalizada](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>Criar fórmulas para a coluna personalizada
-Você pode selecionar um campo na lista **Colunas disponíveis:** à direita e selecionar **<< Inserir** para adicioná-las à fórmula da coluna personalizada. Você pode também simplesmente clicar duas vezes em uma coluna na lista para adicioná-la.
 
-Ao digitar a fórmula e criar a coluna, na parte inferior da janela você verá um indicador informando, em tempo real (conforme você digita), se são detectados erros de sintaxe. Se tudo correr bem, você verá uma marca de seleção verde.
+1. Selecione uma coluna na lista **Colunas disponíveis** à direita e, em seguida, selecione **Inserir** abaixo da lista para adicioná-las à fórmula de coluna personalizada. Adicione também uma coluna clicando duas vezes nela na lista.
 
-![](media/desktop-add-custom-column/add-custom-column_04.png)
+2. Conforme você insere a fórmula e cria a coluna, observe o indicador na parte inferior da janela **Adicionar Coluna Personalizada**. 
 
-Mas se houver algum tipo de erro na sintaxe, você verá um ícone de aviso amarelo, juntamente com o erro detectado e um link que coloca o cursor (da fórmula) onde o erro foi detectado.
+   Se não houver erros, você verá uma marca de seleção verde e a mensagem *Nenhum erro de sintaxe foi detectado*.
 
-![](media/desktop-add-custom-column/add-custom-column_05.png)
+   ![Verificação de sintaxe bem-sucedida na página Adicionar Coluna Personalizada](media/desktop-add-custom-column/add-custom-column_04.png)
 
-Quando você seleciona **OK**, a coluna personalizada é adicionada ao modelo e a etapa **Personalizada Adicionada** é adicionada às **Etapas Aplicadas** da consulta.
+   Se houver um erro de sintaxe, você verá um ícone de aviso amarelo, juntamente com um link para o local em que o erro ocorreu na fórmula.
 
-![](media/desktop-add-custom-column/add-custom-column_06.png)
+   ![Erro na página Adicionar Coluna Personalizada](media/desktop-add-custom-column/add-custom-column_05.png)
 
-Se você clicar duas vezes na etapa **Personalizada Adicionada** no painel **Etapas Aplicadas**, a janela **Adicionar Coluna Personalizada** será exibida novamente, com a fórmula da coluna personalizada criada já carregada e pronta modificação, se necessário.
+3. Selecione **OK**. 
 
-## <a name="using-the-advanced-editor-for-custom-columns"></a>Usando o editor avançado para colunas personalizadas
-Você também pode criar uma coluna personalizada (e modificar qualquer etapa de sua consulta, a esse respeito) usando o **Editor Avançado**. Em **Editor de Consultas** selecione a guia **Exibir** e, em seguida, selecione **Editor Avançado** para exibir o **Editor Avançado**.
+   O Power BI Desktop adiciona a coluna personalizada ao modelo e adiciona a etapa **Personalização Adicionada** à lista **Etapas Aplicadas** da consulta em **Configurações de Consulta**.
 
-![](media/desktop-add-custom-column/add-custom-column_07.png)
+   ![Coluna personalizada adicionada às Configurações de Consulta](media/desktop-add-custom-column/add-custom-column_06.png)
 
-O **Editor Avançado** lhe dá total controle sobre sua consulta.
+4. Para modificar a coluna personalizada, clique duas vezes na etapa **Personalização Adicionada** na lista **Etapas Aplicadas**. 
 
+   A janela **Adicionar Coluna Personalizada** será exibida com a fórmula de coluna personalizada que você criou.
+
+## <a name="use-the-advanced-editor-for-custom-columns"></a>Usar o Editor Avançado para colunas personalizadas
+
+Depois de criar a consulta, use também o **Editor Avançado** para modificar qualquer etapa da consulta. Para se conectar, siga essas etapas:
+
+1. Na janela do **Editor de Consultas**, selecione a guia **Exibir** na faixa de opções. 
+
+2. Selecione **Editor Avançado**.
+
+   A página do **Editor Avançado** será exibida, o que dá a você controle total sobre a consulta. 
+
+   ![Página do Editor Avançado](media/desktop-add-custom-column/add-custom-column_07.png)
+
+   
 ## <a name="next-steps"></a>Próximas etapas
-Existem outras maneiras de criar uma coluna personalizada, incluindo a criação de uma coluna com base nos exemplos fornecidos no **Editor de Consultas**. Confira o seguinte artigo para obter mais informações sobre como criar colunas personalizadas com base em exemplos:
 
-* [Adicionar uma coluna de um exemplo no Power BI Desktop](desktop-add-column-from-example.md)
-* [Referência do Power Query M](/powerquery-m/power-query-m-reference)  
+- Você pode criar uma coluna personalizada de outras formas, como a criação de uma coluna com base nos exemplos fornecidos ao Editor de Consultas. Para obter mais informações, confira [Adicionar uma coluna de um exemplo no Power BI Desktop](desktop-add-column-from-example.md).
+
+- Para obter informações de referência da linguagem M do Power Query, confira [Referência de função M do Power Query](/powerquery-m/power-query-m-function-reference).
 

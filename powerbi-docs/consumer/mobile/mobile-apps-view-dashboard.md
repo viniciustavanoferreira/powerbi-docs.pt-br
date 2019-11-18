@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654618"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059810"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Exibir painéis e relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -118,7 +118,7 @@ Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do s
 
     Se você for o proprietário do dashboard, no serviço do Power BI, poderá [criar uma exibição do dashboard, especificamente para telefones](../../service-create-dashboard-mobile-phone-view.md) no modo retrato. 
 
-1. Enquanto estiver no painel, você pode tocar vertical nas reticências (...) próximas ao nome para convidar um colega, atualizar ou obter informações sobre o painel:
+1. Enquanto estiver no dashboard, você pode tocar no botão vertical **Mais opções** (...), ao lado do nome, para convidar um colega, atualizar ou obter informações sobre o dashboard:
    
    ![Menu de reticências](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Passe o dedo para cima e para baixo para ver todos os [blocos no dashboard](mobile-tiles-in-the-mobile-apps.md). 
@@ -134,7 +134,7 @@ Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do s
    
    * As estrelas amarelas ![Estrela de Favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram quais dashboards são favoritos. 
    * A notação embaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados em cada dashboard são classificados. Leia mais sobre [classificação de dados no Power BI](../../service-data-classification.md).
-3. Enquanto estiver no painel, você pode tocar vertical nas reticências (...) próximas ao nome para convidar um colega, atualizar ou obter informações sobre o painel:
+3. Enquanto estiver no dashboard, você pode tocar no botão vertical **Mais opções** (...), ao lado do nome, para convidar um colega, atualizar ou obter informações sobre o dashboard:
    
    ![Menu de reticências](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Passe o dedo para cima e para baixo para ver todos os [blocos no dashboard](mobile-tiles-in-the-mobile-apps.md). 
@@ -156,6 +156,6 @@ Leia mais sobre como [criar uma exibição de telefone de um dashboard](../../se
 ## <a name="next-steps"></a>Próximas etapas
 * [Baixar o aplicativo Android](http://go.microsoft.com/fwlink/?LinkID=544867) no Google Play  
 * [Introdução ao aplicativo do Android para o Power BI](mobile-android-app-get-started.md)  
-* [O que é o Power BI?](../../power-bi-overview.md)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

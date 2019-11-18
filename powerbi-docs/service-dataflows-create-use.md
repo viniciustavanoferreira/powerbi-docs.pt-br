@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61142995"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432065"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Criação e uso de fluxos de dados no Power BI
 
 Com a preparação de dados avançada disponível no **Power BI**, é possível criar uma coleção de dados chamada de fluxo de dados, que você pode usar para conectar-se com dados comerciais de várias fontes, limpar os dados, transformá-los e, em seguida, carregá-los em um armazenamento do Power BI.
 
-Um **fluxo de dados** é uma coleção de *entidades* (entidades são semelhantes às tabelas) criadas e gerenciadas em workspaces de aplicativo no serviço do Power BI. É possível adicionar e editar entidades no fluxo de dados, bem como gerenciar cronogramas de atualização de dados, diretamente no workspace em que o fluxo de dados foi criado.
+Um **fluxo de dados** é uma coleção de *entidades* (entidades são semelhantes às tabelas) criadas e gerenciadas em workspaces no serviço do Power BI. É possível adicionar e editar entidades no fluxo de dados, bem como gerenciar cronogramas de atualização de dados, diretamente no workspace em que o fluxo de dados foi criado.
 
 Depois de criar um fluxo de dados, você pode usar o **Power BI Desktop** e o **serviço do Power BI** para criar conjuntos de dados, relatórios, painéis e aplicativos baseados nos dados que você inseriu em fluxos de dados do Power BI e, assim, obter insights sobre suas atividades comerciais.
 
@@ -36,13 +36,13 @@ Há três etapas principais para usar um fluxo de dados:
 Nas seções a seguir, examinaremos cada uma dessas etapas e nos familiarizaremos com as ferramentas fornecidas para concluir cada etapa. Vamos começar.
 
 ## <a name="creating-a-dataflow"></a>Criar um fluxo de dados
-Para criar um fluxo de dados, abra o serviço do Power BI em um navegador e selecione um **workspace do aplicativo** (fluxos de dados não estão disponíveis em *meu workspace* no serviço do Power BI) no painel de navegação à esquerda, como mostrado na tela a seguir. Você também pode criar um novo workspace no qual criará seu novo fluxo de dados. 
+Para criar um fluxo de dados, abra o serviço do Power BI em um navegador e selecione um **workspace** (fluxos de dados não estão disponíveis em *meu workspace* no serviço do Power BI) no painel de navegação à esquerda, como mostrado na tela a seguir. Você também pode criar um novo workspace no qual criará seu novo fluxo de dados. 
 
 ![Criar um fluxo de dados no Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-Quando você estiver em uma área de **workspace do aplicativo** onde é possível criar um fluxo de dados, o botão **+ Criar** será exibido no canto superior direito da tela. Selecione o botão **+ Criar** e, em seguida, selecione **Fluxo de dados** na lista suspensa. 
+Quando você estiver em uma área de **workspace** em que é possível criar um fluxo de dados, o botão **+ Criar** será exibido no canto superior direito da tela. Selecione o botão **+ Criar** e, em seguida, selecione **Fluxo de dados** na lista suspensa. 
 
-É importante saber que há apenas *um proprietário* para qualquer fluxo de dados, que é a pessoa que o cria. Somente o proprietário pode editar o fluxo de dados. Todos os membros do **workspace do aplicativo** que possuem permissões de leitura ou gravação no workspace do aplicativo em que o fluxo de dados é criado podem se conectar ao fluxo de dados de dentro do **Power BI Desktop**, conforme descrito mais adiante neste artigo.
+É importante saber que há apenas *um proprietário* para qualquer fluxo de dados, que é a pessoa que o cria. Somente o proprietário pode editar o fluxo de dados. Todos os membros do **workspace** que têm permissões de leitura ou gravação no workspace em que o fluxo de dados é criado podem se conectar ao fluxo de dados de dentro do **Power BI Desktop**, conforme descrito mais adiante neste artigo.
 
 ![Botão + Criar no serviço do Power BI para criar um fluxo de dados](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -111,7 +111,7 @@ Quando você estiver pronto e selecionar o botão **Salvar**, será exibida uma 
 
 Depois que seu fluxo de dados tiver sido salvo, agende a frequência de atualização para cada uma das suas fontes de dados conectadas.
 
-Os fluxos de dados do Power BI usam o processo de atualização de dados do Power BI para manter seus dados atualizados. No **serviço do Power BI**, na seção **workspace do aplicativo**, há uma coleção de áreas em que suas informações podem ser listadas, incluindo fluxos de dados, conforme mostrado na imagem a seguir.
+Os fluxos de dados do Power BI usam o processo de atualização de dados do Power BI para manter seus dados atualizados. No **serviço do Power BI**, na seção **workspace**, há uma coleção de áreas em que suas informações podem ser listadas, incluindo fluxos de dados, conforme mostrado na imagem a seguir.
 
 ![Gerenciar fluxo de dados no serviço do Power BI](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
@@ -134,7 +134,7 @@ Para conectar-se ao fluxo de dados, no Power BI Desktop, selecione **Obter dados
 
 ![Conectar-se aos fluxos de dados do Power BI Desktop](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-A partir daí, navegue até o **workspace do aplicativo** em que você salvou seu fluxo de dados, selecione o fluxo de dados e, em seguida, selecione na lista as entidades criadas.
+Desse ponto, navegue até o **workspace** em que você salvou seu fluxo de dados, selecione o fluxo de dados e, em seguida, selecione na lista as entidades criadas.
 
 Também é possível usar a **barra de pesquisa**, na parte superior da janela, para localizar rapidamente o nome do fluxo de dados ou das entidades entre muitas entidades de fluxo de dados.
 

@@ -2,7 +2,6 @@
 title: Localizar conteúdo no serviço do Power BI
 description: Comece na tela Página Inicial e localize e abra relatórios, dashboards e aplicativos.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d97b5a93060869d65de6652af869b472baf8cd10
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: b905b738dc9fa38e390a94fb1b893aba8e45a0db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71077774"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863713"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Localizar dashboards, relatórios e aplicativos
 No Power BI, o termo *conteúdo* refere-se a aplicativos, dashboards e relatórios. O conteúdo é criado por designers do *Power BI*, que o compartilham com os colegas como você. O conteúdo está acessível e visível no serviço do Power BI, e o melhor lugar para começar a trabalhar no Power BI é na página de aterrissagem inicial.
@@ -28,7 +27,7 @@ Quando você entra no serviço, o Power BI abre e exibe a tela Página Inicial, 
 A Página Inicial do Power BI oferece três maneiras diferentes de localizar e exibir o conteúdo. Todas as três acessam o mesmo pool de conteúdo; são simplesmente maneiras diferentes de acessar esse conteúdo. Ocasionalmente, a pesquisa será a maneira mais fácil e rápida de localizar algo, enquanto outras vezes, a seleção de um *cartão* na tela Página Inicial será a melhor opção.
 
 - A tela Página Inicial exibe e organiza seu conteúdo favorito e mais recente, juntamente com o conteúdo e recursos de aprendizado recomendados. Cada parte do conteúdo é exibida como um *cartão*, com um título e um ícone. A seleção de um cartão abre o respectivo conteúdo.
-- No lado esquerdo, encontramos um painel de navegação, conhecido como barra de navegação. Nesse painel, o mesmo conteúdo é organizado de maneira um pouco diferente, por Favoritos, Recente, Aplicativos e Compartilhado comigo. Nele, você pode exibir listas de conteúdo e selecionar um para abri-lo.
+- No lado esquerdo, há um painel de navegação, conhecido como painel de navegação. Nesse painel, o mesmo conteúdo é organizado de maneira um pouco diferente, por Favoritos, Recente, Aplicativos e Compartilhado comigo. Nele, você pode exibir listas de conteúdo e selecionar um para abri-lo.
 - No canto superior direito, a caixa de pesquisa global permite pesquisar o conteúdo por título, nome ou palavra-chave.
 
 Os tópicos a seguir examinam cada uma dessas opções para localizar e exibir o conteúdo.
@@ -65,23 +64,23 @@ De acordo com as configurações de sua atividade e sua conta, o Power BI exibe 
 ### <a name="learning-resources"></a>Recursos de aprendizado
 Na parte inferior da tela Página Inicial, há um conjunto de recursos de aprendizado. Os recursos exatos exibidos dependem da atividade e das configurações, bem como do Administrador do Power BI. 
  
-## <a name="explore-the-navigation-pane-nav-bar"></a>Explorar o painel de navegação (barra de navegação)
+## <a name="explore-the-nav-pane"></a>Explorar o painel de navegação
 
-![Uma captura de tela da barra de navegação do serviço do Power BI.](media/end-user-home/power-bi-nav-bar.png)
+![Uma captura de tela do painel de navegação do serviço do Power BI.](media/end-user-home/power-bi-nav-bar.png)
 
 
-Use o painel de navegação à esquerda (barra de navegação) para localizar dashboards, relatórios e aplicativos e mover entre eles. Ocasionalmente, o uso da barra de navegação será a maneira mais rápida de acessar o conteúdo.
-A barra de navegação fica visível quando você abre a Página de aterrissagem inicial e permanece estática quando você abre outras áreas do serviço do Power BI.
+Use o painel de navegação para locar e mover-se entre dashboards, relatórios e aplicativos. Ocasionalmente, o uso do painel de navegação será a maneira mais rápida de acessar o conteúdo.
+O painel de navegação fica visível quando você abre a Página de aterrissagem inicial e permanece estático enquanto você abre outras áreas do serviço do Power BI.
   
-A barra de navegação organiza o conteúdo em contêineres semelhantes ao que você já viu na tela Página Inicial: Favoritos, Recente, Aplicativos e Compartilhado comigo. Usando os submenus, você pode exibir apenas o conteúdo mais recente em cada um desses contêineres ou navegar até listas de conteúdo para ver todo o conteúdo de cada categoria de contêiner.
+O painel de navegação organiza o conteúdo em contêineres semelhantes ao que você já viu na tela Página Inicial: Favoritos, Recente, Aplicativos e Compartilhado comigo. Usando os submenus, você pode exibir apenas o conteúdo mais recente em cada um desses contêineres ou navegar até listas de conteúdo para ver todo o conteúdo de cada categoria de contêiner.
  
 - Para abrir uma dessas seções de conteúdo e exibir uma lista de todos os itens, selecione o título.
 - Para ver o mais recente em cada contêiner, selecione o submenu ( **>** ).
 
-    ![Um vídeo de como usar a barra de navegação em Recente](media/end-user-home/power-bi-nav-bar.gif)
+    ![Um vídeo de como usar o painel de navegação em Recente](media/end-user-home/power-bi-nav-bar.gif)
 
  
-A barra de navegação é outra maneira de localizar o conteúdo desejado rapidamente. O conteúdo é organizado de maneira semelhante à tela Página Inicial, mas é mostrado em listas, em vez de cartões. 
+O painel de navegação é outra maneira de localizar o conteúdo desejado rapidamente. O conteúdo é organizado de maneira semelhante à tela Página Inicial, mas é mostrado em listas, em vez de cartões. 
 
 ## <a name="search-all-of-your-content"></a>Pesquisar todo o conteúdo
 Às vezes, a maneira mais rápida de localizar o conteúdo é pesquisá-lo. Por exemplo, talvez você tenha descoberto que um dashboard que você não usou por algum tempo não está sendo mostrado na tela Página Inicial. Ou talvez você se lembre de que seu colega, Davi, o compartilhou com você, mas você não se lembra do nome dele ou de qual tipo de conteúdo ele compartilhou, seja um dashboard ou um relatório.

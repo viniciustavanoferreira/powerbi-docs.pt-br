@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 527334d2772dbe20f7f78929231cca9faf036e95
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194859"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017738"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráfico de combinação no Power BI
 
@@ -67,7 +67,7 @@ Veja Will criar um gráfico de combinação usando a amostra de Vendas e Marketi
     c. Selecione **Hora** \> **FiscalMonth** para adicioná-la à seção **Eixo**.
 
     ![exemplo de tutorial de combinação](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Selecione as reticências (…) no canto superior direito da visualização e escolha **Classificar por > FiscalMonth**. Para alterar a ordem de classificação, selecione as reticências novamente e escolha **Classificar em ordem crescente** ou **Classificar em ordem decrescente**. Para este exemplo, usaremos **Classificar em ordem crescente**.
+5. Selecione **Mais opções** (...) no canto superior direito da visualização e **Classificar por > FiscalMonth**. Para alterar a ordem de classificação, selecione as reticências novamente e escolha **Classificar em ordem crescente** ou **Classificar em ordem decrescente**. Para este exemplo, usaremos **Classificar em ordem crescente**.
 
 6. Converta o gráfico de colunas em um gráfico de combinação. Há dois gráficos de combinação disponíveis: **Linha e coluna empilhada** e **Linha e coluna clusterizada**. Com o gráfico de coluna selecionado, no painel **Visualizações**, selecione o **Gráfico de colunas agrupadas e linha**.
 

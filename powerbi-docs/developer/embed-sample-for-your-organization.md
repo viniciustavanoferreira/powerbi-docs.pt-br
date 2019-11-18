@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237399"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431071"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Inserir conteúdo do Power BI em um aplicativo para sua organização
 
@@ -45,7 +45,7 @@ Caso você não tenha uma assinatura do Azure, crie uma [conta gratuita](https:/
 
 Antes de começar a inserir relatórios, dashboard ou blocos no seu aplicativo, você precisará verificar se o ambiente permite inserção com o Power BI.
 
-Você pode examinar a [Ferramenta de configuração de integração](https://aka.ms/embedsetup/UserOwnsData) para que possa iniciar rapidamente e baixar um aplicativo de exemplo que ajuda a criar um ambiente e a inserir um relatório. No caso de inserir um relatório paginado, é necessário atribuir pelo menos a capacidade P1 ao workspace do aplicativo criado.
+Você pode examinar a [Ferramenta de configuração de integração](https://aka.ms/embedsetup/UserOwnsData) para que possa iniciar rapidamente e baixar um aplicativo de exemplo que ajuda a criar um ambiente e a inserir um relatório. No caso de inserir um relatório paginado, é necessário atribuir pelo menos a capacidade P1 ao workspace criado.
 
 Se você optar por configurar o ambiente manualmente, poderá continuar abaixo.
 
@@ -57,13 +57,13 @@ Você precisa para continuar com o registro de um **aplicativo Web do lado do se
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar seu ambiente do Power BI
 
-### <a name="create-an-app-workspace"></a>Criar um workspace de aplicativo
+### <a name="create-a-workspace"></a>Criar um workspace
 
-Se você estiver inserindo relatórios, painéis ou blocos para seus clientes, precisará colocar o conteúdo dentro de um workspace do aplicativo. Há diferentes tipos de workspaces que você pode configurar: o [workspaces tradicionais](../service-create-workspaces.md) ou o [novos workspaces](../service-create-the-new-workspaces.md).
+Se você estiver inserindo relatórios, dashboards ou blocos para seus clientes, precisará colocar o conteúdo dentro de um workspace. Há diferentes tipos de workspaces que você pode configurar: o [workspaces tradicionais](../service-create-workspaces.md) ou o [novos workspaces](../service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Criar e publicar os relatórios do Power BI
 
-Você pode criar seus relatórios e conjuntos de dados usando o Power BI Desktop. Em seguida, você pode publicar esses relatórios em um workspace do aplicativo. O usuário final que publicar os relatórios precisa ter uma licença do Power BI Pro para publicar em um workspace do aplicativo.
+Você pode criar seus relatórios e conjuntos de dados usando o Power BI Desktop. Em seguida, você pode publicar esses relatórios em um workspace. O usuário final que publicar os relatórios precisa ter uma licença do Power BI Pro para publicar em um workspace.
 
 1. Baixe a [demonstração](https://github.com/Microsoft/powerbi-desktop-samples) de exemplo do GitHub.
 
@@ -73,7 +73,7 @@ Você pode criar seus relatórios e conjuntos de dados usando o Power BI Desktop
 
    ![Relatório de exemplo do Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. Publique no workspace do aplicativo.
+3. Publique no workspace.
 
    ![Publicar um relatório do Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +83,7 @@ Você pode criar seus relatórios e conjuntos de dados usando o Power BI Desktop
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Criar e publicar relatórios paginados
 
-Você pode criar seus relatórios paginados usando o [Construtor de Relatórios do Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Em seguida, você pode [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) em um workspace de aplicativo atribuído a pelo menos uma capacidade P1. O usuário final que carrega o relatório precisa ter uma licença do Power BI Pro para publicar em um workspace do aplicativo.
+Você pode criar seus relatórios paginados usando o [Construtor de Relatórios do Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Em seguida, você pode [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) em um workspace atribuído a pelo menos uma capacidade P1. O usuário final que carrega o relatório precisa ter uma licença do Power BI Pro para publicar em um workspace.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Insira o conteúdo usando o aplicativo de exemplo
 
@@ -130,7 +130,7 @@ Para obter a **applicationId**, siga estas etapas:
 
 ### <a name="workspace-id"></a>ID do workspace
 
-Preencha as informações de **workspaceId** com o GUID do workspace (grupo) do aplicativo do Power BI. Você pode obter essas informações da URL quando conectado ao serviço do Power BI ou usando o Powershell.
+Preencha as informações de **workspaceId** com o GUID do workspace (grupo) do Power BI. Você pode obter essas informações da URL quando conectado ao serviço do Power BI ou usando o Powershell.
 
 URL <br>
 
@@ -169,9 +169,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Preencha a informação **AADAuthorityUrl** com a URL que permite a você inserir no locatário organizacional ou inserir com um usuário convidado.
 
-Para inserir com seu locatário organizacional, use a URL: *https://login.microsoftonline.com/common/oauth2/authorize*.
+Para inserir com seu locatário organizacional, use a URL: *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Para inserir com um convidado, use a URL *https://login.microsoftonline.com/report-owner-tenant-id*, em que você adiciona a ID de locatário do proprietário do relatório substituindo *relatório-proprietário-locatário-id*.
+Para inserir com um convidado, use a URL *https://login.microsoftonline.com/report-owner-tenant-id* , em que você adiciona a ID de locatário do proprietário do relatório substituindo *relatório-proprietário-locatário-id*.
 
 ### <a name="run-the-application"></a>Execute o aplicativo
 
@@ -205,7 +205,7 @@ Para obter um relatório paginado ou do Power BI, use a operação [Obter Relat�
 
 A operação [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) retorna uma lista de relatórios. É possível obter um relatório individual na lista de relatórios.
 
-Para fazer a chamada à API REST, você deve incluir um cabeçalho *Autorização* no formato *Portador {token de acesso}*.
+Para fazer a chamada à API REST, você deve incluir um cabeçalho *Autorização* no formato *Portador {token de acesso}* .
 
 #### <a name="get-reports-with-the-rest-api"></a>Obter relatórios com a API REST
 
@@ -376,11 +376,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Usando uma capacidade dedicada do Power BI Premium
 
-Agora que você terminou o desenvolvimento do seu aplicativo, é hora de conferir uma capacidade dedicada para o workspace do seu aplicativo.
+Agora que você terminou o desenvolvimento do seu aplicativo, é hora de conferir uma capacidade dedicada ao workspace.
 
 ### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
 
-Ao criar uma capacidade dedicada, você pode usufruir de um recurso dedicado ao conteúdo no workspace do aplicativo. Para relatórios paginados, você precisa dar suporte ao workspace do aplicativo com, pelo menos, uma capacidade P1. Você pode criar uma capacidade dedicada usando o [Power BI Premium](../service-premium-what-is.md).
+Ao criar uma capacidade dedicada, você pode usufruir de um recurso dedicado ao conteúdo no workspace. Para relatórios paginados, você precisa dar suporte ao workspace com, pelo menos, uma capacidade P1. Você pode criar uma capacidade dedicada usando o [Power BI Premium](../service-premium-what-is.md).
 
 A tabela a seguir lista os SKUs do Power BI Premium disponíveis no [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -399,9 +399,9 @@ A tabela a seguir lista os SKUs do Power BI Premium disponíveis no [Microsoft O
 > - Quando você está tentando inserir com aplicativos do Microsoft Office, pode usar SKUs de EM para acessar o conteúdo com uma licença gratuita do Power BI. Mas você não pode acessar o conteúdo com uma licença gratuita do Power BI quando você estiver usando o Powerbi.com ou o Power BI Mobile.
 > - Quando você está tentando inserir com aplicativos do Microsoft Office usando o Powerbi.com ou o Power BI Mobile, pode acessar o conteúdo com uma licença gratuita do Power BI.
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Atribua um workspace de aplicativo a uma capacidade dedicada
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Atribua um workspace a uma capacidade dedicada
 
-Depois de criar uma capacidade dedicada, você pode atribuir o workspace do aplicativo a uma capacidade dedicada. Para concluir este processo, siga estas etapas:
+Depois de criar uma capacidade dedicada, você pode atribuir o workspace a uma capacidade dedicada. Para concluir este processo, siga estas etapas:
 
 1. No serviço do Power BI, expanda os workspaces e selecione as reticências do workspace que você está usando para inserir seu conteúdo. Depois, selecione **Editar workspaces**.
 
@@ -411,9 +411,9 @@ Depois de criar uma capacidade dedicada, você pode atribuir o workspace do apli
 
     ![Atribuir uma capacidade dedicada](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Depois de selecionar **Salvar**, você verá um losango ao lado do nome do workspace do aplicativo.
+3. Depois que você selecionar **Salvar**, será exibido um losango próximo ao nome do workspace.
 
-    ![Workspace do aplicativo vinculado a uma capacidade](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![workspace vinculado a uma capacidade](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>Configurações de administração
 

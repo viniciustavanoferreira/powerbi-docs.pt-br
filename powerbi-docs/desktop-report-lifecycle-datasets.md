@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: de72cab51a4d43d1a07d6ada0bd77888952817ab
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020486"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429806"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop
 Você pode estabelecer uma conexão dinâmica a um conjunto de dados compartilhado no serviço do Power BI e criar vários relatórios diferentes com base no mesmo conjunto de dados. Isso significa que você pode criar seu modelo de dados perfeito no Power BI Desktop e publicá-lo no serviço do Power BI. Em seguida, você e outros usuários podem criar vários relatórios diferentes (em arquivos .pbix separados) usando esse mesmo Common Data Service e salvá-los em workspaces diferentes. Esse recurso é chamado de **conexão dinâmica do serviço do Power BI**.
@@ -37,7 +37,7 @@ Todos adoram os relatórios e conjuntos de dados de Anna, e é aí que o problem
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Conectar-se a um conjunto de dados do serviço do Power BI usando uma conexão dinâmica
 Depois de criar o relatório (e o conjunto de dados no qual se baseou), Anna o publica no **serviço do Power BI** e ele será exibido no workspace da equipe no serviço do Power BI. Se ela o salvar em um *novo workspace de experiência*, poderá definir a permissão Criar para disponibilizá-lo para visualização e uso por todas as pessoas dentro e fora do workspace.
 
-Para saber mais sobre novos workspaces de experiência, confira [Workspaces de aplicativo](service-new-workspaces.md).
+Para saber mais sobre novos workspaces de experiência, confira [workspaces](service-new-workspaces.md).
 
 Outros membros dentro e fora do workspace de Anna podem agora estabelecer uma conexão dinâmica com o modelo de dados compartilhado dela (usando o recurso de **conexão dinâmica ao serviço do Power BI**) e criar seus próprios relatórios exclusivos usando o *conjunto de dados original* em *seus novos workspaces de experiência*.
 

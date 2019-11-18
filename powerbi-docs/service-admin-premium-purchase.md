@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175228"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442907"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 
@@ -30,17 +30,17 @@ Se uma assinatura Premium expirar, você terá 30 dias de acesso completo à sua
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Criar um novo locatário com o Power BI Premium P1
 
-Caso você não tenha um locatário e deseje criar um, poderá comprar o Power BI Premium ao mesmo tempo. O link a seguir orienta você pelo processo de criação de um novo locatário e permite que você compre o Power BI Premium: [oferta do Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Quando você cria seu locatário, é automaticamente atribuído à função de Administrador Global do Office 365 para esse locatário.
+Caso você não tenha um locatário e deseje criar um, poderá comprar o Power BI Premium ao mesmo tempo. O link a seguir orienta você pelo processo de criação de um novo locatário e permite que você compre o Power BI Premium: [oferta do Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Quando você cria seu locatário, recebe automaticamente a função de Administrador Global do Microsoft 365 para esse locatário.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>Comprar uma capacidade do Power BI Premium para uma organização existente
 
-Se você tiver uma organização existente (locatário), deverá estar na função de Administrador Global do Office 365 ou na função de Administrador de Cobrança para comprar licenças e assinaturas. Para obter mais informações, consulte [About Office 365 admin roles (Sobre funções de administrador do Office 365)](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Se tiver uma organização (locatário) existente, você deverá estar na função de Administrador Global do Microsoft 365 ou na função de Administrador de Cobrança para comprar licenças e assinaturas. Para obter mais informações, consulte [Sobre funções de administrador do Microsoft 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 Para comprar capacidade Premium, siga estas etapas.
 
-1. No serviço do Power BI, escolha Seletor de aplicativo do Office 365 e, em seguida **Admin**.
+1. No serviço do Power BI, escolha o seletor de aplicativo do Microsoft 365 e, em seguida **Admin**.
 
-    ![Seletor de aplicativo do Office 365](media/service-admin-premium-purchase/o365-app-picker.png)
+    ![Seletor de aplicativo do Microsoft 365](media/service-admin-premium-purchase/o365-app-picker.png)
 
     Como alternativa, é possível navegar até o Centro de administração do Microsoft 365. Para isso, acesse https://portal.office.com e selecione **Administrador**.
 
@@ -66,7 +66,7 @@ Agora que você tem uma capacidade, pode adicionar mais conforme suas necessidad
 
 1. Localize o item do Power BI Premium do qual você deseja adquirir mais em **Outros planos**.
 
-1. Passe o mouse sobre as **reticências (...)** e, em seguida, selecione **Alterar quantidade de licenças**.
+1. Passe o mouse sobre **Mais opções** (...) e, em seguida, selecione **Alterar quantidade de licenças**.
 
     ![Alterar quantidade de licenças](media/service-admin-premium-purchase/premium-purchase-more.png)
 

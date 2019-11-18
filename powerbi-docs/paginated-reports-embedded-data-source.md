@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: db79c33abe6f9e472dc29db007c4485d7a8d861e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020811"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431607"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma fonte de dados incorporada para relatórios paginados no serviço do Power BI
 
@@ -72,7 +72,7 @@ Confira [Dados de relatório no Construtor de Relatórios do Power BI](report-bu
 
 Os relatórios paginados que se conectam aos conjuntos de dados do Power BI seguem as regras para conjuntos de dados compartilhados no Power BI com algumas pequenas alterações.  Para que os usuários exibam corretamente os relatórios paginados usando conjuntos de dados do Power BI e garantam que a Segurança em Nível de Linha (RLS) esteja habilitada e imposta para os visualizadores, certifique-se de seguir estas regras:
 
-### <a name="classic-apps-and-app-workspaces"></a>Aplicativos clássicos e workspaces de aplicativo
+### <a name="classic-apps-and-workspaces"></a>Aplicativos clássicos e workspaces
 
 - .rdl no mesmo workspace que o conjunto de dados (mesmo proprietário): Compatível
 - .rdl em um workspace diferente daquele do conjunto de dados (mesmo proprietário): Compatível
@@ -82,7 +82,7 @@ Os relatórios paginados que se conectam aos conjuntos de dados do Power BI segu
 - .rdl em um workspace diferente daquele do conjunto de dados (usuário diferente): você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
 - Segurança em nível de função: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados para que ela seja imposta.
 
-### <a name="new-experience-apps-and-app-workspaces"></a>Novos aplicativos e workspaces de aplicativo
+### <a name="new-experience-apps-and-workspaces"></a>Novos aplicativos e workspaces
 
 - .rdl no mesmo workspace que o conjunto de dados: Compatível
 - .rdl em um workspace diferente daquele do conjunto de dados (mesmo proprietário): Compatível

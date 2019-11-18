@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f7f488891ddbdac1f377d25cf32c2eb0468c291
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256323"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019830"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Painéis em destaque no serviço do Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Muitos de nós temos um painel que é visitado mais do que qualquer outro. Pode ser o dashboard que usamos para administrar nossos negócios. Ou talvez um que contenha uma agregação de blocos de vários dashboards e relatórios diferentes.
 
 ## <a name="create-a-featured-dashboard"></a>Criar um painel em destaque
@@ -37,7 +40,7 @@ Assista à Amanda criar um dashboard em destaque no vídeo. Depois, siga as etap
 
 
 1. Abra o dashboard que você deseja definir como em destaque. 
-2. Na barra de menus superior, selecione as reticências (...) e selecione **Definir como em destaque**. 
+2. Na barra de menus superior, selecione **Mais opções** (...) e **Definir como em destaque**. 
    
     ![Ícone Definir como em destaque](./media/end-user-featured/power-bi-dropdown.png)
 3. Confirme a seleção.
@@ -58,7 +61,7 @@ Se mudar de ideia mais tarde, você poderá definir um novo dashboard como o das
 Se você decidir que não deseja nenhum dashboard definido como em destaque, aqui está como remover a definição em destaque de um dashboard.
 
 1. Abra o dashboard em destaque no momento.
-2. Na barra de menus superior, selecione as reticências (...) e selecione **Desabilitar em destaque**.
+2. Na barra de menus superior, selecione **Mais opções** (...) e **Desabilitar em destaque**.
 
     ![Desabilitar dashboard em destaque selecionado](./media/end-user-featured/power-bi-unfeature-newer.png)
    

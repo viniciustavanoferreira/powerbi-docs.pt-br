@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543873"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169031"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solucionar problemas de atualização
 
@@ -25,6 +25,12 @@ Aqui você pode encontrar informações sobre cenários diferentes que você pod
 > Se você encontrar um cenário que não esteja listado abaixo e que esteja causando problemas, solicite ajuda no [site da comunidade](http://community.powerbi.com/) ou crie um [tíquete de suporte](https://powerbi.microsoft.com/support/).
 >
 >
+
+## <a name="email-notifications"></a>Notificações por email
+
+Se você acessou este artigo de uma notificação por email e não deseja mais receber emails sobre problemas de atualização, entre em contato com o administrador do Power BI. Solicite a remoção do seu email – ou de uma lista de emails em que você está inscrito – dos conjuntos de valores apropriados no Power BI. Isso pode ser feito na área a seguir do portal de administração do Power BI.
+
+![Email para notificações de atualização](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>A atualização usando o conector da Web não funciona corretamente
 

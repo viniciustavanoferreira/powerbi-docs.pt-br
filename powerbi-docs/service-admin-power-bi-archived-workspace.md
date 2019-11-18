@@ -2,7 +2,6 @@
 title: Workspace Arquivado do Power BI
 description: Workspace Arquivado do Power BI depois de gerenciar locatários do Office 365
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 891ffffd885e2b5d59cba64e6e99ce7fe3cf811b
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 66bf203cad577df0c985fbd73bcab3c6d79f6a95
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175622"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873558"
 ---
 # <a name="power-bi-archived-workspace"></a>Workspace Arquivado do Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "71175622"
 
 Com o Power BI, qualquer pessoa pode inscrever-se e começar a usar o serviço em alguns minutos.  Posteriormente, o departamento de TI da sua organização pode optar por assumir o gerenciamento do Power BI para usuários em sua organização.  Se esse controle ocorrer, você se beneficia do gerenciamento central de usuários e permissões em sua organização. Você também poderá aproveitar a entrada simplificada usando o mesmo nome de usuário e senha utilizados para outros serviços em sua organização.
 
-Qualquer conteúdo que tenha sido criado antes do início do gerenciamento do Power BI por seu departamento de TI será colocado em um Workspace Arquivado do Power BI, que pode ser acessado na barra de navegação à esquerda do [Power BI](https://app.powerbi.com). Você deve começar a criação de conteúdo novo Power BI em Meu Workspace, que é protegido e gerenciado pelo departamento de TI da sua organização.  O workspace arquivado continuará a existir, mas há restrições sobre as ações que podem ser executadas no conteúdo do Workspace Arquivado.  Para remover essas restrições, você precisará migrar o conteúdo do seu Workspace Arquivado para o Meu Workspace, gerenciado pelo departamento de TI.
+Qualquer conteúdo que tenha sido criado antes do início do gerenciamento do Power BI por seu departamento de TI será colocado em um Workspace Arquivado do Power BI, que pode ser acessado no painel de navegação do [Power BI](https://app.powerbi.com). Você deve começar a criação de conteúdo novo Power BI em Meu Workspace, que é protegido e gerenciado pelo departamento de TI da sua organização.  O workspace arquivado continuará a existir, mas há restrições sobre as ações que podem ser executadas no conteúdo do Workspace Arquivado.  Para remover essas restrições, você precisará migrar o conteúdo do seu Workspace Arquivado para o Meu Workspace, gerenciado pelo departamento de TI.
 
 ## <a name="restrictions-in-your-archived-workspace"></a>Restrições em seu Workspace Arquivado
 
@@ -50,5 +49,5 @@ Para continuar usando o Power BI, você deverá criar novo conteúdo em Meu Work
 
 * **Dashboards**: dashboards instalados como parte dos pacotes de conteúdo são recriados automaticamente quando você se reconectar ao pacote de conteúdo no Meu Workspace. Se você criar seus próprios painéis por meio do serviço Power BI, recrie esses painéis no Meu Workspace.
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

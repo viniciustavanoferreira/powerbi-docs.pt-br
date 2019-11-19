@@ -1,20 +1,19 @@
 ---
 title: Registrar um aplicativo para inserir o conteúdo do Power BI
 description: Saiba como registrar um aplicativo no Azure Active Directory para uso com a inserção de conteúdo do Power BI.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269463"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009790"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registrar um aplicativo do Azure AD para usar com o Power BI
 
@@ -105,7 +104,7 @@ Convém entrar com a conta *mestra* usada para inserção, ou com uma conta de A
 
 ### <a name="using-the-azure-ad-portal"></a>Usando o Portal do Azure AD
 
-1. Navegue até [Registros de aplicativo](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) no portal do Azure e selecione o aplicativo que você está usando para inserção.
+1. Navegue até [Registros de aplicativo](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/) no portal do Azure e selecione o aplicativo que você está usando para inserção.
 
 2. Selecione **Permissões de API** em **Gerenciar**.
 
@@ -199,4 +198,4 @@ Convém entrar com a conta *mestra* usada para inserção, ou com uma conta de A
 
 Agora que você registrou seu aplicativo no Azure AD, é necessário autenticar os usuários no aplicativo. Confira [Autenticar usuários e obter um token de acesso do Azure AD para o aplicativo do Power BI](get-azuread-access-token.md) para saber mais.
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

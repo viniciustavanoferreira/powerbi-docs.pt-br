@@ -3,18 +3,17 @@ title: Desenvolver um visual do Power BI
 description: Um tutorial sobre como desenvolver um visual personalizado do Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 1aa269bc738b873ac36498e2ecf52f2cf06c209d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308687"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128017"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desenvolver um visual do Power BI
 
@@ -79,7 +78,7 @@ Agora, é necessário instalar o pacote **pbiviz**.
     pbiviz --install-cert
     ```
 
-    Ele retorna um resultado que produz uma *frase secreta*. Nesse caso, a *frase secreta* é **_15105661266553327_**. Também inicia o assistente para importação de certificados.
+    Ele retorna um resultado que produz uma *frase secreta*. Nesse caso, a *frase secreta* é **_15105661266553327_** . Também inicia o assistente para importação de certificados.
 
     ![Certificado criado por meio do PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
@@ -89,7 +88,7 @@ Agora, é necessário instalar o pacote **pbiviz**.
 
 3. Na etapa **Arquivo a ser importado**, selecione *Avançar*.
 
-4. Na etapa **Proteção de chave privada**, na caixa de senha, cole a frase secreta recebida da criação do certificado.  Novamente, nesse caso, ela é **_15105661266553327_**.
+4. Na etapa **Proteção de chave privada**, na caixa de senha, cole a frase secreta recebida da criação do certificado.  Novamente, nesse caso, ela é **_15105661266553327_** .
 
       ![Copiar frase secreta](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
@@ -313,7 +312,7 @@ Agora é possível desenvolver o visual personalizado para exibir um círculo co
 
     Este comando instala as definições TypeScript com base em arquivos JavaScript, permitindo que você desenvolva o visual personalizado no TypeScript (que é um superconjunto de JavaScript). O Visual Studio Code é um IDE ideal para desenvolver aplicativos TypeScript.
 
-3. Para instalar a biblioteca **core-js** no PowerShell, digite o comando a seguir.
+3. Para instalar o **core-js** no PowerShell, digite o comando abaixo.
 
     ```powershell
     npm i core-js@3.2.1 --save
@@ -338,9 +337,9 @@ Agora é possível desenvolver o visual personalizado para exibir um círculo co
     PS C:\circlecard>
     ```
 
-    Esse comando instala a biblioteca padrão modular para JavaScript. Ele inclui polyfills para ECMAScript até 2019. Saiba mais sobre [`core-js`](https://www.npmjs.com/package/core-js)
+    Este comando instala a biblioteca padrão modular para JavaScript. Ele inclui polyfills para ECMAScript até 2019. Leia mais sobre [`core-js`](https://www.npmjs.com/package/core-js)
 
-4. Para instalar a biblioteca **powerbi-visual-api** no PowerShell, digite o comando a seguir.
+4. Para instalar a **powerbi-visual-api** no PowerShell, digite o comando abaixo.
 
     ```powershell
     npm i powerbi-visuals-api --save-dev
@@ -356,7 +355,7 @@ Agora é possível desenvolver o visual personalizado para exibir um círculo co
     PS C:\circlecard>
     ```
 
-    Esse comando instala definições de API de visuais do Power BI.
+    Este comando instala as definições da API de Visuais do Power BI.
 
 5. Inicie o [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -601,13 +600,13 @@ Modifique o arquivo **capabilities.json** para definir a função e os mapeament
 
 1. No **Visual Studio Code**, no arquivo **visual.ts**,
 
-    importe a interface de `DataView` do módulo `powerbi`
+    importe a interface `DataView` do módulo `powerbi`
 
     ```typescript
     import DataView = powerbi.DataView;
     ```
 
-    e adicione a instrução a seguir como a primeira instrução do método de atualização.
+    e adicione a seguinte instrução como a primeira instrução do método de atualização.
 
     ```typescript
     let dataView: DataView = options.dataViews[0];

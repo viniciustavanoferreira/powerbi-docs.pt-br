@@ -2,20 +2,19 @@
 title: Grandes conjuntos de dados, limites de pontos de dados e estratégias de dados
 description: Limites de dados para visuais e estratégias de redução de dados
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276367"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011293"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Limites de ponto de dados e estratégias por tipo de visual
 
@@ -45,7 +44,7 @@ Para saber mais, confira [Novidades no Analysis Services](https://docs.microsoft
 ## <a name="dynamic-limits"></a>Limites dinâmicos
 Além das estratégias acima, visuais com duas hierarquias de colunas de agrupamento (eixo e legenda, ou categoria e série) usam uma estratégia adicional chamada *limites dinâmicos*.  Os limites dinâmicos são projetados para equilibrar melhor os pontos de dados. 
 
-Os limites dinâmicos fornecem uma melhor seleção de pontos para dados esparsos do que os limites estáticos. Por exemplo, um visual pode ser configurado para selecionar 100 categorias e 10 séries com um total de 1000 pontos. Mas os dados reais têm 50 categorias e 20 séries.  No tempo de execução da consulta, os limites dinâmicos selecionam todas as 20 séries para preencher os 1000 pontos solicitados.
+Os limites dinâmicos fornecem uma melhor seleção de pontos para dados esparsos do que os limites estáticos. Por exemplo, um visual pode ser configurado para selecionar 100 categorias e 10 séries com um total de 1000 pontos. Mas os dados reais têm 50 categorias e 20 séries.  No runtime da consulta, os limites dinâmicos selecionam todas as 20 séries para preencher os 1000 pontos solicitados.
 
 Os limites dinâmicos são aplicados automaticamente quando o servidor é capaz, conforme detalhado abaixo:
 
@@ -113,8 +112,8 @@ Dependendo da configuração, um mapa pode ter:
 - Latitude, Longitude: consulte [Dispersão de alta densidade](desktop-high-density-scatter-charts.md)
 - Latitude, Longitude, Tamanho: 3.500 superiores
 - Legenda, Latitude, Longitude: consulte [Dispersão de alta densidade](desktop-high-density-scatter-charts.md)
-- Legenda, Latitude, Longitude, Tamanho: Legendas dos 233 superiores, latitude e longitude dos 15 superiores (estatísticas ou limites dinâmicos podem ser usados)
-- Localização, Legenda, Latitude, Longitude como agregações (+ /-tamanho): Locais dos 233 superiores, legenda dos 15 superiores (estatísticas ou limites dinâmicos podem ser usados)
+- Legenda, Latitude, Longitude, Tamanho: 233 principais legendas, 15 principais latitudes e longitudes (estatísticas ou limites dinâmicos podem ser usados)
+- Localização, Legenda, Latitude e Longitude como agregações (+ /-tamanho): 233 principais locais, 15 principais legendas (pode usar limites dinâmicos ou estatísticas)
 
 ### <a name="matrix"></a>Matriz
 - Linhas: Virtualização usando a janela de 500 linhas de cada vez
@@ -147,16 +146,15 @@ Limite de 150.000 linhas. Se mais de 150.000 linhas forem selecionadas, somente 
         - Categorias: Exemplo de 500 valores
         - Série: 20 valores superiores
 
-### <a name="shape-map"></a>Mapa de formas
-O mapa preenchido pode usar estatísticas ou limites dinâmicos. 
-- Máximo de pontos: 10.000
+### <a name="shape-map-preview"></a>Mapa de formas (versão prévia)
+O mapa de formas pode usar estatísticas ou limites dinâmicos. 
+- Máximo de pontos: 1.500
 - Categorias: 500 superiores
-- Série (quando X e Y estão presentes): 20 superiores
 
 ### <a name="table"></a>Tabela
 - Valores: Virtualização (janelas de dados) usando a janela de 500 linhas de cada vez
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>Mapa de árvore (pode usar estatísticas ou limites dinâmicos)
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>Mapa de árvore (pode usar estatísticas ou limites dinâmicos)
 - Máximo de pontos: 3,500
 - Grupo: 500 superiores
 - Detalhes: 20 superiores

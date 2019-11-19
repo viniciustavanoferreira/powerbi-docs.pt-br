@@ -3,24 +3,24 @@ title: Exportar dados de uma visualização do Power BI
 description: Exporte dados de visualizações de relatórios e de painéis exiba-os no Excel.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431100"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060478"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar dados de uma visualização
 
-Se desejar ver os dados usados pelo Power BI para criar uma visualização, [poderá exibi-los no Power BI](service-reports-show-data.md). Você também pode exportá-los para o Excel como um arquivo *.xlsx* ou *.csv*. A opção de exportação de dados requer uma licença Pro ou Premium e a edição de permissões para o conjunto de dados e o relatório.
+Se desejar ver os dados usados pelo Power BI para criar uma visualização, [poderá exibi-los no Power BI](service-reports-show-data.md). Você também pode exportá-los para o Excel como um arquivo *.xlsx* ou *.csv*. A opção de exportação de dados requer uma licença Pro ou Premium e a edição de permissões para o conjunto de dados e o relatório. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 Assista a Will exportar os dados de uma das visualizações de seu relatório, salvá-los como um arquivo *.xlsx* e abri-lo no Excel. Em seguida, siga as instruções passo a passo abaixo do vídeo para testá-la por conta própria.
 
@@ -152,7 +152,7 @@ Você também pode atualizar essa configuração no serviço do Power BI.
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Essas considerações e limitações se aplicam ao Power BI Desktop e ao serviço do Power BI, incluindo o Power BI Pro e o Premium.
 
-- Para exportar os dados de um visual, você precisa ter [Permissão de criação em conjuntos de dados subjacentes](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
+- Para exportar os dados de um visual, você precisa ter [Permissão de criação em conjuntos de dados subjacentes](https://docs.microsoft.com/power-bi/service-datasets-build-permissions).
 
 -  O número máximo de linhas que o **Power BI Desktop** e o **serviço do Power BI** podem exportar de um **relatório de modo de importação** para um arquivo *.csv* é 30.000.
 
@@ -160,13 +160,11 @@ Essas considerações e limitações se aplicam ao Power BI Desktop e ao serviç
 
 - Exportar usando os *Dados subjacentes* não funcionará se:
 
-  - A fonte de dados for uma conexão dinâmica do Analysis Services.
+  - a versão for anterior a 2016;
 
-  - A versão for anterior a 2016.
-
-  - As tabelas no modelo não tiverem uma chave exclusiva.
+  - as tabelas no modelo não tiverem uma chave exclusiva;
     
-  -  Se um administrador ou o designer de relatórios tiver desabilitado esse recurso.
+  -  um administrador ou o designer de relatórios tiver desabilitado esse recurso.
 
 - Exportar usando *Dados subjacentes* não funcionará se você habilitar a opção *Mostrar itens sem dados* para a visualização que está sendo exportada pelo Power BI.
 
@@ -196,4 +194,4 @@ Essas considerações e limitações se aplicam ao Power BI Desktop e ao serviç
 
 - Os administradores do Power BI podem desabilitar a exportação de dados.
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -1,0 +1,53 @@
+### YamlMime:Landing
+title: Documentação de diretrizes do Power BI
+summary: A documentação de diretrizes do Power BI fornece informações sobre as melhores práticas da equipe que desenvolve o Power BI e do pessoal que trabalha com nossos clientes corporativos. Aqui você encontrará aprendizados para melhorar o desempenho e o sucesso com o Power BI. Atualizaremos e adicionaremos a eles à medida que novas informações forem disponibilizadas.
+metadata:
+  title: Documentação de diretrizes do Power BI
+  description: A documentação de diretrizes do Power BI fornece informações sobre as melhores práticas da equipe que desenvolve o Power BI e do pessoal que trabalha com nossos clientes corporativos. Aqui você encontrará aprendizados para melhorar o desempenho e o sucesso com o Power BI. Atualizaremos e adicionaremos a eles à medida que novas informações forem disponibilizadas.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 11/14/2019
+  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
+  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.translationtype: HT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 11/16/2019
+  ms.locfileid: "74133832"
+landingContent:
+- title: Diretrizes do Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Diretrizes para o Power BI
+      url: overview.md
+    - text: Visão geral dos white papers
+      url: ../whitepapers.md
+- title: Modelagem de dados
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: O que é um esquema em estrela?
+      url: star-schema.md
+    - text: Técnicas de redução de dados
+      url: import-modeling-data-reduction.md
+    - text: A importância da dobragem de consultas
+      url: power-query-folding.md
+- title: DAX
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Função DIVIDE vs. operador de divisão
+      url: dax-divide-function-operator.md
+    - text: Uso apropriado de funções de erro
+      url: dax-error-functions.md
+- title: Fluxos de dados
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Melhores práticas de fluxos de dados
+      url: ../service-dataflows-best-practices.md

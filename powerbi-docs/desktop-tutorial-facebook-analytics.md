@@ -2,7 +2,6 @@
 title: 'Tutorial: Análise do Facebook com o Power BI Desktop'
 description: 'Tutorial: Análise do Facebook com o Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73018083"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876289"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Análise do Facebook com o Power BI Desktop
 
@@ -241,8 +240,8 @@ Como você pode ver, é fácil personalizar visualizações em seu relatório pa
 O Power BI Desktop fornece uma experiência perfeita de ponta a ponta, desde a obtenção de dados por meio de uma ampla variedade de fontes de dados e a modelagem desses dados para atender às suas necessidades de análise, até a visualização de tais dados de maneiras avançadas e interativas. Quando seu relatório estiver pronto, você poderá [carregá-lo no serviço do Power BI](desktop-upload-desktop-files.md) e criar painéis baseados nele, que poderão ser compartilhados com outros usuários do Power BI.
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Leia outros tutoriais do Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Assista a vídeos do Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Visite o Fórum do Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Leia o Blog do Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Leia outros tutoriais do Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Assista a vídeos do Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Visite o Fórum do Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Leia o Blog do Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)
 

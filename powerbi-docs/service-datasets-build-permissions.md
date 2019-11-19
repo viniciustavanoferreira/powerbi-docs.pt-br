@@ -2,7 +2,6 @@
 title: Permissão Criar para conjuntos de dados compartilhados (versão prévia)
 description: Saiba como você manter o controle de quem tem acesso aos dados usando a permissão Criar.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020296"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872554"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Permissão Criar para conjuntos de dados compartilhados (versão prévia)
 
@@ -103,4 +102,4 @@ Você pode remover a permissão Criar. Se você fizer isso, as pessoas cujas per
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

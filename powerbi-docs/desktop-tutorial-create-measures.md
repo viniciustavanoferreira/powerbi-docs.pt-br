@@ -2,7 +2,6 @@
 title: 'Tutorial: Criar suas próprias medidas no Power BI Desktop'
 description: 'Tutorial: Criar suas próprias medidas no Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019343"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865955"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Criar suas próprias medidas no Power BI Desktop
 Você pode criar algumas das soluções de análise de dados mais poderosas no Power BI Desktop usando medidas. As medidas ajudam você a executar cálculos em seus dados conforme você interage com os relatórios. Este tutorial serve como guia para que você compreenda as medidas e crie suas próprias medidas básicas no Power BI Desktop.
@@ -23,7 +22,7 @@ Você pode criar algumas das soluções de análise de dados mais poderosas no P
 ### <a name="prerequisites"></a>Pré-requisitos
 - Este tutorial destina-se aos usuários do Power BI já familiarizados com o uso do Power BI Desktop para criar modelos mais avançados. Você já deve estar familiarizado com o uso dos recursos Obter Dados e Editor de Consultas para importar dados, trabalho com várias tabelas relacionadas e adição de campos à Tela Relatório. Se ainda não estiver familiarizado com o Power BI Desktop, não deixe de conferir a [Introdução ao Power BI Desktop](desktop-getting-started.md).
   
-- Baixe o arquivo [Amostra de Vendas da Contoso para o Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), que inclui dados de vendas online da empresa fictícia Contoso, Inc. Esses dados foram importados de um banco de dados, portanto, você não pode se conectar à fonte de dados nem exibi-la no Editor de Consulta. Extraia o arquivo em seu próprio computador, e abra-o no Power BI Desktop.
+- Baixe o arquivo [Amostra de Vendas da Contoso para o Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), que inclui dados de vendas online da empresa fictícia Contoso, Inc. Esses dados foram importados de um banco de dados, portanto, você não pode se conectar à fonte de dados nem exibi-la no Editor de Consulta. Extraia o arquivo em seu próprio computador, e abra-o no Power BI Desktop.
 
 ## <a name="understand-measures"></a>Compreender medidas
 

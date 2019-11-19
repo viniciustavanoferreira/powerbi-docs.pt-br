@@ -3,7 +3,6 @@ title: Filtrar relatórios usando parâmetros da cadeia de caracteres de consult
 description: Filtre um relatório usando parâmetros da cadeia de caracteres de consulta de URL e filtre até mesmo em mais de um campo.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891811"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876915"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar relatórios usando parâmetros da cadeia de caracteres de consulta na URL
 
@@ -195,4 +194,4 @@ Há alguns pontos a serem considerados ao usar os parâmetros da cadeia de carac
 [Fixar uma visualização em um dashboard](service-dashboard-pin-tile-from-report.md)  
 [Inscrever-se em uma avaliação gratuita](https://powerbi.microsoft.com/get-started/)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

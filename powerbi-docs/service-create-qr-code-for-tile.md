@@ -2,7 +2,6 @@
 title: Criar um código QR para um bloco a ser usado nos aplicativos móveis do Power BI
 description: Os códigos QR no Power BI podem conectar qualquer coisa do mundo real diretamente às informações do BI relacionadas no aplicativo móvel Power BI, não sendo necessária pesquisa.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e08d37f3db6156de21f00813a90b1c7544345abe
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 10faca7cf81575dddd2abb29afee1aca0e9f1279
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021179"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853340"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um bloco no Power BI a ser usado nos aplicativos móveis
 Os códigos QR no Power BI podem conectar qualquer coisa do mundo real diretamente às informações do BI relacionadas &#151; não é necessária navegação ou pesquisa.
@@ -55,5 +54,5 @@ Power BI gera o código QR como um arquivo JPG, pronto para imprimir.
 * [Conectar-se a dados do Power BI do mundo real](consumer/mobile/mobile-apps-data-in-real-world-context.md) com os aplicativos móveis
 * [Digitalizar um código QR do Power BI em seu dispositivo móvel](consumer/mobile/mobile-apps-qr-code.md)
 * [Criar um código QR para um relatório](service-create-qr-code-for-report.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

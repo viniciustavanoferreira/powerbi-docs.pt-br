@@ -3,18 +3,17 @@ title: Ferramenta de Migração do Power BI Embedded
 description: Essa ferramenta de migração pode ser usada para copiar seus relatórios do serviço Power BI Embedded do Azure (PaaS) para o serviço do Power BI (SaaS).
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: f839c8d4208dd63cab411ef5dae064fdb3d2fa95
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 2970744f89bf8fdc115be018d00c8f5b73d9ddfc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429432"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880590"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Ferramenta de migração Power BI Embedded
 
@@ -278,4 +277,4 @@ Para obter mais informações, consulte [Como migrar o conteúdo da coleção de
 [Exemplo inserido do JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [White paper do Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

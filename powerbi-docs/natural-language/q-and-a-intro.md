@@ -2,18 +2,17 @@
 title: Use o idioma natural para explorar seus dados usando P e R do Power BI
 description: Como usar a P e R do Power BI para explorar seus dados
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
-ms.openlocfilehash: f55ef489032b05cb748eebcdeddd6c46405f5295
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717980"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874963"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introdução à P e R do Power BI
 

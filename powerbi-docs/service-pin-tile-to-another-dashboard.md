@@ -2,7 +2,6 @@
 title: Fixar um bloco de um painel para outro painel
 description: Fixar um bloco de um painel para outro painel
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020109"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881234"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Fixar um bloco de um painel para outro painel
 Uma maneira de adicionar um novo [bloco de painel](consumer/end-user-tiles.md) é copiando-o de outro painel. Ao clicar em cada um desses blocos, haverá um link para onde foi criado – em P e R ou em um relatório. 
@@ -44,5 +43,5 @@ Uma maneira de adicionar um novo [bloco de painel](consumer/end-user-tiles.md) �
 ## <a name="next-steps"></a>Próximas etapas
 [Blocos no Power BI](consumer/end-user-tiles.md)  
 [Dashboards no Power BI](consumer/end-user-dashboards.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

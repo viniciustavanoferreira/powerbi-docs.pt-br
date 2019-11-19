@@ -2,18 +2,17 @@
 title: Editar o esquema linguístico de P e R e adicionar frases no Power BI Desktop
 description: Como usar o Power BI Desktop para editar o esquema linguístico usado por P e R do Power BI.
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: 3bd5902227742a89402218b99ef8a024681be416
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891491"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875343"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Editar o esquema linguístico de P e R e adicionar frases no Power BI Desktop 
 Usar linguagem natural e expressões comuns para fazer perguntas sobre seus dados é eficiente. Ainda mais avançado é quando os seus dados respondem. Quando você faz uma pergunta para P e R do Power BI, ele se esforça para responder corretamente. Porém, para interações de P e R ainda melhores, você pode aprimorar as respostas. Uma maneira de fazer isso é editar o esquema linguístico. 
@@ -338,4 +337,4 @@ Se você fizer uma alteração em um arquivo .lsdl.yaml que não esteja em confo
 
 ![arquivo yaml mostrando os erros](media/q-and-a-tooling-advanced/power-bi-yaml-errors.png)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

@@ -3,18 +3,17 @@ title: O que posso fazer com a API do Power BI
 description: O que posso fazer com a API do Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: d52dcb640c0140baad2d3d5d20a1afd56aac7c4d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 8a231a426823d40be34e900a32d06e5d5f77108b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430691"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880480"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>O que os desenvolvedores podem fazer com a API do Power BI?
 
@@ -61,4 +60,4 @@ Você pode usar a API do Power BI para [enviar dados por push a um conjunto de d
 * [Referência da API REST do Power BI](rest-api-reference.md)
 * [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

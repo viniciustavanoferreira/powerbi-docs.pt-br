@@ -2,7 +2,6 @@
 title: Inscrever-se no Power BI como indivíduo
 description: Saiba como se inscrever no Power BI e comece a usá-lo para atender às suas necessidades análise e visualização de dados.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/31/2019
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 785aad2cb7fe369805d8562eb8e493fb65036ef0
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442860"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871535"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Inscrever-se no Power BI como indivíduo
 
@@ -88,4 +87,4 @@ Na maioria dos casos, você pode se inscrever para o Power BI seguindo o process
 [Compra do Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Contrato de Serviço do Power BI para usuários individuais](https://powerbi.microsoft.com/terms-of-service/)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Dicas e truques para fazer perguntas com P e R
 description: Dicas e truques para fazer perguntas com a P e R no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a3d70824949d214404b25b401930fc69cb47ad4e
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72774731"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099009"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas na P e R do Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecida pela P e R
@@ -65,7 +64,7 @@ A lista abaixo usa o presente do indicativo, mas, na maioria dos casos, todos os
 |  |  |
 |**N superior**     |     (ordem, classificação): superior, inferior, o maior, o menor, o primeiro, o último, o próximo, o mais recente, o mais antigo, o mais novo            |
 |        |         |
-|**Tipos de visual**     |  todos os tipos de visual nativos do Power BI.  Se esta for uma opção no painel Visualizações, você poderá incluí-la em sua pergunta.  A exceção a esta regra são [visuais personalizados](../power-bi-custom-visuals.md) que você adicionou manualmente ao painel Visualização.  |
+|**Tipos de visual**     |  todos os tipos de visual nativos do Power BI.  Se esta for uma opção no painel Visualizações, você poderá incluí-la em sua pergunta.  A exceção a esta regra são [visuais personalizados](../developer/power-bi-custom-visuals.md) que você adicionou manualmente ao painel Visualização.  |
 |  |  Exemplo: mostrar distritos por mês e vendas total como um gráfico de barras               |
 |        |         |
 |**Palavras interrogativas (relação, qualificada)**  | quando, onde, qual, quem, quanto, quantos, quantas vezes, com que frequência, qual valor, quantidade, número, valor, quanto tempo, o que                |
@@ -90,5 +89,5 @@ Voltar a [P e R no Power BI](end-user-q-and-a.md)
 
 [Power BI – conceitos básicos](end-user-basic-concepts.md)  
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

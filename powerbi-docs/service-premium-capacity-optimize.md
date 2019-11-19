@@ -3,7 +3,6 @@ title: Otimizar as capacidades do Microsoft Power BI Premium
 description: Descreve estratégias de otimização para capacidades do Power BI Premium.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fc983fe9027f6d94c5394d524a6417a64719a8ac
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431692"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871907"
 ---
 # <a name="optimizing-premium-capacities"></a>Otimização de capacidades Premium
 
@@ -257,7 +256,7 @@ O conteúdo do teste pode ser adicionado aos workspaces criados na capacidade do
 
 Se você já tiver uma capacidade e os relatórios para os quais deseja fazer o teste de carga, use a [ferramenta de geração de carga do PowerShell](https://aka.ms/PowerBILoadTestingTool) para gerar rapidamente um teste de carga. A ferramenta permite que você calcule quantas instâncias de cada relatório sua capacidade pode executar em uma hora. Você pode usar a ferramenta para avaliar a habilidade da capacidade de renderizar o relatório individual ou renderizar vários relatórios diferentes em paralelo. Para obter mais informações, veja o vídeo [Microsoft Power BI: Capacidade Premium](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
 
-Para gerar um teste mais complexo, considere desenvolver um aplicativo de teste de carga que simule uma carga de trabalho realista. Para obter mais informações, veja o webinar [Teste de carga de aplicativos Power BI com o Teste de Carga do Visual Studio](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/).
+Para gerar um teste mais complexo, considere desenvolver um aplicativo de teste de carga que simule uma carga de trabalho realista. Para obter mais informações, veja o webinar [Teste de carga de aplicativos Power BI com o Teste de Carga do Visual Studio](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/).
 
 ## <a name="acknowledgements"></a>Agradecimentos
 

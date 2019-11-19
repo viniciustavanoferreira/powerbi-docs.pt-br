@@ -3,18 +3,17 @@ title: Log de alterações para o Servidor de Relatórios do Power BI
 description: Esse log de alterações é para o Servidor de Relatório do Power BI e lista novos itens juntamente com correções de bug para cada build lançado.
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/25/2019
-ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922556"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874288"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Log de alterações para o Servidor de Relatórios do Power BI
 
@@ -29,7 +28,7 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
         - Correções de bug
             - Correção do .NET Framework 4.7 não instalada.
             - Correção de relatórios paginados para o Teradata com parâmetros de vários valores com o erro 110083.
-            - A correção do valor de URLRoot não funcionará se houver várias associações de URL de serviço Web e uma delas for http://+80/reportserver.
+            - A correção do valor de URLRoot não funcionará se houver várias associações de URL de serviço Web e uma delas for https://+80/reportserver.
           - Correção dos valores de parâmetro de vários valores dos relatórios paginados exibidos fora da área do relatório.
           
     - *Versão: 1.6.7221.30698 (Compilação 15.0.1102.620), Lançada: 9 de outubro de 2019*
@@ -305,6 +304,6 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
 [Visão geral do administrador](admin-handbook-overview.md)  
 [Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Baixar o Construtor de Relatórios](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Baixar o SSDT (SQL Server Data Tools)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

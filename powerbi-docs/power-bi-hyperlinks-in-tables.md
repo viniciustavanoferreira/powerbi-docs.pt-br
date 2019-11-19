@@ -2,7 +2,6 @@
 title: Adicionar hiperlinks (URLs) a uma tabela
 description: Este tópico ensina como adicionar hiperlinks (URLs) a uma tabela. Você usa Power BI Desktop para adicionar hiperlinks (URLs) a uma tabela ou matriz. Em seguida, no Serviço do Power BI ou no Power BI Desktop, é possível adicioná-los às suas matrizes e tabelas de relatório.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060747"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874516"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Adicionar hiperlinks (URLs) a uma tabela
 Este tópico ensina como adicionar hiperlinks (URLs) a uma tabela. Você usa Power BI Desktop para adicionar hiperlinks (URLs) a uma tabela ou matriz. Em seguida, no Serviço do Power BI ou no Power BI Desktop, é possível adicioná-los às suas matrizes e tabelas de relatório. 
@@ -112,5 +111,5 @@ R: Não. Você pode usar um ícone de link. Se precisar de texto personalizado p
 
 [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Adicionar imagens, vídeos e outros elementos a seu dashboard
 description: Documentação de como usar o widget Adicionar bloco para adicionar uma imagem, um vídeo, uma caixa de texto, um código da Web e um bloco de dados de streaming em um dashboard.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020433"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853527"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adicionar imagens, vídeos e outros elementos a seu dashboard
 
@@ -246,5 +245,5 @@ Para fazer alterações em um bloco existente:
 ## <a name="next-steps"></a>Próximas etapas
 [Introdução aos blocos de dashboard para designers do Power BI](service-dashboard-tiles.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 

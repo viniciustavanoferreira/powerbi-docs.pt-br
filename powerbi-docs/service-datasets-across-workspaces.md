@@ -2,7 +2,6 @@
 title: Introdução ao uso de conjuntos de dados entre workspaces (versão prévia)
 description: Saiba como você pode compartilhar um conjunto de dados com usuários em toda a organização. Em seguida, eles podem criar relatórios com base no conjunto de dados em seus próprios workspaces.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431937"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877189"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introdução ao uso de conjuntos de dados entre workspaces (versão prévia)
 
@@ -73,4 +72,4 @@ Os recursos específicos e as experiências criadas com base nas funcionalidades
 - [Promover conjuntos de dados](service-datasets-promote.md)
 - [Certificar conjuntos de dados](service-datasets-certify.md)
 - [Controlar o uso de conjuntos de dados em workspaces](service-datasets-admin-across-workspaces.md)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

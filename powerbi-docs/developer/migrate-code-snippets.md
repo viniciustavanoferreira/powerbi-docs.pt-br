@@ -3,18 +3,17 @@ title: Snippets de código para migrar conteúdo do Power BI Embedded
 description: Veja alguns snippets de código das operações básicas necessárias para a migração de conteúdo
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429163"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880503"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Snippets de código para migrar conteúdo da Coleção de workspaces do Power BI
 
@@ -240,4 +239,4 @@ Neste snippet, presumimos que o conjunto de dados que pode ser enviado por push 
 [Exemplo inserido do JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [White paper do Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

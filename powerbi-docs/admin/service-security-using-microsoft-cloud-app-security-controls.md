@@ -2,7 +2,6 @@
 title: Usando controles do Microsoft Cloud App Security no Power BI
 description: Saiba como aplicar rótulos de confidencialidade de dados no Power BI
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 234a7a51d950d801f9212add204c066c36fc889e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 18062c770b93bcd1295026d841f923a81c11d84f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433631"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851251"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Usando controles do Microsoft Cloud App Security no Power BI (versão prévia)
 

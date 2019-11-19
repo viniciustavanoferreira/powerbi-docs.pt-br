@@ -2,19 +2,18 @@
 title: Dicas para a criação de aplicativos de modelo no Power BI
 description: Dicas sobre a criação de consultas, modelos de dados, relatórios e dashboards para criar ótimos aplicativos de modelo
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 57d8da8bafb62f1f24598f5f0ef4cb5e3facd59b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432136"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099758"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Dicas para a criação de aplicativos de modelo no Power BI
 
@@ -147,7 +146,7 @@ Os aplicativos de modelo dão suporte a aplicativos somente de dados de exemplo.
 | Fontes de dados | Fontes de dados compatíveis com a atualização de Dados Agendada na nuvem são permitidas. <br>Sem suporte: <li> DirectQuery</li><li>Conexões dinâmicas (sem o Azure AS)</li> <li>Fontes de dados locais (não há suporte para gateways pessoais e empresariais)</li> <li>Em tempo real (não há suporte para conjunto de dados de push)</li> <li>Modelos compostos</li></ul> |
 | Conjunto de dados: entre workspaces | Conjuntos de dados entre workspaces não são permitidos  |
 | Parâmetros de consulta | Sem suporte: Parâmetros do tipo "Qualquer" ou "Binário" bloqueiam a operação de atualização do conjunto de dados |
-| Visuais personalizados | Somente há suporte para visuais personalizados disponíveis publicamente. Não há suporte para [visuais personalizados organizacionais](power-bi-custom-visuals-organization.md) |
+| Visuais personalizados | Somente há suporte para visuais personalizados disponíveis publicamente. Não há suporte para [visuais personalizados organizacionais](developer/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>Próximas etapas
 

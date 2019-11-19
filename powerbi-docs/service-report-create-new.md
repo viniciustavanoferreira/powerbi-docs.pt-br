@@ -2,7 +2,6 @@
 title: Criar um relatório com base em um conjunto de dados
 description: Crie um novo relatório do Power BI com base em um conjunto de dados.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432208"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871763"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Criar um novo relatório no serviço do Power BI importando um conjunto de dados
 Você já leu [Relatórios no Power BI](consumer/end-user-reports.md) e agora deseja criar o seu próprio relatório. Há diferentes maneiras de criar um relatório. Neste artigo, começaremos criando um relatório básico no serviço do Power BI com base em um conjunto de dados do Excel. Depois de compreender os fundamentos da criação de um relatório, confira as [Próximas etapas](#next-steps) no final para ver tópicos mais avançados sobre relatórios.  
 
 ## <a name="prerequisites"></a>Pré-requisitos
 - [Inscrever-se no serviço do Power BI](service-self-service-signup-for-power-bi.md). Para criar relatórios usando o Power BI Desktop, confira [Exibição de relatório do Desktop](desktop-report-view.md). 
-- [Baixe o conjunto de dados de exemplo do Excel, Análise de Varejo](http://go.microsoft.com/fwlink/?LinkId=529778) e salve-o no OneDrive for Business ou localmente.
+- [Baixe o conjunto de dados de exemplo do Excel, Análise de Varejo](https://go.microsoft.com/fwlink/?LinkId=529778) e salve-o no OneDrive for Business ou localmente.
 
 ## <a name="import-the-dataset"></a>Importar o conjunto de dados
 Esse método para a criação de um relatório começa com um conjunto de dados e uma tela de relatório em branco. É possível acompanhar no conjunto de dados de exemplo do Excel, Análise de Varejo.
@@ -30,7 +29,7 @@ Esse método para a criação de um relatório começa com um conjunto de dados 
 1. Criaremos o relatório em um workspace do serviço do Power BI, portanto, selecione um workspace existente ou crie um novo.
    
    ![lista de workspaces](media/service-report-create-new/power-bi-workspaces2.png)
-2. Na parte inferior do painel de navegação esquerdo, selecione **Obter dados**.
+2. Na parte inferior do painel de navegação, selecione **Obter dados**.
    
    ![Obter dados](media/service-report-create-new/power-bi-get-data3.png)
 3. Selecione **Arquivos** e navegue até o local em que você salvou o exemplo Análise de Varejo.
@@ -93,5 +92,5 @@ Continue explorando seus dados e adicionando visualizações. Quando você encon
 ## <a name="next-steps"></a>Próximas etapas
 
 * Saiba como [fixar visualizações em um dashboard](service-dashboard-pin-tile-from-report.md)   
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

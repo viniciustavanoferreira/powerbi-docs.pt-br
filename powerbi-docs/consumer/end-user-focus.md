@@ -2,7 +2,6 @@
 title: 'Modo em Foco e modo de tela inteira: como ampliar para ver mais detalhes'
 description: Documentação para exibir um dashboard do Power BI, bloco do dashboard, relatório ou visual de relatório no modo de foco ou modo de tela inteira
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019820"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852742"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Exibir o conteúdo em mais detalhes: modo de foco e modo de tela inteira
 
@@ -38,7 +37,7 @@ O modo de foco e modo de tela inteira são duas maneiras diferentes de ver mais 
 
 ![antes e depois do modo de tela inteira do painel](media/end-user-focus/power-bi-dashboards-focus.png)
 
-Exiba seu conteúdo do serviço do Power BI (dashboard, páginas de relatório, blocos e visuais) sem a distração de menus e de barras de navegação.  Você obtém uma visão completa e não adulterada do seu conteúdo instantaneamente, o tempo todo. Isso, às vezes, é chamado de Modo de TV.   
+Exiba seu conteúdo do serviço do Power BI (dashboards, páginas de relatório, blocos e visuais) sem a distração de menus e de painéis de navegação.  Você obtém uma visão completa e não adulterada do seu conteúdo instantaneamente, o tempo todo. Isso, às vezes, é chamado de Modo de TV.   
 
 Para abrir o modo de tela inteira, selecione o ícone de **tela inteira**![ícone de tela inteira](media/end-user-focus/power-bi-full-screen-icon.png) na barra de menus do serviço do Power BI acima do painel, relatório, bloco no modo de foco ou visual no modo de foco.  Seu conteúdo selecionado preenche a tela inteira.
 Se você estiver usando o Power BI móvel, a [tela inteira estará disponível para aplicativos móveis do Windows 10](./mobile/mobile-windows-10-app-presentation-mode.md). 
@@ -60,7 +59,7 @@ Enquanto no modo de foco, um *consumidor* do Power BI pode interagir com qualque
 
 ## <a name="working-in-full-screen-mode"></a>Trabalhar no modo de tela inteira
 
-Para abrir um painel ou página de relatório no modo de tela inteira, selecione o ícone de tela cheia ![ícone de tela inteira](media/end-user-focus/power-bi-full-screen-icon.png) na barra de navegação superior. Quando você estiver no modo de tela inteira, mover o mouse ou o cursor revela um menu contextual. Como a tela inteira está disponível para uma variedade tão ampla de conteúdo, as opções no menu contextual são um pouco diferentes, mas bastante autoexplicativas.  Basta passar o mouse sobre um ícone para uma definição.
+Para abrir um painel ou página de relatório no modo de tela inteira, selecione o ícone de tela cheia ![ícone de tela inteira](media/end-user-focus/power-bi-full-screen-icon.png) do painel de navegação superior. Quando você estiver no modo de tela inteira, mover o mouse ou o cursor revela um menu contextual. Como a tela inteira está disponível para uma variedade tão ampla de conteúdo, as opções no menu contextual são um pouco diferentes, mas bastante autoexplicativas.  Basta passar o mouse sobre um ícone para uma definição.
 
 Menu de dashboards    
 ![Menu de dashboards](media/end-user-focus/power-bi-full-screen-dash.png)    

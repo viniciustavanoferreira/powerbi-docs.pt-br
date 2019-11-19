@@ -2,7 +2,6 @@
 title: Introdução aos pacotes de conteúdo organizacional no Power BI
 description: Leia sobre o empacotamento de dashboards, relatórios, pastas de trabalho do Excel e conjuntos de dados em pacotes de conteúdo organizacional, que você pode compartilhar com seus colegas de trabalho.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431736"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871987"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introdução aos pacotes de conteúdo organizacional no Power BI
 > [!NOTE]
@@ -54,7 +53,7 @@ O ciclo de vida é parecido com este:
    > 
    > 
 2. João envia um email ao grupo de distribuição, informando-os sobre o novo pacote de conteúdo.
-3. No Power BI Pro, Júlia, membro do grupo de distribuição Marketing, pesquisa e se conecta a esse pacote de conteúdo no AppSource. Agora, ela tem uma cópia somente leitura. Ela sabe que ele é somente leitura, porque no Painel de Navegação esquerdo há um ícone de compartilhamento à esquerda do nome do dashboard e o nome do relatório. E quando ela seleciona o dashboard, um ícone de cadeado informará Julia que ela está observando um dashboard do pacote de conteúdo. 
+3. No Power BI Pro, Júlia, membro do grupo de distribuição Marketing, pesquisa e se conecta a esse pacote de conteúdo no AppSource. Agora, ela tem uma cópia somente leitura. Ela sabe que ele é somente leitura, porque no painel de navegação há um ícone de compartilhamento à esquerda do nome do dashboard e o nome do relatório. E quando ela seleciona o dashboard, um ícone de cadeado informará Julia que ela está observando um dashboard do pacote de conteúdo. 
 4. Digamos que ela decida personalizá-lo. Ela agora está trabalhando em sua própria cópia do dashboard e dos relatórios. Seu trabalho não afeta a fonte, o pacote de conteúdo original, nem outros membros do grupo de distribuição. Ela agora está trabalhando em sua própria cópia do dashboard e do relatório.
 5. João faz atualizações no dashboard e, quando estiver pronto, publicará uma nova versão do pacote de conteúdo.
    
@@ -63,11 +62,11 @@ O ciclo de vida é parecido com este:
 6. Digamos que altere as configurações de segurança. Julio e Julia não têm mais acesso ao conteúdo. Digamos que eles foram removidos do grupo de distribuição Marketing.
    
    * Julio não personalizou o pacote de conteúdo original, por tanto, o conteúdo será removido automaticamente. 
-   * Julia personalizou o pacote de conteúdo. Na próxima vez que ela abrir o dashboard, todos os blocos do pacote de conteúdo original terão sumido, mas os blocos de outros relatórios que ela fixou (se ela ainda tiver permissão para usá-los) serão exibidos. Os relatórios e o conjunto de dados associados não estarão mais disponíveis (e não aparecerão no painel de navegação à esquerda).
+   * Julia personalizou o pacote de conteúdo. Na próxima vez que ela abrir o dashboard, todos os blocos do pacote de conteúdo original terão sumido, mas os blocos de outros relatórios que ela fixou (se ela ainda tiver permissão para usá-los) serão exibidos. Os relatórios e o conjunto de dados associados não estarão mais disponíveis (e não aparecerão no respectivo painel de navegação).
 7. Ou então, João exclui o pacote de conteúdo.
    
    * Julio não personalizou o pacote de conteúdo original, por tanto, o conteúdo será removido automaticamente. 
-   * Julia personalizou o pacote de conteúdo. Na próxima vez que Júlia abrir o dashboard, todos os blocos do pacote de conteúdo original terão desaparecido, mas os blocos de outros relatórios que ela fixou ainda serão exibidos. Os relatórios e o conjunto de dados associados não estarão mais disponíveis (e não aparecerão no painel de navegação à esquerda).
+   * Julia personalizou o pacote de conteúdo. Na próxima vez que Júlia abrir o dashboard, todos os blocos do pacote de conteúdo original terão desaparecido, mas os blocos de outros relatórios que ela fixou ainda serão exibidos. Os relatórios e o conjunto de dados associados não estarão mais disponíveis (e não aparecerão no respectivo painel de navegação).
 
 ## <a name="data-security"></a>Segurança de dados
 Todos os membros do grupo de distribuição têm as mesmas permissões para os dados que o criador do pacote de conteúdo. A única exceção são os conjuntos de dados de tabela locais do SSAS (SQL Server Analysis Services). Como os relatórios e dashboards se conectam dinamicamente ao modelo SSAS local, as credenciais de cada membro individual do grupo de distribuição são usadas para determinar os dados que poderão ser acessados.
@@ -76,5 +75,5 @@ Todos os membros do grupo de distribuição têm as mesmas permissões para os d
 * [Criar e publicar um pacote de conteúdo organizacional](service-organizational-content-pack-create-and-publish.md)
 * [Criar e distribuir um aplicativo no Power BI](service-create-distribute-apps.md) 
 * [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

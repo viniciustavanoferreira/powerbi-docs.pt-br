@@ -2,7 +2,6 @@
 title: Saiba como conectar o Azure Data Lake Storage Gen 2 ao Power BI para o armazenamento de fluxo de dados
 description: Traga seus próprios dados para fluxos de dados usando o Azure Data Lake Storage Gen2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432026"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872728"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)
 
@@ -105,7 +104,7 @@ Para conceder permissões ao sistema de arquivos,aplique configurações da List
 
 Para localizar os aplicativos do seu locatário, execute estas etapas:
 
-1. No [portal do Azure](https://portal.azure.com/), selecione **Azure Active Directory** no painel de navegação esquerdo.
+1. No [portal do Azure](https://portal.azure.com/), selecione **Azure Active Directory** no painel de navegação.
 2. Na folha Azure **Active Directory**, escolha**Aplicativos empresariais**.
 3. No menu suspenso **Tipo de aplicativo**, selecione **Todos os aplicativos** e, em seguida, selecione **Aplicar**. Uma amostra dos aplicativos do seu locatário é exibida, semelhante à imagem a seguir.
 
@@ -223,4 +222,4 @@ Leia este artigo de visão geral para saber mais sobre o Common Data Service:
 * [Pastas do CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Definição de arquivo de modelo do CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-E você pode sempre tentar [fazer perguntas à Comunidade do Power BI](http://community.powerbi.com/).
+E você pode sempre tentar [fazer perguntas à Comunidade do Power BI](https://community.powerbi.com/).

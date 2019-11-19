@@ -3,7 +3,6 @@ title: O que é o Microsoft Power BI Premium?
 description: O Power BI Premium oferece capacidades dedicadas para sua organização, oferecendo desempenho mais confiável e maiores volumes de dados, sem exigir a aquisição de licenças por usuário.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431640"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871816"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -166,9 +165,9 @@ Dependendo do SKU, o Power BI Premium é compatível com o carregamento de arqui
 
 ### <a name="size-considerations"></a>Considerações sobre tamanho
 
-Grandes modelos podem fazer uso intensivo de recursos. Você deve ter pelo menos um SKU P1 para todos os modelos maiores que 1 GB. Embora a publicação de grandes modelos em workspaces com suporte de SKUs A até A3 talvez funcione, atualizá-los não funcionará.
+Conjuntos de dados grandes podem fazer uso intensivo de recursos. Você deve ter pelo menos um SKU P1 para todos os conjuntos de dados maiores que 1 GB. Embora a publicação de conjuntos de dados grandes em workspaces com suporte de SKUs A até A3 talvez funcione, atualizá-los não funcionará.
 
-A tabela a seguir descreve os SKUs recomendados para vários tamanhos .pbix:
+A tabela a seguir mostra os SKUs recomendados para upload de arquivos .pbix ou para publicar no serviço do Power BI:
 
    |SKU  |Tamanho de .pbix   |
    |---------|---------|
@@ -176,9 +175,11 @@ A tabela a seguir descreve os SKUs recomendados para vários tamanhos .pbix:
    |P2    | < 6 GB        |
    |P3, P4, P5    | até 10 GB   |
 
-O SKU A4 do Power BI Embedded é igual ao SKU P1, o A5 = P2 e o A6 = P3. A publicação de grandes modelos em SKUs A e EM pode retornar erros que não são específicos para o erro de limitação de tamanho do modelo na capacidade compartilhada. Erros de atualização de modelos grandes em SKUs A e EM provavelmente são resultados de atingimento de tempos limite. 
+O SKU A4 do Power BI Embedded é igual ao SKU P1, o A5 = P2 e o A6 = P3. A publicação de conjuntos de dados grandes em SKUs A e EM pode retornar erros que não são específicos para o erro de limitação de tamanho do modelo na capacidade compartilhada. Erros de atualização de conjuntos de dados grandes em SKUs A e EM provavelmente são resultado de atingimento de tempos limite.
 
-Os arquivos .pbix representam dados em um *estado altamente compactado*. Os dados provavelmente expandirão várias vezes quando carregados na memória e, a partir daí, eles podem expandir várias vezes mais durante a atualização de dados.
+Se você habilitar [modelos grandes](service-premium-large-models.md) em um conjunto de dados, as limitações de tamanho do arquivo .pbix ainda se aplicarão ao upload ou à publicação de arquivo. No entanto, com a combinação entre a atualização incremental e os modelos grandes, os conjuntos de dados podem se tornar muito maiores do que esses limites. Com modelos grandes, o tamanho do conjunto de dados é limitado apenas pelo tamanho da capacidade de Power BI Premium.
+
+Os arquivos .pbix representam dados em um *estado altamente compactado*. Os dados provavelmente expandirão quando carregados na memória e, daí em diante, eles poderão expandir várias vezes mais durante a atualização de dados.
 
 A atualização agendada de grandes conjuntos de dados pode demorar muito tempo e usar muitos recursos. É importante não agendar muitas atualizações sobrepostas. Recomendamos configurar a [atualização incremental](service-premium-incremental-refresh.md), pois ela é mais rápida e confiável e consome menos recursos.
 

@@ -2,7 +2,6 @@
 title: Como o Power BI garante que o conteúdo está atualizado
 description: Saiba como o Power BI garante que você esteja trabalhando com a última versão dos dados, do relatório, do dashboard e do aplicativo.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019787"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863878"
 ---
 # <a name="your-content-is-up-to-date"></a>O conteúdo está atualizado
 
@@ -43,9 +42,9 @@ O nome do proprietário está disponível na barra de título dos painéis e rel
 
 A tela do aplicativo mostra o nome do designer e a data da última atualização do aplicativo.  
 
-1. No painel de navegação à esquerda, selecione **Aplicativos**.
+1. No painel de navegação, selecione **Aplicativos**.
 
-    ![painel de navegação à esquerda](media/end-user-fresh/power-bi-nav-app.png)
+    ![painel de navegação](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -85,7 +84,7 @@ O painel **Conteúdo relacionado** exibe as informações da última atualizaç�
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>O que acontece se um aplicativo é excluído pelo designer
 
-Se um designer exclui um aplicativo, os dashboards e os relatórios associados a esse aplicativo são automaticamente removidos de seu workspace do Power BI. Eles não ficam mais disponíveis, e o aplicativo não é exibido no contêiner de aplicativos ou em outro lugar da barra de navegação.
+Se um designer exclui um aplicativo, os dashboards e os relatórios associados a esse aplicativo são automaticamente removidos de seu workspace do Power BI. Eles não ficam mais disponíveis, e o aplicativo não é exibido no contêiner de aplicativos ou em outro lugar do painel de navegação.
 
 
 ## <a name="subscribe-to-see-changes"></a>Assinar um relatório ou um dashboard para ver as alterações

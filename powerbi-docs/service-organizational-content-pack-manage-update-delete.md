@@ -2,7 +2,6 @@
 title: 'Pacotes de conteúdo organizacional: Gerenciar e atualizar'
 description: Leia sobre gerenciamento, atualização e exclusão de pacotes de conteúdo organizacional no Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431768"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881264"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Gerenciar, atualizar e excluir pacotes de conteúdo organizacional
 > [!NOTE]
@@ -64,8 +63,8 @@ Outra modificação para criadores de pacote de conteúdo está expandindo e res
    
    Para qualquer colaborador que não faz parte do novo alias:
    
-   * Para os membros do grupo que não personalizaram o pacote de conteúdo, o painel e os relatórios associados a esse pacote de conteúdo não estarão mais disponíveis e o pacote de conteúdo não será exibido no Painel de Navegação.
-   * Para os membros do grupo que personalizaram o pacote de conteúdo, na próxima vez que eles abrirem o painel personalizado, todos os blocos do pacote de conteúdo original desaparecerão.  Mas os blocos fixados de outros relatórios ainda serão renderizados. Os relatórios e o conjunto de dados do pacote de conteúdo original não estarão mais disponíveis, e o pacote de conteúdo não aparecerá no painel de Navegação.   
+   * Para os membros do grupo que não personalizaram o pacote de conteúdo, o dashboard e os relatórios associados a esse pacote de conteúdo não estarão mais disponíveis e o pacote de conteúdo não será exibido no painel de navegação.
+   * Para os membros do grupo que personalizaram o pacote de conteúdo, na próxima vez que eles abrirem o painel personalizado, todos os blocos do pacote de conteúdo original desaparecerão.  Mas os blocos fixados de outros relatórios ainda serão renderizados. Os relatórios e o conjunto de dados do pacote de conteúdo original não estarão mais disponíveis, e o pacote de conteúdo não aparecerá no painel de navegação.   
 
 ## <a name="refresh-an-organizational-content-pack"></a>Atualizar um pacote de conteúdo organizacional
 Como o criador do pacote de conteúdo, você pode [agendar a atualização dos conjuntos de dados](refresh-data.md).  Quando você cria e carregar o pacote de conteúdo, essa agenda de atualização é carregada com os conjuntos de dados. Se você alterar o agendamento de atualização, você precisará publicar novamente o pacote de conteúdo (veja acima).
@@ -81,11 +80,11 @@ Você só poderá excluir um pacote de conteúdo do AppSource se o tiver criado.
 1. Para excluir um pacote de conteúdo do AppSource, acesse o workspace em que você criou o pacote de conteúdo, selecione o ícone de engrenagem ![](media/service-organizational-content-pack-manage-update-delete/cog.png) e escolha **Exibir Pacotes de Conteúdo**.
 2. Selecione **Excluir \> Excluir**. 
    
-   * Para os membros do grupo que não personalizaram o pacote de conteúdo, o painel e os relatórios associados a esse pacote de conteúdo serão removidos automaticamente. Eles não estarão disponíveis, e o pacote de conteúdo não aparecerá no Painel de Navegação.
-   * Para os membros do grupo que personalizaram o pacote de conteúdo, na próxima vez que eles abrirem o painel personalizado, todos os blocos do pacote de conteúdo original desaparecerão.  Mas os blocos fixados de outros relatórios ainda serão renderizados. Os relatórios e o conjunto de dados do pacote de conteúdo original não estarão mais disponíveis, e o pacote de conteúdo não aparecerá no painel de Navegação.   
+   * Para os membros do grupo que não personalizaram o pacote de conteúdo, o painel e os relatórios associados a esse pacote de conteúdo serão removidos automaticamente. Eles não estarão disponíveis, e o pacote de conteúdo não aparecerá no painel de navegação.
+   * Para os membros do grupo que personalizaram o pacote de conteúdo, na próxima vez que eles abrirem o painel personalizado, todos os blocos do pacote de conteúdo original desaparecerão.  Mas os blocos fixados de outros relatórios ainda serão renderizados. Os relatórios e o conjunto de dados do pacote de conteúdo original não estarão mais disponíveis, e o pacote de conteúdo não aparecerá no painel de navegação.   
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Introdução aos pacotes de conteúdo organizacional](service-organizational-content-pack-introduction.md)
 * [Criar e distribuir um aplicativo no Power BI](service-create-distribute-apps.md) 
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

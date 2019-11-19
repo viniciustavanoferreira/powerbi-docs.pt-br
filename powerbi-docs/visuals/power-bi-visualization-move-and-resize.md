@@ -2,20 +2,19 @@
 title: Mover, redimensionar e retirar uma visualização
 description: Mova e redimensione uma visualização em um relatório no serviço do Power BI e Desktop
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2018
+ms.date: 10/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ff46e750d053ead7eb46d57e55e4af96770f0d6e
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169140"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880786"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Mover e redimensionar uma visualização em um relatório
 
@@ -31,15 +30,15 @@ No Power BI Desktop, abra um relatório que tenha pelo menos uma visualização 
 
 ## <a name="resize-the-visualization"></a>Redimensione a visualização
 * Selecione a visualização para exibir a borda e clique e arraste as alças do quadro escuro para redimensionar.  
-  ![](media/power-bi-visualization-move-and-resize/untitled.gif)
+  ![vídeo curto mostrando como redimensionar](media/power-bi-visualization-move-and-resize/untitled.gif)
 
 ## <a name="select-focus-mode-to-see-more-detail"></a>Selecione o modo Foco para ver mais detalhes.
 * Passe o mouse sobre a visualização e selecione o ícone do modo Foco.
-  ![](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
+  ![Ícone do modo de foco](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Redimensionar uma visualização em um dashboard](../service-dashboard-edit-tile.md)  
 
 [Modo de foco](../consumer/end-user-focus.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

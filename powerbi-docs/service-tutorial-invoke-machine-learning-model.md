@@ -2,7 +2,6 @@
 title: 'Tutorial: Invocar um modelo de Machine Learning Studio no Power BI (versão prévia)'
 description: Neste tutorial, invoque um modelo de Machine Learning Studio no Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432216"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876961"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Tutorial: Invocar um modelo de Machine Learning Studio no Power BI (versão prévia)
 
@@ -44,7 +43,7 @@ Para acessar um modelo do Azure ML do Power BI, você deve ter acesso de **Leitu
 
 As etapas a seguir pressupõem que você é o coadministrador da assinatura do Azure e do grupo de recursos para os quais o modelo foi publicado.
 
-Entre no [portal do Azure](https://portal.azure.com) e navegue até a página **Assinaturas**, que pode ser localizada pela lista **Todos os Serviços** no menu de navegação à esquerda.
+Entre no [portal do Azure](https://portal.azure.com) e navegue até a página **Assinaturas**, que pode ser localizada pela lista **Todos os Serviços** no menu do painel de navegação.
 
 ![Portal do Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -135,7 +134,7 @@ Se o ícone **Editar** for selecionado, o Power Query Editor será aberto para a
 
 ![Editar](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-Selecione o botão **Insights de IA** na faixa de opções e selecione a pasta _Modelos do Azure Machine Learning_ no menu de navegação à esquerda.
+Selecione o botão **Insights da IA** na faixa de opções e selecione a pasta _Modelos do Azure Machine Learning_ no menu do painel de navegação.
 
 Os modelos do Azure ML aos quais você recebeu acesso são listados como funções do Power Query com um prefixo *AzureML.*  Quando você clica na função correspondente ao modelo _AutomobilePricePrediction_, os parâmetros do serviço Web do modelo são listados como parâmetros de função.
 

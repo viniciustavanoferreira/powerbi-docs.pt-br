@@ -2,26 +2,25 @@
 title: Tipos de visualização no Power BI
 description: Tipos de visualização no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775966"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099921"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
 Incluiremos novas visualizações, fique ligado!
 
-Além disso, confira o [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), no qual você encontrará uma lista cada vez maior de [visuais personalizados](../power-bi-custom-visuals.md) que poderá baixar e usar em seus próprios dashboards e relatórios. Se sentindo criativo? [Saiba como criar e adicionar seus próprios visuais para este site da comunidade](../developer/office-store.md).  
+Além disso, confira o [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), no qual você encontrará uma lista cada vez maior de [visuais personalizados](../developer/power-bi-custom-visuals.md) que poderá baixar e usar em seus próprios dashboards e relatórios. Se sentindo criativo? [Saiba como criar e adicionar seus próprios visuais para este site da comunidade](../developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista das visualizações disponíveis no Power BI
 Todas essas visualizações podem ser adicionadas aos relatórios do Power BI, especificadas em P e R e fixadas a painéis.
@@ -226,8 +225,8 @@ Ao digitar consultas em linguagem natural com a P e R do Power BI, você pode es
 
 “***vendas por estado como um treemap***”
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![Caixa de pergunta de P e R mostrando o tipo de visualização especificado](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)    
-[A referência visual correta de sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[A referência visual correta de sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

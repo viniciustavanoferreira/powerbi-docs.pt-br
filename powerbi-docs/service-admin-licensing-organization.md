@@ -2,7 +2,6 @@
 title: Licenciamento do Power BI na sua organização
 description: 'Entenda os diferentes tipos de licença que estão disponíveis no Power BI: licenças gratuitas, Power BI Pro e Power BI Premium.'
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442820"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857724"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Licenciamento do Power BI na sua organização
 
@@ -55,7 +54,7 @@ Tenha em mente o seguinte antes de seguir as etapas para se inscrever:
 
 1. Navegue até o [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
-1. No painel de navegação esquerdo, selecione **Cobrança** e, em seguida, **Assinaturas**.
+1. No painel de navegação, selecione **Cobrança** e, em seguida, **Assinaturas**.
 
    ![Cobrança e assinaturas](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -101,7 +100,7 @@ Se o bloco de licenças ilimitado do Power BI (Gratuito) não estiver disponíve
 
 1. Navegue até o [Centro de administração do Microsoft 365](https://portal.office.com/admin/default.aspx).
 
-1. No painel de navegação esquerdo, selecione **Cobrança** > **Assinaturas**.
+1. No painel de navegação, selecione **Cobrança** > **Assinaturas**.
 
 1. No lado direito, selecione **Adicionar assinaturas +** .
 
@@ -156,4 +155,4 @@ A configuração do Azure Active Directory que controla a inscrição é **Allow
 
 [Comprar e atribuir licenças do Power BI Pro](service-admin-purchasing-power-bi-pro.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

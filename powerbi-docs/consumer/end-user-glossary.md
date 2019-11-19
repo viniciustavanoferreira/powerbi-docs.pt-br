@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429884"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73764712"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário do serviço do Power BI
 O serviço do Power BI pode apresentar terminologia confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar sobre a terminologia, por isso pode ser útil até mesmo salvá-lo como favorito. Outro excelente recurso para aprender sobre os blocos de construção que compõem o serviço do Power BI são os [Conceitos básicos](end-user-basic-concepts.md). O artigo com Conceitos básicos fornece uma visão geral de alto nível das *partes* do Power BI e como elas estão conectadas.
@@ -68,7 +68,7 @@ Este glossário é um esforço conjunto da comunidade.  Não encontrou uma palav
 
 **connect live (conectar em tempo real)** Um método de se conectar aos modelos de dados do SQL Server Analysis Services. Também chamado de conexão em tempo real.
 
-**contêiner** As áreas na barra de navegação são *contêineres*. Na barra de navegação, você encontrará contêineres para: Favoritos, Recentes, Aplicativos, Compartilhado comigo e Página Inicial. 
+**contêiner** As áreas no painel de navegação são *contêineres*. No painel de navegação, você encontrará contêineres para: Favoritos, Recentes, Aplicativos, Compartilhado comigo e Página Inicial. 
 
 **conteúdo** O conteúdo para o serviço do Power BI geralmente estão em painéis, relatórios e aplicativos. Ele também pode incluir pastas de trabalho e conjuntos de dados.
 
@@ -162,12 +162,12 @@ Não há problemas em usar o ambiente do Power BI (locatário) na documentação
 
 ## <a name="l"></a>L
 
-**navegação à esquerda (nav esquerda)** Foi substituída pela **barra de navegação**, mas ainda pode aparecer em alguns documentos.    
+**left navigation (navegação à esquerda)** Foi substituída pelo **nav pane (painel de navegação)** , mas ainda pode aparecer em alguns documentos.    
 Os controles na borda esquerda do serviço do Power BI.
 
-Primeira instância: menções subsequentes ou espaços estreitos da navegação à esquerda: nav esq
+Primeira instância: menções subsequentes ou espaços estreitos do painel de navegação: nav pane (painel de navegação)
 
-**list page (página de listagem)** ou **lista de conteúdo** Uma das páginas de seção para os elementos na navegação à esquerda. Por exemplo, Favoritos, Recentes, Meu workspace, etc.
+**list page (página de listagem)** ou **content list (lista de conteúdo)** Uma das páginas de seção para os elementos na navegação à esquerda. Por exemplo, Favoritos, Recentes, Meu workspace, etc.
 
 ## <a name="m"></a>M
 
@@ -181,11 +181,11 @@ Primeira instância: menções subsequentes ou espaços estreitos da navegação
 
 **native (nativo)** Incluído no produto. Por exemplo, o Power BI vem com um conjunto de tipos de visualização *nativos*. Contudo, é possível importar outros tipos, como visuais personalizados.
 
-**barra de navegação** ou **barra nav** Os controles na borda esquerda do serviço do Power BI.
+**nav pane** ou **nav pane** (painel de navegação) Os controles na borda esquerda do serviço do Power BI.
 
-Primeira instância: menções subsequentes ou espaços estreitos da barra de navegação: barra nav
+Primeira instância: nav pane (painel de navegação) Menções subsequentes ou espaços estreitos: nav pane (painel de navegação)
 
-**painel de navegação** Confira **barra de navegação**
+**nav pane (painel de navegação)** Veja **nav pane (painel de navegação)**
 
 **notification (notificação)** Mensagens enviadas por e para o Centro de Notificações do Power BI.  
 
@@ -260,7 +260,7 @@ Adicione-o a uma URL para filtrar previamente os resultados vistos em um relató
 
 **real-time streaming (streaming em tempo real)** A capacidade transmitir dados e atualizar dashboards em tempo real de fontes como sensores, mídia social, métricas de uso e tudo o mais dos quais dados sensíveis ao tempo podem ser coletados ou transmitidos.  
 
-**Recent (Recente)** O contêiner na navegação à esquerda que contém todos os artefatos individuais que foram acessados pela última vez.
+**Recent (Recente)** O contêiner no painel de navegação que contém todos os artefatos individuais que foram acessados pela última vez.
 
 **related content (conteúdo relacionado ao)** Mostra as partes individuais do conteúdo que contribuem para o conteúdo atual. Por exemplo, para um dashboard, você pode ver os relatórios e conjuntos de dados que fornecem os dados e as visualizações no dashboard.   
 
@@ -288,7 +288,7 @@ Uma exibição em várias perspectivas sobre um único conjunto de dados, com vi
 **share, sharing (compartilhar, compartilhamento)** no Power BI, compartilhamento normalmente significa compartilhar diretamente um artefato individual (um dashboard ou relatório) com uma ou mais pessoas usando seu endereço de email. Requer uma licença do Power BI Pro para o remetente e para o destinatário.
 Em dispositivos móveis, o compartilhamento pode significar a funcionalidade nativa de compartilhamento do sistema operacional, como “anotar e compartilhar”.  
 
-**Shared with me (Compartilhado comigo)** O contêiner na navegação à esquerda que contém todos os artefatos individuais que foram compartilhados diretamente por outro usuário do Power BI.
+**Shared with me (Compartilhado comigo)** O contêiner no painel de navegação que contém todos os artefatos individuais que foram compartilhados diretamente por outro usuário do Power BI.
 
 **snapshot (instantâneo)**
 

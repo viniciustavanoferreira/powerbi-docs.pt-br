@@ -4,7 +4,6 @@ description: Neste guia de início rápido, os **consumidores** aprenderão sobr
 services: powerbi
 documentationcenter: ''
 author: mihart
-manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +12,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019585"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862682"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Início Rápido: saiba mais sobre as funcionalidades do Power BI para *consumidores*
 Neste início rápido, você aprenderá como interagir com o Power BI para descobrir informações de negócios controladas por dados. Este artigo não visa ser um aprofundamento do tema, mas sim uma passagem rápida por muitas das ações disponíveis para **consumidores** do Power BI.
@@ -50,7 +49,7 @@ Quando usamos o termo "conteúdo" no Power BI, estamos nos referindo a relatóri
 
 Um *aplicativo* é um tipo de conteúdo do Power BI que combina dashboards e relatórios relacionados em um só lugar. Um aplicativo pode ter um ou mais dashboards e um ou mais relatórios, todos agrupados. Os aplicativos são criados por *designers* do Power BI que distribuem e compartilham os aplicativos com *consumidores* como você. 
 
-Uma maneira de exibir seus aplicativos é selecionar **Aplicativos** na barra de navegação e escolher um aplicativo para abrir.
+Uma maneira de exibir seus aplicativos é selecionar **Aplicativos** no painel de navegação e escolher um aplicativo para abrir.
 
 ![O ícone Obter aplicativos](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -116,7 +115,7 @@ Os visuais são compostos por pontos de dados e, ao focalizar um ponto de dados,
 ![focalizar para ver os detalhes](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>Adicionar um dashboard como favorito
-Quando você adicionar um conteúdo a um *favorito*, poderá acessá-lo da barra de navegação. A barra de navegação fica visível de praticamente qualquer área do Power BI. Os favoritos normalmente são os dashboards, páginas de relatório e aplicativos que você visita com mais frequência.
+Quando você adicionar um conteúdo aos *favoritos*, poderá acessá-lo do painel de navegação. O painel de navegação fica visível de praticamente qualquer área do Power BI. Os favoritos normalmente são os dashboards, páginas de relatório e aplicativos que você visita com mais frequência.
 
 No canto superior direito do serviço do Power BI, selecione **Favorito** ou, se não estiver visível, selecione **Mais opções** (...) e **Favorito** na lista suspensa. 
    
@@ -194,9 +193,9 @@ Além de mostrar os dados usados para criar um visual, você também pode export
 Essa foi uma visão geral rápida de apenas algumas das coisas que os *consumidores* podem fazer com o serviço do Power BI.  
 
 ## <a name="clean-up-resources"></a>Limpar recursos
-- Se você se conectou a um aplicativo, na barra de navegação esquerda, selecione **Aplicativos** para abrir a lista de conteúdo de Aplicativos. Passe o mouse sobre o aplicativo a ser excluído e selecione o ícone de lixeira.
+- Se você se conectou a um aplicativo, no painel de navegação, selecione **Aplicativos** para abrir a lista de conteúdo de Aplicativos. Passe o mouse sobre o aplicativo a ser excluído e selecione o ícone de lixeira.
 
-- Caso tenha importado ou conectado-se a um relatório de exemplo do Power BI, na barra de navegação esquerda, abra **Meu workspace**. Usando as guias na parte superior, localize o dashboard, relatório e conjunto de dados e selecione o ícone de lixeira para cada um.
+- Caso tenha importado ou se conectado a um relatório de exemplo do Power BI, no painel de navegação, abra **Meu workspace**. Usando as guias na parte superior, localize o dashboard, relatório e conjunto de dados e selecione o ícone de lixeira para cada um.
 
 ## <a name="next-steps"></a>Próximas etapas
 [Power BI para consumidores](end-user-consumer.md)

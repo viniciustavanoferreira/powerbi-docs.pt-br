@@ -2,7 +2,6 @@
 title: Habilitar rótulos de confidencialidade de dados no Power BI
 description: Saiba como habilitar rótulos de confidencialidade de dados no Power BI
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: a53e06f65f5ef8328a0c27b48f2020228a0570ed
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433246"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851079"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Habilitar rótulos de confidencialidade de dados no Power BI (versão prévia)
 
@@ -63,7 +62,7 @@ O Power BI usa rótulos de confidencialidade da Proteção de Informações da M
 
 ## <a name="licensing"></a>Licenças
 
-* Para exibir os rótulos da Proteção de Informações da Microsoft no Power BI, os usuários devem ter uma licença Premium P1 ou Premium P2 da Proteção de Informações do Azure. A Proteção de Informações do Microsoft Azure pode ser adquirida de forma independente ou por meio de um dos pacotes de licenciamento da Microsoft. Confira [preço da Proteção de Informações do Azure](https://azure.microsoft.com/pricing/details/information-protection/) para obter detalhes.
+* Para exibir ou aplicar os rótulos da Proteção de Informações da Microsoft no Power BI, os usuários devem ter uma licença Premium P1 ou Premium P2 da Proteção de Informações do Azure. A Proteção de Informações do Microsoft Azure pode ser adquirida de forma independente ou por meio de um dos pacotes de licenciamento da Microsoft. Confira [preço da Proteção de Informações do Azure](https://azure.microsoft.com/pricing/details/information-protection/) para obter detalhes.
 * Os usuários que precisam aplicar rótulos em ativos do Power BI devem ter uma licença Power BI Pro.
 
 

@@ -2,7 +2,6 @@
 title: Introdução ao serviço do Power BI
 description: Introdução ao serviço online do Power BI (app.powerbi.com)
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060388"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872321"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Tutorial: Introdução ao serviço do Power BI
 Este tutorial é uma introdução a alguns dos recursos do *serviço do Power BI*. Nele, você se conecta a dados, cria um relatório e um dashboard e faz perguntas sobre seus dados. Você pode fazer muito mais com o serviço do Power BI, este tutorial é apenas uma prévia para despertar sua curiosidade. Para entender como o serviço do Power BI se adapta às outras ofertas do Power BI, recomendamos que leia [O que é Power BI](fundamentals/power-bi-overview.md).
@@ -35,7 +34,7 @@ Neste tutorial, você concluirá as etapas a seguir:
 > * Limpar os recursos excluindo o conjunto de dados, o relatório e o dashboard.
 
 > [!TIP]
-> Prefere um curso de treinamento gratuito baseado no seu ritmo? [Registre-se em nosso curso Analisando e visualizando dados no EdX](http://aka.ms/edxpbi).
+> Prefere um curso de treinamento gratuito baseado no seu ritmo? [Registre-se em nosso curso Analisando e visualizando dados no EdX](https://aka.ms/edxpbi).
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Inscreva-se no serviço do Power BI
 Se você não tiver uma conta do Power BI, [inscreva-se para uma avaliação gratuita do Power BI Pro](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
@@ -46,10 +45,10 @@ Depois de ter uma conta, insira *app.powerbi.com* no navegador para abrir o serv
 
 Geralmente, quando queremos criar um relatório do Power BI, começamos no Power BI Desktop. Desta vez, vamos começar do zero criando um relatório no serviço do Power BI.
 
-Neste tutorial, obtemos os dados de um arquivo CSV. Quer me acompanhar? [Baixar o arquivo CSV do Exemplo Financeiro](http://go.microsoft.com/fwlink/?LinkID=521962).
+Neste tutorial, obtemos os dados de um arquivo CSV. Quer me acompanhar? [Baixar o arquivo CSV do Exemplo Financeiro](https://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Entre no Power BI](http://www.powerbi.com/). Não tem uma conta? Não se preocupe, você pode se inscrever para uma avaliação gratuita.
-2. O Power BI abre no seu navegador. Selecione **Obter dados** na parte inferior da barra de navegação esquerda.
+1. [Entre no Power BI](https://www.powerbi.com/). Não tem uma conta? Não se preocupe, você pode se inscrever para uma avaliação gratuita.
+2. O Power BI abre no seu navegador. Selecione **Obter dados** na parte inferior do painel de navegação.
 
     A página **Obter Dados** é aberta.   
 
@@ -73,7 +72,7 @@ Neste tutorial, obtemos os dados de um arquivo CSV. Quer me acompanhar? [Baixar 
 
     ![Tela de relatório em branco](media/service-get-started/power-bi-service-blank-report.png)
 
-7. Observe que há uma opção para **Exibição de leitura** na barra de navegação superior. Porque você tem essa opção, isso significa que você está atualmente no modo de exibição de Edição. Uma ótima maneira de se familiarizar com o editor de relatório é [fazer um tour](service-the-report-editor-take-a-tour.md).
+7. Observe que há uma opção para **Exibição de leitura** no painel de navegação superior. Porque você tem essa opção, isso significa que você está atualmente no modo de exibição de Edição. Uma ótima maneira de se familiarizar com o editor de relatório é [fazer um tour](service-the-report-editor-take-a-tour.md).
 
     ![Opção Modo de exibição de leitura](media/service-get-started/power-bi-service-reading-view.png)
 
@@ -115,13 +114,13 @@ Agora que você se conectou aos dados, comece a explorar.  Quando encontrar algo
    
 8. Selecione o novo bloco em seu dashboard para retornar ao relatório. O Power BI o leva de volta ao relatório no Modo de Exibição de Leitura. 
 
-1. Para voltar ao Modo de exibição de edição, selecione **Mais opções** (...) > **Editar**, na barra de navegação superior. De volta ao Modo de Exibição de Edição você pode continuar a explorar e fixar blocos.
+1. Para voltar ao Modo de exibição de edição, selecione **Mais opções** (...) no painel de navegação superior > **Editar**. De volta ao Modo de Exibição de Edição você pode continuar a explorar e fixar blocos.
 
     ![Selecione Editar para editar o relatório](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>Etapa 3: Explorar com P e R
 
-Para explorar seus dados rapidamente, tente fazer uma pergunta na caixa de P e R. As P e R criam consultas de linguagem natural sobre seus dados. Em um dashboard, a caixa de P e R fica na parte superior (**Faça uma pergunta sobre seus dados**). Em um relatório, ela fica na barra de navegação superior (**Faça uma pergunta**).
+Para explorar seus dados rapidamente, tente fazer uma pergunta na caixa de P e R. As P e R criam consultas de linguagem natural sobre seus dados. Em um dashboard, a caixa de P e R fica na parte superior (**Faça uma pergunta sobre seus dados**). Em um relatório, ela fica no painel de navegação superior (**Faça uma pergunta**).
 
 1. Para voltar ao dashboard, selecione **Meu workspace** na barra preta do **Power BI**.
 
@@ -198,7 +197,7 @@ Aqui está uma última interação a observar, antes de começar a criar seus pr
 ## <a name="clean-up-resources"></a>Limpar recursos
 Agora que você já concluiu o tutorial, é possível excluir o conjunto de dados, o relatório e o dashboard. 
 
-1. Na barra de navegação à esquerda, verifique se você está no **Meu workspace**.
+1. No painel de navegação, verifique se você está em **Meu Workspace**.
 2. Selecione a guia **Conjuntos de dados** e localize o conjunto de dados importado para este tutorial.  
 3. Selecione **Mais opções** (...) > **Excluir**.
 

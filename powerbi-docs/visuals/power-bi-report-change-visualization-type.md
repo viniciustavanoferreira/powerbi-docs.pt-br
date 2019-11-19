@@ -2,7 +2,6 @@
 title: Alterar o tipo de visualização em um relatório
 description: Alterar o tipo de visualização do relatório no serviço do Power BI e do Power BI Desktop
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f002237c7417a749506d1343fd50630852286f30
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019094"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871036"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Alterar o tipo de visualização em um relatório do Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+## <a name="select-a-new-visualization-type"></a>Selecionar um novo tipo de visualização
 
 Tente diferentes tipos de visualizações no serviço do Power BI e do Power BI Desktop para ver qual demonstra melhor os seus dados. 
 
@@ -33,10 +34,10 @@ Tente diferentes tipos de visualizações no serviço do Power BI e do Power BI 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 Se você alterar o tipo de visualização do relatório depois de tê-lo fixado em seu dashboard, o bloco não atualizará automaticamente. Portanto, se você usou o serviço do Power BI para fixar a visualização como um gráfico de linhas e em seguida, no relatório, alterou-o para um gráfico de barras, a versão fixada desses dados permanecerá um gráfico de linhas. Fixe o gráfico de barras para vê-lo também no painel.
 
-### <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximas etapas
 Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)
 
 [Power BI – conceitos básicos](../consumer/end-user-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

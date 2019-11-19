@@ -2,7 +2,6 @@
 title: Excluir um painel, um relatório, uma pasta de trabalho, um conjunto de dados ou um workspace
 description: Saiba como excluir quase tudo do Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431974"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872537"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Excluir quase tudo no serviço do Power BI
 Este artigo ensina como excluir um dashboard, um relatório, uma pasta de trabalho, um conjunto de dados, um aplicativo, uma visualização e um workspace no serviço do Power BI.
@@ -90,7 +89,7 @@ Se um conjunto de dados fizer parte de um ou mais [pacotes de conteúdo organiza
 Como autor do workspace, você poderá excluí-lo. Ao excluí-lo, o aplicativo associado também é excluído de todos os membros do grupo e removido do seu AppSource, caso você tenha publicado o aplicativo para toda a sua organização. Excluir um workspace é diferente de sair dele.
 
 ### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Para excluir um workspace – caso você seja um administrador
-1. No menu de navegação à esquerda, selecione **Workspaces**
+1. No painel de navegação, selecione **Workspaces**
 
 2. Selecione **Mais opções** (...) à direita do workspace a ser excluído e escolha **Editar workspace**.
 
@@ -125,7 +124,7 @@ Os aplicativos podem ser removidos facilmente da sua página de lista de aplicat
 ### <a name="remove-an-app-from-your-app-list-page"></a>Remover um aplicativo de sua página de lista de aplicativos
 A exclusão de um aplicativo de sua página de lista de aplicativos não exclui o aplicativo para outros membros.
 
-1. No seu menu de navegação à esquerda, selecione **Aplicativos** para abrir a página de lista de aplicativos.
+1. No painel de navegação, selecione **Aplicativos** para abrir a página de lista de aplicativos.
 2. Passe o mouse sobre o aplicativo a ser excluído e selecione o ícone Excluir ![](media/service-delete/power-bi-delete-report2.png).
 
    ![selecionar Aplicativos](media/service-delete/power-bi-delete-app.png)
@@ -141,4 +140,4 @@ Este artigo abordou como excluir os principais elementos básicos do serviço do
 * [Excluir um bloco de dashboard](service-dashboard-edit-tile.md)
 * [Excluir uma visualização de relatório](service-delete.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

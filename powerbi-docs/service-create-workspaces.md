@@ -2,7 +2,6 @@
 title: Criar workspaces clássicos no Power BI
 description: Saiba como criar workspaces, coleções de dashboards, relatórios e relatórios paginados criados para oferecer métricas-chave para a organização.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021117"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853543"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Criar workspaces clássicos no Power BI
 
@@ -75,7 +74,7 @@ Nos workspaces atuais, também é possível conectar usando pacotes de conteúdo
 
 Se quiser distribuir conteúdo oficial para um grande público em sua organização, você poderá publicar um aplicativo do seu workspace.  Quando o conteúdo estiver pronto, escolha quais dashboards e relatórios você deseja publicar e, em seguida, publique-o como um *aplicativo*. Você pode criar um aplicativo de cada workspace.
 
-A lista Aplicativos na navegação esquerda mostra todos os aplicativos que você instalou. Seus colegas podem obter seu aplicativo de algumas maneiras diferentes. 
+A lista Aplicativos no painel de navegação mostra todos os aplicativos que você instalou. Seus colegas podem obter seu aplicativo de algumas maneiras diferentes. 
 - Eles podem encontrar e instalar seus aplicativos no Microsoft AppSource
 - Você pode enviar um link direto para eles. 
 - Você poderá instalá-lo automaticamente nas contas do Power BI de seus colegas, se o administrador do Power BI lhe der permissão. 
@@ -97,4 +96,4 @@ Confira [Em que aspectos os novos espaços de trabalho são diferentes dos espa�
 ## <a name="next-steps"></a>Próximas etapas
 * [Instalar e usar aplicativos no Power BI](service-create-distribute-apps.md)
 - [Criar os novos workspaces](service-create-the-new-workspaces.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

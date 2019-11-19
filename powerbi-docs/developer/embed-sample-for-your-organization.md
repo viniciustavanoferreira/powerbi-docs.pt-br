@@ -3,19 +3,18 @@ title: Análise integrada para inserir conteúdo do Power BI em seu aplicativo p
 description: Saiba como integrar um relatório (Power BI ou Paginado), um dashboard ou um bloco a um aplicativo ou inseri-lo em um aplicativo usando as APIs do Power BI para análise integrada em sua organização. Saiba como integrar o Power BI ao seu aplicativo usando o software de análise integrada, ferramentas de análise integrada ou ferramentas de business intelligence integrada.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3a217ebd1b6450c76ebf25ad5154293566d955f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431071"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875992"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Inserir conteúdo do Power BI em um aplicativo para sua organização
 
@@ -118,7 +117,7 @@ Para obter a **applicationId**, siga estas etapas:
 
 1. Entre no [Portal do Azure](https://portal.azure.com).
 
-2. No painel de navegação esquerdo, escolha **Todos os serviços** e selecione **Registros de aplicativo**.
+2. No painel de navegação, selecione **Todos os serviços** e **Registros de aplicativo**.
 
 3. Selecione o aplicativo que precisa usar a **applicationId**.
 
@@ -429,4 +428,4 @@ Neste tutorial, você aprendeu a inserir conteúdo do Power BI em um aplicativo 
 > [!div class="nextstepaction"]
 >[Inserir para seus clientes](embed-sample-for-customers.md)
 
-Se você tiver outras dúvidas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
+Se você tiver outras dúvidas, [experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/).

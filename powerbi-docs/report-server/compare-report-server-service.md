@@ -7,15 +7,14 @@ ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431459"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128277"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparando o Servidor de Relatórios do Power BI e o serviço do Power BI
 
@@ -27,7 +26,7 @@ O Servidor de Relatórios do Power BI e o serviço do Power BI têm muitas semel
 |---------|---------|---------|---------|
 | Implantação | Local ou nuvem hospedada | Nuvem | O Servidor de Relatórios do Power BI pode ser implantado em VMs do Azure (nuvem hospedada) se licenciado por meio do Power BI Premium |
 | Dados de origem | Nuvem e/ou local | Nuvem e/ou local |  |
-| Licença | Power BI Premium ou EE do SQL Server com SA | Power BI Pro e/ou Power BI Premium | |  
+| Licença | Power BI Premium ou EE do SQL Server com SA (Software Assurance) | Power BI Pro e/ou Power BI Premium | |  
 | Ciclo de vida | Política de ciclo de vida moderna | Serviço totalmente gerenciado |  |
 | Ciclo de lançamento | Três vezes ao ano (janeiro, maio, setembro) | Uma vez por mês | Correções e recursos mais recentes são fornecidos para o serviço do Power BI primeiro. A maior parte das funcionalidades principais é fornecida para o Servidor de Relatórios do Power BI nas próximas versões; alguns recursos são destinados somente ao serviço do Power BI. |
 | Criar relatórios do Power BI no Power BI Desktop | Sim | Sim |  |
@@ -52,9 +51,9 @@ O Servidor de Relatórios do Power BI e o serviço do Power BI têm muitas semel
 | Colaboração avançada com o Office 365 | Não | Sim | [Colaborar em um workspace](../service-collaborate-power-bi-workspace.md) com o Office 365 |
 | Visuais do R | Não | Sim | [Criar visuais R](../desktop-r-visuals.md) no Power BI Desktop e publicá-los no serviço do Power BI. Você não pode salvar relatórios do Power BI com visuais R no Servidor de Relatórios do Power BI.  |
 | Versões prévias dos recursos | Não | Sim | [Aceitar recursos de visualização do serviço](../consumer/end-user-preview-features.md) do Power BI |
-| Visuais personalizados | Sim | Sim | [Elementos visuais personalizados no Power BI](../power-bi-custom-visuals.md) |
+| Visuais personalizados | Sim | Sim | [Elementos visuais personalizados no Power BI](../developer/power-bi-custom-visuals.md) |
 | Modelos compostos | Não | Sim |
-| Power BI Desktop | Versão otimizada para o Servidor de Relatório, disponível para download com o Servidor de Relatório | Versão otimizado para o serviço do Power BI, disponível na Windows Store | [Power BI Desktop para o servidor de relatório](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop para o serviço do Power BI](http://aka.ms/pbidesktopstore) |
+| Power BI Desktop | Versão otimizada para o Servidor de Relatório, disponível para download com o Servidor de Relatório | Versão otimizado para o serviço do Power BI, disponível na Windows Store | [Power BI Desktop para o servidor de relatório](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop para o serviço do Power BI](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Próximas etapas
 

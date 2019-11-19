@@ -3,18 +3,17 @@ title: 'Tutorial: Criar um relatório paginado e fazer upload dele no serviço d
 description: Neste tutorial, você se conecta a um banco de dados do SQL do Azure de exemplo. Em seguida, use um assistente no Construtor de Relatórios para criar um relatório paginado. Em seguida, carregue o relatório paginado em um workspace em uma capacidade Premium no serviço do Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431680"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875420"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Criar um relatório paginado e fazer upload dele no serviço do Power BI
 
@@ -287,7 +286,7 @@ Mais um aprimoramento de formatação antes de publicar o relatório no serviço
 
 Agora que você criou esse relatório paginado, é hora de carregá-lo no serviço do Power BI.
 
-1. No serviço do Power BI, http://app.powerbi.com) no painel de navegação esquerdo, selecione **Workspaces** > **Criar workspace**.
+1. No serviço do Power BI, https://app.powerbi.com) no painel de navegação, selecione **Workspaces** > **Criar workspace**.
 
 2. Nomeie seu workspace **Azure AW** ou dê outro nome exclusivo. Você é o único membro por enquanto. 
 

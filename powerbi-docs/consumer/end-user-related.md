@@ -2,7 +2,6 @@
 title: Exibir conteúdo relacionado de painéis, relatórios e conjuntos de dados
 description: Navegação simplificada, exibição de conteúdo relacionado nos dashboards, relatórios e conjuntos de dados
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019437"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862274"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Exibir conteúdo relacionado no serviço do Power BI
 
@@ -54,9 +53,9 @@ Neste ponto, você pode controlar diretamente o conteúdo relacionado.  Por exem
 ## <a name="view-related-content-for-a-dataset"></a>Exibir o conteúdo relacionado de um conjunto de dados
 É preciso ter no mínimo permissões de *exibição* em um conjunto de dados para abrir o painel **Conteúdo relacionado**. Neste exemplo, estamos usando o [Exemplo de Análise de Compras](../sample-procurement.md).
 
-Na barra de navegação, localize o cabeçalho **Espaços de trabalho** e selecione um espaço de trabalho na lista. Se houver algum conteúdo em um espaço de trabalho, ele será exibido na tela à direita. 
+No painel de navegação, localize o cabeçalho **Workspaces** e selecione um workspace na lista. Se houver algum conteúdo em um espaço de trabalho, ele será exibido na tela à direita. 
 
-![Espaços de trabalho na barra de navegação à esquerda](./media/end-user-related/power-bi-workspace.png)
+![workspaces no painel de navegação](./media/end-user-related/power-bi-workspace.png)
 
 
 Em um workspace, selecione a guia **Conjuntos de dados** e, em seguida, localize o ícone **Exibição relacionada**![ícone Exibição relacionada](./media/end-user-related/power-bi-view-related-icon-new.png).
@@ -76,5 +75,5 @@ Neste ponto, você pode controlar diretamente o conteúdo relacionado. Por exemp
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Introdução ao serviço do Power BI](../service-get-started.md)
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

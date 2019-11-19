@@ -2,19 +2,18 @@
 title: Exibir um relatório
 description: Este tópico mostra que os consumidores do Power BI e os usuários finais tinham que abrir e exibir um relatório do Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019460"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861963"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Exiba um relatório no serviço do Power BI para *consumidores*
 
@@ -33,11 +32,11 @@ Vamos abrir um relatório que foi compartilhado com você diretamente e, em segu
    ![Home page](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Abrir um relatório que foi compartilhado com você
-Os *designers* do Power BI podem compartilhar um relatório individual diretamente com você por meio de um link no email ou adicionando-o automaticamente. O conteúdo compartilhado dessa forma aparece no contêiner **Compartilhado comigo** na barra de navegação esquerda e na seção **Compartilhado comigo** da tela Página Inicial.
+Os *designers* do Power BI podem compartilhar um relatório individual diretamente com você por meio de um link no email ou adicionando-o automaticamente. O conteúdo compartilhado dessa forma aparece no contêiner **Compartilhado comigo** no painel de navegação e na seção **Compartilhado comigo** da tela Página Inicial.
 
 1. Abra o serviço do Power BI (app.powerbi.com).
 
-2. Na barra de navegação, selecione **Página Inicial** para exibir a tela Página Inicial.  
+2. No painel de navegação, selecione **Página Inicial** para exibir a tela Página Inicial.  
 
    ![Tela Página Inicial](./media/end-user-report-open/power-bi-select-home-new.png)
    
@@ -66,7 +65,7 @@ Os *designers* do Power BI podem compartilhar um relatório individual diretamen
    ![ajustar à página](./media/end-user-report-open/power-bi-actual.png)
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Abra um relatório que faz parte de um aplicativo
-Se você já tiver recebido aplicativos de seus colegas ou do AppSource, esses aplicativos estarão disponíveis na Página Inicial e no contêiner **Aplicativos** na barra de navegação. Uma [aplicativo](end-user-apps.md) é um pacote de dashboards e relatórios.
+Se você já tiver recebido aplicativos de seus colegas ou do AppSource, esses aplicativos estarão disponíveis na Página Inicial e no contêiner **Aplicativos** no painel de navegação. Uma [aplicativo](end-user-apps.md) é um pacote de dashboards e relatórios.
 
 ### <a name="prerequisites"></a>Pré-requisitos
 Para acompanhar, baixe o aplicativo Vendas e Marketing.
@@ -75,7 +74,7 @@ Para acompanhar, baixe o aplicativo Vendas e Marketing.
 1. Selecione **Obtenha agora** > **Continuar** > **Instalar** para instalar o aplicativo em seu Contêiner de aplicativos. 
 
 Abra o aplicativo de seu Contêiner de aplicativos ou da Página Inicial.
-1. Volte à Página Inicial clicando em **Página Inicial** na barra de navegação.
+1. Volte à Página Inicial clicando em **Página Inicial** no painel de navegação.
 
 7. Role para baixo até ver **Meus aplicativos**.
 
@@ -101,7 +100,7 @@ Relatórios podem ser abertos de um dashboard. A maioria dos [blocos](end-user-t
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Outras maneiras de abrir um relatório
 Conforme você ficar mais familiarizado com a navegação no serviço do Power BI, descobrirá os fluxos de trabalho que funcionam melhor para você. Algumas outras maneiras de acessar relatórios:
-- Na barra de navegação, usando **Favoritos** e **Recentes**    
+- No painel de navegação, usando **Favoritos** e **Recentes**    
 - Usando [Exibição relacionada](end-user-related.md)    
 - Em um email, quando alguém [compartilha com você](../service-share-reports.md) ou [define um alerta](end-user-alerts.md)    
 - No [Centro de notificações](end-user-notification-center.md)    

@@ -2,19 +2,18 @@
 title: Criar aplicativos de modelo no Power BI
 description: Como criar aplicativos de modelo no Power BI que podem ser distribuídos para qualquer cliente do Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432146"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871483"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar um aplicativo de modelo no Power BI
 
@@ -86,7 +85,7 @@ Agora que há algum conteúdo no workspace, você está pronto para empacotá-lo
 
     **Navegação**
 
-    Ative o **Novo construtor de navegação**, no qual você pode definir o painel de navegação esquerdo do aplicativo (confira [Projetar a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) neste artigo para obter detalhes).
+    Ative o **Novo construtor de navegação**, no qual você pode definir o painel de navegação do aplicativo (confira [Projetar a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) neste artigo para obter detalhes).
 
    ![Definir a página de aterrissagem do aplicativo](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     

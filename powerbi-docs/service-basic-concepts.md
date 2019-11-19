@@ -1,22 +1,22 @@
 ---
 title: Conceitos básicos para designers no serviço do Power BI
-description: Workspaces, painéis, relatórios, conjunto de dados e pastas de trabalho do Power BI.
+description: As capacidades, workspaces, aplicativos, dashboards, relatórios, conjunto de dados, pastas de trabalho e fluxos de dados do serviço do Power BI.
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/25/2019
+ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431317"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128355"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço do Power BI
 
@@ -28,7 +28,7 @@ No âmbito deste artigo, caso você ainda não tenha relatórios próprios, tent
 
 Quando abre o serviço do Power BI no navegador, você começa a trabalhar na Tela Inicial. Aqui estão os elementos que podem ser exibidos:
 
-1. Painel de navegação (navegação esquerda)
+1. Painel de navegação
 2. Iniciador do aplicativo do Office 365
 3. Botão Página inicial do Power BI
 4. Botões de ícone, incluindo configurações, ajuda e comentários
@@ -45,20 +45,36 @@ Nos aprofundaremos nesses recursos mais tarde, mas primeiro vamos examinar algun
 
 
 ## <a name="power-bi-concepts"></a>Conceitos do Power BI
-Os quatro maiores blocos de construção do Power BI são: **_dashboards_** , **_relatórios_** , **_pastas de trabalho_** e **_conjuntos de dados_** . E eles ficam todos organizados em **_workspaces_** . É importante entender os workspaces antes de nos aprofundarmos nos quatro blocos de construção, então, vamos começar com essa parte.
+Os cinco maiores blocos de construção do Power BI são: *dashboards*, *relatórios*, *pastas de trabalho*, *conjuntos de dados* e *fluxos de dados*. Eles estão todos organizados em *workspaces* e são criados em *capacidades*.  É importante entender as capacidades e os workspaces antes de nos aprofundarmos nos cinco blocos de construção, então vamos começar com essa parte.
+
+## <a name="capacities"></a>Capacidades
+As capacidades são um conceito fundamental do Power BI que representa um conjunto de recursos (armazenamento, processador e memória) usado para hospedar e entregar seu conteúdo do Power BI. As capacidades são _compartilhadas_ ou _dedicadas_. Uma capacidade compartilhada é aquela compartilhada com outros clientes da Microsoft, enquanto uma capacidade dedicada está totalmente comprometida com um único cliente. As capacidades dedicadas exigem uma [assinatura](service-premium-what-is.md) e são totalmente descritas no artigo [Gerenciar capacidades Premium](service-premium-capacity-manage.md).
+
+Por padrão, os workspaces são criados em uma capacidade compartilhada. Na capacidade compartilhada, as cargas de trabalho são executadas em recursos computacionais compartilhados com outros clientes. Como a capacidade deve compartilhar recursos, limitações são impostas para garantir "equilíbrio", assim como o tamanho máximo do modelo (1 GB) e a frequência máxima de atualização diária (oito vezes por dia).
 
 ## <a name="workspaces"></a>Workspaces
-Workspaces são contêineres para painéis, relatórios, pastas de trabalho e conjunto de dados no Power BI. Há dois tipos de workspaces: *Meu workspace* e *workspaces*. Então, o que é um *aplicativo*? Um *aplicativo* do Power BI é uma coleção de painéis e relatórios projetados para fornecer métricas-chave aos usuários finais do programa na organização. Embora sejam interativos, os usuários finais não podem editar os aplicativos.
+Os workspaces são criados em capacidades. Eles são, essencialmente, contêineres para dashboards, relatórios, pastas de trabalho, conjuntos de dados e fluxos de dados no Power BI.
+
+Há dois tipos de workspaces: *Meu workspace* e *workspaces*.
 
 - *Meu Workspace* é o workspace pessoal para qualquer cliente do Power BI trabalhar com seu próprio conteúdo. Apenas você tem acesso ao Meu Workspace pertencente a você. Você pode compartilhar painéis e relatórios de Meu Workspace. Se você quer colaborar em dashboards e relatórios ou criar um aplicativo, convém trabalhar em um workspace.      
--  *Workspaces* são usados para colaborar e compartilhar conteúdo com colegas. Eles também são os locais nos quais você cria, publica e gerencia aplicativos para sua organização. Imagine-os como áreas de preparo e contêineres para o conteúdo que vai formar um aplicativo do Power BI. Você pode adicionar colegas aos seus workspaces e colaborar em dashboards, relatórios, pastas de trabalho e conjunto de dados. Todos os membros do workspace precisam de licenças do Power BI Pro. Consumidores do aplicativo, os colegas que têm acesso aos aplicativos, não precisam necessariamente de licenças Pro. Leia mais sobre os [novos espaços de trabalho](service-create-the-new-workspaces.md).  
+-  Os *workspaces* são usados para colaborar e compartilhar conteúdo com colegas. Você pode adicionar colegas aos seus workspaces e colaborar em dashboards, relatórios, pastas de trabalho e conjunto de dados. Com uma exceção, todos os membros do workspace precisam de licenças do Power BI Pro. Leia mais sobre os [novos espaços de trabalho](service-create-the-new-workspaces.md). 
+
+    Os workspaces também são os locais nos quais você cria, publica e gerencia *aplicativos* para sua organização. Imagine os workspaces como áreas de preparo e contêineres para o conteúdo que vai formar um aplicativo do Power BI. Então, o que é um *aplicativo*? É uma coleção de dashboards e relatórios projetados para fornecer métricas-chave aos consumidores do Power BI em sua organização. Os aplicativos são interativos, mas os consumidores não podem editá-los. Consumidores do aplicativo, os colegas que têm acesso aos aplicativos, não precisam necessariamente de licenças Pro.  
 
 Para saber mais sobre compartilhamento em geral, confira primeiro [Maneiras de compartilhar os painéis](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Agora, vamos falar sobre os blocos de construção do Power BI. Você não pode ter painéis ou relatórios sem dados (bem, você até pode ter painéis vazios e relatórios vazios, mas eles não são úteis até que tenham dados), então vamos começar com os **conjuntos de dados**.
+Agora, vamos falar sobre os cinco blocos de construção do Power BI.
+
+## <a name="dataflows"></a>Fluxos de dados
+Um *fluxo de dados* ajuda as organizações a unificar dados de fontes diferentes. Fluxos de dados são opcionais e geralmente são usados em projetos complexos ou maiores. Eles representam os dados preparados para uso por conjuntos de dados. No entanto, eles não podem ser usados diretamente como uma fonte para relatórios. Eles aproveitam a ampla coleção de conectores de dados da Microsoft, permitindo a ingestão de dados de fontes locais e baseadas em nuvem.
+
+Os fluxos de dados são criados e gerenciados somente em workspaces (mas não no *Meu Workspace*) e são armazenados como entidades no CDM (Common Data Model) no Azure Data Lake Storage Gen2. Normalmente, eles são agendados para serem atualizados de forma recorrente a fim de armazenar dados atualizados. Eles são ótimos para preparar dados para uso – e possível reutilização – por seus conjuntos de dados. Para obter mais informações, consulte o artigo [Preparação de dados de autoatendimento no Power BI](service-dataflows-overview.md).
+
+Você não pode ter dashboards ou relatórios sem dados (bem, você até pode ter dashboards vazios e relatórios vazios, mas eles não são úteis até que tenham dados), então vamos apresentar agora os **conjuntos de dados**.
 
 ## <a name="datasets"></a>Conjuntos de dados
-Um *conjunto de dados* é uma coleção de dados que você *importa* ou a que *se conecta*. O Power BI permite que você se conecte a todos os tipos de conjuntos de dados, os importe e os reúna em um único lugar.  
+Um *conjunto de dados* é uma coleção de dados que você *importa* ou a que *se conecta*. O Power BI permite que você se conecte a todos os tipos de conjuntos de dados, os importe e os reúna em um único lugar. Os conjuntos de dados também podem obter dados de fluxos de dados.
 
 Conjuntos de dados estão associados aos *workspaces*, e um conjunto de dados exclusivo pode ser parte de muitos workspaces. Ao abrir um workspace, os conjuntos de dados associados estarão listados na guia **Conjuntos de Dados**. Cada conjunto de dados listado representa uma fonte de dados única, por exemplo, uma planilha do Excel no OneDrive, um conjunto de dados de tabela SSAS local ou um conjunto de dados do Salesforce. Há várias diferentes fontes de dados com suporte, e sempre estamos adicionando novas. Veja a lista de [tipos de conjuntos de dados que podem ser usados com o Power BI](service-get-data.md).
 
@@ -74,13 +90,17 @@ No exemplo abaixo, selecionamos o workspace “Vendas e marketing” e clicamos 
 
   ![Diagrama de conjunto de dados](media/service-basic-concepts/drawing2.png)
 
-Para [se conectar a um conjunto de dados ou importá-lo](service-get-data.md), selecione **Obter Dados**, na parte inferior do painel de navegação esquerdo. Siga as instruções para se conectar à fonte específica ou importá-la e depois adicionar o conjunto de dados ao workspace ativo. Novos conjuntos de dados ficam marcados com um asterisco amarelo. O trabalho que você realiza no Power BI não altera o conjunto de dados subjacente.
+Para [se conectar a um conjunto de dados ou importá-lo](service-get-data.md), selecione **Obter Dados**, na parte inferior do painel de navegação. Siga as instruções para se conectar à fonte específica ou importá-la e depois adicionar o conjunto de dados ao workspace ativo. Novos conjuntos de dados ficam marcados com um asterisco amarelo. O trabalho que você realiza no Power BI não altera o conjunto de dados subjacente.
 
 Os conjuntos de dados adicionados por um membro do espaço de trabalho ficam disponíveis para outros membros do espaço de trabalho com uma função de *administrador*, *membro* ou *colaborador*.
 
-Conjuntos de dados podem ser atualizados, renomeados, explorados e removidos. Use um conjunto de dados para criar um relatório do zero ou executando [insights rápidos](service-insights.md).  Para ver quais relatórios e painéis já estão usando um conjunto de dados, selecione **Exibição relacionada**. Para explorar um conjunto de dados, selecione-o. O que você está fazendo é abrir o conjunto de dados no editor de relatórios, onde pode de fato começar a se aprofundar nos dados e criar visualizações. Então, vamos passar para o próximo tópico – relatórios.
+Conjuntos de dados podem ser atualizados, renomeados, explorados e removidos. Use um conjunto de dados para criar um relatório do zero ou executando [insights rápidos](service-insights.md).  Para ver quais relatórios e painéis já estão usando um conjunto de dados, selecione **Exibição relacionada**. Para explorar um conjunto de dados, selecione-o. O que você está fazendo é abrir o conjunto de dados no editor de relatórios, em que você pode de fato começar a explorar os dados criando visualizações.
+
+Agora, vamos passar para o próximo tópico – relatórios.
 
 ### <a name="dig-deeper"></a>Mergulhe mais fundo
+* [Conjuntos de dados no serviço do Power BI](service-datasets-understand.md)
+* [Modos de conjunto de dados no serviço Power BI](service-dataset-modes-understand.md)
 * [O que é o Power BI Premium?](service-premium-what-is.md)
 * [Obter dados para o Power BI](service-get-data.md)
 * [Conjuntos de dados de amostra para o Power BI](sample-datasets.md)
@@ -159,8 +179,8 @@ Nós falamos sobre workspaces e blocos de construção. Vamos reuni-los e examin
 
 ![Serviço do Power BI em um navegador](media/service-basic-concepts/completenewest.png)
 
-### <a name="1-navigation-pane-left-nav"></a>1. **Painel de navegação** (nav esq)
-Use o painel de navegação para localizar e se mover entre os workspaces e os blocos de construção do Power BI: painéis, relatórios, pastas de trabalho e conjuntos de dados.  
+### <a name="1-navigation-pane"></a>1. **Painel de navegação**
+Use o painel de navegação para localizar e se mover entre os workspaces e os blocos de construção do Power BI: dashboards, relatórios, pastas de trabalho e conjuntos de dados.  
 
   ![Painel de navegação](media/service-basic-concepts/power-bi-navigation.png)
 
@@ -227,5 +247,4 @@ Essa área da tela contém opções adicionais para interagir com o conteúdo (n
 - [O que é o Power BI?](fundamentals/power-bi-overview.md)  
 - [Vídeos do Power BI](videos.md)  
 - [Editor de relatório - faça um tour](service-the-report-editor-take-a-tour.md)
-
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+- Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

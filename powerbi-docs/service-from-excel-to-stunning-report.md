@@ -2,7 +2,6 @@
 title: Da pasta de trabalho do Excel para um relatório incrível no serviço do Power BI
 description: Este artigo mostra como você pode criar rapidamente um relatório incrível com base em uma pasta de trabalho do Excel.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020990"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872506"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Da pasta de trabalho do Excel para um relatório incrível no serviço do Power BI
 Sua gerente deseja ver um relatório sobre os números de vendas mais recentes combinado com as impressões da última campanha no final do dia. Porém, os dados mais recentes residem em vários sistemas de terceiros e em arquivos em seu laptop. No passado, levava várias horas para criar visuais e formatar um relatório e você começava a se sentir ansioso.
@@ -57,7 +56,7 @@ O serviço do Power BI se conecta a várias fontes de dados, incluindo arquivos 
 
    ![Lista suspensa Criar](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-4. Na parte inferior do painel de navegação esquerdo, selecione **Obter dados**. 
+4. Na parte inferior do painel de navegação, selecione **Obter dados**. 
 
 5. Na página **Obter Dados**, na caixa **Arquivos** em **Criar conta**, selecione **Obter**.
 
@@ -140,5 +139,5 @@ Digamos que você deseja compartilhar seu dashboard com sua gerente. Você pode 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
 * [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 

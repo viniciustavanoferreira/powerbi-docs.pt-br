@@ -2,7 +2,6 @@
 title: Pesquisar e classificar seu conteúdo no serviço do Power BI
 description: documentação para pesquisar e classificar conteúdo em Meu workspace do Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891780"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861727"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisando, buscando e classificando seu conteúdo no serviço do Power BI
 
@@ -47,10 +46,10 @@ Você também pode classificar o conteúdo por nome ou por proprietário. Observ
 Nem todas as colunas podem ser classificadas. Posicione o cursor sobre os títulos de coluna para descobrir quais deles podem ser classificados.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-navigation-pane"></a>Navegação usando o painel de navegação
-O painel de navegação classifica o conteúdo de modo a ajudar você a encontrar o que precisa rapidamente.  
+## <a name="navigation-using-the-nav-pane"></a>Navegação usando o painel de navegação
+O painel de navegação classifica o conteúdo de modo a ajudar você a encontrar o que você precisa rapidamente.  
 
-![painel de navegação à esquerda](./media/end-user-search-sort/power-bi-navbar.png)
+![painel de navegação](./media/end-user-search-sort/power-bi-nav pane.png)
 
 
 - O conteúdo que é compartilhado com você está disponível em **Compartilhado comigo**.
@@ -58,7 +57,7 @@ O painel de navegação classifica o conteúdo de modo a ajudar você a encontra
 - Seus aplicativos podem ser encontrados selecionando **Aplicativos**.
 - **Home** é uma exibição de página única do seu conteúdo mais importante e o conteúdo e fontes de aprendizado sugeridas.
 
-Além disso, você pode marcar o conteúdo como [favorito](end-user-favorite.md) e [em destaque](end-user-featured.md). Escolha um dashboard ou relatório que você acredita que exibirá com mais frequência e defina-o como o conteúdo *em destaque*. Cada vez que você abrir o serviço do Power BI, seu dashboard em destaque será exibido primeiro. Você tem uma série de dashboards e aplicativos que visita com frequência? Ao defini-los como favoritos, eles ficarão sempre disponíveis na sua barra de navegação à esquerda.
+Além disso, você pode marcar o conteúdo como [favorito](end-user-favorite.md) e [em destaque](end-user-featured.md). Escolha um dashboard ou relatório que você acredita que exibirá com mais frequência e defina-o como o conteúdo *em destaque*. Cada vez que você abrir o serviço do Power BI, seu dashboard em destaque será exibido primeiro. Você tem uma série de dashboards e aplicativos que visita com frequência? Ao defini-los como favoritos, eles ficarão sempre disponíveis no seu painel de navegação.
 
 ![Submenu Favoritos](./media/end-user-search-sort/power-bi-favorite.png).
 
@@ -70,4 +69,4 @@ Além disso, você pode marcar o conteúdo como [favorito](end-user-favorite.md)
 ## <a name="next-steps"></a>Próximas etapas
 [Classificar visuais em relatórios](end-user-change-sort.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

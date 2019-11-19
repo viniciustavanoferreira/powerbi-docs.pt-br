@@ -2,19 +2,18 @@
 title: Distribuir aplicativos de modelo em sua organização – Power BI
 description: Saiba mais sobre como instalar, personalizar e distribuir aplicativos de modelo em sua organização no Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432347"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871417"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalar e distribuir aplicativos de modelo em sua organização – Power BI
 
@@ -45,7 +44,7 @@ Em um navegador, selecione este link para abrir o AppSource filtrado para aplica
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>Pesquisar no AppSource com o serviço do Power BI
 
-1. No painel de navegação à esquerda do serviço do Power BI, selecione **Aplicativos** > **Obter aplicativos**.
+1. No painel de navegação do serviço do Power BI, selecione **Aplicativos** > **Obter aplicativos**.
 
     ![Obter aplicativos](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -69,7 +68,7 @@ Em um navegador, selecione este link para abrir o AppSource filtrado para aplica
     - **Conectar os dados**: Altere a fonte de dados dos dados de exemplo para sua própria fonte de dados. Redefina os parâmetros do conjunto de dados e as credenciais da fonte de dados. Confira [Limitações conhecidas](service-template-apps-tips.md#known-limitations) no artigo sobre dicas de aplicativos de modelo. 
     - **Ir para o workspace** (opção mais avançada): faça qualquer alteração permitida pelo construtor do aplicativo.
 
-    Se desejar, ignore esta caixa de diálogo e acesse o workspace associado diretamente por meio de **Workspaces** no painel de navegação à esquerda.
+    Se desejar, ignore esta caixa de diálogo e acesse o workspace associado diretamente por meio de **Workspaces** no painel de navegação.
     >[!NOTE]
     >Ao instalar um aplicativo de modelo, são instalados um *aplicativo organizacional* e um *workspace*. Leia mais sobre a [distribuição de aplicativos no Power BI](service-create-distribute-apps.md).
  

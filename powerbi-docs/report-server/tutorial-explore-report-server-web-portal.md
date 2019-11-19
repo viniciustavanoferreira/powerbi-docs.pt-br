@@ -2,19 +2,18 @@
 title: 'Tutorial: Explorar o Servidor de Relatórios do Power BI em uma VM'
 description: Neste tutorial, você cria uma máquina virtual com o Servidor de Relatórios do Power BI já instalado e explora o portal da Web.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021621"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859249"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Explorar o portal da Web do Servidor de Relatórios do Power BI em uma VM
 Neste tutorial, você cria uma máquina virtual do Azure com o Servidor de Relatórios do Power BI já instalado, para que possa experimentar a exibição, a edição e o gerenciamento de relatórios paginados e de exemplo do Power BI, bem como de KPIs.
@@ -72,7 +71,7 @@ Felizmente, a equipe do Power BI criou uma VM que vem com o Servidor de Relatór
 
 ## <a name="connect-to-your-virtual-machine"></a>Conectar-se à sua máquina virtual
 
-1. No painel de navegação esquerdo do Azure, selecione **Máquinas virtuais**. 
+1. No painel de navegação do Azure, selecione **Máquinas virtuais**. 
 
 2. Na caixa **Filtrar por nome**, digite "report". 
 
@@ -108,7 +107,7 @@ Quando sua VM abrir, estes são os itens que você verá na área de trabalho.
 |![Número 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Abre o portal da Web do Servidor de Relatórios do Power BI no navegador |
 |![Número 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Inicia o SQL Server Data Tools para criar relatórios paginados (.RDL) |
 
-Clique duas vezes no ícone **Portal da Web do Servidor de Relatórios**. O navegador abre `http://localhost/reports/browse`. No portal da Web, você verá vários arquivos agrupados por tipo. 
+Clique duas vezes no ícone **Portal da Web do Servidor de Relatórios**. O navegador abre `https://localhost/reports/browse`. No portal da Web, você verá vários arquivos agrupados por tipo. 
 
 ![Portal da Web do Servidor de Relatório do Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

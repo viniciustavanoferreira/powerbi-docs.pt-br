@@ -3,19 +3,18 @@ title: Análise integrada para inserir conteúdo do Power BI em seu aplicativo p
 description: Aprenda a integrar ou inserir um painel, um bloco ou um relatório em um aplicativo usando as APIs do Power BI para análise integrada para seus clientes. Saiba como integrar o Power BI ao seu aplicativo usando o software de análise integrada, ferramentas de análise integrada ou ferramentas de business intelligence integrada.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429683"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877706"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Inserir conteúdo do Power BI em um aplicativo para seus clientes
 
@@ -120,7 +119,7 @@ Para obter a **applicationId**, siga estas etapas:
 
 1. Entre no [Portal do Azure](https://portal.azure.com).
 
-2. No painel de navegação esquerdo, escolha **Todos os serviços** e selecione **Registros de aplicativo**.
+2. No painel de navegação, selecione **Todos os serviços** e **Registros de aplicativo**.
 
     ![Pesquisa de registro de aplicativo](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -187,7 +186,7 @@ Para obter o **ApplicationSecret**, siga estas etapas:
 
 1. Entre no [portal do Azure](https://portal.azure.com).
 
-2. No painel de navegação esquerdo, selecione **Todos os serviços** e **Registros de aplicativo**.
+2. No painel de navegação, selecione **Todos os serviços** e **Registros de aplicativo**.
 
     ![Pesquisa de registro de aplicativo](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -460,4 +459,4 @@ Neste tutorial, você aprendeu como inserir o conteúdo do Power BI em um aplica
 > [!div class="nextstepaction"]
 >[Inserir para a organização](embed-sample-for-your-organization.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

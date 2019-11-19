@@ -2,7 +2,6 @@
 title: Visão geral da acessibilidade no Power BI
 description: Recursos e sugestões para criar relatórios do Power BI Desktop acessíveis
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13017fed9a7cd54cde624424894341dc2ced0d9b
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73180966"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878911"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Visão geral da acessibilidade no Power BI
 Ao trabalhar com o Power BI, é importante considerar os diferentes tipos de usuários que podem interagir com seus relatórios. Criar e apresentar relatórios que são facilmente percorridos e compreendidos por usuários de teclado ou do leitor de tela permite que os usuários com deficiências visuais ou físicas recebam as mesmas informações.
@@ -30,10 +29,10 @@ O design universal é o design de produtos que podem ser usados pelo máximo nú
 
 ## <a name="accessibility-standards"></a>Padrões de acessibilidade
 
-O Power BI está em conformidade com os seguintes padrões de acessibilidade.  Isso ajuda a garantir que suas experiências do Power BI sejam acessíveis para o máximo de pessoas possível.
+O Power BI está comprometido com os padrões de acessibilidade a seguir.  Isso ajuda a garantir que suas experiências do Power BI sejam acessíveis para o máximo de pessoas possível.
 
 ### <a name="wcag-21"></a>WCAG 2.1
-O Power BI segue as diretrizes da WCAG (Web Content Accessibility) 2.1. Há três princípios principais da WCAG:
+A WCAG (Web Content Accessibility) ajuda a tornar o conteúdo da Web acessível a pessoas com deficiências. Há três princípios principais da WCAG:
 
 1. **Perceptível** – As informações e os componentes da interface do usuário devem ser apresentáveis aos usuários de maneiras que eles possam percebê-los.
 2. **Operáveis** – Os componentes e a navegação da interface do usuário devem ser operáveis.

@@ -2,7 +2,6 @@
 title: Criação e uso de fluxos de dados no Power BI
 description: Saiba como criar e usar fluxos de dados no Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432065"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877390"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Criação e uso de fluxos de dados no Power BI
 
@@ -36,7 +35,7 @@ Há três etapas principais para usar um fluxo de dados:
 Nas seções a seguir, examinaremos cada uma dessas etapas e nos familiarizaremos com as ferramentas fornecidas para concluir cada etapa. Vamos começar.
 
 ## <a name="creating-a-dataflow"></a>Criar um fluxo de dados
-Para criar um fluxo de dados, abra o serviço do Power BI em um navegador e selecione um **workspace** (fluxos de dados não estão disponíveis em *meu workspace* no serviço do Power BI) no painel de navegação à esquerda, como mostrado na tela a seguir. Você também pode criar um novo workspace no qual criará seu novo fluxo de dados. 
+Para criar um fluxo de dados, inicie o serviço do Power BI em um navegador e selecione um **workspace** (fluxos de dados não estão disponíveis em *meu workspace* no serviço do Power BI) no painel de navegação à esquerda, como mostrado na tela a seguir. Você também pode criar um novo workspace no qual criará seu novo fluxo de dados. 
 
 ![Criar um fluxo de dados no Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 

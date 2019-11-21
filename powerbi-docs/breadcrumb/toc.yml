@@ -12,6 +12,10 @@
         - name: Desenvolvedor
           tocHref: /power-bi/developer/
           topicHref: /power-bi/developer/index
+          items:
+            - name: Usar visuais do Power BI baseados em R no Power BI
+              tocHref: /power-bi/desktop-r-powered-custom-visuals/
+              topicHref: /power-bi/developer/index
         - name: Aprendizagem Guiada
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/

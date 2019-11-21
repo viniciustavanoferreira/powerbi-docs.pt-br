@@ -1,23 +1,25 @@
 ---
 title: Criar visualizações e análises avançadas usando scripts do R
-description: Usar scripts do R no Power BI para criar visualizações e análise avançadas
+description: Usar scripts do R no Power BI Desktop para criar visualizações e análise avançadas
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655016"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099830"
 ---
-# <a name="creating-r-visuals-in-the-power-bi-service"></a>Criar visuais do R no serviço do Power BI
+# <a name="r-visuals-in-power-bi"></a>Visuais do R no Power BI
+Atualmente, os visuais do R só podem ser criados no **Power BI Desktop** e, em seguida, publicados no serviço do Power BI. Para obter mais informações sobre como criar visuais do R, confira [Criar visuais do Power BI usando o R](../desktop-r-visuals.md).
+
+## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Exibição de visuais do R no serviço do Power BI
 O serviço do Power BI dá suporte à exibição e interação com visuais criados com scripts do R. Os visuais criados com scripts do R, normalmente chamados de *visuais do R*, podem apresentar formatação e análise de dados avançadas, como previsão, usando o poder da análise e da visualização avançadas do R.
 
 > [!NOTE]
@@ -27,23 +29,23 @@ O serviço do Power BI dá suporte à exibição e interação com visuais criad
 
 A imagem a seguir mostra um dashboard do Power BI com uma coleção de visuais do R usados para análise avançada.
 
-![](media/service-r-visuals/r-visuals-service_1.png)
+![Captura da tela do relatório de serviço do Power BI](media/service-r-visuals/power-bi-r-visuals.png)
 
 Os visuais do R são criados em um [relatório do Power BI Desktop](../desktop-get-the-desktop.md), como o relatório mostrado na imagem a seguir.
 
-![](media/service-r-visuals/r-visuals-service_2a.png)
+![Relatório de desktop com dois visuais](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
-Depois que o relatório for criado no **Power BI Desktop**, será possível publicar o relatório contendo um ou mais visuais do R no serviço do Power BI. No momento, os visuais do R só podem ser criados no **Power BI Desktop** e publicados no serviço do Power BI. Para obter mais informações sobre como criar visuais do R, veja [Create Power BI visuals using R (Power BI Desktop)](../desktop-r-visuals.md) (Criar visuais do Power BI usando o R [Power BI Desktop]).
+Depois que o relatório for criado no **Power BI Desktop**, será possível publicar o relatório contendo um ou mais visuais do R no serviço do Power BI. 
 
-Observe que, no serviço, nem todos os pacotes do R têm suporte. Confira os pacotes com suporte ao final deste artigo para obter a lista dos pacotes atualmente com suporte no serviço do Power BI.
+ No serviço, não há suporte para todos os pacotes do R. Confira os pacotes com suporte ao final deste artigo para obter a lista dos pacotes atualmente com suporte no serviço do Power BI.
 
-Você pode baixar este [arquivo de exemplo do Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (arquivo .pbix) que contém alguns visuais do R para ver como isso funciona e testá-lo.
+Você pode baixar este [arquivo de exemplo do Power BI Desktop](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (arquivo .pbix) que contém alguns visuais do R para ver como isso funciona e testá-lo.
 
 Na maioria dos casos, os visuais do R criados no **Power BI Desktop** e publicados no serviço do Power BI, se comportam como qualquer outro visual do serviço do Power BI: é possível interagir, filtrar, segmentá-los e fixá-los em um dashboard ou compartilhá-los com outras pessoas. Para obter mais informações sobre como compartilhar dashboards e visuais, veja [compartilhar um dashboard com seus colegas e com outras pessoas](../service-share-dashboards.md). Uma diferença entre os visuais do R e outros visuais é que aqueles não podem mostrar dicas de ferramenta e não podem ser usados para filtrar outros visuais.
 
 Como você pode ver na imagem a seguir, os visuais do R no serviço do Power BI, estejam eles em dashboards ou relatórios, na maioria dos casos, aparecem e se comportam como qualquer outro visual, e os usuários não precisam conhecer o script do R subjacente que criou o visual.
 
-![](media/service-r-visuals/r-visuals-service_3a.png)
+![captura de tela da página de relatório no serviço do Power BI](media/service-r-visuals/power-bi-r-visual.png)
 
 ## <a name="r-scripts-security"></a>Segurança de scripts do R
 Os visuais do R são criados com base nos scripts do R que, potencialmente, podem conter código com riscos de segurança ou privacidade.
@@ -57,11 +59,11 @@ Essa abordagem de *área restrita* impõe algumas restrições sobre os scripts 
 ## <a name="r-scripts-error-experience"></a>Experiência de erro com scripts do R
 Quando há um erro em um script do R, o visual do R não é plotado e uma mensagem de erro é exibida. Para obter detalhes sobre o erro, selecione **Ver detalhes** no erro do visual do R na tela, conforme mostrado na imagem a seguir.
 
-![](media/service-r-visuals/r-visuals-service_4.png)
+![mensagem de erro](media/service-r-visuals/r-visuals-service-4.png)
 
 Como outro exemplo, a imagem a seguir mostra a mensagem de erro que aparece quando um script do R não é executado corretamente devido à ausência de um pacote do R no Azure.
 
-![](media/service-r-visuals/r-visuals-service_5.png)
+![Captura de tela mostrando um erro de runtime](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>Licenças
 Os visuais do R exigem uma licença [Power BI Pro](../service-self-service-signup-for-power-bi.md) para serem renderizados em relatórios, na atualização, no filtro e no filtro cruzado. Para obter mais informações sobre licenças do Power BI Pro e como elas diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro – o que é isto?](../service-admin-purchasing-power-bi-pro.md)
@@ -83,7 +85,7 @@ A tabela a seguir descreve as funcionalidades dos visuais do R com base em licen
 ## <a name="known-limitations"></a>Limitações Conhecidas
 Os visuais do R no serviço do Power BI têm algumas limitações:
 
-* O suporte para os visuais do R é limitado aos pacotes identificados na página a seguir <make this a link to the supported packages page per my excel>. Atualmente, não há suporte para pacotes personalizados.
+* O suporte a visuais do R é limitado aos pacotes identificados [em Saiba quais pacotes do R têm suporte](../service-r-packages-support.md). Atualmente, não há suporte para pacotes personalizados.
 * Limitações de tamanho de dados – os dados usados pelo visual R para plotar são limitados a 150.000 linhas. Se mais de 150.000 linhas forem selecionadas, somente as primeiras 150.000 linhas serão usadas e uma mensagem será exibida na imagem.
 * Limite de tempo de cálculo – se um cálculo do visual do R exceder 60 minutos, o script atingirá o tempo limite, resultando em erro.
 * Visuais R são atualizados após atualizações de dados, filtragem e realce. No entanto, a própria imagem não é interativa e não dá suporte a dicas de ferramenta.
@@ -102,7 +104,7 @@ Os visuais do R no serviço do Power BI têm algumas limitações:
         powerbi_rEnableShowTextForCJKLanguages =  1
 
 ## <a name="overview-of-r-packages"></a>Visão geral de pacotes de R
-Pacotes de R são coleções de funções de R, dados e código compilado combinados em um formato bem definido. Quando o R é instalado, ele vem com um conjunto padrão de pacotes e outros pacotes estão disponíveis para download e para instalação. Depois de instalados, os pacotes de R devem ser carregados para a sessão a ser usada. A principal origem de pacotes de R gratuitos é o CRAN, a [Rede Completa de Arquivos do R](https://cran.r-project.org/web/packages/available_packages_by_name.html).
+Pacotes de R são coleções de funções de R, dados e código compilado combinados em um formato bem definido. Quando o R é instalado, ele vem com um conjunto padrão de pacotes e outros pacotes estão disponíveis para download e para instalação. Depois de instalado, um pacote do R deve ser carregado na sessão a ser usada. A principal origem de pacotes de R gratuitos é o CRAN, a [Rede Completa de Arquivos do R](https://cran.r-project.org/web/packages/available_packages_by_name.html).
 
 O **Power BI Desktop** pode usar qualquer tipo de pacotes de R sem limitação. É possível instalar pacotes de R para uso no **Power BI Desktop** por conta própria (usando o [IDE RStudio](https://www.rstudio.com/), por exemplo).
 

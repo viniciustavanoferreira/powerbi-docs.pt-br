@@ -1,29 +1,28 @@
 ---
-title: Editar variáveis do SAP no serviço do Power BI (versão prévia)
+title: Editar variáveis do SAP no serviço do Power BI
 description: Azure e Power BI
 author: Sujata994
 ms.author: sunaraya
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db1d4a8a9734c910514b4952b664bf7ebce324c1
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654868"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010875"
 ---
-# <a name="edit-sap-variables-in-the-power-bi-service-preview"></a>Editar variáveis do SAP no serviço do Power BI (versão prévia)
+# <a name="edit-sap-variables-in-the-power-bi-service"></a>Editar variáveis do SAP no serviço do Power BI
 
-Ao usar o SAP Business Warehouse ou o SAP HANA com o DirectQuery, os autores de relatório agora podem permitir que os usuários finais editem variáveis do SAP no **serviço do Power BI** para workspaces Premium.
+Ao usar o SAP Business Warehouse ou o SAP HANA com o DirectQuery, os autores de relatório agora podem permitir que os usuários finais editem variáveis do SAP no **serviço do Power BI** para workspaces Premium e compartilhados. Observe que esse recurso NÃO funciona para relatórios na guia Compartilhado comigo do Meu Espaço de Trabalho. 
 
 ![Caixa de diálogo Editar variáveis](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
-Este documento descreve os requisitos para editar variáveis no Power BI, como habilitar essa versão prévia do recurso e onde editar variáveis no serviço do Power BI.
+Este documento descreve os requisitos para editar variáveis no Power BI, como habilitar esse recurso e onde editar variáveis no serviço do Power BI.
 
 ## <a name="requirements-for-sap-edit-variables"></a>Requisitos para editar variáveis do SAP
 
@@ -31,12 +30,10 @@ Há alguns requisitos para o uso do recurso editar variáveis do SAP. A lista a 
 
 **Nova experiência de filtro necessária** – você deve ter a [nova experiência de filtro](power-bi-report-filter.md) habilitada para seu relatório. Veja como você pode habilitá-lo para seu relatório no Power BI Desktop:
 - No Power BI Desktop, selecione **Arquivo** > **Opções e Configurações** > **Opções**
-- Na barra de navegação à esquerda, em **Arquivo atual**, selecione **Configurações de relatório**.
+- No painel de navegação, em **Arquivo atual**, selecione **Configurações de relatório**.
 - Em **Experiência de filtragem**, selecione **Habilitar o painel de filtros atualizado**.
 
 **Conexões do DirectQuery necessárias** – você deve se conectar à fonte de dados do SAP usando o DirectQuery. Não há suporte para importar conexões.
-
-**Assinatura do Power BI Premium necessária** – o recurso editar variáveis do SAP só funciona, no momento, em assinaturas do Power BI Premium.
 
 **Configuração de SSO necessária** – para que este recurso funcione, o SSO (logon único) deve estar configurado. Confira [visão geral do SSO (logon único)](service-gateway-sso-overview.md) para saber mais.
 
@@ -48,7 +45,7 @@ Há alguns requisitos para o uso do recurso editar variáveis do SAP. A lista a 
 
 ## <a name="how-to-enable-the-feature"></a>Como habilitar o recurso
 
-Para habilitar o recurso **editar variáveis do SAP**, no Power BI Desktop, conecte-se a uma fonte de dados do SAP HANA ou do SAP BW. Em seguida, acesse **Arquivo > Opções e configurações > Opções** e, em seguida, na seção Arquivo Atual no painel esquerdo, selecione **DirectQuery**. Quando você seleciona isso, no painel direito, você vê as opções de DirectQuery e uma caixa de seleção em que você pode **Permitir que usuários finais alterem as variáveis do SAP no relatório (versão prévia)** , conforme mostrado na imagem a seguir.
+Para habilitar o recurso **editar variáveis do SAP**, no Power BI Desktop, conecte-se a uma fonte de dados do SAP HANA ou do SAP BW. Em seguida, acesse **Arquivo > Opções e configurações > Opções** e, em seguida, na seção Arquivo Atual no painel esquerdo, selecione **DirectQuery**. Quando você seleciona isso, é possível ver no painel direito as opções de DirectQuery e uma caixa de seleção na qual é possível **Permitir que usuários finais alterem as variáveis do SAP no relatório**, conforme mostrado na imagem a seguir.
 
 ![Opções do DirectQuery](media/service-edit-sap-variables/sap-preview-setting-in-desktop.png)
 
@@ -78,10 +75,6 @@ Você pode fazer isso:
     ![Redefinir para padrão](media/service-edit-sap-variables/reset-to-default.png)
 
 Ao trabalhar em um relatório publicado no serviço do Power BI que usa o SAP HANA ou o SAP BW com o recurso **Editar variáveis** habilitado, o proprietário do relatório pode alterar esses padrões. O proprietário do relatório pode alterar as variáveis no modo de edição e salvá-lo para habilitar que essas configurações se tornem as *novas configurações padrão* desse relatório. Outros usuários que acessarem o relatório depois que essas alterações forem feitas pelo proprietário do relatório verão as novas configurações como os padrões.
-
-## <a name="issues-and-considerations"></a>Problemas e considerações
-
-Nesse momento, não há suporte para o recurso editar variáveis do SAP nos aplicativos.
 
 ## <a name="next-steps"></a>Próximas etapas
 

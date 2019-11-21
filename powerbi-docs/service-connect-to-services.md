@@ -2,25 +2,24 @@
 title: Conectar-se aos serviços que você usa com o Power BI
 description: Conecte-se aos vários serviços que você usa para administrar sua empresa, como o Salesforce, Microsoft Dynamics CRM e Google Analytics.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159992"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925821"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Conectar-se aos serviços que você usa com o Power BI
 Com o Power BI, é possível se conectar aos vários serviços que você usa para administrar sua empresa, como o Salesforce, Microsoft Dynamics e Google Analytics. O Power BI começa usando suas credenciais para se conectar ao serviço. Em seguida, cria um *workspace* do Power BI com um dashboard e um conjunto de relatórios do Power BI que mostram os dados automaticamente e fornecem insights visuais sobre sua empresa.
 
 >[!IMPORTANT]
->Vários pacotes de conteúdo serão desativados em 25 de setembro de 2019. Todos os pacotes de conteúdo instalados continuarão funcionando, mas não será possível instalar novos depois dessa data. Os [aplicativos de modelo](https://docs.microsoft.com/power-bi/service-template-apps-overview) são uma substituição para os pacotes de conteúdo do serviço.
+>Os pacotes de conteúdo de serviço estão sendo substituídos por [Aplicativos de modelo](https://docs.microsoft.com/power-bi/service-template-apps-overview). Desde 25 de setembro de 2019, vários pacotes de conteúdo já foram preteridos. Qualquer pacote de conteúdo preterido que você instalou permanecerá em sua conta, mas nenhuma documentação nem suporte serão fornecidos para ele, nem será possível instalá-lo novamente.
 
 Entre no Power BI para exibir todos os [serviços aos quais você pode se conectar](https://app.powerbi.com/getdata/services). 
 
@@ -30,13 +29,13 @@ Depois de instalar o aplicativo, exiba o dashboard e os relatórios no aplicativ
 
 ![Aplicativo Google Analytics no aplicativo móvel do Power BI](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>Começar
+## <a name="get-started"></a>Introdução
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="edit-the-dashboard-and-reports"></a>Editar o dashboard e os relatórios
 Quando a importação for concluída, o novo aplicativo será exibido na página Aplicativos.
 
-1. Selecione **Aplicativos** no painel de navegação à esquerda > selecione o aplicativo.
+1. Selecione **Aplicativos** no painel de navegação > selecione o aplicativo.
    
      ![Página Aplicativos](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. Faça uma pergunta digitando na caixa de P e R ou clique em um bloco para abrir o relatório subjacente. 
@@ -71,6 +70,6 @@ Caso esteja interessado em criar aplicativos de modelo para distribuí-los por c
 ## <a name="next-steps"></a>Próximas etapas
 * [Distribuir aplicativos para seus colegas](service-create-distribute-apps.md)
 * [Criar novos workspaces no Power BI](service-create-the-new-workspaces.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

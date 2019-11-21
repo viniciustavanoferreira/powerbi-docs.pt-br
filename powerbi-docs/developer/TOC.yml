@@ -44,7 +44,7 @@
             - name: Publicar visuais personalizados no AppSource
               href: office-store.md
             - name: Usar elementos visuais personalizados baseados em R no Power BI
-              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: Interações visuais
               href: visuals/visuals-interactions.md
             - name: Adicionar seleções
@@ -142,7 +142,7 @@
               href: register-app.md
             - name: Obter um token de acesso do Azure AD
               href: get-azuread-access-token.md
-            - name: Associação dinâmica
+            - name: Conectar um relatório usando associação dinâmica
               href: embed-dynamic-binding.md
             - name: Incorporação de P e R
               href: qanda.md

@@ -3,18 +3,18 @@ title: Parâmetros de relatório no Construtor de Relatórios do Power BI
 description: Este tópico descreve os usos comuns de parâmetros de relatório do Construtor de Relatórios Paginados do Power BI, as propriedades que podem ser definidas, entre outros.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840523"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128429"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parâmetros de relatório no Construtor de Relatórios do Power BI
 
@@ -40,7 +40,7 @@ Este tópico descreve os usos comuns de parâmetros de relatório do Construtor 
 
 Ao exibir um relatório que tenha parâmetros, a barra de ferramentas visualizador de relatório exibe cada parâmetro para que você possa especificar valores de forma interativa. A ilustração a seguir mostra a área de parâmetro para um relatório com parâmetros @ReportMonth, @ReportYear, @EmployeeID, @ShowAll, @ExpandTableRows, @CategoryQuota e @SalesDate.  
 
-![Exibir um relatório com parâmetros](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "View report with parameters")
+![Exibir um relatório com parâmetros](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "Exibir um relatório com parâmetros")
   
 1. **Painel de parâmetros** A barra de ferramentas do Visualizador de Relatórios exibe um prompt e um valor padrão para cada parâmetro. Você pode personalizar o layout dos parâmetros no painel de parâmetros.  
   
@@ -65,7 +65,7 @@ Você pode criar parâmetros de relatório de algumas maneiras diferentes.
   
  Adicione uma consulta de conjunto de dados que contenha variáveis ou um procedimento armazenado de conjunto de dados que contenha parâmetros de entrada. Um parâmetro de conjunto de dados é criado para cada variável ou parâmetro de entrada. Por sua vez, um parâmetro de relatório é criado para cada parâmetro de conjunto de dados.  
   
-![Propriedades do conjunto de dados de parâmetro do Construtor de Relatórios](media/report-builder-parameters/report-builder-parameter-dataset.png "Report Builder Parameter Dataset Properties")
+![Propriedades do conjunto de dados dos parâmetros do Construtor de Relatórios](media/report-builder-parameters/report-builder-parameter-dataset.png "Propriedades do conjunto de dados dos parâmetros do Construtor de Relatórios")
 
   
  Esta imagem do Construtor de Relatórios mostra:  

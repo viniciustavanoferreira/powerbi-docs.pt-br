@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8ff32c2559570514f775d15d7da3f787ab85970a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8a9e2094619d4c6b0e0f6feb2c9767902b4f7b09
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872054"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099680"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho em novos workspaces no Power BI
 
@@ -29,7 +29,7 @@ Com os novos workspaces, é possível:
 
 - Atribuir funções de workspace a grupos de usuários: grupos de segurança, listas de distribuição, grupos do Office 365 e indivíduos.
 - Criar um workspace no Power BI sem criar um grupo do Office 365.
-- Usar funções de workspaces mais granulares para obter um gerenciamento de permissões mais flexível em um workspace.
+- Usar funções de workspace mais granulares para obter um gerenciamento de permissões mais flexível em um workspace.
 - O administrador do Power BI pode controlar quem pode criar workspaces no Power BI.
 
 Quando você cria um dos novos workspaces, você não está criando um grupo do Office 365 associado e subjacente. Toda a administração do workspace está no Power BI, não no Office 365. Com a nova experiência de workspace, agora você pode adicionar um grupo do Office 365 à lista de acesso do workspace para continuar gerenciando o acesso do usuário ao conteúdo por meio de grupos do Office 365.

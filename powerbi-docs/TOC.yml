@@ -407,6 +407,8 @@
       items:
         - name: Tipos de dados no Power BI Desktop
           href: desktop-data-types.md
+        - name: Fontes de dados do Power BI
+          href: power-bi-data-sources.md
         - name: Usar a faixa de opções atualizada no Power BI Desktop (versão prévia)
           href: desktop-ribbon.md
         - name: Atalhos do editor de fórmulas do Power BI Desktop

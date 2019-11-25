@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8ae5e8e348c982c7e1dffd469e180f4353910bf3
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 228bc9a7c6d02b5c2cdf34178c7b023c78fa23ea
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099495"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310814"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores ao Power BI Desktop
 
@@ -1503,7 +1503,7 @@ As atualizações a seguir são novas para o **Power BI Desktop** este mês:
 ### <a name="reporting"></a>Emissão de relatórios:
 
 -   Marcação com indicador (versão prévia) [[vídeo]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[artigo]](desktop-bookmarks.md)
--   Painel de seleção e controles de exibição de visual [[vídeo]](https://youtu.be/jksjtR8GnBE?t=7m26s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane)[[artigo]](desktop-bookmarks.md#visibility---using-the-selection-pane) 
+-   Painel de seleção e controles de exibição de visual [[vídeo]](https://youtu.be/jksjtR8GnBE?t=7m26s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane)[[artigo]](desktop-bookmarks.md#visibility-using-the-selection-pane) 
 -   Links de indicadores para imagens e formas [[vídeo]](https://youtu.be/jksjtR8GnBE?t=8m54s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[artigo]](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
 -   Destaque [[vídeo]](https://youtu.be/jksjtR8GnBE?t=5m39s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[artigo]](desktop-bookmarks.md#using-spotlight)
 -   Dispersão e marcadores de bolhas  [[vídeo]](https://youtu.be/jksjtR8GnBE?t=17m20s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[artigo]](desktop-accessibility.md)

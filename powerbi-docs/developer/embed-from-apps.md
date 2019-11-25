@@ -1,19 +1,19 @@
 ---
 title: Inserir relatórios ou dashboards de aplicativos
 description: Aprenda como integrar, ou inserir, um relatório ou dashboard de um aplicativo do Power BI e não de um workspace.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 11/27/2018
-ms.openlocfilehash: 188601167684313c6e103063e67b9ba57fd2d451
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d0094eb252584d9c3529db19ec5a733731118ec
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877688"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264936"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Inserir relatórios ou dashboards de aplicativos
 

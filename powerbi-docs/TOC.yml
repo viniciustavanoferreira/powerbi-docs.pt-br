@@ -541,7 +541,7 @@
               href: reduce-the-size-of-an-excel-workbook.md
         - name: Obter dados de conjuntos de dados compartilhados
           items:
-            - name: Usar conjuntos de dados em espaços de trabalho
+            - name: Usar conjuntos de dados em workspaces
               href: service-datasets-across-workspaces.md
             - name: Compartilhar conjuntos de dados (versão prévia)
               href: service-datasets-share.md
@@ -813,10 +813,6 @@
               items:
                 - name: Conectar-se a serviços com aplicativos
                   href: service-connect-to-services.md
-                - name: Acumatica
-                  href: service-connect-to-acumatica.md
-                - name: Logs de Auditoria do Azure
-                  href: service-connect-to-azure-audit-logs.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
@@ -907,7 +903,9 @@
           href: report-builder-power-bi.md
     - name: Tutoriais
       items:
-        - name: Criar um relatório paginado e carregá-lo
+        - name: 'Laboratório prático: Criar um relatório paginado'
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: Criar e carregar um relatório paginado
           href: paginated-reports-quickstart-aw.md
     - name: Conceitos
       items:

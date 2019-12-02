@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264851"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548551"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário do serviço do Power BI
 O serviço do Power BI pode apresentar terminologia confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar sobre a terminologia, por isso pode ser útil até mesmo salvá-lo como favorito. Outro excelente recurso para aprender sobre os blocos de construção que compõem o serviço do Power BI são os [Conceitos básicos](end-user-basic-concepts.md). O artigo com Conceitos básicos fornece uma visão geral de alto nível das *partes* do Power BI e como elas estão conectadas.
@@ -177,7 +177,7 @@ Primeira instância: menções subsequentes ou espaços estreitos do painel de n
 
 **nav pane** ou **nav pane** (painel de navegação) Os controles na borda esquerda do serviço do Power BI.
 
-Primeira instância: nav pane (painel de navegação) Menções subsequentes ou espaços estreitos: nav pane (painel de navegação)
+Primeira instância: menções subsequentes ou espaços estreitos do painel de navegação: nav pane (painel de navegação)
 
 **nav pane (painel de navegação)** Veja **nav pane (painel de navegação)**
 

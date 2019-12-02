@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: c6ecb2eb2346940a22bbd6b7bff5ca0138faa290
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102584"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565250"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um visual do Power BI
 
@@ -70,7 +70,7 @@ Para [certificar](#get-a-power-bi-visual-certified) seu visual personalizado, ve
 
 * Se as propriedades em capabilities.json forem alteradas, verifique se elas não interrompem os relatórios existentes do usuário.
 
-* Garantir que o visual esteja em conformidade com as [diretrizes para visuais do Power BI](./guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases). **Não é permitido o uso de marcas-d'água**.
+* Garantir que o visual esteja em conformidade com as [diretrizes para visuais do Power BI](./guidelines-powerbi-visuals.md). **Não é permitido o uso de marcas-d'água**.
 
 * Usa somente componentes OSS analisáveis públicos (bibliotecas JS ou TypeScript públicos. O código-fonte está disponível para revisão e não tem vulnerabilidades conhecidas). Não podemos verificar um visual personalizado usando um componente comercial.
 

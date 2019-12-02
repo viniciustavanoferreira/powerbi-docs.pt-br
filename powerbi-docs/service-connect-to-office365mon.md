@@ -1,25 +1,25 @@
 ---
 title: Conectar-se ao Office365Mon com o Power BI
 description: Office365Mon para o Power BI
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 8/29/2019
-ms.author: tebercov
+ms.date: 11/26/2019
+ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73854714"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548586"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Conectar-se ao Office365Mon com o Power BI
 Analisar seus dados de desempenho de integridade e interrupções do Office 365 é fácil com o Power BI e o aplicativo de modelo Office365Mon. O Power BI recupera seus dados, incluindo investigações de integridade e interrupções e, em seguida, compila um painel e relatórios prontos para uso com base em tais dados.
 
-Conectar-se ao [aplicativo de modelo Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) para Power BI.
+Conectar-se ao [aplicativo de modelo Office365Mon](https://msit.powerbi.com/groups/me/getapps/services/office365mon.office365mon_powerbi_v3) para Power BI.
 
 >[!NOTE]
 >Uma conta do administrador do Office365Mon é necessária para conectar e carregar o aplicativo de modelo Power BI.

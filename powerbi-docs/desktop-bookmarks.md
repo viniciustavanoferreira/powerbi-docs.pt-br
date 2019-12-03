@@ -1,46 +1,37 @@
 ---
-title: Usando indicadores no Power BI
+title: Usar indicadores no Power BI Desktop para compartilhar insights e criar histórias
 description: Os indicadores no Power BI Desktop permitem a você salvar exibições e configurações em seus relatórios, bem como criar apresentações em formato de histórias
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b25c09e7dc24445b5ad2ba5263542bc62891b28f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d22ac09ac357f3060e4fd79a4e9344a059dace53
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876697"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311229"
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usar indicadores para compartilhar insights e criar histórias no Power BI 
-Os **indicadores** no Power BI ajudam você a capturar a exibição de uma página de relatório atualmente configurada, incluindo a filtragem e o estado dos visuais e, posteriormente, voltar a esse estado, apenas selecionando esse indicador salvo. 
+# <a name="use-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Usar indicadores no Power BI Desktop para compartilhar insights e criar histórias
+Com *indicadores* no Power BI Desktop, você captura a exibição de uma página de relatório configurada no momento, incluindo a filtragem e o estado dos visuais. Posteriormente, você poderá voltar para esse estado selecionando o indicador salvo. 
 
 Você também pode criar uma coleção de indicadores, organizá-los na ordem desejada e, posteriormente, percorrer cada indicador em uma apresentação para realçar uma série de insights ou a história que você deseja contar com seus relatórios e visuais. 
 
 ![Indicadores no Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
-Há muitos usos para indicadores. Você pode usá-los para acompanhar seu próprio progresso na criação de relatórios (indicadores são fáceis de adicionar, excluir e renomear) e, além disso, pode criar indicadores para criar uma apresentação de PowerPoint que percorre os indicadores em ordem, contando assim uma história com o seu relatório. Pode haver outros usos também, com base em como você acha que os indicadores podem ser melhor utilizados.
+Há muitos usos para indicadores. Por exemplo, você pode usar indicadores para acompanhar seu próprio progresso na criação de relatórios (indicadores são fáceis de adicionar, excluir e renomear) e, além disso, pode criar indicadores para criar uma apresentação de PowerPoint que percorre os indicadores em ordem, contando assim uma história com o seu relatório. 
 
 > [!TIP]
-> Para obter informações sobre como usar indicadores pessoais no serviço do Power BI, leia o [comunicado no blog](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) do recurso Indicadores Pessoais. 
-
-### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Habilitar a versão prévia dos indicadores (versões anteriores a março de 2018)
-Após a versão de março de 2018 do Power BI Desktop, os indicadores foram disponibilizados ao público. 
-
-Sempre sugerimos que você atualize para a versão mais recente. Mas se a sua versão do Power BI Desktop é anterior a essa versão, você pode experimentar o recurso **indicadores** disponível desde a versão de **outubro de 2017** do **Power BI Desktop** e, para relatórios habilitados com indicador, também pode experimentar o **serviço do Power BI**. Para habilitar o recurso de versão prévia, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Versão Prévia** e, em seguida, marque a caixa de seleção ao lado de **Indicadores**. 
-
-![Habilitar indicadores na janela Opções](media/desktop-bookmarks/bookmarks_02.png)
-
-Você precisará reiniciar o **Power BI Desktop** depois de habilitar a versão prévia dos indicadores.
+> Para obter informações sobre como usar indicadores pessoais no serviço do Power BI, confira [Anunciar indicadores pessoais no Serviço do Power BI](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/). 
 
 ## <a name="using-bookmarks"></a>Usando indicadores
-Para usar indicadores, selecione a faixa de opções **Exibição** e, em seguida, selecione a caixa do **Painel Indicadores**. 
+Para usar indicadores, selecione a guia **Exibição** na faixa de opções do Power BI Desktop e selecione o **Painel Indicadores**. 
 
-![Mostre o Painel Indicadores ativando-o na faixa de opções de Exibição.](media/desktop-bookmarks/bookmarks_03.png)
+![Ativar o painel Indicadores](media/desktop-bookmarks/bookmarks_03.png)
 
 Quando você cria um indicador, os seguintes elementos são salvos com o indicador:
 
@@ -50,138 +41,170 @@ Quando você cria um indicador, os seguintes elementos são salvos com o indicad
 * Estado de seleção visual (como filtros de realce cruzado)
 * Ordem de classificação
 * Local de análise
-* Visibilidade (de um objeto, usando o painel **Seleção**)
+* Visibilidade de um objeto (usando o painel **Seleção**)
 * Os modos de foco ou de **Destaque** de qualquer objeto visível
 
-Configure uma página de relatório da maneira que você deseja que ela seja exibida no indicador. Depois que a página de relatório e os visuais forem organizados como você deseja, selecione **Adicionar** no painel **Indicadores** para adicionar um indicador. 
+Configure uma página de relatório como você deseja que ela seja exibida no indicador. Depois que a página de relatório e os visuais forem organizados como você deseja, selecione **Adicionar** no painel **Indicadores** para adicionar um indicador. 
 
 ![Adicionar um indicador](media/desktop-bookmarks/bookmarks_04.png)
 
-O **Power BI Desktop** cria um indicador e concede a ele um nome genérico. Você pode facilmente *renomear*, *excluir* ou *atualizar* um indicador selecionando as reticências ao lado do nome do indicador e, em seguida, selecionar uma ação no menu que é exibido.
+O Power BI Desktop cria um indicador e concede a ele um nome genérico. Você pode facilmente **Renomear**, **Excluir** ou **Atualizar** um indicador selecionando as reticências ao lado do nome do indicador e, em seguida, selecionando uma ação no menu exibido.
 
-![Selecionar o submenu para um indicador usando as reticências](media/desktop-bookmarks/bookmarks_05.png)
+![Selecionar o menu de um indicador usando as reticências](media/desktop-bookmarks/bookmarks_05.png)
 
-Uma vez que um indicador, você pode exibi-lo, simplesmente clicando no indicador no painel **Indicadores**. 
+Depois de criar um indicador, exiba-o selecionando-o no painel **Indicadores**. 
 
-Você também pode selecionar se cada indicador aplicará propriedades de *dados*, como filtros e segmentações de dados, propriedades de *exibição*, como destaques e visibilidade, e alterações de página que apresentam a página que estava visível quando o indicador foi adicionado. Essas funcionalidades são úteis quando você usa indicadores para alternar entre exibições de relatório ou seleções de visuais – nesse caso, provavelmente você desejará desativar a propriedades de dados, de modo que os filtros não sejam redefinidos quando os usuários alternarem as exibições selecionando um indicador. 
+Você também pode selecionar se cada indicador aplicará as propriedades de **Dados**, como filtros e segmentação de dados; as propriedades de **Exibição**, como destaques e sua visibilidade; e as alterações da **Página atual**, que apresentam a página que estava visível quando o indicador foi adicionado. Essas funcionalidades são úteis quando você usa indicadores para alternar entre exibições de relatório ou seleções de visuais – nesse caso, provavelmente você desejaria desativar as propriedades de dados, de modo que os filtros não são redefinidos quando os usuários alternam as exibições selecionando um indicador. 
 
-Para fazer essas alterações, selecione as reticências ao lado do nome do indicador, conforme mostra a imagem anterior, depois marque ou desmarque as marcas de seleção ao lado de *Dados*, *Exibição* e outros controles. 
+Para fazer essas alterações, selecione as reticências ao lado do nome do indicador e marque ou desmarque as caixas de seleção ao lado de **Dados**, **Exibição** e outros controles. 
 
 ## <a name="arranging-bookmarks"></a>Organizando indicadores
-Conforme você cria os indicadores, você pode achar que a ordem em que eles são criados não é necessariamente a mesma em que você gostaria de apresentá-los para o público-alvo. Não há problema, você pode facilmente reorganizar a ordem dos indicadores.
+Conforme você cria indicadores, pode achar que a ordem na qual eles são criados é diferente da ordem que você gostaria de apresentar ao seu público-alvo. Não há problema, você pode facilmente reorganizar a ordem dos indicadores.
 
-No painel **Indicadores**, basta arrastar e soltar os indicadores para alterar a ordem deles, conforme mostrado na imagem a seguir. A barra amarela entre indicadores designa o local em que o indicador arrastado será colocado.
+- No painel **Indicadores**, arraste e solte indicadores para mudar sua ordem. 
 
-![Alterar ordem de indicadores via arrastar e soltar](media/desktop-bookmarks/bookmarks_06.png)
+   A barra amarela entre indicadores designa o local em que o indicador arrastado será colocado.
+
+   ![Alterar ordem de indicadores via arrastar e soltar](media/desktop-bookmarks/bookmarks_06.png)
 
 A ordem de indicadores pode se tornar importante quando você usa o recurso **Exibição** dos indicadores, conforme descrito na próxima seção.
 
 ## <a name="bookmarks-as-a-slide-show"></a>Indicadores como uma apresentação de slides
 Quando você tem uma coleção de indicadores que você gostaria de apresentar em ordem, você pode selecionar **Exibição** no painel **Indicadores** para começar uma apresentação de slides.
 
-Quando se está no modo **Exibição**, há alguns recursos a observar:
+Quando se está no modo **Exibição**, há alguns recursos a serem observados.
+
+   ![Recursos de indicador da barra de título de indicador](media/desktop-bookmarks/bookmarks_07.png)
 
 1. O nome do indicador aparece na barra de título de indicador, que aparece na parte inferior da tela.
+
 2. A barra de título de indicador tem setas que permitem que você mova para o indicador anterior ou para o próximo.
-3. Você pode sair do modo de **Exibição** selecionando **Sair** no painel **Indicadores** ou então selecionando o **X** encontrado na barra de título de indicador. 
 
-![Recursos de indicador da barra de título de indicador](media/desktop-bookmarks/bookmarks_07.png)
+3. Você pode sair do modo de **Exibição** selecionando **Sair** no painel **Indicadores** ou selecionando o **X** na barra de título de indicador. 
 
-Quando se está no modo **Exibição**, é possível fechar o painel **Indicadores** (clicando no X no painel) para fornecer mais espaço para a apresentação. E enquanto se está no modo de **Exibição**, todos os visuais são interativos e estão disponíveis para realce cruzado, exatamente como eles seriam ao interagir com eles fora desse modo. 
+Quando se está no modo **Exibição**, é possível fechar o painel **Indicadores** selecionando o **X** nesse painel para oferecer mais espaço para sua apresentação. Todos os visuais são interativos quando estão no modo de **Exibição** e disponíveis para realce cruzado, assim como estariam quando você interage diretamente com eles. 
 
-## <a name="visibility---using-the-selection-pane"></a>Visibilidade – usando o painel Seleção
-Com o lançamento dos marcadores, o novo painel **Seleção** também foi apresentado. O painel **Seleção** fornece uma lista de todos os objetos na página atual e permite que você selecione o objeto e especifique se um determinado objeto é visível. 
+## <a name="visibility-using-the-selection-pane"></a>Visibilidade: usar o painel Seleção
+Relacionado ao painel **Indicadores**, o painel **Seleção** fornece uma lista de todos os objetos na página atual e permite que você selecione um objeto e especifique se ele é visível. 
 
 ![Habilitar o painel Seleção](media/desktop-bookmarks/bookmarks_08.png)
 
-Você pode selecionar um objeto usando o painel **Seleção**. Além disso, você pode indicar se o objeto está visível no momento, clicando no ícone de olho à direita do visual. 
+No painel **Seleção**, selecione um objeto e indique se o objeto está visível no momento selecionando o ícone de olho à sua direita. 
 
-![Painel Seleção](media/desktop-bookmarks/bookmarks_09.png)
+![Painel de seleção](media/desktop-bookmarks/bookmarks_09.png)
 
-Quando um indicador é adicionado, o status visível de cada objeto também é salvo com base na respectiva configuração no painel **Seleção**. 
+Quando você adiciona um indicador, o status de visibilidade de cada objeto também é salvo, com base em sua configuração no painel **Seleção**. 
 
-É importante observar que **segmentações** continuam a filtrar uma página de relatório independentemente de estarem visíveis. Assim, você pode criar vários indicadores diferentes com diferentes configurações de segmentação e fazer uma única página de relatório ter aparência muito diferente (e realçar insights diferentes) em indicadores diversos.
+É importante observar que as segmentações de dados continuam filtrando uma página de relatório independentemente de estarem visíveis. Assim, você pode criar vários indicadores diferentes com diferentes configurações de segmentação de dados e fazer uma única página de relatório ter aparência diferente (e realçar insights diferentes) em indicadores diversos.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Indicadores para imagens e formas
-Você também pode vincular formas e imagens a indicadores. Com esse recurso, quando você clica em um objeto, ele mostra o indicador a ele associado. Isso pode ser especialmente útil ao trabalhar com botões; você pode aprender mais lendo o artigo sobre [usar botões no Power BI](desktop-buttons.md). 
+Você também pode vincular formas e imagens a indicadores. Com esse recurso, quando você seleciona um objeto, ele mostra o indicador associado a esse objeto. Esse recurso pode ser especialmente útil quando você trabalha com botões. Para obter mais informações, confira [Usar botões no Power BI](desktop-buttons.md). 
 
-Para atribuir um indicador a um objeto, selecione o objeto e expanda a seção **Ação** no painel **Formatar forma**, conforme mostrado na imagem a seguir.
+Para atribuir um indicador a um objeto: 
 
-![Adicionar link de indicador a um objeto](media/desktop-bookmarks/bookmarks_10.png)
+1. Selecione o objeto na tela do relatório. Em seguida, no painel **Formatar Forma** exibido, defina o controle deslizante **Ação** como **Ativado**.
 
-Após alterar o controle deslizante **Ação** para **Ativado**, você pode selecionar se o objeto é um botão de voltar, um indicador ou um comando de P e R. Se você selecionar indicador, você poderá selecionar a qual dos seus indicadores o objeto está vinculado.
+2. Expanda a seção **Ação**. Em **Tipo**, selecione **Indicador**.
 
-Há inúmeras coisas interessantes que você pode fazer com indicadores vinculados a objetos. Você pode criar um sumário visual na sua página de relatório ou então você pode fornecer exibições diferentes (como tipos de visual) das mesmas informações apenas clicando em um objeto.
+3. Em **Indicadores**, selecione um indicador.
 
-No modo de edição, é possível usar Ctrl + clique para seguir o link; fora do modo de edição, simplesmente clique no objeto para seguir o link. 
+   ![Adicionar link de indicador a um objeto](media/desktop-bookmarks/bookmarks_10.png)
+
+Há inúmeras coisas interessantes que você pode fazer com indicadores vinculados a objetos. Você pode criar um sumário visual na sua página de relatório ou então pode fornecer exibições diferentes (como tipos de visual) das mesmas informações.
+
+Quando você está no modo de edição, pressione **Ctrl** e selecione o link para segui-lo. Quando você não está no modo de edição, selecione o objeto para seguir o link. 
 
 ## <a name="bookmark-groups"></a>Grupos de indicadores
 
-A partir da versão de agosto de 2018 do **Power BI Desktop**, é possível criar e usar grupos de indicadores. Um grupo de indicadores é uma coleção de indicadores que você especifica, que pode ser mostrado e organizado como um grupo. 
+A partir da versão de agosto de 2018 do Power BI Desktop, é possível criar e usar grupos de indicadores. Um grupo de indicadores é uma coleção de indicadores que você especifica, que pode ser mostrado e organizado como um grupo. 
 
-Para criar um grupo de indicadores, mantenha pressionada a tecla CTRL e selecione os indicadores que deseja incluir no grupo. Em seguida, clique nas reticências ao lado de um dos indicadores selecionados e selecione **Agrupar** no menu exibido.
+Para criar um grupo de indicadores: 
+1. Pressione **Ctrl** e selecione os indicadores que você deseja incluir no grupo. 
 
-![Criar um grupo de indicadores](media/desktop-bookmarks/bookmarks_15.png)
+2. Selecione as reticências ao lado dos indicadores selecionados e, em seguida, selecione **Agrupar** no menu exibido.
 
-O **Power BI Desktop** nomeia automaticamente o grupo *Grupo 1*. Felizmente, basta clicar duas vezes no nome e renomeá-lo como desejar.
+   ![Criar um grupo de indicadores](media/desktop-bookmarks/bookmarks_15.png)
+
+O Power BI Desktop dá automaticamente ao grupo o nome *Grupo 1*. Você pode selecionar as reticências ao lado desse nome. Selecione **Renomear** e renomeie-o como desejar.
 
 ![Renomear um grupo de indicadores](media/desktop-bookmarks/bookmarks_16.png)
 
-Com qualquer grupo de indicadores, clicar no seu nome somente expande ou recolhe o grupo de indicadores e não representa um indicador por si só. 
+Como acontece qualquer grupo de indicadores, expandir o nome do grupo de indicadores somente expande ou recolhe o grupo de indicadores e não representa um indicador por si só. 
 
-Ao usar o recurso **Exibir** dos indicadores, o seguinte se aplica:
+Quando você usa o recurso **Exibir** dos indicadores, são aplicados os seguintes detalhes:
 
 * Se o indicador selecionado estiver em um grupo quando você selecionar **Exibir** nos indicadores, somente os indicadores *nesse grupo* serão mostrados na sessão de exibição. 
 
 * Se o indicador selecionado não estiver em um grupo ou estiver no nível superior (como o nome de um grupo de indicadores), então todos os indicadores de todo o relatório serão reproduzidos, incluindo indicadores em qualquer grupo. 
 
-Para desagrupar indicadores, basta selecionar qualquer indicador em um grupo, clicar nas reticências e selecionar **Desagrupar** no menu exibido. 
+Para desagrupar indicadores: 
+1. Selecione qualquer indicador em um grupo e selecione as reticências. 
 
-![Desagrupar um grupo de indicadores](media/desktop-bookmarks/bookmarks_17.png)
+2. Selecione **Desagrupar** no menu exibido.
 
-Observe que selecionar **Desagrupar** para qualquer indicador de um grupo tira todos os indicadores dele (exclui o grupo, mas não os indicadores em si). Portanto, para remover um único indicador de um grupo, é necessário **Desagrupar** qualquer membro desse grupo, que exclui o agrupamento e, em seguida, selecionar os membros que você deseja no novo grupo (usando CTRL e clicando em cada indicador) e selecionar **Agrupar** novamente. 
+   ![Desagrupar um grupo de indicadores](media/desktop-bookmarks/bookmarks_17.png)
+
+   Selecionar **Desagrupar** para qualquer indicador de um grupo remove todos os indicadores dele; isso exclui o grupo, mas não os próprios indicadores. 
+
+Para remover um único indicador de um grupo: 
+1. **Desagrupe** qualquer membro desse grupo, que exclui todo o agrupamento. 
+
+2. Selecione os membros desejados no novo grupo pressionando **Ctrl** e selecionando cada indicador. Em seguida, selecione **Agrupar** novamente. 
 
 
-## <a name="using-spotlight"></a>Usando o Destaque
-Outro recurso lançado com indicadores é o **Destaque**. Com o **Destaque**, você pode chamar a atenção para um gráfico específico, por exemplo, ao apresentar seu indicadores no modo de **Exibição**.
+## <a name="using-spotlight"></a>Usar o destaque
+Outro recurso lançado com indicadores é o *destaque*. Com o destaque, você pode chamar a atenção para um gráfico específico, por exemplo, ao apresentar seus indicadores no modo **Exibição**.
 
-Vamos comparar o modo de **Destaque** ao modo de **foco** para ver como eles diferem entre si.
+Vamos comparar o destaque com o modo de foco para ver de que maneira eles diferem:
 
-1. No modo de **foco**, você pode fazer com que um visual preencha toda a tela selecionando o ícone **modo de foco**.
-2. Usando o **Destaque**, você pode destacar um visual em seu tamanho original, fazendo com que todos os outros visuais na página se esmaeçam até ficarem praticamente transparentes. 
+1. Com o modo de foco, você seleciona o ícone **Modo de foco** de um visual, o que faz o visual preencher toda a tela.
 
-![Comparar o modo de foco ao de destaque](media/desktop-bookmarks/bookmarks_11.png)
+2. Com o destaque, você seleciona **Destaque** nas reticências de um visual para realçar um visual em seu tamanho original, o que faz todos os outros visuais na página ficarem praticamente transparentes. 
 
-Quando o ícone **foco** do visual na imagem anterior é clicado a página tem a aparência a seguir:
+![Comparar o destaque com o modo de foco](media/desktop-bookmarks/bookmarks_11.png)
 
-![modo de foco](media/desktop-bookmarks/bookmarks_12.png)
+Quando você seleciona o ícone **Modo de foco** do visual na imagem anterior, a página é exibida da seguinte maneira:
 
-Por outro lado, quando **Destaque** é selecionado do menu de reticências do visual, a página tem aparência semelhante à vista aqui:
+![Modo de foco](media/desktop-bookmarks/bookmarks_12.png)
 
-![modo de destaque](media/desktop-bookmarks/bookmarks_13.png)
+Por outro lado, quando **Destaque** é selecionado no menu de reticências do visual, a página é exibida da seguinte maneira:
 
-Se qualquer um desses modos está selecionado quando um indicador é adicionado, esse modo (de foco ou de destaque) é mantido no indicador.
+![Modo de destaque](media/desktop-bookmarks/bookmarks_13.png)
+
+Se o modo de foco ou de destaque estiver selecionado quando você adicionar um indicador, o modo será retido no indicador.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Indicadores no serviço do Power BI
-Quando você publica um relatório para o **serviço do Power BI** com pelo menos um indicador, você pode exibir e interagir com esses indicadores no **serviço do Power BI**. Quando os indicadores estão disponíveis em um relatório, você pode selecionar **Exibição > Painel de seleção** ou **Exibição > Painel de indicadores** para mostrar cada um desses painéis.
+Quando você publica um relatório no serviço do Power BI com pelo menos um indicador, você pode exibir e interagir com esses indicadores no serviço do Power BI. Quando os indicadores estão disponíveis em um relatório, você exibe os painéis **Seleção** e **Indicadores** selecionando **Exibir** > **Painel de seleção** ou **Exibir** > **Painel indicadores**. 
 
 ![Exibir indicadores e painéis de seleção e indicadores no serviço do Power BI](media/desktop-bookmarks/bookmarks_14.png)
 
-No **serviço do Power BI**, o **painel Indicadores** funciona exatamente do mesmo modo que no **Power BI Desktop**, incluindo a capacidade de selecionar **Exibição** para mostrar os indicadores em ordem, como uma apresentação de slides.
+No serviço do Power BI, o painel **Indicadores** opera assim como ele faz no Power BI Desktop, incluindo a capacidade de selecionar **Exibir** para mostrar seus indicadores em ordem, como uma apresentação de slides.
 
-Observe que você deve usar a barra de título de indicador cinza para navegar entre os indicadores e não as setas pretas (as setas pretas permitem que você navegue pelas páginas do relatório, não pelos indicadores).
+Use a barra de título do indicador cinza, em vez das setas pretas, para navegar pelos indicadores. (As setas pretas movem você pelas páginas do relatório, não indicadores.)
+
+## <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Habilitar a versão prévia dos indicadores (versões anteriores a março de 2018)
+Após a versão de março de 2018 do Power BI Desktop, os indicadores foram disponibilizados ao público. 
+
+Sempre sugerimos que você atualize para a versão mais recente. Porém, se sua versão do Power BI Desktop for anterior a essa versão, você poderá experimentar o recurso de indicadores começando com a versão de outubro de 2017 do Power BI Desktop e, para relatórios habilitados para indicadores, no serviço do Power BI também. 
+
+Para habilitar o recurso de indicadores de versão prévia: 
+
+1. Selecione **Arquivo** > **Opções e Configurações** > **Opções** > **Recursos de Visualização** e selecione **Indicadores**. 
+
+   ![Habilitar indicadores na janela Opções](media/desktop-bookmarks/bookmarks_02.png)
+
+2. Reinicie o Power BI Desktop para habilitar a versão prévia de indicadores.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
-Nesta versão dos **indicadores**, há algumas limitações e considerações a serem lembradas.
+Nesta versão dos recursos de indicadores, há algumas limitações e considerações a se ter em mente.
 
-* A maioria dos visuais personalizados deve funcionar bem com indicadores. Se você tiver problemas com o uso de indicadores e de um visual personalizado, entre em contato com o criador do visual personalizado e peça que adicione suporte a indicadores ao seu visual. 
-* Se você adicionar um visual em uma página de relatório depois de criar um indicador, o visual será exibido em seu estado padrão. Isso também significa que, se você introduzir uma segmentação em uma página em que você tiver criado indicadores anteriormente, a segmentação se comportará em seu estado padrão.
-* A movimentação de visuais após a criação de um indicador se refletirá nele. 
-
+* A maioria dos visuais personalizados deve funcionar bem com indicadores. No entanto, se você encontrar problemas com o uso de indicadores e um visual personalizado, entre em contato com o criador desse visual personalizado e peça que ele adicione suporte para indicadores ao visual. 
+* Se você adicionar um visual em uma página de relatório depois de criar um indicador, o visual será exibido em seu estado padrão. Ou seja, se você introduzir uma segmentação de dados em uma página em que você criou indicadores anteriormente, a segmentação de dados se comportará em seu estado padrão.
+* A movimentação de um visual depois que um indicador tiver sido criado será automaticamente refletida no indicador. 
 
 ## <a name="next-steps"></a>Próximas etapas
-Para obter mais informações sobre os recursos que são semelhantes ou interagem com indicadores, consulte os seguintes artigos:
+Para obter mais informações sobre os recursos que são semelhantes ou interagem com indicadores, confira os seguintes artigos:
 
 * [Usar o detalhamento no Power BI Desktop](desktop-drillthrough.md)
-* [Exibir um bloco do dashboard ou visual do relatório no modo de Foco](consumer/end-user-focus.md)
+* [Exibir um bloco de dashboard ou visual do relatório no modo de foco](consumer/end-user-focus.md)
 

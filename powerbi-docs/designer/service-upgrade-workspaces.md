@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34b0bd1a59ec66cf7a2e5eb41d2c1ec12a39d1e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128130"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410812"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Atualizar workspaces clássicos para os novos workspaces no Power BI
 
 Este artigo explica como fazer atualizar um workspace clássico para a nova experiência de workspace. É possível atualizar qualquer workspace clássico. Os novos workspaces têm funções de workspace mais granulares para que você possa gerenciar melhor o acesso ao conteúdo. Você tem mais flexibilidade para gerenciar os workspaces atualizados porque eles estão conectados mais livremente ao grupo original do Office 365. Saiba mais sobre a [nova experiência de workspace](../service-new-workspaces.md). 
 
 >[!NOTE]
->Esta documentação é de pré-lançamento e aborda uma funcionalidade que ainda não está disponível. Nós a pulicamos para que você possa se preparar para a nova funcionalidade e esclarecer possíveis dúvidas antes do lançamento.  
+>A atualização do workspace está disponível como uma Versão Prévia Pública. 
 
 ![Atualização bem-sucedida](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -198,7 +198,15 @@ Algumas organizações querem mover muitos ou todos os workspaces para a nova ex
 2. Trabalhe em conjunto com os proprietários individuais de grupo do Office 365 ou com seu administrador do Office 365 para que eles façam a atualização dos workspaces. Se você quiser fazer a atualização do workspace, precisará se tornar proprietário do grupo.
 
 A funcionalidade de atualização do workspace não fornece ferramentas para a atualização em massa ou programática. Além disso, os novos grupos do Office 365 criados em sua organização continuarão a aparecer no Power BI. 
-    
+   
+   
+## <a name="known-issues"></a>Problemas conhecidos
+
+Há vários problemas conhecidos que você pode encontrar:
+- Após a atualização, os usuários poderão ver uma caixa de diálogo de aviso "Falha em carregar o modelo". Essa mensagem é mostrada erroneamente e pode ser ignorada. 
+- Após a atualização, alguns nomes de workspace estarão diferentes do que eram antes da atualização. Quando isso ocorrer, o nome do workspace será revertido para um nome anterior para o workspace ou o nome do workspace ficará em branco. Para resolver esse problema, renomeie o workspace para o nome desejado.
+- Após atualizar um workspace que tinha um pacote de conteúdo instalado, você poderá ver dashboards adicionais no workspace que não estavam visíveis antes da atualização. Isso ocorre em alguns casos em que um pacote de conteúdo não foi atualizado recentemente. Você pode remover com segurança esses dashboards.
+
 
 
 ## <a name="next-steps"></a>Próximas etapas

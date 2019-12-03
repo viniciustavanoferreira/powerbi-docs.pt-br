@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881773"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410858"
 ---
 # <a name="manage-data-sources"></a>Gerenciar fontes de dados
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-O Power BI oferece suporte a várias fontes de dados no local, e cada uma tem seus próprios requisitos. Um gateway pode ser usado para uma única fonte de dados ou para várias fontes de dados. Para este exemplo, mostramos como adicionar o SQL Server como uma fonte de dados. As etapas são semelhantes para outras fontes de dados.
+O Power BI dá suporte a várias [fontes de dados no local](power-bi-data-sources.md) e cada uma tem seus próprios requisitos. Um gateway pode ser usado para uma única fonte de dados ou para várias fontes de dados. Para este exemplo, mostramos como adicionar o SQL Server como uma fonte de dados. As etapas são semelhantes para outras fontes de dados.
 
 A maioria das operações de gerenciamento de fontes de dados também pode ser executada usando APIs. Para obter mais informações, confira [APIs REST (Gateways)](/rest/api/power-bi/gateways).
 
@@ -117,56 +117,7 @@ Quando você adiciona uma fonte de dados ao gateway, é necessário fornecer cre
 
 ## <a name="list-of-available-data-source-types"></a>Relação dos tipos de fonte de dados disponíveis
 
-O gateway de dados local é compatível com as seguintes fontes de dados para Power BI. Além das fontes de dados locais, as fontes protegidas por um firewall, VPN ou rede virtual também podem precisar de um gateway de dados.
-
-| **Fonte de dados** | **Live/DirectQuery** | **Atualização manual ou agendada (configurada pelo usuário)** |
-| --- | --- | --- |
-| Amazon Redshift |Sim |Sim |
-| Analysis Services |Sim |Sim |
-| Cubos do AtScale |Sim |Sim |
-| Azure Active Directory |Não |Sim |
-| Armazenamento de Blobs do Azure |Não |Sim |
-| Azure DevOps Server |Não |Sim |
-| Armazenamento de Tabelas do Azure |Não |Sim |
-| Conector do BI |Sim |Sim |
-| Denodo |Sim |Sim |
-| Dremio |Sim |Sim |
-| EmigoDataSourceConnector |Não |Sim |
-| Essbase |Sim |Sim |
-| Exasol |Sim |Sim |
-| Arquivo |Não |Sim |
-| Pasta |Não |Sim |
-| Paxata |Não |Sim |
-| IBM DB2 |Sim |Sim |
-| Banco de dados do IBM Informix |Não |Sim |
-| IBM Netezza |Sim |Sim |
-| Impala |Sim |Sim |
-| Jethro ODBC |Sim |Sim |
-| Kyligence Enterprise |Sim |Sim |
-| MarkLogic ODBC |Sim |Sim |
-| Segurança do Microsoft Graph |Não |Sim |
-| MySQL |Não |Sim |
-| ODBC |Não |Sim |
-| OData |Não |Sim |
-| OLE DB |Não |Sim |
-| Oracle |Sim |Sim |
-| PostgreSQL |Não |Sim |
-| QubolePresto |Sim |Sim |
-| Quick Base Connector |Não |Sim |
-| Servidor de Mensagens SAP Business Warehouse |Sim |Sim |
-| Servidor do SAP Business Warehouse |Sim |Sim |
-| SAP HANA |Sim |Sim |
-| SQL Server |Sim |Sim |
-| SharePoint |Não |Sim |
-| Snowflake |Sim |Sim |
-| Spark |Sim |Sim |
-| SurveyMonkey |Não |Sim |
-| Sybase |Não |Sim |
-| TeamDesk.Database |Não |Sim |
-| Teradata |Sim |Sim |
-| Vertica |Sim |Sim |
-| Web |Não |Sim |
-| Workforce Dimensions |Não |Sim |
+Para obter informações sobre quais fontes de dados são compatíveis com o gateway de dados local, confira [Fontes de dados do Power BI](power-bi-data-sources.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

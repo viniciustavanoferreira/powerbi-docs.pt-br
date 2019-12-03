@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d26327e41e4236a3ea5e0eca2246c6f66a64be4
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099139"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164188"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -61,6 +61,7 @@ Há algumas considerações e limitações para ter em mente ao trabalhar com o 
 * Ao exportar para PDF com relatórios que contêm uma imagem de segundo plano, você poderá ver uma imagem distorcida na exportação se usar as opções **Normal** ou **Ajuste** para o **Segundo plano da página**. Para obter melhores resultados, use a opção **Ajuste** para evitar problemas no documento exportado.
 * O serviço Power BI usa a configuração de idioma do Power BI como o idioma para a exportação do PDF. Para obter ou definir sua preferência de idioma, selecione o ícone de engrenagem ![Ícone de engrenagem](media/end-user-powerpoint/power-bi-settings-icon.png) > **Configurações** > **Geral** > **Idioma**.
 * No momento, os filtros de URL não são respeitados ao escolher **Valores atuais** para a exportação.
+* Relatórios com tamanhos de página personalizados incomuns podem apresentar problemas em cenários de exportação. Para obter melhores resultados, considere alternar para um tamanho de página padrão para seu relatório.
 
 ## <a name="next-steps"></a>Próximas etapas
 [Imprimir um relatório](end-user-print.md)

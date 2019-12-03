@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874029"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265543"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: Faça um tour
 
@@ -128,7 +128,7 @@ Muitos blocos no dashboard de exemplo Lucratividade do Cliente foram fixados do 
 
     * **Scorecard da Equipe** enfoca o desempenho dos cinco gerentes e seus registros de negócios.
     * **Análise de Margem do Setor** fornece uma maneira de analisar a rentabilidade comparado ao que está acontecendo em todo o setor.
-    * **Scorecard Executivo** fornece uma visão de cada um dos gerentes formatada para exibição na Cortana.
+    * O **Scorecard Executivo** fornece uma visão de cada um dos gerentes em um formato de tamanho da página personalizado.
 
 ### <a name="team-scorecard-page"></a>Página de pontuação da equipe
 ![Página do relatório Scorecard da Equipe](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ Esta página de relatório fornece uma fatia diferente dos dados. Examina a marg
    * Valery, que é responsável por apenas um produto, trabalha apenas com cinco segmentos de mercado. Sua influência do setor é sazonal, mas sempre produz uma grande bolha, indicando um impacto significativo sobre o resultado da empresa. Os segmentos de setor explicam o desempenho negativo?
 
 ### <a name="executive-scorecard"></a>Scorecard Executivo
-Esta página está formatada como uma página de resposta da Cortana. Para saber mais, confira [Criar uma página de resposta personalizada para Cortana](service-cortana-answer-cards.md).
+Esta página tem um formato de tamanho da página personalizado.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Investigue os dados fazendo perguntas em P e R
 Para nossa análise, poderia ser útil determinar qual setor gera a maior parte da receita para Valery. Vamos usar P e R.

@@ -1,53 +1,40 @@
 ---
 title: Usar medidas rápidas para cálculos comuns e avançados
-description: Medidas rápidas fornecem fórmulas DAX prontas que executam rapidamente cálculos comuns
+description: Medidas rápidas fornecem fórmulas DAX prontas que executam rapidamente cálculos comuns.
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 755ef6ab515244a2b7613ee7007caf3c3e6d1ed8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
+ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877952"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74415316"
 ---
-# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Usar medidas rápidas para facilmente executar cálculos comuns e avançados
-Você pode usar **Medidas rápidas** para executar cálculos comuns e avançados com rapidez e praticidade. Uma **Medida rápida** executa um conjunto de comandos DAX nos bastidores (não é necessário compilar o DAX; isso já foi feito para você) com base nos dados fornecidos em uma caixa de diálogo e, em seguida, apresenta os resultados para você usar em seu relatório. O melhor de tudo é poder visualizar o DAX executado pela Medida rápida e estimular ou expandir seu próprio conhecimento do DAX.
+# <a name="use-quick-measures-for-common-calculations"></a>Usar medidas rápidas para cálculos comuns
+Você pode usar *medidas rápidas* para executar cálculos comuns e avançados com rapidez e praticidade. Uma medida rápida executa um conjunto de comandos DAX (Data Analysis Expressions) nos bastidores e apresenta os resultados para você usar no relatório. Você não precisa escrever o DAX. Isso é feito para você com base na entrada que você fornece em uma caixa de diálogo. Há muitas categorias de cálculos disponíveis, bem como maneiras de modificar cada cálculo para atender às suas necessidades. Talvez o melhor de tudo seja poder ver o DAX executado pela medida rápida e estimular ou expandir seu próprio conhecimento do DAX.
 
-![](media/desktop-quick-measures/quick-measures_01.png)
+## <a name="create-a-quick-measure"></a>Criar uma medida rápida
 
-Para criar **Medidas rápidas**, clique com o botão direito do mouse em um campo no espaço **Campos** e, em seguida, selecione **Medidas rápidas** no menu exibido. Outra opção é clicar com o botão direito do mouse em qualquer valor no painel **Valores** de um elemento visual existente (como o campo *Valores* em um elemento visual do *Gráfico de barras*). Há muitas categorias de cálculos disponíveis, bem como maneiras de modificar cada cálculo para atender às suas necessidades.
+Para criar uma medida rápida no Power BI Desktop, clique com o botão direito do mouse ou selecione as reticências **...** ao lado de qualquer item no painel **Campos** e selecione **Nova medida rápida** no menu exibido. 
 
-### <a name="quick-measures-now-generally-available"></a>Medidas rápidas agora disponíveis de maneira geral
+![Selecionar Nova medida rápida](media/desktop-quick-measures/quick-measures_01.png)
 
-A partir da versão de fevereiro de 2018 do **Power BI Desktop**, as medidas rápidas estarão geralmente disponíveis (não mais em versão prévia). Se você estiver usando uma versão anterior do **Power BI Desktop**, poderá tentar o recurso de **Medidas rápidas** a partir da versão de **abril de 2017** do **Power BI Desktop** selecionando **Arquivo > Opções e configurações > Opções > Versão Prévia dos Recursos**. Em seguida, marque a caixa de seleção ao lado de **Medidas rápidas**.
+Você também pode clicar com o botão direito do mouse ou selecionar a seta suspensa ao lado de qualquer valor na caixa **Valores** para um visual existente e selecionar **Nova medida rápida** no menu. 
 
-![](media/desktop-quick-measures/quick-measures_02b.png)
+Quando você seleciona **Nova medida rápida**, a janela **Medidas rápidas** é exibida, permitindo que você selecione o cálculo desejado e os campos nos quais executar o cálculo. 
 
-Você precisará reiniciar o **Power BI Desktop** depois de fazer a seleção.
+Selecione o campo **Selecionar um cálculo** para ver uma longa lista de mensagens rápidas disponíveis. 
 
-## <a name="using-quick-measures"></a>Uso das Medidas rápidas
-Para criar uma **Medida rápida**, clique com o botão direito do mouse em um campo (qualquer campo) no espaço **Campos** no **Power BI Desktop** e selecione **Medida rápida** no menu exibido.
+![Cálculos de medidas rápidas disponíveis](media/desktop-quick-measures/quick-measures_04.png)
 
-![](media/desktop-quick-measures/quick-measures_01.png)
-
-Ao usar conexões dinâmicas do SSAS (SQL Server Analysis Services), algumas **Medidas rápidas** estão disponíveis. O **Power BI Desktop** exibe apenas a coleção de **Medidas rápidas** para as quais a versão do SSAS com a qual a conexão é feita dá suporte. Portanto, se você está conectado a uma fonte de dados dinâmicos do SSAS e você não vê certas **Medidas rápidas** na lista, é porque a versão do SSAS à qual você está conectado não dá suporte à medida DAX usada para implementar essa **Medida rápida**.
-
-Se a seleção for feita no menu de atalho, a seguinte janela de **Medidas rápidas** será exibida, permitindo selecionar o cálculo desejado e os campos relacionados nos quais você pretende executar o cálculo.
-
-![](media/desktop-quick-measures/quick-measures_03.png)
-
-Na seleção do menu suspenso, é apresentada uma longa lista de **Medidas rápidas** disponíveis.
-
-![](media/desktop-quick-measures/quick-measures_04.png)
-
-Há cinco diferentes grupos de tipos de cálculo de Medidas rápidas, cada qual com uma coleção de cálculos. Esses grupos e cálculos são os seguintes:
+Os cinco tipos de cálculo de medida rápida, com seus cálculos, são:
 
 * **Agregar por categoria**
   * Média por categoria
@@ -59,7 +46,7 @@ Há cinco diferentes grupos de tipos de cálculo de Medidas rápidas, cada qual 
   * Valor filtrado
   * Diferença do valor filtrado
   * Diferença percentual do valor filtrado
-  * Vendas de novas categorias
+  * Vendas de novos clientes
 * **Inteligência de dados temporais**
   * Total acumulado no ano
   * Total acumulado no trimestre
@@ -83,70 +70,69 @@ Há cinco diferentes grupos de tipos de cálculo de Medidas rápidas, cada qual 
   * Classificação por estrelas
   * Lista de valores concatenados
 
-Nós nos antecipamos incrementando esses cálculos e gostaríamos de saber por quais **Medidas rápidas** você se interessa, bem como receber ideias (incluindo fórmulas DAX subjacentes) sobre **Medidas rápidas**, caso queira nos enviar alguma para apreciação. Veja mais informações sobre o assunto no fim deste artigo.
+Para enviar suas ideias sobre novas medidas rápidas que você gostaria de ver, fórmulas DAX subjacentes ou outras ideias de medidas rápidas para consideração, confira o final deste artigo.
 
-## <a name="example-of-quick-measures"></a>Exemplo de Medidas rápidas
-Vamos examinar um exemplo dessas **Medidas rápidas** em ação.
+> [!NOTE]
+> Ao usar conexões dinâmicas do SSAS (SQL Server Analysis Services), algumas medidas rápidas estão disponíveis. O Power BI Desktop exibe apenas as medidas rápidas compatíveis com a versão do SSAS à qual você está se conectando. Se você está conectado a uma fonte de dados dinâmica do SAAS e não vê determinadas medidas rápidas na lista, é porque a versão do SAAS à qual você está conectado não dá suporte aos comandos do DAX usados para implementar essas medidas rápidas.
 
-O elemento visual da **Matriz** a seguir mostra uma tabela de vendas de diversos produtos eletrônicos. Trata-se de uma tabela básica que inclui o total de cada categoria.
+Depois que você selecionar os cálculos e os campos que você deseja para sua medida rápida, selecione **OK**. A nova medida rápida é exibida no painel **Campos** e a fórmula DAX subjacente aparece na barra de fórmulas. 
 
-![](media/desktop-quick-measures/quick-measures_05.png)
+## <a name="quick-measure-example"></a>Exemplo de medida rápida
+Vamos examinar uma medida rápida em prática.
 
-Quando clicamos com o botão direito do mouse no espaço do campo **Valores** e selecionamos **Medidas rápidas**, é possível selecionar *Média por categoria* como o *Cálculo*, selecionar *Soma de SalesAmount* como o *Valor base* e, por fim, especificar *SalesAmount* arrastando esse campo da caixa *Campos* no painel direito até a seção *Categoria* à esquerda.
+O seguinte visual de matriz mostra uma tabela e vendas para vários produtos. É uma tabela básica que inclui os totais de vendas para cada categoria.
+
+![Visual de matriz mostrando uma tabela de vendas](media/desktop-quick-measures/quick-measures_05.png)
+
+Com o visual de matriz selecionado, selecione a seta suspensa ao lado de **TotalSales** na caixa **Valores** e selecione **Nova medida rápida**. 
+
+Na janela **Medidas rápidas**, em **Cálculo**, selecione **Média por categoria**. 
+
+Arraste **Preço Unitário Médio** no painel **Campos** no campo **Valor de base**. Deixe **Categoria** no campo **Categoria** e selecione **OK**. 
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
-Ao selecionarmos **OK**, é possível observar algumas coisas interessantes acontecendo, conforme mostrado na imagem que acompanha esta lista:
+Quando você seleciona **OK**, várias coisas interessantes acontecem.
 
-1. O elemento visual da **Matriz** inclui agora uma nova coluna que mostra o nosso cálculo (nesse caso, *SalesAmount médio em SalesAmount*).
-2. Foi criada uma nova **medida** que está disponível no espaço **Campos** e exibida com destaque (o Power BI insere uma caixa amarela ao redor dela). Essa medida está disponível em qualquer outro elemento visual do relatório, e não apenas no elemento visual para o qual foi originalmente criada.
-3. A fórmula DAX criada para a **Medida rápida** é exibida na barra de Fórmulas.
+![Nova medida rápida no visual, na barra de fórmulas e na lista de campos](media/desktop-quick-measures/quick-measures_07.png)
 
-![](media/desktop-quick-measures/quick-measures_07.png)
+1. O visual da matriz tem uma nova coluna que mostra o **Preço Unitário Médio por Categoria** calculado.
+   
+2. A fórmula DAX da nova medida rápida é exibida na barra de fórmulas. Confira a [próxima seção](#learn-dax-by-using-quick-measures) para saber mais sobre a fórmula DAX.
+   
+3. A nova medida rápida aparece selecionada e realçada no painel **Campos**. 
 
-Para iniciar com o primeiro item, observe que a **Medida rápida** foi aplicada ao visual. Há uma nova coluna e um valor associado e ambos se baseiam na **Medida rápida** criada.
+Essa nova medida rápida está disponível para qualquer visual no relatório, não apenas o visual para o qual você criou. A imagem a seguir mostra um visual de gráfico de coluna rápida criado usando o campo nova medida rápida.
 
-![](media/desktop-quick-measures/quick-measures_08.png)
+![Novo visual de gráfico de barras com base no campo de medida rápida](media/desktop-quick-measures/quick-measures_09.png)
 
-Segundo, a **Medida rápida** é exibida no espaço **Campos** do modelo de dados e pode ser usada como qualquer outro campo do modelo e em qualquer outro elemento visual. Na imagem a seguir, um elemento visual rápido de **gráfico de barras** foi criado usando o novo campo gerado pela **Medida rápida**.
+## <a name="learn-dax-by-using-quick-measures"></a>Conhecer o DAX usando medidas rápidas
+Uma grande vantagem das medidas rápidas é que elas mostram a fórmula DAX que implementa a medida. Quando você seleciona uma medida rápida no painel **Campos**, a **Barra de fórmulas** é exibida, mostrando a fórmula DAX que o Power BI criou para implementar a medida.
 
-![](media/desktop-quick-measures/quick-measures_09.png)
+![Fórmula de medida rápida na barra de fórmulas](media/desktop-quick-measures/quick-measures_10.png)
 
-Passemos à próxima seção para discutir o terceiro item: fórmulas DAX.
+A barra de fórmulas não mostra apenas a fórmula por trás da medida, como também, e talvez o mais importante, permite que você veja como criar as fórmulas DAX subjacentes às medidas rápidas.
 
-## <a name="learn-dax-using-quick-measures"></a>Conhecer o DAX usando Medidas rápidas
-Outra grande vantagem do recurso **Medida rápida** está no fato de ele apresentar diretamente a fórmula DAX criada para implementar a medida. Na imagem a seguir, selecionamos a medida criada pela **Medida rápida** (a medida se encontra agora no espaço **Campos**, então basta clicar nela). Após executarmos esse procedimento, a **barra de Fórmulas** é exibida, mostrando a fórmula DAX criada pelo Power BI para implementar a medida.
+Imagine que você tenha de efetuar um cálculo comparativo ano a ano, mas está em dúvida sobre como estruturar a fórmula DAX ou não tem ideia por onde começar. Em vez de quebrar a cabeça, você pode criar uma medida rápida usando o cálculo **Alteração em relação ao ano anterior** e ver como ela é exibida em seu visual e como a fórmula DAX funciona. Em seguida, você pode fazer alterações diretamente na fórmula DAX ou criar uma mensagem semelhante que atenda às suas necessidades e expectativas. É como ter um professor que responde imediatamente às suas perguntas hipotéticas com apenas alguns cliques. 
 
-![](media/desktop-quick-measures/quick-measures_10.png)
+Você sempre poderá excluir medidas rápidas de seu modelo se não gostar delas. Isso é tão fácil quanto clicar com o botão direito do mouse ou selecionar **...** ao lado da medida e selecionar **Excluir**. Você também poderá renomear uma medida rápida sempre quiser selecionando **Renomear** no menu. 
 
-Isso por si só é ótimo, pois mostra a fórmula por trás da medida. Mas o mais importante, talvez, seja o fato de o recurso permitir o uso das **Medidas rápidas** para verificar como as fórmulas DAX subjacentes devem ser criadas.
-
-Imagine que você tenha de efetuar um cálculo comparativo do ano, mas está em dúvida sobre como estruturar a fórmula DAX (ou não tem ideia de por onde começar). Em vez de quebrar a cabeça, você pode criar uma **Medida rápida** usando o cálculo de **Alteração em relação ao ano anterior** e ver o que acontece. Da mesma forma, crie a **Medida rápida** e veja como ela será exibida no seu elemento visual, confira como a fórmula DAX funcionou e faça alterações diretamente no DAX ou crie outra medida até que os cálculos atendam às suas necessidades ou expectativas.
-
-É como ter um professor rápido que responde imediatamente às suas perguntas hipotéticas com apenas alguns cliques. Você sempre poderá excluir essas medidas do seu modelo se não ficar satisfeito com elas. Isso muito fácil: basta clicar com o botão direito do mouse na medida e selecionar **Excluir**.
-
-![](media/desktop-quick-measures/quick-measures_11.png)
-
-Assim que a medida estiver finalmente aperfeiçoada, você poderá renomeá-la como desejar usando o mesmo menu de atalho.
+![Excluir ou renomear uma medida rápida](media/desktop-quick-measures/quick-measures_11.png)
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Há algumas limitações e considerações para se ter em mente.
 
-* As **medidas rápidas** só estão disponíveis quando você pode modificar o modelo, o que não é o caso ao trabalhar com algumas conexões dinâmicas (há suporte para conexões dinâmicas tabulares do SSAS, como já explicado).
-* A medida adicionada ao espaço **Campos** pode ser usada com qualquer elemento visual no relatório.
-* Você poderá visualizar sempre o DAX associado à **Medida rápida** selecionando a medida criada no espaço **Campos** e, em seguida, verificando a fórmula na **barra de Fórmulas**.
-* Você não pode criar medidas rápidas de inteligência de tempo ao trabalhar no modo DirectQuery. As funções DAX usadas nessas medidas rápidas tem implicações no desempenho quando convertidas nas instruções T-SQL que são enviadas à fonte de dados.
+- Você pode usar medidas rápidas adicionadas ao painel **campos** com qualquer visual no relatório.
+- Você sempre pode ver o DAX associado a uma medida rápida selecionando-a na lista **Campos** e examinando a fórmula na barra de fórmulas.
+- As medidas rápidas só estarão disponíveis se você puder modificar o modelo. Esse não é o caso quando você está trabalhando com algumas conexões dinâmicas. Há suporte a conexões dinâmicas tabulares do SSAS, conforme descrito anteriormente.
+- Você não pode criar medidas rápidas de inteligência de tempo ao trabalhar no modo DirectQuery. As funções DAX usadas nessas medidas rápidas tem implicações no desempenho quando convertidas nas instruções T-SQL que são enviadas à fonte de dados.
 
-> [!WARNING]
-> Atualmente, medidas rápidas geram *somente* instruções DAX com vírgulas como separadores de argumentos. Se sua versão do **Power BI Desktop** estiver localizada para um idioma que usa vírgulas como separadores decimais, as medidas rápidas não funcionarão corretamente.
-> 
-> 
+> [!IMPORTANT]
+> As instruções DAX para medidas rápidas usam apenas vírgulas para separadores de argumento. Se sua versão do Power BI Desktop estiver em um idioma que usa vírgulas como separadores decimais, as medidas rápidas não funcionarão corretamente.
 
-### <a name="time-intelligence-and-quick-measures"></a>Inteligência de dados temporais e Medidas rápidas
-Começando com a atualização de outubro de 2017 do **Power BI Desktop**, você pode usar suas próprias tabelas de datas personalizadas com **medidas rápidas** de inteligência de dados temporais. Se você estiver usando um modelo tabular externo, verifique se quando o modelo foi criado, essa coluna de data primária na tabela foi marcada como uma tabela de data, conforme é descrito [neste artigo](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Se você estiver importando sua própria tabela de data, marque-a como uma tabela de data, conforme é descrito [neste artigo](https://docs.microsoft.com/power-bi/desktop-date-tables)
+### <a name="time-intelligence-and-quick-measures"></a>Inteligência de dados temporais e medidas rápidas
+Você pode usar suas próprias tabelas de data personalizadas com medidas rápidas de inteligência de dados temporais. Se estiver usando um modelo tabular externo, verifique se, quando o modelo foi criado, a coluna de dados primária na tabela foi marcada como uma tabela de data, conforme descrito em [Especificar Marcar como Tabela de Data para uso com inteligência de dados temporais](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Se você estiver importando sua própria tabela de data, marque-a como uma tabela de data, conforme descrito em [Definir e usar tabelas de data no Power BI Desktop](desktop-date-tables.md).
 
 ### <a name="additional-information-and-examples"></a>Exemplos e informações adicionais
-Nós nos antecipamos fornecendo exemplos e diretrizes para cada um dos cálculos de **Medidas rápidas**, portanto confira novamente em breve as atualizações do artigo em destaque.
-
-Tem uma ideia para uma **Medida rápida** que ainda não foi criada? Ótimo! Confira [esta página](https://go.microsoft.com/fwlink/?linkid=842906) e envie suas ideias (e a fórmula DAX) sobre a **Medida rápida** que gostaria de ver incluída no **Power BI Desktop**, e nós avaliaremos a viabilidade de adicioná-la à lista de **Medidas rápidas** em uma versão futura.
+Você tem uma ideia para uma medida rápida que ainda não foi fornecida? Ótimo! Confira a página [Ideias do Power BI](https://go.microsoft.com/fwlink/?linkid=842906) e envie suas ideias e fórmulas DAX para medidas rápidas que você gostaria de ver no Power BI Desktop. Consideraremos adicioná-las à lista de medidas rápidas em uma versão futura.
 

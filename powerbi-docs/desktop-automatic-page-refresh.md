@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878762"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164145"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Atualização automática de página no Power BI Desktop (visualização)
 
@@ -105,9 +105,9 @@ O Power BI Desktop não apresenta restrição no intervalo de atualização; a f
 
 No serviço do Power BI, as restrições para a atualização automática de página se aplicam com base em fatores como o workspace e se os serviços Premium estão em uso.
 
-Para esclarecer como isso funciona, vamos começar com algum plano de fundo em [capacidades e workspaces](whitepaper-powerbi-premium-deployment.md#capacities)
+Para esclarecer como isso funciona, vamos começar com um pouco de contexto sobre capacidades e workspaces:
 
-As **capacidades** são um conceito fundamental do Power BI que representa um conjunto de recursos (armazenamento, processador e memória) usado para hospedar e fornecer conteúdo do Power BI. As capacidades são compartilhadas ou dedicadas. Uma **Capacidade Compartilhada** é aquela compartilhada com outros clientes da Microsoft, enquanto a **Capacidade Dedicada** está totalmente comprometida com um único cliente. As capacidades dedicadas são apresentadas no artigo sobre [capacidades premium](whitepaper-powerbi-premium-deployment.md#capacities).
+As **capacidades** são um conceito fundamental do Power BI que representa um conjunto de recursos (armazenamento, processador e memória) usado para hospedar e fornecer conteúdo do Power BI. As capacidades são compartilhadas ou dedicadas. Uma **Capacidade Compartilhada** é aquela compartilhada com outros clientes da Microsoft, enquanto a **Capacidade Dedicada** está totalmente comprometida com um único cliente. As capacidades dedicadas são apresentadas no artigo sobre [Gerenciar capacidades Premium](service-premium-capacity-manage.md).
 
 Na capacidade compartilhada, as cargas de trabalho são executadas em recursos computacionais compartilhados com outros clientes. Como a capacidade deve compartilhar recursos, limitações são impostas para garantir *equilíbrio*, como definir o tamanho máximo do modelo (1 GB) e a frequência máxima de atualização diária (oito vezes por dia).
 
@@ -123,7 +123,7 @@ Confira alguns detalhes dos dois cenários de workspaces:
 
  2. *Intervalo mínimo de atualização*: ao habilitar esse recurso, o administrador da capacidade deve configurar um intervalo mínimo de atualização. Se o intervalo for menor do que o mínimo, o serviço do Power BI substituirá o intervalo para respeitar o intervalo mínimo definido pelo administrador de capacidade.
 
-A tabela a seguir descreve com mais detalhes onde esse recurso está disponível e os limites para cada tipo de capacidade e [modo de armazenamento](whitepaper-powerbi-premium-deployment.md#model-storage-modes)
+A tabela a seguir descreve com mais detalhes onde esse recurso está disponível e os limites para cada tipo de capacidade e [modo de armazenamento](service-dataset-modes-understand.md)
 
 | Modo de armazenamento | Capacidade dedicada | Capacidade compartilhada |
 | --- | --- | --- |

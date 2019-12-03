@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9f8da4a5f37eb1e652dd2125dd588febf49fb01b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871840"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311698"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web por meio do Power BI
 
@@ -135,7 +135,8 @@ O recurso **Publicar na Web** é compatível com a maioria das fontes de dados e
 - Visuais do ArcGIS Maps for Power BI.
 - Relatórios que contêm medidas DAX no nível do relatório.
 - Modelos de consulta de dados de logon único.
-- [Informações confidenciais ou proprietárias](#publish-to-web-from-power-bi).
+- Informações confidenciais ou proprietárias.
+- [Conjuntos de dados compartilhados e certificados](service-datasets-share.md).
 - O recurso de autenticação automática fornecido com a opção **Inserir** não funciona com a API JavaScript do Power BI. Para a API JavaScript do Power BI, use a abordagem [o usuário possui dados](developer/embed-sample-for-your-organization.md) para inserção.
 
 ## <a name="tenant-setting"></a>Configuração de locatário

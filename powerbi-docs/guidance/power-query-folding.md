@@ -8,38 +8,36 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 1ddcc94e2286c82f7e865a2a8012b9d407b3c171
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 01c3d7ac00ec4aa50373e36e1732d4eda55b280c
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875353"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410805"
 ---
 # <a name="the-importance-of-query-folding"></a>A importância da dobragem de consultas
 
 Este artigo se destina a modeladores de dados que estão desenvolvendo modelos no Power BI Desktop. Ele descreve o que é a dobragem de consultas e por que ela é importante. Ele também descreve as fontes de dados e as transformações que podem obter a dobragem de consultas e como determinar se suas consultas de Power Query podem ser dobradas de forma completa ou parcial. Por fim, fornece orientações de melhores práticas sobre quando e como obter a dobragem de consultas.
 
-## <a name="background"></a>Tela de fundo
-
 A dobragem de consultas é a capacidade de uma consulta do Power Query gerar uma única instrução de consulta para recuperar e transformar dados de origem. O mecanismo de mashup do Power Query busca alcançar dobragem de consultas sempre que possível, pois resulta no caminho mais eficiente para conectar uma tabela de modelo do Power BI à sua fonte de dados subjacente.
 
-A dobragem de consultas é um tópico importante para modelagem de dados por vários motivos:
+A dobragem de consultas é um conceito importante para modelagem de dados por vários motivos:
 
 - **Importar tabelas de modelo:** a atualização de dados ocorrerá com eficiência para tabelas de modelo de Importação em termos de utilização de recursos e duração da atualização
 - **Tabelas de modo de armazenamento e Duplo e DirectQuery:** cada tabela de modo de armazenamento e Duplo DirectQuery deve ser baseada em uma consulta do Power Query que pode ser dobrada
 - **Atualização incremental:** a atualização de dados incremental será eficiente em termos de utilização de recursos e duração da atualização. Na verdade, a janela de configuração de atualização incremental notificará você de um aviso caso determine que a dobragem de consultas para a tabela não pode ser alcançada. Se ela não puder ser alcançada, o objetivo da atualização incremental será perdido. O mecanismo de mashup então seria necessário para recuperar todas as linhas de origem e, em seguida, aplicar filtros para determinar as alterações incrementais.
 
-A dobragem de consultas pode ocorrer para uma consulta do Power Query inteira ou para um subconjunto de suas etapas. Quando a dobragem de consultas não pode ser alcançada, parcial ou totalmente, o mecanismo de mashup do Power Query no Power BI deve compensar processando as transformações de dados em si. Isso pode envolver a recuperação dos resultados da consulta de origem, que, para conjuntos de dados grandes, o que consome muitos recursos e é lento.
+A dobragem de consultas pode ocorrer para uma consulta do Power Query inteira ou para um subconjunto de suas etapas. Quando a dobragem de consultas não pode ser alcançada, parcial ou totalmente, o mecanismo de mashup do Power Query no Power BI deve compensar processando as transformações de dados em si. Ele poderia envolver a recuperação dos resultados de consulta de origem, que consomem muitos recursos e é lento para grandes conjuntos de dados.
 
 Recomendamos que os modeladores de dados busquem alcançar eficiência nos designs de modelo de importação, garantindo que a dobragem de consultas ocorra sempre.
 
 ## <a name="sources-that-support-query-folding"></a>Fontes que dão suporte à dobragem de consultas
 
-A maioria das fontes de dados que têm o conceito de linguagem de consulta é compatível com dobragem de consultas. Elas podem incluir bancos de dados relacionais, feeds do OData (incluindo listas do SharePoint), Exchange e Active Directory. No entanto, fontes de dados como arquivos simples, BLOBs e Web normalmente não fazem isso.
+A maioria das fontes de dados que têm o conceito de linguagem de consulta é compatível com dobragem de consultas. Essas fontes de dados podem incluir bancos de dados relacionais, feeds do OData (incluindo listas do SharePoint), Exchange e Active Directory. No entanto, fontes de dados como arquivos simples, BLOBs e Web normalmente não fazem isso.
 
 ## <a name="transformations-that-can-achieve-query-folding"></a>Transformações que podem realizar a dobragem de consultas
 
-As transformações de fonte de dados relacionais que podem consultadas dobradas são aquelas que podem ser gravadas como uma única instrução SELECT. Uma instrução SELECT pode ser construída com as cláusulas WHERE, GROUP BY e JOIN adequadas. Ele também pode conter expressões de coluna (cálculos) que usam funções internas comuns com suporte em bancos de dados SQL.
+As transformações de fonte de dados relacionais que podem consultadas dobradas podem ser gravadas como uma única instrução SELECT. Uma instrução SELECT pode ser construída com as cláusulas WHERE, GROUP BY e JOIN adequadas. Ele também pode conter expressões de coluna (cálculos) que usam funções internas comuns com suporte em bancos de dados SQL.
 
 Em geral, a lista com marcadores a seguir descreve as transformações que podem ser dobradas por consulta.
 
@@ -60,11 +58,11 @@ Em geral, a lista com marcadores a seguir descreve as transformações que podem
 
 ## <a name="transformations-that-prevent-query-folding"></a>Transformações que impedem a dobragem de consultas
 
-Em geral, a lista com marcadores a seguir descreve as transformações que impedem a dobragem de consultas. Esta lista não se destina a exaustiva.
+Em geral, a lista com marcadores a seguir descreve as transformações que impedem a dobragem de consultas. Essa lista não se destina a ser exaustiva.
 
 - Como mesclar consultas com base em fontes diferentes
 - Como acrescentar consultas (unir) com base em fontes diferentes
-- Como adicionar colunas personalizadas com _lógica complexa_. A lógica complexa implica o uso de funções M sem funções equivalentes na fonte de dados. Por exemplo, as expressões a seguir formatam o valor da coluna **OrderDate** (para retornar um valor de texto).
+- Como adicionar colunas personalizadas com _lógica complexa_. A lógica complexa implica o uso de funções M sem funções equivalentes na fonte de dados. Por exemplo, a expressão a seguir formata o valor da coluna **OrderDate** (para retornar um valor de texto).
 
     ```powerquery-m
     Date.ToText([OrderDate], "yyyy")
@@ -73,7 +71,7 @@ Em geral, a lista com marcadores a seguir descreve as transformações que imped
 - Como adicionar colunas de índice
 - Como alterar um tipo de dados de coluna
 
-Observe que, quando uma consulta do Power Query abrange várias fontes de dados, a incompatibilidade dos níveis de privacidade da fonte de dados pode impedir que a dobragem de consultas ocorra. Para obter mais informações, leia o artigo [Níveis de privacidade do Power BI Desktop](../desktop-privacy-levels.md).
+Quando uma consulta do Power Query abrange várias fontes de dados, a incompatibilidade dos níveis de privacidade da fonte de dados pode impedir que a dobragem de consultas ocorra. Para obter mais informações, leia o artigo [Níveis de privacidade do Power BI Desktop](../desktop-privacy-levels.md).
 
 ## <a name="determine-when-a-query-can-be-folded"></a>Determinar quando uma consulta pode ser dobrada
 
@@ -85,7 +83,7 @@ Para exibir a consulta dobrada, selecione a opção **Exibir Consulta Nativa**. 
 
 ![Exemplo de uma consulta nativa](media/power-query-folding/native-query-example.png)
 
-Se a opção **Exibir Consulta Nativa** não estiver habilitada (esmaecida), isso será uma prova de que não é possível dobrar todas as etapas da consulta. No entanto, poderia significar que um subconjunto de etapas ainda pode ser dobrado. Trabalhando na ordem inversa da última etapa, você poderá verificar cada etapa para ver se a opção **Exibir Consulta Nativa** está habilitada. Se esse for o caso, você aprendeu em que ponto na sequência de etapas a dobragem de consultas não pôde mais ser alcançado.
+Se a opção **Exibir Consulta Nativa** não estiver habilitada (esmaecida), isso será uma prova de que não é possível dobrar todas as etapas da consulta. No entanto, poderia significar que um subconjunto de etapas ainda pode ser dobrado. Trabalhando na ordem inversa da última etapa, você poderá verificar cada etapa para ver se a opção **Exibir Consulta Nativa** está habilitada. Quando isso acontecer, você terá aprendido em que lugar na sequência de etapas a dobragem de consultas não pôde mais ser obtida.
 
 ![Exemplo de determinação de que o Power Query não pode alcançar a dobragem de consultas](media/power-query-folding/query-folding-not-example.png)
 
@@ -95,7 +93,7 @@ Em resumo, para uma tabela de modo de armazenamento de DirectQuery ou Duplo, a c
 
 A lista com marcadores a seguir apresenta orientações de práticas recomendadas.
 
-- **Delegue o máximo de processamento possível para a fonte de dados:** Quando não for possível dobrar todas as etapas de uma consulta do Power Query, descubra a etapa que impede a dobragem de consultas. Quando possível, mova as etapas posteriores mais para o início da sequência para que possam ser fatoradas na dobragem de consultas. Observe que o mecanismo de mashup do Power Query pode ser inteligente o suficiente para reordenar as etapas de consulta ao gerar a consulta de origem.
+- **Delegue o máximo de processamento possível para a fonte de dados:** Quando não for possível dobrar todas as etapas de uma consulta do Power Query, descubra a etapa que impede a dobragem de consultas. Quando possível, mova as etapas posteriores mais para o início da sequência para que possam ser fatoradas na dobragem de consultas. O mecanismo de mashup do Power Query pode ser inteligente o suficiente para reordenar as etapas de consulta ao gerar a consulta de origem.
 
 Para uma fonte de dados relacional, se a etapa que impede que a dobragem de consultas seja alcançada em uma única instrução SELECT ou na lógica de um procedimento armazenado, considere usar uma instrução de consulta nativa conforme descrito a seguir.
 
@@ -113,7 +111,7 @@ Para uma fonte de dados relacional, se a etapa que impede que a dobragem de cons
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Para obter mais informações sobre a dobragem de consultas e o tópico relacionado, confira os seguintes recursos:
+Para obter mais informações sobre a dobragem de consultas e os artigos relacionados, confira os seguintes recursos:
 
 - [Usar modelos compostos no Power BI Desktop](../desktop-composite-models.md)
 - [Atualização incremental no Power BI Premium](../service-premium-incremental-refresh.md)

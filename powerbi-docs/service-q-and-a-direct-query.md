@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8bb3597d2877376431a2249428e88d56bee2c0a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871799"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265479"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Habilitar P e R para conexões dinâmicas no Power BI
 ## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>O que é o gateway de dados local?  O que é uma conexão dinâmica?
@@ -23,9 +23,9 @@ Os conjuntos de dados no Power BI podem ser importados para o Power BI, ou você
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>P e R para conjuntos de dados do gateway de dados local
 Se você quiser usar a P e R com conjuntos de dados que você acessa por meio de um gateway, será necessário habilitá-los primeiro.
 
-Depois de habilitados, o Power BI criará um índice da fonte de dados e carregará um subconjunto desses dados no Power BI para habilitar a troca de perguntas. Pode demorar vários minutos para a criação do índice inicial, e o Power BI mantém e atualiza o índice automaticamente conforme os dados são alterados. O uso da P e R com esses conjuntos de dados tem o mesmo comportamento observado com os dados publicados no Power BI. Em ambos os casos, há suporte para o conjunto completo de recursos disponíveis na experiência de P e R, incluindo o uso da fonte de dados com a Cortana.
+Depois de habilitados, o Power BI criará um índice da fonte de dados e carregará um subconjunto desses dados no Power BI para habilitar a troca de perguntas. Pode demorar vários minutos para a criação do índice inicial, e o Power BI mantém e atualiza o índice automaticamente conforme os dados são alterados. O uso da P e R com esses conjuntos de dados tem o mesmo comportamento observado com os dados publicados no Power BI. Em ambos os casos, há suporte para o conjunto completo de recursos disponíveis na experiência de P e R.
 
-À medida que você faz perguntas no Power BI, a P e R determina o melhor visual a ser construído ou a folha de relatório a ser usada para responder à sua pergunta usando um índice do conjunto de dados. Depois de determinar a melhor resposta possível, o P e R usa o DirectQuery para buscar dados dinâmicos da fonte de dados por meio do gateway para popular gráficos e grafos. Isso garante que os resultados da P e R do Power BI sempre mostram os dados mais atualizados diretamente da fonte de dados subjacente.
+À medida que você faz perguntas no Power BI, a P e R determina o melhor visual a ser construído ou a folha de relatório a ser usada para responder à sua pergunta usando um índice do conjunto de dados. Depois de determinar a melhor resposta possível, o P e R usa o DirectQuery para buscar dados dinâmicos da fonte de dados por meio do gateway para popular gráficos e grafos. Em decorrência disso, a P e R do Power BI sempre mostra os dados mais atualizados diretamente da fonte de dados subjacente.
 
 Como a P e R do Power BI usa os valores de texto e de esquema da fonte de dados para determinar como consultar o modelo subjacente em busca de respostas, as pesquisas por valores de texto específicos novos ou excluídos (por exemplo, perguntar um nome de cliente relacionado a um registro de texto recém-adicionado) dependem de o índice estar atualizado com os últimos valores. O Power BI mantém automaticamente o índice de texto e de esquema atualizado em uma janela de 60 minutos de alterações.
 
@@ -43,12 +43,12 @@ Depois que o gateway de dados estiver configurado, conecte-se aos seus dados por
 2. Selecione **conjuntos de dados** e escolha o conjunto de dados que será habilitado para a P e R.
    
    ![Tela de conjuntos de dados do menu Configurações](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
-3. Expanda **P e R e Cortana**, marque a caixa de seleção **Ativar P e R neste conjunto de dados** e escolha **Aplicar**.
+3. Expanda **P e R**, marque a caixa de seleção **Ativar P e R neste conjunto de dados** e escolha **Aplicar**.
    
-    ![Área expandida de P e R](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![Área expandida de P e R](media/service-q-and-a-direct-query/power-bi-qna-dataset-direct-query.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Quais dados são armazenados em cache e como a privacidade é protegida?
-Quando você habilita a P e R para seus dados locais, um subconjunto dos dados é armazenado em cache no serviço. Isso é feito para garantir que a P e R funcione com um desempenho razoável. O Power BI exclui valores com mais de 24 caracteres do cache. O cache é excluído em algumas horas quando você desabilita a P e R desmarcando **Ativar P e R neste conjunto de dados** ou quando você exclui o conjunto de dados.
+Quando você habilita a P e R para seus dados locais, um subconjunto dos dados é armazenado em cache no serviço. Esse cache verifica se a P e R funciona com um desempenho razoável. O Power BI exclui valores com mais de 24 caracteres do cache. O cache é excluído em algumas horas quando você desabilita a P e R desmarcando **Ativar P e R neste conjunto de dados** ou quando você exclui o conjunto de dados.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 O recurso tem algumas limitações:
@@ -56,7 +56,7 @@ O recurso tem algumas limitações:
 * Inicialmente, o recurso só está disponível para fontes de dados tabulares do SQL Server 2016 Analysis Services. O recurso é otimizado para funcionar com dados de tabela. A experiência de P e R ainda não é compatível com multidimensionais. Fontes de dados adicionais compatíveis com o gateway de dados local serão distribuídas ao longo do tempo.
 * O suporte completo para segurança em nível de linha definido no SQL Server Analysis Services não está disponível inicialmente. Ao fazer perguntas na P e R, o “preenchimento automático” de perguntas durante a digitação pode mostrar valores de cadeia de caracteres aos quais um usuário não tem acesso. No entanto, a RLS definida no modelo é respeitada em relação a visuais de relatório e de gráfico e, portanto, nenhum dado numérico subjacente pode ser exposto. Opções para controlar esse comportamento serão lançadas em atualizações futuras.
 * A OLS (segurança em nível do objeto) não é compatível. As P e R não respeitam a segurança em nível de objeto e podem revelar nomes de tabela ou coluna para os usuários que não têm acesso a eles. Você deve habilitar a RLS para garantir que os valores de dados também estejam protegidos adequadamente. 
-* As conexões dinâmicas são compatíveis somente com o gateway de dados local. Sendo assim, elas não podem ser usadas com o gateway pessoal.
+* As conexões dinâmicas são compatíveis somente com o gateway de dados local. Sendo assim, esse recurso não pode ser usado com o gateway pessoal.
 
 ## <a name="next-steps"></a>Próximas etapas
 

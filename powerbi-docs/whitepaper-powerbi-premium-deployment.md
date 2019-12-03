@@ -1,20 +1,20 @@
 ---
 title: Implantando e gerenciando capacidades de Power BI Premium
 description: Entenda o potencial do Power BI Premium e aprenda a projetar, implantar, monitorar e solucionar problemas de soluções escalonáveis.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 34166dcdb6a102f64fa12fea1e68883515abf0fc
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b52f7c9aaa81f55d1c7efc21a2180aebea7a5d79
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164274"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699488"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Implantando e gerenciando capacidades de Power BI Premium
 
@@ -28,6 +28,6 @@ Desativamos o White Paper Power BI Premium em favor de fornecer informações at
 </br>[Configurar cargas de trabalho em uma capacidade Premium](service-admin-premium-workloads.md) | Informações detalhadas sobre como configurar e gerenciar cargas de trabalho e capacidades dedicadas. |
 | [Otimizando as capacidades Premium](service-premium-capacity-optimize.md) | Práticas recomendadas para otimização de desempenho, otimização de modelos, planejamento de capacidade e abordagens de teste. |
 | [Cenários de capacidade Premium](service-premium-capacity-scenarios.md) | Problemas comuns em cenários do mundo real, com foco na identificação e na resolução desses problemas. |
-| [Monitorar as capacidades no portal de administração](service-admin-premium-monitor-portal.md) | Monitoramento com Power BI Premium aplicativo de métricas de capacidade e interpretação das métricas que você vê no aplicativo. |
+| [Monitorar capacidades no portal de administração](service-admin-premium-monitor-portal.md) | Monitoramento com Power BI Premium aplicativo de métricas de capacidade e interpretação das métricas que você vê no aplicativo. |
 | [Perguntas Frequentes do Power BI Premium](service-premium-faq.md) | Respostas a perguntas sobre compra e licenciamento, recursos e cenários comuns. |
 | | |

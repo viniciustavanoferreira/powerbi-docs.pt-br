@@ -16,10 +16,18 @@
           href: import-modeling-data-reduction.md
         - name: Função DIVIDE versus operador dividir (/)
           href: dax-divide-function-operator.md
+        - name: Usar SELECTEDVALUE em vez de VALUES
+          href: dax-selectedvalue.md
         - name: A importância da dobragem de consultas
           href: power-query-folding.md
         - name: Uso apropriado de funções de erro
           href: dax-error-functions.md
+        - name: Usar variáveis para melhorar fórmulas
+          href: dax-variables.md
+        - name: COUNTROWS em vez de COUNT
+          href: dax-countrows.md
+        - name: Evite converter BLANKs em valores
+          href: dax-avoid-converting-blank.md
         - name: Práticas recomendadas para fluxos de dados
           href: ../service-dataflows-best-practices.md
         - name: Diretrizes do modelo DirectQuery no Power BI Desktop

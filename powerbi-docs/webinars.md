@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164251"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478640"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -32,6 +32,10 @@ Registre-se para os próximos webinars ao vivo ou assista a nossas sessões grav
 **Nove tendências que moldam o futuro da análise de Big Data**
 <br>por Vijay Gopalakrishnan
 <br>[Registre-se para assistir em 18 de dezembro](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+
+**Três maneiras como a IA está mudando o BI**
+<br>por Justyna Lucznik
+<br>[Registre-se para assistir em 8 de janeiro](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 >[Próximos webinars na comunidade do Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

@@ -15,6 +15,8 @@
               href: power-bi-custom-visuals.md
         - name: Tutoriais
           items:
+            - name: Conceito visual
+              href: visuals/power-bi-visuals-concept.md
             - name: Desenvolver um visual do Power BI
               href: visuals/custom-visual-develop-tutorial.md
             - name: Adicionar opções de formatação
@@ -67,6 +69,8 @@
               href: visuals/high-contrast-support.md
             - name: Habilitar a sincronização de segmentações
               href: visuals/enable-sync-slicers.md
+            - name: Adicionar suporte a busca detalhada
+              href: visuals/drill-down-support.md
             - name: Solucionar problemas de visuais do Power BI
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Referência
@@ -81,8 +85,14 @@
               href: visuals/event-service.md
             - name: Classificação
               href: visuals/sort-options.md
-            - name: Utilitários de interatividade
-              href: visuals/utils-interactivity-selections.md
+            - name: Localização
+              href: visuals/localization.md
+            - name: Utilitários visuais do Power BI
+              items:
+                - name: Utilitários de interatividade
+                  href: visuals/utils-interactivity-selections.md
+                - name: Utilitários de formatação
+                  href: visuals/utils-formatting.md
         - name: Recursos
           items:
             - name: Centro de Desenvolvimento

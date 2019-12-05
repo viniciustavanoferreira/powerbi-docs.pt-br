@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: Linhagem de dados
           href: service-data-lineage.md
-        - name: Relatórios paginados no Power BI
-          items:
-            - name: Exibir um relatório paginado
-              href: paginated-reports-view-power-bi-service.md
-            - name: Fontes de dados para as quais há suporte
-              href: paginated-reports-data-sources.md
-            - name: Interagir com parâmetros
-              href: paginated-reports-view-parameters.md
-            - name: Fazer assinaturas para você ou para outras pessoas
-              href: paginated-reports-subscriptions.md
         - name: Aplicativos de modelo
           items:
             - name: Visão geral de aplicativos de modelo
@@ -915,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: Dados do Construtor de Relatórios
           href: report-builder-data.md
+        - name: Fontes de dados para as quais há suporte
+          href: paginated-reports-data-sources.md
         - name: Usar conjuntos de dados compartilhados do Power BI
           href: report-builder-shared-datasets.md
         - name: Dicas de design

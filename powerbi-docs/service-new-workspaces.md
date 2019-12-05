@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/30/2019
+ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8a9e2094619d4c6b0e0f6feb2c9767902b4f7b09
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099680"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565331"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho em novos workspaces no Power BI
 
@@ -60,7 +60,7 @@ As funções permitem que você gerencie quem pode fazer o que em um workspace p
 
 Ao atribuir funções a um grupo de usuários, os indivíduos no grupo têm acesso ao conteúdo. Se você aninhar grupos de usuários, todos os usuários contidos terão permissão.
 
-Estas são as capacidades das quatro funções: administradores, membros, colaboradores e visualizadores. Todos esses recursos, exceto o último, exigem uma licença Power BI Pro.
+Estas são as capacidades das quatro funções: administradores, membros, colaboradores e visualizadores. Todos esses recursos, exceto exibição e interação, exigem uma licença Power BI Pro.
 
 |Funcionalidade   | Administrador  | Membro  | Colaborador  | Visualizador |
 |---|---|---|---|---|
@@ -72,15 +72,15 @@ Estas são as capacidades das quatro funções: administradores, membros, colabo
 | Permitir que outras pessoas compartilhem novamente os itens. |  X | X  |   |   |
 | Criar, editar e excluir conteúdo no workspace.  |  X | X  | X  |   |
 | Publicar relatórios no workspace, excluir conteúdo.  |  X | X  | X  |   |
-| Criar um relatório em outro workspace com base em um conjunto de dados neste workspace. |  X | X  | X  |   |
-| Copiar um relatório. | X | X | X |  |
-| Exibir e interagir com um item. |  X | X  | X  | X  |
+| Criar um relatório em outro workspace com base em um conjunto de dados neste workspace.<sup>1</sup> |  X | X  | X  |   |
+| Copiar um relatório.<sup>1</sup> | X | X | X |  |
+| Exibir e interagir com um item.<sup>2</sup> |  X | X  | X  | X  |
 
-> [!NOTE]
->Para copiar um relatório e criar um relatório em outro workspace com base em um conjunto de dados nesse workspace, as pessoas precisam atender a critérios adicionais:
->- Elas precisam ter uma licença do Power BI Pro. Confira a próxima seção, [Licenciamento](#licensing), para saber mais detalhes.
->- Elas precisam ter a permissão Criar no conjunto de dados. Para conjuntos de dados nesse workspace, as pessoas com as funções Administrador, Membro e Colaborador têm a permissão Criar por meio das funções de workspace delas.
- 
+1. Para copiar um relatório e criar um relatório em outro workspace com base em um conjunto de dados nesse workspace, você precisa atender a critérios adicionais:
+    - Você precisa de uma licença Power BI Pro. Confira a próxima seção, [Licenciamento](#licensing), para saber mais detalhes.
+    - Você precisa ter a permissão Criar no conjunto de dados. Para conjuntos de dados nesse workspace, as pessoas com as funções Administrador, Membro e Colaborador têm a permissão Criar por meio das funções de workspace delas.
+2. Mesmo se não tiver uma licença Power BI Pro, você poderá exibir itens e interagir com eles no serviço do Power BI se os itens estiverem em um workspace em uma capacidade Premium.
+
 ## <a name="licensing"></a>Licenças
 Todas as pessoas que você adiciona a um workspace na capacidade compartilhada precisam de uma licença do Power BI Pro. No workspace, esses usuários podem colaborar nos dashboards e relatórios que você planeja publicar para um público-alvo maior ou até mesmo para toda a organização. 
 

@@ -1,6 +1,6 @@
 ---
 title: Diretrizes para visuais do Power BI
-description: Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo por meio de uma compra.
+description: Saiba como você pode publicar seu visual personalizado no Microsoft AppSource para que outras pessoas possam descobri-lo e usá-lo por meio de uma compra.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,77 +8,148 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: e650b1eb8fd05db54b9d0bf9021eaa881d28832e
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128190"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565500"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes para visuais do Power BI
-Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) seu visual no AppSource para que outras pessoas descubram e usem, verifique se você seguiu as diretrizes para criar uma experiência excelente para seus usuários. 
+Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) seu visual do Power BI no Microsoft AppSource para outras pessoas descobrirem e usarem, siga as diretrizes para criar uma experiência excelente para seus usuários.
+
+## <a name="power-bi-visuals-with-additional-purchases"></a>Visuais do Power BI com compras adicionais
+
+Você pode enviar visuais do Power BI gratuitos para o Marketplace (Microsoft AppSource). Você também pode enviar os visuais do Power BI do Microsoft AppSource que têm uma marca de preço com "uma compra adicional pode ser necessária". Os visuais do Power BI "Uma compra adicional pode ser necessária" são semelhantes a suplementos de IAP (Compra no Aplicativo) na Office Store. 
+
+Assim como ocorre com um visual gratuito do Power BI, o visual do Power BI com IAP também pode ser certificado. Antes de enviar seu visual do Power BI com IAP para certificação, verifique se ele cumpre os [requisitos de certificação](../power-bi-custom-visuals-certified.md). 
+
+### <a name="what-is-a-power-bi-visual-with-iap-features"></a>O que é um visual do Power BI com recursos de IAP?
+
+Um visual do Power BI com IAP é um visual *gratuito* que oferece *recursos gratuitos*. Ele também tem alguns recursos avançados aos quais podem ser aplicados custos extras. Na descrição do visual do Power BI, os desenvolvedores devem notificar os usuários sobre os recursos que exigem compras adicionais para serem operados. Atualmente, a Microsoft não fornece APIs nativas compatíveis com a compra de aplicativos e suplementos.
+
+Os desenvolvedores podem usar qualquer sistema de pagamento de terceiros para essas compras. Para obter mais informações, confira [nossa política de loja](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
+
+
+>[!IMPORTANT]  
+> Se você atualizar seu visual do Power BI de gratuito para "Uma compra adicional pode ser necessária", os usuários precisarão receber o mesmo nível de funcionalidade gratuita que tinham antes da atualização. Você pode adicionar recursos avançados opcionais pagos, além dos recursos gratuitos existentes.
+
+### <a name="watermarks"></a>Marcas d' água
+
+Você pode usar marcas d'água para que os clientes continuem usando os recursos avançados com IAP sem pagar. 
+
+As marcas d'água podem ser usadas para demonstrar a funcionalidade completa do visual do Power BI antes de uma compra ser feita. 
+
+* As marcas d'água podem ser usadas somente em recursos pagos que são usados sem uma licença válida.
+* As marcas d'água não são permitidas em visuais do Power BI com uma marca de preço *gratuita*.
+* As marcas d'água não são permitidas em visuais com IAP quando o usuário usa recursos gratuitos. 
+
+### <a name="pop-up-window"></a>Janela pop-up
+
+Você pode usar uma janela pop-up para explicar como comprar uma licença quando uma licença inválida (ou expirada) é usada com seu visual com IAP do Power BI.
+
+### <a name="submission-process"></a>Processo de envio
+
+Os desenvolvedores carregam seus visuais do Power BI com IAP para o Microsoft AppSource por meio do Painel do Vendedor, como eles vêm fazendo para visuais gratuitos. Para indicar que o visual do Power BI enviado tem recursos de IAP, os desenvolvedores devem escrever nas notas do Painel do Vendedor: "Visual com compra no aplicativo". Além disso, os desenvolvedores precisam fornecer um token ou chave de licença para que a equipe de validação poder validar os recursos de IAP. Depois que o visual do Power BI for validado e aprovado, a listagem do Microsoft AppSource para o visual do Power BI com IAP informará "Uma compra adicional pode ser necessária" nas opções de preço.
 
 ## <a name="context-menu"></a>Menu de contexto
 O menu de contexto é o menu de clique com o botão direito do mouse que é exibido quando o usuário passa o mouse sobre um visual.
 Todos os visuais do Power BI devem habilitar o menu de contexto para trazer uma experiência unificada. Confira [este artigo](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) para saber como adicionar um menu de contexto.
 
+## <a name="commercial-logo"></a>Logotipo comercial
+Esta seção descreve as especificações para adicionar logotipos comerciais em visuais do Power BI. Os logotipos comerciais não são obrigatórios. Se adicionados, eles deverão seguir estas diretrizes.
 
-## <a name="logo-guidelines"></a>Diretrizes de logotipo
 > [!NOTE]
-> O logotipo do Word neste artigo refere-se a qualquer ícone comercial da empresa, conforme descrito nas imagens abaixo. 
-
-Esta seção descreve as especificações para adicionar logotipos em visuais do Power BI. Os logotipos não são obrigatórios. Se adicionados, eles deverão seguir estas diretrizes. 
+> * Neste artigo, "logotipo comercial" refere-se a qualquer ícone corporativo comercial, conforme descrito nas imagens abaixo.
+> * O logotipo comercial da Microsoft é usado neste artigo apenas como um exemplo. Use seu próprio logotipo comercial com seu visual do Power BI.
 
 > [!IMPORTANT]
-> Os logotipos são permitidos *somente no modo de edição*. Logotipos *não podem* ser exibidos no modo de exibição.
+> Os logotipos comerciais são permitidos *somente no modo de edição*. Os logotipos comerciais *não podem* ser exibidos no modo de exibição.
+
+### <a name="commercial-logo-type"></a>Tipo de logotipo comercial
+
+Há três tipos de logotipos comerciais:
+* **Logotipos:** um logotipo é composto por dois elementos bloqueados juntos, um ícone e um nome.
+
+    ![Logotipo da Microsoft](media/guidelines-powerbi-visuals/microsoft-logo.png)
+
+* **Símbolo:** um gráfico sem nenhum texto.
+
+    ![Símbolo da Microsoft](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+
+* **Logotipo:** um logotipo sem um ícone, composto apenas por texto.
+
+    ![Símbolo da Microsoft](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+
+### <a name="commercial-logo-color"></a>Cor do logotipo comercial
+
+Ao usar um logotipo comercial, a cor dele deverá ser cinza (cor hexadecimal #C8C8C8). Não adicione efeitos como gradientes ao logotipo comercial.
+
+* **Logotipo**
+
+    ![Símbolo da Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+
+* **Símbolo:** um gráfico sem nenhum texto.
+
+    ![Símbolo da Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+
+* **Logotipo:** um logotipo sem um ícone, composto apenas por texto.
+
+    ![Símbolo da Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+
+> [!TIP]
+> * Se seu visual do Power BI contém um gráfico, considere adicionar uma tela de fundo branca com margens de 10 px ao seu logotipo.
+> * Considere adicionar uma sombra projetada ao seu logotipo (30% de opacidade preta).
+
+### <a name="commercial-logo-size"></a>Tamanho do logotipo comercial
+
+Um visual do Power BI exige dois logotipos comerciais, um para blocos grandes e outro para blocos pequenos. Coloque o logotipo dentro de uma caixa delimitadora no canto superior ou inferior direito, com margens de 4 px.
+
+A tabela a seguir descreve as considerações de tamanho dos visuais do Power BI.
+
+|  |Visual do Power BI pequeno  |Visual do Power BI grande  |
+|---------|---------|---------|
+|*Largura do logotipo*    |Até 240 px         |Maior que 240 px         |
+|*Altura do logotipo*     |Até 160 px         |Maior que 160 px         |
+|*Tamanho da caixa delimitadora*     |40 x 15 px         |101 x 30 px         |
+|*Exemplo do logotipo comercial*     |![Símbolo da Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Logotipo da Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*Exemplo de caixa delimitadora*    |![exemplo de logotipo pequeno](media/guidelines-powerbi-visuals/small-logo-box.png)         |![exemplo de logotipo grande](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|    |         |         |
+
+### <a name="commercial-logo-behavior"></a>Comportamento do logotipo comercial
+
+Os logotipos comerciais são permitidos apenas no modo de edição. Quando clicado, um logotipo comercial só pode incluir a seguinte funcionalidade:
+
+* Clicar no logotipo comercial redireciona você para o site.
+
+* Clicar no logotipo comercial abre uma janela pop-up com informações adicionais. A janela pop-up deve ser dividida em duas seções:
+    * Uma área de marketing que pode incluir o logotipo comercial, um visual e as classificações de mercado.
+    * Uma área de informações que pode incluir informações e links.    
 
 
-![Definições](media/guidelines-powerbi-visuals/definitions.png)
+### <a name="things-to-avoid"></a>Coisas a serem evitadas
 
-![Coisas a serem consideradas](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+* Os logotipos comerciais não podem ser exibidos no modo de exibição.
 
-![Coisas a serem evitadas](media/guidelines-powerbi-visuals/things-to-avoid.png)
+* Um logotipo comercial animado pode exibir animação por até cinco segundos.
 
-![Tamanho e formato](media/guidelines-powerbi-visuals/size-and-format.png)
+* Se o visual do Power BI incluir ícones informativos (i) no modo de leitura, eles deverão estar em conformidade com a cor, o tamanho e o local do logotipo comercial, conforme descrito acima.
 
-![Margens e dimensionamento](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+* Evite um logotipo comercial colorido ou um preto. O logotipo comercial deve ser cinza (cor hexadecimal #C8C8C8).
 
-![Modo de edição](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+    ![Logotipo colorido não autorizado](media/guidelines-powerbi-visuals/no-color-logo.png) ![Logotipo preto não autorizado](media/guidelines-powerbi-visuals/black-logo.png)
 
+* Um logotipo comercial com efeitos como gradientes ou sombras fortes.
 
-Os ícones informativos, caso haja, no modo de leitura, devem estar em conformidade com a cor, o tamanho e a localização dos logotipos acima.
-
-## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Diretrizes para visuais do Power BI com compras adicionais
-
-Até recentemente, o Marketplace (AppSource) aceitava apenas os visuais gratuitos do Power BI. Essa política foi alterada (em dezembro de 2018) para que você também possa enviar os visuais para o AppSource com uma etiqueta de preço "uma compra adicional pode ser necessária". 
-
-Os visuais "compra adicional pode ser necessária" são semelhantes a suplementos de IAP (compra no aplicativo) na Office Store. Os desenvolvedores também podem enviar esses visuais para a certificação após a equipe do AppSource aprova-los e depois de verificar se eles estão em conformidade com os requisitos de certificação. Para saber mais sobre os requisitos, confira [Visuais do Power BI certificados](../developer/power-bi-custom-visuals-certified.md).
-
-> [!NOTE]
-> Para o visual ser certificado, ele não deverá acessar serviços ou recursos externos.
-
->[!IMPORTANT]  
-> Se você atualizar seu visual de gratuito para "Uma compra adicional pode ser necessária", os usuários precisarão receber o mesmo nível de funcionalidade gratuita que tinham antes da atualização. Você pode adicionar recursos avançados opcionais pagos, além dos recursos gratuitos existentes. Recomendamos que você envie os visuais de IAP com os recursos avançados como novos visuais e não atualize os existentes gratuitos.
-
-## <a name="what-changed-in-the-submission-process"></a>O que mudou no processo de envio?
-
-Os desenvolvedores carregam seus visuais de IAP para o AppSource por meio do Painel do Vendedor, como eles faziam para visuais gratuitos. Para indicar que o visual enviado tem recursos de IAP, os desenvolvedores devem escrever nas notas do Painel do vendedor: "Visual com compra no aplicativo." Além disso, os desenvolvedores precisam fornecer um token ou chave de licença para que a equipe de validação poder validar os recursos de IAP. Assim que o visual tiver sido validado e aprovado, a listagem do AppSource para os visuais do IAP diz "Compra adicional pode ser necessária" nas opções de preços.
-
-## <a name="what-is-a-power-bi-visual-with-iap-features"></a>O que é um visual do Power BI com recursos de IAP?
-
-Um visual de IAP é um visual *grátis* que oferece *recursos gratuitos*. Ele também possui alguns recursos avançados para os quais podem ser aplicados custos extras para operá-los. Na descrição do visual, os desenvolvedores devem notificar os usuários sobre os recursos que exigem compras adicionais para operar. Atualmente, a Microsoft não fornece APIs nativas compatíveis com a compra de aplicativos e suplementos.
-
-Os desenvolvedores podem usar qualquer sistema de pagamento de terceiros para essas compras. Para obter mais informações, confira [nossa política de loja](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
-
-> [!NOTE]
-> As marcas d'água não são permitidas nos recursos gratuitos de visuais gratuitos. As marcas d'água podem ser usadas somente em recursos pagos que são usados sem uma licença válida. É recomendável exibir uma janela pop-up com todas as informações relacionadas à licença, se os recursos pagos avançados são usados sem uma licença válida.  
-
+    ![Estilo de logotipo não autorizado](media/guidelines-powerbi-visuals/no-style-logo.png)
 
 ## <a name="best-practices"></a>Práticas recomendadas
 
+Ao publicar um visual do Power BI, considere as seguintes recomendações a fim de proporcionar uma ótima experiência aos usuários.
+
 ### <a name="visual-landing-page"></a>Página de aterrissagem de elementos visuais
 
-Use a página de aterrissagem para esclarecer aos usuários como eles podem usar seu visual e em que local comprar a licença. Não inclua vídeos disparados automaticamente. Adicione apenas material que ajude a melhorar a experiência do usuário, como informações ou links sobre detalhes de compra de licença e como usar os recursos de IAP.
+Use a página de aterrissagem para esclarecer aos usuários como eles podem usar seu visual do Power BI e em que local comprar a licença. Não inclua vídeos disparados automaticamente. Adicione apenas material que ajude a melhorar a experiência do usuário, como informações ou links sobre detalhes de compra de licença e como usar os recursos de IAP.
 
 ### <a name="license-key-and-token"></a>Token e a chave de licença
 
@@ -86,8 +157,8 @@ Para conveniência do usuário, adicione os campos relacionados ao token ou a ch
 
 ## <a name="faq"></a>PERGUNTAS FREQUENTES
 
-Para saber mais sobre visuais, acesse [Perguntas frequentes sobre os visuais com compras adicionais](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
+Para saber mais sobre visuais do Power BI, confira [Perguntas frequentes sobre os visuais do Power BI com compras adicionais](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Saiba como você pode publicar seu visual personalizado no [AppSource](office-store.md) para que outros possam descobrir e usá-lo.
+Saiba como você pode publicar seu visual do Power BI no [Microsoft AppSource](office-store.md) para outras pessoas descobrirem e usarem.

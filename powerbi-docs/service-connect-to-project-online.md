@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73854646"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565673"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Conectar-se ao Project Web App com o Power BI
 O Microsoft Project Web App é uma solução online flexível para PPM (gerenciamento de portfólio de projetos) e para o trabalho cotidiano. O Project Web App permite que as organizações comecem, priorizem investimentos de portfólio de projetos e atinjam o valor comercial pretendido. O Aplicativo de Modelo do Project Web App para Power BI permite aproveitar informações do Project Web App para ajudar a gerenciar projetos, portfólios e recursos.
@@ -41,7 +41,7 @@ Conecte-se ao [Aplicativo de Modelo do Project Web App](https://appsource.micros
 6. Em **introdução a seu novo aplicativo**, selecione **Conectar dados**.
    
    ![Conectar-se a dados](media/service-connect-to-project-online/mproject.png)
-7. Na caixa de texto **URL do Project Web App**, digite a URL para o PWA (Project Web Add) à qual você deseja se conectar.  Observe que isso pode ser diferente do exemplo, caso você tenha um domínio personalizado. Na caixa de texto **Idioma do site do PWA**, digite o número que corresponde ao seu idioma de site do PWA. Digite “1” para inglês, “2” para francês, “3” para alemão, “4” para português (Brasil), “5” para português (Portugal) e “6” para espanhol. 
+7. Na caixa de texto **URL do Project Web App**, digite a URL do PWA (Project Web App) à qual você deseja se conectar.  Observe que isso pode ser diferente do exemplo, caso você tenha um domínio personalizado. Na caixa de texto **Idioma do site do PWA**, digite o número que corresponde ao seu idioma de site do PWA. Digite “1” para inglês, “2” para francês, “3” para alemão, “4” para português (Brasil), “5” para português (Portugal) e “6” para espanhol. 
    
    ![Conectar-se ao Microsoft Project Online](media/service-connect-to-project-online/params.png)
 8. Para o Método de Autenticação, selecione **oAuth2** \> **Entrar**. Quando solicitado, insira suas credenciais do Project Web App e siga o processo de autenticação.

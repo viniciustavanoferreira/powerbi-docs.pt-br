@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874722"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565716"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são os relatórios paginados no Power BI Premium?
 
@@ -21,9 +21,9 @@ Os relatórios paginados, o formato longo de relatório padrão no SQL Server Re
 
 Os relatórios paginados podem ter muitas páginas. Por exemplo, esse relatório tem 563 páginas. Cada página é disposta exatamente, com uma página por fatura e cabeçalhos e rodapés repetidos.
 
-![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+Experimente o [Laboratório prático: Criar um relatório paginado do Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
-![Relatório paginado no serviço do Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 Você pode visualizar o relatório no Construtor de Relatórios e publicá-lo no serviço do Power BI, https://app.powerbi.com. Você precisa de uma licença do Power BI Pro para publicar um relatório no serviço. É possível publicar e compartilhar relatórios paginados em Meu Workspace ou em workspaces, desde que o workspace esteja em uma capacidade do Power BI Premium. Além disso, um administrador do Power BI precisa habilitar relatórios paginados na [seção de capacidades Premium](service-admin-premium-workloads.md#paginated-reports) no portal de administração do Power BI. 
 
@@ -87,6 +87,6 @@ Aqui estão alguns outros recursos que não têm suporte na versão inicial:
 - [Instale o Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Tutorial: Criar um relatório paginado](paginated-reports-quickstart-aw.md)
 - [Inserir dados diretamente em um relatório paginado](paginated-reports-enter-data.md)
-
+- [Laboratório prático: Criar um relatório paginado do Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   
 

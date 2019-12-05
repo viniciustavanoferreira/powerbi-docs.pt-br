@@ -30,8 +30,12 @@
           href: dax-avoid-converting-blank.md
         - name: Práticas recomendadas para fluxos de dados
           href: ../service-dataflows-best-practices.md
-        - name: Diretrizes do modelo DirectQuery no Power BI Desktop
+        - name: Diretrizes sobre modelos de DirectQuery no Power BI Desktop
           href: directquery-model-guidance.md
+        - name: Estender visuais com dicas de ferramentas de página de relatório
+          href: report-page-tooltips.md
+        - name: Detalhamento de página de relatório
+          href: report-drillthrough.md
     - name: White papers
       items:
         - name: Visão geral dos white papers

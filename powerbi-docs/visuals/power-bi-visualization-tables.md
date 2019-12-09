@@ -2,20 +2,20 @@
 title: Visualizações de tabela em relatórios e painéis do Power BI
 description: Tutorial para trabalhar com visualizações de tabela em relatórios e painéis do Power BI, incluindo como redimensionar larguras de coluna.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bb20b9ecc43e73e85d798416fe0ddaabb98e12b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870800"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74830879"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelas em relatórios e dashboards do Power BI
 
@@ -130,7 +130,7 @@ Com a formatação condicional para tabelas, você pode especificar as cores da 
 
 1. Na caixa de diálogo exibida, defina cores para **Barra positiva**, **Barra negativa**, selecione a opção **Mostrar apenas a barra** e faça outras alterações desejadas.
 
-    ![marca de seleção para Mostrar apenas a barra](media/power-bi-visualization-tables/power-bi-data-bars.png)
+    ![marca de seleção para Mostrar apenas a barra](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
 1. Selecione **OK**.
 

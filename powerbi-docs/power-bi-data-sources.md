@@ -1,19 +1,19 @@
 ---
 title: Fontes de dados do Power BI
 description: Este artigo lista as fontes de dados compatíveis com o Power BI, incluindo informações sobre o DirectQuery e o gateway de dados local.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
-ms.author: mblythe
-ms.openlocfilehash: 5f0161afc2174ac3511c03fda6ada09f2a5e41de
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.author: kfollis
+ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74414293"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699718"
 ---
 # <a name="power-bi-data-sources"></a>Fontes de dados do Power BI
 

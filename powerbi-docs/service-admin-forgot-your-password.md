@@ -1,20 +1,20 @@
 ---
 title: Esqueceu sua senha para o Power BI?
 description: Se esqueceu a senha, você pode usar um link para solicitar uma redefinição de senha.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/13/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c4e13871e7ebf432e1478eb8d524f466bed9f0bc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7f5f24273b05666098376a2ef04a5dcaada6461b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873606"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74700040"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Esqueceu sua senha para o Power BI?
 

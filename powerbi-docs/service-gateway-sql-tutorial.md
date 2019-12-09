@@ -1,20 +1,20 @@
 ---
 title: 'Tutorial: Conectar-se a dados locais no SQL Server'
 description: Saiba como usar o SQL Server como uma fonte de dados do gateway, incluindo como atualizar dados.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881545"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699304"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar os dados de um banco de dados do SQL Server local
 
@@ -115,7 +115,7 @@ No Power BI Desktop, você se conectou diretamente ao banco de dados do SQL Serv
     | Nome da Fonte de Dados | AdventureWorksProducts |
     | Tipo de fonte de dados | SQL Server |
     | Servidor | O nome de sua instância do SQL Server, SQLServer01 (deve ser idêntico ao que você especificou no Power BI Desktop). |
-    | Banco de Dados | O nome do seu banco de dados do SQL Server, AdventureWorksDW (deve ser idêntico ao que você especificou no Power BI Desktop). |
+    | Banco de dados | O nome do seu banco de dados do SQL Server, AdventureWorksDW (deve ser idêntico ao que você especificou no Power BI Desktop). |
     | Método de Autenticação | Windows ou Basic (normalmente Windows). |
     | Nome de usuário | A conta de usuário que você usa para se conectar ao SQL Server. |
     | Senha | A senha da conta usada para se conectar ao SQL Server. |

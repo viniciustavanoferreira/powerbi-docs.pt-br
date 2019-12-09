@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164145"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548554"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Atualização automática de página no Power BI Desktop (visualização)
 
@@ -83,7 +83,7 @@ Em seguida, vamos examinar como é possível detectar e diagnosticar problemas d
 
 Você também pode definir intervalos de atualização automática de página para relatórios criados no Power BI Desktop e publicados no serviço do Power BI. 
 
-A atualização automática de página para relatórios no serviço do Power BI é configurada com etapas semelhantes à configuração no Power BI Desktop. A imagem a seguir mostra a configuração da **atualização de página** para o serviço do Power BI:
+A atualização automática de página para relatórios no serviço do Power BI é configurada com etapas semelhantes à configuração no Power BI Desktop. Quando configurada no serviço do Power BI, a atualização automática de página também é compatível com o conteúdo do [Power BI inserido](developer/embedding.md). A imagem a seguir mostra a configuração da **atualização de página** para o serviço do Power BI:
 
 ![Atualização automática de página no serviço do Power BI](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 

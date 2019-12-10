@@ -56,6 +56,8 @@
               href: end-user-interactions.md
             - name: Exportar um relatório para PDF
               href: end-user-pdf.md
+            - name: Exportar um relatório para o PowerPoint
+              href: end-user-powerpoint.md
             - name: Adicionar um indicador a um relatório
               href: end-user-bookmarks.md
             - name: Relatórios paginados no Power BI

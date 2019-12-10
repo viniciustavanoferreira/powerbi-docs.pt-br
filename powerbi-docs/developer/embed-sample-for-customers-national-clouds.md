@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565311"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695417"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserir conteúdo do Power BI a seu aplicativo para nuvens nacionais
 
@@ -54,7 +54,7 @@ Este artigo mostra o código usado na [amostra O Aplicativo Possui Dados](https:
 * GCC (Government Community Cloud):
 
     > [!NOTE]
-    > A inserção de conteúdo do Power BI de uma GCC (Nuvem da Comunidade Governamental) só pode ser realizada com um SKU do Office 356. Clientes do GCC High podem usar [SKUs do Office 356 ou do Azure](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365).
+    > A inserção de conteúdo do Power BI de uma GCC (Nuvem da Comunidade Governamental) só pode ser realizada com um SKU do Office 356. Outros clientes de nuvem nacional podem usar [SKUs do Office 356 ou do Azure](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365).
 
 1. Substitua o arquivo Cloud.config por GCCCloud.config content.
 

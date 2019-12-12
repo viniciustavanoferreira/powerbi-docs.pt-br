@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061812"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696272"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>Migrar para o novo powerbi-visuals-tools 3.x.x
 
@@ -39,7 +39,7 @@ Todas as etapas de migração para a nova versão das Ferramentas Visuais do Pow
 
 ## <a name="backward-compatibility"></a>Compatibilidade com versões anteriores
 
-As novas ferramentas possuem compatibilidade com versões anteriores para a base de código visual anterior, mas podem exigir algumas alterações adicionais para carregar bibliotecas externas.
+As novas ferramentas têm compatibilidade com versões anteriores para a base de código visual anterior, mas podem exigir algumas alterações adicionais para carregar bibliotecas externas.
 
 As bibliotecas, que dão suporte aos sistemas de módulo, serão importadas como módulos do Webpack. Todos os outros códigos-fonte visuais e bibliotecas serão encapsulados em um módulo.
 
@@ -81,7 +81,7 @@ Exemplo do visual sampleBarChart e as [alterações](https://github.com/Microsof
 
 A nova versão de powerbi-visual-tools não inclui todas as versões da API. Em vez disso, o desenvolvedor deve instalar uma versão específica do pacote [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api). A versão do pacote corresponde à versão da API dos Visuais Personalizados do Power BI e fornece todas as definições de tipo para a API dos Visuais Personalizados do Power BI.
 
-Adicione `powerbi-visuals-api` nas dependências do projeto executando o comando `npm install --save-dev powerbi-visuals-api`.
+Adicione `powerbi-visuals-api` às dependências do projeto executando o comando `npm install --save-dev powerbi-visuals-api`.
 E você deve remover o link das definições antigas de tipo de API. Porque os tipos de `powerbi-visuals-api` são incluídos automaticamente pelo Webpack. As alterações correspondentes estão [nesta](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14) linha de `package.json`.
 
 ## <a name="update-tsconfigjson"></a>Atualizar `tsconfig.json`
@@ -91,11 +91,11 @@ Para usar módulos externos, você deve alternar a opção `out` para `outDir`.
 
 É necessário porque os arquivos TypeScript serão compilados em arquivos JavaScript de forma independente. É por isso que você não precisa mais especificar o arquivo visual.js como uma saída.
 
-E você também pode alterar a opção `target` para `ES6` se quiser usar JavaScript moderno como uma saída. [É opcional](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/tsconfig.json#L6).
+E você também poderá alterar a opção `target` para `ES6` se quiser usar JavaScript moderno como uma saída. [É opcional](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/tsconfig.json#L6).
 
 ## <a name="update-custom-visuals-utils"></a>Atualizar utilitários de Visuais personalizados
 
-Se você usar um dos [powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils), também deverá atualizá-los para a versão mais recente.
+Se você usar um dos powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils), também deverá atualizá-los para a versão mais recente.
 
 Execute o comando `npm install powerbi-visuals-utils-<UTILNAME> --save`. (Ex.: `npm install powerbi-visuals-utils-dataviewutils --save` ) para obter a nova versão com módulos externos do TypeScript.
 

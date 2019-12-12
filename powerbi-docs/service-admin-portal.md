@@ -1,21 +1,21 @@
 ---
 title: Portal de administração do Power BI
 description: O portal de administração permite o gerenciamento de locatário do Power BI em sua organização. Ele inclui itens como métricas de uso, acesso ao Centro de administração do Microsoft 365 e configurações.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265905"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882892"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -247,11 +247,14 @@ A imagem a seguir mostra o menu **Arquivo** de um relatório quando a configura�
 ![Imprimir relatório](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização
-Os usuários convidados B2B do Azure podem editar e gerenciar conteúdo na organização. [Saiba mais](service-admin-azure-ad-b2b.md)
+Os usuários convidados do Azure Active Directory B2B podem editar e gerenciar conteúdo na organização. [Saiba mais](service-admin-azure-ad-b2b.md)
 
 A imagem a seguir mostra a opção de permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização.
 
 ![Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> Quando você adiciona um usuário externo a seu locatário do Azure AD (manualmente ou compartilhando um relatório com o usuário), a conta do usuário passa a ser detectável por contas internas. Um usuário interno pode compartilhar outras coisas com o usuário externo, mesmo que a conta interna não tenha permissões de compartilhamento externo.
 
 ### <a name="email-subscriptions"></a>Assinaturas de email
 Os usuários na organização podem criar assinaturas de email. Saiba mais sobre [assinaturas](service-report-subscribe.md).

@@ -1,23 +1,23 @@
 ---
 title: Mapas coropléticos no Power BI
-description: Documentação sobre como criar Mapas coropléticos no Power BI
+description: Documentação sobre como criar mapas coropléticos no Power BI
 author: mihart
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870955"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907766"
 ---
-# <a name="filled-maps-choropleths-in-power-bi"></a>Mapas coropléticos no Power BI
+# <a name="filled-maps-choropleth-in-power-bi"></a>Mapas coropléticos no Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -46,12 +46,12 @@ Mapas coropléticos são uma ótima opção:
 * para obter uma visão geral da distribuição entre os locais geográficos.
 
 ### <a name="prerequisites"></a>Pré-requisitos
-Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+Este tutorial usa o [Arquivo PBIX de exemplo de Vendas e Marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
 1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**.
    
-2. Encontre sua cópia do **arquivo PBIX de exemplo de Análise de Varejo**
+2. Localize sua cópia do **Arquivo PBIX de exemplo de vendas e marketing**
 
-1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Abra o **Arquivo PBIX de exemplo de Vendas e Marketing** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
 1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
@@ -63,7 +63,7 @@ Neste vídeo, Kim cria um mapa básico e o converte em um mapa coroplético.
    > 
    > 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
+[VÍDEO https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Criar um mapa coroplético
 1. No painel Campos, selecione o campo **Área geográfica** \> **Estado**.    
@@ -84,27 +84,27 @@ Neste vídeo, Kim cria um mapa básico e o converte em um mapa coroplético.
    ![Lista suspensa Estado com as opções Todos e AK não selecionadas](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 4. Selecione o ícone de rolo de tinta para abrir o painel Formatação e escolha **Cores de dados**.
 
-    ![Painel Formatação mostrando a opção Cores de dados](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
+    ![Painel Formatação mostrando a opção Cores de dados](media/power-bi-visualization-filled-maps-choropleths/power-bi-colors-data.png)
 
 5. Selecione os três pontos verticais e escolha **Formatação condicional**.
 
-    ![Botão de formatação condicional de cores de dados](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+    ![Botão de formatação condicional de cores de dados](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional.png)
 
-6. Use a tela **Cor padrão – Cores de dados** para determinar como seu mapa coroplético será sombreado. As opções disponíveis para você incluem em qual campo basear o sombreamento e como aplicar o sombreamento. Neste exemplo, estamos usando o campo **SalesFact** > **Sentimento** e definindo o valor mais baixo para sentimento como vermelho e o valor mais alto como verde. Os valores que ficam entre o máximo e o mínimo serão sombreados de vermelho e verde. A ilustração na parte inferior da tela mostra o intervalo de cores que serão usados. 
+6. Use a tela **Cor padrão – Cores de dados** para determinar como seu mapa coroplético será sombreado. As opções disponíveis para você incluem em qual campo basear o sombreamento e como aplicar o sombreamento. Neste exemplo, estamos usando o campo **SalesFact** > **Sentimento** e definindo o valor mais baixo para sentimento como laranja e o valor mais alto como azul. Os valores que ficam entre o máximo e o mínimo serão sombreados de laranja e azul. A ilustração na parte inferior da tela mostra o intervalo de cores que serão usados. 
 
-    ![Painel Cor padrão com Sentimento selecionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+    ![Painel Cor padrão com Sentimento selecionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-field.png)
 
-7. O mapa coroplético é sombreado em verde e vermelho, sendo que vermelho representa os números de sentimento inferiores e verde representando os sentimentos superiores, mais positivos.  Para exibir detalhes adicionais, arraste um campo para o espaço Dicas de ferramenta.  Aqui, adicionei **Lacuna de Sentimento** e destaquei o estado de Idaho (ID), e vi que essa lacuna de sentimento está baixa, em 6.
-   ![mapa coroplético mostrando as dicas de ferramenta de Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+7. O mapa coroplético é sombreado em verde e vermelho, sendo que vermelho representa os números de sentimento inferiores e verde representando os sentimentos superiores, mais positivos.  Para exibir detalhes adicionais, arraste um campo para o espaço Dicas de ferramenta.  Aqui, adicionamos **SalesFact** > **Lacuna de sentimento**. Realçar o estado de Idaho (ID) mostra que a lacuna de sentimento é baixa, em 6.
+   ![mapa coroplético mostrando as dicas de ferramenta de Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
 10. [Salve o relatório](../service-report-save.md).
 
-O Power BI fornece muito controle sobre a aparência de seu mapa coroplético. Familiarize-se com esses controles de cores de dados até obter a aparência desejada. 
+O Power BI fornece muito controle sobre a aparência de seu mapa coroplético. Familiarize-se com esses controles de cor dos dados até obter a aparência desejada. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
 Para obter informações sobre como usar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
 
-Realçar um local em um Mapa coroplético faz a filtragem cruzada com outras visualizações na página do relatório, e vice-versa.
+Realçar um local em um mapa coroplético faz a filtragem cruzada com outras visualizações na página do relatório e vice-versa.
 
 1. Para acompanhar, primeiro salve esse relatório selecionando **Arquivo > Salvar**. 
 
@@ -118,10 +118,10 @@ Realçar um local em um Mapa coroplético faz a filtragem cruzada com outras vis
 
    ![Mapa coroplético adicionado à página Sentimento](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. No mapa coroplético, selecione um estado.  Isso destaca e filtra cruzadamente as outras visualizações na página. Selecionar **Texas**, por exemplo, mostra que o Sentimento é 75 e que o Texas está no Distrito Central nº 23.   
-   ![Texas selecionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
+5. No mapa coroplético, selecione um estado.  Isso destaca e filtra cruzadamente as outras visualizações na página. Selecionar **Texas**, por exemplo, faz a filtragem cruzada dos cartões e realça de forma cruzada o gráfico de barras. Com isso, eu sei que o Sentimento é 75 e que o Texas está no Distrito Central nº 23.   
+   ![Texas selecionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. Selecione um ponto de dados no gráfico de linhas na VanArsdel – Sentimento por Mês. Isso filtra o mapa coroplético para mostrar os dados de Sentimento para VanArsdel, e não a concorrência.  
-   ![novo sombreamento](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)
+   ![novo sombreamento](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 Dados de mapa podem ser ambíguos.  Por exemplo, há uma Paris, França, mas também há uma Paris, no Texas. Seus dados geográficos provavelmente são armazenados em colunas separadas – uma coluna de nomes de cidades, uma coluna de nomes de estado ou província, etc. – portanto, o Bing pode não ser capaz de dizer qual Paris é. Se o seu conjunto de dados já contém dados de latitude e longitude, o Power BI tem campos especiais para ajudar a tornar os dados do mapa inequívocos. Basta arrastar o campo que contém os dados de latitude na área Visualizações \> Latitude.  E faça o mesmo para os dados de longitude.    
@@ -130,7 +130,7 @@ Dados de mapa podem ser ambíguos.  Por exemplo, há uma Paris, França, mas tam
 
 Se você tiver permissões para editar o conjunto de dados no Power BI Desktop, assista a este vídeo para obter ajuda e resolver a ambiguidade de mapa.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
+[VÍDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Se você não tiver acesso a dados de latitude e longitude, mas tiver acesso de edição ao conjunto de dados, [siga estas instruções para atualizar o conjunto de dados](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

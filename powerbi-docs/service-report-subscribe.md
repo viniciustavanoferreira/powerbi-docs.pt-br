@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099770"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831121"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Obtenha uma assinatura para você e outras pessoas de relatórios e dashboards no serviço do Power BI
 
@@ -38,7 +38,7 @@ Você não precisa editar permissões para o conteúdo (dashboard ou relatório)
 
 Se você está assinando um dashboard, um relatório ou um relatório paginado, o processo é semelhante. O mesmo botão permite que você assine os dashboards e relatórios do serviço do Power BI.
 
-Assinar relatórios paginados é um pouco diferente. Confira [Obter uma assinatura para você e para outras pessoas de um relatório paginado no serviço do Power BI](paginated-reports-subscriptions.md) para obter detalhes.
+Assinar relatórios paginados é um pouco diferente. Confira [Obter uma assinatura para você e para outras pessoas de um relatório paginado no serviço do Power BI](consumer/paginated-reports-subscriptions.md) para obter detalhes.
  
 ![selecione o ícone Assinar](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -107,6 +107,6 @@ Uma assinatura será encerrada se a licença Pro expirar, se o proprietário exc
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Obter uma assinatura para você e para outras pessoas de um relatório paginado no serviço do Power BI](paginated-reports-subscriptions.md)
+- [Obter uma assinatura para você e para outras pessoas de um relatório paginado no serviço do Power BI](consumer/paginated-reports-subscriptions.md)
 - Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)    
 - [Ler a postagem no blog](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

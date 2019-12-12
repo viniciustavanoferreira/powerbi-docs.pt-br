@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871727"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699074"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming em tempo real no Power BI
 Com o streaming em tempo real do Power BI, você pode transmitir dados e atualizar painéis em tempo real. Qualquer visual ou painel que possa ser criado no Power BI também pode ser criado para exibir e atualizar dados e visuais em tempo real. Os dispositivos e fontes de fluxo de dados podem ser sensores de fábrica, fontes de mídia social, métricas de uso do serviço e tudo o mais de que dados sensíveis ao tempo possam ser coletados ou transmitidos.
 
-![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+![Captura de tela mostrando os resultados dos sensores ambientais em tempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Este artigo mostra como configurar um conjunto de dados de streaming em tempo real no Power BI. Mas antes disso, é importante entender os tipos de conjuntos de dados em tempo real que são projetados para exibição em blocos (e dashboards), e como esses conjuntos de dados se diferem.
 
@@ -198,7 +198,7 @@ Neste exemplo, usamos um fluxo disponível publicamente do **PubNub**. Aqui est�
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
 5. De volta ao seu workspace do Power BI, crie um novo painel e, em seguida, adicione um bloco (consulte acima para ver as etapas, se necessário). Dessa vez, quando você criar um bloco e selecionar **Fluxo de Dados Personalizado**, terá um conjunto de fluxos de dados para trabalhar. Vá em frente e brinque com ele. Ao adicionar os campos *número* para os gráficos de linhas e, em seguida, adicionar outros blocos, você poderá obter um painel em tempo real que é semelhante ao seguinte:
    
-   ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+   ![Captura de tela mostrando os resultados dos sensores ambientais em tempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Experimente e brinque com o exemplo de conjunto de dados. Depois crie seus próprios conjuntos de dados e transmita dados dinâmicos ao Power BI.
 

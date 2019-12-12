@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c1f049f8ba8c7808001b8566b1d10424a1b2ed1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3ec372a51177e5979cdfbca8408e11801aefb414
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878343"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791584"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Usar cadeias de caracteres de formato personalizado no Power BI Desktop
 
@@ -51,7 +51,6 @@ A seguinte tabela mostra **símbolos de data** aceitos:
 | _mm_ | 01-12 (mês do ano, com um zero à esquerda, começando com Janeiro = 01) |
 | _mmm_ | Exibe nomes de meses abreviados (nomes de meses islâmicos não são abreviados) |
 | _mmmm_ | Exibe nomes de meses completos |
-| _a_ | 1-366 (dia do ano) |
 | _aa_ | 00-99 (dois últimos dígitos do ano) |
 | _aaaa_ | 100-9999 (ano de três ou quatro dígitos) |
 
@@ -79,7 +78,7 @@ Veja a seguir os exemplos de diferentes formatos para diferentes cadeias de cara
 | --- | --- | --- | --- | --- |
 | **Valores** | **0.00;-0.0;&quot;Zero&quot;** | **0,00;;** | **0,00;-0,0;** | **0,00;** |
 | **-1,234** | -1,2 | &quot;&quot; | -1,2 | &quot;&quot; |
-| **0** | &quot;Zero&quot; | &quot;&quot; | &quot;&quot; | 0.00 |
+| **0** | &quot;Zero&quot; | &quot;&quot; | &quot;&quot; | 0,00 |
 | **1,234** | 1,23 | 1,23 | 1,23 | 1,23 |
 
 A tabela a seguir identifica os **formatos de data e hora nomeados**:
@@ -121,7 +120,6 @@ A tabela a seguir identifica caracteres que você pode usar para criar **formato
 | mm | Exibe o mês como um número sem zero à esquerda (01-12). Se m vier em seguida de h ou hh, será exibido o minuto em vez do mês. |
 | mmm | Exibe o mês como uma abreviação (jan-dez). Localizado. |
 | mmmm | Exibe o mês como um nome de mês completo (janeiro-dezembro). Localizado. |
-| a | Exibe o dia do ano como um número (1-366). |
 | aa | Exibe o ano como um número de 2 dígitos (00-99). |
 | aaaa | Exibe o ano como um número de 4 dígitos (100-9999). |
 | h | Exibe a hora como um número sem zero à esquerda (0-23). |
@@ -146,7 +144,7 @@ A tabela a seguir identifica caracteres que você pode usar para criar **formato
 | ( **/** ) | Separador de data. Em algumas localidades, outros caracteres podem ser usados para representar o separador de data. O separador de data separa o dia, o mês e o ano quando os valores de data são formatados. O caractere real usado como o separador de data na saída formatada é determinado pelas configurações do sistema. |
 | ( **E- E+ e- e+** ) | Formato científico. Se a expressão do formato contiver pelo menos um espaço reservado de dígito ( **0** ou **#** ) à direita de E-, E+, e- ou e+, o número será exibido em formato científico e E ou e será inserido entre o número e seu expoente. O número de espaços reservados de dígito à direita determina o número de dígitos no expoente. Use E- ou e- para colocar um sinal de menos ao lado de expoentes negativos. Use E+ ou e+ para colocar um sinal de menos ao lado de expoentes negativos e um sinal de mais ao lado de expoentes positivos. |
 | **- + $**  ( ) | Exibe um caractere literal. Para exibir um caractere diferente dos listados, preceda-o com uma barra invertida (\) ou coloque-o entre aspas duplas (&quot; &quot;). |
-| ( * *\** ) | Exibe o próximo caractere na cadeia de caracteres de formato. Para exibir um caractere que tem significado especial como um caractere literal, preceda-o com uma barra invertida (\)). A barra invertida em si não é exibida. Usar uma barra invertida é como colocar o próximo caractere entre aspas duplas. Para exibir uma barra invertida, use duas barras invertidas (\\). Os exemplos de caracteres que não podem ser exibidos como caracteres literais são os caracteres de formatação de data e formatação de hora (a, c, d, h, m, n, p, q, s, t, w, y, / e :), os caracteres de formatação numérica (#, 0, %, E, e, vírgula e ponto) e os caracteres de formatação de cadeia de caracteres (@, &amp;, \&lt;, \&gt; e !). |
+| ( * *\** ) | Exibe o próximo caractere na cadeia de caracteres de formato. Para exibir um caractere que tem significado especial como um caractere literal, preceda-o com uma barra invertida (\)). A barra invertida em si não é exibida. Usar uma barra invertida é como colocar o próximo caractere entre aspas duplas. Para exibir uma barra invertida, use duas barras invertidas (\\). Exemplos de caracteres que não podem ser exibidos como caracteres literais são os caracteres de formatação de data e de formatação de hora (a, c, d, h, m, n, p, q, s, t, w, / e :), os caracteres de formatação numérica (#, 0, %, E, e, vírgula e ponto) e os caracteres de formatação de cadeia de caracteres (@, &amp;, \&lt;, \&gt; e !). |
 | (&quot;ABC&quot;) | Exibe a cadeia de caracteres entre aspas duplas (&quot; &quot;). |
 
 

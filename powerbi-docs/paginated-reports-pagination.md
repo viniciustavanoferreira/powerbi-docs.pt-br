@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/22/2019
-ms.openlocfilehash: d0f0abe15348d54f24143d69fcd6c0c2b71e9a34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: fced83abab1898724e165154fbc177ccf50ca061
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874777"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831253"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginação em relatórios paginados no Power BI
 
- A paginação refere-se ao número de páginas dentro de um relatório e à maneira como os itens do relatório são organizados nessas páginas. A paginação nos relatórios paginados do Power BI varia dependendo da extensão de renderização usada para exibir e entregar o relatório. Quando você executa um relatório no servidor de relatório, ele usa o renderizador HTML. O HTML segue um conjunto específico de regras de paginação. Se você exportar o mesmo relatório para PDF, por exemplo, o renderizador PDF será usado e um conjunto diferente de regras será aplicado; portanto, o relatório será paginado de forma diferente. Para criar com êxito um relatório fácil de ser lido para seus usuários que seja otimizado para o renderizador que você planeja usar para entregar seu relatório, é necessário entender as regras usadas para controlar a paginação em relatórios paginados do Power BI.  
+ *Paginação* refere-se ao número de páginas em um relatório e à maneira como os itens do relatório estão organizados nessas páginas. A paginação nos relatórios paginados do Power BI varia dependendo da extensão de renderização usada para exibir e entregar o relatório. Quando você executa um relatório no servidor de relatório, ele usa o renderizador HTML. O HTML segue um conjunto específico de regras de paginação. Se exportar o mesmo relatório para PDF, por exemplo, você estará usando o renderizador de PDF, que usa um conjunto de regras diferente. Portanto, o relatório é paginado de forma diferente. É necessário entender as regras usadas para controlar a paginação nos relatórios paginados do Power BI. Em seguida, você poderá criar um relatório de fácil leitura e otimizá-lo para o renderizador que planeja usar para entregar o relatório de maneira bem-sucedida.  
   
  Este tópico aborda o impacto do tamanho da página física e do layout do relatório sobre como a quebra de página impressa renderiza o relatório. É possível definir propriedades para modificar o tamanho e as margens da página física e dividir o relatório em colunas usando o painel **Propriedades do Relatório**, o painel **Propriedades** ou a caixa de diálogo **Configuração da Página**. Acesse o painel **Propriedades do Relatório** clicando na área azul fora do corpo do relatório. Acesse a caixa de diálogo **Configuração da Página** clicando em **Executar** na guia Início e, em seguida, clicando em **Configuração da Página** na guia Executar.  
   
@@ -30,7 +30,7 @@ ms.locfileid: "73874777"
  Você pode formatar o corpo do relatório com uma cor, estilo e largura de borda. Você também pode adicionar uma cor e uma imagem da tela de fundo.  
   
 ## <a name="the-physical-page"></a>A página física  
- O tamanho da página física é o tamanho do papel. O tamanho do papel especificado para o relatório controla a maneira como ele é renderizado. Relatórios renderizados em formatos de quebras rígidos de página inserem quebras de página horizontal e verticalmente com base no tamanho da página física para oferecer uma experiência de leitura otimizada quando impressos ou exibidos em um formato de arquivo de quebra de página impressa. Relatórios renderizados em formatos de quebras suaves de página inserem quebras de página horizontal com base no tamanho físico para oferecer uma experiência de leitura otimizada quando exibidos em um navegador da Web.  
+ O tamanho da página física é o tamanho do papel. O tamanho do papel especificado para o relatório controla a maneira como ele é renderizado. Os relatórios renderizados em formatos de quebra de página física inserem quebras de página horizontal e verticalmente com base no tamanho físico da página. Essas quebras de página fornecem uma experiência de leitura otimizada ao imprimir ou exibir os relatórios em um formato de arquivo com quebra de página física. Os relatórios renderizados em formatos de quebra suave de página inserem quebras de página horizontalmente com base no tamanho físico. Novamente, as quebras de página fornecem uma experiência de leitura otimizada ao exibir o relatório em um navegador da Web.  
   
  Por padrão, o tamanho da página é de 8,5 x 11 polegadas, mas você pode alterá-lo no painel **Propriedades do Relatório** ou na caixa de diálogo **Configuração da Página** ou alterando as propriedades PageHeight e PageWidth no painel **Propriedades**. O tamanho da página não aumenta ou diminui para acomodar o conteúdo do corpo do relatório. Se desejar que o relatório seja exibido em uma única página, todo o conteúdo dentro do corpo do relatório deverá se ajustar na página física. Se ele não se ajustar e você usar o formato de quebra de página impressa, então o relatório exigirá mais páginas. Se o corpo do relatório ultrapassar a borda direita da página física, a quebra de página será inserida horizontalmente. Se o corpo do relatório ultrapassar a borda inferior da página física, a quebra de página será inserida verticalmente.  
   
@@ -87,6 +87,6 @@ ms.locfileid: "73874777"
   
 ## <a name="next-steps"></a>Próximas etapas
 
-[Exibir um relatório paginado no serviço do Power BI](paginated-reports-view-power-bi-service.md)
+[Exibir um relatório paginado no serviço do Power BI](consumer/paginated-reports-view-power-bi-service.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

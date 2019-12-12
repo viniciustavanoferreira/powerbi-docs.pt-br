@@ -7,16 +7,18 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880914"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791782"
 ---
+- Onde está a linha de margem bruta do percentual de anos? Posso ter múltiplos gráficos de barras, mas não múltiplas linhas.
+
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizar as propriedades dos eixos x e y
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -171,7 +173,7 @@ Algumas visualizações podem se beneficiar de ter dois eixos Y. Os gráficos de
 
 ### <a name="create-a-chart-with-two-y-axes"></a>Crie um gráfico com dois eixos Y
 
-1. Selecione o gráfico de colunas e altere-o para um gráfico de *Linhas e colunas empilhadas*. 
+1. Selecione o gráfico de colunas e altere-o para um gráfico de *Linhas e colunas empilhadas*. Esse tipo de visual dá suporte a um valor de gráfico de linha única e a vários valores de colunas empilháveis. 
 
     ![Captura de tela do painel de Visualizações, com o ícone do gráfico de colunas empilhadas e linhas destacado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
@@ -185,7 +187,7 @@ Algumas visualizações podem se beneficiar de ter dois eixos Y. Os gráficos de
 
    ![Painel de Formato e gráfico de combinação com tamanho da fonte reduzido para 12](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-   O Power BI cria dois eixos Y permitindo que os valores sejam dimensionados de forma diferente. O eixo à esquerda calcula os dólares e o eixo à direita calcula o percentual.
+   O Power BI cria dois eixos Y permitindo que os valores sejam dimensionados de forma diferente. O eixo esquerdo calcula os dólares das vendas e o eixo direito calcula o percentual da margem bruta.
 
 ### <a name="format-the-second-y-axis"></a>Formatar o segundo eixo Y
 Como começamos com uma visualização com um eixo Y formatado, o Power BI criou o segundo eixo Y usando as mesmas configurações. Mas podemos alterar isso. 

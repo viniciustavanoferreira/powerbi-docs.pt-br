@@ -1,20 +1,20 @@
 ---
 title: Inscrever-se no Power BI como indivíduo
 description: Saiba como se inscrever no Power BI e comece a usá-lo para atender às suas necessidades análise e visualização de dados.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871535"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791637"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Inscrever-se no Power BI como indivíduo
 
@@ -68,7 +68,7 @@ Siga estas etapas para se inscrever para uma conta do Power BI. Depois de conclu
 
 ## <a name="trial-expiration"></a>Término da avaliação
 
-Depois de completar o processo de inscrição, você poderá se inscrever para uma avaliação do Power BI Pro no serviço do Power BI. Quando essa avaliação expirar, sua licença mudará de volta para uma licença do Power BI (gratuito). Após isso acontecer, você não terá mais acesso aos recursos que exigem uma licença do Power BI Pro. Para obter mais informações, veja [Recursos por tipo de licença](service-features-license-type.md).
+Depois de concluir o processo de inscrição, você poderá se inscrever para uma avaliação do Power BI Pro no serviço do Power BI. Quando essa avaliação expirar, sua licença mudará de volta para uma licença do Power BI (gratuito). Após isso acontecer, você não terá mais acesso aos recursos que exigem uma licença do Power BI Pro. Para obter mais informações, veja [Recursos por tipo de licença](service-features-license-type.md).
 
 Se uma licença do Power BI (gratuito) for suficiente, você não precisará fazer mais nada. Para aproveitar os recursos do Power BI Pro, entre em contato com o seu administrador de TI sobre como adquirir uma licença do Power BI Pro.
 

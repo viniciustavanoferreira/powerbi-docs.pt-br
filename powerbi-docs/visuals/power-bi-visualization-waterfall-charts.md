@@ -7,15 +7,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881961"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907582"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
 
@@ -63,9 +63,11 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://down
 
 Crie um gráfico de cascata que exibe a variação de vendas (vendas estimadas versus vendas reais) por mês.
 
+### <a name="build-the-waterfall-chart"></a>Criar o gráfico de cascata
+
 1. No painel **Campos**, selecione **Vendas** > **Variação do Total de Vendas**.
 
-   ![Captura de tela de vendas > Variação do Total de Vendas selecionada e o visual resultante.](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
+   ![Captura de tela de vendas > Variação do Total de Vendas selecionada e o visual resultante.](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
 1. Selecione o ícone de cascata ![Captura de tela do ícone de cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
@@ -73,41 +75,45 @@ Crie um gráfico de cascata que exibe a variação de vendas (vendas estimadas v
 
 1. Selecione **Hora** > **FiscalMonth** para adicioná-la à caixa **Categoria**.
 
-    ![cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
-1. Verifique se o Power BI classificou o gráfico de cascata em ordem cronológica. No canto superior direito do gráfico, selecione **Mais opções** (...).
+### <a name="sort-the-waterfall-chart"></a>Classificar o gráfico de cascata
 
-    Para este exemplo, selecionaremos **Classificar em ordem crescente**
+1. Certifique-se de que o Power BI classifique o gráfico de cascata em ordem cronológica por mês. No canto superior direito do gráfico, selecione **Mais opções** (...).
 
-    Verifique se há um indicador amarelo ao lado esquerdo de **Classificar em ordem crescente.** Isso indica que a opção selecionada está sendo aplicada.
+    Para este exemplo, selecione **Classificar por** e escolha **FiscalMonth**. Um indicador amarelo ao lado de sua seleção indica quando a opção de seleção está sendo aplicada.
 
-    ![Selecione Classificar por > Ordem crescente](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    ![Selecione classificar por > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
+    
+    Para exibir os meses em ordem cronológica, selecione **Classificação crescente**. Assim como na etapa anterior, verifique se há um indicador amarelo ao lado esquerdo de **Classificação crescente**. Isso indica que a opção selecionada está sendo aplicada.
 
-    Em seguida, vamos clicar em **Classificar por** e selecionar **FiscalMonth**. Assim como na etapa anterior, um indicador amarelo ao lado de sua seleção indica quando sua opção de seleção está sendo aplicada.
+    ![Selecione Classificar por > Ordem crescente](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
-    ![Selecione classificar por > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
+    
 
-    Você também pode examinar os valores do eixo X e ver se estão na ordem de **Jan** à **Ago**.
+    Observe que seu gráfico está classificado de janeiro a agosto com relação ao FiscalMonth.  
 
-    Aprofunde-se um pouco mais para ver o que está contribuindo mais para as alterações a cada mês.
+### <a name="explore-the-waterfall-chart"></a>Explorar o gráfico de cascata
+
+Aprofunde-se um pouco mais para ver o que está contribuindo mais para as alterações a cada mês.
 
 1.  Selecione **Repositório** > **Território**, que adicionará **Território** ao bucket **Divisão**.
 
     ![Mostra Repositório no bucket de Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    Por padrão, o Power BI adiciona os cinco principais colaboradores a aumentos ou diminuições por mês. A imagem abaixo expandiu nosso painel de visualização para incluir mais dados. 
+    O Power BI usa o valor em **Divisão** para adicionar mais dados à visualização. Ele adiciona os cinco principais colaboradores dos aumentos ou diminuições para cada mês fiscal. Isso significa que fevereiro, por exemplo, agora tem seis pontos de dados, em vez de apenas um.  
 
-    ![Mostra Repositório no bucket de Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
+    ![Mostra Repositório no bucket de Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
-    Você está interessado apenas nos dois colaboradores principais.
+    Digamos que você esteja interessado apenas nos dois colaboradores principais.
 
 1. No painel **Formato**, selecione **Divisão** e defina **Divisões máximas** para **2**.
 
-    ![Formato > Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Formato > Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
     Uma rápida análise revela que as regiões de Ohio e Pensilvânia são os maiores colaboradores para a movimentação, negativa e positiva, em nosso gráfico de cascata.
 
-    ![gráfico de cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+    ![gráfico de cascata](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 

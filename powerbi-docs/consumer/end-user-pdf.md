@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 11/27/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164188"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791650"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -62,6 +62,7 @@ Há algumas considerações e limitações para ter em mente ao trabalhar com o 
 * O serviço Power BI usa a configuração de idioma do Power BI como o idioma para a exportação do PDF. Para obter ou definir sua preferência de idioma, selecione o ícone de engrenagem ![Ícone de engrenagem](media/end-user-powerpoint/power-bi-settings-icon.png) > **Configurações** > **Geral** > **Idioma**.
 * No momento, os filtros de URL não são respeitados ao escolher **Valores atuais** para a exportação.
 * Relatórios com tamanhos de página personalizados incomuns podem apresentar problemas em cenários de exportação. Para obter melhores resultados, considere alternar para um tamanho de página padrão para seu relatório.
+* Ao exportar para PDF, relatórios que usam temas com fontes personalizadas terão a fonte personalizada substituída por uma padrão.
 
 ## <a name="next-steps"></a>Próximas etapas
 [Imprimir um relatório](end-user-print.md)

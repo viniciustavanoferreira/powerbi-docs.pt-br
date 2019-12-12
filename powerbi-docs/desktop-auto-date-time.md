@@ -8,20 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7453854376923fbb55376182a8674e5f3d7d1b63
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878796"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696154"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Data/hora automática no Power BI Desktop
 
-Este artigo se destina a modeladores de dados que estão desenvolvendo modelos de Importação ou Compostos no Power BI Desktop.
+Este artigo se destina a modeladores de dados que estão desenvolvendo modelos de Importação ou Compostos no Power BI Desktop. Ele apresenta e descreve a opção de _Data/hora automática_.
 
-## <a name="background"></a>Tela de fundo
-
-A _Data/hora automática_ é uma opção de carregamento de dados no Power BI Desktop. A finalidade dessa opção é oferecer suporte a relatórios de inteligência de dados temporais convenientes com base em colunas de data carregadas em um modelo. Especificamente, ele permite que os autores de relatório filtrem, agrupem e façam drill-down usando períodos do calendário sem exigir que o modelador o desenvolva explicitamente. Os períodos de tempo do calendário incluem anos, trimestres, meses e dias.
+A Data/hora automática é uma opção de carregamento de dados no Power BI Desktop. A finalidade dessa opção é oferecer suporte a relatórios de inteligência de dados temporais convenientes com base em colunas de data carregadas em um modelo. Especificamente, ela permite que os autores de relatórios usem seu modelo de dados para filtrar, agrupar e fazer drill-down usando períodos do calendário (anos, trimestres, meses e dias). O que é importante é que você não precisa desenvolver explicitamente essas funcionalidades de inteligência de dados temporais.
 
 Quando a opção está habilitada, o Power BI Desktop cria uma tabela de data/hora oculta automática para cada coluna de data, desde que todas as condições a seguir sejam verdadeiras:
 
@@ -34,11 +32,11 @@ Quando a opção está habilitada, o Power BI Desktop cria uma tabela de data/ho
 Cada tabela de data/hora automática é, na verdade, uma [tabela calculada](desktop-calculated-tables.md) que gera linhas de dados usando a função DAX [CALENDAR](/dax/calendar-function-dax). Cada tabela também inclui seis colunas calculadas: **Day**, **MonthNo**, **Month**, **QuarterNo**, **Quarter** e **Year**.
 
 > [!NOTE]
-> Os nomes e os valores de coluna são traduzidos e formatados de acordo com a [linguagem do modelo](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop).
+> O Power BI traduz e formata os nomes e valores da coluna de acordo com a [linguagem do modelo](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop).
 
-Também é criado um relacionamento entre a coluna **Data** da tabela de data/hora automática e a coluna de data do modelo.
+O Power BI Desktop também cria uma relação entre a coluna **Data** da tabela de data/hora automática e a coluna de data do modelo.
 
-A tabela de data/hora automática é carregada com os anos de calendário completos que abrangem todos os valores de data armazenados na coluna de data do modelo. Por exemplo, se o valor mais antigo em uma coluna de data for 20 de março de 2016 e o valor mais recente for 23 de outubro de 2019, a tabela conterá 1.461 linhas. Representa uma linha para cada data nos quatro anos civis de 2016 a 2019. Quando o modelo é atualizado, cada tabela de data/hora automática também é atualizada para garantir que sempre contenha datas que abrangem os valores de coluna de data.
+A tabela de data/hora automática contém os anos de calendário completos que abrangem todos os valores de data armazenados na coluna de data do modelo. Por exemplo, se o valor mais antigo em uma coluna de data for 20 de março de 2016 e o valor mais recente for 23 de outubro de 2019, a tabela conterá 1.461 linhas. Representa uma linha para cada data nos quatro anos civis de 2016 a 2019. Quando o Power BI atualiza o modelo, cada tabela de data/hora automática também é atualizada para garantir que contenha datas que abrangem os valores de coluna de data.
 
 Se fosse possível ver as linhas de uma tabela de data/hora automática, elas poderiam ter esta aparência:
 
@@ -65,7 +63,7 @@ Há, no entanto, uma funcionalidade adicional sem suporte em hierarquias normais
 
 ![Exemplo de uma configuração de campo visual para a hierarquia OrderDate. O menu de contexto aberto exibe duas opções, permitindo que a alternância use a coluna OrderDate ou a Hierarquia de Data.](media/desktop-auto-date-time/auto-date-time-configure-visuals-fields.png)
 
-Por fim, os cálculos de modelo, gravados em DAX, podem referenciar uma coluna de data diretamente ou as colunas da tabela de data/hora automática ocultas indiretamente.
+Por fim, os cálculos de modelo, gravados em DAX, podem referenciar uma coluna de data _diretamente_ ou as colunas da tabela de data/hora automática ocultas _indiretamente_.
 
 A fórmula escrita no Power BI Desktop pode fazer referência a uma coluna de data da maneira normal. As colunas da tabela de data/hora automáticas, no entanto, devem ser referenciadas usando uma sintaxe estendida especial. Você começa fazendo referência à coluna de data e, em seguida, seguindo-a por um ponto (.). A barra de fórmulas preenchimento automático permitirá que você selecione uma coluna da tabela de data/hora automática.
 

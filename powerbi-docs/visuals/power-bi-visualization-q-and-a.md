@@ -5,14 +5,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2019
+ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870851"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791798"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Introdução ao visual de P e R do Power BI
 
@@ -93,6 +93,10 @@ Se você não tiver certeza de que tipo de perguntas deve ser feita ou que termi
 6. Vamos alterar o visual para um gráfico de colunas. 
 
     ![Visual de P e R com "como um gráfico de colunas" adicionado à pergunta](media/power-bi-visualization-q-and-a/power-bi-specify-visual.png)
+
+7.  Adicione mais visuais à página de relatório e veja como o visual de P e R interage com os outros visuais na página. Neste exemplo, o visual de P e R fez a filtragem cruzada do gráfico de linhas e do mapa e realçou de forma cruzada o gráfico de barras.
+
+    ![Visual de P e R com uma barra selecionada e o impacto sobre os outros três visuais na página do relatório](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>Formatar e personalizar o visual de P e R
 O visual de P e R pode ser personalizado usando o painel de formatação e aplicando um tema. 

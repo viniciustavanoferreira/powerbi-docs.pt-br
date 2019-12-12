@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876735"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907927"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Agregações no Power BI Desktop
 
@@ -29,7 +29,7 @@ A lista a seguir oferece as vantagens de usar **agregações**:
 * **Obter arquiteturas equilibradas** – permita que o cache na memória do Power BI lide com consultas agregadas, o que ele faz com eficiência. Limite as consultas enviadas à fonte de dados no modo DirectQuery, ajudando a ficar dentro dos limites de simultaneidade. As consultas que passam tendem a ser filtradas, consultas de nível da transação, com as quais os data warehouses e sistemas de Big Data normalmente lidam bem.
 
 ### <a name="table-level-storage"></a>Armazenamento em nível de tabela
-Normalmente, o armazenamento em nível de tabela é usado com o recurso de agregações. Confira o artigo [Modo de armazenamento no Power BI Desktop](desktop-storage-mode.md) para saber mais.
+Normalmente, o armazenamento em nível de tabela é usado com o recurso de agregações. Para obter mais informações, confira o artigo [modo de armazenamento no Power BI Desktop](desktop-storage-mode.md).
 
 ### <a name="data-source-types"></a>Tipos de fontes de dados
 As agregações são usadas com fontes de dados que representam modelos dimensionais, como data warehouses, data marts e fontes de Big Data baseadas no Hadoop. Este artigo descreve as diferenças de modelagem típicas no Power BI para cada tipo de fonte de dados.
@@ -44,7 +44,7 @@ Considere o seguinte modelo, proveniente de uma única fonte de dados. Digamos q
 
 ![tabelas em um modelo](media/desktop-aggregations/aggregations_02.jpg)
 
-Em vez disso, criamos a tabela **Agregação de vendas** como uma tabela de agregação. Ela está em uma granularidade maior do que **Vendas** e, portanto, conterá muito menos linhas. O número de linhas deve ser igual à soma de **SalesAmount** agrupada por **CustomerKey**, **DateKey** e **ProductSubcategoryKey**. Em vez de bilhões, poderiam ser milhões de linhas, o que é muito mais fácil de gerenciar.
+Em vez disso, criamos a tabela **Agregação de vendas** como uma tabela de agregação. Ela tem uma granularidade maior do que a de **Vendas** e, portanto, contém bem menos linhas. O número de linhas deve ser igual à soma de **SalesAmount** agrupada por **CustomerKey**, **DateKey** e **ProductSubcategoryKey**. Em vez de bilhões, poderiam ser milhões de linhas, o que é muito mais fácil de gerenciar.
 
 Vamos supor que as seguintes tabelas de dimensões são mais comumente usadas para as consultas com alto valor de negócios. Elas são as tabelas que podem filtrar **Agregação de vendas** usando relações *um-para-muitos* (ou *muitos-para-um*).
 
@@ -92,8 +92,8 @@ O único caso no qual uma relação de *origem cruzada* é considerada forte é 
 
 Para ocorrências de agregação de *origem cruzada* que não dependem de relações, confira a seção abaixo sobre agregações com base em colunas "Agrupar por".
 
-### <a name="aggregation-tables-are-not-addressable"></a>As tabelas de agregação não são endereçáveis
-Os usuários com acesso somente leitura ao conjunto de dados não podem consultar tabelas de agregação. Isso previne preocupações de segurança no uso com RLS. Os consumidores e as consultas referem-se à tabela de detalhes, não à tabela de agregação; eles nem mesmo precisam saber que a tabela de agregação existe.
+### <a name="aggregation-tables-arent-addressable"></a>Tabelas de agregação não são endereçáveis
+Usuários com acesso somente leitura ao conjunto de dados não podem consultar tabelas de agregação. Isso previne preocupações de segurança no uso com RLS. Os consumidores e as consultas referem-se à tabela de detalhes, não à tabela de agregação; eles nem mesmo precisam saber que a tabela de agregação existe.
 
 Por esse motivo, a tabela **Sales Agg** deve estar oculta. Se não estiver, a caixa de diálogo Gerenciar agregações a definirá como oculta quando o usuário clicar no botão Aplicar tudo.
 
@@ -184,9 +184,9 @@ Em alguns casos, a função DISTINCTCOUNT pode se beneficiar de agregações. A 
 ### <a name="rls"></a>RLS
 As expressões RLS (segurança em nível de linha) devem filtrar a tabela de agregação e a tabela de detalhes para que funcionem corretamente. Após o exemplo, uma expressão RLS na tabela **Geografia** funcionará porque a Geografia está no lado da filtragem de relacionamentos tanto com a tabela **Vendas** quanto com a tabela **Agregação de Vendas**. Consultas que chegam à tabela de agregação e aquelas que não chegam têm RLS aplicado com êxito.
 
-![agregações gerenciam funções](media/desktop-aggregations/manage-roles.jpg)
+![agregações gerenciam funções](media/desktop-aggregations/manage-roles.png)
 
-Uma expressão RLS na tabela **Produto** filtraria apenas a tabela **Vendas**, não a tabela **Agregação de Vendas**. Isso não é recomendável. As consultas enviadas por usuários que acessam o conjunto de dado usando essa função não se beneficiarão de ocorrências de agregação. Como a tabela de agregação é outra representação dos mesmos dados na tabela de detalhes, não seria seguro responder a consultas da tabela de agregação porque o filtro RLS não pode ser aplicado.
+Uma expressão RLS na tabela **Produto** filtraria apenas a tabela **Vendas**, não a tabela **Agregação de Vendas**. Isso não é recomendado. As consultas enviadas por usuários que acessam o conjunto de dado usando essa função não se beneficiarão de ocorrências de agregação. Como a tabela de agregação é outra representação dos mesmos dados na tabela de detalhes, não seria seguro responder a consultas da tabela de agregação porque o filtro RLS não pode ser aplicado.
 
 Uma expressão RLS na própria tabela **Sales Agg** filtraria apenas a tabela de agregação, e não a tabela de detalhes. Isso não é permitido.
 
@@ -285,7 +285,7 @@ A seguinte consulta de inteligência de tempo não atingirá a agregação porqu
 
 ## <a name="caches-should-be-kept-in-sync"></a>Os caches devem ser mantidos em sincronia
 
-**Agregações** que combinam o modo de armazenamento DirectQuery e Importação e/ou Dual poderão retornar dados diferentes se o cache na memória não for mantido sincronizado com os dados de origem. A execução da consulta não tenta ocultar os problemas de dados, filtrando, por exemplo, os resultados de DirectQuery para coincidir com os valores armazenados em cache. Esses recursos são otimizações de desempenho e devem ser usados apenas de maneiras que não comprometam sua capacidade de atender aos requisitos de negócios. É sua responsabilidade conhecer seus fluxos de dados; portanto projete de acordo com isso. Há técnicas estabelecidas para lidar com esses problemas na origem, se necessário.
+**Agregações** que combinam o modo de armazenamento DirectQuery e Importação e/ou Dual poderão retornar dados diferentes se o cache na memória não for mantido sincronizado com os dados de origem. A execução da consulta não tenta ocultar os problemas de dados, filtrando, por exemplo, os resultados de DirectQuery para coincidir com os valores armazenados em cache. Esses recursos são otimizações de desempenho e devem ser usados apenas de maneiras que não comprometam sua capacidade de atender aos requisitos de negócios. É sua responsabilidade conhecer seus fluxos de dados; portanto, projete de acordo com eles. Há técnicas estabelecidas para lidar com esses problemas na origem, se necessário.
 
 ## <a name="next-steps"></a>Próximas etapas
 

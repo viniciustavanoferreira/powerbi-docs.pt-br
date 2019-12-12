@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c56433e27794798f2907f0d780002db96b2f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878073"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791322"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Níveis de privacidade do Power BI Desktop
 No **Power BI Desktop**, os níveis de privacidade especificam um nível de isolamento que define o grau que uma fonte de dados será isolada de outras fontes de dados. Apesar de o nível de isolamento restrito bloquear a troca de informações entre as fontes de dados, ele poderá reduzir a funcionalidade e causar um impacto no desempenho.
@@ -44,7 +44,7 @@ Para configurar um nível de privacidade da fonte de dados, selecione a fonte de
 > 
 
 ## <a name="configure-privacy-levels"></a>Configurar Níveis de Privacidade
-**Níveis de Privacidade** é uma configuração definida para **Combinar dados de acordo com as configurações de Nível de privacidade para cada fonte** por padrão, o que significa que **Níveis de Privacidade** não está habilitada.
+A configuração padrão dos **Níveis de Privacidade** é **Combine dados de acordo com sua configuração de Nível de Privacidade para cada fonte** por padrão, o que significa que os **Níveis de Privacidade** são impostos.
 
 | Configuração | Descrição |
 | --- | --- |

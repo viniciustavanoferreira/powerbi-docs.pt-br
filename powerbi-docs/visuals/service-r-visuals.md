@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099830"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698982"
 ---
 # <a name="r-visuals-in-power-bi"></a>Visuais do R no Power BI
 Atualmente, os visuais do R só podem ser criados no **Power BI Desktop** e, em seguida, publicados no serviço do Power BI. Para obter mais informações sobre como criar visuais do R, confira [Criar visuais do Power BI usando o R](../desktop-r-visuals.md).
@@ -94,6 +94,11 @@ Os visuais do R no serviço do Power BI têm algumas limitações:
 * Os visuais do R não são exibidos quando se usa o recurso **Publicar na Web**.
 * Atualmente, os visuais do R não são impressos com a impressão de dashboards e relatórios
 * Atualmente, não há suporte para os visuais do R no modo DirectQuery do Analysis Services
+* Os visuais do R podem converter rótulos de texto em elementos gráficos. Fazer isso na serviço do Power BI requer a seguinte etapa adicional:
+  
+  * Adicione a seguinte linha ao início do script de R:
+    
+        powerbi_rEnableShowText =  1
 * As fontes de chinês, japonês e coreano exigem todas as etapas adicionais a seguir para funcionar corretamente no serviço do Power BI:
   
   * Primeiro, instale o pacote de R *showtext* e todas as suas dependências. Você pode fazer isso executando o seguinte script:

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791607"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958392"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurar a atualização agendada
 
@@ -75,7 +75,7 @@ A seção sobre **Atualização agendada** é o local em que você define a freq
 Defina o controle deslizante **Manter seus dados atualizados** como **Ativar** para definir as configurações.
 
 > [!NOTE]
-> O serviço do Power BI tem como meta iniciar a atualização de dados dentro de **15 minutos** do horário de atualização agendado.
+> O objetivo é iniciar a atualização dentro de 15 minutos do slot de horário agendado, mas um atraso de até uma hora poderá ocorrer se o serviço não puder alocar os recursos necessários mais cedo.
 
 ![Caixa de diálogo Atualização agendada](media/refresh-scheduled-refresh/scheduled-refresh.png)
 

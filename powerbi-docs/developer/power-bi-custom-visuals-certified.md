@@ -8,92 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 05/9/2019
-ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.date: 12/02/2019
+ms.openlocfilehash: 0a39496ade27cd45fae116eea92ef4b472e04582
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565250"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999734"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um visual do Power BI
 
-## <a name="what-are-_certified_-power-bi-visuals"></a>O que são visuais do Power BI **_certificados_** ?
+Visuais do Power BI certificados são visuais nos *Marketplace* que cumprem determinados requisitos de *código especificado* que a *equipe do Microsoft Power BI* testou e aprovou. Os testes foram criados para verificar se o visual não acessa serviços ou recursos externos.
 
-Visuais do Power BI certificados são visuais nos **Marketplace** que cumprem determinados requisitos de **código especificado** que a **equipe do Microsoft Power BI** testou e aprovou. Depois que um visual personalizado é certificado, ele oferece mais recursos. Assim, você pode [exportar para o PowerPoint](../consumer/end-user-powerpoint.md) e pode exibir o visual em emails recebidos quando um usuário [assina páginas do relatório](../consumer/end-user-subscribe.md).
+Os visuais do Power BI certificados e os [visuais do Power BI padrão](power-bi-custom-visuals.md) são usados da mesma forma. Eles podem ser adicionados ao [Power BI Desktop](../desktop-what-is-desktop.md) e ao [serviço do Power BI](../power-bi-service-overview.md) e visualizados com o [Power BI Mobile](../consumer/mobile/mobile-apps-for-mobile-devices.md) e o [Power BI Embedded](embedding.md).
 
-**Visuais do Power BI certificados** são usados como [visuais do Power BI padrão](power-bi-custom-visuals.md). Visuais do Power BI certificados podem ser adicionados ao **serviço do Power BI**, a um **relatório do Power BI Desktop** e exibidos com o **Power BI mobile** e o **Power BI Embedded**.
+O processo de certificação é opcional. Fica a critério dos desenvolvedores decidir se desejam que seus visuais do Power BI no marketplace sejam certificados. Depois que um visual do Power BI é certificado, ele oferece mais recursos. Por exemplo, você pode [exportar para o PowerPoint](../consumer/end-user-powerpoint.md) ou exibir o visual em emails recebidos quando um usuário [assina páginas do relatório](../consumer/end-user-subscribe.md).
 
-Os testes executados foram projetados para verificar se o visual não acessa serviços ou recursos externos. A **Microsoft** *não* é a autora de visuais do Power BI de terceiros e recomenda aos clientes contatar o autor diretamente para verificar a funcionalidade do visual em questão.
+Visuais do Power BI não certificados não são necessariamente visuais não seguros. Alguns visuais não são certificados, pois não são compatíveis com um ou mais dos [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Por exemplo, conectar-se a um serviço externo, como o mapa de visuais, ou usar bibliotecas comerciais ou visuais.
 
-O processo de certificação é opcional e fica a critério dos desenvolvedores decidir se desejam que seus visuais no marketplace sejam certificados.  
+Se você for desenvolvedor da Web e tiver interesse em criar seus próprios visuais do Power BI e adicioná-los ao  [Microsoft AppSource](https://appsource.microsoft.com), comece pelo tutorial  [Desenvolver um visual do Power BI](visuals/custom-visual-develop-tutorial.md).
 
-**Visuais do Power BI não certificados** não são necessariamente visuais não seguros. Alguns visuais não são certificados, pois não são compatíveis com um ou mais dos [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Por exemplo, conectar-se a um serviço externo, como o mapa de visuais, ou usar bibliotecas comerciais ou visuais.
+> [!NOTE]
+> A **Microsoft** *não* é a autora de visuais do Power BI de terceiros. Recomendamos aos clientes contatar o autor diretamente para verificar a funcionalidade dos visuais de terceiros.
 
-Você é um desenvolvedor da Web e está interessado em criar suas próprias visualizações e adicioná-las ao  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Veja  **[Desenvolvimento de um visual personalizado do Power BI](visuals/custom-visual-develop-tutorial.md)** para saber mais.
+> [!IMPORTANT]
+> A Microsoft pode remover um visual do Power BI da [lista de certificados](#list-of-power-bi-visuals-that-have-been-certified) a seu próprio critério.
 
-## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Remoção dos visuais do Power BI certificados
+## <a name="certification-requirements"></a>Requisitos de certificação
 
-A Microsoft pode remover um elemento visual da [lista de certificados](#list-of-power-bi-visuals-that-have-been-certified) a seu critério.
-
-## <a name="getting-a-custom-visualcertified"></a>Certificando um visual personalizado
-
-### <a name="certification-requirements"></a>Requisitos de certificação
-
-Para [certificar](#get-a-power-bi-visual-certified) seu visual personalizado, verifique se ele cumpre o seguinte:  
-
-* Aprovado pelo Microsoft AppSource. Seu visual personalizado deve estar no nosso [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
-* O visual personalizado é gravado com a **versão 2.5 ou superior da API**.
-* O repositório de códigos está disponível para análise pela equipe do Power BI. Por exemplo, o código-fonte (JavaScript ou TypeScript) em formato legível por humanos está disponível para nós por meio do GitHub.
-
-    >[!Note]
-    > Você não precisa compartilhar publicamente seu código no Github.
-* Requisitos do repositório de códigos:
-   * Deve incluir o conjunto mínimo necessário de arquivos:
-      * .gitignore
-      * capabilities.json
-      * pbiviz.json
-      * package.json
-      * package-lock.json
-      * tsconfig.json
-   * Não deve incluir a pasta node_modules (adicionar node_modules ao arquivo .gitingore)
-   * O comando de **instalação npm** não deve retornar nenhum erro.
-   * O comando de **auditoria npm** não deve retornar nenhum aviso com nível alto ou moderado.
-   * O comando do **pacote pbiviz** não deve retornar nenhum erro.
-   * Deve incluir o [TSlint da Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) sem nenhuma configuração substituída, e esse comando não deve retornar nenhum erro de lint.
-   * O pacote compilado do Visual Personalizado deve corresponder ao pacote enviado (o hash MD5 de ambos os arquivos deve ser igual).
-* Requisitos do código-fonte:
-   * O visual deve ter suporte para [renderização da API de Eventos](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
-   * Garantir que nenhum código arbitrário/dinâmico seja executado (bad: eval(), não seguro para uso de setTimeout(), requestAnimationFrame(), setInterval (alguma função com entrada do usuário), executando entradas/dados do usuário).
-   * Garantir que o DOM seja manipulado de forma segura (bad: innerHTML, D3.html(<algumas entradas/dados do usuário>), e usar a limpeza para entradas/dados do usuário, antes de adicioná-lo ao DOM.
-   * Garantir que não haja erros/exceções de javascript no console do navegador para os dados de entrada. Os usuários podem usar seu visual com um intervalo diferente de dados inesperados, portanto o visual não deve falhar. Use [este relatório de exemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como um conjunto de dados de teste.
-
-* Se as propriedades em capabilities.json forem alteradas, verifique se elas não interrompem os relatórios existentes do usuário.
-
-* Garantir que o visual esteja em conformidade com as [diretrizes para visuais do Power BI](./guidelines-powerbi-visuals.md). **Não é permitido o uso de marcas-d'água**.
-
-* Usa somente componentes OSS analisáveis públicos (bibliotecas JS ou TypeScript públicos. O código-fonte está disponível para revisão e não tem vulnerabilidades conhecidas). Não podemos verificar um visual personalizado usando um componente comercial.
-
-* Não acessa serviços ou recursos externos, incluindo, entre outros, nenhuma solicitação HTTP/S ou WebSocket sai do Power BI para nenhum serviço. 
+Para [certificar](#get-a-power-bi-visual-certified) seu visual do Power BI, verifique se ele está em conformidade com os requisitos listados nesta seção. 
 
 > [!TIP]
 > Recomendamos que você use o EsLint com o conjunto de regras de segurança padrão para validar previamente seu código antes do envio.
 
-## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Processo para enviar um visual personalizado para certificação
+* Painel do Vendedor ou Partner Center da Microsoft aprovado. Seu visual do Power BI deve estar em nosso [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
+* O visual do Power BI é gravado com a *versão 2.5 ou superior da API*.
+* O repositório de código está disponível para revisão por meio da equipe do Power BI. Por exemplo, um formato legível do código-fonte (JavaScript ou TypeScript) está disponível para nós por meio do GitHub.
 
-Para enviar um visual personalizado para certificação:
+    >[!NOTE]
+    > Você não precisa compartilhar publicamente seu código no Github.
 
-1. Envie um email para a equipe de Suporte de Visuais do Power BI (pbicvsupport@microsoft.com). No email, inclua as seguintes informações:
-    * Título: Solicitação de certificação visual
-    * Link para o repositório do GitHub em que o código-fonte legível por humanos está hospedado
-    * [Cumprir os requisitos](#certification-requirements)
-    * Passar a revisão de código
+* Requisitos do repositório de códigos:
+  * Deve incluir estes arquivos:
+    * .gitignore
+    * capabilities.json
+    * pbiviz.json
+    * package.json
+    * package-lock.json
+    * tsconfig.json
+  * Não deve incluir a pasta *node_modules* (adicione *node_modules* ao arquivo .gitingore*).
+  * O comando de *npm install* não deve retornar erros.
+  * O comando *npm audit* não deve retornar avisos com nível alto ou moderado.
+  * O comando *pbiviz package* não deve retornar erros.
+  * Deve incluir o [TSlint da Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) sem nenhuma configuração substituída. Esse comando não deve retornar erros de lint.
+   * O pacote compilado do visual do Power BI deve corresponder ao pacote enviado (o hash md5 de ambos os arquivos deve ser igual).
+* Requisitos do código-fonte:
+   * O visual do Power BI deve ter suporte para a [Renderização da API de Eventos](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
+   * Garantir que nenhum código arbitrário/dinâmico seja executado (bad: eval(), não seguro para uso de setTimeout(), requestAnimationFrame(), setInterval (alguma função com entrada do usuário), executando entradas/dados do usuário).
+   * Garantir que o DOM seja manipulado de forma segura (bad: innerHTML, D3.html(<algumas entradas/dados do usuário>), e usar a limpeza para entradas/dados do usuário, antes de adicioná-lo ao DOM.
+   * Garantir que não haja erros ou exceções de javascript no console do navegador para os dados de entrada. Os usuários podem usar seu visual do Power BI com um intervalo diferente de dados inesperados, portanto, o visual não deve falhar. Use [este relatório de exemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como um conjunto de dados de teste.
 
-2. A equipe de Visuais do Power BI da Microsoft notifica você quando seu visual personalizado é certificado e adicionado à [lista de certificados](#list-of-power-bi-visuals-that-have-been-certified) ou rejeitado com um relatório dos problemas que precisam ser corrigidos. É responsabilidade do desenvolvedor manter uma linha aberta de comunicação com a Microsoft e atualizar os visuais certificados como necessário.
+* Se as propriedades no arquivo *capabilities.json* forem alteradas, verifique se elas não interrompem os relatórios existentes do usuário.
+
+* Garanta que o visual do Power BI esteja em conformidade com as [diretrizes para visuais do Power BI](./guidelines-powerbi-visuals.md).
+    
+* Seu código só pode usar componentes públicos OSS analisáveis, como bibliotecas Javascript ou TypeScript públicas. É preciso que o código-fonte fique disponível para revisão e não tenha vulnerabilidades conhecidas. Não podemos verificar um visual personalizado usando um componente comercial.
+
+* O visual do Power BI não deve acessar serviços ou recursos externos. Por exemplo, nenhuma solicitação HTTP/S ou WebSocket pode sair do Power BI para outros serviços. 
+
+## <a name="submitting-a-power-bi-visual-for-certification"></a>Enviar um visual do Power BI para certificação
+
+Você pode solicitar que seu visual do Power BI seja certificado pela equipe do Power BI por meio do Partner Center.
+
+>[!TIP]
+>O processo de certificação do Power BI pode demorar um pouco. Se você estiver criando um novo visual do Power BI, recomendamos que o publique por meio do Partner Center antes de solicitar a certificação do Power BI. Isso garante que a publicação do visual não seja adiada.
+
+Para solicitar a certificação do Power BI:
+
+1. Conecte-se ao Partner Center.
+2. Na **página Visão Geral**, escolha seu visual do Power BI e vá para a página de configuração do **Produto**.
+3. Marque a caixa de seleção **Solicitar a certificação do Power BI**.
+4. Na página **Revisar e publicar**, na caixa de texto **Notas para certificação**, forneça um link para o código-fonte e as credenciais necessárias para acessá-lo.
+
+>[!NOTE]
+> Se você estiver no meio de um processo de envio de visual do Power BI e precisar usar o [Painel do Vendedor](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (a antiga ferramenta de gerenciamento), confira as instruções em [Processo de envio da certificação do Painel do Vendedor](seller-dashboard.md#seller-dashboard-certification-submission-process).
 
 ## <a name="list-of-power-bi-visuals-that-have-been-certified"></a>Lista de visuais do Power BI que foram certificados
 
-| Link para AppSource | Link para o vídeo |
+| Link | Vídeo |
 | --- | --- |
 | [3AG Systems – Bar Chart With Relative Variance](https://appsource.microsoft.com/en/product/power-bi-visuals/WA104381912) (Sistemas 3AG – Gráfico de barras com variação relativa) | |
 | [3AG Systems – Column Chart With Relative Variance](https://appsource.microsoft.com/product/power-bi-visuals/WA104381803) (Sistemas 3AG – gráfico de colunas com variação relativa) | |

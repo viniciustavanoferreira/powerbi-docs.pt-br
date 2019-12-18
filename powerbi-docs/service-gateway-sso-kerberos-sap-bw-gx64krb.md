@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9588f13a857dc105dce3b3577df7c3b06df027ed
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699235"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000125"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>Usar o Kerberos para logon único (SSO) no SAP BW com gx64krb5
 
@@ -197,6 +197,8 @@ Caso ocorra algum dos problemas a seguir, siga estas etapas para solucionar prob
       ![Rastreamento CPIC](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
     c. Reproduza o problema e verifique se **CPIC\_TRACE\_DIR** contém arquivos de rastreamento. 
+    
+    d. Examine o conteúdo dos arquivos de rastreamento para determinar o problema de bloqueio. Por exemplo, você pode descobrir que o gx64krb5.dll não foi carregado corretamente ou que um usuário do Active Directory diferente daquele que você esperava iniciou a tentativa de conexão de SSO.
 
 ## <a name="next-steps"></a>Próximas etapas
 

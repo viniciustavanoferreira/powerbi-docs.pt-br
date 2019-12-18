@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699718"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958484"
 ---
 # <a name="power-bi-data-sources"></a>Fontes de dados do Power BI
 
-A tabela a seguir mostra as fontes de dados compatíveis com o Power BI, incluindo informações sobre o DirectQuery e o gateway de dados local.
+A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte relacionado a conjuntos de dados, incluindo informações sobre o DirectQuery e o gateway de dados local. Confira informações sobre fluxos de dados em [Conectar-se a fontes de dados para fluxos de dados do Power BI](service-dataflows-data-sources.md).
 
 | Fonte de dados | Conectar da Área de Trabalho | Conectar e atualizar do serviço | DirectQuery/conexão dinâmica | Gateway (com suporte) | Gateway (necessário) |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ A tabela a seguir mostra as fontes de dados compatíveis com o Power BI, incluin
 | Planview Enterprise One – CTM | Sim | Sim | Não | Não | Não |
 | Planview Enterprise One – PRM | Sim | Sim | Não | Não | Não |
 | Planview Projectplace | Sim | Sim | Não | Não | Não |
-| PostgreSQL | Sim | Sim | Não | Sim | Sim |
+| PostgreSQL | Sim | Sim | Sim | Sim | Sim |
 | Fluxos de dados do Power BI | Sim | Sim | Não | Não | Não |
 | Conjuntos de dados do Power BI | Sim | Sim | Sim | Não | Não |
 | Fluxos de dados do Power Platform | Sim | Sim | Não | Não | Não |

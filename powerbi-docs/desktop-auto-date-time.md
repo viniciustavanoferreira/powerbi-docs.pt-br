@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696154"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000148"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Data/hora automática no Power BI Desktop
 
@@ -36,7 +36,7 @@ Cada tabela de data/hora automática é, na verdade, uma [tabela calculada](desk
 
 O Power BI Desktop também cria uma relação entre a coluna **Data** da tabela de data/hora automática e a coluna de data do modelo.
 
-A tabela de data/hora automática contém os anos de calendário completos que abrangem todos os valores de data armazenados na coluna de data do modelo. Por exemplo, se o valor mais antigo em uma coluna de data for 20 de março de 2016 e o valor mais recente for 23 de outubro de 2019, a tabela conterá 1.461 linhas. Representa uma linha para cada data nos quatro anos civis de 2016 a 2019. Quando o Power BI atualiza o modelo, cada tabela de data/hora automática também é atualizada para garantir que contenha datas que abrangem os valores de coluna de data.
+A tabela de data/hora automática contém os anos de calendário completos que abrangem todos os valores de data armazenados na coluna de data do modelo. Por exemplo, se o valor mais antigo em uma coluna de data for 20 de março de 2016 e o valor mais recente for 23 de outubro de 2019, a tabela conterá 1.461 linhas. Representa uma linha para cada data nos quatro anos civis de 2016 a 2019. Quando o Power BI atualiza o modelo, cada tabela de data/hora automática também é atualizada. Dessa forma, o modelo sempre conterá datas que abrangem os valores da coluna de data.
 
 Se fosse possível ver as linhas de uma tabela de data/hora automática, elas poderiam ter esta aparência:
 
@@ -93,7 +93,8 @@ No Power BI Desktop selecione _Arquivo > Opções e configurações > Opções_ 
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Para obter mais informações sobre a data/hora automática e tópicos relacionados, confira os seguintes recursos:
+Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
+- [Diretrizes de data/hora automática no Power BI Desktop](guidance/auto-date-time.md)
 - [Definir e usar tabelas de datas no Power BI Desktop](desktop-date-tables.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

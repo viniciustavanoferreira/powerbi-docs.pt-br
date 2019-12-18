@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699304"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958416"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar os dados de um banco de dados do SQL Server local
 
@@ -49,6 +49,10 @@ Use o procedimento a seguir para criar um relatório básico do Power BI usando 
 2. Na caixa de diálogo, **Banco de dados do SQL Server**, digite os nomes do **Servidor** e do **Banco de dados (opcional)** , verifique se o **modo de Conectividade de Dados** é **Importar** e, em seguida, selecione **OK**.
 
     ![Banco de dados do SQL Server](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    Não estamos usando as **Opções avançadas** neste tutorial, mas você pode especificar uma instrução SQL e definir outras opções, como usar o [Failover do SQL Server](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server).
+
+    ![Opções avançadas do SQL Server](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. Verifique suas **credenciais** e selecione **Conectar**.
 

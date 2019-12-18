@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 1d176941f04bdaf06c9cdeda65271769098268fb
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265205"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999803"
 ---
 # <a name="visuals-in-power-bi"></a>Visuais no Power BI
 
@@ -168,11 +168,11 @@ Você tem duas opções para baixar e importar os visuais do Power BI: de dentro
 
 ## <a name="troubleshoot"></a>Solucionar problemas
 
-Para solucionar problemas, confira [Solução de problemas com visuais do Power BI](power-bi-custom-visuals-troubleshoot.md).
+Confira [Solução de problemas com visuais do Power BI](power-bi-custom-visuals-troubleshoot.md).
 
 ## <a name="faq"></a>PERGUNTAS FREQUENTES
 
-Para saber mais e solucionar suas dúvidas, acesse [Perguntas frequentes sobre os visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
+Saiba mais e solucione suas dúvidas nas [Perguntas frequentes sobre os visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
 
 ## <a name="next-steps"></a>Próximas etapas
 

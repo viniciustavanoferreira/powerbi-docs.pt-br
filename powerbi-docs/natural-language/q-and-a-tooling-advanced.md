@@ -7,19 +7,19 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875343"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958507"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Editar o esquema linguístico de P e R e adicionar frases no Power BI Desktop 
 Usar linguagem natural e expressões comuns para fazer perguntas sobre seus dados é eficiente. Ainda mais avançado é quando os seus dados respondem. Quando você faz uma pergunta para P e R do Power BI, ele se esforça para responder corretamente. Porém, para interações de P e R ainda melhores, você pode aprimorar as respostas. Uma maneira de fazer isso é editar o esquema linguístico. 
 
-Tudo começa com os dados empresariais.  Quanto melhor for o modelo de dados, mais fácil será para que os usuários recebam respostas de qualidade. Uma maneira de melhorar o modelo é adicionar um esquema linguístico que defina e categorize a terminologia e as relações entre os nomes de tabela e de coluna no conjunto de dados. O Power BI Desktop é onde você gerencia seus esquemas linguísticos. 
+Tudo começa com os dados empresariais.  Quanto melhor for o modelo de dados, mais fácil será para que os usuários recebam respostas de qualidade. Uma maneira de melhorar o modelo é adicionar um esquema linguístico que defina e categorize a terminologia e as relações entre os nomes de tabela e de coluna no conjunto de dados. O Power BI Desktop é onde você gerencia seus esquemas linguísticos. 
 
-Existem dois lados de P e R.  O primeiro lado é a preparação ou *modelagem*.  O segundo lado é fazer perguntas e explorar os dados ou *consumi-los*. Em algumas empresas, os funcionários conhecidos como *modeladores de dados* ou administradores de TI podem ser aqueles que montam os conjuntos de dados, criam os modelos de dados e publicam os conjuntos de dados no Power BI.  Um conjunto diferente de funcionários são aqueles que "consomem" os dados online.  Em outras empresas, essas funções podem ser combinadas. 
+Existem dois lados de P e R.  O primeiro lado é a preparação ou *modelagem*.  O segundo lado é fazer perguntas e explorar os dados ou *consumi-los*. Em algumas empresas, os funcionários conhecidos como *modeladores de dados* ou administradores de TI podem ser aqueles que montam os conjuntos de dados, criam os modelos de dados e publicam os conjuntos de dados no Power BI.  Um conjunto diferente de funcionários são aqueles que "consomem" os dados online.  Em outras empresas, essas funções podem ser combinadas. 
 
 Este artigo destina-se aos modeladores de dados, as pessoas que otimizam os conjuntos de dados para fornecer os melhores resultados de P e R possíveis. 
 

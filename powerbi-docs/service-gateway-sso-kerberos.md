@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/03/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699212"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000102"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurar o SSO baseado em Kerberos do serviço do Power BI para fontes de dados locais
 
@@ -66,6 +66,22 @@ Primeiro, determine se um SPN já foi criado para a conta de domínio usada como
    ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
    Também é possível definir o SPN usando o snap-in **Usuários e Computadores do Active Directory** do MMC.
+   
+### <a name="add-gateway-service-account-to-windows-authorization-and-access-group-if-required"></a>Se for preciso, adicione uma conta de serviço do gateway ao Grupo de Acesso e Autorização do Windows
+
+Em alguns cenários, a conta de serviço do gateway deve ser adicionada ao Grupo de Acesso e Autorização do Windows. Esses cenários incluem a proteção de segurança do ambiente do Active Directory e quando a conta de serviço do gateway e as contas de usuário que o gateway representará estiverem em domínios ou florestas separados. Apesar de não ser obrigatório, também é possível adicionar a conta de serviço do gateway ao Grupo de Acesso e Autorização do Windows em situações em que o domínio/floresta não tiver sido protegido.
+
+Confira mais informações em [Grupo de Acesso e Autorização do Windows](/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-winauthaccess).
+
+Para concluir esta etapa da configuração, para todo domínio que contiver usuários do Active Directory que você desejar que a conta de serviço do gateway possa representar:
+1. Conecte-se a um computador no domínio e inicie o snap-in do MMC chamado Usuários e Computadores do Active Directory.
+2. Localize o grupo **Grupo de Acesso e Autorização do Windows**, geralmente localizado no contêiner **Builtin**.
+3. Clique duas vezes no grupo e clique na guia **Membros**.
+4. Clique em **Adicionar** e altere o local do domínio para o domínio em que a conta de serviço do gateway reside.
+5. Digite o nome da conta de serviço do gateway e clique em **Verificar Nomes** para verificar se a conta de serviço de gateway está acessível.
+6. Clique em **OK**.
+7. Clique em **Aplicar**.
+8. Reinicie o serviço de gateway.
 
 ### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>Decida o tipo de delegação restrita de Kerberos a ser usado
 

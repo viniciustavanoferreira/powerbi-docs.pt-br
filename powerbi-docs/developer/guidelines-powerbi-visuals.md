@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565500"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000079"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes para visuais do Power BI
 Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) seu visual do Power BI no Microsoft AppSource para outras pessoas descobrirem e usarem, siga as diretrizes para criar uma experiência excelente para seus usuários.
@@ -50,7 +50,12 @@ Você pode usar uma janela pop-up para explicar como comprar uma licença quando
 
 ### <a name="submission-process"></a>Processo de envio
 
-Os desenvolvedores carregam seus visuais do Power BI com IAP para o Microsoft AppSource por meio do Painel do Vendedor, como eles vêm fazendo para visuais gratuitos. Para indicar que o visual do Power BI enviado tem recursos de IAP, os desenvolvedores devem escrever nas notas do Painel do Vendedor: "Visual com compra no aplicativo". Além disso, os desenvolvedores precisam fornecer um token ou chave de licença para que a equipe de validação poder validar os recursos de IAP. Depois que o visual do Power BI for validado e aprovado, a listagem do Microsoft AppSource para o visual do Power BI com IAP informará "Uma compra adicional pode ser necessária" nas opções de preço.
+Siga o [processo de envio](office-store.md#submitting-to-appsource), navegue até a guia *Configuração do produto* e marque a caixa de seleção *Meu produto requer a compra de um serviço*.
+
+Depois que o visual do Power BI for validado e aprovado, a listagem do Microsoft AppSource para o visual do Power BI com IAP informará "Uma compra adicional pode ser necessária" nas opções de preço.
+
+>[!NOTE]
+>Se o seu visual do Power BI já foi enviado usando o [Painel do Vendedor](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store), e você deseja adicionar um recurso de IAP, é necessário escrever nas notas do Painel do Vendedor: "Visual com compra no aplicativo". Você também precisa fornecer um token ou chave de licença para que a equipe de validação possa validar os recursos de IAP.
 
 ## <a name="context-menu"></a>Menu de contexto
 O menu de contexto é o menu de clique com o botão direito do mouse que é exibido quando o usuário passa o mouse sobre um visual.

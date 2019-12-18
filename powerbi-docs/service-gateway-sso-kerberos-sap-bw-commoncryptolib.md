@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697625"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000171"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Usar o logon único Kerberos de SSO para SAP BW usando CommonCryptoLib (sapcrypto.dll)
 
@@ -89,7 +89,7 @@ Este artigo descreve como configurar a fonte de dados do SAP BW para habilitar o
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Se não for possível atualizar o relatório no serviço do Power BI, use o rastreamento de gateway, CPIC e CommonCryptoLib para diagnosticar o problema. Como o rastreamento CPIC e o CommonCryptoLib são produtos do SAP, a Microsoft não pode oferecer suporte para eles. Para usuários do Active Directory que recebem acesso por meio do SSO ao BW, algumas configurações do Active Directory podem exigir que os usuários sejam membros do grupo de administradores no computador em que o gateway está instalado.
+Se não for possível atualizar o relatório no serviço do Power BI, use o rastreamento de gateway, CPIC e CommonCryptoLib para diagnosticar o problema. Como o rastreamento CPIC e o CommonCryptoLib são produtos do SAP, a Microsoft não pode oferecer suporte para eles.
 
 ### <a name="gateway-logs"></a>Logs do gateway
 
@@ -109,7 +109,49 @@ Se não for possível atualizar o relatório no serviço do Power BI, use o rast
 
    ![Rastreamento CPIC](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. Reproduza o problema e verifique se **CPIC\_TRACE\_DIR** contém arquivos de rastreamento.
+3. Reproduza o problema e verifique se **CPIC\_TRACE\_DIR** contém arquivos de rastreamento.
+ 
+    O rastreamento de CPIC pode diagnosticar problemas de nível superior, como uma falha ao carregar a biblioteca sapcrypto.dll. Por exemplo, veja um trecho de um arquivo de rastreamento de CPIC em que ocorreu um erro de carregamento de .dll:
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    Se você encontrar essa falha, mas tiver definido as permissões Ler e Executar em sapcrypto.dll e sapcrypto.ini, conforme descrito [na seção acima](#configure-sap-bw-to-enable-sso-using-commoncryptolib), tente definir as mesmas permissões Ler e Executar na pasta que contém os arquivos.
+
+    Se, mesmo assim, não conseguir carregar o arquivo .dll, tente ativar a [auditoria para o arquivo](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder). Examine os logs de auditoria resultantes no Visualizador de Eventos do Windows para ajudar a determinar porque o upload do arquivo está falhando. Procure uma entrada de falha iniciada pelo usuário representado do Active Directory. Por exemplo, para o usuário representado `MYDOMAIN\mytestuser`, uma falha no log de auditoria seria semelhante a esta:
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>Rastreamento de CommonCryptoLib 
 

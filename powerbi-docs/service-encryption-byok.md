@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698269"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958461"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Traga suas próprias chaves de criptografia para o Power BI (versão prévia)
 
@@ -30,7 +30,8 @@ Para usar o BYOK, você deve fazer upload dos dados no serviço do Power BI em u
 
 - Conexão dinâmica do Analysis Services
 - Pastas de trabalho do Excel (a menos que os dados sejam primeiramente importados no Power BI Desktop)
-- Conjuntos de dados por push
+- [Enviar conjuntos de dados por push](/rest/api/power-bi/pushdatasets)
+- [Fazer streaming de conjuntos de dados](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [Modelos grandes](service-premium-large-models.md)
 
 BYOK aplica-se apenas ao conjunto de dados associado ao arquivo PBIX, não aos caches de resultado da consulta para blocos e visuais.

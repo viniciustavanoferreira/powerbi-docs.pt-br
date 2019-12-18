@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102078"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999826"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Elementos visuais de organização no Power BI
 
@@ -55,10 +55,10 @@ Usuário final:
 
 ## <a name="troubleshoot"></a>Solucionar problemas
 
-Para saber mais sobre a solução de problemas, acesse [Solução de problemas com visuais do Power BI](power-bi-custom-visuals-troubleshoot.md).
+Saiba mais sobre a solução de problemas em [Solução de problemas com visuais do Power BI](power-bi-custom-visuals-troubleshoot.md).
 
 ## <a name="faq"></a>PERGUNTAS FREQUENTES
 
-Para saber mais e solucionar suas dúvidas, acesse [Perguntas frequentes sobre os visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
+Saiba mais e solucione suas dúvidas nas [Perguntas frequentes sobre os visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).

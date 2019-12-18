@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698476"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958645"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de usuário do Power BI Pro
 
-O Power BI Pro é uma licença de usuário individual que permite aos usuários ler e interagir com relatórios e dashboards que outros usuários publicaram na serviço do Power BI e compartilhar conteúdo e colaborar com outros usuários do Power BI Pro. Somente os usuários com uma licença de usuário do Power BI Pro podem publicar ou compartilhar conteúdo com outros usuários ou consumir conteúdo criado por outros usuários, a menos que esse conteúdo seja hospedado em uma capacidade do Power BI Premium. Para obter mais informações, consulte [Recursos do Power BI por tipo de licença](service-features-license-type.md).
+O Power BI Pro é uma licença de usuário individual que permite aos usuários ler e interagir com relatórios e dashboards que outros usuários publicaram na serviço do Power BI e compartilhar conteúdo e colaborar com outros usuários do Power BI Pro. Somente os usuários com uma licença de usuário do Power BI Pro podem publicar ou compartilhar conteúdo com outros usuários ou consumir conteúdo criado por outros usuários, a menos que esse conteúdo seja hospedado em uma capacidade do Power BI Premium. Leia mais informações na seção _Comparação de recursos do Power BI_ em [Preços do Power BI](https://powerbi.microsoft.com/pricing/).
 
 ## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de usuário do Power BI Pro
 

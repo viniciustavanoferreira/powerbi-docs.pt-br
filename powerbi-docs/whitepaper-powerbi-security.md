@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009826"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304351"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper de segurança do Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "74009826"
 
 O **Power BI** é uma oferta de serviço de software online (_SaaS_, ou Software como serviço) da Microsoft que permite que você crie de modo rápido e fácil dashboards, relatórios, conjuntos de dados e visualizações de Business Intelligence de autoatendimento. Com o Power BI, você pode se conectar a várias fontes de dados diferentes, combinar e moldar os dados usando essas conexões e criar relatórios e dashboards que podem ser compartilhados com outras pessoas.
 
-O serviço do Power BI é regido pelos [Termos de Serviços Online da Microsoft](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e a [Política de Privacidade do Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para o local de processamento de dados, consulte os termos de Local de Processamento de Dados nos Termos de Serviços Online da Microsoft. Para obter informações de conformidade, o [Microsoft Trust Center](https://www.microsoft.com/trustcenter) é o principal recurso para o Power BI. A equipe do Power BI está trabalhando duro para trazer a seus clientes as mais recentes inovações e produtividade. O Power BI está atualmente na camada D da [estrutura de conformidade do Office 365](https://go.microsoft.com/fwlink/p/?LinkID=618494).
+O serviço do Power BI é regido pelos [Termos de Serviços Online da Microsoft](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e a [Política de Privacidade do Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para o local de processamento de dados, consulte os termos de Local de Processamento de Dados nos Termos de Serviços Online da Microsoft. Para obter informações de conformidade, o [Microsoft Trust Center](https://www.microsoft.com/trustcenter) é o principal recurso para o Power BI. A equipe do Power BI está trabalhando duro para trazer a seus clientes as mais recentes inovações e produtividade. O Power BI está atualmente na camada D da [estrutura de conformidade do Office 365](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf).
 
 Este artigo descreve a segurança do Power BI dando uma explicação da arquitetura do Power BI, então explicando como os usuários são autenticados para o Power BI e as conexões de dados são estabelecidas e, por fim, descrevendo como o Power BI armazena e move os dados pelo serviço. A última seção é dedicada a perguntas relacionadas à segurança, sendo fornecidas respostas para cada uma.
 
@@ -135,7 +135,7 @@ A autenticação do usuário para o serviço do Power BI consiste em uma série 
 
 A sequência de autenticação de usuário para o serviço do Power BI ocorre conforme descrito nas próximas etapas, que são ilustradas nas imagens a seguir.
 
-1. Um usuário inicia uma conexão ao serviço do Power BI de um navegador digitando o endereço do Power BI na barra de endereços (como https://app.powerbi.com) ou selecionando _Entrar_ da página de aterrissagem do Power BI https://powerbi.microsoft.com) ). A conexão é estabelecida usando HTTPS e TLS 1.2, e todas as comunicações subsequentes entre o navegador e o serviço do Power BI usam HTTPS. A solicitação é enviada para o **Gerenciador de Tráfego do Azure**.
+1. Um usuário inicia uma conexão ao serviço do Power BI de um navegador digitando o endereço do Power BI na barra de endereços (como https://app.powerbi.com) ou selecionando _Entrar_ da página de aterrissagem do Power BI https://powerbi.microsoft.com)). A conexão é estabelecida usando HTTPS e TLS 1.2, e todas as comunicações subsequentes entre o navegador e o serviço do Power BI usam HTTPS. A solicitação é enviada para o **Gerenciador de Tráfego do Azure**.
 
 2. O **Gerenciador de Tráfego do Azure** verifica o registro DNS do usuário para determinar o datacenter mais próximo em que o Power BI é implantado e responde ao DNS com o endereço IP do WFE do cluster para o qual o usuário deve ser enviado.
 
@@ -192,7 +192,7 @@ Quando os dados estão em repouso, o serviço do Power BI armazena conjuntos de 
   - No gateway de dados local na infraestrutura do cliente – para fontes de dados locais
   - Na Função de Movimentação de Dados – para fontes de dados baseadas em nuvem
 
-A CEK (Chave de Criptografia de Conteúdo) usada para criptografar o armazenamento de Blobs do Microsoft Azure é uma chave de 256 bits gerada aleatoriamente. O algoritmo que a CEK usa para criptografar o conteúdo é AES\_CBC\_256.
+A CEK (chave de criptografia de conteúdo) usada para criptografar o armazenamento de BLOBs Microsoft Azure é uma chave de 256 bits gerada aleatoriamente. O algoritmo que a CEK usa para criptografar o conteúdo é AES\_CBC\_256.
 
 A KEK (Chave de Criptografia de Chave) usada para criptografar a CEK é uma chave de 256 bits predefinida. O algoritmo por KEK para criptografar a CEK é A256KW.
 
@@ -259,7 +259,7 @@ O Power BI fornece monitoramento de integridade de dados das seguintes maneiras:
 
     &ensp; &ensp; b. Relatórios do Power BI, os dados estáticos são armazenados e criptografados no armazenamento de Blobs do Azure.
 
-3. caches
+3. Caches
 
     &ensp; &ensp; a. Para relatórios criados com o Excel para o Office 365, nada é armazenado em cache.
 
@@ -372,7 +372,7 @@ As perguntas a seguir são perguntas e respostas de segurança comuns para o Pow
 
 **Como os usuários se conectam e obtêm acesso a fontes de dados durante o uso do Power BI?**
 
-* **Credenciais de Power bi e credenciais de domínio:** Os usuários entram no Power BI usando um endereço de email; Quando um usuário tenta se conectar a um recurso de dados, Power BI passa o endereço de email de logon do Power BI como credenciais. Para recursos conectados ao domínio (locais ou baseados em nuvem), o email de logon é combinado com um _nome UPN_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) pelo serviço de diretório para determinar se há credenciais suficientes para permitir o acesso. Para organizações que usam endereços de email com base no trabalho para entrar no Power BI (o mesmo email que usam para fazer logon em recursos de trabalho, como _david@contoso.com_ ), o mapeamento pode ocorrer diretamente; para organizações que não usam endereços de email baseados no trabalho (como _david@contoso.onmicrosoft.com_ ), o mapeamento de diretório deve ser estabelecido para permitir o acesso a recursos locais com credenciais de logon do Power BI.
+* **Credenciais de Power bi e credenciais de domínio:** Os usuários entram no Power BI usando um endereço de email; Quando um usuário tenta se conectar a um recurso de dados, Power BI passa o endereço de email de logon do Power BI como credenciais. Para recursos conectados ao domínio (locais ou baseados em nuvem), o email de logon é combinado com um _nome UPN_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) pelo serviço de diretório para determinar se há credenciais suficientes para permitir o acesso. Para organizações que usam endereços de email com base no trabalho para entrar no Power BI (o mesmo email que usam para fazer logon em recursos de trabalho, como _david@contoso.com_), o mapeamento pode ocorrer diretamente; para organizações que não usam endereços de email baseados no trabalho (como _david@contoso.onmicrosoft.com_), o mapeamento de diretório deve ser estabelecido para permitir o acesso a recursos locais com credenciais de logon do Power BI.
 
 * **SQL Server Analysis Services e Power bi:** Para organizações que usam SQL Server Analysis Services locais, o Power BI oferece o gateway de dados local Power BI (que é um **Gateway**, como referenciado nas seções anteriores).  O gateway de dados local do Power BI pode impor RLS (Segurança em Nível de Função) em fontes de dados. Para obter mais informações sobre RLS, veja **Autenticação do usuário para fontes de dados** anteriormente neste documento. Para obter mais informações sobre gateways, consulte [Gateway de dados local](service-gateway-onprem.md).
 
@@ -394,7 +394,7 @@ As perguntas a seguir são perguntas e respostas de segurança comuns para o Pow
 
 **E quanto à segurança baseada em função, compartilhamento de relatórios ou painéis e conexões de dados? Como isso funciona em termos de acesso a dados, exibição de painel, acesso de relatório ou atualização?**
 
-* Para fontes de dados não habilitadas para **RLS (Segurança em Nível de Função)** , se um dashboard, relatório ou modelo de dados for compartilhado com outros usuários por meio do Power BI, os dados então estarão disponíveis para usuários com os quais eles são compartilhados para exibição e interação. O Power BI *não* autentica novamente os usuários com relação à fonte original dos dados. Depois que os dados são carregados para o Power BI, o usuário autenticado em relação aos dados de origem é responsável por gerenciar que outros usuários e grupos podem ser exibir os dados.
+* Para fontes de dados não habilitadas para **RLS (Segurança em Nível de Função)**, se um dashboard, relatório ou modelo de dados for compartilhado com outros usuários por meio do Power BI, os dados então estarão disponíveis para usuários com os quais eles são compartilhados para exibição e interação. O Power BI *não* autentica novamente os usuários com relação à fonte original dos dados. Depois que os dados são carregados para o Power BI, o usuário autenticado em relação aos dados de origem é responsável por gerenciar que outros usuários e grupos podem ser exibir os dados.
 
   Quando as conexões de dados são feitas em uma fonte de dados com capacidade para **RLS**, como uma fonte de dados do Analysis Services, apenas dados do dashboard são armazenados em cache no Power BI. Sempre que é exibido ou acessado no Power BI um relatório ou conjunto de dados que usa dados da fonte de dados compatíveis com RLS, o serviço do Power BI acessa a fonte de dados para obter os dados com base nas credenciais do usuário e, se houver permissões suficientes, os dados serão carregados no relatório ou modelo de dados para esse usuário. Se a autenticação falhar, o usuário verá um erro.
 

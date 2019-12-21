@@ -1,6 +1,6 @@
 ---
 title: Usar o Performance Analyzer para examinar o desempenho do elemento de relatório no Power BI Desktop
-description: Descubra como os visuais e elementos de relatório estão sendo executados em termos de uso de recursos e capacidade de resposta
+description: Descubra o desempenho dos visuais e elementos de relatório em termos de uso de recursos e capacidade de resposta
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -18,7 +18,7 @@ ms.locfileid: "73866420"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Usar o Performance Analyzer para examinar o desempenho do elemento de relatório
 
-No **Power BI Desktop**, você pode descobrir como cada um de seus elementos de relatório, como visuais e fórmulas DAX, estão sendo executados. Usando o **Performance Analyzer**, você pode ver e registrar logs que medem como cada um de seus elementos de relatório é executado quando os usuários interagem com eles e quais aspectos de seu desempenho consomem mais (ou menos) recursos.
+No **Power BI Desktop**, você pode descobrir o desempenho de cada um de seus elementos de relatório, como visuais e fórmulas DAX. Usando o **Performance Analyzer**, você pode ver e registrar logs que medem o desempenho de cada um de seus elementos de relatório quando os usuários interagem com eles e quais aspectos do desempenho consomem mais (ou menos) recursos.
 
 ![Analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-01.png)
 
@@ -42,21 +42,21 @@ Para que o Performance Analyzer comece a gravar, basta selecionar **Iniciar grav
 
 As ações executadas no relatório são exibidas e registradas no painel do Performance Analyzer, na ordem em que o visual é carregado pelo Power BI. Por exemplo, talvez os usuários tenham dito que um relatório demora muito para ser atualizado. Ou determinados visuais em um relatório demoram muito para serem exibidos quando uma segmentação é ajustada. O Performance Analyzer pode informar qual visual é o culpado e identificar quais aspectos do visual estão demorando mais para serem processados. 
 
-Depois de iniciar a gravação, o botão **Iniciar gravação** fica esmaecido (inativo, pois você já começou a gravar) e o botão **Parar** fica ativo. 
+Depois que você inicia a gravação, o botão **Iniciar gravação** fica esmaecido (inativo, pois você já começou a gravar), e o botão **Parar** fica ativo. 
 
 O Performance Analyzer coleta e exibe as informações de medição do desempenho em tempo real. Portanto, sempre que você clica em um visual, move uma segmentação ou interage de qualquer outra maneira, o Performance Analyzer exibe imediatamente os resultados de desempenho em seu painel.
 
-Se o painel tiver mais informações que possam ser exibidas, uma barra de rolagem será exibida para navegar até informações adicionais.
+Se o painel tiver mais informações do que o máximo que puder ser exibido, uma barra de rolagem será exibida para navegar até informações adicionais.
 
 Cada interação tem um identificador de seção no painel, descrevendo a ação que iniciou as entradas do log. Na imagem a seguir, a interação era que os usuários alterassem uma segmentação.
 
 ![Seções baseadas no tipo de interação](media/desktop-performance-analyzer/performance-analyzer-04.png)
 
-As informações de log de cada visual inclui o tempo gasto (duração) para concluir as seguintes categorias de tarefas:
+As informações de log de cada visual incluem o tempo gasto (duração) para concluir as seguintes categorias de tarefas:
 
-* **Consulta DAX** – se uma consulta DAX foi exigida, esse é o tempo entre o visual enviar a consulta e o Analysis Services retornar os resultados.
-* **Exibição do visual** – o tempo necessário para o visual ser desenhado na tela, incluindo o tempo necessário para recuperar imagens da Web ou geocodificação. 
-* **Outro** – tempo exigido pelo Visual para preparar consultas, aguardar a conclusão de outros visuais ou executar outros processamentos em segundo plano.
+* **Consulta DAX** – se uma consulta DAX foi exigida, esse é o tempo entre o envio da consulta pelo visual e o retorno dos resultados pelo Analysis Services.
+* **Exibição do visual** – o tempo necessário para o visual ser desenhado na tela, incluindo o tempo necessário para recuperar imagens da Web ou geocódigo. 
+* **Outro** – tempo exigido pelo visual para preparar consultas, aguardar a conclusão de outros visuais ou executar outros processamentos em segundo plano.
 
 ![elementos de informações de log](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
@@ -68,7 +68,7 @@ Para limpar as informações no painel do Performance Analyzer, selecione **Limp
 
 Você pode selecionar **Atualizar visuais** no painel do Performance Analyzer para atualizar todos os visuais na página atual do relatório e, assim, fazer o Performance Analyzer coletar informações sobre todos esses visuais.
 
-Você também pode atualizar visuais individuais. Quando o Performance Analyzer está gravando, você pode selecionar **Atualizar este visual** encontrado no canto superior direito de cada visual para atualizá-lo e capturar suas informações de desempenho.
+Você também pode atualizar visuais individuais. Quando o Performance Analyzer está gravando, você pode selecionar **Atualizar este visual** no canto superior direito de cada visual para atualizá-lo e capturar informações de desempenho.
 
 ![atualizar um visual individual](media/desktop-performance-analyzer/performance-analyzer-07.png)
 

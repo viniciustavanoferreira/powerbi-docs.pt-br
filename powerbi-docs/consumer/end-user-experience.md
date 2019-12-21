@@ -56,7 +56,7 @@ Dentro do Meu Workspace, seu conteúdo é organizado em quatro guias: Painéis, 
 
 ![Tela Meu workspace](./media/end-user-experience/power-bi-my-workspace.png)
 
-Selecione um workspace no painel de navegação e as guias do conteúdo associado (dashboards, relatórios, pastas de trabalho, conjuntos de dados) preencherão a tela do Power BI à direita.
+Selecione um workspace no painel de navegação, e as guias do conteúdo associado (dashboards, relatórios, pastas de trabalho, conjuntos de dados) preencherão a tela do Power BI à direita.
 
 Se você for um novo usuário, haverá somente um workspace – **Meu Workspace**.
 

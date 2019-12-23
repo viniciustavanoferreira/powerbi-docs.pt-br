@@ -7,127 +7,127 @@
     - name: Início rápido
       expanded: true
       items:
-        - name: Conectar-se a dados
+        - name: Conectar-se a dados no Power BI Desktop
           href: desktop-quickstart-connect-to-data.md
     - name: Tutoriais
       items:
         - name: Formatar e combinar várias fontes de dados
           href: desktop-shape-and-combine-data.md
-        - name: Como importar e analisar dados de uma página da Web com o Power BI Desktop
+        - name: Importar e analisar os dados de uma página da Web
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Como analisar dados de vendas do Excel e de um feed OData'
+        - name: Analisar dados de vendas do Excel e de um feed OData
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Criar suas próprias medidas no Power BI Desktop
+        - name: Criar suas próprias medidas
           href: desktop-tutorial-create-measures.md
-        - name: Criar colunas calculadas no Power BI Desktop
+        - name: Criar colunas calculadas
           href: desktop-tutorial-create-calculated-columns.md
-        - name: Análise do Facebook com o Power BI Desktop
+        - name: Analisar dados do Facebook
           href: desktop-tutorial-facebook-analytics.md
-        - name: Segurança de nível de linha dinâmica com o modelo de tabela de Serviços de Análise
+        - name: Implementar segurança em nível de linha em um modelo de tabela do Analysis Services
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Exemplos
       items:
-        - name: Exemplos para o Power BI
+        - name: Obter dados de exemplo para o Power BI
           href: sample-datasets.md
-        - name: Usando os pacotes de conteúdo de exemplo
+        - name: Importar e abrir pacotes de exemplo
           href: sample-tutorial-connect-to-the-samples.md
-        - name: 'Exemplo de lucratividade do cliente: Faça um tour'
+        - name: 'Faça um tour: Exemplo de Rentabilidade do Cliente'
           href: sample-customer-profitability.md
-        - name: 'Exemplo de análise de gastos de TI: Faça um tour'
+        - name: 'Faça um tour: Exemplo de Análise de Gastos de TI'
           href: sample-it-spend.md
-        - name: 'Exemplo de recursos humanos: Faça um tour'
+        - name: 'Faça um tour: Exemplo de Recursos Humanos'
           href: sample-human-resources.md
-        - name: 'Exemplo de análise de oportunidade: Faça um tour'
+        - name: 'Faça um tour: Exemplo de Análise de Oportunidade'
           href: sample-opportunity-analysis.md
-        - name: 'Exemplo de análise de compras: Faça um tour'
+        - name: 'Faça um tour: Exemplo de Análise de Compras'
           href: sample-procurement.md
-        - name: 'Exemplo de análise de varejo: Faça um tour'
+        - name: 'Faça um tour: Exemplo de Análise de Varejo'
           href: sample-retail-analysis.md
-        - name: 'Exemplo de vendas e marketing: Faça um tour'
+        - name: 'Faça um tour: Exemplo de vendas e marketing'
           href: sample-sales-and-marketing.md
-        - name: 'Exemplo de análise de qualidade do fornecedor: Faça um tour'
+        - name: 'Faça um tour: Exemplo de análise da qualidade do fornecedor'
           href: sample-supplier-quality.md
         - name: Baixar a pasta de trabalho de Exemplo Financeiro
           href: sample-financial-download.md
     - name: Conceitos
       items:
-        - name: Novidades na atualização mais recente do Power BI Desktop
+        - name: O que há de novo no Power BI Desktop?
           href: desktop-latest-update.md
-        - name: Modelar relações no Power BI Desktop
+        - name: Criar relações de modelo
           href: desktop-relationships-understand.md
-        - name: Agrupamento de visuais no Power BI Desktop
+        - name: Agrupar visuais em um relatório
           href: desktop-grouping-visuals.md
-        - name: Uso de modelos no Power BI Desktop
+        - name: Usar modelos
           href: desktop-templates.md
-        - name: Exibição de Modelagem no Power BI Desktop
+        - name: Trabalhar com a exibição de modelagem
           href: desktop-modeling-view.md
-        - name: Agregações no Power BI Desktop
+        - name: Gerenciar agregações
           href: desktop-aggregations.md
-        - name: Modelos compostos no Power BI Desktop
+        - name: Usar modelos compostos
           href: desktop-composite-models.md
-        - name: Relações muitos para muitos no Power BI Desktop
+        - name: Usar relações muitos para muitos
           href: desktop-many-to-many-relationships.md
-        - name: Modo de armazenamento no Power BI Desktop (versão prévia)
+        - name: Gerenciar modo de armazenamento
           href: desktop-storage-mode.md
-        - name: Filtragem cruzada bidirecional no Power BI Desktop
+        - name: Usar filtragem cruzada bidirecional
           href: desktop-bidirectional-filtering.md
-        - name: Power BI e DirectQuery
+        - name: Sobre o uso do DirectQuery no Power BI
           href: desktop-directquery-about.md
-        - name: Fontes de dados com suporte do DirectQuery
-          href: desktop-directquery-data-sources.md
+        - name: Fontes de dados do Power BI compatíveis com o DirectQuery
+          href: power-bi-data-sources.md
         - name: Pré-requisitos de fonte de dados do Power BI
           href: desktop-data-source-prerequisites.md
-        - name: Membro padrão em modelos multidimensionais no Power BI
+        - name: Trabalhar com modelos multidimensionais no Power BI
           href: desktop-default-member-multidimensional-models.md
-        - name: Perguntas frequentes sobre visuais
+        - name: Perguntas frequentes sobre os visuais do Power BI
           href: developer/power-bi-custom-visuals-faq.md
-    - name: Como
+    - name: Guias de instruções
       items:
         - name: Obter o Power BI Desktop
           href: desktop-get-the-desktop.md
-        - name: Guia de Introdução do Power BI Desktop
+        - name: Introdução ao Power BI Desktop
           href: desktop-getting-started.md
-        - name: Tarefas comuns de consulta no Power BI Desktop
+        - name: Executar tarefas comuns de consulta
           href: desktop-common-query-tasks.md
-        - name: Criar e gerenciar relações no Power BI Desktop
+        - name: Criar e gerenciar relações
           href: desktop-create-and-manage-relationships.md
-        - name: Exibição de dados no Power BI Desktop
+        - name: Trabalhar com exibição de dados
           href: desktop-data-view.md
-        - name: Visão geral de Consulta no Power BI Desktop
+        - name: Usar consultas
           href: desktop-query-overview.md
-        - name: Noções básicas do DAX no Power BI Desktop
+        - name: Aplicar noções básicas do DAX
           href: desktop-quickstart-learn-dax-basics.md
-        - name: Exibição de relações no Power BI Desktop
+        - name: Trabalhar com a exibição de relação
           href: desktop-relationship-view.md
-        - name: Exibição de relatórios no Power BI Desktop
+        - name: Trabalhar com a exibição de relatório
           href: desktop-report-view.md
-        - name: Conectar-se a várias fontes de dados no Power BI Desktop
+        - name: Conectar-se a várias fontes de dados
           href: desktop-connect-to-data.md
-        - name: Publicar por meio do Power BI Desktop
+        - name: Publicar conjuntos de dados
           href: desktop-upload-desktop-files.md
-        - name: 'Parte I: Adicionar visualizações a um relatório do Power BI'
+        - name: Adicionar visuais a um relatório do Power BI (parte 1)
           href: visuals/power-bi-report-add-visualizations-i.md
-        - name: 'Parte 2, Adicionar visualizações a um relatório do Power BI'
+        - name: Adicionar visuais a um relatório do Power BI (parte 2)
           href: visuals/power-bi-report-add-visualizations-ii.md
-        - name: 'Personalizar o título, tela de fundo e legenda da visualização'
+        - name: "Personalizar títulos, segundos \tplanos e legendas do visual"
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: Mostrar itens sem dados no Power BI
           href: desktop-show-items-no-data.md
-        - name: Data/hora automática no Power BI Desktop
+        - name: Usar data/hora automática
           href: desktop-auto-date-time.md
         - name: Conectar-se a dados
           items:
-            - name: Fontes de dados no Power BI Desktop
+            - name: Conectar-se a fontes de dados
               href: desktop-data-sources.md
-            - name: Conectar-se ao LinkedIn Sales Navigator (versão prévia)
+            - name: Conectar-se ao LinkedIn Sales Navigator
               href: desktop-connect-linkedin-sales-navigator.md
-            - name: Conectar-se a uma página da Web por exemplo (visualização)
+            - name: Obter dados de uma página da Web fornecendo exemplos
               href: desktop-connect-to-web-by-example.md
             - name: Conectar-se a conjuntos de dados no serviço do Power BI
               href: desktop-report-lifecycle-datasets.md
-            - name: Importar pastas de trabalho do Excel para o Power BI Desktop
+            - name: Importar uma pasta de trabalho do Excel
               href: desktop-import-excel-workbooks.md
-            - name: Conectar-se a interfaces genéricas que usam dados
+            - name: Conectar-se a dados usando as interfaces genéricas do Power BI Desktop
               href: desktop-connect-using-generic-interfaces.md
             - name: Conectar-se a um arquivo PDF
               href: desktop-connect-pdf.md
@@ -135,249 +135,247 @@
               href: desktop-connect-adobe-analytics.md
             - name: Conectar-se a um banco de dados Oracle
               href: desktop-connect-oracle-database.md
-            - name: Como executar de scripts do Python no Power BI Desktop
+            - name: Executar scripts Python
               href: desktop-python-scripts.md
-            - name: Como usar Python no Power Query Editor
+            - name: Usar o Python no Editor de Consultas
               href: desktop-python-in-query-editor.md
-            - name: Usar um IDE do Python externo com o Power BI
+            - name: Usar um IDE do Python externo
               href: desktop-python-ide.md
-            - name: Criar visuais do Power BI usando Python
+            - name: Usar o Python para criar visuais
               href: desktop-python-visuals.md
-            - name: Execução de scripts do R no Power BI Desktop
+            - name: Executar scripts do R
               href: desktop-r-scripts.md
-            - name: Uso de R no Editor de Consultas
+            - name: Uso do R no Editor de Consultas
               href: desktop-r-in-query-editor.md
-            - name: Usar um IDE R externo com o Power BI
+            - name: Usar um IDE R externo
               href: desktop-r-ide.md
-            - name: Pacotes R com suporte
+            - name: Usar pacotes R para criar visuais
               href: service-r-packages-support.md
             - name: Inserir dados diretamente no Power BI Desktop
               href: desktop-enter-data-directly-into-desktop.md
-            - name: Conectar-se ao Excel no Power BI Desktop
+            - name: Conectar-se a uma pasta de trabalho do Excel
               href: desktop-connect-excel.md
-            - name: Dados multidimensionais do Analysis Services no Power BI Desktop
+            - name: Conectar-se a modelos multidimensionais
               href: desktop-ssas-multidimensional.md
-            - name: Conectar-se a arquivos CSV no Power BI Desktop
+            - name: Conectar-se a um arquivo CSV
               href: desktop-connect-csv.md
-            - name: Conectar-se a um banco de dados do Google BigQuery no Power BI Desktop
+            - name: Conectar-se a um banco de dados do Google BigQuery
               href: desktop-connect-bigquery.md
-            - name: Conectar-se a um banco de dados Impala no Power BI Desktop
+            - name: Conectar-se a um banco de dados Impala
               href: desktop-connect-impala.md
-            - name: Conectar-se a um feed OData no Power BI Desktop
+            - name: Conectar-se a um feed OData
               href: desktop-connect-odata.md
-            - name: Conectar-se a um banco de dados do Amazon Redshift no Power BI Desktop
+            - name: Conectar-se a um banco de dados do Amazon Redshift
               href: desktop-connect-redshift.md
-            - name: Conectar-se a uma página da Web no Power BI Desktop
+            - name: Conectar-se a uma página da Web
               href: desktop-connect-to-web.md
-            - name: Conectar-se a um warehouse de computação Snowflake no Power BI Desktop
+            - name: Conectar-se a um depósito de computação Snowflake
               href: desktop-connect-snowflake.md
             - name: Conectar-se aos dados de Gerenciamento de Custos do Azure
               href: desktop-connect-azure-cost-management.md
             - name: Conecte-se aos dados do Azure Consumption Insights
               href: desktop-connect-azure-consumption-insights.md
-            - name: Usar o SAP HANA no Power BI Desktop
+            - name: Usar o SAP HANA
               href: desktop-sap-hana.md
             - name: Habilitar a criptografia para SAP HANA
               href: desktop-sap-hana-encryption.md
-            - name: Dados tabulares do Analysis Services no Power BI Desktop
+            - name: Usar dados de tabela do Analysis Services
               href: desktop-analysis-services-tabular-data.md
-            - name: Usar o DirectQuery no Power BI Desktop
+            - name: Usar DirectQuery
               href: desktop-use-directquery.md
-            - name: DirectQuery e SAP Business Warehouse (BW)
+            - name: Conectar-se ao DirectQuery e ao SAP Business Warehouse
               href: desktop-directquery-sap-bw.md
-            - name: DirectQuery e SAP HANA
+            - name: Conectar-se ao DirectQuery e ao SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Configuração Pressupor integridade referencial no Power BI Desktop
+            - name: Aplicar a configuração Pressupor integridade referencial
               href: desktop-assume-referential-integrity.md
-            - name: Usar o conector SAP BW no Power BI Desktop
+            - name: Usar o conector do SAP Business Warehouse
               href: desktop-sap-bw-connector.md
-            - name: Usar os links do OneDrive for Business no Power BI Desktop
+            - name: Usar os links do OneDrive for Business
               href: desktop-use-onedrive-business-links.md
-            - name: 'Serviço de terceiros: Conector do Facebook para Power BI Desktop'
+            - name: 'Serviço de terceiros: Usar o conector do Facebook'
               href: service-facebook-connector.md
-            - name: 'Serviço de terceiros: Conector do Google Analytics para Power BI Desktop'
+            - name: 'Serviço de terceiros: Usar o conector do Google Analytics'
               href: service-google-analytics-connector.md
             - name: 'Project Online: conectar-se aos dados por meio do Power BI Desktop'
               href: desktop-project-online-connect-to-data.md
         - name: Transformar e formatar dados
           items:
-            - name: Combinar binários
+            - name: Combinar arquivos (binários)
               href: desktop-combine-binaries.md
-            - name: Usar os Insights da IA no Power BI Desktop (versão prévia)
+            - name: Usar Insights da IA (versão prévia)
               href: desktop-ai-insights.md
         - name: Modelar seus dados
           items:
-            - name: Categorização de dados no Power BI Desktop
+            - name: Especificar categorias de dados no Power BI Desktop
               href: desktop-data-categorization.md
-            - name: Marcar um campo de código de barras para os aplicativos móveis
+            - name: Marcar um campo de código de barras para os aplicativos móveis do Power BI
               href: desktop-mobile-barcodes.md
-            - name: Definir a filtragem geográfica para os aplicativos móveis
+            - name: Definir filtros geográficos para os aplicativos móveis do Power BI
               href: desktop-mobile-geofiltering.md
-            - name: Colunas calculadas no Power BI Desktop
+            - name: Usar as colunas calculadas
               href: desktop-calculated-columns.md
-            - name: Tabelas calculadas no Power BI Desktop
+            - name: Usar as tabelas calculadas
               href: desktop-calculated-tables.md
-            - name: Medidas no Power BI Desktop
+            - name: Usar as medidas
               href: desktop-measures.md
-            - name: Importar e exibir os KPIs (Visualização)
+            - name: Importar e exibir os KPIs
               href: desktop-import-and-display-kpis.md
         - name: Criar relatórios
           items:
-            - name: Atualização automática de página no Power BI Desktop (visualização)
+            - name: Usar a atualização automática de página (versão prévia)
               href: desktop-automatic-page-refresh.md
-            - name: Usar o analisador de desempenho no Power BI Desktop
+            - name: Usar o Performance Analyzer
               href: desktop-performance-analyzer.md
-            - name: Elementos visuais para relatórios
+            - name: Adicionar visuais aos relatórios
               href: desktop-visual-elements-for-reports.md
             - name: Criar dicas de ferramenta com base nas páginas de relatório
               href: desktop-tooltips.md
-            - name: Exportar como PDF e imprimir relatórios
+            - name: Exportar relatórios para arquivos PDF
               href: desktop-export-to-pdf.md
-            - name: Painel de análise no Power BI Desktop
+            - name: Usar o painel Análise
               href: desktop-analytics-pane.md
-            - name: Use insights para explicar aumentos e reduções
+            - name: Usar insights para explicar flutuações nos visuais (versão prévia)
               href: desktop-insights.md
-            - name: Use insights para localizar em que parte dos gráficos a distribuição está diferente
+            - name: Usar insights para localizar em que parte dos gráficos a distribuição varia (versão prévia)
               href: desktop-insights-find-where-different.md
-            - name: Indicadores no Power BI
+            - name: Usar indicadores para compartilhar insights
               href: desktop-bookmarks.md
-            - name: Usar temas de relatórios
+            - name: Trabalhar com temas de relatório
               href: desktop-report-themes.md
-            - name: Tipos de filtros
+            - name: Tipos de filtros nos relatórios do Power BI
               href: power-bi-report-filter-types.md
-            - name: Experimentar a nova experiência de filtro
+            - name: Trabalhar com filtros nos relatórios do Power BI
               href: power-bi-report-filter.md
-            - name: Usar medidas rápidas
+            - name: Usar medidas rápidas para cálculos comuns
               href: desktop-quick-measures.md
-            - name: Uso dos parâmetros E Se
+            - name: Usar parâmetros de hipóteses para visualizar variáveis
               href: desktop-what-if.md
-            - name: Usar detalhamento
+            - name: Usar o recurso de detalhamento
               href: desktop-drillthrough.md
-            - name: Usar detalhamento de relatório cruzado
+            - name: Usar o recurso de detalhamento entre relatórios
               href: desktop-cross-report-drill-through.md
-            - name: Usar um filtro e uma segmentação de datas relativas
-              href: visuals/desktop-slicer-filter-date-range.md
             - name: Usar agrupamento e compartimentalização
               href: desktop-grouping-and-binning.md
-            - name: Criar visuais do Power BI usando o R
+            - name: Usar R para criar visuais do Power BI
               href: desktop-r-visuals.md
             - name: Usar visuais personalizados da plataforma R
               href: desktop-r-powered-custom-visuals.md
             - name: Usar linhas de grade e ajustar à grade
               href: desktop-gridlines-snap-to-grid.md
-            - name: A página exibe as configurações em um relatório do Power BI
+            - name: Aplicar as configurações de exibição da página nos relatórios do Power BI
               href: power-bi-report-display-settings.md
             - name: Adicionar uma coluna de um exemplo
               href: desktop-add-column-from-example.md
             - name: Adicionar uma coluna personalizada
               href: desktop-add-custom-column.md
-            - name: Usar rótulos de hierarquia embutida no Power BI Desktop
+            - name: Usar rótulos de hierarquia embutidos
               href: desktop-inline-hierarchy-labels.md
             - name: Usar a segmentação de intervalo numérico
               href: desktop-slicer-numeric-range.md
-            - name: Usar a segmentação de data relativa
+            - name: Usar o filtro e a segmentação de datas relativas
               href: desktop-slicer-filter-date-range.md
             - name: Criar uma segmentação que pode ser redimensionada
               href: power-bi-slicer-filter-responsive.md
-            - name: Segurança em nível de linha
+            - name: Usar segurança em nível de linha
               href: desktop-rls.md
-            - name: Personalização de dicas de ferramenta
+            - name: Personalizar dicas de ferramenta
               href: desktop-custom-tooltips.md
-            - name: Caixas de texto e formas em relatórios
+            - name: Adicionar caixas de texto e formas aos relatórios
               href: power-bi-reports-add-text-and-shapes.md
             - name: Adicione um hiperlink a uma caixa de texto
               href: service-add-hyperlink-to-text-box.md
-            - name: Hiperlinks nas tabelas
+            - name: Adicionar hiperlinks a uma tabela
               href: power-bi-hyperlinks-in-tables.md
             - name: Exibir imagens em tabelas
               href: power-bi-images-tables.md
-            - name: Cadeias de formato personalizadas
+            - name: Usar cadeias de caracteres de formato personalizadas
               href: desktop-custom-format-strings.md
-            - name: Formatação condicional de tabela
+            - name: Aplicar formatação condicional de tabela
               href: desktop-conditional-table-formatting.md
-            - name: Formatação condicional de título baseada em expressão
+            - name: Criar títulos dinâmicos e baseados em expressões
               href: desktop-conditional-format-visual-titles.md
-            - name: Classificação por coluna no Power BI Desktop
+            - name: Classificar por coluna
               href: desktop-sort-by-column.md
-            - name: Otimizar os relatórios para aplicativos móveis
+            - name: Otimizar relatórios para os aplicativos móveis do Power BI
               href: desktop-create-phone-report.md
-            - name: Usar Ver dados e Ver relatórios
+            - name: Usar as opções Ver dados e Ver registros
               href: desktop-see-data-see-records.md
             - name: Dicas para criação de relatórios
               href: desktop-tips-and-tricks-for-creating-reports.md
         - name: Visualizações
           items:
-            - name: Visualizações no Power BI
+            - name: Adicionar visuais aos relatórios do Power BI
               href: visuals/power-bi-report-visualizations.md
-            - name: Alterar o tipo de visualização em um relatório
+            - name: Alterar visuais nos relatórios do Power BI
               href: visuals/power-bi-report-change-visualization-type.md
-            - name: Limites de ponto de dados por tipo de visual
+            - name: Sobre os limites de pontos de dados por tipo de visual
               href: visuals/power-bi-data-points.md
             - name: Mostrar os dados usados para criar o visual
               href: visuals/service-reports-show-data.md
-            - name: Guia de introdução com propriedades de eixo e formatação de cor
+            - name: Introdução à formatação de cor e às propriedades de eixo
               href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
             - name: Dicas e truques para formatação com cores
               href: visuals/service-tips-and-tricks-for-color-formatting.md
-            - name: Copie e cole a visualização
+            - name: Copie e cole uma visualização de relatório
               href: visuals/power-bi-visualization-copy-paste.md
-            - name: Exportar os dados usados para criar a visualização
+            - name: Exportar os dados usados para criar uma visualização
               href: visuals/power-bi-visualization-export-data.md
-            - name: 'Mover, redimensionar e destacar uma visualização em um relatório'
+            - name: 'Mover, redimensionar e destacar um visual em um relatório'
               href: visuals/power-bi-visualization-move-and-resize.md
             - name: Alterar como os visuais interagem em um relatório
               href: service-reports-visual-interactions.md
             - name: Dicas e truques para visualizações de mapa do Power BI
               href: visuals/power-bi-map-tips-and-tricks.md
-            - name: Personalizar as propriedades dos eixos x e y
+            - name: Personalizar as propriedades dos eixos X e Y
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: Criar um visual do ArcGIS Maps for Power BI
+            - name: Interagir com o ArcGIS Maps nos visuais do Power BI
               href: visuals/power-bi-visualizations-arcgis.md
-            - name: Interagir com um visual do ArcGIS Maps for Power BI
+            - name: Criar visuais do ArcGIS Maps for Power BI
               href: visuals/power-bi-visualization-arcgis.md
-            - name: Gráfico de área básico
+            - name: Criar e usar gráficos básicos de área
               href: visuals/power-bi-visualization-basic-area-chart.md
-            - name: Cartões (blocos de número grandes) no Power BI
+            - name: Criar visuais de cartão (blocos de números grandes)
               href: visuals/power-bi-visualization-card.md
-            - name: Gráfico de combinação no Power BI
+            - name: Criar e usar gráficos de combinação
               href: visuals/power-bi-visualization-combo-chart.md
-            - name: Árvore hierárquica no Power BI (versão prévia)
+            - name: Usar visuais da árvore hierárquica (versão prévia)
               href: visuals/power-bi-visualization-decomposition-tree.md
-            - name: Gráficos de rosca no Power BI
+            - name: Criar e usar gráficos de rosca
               href: visuals/power-bi-visualization-doughnut-charts.md
-            - name: Mapas preenchidos (coropléticos) no Power BI
+            - name: Criar e usar mapas coropléticos
               href: visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: Gráficos de funil no Power BI
+            - name: Criar e usar gráficos de funil
               href: visuals/power-bi-visualization-funnel-charts.md
-            - name: Gráficos dos principais influenciadores no Power BI
+            - name: Usar visualização de influenciadores-chave
               href: visuals/power-bi-visualization-influencers.md
-            - name: Amostragem da linha de alta densidade
+            - name: Sobre a amostragem da linha de alta densidade
               href: desktop-high-density-sampling.md
-            - name: Visuais de KPI
+            - name: Criar e usar visualizações de KPI
               href: visuals/power-bi-visualization-kpi.md
-            - name: Matrix visual
+            - name: Usar visualizações da matriz
               href: visuals/desktop-matrix-visual.md
-            - name: Visual de P e R
+            - name: Sobre os visuais de P e R do Power BI
               href: visuals/power-bi-visualization-q-and-a.md
-            - name: Criar visualizações e análise avançadas usando scripts do R no Power BI
+            - name: Usar visuais do R
               href: visuals/service-r-visuals.md
-            - name: Gráficos de medidor radial no Power BI
+            - name: Criar e usar gráficos de medidor radial
               href: visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: Gráfico de faixa de opções
+            - name: Criar e usar gráficos de faixa de opções
               href: visuals/desktop-ribbon-charts.md
-            - name: Gráficos de dispersão no Power BI
+            - name: 'Criar e usar gráficos de dispersão, de bolhas e de pontos'
               href: visuals/power-bi-visualization-scatter.md
-            - name: Gráficos de dispersão de alta densidade
+            - name: Usar gráficos de dispersão de alta densidade
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: Usar mapas de formas no Power BI Desktop (Preview)
+            - name: Criar e usar visuais do mapa de formas (versão prévia)
               href: visuals/desktop-shape-map.md
-            - name: Segmentação de Dados no Power BI
+            - name: Criar e usar segmentações
               href: visuals/power-bi-visualization-slicers.md
-            - name: Tabelas no Power BI
+            - name: Criar e usar tabelas nos relatórios e dashboards do Power BI
               href: visuals/power-bi-visualization-tables.md
-            - name: Mapas de árvore no Power BI
+            - name: Criar e usar mapas de árvore
               href: visuals/power-bi-visualization-treemaps.md
-            - name: Gráficos de cascata no Power BI
+            - name: Criar e usar gráficos de cascata
               href: visuals/power-bi-visualization-waterfall-charts.md
         - name: Linguagem natural
           items:
@@ -397,49 +395,47 @@
               href: natural-language/q-and-a-limitations.md
         - name: Solucionar problemas
           items:
-            - name: Solucionar problemas de importação de bancos de dados do Access e planilhas do Excel no Power BI Desktop e no Power Query
+            - name: Solucionar problemas ao importar os arquivos .xls do Access e do Excel
               href: desktop-access-database-errors.md
-            - name: Solucionar problemas ao iniciar o Power BI Desktop
+            - name: Solucionar problemas ao abrir o Power BI Desktop
               href: desktop-error-launching-desktop.md
-            - name: Solução de problemas do modelo DirectQuery no Power BI Desktop
+            - name: Solucionar problemas ao desenvolver modelos DirectQuery
               href: desktop-directquery-troubleshoot.md
     - name: Referência
       items:
-        - name: Tipos de dados no Power BI Desktop
+        - name: Entender tipos de dados no Power BI Desktop
           href: desktop-data-types.md
-        - name: Fontes de dados do Power BI
-          href: power-bi-data-sources.md
-        - name: Usar a faixa de opções atualizada no Power BI Desktop (versão prévia)
+        - name: Usar a faixa de opções atualizada (versão prévia)
           href: desktop-ribbon.md
-        - name: Atalhos do editor de fórmulas do Power BI Desktop
+        - name: Usar os atalhos do editor de fórmulas
           href: desktop-formula-editor.md
-        - name: Níveis de privacidade do Power BI Desktop
+        - name: Configurar os níveis de privacidade
           href: desktop-privacy-levels.md
-        - name: Extensibilidade do conector no Power BI
+        - name: Sobre a extensibilidade do conector
           href: desktop-connector-extensibility.md
-        - name: Confiar em conectores de terceiros assinados
+        - name: Sobre conectores de terceiros confiáveis
           href: desktop-trusted-third-party-connectors.md
     - name: Recursos
       items:
         - name: Vídeos do Power BI Desktop
           href: desktop-videos.md
-        - name: Atualizações mensais anteriores ao Power BI Desktop
+        - name: Arquivos de atualizações do Power BI Desktop
           href: desktop-latest-update-archive.md
-        - name: Política de privacidade referente ao comentário Enviar um Smiley do Power BI Desktop
+        - name: Proteção de privacidade do Power BI Desktop
           href: desktop-send-smile-privacy-statement.md
         - name: Gerenciar o formulário de entrada do Power BI Desktop
           href: desktop-admin-sign-in-form.md
         - name: Acessibilidade
           items:
-            - name: Visão geral da acessibilidade no Power BI
+            - name: Sobre a acessibilidade do Power BI
               href: desktop-accessibility-overview.md
-            - name: Criar relatórios acessíveis do Power BI
+            - name: Sobre a navegação acessível nos relatórios do Power BI
               href: desktop-accessibility-creating-reports.md
-            - name: Consumir relatórios do Power BI com ferramentas de acessibilidade
+            - name: Entender os recursos de acessibilidade dos relatórios do Power BI
               href: desktop-accessibility-consuming-tools.md
-            - name: Criar relatórios do Power BI com ferramentas de acessibilidade
+            - name: Criar relatórios do Power BI usando ferramentas de acessibilidade
               href: desktop-accessibility-creating-tools.md
-            - name: Atalhos de teclado com acessibilidade para relatórios do Power BI
+            - name: Usar atalhos de teclado no Power BI Desktop
               href: desktop-accessibility-keyboard-shortcuts.md
 - name: Serviço do Power BI
   items:
@@ -727,7 +723,7 @@
               href: desktop-connect-dataflows.md
             - name: Integração entre fluxos de dados e o Azure Data Lake (versão prévia)
               href: service-dataflows-azure-data-lake-integration.md
-            - name: Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados (versão prévia)
+            - name: Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados
               href: service-dataflows-connect-azure-data-lake-storage-gen2.md
             - name: Definir configurações de fluxo de dados de workspace (versão prévia)
               href: service-dataflows-configure-workspace-storage-settings.md

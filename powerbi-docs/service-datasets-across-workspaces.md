@@ -10,10 +10,10 @@ ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877189"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introdução ao uso de conjuntos de dados entre workspaces (versão prévia)
@@ -28,7 +28,7 @@ No Power BI, os criadores de conjuntos de dados podem manter controle de quem te
 
 A criação de relatórios com base em conjuntos de dados em diferentes workspaces e a cópia de relatórios para diferentes workspaces estão estreitamente ligados à [nova experiência de workspace](service-create-the-new-workspaces.md):
 
-- No serviço, quando você abre o catálogo do conjunto de dados em uma nova experiência de espaço de trabalho, o catálogo do conjunto de dados mostra os conjuntos de dados que estão em Meu Espaço de Trabalho e outros espaço de trabalhos da nova experiência de espaço de trabalho. 
+- No serviço, quando você abre o catálogo do conjunto de dados em uma nova experiência de workspace, o catálogo do conjunto de dados mostra os conjuntos de dados que estão em Meu workspace e outros workspaces da nova experiência de workspace. 
 - Quando você abre o catálogo do conjunto de dados em um workspace clássico, você vê apenas os conjuntos de dados desse workspace, não aqueles de outros workspaces.
 - No Power BI Desktop, você pode publicar relatórios do Live Connect em diferentes workspaces, desde que os conjuntos de dados estejam em workspaces da nova experiência.
 - Ao copiar relatórios em workspaces, o workspace de destino precisa ser um workspace da nova experiência.

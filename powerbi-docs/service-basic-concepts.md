@@ -12,10 +12,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74128355"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço do Power BI
@@ -123,7 +123,7 @@ No exemplo abaixo, selecionamos o workspace "Vendas e marketing" e clicamos na g
 **UM** relatório...
 
 * está contido em um único workspace.
-* pode ser associado a vários painéis dentro desse espaço de trabalho. Blocos fixados a partir desse relatório podem aparecer em vários painéis.
+* pode ser associado a vários painéis dentro desse workspace. Blocos fixados a partir desse relatório podem aparecer em vários painéis.
 * pode ser criado usando os dados de um conjunto de dados. O Power BI Desktop pode combinar mais de uma fonte de dados em um único conjunto de dados em um relatório, e esse relatório pode ser importado no Power BI.
 
   ![Diagrama de relatórios](media/service-basic-concepts/drawing3new.png)
@@ -162,7 +162,7 @@ Há muitas maneiras diferentes para você ou um colega [compartilhar um painel](
 * [Criar um modo de exibição de telefone de um painel](service-create-dashboard-mobile-phone-view.md)
 
 
-## <a name="workbooks"></a>Pastas de Trabalho
+## <a name="workbooks"></a>Pastas de trabalho
 Pastas de Trabalho são um tipo especial de conjunto de dados. Se você leu a seção **Conjuntos de dados** anterior, já deve saber praticamente tudo de que precisa sobre pastas de trabalho. Mas você deve estar se perguntando porque algumas vezes o Power BI classifica uma pasta de trabalho do Excel como um **Conjunto de dados** e outras vezes como uma **Pasta de trabalho**.
 
 Ao usar o **Obter dados** com arquivos de Excel, você tem a opção de *Importar* ou *Conectar-se* ao arquivo. Ao escolher Conectar-se, sua pasta de trabalho vai aparecer no Power BI assim como apareceria no Excel Online. Mas, ao contrário do Excel Online, você terá alguns ótimos recursos para ajudá-lo a fixar elementos de suas planilhas diretamente nos dashboards.

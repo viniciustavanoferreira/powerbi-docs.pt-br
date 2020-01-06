@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870094"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220598"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Usando o OAuth para conectar-se ao Servidor de Relatórios do Power BI e ao SSRS
 
@@ -244,7 +244,7 @@ Depois de selecionar **Entrar**, você verá os elementos do seu servidor do Rep
 
 É possível configurar o [Fiddler](https://www.telerik.com/fiddler) para funcionar como um proxy para seus dispositivos móveis para ver até onde a solicitação chegou. Para habilitar um proxy do Fiddler para seu dispositivo de telefone, é necessário configurar o [CertMaker para iOS e Android](https://www.telerik.com/fiddler/add-ons) no computador que estiver executando o Fiddler. Esse é um complemento da Telerik para o Fiddler.
 
-Se for possível entrar com êxito usando o Fiddler, talvez você tenha um problema de certificado com o aplicativo WAP ou com o servidor ADFS. É possível usar uma ferramenta como o [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226) para verificar se os certificados são válidos.
+Se for possível entrar com êxito usando o Fiddler, talvez você tenha um problema de certificado com o aplicativo WAP ou com o servidor ADFS. 
 
 ## <a name="next-steps"></a>Próximas etapas
 

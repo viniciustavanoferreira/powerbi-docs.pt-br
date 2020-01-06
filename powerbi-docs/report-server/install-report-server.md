@@ -1,5 +1,5 @@
 ---
-title: Instalar o Servidor de Relatório do Power BI
+title: Instalar o Servidor de Relatórios do Power BI
 description: Saiba como instalar o Servidor de Relatório do Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,13 +9,13 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/26/2019
 ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74565766"
 ---
-# <a name="install-power-bi-report-server"></a>Instalar o Servidor de Relatório do Power BI
+# <a name="install-power-bi-report-server"></a>Instalar o Servidor de Relatórios do Power BI
 
 Saiba como instalar o Servidor de Relatório do Power BI.
 
@@ -65,7 +65,7 @@ Não é necessário que um servidor do Mecanismo de Banco de Dados do SQL Server
 
 2. Selecione **Instalar o Servidor de Relatório do Power BI**.
 
-    ![Instalar o Servidor de Relatório do Power BI](media/install-report-server/pbireportserver-install.png)
+    ![Instalar o Servidor de Relatórios do Power BI](media/install-report-server/pbireportserver-install.png)
 3. Escolha uma edição a ser instalada e, em seguida, selecione **Avançar**.
 
     ![Escolher uma edição](media/install-report-server/pbireportserver-choose-edition.png)

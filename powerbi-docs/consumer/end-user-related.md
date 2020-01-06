@@ -12,10 +12,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73862274"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Exibir conteúdo relacionado no serviço do Power BI
@@ -53,7 +53,7 @@ Neste ponto, você pode controlar diretamente o conteúdo relacionado.  Por exem
 ## <a name="view-related-content-for-a-dataset"></a>Exibir o conteúdo relacionado de um conjunto de dados
 É preciso ter no mínimo permissões de *exibição* em um conjunto de dados para abrir o painel **Conteúdo relacionado**. Neste exemplo, estamos usando o [Exemplo de Análise de Compras](../sample-procurement.md).
 
-No painel de navegação, localize o cabeçalho **Workspaces** e selecione um workspace na lista. Se houver algum conteúdo em um espaço de trabalho, ele será exibido na tela à direita. 
+No painel de navegação, localize o cabeçalho **Workspaces** e selecione um workspace na lista. Se houver algum conteúdo em um workspace, ele será exibido na tela à direita. 
 
 ![workspaces no painel de navegação](./media/end-user-related/power-bi-workspace.png)
 

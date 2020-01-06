@@ -9,17 +9,17 @@ ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73854873"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Conecte-se a arquivos armazenados no OneDrive para seu workspace do Power BI
 Após você [criar um workspace no Power BI](service-create-distribute-apps.md), é possível armazenar os arquivos do Excel, de CSV e do Power BI Desktop no OneDrive for Business para o seu workspace do Power BI. Você pode continuar atualizando os arquivos armazenados no OneDrive, e essas atualizações serão refletidas automaticamente nos relatórios e painéis do Power BI com base nos arquivos. 
 
 > [!NOTE]
-> A nova experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Office 365. Você não criará automaticamente um grupo do Office 365 sempre que criar um dos novos espaços de trabalho. Leia sobre [como criar os novos espaços de trabalho](service-create-the-new-workspaces.md)
+> A nova experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Office 365. Você não criará automaticamente um grupo do Office 365 sempre que criar um dos novos workspaces. Leia sobre [como criar os novos espaços de trabalho](service-create-the-new-workspaces.md)
 
 A adição de arquivos ao seu workspace consiste em um processo de duas etapas: 
 

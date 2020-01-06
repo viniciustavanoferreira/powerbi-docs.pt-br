@@ -1,19 +1,19 @@
 ---
 title: Exibir conteúdo do Power BI como um usuário convidado externo (Azure AD B2B)
 description: Use aplicativos móveis do Power BI para exibir conteúdo compartilhado com você de uma organização externa.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879330"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219816"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Exibir conteúdo do Power BI compartilhado com você de uma organização externa
 
@@ -30,18 +30,18 @@ Aplica-se a:
 
 **Primeiro, você precisa que alguém de uma organização externa compartilhe um item com você.** Quando alguém [compartilha um item com você](../../service-share-dashboards.md), seja da mesma organização ou de uma organização externa, você recebe um email com um link para esse item compartilhado. Seguir esse link em seu dispositivo móvel abre o aplicativo móvel do Power BI. Se reconhecer que o item foi compartilhado de uma organização externa, o aplicativo se reconectará a essa organização com sua identidade. Em seguida, o aplicativo carrega todos os itens que foram compartilhados com você dessa organização.
 
-![O Power BI abre o item compartilhado do email ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![O Power BI abre o item compartilhado do email ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > Se esse for o primeiro item compartilhado com você como usuário convidado externo, você precisará reivindicar o convite em um navegador. Você não pode reivindicar o convite no aplicativo do Power BI.
 
 Enquanto você estiver conectado a uma organização externa, um cabeçalho preto aparecerá no aplicativo. Esse cabeçalho indica que você não está conectado à sua organização principal. Para se conectar à sua organização principal, saia do modo convidado.
 
-![Cabeçalho de usuário convidado do Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Cabeçalho de usuário convidado do Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 Embora você precise ter um link de artefato do Power BI para se conectar a uma organização externa, depois que o modo do seu aplicativo for alternado, você poderá acessar todos os itens compartilhados com você (não apenas o item que você abriu do email). Para ver todos os itens que você pode acessar na organização externa, vá até o menu do aplicativo e selecione **Compartilhado comigo**. Em **Aplicativos**, você encontra também os aplicativos que pode usar.
 
-![Menu do aplicativo do Power BI como usuário externo convidado](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Menu do aplicativo do Power BI como usuário externo convidado](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>Limitações
 

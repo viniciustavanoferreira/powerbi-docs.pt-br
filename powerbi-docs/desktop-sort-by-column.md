@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879696"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223431"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Classificação por coluna no Power BI Desktop
 No **Power BI Desktop** e no **serviço do Power BI**, você pode alterar a aparência de um visual, classificando-o por diferentes campos de dados. Ao alterar a maneira como você classifica um visual, é possível realçar as informações que você deseja transmitir e garantir de que o visual reflita essa tendência (ou ênfase).
@@ -100,4 +100,11 @@ Quando voltamos ao menu e selecionamos **SalesQuantity** novamente, o visual vol
 ![Ordem de classificação padrão](media/desktop-sort-by-column/sortbycolumn_7.png)
 
 Com tantas opções para classificar os visuais, criando exatamente o gráfico ou imagem que você deseja é fácil.
+
+## <a name="next-steps"></a>Próximas etapas
+
+Você também pode estar interessado nos seguintes artigos:
+
+* [Usar o detalhamento no Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Usando segmentações no Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 

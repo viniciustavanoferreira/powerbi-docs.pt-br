@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882765"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548566"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
 Registre-se para os próximos webinars ao vivo ou assista a nossas sessões gravadas sob demanda.
 
 ## <a name="upcoming-webinars"></a>Próximos webinars
-
-**Análises em evento virtual do Azure: acelere o tempo de insight com o Azure Synapse Analytics**
-<br>por Gayle Sheppard e John Macintyre
-<br>[Registre-se agora](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Nove tendências que moldam o futuro da análise de Big Data**
-<br>por Vijay Gopalakrishnan
-<br>[Registre-se para assistir em 18 de dezembro](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Três maneiras como a IA está mudando o BI**
 <br>por Justyna Lucznik
@@ -39,6 +31,10 @@ Registre-se para os próximos webinars ao vivo ou assista a nossas sessões grav
 
 Tenha uma introdução com estes webinars populares sob demanda
 
+**Análises em evento virtual do Azure: acelere o tempo de insight com o Azure Synapse Analytics**
+<br>por Gayle Sheppard e John Macintyre
+<br>[Registre-se e assista agora](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **Como a Microsoft está alterando a proteção de dados de BI**
 <br>por Anton Fritz e Adi Regev
 <br>[Registre-se e assista agora](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ Tenha uma introdução com estes webinars populares sob demanda
 **O Power BI e o futuro do BI corporativo e moderno**
 <br>por Arun Ulag e Amir Netz
 <br>[Registre-se e assista agora](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**Nove tendências que moldam o futuro da análise de Big Data**
+<br>por Vijay Gopalakrishnan
+<br>[Registre-se e assista agora](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Introdução ao Power BI**
 <br>por Miguel Martinez

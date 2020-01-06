@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834760"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223618"
 ---
 # <a name="report-page-drillthrough"></a>Detalhamento de página de relatório
 
@@ -63,7 +63,7 @@ No momento de design do relatório, recomendamos as seguintes práticas:
 - **Descoberta:** ajude a promover a conscientização sobre a página de detalhamento definindo o texto do ícone do cabeçalho visual ou adicionando instruções a uma caixa de texto. Você também pode criar uma sobreposição, conforme descrito [nesta postagem de blog](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/).
 
 > [!TIP]
-> Também é possível configurar o detalhamento para seus relatórios paginados do Power BI. Você pode fazer isso para adicionar links a relatórios do Power BI. Os links podem definir [parâmetros de URL](/blog/url-parameters-for-paginated-reports-are-now-available/).
+> Também é possível configurar o detalhamento para seus relatórios paginados do Power BI. Você pode fazer isso para adicionar links a relatórios do Power BI. Os links podem definir [parâmetros de URL](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/).
 
 ## <a name="next-steps"></a>Próximas etapas
 

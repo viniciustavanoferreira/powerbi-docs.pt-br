@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265717"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Log de diagnóstico do serviço Power BI Embedded no Microsoft Azure
@@ -110,7 +110,7 @@ A categoria do mecanismo instrui o recurso a registrar os seguintes eventos. Em 
 |    Término da consulta    |    Registra todos os eventos de término de consulta desde o início do rastreamento.    |
 |    Término da consulta Vertipaq    |    Registra todos os eventos de término de consulta VertiPaq SE desde o início do rastreamento.    |
 |    Auditoria de logoff    |    Registra todos o eventos "desconectar" do mecanismo desde o início do rastreamento.    |
-|    Error    |    Registra todos o eventos de erro do mecanismo desde o início do rastreamento.    |
+|    Erro    |    Registra todos o eventos de erro do mecanismo desde o início do rastreamento.    |
 
 <br>
 <br>
@@ -123,7 +123,7 @@ A categoria do mecanismo instrui o recurso a registrar os seguintes eventos. Em 
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | Hora em que o evento foi iniciado, quando disponível. |
 | StartTime | 2018-04-06T18:30:11.9137358Z | Hora em que o evento foi iniciado, quando disponível. |
 | JobID | 0 | ID do trabalho para o andamento. |
-| ObjectID | 464 | ID de objeto |
+| ObjectID | 464 | ID do objeto |
 | ObjectType | 802012 | ObjectType |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Hora em que o evento foi encerrado. |
 | Duração | 0 | Quantidade de tempo (em milissegundos) tomada pelo evento. |
@@ -131,8 +131,8 @@ A categoria do mecanismo instrui o recurso a registrar os seguintes eventos. Em 
 | ProgressTotal | 0 | Andamento total. |
 | IntegerData | 0 | Dados Integer. |
 | Severidade | 0 | Nível de severidade de uma exceção. |
-| Êxito | 1 | 1 = êxito. 0 = falha (por exemplo, 1 significa êxito em uma verificação de permissões e 0 significa uma falha nessa verificação). |
-| Error | 0 | Número do erro de um determinado evento. |
+| Sucesso | 1 | 1 = êxito. 0 = falha (por exemplo, 1 significa êxito em uma verificação de permissões e 0 significa uma falha nessa verificação). |
+| Erro | 0 | Número do erro de um determinado evento. |
 | ConnectionID | 3 | ID de Conexão Exclusiva. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | Conjunto de dados no qual a instrução do usuário está sendo executada. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | GUID de sessão. |

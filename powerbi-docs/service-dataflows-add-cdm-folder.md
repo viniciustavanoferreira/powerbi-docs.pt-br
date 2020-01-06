@@ -10,17 +10,17 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872701"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (versão prévia)
 
 No Power BI, você pode adicionar pastas do Common Data Service (CDM) armazenadas no Azure Data Lake Storage Gen2 de sua organização como fluxos de dados. E depois de criar um fluxo de dados de uma pasta do CDM, você pode usar o **Power BI Desktop** e o **serviço do Power BI** para criar conjuntos de dados, relatórios, painéis e aplicativos baseados nos dados que você inseriu em pastas do CDM.
 
-![Fluxo de dados da pasta do CDM](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_01.jpg)
+![Fluxo de dados da pasta CDM](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_01.jpg)
 
 Há alguns requisitos para criar fluxos de dados a partir de pastas do CDM, conforme a lista a seguir descreve:
 

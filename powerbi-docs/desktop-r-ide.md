@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876224"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223462"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Usar um IDE R externo com o Power BI
 Com o **Power BI Desktop**, você pode usar um IDE R externo (ambiente de desenvolvimento integrado) para criar e refinar scripts R e então usar esses scripts no Power BI.
@@ -31,7 +31,7 @@ A partir da versão de setembro de 2016 do **Power BI Desktop** (versão 2.39.45
 Para usar esse recurso, você precisa instalar um **R IDE** no computador local. O **Power BI Desktop** não inclui, não implanta nem instala o mecanismo do R, portanto, você deve instalar o **R** separadamente no computador local. Você pode escolher quais IDE R para usar, com as seguintes opções:
 
 * Você pode instalar R IDE favorito, muitos dos quais estão disponíveis gratuitamente, como a [página de download Revolution Open](https://mran.revolutionanalytics.com/download/) e o [CRAN Repository](https://cran.r-project.org/bin/windows/base/).
-* O **Power BI Desktop** também dá suporte a [Studio R](https://www.rstudio.com/) e **Visual Studio 2015** com [*R Tools para editores do Visual Studio*](https://beta.visualstudio.com/vs/rtvs/).
+* O **Power BI Desktop** também dá suporte a [Studio R](https://www.rstudio.com/) e **Visual Studio 2015** com [*R Tools para editores do Visual Studio*](/visualstudio/rtvs).
 * Você também pode instalar um IDE R diferente e fazer com que o **Power BI Desktop** inicie o **R IDE** seguindo um destes procedimentos:
   
   * Você pode associar arquivos **.R** com o IDE externo que você deseja que o **Power BI Desktop** inicie.

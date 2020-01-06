@@ -10,10 +10,10 @@ ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73875160"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>A nova experiência de filtro em relatórios do Power BI
@@ -53,7 +53,7 @@ Se você tiver ativado a **Nova aparência** no serviço do Power BI ![Nova apar
 Se você não tiver ativado a nova aparência, ainda poderá ver a nova experiência de filtro seguindo estas etapas.
 
 1. No serviço do Power BI, selecione a guia **Relatórios** na lista de conteúdo de um workspace.
-2. Localize o relatório que você deseja habilitar e selecione o ícone **Configurações** ![ícone Configurações de Relatório](media/power-bi-report-filter/power-bi-settings-icon.png) para esse relatório.
+2. Localize o relatório que você deseja habilitar e selecione o ícone **Configurações**![ícone Configurações de Relatório](media/power-bi-report-filter/power-bi-settings-icon.png) para esse relatório.
 3. Em **Experiência de filtragem**, selecione **Habilitar o painel de filtros atualizado e mostrar filtros no cabeçalho do visual para este relatório**.
 
     ![Habilitar o painel de filtros atualizados](media/power-bi-report-filter/power-bi-service-filter-enable.png)
@@ -133,7 +133,7 @@ Você também pode formatar esses elementos para cartões de filtro, dependendo 
     ![Expandir Cartão de filtro](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>Temas para o painel de filtros
-Agora é possível modificar as configurações padrão do painel de filtros com o arquivo de tema. Veja um trecho do tema de exemplo para começar:
+Agora é possível modificar as configurações padrão do painel de filtros com o arquivo de tema. Veja um snippet do tema de exemplo para começar:
 
  
 ```

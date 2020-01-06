@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565331"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622430"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho em novos workspaces no Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "74565331"
 A nova experiência de workspace atingiu a disponibilidade geral (GA) e agora é o workspace padrão. Você ainda poderá continuar a criar e usar [espaços de trabalho clássicos](service-create-workspaces.md) com base em Grupos do Office 365. 
 
 > [!NOTE]
-> Para impor a Segurança em Nível de Linha (RLS) para usuários que procuram conteúdo em um espaço de trabalho, use a função Visualizador. Para impor a RLS sem fornecer acesso ao workspace, publique um aplicativo do Power BI para esses usuários ou use o compartilhamento para distribuir conteúdo.
+> Para impor a Segurança em Nível de Linha (RLS) para usuários que procuram conteúdo em um workspace, use a função Visualizador. Para impor a RLS sem fornecer acesso ao workspace, publique um aplicativo do Power BI para esses usuários ou use o compartilhamento para distribuir conteúdo.
 
 Com os novos workspaces, é possível:
 
@@ -54,7 +54,7 @@ Os espaços de trabalho novos, atualizados e espaços de trabalho clássicos coe
 
 ## <a name="roles-in-the-new-workspaces"></a>Funções nos novos workspaces
 
-Para conceder acesso a um novo espaço de trabalho, adicione grupos de usuários ou indivíduos a uma das funções do espaço de trabalho: visualizadores, membros, colaboradores ou administradores. Todos em um grupo de usuários obtêm a função que você definiu. Se um indivíduo estiver em vários grupos de usuários, ele terá o nível mais alto de permissão fornecido pela função que lhe foi atribuída.
+Para conceder acesso a um novo workspace, adicione grupos de usuários ou indivíduos a uma das funções do workspace: visualizadores, membros, colaboradores ou administradores. Todos em um grupo de usuários obtêm a função que você definiu. Se um indivíduo estiver em vários grupos de usuários, ele terá o nível mais alto de permissão fornecido pela função que lhe foi atribuída.
 
 As funções permitem que você gerencie quem pode fazer o que em um workspace para que as equipes possam colaborar. Os novos workspaces permitem que você atribua funções a indivíduos e a grupos de usuários: grupos de segurança, grupos do Office 365 e listas de distribuição. 
 
@@ -86,7 +86,7 @@ Todas as pessoas que você adiciona a um workspace na capacidade compartilhada p
 
 Para distribuir conteúdo a outras pessoas da sua organização, atribua licenças do Power BI Pro a esses usuários ou coloque o workspace em uma capacidade do Power BI Premium.
 
-Quando o espaço de trabalho está em uma capacidade do Power BI Premium, os usuários com a função de visualizador podem acessar o espaço de trabalho, mesmo se não tiverem uma licença do Power BI Pro. No entanto, se você atribuir a esses usuários uma função superior, como Administrador, Membro ou Colaborador, será solicitado que eles iniciem uma Avaliação do Pro quando tentarem acessar o workspace. Para aproveitar a capacidade de Visualizador para usuários sem licenças do Pro, verifique se os usuários com a função Visualizador não estão em outras funções do espaço de trabalho, individualmente ou por meio de um grupo de usuários. 
+Quando o workspace está em uma capacidade do Power BI Premium, os usuários com a função de visualizador podem acessar o workspace, mesmo se não tiverem uma licença do Power BI Pro. No entanto, se você atribuir a esses usuários uma função superior, como Administrador, Membro ou Colaborador, será solicitado que eles iniciem uma Avaliação do Pro quando tentarem acessar o workspace. Para aproveitar a capacidade de Visualizador para usuários sem licenças do Pro, verifique se os usuários com a função Visualizador não estão em outras funções do workspace, individualmente ou por meio de um grupo de usuários. 
 
 > [!NOTE]
 > A publicação de relatórios em uma nova experiência de workspace tem a imposição mais rigorosa das regras de licenciamento existentes. Usuários que tentarem publicar do Power BI Desktop ou de outras ferramentas de cliente sem uma licença do Pro verão o erro "Somente usuários com licenças do Power BI Pro podem publicar neste workspace."
@@ -111,18 +111,19 @@ O recurso OneDrive do Workspace permite que você configure um grupo do Office 3
 O Power BI não sincroniza as permissões de usuários ou grupos que estão configurados para ter acesso ao workspace com a associação ao grupo do Office 365. A prática recomendada é gerenciar o acesso ao workspace por meio do mesmo grupo do Office 365 cujo armazenamento de arquivos você define nessa configuração. 
 
 Confira como [definir e acessar o OneDrive do Workspace](service-create-the-new-workspaces.md#workspace-onedrive).  
-   
+
 ## <a name="auditing"></a>Auditoria
+
 As seguintes atividades são auditadas pelo Power BI para novas experiências de workspaces.
 
-| Nome amigável |   Nome da operação |
+| Nome amigável | Nome da operação |
 |---|---|
 | Pasta do Power BI criada | CreateFolder |
 | Pasta do Power BI excluída | DeleteFolder |
 | Pasta do Power BI atualizada | UpdateFolder |
 | Acesso à pasta do Power BI atualizado| UpdateFolderAccess |
 
-Leia mais sobre [Auditoria do Power BI](service-admin-auditing.md#activities-audited-by-power-bi).
+Leia mais sobre [Auditoria do Power BI](service-admin-auditing.md).
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
@@ -138,8 +139,8 @@ Alguns recursos funcionam de forma diferente dos workspaces atuais nos novos wor
 
 - Imposição de licenciamento: A publicação de relatórios em uma nova experiência de workspace impõe regras de licenciamento existentes que exigem uma licença do Power BI Pro para usuários que colaboram em workspaces ou compartilham conteúdo com outros no serviço do Power BI. Os usuários sem licença Pro veem o erro "Somente usuários com licenças Power BI Pro podem publicar neste workspace".
 - Os membros podem ou não compartilhar novamente: substituídos pela função Colaborador
-- Workspaces somente leitura: Em vez de conceder aos usuários o acesso somente leitura a um espaço de trabalho, atribua aos usuários uma função de Visualizador que permite acesso somente leitura semelhante ao conteúdo de um espaço de trabalho.
-- Os usuários sem uma licença do Pro poderão acessar o espaço de trabalho se ele estiver em uma capacidade Power BI Premium, mesmo se os usuários tiverem somente a função de Visualizador.
+- Workspaces somente leitura: Em vez de conceder aos usuários o acesso somente leitura a um workspace, atribua aos usuários uma função de Visualizador que permite acesso somente leitura semelhante ao conteúdo de um workspace.
+- Os usuários sem uma licença do Pro poderão acessar o workspace se ele estiver em uma capacidade Power BI Premium, mesmo se os usuários tiverem somente a função de Visualizador.
 - Para permitir que os usuários com a função de Visualizador exportem dados, verifique se eles têm a permissão Criar nos conjuntos de dados no workspace. Leia mais sobre a [Permissão Criar em conjuntos de dados](service-datasets-build-permissions.md).
 - Nenhum botão **Sair do workspace**.
 

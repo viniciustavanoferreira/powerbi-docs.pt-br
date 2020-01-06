@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4bbc8b71455d01405854304dd4b889f664ce8575
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877288"
 ---
 # <a name="dataflows-best-practice"></a>Prática recomendada para fluxos de dados
@@ -39,18 +39,18 @@ Assegure a utilização do mecanismo de computação aprimorado garantindo a exe
 
 Ao trabalhar com o SharePoint e se conectar a vários arquivos, você pode notar falhas esporádicas. O SharePoint limita as solicitações para garantir uma operação confiável e responsiva. Como consequência, ao se conectar a arquivos do Excel pelo SharePoint, você pode sentir-se inclinado a baixar todos os arquivos em um único fluxo de dados. Se você estiver baixando muitos arquivos, mais de 20, crie dois fluxos de dados ou mais para dividir a carga de atualização, e superar a limitação do SharePoint.
 
-### <a name="avoid-scheduling-refresh-for-linked-entities-inside-the-same-workspace"></a>Evite a atualização de agendamento de entidades vinculadas dentro do mesmo espaço de trabalho
+### <a name="avoid-scheduling-refresh-for-linked-entities-inside-the-same-workspace"></a>Evite a atualização de agendamento de entidades vinculadas dentro do mesmo workspace
 
-Se você estiver sendo bloqueado regularmente em seus fluxos de dados que contêm entidades vinculadas, talvez seja resultado do bloqueio do fluxo de dados dependente e correspondente dentro do mesmo espaço de trabalho durante a atualização do fluxo de dados. Esse bloqueio fornece precisão transacional e garante que os dois fluxos de dados sejam atualizados com êxito, mas pode impedir a edição. 
+Se você estiver sendo bloqueado regularmente em seus fluxos de dados que contêm entidades vinculadas, talvez seja resultado do bloqueio do fluxo de dados dependente e correspondente dentro do mesmo workspace durante a atualização do fluxo de dados. Esse bloqueio fornece precisão transacional e garante que os dois fluxos de dados sejam atualizados com êxito, mas pode impedir a edição. 
 
 Se você configurar um agendamento separado para o fluxo de dados vinculado, os fluxos de dados poderão ser atualizados desnecessariamente e impedirão a edição do fluxo de dados. Há duas recomendações para evitar esse problema: 
 
-* Evite definir uma agenda de atualização para um fluxo de dados vinculado no mesmo espaço de trabalho que o fluxo de dados de origem
-* Se você quiser configurar um agendamento de atualização separadamente, e quiser evitar o comportamento de bloqueio, separe o fluxo de dados em um espaço de trabalho separado.
+* Evite definir uma agenda de atualização para um fluxo de dados vinculado no mesmo workspace que o fluxo de dados de origem
+* Se você quiser configurar um agendamento de atualização separadamente, e quiser evitar o comportamento de bloqueio, separe o fluxo de dados em um workspace separado.
 
-### <a name="create-a-separate-workspace-for-ingestion-transformation"></a>Criar um espaço de trabalho separado para ingestão e transformação
+### <a name="create-a-separate-workspace-for-ingestion-transformation"></a>Criar um workspace separado para ingestão e transformação
 
-Para fornecer acesso aos dados do fluxo de dados subjacente a vários usuários, sem permitir acesso aos dados brutos do sistema de origem subjacente, crie um espaço de trabalho separado que tenha todos os dados que você precisa compartilhar e atribua permissões. No momento, não há suporte para permissões de fluxo de dados individual.
+Para fornecer acesso aos dados do fluxo de dados subjacente a vários usuários, sem permitir acesso aos dados brutos do sistema de origem subjacente, crie um workspace separado que tenha todos os dados que você precisa compartilhar e atribua permissões. No momento, não há suporte para permissões de fluxo de dados individual.
 
 ### <a name="ensure-capacity-is-in-the-same-region"></a>Verifique se a capacidade está na mesma região
 

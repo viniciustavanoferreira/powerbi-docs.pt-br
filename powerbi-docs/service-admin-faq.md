@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698729"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrando o Power BI – perguntas frequentes
@@ -153,7 +153,7 @@ Para permitir que os usuários existentes se inscrevam no Power BI, execute o co
 
 ## <a name="administration-of-power-bi"></a>Administração do Power BI
 
-### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>Como isso mudará minha maneira de gerenciar identidades dos usuários em minha organização hoje?
+### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>Como isso mudará a maneira como eu gerencio identidades dos usuários em minha organização atualmente?
 
 Há três cenários que podem se aplicar aos usuários em sua organização:
 
@@ -181,7 +181,7 @@ Quando um usuário de autoatendimento se inscreve em um serviço de nuvem que us
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>Se eu tiver vários domínios, poderei controlar o locatário do Microsoft 365 ao qual os usuários serão adicionados?
 
-Se você não fizer nada, o serviço criará um locatário para cada domínio e subdomínio de email de usuários. Se você quiser que todos os usuários estejam no mesmo locatário independentemente de suas extensões de endereço de email: Crie um locatário de destino antecipadamente ou use um locatário existente. Em seguida, adicione todos os domínios e subdomínios existentes que deseja consolidar neste locatário. Todos os usuários com endereços de email que terminam com esses domínios e subdomínios ingressam automaticamente no locatário de destino ao se inscreverem.
+Se você não fizer nada, o serviço criará um locatário para cada domínio e subdomínio de email de usuários. Se você desejar que todos os usuários estejam no mesmo locatário independentemente de suas extensões de endereço de email: Crie um locatário de destino antecipadamente ou use um locatário existente. Em seguida, adicione todos os domínios e subdomínios existentes que deseja consolidar neste locatário. Todos os usuários com endereços de email que terminam com esses domínios e subdomínios ingressam automaticamente no locatário de destino ao se inscreverem.
 
 > [!IMPORTANT]
 > Após a criação dos usuários, não há nenhum mecanismo automatizado compatível para movê-los entre locatários. Para saber mais sobre a adição de domínios a um único locatário do Microsoft 365, consulte [Adicionar usuários e domínio ao Office 365](/office365/admin/setup/add-domain/).

@@ -10,10 +10,10 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74697533"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>O que é um gateway de dados local?
@@ -22,7 +22,7 @@ ms.locfileid: "74697533"
 
 O gateway de dados local atua como uma ponte, fornecendo transferência de dados rápida e segura entre os dados locais (dados que não estão na nuvem) e vários serviços em nuvem da Microsoft. Esses serviços de nuvem incluem Power BI, PowerApps, Power Automate, Azure Analysis Services e Aplicativos Lógicos do Azure. Usando um gateway, as organizações podem manter os bancos de dados e outras fontes de dados em suas redes locais, ao mesmo tempo usando esses dados locais em serviços de nuvem.
 
-## <a name="how-the-gateway-works"></a>Como funciona o gateway
+## <a name="how-the-gateway-works"></a>Como o gateway funciona
 
 ![Visão geral do gateway](media/service-gateway-onprem/on-premises-data-gateway.png)
 
@@ -48,6 +48,6 @@ Há quatro etapas principais para usar um gateway.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [Instalar o gateway de dados local](/data-integration/gateway/service-gateway-install)
+* [Instale o gateway de dados local](/data-integration/gateway/service-gateway-install)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

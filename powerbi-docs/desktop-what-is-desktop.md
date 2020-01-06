@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73865142"
 ---
 # <a name="what-is-power-bi-desktop"></a>O que é o Power BI Desktop?
@@ -24,7 +24,7 @@ O **Power BI Desktop** é um aplicativo gratuito que você pode instalar no comp
 
 Os usos mais comuns para o **Power BI Desktop** são os seguintes:
 
-* Conectar-se a dados
+* Conectar aos dados
 * Transformar e limpar esses dados para criar um modelo de dados
 * Criar visuais, como gráficos, que fornecem representações visuais dos dados
 * Criar relatórios que são conjuntos de visuais em uma ou mais páginas do relatório
@@ -44,7 +44,7 @@ A imagem a seguir mostra as três Exibições que ficam do lado esquerdo da tela
 
 Com o **Power BI Desktop**, é possível criar relatórios complexos e visualmente avançados, usando dados de várias fontes, tudo em um relatório que você pode compartilhar com outras pessoas em sua organização. 
 
-## <a name="connect-to-data"></a>Conectar-se a dados
+## <a name="connect-to-data"></a>Conectar aos dados
 Para começar a usar o **Power BI Desktop**, a primeira etapa é conectar-se aos dados. Há vários tipos diferentes de fontes de dados aos quais você pode se conectar com o **Power BI Desktop**. Para se conectar a dados, basta selecionar **Início**, **Obter Dados > Mais** na faixa de opções. A imagem a seguir mostra a janela **Obter Dados** exibindo as muitas categorias às quais o Power BI Desktop pode se conectar.
 
 ![Obter Dados no Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_02.png)

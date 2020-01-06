@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872678"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Conectar-se a fontes de dados para fluxos de dados do Power BI
@@ -53,7 +53,7 @@ As fontes de dados para fluxos de dados são organizadas nas categorias a seguir
 * Banco de dados
 * Power BI
 * Azure
-* Serviços online
+* Serviços Online
 * Outros
 
 A categoria **Todas as categorias** contém todas as fontes de dados de todas as categorias. 

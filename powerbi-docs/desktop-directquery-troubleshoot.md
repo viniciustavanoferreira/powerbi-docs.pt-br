@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73868055"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Solução de problemas do modelo de DirectQuery no Power BI Desktop
@@ -36,7 +36,7 @@ Por padrão, o Power BI Desktop registra eventos durante uma determinada sessão
 Para algumas fontes do DirectQuery, esse log inclui todas as consultas enviadas à fonte de dados subjacente (as fontes restantes de DirectQuery poderão ter suporte no futuro). As fontes que gravam consultas no log são as seguintes:
 
 - SQL Server
-- Banco de dados SQL do Azure
+- Banco de Dados SQL do Azure
 - SQL Data Warehouse do Azure
 - Oracle
 - Teradata

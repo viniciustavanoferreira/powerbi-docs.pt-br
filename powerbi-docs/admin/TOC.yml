@@ -7,7 +7,7 @@
       items:
         - name: O que é administração do Power BI?
           href: ../service-admin-administering-power-bi-in-your-organization.md
-        - name: Onde está localizado o meu locatário?
+        - name: Onde o meu locatário está localizado?
           href: ../service-admin-where-is-my-tenant-located.md
         - name: Migrar para as regiões alemãs “Go Local”
           href: service-admin-migrate-data-germany.md
@@ -34,9 +34,9 @@
               href: ../service-admin-syndication-partner.md
         - name: Usando o portal de administração
           href: ../service-admin-portal.md
-        - name: Encontrar usuários que se conectaram
+        - name: Encontrar usuários que entraram
           href: ../service-admin-access-usage.md
-        - name: Auditoria
+        - name: Acompanhar atividades do usuário
           href: ../service-admin-auditing.md
         - name: Monitorar a integridade do serviço
           href: ../service-admin-health.md

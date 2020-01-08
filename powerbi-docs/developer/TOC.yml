@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: Tutoriais
           items:
-            - name: Conceito visual
-              href: visuals/power-bi-visuals-concept.md
             - name: Desenvolver um visual do Power BI
               href: visuals/custom-visual-develop-tutorial.md
             - name: Adicionar opções de formatação
@@ -25,6 +23,10 @@
               href: visuals/unit-tests-introduction.md
         - name: Conceitos
           items:
+            - name: Estrutura do projeto do visual do Power BI
+              href: visuals/visual-project-structure.md
+            - name: Conceito visual
+              href: visuals/power-bi-visuals-concept.md
             - name: Visuais para organizações no Power BI
               href: power-bi-custom-visuals-organization.md
             - name: Diretrizes para visuais do Power BI
@@ -63,6 +65,8 @@
               href: visuals/bookmarks-support.md
             - name: Adicionar suporte ao menu de contexto
               href: visuals/context-menu.md
+            - name: Adicionar suporte a busca detalhada
+              href: visuals/drill-down-support.md
             - name: Realçar dados em visuais
               href: visuals/highlight.md
             - name: Adicionar suporte ao modo de alto contraste
@@ -105,7 +109,7 @@
               href: 'https://powerbi.microsoft.com/developers/'
             - name: Exemplos
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: Repositório Git de Visuais Personalizados
+            - name: Repositório Git de visuais personalizados
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: Criação de um certificado SSL
               href: visuals/create-ssl-certificate.md
@@ -160,7 +164,7 @@
               href: get-azuread-access-token.md
             - name: Conectar um relatório usando associação dinâmica
               href: embed-dynamic-binding.md
-            - name: Incorporação de P e R
+            - name: Inserindo Perguntas e Respostas
               href: qanda.md
             - name: Solucione problemas do aplicativo inserido
               href: embedded-troubleshoot.md
@@ -180,7 +184,7 @@
                   href: migrate-from-powerbi-embedded.md
                 - name: Ferramenta de migração
                   href: migrate-tool.md
-                - name: Trechos de código de migração
+                - name: Snippets de código de migração
                   href: migrate-code-snippets.md
         - name: Referência
           items:

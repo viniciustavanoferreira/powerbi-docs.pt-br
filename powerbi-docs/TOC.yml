@@ -115,7 +115,7 @@
           href: desktop-show-items-no-data.md
         - name: Usar data/hora automática
           href: desktop-auto-date-time.md
-        - name: Conectar-se a dados
+        - name: Conectar aos dados
           items:
             - name: Conectar-se a fontes de dados
               href: desktop-data-sources.md
@@ -173,7 +173,7 @@
               href: desktop-connect-snowflake.md
             - name: Conectar-se aos dados de Gerenciamento de Custos do Azure
               href: desktop-connect-azure-cost-management.md
-            - name: Conecte-se aos dados do Azure Consumption Insights
+            - name: Conectar-se aos dados do Azure Consumption Insights
               href: desktop-connect-azure-consumption-insights.md
             - name: Usar o SAP HANA
               href: desktop-sap-hana.md
@@ -259,7 +259,7 @@
               href: desktop-grouping-and-binning.md
             - name: Usar R para criar visuais do Power BI
               href: desktop-r-visuals.md
-            - name: Usar visuais personalizados da plataforma R
+            - name: Usar visuais personalizados baseados em R
               href: desktop-r-powered-custom-visuals.md
             - name: Usar linhas de grade e ajustar à grade
               href: desktop-gridlines-snap-to-grid.md
@@ -495,7 +495,7 @@
               href: service-admin-licensing-organization.md
             - name: Recursos por tipo de licença
               href: service-features-license-type.md
-            - name: Power BI para o Governo dos EUA
+            - name: Power BI para o governo dos EUA
               href: service-govus-overview.md
             - name: Perguntas frequentes para os clientes da Nuvem da Alemanha
               href: service-govde-faq.md
@@ -587,9 +587,9 @@
               href: service-dashboards.md
             - name: Blocos de dashboard
               href: service-dashboard-tiles.md
-            - name: Criar um dashboard por meio de um relatório
+            - name: Criar um painel usando um relatório
               href: service-dashboard-create.md
-            - name: Criar uma cópia de um dashboard
+            - name: Criar uma cópia usando um painel
               href: service-dashboard-copy.md
             - name: Fixar um bloco em um dashboard por meio de um relatório
               href: service-dashboard-pin-tile-from-report.md
@@ -635,7 +635,7 @@
               href: power-bi-reports-tips-and-tricks-for-creating.md
             - name: Trabalhar com agregações no serviço
               href: service-aggregates.md
-            - name: Métrica de uso para relatórios
+            - name: Métricas de uso para relatórios
               href: service-usage-metrics.md
             - name: Criar um código QR para um relatório
               href: service-create-qr-code-for-report.md
@@ -691,7 +691,7 @@
               href: service-share-reports.md
             - name: Assine para você e para outras pessoas
               href: service-report-subscribe.md
-            - name: Inserir relatório no SharePoint Online
+            - name: Inserir o relatório no SharePoint Online
               href: service-embed-report-spo.md
             - name: Inserir o relatório em um site ou portal seguro
               href: service-embed-secure.md
@@ -791,7 +791,7 @@
               href: service-rename.md
             - name: Definir contatos de item
               href: service-item-contact.md
-            - name: Inscrever sua organização do Governo dos EUA
+            - name: Registrar sua organização do governo dos EUA
               href: service-govus-signup.md
             - name: Excluir quase tudo no Power BI
               href: service-delete.md
@@ -831,7 +831,7 @@
       items:
         - name: Idiomas e países/regiões compatíveis
           href: supported-languages-countries-regions.md
-        - name: Navegadores compatíveis
+        - name: Navegadores incompatíveis
           href: power-bi-browsers.md
     - name: Recursos
       items:
@@ -901,10 +901,8 @@
           href: report-builder-planning-report.md
         - name: Dados do Construtor de Relatórios
           href: report-builder-data.md
-        - name: Fontes de dados para as quais há suporte
+        - name: Fontes de dados com suporte
           href: paginated-reports-data-sources.md
-        - name: Usar conjuntos de dados compartilhados do Power BI
-          href: report-builder-shared-datasets.md
         - name: Dicas de design
           href: report-builder-design-tips.md
         - name: 'Tabelas, matrizes, listas'
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: Criar um conjunto de dados incorporados
           href: paginated-reports-create-embedded-dataset.md
+        - name: Criar um relatório com um conjunto de dados compartilhado do Power BI
+          href: report-builder-shared-datasets.md
         - name: Criar parâmetros
           href: paginated-reports-parameters.md
         - name: Pass a report parameter in a URL (Aprovar um parâmetro de relatório em uma URL)
@@ -955,15 +955,15 @@
           href: report-server/changelog.md
         - name: Linha do tempo de suporte
           href: report-server/support-timeline.md
-        - name: Requisitos de software e hardware
+        - name: Requisitos de hardware e software
           href: report-server/system-requirements.md
-        - name: Suporte do navegador
+        - name: Suporte ao navegador
           href: report-server/browser-support.md
         - name: Visão geral do administrador
           href: report-server/admin-handbook-overview.md
         - name: Noções básicas sobre o servidor de relatórios
           items:
-            - name: Atualização agendada de relatório do Power BI
+            - name: Atualização agendada do relatório do Power BI
               href: report-server/scheduled-refresh.md
             - name: Fontes de dados de relatório do Power BI
               href: report-server/data-sources.md
@@ -973,7 +973,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
             - name: Uso do aplicativo móvel
               href: 'https://go.microsoft.com/fwlink/?linkid=848711'
-            - name: Solucionar problemas da atualização agendada
+            - name: Solucionar problemas de atualização agendada
               href: report-server/scheduled-refresh-troubleshoot.md
         - name: Servidor de relatórios para desenvolvedores
           items:
@@ -989,6 +989,8 @@
       items:
         - name: Instalar o Power BI Desktop
           href: report-server/install-powerbi-desktop.md
+        - name: Instalar o Construtor de Relatórios
+          href: report-server/install-report-builder.md
         - name: Noções básicas sobre o servidor de relatórios
           items:
             - name: Criar um relatório do Power BI para um servidor de relatórios
@@ -1035,15 +1037,15 @@
           href: report-server/rest-api.md
         - name: WMI
           href: 'https://go.microsoft.com/fwlink/?linkid=848719'
-        - name: APIs do SOAP
+        - name: APIs SOAP
           href: 'https://go.microsoft.com/fwlink/?linkid=848721'
-        - name: Acesso da URL
+        - name: Acesso à URL
           href: 'https://go.microsoft.com/fwlink/?linkid=848722'
         - name: Extensões
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
     - name: Recursos
       items:
-        - name: White paper sobre planejamento de capacidade
+        - name: White paper de planejamento de capacidade
           href: report-server/capacity-planning.md
         - name: Conformidade da extensão de renderização de PDFs
           href: report-server/rendering-extension-support.md

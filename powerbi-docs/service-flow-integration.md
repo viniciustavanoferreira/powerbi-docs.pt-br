@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699672"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223776"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate e Power BI
 
-O [Power Automate](https://flow.microsoft.com/documentation/getting-started) é uma oferta de SaaS para automatizar os fluxos de trabalho entre o número crescente de serviços SaaS e aplicativos dos quais os usuários empresariais dependem. Com o Flow, é possível automatizar tarefas integrando seus aplicativos e serviços favoritos (incluindo o Power BI) para obter notificações, sincronizar os arquivos, coletar dados e muito mais. Tarefas repetitivas se tornam fácil com a automação do fluxo de trabalho.
+O [Power Automate](https://docs.microsoft.com/power-automate/getting-started) é uma oferta de SaaS para automatizar os fluxos de trabalho entre o número crescente de serviços SaaS e aplicativos dos quais os usuários empresariais dependem. Com o Flow, é possível automatizar tarefas integrando seus aplicativos e serviços favoritos (incluindo o Power BI) para obter notificações, sincronizar os arquivos, coletar dados e muito mais. Tarefas repetitivas se tornam fácil com a automação do fluxo de trabalho.
 
-[Começar a usar o Flow agora.](https://flow.microsoft.com/documentation/getting-started)
+[Começar a usar o Flow agora.](https://docs.microsoft.com/power-automate/getting-started)
 
 Assista a Sirui criar um Fluxo que envia um email detalhado para colegas quando um alerta do Power BI é disparado. Em seguida, siga as instruções passo a passo abaixo do vídeo para testá-la por conta própria.
 
@@ -107,7 +107,7 @@ Nesta tarefa, criaremos um fluxo simples do zero que é disparado por um alerta 
     ![O fluxo dispara a notificação do Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Introdução ao Power Automate](https://flow.microsoft.com/documentation/getting-started/)
+* [Introdução ao Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [Definir alertas de dados no serviço do Power BI](service-set-data-alerts.md)
 * [Definir alertas de dados no seu iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Definir alertas de dados no aplicativo móvel do Power BI para Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

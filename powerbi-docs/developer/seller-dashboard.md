@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002525"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223658"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>Enviar um visual do Power BI para o AppSource usando o Painel do Vendedor
 
@@ -103,7 +103,7 @@ Siga as instruções nesta seção para enviar um visual do Power BI para certif
     * [Cumprir os requisitos](power-bi-custom-visuals-certified.md#certification-requirements)
     * Passar a revisão de código
 
-2. A equipe de visuais do Power BI da Microsoft notifica você quando seu visual do Power BI é certificado e adicionado à [lista de certificados](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified) ou rejeitado com um relatório dos problemas que precisam ser corrigidos. É responsabilidade do desenvolvedor manter uma linha aberta de comunicação com a Microsoft e atualizar os visuais certificados como necessário.
+2. A equipe de visuais do Microsoft Power BI notifica você quando seu visual do Power BI é certificado e adicionado à lista de [visuais certificados do Power BI](power-bi-custom-visuals-certified.md#certified-power-bi-visuals) ou é rejeitado com um relatório dos problemas que precisam ser corrigidos. É responsabilidade do desenvolvedor manter uma linha aberta de comunicação com a Microsoft e atualizar os visuais certificados como necessário.
 
 ## <a name="tracking-submission-status-and-usage"></a>Acompanhamento do uso e do status do envio
 

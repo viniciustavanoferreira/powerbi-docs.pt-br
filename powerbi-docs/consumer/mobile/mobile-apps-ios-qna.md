@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6feba420e5bdc25651176be67e6f86f1dafc9ef6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879373"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219540"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de P e R nos aplicativos iOS – Power BI
 
@@ -33,53 +33,16 @@ Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gr
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-### <a name="install-the-power-bi-for-ios-app"></a>Instalar o aplicativo Power BI para iOS
-[Baixe o aplicativo iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Baixe o aplicativo para iPhone") da Apple App Store para o seu iPad, iPhone ou iPod Touch.
+* **Instalar o aplicativo Power BI para iOS**: [Baixar o aplicativo para iOS](https://go.microsoft.com/fwlink/?LinkId=522062) em seu iPhone ou iPad.
+Essas versões dão suporte ao aplicativo do Power BI para iOS:
+    * iPad com iOS 11 ou posterior.
+    * iPhone 5 e posteriores com iOS 11 ou posterior.
+* **Baixar os exemplos de Análise de Varejo e Análise de Oportunidade**: A primeira etapa deste início rápido é baixar os exemplos de Análise de Varejo e Análise de Oportunidade no serviço do Power BI. [Saiba como baixar um exemplo](./mobile-apps-download-samples.md) em sua conta do Power BI para começar a usar o serviço. Escolha o Exemplo de Análise de Varejo e o Exemplo de Análise de Oportunidade.
 
-Essas versões oferecem suporte ao aplicativo Power BI para iOS:
-- iPad com iOS 10 ou posterior.
-- iPhone 5 e posteriores com iOS 10 ou posterior. 
-- iPod Touch com iOS 10 ou posterior.
-
-### <a name="download-samples"></a>Baixar exemplos
-A primeira etapa é baixar as amostras de Análise de Varejo e Análise de Oportunidades no serviço do Power BI.
-
-**Obter o exemplo de Análise de Varejo**
-
-1. Abra o serviço do Power BI (app.powerbi.com) e entre.
-
-2. No painel de navegação, selecione **Workspaces**, **Meu workspace**.
-
-3. No canto inferior esquerdo, selecione **Obter Dados**.
-   
-    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. Na página Obter Dados, selecione o ícone **Exemplos**.
-   
-   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. Selecione **Exemplo de Análise de Varejo**.
- 
-    ![Exemplo de Análise de Varejo](./media/mobile-apps-ios-qna/power-bi-rs.png)
- 
-8. Selecione **Conectar**.  
-  
-   ![Exemplo de Análise de Varejo](./media/mobile-apps-ios-qna/retail16.png)
-   
-5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu workspace atual.
-   
-   ![Exemplo de Análise de Varejo](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
-
-**Obter o exemplo de análise de oportunidades**
-
-- Percorra as mesmas etapas acima descritas para o exemplo de Análise de Varejo, mas na etapa 4, selecione o **Exemplo de Análise de Oportunidade**.
-
-    ![Exemplo de Análise de Varejo](./media/mobile-apps-ios-qna/power-bi-oa.png)
-  
-OK, você está pronto para exibir os exemplos em seu dispositivo iOS.
+Depois de concluir os pré-requisitos, você estará pronto para experimentar o analista virtual de P e R.
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>Tente fazer perguntas sobre seu iPhone ou iPad
-1. No seu iPhone ou iPad, toque no botão de navegação global ![Botão de navegação global](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **Workspaces** > **Meu workspace** e abra o painel Exemplo de Análise de Varejo.
+1. Na barra de navegação inferior no iPhone ou no iPad, toque no botão Workspaces ![botão workspaces](./media/mobile-apps-ios-qna/power-bi-iphone-workspaces-button.png), vá até Meu Workspace e abra o dashboard Exemplo de Análise de Varejo.
 
 2. Toque no ícone do analista virtual da P e R ![Q&A virtual analyst icon](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) no menu de ação na parte inferior da página (na parte superior da página em um iPad).
      O analista virtual da P e R oferece algumas sugestões para começar.
@@ -99,7 +62,7 @@ OK, você está pronto para exibir os exemplos em seu dispositivo iOS.
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Toque na seta no canto superior esquerdo para voltar para a janela de chat do analista virtual da P e R.
 8. Toque no X à direita da caixa de texto para excluir o texto e começar novamente.
-9. Tente uma nova pergunta: Toque em **Topo** nas palavras-chave, toque em **venda por $ médio/unidade**  > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+9. Tente uma nova pergunta: Toque em **Topo** nas palavras-chave, toque em **venda por $ médio/unidade** > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
 10. Selecione **Por** nas palavras-chave, toque em **Tempo** na lista de sugestões na parte superior > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).

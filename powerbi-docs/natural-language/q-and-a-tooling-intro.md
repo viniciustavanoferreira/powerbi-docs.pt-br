@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874947"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Introdução à ferramenta de P e R para treinar a P e R do Power BI (versão prévia)
@@ -42,13 +42,13 @@ A ferramenta de P e R só está disponível no Power BI Desktop e, no momento, d
 
     ![Introdução a P e R](media/qna-tooling-dialog.png)
 
-### <a name="review-questions"></a>Revisar perguntas
+### <a name="review-questions"></a>Examinar perguntas
 
 Selecione **Perguntas de revisão** para ver uma lista de conjuntos de valores que estão sendo usados no serviço do Power BI para seu locatário. A página **Perguntas de revisão** também exibe o proprietário do conjunto de dados, o workspace e a data da última atualização. Aqui, você pode selecionar um conjunto de dados e ver que perguntas os usuários estão fazendo. Os dados também mostram as palavras que não foram reconhecidas. Todos os dados mostrados aqui são dos últimos 28 dias.
 
 ![Perguntas de revisão de P e R](media/qna-tooling-review-questions.png)
 
-### <a name="teach-qa"></a>Treinar as perguntas e respostas
+### <a name="teach-qa"></a>Ensinar P e R
 
 A seção **Ensinar P e R** permite treinar o P e R para reconhecer palavras. Para começar, você digita uma pergunta que contém uma ou mais palavras que o P e R não reconhece. O P e R solicita a definição desse termo. Insira um filtro ou um nome de campo que corresponda ao que a palavra representa. O P e R então reinterpreta a pergunta original. Se você estiver satisfeito com os resultados, poderá salvar sua entrada. Para saber mais, confira [Ensinar P e R](q-and-a-tooling-teach-q-and-a.md)
 

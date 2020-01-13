@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881940"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223854"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outros workspaces (versão prévia)
 
@@ -37,7 +37,7 @@ Quando encontrar um relatório de sua preferência em um workspace ou aplicativo
 
     ![Caixa de diálogo Salvar uma cópia](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    Salve o relatório no workspace atual ou em outro workspace no serviço do Power BI. Você só verá os workspaces que são os workspaces da nova experiência no qual você é membro.
+    O workspace de salvamento depende do local de origem da cópia. Ao fazer a cópia por meio de um workspace, você pode salvar o relatório no workspace atual ou em outro workspace no serviço do Power BI. Você só verá os workspaces que são os workspaces da nova experiência no qual você é membro. Ao fazer a cópia por meio de um aplicativo, você pode salvar o relatório em Meu workspace.
   
 4. Selecione **Salvar**.
 
@@ -64,18 +64,18 @@ Quando você tiver um relatório no workspace, talvez você precise saber em qua
 
 ## <a name="delete-a-report-and-its-shared-dataset"></a>Excluir um relatório e seu conjunto de dados compartilhado
 
-Você pode decidir que não deseja mais o relatório e seu conjunto de dados compartilhado associado no espaço de trabalho.
+Você pode decidir que não deseja mais o relatório e seu conjunto de dados compartilhado associado no workspace.
 
 1. Exclua o relatório. Na lista de relatórios no espaço de trabalho, selecione o ícone **Excluir**.
 
     ![Excluir ícone de relatório](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
 
-2. Na lista de conjuntos de dados, você vê que os conjuntos de dados compartilhados não têm ícones **Excluir**. Atualize a página ou vá para uma página diferente e retorne. O conjunto de dados será eliminado. Caso contrário, verifique **Exibição relacionada**. Pode estar relacionado a outra tabela em seu espaço de trabalho.
+2. Na lista de conjuntos de dados, você vê que os conjuntos de dados compartilhados não têm ícones **Excluir**. Atualize a página ou vá para uma página diferente e retorne. O conjunto de dados será eliminado. Caso contrário, verifique **Exibição relacionada**. Pode estar relacionado a outra tabela em seu workspace.
 
     ![Ícone Exibir relacionados](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
-    > A exclusão do conjunto de dados compartilhado neste espaço de trabalho não exclui o conjunto de dados. Ela exclui apenas a referência a ele.
+    > A exclusão do conjunto de dados compartilhado neste workspace não exclui o conjunto de dados. Ela exclui apenas a referência a ele.
 
 
 ## <a name="next-steps"></a>Próximas etapas

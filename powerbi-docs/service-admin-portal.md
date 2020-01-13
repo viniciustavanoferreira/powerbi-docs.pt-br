@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882892"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224186"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -127,7 +127,7 @@ O gerenciamento de administradores, grupos e usuários do Power BI é feito no C
 
 O gerenciamento dos logs de auditoria do Power BI é feito na Central de Segurança e Conformidade do Office 365. A guia **Logs de auditoria** fornece um link para a Central de Segurança e Conformidade para seu locatário. [Saiba mais](service-admin-auditing.md)
 
-Para usar os logs de auditoria, verifique se a configuração [**Criar logs de auditoria para conformidade e auditoria de atividade interna** ](#create-audit-logs-for-internal-activity-auditing-and-compliance) está habilitada.
+Para usar os logs de auditoria, verifique se a configuração [**Criar logs de auditoria para conformidade e auditoria de atividade interna**](#create-audit-logs-for-internal-activity-auditing-and-compliance) está habilitada.
 
 ## <a name="tenant-settings"></a>Configurações de locatário
 
@@ -168,9 +168,9 @@ As próximas seções fornecem uma visão geral dos diferentes tipos de configur
 
 Os usuários da organização podem acessar os recursos internos de ajuda e suporte no menu de ajuda do Power BI. Especificamente, esses parâmetros alteram o comportamento dos itens do menu Saiba mais, Comunidade e Obter ajuda.
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+Além disso, especificando uma URL para solicitações de licenciamento, você personaliza a URL de destino do botão **Atualizar conta**. Os usuários sem uma licença do Power BI Pro veem esse botão na caixa de diálogo **Atualizar para o Power BI Pro**, bem como na página **Gerenciar armazenamento pessoal**. Além disso, o Power BI não oferece mais o botão **Experimente o Pro gratuitamente** nessa caixa de diálogo ou na página de armazenamento. Isso garante que o Power BI oriente os usuários de maneira confiável pelos processos definidos em sua organização por meio da solução de gerenciamento de licenças.
 
-Especificando uma URL para solicitações de licenciamento, você personaliza a URL de destino do botão **Atualizar conta** que um usuário sem uma licença do Power BI Pro pode encontrar na caixa de diálogo **Atualizar para o Power BI Pro**, bem como na página **Gerenciar armazenamento pessoal**. Além disso, o Power BI não oferece mais o botão **Experimente o Pro gratuitamente** na caixa de diálogo ou na página de armazenamento, para garantir que o Power BI oriente seus usuários de forma confiável ao longo dos processos definidos em sua organização com sua solução de gerenciamento de licenças.
+![Configuração habilitado com exceção](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Receber notificações por email para interrupções ou incidentes de serviço
 
@@ -208,7 +208,7 @@ A imagem a seguir mostra o menu **Arquivo** de um relatório quando a configura�
 
 Os usuários veem diferentes opções na interface do usuário a depender do local onde se encontra a configuração de **Publicar na Web**.
 
-|Recurso |Habilitado para toda a organização |Desabilitado para toda a organização |Especificar grupos de segurança   |
+|Recurso |Habilitado para toda a organização |Desabilitado para toda a organização |Grupos de segurança específicos   |
 |---------|---------|---------|---------|
 |**Publicar na Web** no menu **Arquivo** do relatório.|Habilitado para todos|Não visível para todos|Visível somente para usuários ou grupos autorizados.|
 |**Gerenciar códigos de inserção** em **Configurações**|Habilitado para todos|Habilitado para todos|Habilitado para todos<br><br>Opção * **Excluir** somente para usuários ou grupos autorizados.<br>* **Obter códigos** habilitados para todos.|

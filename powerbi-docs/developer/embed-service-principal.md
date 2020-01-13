@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264200"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223368"
 ---
 # <a name="service-principal-with-power-bi"></a>Entidade de serviço com o Power BI
 
@@ -150,7 +150,7 @@ Abaixo estão as etapas para obter a ID de objeto da entidade de serviço do por
 
    ![Aplicativo gerenciado no diretório local](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > A ID de objeto na imagem acima não é usada com a entidade de serviço.
 
 3. Selecione **Propriedades** para ver a ID do objeto.
@@ -174,6 +174,7 @@ Abaixo está um exemplo de script para recuperar a ID de objeto da entidade de s
 * Aplicativos [inseridos para sua organização](embed-sample-for-your-organization.md) não podem usar a entidade de serviço.
 * Não há suporte para gerenciamento de [fluxos de dados](../service-dataflows-overview.md).
 * No momento, a entidade de serviço não dá suporte a nenhuma API de administrador.
+* Ao usar uma entidade de serviço com uma fonte de dados do [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), a própria entidade de serviço precisa ter permissões de uma instância do Azure Analysis Services. O uso de um grupo de segurança que contenha a entidade de serviço para essa finalidade não funciona.
 
 ## <a name="next-steps"></a>Próximas etapas
 

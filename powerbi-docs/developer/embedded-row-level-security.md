@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: ec0f98dfe56b6d2a6efe038622541f9f19d3899d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478674"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223403"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança em nível de linha com o Power BI Embedded
 
@@ -130,6 +130,9 @@ A segurança em nível de linha pode ser usada com conexões dinâmicas do Analy
 
 A identidade efetiva fornecida para a propriedade de nome de usuário deve ser um usuário do Windows com permissões no servidor do Analysis Services.
 
+>[!NOTE]
+> Ao usar uma entidade de serviço com uma fonte de dados do [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), a própria entidade de serviço precisa ter permissões de uma instância do Azure Analysis Services. O uso de um grupo de segurança que contenha a entidade de serviço para essa finalidade não funciona.
+
 ### <a name="on-premises-data-gateway-configuration"></a>Configuração do gateway de dados local
 
 Um [Gateway de dados local](../service-gateway-onprem.md) é usado ao trabalhar com as conexões dinâmicas do Analysis Services. Ao gerar um token de inserção, com uma identidade listada, a conta mestra precisa estar listada como um administrador do gateway. Se a conta mestra não estiver listada, a segurança em nível de linha não será aplicada à propriedade dos dados. Um não administrador do gateway pode fornecer funções, mas deve especificar seu próprio nome de usuário para a identidade efetiva.
@@ -144,7 +147,7 @@ O recurso CustomData funciona apenas para os modelos que residem no **Azure Anal
 
 O recurso CustomData permite adicionar um filtro de linha ao exibir dados do Power BI em seu aplicativo ao usar o **Azure Analysis Services** como sua fonte de dados (exibição de dados do Power BI conectados ao Azure Analysis Services em seu aplicativo).
 
-O recurso CustomData permite passar texto livre (cadeia de caracteres) usando a propriedade de cadeia de caracteres de conexão CustomData. O Analysis Services usa este valor por meio da função *CUSTOMDATA()* .
+O recurso CustomData permite passar texto livre (cadeia de caracteres) usando a propriedade de cadeia de caracteres de conexão CustomData. O Analysis Services usa esse valor por meio da função *CUSTOMDATA()* .
 
 A única maneira de ter RLS dinâmica (que usa valores dinâmicos para a avaliação de filtro) no **Azure Analysis Services** é usando a função *CUSTOMDATA()* .
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 70ecd56f2823e608aa62deb4a5033f53272d3382
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879095"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220945"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartilhar um dashboard ou relatório dos aplicativos móveis do Power BI
 Aplica-se a:
@@ -26,120 +26,73 @@ Com uma [licença do Power BI Pro](../../service-features-license-type.md), é p
 
 Nos aplicativos móveis do Power BI para iOS e Android, você também pode [anotar e compartilhar o instantâneo de um bloco, relatório ou visual](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) com qualquer pessoa. 
 
-## <a name="share-from-your-iphone"></a>Compartilhar do seu iPhone
-1. Na barra de ações na parte inferior do dashboard ou do relatório, toque no ícone **Compartilhar** ![Ícone Compartilhar](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png).
+## <a name="share-from-your-iphone-or-ipad"></a>Compartilhar de seu iPhone ou iPad
+
+1. Você pode compartilhar um dashboard ou relatório de dentro do próprio dashboard ou relatório ou da página inicial do dashboard ou relatório:
+    *  De dentro de um dashboard ou relatório, toque no ícone **Compartilhar** ![ícone de convite](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png) na barra de ações na parte inferior do dashboard ou do relatório.
+    *  Na página inicial de um dashboard ou relatório, toque no ícone **Informações** ![Mais informações](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-more-info-icon.png) ao lado do nome do dashboard ou relatório e, em seguida, toque no ícone **Compartilhar** ![Ícone de convite](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png) na guia de informações exibida.
+2. Digite nomes, separados por vírgulas, e uma mensagem para acompanhar seu convite. Para permitir o recompartilhamento, deixe selecionada a opção **Permitir que os destinatários compartilhem novamente**. O recompartilhamento permite que seus colegas encaminhem o convite por email a outros membros de sua organização, por meio da Web ou dos aplicativos móveis.
+3. Toque em **Enviar** no canto superior direito.
    
-   ![ícone Compartilhar do iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-dashboard-invite.png)
-2. Digite nomes, separados por vírgulas, e uma mensagem para acompanhar seu convite.
-3. Para permitir o recompartilhamento, deixe selecionada a opção **Permitir que os destinatários compartilhem novamente**.
+   Os destinatários receberão um convite por email com um link direto para o dashboard ou para o relatório. O convite expira após um mês. Quando eles o abrem, seja no serviço do Power BI ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI. Para acessar sua seção Compartilhado comigo:
    
-   O recompartilhamento permite que seus colegas encaminhem o convite por email a outros membros de sua organização, por meio da Web ou dos aplicativos móveis.
-5. Toque em **Enviar** no canto superior direito.
-   
-   Os destinatários receberão um convite por email com um link direto para o dashboard ou para o relatório. O convite expira após um mês. Quando eles o abrem, seja em um navegador ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI.
-   
-   ![Compartilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   * No aplicativo móvel do Power BI, toque em **Mais opções** (…) na barra de navegação e escolha ![Compartilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartilhado comigo**.
+   * No serviço do Power BI, clique em ![Compartilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartilhado comigo** no painel de navegação esquerdo.
    
    Leia mais [observações sobre o compartilhamento com colegas](../../service-share-dashboards.md).
 
-### <a name="unshare-from-your-iphone"></a>Descompartilhar do seu iPhone
+### <a name="unshare-from-your-iphone-or-ipad"></a>Descompartilhar o dashboard ou o relatório de seu iPhone ou iPad
 Só será possível descompartilhar se você for o proprietário.
 
-1. Na barra de ações na parte inferior do dashboard ou do relatório, toque no ícone **Compartilhar** ![Ícone Compartilhar](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png).
-2. Toque em **Convidar um colega**.
-   
-   Você verá a lista de colegas com quem você compartilhou este dashboard ou relatório, com estas frases:
-   
-   * **Pode exibir**: eles podem exibir, mas não podem compartilhar.
-   * **Pode exibir e convidar**: eles podem exibir e compartilhar com outros colegas.
-1. Toque em **Editar**.
-   
-    ![Ícone Editar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-edit-invite-dashboard.png)
-4. Para descompartilhar, toque no círculo vermelho ao lado de um nome e toque em **Excluir**.
+1. Na barra de ações na parte inferior do dashboard ou do relatório, toque no ícone **Compartilhar**![Ícone Compartilhar](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png).
+2. Toque em **Compartilhado com**. Você vê a lista de colegas com os quais você compartilhou este painel ou relatório.
 
-## <a name="share-from-your-ipad"></a>Compartilhar do seu iPad
-1. Toque no ícone **Compartilhar** ![ícone Compartilhar](././media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) no canto superior direito do seu dashboard ou relatório.
-2. Digite endereços de email e uma mensagem para acompanhar seu convite.
-3. Para permitir o recompartilhamento, deixe selecionada a opção **Permitir que os destinatários compartilhem novamente**.
-   
-   O recompartilhamento permite que seus colegas encaminhem o convite por email a outros membros de sua organização, por meio da Web ou dos aplicativos móveis. 
+3. Toque em **Mais opções** (…) ao lado do nome da pessoa com que deseja descompartilhar o dashboard ou o relatório e escolha se deseja remover o acesso apenas ao dashboard compartilhado ou a qualquer conteúdo subjacente que ele também usa.
 
-4. Toque em **Enviar** no canto superior direito.
-   
-   Os destinatários receberão um convite por email com um link direto para o dashboard ou para o relatório. O convite expira após um mês. Quando eles o abrem, seja em um navegador ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI
-   
-   ![Compartilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
-   
-   Leia mais [observações sobre o compartilhamento com colegas](../../service-share-dashboards.md).
 
-### <a name="unshare-from-your-ipad"></a>Descompartilhar do seu iPad
-Só será possível descompartilhar se você for o proprietário.
-
-1. Toque no ícone **Compartilhar** ![ícone Compartilhar](././media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) no canto superior direito do seu dashboard ou relatório.
-   
-   Você verá a lista de colegas com quem você compartilhou este dashboard ou relatório, com estas frases:
-   
-   * **Pode exibir**: eles podem exibir, mas não podem compartilhar.
-   * **Pode exibir e convidar**: eles podem exibir e compartilhar com outros colegas.
-2. Toque em **Editar**.
-3. Para descompartilhar, toque no círculo vermelho ao lado de um nome e toque em **Excluir**.
 
 ## <a name="share-from-your-android-device"></a>Compartilhar do seu dispositivo Android
-1. Na página inicial de dashboards ou de relatórios, toque em **Mais opções** (...) e em **Convidar um colega**.
+1. Você pode compartilhar um dashboard ou relatório de dentro do próprio dashboard ou relatório ou da página inicial do dashboard ou relatório:
+    *  Em um dashboard ou relatório, toque em **Mais opções** (…) na parte superior do dashboard ou relatório e escolha **Convidar um colega**.
+    *  Na página inicial de um dashboard ou relatório, toque em **Mais informações** (…) ao lado do nome do dashboard ou relatório e, em seguida, toque no ícone **Compartilhar** ![Ícone de convite](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png) na guia de informações exibida.
+ 
+2. Digite os endereços de email e uma mensagem para acompanhar o seu convite de painel. Caso contrário, o Power BI envia uma mensagem padrão. Para permitir o recompartilhamento, deixe selecionada a opção **Permitir que os destinatários compartilhem este painel** . O recompartilhamento permite que seus colegas de trabalho encaminhem o convite por email a outros membros de sua organização, por meio do navegador ou dos aplicativos móveis.
    
-   ![Convidar um colega](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. Ou, em um dashboard, toque no ícone Convidar ![Ícone Convidar](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
+3. Toque no ícone **Enviar**![ícone Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png) no canto superior direito para enviar o email.
+   
+    Os destinatários receberão um convite por email com um link direto para o dashboard ou para o relatório. O convite expira após um mês. Quando eles o abrem, seja no serviço do Power BI ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI. Para acessar sua seção Compartilhado comigo:
+   * No aplicativo móvel do Power BI, toque em **Mais opções** (…) na barra de navegação e escolha ![Compartilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartilhado comigo**.
+   * No serviço do Power BI, clique em ![Compartilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartilhado comigo** no painel de navegação esquerdo.
+   
+   Leia mais [observações sobre o compartilhamento com colegas](../../service-share-dashboards.md).
 
-    Se for o proprietário do dashboard, você verá a lista de colegas com os quais você compartilhou esse dashboard ou relatório, com estas observações:
-
-    -   **Pode exibir**: eles podem exibir, mas não podem compartilhar.
-    -   **Pode exibir e compartilhar novamente**: eles podem exibir e compartilhar com outros colegas.
-
-1. Digite os endereços de email e uma mensagem para acompanhar o seu convite de painel. Caso contrário, o Power BI envia uma mensagem padrão.
-2. Para permitir o recompartilhamento, deixe selecionada a opção **Permitir que os destinatários compartilhem este painel** .
-   
-   O recompartilhamento permite que seus colegas de trabalho encaminhem o convite por email a outros membros de sua organização, por meio do navegador ou dos aplicativos móveis.
-   
-1. Toque no ícone **Enviar** ![ícone Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png) no canto superior direito para enviar o email.
-   
-   Os destinatários receberão um convite por email com um link direto para o dashboard. O convite expira após um mês. Quando eles o abrem, seja em um navegador ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI
-   
-   ![Compartilhado comigo](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
-   
-   Leia mais [observações sobre o compartilhamento de painéis com colegas](../../service-share-dashboards.md).
 
 ### <a name="unshare-from-your-android-device"></a>Descompartilhar do seu dispositivo Android
 Só será possível descompartilhar se você for o proprietário.
 
-1. No canto superior direito do seu dashboard ou relatório, toque no ícone convidar ![Ícone Convidar](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png). 
-   
-   Você vê a lista de colegas com os quais você compartilhou este painel ou relatório.
-2. Para interromper o compartilhamento com um colega, toque no **X** ao lado do nome \> **Remover**.
+1. Você pode descompartilhar um dashboard ou relatório de dentro do próprio dashboard ou relatório ou da página inicial do dashboard ou relatório:
+    *  Em um dashboard ou relatório, toque em **Mais opções** (…) na parte superior do dashboard ou relatório e escolha **Convidar um colega**.
+    *  Na página inicial de um dashboard ou relatório, toque em **Mais informações** (…) ao lado do nome do dashboard ou relatório e, em seguida, toque no ícone **Compartilhar** ![Ícone de convite](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png) na guia de informações exibida.
+
+2. Na parte inferior da página **Adicionar pessoas** que é aberta, você verá a lista de colegas com os quais você compartilhou esse dashboard ou relatório. Toque no nome do colega com o qual deseja descompartilhar o dashboard ou o relatório.
+3. Na página **Quem tem acesso** que aparece, toque no ícone **Remover** ![ícone Remover](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-remove-icon.png) e escolha se deseja remover o acesso apenas ao dashboard compartilhado ou a qualquer conteúdo subjacente que ele também usa.
 
 ## <a name="share-from-your-windows-10-device"></a>Compartilhar do seu dispositivo Windows 10
-1. Em um dashboard, toque no ícone Convidar ![Ícone Convidar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_inviteicon.png).
+
+1. Você pode compartilhar um dashboard ou relatório de dentro do próprio dashboard ou relatório ou da página inicial do dashboard ou relatório:
+    * De dentro de um dashboard ou relatório, toque no ícone **Compartilhar** ![ícone de convite](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png).
+    * Na página inicial de dashboards ou relatórios, clique com o botão direito do mouse ou pressione e mantenha pressionado e escolha **Convidar**.
    
-   Ou, na página inicial de dashboards ou relatórios, clique com o botão direito do mouse ou pressione e mantenha pressionado e toque em **Convidar**.
+   Se for o proprietário do dashboard, você verá a lista de colegas com os quais você compartilhou esse dashboard ou relatório.
+
+2. Digite endereços de email e uma mensagem para acompanhar seu convite. Caso contrário, o Power BI envia uma mensagem padrão. Para permitir o recompartilhamento, deixe selecionada a opção **Permitir que os destinatários compartilhem este painel** . Recompartilhar permite que seus colegas de trabalho compartilhem com outros em sua organização, seja por meio do navegador ou pelos aplicativos móveis.
    
-   ![Convidar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10_sharedash.png)
+3. Toque no ícone **Enviar**![ícone Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
    
-   Se for o proprietário do painel, você verá a lista de colegas com os quais você compartilhou esse painel, com estas notas:
+    Os destinatários receberão um convite por email com um link direto para o dashboard ou para o relatório. O convite expira após um mês. Quando eles o abrem, seja no serviço do Power BI ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI. Para acessar sua seção Compartilhado comigo:
    
-   **Pode exibir**: eles podem exibir, mas não podem compartilhar.
-   
-   **Pode exibir e compartilhar novamente**: eles podem exibir e compartilhar com outros colegas.
-2. Digite endereços de email e uma mensagem para acompanhar seu convite. Caso contrário, o Power BI envia uma mensagem padrão.
-   
-   ![Caixa de diálogo Convidar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)
-3. Para permitir o recompartilhamento, deixe selecionada a opção **Permitir que os destinatários compartilhem novamente**.
-   
-   Recompartilhar permite que seus colegas de trabalho compartilhem com outros em sua organização, seja por meio do navegador ou pelos aplicativos móveis.
-   
-1. Toque no ícone **Enviar** ![ícone Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
-   
-   Os destinatários receberão um convite por email com um link direto para o dashboard ou para o relatório. O convite expira após um mês. Quando eles o abrem, seja em um navegador ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI
-   
-   ![Compartilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   * No aplicativo móvel do Power BI, toque em **Mais opções** (…) na barra de navegação e escolha ![Compartilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartilhado comigo**.
+   * No serviço do Power BI, clique em ![Compartilhado comigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartilhado comigo** no painel de navegação esquerdo.
    
    Leia mais [observações sobre o compartilhamento com colegas](../../service-share-dashboards.md).
 

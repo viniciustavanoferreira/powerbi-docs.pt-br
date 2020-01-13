@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831170"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657157"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Criar parâmetros para relatórios paginados no serviço do Power BI
 
@@ -61,7 +61,12 @@ A ilustração a seguir mostra o modo de exibição de Design no Construtor de R
     -   Para ocultar o parâmetro e protegê-lo contra alterações no servidor de relatório após a publicação do relatório, selecione **Interno**. O parâmetro de relatório só pode ser exibido na definição de relatório. Para esta opção, você deve definir um valor padrão ou permitir que o parâmetro aceite um valor nulo.  
   
 9. Selecione **OK**. 
-  
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
+
+- Se estiver usando um conjunto de dados do Power BI ou um modelo do Analysis Services como sua fonte de dados, você não poderá passar mais de 1.000 valores de parâmetro em uma única solicitação, devido a limitações de DAX. 
+
+ 
 ## <a name="next-steps"></a>Próximas etapas
 
 Veja [Exibir parâmetros para relatórios paginados ](consumer/paginated-reports-view-parameters.md) para conferir como os parâmetros são exibidos no serviço do Power BI.

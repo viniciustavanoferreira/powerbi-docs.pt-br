@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: bbb0584843f79445c4e5cca073f9c4b953d346aa
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699350"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Use SAML (Security Assertion Markup Language) para SSO do Power BI em fontes de dados locais
 
 A habilitação do SSO facilita a atualização de dados de fontes locais em relatórios e dashboards do Power BI, respeitando as permissões no nível de usuário configuradas nessas fontes. Use [SAML (Security Assertion Markup Language)](https://www.onelogin.com/pages/saml) para habilitar a conectividade ininterrupta de logon único. 
 
-## <a name="supported-data-sources"></a>Fontes de dados para as quais há suporte
+## <a name="supported-data-sources"></a>Fontes de dados com suporte
 
 Atualmente, há suporte para SAP HANA com SAML. Para saber mais sobre como configurar e definir o logon único para o SAP HANA usando o SAML, confira [SSO do SAML para a Plataforma BI para HANA](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA).
 

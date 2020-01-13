@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 01f79bfaae13b60d3c63abd8f7fc801998075ee6
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265276"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Ferramenta de migração Power BI Embedded
@@ -26,7 +26,7 @@ A migração do conteúdo de suas coleções de workspaces para o serviço do Po
 * Conjuntos de dados enviados por push não podem ser baixados e precisarão ser recriados usando as APIs REST do Power BI para o serviço do Power BI.
 * Arquivos PBIX importados antes de 26 de novembro de 2016 não estarão disponíveis para download.
 
-## <a name="download"></a>Download
+## <a name="download"></a>Baixar
 
 É possível baixar o exemplo da ferramenta de migração no [GitHub](https://github.com/Microsoft/powerbi-migration-sample). Você pode baixar um zip do repositório ou pode cloná-lo localmente. Após o download, você pode abrir *powerbi-migration-sample.sln* dentro do Visual Studio para compilar e executar a ferramenta de migração.
 

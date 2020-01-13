@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7cfc52557d9dcce03dd2e42818bb04f4754c190d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875301"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304322"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma fonte de dados incorporada para relatórios paginados no serviço do Power BI
 
@@ -75,21 +75,21 @@ Os relatórios paginados que se conectam aos conjuntos de dados do Power BI segu
 
 - .rdl no mesmo workspace que o conjunto de dados (mesmo proprietário): Compatível
 - .rdl em um workspace diferente daquele do conjunto de dados (mesmo proprietário): Compatível
-- .rdl compartilhado: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
-- Aplicativo compartilhado: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
+- .rdl compartilhado: Você precisará atribuir a permissão de leitura a cada usuário que estiver vendo o relatório no nível do conjunto de dados
+- Aplicativo compartilhado: Você precisará atribuir a permissão de leitura a cada usuário que estiver vendo o relatório no nível do conjunto de dados
 - .rdl no mesmo workspace que o conjunto de dados (outro usuário): Compatível
-- .rdl em um workspace diferente daquele do conjunto de dados (usuário diferente): você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
-- Segurança em nível de função: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados para que ela seja imposta.
+- .rdl em um workspace diferente daquele do conjunto de dados (outro usuário): você precisará atribuir a permissão de leitura a cada usuário que estiver vendo o relatório no nível do conjunto de dados
+- Segurança em nível de função: Você precisará atribuir a permissão de leitura a cada usuário que estiver vendo o relatório no nível do conjunto de dados para que ela seja imposta.
 
 ### <a name="new-experience-apps-and-workspaces"></a>Novos aplicativos e workspaces
 
 - .rdl no mesmo workspace que o conjunto de dados: Compatível
 - .rdl em um workspace diferente daquele do conjunto de dados (mesmo proprietário): Compatível
-- .rdl compartilhado: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
-- Aplicativo compartilhado: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
+- .rdl compartilhado: Você precisará atribuir a permissão de leitura a cada usuário que estiver vendo o relatório no nível do conjunto de dados
+- Aplicativo compartilhado: Você precisará atribuir a permissão de leitura a cada usuário que estiver vendo o relatório no nível do conjunto de dados
 - .rdl no mesmo workspace que o conjunto de dados (outro usuário) - Compatível
-- .rdl em um workspace diferente daquele do conjunto de dados (outro usuário): Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados
-- Segurança em nível de função: Você precisa atribuir a permissão Criar a cada usuário que estiver visualizando o relatório no nível do conjunto de dados para que ela seja imposta
+- .rdl em um workspace diferente daquele do conjunto de dados (outro usuário): Você precisará atribuir a permissão de leitura a cada usuário que estiver vendo o relatório no nível do conjunto de dados
+- Segurança em nível de função: Você precisará atribuir a permissão de leitura a cada usuário que estiver vendo o relatório no nível do conjunto de dados para que ela seja imposta
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870661"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218298"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Exibir painéis e relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -63,7 +63,7 @@ Este é um dashboard do Power BI no serviço do Power BI:
    
    * [Toque em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo o modo de foco e interagir com ele.
    * Toque na estrela ![Estrela de Favorito](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) para [torná-lo um favorito](mobile-apps-favorites.md).
-   * Toque em **Convidar** ![ícone Convidar](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) para [convidar um colega](mobile-share-dashboard-from-the-mobile-apps.md) para exibir o seu dashboard.
+   * Toque em **Convidar** ![ícone Convidar](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) para [convidar um colega](mobile-share-dashboard-from-the-mobile-apps.md) para exibir seu dashboard.
    * [Sincronize o dashboard com o Apple Watch](mobile-apple-watch.md).
 4. Para voltar à lista de dashboards, toque na seta ao lado do título do dashboard e, em seguida, toque em **Meu Workspace**.
    
@@ -131,7 +131,7 @@ Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do s
    
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
-   * As estrelas amarelas ![Estrela de Favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram quais dashboards são favoritos. 
+   * As estrelas amarelas ![Estrela de Favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostra quais dashboards são favoritos. 
    * A notação embaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados em cada dashboard são classificados. Leia mais sobre [classificação de dados no Power BI](../../service-data-classification.md).
 3. Enquanto estiver no dashboard, você pode tocar no botão vertical **Mais opções** (...), ao lado do nome, para convidar um colega, atualizar ou obter informações sobre o dashboard:
    

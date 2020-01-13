@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74695187"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304181"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: Função DIVIDE versus operador dividir (/)
 
@@ -58,7 +58,7 @@ Recomendamos que você use a função DIVIDE sempre que o denominador for uma ex
 
 No caso de o denominador ser um valor constante, recomendamos usar o operador de divisão. Neste caso, a divisão tem sucesso garantido e sua expressão terá um desempenho melhor porque evitará testes desnecessários.
 
-Considere cuidadosamente se a função DIVIDE deve retornar um valor alternativo. Para medidas, geralmente é um design melhor retornar EM BRANCO quando um resultado significativo não pode ser avaliado. Para obter mais informações, confira [Evitar converter valores EM BRANCO em valores](dax-avoid-converting-blank.md).
+Considere cuidadosamente se a função DIVIDE deve retornar um valor alternativo. Para medidas, geralmente é um design melhor que elas retornam EM BRANCO. Retornar EM BRANCO é melhor porque os visuais de relatório eliminam, por padrão, os agrupamentos quando os resumos estão EM BRANCO. Isso permite que o visual se concentre em grupos nos quais existem dados. Quando necessário, você pode configurar o visual para exibir todos os grupos (que retornam valores ou BLANK) no contexto de filtro habilitando a opção [Mostrar itens sem dados](../desktop-show-items-no-data.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

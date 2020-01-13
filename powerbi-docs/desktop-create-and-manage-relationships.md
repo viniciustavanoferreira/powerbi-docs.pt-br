@@ -10,10 +10,10 @@ ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73869129"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerenciar relações no Power BI Desktop
@@ -92,9 +92,9 @@ Esta primeira tabela, ProjectHours, é um registro de tíquetes de trabalho que 
 | 1002 |Alan Brewer |26 |Vermelho |2/1/2013 |
 | 1003 |Shu Ito |34 |Amarelo |1242012 |
 | 1004 |Alan Brewer |13 |Laranja |1/2/2012 |
-| 1005 |Eli Bowen |29 |Roxo |1012013 |
+| 1005 |Eli Bowen |29 |Roxo |01/10/2013 |
 | 1006 |Nuno Bento |35 |Verde |2/1/2013 |
-| 1007 |David Hamilton |10 |Amarelo |1012013 |
+| 1007 |David Hamilton |10 |Amarelo |01/10/2013 |
 | 1008 |Mu Han |28 |Laranja |1/2/2012 |
 | 1009 |Shu Ito |22 |Roxo |2/1/2013 |
 | 1010 |Eli Bowen |28 |Verde |1012013 |
@@ -294,9 +294,9 @@ Vejamos um exemplo. Esta primeira tabela é ProjectTickets, a tabela a seguir é
 | 1002 |Daniel Romano |Alan Brewer |26 |Vermelho |2/1/2013 |
 | 1003 |Daniel Roth |Shu Ito |34 |Amarelo |1242012 |
 | 1004 |Tom Perham |Alan Brewer |13 |Laranja |1/2/2012 |
-| 1005 |Daniel Romano |Eli Bowen |29 |Roxo |1012013 |
+| 1005 |Daniel Romano |Eli Bowen |29 |Roxo |01/10/2013 |
 | 1006 |Daniel Roth |Nuno Bento |35 |Verde |2/1/2013 |
-| 1007 |Daniel Roth |David Hamilton |10 |Amarelo |1012013 |
+| 1007 |Daniel Roth |David Hamilton |10 |Amarelo |01/10/2013 |
 | 1008 |Tom Perham |Mu Han |28 |Laranja |1/2/2012 |
 | 1009 |Daniel Romano |Shu Ito |22 |Roxo |2/1/2013 |
 | 1010 |Daniel Roth |Eli Bowen |28 |Verde |1012013 |

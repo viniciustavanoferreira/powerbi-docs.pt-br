@@ -6,15 +6,15 @@ ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 051803b3d9708289f37271afc02b7802fb52b50e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862647"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218118"
 ---
 # <a name="qa-for-power-bi-consumers"></a>P e R para **consumidores** do Power BI
 
@@ -67,28 +67,30 @@ Por exemplo:
 
 Quando você estiver familiarizado com os dados, volte ao painel e coloque o cursor na caixa de perguntas. Isso abrirá a tela de P e R.
 
-![Tela de P e R](media/end-user-q-and-a/power-bi-screen.png) 
+![Tela de P e R](media/end-user-q-and-a/power-bi-suggested.png) 
 
 Mesmo antes de começar a digitar, a P e R exibe uma nova tela com sugestões para ajudá-lo a formar sua pergunta. Você vê frases e perguntas contendo nomes das tabelas nos conjuntos de dados subjacentes e poderá até mesmo ver perguntas *em destaque* criadas pelo proprietário do conjunto de dados.
 
 Você pode selecionar qualquer uma para adicioná-la à caixa de pergunta e, depois, refiná-la para encontrar uma resposta específica. 
 
-Outra maneira de o P e R ajudar você a fazer perguntas é com prompts, preenchimento automático e dicas visuais. 
+![Tela de P e R](media/end-user-q-and-a/power-bi-result.png) 
+
+Outra maneira como o Power BI ajuda você a fazer perguntas é com recursos como prompts, preenchimento automático e dicas visuais. O Power BI fornece essa ajuda para P e R em dashboards, P e R em relatórios e com o visual de P e R. Abordaremos esses recursos em detalhes abaixo, na seção [Criar um visual de P e R digitando uma consulta em idioma natural](#create-a-qa-visual-by-typing-a-natural-language-query)
 
 <!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-## <a name="the-qa-visual"></a>O visual de P e R
+## <a name="the-qa-visual-in-power-bi-reports"></a>O visual de P e R em relatórios do Power BI
 
-O visual de P e R permite que você faça perguntas em linguagem natural e obtenha respostas na forma de um visual. O visual de P e R comporta-se como qualquer outro visual, pode ser com filtrado/realçado de modo cruzado e também dá suporte a marcadores e comentários. 
+O visual de P e R permite que você faça perguntas em linguagem natural e obtenha respostas na forma de um visual. O visual de P e R comporta-se como qualquer outro visual em um relatório, pode ser com filtrado/realçado de modo cruzado e também dá suporte a marcadores e comentários. 
 
 Você pode identificar um visual de P e R por sua caixa de pergunta na parte superior. É aqui que você vai inserir ou digitar perguntas usando idioma natural. O visual do P e R pode ser usado repetidamente para fazer perguntas sobre seus dados. Quando você sai do relatório, o visual do P e R é redefinido para seu padrão. 
 
 ![Captura de tela do visual de P e R padrão](media/end-user-q-and-a/power-bi-q-and-a-default.png)
 
 
-## <a name="use-the-qa-visual"></a>Usar o visual de P e R
-Para usar o visual de P e R, selecione uma das perguntas sugeridas ou digite sua própria pergunta em idioma natural. 
+## <a name="use-qa"></a>Usar P e R 
+Para usar a P e R em um dashboard ou usar o visual de P e R em um relatório, selecione uma das perguntas sugeridas ou digite sua própria pergunta em idioma natural. 
 
 ### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>Criar um visual de P e R usando uma pergunta sugerida
 
@@ -105,26 +107,45 @@ Mas você pode informar o Power BI qual tipo de visual deve ser usado adicionand
 
 Se você não tiver certeza sobre o tipo de perguntas a fazer ou a terminologia a ser usada, expanda **Mostrar todas as sugestões** ou examine os outros visuais no relatório. Isso o ajudará a familiarizar-se com os termos e com o conteúdo do conjunto de dados.
 
-1. Digite sua pergunta no campo de P e R usando idioma natural. Ao digitar sua pergunta, o Power BI ajuda você com preenchimento automático, sugestões e comentários.
+1. Digite sua pergunta no campo de P e R usando idioma natural. Ao digitar sua pergunta, o Power BI ajuda você com preenchimento automático, dicas visuais e comentários.
 
-    - Um sublinhado vermelho é usado para palavras que o Power BI não reconhece. Sempre que possível, o Power BI ajudará a definir essas palavras. Se você visualizar a definição correta, selecione-a na lista suspensa.  
+    **Preenchimento automático** – ao digitar sua pergunta, a P e R do Power BI mostra sugestões relevantes e contextuais para ajudá-lo a se tornar rapidamente produtivo com o idioma natural. Ao digitar, você obtém comentários e resultados imediatos. A experiência é semelhante à de digitar em um mecanismo de pesquisa.
 
-        ![Termo sublinhado em vermelho na caixa de perguntas de P e R](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    Neste exemplo, a sugestão que queremos é a última. 
 
-    - Se nenhuma das definições estiver correta, tente outro termo ou selecione a palavra sublinhada em vermelho para solicitar que o proprietário do relatório adicione a palavra.
+    ![P e R com uma palavra sublinhada azul](media/end-user-q-and-a/power-bi-autocomplete.png)
 
-        ![Como digitar uma pergunta na caixa de pergunta de P e R](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+    **Sublinhados vermelhos/azuis** – a P e R do Power BI mostra palavras com sublinhados para ajudá-lo a ver quais palavras o Power BI reconheceu ou não. Um sublinhado azul sólido indica que o Power BI reconheceu a palavra. O exemplo a seguir mostra que a P e R reconheceu a palavra **store**.
 
-    - Conforme você digita mais partes da uma pergunta, o Power BI informa se ele não entende a pergunta e tenta ajudar. No exemplo a seguir, o Power BI pergunta "Você quis dizer..." e sugere uma maneira diferente de formular sua pergunta usando a terminologia de seu conjunto de seus. 
+    ![P e R com sugestões de lista suspensa para concluir a pergunta](media/end-user-q-and-a/power-bi-blue.png)
 
-        ![O visual de P e R oferecendo correções sugeridas](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+    Selecione uma palavra sublinhada azul para exibir uma lista suspensa de perguntas sugeridas. 
 
-2. Depois de selecionar a correção do Power BI, os resultados são exibidos como um gráfico de linhas. 
+    ![Lista suspensa com Você também poderia tentar sugestões](media/end-user-q-and-a/power-bi-try.png)
+
+
+    Geralmente, quando você digita uma palavra na P e R, ela é marcada com um sublinhado em vermelho. Um sublinhado em vermelho pode indicar um destes dois problemas em potencial. O primeiro tipo de problema é classificado como baixa confiança. Se você digitar uma palavra vaga ou ambígua, o campo será sublinhado em vermelho. Um exemplo poderia ser a palavra "Local". Vários campos podem conter a palavra "Local", assim, o sistema usa um sublinhado em vermelho para solicitar que você escolha o campo desejado. Neste exemplo, o Power BI solicita que você selecione o campo que deseja usar para 'VanArsdel'.
+    
+    ![Termo sublinhado em vermelho na caixa de perguntas de P e R](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    
+    Outro exemplo de baixa confiança poderia ser você digitar a palavra "Área", mas a coluna correspondente ser "distrito". A P e R do Power BI reconhece palavras com o mesmo significado graças à integração com o Bing e o Office. A P e R sublinha a palavra em vermelho para que você saiba que ela não é uma correspondência direta
+
+    ![A P e R reformula a pergunta usando um sinônimo](media/end-user-q-and-a/power-bi-red.png)
+
+    O segundo tipo de problema é quando a P e R não reconhece a palavra. Um exemplo poderia ser usar a palavra "geografia", embora ela não exista em nenhum lugar dos dados. A palavra está no dicionário em inglês, mas a P e R marca esse termo com um sublinhado vermelho. A P e R do Power BI não pode criar uma visualização e sugere que você peça ao designer de relatórios para adicionar o termo.
+
+    ![P e R com sugestão de que você peça ao designer para adicionar a palavra geografia](media/end-user-q-and-a/power-bi-geography.png)
+
+    **Sugestões** – conforme você digita mais partes da uma pergunta, o Power BI informa se ele não entende a pergunta e tenta ajudar. No exemplo a seguir, o Power BI pergunta "Você quis dizer..." e sugere uma maneira diferente de formular sua pergunta usando a terminologia de seu conjunto de seus. 
+
+    ![O visual de P e R oferecendo correções sugeridas](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+    Depois de selecionar a correção do Power BI, os resultados são exibidos como um gráfico de linhas. 
 
     ![Os resultados do visual de P e R como um gráfico de linhas](media/end-user-q-and-a/power-bi-q-and-a-line.png)
 
 
-3. Porém, você pode alterar o gráfico de linhas para outro tipo de visual.  
+    Porém, você pode alterar o gráfico de linhas para outro tipo de visual.  
 
     ![Visual de P e R com "como um gráfico de colunas" adicionado à pergunta](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
 

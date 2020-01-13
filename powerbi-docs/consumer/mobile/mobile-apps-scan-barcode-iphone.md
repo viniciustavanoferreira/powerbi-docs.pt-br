@@ -1,19 +1,19 @@
 ---
 title: Digitalizar um código de barras no aplicativo móvel do Power BI
 description: A digitalização de códigos de barras no mundo real o leva para as informações de BI filtradas no aplicativo móvel do Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: bbc787203293fc6c9075400abf674345710faaed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879169"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217792"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Digitalizar um código de barras com seu dispositivo no aplicativo móvel do Power BI
 A digitalização de códigos de barras no mundo real o leva para as informações de BI filtradas no aplicativo móvel do Power BI.
@@ -32,15 +32,13 @@ Digamos que um colega tenha [marcado um campo de código de barras em um relató
 Quando você digitaliza o código de barras de um produto com o scanner no aplicativo do Power BI no seu dispositivo, você vê o relatório (ou a lista de relatórios) com esse código de barras. Você pode abrir o relatório filtrado nesse código de barras.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Digitalizar um código de barras com o scanner do Power BI
-1. No aplicativo móvel do Power BI, abra o menu de navegação principal ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png) na parte superior esquerda. 
-2. Role para baixo até **Scanner** e selecione-o. 
-   
+1. Na barra de navegação, toque em **Mais opções** (…) e, em seguida, toque em **Scanner**.
+
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
-3. Se a câmera não estiver habilitada, você precisa aprovar o aplicativo do Power BI para usar a câmera. Essa é uma única aprovação. 
-4. Aponte o scanner para um código de barras em um produto. 
-   
-    Você verá uma lista dos relatórios associados a esse código de barras.
-5. Toque no nome do relatório para abri-lo no dispositivo, filtrado automaticamente nesse código de barras.
+
+2. Se a câmera não estiver habilitada, você precisa aprovar o aplicativo do Power BI para usar a câmera. Essa é uma única aprovação. 
+4. Aponte o scanner para um código de barras em um produto. Você verá uma lista dos relatórios associados a esse código de barras.
+5. Toque no nome do relatório para abri-lo no dispositivo, filtrado automaticamente de acordo com esse código de barras.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Filtrar por outros códigos de barras enquanto estiver em um relatório
 Ao observar um relatório filtrado por um código de barras no dispositivo, é recomendável filtrar o mesmo relatório por um código de barras diferente.

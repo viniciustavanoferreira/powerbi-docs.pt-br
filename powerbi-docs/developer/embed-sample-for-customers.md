@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311090"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223423"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Inserir conteúdo do Power BI em um aplicativo para seus clientes
 
@@ -78,7 +78,7 @@ As etapas a seguir explicam como publicar seu relatório PBIX em seu workspace d
 
 ## <a name="embed-content-using-the-sample-application"></a>Insira conteúdo usando o aplicativo de exemplo
 
-Este exemplo é deliberadamente mantido simples para fins de demonstração. Fica a seu encargo ou de seus desenvolvedores proteger o segredo do aplicativo ou as credenciais da conta mestra.
+Este exemplo é deliberadamente mantido simples para fins de demonstração. Cabe a você ou aos seus desenvolvedores proteger o segredo do aplicativo ou as credenciais da conta mestra.
 
 Siga as etapas abaixo para começar a inserir seu conteúdo usando o aplicativo de exemplo.
 
@@ -435,6 +435,8 @@ Para obter mais informações, consulte [Artigo sobre planejamento de capacidade
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Atribua um workspace a uma capacidade dedicada
 
 Depois de criar uma capacidade dedicada, você pode atribuir o workspace a uma capacidade dedicada.
+
+Todos os workspaces que contêm recursos do Power BI relacionados ao conteúdo inserido (incluindo conjuntos de dados, relatórios e dashboards) precisam ser atribuídos a capacidades dedicadas. Por exemplo, se um relatório inserido e o conjunto de dados vinculado a ele residirem em workspaces diferentes, ambos os workspaces precisarão ser atribuídos a capacidades dedicadas.
 
 Para atribuir uma capacidade dedicada a um workspace usando [entidade de serviço](embed-service-principal.md), use a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Quando você estiver usando as APIs REST do Power BI, use a [ID de objeto de entidade de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id).
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bdf35d04a5b4dc7000a9ada0afcb23d882d17780
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e9b34d79a70207e175c873a88ec4d5dfe5417747
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871237"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224220"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Usar Serviços Cognitivos no Power BI
 
@@ -180,6 +180,6 @@ Neste tutorial, você aplicou as funções de pontuação de sentimento e marca�
 
 Você também pode estar interessado nos artigos a seguir.
 
-* [Tutorial: Invocar um modelo de Machine Learning Studio no Power BI (versão prévia)](service-tutorial-invoke-machine-learning-model.md)
+* [Tutorial: Invocar um modelo do Machine Learning Studio (clássico) no Power BI (versão prévia)](service-tutorial-invoke-machine-learning-model.md)
 * [Integração do Azure Machine Learning no Power BI (versão prévia)](service-machine-learning-integration.md)
 * [Serviços Cognitivos no Power BI (versão prévia)](service-cognitive-services.md)

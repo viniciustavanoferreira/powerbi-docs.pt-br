@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74565673"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Conectar-se ao Project Web App com o Power BI
@@ -40,11 +40,11 @@ Conecte-se ao [Aplicativo de Modelo do Project Web App](https://appsource.micros
    ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. Em **introdução a seu novo aplicativo**, selecione **Conectar dados**.
    
-   ![Conectar-se a dados](media/service-connect-to-project-online/mproject.png)
+   ![Conectar aos dados](media/service-connect-to-project-online/mproject.png)
 7. Na caixa de texto **URL do Project Web App**, digite a URL do PWA (Project Web App) à qual você deseja se conectar.  Observe que isso pode ser diferente do exemplo, caso você tenha um domínio personalizado. Na caixa de texto **Idioma do site do PWA**, digite o número que corresponde ao seu idioma de site do PWA. Digite “1” para inglês, “2” para francês, “3” para alemão, “4” para português (Brasil), “5” para português (Portugal) e “6” para espanhol. 
    
    ![Conectar-se ao Microsoft Project Online](media/service-connect-to-project-online/params.png)
-8. Para o Método de Autenticação, selecione **oAuth2** \> **Entrar**. Quando solicitado, insira suas credenciais do Project Web App e siga o processo de autenticação.
+8. Para o Método de Autenticação, selecione **oAuth2** \> **Entrar**. Quando solicitado, insira suas credenciais do Project Web App e siga o processo de autenticação.
 
     > [!NOTE]
     > Você precisa ter as permissões Visualizador de portfólio, Gerente de portfólio ou Administrador do Project Web App ao qual está se conectando.

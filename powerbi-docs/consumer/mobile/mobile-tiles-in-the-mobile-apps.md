@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870050"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221127"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar blocos nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -40,11 +40,14 @@ Em seguida, nos aplicativos móveis do Power BI, abra os blocos no modo de foco 
    Em um gráfico de pizza, toque em uma fatia para mostrar seu valor na parte superior da pizza.  
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
-3. Em um mapa, toque no ícone **Centralizar mapa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centralizar o mapa em sua localização atual.
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. Toque no ícone compartilhar ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) para [anotar e compartilhar um bloco](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) com outras pessoas.
+3. Em um mapa, toque no ícone **Centralizar mapa**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centralizar o mapa em sua localização atual.
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. Toque no ícone de lápis ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) para [anotar um bloco](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) e, em seguida, no ícone de compartilhamento ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) para [compartilhá-lo com outras pessoas](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
+
 5. [Adicione um alerta ao bloco](mobile-set-data-alerts-in-the-mobile-apps.md). Se os valores ficarem acima ou abaixo das metas, o Power BI emitirá uma notificação.
+
 6. Às vezes, o criador do dashboard adicionou um link a um bloco. Nesse caso, ele tem um ícone de link ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) quando estiver no modo Foco:
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -54,7 +57,7 @@ Em seguida, nos aplicativos móveis do Power BI, abra os blocos no modo de foco 
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Depois de abrir o link no aplicativo do Power BI, você poderá copiar o link e abri-lo em uma janela do navegador.
-7. [Abra o relatório](mobile-reports-in-the-mobile-apps.md)![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) no qual o bloco se baseia.
+7. [Abra o relatório](mobile-reports-in-the-mobile-apps.md) ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) em que o bloco é baseado.
 8. Para sair do modo de foco do bloco, toque no nome do bloco e, em seguida, toque no nome do dashboard ou em **Meu Workspace**.
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -68,9 +71,9 @@ Em seguida, nos aplicativos móveis do Power BI, abra os blocos no modo de foco 
     No modo de foco:
    
    * Toque no gráfico para mover a barra em um gráfico de linhas, barras, colunas ou bolhas, para exibir os valores de um ponto específico na visualização.  
-   * Toque no ícone Compartilhar instantâneo ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [anotar e compartilhar o bloco](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) com outras pessoas.
+   * Toque no ícone de lápis ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) para [anotar um bloco](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) e, em seguida, no ícone Compartilhar um instantâneo ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [compartilhá-lo com outras pessoas](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
    * Toque no ícone Abrir relatório ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) para [exibir o relatório](mobile-reports-in-the-mobile-apps.md) no aplicativo móvel.
-3. Às vezes, o criador do dashboard adicionou um link a um bloco. Nesse caso, quando você toca nas reticências na vertical, ( **...** ) vê **Abrir link** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. Às vezes, o criador do dashboard adicionou um link a um bloco. Nesse caso, quando você toca nas reticências na vertical, ( **…** ) vê **Abrir link** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
@@ -104,14 +107,14 @@ Em seguida, nos aplicativos móveis do Power BI, abra os blocos no modo de foco 
    
    *Neste gráfico de barras, os valores da barra **Decor** são exibidos na parte superior do gráfico.*
    
-   Toque no ícone **Tela inteira** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir o bloco em modo de tela inteira, sem barras de menu e de navegação.
+   Toque no ícone **Tela inteira**![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir o bloco em modo de tela inteira, sem barras de menu e de navegação.
    
    > [!NOTE]
    > Você também pode [exibir dashboards e relatórios no modo de tela inteira](mobile-windows-10-app-presentation-mode.md) no aplicativo móvel do Power BI para Windows 10.
    > 
    > 
    
-   Em um mapa, toque no ícone **Centralizar mapa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centralizar o mapa em sua localização atual.
+   Em um mapa, toque no ícone **Centralizar mapa**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centralizar o mapa em sua localização atual.
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    

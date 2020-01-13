@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874459"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Criar um visual com P e R do Power BI
@@ -28,7 +28,7 @@ Para acompanhar, você deve usar um relatório que você possa editar, então us
 
 Como poderíamos criar esse gráfico de linha usando P e R?
 
-1. Em seu workspace do Power BI, selecione **Obter Dados**\>**Amostras**\>**Amostra de Análise de Varejo** > **Conectar**.
+1. Em seu workspace do Power BI, selecione **Obter Dados** \> **Exemplos** \> **Exemplo de Análise de Varejo** > **Conectar**.
 
 1. Abra o dashboard Exemplo de Análise de Varejo e coloque o cursor na caixa de P e R, **Faça uma pergunta sobre seus dados**.
 

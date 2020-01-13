@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b7256a04ccdca107ef0cd8e24af8b3170a3d68cc
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834714"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221932"
 ---
 # <a name="extending-visuals-with-report-page-tooltips"></a>Estender visuais com dicas de ferramentas de página de relatório
 
@@ -61,15 +61,15 @@ Uma dica de ferramenta de página é revelada. Ela apresenta atributos e estatí
 
 ### <a name="add-help"></a>Adicionar ajuda
 
-Os cabeçalhos dos visuais podem ser configurados para revelar dicas de ferramenta de página para cabeçalhos de visuais. Você pode adicionar conteúdo de ajuda a uma dica de ferramenta usando caixas de texto com formatação avançada. Também é possível adicionar imagens e formas.
+Os cabeçalhos dos visuais podem ser configurados para revelar dicas de ferramenta de página para cabeçalhos de visuais. Você pode adicionar documentação de ajuda a uma dica de ferramenta da página usando caixas de texto com formatação avançada. Também é possível adicionar imagens e formas.
 
 Curiosamente, botões, imagens, caixas de texto e formas também podem revelar uma dica de ferramenta de página de cabeçalho do visual.
 
-O exemplo a seguir mostra o que acontece quando o usuário do relatório passa o cursor sobre o ícone de cabeçalho do visual.
+O exemplo a seguir mostra o que acontece quando o usuário do relatório passa o cursor sobre o [ícone de cabeçalho do visual](../desktop-visual-elements-for-reports.md).
 
 ![Um usuário de relatório passou o cursor sobre o ícone de cabeçalho do visual (ícone de ponto de interrogação). Uma dica de ferramenta com formatação avançada apareceu.](media/report-page-tooltips/suggestion-add-help.png)
 
-Uma dica de ferramenta de página é revelada. Ela apresenta um texto com formatação rica descrevendo as medidas exibidas pelo visual. A dica de ferramenta também inclui uma forma (linha).
+Uma dica de ferramenta de página é revelada. Ela apresenta um texto com formatação avançada em quatro caixas de texto e uma forma (linha). A dica de ferramenta da página fornece ajuda descrevendo cada acrônimo exibido no visual.
 
 ## <a name="recommendations"></a>Recomendações
 
@@ -87,5 +87,6 @@ Para obter mais informações relacionadas a este artigo, confira os seguintes r
 
 - [Criar dicas de ferramenta com base nas páginas de relatório no Power BI Desktop](../desktop-tooltips.md)
 - [Personalizando dicas de ferramenta no Power BI Desktop](../desktop-custom-tooltips.md)
+- [Usar elementos visuais para aprimorar os relatórios do Power BI](../desktop-visual-elements-for-reports.md)
 - Vídeo do Guy in a Cube: [Dica de ferramenta de página de relatório do Power BI – Como criar uma no Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

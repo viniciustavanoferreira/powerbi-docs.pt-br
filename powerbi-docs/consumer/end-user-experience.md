@@ -12,10 +12,10 @@ ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73851521"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido – Explorando o serviço do Power BI
@@ -56,7 +56,7 @@ Dentro do Meu Workspace, seu conteúdo é organizado em quatro guias: Painéis, 
 
 ![Tela Meu workspace](./media/end-user-experience/power-bi-my-workspace.png)
 
-Selecione um workspace no painel de navegação, e as guias do conteúdo associado (dashboards, relatórios, pastas de trabalho, conjuntos de dados) preencherão a tela do Power BI à direita.
+Selecione um workspace no painel de navegação e as guias do conteúdo associado (dashboards, relatórios, pastas de trabalho, conjuntos de dados) preencherão a tela do Power BI à direita.
 
 Se você for um novo usuário, haverá somente um workspace – **Meu Workspace**.
 

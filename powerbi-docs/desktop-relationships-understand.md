@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009629"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304238"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Modelar relações no Power BI Desktop
 
@@ -73,7 +73,7 @@ Ao configurar um relacionamento de um para muitos ou de muitos para um, você es
 
 Um relacionamento de **um para um** significa que ambas as colunas contêm valores exclusivos. Esse tipo de cardinalidade não é comum e provavelmente representa um design de modelo de qualidade inferior devido ao armazenamento de dados redundantes.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
 
-Um relacionamento de **Muitos para muitos** significa que ambas as colunas podem conter valores duplicados. Esse tipo de cardinalidade é usado raramente. Normalmente, é útil ao criar requisitos de modelo complexos.<!-- For guidance on using this cardinality type, see the [Many-to-many relationship guidance](guidance/relationships-many-to-many) article.-->
+Um relacionamento de **Muitos para muitos** significa que ambas as colunas podem conter valores duplicados. Esse tipo de cardinalidade é usado raramente. Normalmente, é útil ao criar requisitos de modelo complexos. Para obter diretrizes sobre como usar esse tipo de cardinalidade, confira [Diretrizes da relação muitos para muitos](guidance/relationships-many-to-many.md).
 
 > [!NOTE]
 > O tipo de cardinalidade de muitos para muitos não tem suporte atualmente para modelos desenvolvidos para o Servidor de Relatórios do Power BI.
@@ -226,4 +226,5 @@ A lista a seguir classifica o desempenho de propagação do filtro, do desempenh
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Entender o esquema em estrela e a importância para o Power BI](guidance/star-schema.md)
+- [Diretrizes da relação muitos para muitos](guidance/relationships-many-to-many.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

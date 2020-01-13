@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6a481681801b580b9eec47c5c704d8bdea8835f1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128017"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75222085"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desenvolver um visual do Power BI
 
@@ -38,7 +38,7 @@ Neste tutorial, você aprenderá a:
 
 * Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 * É necessário ter o [Visual Studio Code](https://www.visualstudio.com/) instalado.
-* Usuários do Windows precisam ter a versão 4 ou posterior do [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6). Usuários do OSX precisam do [Terminal](https://macpaw.com/how-to/use-terminal-on-mac).
+* Usuários do Windows precisam ter a versão 4 ou posterior do [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6). Usuários do OSX precisam do [Terminal](https://macpaw.com/how-to/use-terminal-on-mac).
 
 ## <a name="setting-up-the-developer-environment"></a>Configurando o ambiente de desenvolvedor
 
@@ -235,7 +235,7 @@ Nesta seção, testaremos o visual personalizado CircleCard carregando um relat�
 
     Será possível [baixar](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/images/US_Sales_Analysis.pbix) um relatório de exemplo do Power BI Desktop se você ainda não tiver criado um.
 
-    ![Obter dados](media/custom-visual-develop-tutorial/get-data.png) ![Arquivo local](media/custom-visual-develop-tutorial/local-file.png)
+    ![Obter Dados](media/custom-visual-develop-tutorial/get-data.png) ![Arquivo Local](media/custom-visual-develop-tutorial/local-file.png)
 
     Agora, para exibir o relatório, selecione **US_Sales_Analysis** da seção **Relatório** no painel de navegação à esquerda.
 
@@ -398,6 +398,9 @@ Agora podemos explorar como desenvolver o visual personalizado para mostrar um c
     import IVisual = powerbi.extensibility.IVisual;
     import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions;
     import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import IVisualHost = powerbi.extensibility.visual.IVisualHost;
 
     import * as d3 from "d3";
     type Selection<T extends d3.BaseType> = d3.Selection<T, any,any, any>;

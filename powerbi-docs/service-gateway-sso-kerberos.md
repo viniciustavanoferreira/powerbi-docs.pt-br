@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000102"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurar o SSO baseado em Kerberos do serviço do Power BI para fontes de dados locais
@@ -189,7 +189,7 @@ Por fim, no computador que executa o serviço do gateway (**MyGatewayMachine** e
 
 1. No computador do gateway, execute: **gpedit.msc**.
 
-2. Acesse a **Política de Computador Local** &gt; **Configuração do Computador** &gt; **Configurações do Windows** &gt; **Configurações de Segurança** &gt; **Políticas Locais** &gt; **Atribuição de Direitos de Usuário**.
+2. Vá até **Política de Computador Local** &gt; **Configuração do Computador** &gt; **Configurações do Windows** &gt; **Configurações de Segurança** &gt; **Políticas Locais** &gt; **Atribuição de Direitos de Usuário**.
 
     ![Estrutura de pastas da Política do Computador Local](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 

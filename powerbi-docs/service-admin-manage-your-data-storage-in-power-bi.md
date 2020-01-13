@@ -11,10 +11,10 @@ ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873651"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gerenciar o armazenamento de dados em workspaces do Power BI
@@ -48,7 +48,7 @@ Veja a quantidade de armazenamento de dados que você está usando em sua conta 
 1. Para gerenciar seu próprio armazenamento, acesse **Meu Workspace** no painel de navegação.
    
     ![Meu Workspace](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. Selecione o ícone de engrenagem ![Ícone de Engrenagem](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) no canto superior direito \> **Gerenciar armazenamento pessoal**.
+2. Selecione o ícone de engrenagem ![Ícone de engrenagem](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) no canto superior direito \> **Gerenciar armazenamento pessoal**.
    
     A barra superior mostra o limite de armazenamento que você usou.
    

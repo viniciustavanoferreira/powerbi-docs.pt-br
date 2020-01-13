@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871221"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorar as métricas de uso de relatórios e dashboards do Power BI
 
 Se você cria dashboards e relatórios, as métricas de uso ajudam a compreender seus impactos. Quando executa as métricas de uso de um painel ou de um relatório, você descobre como esses painéis e relatórios estão sendo usados em sua organização – quem os está usando, e para que finalidade.  
 
-Relatórios de métricas de uso são somente leitura. No entanto, você pode copiar um relatório de métricas de uso. A cópia cria um relatório padrão do Power BI que você pode editar. Você também pode criar seus próprios relatórios no Power BI Desktop com base no conjunto de dados subjacente, que contém métricas de uso para todos os painéis ou todos os relatórios em um espaço de trabalho. Para começar, o relatório copiado mostra as métricas apenas para o relatório ou painel selecionado. Você pode remover o filtro padrão e ter acesso ao conjunto de dados subjacente, com todas as métricas de uso do espaço de trabalho selecionado. Você pode até ver os nomes de usuários específicos, se o seu administrador habilitou esse recurso.
+Relatórios de métricas de uso são somente leitura. No entanto, você pode copiar um relatório de métricas de uso. A cópia cria um relatório padrão do Power BI que você pode editar. Você também pode criar seus próprios relatórios no Power BI Desktop com base no conjunto de dados subjacente, que contém métricas de uso para todos os painéis ou todos os relatórios em um workspace. Para começar, o relatório copiado mostra as métricas apenas para o relatório ou painel selecionado. Você pode remover o filtro padrão e ter acesso ao conjunto de dados subjacente, com todas as métricas de uso do workspace selecionado. Você pode até ver os nomes de usuários específicos, se o seu administrador habilitou esse recurso.
 
 ![relatório de métricas de uso](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
@@ -43,7 +43,7 @@ Você só pode executar relatórios de métricas de uso no serviço do Power BI.
 ## <a name="view-a-usage-metrics-report"></a>Exibir um relatório de métricas de uso
 
 1. Inicie no workspace que contém o dashboard ou o relatório.
-2. Na lista de conteúdo do workspace ou no dashboard ou relatório em si, selecione o ícone de **Métricas de uso**![ícone de métricas de uso](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
+2. Na lista de conteúdo do workspace ou no dashboard ou relatório em si, selecione o ícone de **Métricas de uso** ![ícone de métricas de uso](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
 
     ![Guia Dashboards](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
 
@@ -83,7 +83,7 @@ Para acessar os dados do relatório ou criar seus próprios relatórios em rela�
 
 ## <a name="which-metrics-are-reported"></a>Quais métricas são relatadas?
 
-| Métrica | Painel | Relatório | Descrição |
+| Metric | Dashboard | Relatório | Descrição |
 | --- | --- | --- | --- |
 | Segmentação do método de distribuição |sim |sim |Como os usuários têm acesso ao conteúdo. Há três métodos possíveis: os usuários podem acessar o dashboard ou o relatório sendo membros de um [workspace](consumer/end-user-experience.md), fazendo com que o conteúdo seja [compartilhado com eles](service-share-dashboards.md) ou instalando um aplicativo/pacote de conteúdo.  Observe que as exibições por meio de um aplicativo são contadas como um "pacote de conteúdo". |
 | Segmentação de plataformas |sim |sim |O dashboard ou o relatório foi acessado pelo serviço do Power BI (powerbi.com) ou por um dispositivo móvel? O dispositivo móvel inclui todos os nossos aplicativos iOS, Android e Windows. |
@@ -103,13 +103,13 @@ Para acessar os dados do relatório ou criar seus próprios relatórios em rela�
 
 Use **Salvar como** para converter o relatório de métricas de uso em um relatório normal do Power BI que você pode personalizar para atender às suas necessidades específicas. Você também pode usar o Power BI Desktop para criar relatórios de métricas de uso personalizados com base no conjunto de dados subjacente. Confira [Estabelecer uma conexão a um conjunto de dados publicado](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) para obter detalhes.
 
-Ainda melhor, o conjunto de dados subjacente inclui os detalhes de uso de todos os dashboards ou relatórios no workspace. Isso abre mais possibilidades. Você pode, por exemplo, criar um relatório que compara todos os painéis em seu espaço de trabalho com base no uso. Ou você pode criar um painel de métricas de uso para seu aplicativo do Power BI agregando o uso em todo o conteúdo distribuído nesse aplicativo.  Confira como remover o filtro e [ver todas as métricas de uso do workspace](#see-all-workspace-usage-metrics) mais adiante neste artigo.
+Ainda melhor, o conjunto de dados subjacente inclui os detalhes de uso de todos os dashboards ou relatórios no workspace. Isso abre mais possibilidades. Você pode, por exemplo, criar um relatório que compara todos os painéis em seu workspace com base no uso. Ou você pode criar um painel de métricas de uso para seu aplicativo do Power BI agregando o uso em todo o conteúdo distribuído nesse aplicativo.  Confira como remover o filtro e [ver todas as métricas de uso do workspace](#see-all-workspace-usage-metrics) mais adiante neste artigo.
 
 ### <a name="create-a-copy-of-the-usage-report"></a>Criar uma cópia do relatório de uso
 
-Quando você cria uma cópia do relatório de uso pré-criado, somente leitura, o Power BI cria uma cópia editável do relatório. À primeira vista, ele parece ser o mesmo relatório. No entanto, agora você pode abrir o relatório no Modo de Exibição de Edição, adicionar novas visualizações, filtros e páginas, modificar ou excluir visualizações existentes e mais. O Power BI salva o novo relatório no espaço de trabalho atual.
+Quando você cria uma cópia do relatório de uso pré-criado, somente leitura, o Power BI cria uma cópia editável do relatório. À primeira vista, ele parece ser o mesmo relatório. No entanto, agora você pode abrir o relatório no Modo de Exibição de Edição, adicionar novas visualizações, filtros e páginas, modificar ou excluir visualizações existentes e mais. O Power BI salva o novo relatório no workspace atual.
 
-1. No relatório de métricas de uso pré-criado, selecione **Arquivo > Salvar como**. O Power BI cria um relatório do Power BI editável, salvo no espaço de trabalho atual.
+1. No relatório de métricas de uso pré-criado, selecione **Arquivo > Salvar como**. O Power BI cria um relatório do Power BI editável, salvo no workspace atual.
 
     ![Salvar como](media/service-usage-metrics/power-bi-save-as.png)
 2. Abra o relatório no modo de edição e [interaja com ele como você faria com qualquer outro relatório do Power BI](service-interact-with-a-report-in-editing-view.md). Por exemplo, adicione novas páginas e crie novas visualizações, adicione filtros, formate as fontes e cores, etc.
@@ -121,7 +121,7 @@ Quando você cria uma cópia do relatório de uso pré-criado, somente leitura, 
 
 ## <a name="see-all-workspace-usage-metrics"></a>Ver *todas* as métricas de uso do workspace
 
-Para ver as métricas de todos os painéis ou de todos os relatórios no espaço de trabalho, você precisa remover um filtro. Por padrão, o relatório é filtrado para exibir métricas somente para o painel ou relatório que você usou para criá-lo.
+Para ver as métricas de todos os painéis ou de todos os relatórios no workspace, você precisa remover um filtro. Por padrão, o relatório é filtrado para exibir métricas somente para o painel ou relatório que você usou para criá-lo.
 
 1. Selecione **Editar relatório** para abrir o novo relatório editável no Modo de Exibição de Edição.
 
@@ -130,7 +130,7 @@ Para ver as métricas de todos os painéis ou de todos os relatórios no espaço
 
     ![Remover o filtro](media/service-usage-metrics/power-bi-usage-report-clear-filter.png)
 
-    Agora, seu relatório exibe as métricas de todo o espaço de trabalho.
+    Agora, seu relatório exibe as métricas de todo o workspace.
 
 ## <a name="power-bi-admin-controls-for-usage-metrics"></a>Controles de administração do Power BI para métricas de uso
 
@@ -147,7 +147,7 @@ Confira [Controlar métricas de uso](service-admin-portal.md#control-usage-metri
 
 ## <a name="usage-metrics-in-national-clouds"></a>Métricas de uso em nuvens nacionais
 
-O Power BI está disponível em nuvens nacionais separadas. Essas nuvens oferecem os mesmos níveis de segurança, privacidade, conformidade e transparência como a versão global do Power BI, combinado com um modelo exclusivo para regulações locais na entrega do serviço, residência de dados, acesso e controle. Devido a esse modelo exclusivo para regulamentações locais, as métricas de uso não estão disponíveis em nuvens nacionais. Para obter mais informações, confira [nuvens nacionais](https://powerbi.microsoft.com/clouds/).
+O Power BI está disponível em nuvens nacionais separadas. Essas nuvens oferecem os mesmos níveis de segurança, privacidade, conformidade e transparência que a versão global do Power BI, combinados com um modelo exclusivo para regulamentos locais sobre entrega de serviço, residência de dados, acesso e controle. Devido a esse modelo exclusivo para regulamentações locais, as métricas de uso não estão disponíveis em nuvens nacionais. Para obter mais informações, confira [nuvens nacionais](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 

@@ -1,19 +1,19 @@
 ---
 title: Explorar relatórios nos aplicativos móveis do Power BI
 description: Saiba mais sobre como exibir e interagir com relatórios nos aplicativos móveis do Power BI no telefone ou tablet. Você cria relatórios no serviço do Power BI ou Power BI Desktop e então interage com eles nos aplicativos móveis.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/09/2019
-ms.author: mshenhav
-ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/16/2019
+ms.author: painbar
+ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869755"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220668"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -96,29 +96,43 @@ No rodapé do relatório, você pode executar várias ações na página de rela
 ![Rodapé do relatório](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
 Você pode realizar estas ações usando o rodapé:
-- Redefinir o filtro de relatório e as seleções de realce cruzado de volta para o estado original.
-- Abrir o painel de conversa para exibir comentários ou adicionar comentários ao relatório.
-- Abrir o painel de filtro para exibir e modificar o filtro aplicado ao relatório no momento.
-- Listar todas as páginas no relatório. Tocar no nome de uma página carregará e apresentará essa página.
+* Redefinir o filtro de relatório e as seleções de realce cruzado de volta para o estado original.
+* Abrir o painel de conversa para exibir comentários ou adicionar comentários ao relatório.
+* Abrir o painel de filtro para exibir e modificar o filtro aplicado ao relatório no momento.
+* Listar todas as páginas no relatório. Tocar no nome de uma página carregará e apresentará essa página.
 Você pode percorrer páginas de relatório passando o dedo da borda da tela para o centro.
-- Exibir todas as ações de relatório.
+* Exibir todas as ações de relatório.
 
 #### <a name="all-report-actions"></a>Todas as ações de relatório
 Ao tocar no botão de reticências **Mais opções** (...) no rodapé do relatório, você verá todas as ações que podem ser executadas em um relatório:
 
 
-![Todas as ações de relatório](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![Todas as ações de relatório](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 Algumas das ações podem ser desabilitadas, pois elas dependem das funcionalidades específicas do relatório.
 Por exemplo:
+
+**Indicadores** estarão presentes apenas se [indicadores](mobile-reports-in-the-mobile-apps.md#bookmarks) tiverem sido definidos no relatório. Indicadores pessoais que você pode definir no serviço do Power BI e indicadores definidos pelo criador do relatório são mostrados. Se um dos indicadores tiver sido definido como padrão, o relatório será aberto para essa exibição quando for carregado.
+
+**Anotar e compartilhar** poderá estar desabilitado se houver uma [política de proteção do Intune](https://docs.microsoft.com/intune/app-protection-policies) em sua organização que proíba o compartilhamento usando um aplicativo móvel do Power BI.
+
+**Convidar** estará habilitado somente se você tiver permissão para compartilhar o relatório com outras pessoas. Você terá permissão somente se for o proprietário do relatório ou se o proprietário tiver dado a você a permissão de recompartilhamento.
 
 **Filtrar por local atual** estará habilitado se o autor do relatório tiver classificado o relatório com os dados geográficos. Para obter mais informações, leia sobre [como identificar dados geográficos em um relatório](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
 
 A opção **Verificar para filtrar o relatório por código de barras** só estará habilitada se o conjunto de dados no seu relatório estiver marcado como **Código de barras**. Para obter mais informações, leia sobre [como marcar códigos de barras no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes).
 
-**Convidar** estará habilitado somente se você tiver permissão para compartilhar o relatório com outras pessoas. Você terá permissão somente se for o proprietário do relatório ou se o proprietário tiver dado a você a permissão de recompartilhamento.
+### <a name="bookmarks"></a>Indicadores
 
-**Anotar e compartilhar** poderá estar desabilitado se houver uma [política de proteção do Intune](https://docs.microsoft.com/intune/app-protection-policies) em sua organização que proíba o compartilhamento usando um aplicativo móvel do Power BI.
+O aplicativo móvel do Power BI dá suporte a indicadores de relatório que o criador do relatório definiu e a indicadores pessoais que você pode definir no serviço do Power BI. Você pode encontrar o menu de indicadores em **Mais opções** (…) na [barra de ferramentas de ações de relatório](mobile-reports-in-the-mobile-apps.md#all-report-actions).
+
+![menu de indicadores](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
+
+Quando uma exibição de indicador de um relatório é aberta, o nome do indicador é exibido na parte superior do relatório.
+
+![exibição de indicador](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
+
+[Saiba mais sobre indicadores no serviço do Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Exibir e interagir com relatórios do Power BI otimizados para seu telefone](mobile-apps-view-phone-report.md)

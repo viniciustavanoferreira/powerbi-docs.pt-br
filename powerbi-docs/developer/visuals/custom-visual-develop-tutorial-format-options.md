@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696843"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498487"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Tutorial: Adicionar opções de formatação a um visual do Power BI
 
@@ -124,10 +124,12 @@ Você pode adicionar propriedades personalizadas para ativar a configuração da
 
 8. No arquivo **visual.ts**,
 
-    importe a classe `VisualSettings`
+    importar `VisualSettings`, `VisualObjectInstanceEnumeration` e `EnumerateVisualObjectInstancesOptions`:
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     e na classe **Visual**, adicione a seguinte propriedade:
@@ -218,23 +220,34 @@ Insira valores de propriedade para o projeto visual personalizado, atualize o ar
 
     *Exibe um valor de medida formatado dentro de um círculo*
 
-5. Opcionalmente, no objeto **author**, insira seus detalhes.
+5. Preencha **supportUrl** e **gitHubUrl** para o visual.
 
-6. Salve o arquivo **pbiviz.json**.
+    Exemplo:
 
-7. No objeto **assets**, observe que o documento define um caminho para um ícone. O ícone é a imagem que aparece no painel **_Visualizações_** . Ele deve ser um arquivo **PNG**, *20 pixels por 20 pixels*.
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. No Windows Explorer, copie o arquivo icon.png, e cole-o para substituir o arquivo padrão localizado na pasta assets.
+6. Insira seus detalhes no objeto **author**.
 
-9. No Visual Studio Code, no painel do Explorer, expanda a pasta assets e, em seguida, selecione o arquivo icon.png.
+7. Salve o arquivo **pbiviz.json**.
 
-10. Verifique o ícone.
+8. No objeto **assets**, observe que o documento define um caminho para um ícone. O ícone é a imagem que aparece no painel **_Visualizações_** . Ele deve ser um arquivo **PNG**, *20 pixels por 20 pixels*.
+
+9. No Windows Explorer, copie o arquivo icon.png, e cole-o para substituir o arquivo padrão localizado na pasta assets.
+
+10. No Visual Studio Code, no painel do Explorer, expanda a pasta assets e, em seguida, selecione o arquivo icon.png.
+
+11. Verifique o ícone.
 
     ![Imagem do painel de visualização](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. No Visual Studio Code, verifique se todos os arquivos foram salvos.
+12. No Visual Studio Code, verifique se todos os arquivos foram salvos.
 
-12. Para preparar o visual personalizado, no PowerShell, digite o seguinte comando.
+13. Para preparar o visual personalizado, no PowerShell, digite o seguinte comando.
 
     ```powershell
     pbiviz package

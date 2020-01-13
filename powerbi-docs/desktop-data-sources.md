@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410947"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222116"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 
@@ -24,16 +24,14 @@ Para se conectar a dados, selecione **Obter Dados** na faixa de opções **Pági
 
 ![Obter Dados no Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-Selecionar **Mais...** no menu **Mais Comuns** exibe a janela **Obter Dados**. Você também pode abrir a janela **Obter Dados** (e ignorar o menu **Mais Comuns** ) selecionando diretamente o **botão do ícone** **Obter Dados** .
+Selecionar **Mais...** no menu **Mais Comuns** exibe a janela **Obter Dados**. Você também pode abrir a janela **Obter Dados** (e ignorar o menu **Mais Comuns**), selecionando diretamente o **botão do ícone** **Obter Dados**.
 
 ![Botão Obter Dados](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> A equipe do Power BI está sempre expandindo as fontes de dados disponíveis para o **Power BI Desktop** e o **serviço do Power BI**. Assim, você verá com frequência as versões anteriores das fontes de dados de trabalho em andamento marcadas como *Beta* ou *Visualização*. Toda fonte de dados marcada como *Beta* ou *Visualização* tem suporte e funcionalidade limitados e não deve ser usada em ambientes de produção. 
+> A equipe do Power BI está sempre expandindo as fontes de dados disponíveis para o **Power BI Desktop** e o **serviço do Power BI**. Assim, você verá com frequência as versões anteriores das fontes de dados de trabalho em andamento marcadas como *Beta* ou *Visualização*. Toda fonte de dados marcada como *Beta* ou *Visualização* tem suporte e funcionalidade limitados e não deve ser usada em ambientes de produção. Além disso, qualquer fonte de dados marcada como *Beta* ou *Versão prévia* para o **Power BI Desktop** pode não estar disponível para uso no **serviço do Power BI** ou outros serviços da Microsoft até que a fonte de dados esteja em GA (em disponibilidade geral).
 
-> Além disso, qualquer fonte de dados marcada como *Beta* ou *Versão prévia* para o **Power BI Desktop** pode não estar disponível para uso no **serviço do Power BI** ou outros serviços da Microsoft até que a fonte de dados esteja em GA (em disponibilidade geral).
-
-## <a name="data-sources"></a>Fontes de Dados
+## <a name="data-sources"></a>Fontes de dados
 Tipos de dados são organizados nas categorias a seguir:
 
 * Todos
@@ -41,7 +39,7 @@ Tipos de dados são organizados nas categorias a seguir:
 * Banco de dados
 * Power BI
 * Azure
-* Serviços online
+* Serviços Online
 * Outros
 
 A categoria **Todos** inclui todos os tipos de conexão de dados de todas as categorias.
@@ -62,7 +60,7 @@ A imagem a seguir mostra a janela **Obter Dados** para **Arquivo**.
 
 A categoria **Banco de dados** fornece as seguintes conexões de dados:
 
-* Banco de dados do SQL Server
+* Banco de Dados do SQL Server
 * Banco de dados do Access
 * Banco de dados do SQL Server Analysis Services
 * Banco de dados Oracle
@@ -82,7 +80,7 @@ A categoria **Banco de dados** fornece as seguintes conexões de dados:
 * Vertica
 * Snowflake
 * Essbase
-* Cubos do AtScale (Beta)
+* Cubos do AtScale
 * Conector do BI
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ A categoria **Power Platform** fornece as seguintes conexões de dados:
 * Conjuntos de dados do Power BI
 * Fluxos de dados do Power BI
 * Common Data Service
-* Fluxos de dados do Power Platform (Beta)
+* Fluxo de dados do Power Platform
 
 A imagem a seguir mostra a janela **Obter Dados** do **Power Platform**.
 
@@ -118,13 +116,14 @@ A categoria **Azure** fornece as seguintes conexões de dados:
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (Beta)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * Consulta Interativa do HDInsight
 * Azure Data Explorer (Kusto)
-* Gerenciamento de Custos do Azure (Beta)
+* Gerenciamento de Custos do Azure
+* Azure Time Series Insights (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
@@ -209,7 +208,7 @@ A imagem a seguir mostra a janela **Obter Dados** para **Outros**.
 > [!NOTE]
 > Neste momento, não é possível se conectar a fontes de dados personalizadas protegidas usando o Azure Active Directory.
 
-## <a name="connecting-to-a-data-source"></a>Conectando a uma Fonte de Dados
+## <a name="connecting-to-a-data-source"></a>Conectando-se a uma fonte de dados
 Para se conectar a uma fonte de dados, selecione a fonte de dados na janela **Obter Dados** e selecione **Conectar**. Na imagem a seguir, a opção **Web** é selecionada na categoria de conexão de dados **Outros** .
 
 ![Conecte-se à Web](media/desktop-data-sources/data-sources-08.png)
@@ -236,7 +235,7 @@ Quando um autor abre um arquivo .PBIDS, o Power BI Desktop é aberto e solicita 
 
 Desse ponto em diante, o usuário pode começar a criar visualizações ou revisitar *Fontes recentes* para carregar um novo conjunto de tabelas no modelo. 
 
-Atualmente, os arquivos .PBIDS dão suporte apenas a uma única fonte de dados em um arquivo. A especificação de mais de uma fonte de dados resulta em um erro. 
+Atualmente, os arquivos .PBIDS dão suporte apenas a uma fonte de dados em um arquivo. A especificação de mais de uma fonte de dados resulta em um erro. 
 
 Para criar o arquivo .PBIDS, os administradores devem especificar as entradas necessárias para uma única conexão e podem especificar o modo da conexão, como **DirectQuery** ou **Importar**. Se o**modo** estiver ausente ou for nulo no arquivo, o usuário que abrir o arquivo no Power BI Desktop será solicitado a selecionar DirectQuery ou Importar. 
 

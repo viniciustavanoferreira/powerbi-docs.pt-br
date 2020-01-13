@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28e6cea55b02fabddd0b2f118631a09c0344b66f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863083"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75303852"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Como os visuais realizam filtragem cruzada entre si em um relatório do Power BI
 Um dos melhores recursos do Power BI é a maneira com que todos os elementos visuais na página de um relatório são interconectados. Se você selecionar um ponto de dados em um dos elementos visuais, todos os outros visuais na página que contêm esses dados serão alterados, com base nessa seleção. 
@@ -27,20 +27,31 @@ Por padrão, a seleção de um ponto de dados em um visual em uma página de rel
 
 Caso ainda não tenha encontrado as hierarquias nem o drilling, saiba tudo sobre eles lendo [Fazer drill down no Power BI](end-user-drill.md). 
 
-A filtragem cruzada e o realce cruzado podem ser úteis para identificar como um valor nos dados contribui para outro. Por exemplo, a seleção do segmento Moderação no gráfico de rosca realça a contribuição desse segmento para cada coluna no gráfico "Total de unidades por Mês", além de filtrar o gráfico de linhas.
+### <a name="cross-filtering-and-cross-highlighting"></a>Filtragem cruzada e destaque cruzado
 
-![imagem da interação de visuais](media/end-user-interactions/power-bi-interactions.png)
+A filtragem cruzada e o realce cruzado podem ser úteis para identificar como um valor nos dados contribui para outro. Os termos *filtro cruzado* e *realce cruzado* são usados para distinguir o comportamento descrito aqui do que acontece quando você usa o painel **Filtros** para filtrar e realçar visuais.  
 
-Veja [Sobre filtragem e realce](end-user-report-filter.md). 
+Vamos definir esses termos ao examinarmos as páginas de relatório abaixo. O gráfico de rosca "Volume total da categoria por segmento" contém dois valores: "Moderação" e "Conveniência". 
 
+![Página de relatório](media/end-user-interactions/power-bi-interactions-before.png)
 
-  
-> [!NOTE]
-> Os termos *filtro cruzado* e *realce cruzado* são usados para distinguir o comportamento descrito aqui do que acontece quando você usa o painel **Filtros** para filtrar e realçar visuais.  
+1. Vamos ver o que acontece quando selecionamos **Moderação**.
+
+    ![Página de relatório após a seleção do segmento Moderação do gráfico de rosca](media/end-user-interactions/power-bi-interactions-after.png)
+
+2. A **filtragem cruzada** remove os dados não aplicáveis. A seleção de **Moderação** no gráfico de rosca faz a filtragem cruzada do gráfico de linhas. Agora, o gráfico de linhas só exibe pontos de dados para o segmento Moderação. 
+
+3. O **destaque cruzado** retém todos os pontos de dados originais, mas esmaece a parte que não se aplica à seleção. A seleção de **Moderação** no gráfico de rosca faz o destaque cruzado do gráfico de colunas. O gráfico de colunas esmaece todos os dados que se aplicam ao segmento Conveniência e realça todos os dados que se aplicam ao segmento Moderação. 
+
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 - Se o relatório tiver um visual que dá suporte ao [drilling](end-user-drill.md), por padrão, o drilling de um visual não afetará os outros visuais na página de relatório.     
-- Se você usar o visualA para interagir com o visualB, os filtros no nível do visual do visualA serão aplicados ao visualB.
+- Os filtros no nível do visual são retidos quando há a filtragem cruzada e o destaque cruzado de outros visuais na página de relatório. Portanto, se o visualA tiver filtros no nível do visual aplicados pelo Designer de Relatórios ou por você e você usar o visualA para interagir com o visualB, os filtros no nível do visual do visualA serão aplicados ao visualB.
+
+    ![Página de relatório após a seleção do segmento Moderação do gráfico de rosca](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Próximas etapas
-[Como usar filtros de relatório](../power-bi-how-to-report-filter.md)
+[Como usar filtros de relatório](../power-bi-how-to-report-filter.md)    
+
+
+[Sobre filtragem e realce](end-user-report-filter.md). 

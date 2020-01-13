@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8667823567270680415c2fb0ba2db7846dd968ac
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef3191d77e2aeb89ff97468bd4bfdc07b0d7afb8
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878325"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761331"
 ---
-# <a name="data-categorization-in-power-bi-desktop"></a>Categorização de dados no Power BI Desktop
+# <a name="specify-data-categories-in-power-bi-desktop"></a>Especificar categorias de dados no Power BI Desktop
 No **Power BI Desktop**, você pode especificar a Categoria de Dados para uma coluna de modo que o Power BI Desktop saiba como deve tratar seus valores em uma visualização.
 
 Quando o Power BI Desktop importa dados, ele não apenas obtém os dados em si, mas também informações como os nomes de tabela e coluna, se trata-se ou não de uma chave primária, etc.  Com essas informações, o Power BI Desktop faz algumas suposições sobre como oferecer a você uma boa uma experiência padrão ao criar uma visualização. 

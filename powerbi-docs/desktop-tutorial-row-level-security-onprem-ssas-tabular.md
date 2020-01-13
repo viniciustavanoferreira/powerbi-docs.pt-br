@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311448"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759510"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Segurança em nível de linha dinâmica com o modelo de tabela do Analysis Services
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Implementar segurança em nível de linha em um modelo de tabela do Analysis Services
 
 Usando um conjunto de dados de exemplo para trabalhar com as etapas abaixo, este tutorial mostra como implementar a [**segurança em nível de linha**](service-admin-rls.md) em um **Modelo Tabular do Analysis Services** e usá-lo em um relatório do Power BI. 
 

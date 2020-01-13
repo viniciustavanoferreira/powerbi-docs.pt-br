@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 82a03731ffea49f7e41fc8582155fe09734d475b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878034"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760832"
 ---
-# <a name="using-python-in-query-editor"></a>Como usar o Python no Editor de Consultas
+# <a name="use-python-in-query-editor"></a>Usar o Python no Editor de Consultas
 Você pode usar **Python**, uma linguagem de programação amplamente usada por estatísticos, cientistas de dados e analistas de dados, no **Editor de Consultas** do Power BI Desktop. Essa integração de Python ao **Editor de Consultas** permite executar a limpeza de dados usando Python e executar análise e modelagem de dados avançadas em conjuntos de dados, inclusive completar dados ausentes, fazer previsões e clustering, apenas para citar alguns exemplos. **Python** é uma linguagem poderosa e pode ser usada no **Editor de Consultas** para preparar seu modelo de dados e criar relatórios.
 
 ## <a name="installing-python"></a>Como instalar o Python

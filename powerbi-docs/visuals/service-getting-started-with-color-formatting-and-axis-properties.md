@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a01598bda6520bbf0bf82175ab4256cf7d529e84
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880694"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762245"
 ---
-# <a name="getting-started-with-color-formatting-and-axis-properties"></a>Guia de introdução com propriedades de eixo e formatação de cor
+# <a name="get-started-with-color-formatting-and-axis-properties"></a>Introdução à formatação de cor e às propriedades de eixo
 No **Power BI**, altere a cor de série de dados, pontos de dados e até mesmo da tela de fundo das visualizações. Você também pode alterar como os eixos x e y são apresentados, fornecendo a você controle total sobre como seus painéis e relatórios são exibidos.
 
 Para começar, selecione um **Relatório** do painel **Meu Workspace**. Em seguida, na área do menu superior, selecione **Editar Relatório**.  
@@ -42,7 +42,7 @@ Você pode personalizar muitos elementos de cada visualização:
 * Área de plotagem
 * Título
 * Tela de fundo
-* Fixar proporção
+* Bloquear aspecto
 * Borda
 
 > [!NOTE]

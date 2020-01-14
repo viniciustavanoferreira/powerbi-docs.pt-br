@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 11/14/2019
-  ms.openlocfilehash: 685c4d885d6658b2f0d6eace63882e453cfb77a2
-  ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+  ms.openlocfilehash: 2d34b41ec7ebc473c84bbfffccfa555cda817e3a
+  ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/07/2020
-  ms.locfileid: "75691300"
+  ms.lasthandoff: 01/11/2020
+  ms.locfileid: "75885159"
 landingContent:
 - title: Diretrizes do Power BI
   linkLists:
@@ -79,3 +79,7 @@ landingContent:
       url: report-page-tooltips.md
     - text: Detalhamento de página de relatório
       url: report-drillthrough.md
+    - text: Quando usar relatórios paginados no Power BI
+      url: report-paginated-or-power-bi.md
+    - text: Migrar relatórios do SQL Server Reporting Services para o Power BI
+      url: migrate-ssrs-reports-to-power-bi.md

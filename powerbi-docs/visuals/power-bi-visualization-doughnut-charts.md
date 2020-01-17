@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4dd6f185ea7d4f4664626586f1374f67bd34f784
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870948"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757705"
 ---
-# <a name="doughnut-charts-in-power-bi"></a>Gráficos de rosca no Power BI
+# <a name="create-and-use-doughnut-charts-in-power-bi"></a>Criar e usar gráficos de rosca no Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -37,7 +37,7 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://down
 
 ## <a name="create-a-doughnut-chart"></a>Crie um gráfico de rosca
 
-1. Inicie em uma página de relatório em branco e, no painel Campos, selecione **Vendas** \> **Vendas do Ano Passado**.  
+1. Comece em uma página de relatório em branco e, no painel Campos, selecione **Sales** \> **Last Year Sales**.  
    
 3. No painel Visualizações, selecione o ícone de gráfico de rosca ![ícone de gráfico de rosca](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) para converter seu gráfico de barras em um gráfico de rosca. Se as **Vendas do Ano Passado** não estiverem na área **Valores**, arraste-as para lá.
      

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878668"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761739"
 ---
-# <a name="common-query-tasks-in-power-bi-desktop"></a>Tarefas comuns de consulta no Power BI Desktop
+# <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Realizar tarefas comuns de consulta no Power BI Desktop
 Ao trabalhar na janela do **Editor de Consultas** do Power BI Desktop, há uma série de tarefas frequentemente usadas. Este documento demonstra as tarefas comuns e fornece links para informações adicionais. 
 
 As tarefas comuns de consulta demonstradas aqui são as seguintes:
 
-* Conectar-se a dados
+* Conectar aos dados
 * Formatar e combinar dados
 * Agrupar linhas
 * Dinamizar colunas
@@ -36,7 +36,7 @@ A primeira conexão de dados é uma pasta de trabalho do Excel, que pode ser bai
 
 É nas etapas necessárias para conectar-se a ambas as fontes de dados que começam as tarefas comuns de Consulta.
 
-## <a name="connect-to-data"></a>Conectar-se a dados
+## <a name="connect-to-data"></a>Conectar aos dados
 Para se conectar aos dados no Power BI Desktop, selecione o botão **Obter Dados** da guia **Página Inicial** na faixa de opções. O Power BI Desktop apresenta um menu com as fontes de dados mais comuns. Para obter uma lista completa de fontes de dados às quais o Power BI Desktop pode se conectar, selecione o botão **Mais...** na parte inferior do menu. Para obter mais informações, veja [Fontes de dados no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
@@ -151,50 +151,50 @@ As categorias de fórmula do Editor de Consultas são as seguintes:
 
 * Number
   * Constants
-  * Information
+  * Informações
   * Conversion and formatting
-  * Format
+  * Formatar
   * Rounding
   * Operations
   * Random
   * Trigonometry
   * Bytes
-* Text
-  * Information
+* Texto
+  * Informações
   * Text comparisons
   * Extraction
   * Modification
   * Membership
   * Transformations
 * Logical
-* Date
-* Time
+* Data
+* Hora
 * DateTime
 * DateTimeZone
 * Duration
 * Record
   * Information
   * Transformations
-  * Selection
+  * Seleção
   * Serialization
 * List
-  * Information
-  * Selection
+  * Informações
+  * Seleção
   * Transformation
-  * Membership
+  * Associação
   * Set operations
   * Ordering
   * Averages
-  * Addition
+  * Adição
   * Numerics
   * Generators
-* Table
+* Tabela
   * Table construction
   * Conversions
-  * Information
+  * Informações
   * Row operations
   * Column operations
-  * Membership
+  * Associação
 * Values
 * Arithmetic operations
 * Parameter Types
@@ -205,9 +205,9 @@ As categorias de fórmula do Editor de Consultas são as seguintes:
   * Reading numbers
 * Binary
 * Lines
-* Expression
+* Expressão
 * Function
-* Error
+* Erro
 * Comparer
 * Splitter
 * Combiner

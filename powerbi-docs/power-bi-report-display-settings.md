@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265860"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762498"
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as configurações em um relatório do Power BI
+# <a name="apply-page-display-settings-in-a-power-bi-report"></a>Aplicar as configurações de exibição da página em um relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Às vezes, isso pode ser desafiador, porque você e seus colegas podem exibir esses relatórios em telas com taxas de proporção e tamanhos diferentes. 
 
 O modo de exibição padrão é **Ajustar à página** e o tamanho de exibição padrão é **16:9**. Se você quiser bloquear uma taxa de proporção diferente ou quiser ajustar seu relatório de outra forma, há duas ferramentas para ajudá-lo: Configurações da ***Exibição da página*** e do ***Tamanho da página***.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877263"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762567"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Usar fluxos de dados com fontes de dados locais
 
@@ -24,7 +24,8 @@ Com **fluxos de dados**, você pode criar uma coleção de dados de várias font
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>Configurar um Gateway Corporativo para uso com fluxos de dados
 
-Para usar uma fonte de dados local em um fluxo de dados, qualquer usuário que criar o fluxo de dados deve ter um **Gateway Corporativo** instalado e configurado. O usuário que cria o fluxo de dados também deve ser o administrador do Gateway Corporativo para usar esse gateway para um fluxo de dados.
+Para criar um fluxo de dados usando um gateway, o usuário precisa ser o administrador do gateway corporativo ou o administrador precisa ter compartilhado com o usuário a fonte de dados que planeja usar. 
+
 
 > [!NOTE]
 > Os fluxos de dados só têm suporte usando os Gateways Corporativos.
@@ -35,7 +36,7 @@ Ao criar um fluxo de dados, selecione uma fonte de dados local na lista de fonte
 
 ![Escolher uma fonte de dados no local](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-Depois de fazer sua seleção, você é solicitado a fornecer os detalhes da conexão para o Gateway Corporativo que será usado para acessar os dados locais. Você deve selecionar o próprio gateway e fornecer credenciais para o gateway selecionado. Somente gateways para os quais o usuário é um administrador aparecem na lista suspensa.
+Depois de fazer sua seleção, você é solicitado a fornecer os detalhes da conexão para o Gateway Corporativo que será usado para acessar os dados locais. Você deve selecionar o próprio gateway e fornecer credenciais para o gateway selecionado.
 
 ![Fornecer detalhes da conexão](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

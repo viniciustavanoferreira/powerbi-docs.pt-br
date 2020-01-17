@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265446"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762084"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo dos EUA
 O **serviço do Power BI** tem uma versão disponível para clientes do Governo dos Estados Unidos como parte das assinaturas da **Comunidade do Governo dos EUA do Office 365**. A versão do **serviço do Power BI** discutida neste artigo é desenvolvida especificamente para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço do Power BI**.
@@ -50,7 +50,7 @@ O Azure é distribuído entre várias nuvens. Por padrão, é permitido que os l
 Na nuvem pública, os espaços IP estão disponíveis. Na nuvem governamental, confira a [documentação de serviço do Azure Governamental](https://www.microsoft.com/download/details.aspx?id=57063), que pode ser baixada, para obter as informações mais recentes.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Limitações do Power BI para o Governo dos EUA
-Alguns dos recursos disponíveis na versão comercial do **serviço do Power BI** *não* estão disponíveis no **serviço do Power BI** para clientes do Governo dos EUA. Equipe do Power BI está trabalhando ativamente para tornar esses recursos disponíveis para clientes do Governo dos EUA e atualizará este artigo quando esses recursos estiverem disponíveis.
+Alguns dos recursos disponíveis na versão comercial do **serviço do Power BI***não* estão disponíveis no **serviço do Power BI** para clientes do Governo dos EUA. Equipe do Power BI está trabalhando ativamente para tornar esses recursos disponíveis para clientes do Governo dos EUA e atualizará este artigo quando esses recursos estiverem disponíveis.
 
 * **Inserir no SharePoint Online** - não é possível inserir o conteúdo no SharePoint Online usando a web part do Power BI. No entanto, a inserção segura funciona usando a [web part *Inserir*](https://docs.microsoft.com/power-bi/service-embed-secure). Você precisa adicionar *app.powerbigov.us* à lista de exceções, o que pode ser realizado seguindo as instruções no artigo [Permitir ou restringir a capacidade de inserir conteúdo nas páginas do SharePoint](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 * O **Power BI do Governo dos EUA** só está disponível como uma licença **Pro**. Todas as referências a licenças do Power BI (Gratuito) em um portal de administrador (ou como usuários) estão em execução em uma nuvem de serviço do Power BI comercial.
@@ -59,6 +59,7 @@ Alguns dos recursos disponíveis na versão comercial do **serviço do Power BI*
 * **Métricas de uso para relatórios e dashboards** – as métricas de uso não estão disponíveis para relatórios e dashboards. Os clientes podem usar dados de log de auditoria para obter informações de uso do conteúdo em sua organização.
 * **Fluxos de dados** – os fluxos de dados não estão disponíveis.
 * **Relatórios paginados** – Os relatórios paginados estão atualmente disponíveis somente na região USGov Virgínia.  Há planos para o suporte na região USGov Texas, mas ainda não está disponível.
+* A inserção de conteúdo do Power BI por meio de uma GCC (Nuvem da Comunidade Governamental) só pode ser feita com um SKU do Office 365. Os clientes do GCC High podem usar [SKUs do Office 365 ou do Azure](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365).
 
 Se você tem licenças Gratuitas do **Power BI** atribuídas à sua conta, essas contas estão em execução em uma versão comercial do serviço do **Power BI** e não fazem parte da oferta do **Power BI do Governo dos EUA**. Para essas contas Gratuitas, você poderá se deparar com os seguintes problemas:
 

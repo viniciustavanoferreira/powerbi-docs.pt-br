@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31e2e681bc4309e5dce31583e70e669bce5e466f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877252"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762176"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Vincular entidades entre fluxos de dados no Power BI
 
@@ -81,6 +81,7 @@ Há algumas limitações para ter em mente ao trabalhar com entidades vinculadas
 * Dependências cíclicas de entidades vinculadas não são permitidas
 * O fluxo de dados deve residir em um [novo workspace do Power BI do Power BI](service-create-the-new-workspaces.md)
 * Uma entidade vinculada não pode ser associada a uma entidade regular que obtém seus dados de uma fonte de dados local
+* Quando uma consulta (consulta A, por exemplo) é usada no cálculo de outra consulta (consulta B) em fluxos de dados, a consulta B torna-se uma entidade calculada. As entidades calculadas não podem se referir a fontes locais.
 
 
 ## <a name="next-steps"></a>Próximas etapas

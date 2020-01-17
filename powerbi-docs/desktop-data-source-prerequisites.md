@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 515c695125cd0702389a951cb5c4acffdd7aac41
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d118cae8cd4b6fbd95066b15819b1e798c8bbe0f
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868580"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761308"
 ---
-# <a name="power-bi-data-source-prerequisites"></a>Pré-requisitos de Fonte de Dados do Power BI
-Para cada provedor de dados, o Power BI dá suporte a uma versão específica do provedor em objetos. Para obter mais informações sobre as fontes de dados disponíveis para o Power BI, veja [Fontes de dados](desktop-data-sources.md). A tabela a seguir descreve esses requisitos.
+# <a name="power-bi-data-source-prerequisites"></a>Pré-requisitos de fonte de dados do Power BI
+Para cada provedor de dados, o Power BI dá suporte a uma versão específica do provedor em objetos. Para obter mais informações sobre as fontes de dados disponíveis para o Power BI, confira [Fontes de dados](desktop-data-sources.md). A tabela a seguir descreve esses requisitos.
 
 | Fonte de dados | Provedor | Versão mínima do provedor | Versão mínima da fonte de dados | Objetos de fonte dados com suporte | Link de download |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server |ADO.net (interno no .Net Framework) |.NET Framework 3.5 (somente) |SQL Server 2005+ |Tabelas/modos de exibição, Funções escalares, Funções de tabela |Incluído no .NET Framework 3.5 ou superior |
-| Access |Mecanismo de Banco de Dados do Microsoft Access (ACE) |ACE 2010 SP1 |Nenhuma restrição |Tabelas/modos de exibição |[Link de download](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
+| Acessar |Mecanismo de Banco de Dados do Microsoft Access (ACE) |ACE 2010 SP1 |Nenhuma restrição |Tabelas/modos de exibição |[Link de download](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Excel (somente arquivos .xls) (veja a observação 1) |Mecanismo de Banco de Dados do Microsoft Access (ACE) |ACE 2010 SP1 |Nenhuma restrição |Tabelas, planilhas |[Link de download](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Oracle (consulte a observação 2) |ODP.NET |ODAC 11.2 versão 5 (11.2.0.3.20) |9.x+ |Tabelas/modos de exibição |[Link de download](https://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
 | | System.Data.OracleClient (criado no .NET Framework) |.NET Framework 3.5 |9.x+ |Tabelas/modos de exibição |Incluído no .NET Framework 3.5 ou superior |

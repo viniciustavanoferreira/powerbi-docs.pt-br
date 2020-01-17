@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907766"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757827"
 ---
-# <a name="filled-maps-choropleth-in-power-bi"></a>Mapas coropléticos no Power BI
+# <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Criar e usar mapas coropléticos no Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -47,7 +47,7 @@ Mapas coropléticos são uma ótima opção:
 
 ### <a name="prerequisites"></a>Pré-requisitos
 Este tutorial usa o [Arquivo PBIX de exemplo de Vendas e Marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
-1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**.
+1. Na seção superior esquerda da barra de menus, selecione **Arquivo** > **Abrir**
    
 2. Localize sua cópia do **Arquivo PBIX de exemplo de vendas e marketing**
 
@@ -66,7 +66,7 @@ Neste vídeo, Kim cria um mapa básico e o converte em um mapa coroplético.
 [VÍDEO https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Criar um mapa coroplético
-1. No painel Campos, selecione o campo **Área geográfica** \> **Estado**.    
+1. No painel Campos, selecione o campo **Geo** \> **Estado**.    
 
    ![marca de seleção amarela ao lado de Estado](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
 2. [Converta o gráfico](power-bi-report-change-visualization-type.md) em um mapa coroplético. Observe que o **Estado** agora está no contêiner **Local**. O Bing Maps usa o campo no contêiner **Local** para criar o mapa.  O local pode ser uma variedade de locais válidos: países, estados, condados, cidades, CEPs ou outros códigos postais, etc. O Bing Maps fornece formas de mapa coroplético para locais em todo o mundo. Sem uma entrada válida no Local, o Power BI não pode criar o mapa coroplético.  

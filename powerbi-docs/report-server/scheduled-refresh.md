@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699005"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837607"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Atualização agendada de relatório do Power BI no Servidor de Relatórios do Power BI
 A atualização agendada dos relatórios do Power BI permite que os dados de um relatório permaneçam atualizados.
@@ -61,8 +61,10 @@ Para obter informações sobre como monitorar uma instância do Analysis Service
 
 Para obter informações sobre as configurações de memória no Analysis Services, consulte [Propriedades de memória](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
 
+### <a name="data-model-size-limit"></a>Limite de tamanho do modelo de dados
+O modelo de dados carregado no mecanismo interno do Analysis Services durante uma atualização agendada tem um tamanho máximo de 2.000 MB (2 GB). Esse tamanho máximo não pode ser configurado. Se o modelo de dados exceder 2 GB, você receberá o erro de atualização "O tamanho do resultado excede o limite de tamanho (2 GB) do tipo de destino grande". Nesse caso, recomendamos hospedar o modelo em uma instância do Analysis Services e usar uma conexão dinâmica com o modelo no relatório.
+
 ## <a name="next-steps"></a>Próximas etapas
 Configurar a [atualização agendada](configure-scheduled-refresh.md) em um relatório do Power BI.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1a09bd706a69156066f077bfb1668dd27448bd40
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf83df157738621116eb9e5461876eee8faf0863
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878596"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761670"
 ---
-# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Conectar-se ao Gerenciamento de Custos do Azure no Power BI Desktop
+# <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Criar visuais e relatórios com o conector do Gerenciamento de Custos do Azure no Power BI Desktop
 
 Você pode usar o conector de Gerenciamento de Custos do Azure para Power BI Desktop para criar visualizações e relatórios avançados e personalizados que ajudam a entender melhor seus gastos com o Azure. Atualmente, o conector do Gerenciamento de Custos do Azure dá suporte aos clientes com o [Contrato de Cliente da Microsoft](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) ou um [Contrato Enterprise (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/).  
 

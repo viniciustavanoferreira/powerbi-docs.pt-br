@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f5030f4fe820ac8ba14d0f7255cdbe1da5f7e9a3
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831229"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732051"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: Perguntas frequentes 
 
@@ -148,7 +148,7 @@ Sim, oferecemos suporte à capacidade de executar código em seus relatórios, c
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Posso usar o Power BI Embedded para inserir meus relatórios paginados em um aplicativo que estou hospedando?
 
-A incorporação de SaaS, incluindo o suporte à Inserção Segura, já está disponível.  O suporte à inserção de PaaS está planejado para mais tarde neste ano.
+A incorporação de SaaS, incluindo o suporte à Inserção Segura, já está disponível. Para a inserção de PaaS, veja o tutorial [Inserir relatórios paginados do Power BI em um aplicativo para seus clientes](developer/embed-paginated-reports-customers.md).
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Posso fazer uma consulta detalhada de um relatório do Power BI para um relatório paginado?
 

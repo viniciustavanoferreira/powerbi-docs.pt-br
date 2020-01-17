@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1070cf40fb743fc0d4661bd067b6475ef8dc8217
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8bb07269b6406f052caceedb7b1f924e4424fde4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871701"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762337"
 ---
-# <a name="r-packages-in-the-power-bi-service"></a>Pacotes do R no serviço do Power BI
+# <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Criar visuais usando pacotes do R no serviço do Power BI
 Você pode usar a [linguagem de programação R](https://www.r-project.org/) avançada para criar elementos visuais no serviço do Power BI. Muitos pacotes do R têm suporte no serviço do Power BI (e mais têm suporte o tempo todo), e alguns pacotes não têm.
 
 As seções a seguir fornecem uma tabela alfabética de quais pacotes do R têm suporte no Power BI e quais não têm. Para obter mais informações sobre o R no Power BI, consulte o artigo [Visuais do R](visuals/service-r-visuals.md).
@@ -143,7 +143,7 @@ A tabela a seguir mostra quais pacotes **têm suporte** no serviço do Power BI.
 |callr|2.0.2|https://cran.r-project.org/web/packages/callr/index.html|
 |car|2.1-6|https://cran.r-project.org/web/packages/car/index.html|
 |carData|3.0-1|https://cran.r-project.org/web/packages/carData/index.html|
-|caret|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
+|sinal de interpolação|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
 |catnet|1.15.3|https://cran.r-project.org/web/packages/catnet/index.html|
 |caTools|1.17.1|https://cran.r-project.org/web/packages/caTools/index.html|
 |cclust|0.6-21|https://cran.r-project.org/web/packages/cclust/index.html|
@@ -465,7 +465,7 @@ A tabela a seguir mostra quais pacotes **têm suporte** no serviço do Power BI.
 |leaflet|2.0.2|https://cran.r-project.org/web/packages/leaflet/index.html|
 |leaflet.esri|0,2|https://cran.r-project.org/web/packages/leaflet.esri/index.html|
 |leaflet.extras|0,2|https://cran.r-project.org/web/packages/leaflet.extras/index.html|
-|leaps|3,0|https://cran.r-project.org/web/packages/leaps/index.html|
+|leaps|3.0|https://cran.r-project.org/web/packages/leaps/index.html|
 |LearnBayes|2.15.1|https://cran.r-project.org/web/packages/LearnBayes/index.html|
 |lexicon|1.2.1|https://cran.r-project.org/web/packages/lexicon/index.html|
 |libcoin|1.0-1|https://cran.r-project.org/web/packages/libcoin/index.html|
@@ -556,7 +556,7 @@ A tabela a seguir mostra quais pacotes **têm suporte** no serviço do Power BI.
 |munsell|0.5.0|https://cran.r-project.org/web/packages/munsell/index.html|
 |mvoutlier|2.0.9|https://cran.r-project.org/web/packages/mvoutlier/index.html|
 |mvtnorm|1.0-7|https://cran.r-project.org/web/packages/mvtnorm/index.html|
-|NbClust|3,0|https://cran.r-project.org/web/packages/NbClust/index.html|
+|NbClust|3.0|https://cran.r-project.org/web/packages/NbClust/index.html|
 |ncvreg|3.9-1|https://cran.r-project.org/web/packages/ncvreg/index.html|
 |network|1.13.0|https://cran.r-project.org/web/packages/network/index.html|
 |networkD3|0,4|https://cran.r-project.org/web/packages/networkD3/index.html|

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e40d26570e37167c61ffd3241cfe96a90c55fa0
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877861"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760539"
 ---
-# <a name="report-view-in-power-bi-desktop"></a>Exibição de Relatório no Power BI Desktop
+# <a name="work-with-report-view-in-power-bi-desktop"></a>Trabalhar com a exibição de Relatório no Power BI Desktop
 Se você já trabalhou com o Power BI, você sabe como é fácil criar relatórios que fornecem ideias e perspectivas dinâmicas sobre seus dados. O Power BI também conta com recursos mais avançados no Power BI Desktop. Com o Power BI Desktop, você pode criar consultas avançadas, efetuar mashup de dados provenientes de várias fontes, criar relações entre tabelas e muito mais.
 
 O Power BI Desktop inclui um **Modo de Exibição de Relatório**, no qual você pode quantas páginas de relatório desejar com visualizações. O Modo de Exibição de Relatório oferece praticamente a mesma experiência de design que aquela encontrada no Modo de Exibição de Edição de um relatório no serviço do Power BI. Você pode mover as visualizações de um lugar para outro, copiar e colar, mesclar, etc.

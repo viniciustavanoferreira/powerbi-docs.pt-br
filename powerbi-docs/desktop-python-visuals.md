@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 21ec26182efe2d0b08b2a64227264d5b80756962
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877970"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760717"
 ---
-# <a name="create-power-bi-visuals-using-python"></a>Criar visuais do Power BI usando Python
+# <a name="create-power-bi-visuals-by-using-python"></a>Criar visuais do Power BI usando o Python
 Com o **Power BI Desktop**, é possível usar o **Python** para visualizar seus dados.
 
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -167,6 +167,7 @@ Este tutorial foi criado para ajudá-lo a começar a criar visuais com o Python 
 Os visuais do Python no **Power BI Desktop** apresentam algumas limitações:
 
 * Limitações de tamanho de dados – os dados usados pelo visual do Python para plotar são limitados a 150 mil linhas. Se mais de 150.000 linhas forem selecionadas, somente as primeiras 150.000 linhas serão usadas e uma mensagem será exibida na imagem.
+* Resolução: todos os visuais do Python são exibidos com 72 dpi.
 * Limite de tempo de cálculo – se um cálculo do visual do Python exceder 5 minutos, a execução atingirá o tempo limite, resultando em um erro.
 * Relacionamentos – assim como acontece com outros visuais do Power BI Desktop, se os campos de dados de tabelas diferentes sem uma relação definida entre eles forem selecionados, ocorrerá um erro.
 * Visuais do Python são atualizados após atualizações de dados, filtragem e realce. No entanto, a própria imagem não é interativa e não pode ser a origem da filtragem cruzada.

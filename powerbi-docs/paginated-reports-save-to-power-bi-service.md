@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/03/2019
-ms.openlocfilehash: a7f0e6f08f25d47cd50789a3c8f296ae20c4cab0
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.date: 01/03/2020
+ms.openlocfilehash: 5f77e17eccf4c99e7a391ea310a34848c604e01d
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831210"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732074"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicar um relatório paginado no serviço do Power BI
 
 Neste artigo, você aprende a publicar um relatório paginado no serviço do Power BI fazendo o upload do computador local. Você pode carregar relatórios paginados para o Meu Workspace ou qualquer outro workspace, desde que o workspace esteja em uma capacidade Premium. Localize o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do nome do workspace. 
 
-Se sua fonte de dados de relatório está no local, você precisará [criar um gateway](#create-a-gateway) depois de fazer upload do relatório.
+Se a fonte de dados do relatório estiver no local, você precisará criar um gateway depois de carregar o relatório. Confira a seção [Criar um gateway](#create-a-gateway) mais adiante neste artigo.
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Adicionar um workspace a uma capacidade Premium
 
@@ -35,8 +35,33 @@ Se o workspace não tem o ícone de losango ![Ícone de losango da capacidade do
 
    Talvez não seja possível alterá-la. Caso contrário, entre em contato com o administrador da capacidade do Power BI Premium para conceder a você direitos de atribuição para adicionar seu workspace a uma capacidade Premium.
 
+## <a name="from-report-builder-publish-a-paginated-report"></a>No Report Builder, publique um relatório paginado
 
-## <a name="upload-a-paginated-report"></a>Fazer upload de um relatório paginado
+1. Crie seu relatório paginado no Construtor de Relatórios e salve-o em seu computador local.
+
+1. No menu **Arquivo** do Report Builder, selecione **Salvar como**.
+
+    ![Menu Arquivo > Salvar > Salvar como](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+
+    Se você ainda não tiver entrado no Power BI, precisará entrar nele ou criar uma conta agora. No canto superior direito do Report Builder, selecione **Entrar** e conclua as etapas.
+
+2. Na lista de workspaces à esquerda, selecione um workspace com o ícone de losango ![ícone de losango de capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ao lado do respectivo nome. Digite um **Nome de arquivo** na caixa > **Salvar**. 
+
+    ![Selecionar um workspace Premium](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
+
+4. Abra o serviço do Power BI em um navegador e procure o workspace Premium em que o relatório paginado foi publicado. Na guia **Relatórios**, você verá o relatório.
+
+    ![Relatório paginado na lista Relatórios](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
+
+5. Selecione o relatório paginado para abri-lo no serviço do Power BI. Se tiver parâmetros, você precisará selecioná-los antes de poder exibir o relatório.
+
+    ![Selecionar parâmetros](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. Se a fonte de dados do relatório estiver no local, leia mais sobre como [criar um gateway](#create-a-gateway) neste artigo para acessar a fonte de dados.
+
+## <a name="from-the-power-bi-service-upload-a-paginated-report"></a>No serviço do Power BI, carregue um relatório paginado
+
+Inicie também no serviço do Power BI e carregue um relatório paginado.
 
 1. Crie seu relatório paginado no Construtor de Relatórios e salve-o em seu computador local.
 
@@ -62,13 +87,15 @@ Se o workspace não tem o ícone de losango ![Ícone de losango da capacidade do
 
     ![Editar credenciais](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   Você vê seu relatório na lista de relatórios.
+   Na guia **Relatórios**, você verá o relatório.
 
     ![Relatório paginado na lista Relatórios](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
 1. Selecione-o para abri-lo no serviço do Power BI. Se tiver parâmetros, você precisará selecioná-los antes de poder exibir o relatório.
  
     ![Selecionar parâmetros](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. Se a fonte de dados do relatório estiver no local, leia mais sobre como [criar um gateway](#create-a-gateway) neste artigo para acessar a fonte de dados.
 
 ## <a name="create-a-gateway"></a>Criar um gateway
 
@@ -89,4 +116,5 @@ Atualmente, os gateways não dão suporte a parâmetros de vários valores.
 
 - [Exibir um relatório paginado no serviço do Power BI](consumer/paginated-reports-view-power-bi-service.md)
 - [O que são os relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
+- [Tutorial: Inserir relatórios paginados do Power BI em um aplicativo para seus clientes](developer/embed-paginated-reports-customers.md)
 

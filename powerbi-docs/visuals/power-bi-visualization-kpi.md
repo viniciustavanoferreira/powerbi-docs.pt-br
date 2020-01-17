@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f477c21a337838fb275087f744eef02eb7fd57ce
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870857"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762360"
 ---
-# <a name="key-performance-indicator-kpi-visuals"></a>Visuais de KPI (Indicador Chave de Desempenho)
+# <a name="create-key-performance-indicator-kpi-visualizations"></a>Criar visualizações de KPI (indicador chave de desempenho)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -97,7 +97,7 @@ Os KPIs também estão disponíveis no serviço do Power BI e nos dispositivos m
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 
-Se seu KPI não se parecer com o mostrado acima, talvez seja porque você não classificou por **FiscalMonth**. Os KPIs não têm uma opção de classificação. Você precisará iniciar novamente e classificar por **FiscalMonth** *antes* de converter sua visualização em um KPI.
+Se seu KPI não se parecer com o mostrado acima, talvez seja porque você não classificou por **FiscalMonth**. Os KPIs não têm uma opção de classificação. Você precisará começar novamente e fazer a classificação por **FiscalMonth** *antes* de converter a visualização em um KPI.
 
 ## <a name="next-steps"></a>Próximas etapas
 

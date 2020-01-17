@@ -2,21 +2,21 @@
 title: Grandes conjuntos de dados, limites de pontos de dados e estratégias de dados
 description: Limites de dados para visuais e estratégias de redução de dados
 author: mihart
-ms.reviewer: amac
+ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011293"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885250"
 ---
-# <a name="data-point-limits-and-strategies-by-visual-type"></a>Limites de ponto de dados e estratégias por tipo de visual
+# <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicar limites de ponto de dados e estratégias por tipo de visual
 
 Ao renderizar um visual no Power BI, a visualização deve ser rápida e precisa. Isso requer algoritmos subjacentes configurados para cada tipo de visual. Os visuais do Power BI devem ser flexíveis o suficiente para lidar com tamanhos diferentes de conjuntos de dados. Alguns conjuntos de dados têm apenas um alguns pontos de dados, enquanto outros conjuntos de dados têm petabytes de pontos de dados. Este artigo explica as estratégias usadas pelo Power BI para renderizar as visualizações.
 
@@ -75,7 +75,7 @@ Confira [Como funciona a amostragem de linhas](../desktop-high-density-sampling.
  Usa as mesmas estratégias do gráfico de colunas. Observe que a linha no **gráfico de combinação** não usa o algoritmo de alta densidade usado pelo **gráfico de linhas**.
 
 ### <a name="custom-visuals"></a>Visuais personalizados
-Pode chegar a 30.000, mas cabe aos autores dos visuais indicar quais estratégias usar
+Pode chegar a 30.000, mas cabe aos autores dos visuais indicar quais estratégias usar. O limite padrão é 1.000, mas o criador do visual pode alterá-lo até um máximo de 30.000.
 
 ### <a name="doughnut"></a>Rosca
 - Máximo de pontos: 3,500
@@ -119,6 +119,9 @@ Dependendo da configuração, um mapa pode ter:
 - Linhas: Virtualização usando a janela de 500 linhas de cada vez
 - Colunas: Colunas de agrupamento dos 100 superiores 
 - Valores: vários valores não contam em relação à redução de dados
+
+### <a name="powerapps-visual"></a>Visual do PowerApps
+Pode chegar a 30.000, mas cabe aos autores dos visuais indicar quais estratégias usar. O limite padrão é 1.000, mas o criador do visual pode alterá-lo até um máximo de 30.000.
 
 ### <a name="radial-gauge"></a>Medidor radial
 Nenhuma estratégia de redução

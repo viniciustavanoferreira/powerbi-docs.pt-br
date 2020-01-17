@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: ba9c11004099b1e11d935cd0b178463e542bea9a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907927"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761785"
 ---
-# <a name="aggregations-in-power-bi-desktop"></a>Agregações no Power BI Desktop
+# <a name="manage-aggregations-in-power-bi-desktop"></a>Gerenciar agregações no Power BI Desktop
 
 O uso de **agregações** no Power BI permite a análise interativa em Big Data de maneiras que anteriormente não eram possíveis. As **agregações** podem reduzir drasticamente o custo de usar grandes conjuntos de dados para a tomada de decisão.
 
@@ -115,7 +115,7 @@ A tabela a seguir mostra as agregações para a tabela **Agregação de vendas**
 O menu suspenso Resumo oferece os seguintes valores para seleção.
 * Contagem
 * GroupBy
-* Máx
+* Max
 * Mín
 * Soma
 * Contar linhas da tabela

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef19c638f9c456364757576e21c303103a7f4e39
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878911"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761854"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Visão geral da acessibilidade no Power BI
 Ao trabalhar com o Power BI, é importante considerar os diferentes tipos de usuários que podem interagir com seus relatórios. Criar e apresentar relatórios que são facilmente percorridos e compreendidos por usuários de teclado ou do leitor de tela permite que os usuários com deficiências visuais ou físicas recebam as mesmas informações.
@@ -27,9 +27,10 @@ Este artigo fornece uma visão geral do Power BI e sobre acessibilidade. Artigos
 
 O design universal é o design de produtos que podem ser usados pelo máximo número de pessoas possível, sem a necessidade de adaptações especiais ou designs especializados. Ao criar relatórios ou experiências no Power BI, é importante levar em conta as necessidades de seus usuários. Criar uma experiência acessível não beneficiará apenas os usuários finais com deficiências auditiva, motora, cognitiva ou visual. Isso poderá ajudar a todos os usuários finais da sua organização. O Power BI fornece as ferramentas necessárias para criar e consumir relatórios acessíveis. Cabe a você, como um criador de relatórios, usar essas ferramentas para melhorar a experiência de todos.
 
+
 ## <a name="accessibility-standards"></a>Padrões de acessibilidade
 
-O Power BI está comprometido com os padrões de acessibilidade a seguir.  Isso ajuda a garantir que suas experiências do Power BI sejam acessíveis para o máximo de pessoas possível.
+O Power BI está comprometido com os padrões de acessibilidade a seguir. Isso ajuda a garantir que suas experiências do Power BI sejam acessíveis para o máximo de pessoas possível. Os aplicativos do Power BI Mobile são certificados para o nível de acessibilidade C, o que significa que, quando você criar relatórios ou dashboards acessíveis, eles também estarão acessíveis para qualquer pessoa que vê esses relatórios ou dashboards usando o Power BI Mobile. 
 
 ### <a name="wcag-21"></a>WCAG 2.1
 A WCAG (Web Content Accessibility) ajuda a tornar o conteúdo da Web acessível a pessoas com deficiências. Há três princípios principais da WCAG:

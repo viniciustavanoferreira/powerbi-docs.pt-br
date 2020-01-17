@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: 44e56613a69069351f21aa7d515fc2bb296e6728
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74128262"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762130"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Passar um parâmetro de relatório em uma URL para um relatório paginado no Power BI 
 
@@ -64,6 +64,8 @@ Para passar um valor Booliano, use 0 para false e 1 para true. Para passar um va
 
 > [!NOTE]
 > Se o relatório contiver um parâmetro de relatório com um valor padrão e o valor da propriedade **Prompt** for **false** (ou seja, se a propriedade **Usuário do Prompt** não estiver selecionada no Report Manager), então você não poderá passar um valor para esse parâmetro de relatório dentro de uma URL. Isso fornece aos administradores a opção de impedir que os usuários finais adicionem ou modifiquem os valores de determinados parâmetros de relatório.
+
+> O Power BI não dá suporte a uma cadeia de consulta com mais de 900 caracteres.  Esse valor pode ser excedido se você estiver usando parâmetros de URL para exibir o relatório paginado.  Isso será especialmente verdadeiro se você estiver usando parâmetros de vários valores.
 
 ## <a name="additional-examples"></a>Exemplos adicionais 
 

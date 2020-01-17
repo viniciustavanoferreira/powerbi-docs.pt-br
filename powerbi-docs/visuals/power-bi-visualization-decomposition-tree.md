@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060663"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885284"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>Usar o visual da árvore de decomposição no Power BI (versão prévia)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Criar e exibir visuais de árvore de decomposição no Power BI (versão prévia)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 O visual da árvore de decomposição no Power BI permite que você visualize os dados em várias dimensões. Ele agrega dados automaticamente e permite fazer busca detalhada em suas dimensões em qualquer ordem. Também é uma visualização de IA (inteligência artificial), para que você possa encontrar a próxima dimensão para fazer busca detalhada com base em determinados critérios. Isso o torna uma ferramenta valiosa para exploração ad hoc e condução de análises de causas raiz.
@@ -131,6 +131,8 @@ No exemplo a seguir, os dois primeiros níveis estão bloqueados. Isso significa
 ![Bloqueio de árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>Limitações conhecidas
+
+O número máximo de níveis para a árvore é 50. O número máximo de pontos de dados que podem ser visualizados ao mesmo tempo na árvore é 5.000. Truncamos os níveis para mostrar os n superiores. Atualmente, o valor dos n superiores por nível está definido como 10. 
 
 Não há suporte para a árvore de decomposição nos seguintes cenários:  
 -   Analysis Services local

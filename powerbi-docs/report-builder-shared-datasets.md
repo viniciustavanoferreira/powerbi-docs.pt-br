@@ -1,20 +1,20 @@
 ---
-title: Usar conjuntos de dados compartilhados no Construtor de Relatórios Paginados do Power BI
-description: Conecte-se a conjuntos de dados compartilhados no Construtor de Relatórios Paginados do Power BI.
-ms.date: 07/23/2019
+title: Criar um relatório paginado com um conjunto de dados compartilhado do Power BI – Power BI Report Builder
+description: Crie um relatório paginado no Power BI Report Builder baseado em um conjunto de dados compartilhado do Power BI.
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791275"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691479"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>Usar conjuntos de dados compartilhados no Construtor de Relatórios do Power BI
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Criar um relatório paginado baseado em um conjunto de dados compartilhado do Power BI
 
 Você pode usar um conjunto de dados que você cria no Power BI Desktop como uma fonte de dados para relatórios paginados do Construtor de Relatórios do Power BI. Imagine este cenário: Você criou um relatório do Power BI no Power BI Desktop. Você passou muito tempo projetando o modelo de dados e criou um relatório excelente do Power BI, com visuais variados e maravilhosos. O relatório tem uma matriz com muitas linhas, portanto, você precisa rolar para ver todas elas. Seus leitores de relatório desejam um relatório que possa ser impresso, isso mostrará todas as linhas nessa matriz. Um relatório paginado do Power BI pode fazer isso: imprimir uma tabela ou matriz que se estende por várias páginas, com cabeçalhos e rodapés de página e um layout da página perfeito que você cria. Ele complementará o relatório de Power BI Desktop. É interessante para você que eles se baseiem exatamente nos mesmos dados, sem discrepâncias, então você usa o mesmo conjunto de dados.
 

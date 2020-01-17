@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199444"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762314"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas no Power BI Desktop (Preview)
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Criar visualizações de mapa de formas no Power BI Desktop (versão prévia)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -118,7 +118,7 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | ID | Abr. | ISO | Nome | CEP |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Austrália Ocidental |WA |
-| au-vic |Vic |AU-VIC |Vitória |VIC |
+| au-vic |Vic |AU-VIC |Victoria |VIC |
 | au-tas |Tas |AU-TAS |Tasmânia |TAS |
 | au-sa |SA |AU-SA |Sul da Austrália |SA |
 | au-qld |Qld |AU-QLD |Queensland |QLD |
@@ -196,7 +196,7 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 
 ### <a name="france-regions"></a>França: regiões
 
-| ID | nome | Nome (pt) |
+| ID | Nome | Nome (pt) |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -322,7 +322,7 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | mx-dur |Dgo. |MX-DUR |Durango |Durango |DU |
 | mx-dif |CDMX. |MX-DIF |Ciudad de México |México |DF |
 | mx-col |Col. |MX-COL |Colima |Colima |CL |
-| mx-coa |Coah. |MX-COA |Coahuila |Coahuila |CA |
+| mx-coa |Coah. |MX-COA |Coahuila |Coahuila |AC |
 | mx-chh |Chih. |MX-CHH |Chihuahua |Chihuahua |CH |
 | mx-chp |Chis. |MX-CHP |Chiapas |Chiapas |CP |
 | mx-cam |Camp. |MX-CAM |Campeche |Campeche |CM |
@@ -358,7 +358,7 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 
 ### <a name="usa-states"></a>EUA: estados
 
-| ID | nome | CEP |
+| ID | Nome | CEP |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alasca |AK |
@@ -400,7 +400,7 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Oregon |OU |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

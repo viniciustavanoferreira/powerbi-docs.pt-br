@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: efbae4250b7b3cab18892cf519bfac5da3a88e1b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 08eda4e93a3e02e357c8153c656ec16811893ea9
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868665"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761423"
 ---
-# <a name="customizing-tooltips-in-power-bi-desktop"></a>Personalizando Dicas de Ferramenta no Power BI Desktop
+# <a name="customize-tooltips-in-power-bi-desktop"></a>Personalizar as dicas de ferramentas no Power BI Desktop
 Dicas de ferramenta são uma maneira elegante de fornecer mais informações contextuais e detalhes sobre pontos de dados em um visual. A imagem a seguir mostra uma dica de ferramenta aplicada a um gráfico no Power BI Desktop.
 
 ![Dica de ferramenta padrão](media/desktop-custom-tooltips/custom-tooltips-1.png)

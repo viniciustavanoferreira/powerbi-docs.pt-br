@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871010"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885321"
 ---
-# <a name="key-influencers-visualization"></a>Visualização de influenciadores principais
+# <a name="create-key-influencers-visualizations"></a>Criar visualização de influenciadores chave
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ Assista a este vídeo para aprender a criar um visual de influenciadores princip
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Seu Gerente de Produto quer que você descubra quais fatores levam os clientes a deixar revisões negativas sobre nosso serviço de nuvem. Para acompanhar, abra o [arquivo PBIX de Comentários do Cliente](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) no Power BI Desktop. Baixe também o [arquivo do Excel de Comentários do Cliente para o serviço do Power BI ou o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). Selecione um link e, em seguida, selecione **Baixar** na página do GitHub que é aberta.
+Seu Gerente de Produto quer que você descubra quais fatores levam os clientes a deixar revisões negativas sobre nosso serviço de nuvem. Para acompanhar, abra o [arquivo PBIX de Comentários do Cliente](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) no Power BI Desktop. Baixe também o [arquivo do Excel de Comentários do Cliente para o serviço do Power BI ou o Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx). Selecione um link e, em seguida, selecione **Baixar** na página do GitHub que é aberta.
 
 > [!NOTE]
 > O conjunto de dados de Comentários do Cliente baseia-se em [Moro e colaboradores, 2014] S. Moro, P. Cortez e P. Rita. “A Data-Driven Approach to Predict the Success of Bank Telemarketing.”(Uma abordagem controlada por dados para prever o sucesso de telemarketing bancário). *Decision Support Systems*, Elsevier, 62:22-31, junho de 2014. 
@@ -267,6 +267,8 @@ Se você quiser saber mais sobre como é possível analisar medidas com a visual
  
 O visual de principais influenciadores tem algumas limitações:
 
+
+
 - Não é compatível com o Direct Query
 - Não há suporte para a Conexão Dinâmica com o Azure Analysis Services e o SQL Server Analysis Services
 - Não é compatível com publicação na Web
@@ -357,6 +359,9 @@ No exemplo a seguir, os clientes que são consumidores influenciam classificaç�
 O motivo para essa determinação é que a visualização também considera o número de pontos de dados quando encontra os influenciadores. O exemplo a seguir tem mais de 29.000 consumidores e 10 vezes menos administradores, aproximadamente 2.900. Somente 390 deles deram uma classificação baixa. O visual não tem dados suficientes para determinar se encontrou um padrão com as classificações do administrador ou se é apenas um resultado casual. 
 
 ![Como os influenciadores são determinados](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**Quais são os limites de ponto de dados para influenciadores chave?**
+Executamos a análise em uma amostra de 10.000 pontos de dados. As bolhas de um lado mostram todos os influenciadores que foram encontrados. Os gráficos de colunas e dispersões do outro lado obedecem às estratégias de amostragem para esses visuais principais.
 
 **Como calcular os influenciadores principais para análise categórica?**
 

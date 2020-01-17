@@ -6,18 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/22/2019
+ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958484"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762544"
 ---
 # <a name="power-bi-data-sources"></a>Fontes de dados do Power BI
 
 A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte relacionado a conjuntos de dados, incluindo informações sobre o DirectQuery e o gateway de dados local. Confira informações sobre fluxos de dados em [Conectar-se a fontes de dados para fluxos de dados do Power BI](service-dataflows-data-sources.md).
+
+> [!NOTE]
+> Há muitos conectores de dados para o Power BI Desktop que exigem o Internet Explorer 10 (ou mais recente) para autenticação. 
+
 
 | Fonte de dados | Conectar da Área de Trabalho | Conectar e atualizar do serviço | DirectQuery/conexão dinâmica | Gateway (com suporte) | Gateway (necessário) |
 |---|---|---|---|---|---|---|---|
@@ -33,7 +37,7 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Gerenciamento de Custos do Azure | Sim | Sim | Não | Não | Não |
 | Azure Data Explorer (kusto) | Sim | Sim | Sim | Não | Não |
 | Azure Data Lake Storage Gen1 | Sim | Sim | Não | Não | Não |
-| Azure Data Lake Storage Gen2 | Sim | Sim | Não | Não | Não |
+| Azure Data Lake Storage Gen2 | Sim | Sim | Não | Sim | Não |
 | Azure DevOps | Sim | Sim | Não | Não | Não |
 | Azure DevOps Server | Sim | Sim | Não | Sim | Sim |
 | Azure HDInsight (HDFS) | Sim | Sim | Não | Não | Não |
@@ -65,8 +69,8 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Google BigQuery | Sim | Sim | Não | Não | Não |
 | HDFS (Arquivo do Hadoop) | Sim | Não | Não | Não | Não |
 | Consulta Interativa do HDInsight | Sim | Sim | Sim | Não | Não |
-| IBM DB2 | Sim | Sim | Sim | Sim | Sim |
-| Banco de Dados do IBM Informix | Sim | Sim | Não | Sim | Sim |
+| IBM DB2 | Sim | Sim | Sim | Sim | Não |
+| Banco de Dados do IBM Informix | Sim | Sim | Não | Sim | Não |
 | IBM Netezza | Sim | Sim | Sim | Sim | Sim |
 | Impala | Sim | Sim | Sim | Sim | Sim |
 | Indexima | Sim | Sim | Sim | Sim | Sim |
@@ -95,7 +99,7 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Planview Enterprise One – CTM | Sim | Sim | Não | Não | Não |
 | Planview Enterprise One – PRM | Sim | Sim | Não | Não | Não |
 | Planview Projectplace | Sim | Sim | Não | Não | Não |
-| PostgreSQL | Sim | Sim | Sim | Sim | Sim |
+| PostgreSQL | Sim | Sim | Sim | Sim | Não |
 | Fluxos de dados do Power BI | Sim | Sim | Não | Não | Não |
 | Conjuntos de dados do Power BI | Sim | Sim | Sim | Não | Não |
 | Fluxos de dados do Power Platform | Sim | Sim | Não | Não | Não |
@@ -114,7 +118,7 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Lista do SharePoint | Sim | Sim | Não | Sim | Não <sup>4</sup> |
 | Lista do SharePoint Online | Sim | Sim | Não | Sim <sup>2</sup> | Não |
 | Smartsheet | Sim | Sim | Não | Não | Não |
-| Snowflake | Sim | Sim | Sim | Sim | Sim |
+| Snowflake | Sim | Sim | Sim | Sim | Não |
 | Spark | Sim | Sim | Sim | Sim | Não |
 | SparkPost | Sim | Sim | Não | Não | Não |
 | SQL Server | Sim | Sim | Sim | Sim | Sim |

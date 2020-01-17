@@ -4,7 +4,7 @@
       items:
         - name: O que é o Power BI Desktop?
           href: desktop-what-is-desktop.md
-    - name: Início rápido
+    - name: Inícios rápidos
       expanded: true
       items:
         - name: Conectar-se a dados no Power BI Desktop
@@ -101,7 +101,7 @@
           href: desktop-relationship-view.md
         - name: Trabalhar com a Exibição de relatório
           href: desktop-report-view.md
-        - name: Conectar-se a fontes de dados
+        - name: Conectar-se às fontes de dados
           href: desktop-connect-to-data.md
         - name: Publicar conjuntos de dados e relatórios
           href: desktop-upload-desktop-files.md
@@ -117,7 +117,7 @@
           href: desktop-auto-date-time.md
         - name: Conectar aos dados
           items:
-            - name: Conectar-se a fontes de dados
+            - name: Conectar-se às fontes de dados
               href: desktop-data-sources.md
             - name: Criar um relatório em uma Lista do SharePoint
               href: desktop-sharepoint-online-list.md
@@ -145,7 +145,7 @@
               href: desktop-python-ide.md
             - name: Criar visuais com o Python
               href: desktop-python-visuals.md
-            - name: Executar scripts do R
+            - name: Executar scripts de R
               href: desktop-r-scripts.md
             - name: Uso do R no Editor de Consultas
               href: desktop-r-in-query-editor.md
@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Criar e usar visuais de matriz
               href: visuals/desktop-matrix-visual.md
+            - name: Criar e usar visuais do Power Apps
+              href: visuals/power-bi-visualization-powerapp.md
             - name: Sobre os visuais de P e R do Power BI
               href: visuals/power-bi-visualization-q-and-a.md
             - name: Criar e usar visuais de R
@@ -479,7 +481,7 @@
               href: service-datasets-understand.md
             - name: Entender os modos de conjuntos de dados do Power BI
               href: service-dataset-modes-understand.md
-            - name: Atualizar dados no Power BI
+            - name: Atualização de dados no Power BI
               href: refresh-data.md
         - name: Colaborar no Power BI
           items:
@@ -489,7 +491,7 @@
               href: service-how-to-collaborate-distribute-dashboards-reports.md
             - name: Monitorar o uso do Power BI
               href: service-usage-metrics.md
-        - name: Licenças
+        - name: Licenciamento
           items:
             - name: Inscrever-se no Power BI
               href: service-self-service-signup-for-power-bi.md
@@ -583,7 +585,7 @@
               href: refresh-csv-file-onedrive.md
             - name: Cache de consulta no Power BI Premium
               href: power-bi-query-caching.md
-        - name: Dashboards
+        - name: Painéis
           items:
             - name: Introdução aos painéis
               href: service-dashboards.md
@@ -603,7 +605,7 @@
               href: service-dashboard-pin-tile-from-q-and-a.md
             - name: Fixar uma página inteira do relatório em um dashboard
               href: service-dashboard-pin-live-tile-from-report.md
-            - name: Alertas de dados no serviço do Power BI
+            - name: Alertas de dados no Serviço do Power BI
               href: service-set-data-alerts.md
             - name: 'Adicionar uma imagem, uma caixa de texto, um vídeo ou um código a um dashboard'
               href: service-dashboard-add-widget.md
@@ -729,7 +731,7 @@
               href: service-dataflows-azure-data-lake-integration.md
             - name: Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados
               href: service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: Definir configurações de fluxo de dados de workspace (versão prévia)
+            - name: Definir configurações de fluxo de dados de workspace (visualização)
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (versão prévia)
               href: service-dataflows-add-cdm-folder.md
@@ -799,7 +801,7 @@
               href: service-govus-signup.md
             - name: Excluir quase tudo no Power BI
               href: service-delete.md
-            - name: Conectar aos serviços
+            - name: Conectar-se a serviços
               items:
                 - name: Conectar-se a serviços com aplicativos
                   href: service-connect-to-services.md
@@ -809,7 +811,7 @@
                   href: service-connect-to-microsoft-sustainability-calculator.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Projeto Online
+                - name: Project Online
                   href: service-connect-to-project-online.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
@@ -837,11 +839,11 @@
       items:
         - name: Idiomas e países/regiões compatíveis
           href: supported-languages-countries-regions.md
-        - name: Navegadores incompatíveis
+        - name: Navegadores com suporte
           href: power-bi-browsers.md
     - name: Recursos
       items:
-        - name: Vídeos
+        - name: vídeos
           href: videos.md
         - name: Webinars
           href: webinars.md
@@ -915,7 +917,7 @@
           href: report-builder-design-tips.md
         - name: 'Tabelas, matrizes, listas'
           href: report-builder-tables-matrices-lists.md
-        - name: Parâmetros
+        - name: parâmetros
           href: report-builder-parameters.md
         - name: URL parameters in paginated reports (Parâmetros de URL em relatórios paginados)
           href: report-builder-url-parameters.md
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Configurar remotamente o acesso ao aplicativo móvel
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Configurar WAP e AD FS
+              href: report-server/connect-adfs-wap-report-server.md
             - name: Acesso móvel remoto com o Azure AD
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Hospedar pastas de trabalho do Excel
@@ -1067,7 +1071,7 @@
       items:
         - name: Diretrizes para implantar um gateway de dados
           href: service-gateway-deployment-guidance.md
-        - name: Perguntas frequentes sobre o gateway de dados local
+        - name: Perguntas frequentes de gateway de dados no local
           href: service-gateway-power-bi-faq.md
     - name: Como
       items:
@@ -1075,9 +1079,9 @@
           href: service-gateway-onprem-indepth.md
         - name: Gateway de dados local (modo pessoal)
           href: service-gateway-personal-mode.md
-        - name: Gerenciar fontes de dados
+        - name: Gerenciar as fontes de dados
           items:
-            - name: Gerenciar fontes de dados
+            - name: Gerenciar as fontes de dados
               href: service-gateway-data-sources.md
             - name: Gerenciar sua fonte de dados corporativa - Analysis Services
               href: service-gateway-enterprise-manage-ssas.md

@@ -1,5 +1,5 @@
 ---
-title: Detalhamento de página de relatório
+title: Usar o detalhamento de página de relatório
 description: Orientações para trabalhar com o detalhamento da página de relatório.
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223618"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040369"
 ---
-# <a name="report-page-drillthrough"></a>Detalhamento de página de relatório
+# <a name="use-report-page-drillthrough"></a>Usar o detalhamento de página de relatório
 
 Este artigo é voltado a você como um autor de relatórios que elabora relatórios do Power BI. Ele fornece sugestões e recomendações para criar [detalhamentos da página de relatório](../desktop-drillthrough.md).
 

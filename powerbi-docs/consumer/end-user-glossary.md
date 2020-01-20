@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/07/2019
 ms.author: mihart
-ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75303915"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836658"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário do serviço do Power BI
 O serviço do Power BI pode apresentar terminologia confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar sobre a terminologia, por isso pode ser útil até mesmo salvá-lo como favorito. Outro excelente recurso para aprender sobre os blocos de construção que compõem o serviço do Power BI são os [Conceitos básicos](end-user-basic-concepts.md). O artigo com Conceitos básicos fornece uma visão geral de alto nível das *partes* do Power BI e como elas estão conectadas.
@@ -41,7 +41,9 @@ Este glossário é um esforço conjunto da comunidade.  Não encontrou uma palav
 
 **ArcGIS for Power BI** O ArcGIS é uma plataforma de mapeamento e análise criada pela empresa ESRI. O nome do visual incluído na biblioteca de visuais do Power BI é chamado ArcGIS for Power BI.
 
-**assign (atribuir)** [Power BI Premium] Verbo usado para mover um workspace para uma capacidade dedicada ou para fora dela. Não use promover para mover um workspace para a capacidade dedicada, porque isso traz a conotação de que a capacidade dedicada é superior à compartilhada.  
+**assign (atribuir)** [Power BI Premium] Verbo usado para mover um workspace para uma capacidade dedicada ou para fora dela. Não use promover para mover um workspace para a capacidade dedicada, porque isso traz a conotação de que a capacidade dedicada é superior à compartilhada. 
+
+Agora o **Auto Insights** é chamado de *Insights Rápidos*.
 
 ## <a name="b"></a>B
 
@@ -49,7 +51,7 @@ Este glossário é um esforço conjunto da comunidade.  Não encontrou uma palav
 
 **bookmark (indicador)** Uma exibição dos dados capturados no painel Indicadores de um relatório no Power BI Desktop ou serviço. No Desktop, os indicadores são salvos no arquivo de relatório .pbix para compartilhamento no serviço do Power BI
   
-**breadcrumbs (trilhas)** A navegação na parte superior esquerda para navegar rapidamente entre workspaces.
+**trilhas** A navegação na parte superior esquerda para navegar rapidamente entre relatórios e painéis.
 
 ## <a name="c"></a>C
 
@@ -71,7 +73,7 @@ Este glossário é um esforço conjunto da comunidade.  Não encontrou uma palav
 
 **content list (lista de conteúdo)** O índice de conteúdo de um aplicativo.
 
-**content pack (pacote de conteúdo)** uma coleção de painéis, relatórios e conjuntos de dados pré-empacotados. Agora **aplicativos**, saiba [mais sobre a nova experiência de workspace](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
+**content pack (pacote de conteúdo)** uma coleção de painéis, relatórios e conjuntos de dados pré-empacotados. Eles serão substituídos por **aplicativos**. Saiba [mais sobre a nova experiência de workspace](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **content view (exibição de conteúdo)**
 
@@ -89,26 +91,29 @@ Este glossário é um esforço conjunto da comunidade.  Não encontrou uma palav
 
 **data connector (conector de dados)** Consulte conectores
 
-**data model, Excel Data Model (modelo de dados, Modelo de Dados do Excel)**
+**modelo de dados, modelo de dados do Excel** No conteúdo do Power BI, um modelo de dados refere-se a um mapa de estruturas de dados em um formato de tabela. O modelo de dados mostra as relações que estão sendo usadas para criar bancos de dados. Administradores, desenvolvedores e designers de relatórios criam e trabalham com modelos de dados para criar conteúdo para o Power BI.
 
+**fluxos de dados** Os fluxos de dados são usados para ingerir, transformar, integrar e enriquecer Big Data ao definir conexões de fonte de dados, lógica ETL, cronogramas de atualização e muito mais. Anteriormente, era chamado de pool de dados.
 
 **dataset (conjunto de dados)** vs **fonte de dados** Um **conjunto de dados** é uma coleção de dados usados para criar relatórios e visualizações.
 
 **dedicated capacity (capacidade dedicada)** [Power BI Premium] Modelo de dados em execução em hardware dedicado em data centers na nuvem da Microsoft para ajudar a garantir um desempenho consistente em grande escala. As soluções de BI são entregues para toda a organização, independentemente da licença do Power BI.
 
-**Desktop (Área de trabalho)** Primeira instância: Power BI Desktop Menções subsequentes: Área de trabalho
+**Desktop** ou **Power BI Desktop** Ferramenta gratuita do Power BI usada principalmente por administradores, desenvolvedores e designers de relatórios. 
+
 
 
 **diamond (losango)** Power BI Premium. A forma do ícone que representa que um workspace está em um workspace da capacidade Premium.
 
-**drill up, drill down, drillthrough (fazer drill up, fazer drill down, detalhamento)**
+**fazer drill up, fazer drill down, detalhamento** No Power BI, use os termos fazer drill down e fazer drill up para se referir à capacidade de explorar o próximo nível de detalhes em um relatório ou visual. Use o termo detalhamento para se referir à capacidade de selecionar uma parte de um visual e ser direcionado a outra página no relatório, filtrada com os dados relacionados à parte do visual que você selecionou na página original.
+Analisar detalhes normalmente significa mostrar os registros subjacentes.
 
 ## <a name="e"></a>E
 
 **Editing View (Exibição de edição)** O modo em que os *designers* de relatório podem explorar, projetar, criar e compartilhar um relatório.
 
 **ellipsis (reticências)** ...    
-A seleção de reticências exibe opções de menu adicionais.
+A seleção de reticências exibe opções de menu adicionais. Também conhecido como o menu **Mais ações**.
 
 **embed code (código de inserção)** Um padrão comum na internet. No Power BI, o cliente pode gerar um código de inserção e copiá-lo para colocar conteúdo como um relatório visual em um site ou blog.
 
@@ -117,22 +122,20 @@ A seleção de reticências exibe opções de menu adicionais.
 **embedding (inserir)** Na oferta para desenvolvedores do Power BI, o processo de integrar análise em aplicativos usando as APIs REST do Power BI e o SDK do Power BI.
 
 
-**environment (ambiente)** [Power BI Desktop, Power BI Mobile, etc.] Use ambiente do Power BI. Para clientes multilocatários, use esse termo para se referir-se à escolha de qual locatário se conectar.
-Não há problemas em usar o ambiente do Power BI (locatário) na documentação em que ele pode ajudar os analistas de negócios que estão familiarizados com o termo locatário a saberem que se trata da mesma coisa.
+**ambiente** [Power BI Desktop, Power BI Mobile, o serviço do Power BI etc.] Outra maneira de se referir a uma das ferramentas do Power BI. Não há problemas em usar o ambiente do Power BI (locatário) na documentação em que ele pode ajudar os analistas de negócios que estão familiarizados com o termo locatário a saberem que se trata da mesma coisa.
 
 ## <a name="f"></a>F
 
 **favorite, unfavorite (adicionar a Favoritos, remover de Favoritos)** Verbo que significa adicionar à lista de Favoritos para acesso rápido aos dashboards e relatórios visitados com frequência no Power BI. Quando não quiser mais usá-los como favoritos, remova-os dos favoritos.
 
-**filter (filtro)**
+**filtro** versus **realce** Um filtro remove dados que não se aplicam. Um realce deixa os dados que não se aplicam esmaecidos. 
 
-**formatting (formatação)**
 
-**focus mode (modo de foco)** [serviço do Power BI]
+**modo de foco** Use o modo de foco para destacar um visual ou bloco para ver mais detalhes. Você ainda poderá interagir com o visual ou bloco enquanto estiver no modo de foco. 
 
-**Free account (Conta gratuita)** Consulte conta nesta coleção de termos
+**Conta gratuita** Confira *conta*
 
-**full screen, full-screen mode (tela inteira, modo de tela inteira)** [serviço do Power BI]
+**tela inteira, modo de tela inteira** Use o modo de tela inteira para exibir conteúdo do Power BI sem a distração de menus e painéis de navegação. Isso, às vezes, é chamado de Modo de TV. 
 
 ## <a name="g"></a>G
 
@@ -145,7 +148,7 @@ Não há problemas em usar o ambiente do Power BI (locatário) na documentação
 
 ## <a name="i"></a>I
 
-**insights** A análise de dados automática realizada pela execução dos nossos algoritmos de aprendizado de máquina de insights.
+**insights** Confira **Insights Rápidos**.
 
 
 ## <a name="j"></a>J
@@ -170,17 +173,15 @@ Primeira instância: menções subsequentes ou espaços estreitos do painel de n
 
 **modeling (modelagem)** [Power BI Desktop] Deixar os dados que você conectou prontos para uso no Power BI. Isso inclui criar relações entre tabelas em várias fontes de dados, criar medidas e atribuir métricas.
 
-**My workspace (Meu workspace)** O workspace para cada cliente do Power BI criar conteúdo. Se quiserem empacotar tudo o que for criado aqui em um aplicativo e tiverem permissões de *designer*, poderão carregá-lo para o workspace apropriado ou criar um workspace para esse fim.
+**Meu workspace** O workspace para cada cliente do Power BI usar a fim de criar conteúdo. Se quiserem empacotar tudo o que for criado aqui em um aplicativo e tiverem permissões de *designer*, poderão carregá-lo para o workspace apropriado ou criar um workspace para esse fim.
 
 ## <a name="n"></a>N
 
 **native (nativo)** Incluído no produto. Por exemplo, o Power BI vem com um conjunto de tipos de visualização *nativos*. Contudo, é possível importar outros tipos, como visuais personalizados.
 
-**nav pane** ou **nav pane** (painel de navegação) Os controles na borda esquerda do serviço do Power BI.
+**painel de navegação** ou **painel nav** Os controles na borda esquerda do serviço do Power BI.
 
 Primeira instância: menções subsequentes ou espaços estreitos do painel de navegação: nav pane (painel de navegação)
-
-**nav pane (painel de navegação)** Veja **nav pane (painel de navegação)**
 
 **notification (notificação)** Mensagens enviadas por e para o Centro de Notificações do Power BI.  
 
@@ -191,15 +192,14 @@ Primeira instância: menções subsequentes ou espaços estreitos do painel de n
 
 **OneDrive for Business (OneDrive para Empresas)** versus **OneDrive** O OneDrive é uma conta pessoal e o OneDrive para Empresas destina-se a contas de trabalho.  
 
-**On-premises data gateway (Gateway de dados local)**
-
+**Local** Termo usado para distinguir a computação local (em que os recursos de computação estão localizados nas instalações de um cliente) da computação em nuvem.
 
 
 ## <a name="p"></a>P
 
 **PaaS** PaaS significa plataforma como serviço. Por exemplo, o Power BI Embedded.
 
-**page (página)** Relatórios têm uma ou mais páginas. Cada guia na parte inferior da tela do relatório representa uma página.
+**page (página)** Relatórios têm uma ou mais páginas. Cada guia da tela do relatório representa uma página.
 
 **pbiviz** A extensão de arquivo para um visual personalizado do Power BI.
 
@@ -211,7 +211,7 @@ Primeira instância: menções subsequentes ou espaços estreitos do painel de n
 
 **phone view (exibição no telefone)** A interface do usuário no serviço do Power BI para disposição de um relatório no telefone.
 
-**pin, unpin (fixar, desafixar)** A ação de colocar um visual, geralmente de um relatório, em um dashboard.
+**fixar, desafixar** A ação que um *designer* de relatório faz para colocar um visual, geralmente de um relatório, em um painel.
 
 **Power BI**, **serviço do Power BI**, **Power BI Desktop** e **Power BI Mobile** são algumas das ofertas do Power BI. *Power BI* é o termo geral. Ele geralmente é usado no lugar do nome completo do produto, como *serviço do Power BI* e *Power BI Mobile*, após a primeira menção do nome completo do produto.
 
@@ -227,10 +227,9 @@ Primeira instância: menções subsequentes ou espaços estreitos do painel de n
 
 **Power BI service (Serviço do Power BI)** Um serviço online de SaaS (Software como serviço). Para obter mais informações, consulte [O que é Power BI](../fundamentals/power-bi-overview.md).
 
-**Power BI service connector (Conector de serviço do Power BI)** Este conector permite que os usuários do Power BI Desktop se conectem a conjuntos de dados no serviço do Power BI por meio do Desktop. Eles podem criar um modelo uma vez e reutilizá-lo em vários relatórios e dashboards.
-
 **Premium workspace (Workspace Premium)** Um workspace executado em uma capacidade dedicada, indicado aos clientes por um ícone de losango.  
 
+**publicar** Os *designers* de relatório do serviço do Power BI agrupam o conteúdo de um workspace do Power BI para disponibilizá-lo a outras pessoas como um aplicativo Power BI. Os *designers* de relatório do Power BI Desktop usam o termo publicar para fazer referência ao envio de um relatório do Power BI Desktop no formato .pbix ao serviço do Power BI para que eles possam criar painéis a partir desse relatório e compartilhá-los facilmente com outras pessoas. 
 
 ## <a name="q"></a>Q
 **Q&A (P e R)** A capacidade de digitar perguntas em idioma natural sobre um conjunto de dados e obter respostas na forma de visualizações. Aparece no Serviço do Power BI e no Desktop.
@@ -243,13 +242,10 @@ Primeira instância: menções subsequentes ou espaços estreitos do painel de n
 **query string parameter (parâmetro de cadeia de caracteres de consulta)**  
 Adicione-o a uma URL para filtrar previamente os resultados vistos em um relatório do Power BI. No sentido mais amplo, uma cadeia de caracteres de consulta recupera as informações de um banco de dados.
 
-**Quick Insights (Insights Rápidos)**
-
-
-**quick measures (medidas rápidas)**
+**Insights Rápidos** Insights Rápidos se referem a informações geradas automaticamente que revelam tendências e padrões nos dados.  
 
 ## <a name="r"></a>R
-**R, Microsoft R**
+**R, Microsoft R** R é uma linguagem de programação e um ambiente de software para computação e gráficos estatísticos.
 
 **Reading View (Modo de Exibição de Leitura)** Exibição somente leitura para relatórios (em vez de Modo de Exibição de Edição).
 
@@ -264,19 +260,24 @@ Adicione-o a uma URL para filtrar previamente os resultados vistos em um relató
 **report (relatório)**  
 Uma exibição em várias perspectivas sobre um único conjunto de dados, com visualizações que representam as diferentes descobertas e insights obtidas desse conjunto de dados. Ele pode conter uma única visualização ou várias delas, muitas páginas ou apenas uma.  
 
-**report editor (editor de relatório)**
+**editor de relatório** É no editor de relatório que *designers de relatório* criam novos relatórios e fazem alterações em relatórios existentes. 
 
-**report measures (medidas de relatório)** Também chamado de cálculos personalizados. O Excel os chama de campos calculados. Consulte também *medidas*.   
-**report server (servidor de relatório)** Uma instância de um servidor de relatório.
+**report measures (medidas de relatório)** Também chamado de cálculos personalizados. O Excel os chama de *campos calculados*. Consulte também *medidas*.   
 
 **responsive visuals (visuais dinâmicos)** Visuais que mudam dinamicamente para exibir o máximo de dados e insight, independentemente do tamanho da tela.
 
+**segurança em nível de linha, RLS** Um recurso do Power BI que permite que os administradores de bancos de dados controlem o acesso às linhas em uma tabela de banco de dados com base nas características do usuário que executa uma consulta (por exemplo, associação a um grupo).  
+
+Administradores podem configurar a RLS de modelos de dados importados para o Power BI com o Power BI Desktop.  
+
+
 ## <a name="s"></a>S
 **SaaS**   
+Software como um serviço ou SaaS é uma maneira de fornecer aplicativos pela Internet como um serviço baseado na Web. Também é conhecido como: software baseado na Web, software sob demanda ou software hospedado. 
 
 **screenshot (captura de tela)** Capturas de tela simples de um relatório podem ser enviadas por email usando o recurso de envio de captura de tela.
 
-**service (serviço)** Consulte *serviço do Power BI*
+**serviço** Confira *serviço do Power BI* Um recurso autônomo disponível para clientes por assinatura ou licença. Um serviço é uma oferta de produto entregue exclusivamente por meio da nuvem.  
 
 **Settings (Configurações de)** O local para usuários do Power BI gerenciarem suas próprias configurações gerais, como a maneira de visualizar novos recursos, definir o idioma padrão, encerrar a conta, etc. Além disso, os usuários gerenciam configurações individuais para ativos de conteúdo, alertas e assinaturas. Representado por um ícone de engrenagem.
 
@@ -285,8 +286,7 @@ Em dispositivos móveis, o compartilhamento pode significar a funcionalidade nat
 
 **Shared with me (Compartilhado comigo)** O contêiner no painel de navegação que contém todos os artefatos individuais que foram compartilhados diretamente por outro usuário do Power BI.
 
-**snapshot (instantâneo)**
-
+**instantâneo** No Power BI, um instantâneo é uma imagem estática, em comparação a uma imagem dinâmica, de um bloco, painel ou relatório.
 
 **SSAS (SQL Server Analysis Services)** 
  

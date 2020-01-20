@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75222116"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761354"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 
@@ -30,6 +30,10 @@ Selecionar **Mais...** no menu **Mais Comuns** exibe a janela **Obter Dados**. V
 
 > [!NOTE]
 > A equipe do Power BI está sempre expandindo as fontes de dados disponíveis para o **Power BI Desktop** e o **serviço do Power BI**. Assim, você verá com frequência as versões anteriores das fontes de dados de trabalho em andamento marcadas como *Beta* ou *Visualização*. Toda fonte de dados marcada como *Beta* ou *Visualização* tem suporte e funcionalidade limitados e não deve ser usada em ambientes de produção. Além disso, qualquer fonte de dados marcada como *Beta* ou *Versão prévia* para o **Power BI Desktop** pode não estar disponível para uso no **serviço do Power BI** ou outros serviços da Microsoft até que a fonte de dados esteja em GA (em disponibilidade geral).
+
+> [!NOTE]
+> Há muitos conectores de dados para o Power BI Desktop que exigem o Internet Explorer 10 (ou mais recente) para autenticação. 
+
 
 ## <a name="data-sources"></a>Fontes de dados
 Tipos de dados são organizados nas categorias a seguir:

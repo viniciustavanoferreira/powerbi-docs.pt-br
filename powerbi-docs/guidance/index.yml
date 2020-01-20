@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 2bebde937666503739f6b0afe3ce20a8fe4baa8c
-  ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+  ms.openlocfilehash: 4f9d90caa643771ee300a9e7a62b4eb819becc82
+  ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/16/2020
-  ms.locfileid: "76039895"
+  ms.lasthandoff: 01/17/2020
+  ms.locfileid: "76161445"
 landingContent:
 - title: Diretrizes do Power BI
   linkLists:
@@ -47,8 +47,10 @@ landingContent:
       url: star-schema.md
     - text: Técnicas de redução de dados
       url: import-modeling-data-reduction.md
-    - text: Diretrizes de data/hora automática no Power BI Desktop
+    - text: Diretriz automática de data/hora
       url: auto-date-time.md
+    - text: Diretriz do modelo DirectQuery
+      url: directquery-model-guidance.md
     - text: Diretrizes de relação muitos para muitos
       url: relationships-many-to-many.md
 - title: DAX
@@ -81,7 +83,9 @@ landingContent:
       url: report-drillthrough.md
     - text: Quando usar relatórios paginados no Power BI
       url: report-paginated-or-power-bi.md
+    - text: Usar parâmetros em cascata nos relatórios paginados
+      url: paginated-report-cascading-parameter.md
     - text: Evitar páginas em branco ao imprimir relatórios paginados
       url: report-paginated-blank-page.md
-    - text: Migrar relatórios do SQL Server Reporting Services para o Power BI
+    - text: Migrar relatórios SSRS para o Power BI
       url: migrate-ssrs-reports-to-power-bi.md

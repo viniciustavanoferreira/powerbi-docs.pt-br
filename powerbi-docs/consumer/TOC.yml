@@ -132,7 +132,7 @@
           href: end-user-glossary.md
         - name: Perguntas frequentes
           href: end-user-faq.md
-        - name: Navegadores compatíveis
+        - name: Navegadores incompatíveis
           href: end-user-browsers.md
         - name: Tipos de Quick Insights com suporte do Power BI
           href: end-user-insight-types.md
@@ -176,13 +176,13 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favoritos nos aplicativos móveis
               href: mobile/mobile-apps-favorites.md
-            - name: Configurar a interação de relatório nos aplicativos móveis (apenas para telefone)
-              href: mobile/mobile-app-single-tap.md
+            - name: Definir configurações de interação (somente telefone)
+              href: mobile/mobile-app-interaction-settings.md
             - name: Definir alertas de dados nos aplicativos móveis do Power BI
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Obter notificações nos aplicativos móveis do Power BI
               href: mobile/mobile-apps-notification-center.md
-            - name: Criar um link profundo que vai a determinada localização
+            - name: Criar um link profundo que leva a um local específico
               href: mobile/mobile-apps-deep-link-specific-location.md
             - name: Filtrar um relatório por local nos aplicativos móveis do Power BI
               href: mobile/mobile-apps-geographic-filtering.md

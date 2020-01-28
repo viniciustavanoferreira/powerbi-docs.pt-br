@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872801"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282018"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Fixar um bloco em um dashboard de P e R
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como fixar um bloco de P e R
@@ -53,7 +53,7 @@ Para acompanhar, abra o [painel de exemplo da Análise de Varejo](sample-retail-
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 * Quando você começa a digitar uma pergunta, o P e R imediatamente começa a procurar a melhor resposta de todos os conjuntos de dados associados com o painel atual.  O "dashboard atual" é o dashboard listado no painel de navegação superior. Por exemplo, essa pergunta está sendo feita no dashboard de **exemplo Análise de Varejo**, que faz parte do workspace **mihart**.
 
-  ![trilhas](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
+  ![trilhas](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Como a P e R sabe quais conjuntos de dados deverão ser usados**?  A P e R tem acesso a todos os conjuntos de dados que têm pelo menos uma visualização fixada nesse dashboard.
 
 * **Você não vê a caixa de perguntas**? Verifique com seu administrador do Power BI. O administrador tem a capacidade de desabilitar a P e R.

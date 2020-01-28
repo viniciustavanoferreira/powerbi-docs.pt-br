@@ -1,49 +1,59 @@
 ---
-title: Solucionar Problemas ao iniciar o Power BI Desktop
-description: Solucionar Problemas ao iniciar o Power BI Desktop
+title: Solucionar problemas ao iniciar o Power BI Desktop
+description: Solucionar problemas ao iniciar o Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 90debd0a24485c2d2a0bb82fcb2478089aee7719
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761078"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160893"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Solucionar problemas ao abrir o Power BI Desktop
-No **Power BI Desktop**, os usuários que instalaram e estão executando versões anteriores do **Gateway de dados local do Power BI** podem ser impedidos de iniciar o Power BI Desktop, devido às restrições de políticas administrativas que o gateway local do Power BI estabeleceu nos pipes nomeados no computador local. 
+
+No Power BI Desktop, os usuários que instalaram e estão executando versões anteriores do *gateway de dados local do Power BI* podem ser impedidos de abrir o Power BI Desktop, devido às restrições de políticas administrativas que o gateway local do Power BI estabeleceu nos pipes nomeados no computador local.
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Resolver problemas com o Gateway de dados local e o Power BI Desktop
-Há três opções para resolver o problema associado ao Gateway de dados local e habilitar o Power BI Desktop para inicialização:
+
+Você tem três opções para resolver o problema associado ao Gateway de dados local e permitir a abertura do Power BI Desktop:
 
 ### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>Resolução 1: instalar a versão mais recente do Gateway de dados local do Power BI
-A versão mais recente do Gateway de dados local do Power BI não coloca restrições de pipe nomeado no computador local e permite que o Power BI Desktop seja iniciado corretamente. Se você precisa continuar usando o Gateway de dados local do Power BI, esta é a resolução recomendada. Baixe a versão mais recente do Gateway de dados local do Power BI [neste local](https://go.microsoft.com/fwlink/?LinkId=698863). Observe que o link é um link de download direto para o executável da instalação.
 
-### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>Resolução 2: desinstalar ou interromper o serviço Windows do Gateway de dados local do Power BI
-Se você não precisa mais do Gateway de dados local do Power BI, é possível desinstalá-lo ou interromper o serviço Windows do Gateway de dados local do Power BI, que remove a restrição de política e permite que o Power BI Desktop seja iniciado.
+A versão mais recente do Gateway de dados local do Power BI não coloca restrições de pipe nomeado no computador local e permite que o Power BI Desktop seja aberto corretamente. Se você precisa continuar usando o Gateway de dados local do Power BI, a resolução recomendada será atualizá-lo. Baixe a [versão mais recente do Gateway de dados local do Power BI](https://go.microsoft.com/fwlink/?LinkId=698863). O link é leva você direto ao executável da instalação.
+
+### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-microsoft-service"></a>Resolução 2: desinstalar ou interromper o serviço Microsoft de gateway de dados local do Power BI
+
+Você pode desinstalar o gateway de dados local do Power BI se não precisar mais dele. Ou pode interromper o serviço Microsoft de gateway de dados local do Power BI, que remove a restrição de política e permite a abertura do Power BI Desktop.
 
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Resolução 3: executar o Power BI Desktop com privilégios de administrador
-Como alternativa, você pode iniciar com êxito Power BI Desktop como administrador, que também permite que o Power BI Desktop seja iniciado com êxito. Ainda é recomendável que você instale a versão mais recente do Gateway de dados local do Power BI, conforme descrito anteriormente neste artigo.
 
-É importante observar que o Power BI Desktop foi projetado como uma arquitetura multiprocesso, e vários desses processos se comunicam usando pipes nomeados do Windows. Pode haver outros processos que interferem com esses pipes nomeados. O motivo mais comum para essa interferência é a segurança, incluindo situações nas quais o software antivírus ou firewalls podem estar bloqueando os pipes ou redirecionando o tráfego para uma porta específica. Iniciar o Power BI Desktop com privilégios de administrador pode resolver esse problema. Se não for possível iniciá-lo com privilégios de administrador, entre em contato com o administrador para determinar quais regras de segurança estão sendo aplicadas que impedem a comunicação adequada dos pipes nomeados e inclua o Power BI Desktop e seus respectivos subprocessos na lista de permissões.
+Em vez disso, você pode iniciar com êxito Power BI Desktop como administrador, que também permite que o Power BI Desktop seja aberto. Ainda é recomendável que você instale a versão mais recente do gateway de dados local do Power BI, conforme descrito anteriormente.
+
+O Power BI Desktop foi projetado como uma arquitetura multiprocesso, e vários desses processos se comunicam usando pipes nomeados do Windows. Pode haver outros processos que interferem com esses pipes nomeados. O motivo mais comum para essa interferência é a segurança, incluindo situações nas quais o software antivírus ou firewalls podem bloquear os pipes ou redirecionar o tráfego para uma porta específica. Abrir o Power BI Desktop com privilégios de administrador pode resolver esse problema. Se você não puder abrir com privilégios de administrador, peça ao administrador para determinar quais regras de segurança estão impedindo que os pipes nomeados se comuniquem corretamente. Em seguida, inclua o Power BI Desktop e seus respectivos subprocessos na lista de permissões.
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>Solucionar problemas ao conectar-se ao SQL Server
-Quanto você encontra uma mensagem de erro semelhante à seguinte ao se conectar a um banco de dados do SQL Server, geralmente é possível resolver o problema abrindo o **Power BI Desktop** como um administrador e, em seguida, fazendo a conexão com o SQL Server:
 
-    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+Ao tentar se conectar a um banco de dados do SQL Server, você pode receber uma mensagem de erro semelhante à seguinte:
 
-Depois de iniciar como um administrador e estabelecer a conexão, as DLLs necessárias serão registradas corretamente. Depois disso, não será mais necessário iniciar o Power BI Desktop como um administrador.
+`"An error happened while reading data from the provider:`\
+`'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies.`\
+`Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"`
 
-## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Ajuda com outros problemas ao iniciar o Power BI Desktop
-Nos esforçamos para abordar o máximo possível de problemas que ocorrem com o **Power BI Desktop**. Examinamos regularmente os problemas que podem estar afetando muitos clientes, posteriormente incluindo-os em nossos artigos.
+Geralmente, você pode resolver o problema se abrir o Power BI Desktop como administrador antes de fazer a conexão com o SQL Server.
 
-Se o problema ao iniciar o **Power BI Desktop** não estiver associado ao gateway de dados local ou se as resoluções anteriores não funcionarem, envie um incidente de suporte para o [suporte do Power BI](https://support.powerbi.com), https://support.powerbi.com) para ajudar você a identificar e resolver o problema.
+Depois de abrir o Power BI Desktop como um administrador e estabelecer a conexão, as DLLs necessárias serão registradas corretamente. Depois disso, não será mais necessário abrir o Power BI Desktop como administrador.
 
-Para outros problemas que você pode encontrar no futuro com o **Power BI Desktop** (esperamos que não ocorra nenhum ou que sejam poucos), é útil ativar o rastreamento e coletar arquivos de log, para melhor isolar e identificar o problema. Para ativar o rastreamento, selecione **Arquivo > Opções e configurações > Opções** e, em seguida, selecione **Diagnóstico**, depois, marque **Habilitar o rastreamento** em *Opções de diagnóstico*. Estamos cientes de que o **Power BI Desktop** deve estar em execução para que essa opção seja configurada, o que é mais útil para futuros problemas associados à inicialização do **Power BI Desktop**.
+## <a name="get-help-with-other-launch-issues"></a>Obter ajuda com outros problemas de inicialização
 
+Fazemos o possível para cobrir o máximo de problemas que ocorrem com o Power BI Desktop. Examinamos regularmente os problemas que podem estar afetando muitos clientes, posteriormente incluindo-os em nossos artigos.
+
+Se o problema ao abrir o Power BI Desktop não estiver associado ao gateway de dados local ou se as resoluções anteriores não funcionarem, envie um incidente de suporte para o *suporte do Power BI*, (<https://support.powerbi.com>) para ajudar você a identificar e resolver o problema.
+
+Se posteriormente você se deparar com outros problemas com Power BI Desktop, ative o rastreamento e coleta de arquivos de log. Os arquivos de log podem ajudar a isolar e identificar o problema. Para ativar o rastreamento, escolha **Arquivo** > **Opções e configurações** > **Opções**, selecione **Diagnóstico** e, em seguida, selecione **Habilitar rastreamento**. O Power BI Desktop deve estar em execução para definir essa opção, mas isso será útil em problemas futuros associados à abertura do Power BI Desktop.

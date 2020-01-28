@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761032"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953502"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>O que há de novo no Power BI Desktop?
 
@@ -23,7 +23,7 @@ ms.locfileid: "75761032"
 
 Nossas atualizações de Dezembro são divertidas como um passeio de trenó em uma montanha de neve. 
 
-Obtenha a última versão do Power BI Desktop no [Centro de Download](https://www.microsoft.com/download/details.aspx?id=58494). Se estiver executando o Windows 10, obtenha também o Power BI Desktop na Microsoft Store do Windows 10. Seja qual for o modo de instalação do Power BI Desktop, as versões mensais são as mesmas, embora a numeração de versão possa ser diferente. Para obter mais informações sobre como baixar e instalar o Power BI Desktop, confira [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
+Obtenha a última versão do Power BI Desktop no [Centro de Download](https://www.microsoft.com/download/details.aspx?id=58494). Se estiver executando o Windows 10, poderá obter o Power BI Desktop também na [Microsoft Store](https://aka.ms/pbidesktopstore). Seja qual for o modo de instalação do Power BI Desktop, as versões mensais são as mesmas, embora a numeração de versão possa ser diferente. Para obter mais informações sobre como baixar e instalar o Power BI Desktop, confira [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
 
 > [!IMPORTANT]
 > Na versão de setembro de 2019 em diante, o Power BI Desktop é lançado apenas como um só arquivo .exe, que contém todos os idiomas com suporte. A versão .msi não está sendo mais lançada.
@@ -92,7 +92,7 @@ Confira as [novidades do serviço do Power BI](service-whats-new.md) e as [novid
 ## <a name="power-bi-desktop-monthly-update-video"></a>Vídeo de atualização mensal do Power BI Desktop
 O vídeo a seguir descreve cada uma dessas atualizações. Assista também a esse vídeo na postagem no blog:
 
-> [!VIDEO https://youtu.be/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
 
 
 ## <a name="more-videos"></a>Mais vídeos

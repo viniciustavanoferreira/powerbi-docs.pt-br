@@ -1,68 +1,73 @@
 ---
-title: Executando scripts do R no Power BI Desktop
-description: Executando scripts do R no Power BI Desktop
+title: Executar scripts do R no Power BI Desktop
+description: Executar scripts do R no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6b69f701e0a5b9030a1f4469d6b09b189759debc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 358a61c13418bd29a9e83ed7029e8b90f9a5988e
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876191"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161493"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Executar scripts do R no Power BI Desktop
-É possível executar scripts do R diretamente no **Power BI Desktop** e importar os conjuntos de dados resultantes para um modelo de dados do Power BI Desktop.
+
+É possível executar scripts do R diretamente no Power BI Desktop e importar os conjuntos de dados resultantes em um modelo de dados do Power BI Desktop.
 
 ## <a name="install-r"></a>Instalar o R
-Para executar scripts do R no Power BI Desktop, você precisa instalar o **R** em seu computador local. É possível baixar e instalar o **R** gratuitamente em vários locais, incluindo a [página de download do Revolution Open](https://mran.revolutionanalytics.com/download/) e o [Repositório CRAN](https://cran.r-project.org/bin/windows/base/). A versão atual do script R no Power BI Desktop dá suporte a caracteres Unicode, bem como espaços (caracteres vazios) no caminho de instalação.
+
+Para executar scripts do R no Power BI Desktop, você precisa instalar o R em seu computador local. É possível baixar e instalar o R gratuitamente de vários locais, incluindo o [Microsoft R Application Network](https://mran.revolutionanalytics.com/download/) e o [Repositório CRAN](https://cran.r-project.org/bin/windows/base/). A versão atual dá suporte a caracteres Unicode e espaços (caracteres vazios) no caminho de instalação.
 
 ## <a name="run-r-scripts"></a>Executar scripts do R
-Com apenas algumas etapas no Power BI Desktop, é possível executar scripts do R e criar um modelo de dados, por meio do qual você pode criar relatórios e compartilhá-los no serviço do Power BI. O script R no Power BI Desktop agora dá suporte a formatos de número que contêm decimais (.) e vírgulas (,).
+
+Usando apenas algumas etapas no Power BI Desktop, você pode executar scripts do R e criar um modelo de dados. Com o modelo de dados, você pode criar relatórios e compartilhá-los no serviço do Power BI. O script R no Power BI Desktop agora dá suporte a formatos de número que contêm decimais (.) e vírgulas (,).
 
 ### <a name="prepare-an-r-script"></a>Preparar um script do R
+
 Para executar um script do R no Power BI Desktop, crie o script em seu ambiente de desenvolvimento local do R e certifique-se de que ele é executado com êxito.
 
-Para executar o script no Power BI Desktop, verifique se o script é executado com êxito em um workspace novo e modificado. Isso significa que todos os pacotes e dependências devem ser explicitamente carregados e executados. Você pode usar *source()* para executar scripts dependentes.
+Para executar o script no Power BI Desktop, verifique se o script é executado com êxito em um workspace novo e modificado. Esse pré-requisito significa que todos os pacotes e dependências devem ser explicitamente carregados e executados. Você pode usar `source()` para executar scripts dependentes.
 
-Ao preparar e executar um script R no Power BI Desktop, existem algumas limitações:
+A preparação e execução de um script do R no Power BI Desktop sofre algumas limitações:
 
-* Somente os quadros de dados são importados, portanto, tenha certeza de que os dados que você deseja importar para o Power BI são representados em um quadro de dados
-* Colunas tipadas como Complexas e Vetoriais não são importadas e são substituídas por valores de erro na tabela criada
-* Valores que são N/D são convertidos em valores NULL no Power BI Desktop
-* Qualquer script R que é executado por mais de 30 minutos expira
-* Chamadas interativas no script R, como aguardar a entrada do usuário, interrompem a execução do script
-* Ao definir o diretório de trabalho dentro do script R, é *necessário* definir um caminho completo para o diretório de trabalho, em vez de um caminho relativo
+* Como apenas os quadros de dados são importados, lembre-se de representar os dados que você quer no Power BI em um quadro de dados.
+* Colunas tipadas como Complexas e Vetoriais não são importadas e são substituídas por valores de erro na tabela criada.
+* Valores `N/A` são convertidos em valores `NULL` no Power BI Desktop.
+* Após uma execução de 30 minutos, o script do R expira.
+* Chamadas interativas no script do R, como aguardar a entrada do usuário, interrompem a execução do script.
+* Ao definir o diretório de trabalho dentro do script R, é *necessário* definir um caminho completo para o diretório de trabalho, em vez de um caminho relativo.
 
 ### <a name="run-your-r-script-and-import-data"></a>Executar o script do R e importar dados
-1. No Power BI Desktop, o conector de dados de Script do R é encontrado em **Obter Dados**. Para executar o Script R, selecione **Obter Dados &gt; Mais...** e, em seguida, selecione **Outros &gt; Script R**, como mostrado na imagem a seguir:
-   
-   ![](media/desktop-r-scripts/r-scripts-1.png)
-2. Se o R estiver instalado no computador local, a versão mais recente instalada será selecionada como o mecanismo do R. Basta copiar o script na janela de script e selecionar **OK**.
-   
-   ![](media/desktop-r-scripts/r-scripts-2.png)
-3. Se o R não estiver instalado, não for identificado ou se houver várias instalações no computador local, expanda **Configurações de Instalação do R** para exibir as opções de instalação ou para selecionar em qual instalação você deseja executar o script do R.
-   
-   ![](media/desktop-r-scripts/r-scripts-3.png)
-   
-   Se o R estiver instalado e não for identificado, será possível fornecer explicitamente seu local na caixa de texto fornecida ao expandir **Configurações de Instalação do R**. Na imagem acima, o caminho *C:\Arquivos de Programas\R\R-3.2.0* é explicitamente fornecido na caixa de texto.
-   
-   As configurações de instalação do R estão localizadas centralmente na seção Script R do diálogo Opções. Para especificar as configurações de instalação do R, selecione **Arquivo > Opções e configurações** e, em seguida, **Opções > Script R**. Se houver várias instalações do R disponíveis, será exibido um menu suspenso que permite selecionar qual instalação será usada.
-   
-   ![](media/desktop-r-scripts/r-scripts-4.png)
-4. Selecione **OK** para executar o script do R. Quando o script é executado com êxito, você pode escolher os quadros de dados resultantes para adicionar ao modelo do Power BI.
+
+Agora você pode executar o script do R para importar dados no Power BI Desktop:
+
+1. No Power BI Desktop, selecione **Obter Dados**, escolha **Outros** > **Script do R** e, em seguida, selecione **Conectar**:
+
+    ![Conectar-se ao script R, Outra categoria, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-r-scripts/r-scripts-1.png)
+
+2. Se o R estiver instalado em seu computador local, basta copiar o script na janela de script e selecionar **OK**. A versão mais recente instalada será exibida como seu mecanismo de R.
+
+    ![Caixa de diálogo de script do R, Power BI Desktop](media/desktop-r-scripts/r-scripts-2.png)
+
+3. Selecione **OK** para executar o script do R. Quando o script é executado com êxito, você pode escolher os quadros de dados resultantes para adicionar ao modelo do Power BI.
+
+Você pode controlar qual instalação do R usar para executar o script. Para especificar as configurações da sua instalação do R, escolha **Arquivo** > **Opções e configurações** > **Opções** e, em seguida, selecione **Script R**. Em **Opções de script do R**, a lista suspensa **Diretórios base do R detectados** mostra as opções de instalação atuais do R. Se a instalação do R que você quiser não estiver listada, escolha **Outros** e, em seguida, procure ou informe a pasta de instalação do R preferida em **Definir um diretório base do R**.
+
+![Opções de script R, caixa de diálogo Opções, Power BI Desktop](media/desktop-r-scripts/r-scripts-4.png)
 
 ### <a name="refresh"></a>Atualizar
+
 É possível atualizar um script do R no Power BI Desktop. Quando você atualiza um script do R, o Power BI Desktop o executa novamente no ambiente do Power BI Desktop.
 
 ## <a name="next-steps"></a>Próximas etapas
+
 Analise as informações adicionais a seguir sobre o R no Power BI.
 
-* [Criar visuais R no Power BI Desktop](desktop-r-visuals.md)
+* [Criar elementos visuais do Power BI usando o R](desktop-r-visuals.md)
 * [Usar um IDE R externo com o Power BI](desktop-r-ide.md)
-

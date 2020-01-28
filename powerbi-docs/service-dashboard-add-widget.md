@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853527"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282030"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adicionar imagens, vídeos e outros elementos a seu dashboard
 
@@ -117,8 +117,6 @@ Quando você adiciona um bloco de vídeo do YouTube ou Vimeo a seu painel, o ví
 ## <a name="add-streaming-data"></a>Adicionar dados de streaming
 Você pode usar o PubNub para adicionar dados de streaming, como feeds do Twitter ou dados de sensor, a um bloco em seu dashboard. O Power BI criou uma integração para obter os dados do PubNub. Aqui, Will explicará como ela funciona.
    
-
-Você pode usar o PubNub para adicionar dados de streaming, como feeds do Twitter ou dados de sensor, a um bloco em seu dashboard. O Power BI criou uma integração para obter os dados do PubNub. Aqui, Will explicará como ela funciona. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 

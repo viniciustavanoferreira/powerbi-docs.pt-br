@@ -1,7 +1,7 @@
 ---
 title: Introdução a dashboards para designers do Power BI
 description: Os dashboards são um recurso chave do serviço do Power BI. Eles são uma única página, geralmente chamada de tela, que conta uma história por meio de visualizações.
-author: maggieMSFT
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872733"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160778"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introdução a dashboards para designers do Power BI
 
@@ -38,7 +38,7 @@ Os dashboards são uma ótima maneira de monitorar seus negócios e ver todas as
 Dashboards não são apenas uma bela imagem. É altamente interativo e os blocos são atualizados conforme os dados subjacentes mudam.
 
 ## <a name="who-can-create-a-dashboard"></a>Quem pode criar um painel?
-A capacidade de criar um dashboard é considerada um recurso do *criador* e requer permissões de edição para o relatório. As permissões de edição estão disponíveis para os criadores do relatório e os colegas aos quais o criador concede acesso. Por exemplo, se David criar um relatório no workspaceABC e o adicionar como membro desse workspace, você e David terão permissão de edição. Por outro lado, se um relatório tiver sido compartilhado com você diretamente ou como parte de um [aplicativo do Power BI](service-create-distribute-apps.md), você está *consumindo* o relatório. Não é possível fixar blocos ao painel. 
+A capacidade de criar um dashboard é considerada um recurso do *criador* e requer permissões de edição para o relatório. As permissões de edição estão disponíveis para os criadores do relatório e os colegas aos quais o criador concede acesso. Por exemplo, se David criar um relatório no espaço de trabalho ABC e adicionar você como membro desse espaço de trabalho, você e David terão permissão de edição. Por outro lado, se um relatório tiver sido compartilhado com você diretamente ou como parte de um [aplicativo do Power BI](service-create-distribute-apps.md), você está *consumindo* o relatório. Não é possível fixar blocos ao painel. 
 
 > [!IMPORTANT]
 > Você precisa de uma licença do [Power BI Pro](service-free-vs-pro.md) para criar painéis em workspaces. Você pode criar painéis em seu próprio Meu Workspace sem uma licença do Power BI Pro.

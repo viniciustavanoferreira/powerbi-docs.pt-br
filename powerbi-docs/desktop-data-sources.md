@@ -6,47 +6,50 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761354"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039779"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 
 O Power BI Desktop permite se conectar a dados de várias fontes diferentes. Para obter uma lista completa de fontes de dados disponíveis, confira [Fontes de dados do Power BI](power-bi-data-sources.md).
 
-Para se conectar a dados, selecione **Obter Dados** na faixa de opções **Página Inicial** . Selecionar a seta para baixo ou o texto **Obter Dados** no botão exibe o menu de tipos de dados **Mais Comuns** mostrado na imagem a seguir:
+Você se conecta aos dados usando a faixa de opções **Página Inicial**. Para mostrar os tipos de dados **Mais Comuns**, selecione o rótulo do botão **Obter Dados** ou a seta para baixo.
 
-![Obter Dados no Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
+![Menu de tipos de dados Mais Comuns, Obter Dados no Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-Selecionar **Mais...** no menu **Mais Comuns** exibe a janela **Obter Dados**. Você também pode abrir a janela **Obter Dados** (e ignorar o menu **Mais Comuns**), selecionando diretamente o **botão do ícone** **Obter Dados**.
+Para acessar a caixa de diálogo **Obter Dados**, mostre o menu de tipos de dados **Mais Comuns** e selecione **Mais**. Você também pode abrir a caixa de diálogo **Obter Dados** (e ignorar o menu **Mais Comuns**), selecionando diretamente o ícone **Obter Dados**.
 
-![Botão Obter Dados](media/desktop-data-sources/data-sources-02.png)
+![Botão Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> A equipe do Power BI está sempre expandindo as fontes de dados disponíveis para o **Power BI Desktop** e o **serviço do Power BI**. Assim, você verá com frequência as versões anteriores das fontes de dados de trabalho em andamento marcadas como *Beta* ou *Visualização*. Toda fonte de dados marcada como *Beta* ou *Visualização* tem suporte e funcionalidade limitados e não deve ser usada em ambientes de produção. Além disso, qualquer fonte de dados marcada como *Beta* ou *Versão prévia* para o **Power BI Desktop** pode não estar disponível para uso no **serviço do Power BI** ou outros serviços da Microsoft até que a fonte de dados esteja em GA (em disponibilidade geral).
+> A equipe do Power BI está sempre expandindo as fontes de dados disponíveis para o Power BI Desktop e o serviço do Power BI. Assim, você verá com frequência as versões anteriores das fontes de dados de trabalho em andamento marcadas como **Beta** ou **Visualização**. As fontes de dados marcadas como **Beta** ou **Visualização** têm suporte e funcionalidade limitados e não devem ser usadas em ambientes de produção. Além disso, as fontes de dados marcadas como **Beta** ou **Versão prévia** para o Power BI Desktop poderão não estar disponíveis para uso no serviço do Power BI ou em outros serviços da Microsoft enquanto a fonte de dados não estiver em GA (em disponibilidade geral).
 
 > [!NOTE]
 > Há muitos conectores de dados para o Power BI Desktop que exigem o Internet Explorer 10 (ou mais recente) para autenticação. 
 
 
 ## <a name="data-sources"></a>Fontes de dados
-Tipos de dados são organizados nas categorias a seguir:
+
+A caixa de diálogo **Obter Dados** organiza os tipos de dados nas seguintes categorias:
 
 * Todos
 * Arquivo
 * Banco de dados
-* Power BI
+* Power Platform
 * Azure
 * Serviços Online
 * Outros
 
 A categoria **Todos** inclui todos os tipos de conexão de dados de todas as categorias.
+
+### <a name="file-data-sources"></a>Fontes de dados do arquivo
 
 A categoria **Arquivo** fornece as seguintes conexões de dados:
 
@@ -60,22 +63,24 @@ A categoria **Arquivo** fornece as seguintes conexões de dados:
 
 A imagem a seguir mostra a janela **Obter Dados** para **Arquivo**.
 
-![Obter Dados > Arquivo](media/desktop-data-sources/data-sources-03.png)
+![Fonte de dados de arquivo, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-03.png)
+
+### <a name="database-data-sources"></a>Fontes de dados do banco de dados
 
 A categoria **Banco de dados** fornece as seguintes conexões de dados:
 
-* Banco de Dados do SQL Server
+* Banco de dados do SQL Server
 * Banco de dados do Access
 * Banco de dados do SQL Server Analysis Services
-* Banco de dados Oracle
+* Oracle Database
 * Banco de dados IBM DB2
 * Banco de dados IBM Informix (Beta)
 * IBM Netezza
 * Banco de dados MySQL
 * Banco de dados PostgreSQL
 * Banco de dados Sybase
-* Teradata
-* Banco de dados do SAP HANA
+* Banco de dados Teradata
+* Banco de dados SAP HANA
 * Servidor de Aplicativos SAP Business Warehouse
 * Servidor de Mensagens SAP Business Warehouse
 * Amazon Redshift
@@ -84,22 +89,25 @@ A categoria **Banco de dados** fornece as seguintes conexões de dados:
 * Vertica
 * Snowflake
 * Essbase
-* Cubos do AtScale
+* Cubos do AtScale (Beta)
 * Conector do BI
+* Denodo
 * Dremio
 * Exasol
 * Indexima (Beta)
 * InterSystems IRIS (Beta)
 * Jethro (Beta)
-* Kyligence Enterprise (Beta)
-* MarkLogic (Beta)
+* Kyligence
+* MarkLogic
 
 > [!NOTE]
 > Alguns conectores de banco de dados exigem que você os habilite selecionando **Arquivo > Opções e configurações > Opções**, em seguida, **Recursos de Visualização** e habilitando o conector. Se você não vir alguns dos conectores mencionados acima e quiser usá-los, verifique suas configurações de **Recursos de Visualização**. Observe também que toda fonte de dados marcada como *Beta* ou *Visualização* tem suporte e funcionalidade limitados e não deve ser usada em ambientes de produção.
 
 A imagem a seguir mostra a janela **Obter Dados** para **Banco de dados**.
 
-![Obter Dados > Bancos de Dados](media/desktop-data-sources/data-sources-04.png)
+![Fontes de dados do banco de dados, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-04.png)
+
+### <a name="power-platform-data-sources"></a>Fontes de dados do Power Platform
 
 A categoria **Power Platform** fornece as seguintes conexões de dados:
 
@@ -110,7 +118,9 @@ A categoria **Power Platform** fornece as seguintes conexões de dados:
 
 A imagem a seguir mostra a janela **Obter Dados** do **Power Platform**.
 
-![Obter Dados > Power BI](media/desktop-data-sources/data-sources-05.png)
+![Fontes de dados do Power Platform, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-05.png)
+
+### <a name="azure-data-sources"></a>Fontes de dados do Azure
 
 A categoria **Azure** fornece as seguintes conexões de dados:
 
@@ -131,7 +141,9 @@ A categoria **Azure** fornece as seguintes conexões de dados:
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
-![Obter Dados > Azure](media/desktop-data-sources/data-sources-06.png)
+![Fonte de dados do Azure, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
+
+### <a name="online-services-data-sources"></a>Fontes de dados dos Serviços Online
 
 A categoria **Serviços Online** fornece as seguintes conexões de dados:
 
@@ -152,6 +164,7 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * Data.World – Obter Conjunto de Dados (Beta)
 * Facebook
 * GitHub (Beta)
+* LinkedIn Sales Navigator (Beta)
 * MailChimp (Beta)
 * Merketo (Beta)
 * Mixpanel (Beta)
@@ -160,26 +173,28 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
-* Stripe (Beta)
 * SweetIQ (Beta)
-* Planview Enterprise One – CMT (Beta)
+* Planview Enterprise One – CTM (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
 * ZenDesk (Beta)
 * Dynamics 365 Customer Insights (beta)
-* Fonte de dados do Emigo (Beta)
+* Fonte de dados do Emigo
 * Entersoft Business Suite (Beta)
 * Industrial App Store
 * Intune Data Warehouse (Beta)
 * Segurança do Microsoft Graph (Beta)
+* Product Insights (Beta)
 * Quick Base
 * TeamDesk (Beta)
-
+* Workplace Analytics (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Online Services**.
 
-![Obter Dados > Serviços Online](media/desktop-data-sources/data-sources-07.png)
+![Fonte de dados dos Serviços Online, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-07.png)
+
+### <a name="other-data-sources"></a>Outras fontes de dados
 
 A categoria **Outros** fornece as seguintes conexões de dados:
 
@@ -190,72 +205,74 @@ A categoria **Outros** fornece as seguintes conexões de dados:
 * Microsoft Exchange
 * HDFS (Arquivo do Hadoop)
 * Spark
-* Script do R
-* Script do Python
+* Script R
+* Script Python
 * ODBC
 * OLE DB
 * BI360 – Relatórios Financeiros e Orçamento (Beta)
-* Denodo
 * Grade de Informações (Beta)
-* Paxata 
+* Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
+* Siteimprove (Beta)
 * SurveyMonkey (Beta)
 * Tenforce (Smart)List (Beta)
+* Vena (Beta)
 * Workforce Dimensions (Beta)
 * Consulta em Branco
 
 A imagem a seguir mostra a janela **Obter Dados** para **Outros**.
 
-![Obter Dados > Outros](media/desktop-data-sources/data-sources-08.png)
+![Outras fontes de dados, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Neste momento, não é possível se conectar a fontes de dados personalizadas protegidas usando o Azure Active Directory.
 
 ## <a name="connecting-to-a-data-source"></a>Conectando-se a uma fonte de dados
+
 Para se conectar a uma fonte de dados, selecione a fonte de dados na janela **Obter Dados** e selecione **Conectar**. Na imagem a seguir, a opção **Web** é selecionada na categoria de conexão de dados **Outros** .
 
-![Conecte-se à Web](media/desktop-data-sources/data-sources-08.png)
+![Conectar à Web, caixa de diálogo Obter Dados, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 É exibida uma janela de conexão específica para o tipo de conexão de dados usado. Se as credenciais forem necessárias, será solicitado que você as forneça. A imagem a seguir mostra uma URL sendo inserida para conectar a uma fonte de dados da Web.
 
-![URL da Web de entrada](media/desktop-data-sources/datasources-fromwebbox.png)
+![URL de entrada, caixa de diálogo Da Web, Power BI Desktop](media/desktop-data-sources/datasources-fromwebbox.png)
 
-Quando a URL ou as informações de conexão de recurso forem inseridas, selecione **OK**. O Power BI Desktop estabelece a conexão à fonte de dados e apresenta as fontes de dados disponíveis no **Navegador**.
+Insira as informações de conexão de recurso ou URL e selecione **OK**. O Power BI Desktop estabelece a conexão com a fonte de dados e apresenta as fontes de dados disponíveis no **Navegador**.
 
-![Tela do navegador](media/desktop-data-sources/datasources-fromnavigatordialog.png)
+![Caixa de diálogo Navegador, Power BI Desktop](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
-Você pode carregar os dados selecionando o botão **Carregar** na parte inferior do painel **Navegador** , ou editar a consulta antes de carregar dados selecionando o botão **Editar Consulta** .
+Para carregar os dados, selecione o botão **Carregar** na parte inferior do painel **Navegador**. Para transformar ou editar a consulta no Editor do Power Query antes de carregar os dados, selecione o botão **Transformar Dados**.
 
 Isso é tudo que é necessário para conectar a fontes de dados no Power BI Desktop. Tente se conectar aos dados da nossa crescente lista de fontes de dados e volte com frequência – continuamos aumentando à lista o tempo todo.
 
 ## <a name="using-pbids-files-to-get-data"></a>Usando arquivos PBIDS para obter dados
 
-Os arquivos PBIDS são arquivos do Power BI Desktop que têm uma estrutura específica e a extensão .PBIDS para identificá-lo como um arquivo de fonte de dados do Power BI.
+Os arquivos PBIDS são arquivos do Power BI Desktop que têm uma estrutura específica, e eles têm a extensão .PBIDS para identificá-los como arquivos de fonte de dados do Power BI.
 
-Você pode criar um arquivo .PBIDS para simplificar a experiência de **Obter dados** para criadores de relatórios em sua organização. É recomendável que os administradores criem esses arquivos para conexões usadas com frequência, para facilitar o uso de arquivos PBIDS para novos autores de relatório. 
+Você pode criar um arquivo PBIDS a fim de simplificar a experiência de **Obter dados** para criadores de relatórios em sua organização. Para facilitar o uso de arquivos PBIDS por um autor de novo relatório, recomendamos que um administrador crie esses arquivos para conexões usadas com frequência.
 
-Quando um autor abre um arquivo .PBIDS, o Power BI Desktop é aberto e solicita ao usuário as credenciais para autenticar e conectar-se à fonte de dados especificada no arquivo. A caixa de diálogo de Navegação é exibida e o usuário deve selecionar as tabelas da fonte de dados a serem carregadas no modelo. Os usuários também podem precisar selecionar os bancos de dados se um não estiver especificado no arquivo .PBIDS. 
+Quando um autor abre um arquivo PBIDS, o Power BI Desktop é aberto e solicita ao usuário as credenciais para autenticar e conectar-se à fonte de dados especificada no arquivo. A caixa de diálogo **Navegação** é exibida, e o usuário deve selecionar as tabelas da fonte de dados a serem carregadas no modelo. Talvez seja necessário que os usuários selecionem os bancos de dados se nenhum tiver sido especificado no arquivo PBIDS.
 
-Desse ponto em diante, o usuário pode começar a criar visualizações ou revisitar *Fontes recentes* para carregar um novo conjunto de tabelas no modelo. 
+Desse ponto em diante, o usuário poderá começar a criar visualizações ou selecionar **Fontes Recentes** para carregar um novo conjunto de tabelas no modelo.
 
-Atualmente, os arquivos .PBIDS dão suporte apenas a uma fonte de dados em um arquivo. A especificação de mais de uma fonte de dados resulta em um erro. 
+Atualmente, os arquivos PBIDS dão suporte apenas a uma fonte de dados em um arquivo. A especificação de mais de uma fonte de dados resulta em um erro.
 
-Para criar o arquivo .PBIDS, os administradores devem especificar as entradas necessárias para uma única conexão e podem especificar o modo da conexão, como **DirectQuery** ou **Importar**. Se o**modo** estiver ausente ou for nulo no arquivo, o usuário que abrir o arquivo no Power BI Desktop será solicitado a selecionar DirectQuery ou Importar. 
+Para criar o arquivo PBIDS, um administrador precisará especificar as entradas obrigatórias para uma conexão única. Ele também pode especificar o modo de conexão como DirectQuery ou Importar. Se o**modo** estiver ausente ou for nulo no arquivo, o usuário que abrir o arquivo no Power BI Desktop precisará selecionar **DirectQuery** ou **Importar**.
 
 ### <a name="pbids-file-examples"></a>Exemplos de arquivos PBIDS
 
-Esta seção fornece alguns exemplos de fontes de dados usadas com frequência. O tipo de arquivo .PBIDS dá suporte apenas a conexões de dados que também têm suporte no Power BI Desktop, com duas exceções: Live Connect e consulta em branco. 
+Esta seção fornece alguns exemplos de fontes de dados usadas com frequência. O tipo de arquivo PBIDS dá suporte apenas a conexões de dados que também têm suporte no Power BI Desktop, com duas exceções: Live Connect e Consulta em Branco.
 
-O arquivo .PBIDS *não* inclui informações de autenticação nem de tabela e esquema.  
+O arquivo PBIDS *não* inclui informações de autenticação nem de tabela e esquema.  
 
-A seguir estão exemplos comuns para o arquivo .PBIDS, que não são completos ou abrangentes. Para outras fontes de dados, você pode consultar o [Formato DSR (Fonte de Referência de Dados) para informações de protocolo e endereços](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
+Os trechos de código a seguir mostram vários exemplos comuns de arquivos PBIDS, mas eles não estão completos nem são abrangentes. Para outras fontes de dados, você pode consultar o [Formato DSR (Fonte de Referência de Dados) para informações de protocolo e endereços](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
 
-Esses exemplos são apenas para conveniência, não têm a intenção de ser abrangentes e não incluem todos os conectores com suporte no formato DSR. Os administradores ou as organizações podem criar suas próprias fontes de dados usando esses exemplos como guias, a partir dos quais podem criar e dar suporte a seus próprios arquivos de fonte de dados. 
+Esses exemplos são apenas para conveniência; não se espera que eles sejam abrangentes nem incluam todos os conectores com suporte no formato DSR. Os administradores ou as organizações podem criar suas próprias fontes de dados usando esses exemplos como guias, por meio dos quais podem criar e dar suporte a seus próprios arquivos de fonte de dados.
 
+#### <a name="azure-as"></a>Azure AS
 
-**Azure AS**
-```
+```json
 { 
     "version": "0.1", 
     "connections": [ 
@@ -271,11 +288,9 @@ Esses exemplos são apenas para conveniência, não têm a intenção de ser abr
 }
 ```
 
+#### <a name="folder"></a>Pasta
 
- 
-
-**Pasta**
-```
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -291,8 +306,9 @@ Esses exemplos são apenas para conveniência, não têm a intenção de ser abr
 } 
 ```
 
-**OData**
-```
+#### <a name="odata"></a>OData
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -307,9 +323,10 @@ Esses exemplos são apenas para conveniência, não têm a intenção de ser abr
   ] 
 } 
 ```
- 
-**SAP BW**
-```
+
+#### <a name="sap-bw"></a>SAP BW
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -326,9 +343,10 @@ Esses exemplos são apenas para conveniência, não têm a intenção de ser abr
   ] 
 } 
 ```
- 
-**SAP Hana**
-```
+
+#### <a name="sap-hana"></a>SAP Hana
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -344,10 +362,11 @@ Esses exemplos são apenas para conveniência, não têm a intenção de ser abr
 } 
 ```
 
-**Lista do SharePoint**
+#### <a name="sharepoint-list"></a>Lista do SharePoint
 
-A URL deve indicar o site do SharePoint em si e não uma lista dentro do site. Os usuários obtêm um navegador que permite que eles selecionem uma ou mais listas desse site e cada uma delas se torna uma tabela no modelo. 
-```
+A URL deve indicar o site do SharePoint em si, não uma lista dentro do site. Os usuários obtêm um navegador que permite que eles selecionem uma ou mais listas desse site e cada uma delas se torna uma tabela no modelo.
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -362,10 +381,10 @@ A URL deve indicar o site do SharePoint em si e não uma lista dentro do site. O
   ] 
 } 
 ```
- 
- 
-**SQL Server**
-```
+
+#### <a name="sql-server"></a>SQL Server
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -383,10 +402,10 @@ A URL deve indicar o site do SharePoint em si e não uma lista dentro do site. O
   ] 
 } 
 ```
- 
 
-**Arquivo de Texto**
-```
+#### <a name="text-file"></a>Arquivo de texto
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -401,10 +420,10 @@ A URL deve indicar o site do SharePoint em si e não uma lista dentro do site. O
   ] 
 } 
 ```
- 
 
-**Web**
-```
+#### <a name="web"></a>Web
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -419,10 +438,10 @@ A URL deve indicar o site do SharePoint em si e não uma lista dentro do site. O
   ] 
 } 
 ```
- 
 
-**Fluxo de dados**
-```
+#### <a name="dataflow"></a>Fluxo de dados
+
+```json
 {
   "version": "0.1",
   "connections": [
@@ -440,12 +459,12 @@ A URL deve indicar o site do SharePoint em si e não uma lista dentro do site. O
 }
 ```
 
-
 ## <a name="next-steps"></a>Próximas etapas
-Há inúmeras coisas que você pode fazer com o Power BI Desktop. Para obter mais informações sobre seus recursos, consulte as seguintes fontes:
+
+Você pode fazer de tudo com o Power BI Desktop. Para obter mais informações sobre seus recursos, consulte as seguintes fontes:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-* [Visão geral de Consulta com o Power BI Desktop](desktop-query-overview.md)
+* [Visão geral de consulta com o Power BI Desktop](desktop-query-overview.md)
 * [Tipos de dados no Power BI Desktop](desktop-data-types.md)
 * [Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)    
+* [Tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)

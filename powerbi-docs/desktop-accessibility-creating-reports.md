@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761969"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925684"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Criar relatórios do Power BI para acessibilidade
 Você pode projetar e criar relatórios atraentes e, ao mesmo tempo, projetá-los para acessibilidade. Sempre que criar um relatório, independentemente de quem é o público-alvo, você deve criá-los para serem utilizáveis pelo máximo de pessoas possíveis, sem a necessidade de ser adaptado para um tipo de design especial.
@@ -22,6 +22,8 @@ Você pode projetar e criar relatórios atraentes e, ao mesmo tempo, projetá-lo
 ![Configurações de alto contraste do Windows](media/desktop-accessibility/accessibility-05.png)
 
 Este artigo descreve os recursos e as ferramentas de acessibilidade para a criação de relatórios acessíveis no Power BI.
+
+Em geral, ao usar o Power BI com um leitor de tela, é recomendável desativar o modo de verificação ou o modo de procura.
 
 Para melhorar o processo de criar relatórios com leitores de tela, um menu de contexto está disponível. O menu permite mover campos para cima ou para baixo na lista **Campos**. O menu também permite mover o campo para outras caixas, como **Legenda**, **Valor** ou outras.
 

@@ -1,6 +1,6 @@
 ---
 title: Exemplos de expressões no Construtor de Relatórios do Power BI
-description: As expressões costumam ser usadas em relatórios paginados do Construtor de Relatórios Paginados do Power BI para controlar o conteúdo e a aparência do relatório.
+description: As expressões costumam ser usadas em relatórios paginados do Power BI Report Builder para controlar o conteúdo e a aparência do relatório.
 ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
-ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
+ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72728563"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953971"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Exemplos de expressões no Construtor de Relatórios do Power BI
-As expressões costumam ser usadas em relatórios paginados do Construtor de Relatórios Paginados do Power BI para controlar o conteúdo e a aparência do relatório. As expressões são escritas no Microsoft Visual Basic e podem usar funções internas, código personalizado, variáveis de grupo e relatório e variáveis definidas pelo usuário. As expressões começam com um sinal de igual (=).   
+As expressões costumam ser usadas em relatórios paginados do Power BI Report Builder para controlar o conteúdo e a aparência do relatório. As expressões são escritas no Microsoft Visual Basic e podem usar funções internas, código personalizado, variáveis de grupo e relatório e variáveis definidas pelo usuário. As expressões começam com um sinal de igual (=).   
 
 Este tópico fornece exemplos de expressões que podem ser usadas para tarefas comuns em um relatório.  
   

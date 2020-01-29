@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311503"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953780"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Implementando segurança em nível de linha em relatórios paginados inseridos (versão prévia)
 
@@ -32,7 +32,7 @@ Depois de atribuir o parâmetro a **UserID**, use a API [Reports GenerateTokenFo
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Usar UserID como um filtro no nível do relatório ou da consulta
 
-Você pode usar **UserId** como um *filtro* ou em uma *consulta* para a fonte de fontes no [Construtor de Relatórios do Paginados do Power BI](../report-builder-power-bi.md).
+Você pode usar **UserId** como *filtro* ou em uma *consulta* para a fonte de dados no [Power BI Report Builder](../report-builder-power-bi.md).
 
 ### <a name="using-the-filter"></a>Como usar o filtro
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099921"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040479"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
@@ -145,6 +145,13 @@ Para obter mais informações, veja [Visuais de matriz no Power BI](desktop-matr
 
 >[!TIP]
 >Gráficos de pizza mostram a relação das partes com um todo. 
+
+### <a name="power-apps-visual"></a>Visual do Power Apps
+![Visual do Power Apps](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
+
+Os designers de relatórios podem criar um Power App e incorporá-lo a um relatório do Power BI como visual. Os consumidores podem interagir com esse visual dentro do relatório do Power BI. 
+
+Confira mais informações em [Adicionar um visual do Power Apps a seu relatório](power-bi-visualization-powerapp.md).
 
 ### <a name="qa-visual"></a>Visual de P e R
 ![Visuais de P e R](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)

@@ -1,6 +1,6 @@
 ---
-title: Construtor de Relatórios Paginados do Power BI
-description: O Construtor de Relatórios Paginados do Power BI é uma ferramenta para criação de relatórios paginados.
+title: Construtor de Relatórios do Power BI
+description: O Power BI Report Builder é uma ferramenta de criação de relatórios paginados.
 ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565284"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953909"
 ---
-# <a name="power-bi-paginated-report-builder"></a>Construtor de Relatórios Paginados do Power BI
+# <a name="power-bi-report-builder"></a>Construtor de Relatórios do Power BI
 
- O Construtor de Relatórios Paginados do Power BI é uma ferramenta para criação de relatórios paginados.  Quando você cria um relatório paginado, você está criando uma definição de relatório que especifica quais dados serão recuperados, em que local obtê-los e como exibi-los. Quando você executa o relatório, o processador de relatório usa a definição de relatório especificada, recupera os dados e combina-os com o layout do relatório para gerar o relatório. Visualize o relatório no Construtor de Relatórios. Em seguida, publique o relatório no serviço do Power BI.
+ O Power BI Report Builder é uma ferramenta de criação de relatórios paginados.  Quando você cria um relatório paginado, você está criando uma definição de relatório que especifica quais dados serão recuperados, em que local obtê-los e como exibi-los. Quando você executa o relatório, o processador de relatório usa a definição de relatório especificada, recupera os dados e combina-os com o layout do relatório para gerar o relatório. Visualize o relatório no Construtor de Relatórios. Em seguida, publique o relatório no serviço do Power BI.
 
 Experimente o [Laboratório prático: Criar um relatório paginado do Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 

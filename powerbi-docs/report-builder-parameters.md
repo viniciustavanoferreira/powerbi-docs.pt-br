@@ -1,6 +1,6 @@
 ---
 title: Parâmetros de relatório no Construtor de Relatórios do Power BI
-description: Este tópico descreve os usos comuns de parâmetros de relatório do Construtor de Relatórios Paginados do Power BI, as propriedades que podem ser definidas, entre outros.
+description: Este tópico descreve os usos comuns de parâmetros de relatório do Power BI Report Builder, as propriedades que podem ser definidas, entre outros.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 5a7e91c03b11902f324d6a7c639a03f7652acf16
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128429"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160847"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parâmetros de relatório no Construtor de Relatórios do Power BI
 
-Este tópico descreve os usos comuns de parâmetros de relatório do Construtor de Relatórios Paginados do Power BI, as propriedades que podem ser definidas, entre outros. Os parâmetros de relatório permitem controlar os dados de relatório, conectar relatórios relacionados e variar a apresentação do relatório. Use parâmetros de relatório em relatórios paginados criados no Construtor de Relatórios.
+Este tópico descreve os usos comuns de parâmetros de relatório do Power BI Report Builder, as propriedades que podem ser definidas, entre outros. Os parâmetros de relatório permitem controlar os dados de relatório, conectar relatórios relacionados e variar a apresentação do relatório. Use parâmetros de relatório em relatórios paginados criados no Construtor de Relatórios.
 
 ## <a name="bkmk_Common_Uses_for_Parameters"></a> Usos comuns de parâmetros
 
@@ -93,7 +93,7 @@ Crie um parâmetro manualmente por meio do painel de dados do relatório. Config
   
 - Selecione vários valores de parâmetros em uma lista suspensa.  
   
-- Selecione um valor em uma lista suspensa para um parâmetro, que determina os valores que estão disponíveis na lista suspensa para outro parâmetro. Esses são parâmetros em cascata. Os parâmetros em cascata permitem que você filtre sucessivamente valores de parâmetros de milhares de valores para um número gerenciável.  
+- Selecione um valor em uma lista suspensa para um parâmetro, que determina os valores que estão disponíveis na lista suspensa para outro parâmetro. Esses são parâmetros em cascata. Os parâmetros em cascata permitem que você filtre sucessivamente valores de parâmetros de milhares de valores para um número gerenciável. Confira mais informações em [Usar parâmetros em cascata nos relatórios paginados](guidance/paginated-report-cascading-parameter.md).
   
 - Execute o relatório sem precisar primeiro selecionar um valor de parâmetro porque um valor padrão foi criado para o parâmetro.  
   
@@ -101,7 +101,7 @@ Crie um parâmetro manualmente por meio do painel de dados do relatório. Config
 
  Altere as propriedades de parâmetro de relatório usando a caixa de diálogo Propriedades do Relatório. A seguinte tabela resume as propriedades que podem ser definidas para cada parâmetro:  
   
-|Propriedade|Descrição|  
+|Property|Descrição|  
 |--------------|-----------------|  
 |Nome|Digite um nome que diferencia maiúsculas de minúsculas para o parâmetro. O nome precisa começar com uma letra e pode conter letras, números e um sublinhado (_). O nome não pode conter espaços. Para parâmetros gerados automaticamente, o nome corresponde ao parâmetro na consulta de conjunto de dados. Por padrão, os parâmetros criados manualmente são semelhantes a ReportParameter1.|  
 |Prompt|O texto exibido ao lado do parâmetro na barra de ferramentas do Visualizador de Relatórios.|  
@@ -148,5 +148,4 @@ Crie um parâmetro manualmente por meio do painel de dados do relatório. Config
 ## <a name="next-steps"></a>Próximas etapas
 
 - [O que são os relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
- 
- 
+- [Usar parâmetros em cascata nos relatórios paginados](guidance/paginated-report-cascading-parameter.md)

@@ -1,6 +1,6 @@
 ---
 title: Expressões no Construtor de Relatórios do Power BI
-description: Expressões são amplamente usadas nos relatórios paginados do Construtor de Relatórios Paginados do Power BI para recuperar, calcular, exibir, agrupar, classificar, filtrar, parametrizar e formatar dados.
+description: As expressões são amplamente usadas nos relatórios paginados do Power BI Report Builder para recuperar, calcular, exibir, agrupar, classificar, filtrar, parametrizar e formatar dados.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3a72fd967eeb24cfa1093d16c4434447d5fc89d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840615"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953851"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Expressões no Construtor de Relatórios do Power BI
-  Expressões são amplamente usadas nos relatórios paginados do Construtor de Relatórios Paginados do Power BI para recuperar, calcular, exibir, agrupar, classificar, filtrar, parametrizar e formatar dados. 
+  As expressões são amplamente usadas nos relatórios paginados do Power BI Report Builder para recuperar, calcular, exibir, agrupar, classificar, filtrar, parametrizar e formatar dados. 
   
   Muitas propriedades de item de relatório podem ser definidas como uma expressão. Expressões ajudam a controlar o conteúdo, o design e a interatividade do relatório. As expressões são escritas no Microsoft Visual Basic, salvas na definição de relatório e avaliadas pelo processador de relatório quando você executa o relatório.  
   
@@ -68,7 +68,7 @@ Expressões simples usam símbolos para indicar se a referência é a um campo, 
   
 |Referências|Descrição|Exemplo|  
 |----------------|-----------------|-------------|  
-|Constants|Descreve as constantes que podem ser acessadas interativamente para propriedades que exigem valores constantes, como cores de fonte.|`="Blue"`|  
+|Constantes|Descreve as constantes que podem ser acessadas interativamente para propriedades que exigem valores constantes, como cores de fonte.|`="Blue"`|  
 |Operadores|Descreve os operadores que podem ser usados para combinar referências em uma expressão. Por exemplo, o operador **&** é usado para concatenar cadeias de caracteres.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
 |Coleções internas|Descreve as coleções internas que podem ser incluídas em uma expressão, como `Fields`, `Parameters` e `Variables`.|`=Fields!Sales.Value`<br /><br /> `=Parameters!Store.Value`<br /><br /> `=Variables!MyCalculation.Value`|  
 |Relatório interno e funções de agregação|Descreve as funções internas, como `Sum` ou `Previous`, que podem ser acessadas de uma expressão.|`=Previous(Sum(Fields!Sales.Value))`|  

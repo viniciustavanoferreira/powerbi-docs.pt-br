@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791670"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039037"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -317,10 +317,9 @@ O ícone de aviso ajuda a indicar problemas atuais no conjunto de dados, mas tam
 
 ## <a name="automatic-page-refresh"></a>Atualização automática de página
 
-A atualização automática de página funciona em um nível de página de relatório e permite que os autores de relatório definam um intervalo de atualização para visuais em uma página que está ativa apenas quando a página é consumida. A atualização automática de página está disponível apenas para fontes de dados DirectQuery. O intervalo mínimo de atualização depende do tipo de workspace em que o relatório está publicado e das configurações de capacidade do administrador para workspace Premium.
+A atualização automática de página funciona em um nível de página de relatório e permite que os autores de relatório definam um intervalo de atualização para visuais em uma página que está ativa apenas quando a página é consumida. A atualização automática de página está disponível apenas para fontes de dados DirectQuery. O intervalo mínimo de atualização depende do tipo de espaço de trabalho em que o relatório está publicado e das configurações de capacidade do administrador para espaços de trabalho Premium e [espaços de trabalho inseridos](developer/embedding.md).
 
 Saiba mais no artigo sobre [atualização de página automática](desktop-automatic-page-refresh.md).
-
 
 ## <a name="best-practices"></a>Práticas recomendadas
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861317"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039111"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de visuais no Power BI
 Você encontrará visuais em relatórios, dashboards e P e R. Alguns desses tipos de visuais são empacotados com o Power BI e alguns são *visuais personalizados*. Visuais personalizados são criados fora do Power BI e de uma maneira que permite a *designers de relatório* adicioná-los a relatórios e dashboards do Power BI. 
@@ -139,6 +139,19 @@ O visual de matriz é um tipo de visual de tabela (consulte "Tabela" abaixo) que
 ![gráfico de pizza](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 Gráficos de pizza mostram a relação das partes com um todo. 
+
+### <a name="power-apps-visual"></a>Visual do Power Apps
+![Visual do Power Apps](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+Os designers de relatórios podem criar um Power App e incorporá-lo a um relatório do Power BI. Os consumidores podem interagir com esse visual dentro do relatório do Power BI. 
+
+### <a name="qa-visual"></a>Visual de P e R
+![Visuais de P e R](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>Semelhante à [experiência de P e R em dashboards](../power-bi-tutorial-q-and-a.md), o visual d e P e R permite que você faça perguntas sobre seus dados usando linguagem natural. 
+
+Para saber mais, confira [Visuais de P e R no Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 ### <a name="ribbon-chart"></a>Gráfico da faixa de opções
 ![gráfico de faixa de opções](media/end-user-visual-type/power-bi-ribbon.png)

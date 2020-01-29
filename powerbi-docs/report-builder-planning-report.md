@@ -1,6 +1,6 @@
 ---
 title: Como planejar um relatório no Construtor de Relatórios do Power BI
-description: O Construtor de Relatórios Paginados do Power BI permite que você crie muitos tipos de relatórios paginados. Para criar um relatório útil e de fácil entendimento, ele ajuda a planejá-lo primeiro.
+description: O Power BI Report Builder permite criar muitos tipos de relatórios paginados. Para criar um relatório útil e de fácil entendimento, ele ajuda a planejá-lo primeiro.
 ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623880"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953808"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Como planejar um relatório no Construtor de Relatórios do Power BI
 
-O Construtor de Relatórios Paginados do Power BI permite que você crie muitos tipos de relatórios paginados. Por exemplo, você pode criar relatórios que mostram dados de vendas resumidos ou detalhados, tendências de marketing e vendas, relatórios operacionais ou dashboards. Crie também relatórios que aproveitam texto com formatação avançada, como ordens de vendas, catálogos de produtos ou cartas modelo. Todos esses relatórios são criados usando combinações diferentes dos mesmos blocos de construção básicos no Construtor de Relatórios. Para criar um relatório útil e de fácil entendimento, ele ajuda a planejá-lo primeiro. Estes são alguns itens que você talvez deseje considerar antes de começar:  
+O Power BI Report Builder permite criar muitos tipos de relatórios paginados. Por exemplo, você pode criar relatórios que mostram dados de vendas resumidos ou detalhados, tendências de marketing e vendas, relatórios operacionais ou dashboards. Crie também relatórios que aproveitam texto com formatação avançada, como ordens de vendas, catálogos de produtos ou cartas modelo. Todos esses relatórios são criados usando combinações diferentes dos mesmos blocos de construção básicos no Construtor de Relatórios. Para criar um relatório útil e de fácil entendimento, ele ajuda a planejá-lo primeiro. Estes são alguns itens que você talvez deseje considerar antes de começar:  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>Em qual formato você deseja que o relatório seja exibido?
   

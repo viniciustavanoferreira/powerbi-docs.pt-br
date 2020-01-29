@@ -1,6 +1,6 @@
 ---
 title: Dicas de design de relatório no Construtor de Relatórios do Power BI
-description: Use as dicas a seguir para ajudar a criar seus relatórios paginados no Construtor de Relatórios Paginados do Power BI.
+description: Use as dicas a seguir para ajudar a criar seus relatórios paginados no Power BI Report Builder.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d7e232d09eee2a4cfff17d4565443195e6f7f1aa
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3b436156d6bd36fe5da7b9b4404227ca1a6de336
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840339"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160525"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Dicas de design de relatório no Construtor de Relatórios do Power BI
-  Use as dicas a seguir para ajudar a criar seus relatórios paginados no Construtor de Relatórios Paginados do Power BI.  
+  Use as dicas a seguir para ajudar a criar seus relatórios paginados no Power BI Report Builder.  
   
    
   
@@ -131,7 +131,7 @@ ms.locfileid: "66840339"
   
 -   Se você pretende salvar o relatório como um arquivo .pdf, a largura do relatório precisará ser definida explicitamente como um valor que forneça os resultados desejados no formato de arquivo de exportação. Por exemplo, defina a largura da página do relatório exatamente como 7,9375 polegadas e as margens esquerda e direita como 0,5 polegada.  
   
--   Use **Layout de Impressão** e **Configuração de Página** na barra de ferramentas do Visualizador de Relatórios para renderizar um relatório em uma exibição compatível com impressão. Para ajudar a remover páginas horizontais indesejadas, faça o seguinte:  
+-   Use **Layout de Impressão** e **Configuração de Página** na barra de ferramentas do Visualizador de Relatórios para renderizar um relatório em uma exibição compatível com impressão. Para ajudar a remover as páginas em branco desnecessárias, faça o seguinte:  
   
     1.  Remova todo o espaço em branco extra entre as regiões de dados e nas bordas do relatório.  
   
@@ -140,8 +140,10 @@ ms.locfileid: "66840339"
     3.  Use **Retângulos** como contêineres para ajudar a controlar a maneira como os itens de relatório são renderizados.  
   
     4.  Em cabeçalhos de coluna, altere a propriedade da caixa de texto WritingMode para usar o texto vertical.  
-  
- A combinação desse comportamento, das propriedades de largura e altura dos itens de relatório, do tamanho do corpo do relatório, da definição de largura e altura da página, das configurações de margem do relatório pai e do suporte específico do renderizador para paginação determinam quais itens de relatório se ajustam em conjunto em uma página renderizada. 
+
+ Para saber mais, confira [Evitar páginas em branco ao imprimir relatórios paginados](guidance/report-paginated-blank-page.md).
+
+ A combinação desse comportamento, das propriedades de largura e altura dos itens de relatório, do tamanho do corpo do relatório, da definição de largura e altura da página, das configurações de margem do relatório pai e do suporte específico do renderizador para paginação determinam quais itens de relatório se ajustam em conjunto em uma página renderizada.
  
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -1,132 +1,134 @@
 ---
-title: Conceito visual do Power BI
-description: O artigo descreve como o visual se integra com o Power BI
-author: zBritva
-ms.author: v-ilgali
+title: Conceitos dos visuais do Power BI
+description: O artigo descreve como os visuais se integram ao Power BI e como um usuário pode interagir com um visual no Power BI.
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 36742917829013a6efca9d74f88b01bc686437a8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700836"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925608"
 ---
-# <a name="power-bi-visual-concept"></a>Conceito visual do Power BI
+# <a name="visuals-in-power-bi"></a>Visuais no Power BI
 
-O artigo explica como um usuário e um visual interagem com Power BI e como um usuário interage com o visual do Power BI. No diagrama, você vê quais ações influenciam diretamente para o visual ou por meio de Power BI (por exemplo, o usuário seleciona indicadores).
+O artigo descreve como os visuais se integram ao Power BI e como um usuário pode interagir com um visual no Power BI. 
 
-![Visual do Power BI](./media/visual-concept.svg)
+A figura a seguir descreve como são processadas no Power BI as ações comuns baseadas em visuais que um usuário executa, como selecionar um indicador.
 
-## <a name="the-visual-gets-update-from-power-bi"></a>O visual obtém a atualização do Power BI
+![Diagrama de ações de visuais no Power BI](./media/visual-concept.svg)
 
-O visual tem o método `update`, que geralmente contém a lógica principal do visual e é responsável por renderizar o gráfico ou visualizar os dados.
+## <a name="visuals-get-updates-from-power-bi"></a>Os visuais obtêm atualizações do Power BI
 
-Mais atualizações entram com a chamada do método `update`.
+Um visual chama o método `update` para receber atualizações do Power BI. O método `update` geralmente contém a lógica principal do visual e é responsável pela renderização do gráfico ou pela visualização dos dados.
 
-### <a name="user-interacts-with-visual-through-power-bi"></a>O usuário interage com o visual por meio do Power BI
+As atualizações são disparadas quando o visual chama o método `update`.
 
-* O usuário abre o painel de propriedades visuais.
+## <a name="action-and-update-patterns"></a>Padrões de ações e atualizações
 
-    O Power BI busca objetos e propriedades com suporte do visual `capabilities.json` e, para receber valores reais de propriedades, o Power BI chama o método `enumerateObjectInstances` do visual.
+As ações e atualizações subsequentes nos visuais do Power BI ocorrem em um destes três padrões:
 
-    O visual precisa retornar valores reais de propriedades.
+* O usuário interage com um visual por meio do Power BI.
+* O usuário interage diretamente com o visual.
+* O visual interage com o Power BI.
 
-    Para obter mais informações, [leia sobre as funcionalidades visuais](capabilities.md).
+### <a name="user-interacts-with-a-visual-through-power-bi"></a>O usuário interage com um visual por meio do Power BI
 
-* [O usuário altera a propriedade do visual](../../visuals/power-bi-visualization-customize-title-background-and-legend.md) no painel de formato.
+* O usuário abre o painel de propriedades do visual.
 
-    Depois de alterar o valor de uma propriedade, o Power BI chama o método `update` do visual e passa o novo `options` com os novos valores dos objetos para o método de atualização.
+    Quando um usuário abre o painel de propriedades do visual, o Power BI busca objetos e propriedades com suporte no arquivo *capabilities.json* do visual. Para receber os valores reais de propriedades, o Power BI chama o método `enumerateObjectInstances` do visual. O visual retorna os valores reais das propriedades.
 
-    Para obter mais informações, [leia sobre objetos e propriedades do visual](objects-properties.md).
+    Saiba mais em [Funcionalidades e propriedades de visuais do Power BI](capabilities.md).
+
+* O usuário [altera uma propriedade do visual](../../visuals/power-bi-visualization-customize-title-background-and-legend.md) no painel de formato.
+
+    Quando um usuário altera o valor de uma propriedade no painel de formato, o Power BI chama o método `update` do visual. O Power BI passa o novo objeto `options` para o método `update`. Os objetos contêm os novos valores.
+
+    Para obter mais informações, confira [Objetos e propriedades de visuais do Power BI](objects-properties.md).
 
 * O usuário redimensiona o visual.
 
-    Quando um usuário altera um tamanho do visual, o Power BI chama o método `update` com o novo objeto `option`. As opções têm o objeto `viewport` aninhado com nova largura e altura do visual.
+    Quando um usuário altera um tamanho de um visual, o Power BI chama o método `update` com o novo objeto `options`. Os objetos `options` têm objetos `viewport` aninhados que contêm a nova largura e altura do visual.
 
-* O usuário aplica o filtro de relatório, de página ou de nível visual.
+* O usuário aplica o filtro no relatório, página ou nível do visual.
 
-    O Power BI filtra os dados de acordo com as condições de filtro e chama o método `update` do visual para fornecer novos dados.
+    O Power BI filtra os dados com base nas condições do filtro. O Power BI chama o método `update` do visual para atualizar o visual com novos dados.
 
-    O visual obtém uma nova atualização de `options` com novos dados em um dos objetos aninhados. Isso depende da configuração de mapeamento de exibição de dados do visual.
+    O visual obtém uma nova atualização dos objetos `options` quando há novos dados em um dos objetos aninhados. Como a atualização ocorrerá depende da configuração de mapeamento de exibição de dados do visual.
 
-    Para obter mais informações, [leia sobre mapeamentos de exibição de dados](dataview-mappings.md).
+    Para obter mais informações, confira [Entender o mapeamento de exibição de dados em visuais do Power BI](dataview-mappings.md).
 
-* O usuário seleciona o ponto de dados em outro visual do relatório.
+* O usuário seleciona um ponto de dados em outro visual do relatório.
 
-    O Power BI filtra ou realça os pontos de dados selecionados e chama o método `update` do visual.
+    Quando um usuário seleciona um ponto de dados em outro visual do relatório, o Power BI filtra ou realça os pontos de dados selecionados e chama o método `update` do visual. O visual obtém novos dados filtrados ou os mesmos dados com a matriz dos destaques.
 
-    O visual obtém novos dados filtrados ou os mesmos dados com a matriz de destaques.
+    Para obter mais informações, confira [Realçar pontos de dados em visuais do Power BI](highlight.md).
 
-    Para obter mais informações, [leia como realçar dados em visuais](highlight.md).
+* O usuário seleciona um indicador no painel de indicadores do relatório.
 
-* O usuário seleciona o indicador no painel de indicadores do relatório.
+    Quando um usuário seleciona um indicador no painel de indicadores do relatório, uma das duas ações pode ocorrer:
 
-    Podem ocorrer duas ações:
+    * O Power BI chama uma função que é passada e registrada pelo método `registerOnSelectionCallback`. A função de retorno de chamada obtém matrizes de seleções para o indicador correspondente.
 
-    1. O Power BI chama a função passada registrada pelo método `registerOnSelectionCallback` e a função de retorno de chamada obtém matrizes de seleções para o indicador correspondente.
+    * O Power BI chama o método `update` com um objeto `filter` correspondente dentro do objeto `options`.
 
-    2. O Power BI chama o método `update` com o objeto de filtro correspondente dentro de `options`.
+    Em ambos os casos, o visual deve alterar seu estado de acordo com as seleções recebidas ou com o objeto `filter`.
 
-    Em ambos os casos, o visual precisa alterar o estado de visualização de acordo com as seleções recebidas ou o objeto de filtro.
+    Para saber mais sobre indicadores e filtros, confira a [API de Filtros Visuais em visuais do Power BI](filter-api.md).
 
-    Para obter mais detalhes sobre indicadores, [leia como lidar com indicadores](filter-api.md).
+### <a name="user-interacts-with-the-visual-directly"></a>O usuário interage diretamente com o visual
 
-    Para obter mais informações sobre filtros, [leia como os visuais do Power BI podem filtrar dados em outros visuais](filter-api.md).
+* Um usuário passa o mouse sobre um elemento de dados.
 
-### <a name="user-interacts-with-visual-directly"></a>O usuário interage diretamente com o visual
+    O visual pode exibir mais informações sobre o ponto de dados por meio da API de Dicas de Ferramentas do Power BI. Quando um usuário passa o mouse sobre um elemento visual, o visual pode manipular o evento e exibir dados sobre o elemento ToolTip associado. O visual pode exibir a dica de ferramenta padrão ou a dica de ferramenta da página do relatório.
 
-* O usuário passa o mouse sobre o elemento de dados
+    Para saber mais, confira [Dicas de Ferramentas no Power BI](add-tooltips.md).
 
-    O visual pode exibir informações adicionais sobre o ponto de dados por meio da API de Dicas de Ferramenta do Power BI.
-    O usuário passa o mouse no elemento visual O visual pode manipular o evento e exibir dados no elemento de dica de ferramenta.
+* Um usuário altera as propriedades do visual. Por exemplo, o usuário expande a árvore e o visual salva o estado nas propriedades.
 
-    O visual pode exibir a dica de ferramenta padrão ou a dica de ferramenta de página de relatório.
+    O visual pode salvar os valores das propriedades por meio da API do Power BI. Por exemplo, quando um usuário interage com o visual, que precisa salvar ou atualizar valores de propriedades, o visual pode chamar o método `presistProperties`.
 
-    Para obter mais informações, leia o guia [como adicionar dicas de ferramentas](add-tooltips.md).
+* O usuário seleciona uma URL.
 
-* O usuário altera as propriedades visuais (por exemplo, o usuário expande a árvore e o visual salva o estado nas propriedades)
+    Por padrão, um visual não pode abrir diretamente uma URL. Em vez disso, para abrir uma URL em uma nova guia, o visual pode chamar o método `launchUrl` e passar a URL como um parâmetro.
 
-    O visual pode salvar os valores das propriedades por meio da API do Power BI. Por exemplo, quando o usuário interage com o visual. E o visual precisa salvar ou atualizar valores de propriedade. O visual pode chamar o método `presistProperties` para isso.
+    Saiba mais em [Criar uma URL de inicialização](launch-url.md).
 
-* O usuário clica no link de URL.
+* Um usuário aplica um filtro por meio do visual.
 
-    Por padrão, o visual não pode abrir a URL. Para abrir a URL em uma nova guia, o visual deve chamar o método `launchURL` e passar a URL como parâmetro.
+    Um visual pode chamar o método `applyJsonFilter` e passar as condições para filtrar dados em outros visuais. Vários tipos de filtros estão disponíveis, incluindo filtros básicos, avançados e de tupla.
 
-    Para obter mais informações, leia sobre [iniciar API da URL](launch-url.md).
+    Saiba mais em [API de Filtros Visuais em visuais do Power BI](filter-api.md).
 
-* O usuário aplica o filtro por meio do visual
+* Um usuário seleciona elementos no visual.
 
-    O visual chama `applyJSONFilter` e passa as condições de filtro para a filtragem de dados em outro visual.
+    Saiba mais sobre seleções em visuais do Power BI em [Adicionar interatividade usando as seleções de visual do Power BI](selection-api.md).
 
-    O visual pode usar vários tipos de filtro, como o filtro básico, o filtro avançado ou o filtro de tupla.
-
-    Para obter mais informações sobre filtros, [leia como os visuais do Power BI podem filtrar dados em outros visuais](filter-api.md).
-
-* O usuário clica/seleciona elementos no visual.
-
-    Para obter mais informações sobre seleções, [leia como o visual interage](selection-api.md).
-
-### <a name="the-visual-interacts-with-power-bi"></a>O visual interage com o Power BI
+### <a name="visual-interacts-with-power-bi"></a>O visual interage com o Power BI
 
 * O visual solicita mais dados do Power BI.
 
-    O visual pode processar dados por partes. O método da API FetchMoreData solicita o próximo fragmento do conjunto de dados.
+    O visual processa os dados por partes. O método `fetchMoreData` da API solicita o próximo fragmento do conjunto de dados.
 
-    Para obter mais informações sobre `fetchMoreData`, [leia como buscar mais dados do Power BI](fetch-more-data.md)
+    Saiba mais em [Buscar mais dados do Power BI](fetch-more-data.md).
 
-* Serviço de eventos
+* O serviço de evento dispara.
 
-    O Power BI pode exportar relatórios para PDF ou enviá-los por email (somente elementos visuais certificados têm suporte). Para notificar o Power BI que a renderização foi concluída e está pronta para capturar o PDF/email, o visual deve chamar a API de Eventos de Renderização.
+    O Power BI pode exportar um relatório para PDF ou enviar um relatório por email (aplica-se somente a visuais certificados). Para notificar o Power BI de que a renderização foi concluída e que o visual está pronto para ser capturado como PDF ou para email, o visual deve chamar a API de Renderização de Eventos.
 
-    Para obter mais informações, [leia sobre como exportar relatórios do Power BI para PDF](../../consumer/end-user-pdf.md)
+    Saiba mais em [Exportar relatórios do Power BI para PDF](../../consumer/end-user-pdf.md).
 
-    Encontre mais [informações sobre o Serviço de Eventos](event-service.md)
+    Para saber mais sobre o serviço de eventos, confira [Renderizar eventos em visuais do Power BI](event-service.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Você é um desenvolvedor da Web e está interessado em criar suas próprias visualizações e adicioná-las ao AppSource? Confira [Desenvolvimento de um Visual do Power BI](./custom-visual-develop-tutorial.md) e saiba como [publicar visuais do Power BI no AppSource](../office-store.md).
+Você está interessado em criar suas próprias visualizações e adicioná-las ao Microsoft AppSource? Consulte estes artigos:
+
+* [Desenvolver um visual do Power BI](./custom-visual-develop-tutorial.md)
+* [Publicar visuais do Power BI no Partner Center](../office-store.md)

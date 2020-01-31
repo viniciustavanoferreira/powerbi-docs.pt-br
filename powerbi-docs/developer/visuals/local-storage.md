@@ -3,17 +3,17 @@ title: API de Armazenamento Local em Visuais do Power BI
 description: Este artigo descreve como usar a API de Visuais do Power BI para ter acesso ao armazenamento local do navegador
 author: uve
 ms.author: v-grniki
-ms.reviewer: sranins
+ms.reviewer: KesemSharabi
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/31/2019
-ms.openlocfilehash: f69a3c8928b8079f79b8a6dd5f5b132235a7089c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/21/2019
+ms.openlocfilehash: 85517fcd7ec773f947135614c94c0c4e4638ea48
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879896"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539315"
 ---
 # <a name="local-storage-api"></a>API de Armazenamento Local
 
@@ -59,4 +59,5 @@ export class Visual implements IVisual {
 
 ## <a name="known-limitations-and-issues"></a>Limitações e problemas conhecidos
 
-A API de Armazenamento Local não é ativada para os Visuais Personalizados por padrão. Se quiser ativá-la para seu Visual Personalizado, envie uma solicitação para o Suporte a Visuais Personalizados do Power BI `pbicvsupport@microsoft.com`
+A API de Armazenamento Local não é ativada para os Visuais Personalizados por padrão. Se quiser ativá-la para seu visual personalizado, envie uma solicitação para o Suporte a Visuais Personalizados do Power BI `pbicvsupport@microsoft.com`.  
+**Observe que o visual deve estar disponível em [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) e ser [certificado](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/).**

@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/07/2019
+ms.date: 01/17/2019
 ms.author: mihart
-ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836658"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537797"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário do serviço do Power BI
 O serviço do Power BI pode apresentar terminologia confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar sobre a terminologia, por isso pode ser útil até mesmo salvá-lo como favorito. Outro excelente recurso para aprender sobre os blocos de construção que compõem o serviço do Power BI são os [Conceitos básicos](end-user-basic-concepts.md). O artigo com Conceitos básicos fornece uma visão geral de alto nível das *partes* do Power BI e como elas estão conectadas.
@@ -77,6 +77,10 @@ Agora o **Auto Insights** é chamado de *Insights Rápidos*.
 
 **content view (exibição de conteúdo)**
 
+**Variável contínua**: uma variável contínua pode ser qualquer valor entre os limites mínimo e máximo; caso contrário, é uma variável discreta. Entre os exemplos estão temperatura, peso, idade e tempo. As variáveis contínuas podem incluir frações ou partes do valor. O número total de skates azuis vendidos é uma variável discreta, já que não podemos vender metade de um skate.
+
+**Correlação**: uma correlação nos informa como o comportamento dos itens está relacionado.  Se os padrões de aumento e diminuição são semelhantes, eles estão correlacionados positivamente. E se os padrões são opostos, eles estão correlacionados negativamente. Por exemplo, se as vendas de nossos skates vermelhos aumentam toda vez que fazemos uma campanha de marketing na TV, as vendas dos skates vermelhos e a campanha de TV estão correlacionadas positivamente.
+
 **cross-filter (filtro cruzado)** Aplica-se às interações visuais. A filtragem cruzada remove os dados não aplicáveis. Por exemplo, a seleção de **Moderação** no gráfico de rosca faz a filtragem cruzada do gráfico de linhas. Agora, o gráfico de linhas só exibe pontos de dados que se aplicam ao segmento Moderação.
 
 **cross-highlight (destaque cruzado)** Aplica-se às interações visuais. O destaque cruzado retém todos os pontos de dados originais, mas esmaece a parte que não se aplica à seleção. Por exemplo, a seleção de **Moderação** no gráfico de rosca faz o destaque cruzado do gráfico de colunas. O gráfico de colunas esmaece todos os dados que não se aplicam ao segmento Moderação e realça todos os dados que se aplicam ao segmento Moderação.
@@ -93,7 +97,7 @@ Agora o **Auto Insights** é chamado de *Insights Rápidos*.
 
 **modelo de dados, modelo de dados do Excel** No conteúdo do Power BI, um modelo de dados refere-se a um mapa de estruturas de dados em um formato de tabela. O modelo de dados mostra as relações que estão sendo usadas para criar bancos de dados. Administradores, desenvolvedores e designers de relatórios criam e trabalham com modelos de dados para criar conteúdo para o Power BI.
 
-**fluxos de dados** Os fluxos de dados são usados para ingerir, transformar, integrar e enriquecer Big Data ao definir conexões de fonte de dados, lógica ETL, cronogramas de atualização e muito mais. Anteriormente, era chamado de pool de dados.
+**fluxos de dados** Os fluxos de dados são usados para ingerir, transformar, integrar e enriquecer Big Data ao definir conexões de fonte de dados, lógica ETL, cronogramas de atualização e muito mais. Anteriormente pool de dados.
 
 **dataset (conjunto de dados)** vs **fonte de dados** Um **conjunto de dados** é uma coleção de dados usados para criar relatórios e visualizações.
 
@@ -102,8 +106,9 @@ Agora o **Auto Insights** é chamado de *Insights Rápidos*.
 **Desktop** ou **Power BI Desktop** Ferramenta gratuita do Power BI usada principalmente por administradores, desenvolvedores e designers de relatórios. 
 
 
-
 **diamond (losango)** Power BI Premium. A forma do ícone que representa que um workspace está em um workspace da capacidade Premium.
+
+**Dimensão**: as dimensões são dados categóricos (texto). Uma dimensão descreve uma pessoa, um objeto, um item, produtos, um lugar e um período. Em um conjunto de dados, as dimensões são uma maneira de agrupar *medidas* em categorias úteis. Para nossa empresa de skates, algumas dimensões podem incluir a análise de vendas (uma medida) por modelo, cor, país ou campanha de marketing.   
 
 **fazer drill up, fazer drill down, detalhamento** No Power BI, use os termos fazer drill down e fazer drill up para se referir à capacidade de explorar o próximo nível de detalhes em um relatório ou visual. Use o termo detalhamento para se referir à capacidade de selecionar uma parte de um visual e ser direcionado a outra página no relatório, filtrada com os dados relacionados à parte do visual que você selecionou na página original.
 Analisar detalhes normalmente significa mostrar os registros subjacentes.
@@ -168,6 +173,8 @@ Primeira instância: menções subsequentes ou espaços estreitos do painel de n
 **list page (página de listagem)** ou **content list (lista de conteúdo)** Uma das páginas de seção para os elementos na navegação à esquerda. Por exemplo, Favoritos, Recentes, Meu workspace, etc.
 
 ## <a name="m"></a>M
+
+**Medida**: uma medida é um campo quantitativo (numérico) que pode ser usado para fazer cálculos. Os cálculos comuns são soma, média e mínimo. Por exemplo, se nossa empresa fabrica e vende skates, nossas medidas podem ser o número de skates vendidos e o lucro médio por ano.
 
 **Mobile app (Aplicativo móvel)** Aplicativos que permitem executar o Power BI em dispositivos iOS, Android e Windows.
 
@@ -302,6 +309,8 @@ Você pode assinar páginas de relatórios, aplicativos e dashboards para recebe
 ## <a name="t"></a>T
 **tiles (blocos)**  
 Dashboards do Power BI contêm blocos de relatório.
+
+**Série temporal**: uma série temporal é uma maneira de exibir o tempo como pontos de dados sucessivos. Esses pontos de dados podem ser incrementos, como segundos, horas, meses ou anos.  
 
 
 ## <a name="u"></a>U

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874195"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540580"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
 Os relatórios do Power BI podem se conectar a diversas fontes de dados. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis. Os dados podem ser importados ou consultados diretamente usando o DirectQuery ou uma conexão dinâmica ao SQL Server Analysis Services.
@@ -121,7 +121,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 | Banco de Dados do SQL Server |Não |Não |Sim |Sim |
 | SQL Server Analysis Services |Não |Não |Sim |Sim |
 | Web |Sim |Não |Sim |Sim |
-| Banco de dados SQL do Azure |Não |Não |Sim |Não |
+| Banco de Dados SQL do Azure |Não |Não |Sim |Não |
 | SQL Data Warehouse do Azure |Não |Não |Sim |Não |
 | Active Directory |Não |Não |Sim |Sim |
 | Amazon Redshift |Não |Não |Não |Não |
@@ -198,16 +198,16 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 | --- | --- | --- | --- | --- | --- |
 | Banco de Dados do SQL Server |Não |Não |Sim |Sim |Sim |
 | SQL Server Analysis Services |Não |Não |Sim |Sim |Sim |
-| Banco de dados SQL do Azure |Não |Não |Sim |Não |Não |
+| Banco de Dados SQL do Azure |Não |Não |Sim |Não |Não |
 | SQL Data Warehouse do Azure |Não |Não |Sim |Não |Não |
 | Banco de dados Oracle |Não |Não |Sim |Sim |Sim |
 | Servidor do SAP Business Warehouse |Não |Não |Sim |Não |Não |
-| Banco de dados do SAP HANA |Não |Não |Sim |Sim |Não |
+| Banco de dados do SAP HANA |Não |Não |Sim |Sim |Sim** |
 | Teradata |Não |Não |Sim |Sim |Sim |
 
+**O SAP HANA é compatível com o DirectQuery com Autenticação Integrada do Windows somente ao usá-lo como um banco de dados relacional no arquivo do Power BI Desktop publicado (.pbix).
 
 ## <a name="next-steps"></a>Próximas etapas
 Agora que você se conectou à sua fonte de dados, [crie um relatório do Power BI](quickstart-create-powerbi-report.md) usando os dados da fonte de dados.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

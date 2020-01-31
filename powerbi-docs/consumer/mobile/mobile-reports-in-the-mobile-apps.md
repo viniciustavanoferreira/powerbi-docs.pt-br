@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/18/2020
 ms.author: painbar
-ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220668"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538096"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -53,6 +53,13 @@ Para ver um relatório no dashboard, toque em **Mais opções** (...) no canto s
 ## <a name="interact-with-reports"></a>Interagir com relatórios
 Depois de abrir um relatório no aplicativo, você pode começar a trabalhar com ele. Você pode fazer muitas coisas com seus relatórios e seus dados. No rodapé do relatório, você encontrará ações que podem ser executadas no relatório. Ao tocar e tocar de modo prolongado nos dados mostrados no relatório, você também pode dividir os dados.
 
+### <a name="single-tap-versus-double-tap-interaction"></a>Interação de toque simples versus toque duplo
+Quando você baixa o aplicativo móvel do Power BI, ele é definido com a interação de toque simples. Isso significa que, quando você tocar em um visual para executar alguma ação, como a seleção um item de segmentação, o realce cruzado, o clique em um link ou um botão etc., o toque selecionará o visual e executará a ação desejada.
+
+Se preferir, você poderá alternar para a interação de toque duplo. Com a interação de toque duplo, você primeiro toca em um visual para selecioná-lo e, em seguida, toca novamente no visual para executar a ação desejada.
+
+Para alternar para a interação de toque duplo ou voltar para a interação de toque simples, acesse [Configurações de interação do aplicativo](./mobile-app-interaction-settings.md).
+
 ### <a name="using-tap-and-long-tap"></a>Usando toque e toque longo
 Um toque é o mesmo que um clique com o mouse. Portanto, se desejar realizar um realce cruzado do relatório com base em um ponto de dados, toque nesse ponto de dados.
 Quando você toca em um valor de segmentação, o valor é selecionado e o restante do relatório é dividido por esse valor.
@@ -63,7 +70,6 @@ Você provavelmente observou que, quando você toca em um visual, uma borda é e
 ![Visual e menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
 ### <a name="tooltip-and-drill-actions"></a>Dica de ferramenta e ações de detalhamento
-
 Quando você realizar um toque longo (tocar e segurar) em um ponto de dados, será exibida uma dica de ferramenta mostrando os valores que esse ponto de dados representa:
 
 ![Dica de ferramenta](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
@@ -126,6 +132,8 @@ A opção **Verificar para filtrar o relatório por código de barras** só esta
 
 O aplicativo móvel do Power BI dá suporte a indicadores de relatório que o criador do relatório definiu e a indicadores pessoais que você pode definir no serviço do Power BI. Você pode encontrar o menu de indicadores em **Mais opções** (…) na [barra de ferramentas de ações de relatório](mobile-reports-in-the-mobile-apps.md#all-report-actions).
 
+Os indicadores padrão são indicados por um ícone especial. Para indicadores pessoais, você pode definir, remover a definição ou alterar a configuração padrão tocando em **Mais opções (...)** ao lado do indicador que deseja alterar e escolhendo **Tornar padrão** ou **Limpar padrão**.
+
 ![menu de indicadores](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
 Quando uma exibição de indicador de um relatório é aberta, o nome do indicador é exibido na parte superior do relatório.
@@ -133,6 +141,15 @@ Quando uma exibição de indicador de um relatório é aberta, o nome do indicad
 ![exibição de indicador](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [Saiba mais sobre indicadores no serviço do Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
+
+## <a name="configure-your-experience-with-reports"></a>Configurar a sua experiência com relatórios
+O aplicativo móvel do Power BI tem várias configurações que permitem controlar a sua experiência com relatórios. No momento, é possível configurar as opções a seguir
+* **Interação com visuais de relatório**: você pode optar por usar uma interação de toque simples ou toque duplo.
+* **Método de atualização de dados**: você pode optar por ter um botão de atualização ou uma ação suspensa para atualizar os dados do relatório.
+* **Visibilidade do rodapé do relatório**: você pode optar por ter um rodapé encaixado que sempre esteja visível ou um rodapé dinâmico que é ocultado e novamente exibido, dependendo das suas ações (rolagem, por exemplo).
+
+Confira [Configurações de interação do aplicativo](./mobile-app-interaction-settings.md) para obter informações sobre como alterar essas configurações.
+
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Exibir e interagir com relatórios do Power BI otimizados para seu telefone](mobile-apps-view-phone-report.md)

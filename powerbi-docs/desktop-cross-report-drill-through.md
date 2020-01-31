@@ -6,116 +6,97 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7189ef77446446b56b1dcb55b43b022d0fc5c057
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: e500cb29bcc4472c59e7e8215fc0a7e7e728ea0d
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868773"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538788"
 ---
-# <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Usar o detalhamento entre relatórios no Power BI Desktop
+# <a name="use-cross-report-drillthrough-in-power-bi"></a>Usar o detalhamento entre relatórios no Power BI
 
-Com o recurso de detalhamento entre relatórios no Power BI Desktop, você pode saltar contextualmente de um relatório para outro. Isso vale desde que os relatórios estejam dentro do mesmo workspace ou aplicativo no serviço do Power BI. Use o detalhamento entre relatórios para conectar dois ou mais relatórios que tenham conteúdo relacionado e passar o contexto de filtro junto com a conexão entre relatórios. Neste artigo, você aprenderá a configurar um detalhamento entre relatórios para relatórios do Power BI, e saberá qual será a experiência dos usuários quando usarem o detalhamento entre relatórios.
+Com o recurso de *detalhamento entre relatórios* do Power BI, você pode saltar contextualmente de um relatório para outro no mesmo workspace ou aplicativo do serviço do Power BI. Use o detalhamento entre relatórios para conectar dois ou mais relatórios que tenham um conteúdo relacionado e transmitir o contexto de filtro junto com a conexão entre relatórios. 
 
-![Captura de tela da opção de detalhamento do Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
+Para iniciar o detalhamento entre relatórios, selecione um ponto de dados em um *visual de origem* de um *relatório de origem* e, em seguida, selecione o destino **Detalhamento** entre relatórios no menu de contexto. 
 
-É importante entender as definições a seguir antes de começarmos a configurar e usar o detalhamento entre relatórios:
+![Opção de detalhamento entre relatórios do Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 
-* **Visual de origem:** O visual que invoca a ação de detalhamento usando o menu de contexto visual.
-* **Relatório de origem:** O relatório que contém o visual de origem para detalhamento entre relatórios.
-* **Página de destino:** A página na qual um usuário chega depois de iniciar uma ação de detalhamento.
-* **Relatório de destino:** O relatório que contém a página de destino para detalhamento entre relatórios.
+A ação de detalhamento abre a *página de destino* no *relatório de destino*. 
 
+![Destino de detalhamento entre relatórios do Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
+
+Este artigo mostra como configurar e usar o detalhamento entre relatórios nos relatórios do Power BI.
 
 > [!NOTE]
-> Com o recurso de detalhamento entre relatórios no Power BI Desktop, você pode saltar contextualmente de um relatório para outro. Isso vale desde que os relatórios estejam dentro do mesmo workspace ou aplicativo no serviço do Power BI. Mas não é aplicável ao acessar relatórios compartilhados individualmente no *Meu espaço de trabalho* ([Relatórios compartilhados comigo](service-share-dashboards.md#share-a-dashboard-or-report)); em vez disso, você precisa acessar o relatório no espaço de trabalho no qual foi originalmente compartilhado.
-
+> Não é possível usar o detalhamento entre relatórios com [relatórios Compartilhados comigo](service-share-dashboards.md#share-a-dashboard-or-report) compartilhados individualmente em **Meu Workspace**. Para usar o detalhamento entre relatórios, é necessário acessar os relatórios no workspace em que eles foram compartilhados.
 
 ## <a name="enable-cross-report-drillthrough"></a>Habilitar o detalhamento entre relatórios
 
-Para habilitar um relatório como o destino de um detalhamento entre relatórios, você deve habilitar o recurso para esse relatório na janela **Opções**. Acesse **Arquivo** > **Opções e configurações** > **Opções** e acesse as **Configurações do relatório** perto da parte inferior da página à esquerda.
+A primeira etapa para habilitar o detalhamento entre relatórios é validar os modelos de dados dos relatórios de origem e destino. Embora os esquemas de cada relatório não precisem ser os mesmos, os campos que você deseja transmitir precisam existir em ambos os modelos de dados. Os nomes dos campos e os nomes das tabelas aos quais eles pertencem precisam ser idênticos. As cadeias de caracteres precisam ser correspondentes e diferenciar maiúsculas de minúsculas.
 
-Marque a caixa de seleção **Permitir que os visuais deste relatório usem destinos de detalhamento de outros relatórios**, conforme mostra a imagem a seguir.
+Por exemplo, se você desejar transmitir um filtro em um campo **State** de uma tabela **US States**, ambos os modelos precisarão ter uma tabela **US States** e um campo **State** dentro dessa tabela. Caso contrário, você deverá atualizar o nome do campo ou o nome da tabela no modelo subjacente. Simplesmente atualizar o nome de exibição dos campos não funcionará corretamente para detalhamento entre relatórios.
 
-![Captura de tela da janela Opções, com Configurações do relatório realçada](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
+Depois de validar os modelos, permita que o relatório de origem use o detalhamento entre relatórios. 
 
-Agora o detalhamento entre relatórios está habilitado.
+1. No Power BI Desktop, acesse **Arquivo** > **Opções e configurações** > **Opções**. 
+1. No painel de navegação à esquerda da janela **Opções**, na parte inferior da seção **Arquivo atual**, selecione **Configurações do relatório**. 
+1. Na parte inferior direita, em **Detalhamento entre relatórios**, selecione **Permitir que os visuais deste relatório usem destinos de detalhamento de outros relatórios**. 
+1. Selecione **OK**. 
+   
+   ![Habilitar o detalhamento entre relatórios no Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 
-## <a name="set-up-cross-report-drillthrough"></a>Configurar o detalhamento entre relatórios
+Habilite também o detalhamento entre relatórios por meio do serviço do Power BI.
+1. No serviço do Power BI, selecione o workspace que contém seus relatórios de origem e destino.
+1. Ao lado do nome do relatório de origem na lista de workspaces, selecione o símbolo **Mais opções** e, em seguida, selecione **Configurações**. 
+1. Próximo à parte inferior do painel **Configurações**, em **Detalhamento entre relatórios**, selecione **Permitir que os visuais deste relatório usem destinos de detalhamento de outros relatórios** e, em seguida, selecione **Salvar**.
+   
+   ![Habilitar o detalhamento entre relatórios no serviço do Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-02a.png)
 
-A configuração do detalhamento entre relatórios é semelhante à configuração do detalhamento dentro de um relatório. O detalhamento é habilitado na página de destino, permitindo que outros visuais usem a página habilitada para detalhamento. Para obter as etapas de criação do detalhamento em um único relatório, confira [Usar o detalhamento no Power BI Desktop](desktop-drillthrough.md).
+## <a name="set-up-a-cross-report-drillthrough-target"></a>Configurar um destino de detalhamento entre relatórios
 
-Para iniciar o processo de instalação, execute algumas etapas iniciais:
+A configuração de uma página de destino para o detalhamento entre relatórios é semelhante à configuração do detalhamento em um relatório. A habilitação do detalhamento na página de destino permite que outros visuais sejam direcionados à página para detalhamento. Para criar o detalhamento em um só relatório, confira [Usar o detalhamento no Power BI Desktop](desktop-drillthrough.md).
 
-* Configure uma página de destino de detalhamento, que poderá ser acessada de outros relatórios no workspace ou aplicativo.
-* Permita que um relatório veja as páginas de detalhamento de fora do próprio relatório.
+Configure um destino para o detalhamento entre relatórios no Power BI Desktop ou no serviço do Power BI. 
+1. Edite o arquivo de destino e, na página destino do relatório de destino, selecione a seção **Campos** do painel **Visualizações**. 
+1. Em **Detalhamento**, defina a alternância **Entre relatórios** para **Ativado**. 
+1. Arraste os campos que deseja usar como destinos de detalhamento em **Adicionar campos de detalhamento aqui**. Para cada campo, selecione se deseja permitir o detalhamento quando o campo é usado como uma categoria ou quando ele é resumido como uma medida. 
+1. Selecione se deseja **Manter todos os filtros** do visual. Caso não deseje transmitir os filtros aplicados ao visual de origem para o visual de destino, selecione **Desativado**.
+   
+   ![Painel Visualizações, com as opções de Detalhamento realçadas](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
+   
+1. Se estiver usando a página apenas para o detalhamento entre relatórios, exclua o botão **Voltar**, que é adicionado automaticamente à tela. O botão **Voltar** só funciona para a navegação em um relatório. 
+1. Depois de configurar a página de destino, salve o relatório se estiver no serviço do Power BI ou salve o relatório e publique-o se estiver usando o Power BI Desktop.
 
-Encontre as opções de detalhamento na seção **Campos** do painel **Visualizações**, conforme mostra a imagem a seguir.
+Isso é tudo. Seus relatórios estão prontos para o detalhamento entre relatórios. 
 
-![Captura de tela do painel Visualizações, com as opções de Detalhamento realçadas](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
+## <a name="use-cross-report-drillthrough"></a>Usar detalhamento de relatório cruzado
 
-A primeira etapa para habilitar o detalhamento de uma página é validar os modelos de dados dos relatórios de origem e de destino. Verifique se: 
+Para usar o detalhamento entre relatórios, selecione o relatório de origem no serviço do Power BI e, em seguida, selecione um visual que use o campo de detalhamento da maneira que você especificou ao configurar a página de destino. Clique com o botão direito do mouse em um ponto de dados para abrir o menu de contexto do visual, selecione **Detalhamento** e, em seguida, selecione o destino de detalhamento. Os destinos do detalhamento entre relatórios são formatados como **Nome da página [nome do relatório]** .
 
-* Os campos que você deseja passar existem nos dois modelos de dados.
-* Os nomes dos campos, e os nomes das tabelas aos quais eles pertencem, são idênticos (as cadeias de caracteres também devem corresponder, e diferenciam maiúsculas de minúsculas).
+![Opção de detalhamento entre relatórios do Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 
-Por exemplo, se você quiser passar um filtro no campo *País* dentro da tabela *Geografia*, os dois modelos devem ter uma tabela *Geografia* e um campo *País* dentro dessa tabela. Caso contrário, você deverá atualizar o nome do campo ou o nome da tabela no modelo subjacente. Simplesmente atualizar o nome de exibição dos campos não funcionará corretamente para detalhamento entre relatórios. (Observe que os esquemas em cada relatório não precisam ser exatamente iguais).
+Você verá os resultados na página de detalhamento entre relatórios de destino, assim como você os configurou quando criou o destino. Os resultados são filtrados de acordo com as configurações de detalhamento.
 
-Para começar a configuração, você precisa preparar a página de destino. No Power BI Desktop, acesse a página e verifique se a opção de ativação/desativação de detalhar **Relatório cruzado** está definida como **Ativado**. 
-
-![Captura de tela da opção de ativação/desativação de Relatório cruzado definida como Ativado](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
-
-Em seguida, arraste para a tela os campos que você quer usar como o destino do detalhamento. Selecione se você quer que o campo seja usado como uma categoria ou resumido como uma medida. Neste ponto, você pode selecionar se quer desabilitar a opção **Manter todos os filtros** para o visual. Se você não quiser passar outros filtros aplicados do visual de origem para o visual de detalhamento de destino, selecione **Desativado**.
-
-> [!NOTE]
-> Se você estiver usando a página apenas para detalhamento entre relatórios, exclua o botão **Voltar** que é adicionado automaticamente. O botão **Voltar** só funciona para navegação dentro de um único relatório. 
-
-Depois de configurar o visual, salve o relatório se você estiver no serviço do Power BI, ou salve e publique o relatório se você estiver usando Power BI Desktop.
-
-A seção anterior descreveu como habilitar o detalhamento entre relatórios para Power BI Desktop (na janela **Opções**). Se você estiver usando o serviço do Power BI para criar um destino de detalhamento entre relatórios, para habilitar o detalhamento entre relatórios você deverá: 
-
-1. Selecionar o workspace onde estão o relatório de destino e o relatório de origem.
-2. Selecionar **Relatórios**.
-3. Selecionar o ícone **Configurações** para o relatório de origem.
-4. Verificar se a opção de ativação/desativação de detalhamento entre relatórios está em **Ativado**.
-5. Salvar seu relatório.
-
-Isso é tudo. Seu relatório está pronto para a experiência de detalhamento entre relatórios. 
-
-Na próxima seção, vamos ver a experiência da perspectiva do usuário.
-
-## <a name="cross-report-drillthrough-experience"></a>Experiência do detalhamento entre relatórios
-
-Ao configurar a experiência de detalhamento entre relatórios de um relatório, você pode colocar em prática o recurso.
-
-Selecione o relatório de origem no serviço do Power BI e, depois, selecione um visual que usa o campo ou campos da maneira que você especificou ao configurar a página de destino. Em seguida, clique com o botão direito do mouse em um ponto de dados para abrir o menu de contexto visual, e selecione **Detalhamento**.
-
-![Captura de tela do relatório de origem no serviço do Power BI, com Detalhamento realçado](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
-
-Em seguida, você verá os resultados na página de detalhamento entre relatórios de destino, assim como você os configurou quando criou o destino. Os resultados são filtrados de acordo com as configurações de detalhamento.
+![Destino de detalhamento entre relatórios do Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
 
 > [!IMPORTANT]
-> O Power BI armazena em cache os destinos de detalhamento entre relatórios. Se você fizer alterações, atualize o navegador, caso não veja os destinos de detalhamento. 
+> O Power BI armazena em cache os destinos de detalhamento entre relatórios. Se você fizer alterações, atualize o navegador, caso não veja os destinos de detalhamento conforme esperado. 
 
-Os destinos entre relatórios são formatados da seguinte maneira: 
+Se você definir **Manter todos os filtros** como **Ativado** ao configurar a página de destino, o contexto de filtro do visual de origem poderá incluir o seguinte: 
 
-`Target Page Name [Target Report Name]`
+- Filtros no nível do relatório, da página e do visual que afetam o visual de origem 
+- Filtro e realce cruzados que afetam o visual de origem 
+- Segmentações e segmentações de sincronização na página
+- Parâmetros de URL
 
-Após a seleção da página de destino na qual você quer aplicar o detalhamento, o Power BI acessa essa página. Ele passa o contexto de filtro com base nas configurações da página de destino. 
+Quando você aterrissa no relatório de destino para detalhamento, o Power BI aplica somente os filtros dos campos que têm correspondências exatas de cadeias de caracteres no nome do campo e no nome da tabela. 
 
-O contexto de filtro do visual de origem pode incluir o seguinte: 
+O Power BI não aplica filtros temporários por meio do relatório de destino, mas aplica o indicador pessoal padrão, caso você tenha um. Por exemplo, se o indicador pessoal padrão incluir um filtro no nível do relatório para *Country = US*, o Power BI aplicará esse filtro antes de aplicar o contexto de filtro do visual de origem. 
 
-* Filtros no nível do relatório, da página e do visual que afetam o visual de origem. 
-* Filtro e realce cruzados que afetam o visual de origem. 
-* Segmentações de dados na página e segmentações de dados de sincronização.
-* Parâmetros de URL.
-
-Ao chegar ao relatório de destino para detalhamento, o Power BI aplica apenas os filtros dos campos nos quais encontra correspondências exatas de cadeias de caracteres para nome de campo e nome de tabela. O Power BI não aplica filtros temporários do relatório de destino. No entanto, ele aplica o seu indicador pessoal padrão, se houver um. Por exemplo, se o seu indicador pessoal padrão incluir um filtro no nível do relatório para *País = EUA*, o Power BI aplicará esse filtro primeiro, antes de aplicar o contexto de filtro do visual de origem. 
-
-Para o detalhamento entre relatórios, o Power BI passa o contexto de filtro para todas as páginas padrão no relatório de destino. O Power BI não passa o contexto de filtro para páginas de dica de ferramenta, pois essas páginas são filtradas com base no visual de origem que invoca a dica de ferramenta.
+Para o detalhamento entre relatórios, o Power BI transmite o contexto de filtro para as páginas padrão no relatório de destino. O Power BI não passa o contexto de filtro para páginas de dica de ferramenta, pois essas páginas são filtradas com base no visual de origem que invoca a dica de ferramenta.
 
 Se você quiser retornar ao relatório de origem após a ação de detalhamento entre relatórios, use o botão **Voltar** do navegador. 
 
@@ -123,6 +104,6 @@ Se você quiser retornar ao relatório de origem após a ação de detalhamento 
 
 Você também pode estar interessado nos seguintes artigos:
 
-* [Usando segmentações no Power BI Desktop](visuals/power-bi-visualization-slicers.md)
-* [Usar o detalhamento no Power BI Desktop](desktop-drillthrough.md)
+- [Segmentações no Power BI](visuals/power-bi-visualization-slicers.md)
+- [Usar o detalhamento no Power BI Desktop](desktop-drillthrough.md)
 

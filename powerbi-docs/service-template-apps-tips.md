@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622446"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710140"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Dicas para a criação de aplicativos de modelo no Power BI
 
@@ -134,6 +134,17 @@ Os aplicativos de modelo dão suporte a aplicativos somente de dados de exemplo.
 * Antes de carregar pbix no workspace de modelo, descarregue todas as conexões desnecessárias.
 * Siga as [Práticas recomendadas para criação de relatórios e visuais](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) do Power BI para alcançar o máximo impacto sobre os usuários e obter a aprovação para distribuição.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
+
+## <a name="create-a-download-link-for-the-app"></a>Criar um link de download para o aplicativo
+
+Depois de publicar o aplicativo de modelo no AppSource, considere criar um link de download do seu site para:
+* Página de download do AppSource – pode ser exibida publicamente, obtenha o link da sua página do AppSource.
+* Power BI – pode ser exibido por um usuário do Power BI.
+
+Para redirecionar um usuário para o link de download do aplicativo no Power BI, confira o seguinte exemplo de código: [Repositório GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+[![Link de download do aplicativo](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+
 
 ## <a name="known-limitations"></a>Limitações conhecidas
 

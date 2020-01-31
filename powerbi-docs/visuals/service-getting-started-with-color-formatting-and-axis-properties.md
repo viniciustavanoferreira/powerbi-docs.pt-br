@@ -1,27 +1,27 @@
 ---
-title: Guia de introdução com propriedades de eixo e formatação de cor
-description: Guia de introdução com propriedades de eixo e formatação de cor
+title: Introdução às visualizações de relatório de formatação
+description: Introdução ao uso das opções de formatação com visualizações de relatório
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762245"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540604"
 ---
-# <a name="get-started-with-color-formatting-and-axis-properties"></a>Introdução à formatação de cor e às propriedades de eixo
-No **Power BI**, altere a cor de série de dados, pontos de dados e até mesmo da tela de fundo das visualizações. Você também pode alterar como os eixos x e y são apresentados, fornecendo a você controle total sobre como seus painéis e relatórios são exibidos.
+# <a name="getting-started-with-the-formatting-pane"></a>Introdução ao painel de formatação
+Se você tem permissões de edição para um relatório, há várias opções de formatação disponíveis. Nos relatórios do **Power BI**, altere a cor de série de dados, pontos de dados e até mesmo da tela de fundo das visualizações. Você pode alterar a forma como os eixos x e y são apresentados. Você pode até mesmo formatar as propriedades de fonte de visualizações, formas e títulos, fornecendo controle total de como seus relatórios são exibidos.
 
-Para começar, selecione um **Relatório** do painel **Meu Workspace**. Em seguida, na área do menu superior, selecione **Editar Relatório**.  
+Para começar, abra um relatório no Power BI Desktop ou no serviço do Power BI. Ambos oferecem opções de formatação quase idênticas. Ao abrir um relatório no serviço do Power BI, selecione **Editar Relatório** na barra de menus.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
+![barra de menus mostrando a opção Editar](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
 Quando você estiver editando um relatório e você tiver uma visualização selecionada, o painel **Visualizações** será exibido, o que permite adicionar ou alterar as visualizações. Diretamente abaixo das visualizações disponíveis há três ícones: o ícone **Campos** (uma pilha de barras), o ícone **Formato** (um rolo de pintura) e o ícone **Análise** (uma lupa). Na imagem abaixo, o ícone **Campos** está selecionado, indicado por uma barra amarela abaixo do ícone.
 

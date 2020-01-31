@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1349d62d0400c0ad283f6e9e234c44ffce0d63b9
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73766404"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537199"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Proteção de dados no Power BI (versão prévia)
 
@@ -99,13 +99,13 @@ A lista a seguir fornece algumas limitações dos rótulos de confidencialidade 
 * Os rótulos de confidencialidade podem ser aplicados apenas a dashboards, relatórios, conjuntos de dados e fluxos de dados.
 * A imposição de controles de proteção e rótulo em arquivos exportados tem suporte apenas para arquivos do Excel, do PowerPoint e PDF. O rótulo e a proteção não são impostos quando os dados são exportados para arquivos .CSV, Assinaturas de email, Visuais incorporados e impressões.
 * Um usuário que exporta um arquivo do Power BI tem permissões para acessar e editar esse arquivo de acordo com as configurações do rótulo de confidencialidade. O usuário que exporta os dados não obtém permissões de proprietário para o arquivo. 
-* Atualmente, os rótulos de confidencialidade não estão disponíveis para [relatórios paginados]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) e pastas de trabalho. 
-* No momento, não é possível excluir um rótulo de um ativo do Power BI após ele ter sido aplicado.
+* Atualmente, os rótulos de confidencialidade não estão disponíveis para [relatórios paginados]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) e pastas de trabalho.
 * Os rótulos de confidencialidade em ativos do Power BI ficam visíveis apenas na lista do workspace e nas exibições de linhagem; atualmente, os rótulos não ficam visíveis nas exibições favoritos, compartilhados comigo, recentes ou de aplicativo. Observe, no entanto, que um rótulo aplicado a um ativo do Power BI, mesmo que não esteja visível, sempre persistirá em dados exportados para arquivos do Excel, do PowerPoint e PDF.
 * O rótulo de confidencialidade *Configuração de criptografia de arquivo*, configurado na [central de segurança do Microsoft 365](https://security.microsoft.com/) ou na [central de conformidade do Microsoft 365](https://compliance.microsoft.com/), aplica-se somente a arquivos *exportados do* Power BI; ele não é imposto *dentro* do Power BI.
 * A [proteção de HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) não tem suporte para rótulos aplicados no Power BI.
 * A exibição e a aplicação de rótulos em aplicativos do Office têm [requisitos de licenciamento](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Os rótulos de confidencialidade têm suporte apenas para locatários na nuvem global (pública). Os rótulos de confidencialidade não têm suporte para locatários em outras nuvens.
+* Não há suporte aos rótulos de confidencialidade para [usuários externos (usuários convidados do Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md). Isso significa que os usuários externos não podem ver rótulos e serão impedidos de exportar dados para arquivos do Excel, PDF e PPTX. [Remova o rótulo](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels) para permitir que usuários externos exportem dados para esses tipos de arquivos.
 
 
 
@@ -116,3 +116,4 @@ Este artigo forneceu uma visão geral da proteção de dados no Power BI. Os art
 * [Habilitar rótulos de confidencialidade de dados no Power BI](service-security-enable-data-sensitivity-labels.md)
 * [Aplicar rótulos de confidencialidade de dados no Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
 * [Usando controles do Microsoft Cloud App Security no Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Relatório de métricas de proteção de dados](service-security-data-protection-metrics-report.md)

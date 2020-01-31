@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 7670f8147af54f3b3a6c2c0eba34bb3ca7843eda
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264079"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539039"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -67,8 +67,8 @@ Aqui está uma lista parcial das diferenças dos recursos.
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | SKUs A – Capacidade do Azure | SKUs EM – Capacidade do O365 | SKUs P – Capacidade do O365 |
 | Inserir artefatos de um workspace do Power BI | Sim | Sim | Sim |
-| Consumir Relatórios do Power BI em um aplicativo inserido – SaaS | Não | Sim | Sim |
-| Consumir Relatórios do Power BI em um aplicativo inserido – PaaS | Sim | Sim | Sim |
+| Consumir relatórios do Power BI em um aplicativo inserido para sua organização  | Não | Sim | Sim |
+| Consumir relatórios do Power BI em um aplicativo inserido para seus clientes | Sim | Sim | Sim |
 | Consumir relatórios do Power BI no SharePoint | Não | Sim | Sim |
 | Consumir relatórios do Power BI no Dynamics | Não | Sim | Sim |
 | Consumir relatórios do Power BI no Teams (exceto aplicativo móvel) | Não | Sim | Sim |
@@ -154,12 +154,12 @@ Para [promover sua solução para produção](embed-sample-for-customers.md#move
 Regiões disponíveis (16 – nas mesmas regiões que o Power BI)
 
 * EUA (6) – Leste dos EUA, Leste dos EUA 2, Centro-Norte dos EUA, Centro-Sul dos EUA, Oeste dos EUA, Oeste dos EUA 2
-* Europa (2) – Europa Setentrional, Europa Ocidental
-* Pacífico Asiático (2) – Sudeste Asiático, Ásia Oriental
+* Europa (2) – Norte da Europa, Europa Ocidental
+* Pacífico Asiático (2) – Sudeste Asiático, Leste da Ásia
 * Brasil (1) – Sul do Brasil
 * Japão (1) – Leste do Japão
 * Austrália (1) – Sudeste da Austrália
-* Índia (1) – Índia Ocidental
+* Índia (1) – Oeste da Índia
 * Canadá (1) – Canadá Central
 * Reino Unido (1) – Sul do Reino Unido
 
@@ -323,7 +323,7 @@ Os clientes que já usam a solução **Coleções de workspace do Power BI** pod
 
 ### <a name="in-what-regions-can-i-create-a-pbi-workspace-collection"></a>Em quais regiões a Coleção de workspaces do PBI pode ser criada?
 
-As regiões disponíveis são Sudeste da Austrália, Sul do Brasil, Canadá Central, Leste dos EUA 2, Leste do Japão, Centro-Norte dos EUA, Europa Setentrional, Centro-Sul dos EUA, Sudeste Asiático, Sul do Reino Unido, Europa Ocidental, Índia Ocidental e Oeste dos EUA.
+As regiões disponíveis são Sudeste da Austrália, Sul do Brasil, Canadá Central, Leste dos EUA 2, Leste do Japão, Centro-Norte dos EUA, Norte da Europa, Centro-Sul dos EUA, Sudeste Asiático, Sul do Reino Unido, Europa Ocidental, Oeste da Índia e Oeste dos EUA.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Por que migrar da Coleção de Workspaces do PBI para o Power BI Embedded?
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218118"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709784"
 ---
-# <a name="qa-for-power-bi-consumers"></a>P e R para **consumidores** do Power BI
+# <a name="qa-for-power-bi-consumers"></a>P e R para consumidores do Power BI
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -167,6 +167,10 @@ Em seguida, escolha **Configurações** > **Dashboards**. Verifique se há uma m
 **Resposta**: Selecione a opção para entrar em contato com o proprietário do relatório ou do dashboard. Você pode fazer isso diretamente em uma página de dashboard de P e R ou no visual de P e R. Outra opção é procurar o proprietário no cabeçalho do Power BI.  Há muitas coisas que o designer pode fazer para melhorar os resultados de P e R. Por exemplo, o designer pode renomear as colunas no conjunto de dados usando termos que são facilmente compreendidos (`CustomerFirstName` em vez de `CustFN`). Já que o designer conhece muito bem o conjunto de dados, ele também pode elaborar perguntas úteis e adicioná-los às perguntas sugeridas de P e R.
 
 ![Exibir informações de contato](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>Privacidade
+
+A Microsoft pode usar suas perguntas para aprimorar o Power BI. Examine a [Política de Privacidade da Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839) para obter mais informações.
 
 ## <a name="next-steps"></a>Próximas etapas
 Para saber como um visual de P e R é criado e gerenciado por um *designer* de relatório, confira [Tipo de visual de P e R](../visuals/power-bi-visualization-q-and-a.md).

@@ -7,15 +7,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 01/22/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851330"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537475"
 ---
 # <a name="export-data-from-a-visual"></a>Exportar dados de um visual
 
@@ -31,15 +31,18 @@ Se desejar ver os dados usados para criar um visual, [você poderá exibi-los no
 
 2. Passe o mouse sobre um visual para revelar **Mais opções** (...) e clique para exibir o menu de ação.
 
-    ![Menu que aparece quando as reticências são selecionadas](media/end-user-export/power-bi-action-menu.png)
+    ![Menu que aparece quando as reticências são selecionadas](media/end-user-export/power-bi-options-menu.png)
 
-3. Selecione **Exportar para o Excel**.
+3. Selecione **Exportar para .csv**.
 
 4. O que acontece em seguida depende do navegador que você está usando. Você pode ser solicitado a salvar o arquivo ou pode ver um link para o arquivo exportado na parte inferior do navegador. 
 
     ![Navegador Chrome mostrando o link de arquivo exportado](media/end-user-export/power-bi-dashboard-exports.png)
 
-5. Abra o arquivo no Excel.  
+5. Abra o arquivo no Excel. 
+
+    > [!NOTE]
+    > Caso você não tenha permissões nos dados, não poderá exportá-los nem os abrir no Excel.  
 
     ![Acumulado do Total de Unidades no Excel](media/end-user-export/power-bi-excel.png)
 
@@ -53,27 +56,30 @@ Você pode exportar dados de um visual em um relatório como formato .csv ou .xl
 
     Como esse bloco foi criado no relatório *Exemplo de Vendas e marketing*, esse é o relatório aberto. E ele é aberto na página que contém o visual do bloco selecionado. 
 
-2. Selecione o bloco no relatório. Observe o painel **Filtros** à direita. Esse visual tem filtros aplicados. Para saber mais sobre filtros, confira [Usar filtros em um relatório](end-user-report-filter.md).
+2. Selecione o visual no relatório. Observe o painel **Filtros** à direita. Esse visual tem filtros aplicados. Para saber mais sobre filtros, confira [Usar filtros em um relatório](end-user-report-filter.md).
 
     ![Painel de filtro selecionado](media/end-user-export/power-bi-export-filter.png)
 
 
-3. Selecione as reticências no canto superior direito da visualização. Escolha **Exportar dados**.
+3. Selecione **Mais opções (...)** no canto superior direito da visualização. Escolha **Exportar dados**.
 
     ![Opção Exportar dados selecionada no menu suspenso](media/end-user-export/power-bi-export-report.png)
 
 4. Você verá opções para exportar Dados resumidos ou Dados subjacentes. Se você estiver usando o aplicativo *Exemplo de vendas e marketing*, **Dados subjacentes** será desabilitada. Mas você pode encontrar relatórios onde ambas as opções estão habilitadas. Veja a seguir uma explicação da diferença.
 
-    **Dados resumidos**: selecione essa opção se quiser exportar dados para o que você vê no visual.  Esse tipo de exportação mostra somente os dados que foram usados para criar o visual. Se o visual tiver filtros aplicados, os dados exportados também serão filtrados. Por exemplo, para esse visual, sua exportação incluirá apenas dados de 2014 e da região central, e apenas dados para quatro dos fabricantes: VanArsdel, Natura, Aliqui e Pirum.
+    **Dados resumidos**: selecione essa opção se quiser exportar dados do que você vê atualmente no visual.  Esse tipo de exportação mostra somente os dados que foram usados para criar o estado atual do visual. Se o visual tiver filtros aplicados, os dados exportados também serão filtrados. Por exemplo, para esse visual, sua exportação incluirá apenas dados de 2014 e da região central, e apenas dados para quatro dos fabricantes: VanArsdel, Natura, Aliqui e Pirum. Se o visual tiver agregações (soma, média etc.), a exportação também será agregada. 
   
 
-    **Dados subjacentes**: selecione essa opção se quiser exportar dados para o que você vê no visual **mais** dados adicionais do conjunto de dados subjacente.  Isso pode incluir dados contidos no conjunto de dados, mas não usados no visual. 
+    **Dados subjacentes**: selecione essa opção se quiser exportar dados para o que você vê no visual **mais** dados adicionais do conjunto de dados subjacente.  Isso pode incluir dados contidos no conjunto de dados, mas não usados no visual. Se o visual tiver filtros aplicados, os dados exportados também serão filtrados.  Se o visual tiver agregações (soma, média etc.), a exportação removerá a agregação, essencialmente, nivelando os dados. 
 
-    ![Menu onde você escolhe dados subjacentes ou resumidos](media/end-user-export/power-bi-export-option.png)
+    ![Menu onde você escolhe dados subjacentes ou resumidos](media/end-user-export/power-bi-export-underlying.png)
 
 5. O que acontece em seguida depende do navegador que você está usando. Você pode ser solicitado a salvar o arquivo ou pode ver um link para o arquivo exportado na parte inferior do navegador. 
 
     ![Arquivo exportado sendo exibido no navegador Microsoft Edge](media/end-user-export/power-bi-export-edge-browser.png)
+
+    > [!NOTE]
+    > Caso você não tenha permissões nos dados, não poderá exportá-los nem os abrir no Excel.  
 
 
 6. Abra o arquivo no Excel. Compare a quantidade de dados exportados com os dados que exportamos do mesmo visual no painel. A diferença é que essa exportação inclui **Dados subjacentes**. 

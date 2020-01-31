@@ -7,30 +7,28 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1f54ce3a6bfd69caa3f386b7684e3df7f725523d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74164068"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709533"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Conectar um relatório a um conjunto de dados usando associação dinâmica 
 
-Quando um usuário se conecta a um conjunto de dados, você pode usar a associação dinâmica. A conexão entre o relatório e o conjunto de dados é conhecida como *associação*. Quando a associação é determinada no ponto de inserção, em vez de ser predeterminada anteriormente, a associação é conhecida como [associação dinâmica](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0).
- 
+Quando um usuário se conecta a um conjunto de dados, você pode usar a associação dinâmica. A conexão entre o relatório e o conjunto de dados é conhecida como *associação*. Quando a associação é determinada no ponto de inserção, em vez de ser predeterminada anteriormente, a associação é conhecida como associação dinâmica.
+
 Ao inserir um relatório de Power BI usando *associação dinâmica*, você pode conectar o mesmo relatório a diferentes conjuntos de valores, dependendo das credenciais do usuário.
- 
+
 Isso significa que você pode usar um relatório para exibir informações diferentes, dependendo do conjunto de dados ao qual ele está conectado. Por exemplo, um relatório que mostra valores de venda de varejo pode ser conectado a diferentes conjuntos de dados de revendedores e produzir resultados diferentes, dependendo do conjunto de dados do varejista ao qual ele está conectado.
- 
+
 O relatório e o conjunto de dados não precisam residir no mesmo workspace. Ambos os workspaces (aquele que contém o relatório e aquele que contém o conjunto de dados) devem ser atribuídos a uma [capacidade](azure-pbie-create-capacity.md).
 
 Como parte do processo de inserção, certifique-se de *gerar um token com permissões suficientes* e *ajustar o objeto de configuração*.
 
-
 ## <a name="generating-a-token-with-sufficient-permissions"></a>Gerar um token com permissões suficientes
 
 A associação dinâmica tem suporte para os cenários de *Inserção para a sua organização* e *Inserção para seus clientes*. A tabela abaixo descreve as considerações para cada cenário.
-
 
 |Cenário  |Propriedade dos dados  |Token  |Requisitos  |
 |---------|---------|---------|---------|

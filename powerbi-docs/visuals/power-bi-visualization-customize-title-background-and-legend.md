@@ -11,10 +11,10 @@ ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75757820"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizar títulos, telas de fundo e legendas de visualizações
@@ -86,7 +86,7 @@ Com o mesmo gráfico de colunas clusterizado selecionado, expanda as opções de
 
 1. Selecione a lista suspensa e escolha uma cor cinza.
 
-1. Altere a **Transparência** para **74%** .
+1. Altere a **Transparência** para **74%**.
 
 Nesse ponto do tutorial, o plano de fundo do gráfico de colunas clusterizado se parecerá com este:
 

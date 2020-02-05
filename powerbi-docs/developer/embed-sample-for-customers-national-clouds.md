@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
 ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74695417"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserir conteúdo do Power BI a seu aplicativo para nuvens nacionais
@@ -202,7 +202,7 @@ ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspac
 Report report = reports.Value.FirstOrDefault();
 ```
 
-#### <a name="dashboards"></a>Painéis
+#### <a name="dashboards"></a>Dashboards
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -266,7 +266,7 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-#### <a name="dashboards"></a>Painéis
+#### <a name="dashboards"></a>Dashboards
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

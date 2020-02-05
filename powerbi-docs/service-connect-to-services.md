@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73925821"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975020"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Conectar-se aos serviços que você usa com o Power BI
 Com o Power BI, é possível se conectar aos vários serviços que você usa para administrar sua empresa, como o Salesforce, Microsoft Dynamics e Google Analytics. O Power BI começa usando suas credenciais para se conectar ao serviço. Em seguida, cria um *workspace* do Power BI com um dashboard e um conjunto de relatórios do Power BI que mostram os dados automaticamente e fornecem insights visuais sobre sua empresa.
@@ -71,5 +71,4 @@ Caso esteja interessado em criar aplicativos de modelo para distribuí-los por c
 * [Distribuir aplicativos para seus colegas](service-create-distribute-apps.md)
 * [Criar novos workspaces no Power BI](service-create-the-new-workspaces.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

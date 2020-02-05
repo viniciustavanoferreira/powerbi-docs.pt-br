@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265479"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Habilitar P e R para conexões dinâmicas no Power BI
@@ -60,7 +60,7 @@ O recurso tem algumas limitações:
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Gateway de dados local](service-gateway-onprem.md)  
+- [On-premises data gateway (Gateway de dados local)](service-gateway-onprem.md)  
 - [Gerenciar sua fonte de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 - [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)  
 - [Visão geral de P e R do Power BI](consumer/end-user-q-and-a.md)  

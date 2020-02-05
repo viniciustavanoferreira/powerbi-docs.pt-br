@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/02/2019
 ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999872"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar visuais do Power BI no Partner Center
@@ -31,7 +31,7 @@ Antes de enviar um visual do Power BI para o AppSource, verifique se leu as [dir
 
 Quando estiver pronto para enviar o visual do Power BI, verifique se o visual atende a todos os requisitos listados abaixo.
 
-| Item | Necessário | Descrição |
+| Item | Obrigatório | Descrição |
 | --- | --- | --- |
 | Pacote Pbiviz |Sim |Empacote seu visual do Power BI em um pacote Pbiviz que contenha todos os metadados necessários.<br>Nome do visual<br>Nome de exibição<br>GUID<br>Versão<br>Descrição<br>Email e nome do autor |
 | Arquivo de relatório .pbix de exemplo |Sim |Para demonstrar seu visual, você deverá ajudar os usuários a se familiarizar com ele. Destaque o valor que o visual traz para o usuário e dê exemplos de uso e opções de formatação. Você também pode adicionar uma página de *"dicas"* no final com alguns macetes, truques e aspectos a evitar.<br>O arquivo de relatório .pbix de exemplo deve trabalhar offline, sem nenhuma conexão externa. |
@@ -51,7 +51,7 @@ Antes de criar o pacote **pbiviz**, é preciso preencher os seguintes campos no 
 * descrição
 * URL de suporte
 * autor
-* nome
+* Nome
 * email
 
 Anexe o **arquivo pbiviz** e o **arquivo de relatório pbix de exemplo** ao seu email. A equipe do Power BI responderá com instruções e um arquivo XML do pacote do aplicativo para upload. Esse pacote do aplicativo XML é necessário para enviar seu visual por meio da Central de desenvolvedores do Office.
@@ -98,7 +98,7 @@ Siga as etapas abaixo para enviar seu visual do Power BI ao Partner Center. Conf
 
 9. (Opcional) Se você quiser [certificar](power-bi-custom-visuals-certified.md) seu visual, selecione **Configuração do produto** e marque a caixa de seleção **Certificação do Power BI**.
     >[!TIP]
-    >O processo de certificação do Power BI pode demorar um pouco. Caso você esteja criando um novo visual do Power BI, recomendamos que publique seu visual do Power BI por meio do Partner Center antes de solicitar a certificação do Power BI. Isso garante que a publicação do seu visual não seja adiada.
+    >O processo de certificação do Power BI pode demorar um pouco. Se você estiver criando um novo visual do Power BI, recomendamos que o publique por meio do Partner Center antes de solicitar a certificação do Power BI. Isso garante que a publicação do seu visual não seja adiada.
 
 10. Selecione **Configuração do produto** e clique em **Examinar e publicar**.
 

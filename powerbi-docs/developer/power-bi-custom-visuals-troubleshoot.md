@@ -9,10 +9,10 @@ ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
 ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999757"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Solucionar problemas de visuais do Power BI

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2019
-ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925570"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026659"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um visual do Power BI
 
@@ -45,7 +45,7 @@ Embora não seja necessário compartilhar publicamente seu código no GitHub, o 
 
 O repositório deve conter o código de apenas um visual do Power BI. Ele não pode conter o código de vários visuais do Power BI nem de códigos não relacionados.
 
-O repositório deve conter uma ramificação chamada **certification**. O código-fonte nessa ramificação deve corresponder ao pacote enviado. Esse código só poderá ser atualizado durante o próximo processo de envio, se você estiver reenviando seu visual do Power BI.
+O repositório deve conter um branch chamado **certification** (é necessário que esteja em letras minúsculas). O código-fonte nessa ramificação deve corresponder ao pacote enviado. Esse código só poderá ser atualizado durante o próximo processo de envio, se você estiver reenviando seu visual do Power BI.
 
 Se seu visual do Power BI usar pacotes npm privados ou submódulos git, você deverá fornecer acesso aos repositórios adicionais que contêm esse código.
 

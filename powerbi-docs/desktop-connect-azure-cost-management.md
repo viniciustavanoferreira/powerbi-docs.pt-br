@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf83df157738621116eb9e5461876eee8faf0863
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: ed6832bd92ca2bea0d64bbaeb41569b6a8fb6ddc
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761670"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026682"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Criar visuais e relatórios com o conector do Gerenciamento de Custos do Azure no Power BI Desktop
 
@@ -24,7 +24,7 @@ Você pode usar o conector de Gerenciamento de Custos do Azure para Power BI Des
 O conector do Gerenciamento de Custos do Azure usa o OAuth 2.0 para autenticação com o Azure e identifica os usuários que usarão o conector. Os tokens gerados nesse processo são válidos por um período específico. O Power BI preserva o token para o próximo logon. O OAuth 2.0 é um padrão para o processo que ocorre nos bastidores para garantir o tratamento seguro dessas permissões. Para se conectar, você deve usar uma conta de [administrador de Enterprise](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) para contratos Enterprise ou uma de [Proprietário de conta de cobrança](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) para contratos de clientes da Microsoft. 
 
 > [!NOTE]
-> Esse conector substitui os conectores do [Azure Consumption Insights e do Gerenciamento de Custos do Azure (beta)](desktop-connect-azure-consumption-insights.md) anteriormente disponíveis. Todos os relatórios criados com o conector anterior devem ser recriados usando esse conector.
+> Esse conector substitui os conectores do [Azure Consumption Insights e do Gerenciamento de Custos do Azure (beta)](desktop-connect-azure-consumption-insights.md) anteriormente disponíveis. Relatórios criados com o conector anterior devem ser recriados usando esse conector.
 
 ## <a name="connect-using-azure-cost-management"></a>Conectar usando o Gerenciamento de Custos do Azure
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: cfb83ae8b005744098261c6973a87fb929a864dd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858945"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975000"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Criar um relatório do Power BI para o Servidor de Relatórios do Power BI
 É possível armazenar e gerenciar relatórios do Power BI localmente no portal da Web do Servidor de Relatórios do Power BI, do mesmo modo que você pode armazenar relatórios do Power BI na nuvem no serviço do Power BI (https://powerbi.com). Você cria e edita relatórios no Power BI Desktop e, em seguida, publica-os no portal da Web. Em seguida, os leitores de relatório em sua organização poderão exibi-los em um navegador ou em um aplicativo móvel do Power BI em um dispositivo móvel.
@@ -90,6 +90,9 @@ Quando seu relatório estiver pronto, salve-o no Servidor de Relatórios do Powe
 2. Agora é possível exibi-lo no portal da Web.
    
     ![Exibir o relatório no portal da Web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
+    
+> [!NOTE]
+> Se você optar por editar o relatório no futuro, os dados do relatório exibidos na área de trabalho serão sempre os dados armazenados em cache de quando o relatório foi criado inicialmente.  Para exibir os dados mais recentes ao editar o relatório, você deve atualizá-los em seu aplicativo Power BI Desktop.
 
 ## <a name="next-steps"></a>Próximas etapas
 ### <a name="power-bi-desktop"></a>Power BI Desktop

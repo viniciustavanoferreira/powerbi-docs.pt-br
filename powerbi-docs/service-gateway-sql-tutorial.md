@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958416"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar os dados de um banco de dados do SQL Server local
@@ -44,7 +44,7 @@ Neste tutorial, você concluirá as etapas a seguir:
 
 Use o procedimento a seguir para criar um relatório básico do Power BI usando o banco de dados AdventureWorksDW. Publique o relatório no serviço do Power BI, para que você obtenha um conjunto de dados no Power BI, que, em seguida, você pode configurar e atualizar nas etapas seguintes.
 
-1. No Power BI Desktop, na guia **Início**, selecione **Obter Dados** \> **SQL Server**.
+1. No Power BI Desktop, na guia **Página Inicial**, selecione **Obter Dados** \> **SQL Server**.
 
 2. Na caixa de diálogo, **Banco de dados do SQL Server**, digite os nomes do **Servidor** e do **Banco de dados (opcional)** , verifique se o **modo de Conectividade de Dados** é **Importar** e, em seguida, selecione **OK**.
 
@@ -85,7 +85,7 @@ Use o procedimento a seguir para criar um relatório básico do Power BI usando 
 
 6. Salve o relatório com o nome "AdventureWorksProducts.pbix".
 
-7. Na guia **Início**, selecione **Publicar** \> **Meu Workspace** \> **Selecionar**. Entre no serviço do Power BI se for solicitado que você faça isso.
+7. Na guia **Página Inicial**, selecione **Publicar** \> **Meu Workspace** \> **Selecionar**. Entre no serviço do Power BI se for solicitado que você faça isso.
 
 8. Na tela **Êxito**, selecione **Abrir 'AdventureWorksProducts.pbix' in Power BI**.
 

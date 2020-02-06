@@ -10,10 +10,10 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265543"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: Faça um tour
@@ -111,7 +111,7 @@ Dois blocos neste dashboard, **Destino vs Real** e **Crescimento de receita ano 
 
     ![Resultados de Carlos](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. Continue a explorar. Se encontrar algo interessante, selecione **Fixar** ![ícone de alfinete](media/sample-customer-profitability/power-bi-excel-pin.png) no canto superior direito para [fixá-lo a um dashboard](service-dashboard-pin-tile-from-excel.md).
+4. Continue a explorar. Caso encontre algo interessante, selecione **Fixar** ![ícone de pino](media/sample-customer-profitability/power-bi-excel-pin.png) no canto superior direito para [fixá-lo a um dashboard](service-dashboard-pin-tile-from-excel.md).
 
 5. Use a seta Voltar do navegador para retornar ao painel.
 

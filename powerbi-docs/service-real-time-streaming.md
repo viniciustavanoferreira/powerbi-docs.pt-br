@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74699074"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming em tempo real no Power BI
@@ -39,7 +39,7 @@ Depois que um relatório for criado usando o conjunto de dados de push, qualquer
 
 Há duas considerações a serem observadas a respeito de blocos fixados de um conjunto de dados de push:
 
-* A fixação de um relatório inteiro usando a opção *Fixar esta Página em Tempo Real* **não** resultará na atualização automática dos dados.
+* A fixação de um relatório inteiro usando a opção *Fixar esta Página em Tempo Real***não** resultará na atualização automática dos dados.
 * Quando um visual é fixado em um dashboard, você pode usar **P e R** para fazer perguntas sobre o conjunto de dados de push em idioma natural. Depois de fazer uma consulta de **P e R**, você pode fixar o visual resultante de volta no dashboard e ele *também* será atualizado em tempo real.
 
 ### <a name="streaming-dataset"></a>Conjunto de dados de streaming

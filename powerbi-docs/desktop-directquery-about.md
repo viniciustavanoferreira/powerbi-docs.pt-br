@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 504b389bdbe50d17f969365d7e4f2e51d206918c
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837294"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076654"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Sobre o uso do DirectQuery no Power BI
 
@@ -312,7 +312,7 @@ Além das sugestões anteriores, cada uma das seguintes funcionalidades de relat
 
 * **Valor mediano:** Geralmente, qualquer agregação, como `Sum` ou `Count Distinct`, é enviada por push à fonte subjacente. No entanto, isso não é verdadeiro para a mediana, pois, geralmente, não há suporte para essa agregação na fonte de subjacente. Nesses casos, os dados de detalhes são recuperados da fonte subjacente e a mediana é calculada com base nos resultados retornados. Essa abordagem é razoável quando a mediana deve ser calculada em relação a um número relativamente pequeno de resultados. Ocorrerão problemas de desempenho ou falhas de consulta devido ao limite de 1 milhão de linhas se a cardinalidade for grande. Por exemplo, a **Mediana da População do País** pode ser razoável, ao contrário da **Mediana do Preço de Vendas**.
 
-* **Filtros de texto avançados (* contains* e similares):* * ao aplicar um filtro a uma coluna de texto, a filtragem avançada permite o uso de filtros, como *contains* e *begins with* etc. Esses filtros certamente poderão causar degradação no desempenho para algumas fontes de dados. Especificamente, o filtro padrão *contains* não deverá ser usado se houver necessidade de uma correspondência exata. Embora os resultados possam ser os mesmos, dependendo dos dados reais, o desempenho poderá ser drasticamente diferente devido ao uso de índices.
+* **Filtros de texto avançados (_contém_ e similares):** ao filtrar uma coluna de texto, a filtragem avançada permite o uso de filtros como *contém* e *começa com*, por exemplo. Esses filtros certamente poderão causar degradação no desempenho para algumas fontes de dados. Especificamente, o filtro padrão *contains* não deverá ser usado se houver necessidade de uma correspondência exata. Embora os resultados possam ser os mesmos, dependendo dos dados reais, o desempenho poderá ser drasticamente diferente devido ao uso de índices.
 
 * **Segmentações de dados de seleção múltipla:** por padrão, as segmentações de dados permitem que seja realizada apenas uma única seleção. Permitir seleções múltiplas em filtros pode causar alguns problemas de desempenho, pois o usuário seleciona um conjunto de itens na segmentação. Por exemplo, se o usuário selecionar os 10 produtos de interesse, cada nova seleção resultará no envio de consultas para a origem. Embora o usuário possa selecionar o próximo item antes da conclusão da consulta, essa abordagem resulta em uma carga extra na fonte subjacente.
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913568"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076646"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar relatórios usando parâmetros da cadeia de caracteres de consulta na URL
 
@@ -193,7 +193,7 @@ Essa discrepância é útil quando você deseja ver resultados diferentes: filtr
 Há alguns pontos a serem considerados ao usar os parâmetros da cadeia de caracteres de consulta.
 
 * Quando o operador *in* é usado, os valores à direita de *in* devem ser uma lista separada por vírgulas entre parênteses.    
-* No Servidor de Relatórios do Power BI, você pode [passar parâmetros de relatório](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) incluindo-os em uma URL de relatório. Esses parâmetros de URL não são prefixados, porque são passados diretamente para o mecanismo de processamento de relatório.
+* O Servidor de Relatórios do Power BI também dá suporte à capacidade de especificar filtros adicionais usando o parâmetro de URL “filter”.  Por exemplo, no Servidor de Relatórios do Power BI, a URL pode ter a seguinte aparência: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * A filtragem da cadeia de caracteres de consulta não funciona com [Publicar na Web](service-publish-to-web.md) ou [Exportar para PDF](consumer/end-user-pdf.md).
 * [Inserir com Web Part de Relatório no SharePoint Online](service-embed-report-spo.md) não é compatível com filtros de URL.
 * O tipo de dados Long é (2^53-1) devido a limitações de Javascript.

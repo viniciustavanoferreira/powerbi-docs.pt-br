@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819550"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026705"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
 
@@ -160,7 +160,7 @@ Com o Proxy de Aplicativo do Azure Active Directory, você não precisa mais ger
 
 #### <a name="custom-headers"></a>Cabeçalhos personalizados
 
-Define os valores do cabeçalho para todas as URLs que correspondem ao padrão de regex especificado. Os usuários podem atualizar o valor do cabeçalho personalizado com XML válido para definir os valores do cabeçalho para as URLs de solicitação selecionadas. Os administradores podem adicionar qualquer número de cabeçalhos no XML. Confira [Cabeçalhos personalizados](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers), no artigo **Página avançada de propriedades do servidor** do Reporting Services para obter detalhes.
+Define os valores do cabeçalho para todas as URLs que correspondem ao padrão de regex especificado. Os usuários podem atualizar o valor do cabeçalho personalizado com XML válido para definir os valores do cabeçalho para as URLs de solicitação selecionadas. Os administradores podem adicionar qualquer número de cabeçalhos no XML. Confira [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) no artigo **Página avançada de propriedades do servidor** do Reporting Services para obter detalhes.
 
 #### <a name="transparent-database-encryption"></a>Transparent Data Encryption
 

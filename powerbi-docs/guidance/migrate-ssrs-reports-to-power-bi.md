@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ce8644decb758775c0bbff87df7975a64692a2
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886103"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889226"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Migrar relatórios do SQL Server Reporting Services para o Power BI
 
@@ -104,6 +104,8 @@ No entanto, os seguintes tipos de itens do SSRS não podem ser migrados para o P
 
 Se seus relatórios RDL dependerem de recursos [ainda sem suporte dos relatórios paginados do Power BI](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi), você poderá planejar desenvolvê-los novamente como [relatórios do Power BI](../consumer/end-user-reports.md). Mesmo que seus relatórios RDL possam ser migrados, recomendamos que você considere modernizá-los como relatórios do Power BI quando fizer sentido.
 
+Se os seus relatórios RDL precisarem recuperar dados de _fontes de dados locais_, eles não poderão usar o SSO (logon único). Atualmente, toda a recuperação de dados dessas fontes será feita usando o contexto de segurança da _conta de usuário da fonte de dados do gateway_. Não é possível para o SSAS (SQL Server Analysis Services) impor a RLS (segurança em nível de linha) por usuário.
+
 De modo geral, os relatórios paginados do Power BI são otimizados para **impressão** ou **geração de PDF**. Os relatórios do Power BI são otimizados para **exploração e interatividade**. Para obter mais informações, confira [Quando usar relatórios paginados no Power BI](report-paginated-or-power-bi.md).
 
 ### <a name="prepare"></a>Preparar
@@ -116,6 +118,8 @@ O objetivo da fase _Preparar_ envolve a preparação de tudo. Ela inclui a confi
 1. Familiarize-se com o compartilhamento do Power BI e planeje como você distribuirá conteúdo publicando [aplicativos do Power BI](../service-create-distribute-apps.md).
 1. Considere usar [conjuntos de dados compartilhados do Power BI](../service-datasets-build-permissions.md) no lugar de suas fontes de dado compartilhadas do SSRS.
 1. Use o [Power BI Desktop](../desktop-what-is-desktop.md) para desenvolver relatórios otimizados para dispositivos móveis, possivelmente usando o [visual personalizado Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) em vez dos KPIs e relatórios móveis do SSRS.
+1. Reavalie o uso do campo interno **UserID** em seus relatórios. Se você depender do **UserID** para proteger os dados do relatório, entenda que, para os relatórios paginados (quando hospedados no serviço do Power BI), ele retorna o UPN (nome principal do usuário). Portanto, em vez de retornar o nome da conta do NT, por exemplo _AW\mblythe_, o campo interno retornará algo como _m.blythe&commat;adventureworks.com_. Você precisará revisar suas definições de conjunto de dados e, possivelmente, a fonte de dados. Depois de revisado e publicado, recomendamos que você teste os relatórios exaustivamente para garantir que as permissões de dados funcionem conforme o esperado.
+1. Reavalie o uso do campo interno **ExecutionTime** em seus relatórios. Para relatórios paginados (quando hospedados no serviço do Power BI), o campo interno retorna a data/hora _em UTC (tempo universal coordenado)_ . Isso pode afetar os valores padrão de parâmetro de relatório e os rótulos de tempo de execução de relatório (normalmente adicionados aos rodapés de relatório).
 1. Certifique-se de que os autores de relatório tenham o [Power BI Report Builder](../report-builder-power-bi.md) instalado e que versões posteriores possam ser distribuídas facilmente em toda a sua organização.
 
 ## <a name="migration-stage"></a>Estágio de migração

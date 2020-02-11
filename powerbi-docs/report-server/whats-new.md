@@ -1,29 +1,174 @@
 ---
 title: Novidades no Servidor de Relatório do Power BI
-description: Saiba quais são as novidades no Servidor de Relatório do Power BI. Elas abrangem as principais áreas de recurso e são atualizadas conforme novos itens são lançados.
+description: Saiba quais são as novidades no Servidor de Relatório do Power BI. Este artigo aborda as principais áreas de recursos e é atualizado conforme novos itens são lançados.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: 526a971817c50599bf77ae085f3d5ff07294b25b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/23/2020
+ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858754"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819550"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
 
-Saiba mais sobre as novidades do Servidor de Relatórios do Power BI e sobre o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI. Este artigo aborda as principais áreas de recursos e é atualizado a cada novo lançamento.
+Saiba mais sobre as novidades do Servidor de Relatórios do Power BI e do Power BI Desktop otimizado para o Servidor de Relatórios do Power BI. Este artigo aborda as principais áreas de recursos e é atualizado a cada novo lançamento.
+
+Baixe o [Servidor de Relatórios do Power BI e o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI](https://powerbi.microsoft.com/report-server/).
 
 Para saber mais sobre as “Novidades” do Power BI, consulte:
 
 * [Novidades no serviço do Power BI](../service-whats-new.md)
 * [Novidades no Power BI Desktop](../desktop-latest-update.md)
 * [Novidades em aplicativos móveis para o Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2020"></a>Janeiro de 2020
+
+Confira a postagem no blog de janeiro de 2020 sobre o Servidor de Relatórios do Power BI para obter mais detalhes.
+
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop otimizado para o Servidor de Relatórios do Power BI
+
+Esta versão traz muitos recursos novos, como formatação condicional para botões, aprimoramentos de criação de perfil de dados e mais configurações de formatação para KPIs e visuais de tabela. Veja a seguir uma lista resumida de atualizações:
+
+**Relatórios**
+
+- Definição de um valor de matriz ou de coluna da tabela como uma URL personalizada
+- Configurações de formatação de visual do KPI
+- Atualizações na experiência do painel de filtro
+
+**Análise**
+
+- Formatação condicional de botões
+- Maior carregamento de insights do recurso Analisar
+- Nova função DAX: Trimestre
+
+**Preparação de dados**
+
+- Melhorias na criação de perfil de dados
+
+**Outros**
+
+- Novo formato de arquivo: .pbids
+- Melhorias de desempenho das operações de modelagem
+
+**Relatórios**
+
+*Definir um valor de matriz ou de coluna da tabela como uma URL personalizada*
+
+Você pode definir um valor de matriz ou de coluna da tabela como uma URL personalizada. Você encontra essa nova opção no cartão de formatação condicional, no painel de formatação.
+
+*Configurações de formatação de visual do KPI*
+
+A versão deste mês tem KPIs com novas opções de formatação:
+
+- Formatação de texto do indicador (família de fontes, cor e alinhamento)
+- Transparência do eixo de tendência
+- Formatação de texto de meta e distância (texto do rótulo, família de fontes, cor e tamanho)
+- Formatação de distância de texto (texto do rótulo, direção positiva, família de fontes, cor e tamanho)
+- Adição de rótulo de data com formatação (família de fontes, cor e tamanho)
+
+Você pode formatar condicionalmente algumas destas novas opções:
+
+- Cor da fonte do indicador
+- Cor da fonte da meta e cor da fonte de distância da meta
+- As cores de status bom/ruim/neutro
+- Cor da fonte de data
+
+*Atualizações na experiência do painel de filtro*
+
+Como parte da disponibilidade geral da nova experiência de filtro da [última versão](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/#filterPane), simplificamos o processo de transição dos relatórios atuais para o novo painel. Ao abrir o Servidor de Relatórios do Power BI pela primeira vez, você verá uma caixa de diálogo de atualização automática do painel de filtro. Essas atualizações também incluem os banners no Servidor de Relatórios quando os relatórios precisam ser migrados para a nova experiência.
+
+**Análise**
+
+*Formatação condicional para botões*
+
+Essas atualizações de formatação condicional estão relacionadas aos botões. Agora você pode definir dinamicamente a formatação para as seguintes propriedades:
+
+- Cor da fonte do texto do botão
+- Texto do botão
+- Cor da linha do ícone
+- Cor do contorno
+- Cor de Preenchimento
+- Dica de ferramenta de botão (no cartão de ação)
+
+*Maior carregamento de insights do recurso Analisar*
+
+Quando você executa o recurso Analisar para encontrar insights em seus dados, por exemplo, para Explicar um aumento, acionamos os modelos de machine learning somente por um período definido para mostrar insights em tempo hábil. Agora, quando você tiver muitos dados para analisar, será possível continuar executando a análise após o tempo limite inicial.
+
+*Nova função DAX: Quarter*
+
+Este mês, temos uma nova função DAX, a Quarter. A função Quarter retorna o trimestre correspondente a uma data especificada.
+
+**Preparação de dados**
+
+*Melhorias na criação de perfil de dados*
+
+Este mês, estamos introduzindo algumas melhorias significativas em nossos recursos de criação de perfil de dados no Editor do Power Query, incluindo:
+
+- Várias opções de agrupamento para o visual de distribuição de valor do painel de Perfil da Coluna, específicas por tipo de coluna, além dos critérios "Por Valor" existentes.
+- Texto: Por comprimento do texto (número de caracteres).
+- Número: Por sinal (positivo/negativo) e Paridade (par/ímpar).
+- Data/Datetime: Por ano, mês, dia, semana do ano, dia da semana, período do dia (AM/PM) e hora do dia.
+- E mais outros tipos de dados, como de Lógica Verdadeiro/Falso.
+
+*Opções de filtro*
+
+Você já pode aproveitar vários critérios de agrupamento específicos de tipo no painel de distribuição dos Perfis de Colunas. Agora, você também pode aplicar filtros dentro de textos explicativos para cada um dos valores no gráfico de distribuição quando critérios de agrupamento são aplicados. Por exemplo, no painel Perfis de Dados de uma coluna Data/Datetime, você pode excluir todos os valores que se enquadram em determinado mês.
+
+**Outros**
+
+*Novo formato de arquivo: .pbids*
+
+Este mês, estamos lançando um novo formato de arquivo: .pbids, para otimizar a experiência da opção "Obter Dados" para criadores de relatórios em sua organização. Recomendamos que os administradores criem esses arquivos para as conexões mais usadas.
+
+Quando um criador de relatório abre um arquivo .pbids, o Power BI Desktop solicita autenticação para conectar-se à fonte de dados especificada no arquivo. Em seguida, o usuário seleciona as tabelas a serem carregadas no modelo. Também pode ser necessário selecionar o banco de dados, caso isso ainda não tenha sido especificado no arquivo. A partir daí, o criador do relatório pode começar a criar visualizações.
+
+Encontre detalhes e exemplos na seção [Usar arquivos .pbids para obter dados](../desktop-data-sources.md#using-pbids-files-to-get-data) do artigo "Fontes de dados no Power BI Desktop".
+
+*Melhorias de desempenho das operações de modelagem*
+
+Fizemos uma melhoria de desempenho no mecanismo do Analysis Services para acelerar as operações de modelagem, como a adição de medidas ou colunas calculadas e a criação de relacionamentos. A quantidade de aprimoramento que você vê depende do modelo, mas percebemos que alguns clientes tiveram um desempenho 20x mais rápido em ações como abertura de arquivos e adição de medidas.
+
+Essas são as novidades da versão de janeiro de 2020 do Servidor de Relatórios do Power BI. Continue enviando comentários e não se esqueça de [votar nos recursos que você gostaria de ver no Power BI](https://ideas.powerbi.com/forums/265200-power-bi).
+
+### <a name="power-bi-report-server"></a>Servidor de Relatórios do Power BI
+
+#### <a name="export-to-excel-from-power-bi-reports"></a>Exportar relatórios do Power BI para o Excel
+
+A exportação de um relatório do Power BI com o Servidor de Relatórios do Power BI para o Excel agora funciona da mesma maneira que exportar um relatório do Power BI para o Excel no serviço do Power BI. Você pode exportar diretamente para o formato .xlsx do Excel, e o limite de exportação é de 150 mil linhas.
+
+#### <a name="azure-sql-managed-instance-support"></a>Suporte às instâncias gerenciadas do Azure SQL
+
+Agora você pode hospedar um catálogo de banco de dados usado no Servidor de Relatórios do Power BI em uma MI (Instância Gerenciada) do Banco de Dados SQL do Azure hospedada em uma máquina virtual ou em seu data center. O suporte é limitado ao uso de credenciais de banco de dados para a conexão com a MI do SQL.
+
+#### <a name="power-bi-premium-dataset-support"></a>Suporte ao conjunto de dados do Power BI Premium
+
+Você pode se conectar aos conjuntos de dados do Power BI usando o Construtor de Relatórios da Microsoft ou o SSDT (SQL Server Data Tools). Em seguida, pode publicar esses relatórios no Servidor de Relatórios do Power BI usando a conectividade do SQL Server Analysis Services. Para ativar o cenário, os usuários precisam usar um nome de usuário e senha armazenados do Windows.
+
+#### <a name="alttext-alternative-text-support-for-report-elements"></a>Suporte a Text Alt (texto alternativo) para elementos de relatório
+
+Ao criar relatórios, você pode usar dicas de ferramentas para especificar o texto de cada elemento no relatório. As tecnologias de leitura de tela usarão essas dicas de ferramentas.
+
+#### <a name="azure-active-directory-application-proxy-support"></a>Suporte de Proxy de Aplicativo do Azure Active Directory
+
+Com o Proxy de Aplicativo do Azure Active Directory, você não precisa mais gerenciar seu próprio proxy de aplicativo Web para permitir acesso seguro via aplicativos móveis ou da Web. Confira [Acesso remoto a aplicativos locais por meio do Proxy de Aplicativo do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) para obter mais informações.
+
+#### <a name="custom-headers"></a>Cabeçalhos personalizados
+
+Define os valores do cabeçalho para todas as URLs que correspondem ao padrão de regex especificado. Os usuários podem atualizar o valor do cabeçalho personalizado com XML válido para definir os valores do cabeçalho para as URLs de solicitação selecionadas. Os administradores podem adicionar qualquer número de cabeçalhos no XML. Confira [Cabeçalhos personalizados](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers), no artigo **Página avançada de propriedades do servidor** do Reporting Services para obter detalhes.
+
+#### <a name="transparent-database-encryption"></a>Transparent Data Encryption
+
+O Servidor de Relatórios do Power BI agora dá suporte ao recurso de Transparent Data Encryption para o banco de dados de catálogo das edições Enterprise e Standard do Servidor de Relatórios do Power BI.
+
+#### <a name="microsoft-report-builder-update"></a>Atualização do Construtor de Relatórios da Microsoft
+
+A versão recém-lançada do Construtor de Relatórios é totalmente compatível com as versões 2016, 2017 e 2019 do Reporting Services. Também é compatível com todas as versões lançadas e compatíveis do Servidor de Relatórios do Power BI.
 
 ## <a name="september-2019"></a>Setembro de 2019
 
@@ -33,7 +178,7 @@ A atualização de Setembro de 2019 do Servidor de Relatórios do Power BI está
 
 - **Filtros no nível do visual para segmentações** Você pode adicionar um filtro no nível do visual às segmentações. Ele funciona como todos os outros filtros no nível do visual, filtrando apenas a segmentação em si e nenhum outro visual. Esse filtro é útil para filtrar espaços em branco ou quando você quer usar filtros de medidas.
 - **Conjuntos de ícones para tabelas e matrizes** Com os ícones de KPI, você pode configurar regras para mostrar diferentes conjuntos de ícones em sua tabela e matriz, de forma semelhante aos conjuntos de ícones do Excel.
-- **Agrupamento de visuais** Agora, você pode agrupar visuais, formas, caixas de texto, imagens e botões em uma página de relatório, assim como ocorre no PowerPoint. Ao agrupar os objetos, você pode movê-los e redimensioná-los juntos. O agrupamento facilita o trabalho em relatórios com muitos objetos dispostos em camadas em cada página.
+- **Agrupamento de visuais** Agora, você pode agrupar visuais, formas, caixas de texto, imagens e botões em uma página de relatório, assim como ocorre no PowerPoint. Ao agrupar os objetos, você pode movê-los e redimensioná-los juntos. O agrupamento facilita o trabalho em um relatório com muitos objetos dispostos em camadas em cada página.
 - **Novos temas padrão** Para acompanhar as novas opções JSON de temas, estamos atualizando os temas disponíveis para os relatórios e alterando o tema padrão para novos relatórios. O novo tema padrão se alinha melhor com a linguagem de design da Microsoft e segue as melhores práticas de design para visuais. 
 - **Design do painel atualizado** Atualizamos grande parte de nossa interface. Atualizamos todos os painéis, o rodapé e o seletor de exibição com uma cor mais clara, um espaçamento atualizado e introduzimos novos ícones. O novo design é a primeira etapa para atualizar a interface inteira.
 
@@ -80,37 +225,39 @@ Aqui está a lista completa de recursos.
 - Copiar para a área de transferência da criação de perfil de dados
 
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Maio de 2019: Power BI Desktop para o Servidor de Relatórios do Power BI
+## <a name="may-2019"></a>Maio de 2019
+
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Desktop para o Servidor de Relatórios do Power BI
 
 Confira a postagem no blog [Servidor de Relatórios do Power BI Maio de 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) para obter detalhes sobre todos os novos recursos.
 
 Estes são alguns dos destaques da versão:
 
-### <a name="performance-analyzer"></a>Analisador de desempenho 
+#### <a name="performance-analyzer"></a>Performance analyzer 
 
 Se o relatório for executado mais lentamente do que o esperado, experimente o Performance Analyzer no Power BI Desktop. Quando é iniciado, ele cria um arquivo de log com informações sobre cada ação executada no relatório. Saiba mais sobre o [Performance Analyzer](../desktop-performance-analyzer.md).
 
-### <a name="new-modeling-view"></a>Nova exibição de modelagem
+#### <a name="new-modeling-view"></a>Nova exibição de modelagem
 
 Na nova exibição de Modelagem no Power BI Desktop, você pode exibir e trabalhar com conjuntos de dados complexos que contêm muitas tabelas. Os destaques incluem vários layouts de diagrama e edição em massa de colunas, medidas e tabelas. Leia mais sobre a [exibição de Modelagem](../desktop-modeling-view.md).
 
-### <a name="accessible-visual-interaction"></a>Interação visual acessível
+#### <a name="accessible-visual-interaction"></a>Interação visual acessível
 
 Agora, você pode acessar pontos de dados em muitos dos visuais internos usando a navegação por teclado. Saiba mais sobre [acessibilidade nos relatórios do Power BI](../desktop-accessibility.md).
 
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>Títulos de formatação condicional e ações de URL da Web
+#### <a name="conditional-formatting-titles-and-web-url-actions"></a>Títulos de formatação condicional e ações de URL da Web
 
 Os relatórios do Power BI são interativos. Faz sentido que os títulos de um relatório sejam dinâmicos, de forma a refletir o estado atual do relatório. Você pode usar a mesma formatação associada à expressão para tornar as URLs de seus botões, formas e imagens dinâmicas. Leia mais sobre [títulos baseados em expressões](../desktop-conditional-format-visual-titles.md).
 
-### <a name="cross-highlight-by-axis-labels"></a>Realce cruzado por rótulos de eixo
+#### <a name="cross-highlight-by-axis-labels"></a>Realce cruzado por rótulos de eixo
 
 Selecione os rótulos de categoria do eixo em um visual para realçar de maneira cruzada os outros elementos em uma página, assim como você selecionaria os pontos de dados de um visual. Saiba mais sobre o [realce cruzado](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
 
-### <a name="all-the-new-features"></a>Todos os novos recursos
+#### <a name="all-the-new-features"></a>Todos os novos recursos
 
 Aqui está a lista de todos os novos recursos:
 
-### <a name="reporting"></a>Relatórios
+#### <a name="reporting"></a>Relatórios
 
 - Realce cruzado em um único ponto em gráficos de linhas 
 - Quebra automática de linha em títulos 
@@ -131,24 +278,24 @@ Aqui está a lista de todos os novos recursos:
 - Controle de posição do rótulo de dados de linha
 - Controle de tamanho de texto de indicador visual de KPI
 
-### <a name="analytics"></a>Análise
+#### <a name="analytics"></a>Análise
 
 - A exibição de datas como hierarquia já está em disponibilidade geral  
 
-### <a name="modeling"></a>Modelagem
+#### <a name="modeling"></a>Modelagem
 
 - O novo modo de exibição de modelagem já está em disponibilidade geral
 - Novas funções do DAX
 - Atualização a função ALLSELECTED DAX
-- Desabilitar tabelas de data automática para novos relatórios
+- Desabilitar tabelas de atualização automática para novos relatórios
 
-## <a name="may-2019-power-bi-report-server"></a>Maio de 2019: Servidor de Relatórios do Power BI
+### <a name="power-bi-report-server"></a>Servidor de Relatórios do Power BI
 
-### <a name="support-for-trusted-visuals"></a>Suporte para visuais confiáveis
+#### <a name="support-for-trusted-visuals"></a>Suporte para visuais confiáveis
 
 Adicionamos suporte para Visuais Confiáveis para o Servidor de Relatórios do Power BI. Atualmente, damos suporte a visuais do Mapbox e do PowerOn. Não há suporte para ESRI, Visio e PowerApps nesta versão.
 
-### <a name="improved-security-features"></a>Recursos de segurança aprimorados
+#### <a name="improved-security-features"></a>Recursos de segurança aprimorados
 
 **RestrictedResourceMimeTypeForUpload**, que os administradores podem usar para especificar uma lista separada por vírgulas de tipos MIME banidos, por exemplo, text/html.
 
@@ -162,7 +309,7 @@ Suporte para esses recursos em relatórios do Power BI:
 
 [**Copiar e colar entre arquivos .pbix**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Você pode copiar os elementos visuais entre arquivos .pbix, no menu de contexto do visual ou com o atalho de teclado Ctrl + C padrão e colá-los em outro relatório com Ctrl + V.
 
-[**Guias de alinhamento inteligentes**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Você vê guias de alinhamento inteligentes ao mover objetos na sua página de relatório, assim como você vê no PowerPoint, para ajudá-lo a alinhar tudo na sua página. Você vê as guias inteligentes sempre que você arrasta ou redimensiona algo na página. Quando você move um objeto para perto de outro, ele se ajusta em uma posição alinhada com o outro objeto.
+[**Guias de alinhamento inteligentes**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Você vê guias de alinhamento inteligentes ao mover objetos na sua página de relatório, assim como você vê no PowerPoint, para ajudá-lo a alinhar tudo na sua página. Você vê as guias inteligentes sempre que arrasta ou redimensiona algo na página. Quando você move um objeto para perto de outro, ele se ajusta em uma posição alinhada com o outro objeto.
 
 **Recursos de acessibilidade** Há muitos recursos de acessibilidade para listar: por exemplo, [suporte de acessibilidade do painel de lista de campos](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). O painel de lista de campos é totalmente acessível. Você pode navegar pelo painel usando apenas o teclado e um leitor de tela e usar o menu de contexto para adicionar campos à sua página de relatório.
 
@@ -176,7 +323,7 @@ Os administradores podem definir as seguintes propriedades nas Propriedades Avan
 
 **AllowedResourceExtensionsForUpload** Definir extensões de recursos que podem ser carregados para o servidor de relatório. Extensões para tipos de arquivo internos, como &ast;.rdl e &ast;.pbix não devem ser incluídos. O padrão é "&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx". 
 
-**SupportedHyperlinkSchemes** Define uma lista separada por vírgulas dos esquemas de URI que têm permissão para serem definidos em ações de hiperlink que têm permissão para serem processados ou então "&ast;" para habilitar todos os esquemas de hiperlink. Por exemplo, definir "http,https" permitiria hiperlinks para "https://www. contoso.com", mas removeria hiperlinks para "mailto:bill@contoso.com" ou "javascript:window.open(‘www.contoso.com’, ‘_blank’)". O padrão é "&ast;".
+**SupportedHyperlinkSchemes** Define uma lista separada por vírgulas dos esquemas de URI que têm permissão para serem definidos em ações de hiperlink que têm permissão para serem processados ou então "&ast;" para habilitar todos os esquemas de hiperlink. Por exemplo, definir "http,https" permitiria hiperlinks para "https://www. contoso.com", mas removeria hiperlinks para "mailto:bill@contoso.com" ou "javascript:window.open(‘ www.contoso.com’, ‘_blank’)". O padrão é "&ast;".
 
 ## <a name="august-2018"></a>Agosto de 2018
 
@@ -254,7 +401,7 @@ O suporte para DirectQuery de SSO do SAP HANA com o Kerberos já está disponív
 - [Novo cabeçalho visual com mais flexibilidade e formatação](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#visualHeader)
 - [Formatação de papel de parede](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#wallpaper)
 - [Dicas de ferramentas de tabela e de matriz](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tableTooltips)
-- [Desabilitar as dicas de ferramentas de visuais](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tooltips)
+- [Desativar dicas de ferramentas para visuais](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tooltips)
 - [Acessibilidade de segmentação](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicerAccessibility)
 - [Melhorias do painel de formatação](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#formattingPane)
 - [Suporte para linha de nível em gráficos de linhas e de combinação](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#steppedLine)
@@ -388,11 +535,11 @@ Os relatórios do Power BI no Servidor de Relatórios do Power BI podem conectar
 
 ### <a name="scheduled-data-refresh-for-imported-data"></a>Atualização agendada de dados importados
 
-No Servidor de Relatórios do Power BI, é possível configurar a atualização de dados agendada para manter os dados atualizados nos relatórios do Power BI usando um modelo inserido, em vez de uma conexão dinâmica ou o DirectQuery. Com um modelo inserido, os dados importados estão desconectados da fonte de dados original. Eles precisam ser atualizados para permanecerem em sua versão mais recente e a atualização agendada é a maneira de fazer isso. Leia mais sobre a "atualização agendada dos relatórios do Power BI no Servidor de Relatórios do Power BI".
+No Servidor de Relatórios do Power BI, é possível configurar a atualização de dados agendada para manter os dados atualizados nos relatórios do Power BI usando um modelo inserido, em vez de uma conexão dinâmica ou o DirectQuery. Com um modelo inserido, os dados importados são desconectados da fonte de dados original. Eles precisam ser atualizados para permanecerem em sua versão mais recente e a atualização agendada é a maneira de fazer isso. Leia mais sobre a "atualização agendada dos relatórios do Power BI no Servidor de Relatórios do Power BI".
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>Editando relatórios do Power BI no servidor
 
-É possível abrir e editar os arquivos de relatório do Power BI (.pbix) no servidor, mas você retorna o arquivo original carregado.  Isso significa que **se os dados tiverem sido atualizados pelo servidor, eles não estarão atualizados quando você abrir o arquivo pela primeira vez**. Para ver a alteração, você precisará atualizá-los manual e localmente.
+É possível abrir e editar os arquivos de relatório do Power BI (.pbix) no servidor, mas você retorna o arquivo original carregado. **Se os dados tiverem sido atualizados pelo servidor, eles não estarão atualizados quando você abrir o arquivo pela primeira vez**. Para ver a alteração, você precisará atualizá-los manual e localmente.
 
 ### <a name="large-file-uploaddownload"></a>Upload/download de arquivo grande
 
@@ -404,7 +551,7 @@ Você pode acessar os conjuntos de dados compartilhados do Power BI Desktop com 
 
 ### <a name="scale-out"></a>Escalabilidade horizontal
 
-Esta versão é compatível com escalabilidade horizontal. Use um balanceador de carga e defina a afinidade do servidor para uma melhor experiência. Observe que o cenário ainda não está otimizado para a escalabilidade horizontal, portanto você verá os modelos possivelmente replicados em vários nós. O cenário funcionará sem o balanceador de carga de rede e as sessões temporárias. No entanto, você não só verá um uso excessivo de memória nos nós conforme o modelo for carregado N vezes, mas o desempenho também ficará mais lento entre as conexões conforme o modelo for transmitido a um novo nó entre as solicitações.  
+Esta versão é compatível com escalabilidade horizontal. Use um balanceador de carga e defina a afinidade do servidor para uma melhor experiência. O cenário ainda não está otimizado para expansão, portanto, você verá os modelos potencialmente replicados em vários nós. O cenário funcionará sem o balanceador de carga de rede e as sessões temporárias. No entanto, você não só verá um uso excessivo de memória nos nós conforme o modelo for carregado N vezes, como o desempenho também ficará mais lento entre as conexões conforme o modelo for transmitido a um novo nó entre as solicitações.  
 
 ### <a name="administrator-settings"></a>Configurações do administrador
 
@@ -416,7 +563,7 @@ Os administradores podem definir as seguintes propriedades nas Propriedades Avan
 * MaxFileSizeMb: agora, o padrão é 1000
 * ModelCleanupCycleMinutes: a frequência de verificação para remover modelos da memória
 * ModelExpirationMinutes: quanto tempo levará até o modelo expirar e ser removido, com base no último uso
-* ScheduleRefreshTimeoutMinutes: quanto tempo pode demorar a atualização de dados para um modelo. Por padrão, duas horas.  Não há nenhum limite máximo.
+* ScheduleRefreshTimeoutMinutes: quanto tempo pode demorar a atualização de dados para um modelo. O padrão é duas horas.  Não há nenhum limite máximo.
 
 **Arquivo de configuração rsreportserver.config**
 
@@ -434,7 +581,7 @@ Os administradores podem definir as seguintes propriedades nas Propriedades Avan
 
 A API para desenvolvedores (API REST) apresentada para o SSRS 2017 foi estendida para o Servidor de Relatórios do Power BI trabalhar com arquivos do Excel e .pbix. Um possível caso de uso é, por meio de programação, baixar arquivos do servidor, atualizá-los e publicá-los novamente. Essa é a única maneira de atualizar as pastas de trabalho do Excel com modelos do PowerPivot, por exemplo.
 
-Observe que há uma nova API separada para arquivos grandes, que será atualizada na versão de Servidor de Relatórios do Power BI do Swagger. 
+Há uma nova API separada para arquivos grandes, que será atualizada na versão do Servidor de Relatórios do Power BI do Swagger. 
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>O SSAS (SQL Server Analysis Services) e o volume de memória do Servidor de Relatórios do Power BI
 
@@ -472,7 +619,6 @@ O Servidor de Relatórios do Power BI agora é compatível com os novos elemento
 Verifique essas fontes para ficar atualizado sobre os novos recursos no Servidor de Relatórios do Power BI.
 
 * [Blog do Microsoft Power BI](https://powerbi.microsoft.com/blog/)
-* [Blog da equipe do SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
 * O [canal do YouTube Guy in a Cube](https://aka.ms/guyinacube)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

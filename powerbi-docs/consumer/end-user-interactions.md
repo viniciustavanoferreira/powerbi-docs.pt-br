@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303852"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888490"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Como os visuais realizam filtragem cruzada entre si em um relatório do Power BI
 Um dos melhores recursos do Power BI é a maneira com que todos os elementos visuais na página de um relatório são interconectados. Se você selecionar um ponto de dados em um dos elementos visuais, todos os outros visuais na página que contêm esses dados serão alterados, com base nessa seleção. 
@@ -45,7 +45,8 @@ Vamos definir esses termos ao examinarmos as páginas de relatório abaixo. O gr
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
-- Se o relatório tiver um visual que dá suporte ao [drilling](end-user-drill.md), por padrão, o drilling de um visual não afetará os outros visuais na página de relatório.     
+- Se o relatório tiver um visual que dá suporte ao [drilling](end-user-drill.md), por padrão, o drilling de um visual não afetará os outros visuais na página de relatório. No entanto, o *designer* do relatório pode alterar esse comportamento. Sendo assim, verifique seus visuais com drilling aplicado para ver se **filtros de drilling de outros visuais** foram ativados pelo *designer* do relatório.
+    
 - Os filtros no nível do visual são retidos quando há a filtragem cruzada e o destaque cruzado de outros visuais na página de relatório. Portanto, se o visualA tiver filtros no nível do visual aplicados pelo Designer de Relatórios ou por você e você usar o visualA para interagir com o visualB, os filtros no nível do visual do visualA serão aplicados ao visualB.
 
     ![Página de relatório após a seleção do segmento Moderação do gráfico de rosca](media/end-user-interactions/power-bi-visual-filters.png)

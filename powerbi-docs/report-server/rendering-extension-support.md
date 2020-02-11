@@ -1,6 +1,6 @@
 ---
-title: Conformidade da extensão de renderização de PDFs com o ISO 14289-1 – Servidor de Relatórios do Power BI
-description: Este documento descreve a conformidade da Extensão de Renderização de PDFs do Servidor de Relatórios do Power BI e dos Serviços de Relatórios SQL com especificações ISO 14289-1 (PDF/UA).
+title: Conformidade da extensão de renderização de PDFs com a ISO 14289-1 – Servidor de Relatórios do Power BI e SSRS
+description: Este documento descreve a conformidade da Extensão de Renderização de PDFs do Servidor de Relatórios do Power BI e do SQL Server Reporting Services com especificações ISO 14289-1 (PDF/UA).
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638070"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819504"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>Conformidade da extensão de renderização de PDFs com o ISO 14289-1 – Servidor de Relatórios do Power BI 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>Conformidade da extensão de renderização de PDFs com a ISO 14289-1 – Servidor de Relatórios do Power BI e SSRS
 
-Aplica-se a: Servidor de Relatórios do Power BI e Serviços de Relatórios SQL
+Aplica-se a: Servidor de Relatórios do Power BI e SSRS (SQL Server Reporting Services)
 
-Este documento descreve a conformidade da Extensão de Renderização de PDFs do Servidor de Relatórios do Power BI e dos Serviços de Relatórios SQL com especificações [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/).
+Este documento descreve a conformidade da Extensão de Renderização de PDFs do Servidor de Relatórios do Power BI e do SQL Server Reporting Services com especificações [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/).
 
 > [!NOTE]
 > Você pode salvar ou imprimir este whitepaper selecionando **Imprimir** no seu navegador e, em seguida, selecionando **Salvar como PDF**.

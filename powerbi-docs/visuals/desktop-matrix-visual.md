@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/14/2020
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040420"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895436"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -41,25 +41,24 @@ Neste exemplo, cada linha no visual de matriz na extrema direita está mostrando
 
 Ao examinar totais e subtotais, lembre-se de que esses valores são baseados nos dados subjacentes. Eles não se baseiam exclusivamente nos valores visíveis.
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>Expandir e recolher cabeçalhos de linha
+Há duas maneiras de expandir os cabeçalhos de linha. A primeira é por meio do menu de clique com o botão direito do mouse. Você verá opções para expandir o cabeçalho da linha específica que você selecionou, o nível inteiro ou todo o conteúdo até o último nível da hierarquia. As opções de recolha dos cabeçalhos são semelhantes.
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+Você também pode adicionar botões +/- aos cabeçalhos de linha por meio do painel de formatação no cartão **Cabeçalhos de linha**. Por padrão, os ícones corresponderão à formatação do cabeçalho da linha, mas você poderá personalizar as cores e os tamanhos dos ícones separadamente, se desejar.
+
+Depois que os ícones são ativados, eles funcionam de maneira semelhante aos ícones da Tabela Dinâmica no Excel.
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+O estado de expansão da matriz será salvo com o seu relatório. Uma matriz pode ser fixada a um painel expandido ou recolhido. Quando esse bloco do painel é selecionado e o relatório é aberto, o estado de expansão ainda pode ser alterado no relatório. 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Como usar drill down com o visual de matriz
 Com o visual de matriz, é possível realizar todos os tipos de atividade de drill down interessantes que antes não estavam disponíveis. Isso inclui a capacidade de fazer drill down usando linhas, colunas e até mesmo células e seções individuais. Vamos dar uma olhada em como cada uma delas funciona.
 
@@ -183,6 +182,16 @@ Sua matriz ou tabela pode ter conteúdo que você deseja usar em outros aplicati
 * A cópia será outra visualização de matriz, mas só conterá os dados copiados.
 
     ![Captura de tela mostrando o exemplo de Copiar visual](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>Definir um valor da matriz como uma URL personalizada
+
+Se você tiver uma coluna ou uma medida que contenha URLs de site, use a formatação condicional para aplicar essas URLs aos campos como links ativos. Você encontrará essa opção no cartão de **Formatação condicional** no painel de formatação.
+
+![Cartão de filtros mostrando as linhas escolhidas](media/desktop-matrix-visual/power-bi-web-url.png)
+
+Ative a **URL da Web** e selecione um campo para usar como URL da coluna. Depois de aplicados, os valores nesse campo (coluna) se tornam links ativos. Passe o mouse para ver o link e selecione a página para a qual você quer ir. 
+
+Para mais informações, confira [Formatação condicional da tabela](../desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Sombreamento e cores da fonte com visuais de matriz
 Com o visual de matriz, você pode aplicar a formatação condicional (cores e sombreamento e barras de dados) ao plano de fundo das células na matriz, bem como pode aplicar formatação condicional aos próprios valores e texto.

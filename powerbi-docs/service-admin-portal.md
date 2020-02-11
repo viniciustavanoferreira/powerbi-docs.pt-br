@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885292"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819573"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -203,11 +203,24 @@ A imagem a seguir mostra a mensagem exibida quando você compartilha com um usu�
 
 ### <a name="publish-to-web"></a>Publicar na Web
 
-Os usuários na organização podem publicar relatórios na Web. [Saiba mais](service-publish-to-web.md)
+Os usuários na organização podem publicar relatórios na Web. [Saiba mais](service-publish-to-web.md). Isso disponibiliza o relatório e os dados contidos nele para qualquer pessoa na Web.
+
+> [!NOTE]
+> Um administrador do Power BI deve permitir a criação de novos códigos de inserção de publicação na web. As organizações podem ter códigos de inserção existentes; use a página [Códigos de inserção](service-admin-portal.md#embed-codes) para revisar os relatórios publicados atualmente.
 
 A imagem a seguir mostra o menu **Arquivo** de um relatório quando a configuração **Publicar na Web** está habilitada.
 
-![Configuração Publicar na Web](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Publicar na Web no menu arquivo](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+A configuração **Publicar na Web** fornece opções com as quais os usuários podem criar códigos de inserção.
+
+![Configuração Publicar na Web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+Os usuários precisarão entrar em contato com o administrador do Power BI para que ele permita a criação de códigos de inserção se a opção **Escolher como os códigos de inserção funcionam** estiver definida como **Permitir somente código de inserção existentes** e a configuração **Publicar na Web** estiver **Habilitada**.
+
+![Solicitação Publicar na Web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 Os usuários veem diferentes opções na interface do usuário a depender do local onde se encontra a configuração de **Publicar na Web**.
 
@@ -449,7 +462,7 @@ Para saber mais sobre como gerenciar as configurações do Power BI Embedded (SK
 
 ## <a name="embed-codes"></a>Códigos de inserção
 
-Como administrador, você pode exibir os códigos de inserção que são gerados para seu locatário. Você também pode revogar ou excluir códigos. [Saiba mais](service-publish-to-web.md)
+Como administrador, você pode exibir os códigos de inserção que são gerados para seu locatário para compartilhar os relatórios publicamente. Você também pode revogar ou excluir códigos. [Saiba mais](service-publish-to-web.md)
 
 ![Códigos de inserção dentro do portal de administração do Power BI](media/service-admin-portal/embed-codes.png)
 

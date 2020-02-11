@@ -6,32 +6,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540604"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895133"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Introdução ao painel de formatação
-Se você tem permissões de edição para um relatório, há várias opções de formatação disponíveis. Nos relatórios do **Power BI**, altere a cor de série de dados, pontos de dados e até mesmo da tela de fundo das visualizações. Você pode alterar a forma como os eixos x e y são apresentados. Você pode até mesmo formatar as propriedades de fonte de visualizações, formas e títulos, fornecendo controle total de como seus relatórios são exibidos.
+Se você tem permissões de edição para um relatório, há várias opções de formatação disponíveis. Nos relatórios do Power BI, você pode alterar a cor da série de dados, dos pontos de dados e até mesmo da tela de fundo das visualizações. Você pode alterar a forma como os eixos x e y são apresentados. Também é possível formatar as propriedades de fonte de visualizações, formas e títulos. O Power BI oferece controle total sobre como seus relatórios são exibidos.
 
-Para começar, abra um relatório no Power BI Desktop ou no serviço do Power BI. Ambos oferecem opções de formatação quase idênticas. Ao abrir um relatório no serviço do Power BI, selecione **Editar Relatório** na barra de menus.  
+Para começar, abra um relatório no Power BI Desktop ou no serviço do Power BI. Ambos oferecem opções de formatação quase idênticas. Ao abrir um relatório no serviço do Power BI, selecione **Editar** na barra de menus. 
 
 ![barra de menus mostrando a opção Editar](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
-Quando você estiver editando um relatório e você tiver uma visualização selecionada, o painel **Visualizações** será exibido, o que permite adicionar ou alterar as visualizações. Diretamente abaixo das visualizações disponíveis há três ícones: o ícone **Campos** (uma pilha de barras), o ícone **Formato** (um rolo de pintura) e o ícone **Análise** (uma lupa). Na imagem abaixo, o ícone **Campos** está selecionado, indicado por uma barra amarela abaixo do ícone.
+Enquanto você edita um relatório com uma visualização selecionada, o painel de **Visualizações** é exibido. Use esse painel para alterar as visualizações. Diretamente abaixo do painel de **Visualizações**, você verá três ícones: o ícone de **Campos** (uma pilha de barras), o ícone de **Formato** (um rolo de pintura) e o ícone do **Analytics** (uma lupa). Na imagem abaixo, o ícone de **Campos** está selecionado, o que é indicado por uma barra amarela abaixo do ícone.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
-Quando você seleciona **Formato**, a área abaixo do ícone exibe as personalizações de cor e eixo disponíveis para a visualização selecionada no momento.  
+Quando você seleciona **Formato**, a área abaixo do ícone exibe as personalizações disponíveis para a visualização selecionada no momento.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
-Você pode personalizar muitos elementos de cada visualização:
+Você pode personalizar muitos elementos de cada visualização. As opções disponíveis dependem do visual selecionado. Veja a seguir algumas dessas opções:
 
 * Legenda
 * Eixo X
@@ -44,6 +44,12 @@ Você pode personalizar muitos elementos de cada visualização:
 * Tela de fundo
 * Bloquear aspecto
 * Borda
+* Dicas de ferramenta
+* Cabeçalhos de visual
+* Formas
+* Posição    
+e mais.
+
 
 > [!NOTE]
 >  
@@ -51,49 +57,101 @@ Você pode personalizar muitos elementos de cada visualização:
 
 Observe também que, se você não tiver nenhuma visualização selecionada, será exibido **Filtros** em vez dos ícones, o que permite aplicar filtros a todas as visualizações na página.
 
-Vamos mostrar alguns exemplos: um trabalha com cores, o outro alterando as propriedades de um eixo. Aí, você deve estar pronto para personalizar cores, eixos e rótulos o dia inteiro.
+A melhor maneira de aprender a usar as opções de formatação é testá-las. Você pode desfazer suas alterações ou reverter para o padrão a qualquer momento. Há uma quantidade incrível de opções disponíveis, e novas opções são adicionadas o tempo todo. Não é possível descrever todas as opções de formatação em um artigo. Mas, como ponto de partida, vamos analisar algumas delas. 
+
+1. Alterar cores usadas no visual   
+2. Aplicar um estilo    
+3. Alterar propriedades do eixo    
+4. Adicionar rótulos de dados    
+
+
+
 
 ## <a name="working-with-colors"></a>Trabalhando com cores
 
-Vamos percorrer as etapas necessárias para personalizar cores em um gráfico.
+Vamos seguir as etapas necessárias para personalizar as cores em uma visualização.
 
-1. Selecionei um **gráfico de colunas em cluster** da tela de relatório.
-2. Em seguida, escolho o ícone **Formato** para mostrar as personalizações disponíveis.
-3. Em seguida, seleciono a pequena seta à esquerda da personalização **Cores de Dados** . Isso mostrará como personalizar as Cores de Dados, com opções específicas para a visualização que selecionei.
-4. **Cores de Dados** se expande para baixo para mostrar suas personalizações disponíveis.  
-   ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_4a.png)
+1. Selecione a visualização para ativá-la.
 
-Vamos fazer algumas alterações. Posso selecionar a seta para baixo ao lado da cor para fazer alterações em cada série de dados disponíveis. Vou deixar **Custo de vida** em amarelo, **Clima** em laranja e **Bem-estar da comunidade** será verde. A tela a seguir mostra a última etapa, alterando o **Custo de vida**.  
+2. Selecione o ícone de rolo de pintura para abrir a guia Formatação. A guia Formatação exibe todos os elementos de formatação disponíveis para o visual selecionado.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_5a.png)
+    ![Gráfico com a guia do painel de Formatação selecionada](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-formatting.png)
 
-As alterações são mostradas na imagem abaixo. Uau, esse é um gráfico brilhante. Aqui estão alguns elementos úteis para observar como trabalhar com cores. Os números na lista a seguir também são mostrados na tela seguinte, indicando onde esses elementos úteis podem ser acessados ou alterados.
+3. Selecione **Cores dos Dados** para expandir as personalizações disponíveis.  
 
-1. Não gosta das cores? Sem problemas, basta selecionar **Reverter em padrão** e sua seleção é revertida para as configurações padrão. Você pode fazer isso para uma cor ou para a visualização inteira.
-2. Quer uma cor que não vê na paleta? Basta selecionar **Cor personalizada**e escolha uma no espectro.  
-   ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_6a.png)
+    ![Gráfico com o painel Formatação aberto e as cores de dados expandidas](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-colors.png)
+
+4. Altere **Mostrar tudo** para Ativado e selecione diferentes cores para as colunas.
+
+    ![Gráfico com novas cores aplicadas a algumas colunas](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-change-colors.png)
+
+Veja a seguir algumas dicas úteis para trabalhar com cores. Os números na lista a seguir também são mostrados na tela seguinte, indicando onde esses elementos úteis podem ser acessados ou alterados.
+
+1. Não gostou da cor? Não tem problema, basta selecionar **Reverter para o padrão** para voltar à configuração padrão. 
+
+2. Não gosta de nenhuma das mudanças de cor? Selecione **Reverter para o padrão**, na parte inferior da seção **Cor dos dados**, para reverter para a configuração padrão. 
+
+3. Quer uma cor que não vê na paleta? Basta selecionar **Cor personalizada**e escolha uma no espectro.  
+
+   ![Seção de cores de dados com a paleta de cores aberta](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-color-extras.png)
 
 Não gostou da alteração que acabou de criar? Use **CTRL + Z** para desfazer, exatamente do modo que você está acostumado a fazer.
+
+## <a name="applying-a-style-to-a-table"></a>Aplicar um estilo a uma tabela
+Algumas visualizações do Power BI têm uma opção **Estilo**. Com um clique, um conjunto completo de opções de formatação é aplicado à sua visualização de uma só vez. 
+
+1. Selecione uma tabela ou matriz para ativá-la.   
+1. Abra a guia Formatação e selecione **Estilo**.
+
+   ![Selecionar Estilo na guia Formatação](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-style.png)
+
+
+1. Selecione um estilo no menu suspenso. 
+
+   ![Mesma tabela com linhas do cabeçalho em negrito que piscam aplicadas](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-style-flashy.png)
+
+Mesmo depois de aplicar um estilo, você pode continuar a formatar as propriedades, incluindo cores, dessa visualização.
+
 
 ## <a name="changing-axis-properties"></a>Alterando as propriedades de eixo
 
 Geralmente é útil modificar o eixo X ou Y. Semelhante ao trabalho com cores, você pode modificar um eixo selecionando o ícone de seta para baixo à esquerda do eixo que você deseja alterar, como mostrado na imagem a seguir.  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
-Para recolher as opções do **eixo X** , basta selecionar o ícone de seta para cima ao lado do **eixo X**.
+No exemplo abaixo, formatamos o eixo Y da seguinte forma:
+- movendo os rótulos para o lado direito da visualização
 
-Você pode remover os rótulos do eixo X totalmente, alternando para o botão de opção ao lado do **eixo X**. Você pode também optar por ativar ou desativar os títulos dos eixos selecionando o botão de opção ao lado de **Título**.  
+- alterando o valor inicial para zero.
 
-Existem todos os tipos de cores para escolher e muitas outras personalizações que você pode aplicar a seus relatórios e painéis do Power BI.
+- alterando a cor da fonte do rótulo para preto
 
-> [!NOTE]
->  
-> Essas personalizações de cor, eixo e relacionadas disponíveis quando o ícone **Formato** é selecionado também estão disponíveis no Power BI Desktop.
+- aumentando o tamanho da fonte do rótulo para 12
 
-## <a name="setting-color-from-text-values"></a>Configurando a cor dos valores de texto
+- adicionando um título de eixo Y
 
-A partir da atualização de agosto de 2018 do **Power BI Desktop**, é possível definir cores pelo valor de texto, ou código hexadecimal, para um elemento de relatório específico. Para obter mais informações, consulte [formatação condicional em tabelas](../desktop-conditional-table-formatting.md).
 
+    ![mesmo gráfico de colunas, mas com várias formatações no eixo Y](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-axis-changes.png)
+
+Você pode remover completamente os rótulos dos eixos alternando o botão de opção ao lado de **Eixo X** ou **Eixo Y**. Você pode também optar por ativar ou desativar os títulos dos eixos selecionando o botão de opção ao lado de **Título**.  
+
+
+
+## <a name="adding-data-labels"></a>Adicionar rótulos de dados    
+
+Um último exemplo de formatação antes de começar a explorar por conta própria.  Vamos adicionar rótulos de dados a um gráfico de áreas. 
+
+Aqui está a imagem do *antes*. 
+
+![gráfico de áreas não formatado](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-area-chart.png)
+
+
+E aqui está a foto do *depois*.
+
+![gráfico de áreas formatado](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-labels.png)
+
+Selecionamos a visualização para ativá-la e abrimos a guia Formatação.  Selecionamos a opção **Rótulos de dados** e a ativamos. Em seguida, aumentamos a fonte para 12, alteramos a família de fontes para Arial Black, ativamos a opção **Mostrar tela de fundo** e mudamos a cor da tela de fundo para branco com uma transparência de 5%.
+
+Essas são apenas algumas das tarefas de formatação possíveis. Abra um relatório no modo de edição e divirta-se explorando o painel Formatação para criar visualizações lindas e informativas.
 
 ## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações, consulte o seguinte artigo:  

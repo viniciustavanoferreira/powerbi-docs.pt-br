@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831293"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889364"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho em uma capacidade Premium
 
@@ -39,7 +39,7 @@ As cargas de trabalho de consulta são otimizadas para os recursos determinados 
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
 | IA | N/D                      | 20% padrão; 100% mínimo                     | 20% padrão; 50% mínimo                     | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% |
 | Fluxos de dados         | Padrão de 40%; mínimo de 40% | Padrão de 24%; mínimo de 24% | Padrão de 20%; mínimo de 12% | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 3% | Padrão de 20%; mínimo de 2%   |
-| Relatórios paginados | N/D                      | Não aplicável                      | N/D                     | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
+| Relatórios paginados | N/D                      | N/D                      | N/D                     | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
 | | | | | | |
 
 ## <a name="workload-settings"></a>Configurações de carga de trabalho
@@ -67,9 +67,9 @@ A carga de trabalho de conjuntos de dados está habilitada por padrão e não po
 | **Contagem máxima de conjuntos de linhas intermediárias** | O número máximo de linhas intermediárias retornado por DirectQuery. O valor padrão é de 1.000.000 e o intervalo permitido é de 100.000 a 2.147.483.647. |
 | **Tamanho máximo do conjunto de dados offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Esse é o tamanho compactado em disco. O valor padrão é definido pelo SKU e o intervalo permitido é de 0,1 a 10 GB. |
 | **Contagem máxima do conjunto de linhas de resultado** | O número máximo de linhas retornadas em uma consulta DAX. O valor padrão é -1 (nenhum limite) e o intervalo permitido é de 100.000 a 214.7483.647. |
-| **Limite de memória de consulta (%)** | O percentual máximo de memória disponível que pode ser usada para resultados temporários em uma consulta ou em uma medida DAX. |
+| **Limite de memória de consulta (%)** | A porcentagem máxima de memória disponível na carga de trabalho que pode ser usada para executar uma consulta MDX ou DAX. |
 | **Tempo limite da consulta (segundos)** | A quantidade máxima de tempo antes que uma consulta expire. O padrão é de 3.600 segundos (1 hora). Um valor de 0 especifica que as consultas não atingirão o tempo limite. |
-| **Atualização automática de página (visualização)** | Botão de alternância para permitir que espaços de trabalho premium tenham relatórios com atualização automática de página. |
+| **Atualização automática de página (visualização)** | Botão de alternância para permitir que workspaces premium tenham relatórios com atualização automática de página. |
 | **Intervalo mínimo de atualização** | Se a atualização automática de página estiver ativada, esse será o intervalo mínimo permitido para o intervalo de atualização de página. O valor padrão é cinco minutos, e o mínimo permitido é um segundo. |
 |  |  |  |
 
@@ -99,11 +99,17 @@ Observe que essa configuração afeta apenas as consultas DAX, enquanto a config
 
 Use essa configuração para controlar o impacto de relatórios com uso intensivo de recursos ou mal designados. Algumas consultas e alguns cálculos podem apresentar resultados intermediários que usam muita memória na capacidade. Essa situação pode fazer com que outras consultas sejam executadas muito lentamente, causar a remoção de outros conjuntos de dados da capacidade e levar erros de memória insuficiente para outros usuários da capacidade.
 
-Essa configuração se aplica à atualização de dados e à renderização de relatório. A atualização de dados executa a atualização de dados da fonte de dados e a atualização de consulta, a menos que a atualização de consulta esteja desabilitada. Se a atualização de consulta não estiver desabilitada, esse limite de memória também se aplicará a essas consultas. As consultas com falha fazem com que o estado de atualização agendada seja relatado como uma falha, mesmo que a atualização de dados tenha sido bem-sucedida.
+Essa configuração se aplica a todas as consultas DAX e MDX executadas por relatórios do Power BI, relatórios Analisar no Excel, bem como outras ferramentas que podem se conectar ao ponto de extremidade XMLA.
+
+Observe que as operações de atualização de dados também podem executar consultas DAX como parte da atualização dos caches visuais e dos blocos do dashboard após a atualização dos dados no conjunto de dados. Essas consultas também podem falhar devido a essa configuração, o que pode causar a exibição da operação de atualização de dados em um estado de falha, mesmo que a atualização dos dados no conjunto de dados tenha ocorrido com êxito.
 
 #### <a name="query-timeout"></a>Tempo Limite da Consulta
 
-Use essa configuração para manter um melhor controle das consultas de execução longa, o que pode fazer com que os relatórios sejam carregados lentamente para os usuários. Essa configuração se aplica à atualização de dados e à renderização de relatório. A atualização de dados executa a atualização de dados da fonte de dados e a atualização de consulta, a menos que a atualização de consulta esteja desabilitada. Se a atualização de consulta não estiver desabilitada, essa limitação de tempo limite também se aplicará a essas consultas.
+Use essa configuração para manter um melhor controle das consultas de execução longa, o que pode fazer com que os relatórios sejam carregados lentamente para os usuários.
+
+Essa configuração se aplica a todas as consultas DAX e MDX executadas por relatórios do Power BI, relatórios Analisar no Excel, bem como outras ferramentas que podem se conectar ao ponto de extremidade XMLA.
+
+Observe que as operações de atualização de dados também podem executar consultas DAX como parte da atualização dos caches visuais e dos blocos do dashboard após a atualização dos dados no conjunto de dados. Essas consultas também podem falhar devido a essa configuração, o que pode causar a exibição da operação de atualização de dados em um estado de falha, mesmo que a atualização dos dados no conjunto de dados tenha ocorrido com êxito.
 
 Essa configuração se aplica a uma única consulta e não ao tempo necessário para executar todas as consultas associadas à atualização de um conjunto de dados ou um relatório. Considere o seguinte exemplo:
 
@@ -144,7 +150,7 @@ Para beneficiar-se do novo mecanismo de computação, divida a ingestão de dado
 
 #### <a name="container-size"></a>Tamanho do contêiner
 
-Ao atualizar um fluxo de dados, a carga de trabalho do fluxo de dados gera um contêiner para cada entidade no fluxo de dados. Cada contêiner pode consumir memória até o volume especificado na configuração **Tamanho do Contêiner. O padrão para todas as SKUs é de 700 MB. Será conveniente alterar essa configuração se:
+Ao atualizar um fluxo de dados, a carga de trabalho do fluxo de dados gera um contêiner para cada entidade no fluxo de dados. Cada contêiner pode consumir memória até o volume especificado na configuração Tamanho do Contêiner. O padrão para todas as SKUs é de 700 MB. Será conveniente alterar essa configuração se:
 
 - Os fluxos de dados demorarem muito para atualizar ou a atualização do fluxo de dados falhar por atingir o tempo limite.
 - As entidades de fluxo de dados incluírem etapas de computação, por exemplo, uma junção.  

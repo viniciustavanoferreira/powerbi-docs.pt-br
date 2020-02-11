@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d118cae8cd4b6fbd95066b15819b1e798c8bbe0f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: c3ccbe6ad87a813185943845431fa1a859b09a76
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761308"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888421"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Pré-requisitos de fonte de dados do Power BI
 Para cada provedor de dados, o Power BI dá suporte a uma versão específica do provedor em objetos. Para obter mais informações sobre as fontes de dados disponíveis para o Power BI, confira [Fontes de dados](desktop-data-sources.md). A tabela a seguir descreve esses requisitos.
@@ -28,7 +28,7 @@ Para cada provedor de dados, o Power BI dá suporte a uma versão específica do
 | | System.Data.OracleClient (criado no .NET Framework) |.NET Framework 3.5 |9.x+ |Tabelas/modos de exibição |Incluído no .NET Framework 3.5 ou superior |
 | IBM DB2 |Cliente ADO.Net da IBM (parte do pacote de driver do servidor de dados da IBM) |10.1 |9.1+ |Tabelas/modos de exibição |[Link de download](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Conector/rede |6.6.5 |5.1 |Tabelas/modos de exibição, Funções escalares |[Link de download](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
-| PostgreSQL |Provedor ADO.NET NPGSQL |2.0.12 |7.4 |Tabelas/modos de exibição |[Link de download](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
+| PostgreSQL |Provedor ADO.NET NPGSQL |2.0.12 |9.4 |Tabelas/modos de exibição |[Link de download](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
 | Teradata |Provedor de dados .Net para Teradata |14+ |12+ |Tabelas/modos de exibição |[Link de download](https://go.microsoft.com/fwlink/?linkid=278886&clcid=0x409) |
 | SAP Sybase SQL Anywhere |iAnywhere.Data.SQLAnywhere para .NET 3.5 |16+ |16+ |Tabelas/modos de exibição |[Link de download](https://go.microsoft.com/fwlink/?linkid=324846) |
 

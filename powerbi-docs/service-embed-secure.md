@@ -1,20 +1,20 @@
 ---
 title: Inserir um relatório em um site ou portal seguro
 description: O recurso de inserção do Power BI permite aos usuários inserir relatórios em portais da Web internos com facilidade e segurança.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565751"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913603"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserir um relatório em um site ou portal seguro
 
@@ -58,7 +58,7 @@ Para exibir os relatórios inseridos, os usuários precisam de uma licença do P
 
 Você pode personalizar a experiência do usuário usando as configurações de entrada da URL de inserção. No iFrame fornecido, você pode atualizar as configurações de **src** da URL.
 
-| Propriedade  | Descrição  |  |  |  |
+| Property  | Descrição  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
 | pageName  | Você pode usar o parâmetro de cadeia de caracteres de consulta **pageName** para definir qual página do relatório abrir. Você pode encontrar esse valor no final da URL do relatório ao exibi-lo no serviço do Power BI, conforme mostrado abaixo. |  |  |  |
 | Filtros de URL  | Você pode usar [Filtros de URL](service-url-filters.md) na URL de inserção recebida da interface do usuário do Power BI para filtrar o conteúdo da inserção. Dessa forma, você pode criar integrações de código baixo tendo apenas experiências básicas em HTML e JavaScript.  |  |  |  |
@@ -129,7 +129,11 @@ Você pode adicionar quantos botões desejar para criar uma experiência persona
 
 * Alguns navegadores exigem que você atualize a página após entrar, especialmente ao usar os modos InPrivate ou Incognito.
 
-* Para obter uma experiência de logon único, use a opção Inserir no SharePoint Online ou crie uma integração personalizada usando o método de inserção [o usuário possui dados](developer/embed-sample-for-your-organization.md). 
+* Você poderá ter problemas se usar versões de navegador sem suporte. O Power BI é compatível com [a seguinte lista de navegadores](power-bi-browsers.md).
+
+* Não há suporte para o servidor do SharePoint clássico, pois ele requer versões anteriores ao Internet Explorer 11 ou a habilitação do modo de exibição de compatibilidade.
+
+* Para obter uma experiência de logon único, use a [opção Inserir no SharePoint Online](service-embed-report-spo.md) ou crie uma integração personalizada usando o método de inserção o [usuário possui dados](developer/embed-sample-for-your-organization.md). 
 
 * O recurso de autenticação automática fornecido com a opção **Inserir** não funciona com a API JavaScript do Power BI. Para a API JavaScript do Power BI, use o método de inserção [o usuário possui dados](developer/embed-sample-for-your-organization.md). 
 

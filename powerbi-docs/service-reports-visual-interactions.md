@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 2485d9120b10b41d193189de383a1a92b15378d5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010951"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894697"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Alterar como os visuais interagem em um relatório do Power BI
 Se você tiver permissões de edição para um relatório, poderá usar as **interações visuais** para alterar como as visualizações em uma página de relatório afetam umas às outras. 
@@ -52,7 +52,7 @@ Se você tiver permissões de edição em um relatório, poderá ativar os contr
 
         ![Lista suspensa de Interações visuais](media/service-reports-visual-interactions/power-bi-service.png)
 
-3. Para exibir os controles de interação de visualização, selecione **Editar interações**. O Power BI adiciona os ícones de filtro e realce a todas as outras visualizações na página do relatório. Agora você pode alterar como a visualização selecionada interage com as outras visualizações na página do relatório.
+3. Para exibir os controles de interação de visualização, selecione **Editar interações**. O Power BI adiciona os ícones de filtro e realce a todas as outras visualizações na página do relatório. Podemos ver que o mapa de árvore está aplicando filtragem cruzada ao gráfico de linha e ao mapa e realce cruzado ao gráfico de coluna. Agora você pode alterar como a visualização selecionada interage com as outras visualizações na página do relatório.
    
     ![relatório com interações visuais ligadas](media/service-reports-visual-interactions/power-bi-turn-on.png)
 
@@ -61,25 +61,32 @@ Se você tiver permissões de edição em um relatório, poderá ativar os contr
 Familiarize-se com a forma como suas visualizações interagem, selecionando cada visualização na página do seu relatório, uma de cada vez.  Selecione um ponto de dados, uma barra ou uma forma e observe o impacto nas outras visualizações. Se o comportamento observado não for o que você prefere, será possível alterar as interações. Essas alterações são salvas com o relatório, para que você e seus clientes tenham a mesma experiência de interação visual.
 
 
-Determine o impacto que a **visualização selecionada** deve ter nas outras visualizações.  E, como opção, repita para todas as outras visualizações na página do relatório.
+Comece selecionando uma visualização para torná-la ativa.  Observe que todas as outras visualizações na página agora exibem ícones de interação. O ícone em negrito é aquele que está sendo aplicado. Em seguida, determine o impacto que você deseja que a **visualização selecionada** tenha nas outras visualizações.  E, como opção, repita para todas as outras visualizações na página do relatório.
+
+Para a visualização selecionada:
    
-   * Se deve realizar a filtragem cruzada da visualização, selecione o ícone **filtrar** ![ícone filtrar](media/service-reports-visual-interactions/power-bi-filter-icon.png).
-   * Se deve realizar o realce cruzado da visualização, selecione o ícone **realçar** ![ícone realçar](media/service-reports-visual-interactions/power-bi-highlight-icon.png).
-   * Se deve não ter impacto, selecione o ícone **sem impacto** ![ícone sem impacto](media/service-reports-visual-interactions/power-bi-no-impact.png).
+   * aplicar filtragem cruzada em uma das outras visualizações na página, selecione o ícone de **filtro** no canto superior direito do ![ícone de filtro](media/service-reports-visual-interactions/power-bi-filter-icon.png) dessa visualização.
+   * aplicar realce cruzado em uma das outras visualizações na página, selecione o ícone de **realce** ![ícone de realce](media/service-reports-visual-interactions/power-bi-highlight-icon.png).
+   * não ter nenhum impacto em uma das outras visualizações na página, selecione o ícone **sem impacto** ![ícone sem impacto](media/service-reports-visual-interactions/power-bi-no-impact.png).
 
 ## <a name="change-the-interactions-of-drillable-visualizations"></a>Alterar as interações de visualizações analisáveis
 [Algumas visualizações do Power BI podem ser analisadas](consumer/end-user-drill.md). Por padrão, quando você analisa em detalhes uma visualização, ela não afeta as outras visualizações na página do relatório. Mas esse comportamento pode ser alterado. 
-
-1. Selecione o visual analisável para ativá-lo. 
 
 > [!TIP]
 > Experimente você mesmo usando o arquivo [PBIX de amostra de Recursos Humanos](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix). Há um gráfico de colunas com detalhamento na guia **Novas contratações**.
 >
 
+1. Selecione o visual analisável para ativá-lo. 
+
+2. Selecione o ícone de drill down para ativar esse recurso.
+
+    ![ativar drilling](media/service-reports-visual-interactions/power-bi-drill-down.png)
 
 2. Na barra de menus, selecione **Formato** > **Filtros detalhados de outros elementos visuais**.  Agora, quando você fizer drill down (e up) em uma visualização, as outras visualizações na página do relatório serão alteradas para refletir sua seleção atual de detalhamento. 
 
-    ![ativar filtros detalhados de outros elementos visuais](media/service-reports-visual-interactions/power-bi-drill.png).
+    ![ativar filtros detalhados de outros elementos visuais](media/service-reports-visual-interactions/power-bi-drill.png)
+
+3. Se o comportamento observado não refletir a sua preferência, você poderá alterar as interações [conforme descrito acima](#change-the-interaction-behavior).
     
 ## <a name="next-steps"></a>Próximas etapas
 [Filtragem e realce nos relatórios do Power BI](power-bi-reports-filters-and-highlighting.md)

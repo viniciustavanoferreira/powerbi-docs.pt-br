@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860979"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888514"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagir com visuais em relatórios, dashboards e aplicativos
 
@@ -37,7 +37,7 @@ Para muitas dessas opções, o administrador ou o *designer* pode desabilitar su
 
 
 > [!IMPORTANT]
-> Mas primeiro, algumas palavras sobre a P e R. P e R é a ferramenta de pesquisa de idioma natural do Power BI. Você digita a pergunta usando o idioma natural e a P e R a responde na forma de um visual. A P e R é uma maneira para os consumidores criarem seus próprios visuais. No entanto, os visuais que você criar com a P e R não poderão ser salvos. Contudo, se houver algo específico que você deseja aprender com os dados e o designer não incluiu isso em um relatório ou em um dashboard, a P e R será uma ótima opção. Para saber mais sobre a P e R, consulte [P e R para consumidores](end-user-q-and-a.md).
+> Mas primeiro, algumas palavras sobre a P e R. P e R é a ferramenta de pesquisa de idioma natural do Power BI. Você digita a pergunta usando o idioma natural e a P e R a responde na forma de um visual. A P e R é uma maneira para os consumidores criarem seus próprios visuais de maneira dinâmica. No entanto, os visuais que você criar com a P e R não poderão ser salvos. Contudo, se houver algo específico que você deseja aprender com os dados e o designer não incluiu isso em um relatório ou em um dashboard, a P e R será uma ótima opção. Para saber mais sobre a P e R, consulte [P e R para consumidores](end-user-q-and-a.md).
 
 
 
@@ -45,13 +45,13 @@ Para muitas dessas opções, o administrador ou o *designer* pode desabilitar su
 |---------|---------|---------|--------|
 |[Adicionar comentários a um visual por conta própria ou iniciar uma conversa sobre ele com os colegas](end-user-comment.md).     |  sim       |   sim      |  não  |
 |[Abrir e explorar o relatório em que o visual foi criado](end-user-tiles.md).     |    sim     |   N/A      |  não |
-|[Exibir uma lista dos filtros e das segmentações que afetam o visual](end-user-report-filter.md).     |    não     |   sim      |  sim |
+|[Exibir uma lista dos filtros e das segmentações que afetam o visual](end-user-report-filter.md).     |    se você abrir no modo de foco     |   sim      |  não |
 |[Abrir e explorar um visual na P e R (se o *designer* usou a P e R para criar o visual)](end-user-q-and-a.md).     |   sim      |   N/A      |  N/A  |
 |[Criar um visual na P e R (para exploração, você não poderá salvá-lo)](end-user-q-and-a.md).     |   sim      |   se o designer adicionou a P e R ao relatório      |  sim  |
-|[Pedir ao Power BI para procurar por tendências ou fatos interessantes](end-user-insights.md) nos dados do visual para você.  Esses visuais gerados automaticamente são chamados de *insights*.     |    sim     |  para todo o relatório, não por visual       | não   |
-|[Exibir apenas um visual por vez usando o modo de *foco*](end-user-focus.md).     | sim        |   sim      | N/A  |
+|[Pedir ao Power BI para procurar por tendências ou fatos interessantes](end-user-insights.md) nos dados do visual para você.  Esses visuais gerados automaticamente são chamados de *insights*.     |    sim, para blocos    |  não       | não   |
+|[Exibir apenas um visual por vez usando o modo de *foco*](end-user-focus.md).     | sim, para blocos        |   sim, para visuais      | N/A  |
 |[Pesquisar quando o visual foi atualizado pela última vez](end-user-fresh.md).     |  sim       |    sim     | N/A  |
-|[Exibir apenas um visual por vez, sem bordas nem painéis de navegação, usando o modo de *tela inteira* ou de *foco*](end-user-focus.md).     |   sim      |  sim       | por padrão  |
+|[Exibir apenas um visual por vez, sem bordas nem painéis de navegação, usando o ](end-user-focus.md)modo de *tela inteira*.     |   sim      |  sim       | por padrão  |
 |[Imprimir](end-user-print.md).     |  sim       |   sim      | não  |
 |[Examinar o visual adicionando e modificando os filtros.](end-user-report-filter.md)     |    não     |   sim      | não  |
 |Focalizar um visual para revelar detalhes adicionais e dicas de ferramentas.     |    sim     |   sim      | sim  |
@@ -61,7 +61,7 @@ Para muitas dessas opções, o administrador ou o *designer* pode desabilitar su
 | Adicionar um destaque a um visual. | não  | sim  |  não |
 | [Exportar para o Excel.](end-user-export.md) | sim | sim | não|
 | [Criar um alerta](end-user-alerts.md) para notificar você de quando um valor excede um limite definido.  | sim  | não  | não |
-| [Filtro e realce cruzado nos outros visuais da página](end-user-report-filter.md).  | não      | sim  | não  |
+| [Filtro e realce cruzado nos outros visuais da página](end-user-report-filter.md).  | não      | sim  | N/A |
 | [Fazer drill de um visual que tenha uma hierarquia](end-user-drill.md).  | não  | sim   | não |
 
 ## <a name="next-steps"></a>Próximas etapas

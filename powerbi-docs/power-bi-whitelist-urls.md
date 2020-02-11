@@ -1,26 +1,26 @@
 ---
 title: URLs do Power BI para a lista de permissões
-description: Este artigo descreve os pontos de extremidade que devem ser acessíveis para clientes que usam o Power BI.
+description: Este artigo lista os pontos de extremidade de URL e as portas em uma lista segura para conexão com o Power BI.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: cd13e36ca7216036a22db332a508e3c825fecf4b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698775"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894650"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URLs do Power BI para a lista de permissões
 
 **O serviço online do Power BI**, também conhecido como aplicativo SaaS (Software como serviço) do Power BI, requer conectividade com a Internet. Os pontos de extremidade abaixo devem ser acessíveis para clientes que usam o serviço online do Power BI.
 
-Para usar o serviço online do Power BI, é necessário ter acesso para se conectar aos pontos de extremidade marcados como **necessários** nas tabelas abaixo e quaisquer pontos de extremidade marcados como **necessários** nos sites vinculados. Se o link para um site externo se referir a uma seção específica, será necessário apenas analisar os pontos de extremidade nessa seção.
+Para usar o serviço online do Power BI, é necessário conseguir se conectar aos pontos de extremidade marcados como **necessários** nas tabelas abaixo e a quaisquer pontos de extremidade marcados como **necessários** nos sites vinculados. Se o link para um site externo se referir a uma seção específica, será necessário apenas analisar os pontos de extremidade nessa seção.
 
 Os pontos de extremidade marcados como **opcionais** também podem ser adicionados à **lista de permissões** para uma funcionalidade específica funcionar.
 
@@ -46,16 +46,17 @@ Para o uso geral do Power BI, conecte-se aos pontos de extremidade na tabela e n
 | Linha | Finalidade | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
 | 1 | **Obrigatório:** APIs de back-end | *.analysis.windows.net | TCP 443 |
-| 2 | **Obrigatório:** integração do Office 365 | Confira a documentação do Office 365 do [Office Online e URLs comuns](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
-| 3 | **Obrigatório:** Portal | app.powerbi.com | TCP 443 |
-| 4 | **Obrigatório:** Telemetria do serviço | dc.services.visualstudio.com | TCP 443 |
-| 5 | **Opcional:** Mensagens informativas | dynmsg.modpim.com | TCP 443 |
-| 6 | **Opcional:** pesquisas NPS | nps.onyx.azure.net | TCP 443 |
+| 2 | **Obrigatório:** APIs de back-end | *.pbidedicated.windows.net | TCP 443 |
+| 3 | **Obrigatório:** integração do Office 365 | Confira a documentação do Office 365 do [Office Online e URLs comuns](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
+| 4 | **Obrigatório:** Portal | app.powerbi.com | TCP 443 |
+| 5 | **Obrigatório:** Telemetria do serviço | dc.services.visualstudio.com | TCP 443 |
+| 6 | **Opcional:** Mensagens informativas | dynmsg.modpim.com | TCP 443 |
+| 7 | **Opcional:** pesquisas NPS | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Administração
 
-Para executar funções administrativas dentro do Power BI, conecte-se aos pontos de extremidade nos sites vinculados abaixo.
+Para executar funções administrativas no Power BI, conecte-se aos pontos de extremidade nos sites vinculados abaixo.
 
 | Linha | Finalidade | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
@@ -64,7 +65,7 @@ Para executar funções administrativas dentro do Power BI, conecte-se aos ponto
 
 ## <a name="getting-data"></a>Obtendo dados
 
-Para obter dados de fontes de dados específicas, como o OneDrive, você deve ser capaz de se conectar aos pontos de extremidade na tabela abaixo. O acesso a URLs e domínios de Internet adicionais pode ser necessário para fontes de dados específicas usadas dentro da sua organização.
+Para obter dados de fontes de dados específicas, como o OneDrive, você deve ser capaz de se conectar aos pontos de extremidade na tabela abaixo. O acesso a URLs e domínios de Internet adicionais pode ser necessário para fontes de dados específicas usadas na sua organização.
 
 | Linha | Finalidade | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
@@ -77,7 +78,7 @@ Para obter dados de fontes de dados específicas, como o OneDrive, você deve se
 
 ## <a name="dashboard-and-report-integration"></a>Integração do dashboard e do relatório
 
-O Power BI depende de determinados pontos de extremidade para poder dar suporte aos seus dashboards e relatórios. Você deve poder se conectar aos pontos de extremidade na tabela e nos sites vinculados abaixo.
+O Power BI depende de determinados pontos de extremidade para dar suporte aos seus dashboards e relatórios. Você deve poder se conectar aos pontos de extremidade na tabela e nos sites vinculados abaixo.
 
 | Linha | Finalidade | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
@@ -86,7 +87,7 @@ O Power BI depende de determinados pontos de extremidade para poder dar suporte 
 
 ## <a name="custom-visuals"></a>Visuais personalizados
 
-O Power BI depende de determinados pontos de extremidade para poder exibir e acessar os visuais personalizados. Você deve poder se conectar aos pontos de extremidade na tabela e nos sites vinculados abaixo.
+O Power BI depende de determinados pontos de extremidade para exibir e acessar os visuais personalizados. Você deve poder se conectar aos pontos de extremidade na tabela e nos sites vinculados abaixo.
 
 | Linha | Finalidade | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
@@ -98,7 +99,7 @@ O Power BI depende de determinados pontos de extremidade para poder exibir e ace
 
 ## <a name="related-external-sites"></a>Sites externos relacionados
 
-O Power BI contém links para outros sites relacionados. Esses sites incluem os de documentação, suporte, solicitações de novos recursos e muito mais. Esses sites não afetarão a funcionalidade do Power BI, portanto podem ser opcionalmente incluídos na lista de permissões se desejado.
+O Power BI contém links para outros sites relacionados. Esses sites hospedam documentação, suporte, solicitações de novos recursos e muito mais. O acesso a esses sites não afetará a funcionalidade do Power BI, portanto, a lista de permissões é opcional.
 
 | Linha | Finalidade | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
@@ -107,7 +108,7 @@ O Power BI contém links para outros sites relacionados. Esses sites incluem os 
 | 3 | **Opcional:** Site de download (para o Power BI Desktop etc.) | download.microsoft.com | TCP 443 |
 | 4 | **Opcional:** Redirecionamentos externos | aka.ms <br> go.microsoft.com | TCP 443 |
 | 5 | **Opcional:** Site de comentários sobre ideias| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
-| 6 | **Opcional:** site do Power BI – página de aterrissagem, links para saber mais, site de suporte, links de download, demonstração do parceiro etc. | powerbi.microsoft.com | TCP 443 |
+| 6 | **Opcional:** site do Power BI – página de aterrissagem, links para saber mais, site de suporte, links de download, demonstração do parceiro e assim por diante. | powerbi.microsoft.com | TCP 443 |
 | 7 | **Opcional:** Central de desenvolvedores do Power BI | dev.powerbi.com | TCP 443 |
 | 8 | **Opcional:** Site de suporte | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

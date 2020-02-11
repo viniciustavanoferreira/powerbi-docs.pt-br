@@ -1,66 +1,57 @@
 ---
-title: Pesquisar e classificar seu conteúdo no serviço do Power BI
-description: documentação para pesquisar e classificar conteúdo em Meu workspace do Power BI
+title: Pesquisar e localizar seu conteúdo
+description: documentação para pesquisar e localizar conteúdo e navegar por ele no serviço do Power BI
 author: mihart
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 01/27/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64570b23700e125e9040f493630317c0c6350d0e
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861727"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889042"
 ---
-# <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisando, buscando e classificando seu conteúdo no serviço do Power BI
+# <a name="navigation-for-power-bi-consumers-sorting-content"></a>Navegação para consumidores do Power BI: classificar conteúdo
+
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Há muitas maneiras de navegar pelo seu conteúdo no serviço do Power BI. O conteúdo é organizado dentro do seu workspace por tipo: dashboards e relatórios.  E o conteúdo também é organizado por uso: favoritos, recentes, aplicativos, compartilhado comigo e em destaque. Para uma parada de navegação, a *Página Inicial* do Power BI organiza o conteúdo todo em uma única página. Esses caminhos diferentes em seu conteúdo permitem que você localize rapidamente aquilo de que precisa no serviço do Power BI.  
 
-## <a name="navigation-within-workspaces"></a>Navegação em workspaces
+Quando você é novo no serviço Power BI, tem pouco conteúdo (dashboards, relatórios, aplicativos). Porém, conforme os colegas começarem a compartilhar conteúdo com você e você começar a baixar aplicativos, será possível ter longas listas de conteúdo. É nesse momento que você descobrirá que a pesquisa e a classificação são extremamente úteis.
 
-*Consumidores* do Power BI normalmente têm apenas um workspace: **Meu Workspace**. O **Meu workspace** somente terá conteúdo se você tiver baixado os exemplos da Microsoft ou criado ou baixado seus próprios dashboards, relatórios ou aplicativos.  
+## <a name="searching-for-content"></a>Pesquisar por conteúdo
+ A pesquisa está disponível em quase todas as partes do serviço do Power BI. Procure a caixa ou o ícone de pesquisa ![ícone de lupa](./media/end-user-search-sort/power-bi-search-icon.png).
 
-No **Meu workspace**, o serviço do Power BI separa seu conteúdo por tipo: dashboards, relatórios, pastas de trabalho e conjuntos de dados. Você verá essa organização quando selecionar um workspace. Neste exemplo, **Meu workspace** contém um dashboard, um relatório, nenhuma pasta de trabalho e um conjunto de dados.
+ No campo Pesquisar, digite todo ou parte do nome de um dashboard, relatório, pasta de trabalho, aplicativo ou proprietário. O Power BI pesquisa todo o seu conteúdo. 
 
-![vídeo](./media/end-user-search-sort/myworkspace/myworkspace.gif)
+ ![pesquisar um relatório](./media/end-user-search-sort/power-bi-search-field.png) 
 
-________________________________________
-## <a name="navigation-using-the-search-field"></a>Navegação usando o campo Pesquisar
-Use a exibição de conteúdo **Meu workspace** para pesquisar, filtrar e classificar o conteúdo. No campo Pesquisar, digite todo ou parte do nome de um dashboard, relatório, pasta de trabalho ou proprietário.  
+ Em algumas áreas do Power BI, como workspaces, você encontrará dois campos de pesquisa diferentes. O campo de pesquisa na barra de menus pesquisa todo o conteúdo, enquanto o campo de pesquisa na tela do workspace pesquisa apenas esse workspace.
 
-Se você tiver apenas alguns conteúdos, não será necessário pesquisar e classificar.  Porém, quando você tem longas listas de dashboards e relatórios, verá que pesquisa e classificação são extremamente úteis. Por exemplo, a lista de relatórios abaixo tem 83 itens. 
+ ![pesquisar dentro de um workspace](./media/end-user-search-sort/power-bi-search-fields.png) 
 
-![pesquisar um relatório](./media/end-user-experience/power-bi-search.png)
+## <a name="sorting-content-lists"></a>Classificar listas de conteúdo
 
-Você também pode classificar o conteúdo por nome ou por proprietário. Observe a seta para cima à direita de **Nome**. No momento, estamos classificando 83 itens em ordem alfabética por nome, em ordem crescente. Para alterar a ordem de classificação para decrescente, selecione **Nome**. A seta para cima muda para uma seta para baixo.
+Se você tiver pouco conteúdo, não será necessário classificar.  Porém, quando você tiver listas longas de dashboards e relatórios, a classificação o ajudará a encontrar o que você precisa. Por exemplo, esta lista de conteúdo **Compartilhado comigo** tem 63 itens. 
 
-![classificar conteúdo](./media/end-user-experience/power-bi-sort-new.png)
+![lista de conteúdo compartilhado comigo](./media/end-user-search-sort/power-bi-long-lists.png)
+
+No momento, essa lista de conteúdo está classificada por data, da mais recente à mais antiga. Para alterar os critérios de classificação, selecione a seta à direita de **Data (mais recente)** .
+
+![Menu suspenso de classificação](./media/end-user-search-sort/power-bi-sort-date.png)
+
+
+A classificação também está disponível em workspaces. Neste exemplo, o conteúdo está classificado por data de **Atualização**. Para definir critérios de classificação para workspaces, selecione cabeçalhos de coluna, clique uma vez para escolher o cabeçalho e selecione novamente para alterar a direção da classificação. 
+
+![pesquisar um relatório](./media/end-user-search-sort/power-bi-workspace-sort.png)
 
 Nem todas as colunas podem ser classificadas. Posicione o cursor sobre os títulos de coluna para descobrir quais deles podem ser classificados.
-
-___________________________________________________________________
-## <a name="navigation-using-the-nav-pane"></a>Navegação usando o painel de navegação
-O painel de navegação classifica o conteúdo de modo a ajudar você a encontrar o que você precisa rapidamente.  
-
-![painel de navegação](./media/end-user-search-sort/power-bi-nav pane.png)
-
-
-- O conteúdo que é compartilhado com você está disponível em **Compartilhado comigo**.
-- Seu conteúdo exibido mais recentemente está disponível em **Recentes**. 
-- Seus aplicativos podem ser encontrados selecionando **Aplicativos**.
-- **Home** é uma exibição de página única do seu conteúdo mais importante e o conteúdo e fontes de aprendizado sugeridas.
-
-Além disso, você pode marcar o conteúdo como [favorito](end-user-favorite.md) e [em destaque](end-user-featured.md). Escolha um dashboard ou relatório que você acredita que exibirá com mais frequência e defina-o como o conteúdo *em destaque*. Cada vez que você abrir o serviço do Power BI, seu dashboard em destaque será exibido primeiro. Você tem uma série de dashboards e aplicativos que visita com frequência? Ao defini-los como favoritos, eles ficarão sempre disponíveis no seu painel de navegação.
-
-![Submenu Favoritos](./media/end-user-search-sort/power-bi-favorite.png).
-
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas

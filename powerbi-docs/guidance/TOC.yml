@@ -66,6 +66,8 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: Administração e implantação
           items:
+            - name: Configurações de administração de locatário
+              href: admin-tenant-settings.md
             - name: Dimensionamento de gateway de dados local
               href: gateway-onprem-sizing.md
     - name: White papers

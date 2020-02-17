@@ -134,6 +134,8 @@
               href: embed-sample-for-customers-national-clouds.md
         - name: Conceitos
           items:
+            - name: Capacidade e SKUs na análise integrada do Power BI
+              href: embedded-capacity.md
             - name: Práticas recomendadas de desempenho
               href: embedded-performance-best-practices.md
             - name: Entidade de serviço

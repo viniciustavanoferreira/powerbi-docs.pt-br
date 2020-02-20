@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761831"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154202"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Aplicar data/hora automáticas no Power BI Desktop
 
@@ -24,6 +24,7 @@ A Data/hora automática é uma opção de carregamento de dados no Power BI Desk
 Quando a opção está habilitada, o Power BI Desktop cria uma tabela de data/hora oculta automática para cada coluna de data, desde que todas as condições a seguir sejam verdadeiras:
 
 - O modo de armazenamento de tabela é Import
+- A coluna não é calculada
 - O tipo de dados da coluna é data ou data/hora
 - A coluna não é o lado de "muitos" de um relacionamento de modelo
 
@@ -44,6 +45,8 @@ Se fosse possível ver as linhas de uma tabela de data/hora automática, elas po
 
 > [!NOTE]
 > As tabelas de data/hora automáticas ficam permanentemente ocultas, mesmo para modeladores. Elas não podem ser vistas no painel **Campos** nem no diagrama de exibição de modelo e suas linhas não podem ser vistas na exibição de dados. Além disso, a tabela e sua coluna não podem ser referenciadas diretamente por expressões DAX.
+>
+> Por fim, não é possível trabalhar com elas usando [Analisar no Excel](service-analyze-in-excel.md) nem conectar-se ao modelo usando designers de relatórios que não são do Power BI.
 
 A tabela também define uma hierarquia, fornecendo visuais com um caminho de busca detalhada nos níveis de ano, trimestre, mês e dia.
 
@@ -87,7 +90,7 @@ A opção de arquivo atual também pode ser ativada ou desativada a qualquer mom
 > [!CAUTION]
 > Tome cuidado ao desativar a opção de arquivo atual, pois isso removerá as tabelas de data/hora automática. Corrija todos os filtros de relatório ou visuais desfeitos que foram configurados para usá-los.
 
-No Power BI Desktop selecione _Arquivo > Opções e configurações > Opções_ e, em seguida, selecione a página **Global** ou **Arquivo Atual**. Em qualquer página, a opção existe na seção **Inteligência de Tempo**.
+No Power BI Desktop, selecione _Arquivo > Opções e configurações > Opções_ e, em seguida, selecione a página **Global** ou **Arquivo Atual**. Em qualquer página, a opção existe na seção **Inteligência de Tempo**.
 
 ![Como configurar opções do Power BI Desktop. A página Carregamento de Dados do grupo GLOBAL é selecionada. Na seção Inteligência de Dados Temporais, a opção data/hora automática para novos arquivos está marcada.](media/desktop-auto-date-time/auto-date-time-configure-global-options.png)
 
@@ -98,3 +101,4 @@ Para obter mais informações relacionadas a este artigo, confira os seguintes r
 - [Diretrizes de data/hora automática no Power BI Desktop](guidance/auto-date-time.md)
 - [Definir e usar tabelas de datas no Power BI Desktop](desktop-date-tables.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)

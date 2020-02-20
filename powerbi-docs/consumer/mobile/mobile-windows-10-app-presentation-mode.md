@@ -1,19 +1,19 @@
 ---
 title: Exibir o modo de apresentação no Surface Hub, Windows 10 – Power BI
 description: Leia sobre como mostrar relatórios do Power BI no Surface Hub e mostrar dashboards do Power BI, relatórios e blocos no modo de tela inteira em dispositivos com o Windows 10.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/10/2018
-ms.author: mshenhav
-ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/08/2020
+ms.author: painbar
+ms.openlocfilehash: f900a329ccbfa2a6e80883baec9694ddeaf3833a
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869535"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259952"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Exibir relatórios e dashboards no modo de apresentação no Surface Hub e em dispositivos Windows 10
 É possível usar o modo de apresentação para exibir relatórios e dashboards em tela inteira em dispositivos Windows 10 e no Surface Hub. 
@@ -37,14 +37,17 @@ No aplicativo móvel do Power BI, toque no ícone **Tela inteira** para ir para 
 
 ![Relatório no modo de tela inteira com barras de ferramentas laterais](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
-Na barra de ferramentas, é possível executar as seguintes ações:
+Na barra de ferramentas, você pode optar por executar as seguintes ações:
 
-1. Tocar no ícone de voltar ![ícone de voltar](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) para voltar à página anterior. Um toque longo no ícone exibirá as janelas de trilhas, permitindo que você navegue até a pasta do seu relatório ou do dashboard.
-2. O ícone de tinta ![ícone de tinta](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) permitirá escolher uma cor quando você usar a caneta de superfície para desenhar e anotar em sua página de relatório. 
-3. Use o ícone de páginas ![ícone de paginação](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) para substituir a página de relatório que no momento você está apresentando.
-4. O ícone de reprodução  ![Ícone de reprodução](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) ocultará a barra de ação e iniciará a apresentação de slides, na qual o aplicativo girará automaticamente entre as páginas do relatório. 
-5. Toque no ícone de pesquisa ![Ícone de pesquisa](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) para procurar outros artefatos no Power BI.
-6. Para sair do modo de apresentação, toque no ícone com duas setas voltadas para dentro ![Sair do modo de tela inteira](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) na barra de ferramentas.
+1. **Voltar** ![ícone voltar](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) à página anterior. Um toque longo no ícone exibirá as janelas de trilha, permitindo que você navegue até a pasta que contém seu relatório ou dashboard.
+2. **Escolher cor da tinta** ![ícone de tinta](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) quando você usar a caneta Surface para desenhar e fazer anotações na página de relatório.
+3. **Apagar marcas de tinta** ![ícone de borracha](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png) que você pode ter feito com a caneta Surface ao desenhar e fazer anotações na página de relatório.  
+4. **Alternar páginas** ![ícone de paginação](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) para ir para outra página de relatório na apresentação.
+5. **Reproduzir a apresentação de slides** ![ícone de reprodução](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png), ocultando a barra de ação e iniciando a apresentação de slides. O aplicativo percorrerá automaticamente as páginas do relatório. 
+6. **Pesquisar** ![ícone de pesquisa](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) outros artefatos no Power BI.
+7. **Atualizar** ![ícone de atualização](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png) o relatório.
+8. **Sair** ![Sair do modo de tela inteira](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) do modo de apresentação.
+8. **Compartilhar** ![ícone de compartilhamento](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png) uma imagem do modo de exibição de apresentação com seus colegas. A imagem incluirá as anotações feitas com a caneta Surface durante a apresentação.
 
 É possível desencaixar a barra de ferramentas e arrastá-la para colocá-la em qualquer lugar da tela. Isso é útil para grandes telas, quando você desejar se concentrar em uma área específica em seu relatório e desejar ter as ferramentas disponíveis ao lado dela. Basta colocar o dedo na barra de ferramentas e passá-la para a tela de relatório.
 

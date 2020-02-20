@@ -52,15 +52,19 @@
               href: dax-column-measure-references.md
             - name: Evite usar FILTER como argumento de filtro
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Relatórios do Power BI
+          items:
             - name: Estender visuais com dicas de ferramentas de página de relatório
               href: report-page-tooltips.md
             - name: Usar o detalhamento de página de relatório
               href: report-drillthrough.md
-            - name: Quando usar relatórios paginados no Power BI
+        - name: Relatórios paginados no Power BI
+          items:
+            - name: Quando usar os relatórios paginados
               href: report-paginated-or-power-bi.md
-            - name: Usar parâmetros em cascata nos relatórios paginados
+            - name: Usar os parâmetros em cascata
               href: paginated-report-cascading-parameter.md
-            - name: Evitar páginas em branco ao imprimir relatórios paginados
+            - name: Evitar páginas em branco ao imprimir
               href: report-paginated-blank-page.md
             - name: Migrar relatórios SSRS para o Power BI
               href: migrate-ssrs-reports-to-power-bi.md

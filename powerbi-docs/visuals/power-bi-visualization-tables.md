@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830879"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154225"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelas em relatórios e dashboards do Power BI
 
@@ -98,22 +98,19 @@ Há muitas maneiras de formatar uma tabela. Apenas algumas são abordadas aqui. 
 
 ### <a name="conditional-formatting"></a>Formatação condicional
 
-*Formatação condicional* é um tipo de formatação. O Power BI aplica formatação condicional a campos na caixa **Valores** do painel **Visualizações**.
+*Formatação condicional* é um tipo de formatação. O Power BI pode aplicar a formatação condicional a qualquer um dos campos que você adicionou à seção **Valores** do painel **Visualizações**.
 
-Com a formatação condicional para tabelas, você pode especificar as cores da tela de fundo de células personalizadas e as cores das fontes com base nos valores da célula, inclusive usando cores de gradiente.
+![Painel Visualização](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. No painel **Visualizações**, selecione o ícone **Campos** ![ícone campos](media/power-bi-visualization-tables/power-bi-fields-icon.png).
+Com a formatação condicional para tabelas, você pode especificar ícones, URLs, cores de tela de fundo das células e cores das fontes com base nos valores da célula, inclusive usando cores de gradiente.
 
-1. Selecione a seta para baixo ao lado do valor na caixa **Valores** que você deseja formatar (ou clique com o botão direito do mouse no campo).
+1. No painel **Formato**, abra o cartão **Formatação condicional**.
 
-    > [!NOTE]
-    > Você pode gerenciar somente a formatação condicional para campos na área **Valores** também em **Campos**.
+    ![Cartão Formatação condicional](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![caminho para escalas de cor da Tela de Fundo](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. Selecione um campo para ser formatado e ative o controle deslizante da **Cor da tela de fundo**. O Power BI aplica um gradiente com base nos valores da coluna. Para alterar as cores padrão, selecione **Controles avançados**.
 
-1. Selecione **Cor da tela de fundo**.
-
-1. Na caixa de diálogo que aparece, você pode configurar a cor, e os valores **Mínimo** e **Máximo**. Se selecionar a opção **Divergente**, você também poderá configurar um valor opcional para o **Centro**.
+    Se selecionar a opção **Divergente**, você também poderá configurar um valor opcional para o **Centro**.
 
     ![Tela Escalas de cor da tela de fundo](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,11 +121,11 @@ Com a formatação condicional para tabelas, você pode especificar as cores da 
 
     ![mostra um novo campo bem à direita](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. Adicione formatação condicional de barra de dados selecionando a seta para baixo ao lado de **Variação do Total de Vendas** e escolhendo **Formatação condicional > Barras de dados**.
+1. Adicione a formatação condicional da barra de dados ativando o controle deslizante **Barras de dados**.  
 
-    ![caminho para selecionar as barras de Dados](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![Cartão de formatação condicional com as barras de dados ativadas](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. Na caixa de diálogo exibida, defina cores para **Barra positiva**, **Barra negativa**, selecione a opção **Mostrar apenas a barra** e faça outras alterações desejadas.
+1. Para personalizar as barras de dados, selecione **Controles avançados**. Na caixa de diálogo exibida, defina cores para **Barra positiva**, **Barra negativa**, selecione a opção **Mostrar apenas a barra** e faça outras alterações desejadas.
 
     ![marca de seleção para Mostrar apenas a barra](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
@@ -138,10 +135,10 @@ Com a formatação condicional para tabelas, você pode especificar as cores da 
 
     ![mesma tabela, mas com as barras na última coluna](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-Se desejar remover a formatação condicional de uma visualização, clique com o botão direito do mouse no campo novamente e selecione **Remover formatação condicional**.
+1. Adicione indicações visuais à tabela com os *ícones condicionais*.  No cartão **Formatação condicional**, selecione **Vendas deste ano** no menu suspenso. Deixe o controle deslizante **Ícones** **Ativado**.  Para personalizar os ícones, selecione **Controles avançados**.
 
-> [!TIP]
-> A formatação condicional também está disponível no painel **Formato**. Selecione o valor a ser formatado e, em seguida, defina **Escalas de cores** ou **Barras de dados** como **Ativado** para aplicar as configurações padrão ou, para personalizar as configurações, selecione **Controles avançados**.
+    ![Tabela com ícones adicionados](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Copiar valores de tabelas do Power BI para uso em outros aplicativos
 
@@ -174,6 +171,7 @@ Para copiar mais de uma única célula:
 Às vezes, o Power BI vai truncar um título de coluna em um relatório e em um painel. Para mostrar todo o nome da coluna, passe o mouse sobre o espaço à direita do título para revelar as setas duplas, selecionar e arrastar.
 
 ![close-up de vídeo do redimensionamento da coluna](media/power-bi-visualization-tables/resizetable.gif)
+
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 

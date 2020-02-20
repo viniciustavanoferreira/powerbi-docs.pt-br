@@ -1,6 +1,6 @@
 ---
 title: Serviço do Power BI – Conceitos básicos para consumidores
-description: Os aplicativos, espaço de trabalhos, painéis, relatórios, conjunto de dados e pastas de trabalho do serviço do Power BI.
+description: Os aplicativos, workspaces, painéis, relatórios, conjunto de dados e pastas de trabalho do serviço do Power BI.
 author: mihart
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852241"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77260113"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceitos básicos para consumidores do serviço do Power BI
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Este artigo pressupõe que você já tenha lido a [visão geral do Power BI](../fundamentals/power-bi-overview.md) e se identificado como [consumidor do ***Power BI***](end-user-consumer.md). Os consumidores recebem o conteúdo do Power BI, como dashboards e relatórios, de seus colegas. Os consumidores usam o serviço do Power BI, que é a versão baseada em site do Power BI.
+Este artigo pressupõe que você já tenha lido a [visão geral do Power BI](../fundamentals/power-bi-overview.md) e tenha se identificado como [consumidor do **_Power BI_** ](end-user-consumer.md). Os consumidores recebem o conteúdo do Power BI, como dashboards e relatórios, de seus colegas. Os consumidores usam o serviço do Power BI, que é a versão baseada em site do Power BI.
 
 Você ouvirá, sem dúvida, o termo "Power BI Desktop" ou apenas "Desktop". É a ferramenta independente usada por *designers* que criam e compartilham painéis e relatórios com você. É importante saber que existem outras ferramentas do Power BI por aí. Contanto que você seja um consumidor, você só trabalhará com o serviço do Power BI. Este artigo se aplica apenas ao serviço do Power BI.
 
@@ -54,13 +54,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>Introdução aos blocos de construção
 
-Para um consumidor do Power BI, os cinco blocos de construção são: ***visualizações***, ***painéis***, ***relatórios***, ***aplicativos*** e ***conjuntos de dados***. Às vezes, eles são chamados de ***conteúdo*** do *Power BI*. O *conteúdo* existe em ***espaço de trabalhos***. Um fluxo de trabalho típico envolve todos os blocos de construção: Um *designer* do Power BI (em amarelo no diagrama abaixo) coleta dados de *conjuntos de dados*, leva esses dados para análise no Power BI, cria *relatórios* repletos de *visualizações* que realçam fatos e insights interessantes, fixa visualizações de relatórios em um painel e compartilha os relatórios e painéis com *consumidores* como você (em preto no diagrama abaixo). O *designer* os compartilha na forma de *aplicativos* ou outros tipos de conteúdo compartilhado.
+Para um consumidor do Power BI, os cinco blocos de construção são: **_visualizações_** , **_dashboards_** , **_relatórios_** , **_aplicativos_** e **_conjuntos de dados_** . Às vezes, eles são chamados de *conteúdo* do **_Power BI_** . O *conteúdo* existe em **_workspaces_** . Um fluxo de trabalho típico envolve todos os blocos de construção: Um *designer* do Power BI (em amarelo no diagrama abaixo) coleta dados de *conjuntos de dados*, leva esses dados para análise no Power BI, cria *relatórios* repletos de *visualizações* que realçam fatos e insights interessantes, fixa visualizações de relatórios em um painel e compartilha os relatórios e painéis com *consumidores* como você (em preto no diagrama abaixo). O *designer* os compartilha na forma de *aplicativos* ou outros tipos de conteúdo compartilhado.
 
 ![Um gráfico de fluxo de trabalho básico do Power BI.](media/end-user-basic-concepts/power-bi-workflow.png)
 
 Em sua forma mais básica:
 
-- ![Uma captura de tela do ícone de visualização.](media/end-user-basic-concepts/visual.png) Uma ***visualização*** (ou *visual*), é um tipo de gráfico criado pelos *designers* do Power BI. Os visuais exibem os dados dos *relatórios* e *conjuntos de dados*. Normalmente, os *designers* criam os visuais no Power BI Desktop.
+- ![Uma captura de tela do ícone de visualização.](media/end-user-basic-concepts/visual.png) Uma **_visualização_** (ou *visual*) é um tipo de gráfico criado pelos *designers* do Power BI. Os visuais exibem os dados dos *relatórios* e *conjuntos de dados*. Normalmente, os *designers* criam os visuais no Power BI Desktop.
 
     Para saber mais, confira [Interagir com as visualizações em relatórios, painéis e aplicativos](end-user-visualizations.md).
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74699074"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115275"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming em tempo real no Power BI
 Com o streaming em tempo real do Power BI, você pode transmitir dados e atualizar painéis em tempo real. Qualquer visual ou painel que possa ser criado no Power BI também pode ser criado para exibir e atualizar dados e visuais em tempo real. Os dispositivos e fontes de fluxo de dados podem ser sensores de fábrica, fontes de mídia social, métricas de uso do serviço e tudo o mais de que dados sensíveis ao tempo possam ser coletados ou transmitidos.
@@ -35,7 +35,7 @@ Primeiro vamos entender como esses conjuntos de dados são diferentes uns dos ou
 ### <a name="push-dataset"></a>Conjunto de dados de push
 Com um **conjunto de dados de push**, os dados são enviados por push ao serviço do Power BI. Quando o conjunto de dados é criado, o serviço do Power BI cria automaticamente um novo banco de dados no serviço para armazenar os dados. Como há um banco de dados subjacente que continua a armazenar os dados conforme eles chegam, os relatórios podem ser criados com os dados. Esses relatórios e seus visuais são exatamente como qualquer outro visual de relatório, o que significa que você pode usar todos os recursos de criação de relatórios do Power BI para criar visuais, incluindo visuais personalizados, alertas de dados, blocos de dashboard fixados e muito mais.
 
-Depois que um relatório for criado usando o conjunto de dados de push, qualquer um de seus visuais poderá ser fixado em um dashboard. Nesse dashboard, os visuais serão atualizados em tempo real, sempre que os dados forem atualizados. Dentro do serviço, o dashboard dispara uma atualização de bloco sempre que novos dados são recebidos.
+Após um relatório ser criado usando o conjunto de dados de push, qualquer um de seus visuais pode ser fixado a um dashboard. Nesse dashboard, os visuais serão atualizados em tempo real, sempre que os dados forem atualizados. Dentro do serviço, o dashboard dispara uma atualização de bloco sempre que novos dados são recebidos.
 
 Há duas considerações a serem observadas a respeito de blocos fixados de um conjunto de dados de push:
 

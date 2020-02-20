@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548597"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115252"
 ---
 # <a name="what-is-power-bi-administration"></a>O que é administração do Power BI?
 
@@ -80,10 +80,9 @@ Há várias ferramentas relacionadas à administração do Power BI, que são ab
 
 Esperamos que este artigo tenha dado a você algumas ideias práticas sobre o trabalho e as funções do administrador do Power BI, as tarefas e as ferramentas específicas que estão envolvidas. Recomendamos os seguintes tópicos de artigos para aprofundar seu entendimento.
 
-[Usar o portal de administração do Power BI](service-admin-portal.md)
-
-[Usar cmdlets do PowerShell](/powershell/power-bi/overview)
-
-[Perguntas frequentes de administração do Power BI](service-admin-faq.md)
-
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- [Usar o portal de administração do Power BI](service-admin-portal.md)
+- [Diretrizes de configuração do administrador de locatários](guidance/admin-tenant-settings.md)
+- [Usar cmdlets do PowerShell](/powershell/power-bi/overview)
+- [Perguntas frequentes de administração do Power BI](service-admin-faq.md)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)

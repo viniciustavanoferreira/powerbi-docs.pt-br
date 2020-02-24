@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762544"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427083"
 ---
 # <a name="power-bi-data-sources"></a>Fontes de dados do Power BI
 
@@ -162,6 +162,7 @@ A opção de SSO entra em vigor em todos os conjuntos de dados que usam essa fon
 - SAP HANA
 - SAP BW
 - Servidor de Mensagens SAP BW
+- Snowflake
 - Spark
 - SQL Server
 - Teradata

@@ -8,24 +8,24 @@
           href: end-user-consumer.md
         - name: Conceitos básicos e a terminologia para os consumidores do Power BI
           href: end-user-basic-concepts.md
+        - name: Faça um tour pelo serviço do Power BI
+          href: end-user-reading-view.md
+    - name: Introdução
+      items:
+        - name: Encontre seu caminho no Power BI
+          href: end-user-experience.md
         - name: Localize conteúdo usando a Página de aterrissagem inicial
           href: end-user-home.md
+        - name: Saiba como fazer perguntas usando linguagem natural
+          href: end-user-q-and-a.md
+        - name: Entrar pela primeira vez
+          href: end-user-sign-in.md
+        - name: Consulte qual é o tipo da sua licença
+          href: end-user-license.md
         - name: Navegar pela 'nova aparência'
           href: ../service-new-look.md
         - name: 'A “nova aparência”: aonde foram as ações?'
           href: ../service-new-look-where-actions.md
-    - name: Início rápido
-      items:
-        - name: Encontre seu caminho no Power BI
-          href: end-user-experience.md
-        - name: O que eu posso fazer com o Power BI?
-          href: end-user-reading-view.md
-        - name: Entrar pela primeira vez
-          href: end-user-sign-in.md
-    - name: Tutoriais
-      items:
-        - name: Criar um alerta de dashboard
-          href: end-user-alerts.md
     - name: Como
       items:
         - name: Dashboards
@@ -40,6 +40,10 @@
               href: end-user-tiles.md
             - name: Adicionar um comentário ou iniciar uma conversa
               href: end-user-comment.md
+            - name: Exibir insights automáticos para blocos de dashboard
+              href: end-user-insights.md
+            - name: Criar um alerta de dashboard
+              href: end-user-alerts.md
         - name: Relatórios
           items:
             - name: Relatórios
@@ -78,7 +82,7 @@
               href: end-user-visual-type.md
             - name: Mostrar dados que foram usados para criar a visualização
               href: end-user-show-data.md
-            - name: Faça uma visualização no Power BI
+            - name: Fazer drill down em uma visualização
               href: end-user-drill.md
             - name: Interagir com ArcGIS maps
               href: ../power-bi-visualizations-arcgis.md
@@ -104,8 +108,6 @@
               href: end-user-subscribe.md
             - name: Pesquisar e classificar conteúdo no Power BI
               href: end-user-search-sort.md
-            - name: Exibir insights automáticos para blocos de dashboard
-              href: end-user-insights.md
             - name: Ativar as versões prévias dos recursos
               href: end-user-preview-features.md
             - name: Receber notificações no serviço do Power BI
@@ -134,7 +136,7 @@
           href: end-user-faq.md
         - name: Navegadores incompatíveis
           href: end-user-browsers.md
-        - name: Tipos de Quick Insights com suporte do Power BI
+        - name: Tipos de Insights Rápidos
           href: end-user-insight-types.md
 - name: Aplicativos móveis do Power BI
   items:

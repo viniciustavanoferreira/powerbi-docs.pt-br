@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 8d7ddeffd4394d5fea4770ab0739133b68e04a18
-  ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+  ms.openlocfilehash: ec56a2d37dc73a1dfabee8e07100c57ac37eb35c
+  ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/19/2020
-  ms.locfileid: "77465004"
+  ms.lasthandoff: 02/21/2020
+  ms.locfileid: "77527535"
 landingContent:
 - title: Diretrizes do Power BI
   linkLists:
@@ -87,11 +87,13 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: Usar o detalhamento de página de relatório
-      url: report-drillthrough.md
     - text: Quando usar relatórios paginados
       url: report-paginated-or-power-bi.md
-    - text: Usar parâmetros em cascata
+    - text: Diretrizes de recuperação de dados
+      url: report-paginated-data-retrieval.md
+    - text: Diretrizes de uso de imagem
+      url: report-paginated-image.md
+    - text: Usar os parâmetros em cascata
       url: paginated-report-cascading-parameter.md
     - text: Evitar páginas em branco ao imprimir
       url: report-paginated-blank-page.md

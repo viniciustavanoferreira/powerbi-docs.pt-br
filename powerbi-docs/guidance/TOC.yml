@@ -60,8 +60,12 @@
               href: report-drillthrough.md
         - name: Relatórios paginados no Power BI
           items:
-            - name: Quando usar os relatórios paginados
+            - name: Quando usar relatórios paginados
               href: report-paginated-or-power-bi.md
+            - name: Diretrizes de recuperação de dados
+              href: report-paginated-data-retrieval.md
+            - name: Diretrizes de uso de imagem
+              href: report-paginated-image.md
             - name: Usar os parâmetros em cascata
               href: paginated-report-cascading-parameter.md
             - name: Evitar páginas em branco ao imprimir

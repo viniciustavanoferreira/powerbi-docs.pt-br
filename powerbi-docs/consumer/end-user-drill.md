@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851450"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496400"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modo de análise em um visual no Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ As datas são um tipo exclusivo de hierarquia.  Os designers de relatórios gera
 Não sabe quais visuais do Power BI contém uma hierarquia? Focalize um visual. Se você vir uma combinação destes controles de análise na parte superior, o visual terá uma hierarquia.
 
 ![Captura de tela dos ícones de análise.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>Aprender a fazer drill down e drill up
 
@@ -108,7 +111,7 @@ Opte também por fazer drill down ou uma expansão de um campo por vez.
 
 Ter um mapa de árvore que mostra apenas um CEP não é informativo.  Portanto, vamos *expandir* para um nível abaixo na hierarquia.  
 
-1. Com o mapa de árvore ativo, clique no ícone *expandir para baixo* ![Captura de tela do ícone expandir para baixo.](./media/end-user-drill/power-bi-drill-icon6.png). Agora, o mapa de árvore mostra dois níveis de hierarquia: CEP e nome da loja.
+1. Com o mapa de árvore ativo, clique no ícone *expandir para baixo*![Captura de tela do ícone expandir para baixo.](./media/end-user-drill/power-bi-drill-icon6.png). Agora, o mapa de árvore mostra dois níveis de hierarquia: CEP e nome da loja.
 
     ![Captura de tela do mapa de árvore mostrando o CEP e o nome da loja](./media/end-user-drill/power-bi-expand-one.png)
 
@@ -116,7 +119,7 @@ Ter um mapa de árvore que mostra apenas um CEP não é informativo.  Portanto, 
 
     ![Captura de tela do mapa de árvore mostrando todos os dados para TN.](media/end-user-drill/power-bi-expand-two.png)
 
-1. Verifique se a análise ainda está ativada, ![Captura de tela do ícone de ativar/desativar busca detalhada.](./media/end-user-drill/power-bi-drill-icon2.png) e selecione o ícone *expandir para baixo* ![Captura de tela do ícone expandir para baixo.](./media/end-user-drill/power-bi-drill-icon6.png). Agora, o mapa de árvore mostra o mesmo número de folhas (caixas), mas cada folha tem detalhes adicionais. Em vez de exibir apenas a cidade e o estado, ele também mostra o CEP.
+1. Verifique se a análise ainda está ativada, ![Captura de tela do ícone de ativar/desativar busca detalhada.](./media/end-user-drill/power-bi-drill-icon2.png) e selecione o ícone *expandir para baixo*![Captura de tela do ícone expandir para baixo.](./media/end-user-drill/power-bi-drill-icon6.png). Agora, o mapa de árvore mostra o mesmo número de folhas (caixas), mas cada folha tem detalhes adicionais. Em vez de exibir apenas a cidade e o estado, ele também mostra o CEP.
 
     ![Captura de tela do visual mostrando cidade, estado e CEP.](./media/end-user-drill/power-bi-expand-three.png)
 
@@ -141,7 +144,9 @@ Observe que os totais são os mesmos para **City**, **PostalCode** e **Name**. E
 
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
-Por padrão, a análise não filtra outros visuais em um relatório. No entanto, o designer de relatórios pode alterar esse comportamento padrão. Durante a análise, procure ver se os outros visuais na página são uma filtragem cruzada ou um realce cruzado.
+- Por padrão, a análise não filtra outros visuais em um relatório. No entanto, o designer de relatórios pode alterar esse comportamento padrão. Durante a análise, procure ver se os outros visuais na página são uma filtragem cruzada ou um realce cruzado.
+
+- A exibição de um relatório que foi compartilhado com você requer uma licença Power BI Pro ou Premium. [Qual licença eu tenho?](end-user-license.md)
 
 
 ## <a name="next-steps"></a>Próximas etapas

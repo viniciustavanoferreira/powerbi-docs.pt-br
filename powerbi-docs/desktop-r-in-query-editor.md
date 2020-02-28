@@ -1,79 +1,77 @@
 ---
 title: Uso do R no Editor do Power Query
-description: Uso do R no Editor de Consultas do Power BI Desktop para análise avançada
+description: Uso do R no Editor do Power Query do Power BI Desktop para análise avançada.
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a157b674cd96c10081168ac5258e5b2f6145f09d
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877936"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464846"
 ---
-# <a name="use-r-in-query-editor"></a>Uso do R no Editor de Consultas
+# <a name="use-r-in-power-query-editor"></a>Uso do R no Editor do Power Query
 
-O [**R**](https://mran.microsoft.com/documents/what-is-r) é uma linguagem de programação poderosa que muitos estatísticos, cientistas de dados e analistas de dados usam. Você pode usar o **R** no **Editor de Consultas** do Power BI Desktop para:
+[A linguagem R](https://mran.microsoft.com/documents/what-is-r) é uma linguagem de programação poderosa que muitos estatísticos, cientistas de dados e analistas de dados usam. Você pode usar R no Editor do Power Query do Power BI Desktop para:
 
-* Preparar modelos de dados
+* preparar modelos de dados.
 
-* Criar relatórios
+* criar relatórios.
 
 * Faça a limpeza de dados, a modelagem de dados avançada e a análise de conjunto de dados, que inclui a conclusão de dados ausentes, previsões, clustering e muito mais.  
 
 ## <a name="install-r"></a>Instalar o R
 
-É possível baixar o **R** gratuitamente da [página de download do Revolution Open](https://mran.revolutionanalytics.com/download/) e do [Repositório CRAN](https://cran.r-project.org/bin/windows/base/).
+É possível baixar o R gratuitamente na [página de downloads do Revolution R Open](https://mran.revolutionanalytics.com/download/) e no [Repositório CRAN](https://cran.r-project.org/bin/windows/base/).
 
-### <a name="install-mice"></a>Instalar o mice
+## <a name="install-mice"></a>Instalar o mice
 
-Você precisa ter a [biblioteca **mice**](https://www.rdocumentation.org/packages/mice/versions/3.5.0/topics/mice) instalada em seu ambiente de R. Sem o **mice**, o código do script de exemplo não funcionará corretamente. O pacote da **mice** implementa um método para lidar com os dados ausentes.
+Como pré-requisito, você precisa instalar a [biblioteca do mice](https://www.rdocumentation.org/packages/mice/versions/3.5.0/topics/mice) em seu ambiente de R. Sem o mice, o código do script de exemplo não funcionará corretamente. O pacote do mice implementa um método para lidar com os dados ausentes.
 
-Instalar a **mice**:
+Para instalar a biblioteca do mice:
 
-1. Inicie o programa R.exe (por exemplo, C:\Program Files\Microsoft\R Open\R-3.5.3\bin\R.exe)  
+1. Inicie o programa R.exe (por exemplo, C:\Arquivos de Programas\Microsoft\R Open\R-3.5.3\bin\R.exe).  
 
-2. Executar o comando de instalação:
+2. Execute o comando install no prompt do R:
 
    ``` 
-   >  install.packages('mice') 
+   install.packages('mice') 
    ```
 
-## <a name="use-r-in-query-editor"></a>Uso do R no Editor de Consultas
+## <a name="use-r-in-power-query-editor"></a>Uso do R no Editor do Power Query
 
-Para demonstrar o uso do **R** no **Editor de Consultas**, usaremos um conjunto de dados de exemplo de mercado de ações contido em um arquivo .csv e seguiremos as seguintes etapas:
+Para demonstrar o uso de R no Editor do Power Query, usaremos um conjunto de dados de exemplo de mercado de ações contido em um arquivo.csv e seguiremos as seguintes etapas:
 
-1. [Baixe o arquivo **EuStockMarkets_NA.csv**](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Lembre-se do local em que você o salvou.
+1. [Baixe o arquivo EuStockMarkets_NA.csv](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Lembre-se do local em que você o salvou.
 
-1. Carregue o arquivo no **Power BI Desktop**: na faixa de opções **Página Inicial**, selecione **Obter Dados > Texto/CSV**.
+1. Carregue o arquivo no Power BI Desktop. Na guia **Página Inicial**, selecione **Obter Dados** > **Texto/CSV**.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
+   ![Selecione Texto/CSV](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
 
-1. Salve o arquivo e, em seguida, escolha **Abrir**. Os dados CSV são exibidos na caixa de diálogo **Arquivo de texto/CSV**.
+1. Selecione o arquivo EuStockMarkets_NA.csv e, em seguida, escolha **Abrir**. Os dados CSV são exibidos na caixa de diálogo **Arquivo de Texto/CSV**.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_2.png)
+   ![Selecione o arquivo CSV](media/desktop-r-in-query-editor/r-in-query-editor_2.png)
 
-1. Depois que os dados forem carregados, você poderá vê-los no painel **Campos**.
+1. Selecione **Carregar** para carregar os dados do arquivo. Após o Power BI ter carregado os dados, a nova tabela aparecerá no painel **Campos**.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_3.png)
+   ![Dados no painel Campos](media/desktop-r-in-query-editor/r-in-query-editor_3.png)
 
-1. Para abrir o **Editor de Consultas**, na faixa de opções **Página Inicial**, selecione **Editar Consultas**.
+1. Para abrir o Editor do Power Query, na faixa de opções **Página Inicial**, selecione **Editar Consultas**.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_4.png)
+   ![Selecionar Editar Consultas](media/desktop-r-in-query-editor/r-in-query-editor_4.png)
 
-1. Na faixa de opções **Transformar**, selecione o botão **Executar o Script R**. O editor **Executar Script R** é exibido.  
+1. Na guia **Transformar**, selecione o botão **Executar Script R**. O editor **Executar Script R** é exibido. As linhas 15 e 20 têm dados ausentes, assim como outras linhas que você não pode ver na imagem. As etapas a seguir mostram como o R completa essas linhas para você.
 
-   As linhas 15 e 20 têm dados ausentes, assim como outras linhas que você não pode ver na imagem. As etapas a seguir mostram como o R completa essas linhas para você.
+   ![Selecione Executar Script R](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
-
-1. Para este exemplo, insira o código de script a seguir. Substitua "&lt;seu caminho de arquivo&gt;" pelo caminho para **EuStockMarkets_NA.csv** no sistema de arquivos local, por exemplo, C:/Users/John Doe/Documents/Microsoft/EuStockMarkets_NA.csv
+1. Para este exemplo, insira o seguinte código de script na caixa **Script** da janela **Executar Script R**. Substitua *&lt;Seu caminho de arquivo&gt;* pelo caminho para EuStockMarkets_NA.csv no sistema de arquivos local, por exemplo, C:/Usuários/John Doe/Documentos/Microsoft/EuStockMarkets_NA.csv.
 
     ```r
        dataset <- read.csv(file="<Your File Path>/EuStockMarkets_NA.csv", header=TRUE, sep=",")
@@ -85,50 +83,57 @@ Para demonstrar o uso do **R** no **Editor de Consultas**, usaremos um conjunto 
     ```
 
     > [!NOTE]
-    > Talvez você precise substituir uma variável chamada *output* para criar corretamente o novo conjunto de dados com os filtros aplicados.
+    > Talvez você precise substituir uma variável chamada *output* para criar corretamente o conjunto de dados com os filtros aplicados.
 
-7. Ao selecionar **OK**, o **Editor de Consultas** exibirá um aviso sobre a privacidade dos dados.
+7. Selecione **OK**. O Editor do Power Query exibe um aviso sobre a privacidade dos dados.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
-8. Para que os scripts de R funcionem corretamente no serviço do Power BI, todas as fontes de dados precisam ser definidas como **públicas**. Para obter mais informações sobre as configurações de privacidade e suas implicações, confira [Níveis de privacidade](desktop-privacy-levels.md).
+   ![Aviso de privacidade de dados](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
+8. Dentro da mensagem de aviso, selecione **Continuar**. Na caixa de diálogo **Níveis de privacidade** que é exibida, defina todas as fontes de dados como **Público** para que os scripts de R funcionem corretamente no serviço do Power BI. 
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
+   ![Caixa de diálogo Níveis de privacidade](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
 
-   Depois de selecionar **Salvar**, o script é executado. Observe uma nova coluna no painel **Campos** chamada **completedValues**. Observe que há alguns elementos de dados ausentes, como nas linhas 15 e 18. Veja como o R lida com isso na próxima seção.
+   Para obter mais informações sobre as configurações de privacidade e suas implicações, confira [Níveis de privacidade do Power BI Desktop](desktop-privacy-levels.md).
 
-   Com apenas cinco linhas de script R, o **Editor de Consultas** preencheu os valores ausentes com um modelo preditivo.
+ 9. Selecione **Salvar** para executar o script. 
+
+   Observe uma nova coluna no painel **Campos** chamada **completedValues**. Nessa coluna, há alguns elementos de dados ausentes, como nas linhas 15 e 18. Veja como o R lida com isso na próxima seção.
+
+   Com apenas cinco linhas de script de R, o Editor do Power Query preencheu os valores ausentes com um modelo preditivo.
 
 ## <a name="create-visuals-from-r-script-data"></a>Criar elementos visuais com base em dados de script R
 
-Agora, podemos criar um visual para ver como o código de script do R preencheu os valores ausentes usando a biblioteca **mice**, conforme mostrado na imagem a seguir:
+Agora, podemos criar um visual para ver como o código do script de R com a biblioteca do mice completa os valores ausentes.
 
-![](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
+![Visual do script de R](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
 
-Você pode salvar todos os visuais concluídos em um arquivo .pbix do **Power BI Desktop** e usar o modelo de dados e os respectivos scripts do R no serviço do Power BI.
+Você pode salvar todos os visuais completos em um arquivo .pbix do Power BI Desktop e usar o modelo de dados e os respectivos scripts de R no serviço do Power BI.
 
 > [!NOTE]
 > Você pode [baixar um arquivo .pbix](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) com todas essas etapas concluídas.
 
 Depois de carregar o arquivo .pbix no serviço do Power BI, você precisará executar etapas adicionais para habilitar a atualização de dados de serviço e os visuais atualizados:  
 
-* **Habilitar atualização agendada para o conjunto de dados** – para habilitar a atualização agendada para a pasta de trabalho que contém o conjunto de dados com scripts R, confira [Configurar a atualização agendada](refresh-scheduled-refresh.md), que também inclui informações sobre o **Gateway Pessoal**.
+* **Habilitar a atualização agendada para o conjunto de dados**: para habilitar a atualização agendada para a pasta de trabalho que contém seu conjunto de dados com scripts de R, confira [Configurando a atualização agendada](refresh-scheduled-refresh.md). Este artigo também inclui informações sobre gateways pessoais.
 
-* **Instalar o gateway pessoal** – você precisa de um **gateway pessoal** instalado no computador onde o arquivo e o **R** estão localizados. O serviço do Power BI acessa essa pasta de trabalho e renderiza novamente todos os visuais que foram atualizados. Para obter mais informações, confira [instalar e configurar o Gateway Pessoal](service-gateway-personal-mode.md).
+* **Instalar um gateway pessoal**: você precisa de um gateway pessoal instalado no computador no qual o arquivo e o R estão localizados. O serviço do Power BI acessa essa pasta de trabalho e renderiza novamente todos os visuais que foram atualizados. Para obter mais informações, confira [Usar gateways pessoais no Power BI](service-gateway-personal-mode.md).
 
 ## <a name="limitations"></a>Limitações
 
-Existem algumas limitações para consultas que incluem scripts R criados no **Editor de Consultas**:
+Há algumas limitações para consultas que incluem scripts de R criados no Editor do Power Query:
 
-* Todas as configurações de fonte de dados do R devem ser definidas como **públicas**. Todas as outras etapas em uma consulta do **Editor de Consultas** também devem ser públicas. Para obter as configurações de fonte de dados, no **Power BI Desktop**, selecione **Arquivo > Opções e configurações > Configurações de fonte de dados**.
+* Todas as configurações de fonte de dados do R devem ser definidas como **públicas**. Todas as outras etapas em uma consulta do Editor do Power Query também devem ser públicas. 
 
-  ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
+   Para obter as configurações de fonte de dados, no Power BI Desktop, selecione **Arquivo** > **Opções e configurações** > **Configurações de fonte de dados**.
 
-  Na caixa de diálogo **Configurações de Fonte de Dados**, selecione as fontes de dados e, em seguida, **Editar Permissões...** .  Defina o **Nível de Privacidade** como **Público**.
+   ![Selecione Configurações de fonte de dados](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
 
-  ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
-* Para habilitar a atualização agendada do conjunto de dados ou dos elementos visuais R, você precisa habilitar a **Atualização agendada** e ter um **Gateway Pessoal** instalado no computador que hospeda a pasta de trabalho e o **R**. Para obter mais informações sobre ambos, confira a seção anterior deste artigo, que fornece links, para saber mais sobre cada um.
+   Na caixa de diálogo **Configurações de fonte de dados**, selecione uma ou mais fontes de dados e, em seguida, selecione **Editar Permissões**. Defina o **Nível de Privacidade** como **Público**.
 
-Há inúmeras coisas que você pode fazer com R e consultas personalizadas, então, explore e modele seus dados da maneira como deseja que eles sejam mostrados.
+   ![Caixa de diálogo Configurações de fonte de dados](media/desktop-r-in-query-editor/r-in-query-editor_10.png)  
+  
+* Para agendar a atualização do conjunto de dados ou dos visuais de R, habilite a atualização agendada e instale um gateway pessoal no computador que contém a pasta de trabalho e o R. 
+
+Há inúmeras coisas que você pode fazer com o R e com consultas personalizadas. Explore e formate seus dados exatamente como você deseja que eles apareçam.
 
 ## <a name="next-steps"></a>Próximas etapas
 
@@ -138,4 +143,4 @@ Há inúmeras coisas que você pode fazer com R e consultas personalizadas, ent�
 
 * [Usar um IDE R externo com o Power BI](desktop-r-ide.md) 
 
-* [Pacotes do R no serviço do Power BI](service-r-packages-support.md)
+* [Criar visuais usando pacotes de R no serviço do Power BI](service-r-packages-support.md)

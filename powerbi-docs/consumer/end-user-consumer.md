@@ -3,20 +3,21 @@ title: O que é um "consumidor" do Power BI?
 description: Visão geral do Power BI para consumidores (também conhecidos como usuários finais ou usuários empresariais).
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863798"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496170"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>O serviço do Power BI para consumidores
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 Nós vivemos em uma cultura de dados, na qual as decisões de negócios são baseadas em fatos, não em opiniões. É preciso dispor de dados para tomar essas decisões e seus colegas de trabalho não deixam por menos.     
  
@@ -43,6 +44,8 @@ A maneira como você interage com o Power BI dependerá da sua função de traba
 Como um consumidor, você não terá acesso a todos os recursos do Power BI, e não tem problema, porque o seu trabalho não é criar dashboards e relatórios. Você usará o Serviço do Power BI para análise, monitoramento, exploração e tomada de decisões. 
 
 Sem dúvida alguma você ouvirá muito o termo "Power BI Desktop" – ou simplesmente "Desktop" – em referência a uma ferramenta autônoma usada pelos *designers* que criam e compartilham relatórios e dashboards contigo.  É importante saber que há outras ferramentas do Power BI disponíveis, mas se você for um consumidor, trabalhará apenas com o Serviço do Power BI. 
+
+Como você está trabalhando com conteúdo *compartilhado*, você precisará de uma licença Power BI Pro ou Premium. [Qual licença eu tenho?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Interagir com o conteúdo de modo seguro 

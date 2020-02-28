@@ -1,5 +1,5 @@
 ---
-title: Traga suas próprias chaves de criptografia para o Power BI (versão prévia)
+title: Traga suas próprias chaves de criptografia para o Power BI
 description: Saiba como usar suas próprias chaves de criptografia no Power BI Premium.
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762107"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527761"
 ---
-# <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Traga suas próprias chaves de criptografia para o Power BI (versão prévia)
+# <a name="bring-your-own-encryption-keys-for-power-bi"></a>Traga suas próprias chaves de criptografia para o Power BI
 
 O Power BI criptografa dados _em repouso_ e _em processo_. Por padrão, o Power BI usa chaves gerenciadas pela Microsoft para criptografar seus dados. No Power BI Premium, também é possível usar suas próprias chaves para os dados em repouso que são importados em um conjunto de dados (confira [Considerações de armazenamento e fonte de dados](#data-source-and-storage-considerations) para obter mais informações). Essa abordagem geralmente é descrita como _BYOK_ (Bring Your Own Key).
 
 ## <a name="why-use-byok"></a>Por que usar a abordagem BYOK?
 
-O BYOK torna mais fácil atender aos requisitos de conformidade que especificam as disposições de chave com o provedor de serviço de nuvem (neste caso, a Microsoft). Com o BYOK, você fornece e controla as chaves de criptografia para os dados do Power BI em repouso no nível do aplicativo. Como resultado, você pode exercer controle e revogar as chaves da sua organização se decidir sair do serviço. Ao revogar as chaves, os dados serão ilegíveis para o serviço.
+O BYOK torna mais fácil atender aos requisitos de conformidade que especificam as disposições de chave com o provedor de serviço de nuvem (neste caso, a Microsoft). Com o BYOK, você fornece e controla as chaves de criptografia para os dados do Power BI em repouso no nível do aplicativo. Como resultado, você pode exercer controle e revogar as chaves da sua organização se decidir sair do serviço. Quando você revogar as chaves, os dados ficarão ilegíveis para o serviço dentro de 30 minutos.
 
 ## <a name="data-source-and-storage-considerations"></a>Considerações sobre armazenamento e fonte de dados
 
@@ -34,7 +34,12 @@ Para usar o BYOK, você deve fazer upload dos dados no serviço do Power BI em u
 - [Fazer streaming de conjuntos de dados](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [Modelos grandes](service-premium-large-models.md)
 
-BYOK aplica-se apenas ao conjunto de dados associado ao arquivo PBIX, não aos caches de resultado da consulta para blocos e visuais.
+BYOK aplica-se somente a conjuntos de dados. Conjuntos de arquivos de envio por push, arquivos do Excel e arquivos CSV que os usuários podem carregar no serviço não são criptografados usando sua própria chave. Para identificar quais artefatos são armazenados em seus workspaces, use o seguinte comando do PowerShell:
+
+```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
+
+> [!NOTE]
+> Este cmdlet requer o módulo de gerenciamento v1.0.840 do Power BI. Você pode ver qual versão você tem executando Get-InstalledModule -Name MicrosoftPowerBIMgmt. Instale a versão mais recente executando install-Module-Name MicrosoftPowerBIMgmt. Você pode obter mais informações sobre o cmdlet do Power BI e os parâmetros dele em [módulo cmdlet do PowerShell do Power BI](https://docs.microsoft.com/powershell/power-bi/overview).
 
 ## <a name="configure-azure-key-vault"></a>Configurar o Azure Key Vault
 
@@ -55,23 +60,23 @@ As instruções nesta seção pressupõem conhecimento básico do Azure Key Vaul
 
 1. No portal do Azure, no cofre de chaves, em **Políticas de acesso**, selecione **Adicionar Novo**.
 
-1. Em **Selecionar entidade**, pesquise e selecione Microsoft.Azure.AnalysisServices.
+1. Em **Selecionar entidade**, procure e selecione Microsoft.Azure.AnalysisServices.
 
     > [!NOTE]
     > Se você não encontrar "Microsoft.Azure.AnalysisServices", é provável que a assinatura do Azure associada ao seu Azure Key Vault nunca tenha tido um recurso de Power BI associado. Em vez disso, tente pesquisar a seguinte cadeia de caracteres: 00000009-0000-0000-c000-000000000000.
 
-1. Em **Permissões de chave**, selecione **Chave de desencapsulamento** e **Chave de encapsulamento**.
+1. Em **Permissões de chave**, selecione **Decodificar Chave** e **Codificar Chave**.
 
     ![Componentes de arquivo PBIX](media/service-encryption-byok/service-principal.png)
 
-1. Selecione **OK**, em seguida, **Salvar**.
+1. Selecione **OK** e, em seguida, **Salvar**.
 
 > [!NOTE]
 > Para revogar o acesso do Power BI aos seus dados no futuro, remova os direitos de acesso a essa entidade de serviço de seu Azure Key Vault.
 
 ### <a name="create-an-rsa-key"></a>Criar uma chave RSA
 
-1. No cofre de chaves, em **Chave**, selecione **Gerar/Importar**.
+1. No cofre de chaves, em **Chaves**, selecione **Gerar/Importar**.
 
 1. Selecione um **Tipo de Chave** de RSA e um **Tamanho da Chave RSA** de 4.096.
 
@@ -183,3 +188,17 @@ O Power BI fornece cmdlets adicionais para ajudar a gerenciar o BYOK em seu loca
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
     ```
+
+
+
+## <a name="next-steps"></a>Próximas etapas
+
+* [Módulo cmdlet do PowerShell do Power BI](https://docs.microsoft.com/powershell/power-bi/overview) 
+
+* [Maneiras de compartilhar seu trabalho no Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+* [Filtrar relatórios usando parâmetros da cadeia de caracteres de consulta na URL](service-url-filters.md)
+
+* [Inserir com Web Part de Relatório no SharePoint Online](service-embed-report-spo.md)
+
+* [Publicar na Web por meio do Power BI](service-publish-to-web.md)

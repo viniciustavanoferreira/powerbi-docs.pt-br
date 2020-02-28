@@ -6,21 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889203"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496467"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Altere como um gráfico é classificado em um relatório do Power BI
 
-
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 
 > [!IMPORTANT]
@@ -32,7 +30,7 @@ Visuais em um dashboard não podem ser classificados, mas em um relatório do Po
 
 ## <a name="get-started"></a>Introdução
 
-Para começar, selecione qualquer relatório visual e escolha **Mais ações** (...).  Há três opções de classificação: **Classificação decrescente**, **Classificação crescente** e **Classificar por**. 
+Para começar, abra um relatório que foi compartilhado com você. Selecione um visual (que pode ser classificado) e escolha **Mais ações** (...).  Há três opções de classificação: **Classificação decrescente**, **Classificação crescente** e **Classificar por**. 
     
 
 ![gráfico de barras classificado pelo eixo X em ordem alfabética](media/end-user-change-sort/power-bi-more-actions.png)
@@ -69,9 +67,9 @@ No entanto, se o botão **Redefinir para padrão** estiver esmaecido, significar
 
 Somente a pessoa que projetou o relatório pode fazer essas alterações para você. As informações de contato do *designer* podem ser encontradas ao selecionar o nome do relatório na barra de cabeçalho.
 
-Se você é um *designer* e tem permissões de edição de conteúdo, leia [Classificar por coluna no Power BI Desktop](../desktop-sort-by-column.md) para saber como atualizar o conjunto de dados e habilitar esse tipo de classificação.
-
 ![Lista suspensa mostrando as informações de contato](media/end-user-change-sort/power-bi-contact.png)
+
+Se você é um *designer* e tem permissões de edição de conteúdo, leia [Classificar por coluna no Power BI Desktop](../desktop-sort-by-column.md) para saber como atualizar o conjunto de dados e habilitar esse tipo de classificação.
 
 ## <a name="next-steps"></a>Próximas etapas
 Mais sobre [Visualizações nos relatórios do Power BI](end-user-visualizations.md).

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016125"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527377"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Usar a faixa de opções atualizada no Power BI Desktop (versão prévia)
 
@@ -51,7 +51,18 @@ Esses benefícios podem ser agrupados nas seguintes categorias:
 
 * **Uma faixa de opções de uma única linha, quando recolhida, economiza espaço** — outro benefício da faixa de opções atualizada é a capacidade de recolher a própria faixa de opções em uma única linha, exibindo dinamicamente os itens da faixa de opções com base no seu contexto. 
 
-    ![Melhores temas](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![Faixa de opções recolhida](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **Dicas de Teclas para navegar por botões e selecioná-los** – para ajudar a navegar pela faixa de opções, você pode pressionar **Alt + Tecla Windows** para ativar dicas de tecla. Depois de ativadas, você poderá pressionar as teclas mostradas em seu teclado para navegar.
+
+    ![Dicas de tecla](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **Cadeias de caracteres de formato personalizado** – além de definir cadeias de caracteres de formato personalizado no painel *Propriedades*, você também pode defini-las na faixa de opções. Selecione a medida ou coluna que você deseja personalizar e uma guia contextual **Ferramentas de medida** ou **Ferramentas de coluna** será exibida, dependendo de sua seleção. Na seção de formatação da guia, você pode digitar a cadeia de caracteres de formato personalizado diretamente na caixa suspensa.
+
+    ![Cadeias de formato personalizadas](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **Acessibilidade** – a barra de título, a faixa de opções e o menu Arquivo estão totalmente acessíveis. Pressione Ctrl + F6 para navegar até a seção da faixa de opções. Uma vez lá, você pode usar **Tab** para se mover entre as barras superior e inferior e usar as teclas de seta para se mover entre elementos.
+
 
 Além dessas alterações visíveis, uma faixa de opções atualizada também nos permite fazer futuras atualizações no Power BI Desktop e sua faixa de opções, como as seguintes:
 

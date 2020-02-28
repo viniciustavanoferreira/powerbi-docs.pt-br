@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75223742"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427681"
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Existem ocasiões em que você talvez queira usar o Excel para exibir e interagir com um conjunto de dados do Power BI. Com o recurso **Analisar no Excel**, você pode fazer isso e acessar recursos de Tabela Dinâmica, gráfico e segmentação no Excel com base no conjunto de dados existente no Power BI.
@@ -25,17 +25,17 @@ Há alguns requisitos para o uso do recurso **Analisar no Excel**:
 
 * Há suporte para o recurso **Analisar no Excel** no Microsoft Excel 2010 SP1 e posterior.
 
-* As Tabelas Dinâmicas do Excel não têm suporte para agregação do tipo "arrastar e soltar" dos campos numéricos. Seu conjunto de dados no Power BI *deve ter medidas predefinidas*.
+* As Tabelas Dinâmicas do Excel não têm suporte para agregação do tipo "arrastar e soltar" dos campos numéricos. Seu conjunto de dados no Power BI *deve ter medidas predefinidas*. Leia sobre a [criação de medidas](desktop-measures.md).
 * Algumas empresas podem ter regras de Política de Grupo que impedem a instalação das atualizações necessárias do recurso **Analisar no Excel** no Excel. Se você não conseguir instalar as atualizações, verifique com seu administrador.
 * **Analisar no Excel** requer que o conjunto de dados esteja no Power BI Premium ou que o usuário tenha uma licença do Power BI Pro. Saiba mais sobre as diferenças de funcionalidade entre os tipos de licença na seção _Comparação de recursos do Power BI_ em [Preços do Power BI](https://powerbi.microsoft.com/pricing/).
-* Os usuários poderão se conectar aos conjuntos de dados por meio de Analisar no Excel, se tiverem permissão de leitura no conjunto de dados subjacente.  Um usuário poderia ter isso de diversas maneiras, tais como sendo um membro do workspace que contém o conjunto de dados, recebendo o compartilhamento de um relatório ou dashboard que use o conjunto de dados ou, por fim, tendo permissão para um aplicativo que contém o conjunto de dados.
-* O **Analisar no Excel** é um recurso do serviço do Power BI e não está disponível no Servidor de Relatórios do Power BI ou no Power BI Embedded. 
+* Os usuários poderão se conectar aos conjuntos de dados por meio de Analisar no Excel se tiverem permissão no conjunto de dados subjacente.  Um usuário poderia ter essa permissão de diversas maneiras, por exemplo, tendo a função de Membro do workspace que contém o conjunto de dados, recebendo o compartilhamento de um relatório ou dashboard que usa o conjunto de dados ou tendo permissão Criar para o conjunto de dados, seja em um workspace ou em um aplicativo que o contém. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md) para conjuntos de dados.
+* **Analisar no Excel** é um recurso do serviço do Power BI que não está disponível no Servidor de Relatórios do Power BI ou no Power BI Embedded. 
 * Só há suporte para **Analisar no Excel** em computadores que executam o Microsoft Windows.
 
 ## <a name="how-does-it-work"></a>Como funciona?
-Quando você seleciona **Analisar no Excel** no menu de reticências (...) associado a um conjunto de dados ou relatório no **Power BI**, o Power BI cria um arquivo .ODC e o baixa do navegador para o computador.
+Quando você seleciona **Analisar no Excel** no menu **Mais opções** (o símbolo ...) associado a um conjunto de dados ou relatório no **Power BI**, o Power BI cria um arquivo .ODC e o baixa do navegador para o computador.
 
-![](media/service-analyze-in-excel/power-bi-analyze-in-excel.png)
+![Analisar no Excel](media/service-analyze-in-excel/power-bi-analyze-in-excel.png)
 
 Ao abrir o arquivo no Excel, será exibida uma lista de **Tabelas Dinâmicas** e **Campos** vazia com as tabelas, campos e medidas do conjunto de dados do Power BI. Você pode criar Tabelas Dinâmicas, gráficos e analisar esse conjunto de dados da mesma forma que trabalharia com um conjunto de dados local no Excel.
 
@@ -44,9 +44,9 @@ O arquivo.ODC tem uma cadeia de conexão MSOLAP, que se conecta ao seu conjunto 
 O recurso **Analisar no Excel** é muito útil em conjuntos de dados e relatórios que se conectam aos bancos de dados de *Tabela* ou *Multidimensional do Analysis Services* ou de arquivos do Power BI Desktop ou de pastas de trabalho do Excel com modelos de dados que contêm medidas de modelo criadas com o DAX (Data Analysis Expressions).
 
 ## <a name="get-started-with-analyze-in-excel"></a>Introdução ao recurso Analisar no Excel
-No Power BI, selecione o menu de reticências ao lado de um relatório ou conjunto de dados (os três pontos ao lado do nome do relatório ou do conjunto de dados) e, no menu que será exibido, selecione **Analisar no Excel**.
+No Power BI, selecione o menu **Mais opções** ao lado de um relatório ou conjunto de dados (os três pontos ao lado do nome do relatório ou do conjunto de dados) e, no menu que será exibido, selecione **Analisar no Excel**.
 
-![](media/service-analyze-in-excel/power-bi-analyze-menu.png)
+![Analisar no Excel](media/service-analyze-in-excel/power-bi-analyze-menu.png)
 
 ### <a name="install-excel-updates"></a>Instalar atualizações do Excel
 Quando você usa **Analisar no Excel** pela primeira vez, é necessário instalar as atualizações nas bibliotecas do Excel. Será solicitado que você baixe e execute atualizações do Excel (isso inicia a instalação do pacote *SQL_AS_OLEDDB.msi* do Windows Installer). Este pacote instala o **Provedor Microsoft AS OLE DB para SQL Server 2016 RC0 (Visualização)** .
@@ -56,11 +56,11 @@ Quando você usa **Analisar no Excel** pela primeira vez, é necessário instala
 > 
 > 
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_dontshow.png)
+![Caixa de seleção Não mostrar isso novamente](media/service-analyze-in-excel/pbi_anlz_excel_dontshow.png)
 
 Se precisar instalar as atualizações do Excel para o recurso **Analisar no Excel** novamente, você poderá baixar a atualização por meio do ícone **Baixar** no Power BI, conforme mostrado na imagem a seguir.
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_download_again.png)
+![Instalar as atualizações](media/service-analyze-in-excel/pbi_anlz_excel_download_again.png)
 
 ### <a name="sign-in-to-power-bi"></a>Entrar no Power BI
 Embora você tenha entrado no Power BI em seu navegador, na primeira vez que abrir um novo arquivo .ODC no Excel, você pode ser solicitado a entrar no Power BI com sua conta do Power BI. Isso autentica a conexão do Excel no Power BI.
@@ -70,12 +70,12 @@ Alguns usuários têm várias contas do Power BI e podem estar em uma situação
 
 Você terá uma oportunidade para entrar novamente, quando você poderá entrar com a conta do Power BI que tem acesso ao conjunto de dados acessado pelo recurso Analisar no Excel. Também é possível selecionar **Perfil** na guia da faixa de opções **Power BI** no Excel, que identifica a conta à qual você está conectado no momento e que fornece um link que lhe permite sair (e, posteriormente, entrar com uma conta diferente). Você pode [baixar o editor do Power BI para Excel](https://www.microsoft.com/download/details.aspx?id=50729) se ainda não o tiver instalado, que é como a faixa de opções do Power BI no Excel é instalada.
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+![Exibir seu perfil](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
 
 ### <a name="enable-data-connections"></a>Habilitar conexões de dados
 Para analisar os dados do Power BI no Excel, será solicitado que você verifique o nome do arquivo e o caminho para o arquivo .odc e, em seguida, selecione **Habilitar**.
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_enable.png)
+![Habilitar conexões de dados](media/service-analyze-in-excel/pbi_anlz_excel_enable.png)
 
 > [!NOTE]
 > Os administradores de locatários do Power BI podem usar o *Portal de administração do Power BI* para desabilitar o uso da opção **Analisar no Excel** com conjuntos de dados locais armazenados em bancos de dados do AS (Analysis Services). Quando essa opção estiver desabilitada, a opção **Analisar no Excel** será desabilitada nos bancos de dados do AS, mas continuará disponível para uso com outros conjuntos de dados.
@@ -85,7 +85,7 @@ Para analisar os dados do Power BI no Excel, será solicitado que você verifiqu
 ## <a name="analyze-away"></a>Analisar por completo
 Agora que o Excel abriu e você tem uma Tabela Dinâmica vazia, você está pronto para fazer todos os tipos de análises com o conjunto de dados do Power BI. Assim como ocorre com outras pastas de trabalho locais, com o recurso Analisar no Excel, você pode criar Tabelas Dinâmicas, gráficos, adicionar dados de outras fontes e assim por diante. E, claro, você pode criar planilhas diferentes com todos os tipos de modos de exibição sobre seus dados.
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_chart.png)
+![Tabela Dinâmica e de Gráfico Dinâmico no Excel](media/service-analyze-in-excel/pbi_anlz_excel_chart.png)
 
 > [!NOTE]
 > É importante saber que usar **Analisar no Excel** expõe todos os dados detalhados para todos os usuários, com permissão para o conjunto de dados.

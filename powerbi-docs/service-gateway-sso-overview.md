@@ -9,16 +9,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699189"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527581"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Visão geral de SSO (logon único) para gateways no Power BI
 
-Ao configurar o gateway de dados local, você obterá conectividade ininterrupta de logon único para atualizar os relatórios e os dashboards do Power BI em tempo real, com base em dados locais. Você tem a opção de configurar o seu gateway com a delegação restrita do [Kerberos](service-gateway-sso-kerberos.md) ou a SAML ([Security Assertion Markup Language](service-gateway-sso-saml.md)). O gateway de dados local é compatível com o SSO usando o [DirectQuery](desktop-directquery-about.md), que se conecta a fontes de dados locais.
+Ao configurar o gateway de dados local, você obterá conectividade ininterrupta de logon único para atualizar os relatórios e os dashboards do Power BI em tempo real, com base em dados locais. Você tem a opção de configurar o seu gateway com a delegação restrita do [Kerberos](service-gateway-sso-kerberos.md) ou a SAML ([Security Assertion Markup Language](service-gateway-sso-saml.md)). O gateway de dados local dá suporte ao SSO usando [DirectQuery](desktop-directquery-about.md) ou para Atualização, que se conecta a fontes de dados locais. 
 
 O Power BI é compatível com as seguintes fontes de dados:
 
@@ -33,7 +33,9 @@ O Power BI é compatível com as seguintes fontes de dados:
 
 No momento, não fornecemos suporte ao SSO para [extensões M](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
 
-Quando um usuário interagir com um relatório do DirectQuery no serviço do Power BI, cada operação de filtro cruzado, de fatia, de classificação e de edição de relatório poderá resultar em consultas que são executadas dinamicamente sobre à fonte de dados local subjacente. Quando o SSO é configurado para a fonte de dados, as consultas são executadas sob a identidade do usuário que interage com o Power BI (isto é, por meio da experiência na Web ou de aplicativos móveis do Power BI). Portanto, cada usuário enxerga precisamente os dados para os quais tem permissões na fonte de dados subjacente. Com o logon único configurado, não há nenhum cache de dados compartilhados entre diferentes usuários.
+Quando um usuário interagir com um relatório do DirectQuery no serviço do Power BI, cada operação de filtro cruzado, de fatia, de classificação e de edição de relatório poderá resultar em consultas que são executadas dinamicamente sobre à fonte de dados local subjacente. Quando o SSO é configurado para a fonte de dados, as consultas são executadas sob a identidade do usuário que interage com o Power BI (isto é, por meio da experiência na Web ou de aplicativos móveis do Power BI). Portanto, cada usuário enxerga precisamente os dados para os quais tem permissões na fonte de dados subjacente. 
+
+Você também pode configurar um relatório para atualização no serviço do Power BI para usar o SSO. Quando você configura o SSO para essa fonte de dados, as consultas são executadas sob a identidade do proprietário do conjunto de dados dentro do Power BI. Portanto, a atualização ocorre com base nas permissões do proprietário do conjunto de dados na fonte de dados subjacente. A atualização usando o SSO atualmente está habilitada somente para fontes de dados que usam a delegação restrita de [Kerberos](service-gateway-sso-kerberos.md) 
 
 ## <a name="query-steps-when-running-sso"></a>Etapas de consulta ao executar SSO
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2665e33d5f268bf8037634406aca819c23f3513c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698177"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558696"
 ---
 # <a name="manage-data-sources"></a>Gerenciar fontes de dados
 
@@ -27,7 +27,7 @@ A maioria das operações de gerenciamento de fontes de dados também pode ser e
 
 ## <a name="add-a-data-source"></a>Adicionar uma fonte de dados
 
-1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Configurações](media/service-gateway-data-sources/icon-gear.png)  >  **Gerenciar gateways**.
+1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Configurações](media/service-gateway-data-sources/icon-gear.png) > **Gerenciar gateways**.
 
     ![Gerenciar gateways](media/service-gateway-data-sources/manage-gateways.png)
 
@@ -45,11 +45,24 @@ A maioria das operações de gerenciamento de fontes de dados também pode ser e
 
 5. Para o SQL Server, você escolhe um **Método de Autenticação** do **Windows** ou **Básico** (Autenticação SQL). Se você escolher **Básico**, insira as credenciais para a fonte de dados.
 
-6. Opcionalmente, em **Configurações avançadas**, configure o [nível de privacidade](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) para sua fonte de dados (não se aplica a [DirectQuery](desktop-directquery-about.md)).
+6. Em **Configurações avançadas**, você pode configurar o [Logon único (SSO)](service-gateway-sso-overview.md) para sua fonte de dados. 
+
+    ![configurações avançadas](media/service-gateway-data-sources/advanced-settings-02.png)
+
+Você pode configurar **Usar SSO via Kerberos para consultas de DirectQuery** ou **Usar SSO via Kerberos para consultas de DirectQuery e de Importação** para relatórios baseados em DirectQuery e **Usar SSO via Kerberos para consultas de DirectQuery e de Importação** para relatórios baseados em Atualização.
+
+Caso você use a opção **Usar SSO via Kerberos para consultas de DirectQuery** e use essa fonte de dados para um relatório baseado em DirectQuery, é usado o usuário mapeado para o usuário do (Azure) Active Directory que entra no serviço do Power BI. Para um relatório baseado em Atualização, são usadas as credenciais inseridas nos campos **Nome de usuário** e **Senha**.
+
+Caso você use a opção **Usar SSO via Kerberos para consultas de DirectQuery e Importação**, não é necessário fornecer credenciais. Caso essa fonte de dados seja usada para um relatório baseado em DirectQuery, é usado o usuário mapeado para o usuário do (Azure) Active Directory que entra no serviço do Power BI.  Para um relatório baseado em Atualização, é usado o contexto de segurança do proprietário do conjunto de dados
+
+> [!NOTE]
+>O SSO para consultas de Importação está disponível somente para a lista de fontes de dados de SSO que usam [delegação restrita de Kerberos](service-gateway-sso-kerberos.md).
+
+7. Opcionalmente, em **Configurações avançadas**, configure o [nível de privacidade](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) para sua fonte de dados (não se aplica a [DirectQuery](desktop-directquery-about.md)).
 
     ![Configurações avançadas](media/service-gateway-data-sources/advanced-settings.png)
 
-7. Selecione **Adicionar**. Você verá *Conexão bem-sucedida* se o processo for bem-sucedido.
+8. Selecione **Adicionar**. Você verá *Conexão bem-sucedida* se o processo for bem-sucedido.
 
     ![Conexão bem-sucedida](media/service-gateway-data-sources/connection-successful.png)
 
@@ -91,7 +104,7 @@ Você também pode dar acesso administrativo a usuários e grupos de segurança 
 
 ### <a name="add-users-to-a-data-source"></a>Adicionar usuários a uma fonte de dados
 
-1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Configurações](media/service-gateway-data-sources/icon-gear.png)  >  **Gerenciar gateways**.
+1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Configurações](media/service-gateway-data-sources/icon-gear.png) > **Gerenciar gateways**.
 
 2. Selecione a fonte de dados à qual deseja adicionar usuários.
 

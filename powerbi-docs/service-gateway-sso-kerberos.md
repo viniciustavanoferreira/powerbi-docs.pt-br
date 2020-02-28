@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/03/2019
+ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aacab1541f336ed12c36dab8243d0096c9a6ed19
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000102"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558619"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurar o SSO baseado em Kerberos do serviço do Power BI para fontes de dados locais
 
@@ -246,11 +246,17 @@ O SAP HANA e o SAP BW têm requisitos e pré-requisitos de configuração adicio
 
 ## <a name="run-a-power-bi-report"></a>Executar um relatório do Power BI
 
-Depois de concluir todas as etapas de configuração, use a página **Gerenciar Gateway** no Power BI para configurar a fonte de dados que será usada para SSO. Se há vários gateways, escolha o gateway configurado para o SSO do Kerberos. Em seguida, nas **Configurações Avançadas** da fonte de dados, verifique se a opção **Usar SSO via Kerberos para consultas do DirectQuery** está marcada.
+Depois de concluir todas as etapas de configuração, use a página **Gerenciar Gateway** no Power BI para configurar a fonte de dados que será usada para SSO. Se há vários gateways, escolha o gateway configurado para o SSO do Kerberos. Em seguida, em **Configurações avançadas** para a fonte de dados, confira se a opção **Usar SSO via Kerberos para consultas de DirectQuery** ou **Usar SSO via Kerberos para consultas de DirectQuery e de Importação** está marcada para relatórios baseados em DirectQuery e se **Usar SSO via Kerberos para consultas de DirectQuery e de Importação** está marcada para relatórios baseados em Atualização.
 
-![Opções Configurações avançadas](media/service-gateway-sso-kerberos/advanced-settings.png)
+![Opções Configurações avançadas](media/service-gateway-sso-kerberos/advanced-settings-02.png)
 
- Publique um relatório baseado em DirectQuery no Power BI Desktop. Esse relatório deve usar dados acessíveis para o usuário que é mapeado para o usuário do (Azure) Active Directory que entra no serviço do Power BI. Você deve usar o DirectQuery em vez de importar, devido à maneira como a atualização funciona. Ao atualizar relatórios baseados em importação, o gateway usa as credenciais inseridas nos campos **Nome de usuário** e **Senha** de quando você criou a fonte de dados. Em outras palavras, o SSO do Kerberos *não* é usado. Ao publicar, escolha o gateway configurado para SSO caso haja vários gateways. No serviço do Power BI, agora é possível atualizar o relatório ou criar um novo com base no conjunto de dados publicado.
+Caso você publique um relatório baseado em DirectQuery do Power BI Desktop e o mapeie para uma fonte de dados que esteja com a opção **Usar SSO via Kerberos para consultas de DirectQuery** ou **Usar SSO via Kerberos para consultas de DirectQuery e de Importação** marcada, esse relatório usa dados que são acessíveis para o usuário mapeado para o usuário do (Azure) Active Directory que entra no serviço do Power BI.
+
+Da mesma forma, caso você publique um relatório baseado em Atualização do Power BI Desktop e o mapeie para uma fonte de dados que esteja com a opção **Usar SSO via Kerberos para consultas de DirectQuery e de Importação** marcada, não precisa fornecer credenciais. A atualização é executada no contexto do Active Directory do proprietário do conjunto de dados.
+
+No entanto, caso você mapeie para uma fonte de dados em que a opção **Usar SSO via Kerberos para consultas de DirectQuery e de Importação** não está marcada, a atualização usa as credenciais inseridas nos campos **Nome de usuário** e **Senha** quando você criou a fonte de dados. Em outras palavras, o SSO do Kerberos *não* é usado. 
+
+ Ao publicar, escolha o gateway configurado para SSO caso haja vários gateways. 
 
 Essa configuração funciona na maioria dos casos. No entanto, dependendo do ambiente, pode haver configurações diferentes com o Kerberos. Se o relatório ainda não for carregado, fale com o administrador de domínio para investigar o caso. Se a fonte de dados for o SAP BW, veja as seções de solução de problemas das páginas de configuração específicas da fonte de dados para [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) e [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting), dependendo da biblioteca do SNC escolhida.
 

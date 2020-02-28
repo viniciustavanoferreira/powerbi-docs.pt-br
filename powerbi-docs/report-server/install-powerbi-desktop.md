@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874110"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426646"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 
@@ -89,15 +89,19 @@ Os relatórios do Servidor de Relatório do Power BI não dão suporte a estes r
 
 * Visuais do R
 * Mapas ArcGIS
-* Elementos visuais personalizados
+* Visuais personalizados
 * Trilhas
 * Filtragem geográfica ou códigos de barra
+
+### <a name="custom-security"></a>Segurança personalizada
+
+O Power BI Desktop otimizado para o Servidor de Relatórios do Power BI não dá suporte à segurança personalizada. Se o seu Servidor de Relatórios do Power BI estiver configurado com uma extensão de segurança personalizada, você não poderá salvar um relatório do Power BI por meio do Power BI Desktop (otimizado para o Servidor de Relatórios do Power BI) na instância do Servidor de Relatórios do Power BI. Você precisa salvar o arquivo de relatório .pbix do Power BI Desktop e carregá-lo no site do portal do Servidor de Relatórios do Power BI.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop para versões anteriores do Servidor de Relatórios do Power BI
 
 Se seu servidor de relatório é de uma versão anterior, você precisa da versão correspondente do Power BI Desktop. Este é o link para baixar uma versão anterior.
 
-- Microsoft Power BI Desktop ([otimizado para o Servidor de Relatórios do Power BI – janeiro de 2019](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([otimizado para o Servidor de Relatórios do Power BI – setembro de 2019](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -1,68 +1,70 @@
 ---
 title: Classificação por coluna no Power BI Desktop
-description: Classificação por coluna no Power BI Desktop
+description: No Power BI, é possível alterar a aparência de um visual classificando-o segundo diferentes campos de dados.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 01/30/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 0cbba86bd77debda9ab2162b8f9b190e1846b99c
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223431"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464591"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Classificação por coluna no Power BI Desktop
-No **Power BI Desktop** e no **serviço do Power BI**, você pode alterar a aparência de um visual, classificando-o por diferentes campos de dados. Ao alterar a maneira como você classifica um visual, é possível realçar as informações que você deseja transmitir e garantir de que o visual reflita essa tendência (ou ênfase).
+No Power BI Desktop e no serviço do Power BI, é possível alterar a aparência de um visual classificando-o segundo diferentes campos de dados. Ao alterar a maneira como você classifica um visual, é possível realçar as informações que você deseja transmitir e garantir de que o visual reflita essa tendência (ou ênfase).
 
-Se estiver usando dados numéricos (como valores de vendas) ou dados de texto (como nomes de estado), você pode classificar suas visualizações da forma que quiser e fazer com que elas tenham a aparência desejada.  O **Power BI** oferece muita flexibilidade para a classificação e menus rápidos para você usar. Em qualquer visual, selecione o menu de reticências (...) e, em seguida, o campo pelo qual você deseja classificar, conforme mostrado na imagem a seguir.
+Se estiver usando dados numéricos (como valores de vendas) ou dados de texto (como nomes de estado), você pode classificar suas visualizações e fazer com que elas tenham a aparência desejada. O Power BI oferece muita flexibilidade para a classificação e menus rápidos para você usar. Para classificar qualquer visual, selecione seu menu **Mais ações** (...), selecione **Classificar por** e, em seguida, selecione o campo segundo o qual deseja classificar.
 
 ![Menu Mais opções](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-## <a name="more-depth-and-an-example"></a>Mais detalhes e um exemplo
-Vamos tomar um exemplo com mais detalhes e ver como ele funciona no **Power BI Desktop**.
+## <a name="sorting-example"></a>Exemplo de classificação
+Vamos usar um exemplo com mais detalhes e ver como ele funciona no Power BI Desktop.
 
-A visualização a seguir mostra os custos, quantidades e montantes pelo nome do fabricante. Esta é a aparência da visualização antes de fazermos qualquer classificação.
+A visualização a seguir mostra os custos, quantidades e montantes pelo nome do fabricante. Esta é a aparência da visualização antes de fazermos qualquer classificação:
 
 ![Visualização inicial](media/desktop-sort-by-column/sortbycolumn_1.png)
 
-Atualmente, o visual é classificado por **SalesQuantity** – podemos observar isso fazendo a correspondência entre a cor das barras ascendentes e a legenda, mas há uma maneira melhor de determinar a coluna de classificação atual: o menu de reticências (...) no canto superior direito do visual. Quando selecionamos as reticências, vemos o seguinte:
+O visual está classificado pela coluna **SalesQuantity**. Podemos determinar a coluna de classificação combinando a cor das barras crescentes com a legenda, mas há uma maneira melhor: o menu **Mais opções**, que você acessa selecionando as reticências (...).
 
 ![Menu Mais opções](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-* O campo de classificação atual é **SalesQuantity**, indicado pelo fato de que **Classificar por SalesQuantity** está em negrito e tem uma barra amarela. 
+As seleções de classificação são as seguintes:
 
-* A direção de classificação atual é do menor para o maior, conforme mostrado pelo ícone pequeno **A/Z** (A acima de Z) e uma seta para baixo.
+* O campo de classificação atual é **SalesQuantity**, indicado por **SalesQuantity** em negrito precedido por uma barra amarela. 
 
-Examine o campo de classificação e a direção de forma independente nas duas próximas seções.
+* A direção de classificação atual é crescente, conforme mostrado por **Classificação crescente** em negrito precedido por uma barra amarela.
 
-## <a name="selecting-which-column-to-use-for-sorting"></a>Selecionando a coluna a ser usada para classificação
-A barra amarela ao lado de **Classificar por SalesQuantity** no menu **Mais opções** indica que o visual está classificado pela coluna **SalesQuantity**. Classificar por outra coluna é fácil – basta selecionar as reticências para mostrar o menu de reticências e selecionar outra coluna.
+Examinaremos o campo e a direção de classificação nas duas próximas seções.
 
-Na imagem a seguir, selecionamos *DiscountAmount* como a coluna segundo a qual queremos classificar. Essa coluna é uma das linhas no visual, e não uma das barras. Esta é a aparência após selecionarmos **Classificar por DiscountAmount**.
+## <a name="select-which-column-to-use-for-sorting"></a>Selecione a coluna a ser usada para classificação
+Você observou a barra amarela ao lado de **SalesQuantity** no menu **Mais opções**, indicando que o visual está classificado pela coluna **SalesQuantity**. Classificar por outra coluna é fácil: selecione as reticências (...) para mostrar o menu **Mais opções**, selecione **Classificar por** e, em seguida, selecione uma coluna diferente.
 
-![Classificar por DiscoutAmount](media/desktop-sort-by-column/sortbycolumn_3.png)
+Na imagem a seguir, selecionamos **DiscountAmount** como a coluna segundo a qual queremos classificar. Essa coluna aparece como uma das linhas no visual, e não como uma das barras. 
 
-Observe como o visual foi alterado. Agora, os valores são ordenados do mais alto de DiscountAmount, neste visual da Fabrikam Inc., para a Northwind Traders, que tem o valor mais baixo. 
+![Classificar por DiscountAmount](media/desktop-sort-by-column/sortbycolumn_3.png)
+
+Observe como o visual foi alterado. Agora, os valores estão ordenados do valor mais alto de **DiscountAmount**, que é Fabrikam Inc., para o valor mais baixo, que é Northwind Traders. 
 
 Mas e se quisermos classificar em ordem crescente em vez de decrescente? A próxima seção mostra como é fácil faz isso.
 
-## <a name="selecting-the-sort-order---smallest-to-largest-largest-to-smallest"></a>Selecionando a ordem de classificação - menor para o maior, maior para o menor
-Quando examinamos de forma mais detalhada o menu **Opções** da imagem anterior, vemos que o ícone ao lado de **Classificar por DiscountAmount** mostra **Z/A** (Z sobre A). Observe:
+## <a name="select-the-sort-order"></a>Selecionar a ordem de classificação
+Quando examinamos mais detalhadamente o menu **Mais opções** da imagem anterior, vemos que **Classificação decrescente** está em negrito, precedido por uma barra amarela.
 
 ![Classificar do maior para o menor](media/desktop-sort-by-column/sortbycolumn_4.png)
 
-Quando **Z/A** é exibido, significa que o visual está sendo classificado pela coluna selecionada em ordem do maior valor para o menor. Quer mudar? Sem problemas – basta tocar ou clicar no ícone **Z/A** e a ordem de classificação é alterada para **A/Z** e o visual (com base na coluna selecionada) é classificado do menor valor para o maior.
+Quando **Classificação decrescente** está selecionado, isso significa que o visual está sendo classificado segundo a coluna selecionada na ordem do maior valor para o menor. Quer mudar? Sem problemas, basta selecionar **Classificação crescente** e a ordem de classificação da coluna selecionada muda do menor para o maior valor.
 
-Este é o nosso mesmo visual, desta vez depois de tocar no ícone **Z/A** no item de menu **Classificar por DiscountAmount** para alterar sua ordem. Observe que a Northwind Traders agora é o primeiro fabricante listado, e Fabrikam Inc. é o último – uma classificação oposta à anterior.
+Aqui está o mesmo visual, depois de alterar a classificação de **DiscountAmount**. Observe que a Northwind Traders agora é o primeiro fabricante listado e que a Fabrikam Inc. é o último, em uma classificação oposta à anterior.
 
 ![Classificar do menor para o maior](media/desktop-sort-by-column/sortbycolumn_5.png)
 
-É possível classificar segundo qualquer coluna incluída no visual – poderíamos facilmente selecionar SalesQuantity como a coluna segunda a qual queremos classificar, com **Classificar por SalesQuantity**, para mostrar os fabricantes com mais vendas primeiro e ainda manter as outras colunas no visual da forma como se aplicam ao fabricante. Veja o visual com essas configurações.
+É possível classificar segundo qualquer coluna incluída no visual – nós poderíamos facilmente ter selecionado **SalesQuantity** como a coluna segundo a qual queremos classificar, para mostrar os fabricantes com mais vendas primeiro e ainda manter as outras colunas no visual da forma como se aplicam ao fabricante. Veja o visual com essas configurações:
 
 ![Classificar por SalesQuantity](media/desktop-sort-by-column/sortbycolumn_6.png)
 
@@ -71,40 +73,43 @@ Há outra maneira de classificar os dados, usando o botão **Classificar por Col
 
 ![Botão Classificar por Coluna](media/desktop-sort-by-column/sortbycolumn_8.png)
 
-Essa abordagem de classificação exige que você selecione uma coluna no painel **Campos** e, em seguida, selecione o botão **Classificar por Coluna** para escolher como (por qual coluna) você deseja classificar seu visual. Você deve selecionar a coluna (campo) que deseja classificar no painel **Campos** para habilitar o botão **Classificar por Coluna**. Caso contrário, o botão ficará inativo.
+Essa abordagem à classificação exige que primeiro você selecione a coluna (campo) para classificação no painel **Campos** e, em seguida, selecione **Modelagem** > **Classificar por Coluna** para classificar seu visual. Se você não selecionar uma coluna, o botão **Classificar por Coluna** ficará inativo.
 
-Vejamos um exemplo comum: você tem dados de cada mês do ano e deseja classificá-los com base em ordem cronológica. As etapas a seguir mostram como fazer isso.
+Vejamos um exemplo comum. Você tem dados de cada mês do ano e deseja classificá-los com base na ordem cronológica. As etapas a seguir mostram como fazer isso:
 
-1. Primeiro, observe que quando o visual é selecionado, mas nenhuma coluna é selecionada no painel **Campos**, o botão **Classificar por Coluna** fica inativo (esmaecido).
+1. Observe que quando o visual é selecionado, mas nenhuma coluna é selecionada no painel **Campos**, o botão **Classificar por Coluna** fica inativo (esmaecido).
    
    ![Botão Classificar por Coluna inativo](media/desktop-sort-by-column/sortbycolumn_9.png)
 
 2. Quando selecionamos a coluna pela qual queremos classificar no painel **Campos**, o botão **Classificar por Coluna** se torna ativo.
    
    ![Botão Classificar por Coluna ativo](media/desktop-sort-by-column/sortbycolumn_10.png)
-3. Agora, com o visual selecionado, podemos selecionar *MonthOfYear*, em vez do padrão (*MonthName*), e o visual classifica na ordem que queremos: por mês do ano.
+3. Agora, com o visual selecionado, podemos selecionar **MonthOfYear** em vez do padrão **MonthName**, e o visual faz a classificação na ordem que queremos: por mês do ano.
    
    ![Menu Classificar por Coluna](media/desktop-sort-by-column/sortbycolumn_11.png)
 
-E isso é tudo. Lembre-se de que você deve selecionar uma coluna no painel **Campos** para o botão **Classificar por Coluna** ficar ativo.
 
-## <a name="getting-back-to-default-column-for-sorting"></a>Voltando à coluna padrão para classificação
-Você pode classificar segundo qualquer coluna que desejar, mas pode haver ocasiões em que você deseja que o visual retorne à coluna de classificação padrão. Sem problemas. Para um visual que tem uma coluna de classificação selecionada (como já vimos, uma coluna de classificação selecionada tem uma barra amarela ao seu lado no menu de reticências), basta abrir o menu **Mais opções** e selecionar a coluna novamente, e a visualização retornará à coluna de classificação padrão.
+<!---
+This functionality is no longer active. Jan 2020
 
-Por exemplo, este é nosso gráfico anterior:
+## Getting back to default column for sorting
+You can sort by any column you'd like, but there may be times when you want the visual to return to its default sorting column. No problem. For a visual that has a sort column selected, open the **More options** menu and select that column again, and the visualization returns to its default sort column.
 
-![Visualização inicial](media/desktop-sort-by-column/sortbycolumn_6.png)
+For example, here's our previous chart:
 
-Quando voltamos ao menu e selecionamos **SalesQuantity** novamente, o visual volta ao padrão de ordem alfabética por **Fabricante**, conforme mostra a imagem a seguir.
+![Initial visualization](media/desktop-sort-by-column/sortbycolumn_6.png)
 
-![Ordem de classificação padrão](media/desktop-sort-by-column/sortbycolumn_7.png)
+When we go back to the menu and select **SalesQuantity** again, the visual defaults to being ordered alphabetically by **Manufacturer**, as shown in the following image.
 
-Com tantas opções para classificar os visuais, criando exatamente o gráfico ou imagem que você deseja é fácil.
+![Default sort order](media/desktop-sort-by-column/sortbycolumn_7.png)
+
+With so many options for sorting your visuals, creating just the chart or image you want is easy.
+--->
 
 ## <a name="next-steps"></a>Próximas etapas
 
 Você também pode estar interessado nos seguintes artigos:
 
 * [Usar o detalhamento no Power BI Desktop](desktop-cross-report-drill-through.md)
-* [Usando segmentações no Power BI Desktop](visuals/power-bi-visualization-slicers.md)
+* [Segmentações no Power BI](visuals/power-bi-visualization-slicers.md)
 

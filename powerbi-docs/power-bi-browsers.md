@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d81e9e7142a05ac49969e98dbada0e0edf2fe3ba
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ec93e1575ec5429a3ca4c790150973a23224d97b
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875250"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427773"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Navegadores com suporte para o Power BI
 O Power BI executa nestes navegadores:
@@ -26,6 +26,9 @@ O Power BI executa nestes navegadores:
 - Última versão do Firefox para desktop. O Firefox pode alterar as fontes usadas no Power BI 
 
 Esses navegadores têm suporte em todas as plataformas em que elas estão disponíveis.
+
+> [!NOTE]
+> O Power BI não é executado em nenhum navegador no iOS10 ou em versões anteriores.
 
 ### <a name="next-steps"></a>Próximas etapas
 * [O que é o Power BI?](power-bi-overview.md)

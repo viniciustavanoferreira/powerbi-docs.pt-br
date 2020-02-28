@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925664"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426554"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho em novos workspaces no Power BI
 
@@ -68,15 +68,16 @@ Estas são as capacidades das quatro funções: administradores, membros, colabo
 | Adicionar/remover pessoas, incluindo outros administradores.  | X  |   |   |   |
 | Adicionar membros ou outras pessoas com permissões inferiores.  |  X | X  |   |   |
 | Publicar e atualizar um aplicativo. |  X | X  |   |   |
-| Compartilhar um item ou um aplicativo. |  X | X  |   |   |
-| Permitir que outras pessoas compartilhem novamente os itens. |  X | X  |   |   |
+| Compartilhar um item ou um aplicativo.<sup>1</sup> |  X | X  |   |   |
+| Permitir que outras pessoas compartilhem itens novamente.<sup>1</sup> |  X | X  |   |   |
 | Criar, editar e excluir conteúdo no workspace.  |  X | X  | X  |   |
 | Publicar relatórios no workspace, excluir conteúdo.  |  X | X  | X  |   |
 | Criar um relatório em outro workspace com base em um conjunto de dados neste workspace.<sup>1</sup> |  X | X  | X  |   |
-| Copiar um relatório.<sup>1</sup> | X | X | X |  |
-| Exibir e interagir com um item.<sup>2</sup> |  X | X  | X  | X  |
+| Copiar um relatório.<sup>2</sup> | X | X | X |  |
+| Exibir e interagir com um item.<sup>3</sup> |  X | X  | X  | X  |
 
-1. Para copiar um relatório e criar um relatório em outro workspace com base em um conjunto de dados nesse workspace, você precisa atender a critérios adicionais:
+1. Colaboradores e Espectadores podem compartilhar itens em um workspace quando têm permissões para Recompartilhar.
+2. Para copiar um relatório e criar um relatório em outro workspace com base em um conjunto de dados nesse workspace, você precisa atender a critérios adicionais:
     - Você precisa de uma licença Power BI Pro. Confira a próxima seção, [Licenciamento](#licensing), para saber mais detalhes.
     - Você precisa ter a permissão Criar no conjunto de dados. Para conjuntos de dados nesse workspace, as pessoas com as funções Administrador, Membro e Colaborador têm a permissão Criar por meio das funções de workspace delas.
 2. Mesmo se não tiver uma licença Power BI Pro, você poderá exibir itens e interagir com eles no serviço do Power BI se os itens estiverem em um workspace em uma capacidade Premium.

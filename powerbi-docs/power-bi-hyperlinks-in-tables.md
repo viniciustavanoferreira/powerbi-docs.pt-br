@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddb54ca91936626b4870b51b86b7fc7f0ac6b2c9
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954195"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427796"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Adicionar hiperlinks (URLs) a uma tabela ou matriz
 Este tópico ensina a adicionar hiperlinks (URLs) a uma tabela. Use o Power BI Desktop para adicionar hiperlinks (URLs) a um conjunto de dados. É possível adicionar esses hiperlinks às suas matrizes e tabelas de relatório no serviço do Power BI ou no Power BI Desktop. Em seguida, você pode exibir a URL ou um ícone de link ou formatar outra coluna como texto de link.
@@ -34,7 +34,7 @@ Você também pode criar hiperlinks em [caixas de texto nos relatórios](service
     > [!NOTE]
     > Você não pode criar uma coluna no modo DirectQuery.  No entanto, se seus dados já contêm URLs, você pode transformá-los em hiperlinks.
 
-2. Na exibição de Dados, selecione a coluna. 
+2. Na exibição de Dados ou de Relatório, selecione a coluna. 
 
 3. Na guia **Modelagem**, selecione **Categoria de Dados** > **URL da Web**.
    
@@ -79,13 +79,20 @@ Você também pode formatar outro campo em uma tabela como hiperlink e não ter 
 
 1. Se ainda não houver um campo como um hiperlink no conjunto de dados, use o Power BI Desktop para adicioná-lo como uma [coluna personalizada](desktop-common-query-tasks.md). De novo, você não pode criar uma coluna no modo DirectQuery.  No entanto, se seus dados já contêm URLs, você pode transformá-los em hiperlinks.
 
-2. Na exibição de Relatório, crie uma tabela ou matriz com a coluna que você pretende formatar como texto de link.
+2. Na exibição de Dados ou de Relatório, selecione a coluna que contém a URL. 
+
+3. Na guia **Modelagem**, selecione **Categoria de Dados**. Verifique se a coluna está formatada como **Não categorizado**.
+
+2. Na exibição de Relatório, crie uma tabela ou uma matriz com a coluna da URL e a coluna que você pretende formatar como texto de link.
 
 3. Com a tabela selecionada, selecione o ícone **Formato** ![ícone rolo de pintura](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) para abrir a guia Formato.
 
-4. Expanda **Formatação condicional**, certificando-se de que o nome na caixa seja a coluna que você quer como texto do link. Localize o **ícone de URL** e altere-o para **Ativado**.
+4. Expanda **Formatação condicional**, certificando-se de que o nome na caixa seja a coluna que você quer como texto do link. Localize a **URL da Web** e altere-a para **Ativado**.
 
     ![URL da Web de formatação condicional](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
+
+    > [!NOTE]
+    > Caso você não veja a opção **URL da Web**, verifique se a coluna que contém os hiperlinks *não* está formatada como **URL da Web** na caixa suspensa **Categoria de Dados**.
 
 5. Na caixa de diálogo **URL da Web**, selecione o campo que contém a URL na caixa **Com base no campo** > **OK**.
 

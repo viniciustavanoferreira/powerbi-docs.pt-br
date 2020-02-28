@@ -1,6 +1,6 @@
 ---
 title: Distribuir conteúdos para usuários convidados externos com o Azure AD B2B
-description: O Power BI integra-se ao Azure Active Directory Business-to-business (Azure AD B2B) para permitir distribuição segura do conteúdo do Power BI aos usuários convidados fora da organização.
+description: O Power BI permite o compartilhamento de conteúdo com usuários convidados externos por meio do Azure AD B2B (Azure Active Directory Business-to-business).
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,47 +9,48 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2a17e4963d4607b67279f65205579e115df2e550
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026636"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558607"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B
 
-O Power BI integra-se ao Azure AD B2B (Azure Active Directory business-to-business) para permitir distribuição segura do conteúdo do Power BI aos usuários convidados fora da sua organização, enquanto ainda mantém controle sobre os dados internos. Além disso, você pode permitir que usuários convidados fora da sua organização editem e gerenciem o conteúdo dentro de sua organização.
+O Power BI permite o compartilhamento de conteúdo com usuários convidados externos por meio do Azure AD B2B (Azure Active Directory Business-to-business).
+Usando o Azure AD B2B, sua organização habilita e rege o compartilhamento com usuários externos em um local central. Por padrão, os convidados externos têm uma experiência apenas de consumo. Além disso, você pode permitir que usuários convidados fora da sua organização editem e gerenciem o conteúdo dentro de sua organização.
 
 Este artigo fornece uma introdução básica ao Azure AD B2B no Power BI. Para obter mais informações, confira [Distribuir o conteúdo do Power BI para usuários convidados externos usando o Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md).
 
 ## <a name="enable-access"></a>Habilitar acesso
 
-Ative o recurso [Compartilhar conteúdo com usuários externos](service-admin-portal.md#export-and-sharing-settings) no portal de administração do Power BI antes de convidar usuários. Mesmo quando essa opção está habilitada, o usuário deve ter permissão no Azure Active Directory para emitir convites aos usuários, o que pode ser concedido por meio da função Emissor de convites independente. 
+Ative o recurso [Compartilhar conteúdo com usuários externos](service-admin-portal.md#export-and-sharing-settings) no portal de administração do Power BI antes de convidar usuários. Mesmo quando essa opção está habilitada, o usuário deve ter permissão no Azure Active Directory para emitir convites aos usuários. Essa permissão é concedida por meio da função Emissor de convites independente. 
 
-Você também pode usar o recurso [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Com ele, é possível selecionar qual usuário convidado pode ver e criar conteúdo em workspaces, incluindo a navegação pelo Power BI da organização.
+A opção de [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) permite que você ofereça aos usuários convidados a capacidade de ver e criar conteúdo em workspaces, incluindo a navegação pelo Power BI da sua organização.
 
 > [!NOTE]
-> A configuração [Compartilhar conteúdo com usuários externos](service-admin-portal.md#export-and-sharing-settings) controla se usuários externos podem ser convidados para sua organização por meio do Power BI. Depois que um usuário externo aceita o convite, ele se torna um usuário convidado B2B do Azure AD em sua organização. Eles aparecem nos seletores de pessoas durante a experiência do Power BI. Quando a configuração é desabilitada, os usuários convidados existentes na sua organização continuam a ter acesso a quaisquer itens aos quais tinham acesso e permanecem listados nas experiências do seletor de pessoas. Além disso, se os convidados forem adicionados por meio da abordagem de convite planejado, eles também aparecerão nos seletores de pessoas. Você pode usar uma política de acesso condicional do Azure AD para impedir que usuários convidados acessem o Power BI.
+> A configuração [Compartilhar conteúdo com usuários externos](service-admin-portal.md#export-and-sharing-settings) controla se o Power BI permite convidar usuários externos para sua organização. Depois que um usuário externo aceita o convite, ele se torna um usuário convidado do Azure AD B2B em sua organização. Eles aparecem nos seletores de pessoas durante a experiência do Power BI. Quando a configuração é desabilitada, os usuários convidados existentes na sua organização continuam a ter acesso a quaisquer itens aos quais tinham acesso e permanecem listados nas experiências do seletor de pessoas. Além disso, se os convidados forem adicionados por meio da abordagem de [convite planejado](#planned-invites), eles também aparecerão nos seletores de pessoas. Você pode usar uma política de acesso condicional do Azure AD para impedir que usuários convidados acessem o Power BI.
 
 ## <a name="who-can-you-invite"></a>Que você pode convidar?
 
-Você pode convidar usuários que têm a maioria dos endereços de email, incluindo contas pessoais do Gmail, do Outlook ou do Hotmail. O Azure AD B2B chama esses endereços de *identidades sociais*.
+Você pode convidar para sua organização usuários que têm a maioria dos endereços de email, incluindo contas pessoais do Gmail, do Outlook ou do Hotmail. O Azure AD B2B chama esses endereços de *identidades sociais*.
 
 Você não pode convidar usuários associados a uma nuvem governamental, como o [Power BI para o Governo dos EUA](service-govus-overview.md).
 
 ## <a name="invite-guest-users"></a>Convidar usuários convidados
 
-Os usuários convidados só precisam de convites na primeira vez que você os convida para sua organização. Há duas maneiras de convidar usuários: convites planejados e convites ad hoc.
+Os usuários convidados só precisam de convites na primeira vez que você os convida para sua organização. Para convidar usuários, use convites planejados ou ad hoc.
 
-Você pode emitir convites para os usuários por meio dos seguintes recursos no Power BI:
+Para usar convites ad hoc, use os recursos a seguir:
 * Compartilhamento de relatórios e painéis
 * Lista de acesso a aplicativos
 
-Para adicionar a um workspace usuários externos que ainda não são convidados no Azure AD, você precisará usar a abordagem de convites planejados sugerida abaixo. 
+Não há suporte para convites ad hoc na lista de acesso do workspace. Use a [abordagem de convites planejados](#planned-invites) para adicionar esses usuários à sua organização. Depois que o usuário externo for um convidado em sua organização, adicione-o à lista de acesso do workspace.
 
 ### <a name="planned-invites"></a>Convites planejados
 
-Use um convite planejado se souber quais usuários vai convidar. Envie o convite pelo Portal do Azure ou pelo PowerShell. Você deve ser administrador de locatários para convidar pessoas.
+Use um convite planejado se souber quais usuários vai convidar. O portal do Azure ou o PowerShell permite que você envie os convites. Você deve ser administrador de locatários para convidar pessoas.
 
 Execute estas etapas para enviar um convite no Portal do Azure.
 
@@ -81,14 +82,14 @@ O usuário convidado receberá um email indicando que você compartilhou o aplic
 
 ![Captura de tela de email para aplicativo compartilhado com o usuário convidado](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
-O usuário convidado deverá entrar com o endereço de email da organização. Ele receberá uma solicitação para aceitar o convite depois de entrar. Depois de entrar, o aplicativo é aberto para o usuário convidado. Para retornar ao aplicativo, basta marcar o link ou salvar o email.
+O usuário convidado deverá entrar com o endereço de email da organização. Ele receberá uma solicitação para aceitar o convite depois de entrar. Depois de entrar, o aplicativo é aberto para o usuário convidado. Para retornar ao aplicativo, é necessário marcar o link ou salvar o email.
 
 
 ## <a name="licensing"></a>Licenças
 
 O usuário convidado precisa ter a licença correta em vigor para ver o conteúdo compartilhado. Há três maneiras de garantir uma licença adequada para o usuário: usar o Power BI Premium, atribuir uma licença do Power BI Pro ao convidado ou usar a licença do Power BI Pro do convidado.
 
-Ao usar o recurso [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization), usuários convidados que contribuem com conteúdo para os workspaces ou compartilham conteúdo com outras pessoas exigem uma licença do Power BI Pro.
+[Os usuários convidados que podem editar e gerenciar conteúdo na organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) precisam de uma licença do Power BI Pro para contribuir com conteúdo para workspaces ou compartilhar conteúdo com outras pessoas.
 
 ### <a name="use-power-bi-premium"></a>Usar o Power BI Premium
 
@@ -110,23 +111,23 @@ O usuário convidado já tem uma licença do Power BI Pro atribuída em seu loca
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>Usuários convidados que podem editar e gerenciar conteúdo
 
-Ao usar o recurso [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization), os usuários convidados especificados obtêm acesso ao Power BI. Eles podem ver qualquer conteúdo para o qual tenham permissão. Eles podem acessar a página inicial, navegar por workspaces, instalar aplicativos, ver onde estão na lista de acesso e contribuir com conteúdo para os workspaces. Eles podem ser administradores de workspaces que usam a nova experiência de workspace e até mesmo criar tais workspaces. Algumas limitações se aplicam. A seção Considerações e Limitações lista essas restrições.
+Ao usar o recurso [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization), os usuários convidados especificados obtêm acesso adicional ao Power BI da sua organização. Os usuários permitidos podem ver qualquer conteúdo ao qual tenham permissão, acessar a página inicial, navegar por workspaces, instalar aplicativos, ver onde estão na lista de acesso e contribuir com conteúdo para os workspaces. Eles podem ser administradores de workspaces que usam a nova experiência de workspace e até mesmo criar tais workspaces. Algumas limitações se aplicam. A seção Considerações e Limitações lista essas restrições.
  
-Para ajudar esses usuários a entrar no Power BI, forneça a eles a URL do locatário. Para localizar a URL do locatário, siga estas etapas.
+Para ajudar os convidados autorizados a entrar no Power BI, forneça a eles a URL do locatário. Para localizar a URL do locatário, siga estas etapas.
 
 1. No serviço do Power BI, no menu superior, selecione a Ajuda ( **?** ), em seguida, **Sobre o Power BI**.
 
-2. Procure o valor ao lado de **URL do locatário**. O valor é a URL do locatário que você pode compartilhar com seus usuários convidados.
+2. Procure o valor ao lado de **URL do locatário**. Compartilhe a URL do locatário com os usuários convidados permitidos.
 
     ![Captura de tela da caixa de diálogo Sobre o Power BI com a URL do locatário do usuário convidado em destaque.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-* Por padrão, o Azure AD B2B externo limita os convidados ao consumo apenas de conteúdo. Os convidados de Azure AD B2B externos podem exibir aplicativos, painéis, relatórios, além de exportar dados e criar assinaturas de email para painéis e relatórios. Eles não podem acessar os workspaces ou publicar seu próprio conteúdo. No entanto, essas restrições não se aplicam a usuários convidados que obtêm acesso por meio do recurso [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization).
+* Por padrão, o Azure AD B2B externo limita os convidados ao consumo apenas de conteúdo. Os convidados de Azure AD B2B externos podem exibir aplicativos, painéis, relatórios, além de exportar dados e criar assinaturas de email para painéis e relatórios. Eles não podem acessar os workspaces ou publicar seu próprio conteúdo. Para remover essas restrições, você pode usar o recurso [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization).
 
 * Para convidar usuários convidados, uma licença do Power BI Pro é necessária. Os usuários da avaliação do Pro não podem convidar usuários convidados no Power BI.
 
-* Algumas experiências não estão disponíveis para usuários convidados habilitados por meio do recurso [Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Para atualizar ou publicar relatórios, eles precisarão usar a interface do usuário da Web do serviço do Power BI, incluindo Obter Dados para carregar arquivos do Power BI Desktop.  Não há suporte para as seguintes experiências:
+* Algumas experiências não estão disponíveis para [usuários convidados que podem editar e gerenciar conteúdo na organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Para atualizar ou publicar relatórios, eles precisarão usar a interface do usuário da Web do serviço do Power BI, incluindo Obter Dados para carregar arquivos do Power BI Desktop.  Não há suporte para as seguintes experiências:
     * Publicação direta do Power BI Desktop para o serviço do Power BI
     * Os usuários convidados não podem usar o Power BI Desktop para se conectar a conjuntos de dados de serviço no serviço do Power BI
     * Workspaces clássicos associados a Grupos do Office 365:
@@ -142,7 +143,7 @@ Para ajudar esses usuários a entrar no Power BI, forneça a eles a URL do locat
     * Os usuários convidados não podem usar assinaturas
     * Usuários convidados que usam essa funcionalidade devem ter uma conta corporativa ou de estudante. 
     
-* Os usuários convidados usando contas pessoais terão mais limitações, devido a restrições de entrada.
+* Os usuários convidados que usam contas pessoais terão mais limitações por causa de restrições de entrada.
     * Eles podem usar experiências de consumo no serviço do Power BI por meio de um navegador da Web
     * Eles não podem usar os aplicativos Power BI Mobile.
     * Eles não poderão entrar para fornecer credenciais em situações nas quais uma conta corporativa ou de estudante for necessária.
@@ -155,6 +156,8 @@ Para ajudar esses usuários a entrar no Power BI, forneça a eles a URL do locat
     * [Permitir ou impedir que usuários convidados acessem o serviço Power BI](/azure/active-directory/conditional-access/overview)
     
 * O compartilhamento fora da sua organização não é compatível com nuvens nacionais. Alternativamente, crie contas de usuário em sua organização que usuários externos possam usar para acessar o conteúdo. 
+
+* Se você compartilhar conteúdo diretamente com um usuário convidado, o Power BI enviará a ele um email com o link. Para evitar o envio de um email, adicione o usuário convidado a um grupo de segurança e compartilhe com o grupo de segurança.  
 
 ## <a name="next-steps"></a>Próximas etapas
 

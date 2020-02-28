@@ -7,23 +7,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852025"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496501"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Adicionar comentários a um dashboard ou relatório
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Adicione um comentário pessoal ou inicie uma conversa sobre um dashboard ou relatório com seus colegas. O recurso **comentário** é apenas uma das maneiras como um *consumidor* pode colaborar com outras pessoas. 
 
 ![vídeo de comentários](media/end-user-comment/comment.gif)
+
+> [!NOTE]
+> A colaboração com outras pessoas, incluindo a adição de comentários a relatórios compartilhados, exige uma licença Power BI Pro ou Premium. [Qual tipo de licença eu tenho?](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>Como usar o recurso Comentários
 É possível adicionar comentários a um dashboard inteiro, a visuais individuais em um dashboard, a uma página de relatório, a um relatório paginado e a visuais individuais em uma página de relatório. Adicione um comentário geral ou um comentário direcionado a colegas específicos.  
@@ -34,7 +39,7 @@ Quando você adiciona um comentário a um relatório, o Power BI captura o filtr
 
 Por que isso é importante? Digamos que um colega aplicou um filtro que revelou um insight interessante e quer compartilhá-lo com a equipe. Sem esse filtro selecionado, o comentário pode não fazer sentido.
 
-Se estiver usando um relatório paginado, você só poderá deixar um comentário geral sobre o relatório.  O suporte para deixar comentários em visuais de relatórios individuais não está disponível.
+Se estiver usando um relatório paginado, você só poderá deixar um comentário geral sobre o relatório.  O suporte para deixar comentários em visuais de relatórios paginados individuais não está disponível.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Adicionar um comentário geral a um dashboard ou relatório
 Os processos para adicionar comentários a um painel ou relatório são semelhantes.  Neste exemplo, estamos usando um dashboard. 

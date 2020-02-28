@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410832"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527512"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Entenda o esquema em estrela e a importância para o Power BI
 
@@ -71,9 +71,10 @@ Em um modelo do Power BI, uma **medida** tem uma definição diferente, mas seme
 
 ![Exemplo de ícone na lista de campos](media/star-schema/field-list-example.png)
 
-No entanto, há dois motivos convincentes para você criar medidas, mesmo para resumos simples em nível de coluna:
+No entanto, há três motivos convincentes para você criar medidas, mesmo para resumos simples em nível de coluna:
 
-- Quando você souber que seus autores do relatório consultarão o modelo usando [expressões MDX](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), o modelo deverá incluir _medidas explícitas_. Medidas explícitas são definidas usando o DAX. Essa abordagem de design é altamente relevante quando um conjunto de dados do Power BI é consultado usando o MDX, porque ele não pode obter o resumo dos valores de coluna. Notavelmente, o MDX será usado ao executar [Analisar no Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (as Tabelas Dinâmicas emitem consultas MDX).
+- Quando você souber que seus autores de relatório consultarão o modelo usando [MDX (Expressões Multidimensionais)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), o modelo deverá incluir _medidas explícitas_. Medidas explícitas são definidas usando o DAX. Essa abordagem de design é altamente relevante quando um conjunto de dados do Power BI é consultado usando o MDX, porque ele não pode obter o resumo dos valores de coluna. Notavelmente, o MDX será usado ao executar [Analisar no Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (as Tabelas Dinâmicas emitem consultas MDX).
+- Quando você souber que os autores do relatório criarão relatórios paginados do Power BI usando o designer de consulta do MDX, o modelo deverá incluir medidas explícitas. Somente o designer de consulta MDX dá suporte a [agregações de servidor](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Portanto, se os autores de relatório precisarem ter medidas avaliadas pelo Power BI (em vez de pelo mecanismo de relatório paginado), eles deverão usar o designer de consulta MDX.
 - Se você precisar, garanta que os autores de relatórios só possam resumir colunas de maneiras específicas. Por exemplo, a coluna **Preço da Unidade** de vendas do revendedor (que representa uma taxa por unidade) pode ser resumida, mas somente usando funções de agregação específicas. Ela nunca deve ser somada, mas é apropriado resumir usando outras funções de agregação (mín., máx., média etc.). Nessa instância, o modelador pode ocultar a coluna de **Preço Unitário** e criar medidas para todas as funções de agregação apropriadas.
 
 Observe que essa abordagem de design funciona bem para relatórios criados no serviço do Power BI e para P e R. No entanto, as conexões dinâmicas do Power BI Desktop permitem que os autores de relatório mostrem campos ocultos no painel **Campos**, o que pode resultar em contornar essa abordagem de design.
@@ -123,7 +124,7 @@ Uma atualização não incremental de uma tabela de tipo de dimensão de modelo 
 
 ### <a name="type-2-scd"></a>SCD do Tipo 2
 
-Uma **SCD** do **Tipo 2** é compatível com a versão de membros de dimensão. Se o sistema de origem não armazenar versões, normalmente será usado o processo de carregamento de data warehouse que detecta alterações e gerencia adequadamente a alteração em uma tabela de dimensão. Nesse caso, a tabela de dimensões deve usar uma chave substituta para fornecer uma referência exclusiva a uma _versão_ do membro da dimensão. Ele também inclui colunas que definem a validade do intervalo de datas da versão (por exemplo, **StartDate** e **EndDate**) e, possivelmente, uma coluna de sinalizador (por exemplo, **IsCurrent**) para facilmente filtrar por membros da dimensão atual.
+Uma **SCD** do **Tipo 2** é compatível com o controle de versão de membros de dimensão. Se o sistema de origem não armazenar versões, normalmente será usado o processo de carregamento de data warehouse que detecta alterações e gerencia adequadamente a alteração em uma tabela de dimensão. Nesse caso, a tabela de dimensões deve usar uma chave substituta para fornecer uma referência exclusiva a uma _versão_ do membro da dimensão. Ele também inclui colunas que definem a validade do intervalo de datas da versão (por exemplo, **StartDate** e **EndDate**) e, possivelmente, uma coluna de sinalizador (por exemplo, **IsCurrent**) para facilmente filtrar por membros da dimensão atual.
 
 Por exemplo, a Adventure Works atribui vendedores a uma região de vendas. Quando um vendedor realoca a região, uma nova versão do vendedor deve ser criada para garantir que os fatos históricos permaneçam associados à região anterior. Para dar suporte à análise histórica precisa das vendas por vendedor, a tabela de dimensões deve armazenar versões de vendedores e suas regiões associadas. A tabela também deve incluir valores de data de início e de término para definir a validade do tempo. Versões atuais podem definir uma data de término vazia (ou 31/12/9999), que indica que a linha é a versão atual. A tabela também deve definir uma chave substituta, pois a chave comercial (neste caso, ID de funcionário) não será exclusiva.
 

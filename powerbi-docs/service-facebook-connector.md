@@ -6,20 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcfc695d0371cce21a827ddfe71b3b4b05863935
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 882cddf7728a27e78056a35c14fde20f00678e33
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762406"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527692"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>Usar o conector do Facebook para Power BI Desktop
 O conector do Facebook no **Power BI Desktop** depende da API do Graph do Facebook. Por isso, os recursos e a disponibilidade podem variar ao longo do tempo.
 
 Você pode ver um [tutorial sobre o Conector do Facebook para o Power BI Desktop](desktop-tutorial-facebook-analytics.md).
+
+> [!IMPORTANT]
+> **Aviso de substituição do conector de dados do Facebook:** a importação e a atualização de dados do Facebook no Excel não funcionarão mais adequadamente a partir de abril de 2020. Você pode usar o conector *Obter e Transformar (Power Query)* do Facebook até lá. Após essa data, você não poderá se conectar ao Facebook e receberá uma mensagem de erro. Nós recomendamos revisar ou remover qualquer consulta *Obter e Transformar (Power Query)* existente que use o conector do Facebook assim que possível para evitar resultados inesperados.
+
 
 Em 30 de abril de 2015, o Facebook expirou a versão 1.0 da API do Graph. O Power BI usa a Graph API nos bastidores para o conector do Facebook, permitindo que você se conecte aos seus dados e os analise.
 

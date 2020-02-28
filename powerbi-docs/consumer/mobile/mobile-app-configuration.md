@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538257"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496743"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurar remotamente o aplicativo do Power BI usando a ferramenta de MDM (gerenciamento de dispositivo móvel)
 
@@ -51,7 +51,7 @@ O aplicativo Power BI para Android oferecerá aos administradores a capacidade d
 | Key | Tipo | Valores | Descrição |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | Cadeia de caracteres |  <nobr>toque simples</nobr><br><nobr>toque duplo</nobr> | Configure se o toque no visual também fará uma seleção de ponto de dados. |
-| ccom.microsoft.powerbi.mobile.RefreshAction | Cadeia de caracteres |  <nobr>deslizar para atualizar</nobr><br>. | Configure se o usuário terá um botão para atualizar o relatório ou deverá usará o recurso "deslizar para atualizar". |
+| com.microsoft.powerbi.mobile.RefreshAction | Cadeia de caracteres |  <nobr>deslizar para atualizar</nobr><br>. | Configure se o usuário terá um botão para atualizar o relatório ou deverá usará o recurso "deslizar para atualizar". |
 | com.microsoft.powerbi.mobile.FooterAppearance | Cadeia de caracteres |  encaixado<br>dinâmico | Configure se o rodapé do relatório será encaixado na parte inferior do relatório ou ocultado automaticamente. |
 
 ## <a name="deploying-app-configuration-settings"></a>Implantando definições de configuração de aplicativos

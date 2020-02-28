@@ -3,21 +3,22 @@ title: O que é um aplicativo do Power BI?
 description: No Power BI, os aplicativos reúnem os dashboards e os relatórios relacionados em um só local.
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851016"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496705"
 ---
 # <a name="apps-in-power-bi"></a>Aplicativos no Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ Seus aplicativos são organizados na lista de conteúdo **Aplicativos**. Basta s
 ![Aplicativos no Power BI](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> O uso de recurso dos aplicativos exige uma licença do Power BI Pro. <!-- add link to how to figure out your license -->
+> O uso de recurso dos aplicativos exige uma licença do Power BI Pro. [Pesquisar seu tipo de licença](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>***Designers*** de aplicativo e ***consumidores*** de aplicativo
+## <a name="app-designers-and-app-consumers"></a>*Designers* de aplicativo e *consumidores* de aplicativo
 Dependendo da função, você pode ser alguém que cria aplicativos (*designer*) para seu próprio uso ou para compartilhar com colegas. Você também pode ser alguém que recebe e baixa aplicativos (*consumidor*) criados por outras pessoas. Este artigo é para *consumidores* de aplicativos.
 
 ## <a name="advantages-of-apps"></a>Vantagens dos aplicativos

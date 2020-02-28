@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160755"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496938"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes do Governo dos EUA
 Este artigo se destina aos clientes do Governo dos EUA que estão implantando o Power BI como parte de um plano do Office 365 Government. Os planos governamentais são projetados para as necessidades exclusivas das organizações que devem atender aos padrões de conformidade e segurança dos EUA. O serviço do Power BI projetado para os clientes do Governo dos EUA é diferente da versão comercial do serviço do Power BI. As funcionalidades e diferenças do recurso estão descritas nas seções a seguir.
@@ -37,7 +37,7 @@ O Office 365 fornece diversos ambientes para que as agências governamentais ate
 
 * A [GCC (Nuvem da Comunidade Governamental) do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) foi projetada para o governo federal, estadual e local.
 
-* A [GCC Alta (Nuvem da Comunidade Governamental Alta) do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) foi projetada para as agências federais, os setores de defesa e aeroespacial e outras organizações que mantêm informações controladas não confidenciais. Esse ambiente é adequado para organizações de segurança nacional e empresas com dados ITAR (International Traffic in Arms Regulations) ou requisitos DFARS (Defense Federal Acquisition Regulations Supplement).
+* A [GCC High (Nuvem da Comunidade Governamental High) do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) foi projetada para as agências federais, os setores de defesa e aeroespacial e outras organizações que mantêm informações controladas não confidenciais. Esse ambiente é adequado para organizações de segurança nacional e empresas que têm dados ITAR (Normas de Tráfego Internacional de Armas) ou requisitos DFARS (Suplemento do Regulamento de Aquisição Federal para a Defesa).
 
 * O [ambiente do Office 365 DoD](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) foi projetado exclusivamente para o Departamento de Defesa dos EUA. 
 
@@ -86,15 +86,15 @@ Para atender aos requisitos dos clientes de nuvem governamental, existem algumas
 |  |Compartilhamento de usuários externos|Disponível|Disponível|Disponível|
 |  |Métricas de uso para relatórios e painéis|Não disponível|Não disponível|Não disponível|
 |  |B2B do Azure entre GCC e nuvem comercial|Não disponível|Não disponível|Não disponível|
-|Criação de relatório|Criação e exibição de relatórios e painéis|Disponível|Disponível|Disponível|
+|Criação de relatório|Criar e exibir dashboards e relatórios|Disponível|Disponível|Disponível|
 |  |Atualização de dados agendada|Disponível|Disponível|Disponível|
 |  |Dashboards de equipe atualizáveis|Disponível|Disponível|Disponível|
-|  |Relatórios paginados|Disponível apenas no USGov Texas e USGov Virgínia |Disponível|No roteiro|
+|  |Relatórios paginados|Disponível|Disponível|No roteiro|
 |  |Aplicativos de modelo|Não disponível|Não disponível|Não disponível|
-|Conexão aos dados|Importação de dados e relatórios do Excel|Disponível|Disponível|Disponível|
+|Conectar aos dados|Importação de dados e relatórios do Excel|Disponível|Disponível|Disponível|
 |  |Importação de dados de arquivos CSV|Disponível|Disponível|Disponível|
 |  |Importação de dados de arquivos do Power BI Desktop|Disponível|Disponível|Disponível|
-|  |Conectividade com o CDS|Não disponível|Não disponível|Não disponível|
+|  |Conectividade com o CDS|Disponível|Não disponível|Não disponível|
 |  |Conector do Azure Data Lake Storage Gen2|Não disponível|Não disponível|Não disponível|
 |Gerenciamento de dados|Gateway de gerenciamento de dados|Disponível|Disponível|Disponível|
 |  |Criptografia de dados no SQL do Azure|Disponível|Disponível|Disponível|
@@ -103,15 +103,14 @@ Para atender aos requisitos dos clientes de nuvem governamental, existem algumas
 |  |Inserção no SharePoint Online usando a Web Part|Disponível|Disponível|Disponível|
 |  |Funções de IA e fluxos de dados|Não disponível|Não disponível|Não disponível|
 |  |Conectividade do Power Automate para alertas controlados por dados|Não disponível|Não disponível|Não disponível|
-|  |Guia do Power BI no Teams|Não disponível|Não disponível|Não disponível|
-|  |Aprendizado de máquina automatizado|Não disponível|Não disponível|Não disponível|
+|  |Guia do Power BI no Teams|Disponível|Não disponível|Não disponível|
+|  |Automatizado de Machine Learning|Não disponível|Não disponível|Não disponível|
 |  |Serviços Cognitivos|Não disponível|Não disponível|Não disponível|
 |  |Azure ML|Não disponível|Não disponível|Não disponível|
 
 ## <a name="next-steps"></a>Próximas etapas
 
 * [Inscrever-se para o Power BI para o Governo dos EUA](service-govus-signup.md)
+* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
+* [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demonstração do governo dos EUA do Power BI</a>
-* [Introdução ao serviço do Power BI](service-get-started.md)
-* [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-

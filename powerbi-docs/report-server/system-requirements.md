@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
-ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/20/2020
+ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540557"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558568"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware e de software para a instalação do Servidor de Relatório do Power BI
 
@@ -23,7 +23,7 @@ Este artigo detalha os requisitos mínimos de hardware e software para a instala
 
 | Componente | Requisito |
 | --- | --- |
-| .NET Framework |4.6<br><br>É possível instalar manualmente o .NET Framework no [Microsoft .NET Framework 4.6 (instalador da Web) para Windows](https://support.microsoft.com/kb/3045560).<br/><br/> Para obter mais informações, recomendações e diretrizes sobre o .NET Framework 4.6, consulte [Guia de implantação do .NET Framework para desenvolvedores](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>O Windows 8.1 e o Windows Server 2012 R2 requerem [KB2919355](https://support.microsoft.com/kb/2919355) antes da instalação do .NET Framework 4.6. |
+| .NET Framework |4.7<br><br>É possível instalar manualmente o .NET Framework no [Microsoft .NET Framework 4.7 (instalador da Web) para Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Para obter mais informações, recomendações e diretrizes sobre o .NET Framework 4.7, consulte [Guia de implantação do .NET Framework para desenvolvedores](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>O Windows 8.1 e o Windows Server 2012 R2 requerem [KB2919355](https://support.microsoft.com/kb/2919355) antes da instalação do .NET Framework 4.7. |
 | Disco rígido |O Servidor de Relatório do Power BI requer 1 GB, no mínimo, de espaço em disco disponível.<br><br>Será necessário ter espaço adicional no servidor de banco de dados que está hospedando o banco de dados do servidor de relatório. |
 | Memória |**Mínimos:** 1 GB<br/><br/> **Recomendado:** no mínimo 4 GB |
 | Velocidade do processador |**Mínimo:** Processador x64: 1,4 GHz<br/><br/> **Recomendado:** 2,0 GHz ou mais rápido |
@@ -38,6 +38,7 @@ Este artigo detalha os requisitos mínimos de hardware e software para a instala
 
 O SQL Server é usado para hospedar os bancos de dados do servidor de relatório. A instância do Mecanismo de Banco de Dados do SQL Server pode ser uma instância local ou remota. Estas são as versões com suporte do Mecanismo de Banco de Dados do SQL Server que pode ser usado para hospedar os bancos de dados do servidor de relatório:
 
+* Instância Gerenciada do Banco de Dados SQL do Azure (Servidor de Relatórios do Power BI, versão de janeiro de 2020 e posterior)
 * SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016
@@ -50,7 +51,7 @@ Ao criar o banco de dados do servidor de relatório em um computador remoto, ser
 
 O Servidor de Relatório do Power BI instalará valores padrão para definir as configurações básicas necessárias para tornar operacional um servidor de relatório. Ele tem os seguintes requisitos:
 
-* Os idiomas com suporte para Servidor de Relatórios do Power BI são: inglês, alemão, espanhol, japonês, italiano, francês, russo, chinês simplificado, chinês tradicional, português do Brasil, coreano
+* Os idiomas com suporte para Servidor de Relatórios do Power BI são: inglês, alemão, espanhol, japonês, italiano, francês, russo, chinês simplificado, chinês tradicional, português (Brasil), coreano
 * Um Mecanismo de Banco de Dados do SQL Server deverá estar disponível após a instalação e antes de configurar o banco de dados para o servidor de relatório. A instância do Mecanismo de Banco de Dados hospeda o banco de dados do servidor de relatório que o Gerenciador de Configurações do Reporting Services criará. O Mecanismo de Banco de Dados não é necessário para a experiência de instalação real.
 * Os [Recursos do Reporting Services compatíveis com as edições do SQL Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) descrevem as diferenças entre as edições do SQL Server.
 * A conta de usuário que executa a Instalação deve ser membro do grupo local de Administradores.

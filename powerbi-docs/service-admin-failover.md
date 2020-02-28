@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 02/20/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699051"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527328"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Perguntas frequentes de recuperação de desastre, failover e alta disponibilidade do Power BI
 
@@ -53,7 +53,10 @@ Uma notificação é postada na página de suporte do Power BI ([https://powerbi
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Quanto tempo o Power BI leva para fazer failover?
 
-Quando é tomada uma decisão de fazer failover, pode levar até 60 minutos para uma instância de failover se tornar disponível.
+O Power BI leva aproximadamente 15 minutos para se tornar operacional novamente quando se identifica que um failover é necessário. O tempo para identificar que um failover é necessário varia com base no cenário corrompido. 
+
+Depois que um failover é executado, o Power BI usa a replicação geográfica do Armazenamento do Azure para executar o failover. Essas replicações geralmente têm um ponto de retorno de 15 minutos. No entanto, o [Armazenamento do Azure não garante esse período](https://docs.microsoft.com/azure/storage/common/storage-redundancy) com um SLA e, portanto, o Power BI também não é capaz de garantir um período. 
+
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>Quando a minha instância do Power BI retorna para a região original?
 

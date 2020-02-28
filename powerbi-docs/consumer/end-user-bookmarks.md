@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852251"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496614"
 ---
 # <a name="what-are-bookmarks"></a>O que são indicadores?
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Os indicadores capturam a exibição atualmente configurada de uma página de relatório, incluindo filtros, segmentações e o estado dos visuais. Quando você seleciona um indicador, o Power BI direciona-o novamente para essa exibição. Há dois tipos de indicadores – aqueles que você cria por conta própria e aqueles criados pelos *designers* de relatórios.
+Os indicadores capturam a exibição atualmente configurada de uma página de relatório, incluindo filtros, segmentações e o estado dos visuais. Quando você seleciona um indicador, o Power BI direciona-o novamente para essa exibição. Há dois tipos de indicadores – aqueles que você cria por conta própria e aqueles criados pelos *designers* de relatórios. Qualquer usuário do Power BI pode criar indicadores pessoais. No entanto, a capacidade de usar indicadores criados por outras pessoas exige uma licença Power BI Pro ou Premium. [Qual licença eu tenho?](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usar indicadores para compartilhar insights e criar histórias no Power BI 
 Há muitos usos para os indicadores. Digamos que você descubra um insight interessante e queira preservá-lo – crie um indicador para retornar a ele mais tarde. Precisa sair e deseja preservar seu trabalho atual? Crie um indicador. Você pode até mesmo marcar a exibição padrão do relatório, de modo que sempre que você retornar, essa exibição da página de relatório seja aberta primeiro. 
@@ -33,6 +35,9 @@ Para abrir o painel Indicadores, selecione **Indicadores** > **Mostrar mais indi
 
 ### <a name="report-bookmarks"></a>Indicadores de relatório
 Se o *designer* de relatórios incluir indicadores de relatório, você os encontrará com o título **Indicadores de relatório**. Esta página de relatório tem dois indicadores, B1 e B2. 
+
+> [!NOTE]
+> Será necessário Power BI Pro ou Premium para exibir relatórios compartilhados. 
 
 ![Mostre Indicadores de relatório.](media/end-user-bookmarks/power-bi-report.png)
 

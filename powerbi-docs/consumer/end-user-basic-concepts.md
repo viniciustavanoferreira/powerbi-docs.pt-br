@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77260113"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496891"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceitos básicos para consumidores do serviço do Power BI
+
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Este artigo pressupõe que você já tenha lido a [visão geral do Power BI](../fundamentals/power-bi-overview.md) e tenha se identificado como [consumidor do **_Power BI_** ](end-user-consumer.md). Os consumidores recebem o conteúdo do Power BI, como dashboards e relatórios, de seus colegas. Os consumidores usam o serviço do Power BI, que é a versão baseada em site do Power BI.
+
+O recebimento de conteúdo de outras pessoas exige uma licença de usuário Power BI Pro ou uma licença de capacidade Power BI Premium. [Pesquisar seu tipo de licença](end-user-license.md)
 
 Você ouvirá, sem dúvida, o termo "Power BI Desktop" ou apenas "Desktop". É a ferramenta independente usada por *designers* que criam e compartilham painéis e relatórios com você. É importante saber que existem outras ferramentas do Power BI por aí. Contanto que você seja um consumidor, você só trabalhará com o serviço do Power BI. Este artigo se aplica apenas ao serviço do Power BI.
 
@@ -38,7 +42,7 @@ Para começar, abra um navegador e insira **app.powerbi.com**. Na primeira vez e
 
 ![Uma captura de tela da tela de boas-vindas do serviço do Power BI.](media/end-user-basic-concepts/power-bi-home.png)
 
-Conforme usar o Power BI, você personalizará o que vê ao abrir o site a cada vez. Por exemplo, algumas pessoas gostam que o Power BI abra na **Página Inicial**, enquanto outras têm um painel favorito que desejam ver primeiro. Não se preocupe, este artigo ensinará como personalizar sua experiência.
+Conforme usar o Power BI, você personalizará o que vê ao abrir o site a cada vez. Por exemplo, algumas pessoas gostam que o Power BI abra na **Página Inicial**, enquanto outras têm um dashboard favorito que desejam ver primeiro. Não se preocupe, este artigo ensinará como personalizar sua experiência.
 
 - [Apresentando a Página Inicial do Power BI & Pesquisa Global](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)
 
@@ -179,6 +183,9 @@ _______________________________________________________
 ## <a name="apps"></a>Aplicativos
 
 Essas coleções de dashboards e relatórios organizam o conteúdo relacionado em conjunto em um único pacote. Os *designers* do Power BI os criam e compartilham com pessoas, grupos uma organização inteira ou com o público. Como um consumidor, você pode ter certeza de que você e seus colegas estão trabalhando com os mesmos dados, uma única versão confiável da verdade.
+
+> [!NOTE]
+> O uso de aplicativos requer uma licença Power BI Pro ou Premium. 
 
 ![Captura de tela dos aplicativos selecionados no painel esquerdo do Power BI.](media/end-user-basic-concepts/power-bi-apps.png)
 

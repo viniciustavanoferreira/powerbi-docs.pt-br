@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039779"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427543"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 
@@ -89,8 +89,8 @@ A categoria **Banco de dados** fornece as seguintes conexões de dados:
 * Vertica
 * Snowflake
 * Essbase
-* Cubos do AtScale (Beta)
-* Conector do BI
+* Cubos do AtScale
+* BI Connector Data Virtuality LDW (Beta)
 * Denodo
 * Dremio
 * Exasol
@@ -162,7 +162,6 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * Adobe Analytics
 * appFigures (Beta)
 * Data.World – Obter Conjunto de Dados (Beta)
-* Facebook
 * GitHub (Beta)
 * LinkedIn Sales Navigator (Beta)
 * MailChimp (Beta)
@@ -182,6 +181,7 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * Dynamics 365 Customer Insights (beta)
 * Fonte de dados do Emigo
 * Entersoft Business Suite (Beta)
+* FactSet Analytics (Beta)
 * Industrial App Store
 * Intune Data Warehouse (Beta)
 * Segurança do Microsoft Graph (Beta)
@@ -210,7 +210,10 @@ A categoria **Outros** fornece as seguintes conexões de dados:
 * ODBC
 * OLE DB
 * BI360 – Relatórios Financeiros e Orçamento (Beta)
+* FHIR
 * Grade de Informações (Beta)
+* Jamf Pro (Beta)
+* MicroStrategy for Power BI
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
@@ -219,6 +222,7 @@ A categoria **Outros** fornece as seguintes conexões de dados:
 * Tenforce (Smart)List (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
+* Zucchetti HR Infinity (Beta)
 * Consulta em Branco
 
 A imagem a seguir mostra a janela **Obter Dados** para **Outros**.

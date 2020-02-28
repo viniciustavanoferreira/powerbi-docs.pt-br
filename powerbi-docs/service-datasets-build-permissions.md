@@ -1,26 +1,32 @@
 ---
 title: Permissão Criar para conjuntos de dados compartilhados (versão prévia)
-description: Saiba como você manter o controle de quem tem acesso aos dados usando a permissão Criar.
+description: Saiba como você pode controlar o acesso aos dados usando a permissão Criar.
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872554"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426600"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Permissão Criar para conjuntos de dados compartilhados (versão prévia)
 
-Como um criador de *modelos de dados* no Power BI Desktop, você pode compartilhá-los como *conjuntos de dados* no serviço do Power BI. Em seguida, os criadores de relatórios poderão descobrir e reutilizar os conjuntos de dados que você compartilhou com facilidade. Saiba como controlar quem tem acesso aos dados usando a permissão Criar.
+Quando você cria um relatório no Power BI Desktop, os dados nesse relatório são armazenados em um *modelo de dados*. Ao publicar seus relatórios no serviço do Power BI, você também está publicando os dados como um *conjunto de dados*. Você pode conceder a outras pessoas a *permissão Criar* para esse relatório, para que elas possam descobrir e reutilizar o conjunto de dados que você compartilhou. Este artigo explica como controlar o acesso aos dados usando a permissão Criar.
 
-A permissão Criar só é relevante para conjuntos de dados. Ao dar aos usuários a permissão Criar, eles podem criar um conteúdo em um conjunto de dados, como relatórios, dashboards, blocos fixados de P e R e Descoberta de Insights. Elas também podem criar um conteúdo no conjunto de dados fora do Power BI, como planilhas do Excel por meio do recurso Analisar no Excel, XMLA e exportar os dados subjacentes.
+A permissão Criar se aplica aos conjuntos de dados. Quando você concede aos usuários a permissão Criar, eles podem criar conteúdo em seu conjunto de dados, como relatórios, dashboards, blocos fixados de P e R e Descoberta de Insights. 
+
+Os usuários também precisam de permissões Criar para trabalhar com os dados *fora* Power BI:
+
+- Para exportar os dados subjacentes.
+- Para criar conteúdo no conjunto de dados, por exemplo, com [Analisar no Excel](service-analyze-in-excel.md).
+- Para acessar os dados por meio do ponto de extremidade XMLA.
 
 ## <a name="ways-to-give-build-permission"></a>Maneiras de conceder a permissão Criar
 

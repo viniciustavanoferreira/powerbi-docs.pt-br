@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 04fa40f5f73199ed5050870b49cd432f62cf362c
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762199"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199063"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Criar e usar visuais do R no Power BI
 Atualmente, os visuais do R só podem ser criados no **Power BI Desktop** e, em seguida, publicados no serviço do Power BI. Para obter mais informações sobre como criar visuais do R, confira [Criar visuais do Power BI usando o R](../desktop-r-visuals.md).
@@ -86,7 +86,7 @@ A tabela a seguir descreve as funcionalidades dos visuais do R com base em licen
 Os visuais do R no serviço do Power BI têm algumas limitações:
 
 * O suporte a visuais do R é limitado aos pacotes identificados [em Saiba quais pacotes do R têm suporte](../service-r-packages-support.md). Atualmente, não há suporte para pacotes personalizados.
-* Limitações de tamanho de dados – os dados usados pelo visual R para plotar são limitados a 150.000 linhas. Se mais de 150.000 linhas forem selecionadas, somente as primeiras 150.000 linhas serão usadas e uma mensagem será exibida na imagem.
+* Limitações de tamanho de dados – os dados usados pelo visual R para plotar são limitados a 150.000 linhas. Se mais de 150.000 linhas forem selecionadas, somente as primeiras 150.000 linhas serão usadas e uma mensagem será exibida na imagem. Além disso, os dados de entrada têm um limite de 250 MB.
 * Resolução: todos os visuais do R são exibidos com 72 dpi.
 * Limite de tempo de cálculo – se um cálculo do visual do R exceder 60 SEGUNDOS, o script atingirá o tempo limite, resultando em erro.
 * Visuais R são atualizados após atualizações de dados, filtragem e realce. No entanto, a própria imagem não é interativa e não dá suporte a dicas de ferramenta.

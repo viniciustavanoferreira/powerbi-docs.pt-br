@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026659"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782425"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um visual do Power BI
 
@@ -43,11 +43,13 @@ Ao enviar o visual do Power BI, certifique-se de que o pacote compilado correspo
 
 Embora não seja necessário compartilhar publicamente seu código no GitHub, o repositório de código precisa estar disponível para análise da equipe do Power BI. A melhor maneira de fazer isso é fornecendo o código-fonte (JavaScript ou TypeScript) no GitHub.
 
-O repositório deve conter o código de apenas um visual do Power BI. Ele não pode conter o código de vários visuais do Power BI nem de códigos não relacionados.
-
-O repositório deve conter um branch chamado **certification** (é necessário que esteja em letras minúsculas). O código-fonte nessa ramificação deve corresponder ao pacote enviado. Esse código só poderá ser atualizado durante o próximo processo de envio, se você estiver reenviando seu visual do Power BI.
+O repositório deve conter o seguinte:
+* Código para apenas um visual do Power BI. Ele não pode conter o código de vários visuais do Power BI nem de códigos não relacionados.
+* Um branch chamado **certification** (é necessário que esteja em letras minúsculas). O código-fonte nessa ramificação deve corresponder ao pacote enviado. Esse código só poderá ser atualizado durante o próximo processo de envio, se você estiver reenviando seu visual do Power BI.
 
 Se seu visual do Power BI usar pacotes npm privados ou submódulos git, você deverá fornecer acesso aos repositórios adicionais que contêm esse código.
+
+Para entender como é a aparência de um repositório do visual do Power BI, examine o [gráfico de barras de exemplo de visuais do Power BI](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi) no repositório GitHub.
 
 ### <a name="file-requirements"></a>Requisitos de arquivo
 
@@ -113,6 +115,18 @@ Para solicitar a certificação do Power BI:
 
 >[!NOTE]
 > Se você estiver no meio de um processo de envio de visual do Power BI e precisar usar o [Painel do Vendedor](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (a antiga ferramenta de gerenciamento), confira as instruções em [Processo de envio da certificação do Painel do Vendedor](seller-dashboard.md#seller-dashboard-certification-submission-process).
+
+### <a name="private-repository-submission-process"></a>Processo de envio de repositório particular
+
+Se você estiver usando um repositório particular, como o GitHub, para enviar seu visual do Power BI para certificação, siga as instruções nesta seção.
+1. Crie uma nova conta para a equipe de validação.
+2. Configure a [autenticação de dois fatores](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) para a sua conta.
+3. [Gere um novo conjunto de códigos de recuperação](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes).
+4. Ao enviar o visual do Power BI, forneça o seguinte:
+    * Um link para o repositório
+    * Credenciais de logon (incluindo uma senha)
+    * Códigos de recuperação
+    * Permissões somente de leitura para nossa conta ([pbicvsupport](https://github.com/pbicvsupport))
 
 ## <a name="certified-power-bi-visuals"></a>Visuais do Power BI certificados
 

@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.date: 02/13/2020
+ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74999872"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576785"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar visuais do Power BI no Partner Center
 
@@ -39,7 +39,7 @@ Quando estiver pronto para enviar o visual do Power BI, verifique se o visual at
 | Capturas de tela |Sim |Forneça pelo menos uma captura de tela. O formato pode ser .png, .jpg, .jpeg ou .gif. As dimensões devem ter exatamente 1.366 px (largura) por 768 px (altura). O tamanho do arquivo não pode ser maior que 1.024 KB.<br>Para melhor utilização, adicione balões de texto para articular a proposição de valores dos principais recursos mostrados em cada captura de tela. |
 | Link de download de suporte |Sim |Forneça uma URL de suporte para seus clientes. Esse link é inserido como parte de sua listagem de Painel do Vendedor e fica visível para os usuários quando eles acessam a listagem do seu visual no AppSource. O formato da URL deve incluir https:// ou http://. |
 | Link do documento de privacidade |Sim |Forneça um link para a política de privacidade do visual. Esse link é inserido como parte de sua listagem de Painel do Vendedor e fica visível para os usuários quando eles acessam a listagem do seu visual no AppSource. O formato do link deve incluir https:// ou http://. |
-| EULA (Contrato de licença de usuário final) |Sim |Você precisa carregar um arquivo EULA. Você pode usar seu próprio EULA ou o EULA padrão na Office Store para os visuais do Power BI. Para usar o EULA padrão, cole a URL a seguir na caixa de diálogo de upload de arquivo do "Contrato de licença de usuário final" do painel do vendedor. [https://visuals.azureedge.net/app-store/Power BI – Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| EULA (Contrato de licença de usuário final) |Sim |Você deve fornecer um arquivo de EULA ao seu visual do Power BI. |
 | Link do vídeo |Não |Para aumentar o interesse dos usuários pelo seu visual personalizado, forneça um link para um vídeo sobre o visual. O formato da URL deve incluir https:// ou http://. |
 | Repositório GitHub |Não |Compartilhe um link público para um repositório [GitHub](https://www.github.com) com fontes do seu visual do Power BI e dados de exemplo. Isso permite que outros desenvolvedores tenham oportunidade de fornecer comentários e propor melhorias ao seu código. |
 

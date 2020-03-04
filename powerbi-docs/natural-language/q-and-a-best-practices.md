@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875051"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609949"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Melhores práticas para otimizar a P e R no Power BI
 Usar linguagem natural e expressões comuns para fazer perguntas sobre seus dados é eficiente. Ainda mais avançado é quando os seus dados dão as respostas, exatamente o que a P e R no Power BI faz.
@@ -197,4 +197,4 @@ Esta etapa pode ser importante. Mesmo com nomes de tabelas e colunas simples, os
 
 ![Sinônimos no painel Propriedades da P e R](media/qna-modelling-pane-synonyms.png)
 
- Tenha cuidado ao adicionar sinônimos. A adição do mesmo sinônimo a mais de uma coluna ou tabela introduz ambiguidade. A P e R usa o contexto quando possível para escolher entre sinônimos ambíguos, mas nem todas as perguntas têm contexto suficiente. Por exemplo, quando o usuário pergunta sobre a “contagem de clientes”, se há três itens com o sinônimo “cliente” no modelo, talvez ele não receba a resposta que está buscando. Nesses casos, garanta que o sinônimo primário seja exclusivo, pois é ele que será usado na redefinição. Ele pode alertar o usuário da ambiguidade (por exemplo, uma reformulação de "mostrar o número de registros de clientes arquivados"), orientando-os a perguntar de maneira diferente.
+ Tenha cuidado ao adicionar sinônimos. A adição do mesmo sinônimo a mais de uma coluna ou tabela introduz ambiguidade. A P e R usa o contexto quando possível para escolher entre sinônimos ambíguos, mas nem todas as perguntas têm contexto suficiente. Por exemplo, quando o usuário solicita " contagem de clientes", se você tiver três itens com o sinônimo "cliente" em seu modelo, talvez ele não receba a resposta que está procurando. Nesses casos, garanta que o sinônimo primário seja exclusivo, pois é ele que será usado na redefinição. Ele pode alertar o usuário da ambiguidade (por exemplo, uma reformulação de "mostrar o número de registros de clientes arquivados"), orientando-os a perguntar de maneira diferente.

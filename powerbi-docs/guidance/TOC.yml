@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: Usar o detalhamento de página de relatório
               href: report-drillthrough.md
+            - name: Dicas para gerenciar eixos
+              href: report-design-tips-axes.md
+            - name: Dicas para controlar linhas de grade do gráfico
+              href: report-tips-chart-gridlines.md
+            - name: Dicas para otimizar o uso de rótulos
+              href: report-tips-labels.md
+            - name: Dicas para formatar e implementar legendas
+              href: report-tips-legends.md
+            - name: Dicas para otimizar cores do visual
+              href: report-tips-visual-colors.md
         - name: Relatórios paginados no Power BI
           items:
             - name: Quando usar relatórios paginados

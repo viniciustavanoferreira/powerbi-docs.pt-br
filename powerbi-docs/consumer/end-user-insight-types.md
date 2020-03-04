@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537889"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576772"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de Insights com suporte para o Power BI
 
@@ -55,7 +55,7 @@ Detecta casos em que várias medidas mostram um padrão ou uma tendência semelh
 ![Exemplo de correlação](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>Baixa variância
-Detecta os casos em que os pontos de dados não estão distantes da média.
+Detecta casos em que os pontos de dados de uma dimensão não estão longe da média, assim, a "variação" é baixa. Digamos que você tenha a medida "vendas" e uma dimensão "região". E ao analisar a região, você percebe que há uma diferença muito pequena entre os pontos de dados e a média (dos pontos de dados). Esse insight é disparado quando a variação das vendas em todas as regiões está abaixo de um limite. Em outras palavras, quando as vendas são muito semelhantes em todas as regiões.
 
 ![Exemplo de baixa variância](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +75,9 @@ Encontra padrões periódicos nos dados de série temporal, como periodicidade s
 ![Exemplo de sazonalidade](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Compartilhamento constante
-Realça os casos em que há uma correlação de pai-filho entre o compartilhamento de um valor do filho em relação ao valor geral do pai em uma variável contínua.
+Realça os casos em que há uma correlação de pai-filho entre o compartilhamento de um valor do filho em relação ao valor geral do pai em uma variável contínua. Um insight de compartilhamento constante é aplicado ao contexto de uma medida, dimensão e de outra dimensão de data/hora. Esse insight é disparado quando determinado valor de dimensão, por exemplo, "a região nordeste", tem uma porcentagem constante de vendas gerais nessa dimensão de data/hora.
+
+O insight de compartilhamento constante é semelhante ao insight de variação baixa, pois ambos estão relacionados à falta de variação de um valor ao longo do tempo. No entanto, o insight de compartilhamento constante mede a falta de variação do **percentual geral** ao longo do tempo, enquanto o insight de variação baixa mede a falta de variação dos valores de medidas absolutas em uma dimensão.
 
 ![Exemplo de compartilhamento constante](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 

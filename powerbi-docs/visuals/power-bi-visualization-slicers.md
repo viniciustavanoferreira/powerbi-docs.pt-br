@@ -51,9 +51,9 @@ As segmentações de dados do Power BI não dão suporte a:
    
 1. Navegue até o arquivo **PBIX.pbix do exemplo de Análise de Varejo** e selecione **Abrir**.
 
-1. No painel esquerdo, selecione o ícone de **Relatório** ![ícone de Relatório](media/power-bi-visualization-kpi/power-bi-report-view.png) para abrir o arquivo na exibição de relatório.
+1. No painel esquerdo, selecione o ícone de **Relatório**![ícone de Relatório](media/power-bi-visualization-kpi/power-bi-report-view.png) para abrir o arquivo na exibição de relatório.
 
-1. Na página **Visa geral**, com nada selecionado na tela do relatório, selecione o ícone da **Segmentação de Dados** ![ícone da segmentação de dados](media/power-bi-visualization-slicers/slicer-icon.png) no painel **Visualizações** para criar uma segmentação de dados. 
+1. Na página **Visa geral**, com nada selecionado na tela do relatório, selecione o ícone da **Segmentação de Dados**![ícone da segmentação de dados](media/power-bi-visualization-slicers/slicer-icon.png) no painel **Visualizações** para criar uma segmentação de dados. 
 
 1. Com a nova segmentação de dados selecionada, no painel **Campos**, selecione **Distrito** > **DM** para popular a segmentação de dados. 
 
@@ -163,7 +163,7 @@ No relatório atual, a página **Vendas Mensais Regionais** tem uma segmentaçã
 ## <a name="format-slicers"></a>Formatar segmentações
 Diferentes opções de formatação estão disponíveis dependendo do tipo de segmentação. Usando a orientação **Horizontal**, layout **Dinâmico** e cores **Item**, você pode produzir botões ou blocos em vez de itens de lista padrão e fazer com que os itens da segmentação sejam redimensionados de acordo com diferentes tamanhos de telas e layouts.  
 
-1. Com a segmentação de dados **Gerente Regional** selecionada em qualquer página, no painel **Visualizações**, selecione o ícone **Formatar** ![ícone Formatar](media/power-bi-visualization-slicers/power-bi-paintroller.png) para exibir os controles de formatação. 
+1. Com a segmentação de dados **Gerente Regional** selecionada em qualquer página, no painel **Visualizações**, selecione o ícone **Formatar**![ícone Formatar](media/power-bi-visualization-slicers/power-bi-paintroller.png) para exibir os controles de formatação. 
     
     ![Formatar seleção](media/power-bi-visualization-slicers/3-format.png)
     

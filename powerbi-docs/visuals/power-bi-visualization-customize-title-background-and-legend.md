@@ -86,7 +86,7 @@ Com o mesmo gráfico de colunas clusterizado selecionado, expanda as opções de
 
 1. Selecione a lista suspensa e escolha uma cor cinza.
 
-1. Altere a **Transparência** para **74%**.
+1. Altere a **Transparência** para **74%** .
 
 Nesse ponto do tutorial, o plano de fundo do gráfico de colunas clusterizado se parecerá com este:
 

@@ -63,7 +63,7 @@ Neste vídeo, Kim cria um mapa básico e o converte em um mapa coroplético.
    > 
    > 
 
-[VÍDEO https://www.youtube.com/embed/ajTPGNpthcg]
+[VÍDEO https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Criar um mapa coroplético
 1. No painel Campos, selecione o campo **Geo** \> **Estado**.    
@@ -130,7 +130,7 @@ Dados de mapa podem ser ambíguos.  Por exemplo, há uma Paris, França, mas tam
 
 Se você tiver permissões para editar o conjunto de dados no Power BI Desktop, assista a este vídeo para obter ajuda e resolver a ambiguidade de mapa.
 
-[VÍDEO https://www.youtube.com/embed/Co2z9b-s_yM]
+[VÍDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Se você não tiver acesso a dados de latitude e longitude, mas tiver acesso de edição ao conjunto de dados, [siga estas instruções para atualizar o conjunto de dados](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

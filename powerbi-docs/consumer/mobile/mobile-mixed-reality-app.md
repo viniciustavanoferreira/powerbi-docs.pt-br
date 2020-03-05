@@ -43,11 +43,11 @@ Leia mais sobre [gestos de mão da Microsoft na realidade misturada](https://dev
 
 **Fixar um item** 
 
-Feche e abra os dedos indicador e polegar no ícone **Fixar** ![Ícone fixar](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) para fixar um dashboard ou relatório do modo de exibição clássico do Windows para o modo de exibição holográfico. Você pode fixar um número de itens no modo de exibição holográfico. 
+Feche e abra os dedos indicador e polegar no ícone **Fixar**![Ícone fixar](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) para fixar um dashboard ou relatório do modo de exibição clássico do Windows para o modo de exibição holográfico. Você pode fixar um número de itens no modo de exibição holográfico. 
 
 **Mudar para o modo de exibição holográfico**
 
-Depois de você fixar itens no modo de exibição clássico do Windows, você fecha e abre os dedos indicador e polegar no ícone **Tela Inteira** ![Ícone de tela inteira](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) para mudar para o modo de exibição holográfico. 
+Depois de você fixar itens no modo de exibição clássico do Windows, você fecha e abre os dedos indicador e polegar no ícone **Tela Inteira**![Ícone de tela inteira](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) para mudar para o modo de exibição holográfico. 
 
 
 ## <a name="holographic-view-basics"></a>Noções básicas do modo de exibição holográfico

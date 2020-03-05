@@ -23,7 +23,7 @@ Este artigo aborda alguns problemas comuns que podem ser encontrados ao inserir 
 
 ### <a name="fiddler-trace"></a>Rastreamento do Fiddler
 
-[Fiddler](https://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP.  Você pode ver o tráfego com as APIs do Power BI do computador cliente. Essa ferramenta pode mostrar erros e outras informações relacionadas.
+O [Fiddler](https://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP.  Você pode ver o tráfego com as APIs do Power BI do computador cliente. Essa ferramenta pode mostrar erros e outras informações relacionadas.
 
 ![Rastreamento do Fiddler](media/embedded-troubleshoot/fiddler.png)
 

@@ -361,7 +361,7 @@ Vários métodos são chamados:
 
 * [`describe`](https://jasmine.github.io/api/2.6/global.html#describe): Descreve um caso de teste. No contexto da estrutura do Jasmine, geralmente descreve um conjunto ou grupo de especificações.
 
-* `beforeEach`: É chamado antes de cada chamada do método `it`, que é definida no método [`describe` ](https://jasmine.github.io/api/2.6/global.html#beforeEach).
+* `beforeEach`: É chamado antes de cada chamada do método `it`, que é definida no método [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach).
 
 * [`it`](https://jasmine.github.io/api/2.6/global.html#it): Define uma única especificação. O método `it` deve conter um ou mais `expectations`.
 

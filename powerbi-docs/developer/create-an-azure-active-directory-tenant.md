@@ -95,6 +95,6 @@ Agora que você tem um locatário do Azure AD, use esse locatário para testar i
 
 [O que é um Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
  
-[Início Rápido: configurar um ambiente de desenvolvimento](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Início rápido: configurar um ambiente de desenvolvimento](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

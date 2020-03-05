@@ -30,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: Diretriz automática de data/hora
               href: auto-date-time.md
-            - name: Diretrizes de relação muitos para muitos
+            - name: Relações um-para-um
+              href: relationships-one-to-one.md
+            - name: Relacionamentos de muitos para muitos
               href: relationships-many-to-many.md
+            - name: Relacionamentos ativos vs inativos
+              href: relationships-active-inactive.md
+            - name: Relacionamentos bidirecionais
+              href: relationships-bidirectional-filtering.md
+            - name: Solução de problemas de relacionamento
+              href: relationships-troubleshoot.md
             - name: Diretriz do modelo DirectQuery
               href: directquery-model-guidance.md
             - name: Diretriz do modelo composto

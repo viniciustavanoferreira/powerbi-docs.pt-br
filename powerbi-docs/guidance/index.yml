@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 9bb2835003d774bcc878114dbcc669a0bff7ff89
-  ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+  ms.openlocfilehash: 23792d8d132702860c611623fc3888debe07cfed
+  ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/03/2020
-  ms.locfileid: "78237766"
+  ms.lasthandoff: 03/04/2020
+  ms.locfileid: "78260682"
 landingContent:
 - title: Diretrizes do Power BI
   linkLists:
@@ -51,12 +51,20 @@ landingContent:
       url: import-modeling-data-reduction.md
     - text: Diretriz automática de data/hora
       url: auto-date-time.md
+    - text: Relações um-para-um
+      url: relationships-one-to-one.md
+    - text: Relacionamentos de muitos para muitos
+      url: relationships-many-to-many.md
+    - text: Relacionamentos ativos vs inativos
+      url: relationships-active-inactive.md
+    - text: Relacionamentos bidirecionais
+      url: relationships-bidirectional-filtering.md
+    - text: Solução de problemas de relacionamento
+      url: relationships-troubleshoot.md
     - text: Diretriz do modelo DirectQuery
       url: directquery-model-guidance.md
     - text: Diretriz do modelo composto
       url: composite-model-guidance.md
-    - text: Diretrizes de relação muitos para muitos
-      url: relationships-many-to-many.md
 - title: DAX
   linkLists:
   - linkListType: concept

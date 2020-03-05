@@ -28,7 +28,7 @@ Quando você é novo no serviço Power BI, tem pouco conteúdo (dashboards, rela
 ## <a name="searching-for-content"></a>Pesquisar por conteúdo
  A pesquisa está disponível em quase todas as partes do serviço do Power BI. Procure a caixa ou o ícone de pesquisa ![ícone de lupa](./media/end-user-search-sort/power-bi-search-icon.png).
 
- No campo Pesquisar, digite todo ou parte do nome de um dashboard, relatório, pasta de trabalho, aplicativo ou proprietário. O Power BI pesquisa todo o seu conteúdo. 
+ No campo Pesquisar, digite todo ou parte do nome de um dashboard, relatório, pasta de trabalho, aplicativo ou proprietário. O Power BI pesquisa em todo o seu conteúdo. 
 
  ![pesquisar um relatório](./media/end-user-search-sort/power-bi-search-field.png) 
 

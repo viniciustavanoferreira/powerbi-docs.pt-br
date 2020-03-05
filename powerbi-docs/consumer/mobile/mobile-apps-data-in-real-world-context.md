@@ -37,7 +37,7 @@ Mais sobre como [criar um código QR para um relatório no Power BI](../../servi
 ## <a name="barcodes"></a>Códigos de barras
 Marque os dados do código de barras em seu relatório para que seus colegas possam digitalizar um código de barras em um produto e ir diretamente para esse relatório, filtrado no produto.
 
-![Código de barras](./media/mobile-apps-data-in-real-world-context/power-bi-barcode-scanner.png)
+![Código de Barras](./media/mobile-apps-data-in-real-world-context/power-bi-barcode-scanner.png)
 
 Mais sobre:
 

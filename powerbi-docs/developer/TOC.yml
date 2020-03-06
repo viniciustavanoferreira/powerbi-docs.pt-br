@@ -140,6 +140,8 @@
           items:
             - name: Capacidade e SKUs na análise integrada do Power BI
               href: embedded-capacity.md
+            - name: Planejamento da capacidade
+              href: embedded-capacity-planning.md
             - name: Práticas recomendadas de desempenho
               href: embedded-performance-best-practices.md
             - name: Entidade de serviço

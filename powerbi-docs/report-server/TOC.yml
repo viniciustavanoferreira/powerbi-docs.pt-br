@@ -1,0 +1,124 @@
+- name: Servidor de Relatórios do Power BI
+  expanded: true
+  items:
+    - name: Visão geral
+      expanded: true
+      items:
+        - name: O que é o Servidor de Relatórios do Power BI?
+          href: get-started.md
+        - name: Comparar o serviço e o Servidor de Relatórios do Power BI
+          href: compare-report-server-service.md
+    - name: Tutoriais
+      expanded: true
+      items:
+        - name: Explorar o Servidor de Relatórios do Power BI em uma VM
+          href: tutorial-explore-report-server-web-portal.md
+    - name: Conceitos
+      expanded: true
+      items:
+        - name: Novidades
+          href: whats-new.md
+        - name: Visão geral do administrador
+          href: admin-handbook-overview.md
+        - name: Log de alterações
+          href: changelog.md
+        - name: Linha do tempo de suporte
+          href: support-timeline.md
+        - name: Suporte do Always Encrypted
+          href: always-encrypted-support.md
+        - name: Requisitos de hardware e software
+          href: system-requirements.md
+        - name: Suporte ao navegador
+          href: browser-support.md
+        - name: Noções básicas sobre o servidor de relatórios
+          items:
+            - name: Atualização agendada do relatório do Power BI
+              href: scheduled-refresh.md
+            - name: Fontes de dados de relatório do Power BI
+              href: data-sources.md
+            - name: Fontes de dados de relatório paginado
+              href: connect-data-sources.md
+            - name: Assinaturas
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: Uso do aplicativo móvel
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: Solucionar problemas de atualização agendada
+              href: scheduled-refresh-troubleshoot.md
+        - name: Servidor de relatórios para desenvolvedores
+          items:
+            - name: Servidor de relatórios para desenvolvedores
+              href: developer-handbook-overview.md
+            - name: Controle do visualizador de relatórios
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: Desenvolver extensões
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: Inserir relatórios
+              href: quickstart-embed.md
+    - name: Como
+      items:
+        - name: Instalar o Power BI Desktop
+          href: install-powerbi-desktop.md
+        - name: Instalar o Construtor de Relatórios
+          href: install-report-builder.md
+        - name: Noções básicas sobre o servidor de relatórios
+          items:
+            - name: Criar um relatório do Power BI para um servidor de relatórios
+              href: quickstart-create-powerbi-report.md
+            - name: Gerenciar o conteúdo no servidor de relatórios
+              href: getting-around.md
+            - name: RSL (segurança em nível de linha) no servidor de relatório
+              href: row-level-security-report-server.md
+            - name: Criar um relatório paginado para um servidor de relatórios
+              href: quickstart-create-paginated-report.md
+            - name: Inserir dados diretamente em um relatório paginado
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: Trabalhar com KPIs
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: Acessando conjuntos de dados compartilhados como feeds OData
+              href: access-dataset-odata.md
+            - name: Alterar cadeias de conexão da fonte de dados com o PowerShell
+              href: connect-data-source-apis.md
+            - name: Configurar a atualização agendada
+              href: configure-scheduled-refresh.md
+            - name: Adicionar comentários a um relatório
+              href: add-comments.md
+        - name: Servidor de relatórios para administradores
+          items:
+            - name: Instalar um servidor de relatório
+              href: install-report-server.md
+            - name: Localizar a chave do produto
+              href: find-product-key.md
+            - name: Atualizar um servidor de relatório
+              href: upgrade.md
+            - name: Migrar um servidor de relatório
+              href: migrate-report-server.md
+            - name: Configurar o Kerberos para usar relatórios do Power BI
+              href: configure-kerberos-powerbi-reports.md
+            - name: Configurar remotamente o acesso ao aplicativo móvel
+              href: configure-powerbi-mobile-apps-remote.md
+            - name: Configurar WAP e AD FS
+              href: connect-adfs-wap-report-server.md
+            - name: Configurar um servidor de relatório com o Proxy de Aplicativo do Azure AD
+              href: azure-application-proxy.md
+            - name: Acesso móvel remoto com o Azure AD
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+            - name: Hospedar pastas de trabalho do Excel
+              href: excel-oos.md
+    - name: Referência
+      items:
+        - name: API REST
+          href: rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: APIs SOAP
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: Acesso à URL
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: Extensões
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: Recursos
+      items:
+        - name: White paper de planejamento de capacidade
+          href: capacity-planning.md
+        - name: Conformidade da extensão de renderização de PDFs
+          href: rendering-extension-support.md

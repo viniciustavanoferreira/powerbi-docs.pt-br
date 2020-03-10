@@ -1,0 +1,87 @@
+### YamlMime:Landing
+title: Documentação do Servidor de Relatórios do Power BI
+summary: A documentação do Servidor de Relatórios do Power BI fornece informações e respostas de especialistas para atender às suas necessidades, independentemente de como você usa o Power BI.
+metadata:
+  title: Documentação do Servidor de Relatórios do Power BI
+  description: A documentação do Servidor de Relatórios do Power BI fornece informações e respostas de especialistas para atender às suas necessidades, independentemente de como você usa o Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924611"
+landingContent:
+- title: Sobre o Servidor de Relatórios do Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Servidor de Relatórios do Power BI?
+      url: get-started.md
+  - linkListType: concept
+    links:
+    - text: Comparar o serviço do Power BI e o Servidor de Relatórios do Power BI
+      url: compare-report-server-service.md
+    - text: Novidades no Servidor de Relatório do Power BI
+      url: whats-new.md
+- title: Introdução
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Explorar o Servidor de Relatórios do Power BI em uma VM
+      url: tutorial-explore-report-server-web-portal.md
+  - linkListType: concept
+    links:
+    - text: Visão geral do administrador
+      url: admin-handbook-overview.md
+    - text: Visão geral do desenvolvedor
+      url: developer-handbook-overview.md
+  - linkListType: how-to-guide
+    links:
+    - text: Instalar o Power BI Desktop
+      url: install-powerbi-desktop.md
+    - text: Instalar o Construtor de Relatórios
+      url: install-report-builder.md
+- title: Servidor de relatórios para administradores
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Requisitos de hardware e software
+      url: system-requirements.md
+  - linkListType: how-to-guide
+    links:
+    - text: Instalar um servidor de relatório
+      url: install-report-server.md
+    - text: Encontrar a chave do produto (Product Key) do servidor de relatórios
+      url: find-product-key.md
+    - text: Migrar a instalação do servidor de relatório
+      url: migrate-report-server.md
+    - text: Configurar o Kerberos
+      url: configure-kerberos-powerbi-reports.md
+- title: Servidor de relatório para criadores de relatórios
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Atualização agendada do relatório do Power BI
+      url: scheduled-refresh.md
+    - text: Fontes de dados de relatório do Power BI
+      url: data-sources.md
+    - text: Fontes de dados de relatório paginado
+      url: connect-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Criar um relatório do Power BI
+      url: quickstart-create-powerbi-report.md
+    - text: Gerenciar conteúdo no portal da Web
+      url: getting-around.md
+    - text: Acessando conjuntos de dados compartilhados como feeds OData
+      url: access-dataset-odata.md
+    - text: Segurança em nível de linha
+      url: row-level-security-report-server.md

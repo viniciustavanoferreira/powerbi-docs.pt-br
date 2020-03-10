@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Power BI para documentação de consumidores
+title: Documentação do Power BI para consumidores
 summary: Como consumidor, você recebe dashboards e relatórios de colegas. No Power BI, você examina e interage com esse conteúdo para tomar decisões empresariais.
 metadata:
   title: Power BI para consumidores
@@ -9,13 +9,13 @@ metadata:
   ms.topic: landing-page
   author: mihart
   ms.author: mihart
-  ms.date: 01/10/2020
-  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
-  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 3f6431f2011b4b6a75ea766d6051b02ce2abe947
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/20/2020
-  ms.locfileid: "77497783"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919330"
 landingContent:
 - title: Conheça o Power BI para consumidores
   linkLists:
@@ -85,8 +85,8 @@ landingContent:
       url: end-user-bookmarks.md
     - text: Como exibir insights automáticos
       url: end-user-insights.md
-    - text: Como exibir um relatório paginado
-      url: paginated-reports-view-power-bi-service.md
+    - text: Dicas para usar P e R
+      url: end-user-q-and-a-tips.md
 - title: Recursos
   linkLists:
   - linkListType: reference

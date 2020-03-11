@@ -1,4 +1,5 @@
-- name: Servidor de Relatórios do Power BI
+- name: Documentação do Servidor de Relatórios do Power BI
+  href: index.yml
   expanded: true
   items:
     - name: Visão geral

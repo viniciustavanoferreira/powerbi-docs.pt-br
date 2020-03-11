@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: bdad4a068a5463bd683bc0dbfd20e68873599ace
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: c1944f80616b748d1120d28b1ba91e1f0f2ab6e8
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265125"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041437"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Criar um locatário do Azure Active Directory para usar com o Power BI
 
-Saiba como criar um novo locatário do Azure AD (Azure Active Directory) para um aplicativo personalizado que chama [APIs REST do Power BI](rest-api-reference.md).
+Saiba como criar um novo locatário do Azure AD (Azure Active Directory) para um aplicativo personalizado que chama [APIs REST do Power BI](automation/rest-api-reference.md).
 
 Um locatário representa uma organização no Azure Active Directory. Ele é uma instância de serviço dedicada do Azure AD que uma organização recebe e detém quando se inscreve em um serviço de nuvem da Microsoft, como o Azure, Microsoft Intune ou Office 365. Cada locatário do Azure AD é diferente e separado de outros locatários do Azure AD.
 
-Quando você tiver um locatário do Azure AD, será possível definir um aplicativo e atribuir permissões para ele usar para chamar [APIs REST do Power BI](rest-api-reference.md).
+Quando você tiver um locatário do Azure AD, será possível definir um aplicativo e atribuir permissões para ele usar para chamar [APIs REST do Power BI](automation/rest-api-reference.md).
 
 Sua organização talvez já tenha um locatário do Azure AD que você pode usar para seu aplicativo. Você também pode criar um novo locatário especificamente para o aplicativo. Este artigo mostra como criar um novo locatário.
 

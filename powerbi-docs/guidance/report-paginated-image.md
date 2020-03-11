@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530362"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920723"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>Diretrizes de uso de imagem para relatórios paginados
 
-Este artigo se destina aos autores de relatórios que elaboram [relatórios paginados](../paginated-reports-report-builder-power-bi.md) do Power BI. Ele fornece sugestões ao trabalhar com imagens. Normalmente, as imagens em layouts de relatório podem exibir um gráfico como um logotipo de empresa ou imagens.
+Este artigo se destina aos autores de relatórios que elaboram [relatórios paginados](../paginated-reports/paginated-reports-report-builder-power-bi.md) do Power BI. Ele fornece sugestões ao trabalhar com imagens. Normalmente, as imagens em layouts de relatório podem exibir um gráfico como um logotipo de empresa ou imagens.
 
 As imagens podem ser armazenadas em três locais diferentes:
 
@@ -53,6 +53,6 @@ Considere as seguintes sugestões para fornecer layouts de relatório profission
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [O que são os relatórios paginados no Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
+- [O que são os relatórios paginados no Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)

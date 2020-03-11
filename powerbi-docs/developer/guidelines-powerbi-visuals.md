@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0203c191965bd2a496c1a5062b85af64d22b3b76
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000079"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78400431"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes para visuais do Power BI
 Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) seu visual do Power BI no Microsoft AppSource para outras pessoas descobrirem e usarem, siga as diretrizes para criar uma experiência excelente para seus usuários.
@@ -28,7 +28,7 @@ Assim como ocorre com um visual gratuito do Power BI, o visual do Power BI com I
 
 Um visual do Power BI com IAP é um visual *gratuito* que oferece *recursos gratuitos*. Ele também tem alguns recursos avançados aos quais podem ser aplicados custos extras. Na descrição do visual do Power BI, os desenvolvedores devem notificar os usuários sobre os recursos que exigem compras adicionais para serem operados. Atualmente, a Microsoft não fornece APIs nativas compatíveis com a compra de aplicativos e suplementos.
 
-Os desenvolvedores podem usar qualquer sistema de pagamento de terceiros para essas compras. Para obter mais informações, confira [nossa política de loja](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
+Os desenvolvedores podem usar qualquer sistema de pagamento de terceiros para essas compras. Para obter mais informações, confira [nossa política de loja](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads).
 
 
 >[!IMPORTANT]  

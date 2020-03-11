@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1da75b14f628c8c765ea89a34dd2a2665cdf9a4b
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530431"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920767"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Diretrizes de recuperação de dados para relatórios paginados
 
-Este artigo se destina aos autores de relatórios que elaboram [relatórios paginados](../paginated-reports-report-builder-power-bi.md) do Power BI. Ele fornece recomendações para ajudar você a criar uma recuperação de dados eficaz e eficiente.
+Este artigo se destina aos autores de relatórios que elaboram [relatórios paginados](../paginated-reports/paginated-reports-report-builder-power-bi.md) do Power BI. Ele fornece recomendações para ajudar você a criar uma recuperação de dados eficaz e eficiente.
 
 ## <a name="data-source-types"></a>Tipos de fontes de dados
 
@@ -101,13 +101,13 @@ Recomendamos a _parametrização do conjunto de dados_ quando você prevê que �
 
 ## <a name="non-native-data-sources"></a>Fontes de dados não nativas
 
-Se você precisar desenvolver relatórios paginados com base em fontes de dados que não têm [suporte nativo dos relatórios paginados](../paginated-reports-data-sources.md), poderá primeiro desenvolver um modelo de dados do Power BI Desktop. Dessa forma, você pode se conectar a mais de 100 [fontes de dados do Power BI](../power-bi-data-sources.md). Depois da publicação no serviço do Power BI, você pode desenvolver um relatório paginado que se conecta ao conjunto de dados do Power BI.
+Se você precisar desenvolver relatórios paginados com base em fontes de dados que não têm [suporte nativo dos relatórios paginados](../paginated-reports/paginated-reports-data-sources.md), poderá primeiro desenvolver um modelo de dados do Power BI Desktop. Dessa forma, você pode se conectar a mais de 100 [fontes de dados do Power BI](../power-bi-data-sources.md). Depois da publicação no serviço do Power BI, você pode desenvolver um relatório paginado que se conecta ao conjunto de dados do Power BI.
 
 ## <a name="data-integration"></a>Integração de dados
 
 Se você precisar combinar dados de várias fontes de dados, terá duas opções:
 
-- **Combinar conjuntos de dados do relatório**: Se as fontes de dados tiverem [suporte nativo dos relatórios paginados](../paginated-reports-data-sources.md), você poderá considerar a criação de campos calculados que usam as funções [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) ou [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) do Report Builder.
+- **Combinar conjuntos de dados do relatório**: Se as fontes de dados tiverem [suporte nativo dos relatórios paginados](../paginated-reports/paginated-reports-data-sources.md), você poderá considerar a criação de campos calculados que usam as funções [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) ou [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) do Report Builder.
 - **Desenvolver um modelo do Power BI Desktop**: No entanto, é mais eficiente que você desenvolva um modelo de dados no Power BI Desktop. Você pode usar Power Query para combinar consultas com base em qualquer [fonte de dados com suporte](../power-bi-data-sources.md). Depois da publicação no serviço do Power BI, você pode desenvolver um relatório paginado que se conecta ao conjunto de dados do Power BI.
 
 ## <a name="sql-server-complex-data-types"></a>Tipos de dados complexos do SQL Server
@@ -143,6 +143,6 @@ Quando um relatório é executado, todos os conjuntos de dados são avaliados, m
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Fontes de dados com suporte para relatórios paginados do Power BI](../paginated-reports-data-sources.md)
+- [Fontes de dados com suporte para relatórios paginados do Power BI](../paginated-reports/paginated-reports-data-sources.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)

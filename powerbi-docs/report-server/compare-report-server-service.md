@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290649"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920931"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparando o Servidor de Relatórios do Power BI e o serviço do Power BI
 
@@ -41,7 +41,7 @@ O Servidor de Relatórios do Power BI e o serviço do Power BI têm muitas semel
 | P e R | Não | Sim | [P e R no serviço do Power BI e Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | Insights rápidos | Não | Sim | [Gerar automaticamente as informações sobre os dados com o Power BI](../consumer/end-user-insights.md) |
 | Analisar no Excel | Não | Sim | [Analisar no Excel](../service-analyze-in-excel.md) 
-| Relatórios paginados | Sim | Sim | [Os relatórios paginados estão disponíveis no serviço do Power BI](../paginated-reports-report-builder-power-bi.md) em versão prévia na capacidade Premium |
+| Relatórios paginados | Sim | Sim | [Os relatórios paginados estão disponíveis no serviço do Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md) em versão prévia na capacidade Premium |
 | Aplicativos móveis do Power BI | Sim | Sim | [Visão geral de aplicativos móveis no Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | Mapas do ARC GIS | Não | Sim | [Mapas do ArcGIS no serviço do Power BI e no Power BI Desktop pelo ESRI](../visuals/power-bi-visualization-arcgis.md) |
 | Assinaturas de email para relatórios do Power BI | Não | Sim | [Assine para você ou terceiros](../service-report-subscribe.md) um relatório ou um dashboard no serviço do Power BI |

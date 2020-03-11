@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265351"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920958"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
@@ -41,11 +41,11 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 * Novas configurações de capacidade para o Power BI Premium.
 * [Identidade visual personalizada](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/) para a sua organização.
 * Exportação de dados resumida com permissão de build.
-* Suporte a parâmetros de URL para [relatórios paginados](paginated-reports-report-builder-power-bi.md).
+* Suporte a parâmetros de URL para [relatórios paginados](paginated-reports/paginated-reports-report-builder-power-bi.md).
 * Suporte a assinaturas de email mensais. 
 
 ### <a name="july-2019"></a>Julho de 2019
-* Suporte a conjuntos de dados não Premium para [relatórios paginados](paginated-reports-report-builder-power-bi.md).
+* Suporte a conjuntos de dados não Premium para [relatórios paginados](paginated-reports/paginated-reports-report-builder-power-bi.md).
 * Disponibilidade geral das [agregações](desktop-aggregations.md) do Power BI.
 * Enviar notificações de atualização para outras pessoas.
 * [Ferramenta de teste](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) para as capacidades do Power BI Premium.
@@ -57,7 +57,7 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 * Versão prévia pública dos [conjuntos de dados compartilhados e certificados](service-datasets-across-workspaces.md).
 * As métricas de IA disponíveis no [aplicativo de Métricas de Capacidade Premium](service-admin-premium-monitor-capacity.md).
 * Disponibilidade geral dos [aplicativos de modelo](service-template-apps-overview.md) do Power BI.
-* Disponibilidade geral dos [relatórios paginados](paginated-reports-report-builder-power-bi.md) no Power BI.
+* Disponibilidade geral dos [relatórios paginados](paginated-reports/paginated-reports-report-builder-power-bi.md) no Power BI.
 * Versão prévia pública do [BYOK](service-encryption-byok.md) (Bring Your Own Key) para o Power BI Premium.
 * Função de visualizador para a [nova experiência de workspace](service-new-workspaces.md).
 
@@ -71,7 +71,7 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 * Disponibilidade geral da nova experiência de workspaces.
 * Novas regiões do Power BI na França e na Coreia do Sul.
 * Experiência de P e R atualizada para dashboards.
-* Suporte para o Azure Analysis Services em [relatórios paginados](paginated-reports-report-builder-power-bi.md).
+* Suporte para o Azure Analysis Services em [relatórios paginados](paginated-reports/paginated-reports-report-builder-power-bi.md).
 * Relatórios paginados compatíveis com Aplicativos do Power BI.
 * [Assinaturas de email](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) com anexos em PDF para relatórios paginados.
 * Métricas de resumo e carga de trabalho do Power BI Premium compatíveis com o Portal de Administração
@@ -108,7 +108,7 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 
 ### <a name="november-2018"></a>Novembro de 2018
 * Preparação de dados do Power BI disponível com a versão prévia pública dos [fluxos de dados](service-dataflows-overview.md).
-* Versão prévia pública dos [relatórios paginados](paginated-reports-report-builder-power-bi.md) no Power BI Premium.
+* Versão prévia pública dos [relatórios paginados](paginated-reports/paginated-reports-report-builder-power-bi.md) no Power BI Premium.
 * Tamanho dos dados e contagem de conjuntos de dados na memória no [aplicativo Monitoramento de Capacidade](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
 ### <a name="october-2018"></a>Outubro de 2018

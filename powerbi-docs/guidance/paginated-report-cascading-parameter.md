@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162401"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920776"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Usar parâmetros em cascata nos relatórios paginados
 
-Este artigo se destina aos autores de relatórios que elaboram [relatórios paginados](../paginated-reports-report-builder-power-bi.md) do Power BI. Ele apresenta cenários de criação de parâmetros em cascata. Os parâmetros em cascata são parâmetros de relatórios com dependências. Quando um usuário de relatório seleciona um valor (ou valores) de parâmetro, ele é usado para definir os valores disponíveis para outro parâmetro.
+Este artigo se destina aos autores de relatórios que elaboram [relatórios paginados](../paginated-reports/paginated-reports-report-builder-power-bi.md) do Power BI. Ele apresenta cenários de criação de parâmetros em cascata. Os parâmetros em cascata são parâmetros de relatórios com dependências. Quando um usuário de relatório seleciona um valor (ou valores) de parâmetro, ele é usado para definir os valores disponíveis para outro parâmetro.
 
 > [!NOTE]
 > Este artigo não aborda uma introdução aos parâmetros em cascata nem como configurá-los. Se você não estiver totalmente familiarizado com parâmetros em cascata, recomendamos que leia primeiro [Adicionar parâmetros em cascata a um relatório (Report Builder e SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs).
@@ -38,7 +38,7 @@ Uma tabela chamada **Revendedor** armazena um registro para cada revendedor e co
 - CódigoDoRevendedor (inteiro)
 - ResellerName
 - País-Região
-- Estado-Província
+- Estado/Província
 - Cidade
 - PostalCode
 
@@ -166,7 +166,7 @@ Veja como desenvolver os parâmetros em cascata:
 
 4. Relacione o parâmetro de consulta do conjunto de dados **Revendedor** com o parâmetro de relatório correspondente.
 
-É mais eficiente adicionar a coluna de agrupamento à tabela **Revendedor**. Quando persistida e indexada, ela oferece o melhor resultado. Confira mais informações em [Specify Computed Columns in a Table](/sql/relational-databases/tables/specify-computed-columns-in-a-table).
+É mais eficiente adicionar a coluna de agrupamento à tabela **Revendedor**. Quando persistida e indexada, ela oferece o melhor resultado. Para obter mais informações, consulte [Specify Computed Columns in a Table](/sql/relational-databases/tables/specify-computed-columns-in-a-table).
 
 ```sql
 ALTER TABLE [Reseller]
@@ -281,7 +281,7 @@ Otimize suas fontes de dados:
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Parâmetros de relatório no Power BI Report Builder](../report-builder-parameters.md)
+- [Parâmetros de relatório no Power BI Report Builder](../paginated-reports/report-builder-parameters.md)
 - [Adicionar parâmetros em cascata a um relatório (Report Builder e SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com)

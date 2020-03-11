@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953780"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920920"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Implementando segurança em nível de linha em relatórios paginados inseridos (versão prévia)
 
@@ -26,13 +26,13 @@ Esse recurso fornece uma maneira segura de exibir um subconjunto dos dados de fo
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>Como configurar um parâmetro para filtrar o conjunto de dados
 
-Ao aplicar a segurança em nível de linha a um relatório paginado do Power BI, você precisa atribuir um [parâmetro](../report-builder-parameters.md) ao atributo **UserID**. Esse parâmetro restringirá os dados extraídos do conjunto antes que o relatório seja inserido.
+Ao aplicar a segurança em nível de linha a um relatório paginado do Power BI, você precisa atribuir um [parâmetro](../paginated-reports/report-builder-parameters.md) ao atributo **UserID**. Esse parâmetro restringirá os dados extraídos do conjunto antes que o relatório seja inserido.
 
 Depois de atribuir o parâmetro a **UserID**, use a API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) para obter o token de inserção.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Usar UserID como um filtro no nível do relatório ou da consulta
 
-Você pode usar **UserId** como *filtro* ou em uma *consulta* para a fonte de dados no [Power BI Report Builder](../report-builder-power-bi.md).
+Você pode usar **UserId** como *filtro* ou em uma *consulta* para a fonte de dados no [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
 
 ### <a name="using-the-filter"></a>Como usar o filtro
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871483"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041713"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar um aplicativo de modelo no Power BI
 
@@ -58,7 +58,7 @@ Para criar um aplicativo de modelo que pode ser distribuído para outros locatá
 
 Assim como ocorre com um workspace comum do Power BI, a próxima etapa é criar o conteúdo no workspace.  
 
-- [Crie o conteúdo do Power BI](power-bi-creator-landing.md) no workspace.
+- [Crie o conteúdo do Power BI](index.yml) no workspace.
 
 Caso esteja usando parâmetros no Power Query, verifique se eles têm um tipo bem definido (por exemplo, Texto). Não há suporte para os tipos Qualquer e Binário.
 

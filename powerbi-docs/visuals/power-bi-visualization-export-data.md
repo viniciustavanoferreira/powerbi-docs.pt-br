@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539683"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946851"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportar os dados que foram usados para criar uma visualização
 
@@ -166,7 +166,7 @@ Há várias estratégias que os administradores e designers do Power BI devem us
 
 - Os proprietários do conjunto de dados podem definir a RLS (Segurança em Nível de Linha). A RLS restringirá o acesso a usuários somente leitura. Porém, se você tiver configurado um workspace de aplicativo e os membros receberem permissões para editar, as funções RLS não serão aplicadas a eles. Para saber mais, confira [Segurança em nível de linha](../service-admin-rls.md).
 
-- Os designers de relatórios podem ocultar colunas para que não apareçam na lista **Campos**. Para obter mais informações, confira [Propriedades do conjunto de dados](../developer/api-dataset-properties.md)
+- Os designers de relatórios podem ocultar colunas para que não apareçam na lista **Campos**. Para obter mais informações, confira [Propriedades do conjunto de dados](../developer/automation/api-dataset-properties.md)
 
 - Os administradores do Power BI podem adicionar [rótulos de sensibilidade](../admin/service-security-data-protection-overview.md) a dashboards, relatórios, conjuntos de gráficos e fluxos de dados. Em seguida, eles podem impor as configurações de proteção, como criptografia ou marcas d'água, ao exportar dados. 
 

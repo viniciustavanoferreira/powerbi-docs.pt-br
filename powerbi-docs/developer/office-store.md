@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 02/13/2020
-ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 3f27c32442ecf3c70c3dc3e7d070fcc8bf14d7b1
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576785"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237858"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar visuais do Power BI no Partner Center
 
@@ -37,8 +37,8 @@ Quando estiver pronto para enviar o visual do Power BI, verifique se o visual at
 | Arquivo de relatório .pbix de exemplo |Sim |Para demonstrar seu visual, você deverá ajudar os usuários a se familiarizar com ele. Destaque o valor que o visual traz para o usuário e dê exemplos de uso e opções de formatação. Você também pode adicionar uma página de *"dicas"* no final com alguns macetes, truques e aspectos a evitar.<br>O arquivo de relatório .pbix de exemplo deve trabalhar offline, sem nenhuma conexão externa. |
 | Ícone |Sim |Você deve incluir o logotipo visual personalizado que será exibido na frente da loja. O formato pode ser .png, .jpg, .jpeg ou .gif. Ele deve ter exatamente 300 px (largura) x 300 px (altura).<BR>**Importante!** Examine cuidadosamente o [guia de imagens da loja do AppSource](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) antes de enviar o ícone. |
 | Capturas de tela |Sim |Forneça pelo menos uma captura de tela. O formato pode ser .png, .jpg, .jpeg ou .gif. As dimensões devem ter exatamente 1.366 px (largura) por 768 px (altura). O tamanho do arquivo não pode ser maior que 1.024 KB.<br>Para melhor utilização, adicione balões de texto para articular a proposição de valores dos principais recursos mostrados em cada captura de tela. |
-| Link de download de suporte |Sim |Forneça uma URL de suporte para seus clientes. Esse link é inserido como parte de sua listagem de Painel do Vendedor e fica visível para os usuários quando eles acessam a listagem do seu visual no AppSource. O formato da URL deve incluir https:// ou http://. |
-| Link do documento de privacidade |Sim |Forneça um link para a política de privacidade do visual. Esse link é inserido como parte de sua listagem de Painel do Vendedor e fica visível para os usuários quando eles acessam a listagem do seu visual no AppSource. O formato do link deve incluir https:// ou http://. |
+| Link de download de suporte |Sim |Forneça uma URL de suporte para seus clientes. Esse link é inserido como parte da listagem do Centro de Parceiros e fica visível para os usuários quando eles acessam a listagem no visual no AppSource. O formato da URL deve incluir https:// ou http://. |
+| Link do documento de privacidade |Sim |Forneça um link para a política de privacidade do visual. Esse link é inserido como parte da listagem do Centro de Parceiros e fica visível para os usuários quando eles acessam a listagem no visual no AppSource. O formato do link deve incluir https:// ou http://. |
 | EULA (Contrato de licença de usuário final) |Sim |Você deve fornecer um arquivo de EULA ao seu visual do Power BI. |
 | Link do vídeo |Não |Para aumentar o interesse dos usuários pelo seu visual personalizado, forneça um link para um vídeo sobre o visual. O formato da URL deve incluir https:// ou http://. |
 | Repositório GitHub |Não |Compartilhe um link público para um repositório [GitHub](https://www.github.com) com fontes do seu visual do Power BI e dados de exemplo. Isso permite que outros desenvolvedores tenham oportunidade de fornecer comentários e propor melhorias ao seu código. |
@@ -74,9 +74,6 @@ A equipe do Power BI tem que verificar os arquivos quanto a novos envios de visu
 Para enviar seu visual do Power BI ao Partner Center, você precisa estar registrado no Partner Center. Se ainda não estiver, [Abra uma conta de desenvolvedor no Partner Center](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
 Siga as etapas abaixo para enviar seu visual do Power BI ao Partner Center. Confira mais informações sobre o processo de envio em [Enviar sua solução do Office ao AppSource por meio do Partner Center](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
-
->[!NOTE]
-> Se você estiver no meio de um processo de envio de visual do Power BI e precisar usar o [Painel do Vendedor](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (a antiga ferramenta de gerenciamento), confira as instruções em [Enviar um visual do Power BI ao AppSource usando o Painel do Vendedor](seller-dashboard.md).
 
 1. Faça logon no **Partner Center**.
 

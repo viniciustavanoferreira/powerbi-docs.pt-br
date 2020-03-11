@@ -45,7 +45,7 @@ As ações disponíveis para você dependerão das configurações atribuídas p
 * Selecionar o ícone de estrela para [adicionar um dashboard ou relatório aos favoritos](end-user-favorite.md) ![ícone de estrela](./media/end-user-shared-with-me/power-bi-star-icon.png).
 * Remover um dashboard ou relatório  ![ícone de lixeira](./media/end-user-shared-with-me/power-bi-delete-icon.png).
 * Alguns dashboards e relatórios podem ser compartilhados novamente  ![ícone compartilhar](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [Abrir o relatório no Excel](end-user-export.md) ![ícone de exportar para o Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [Abrir o relatório no Excel](end-user-export.md) ![ícone Exportar para o Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
 * [Exibir insights](end-user-insights.md) que o Power BI encontrar nos dados ![ícone de insights](./media/end-user-shared-with-me/power-bi-insights.png).
   
   > [!NOTE]

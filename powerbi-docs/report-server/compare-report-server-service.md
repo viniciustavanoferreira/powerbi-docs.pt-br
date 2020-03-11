@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 02/13/2020
-ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.date: 03/04/2020
+ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427750"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290649"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparando o Servidor de Relatórios do Power BI e o serviço do Power BI
 
@@ -24,11 +24,11 @@ O Servidor de Relatórios do Power BI e o serviço do Power BI têm muitas semel
 
 | Recursos | Servidor de Relatórios do Power BI | Serviço do Power BI | Observações |
 |---------|---------|---------|---------|
-| Implantação | Local ou nuvem hospedada | Nuvem | O Servidor de Relatórios do Power BI pode ser implantado em VMs do Azure (nuvem hospedada) se licenciado por meio do Power BI Premium |
+| Implantação | Local ou nuvem hospedada | Nuvem | O Servidor de Relatórios do Power BI pode ser implantado em VMs do Azure (nuvem hospedada) se licenciado por meio do Power BI Premium ou SQL do Server Enterprise com Software Assurance|
 | Dados de origem | Nuvem e/ou local | Nuvem e/ou local |  |
 | Licença | Power BI Premium ou EE do SQL Server com SA (Software Assurance) | Power BI Pro e/ou Power BI Premium | |  
 | Ciclo de vida | Política de ciclo de vida moderna | Serviço totalmente gerenciado |  |
-| Ciclo de lançamento | Três vezes ao ano (janeiro, maio, setembro) | Uma vez por mês | Correções e recursos mais recentes são fornecidos para o serviço do Power BI primeiro. A maior parte das funcionalidades principais é fornecida para o Servidor de Relatórios do Power BI nas próximas versões; alguns recursos são destinados somente ao serviço do Power BI. |
+| Ciclo de lançamento | Três vezes ao ano (janeiro, maio, setembro) | Uma vez por mês | Correções e recursos mais recentes são fornecidos para o serviço do Power BI primeiro. Um pacote cumulativo de atualizações de recursos das versões de serviço do Power BI Desktop é disponibilizado com cada versão do Servidor de Relatórios do Power BI. A maioria dos outros recursos é disponibilizada somente para o serviço do Power BI. |
 | Criar relatórios do Power BI no Power BI Desktop | Sim | Sim |  |
 | Criar relatórios do Power BI no navegador | Não | Sim |  |
 | Hospedagem e conexão a conjuntos de dados compartilhados do Power BI | Não | Sim | [Introdução aos conjuntos de dados entre espaços de trabalho](../service-datasets-across-workspaces.md) |

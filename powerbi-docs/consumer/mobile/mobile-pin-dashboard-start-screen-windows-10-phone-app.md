@@ -22,7 +22,7 @@ ms.locfileid: "73869857"
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>Fixar um dashboard na tela inicial como um bloco dinâmico
 1. Abra um dashboard.
-2. Toque em **Fixar na tela inicial** ![ícone Fixar na tela inicial](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png).
+2. Toque em **Fixar na Tela Inicial** ![ícone Fixar na tela inicial](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png).
    
    ![Barra superior do aplicativo móvel Windows 10](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    

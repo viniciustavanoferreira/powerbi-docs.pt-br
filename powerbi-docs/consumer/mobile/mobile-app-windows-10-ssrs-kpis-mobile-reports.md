@@ -35,7 +35,7 @@ Mesmo que você não tenha acesso a um portal da Web do Reporting Services, aind
 
 1. No dispositivo Windows 10, abra o aplicativo Power BI.
 2. Toque no botão de navegação global ![Botão de navegação global](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) no canto superior esquerdo.
-3. Toque no ícone **Configurações** ![ícone Configurações](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), clique com o botão direito do mouse ou toque e segure em **Conectar-se ao servidor** e, depois, toque em **Exibir amostras**.
+3. Toque no ícone **Configurações**![ícone Configurações](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), clique com o botão direito do mouse ou toque e segure em **Conectar-se ao servidor** e, depois, toque em **Exibir amostras**.
    
    ![Exibir exemplos de SSRS](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
 4. Abra a pasta Relatórios de Varejo ou Relatórios de Vendas para explorar seus KPIs e relatórios móveis.
@@ -95,7 +95,7 @@ Leia mais sobre [favoritos nos aplicativos móveis do Power BI](mobile-apps-favo
 ## <a name="remove-a-connection-to-a-report-server"></a>Remover uma conexão a um servidor de relatório
 Você pode estar conectado apenas a um servidor de relatório por vez no aplicativo móvel Power BI. Se você quiser se conectar a um servidor diferente, precisará desconectar-se do atual.
 
-1. Na parte inferior do painel de navegação, toque em **Configurações** ![ícone de Configurações](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
+1. Na parte inferior do painel de navegação, toque em **Configurações** ![ícone de Configurações](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
 2. Toque e segure o nome do servidor ao qual você não deseja se conectar.
 3. Toque **Remover servidor**.
    

@@ -7,6 +7,8 @@
       items:
         - name: Quais são os aplicativos móveis?
           href: mobile-apps-for-mobile-devices.md
+        - name: Novidades em aplicativos móveis
+          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Conheça a página inicial
           href: mobile-apps-home-page.md
     - name: Início rápido
@@ -22,8 +24,6 @@
     - name: Conceitos
       expanded: true
       items:
-        - name: Novidades em aplicativos móveis
-          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Obter dados reais usando os aplicativos móveis
           href: mobile-apps-data-in-real-world-context.md
         - name: Exibir os dados offline nos aplicativos móveis
@@ -44,8 +44,6 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favoritos nos aplicativos móveis
               href: mobile-apps-favorites.md
-            - name: Definir configurações de interação (somente telefone)
-              href: mobile-app-interaction-settings.md
             - name: Definir alertas de dados nos aplicativos móveis do Power BI
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Obter notificações nos aplicativos móveis do Power BI
@@ -70,6 +68,8 @@
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Digitalizar um código de barras no aplicativo móvel do Power BI
               href: mobile-apps-scan-barcode-iphone.md
+            - name: Definir configurações de interação
+              href: mobile-app-interaction-settings.md
             - name: Configurar usando o gerenciamento de dispositivo móvel
               href: mobile-app-configuration.md
         - name: iOS
@@ -100,7 +100,7 @@
               href: mobile-windows-10-phone-app-get-started.md
             - name: Fixar um painel na tela inicial
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Exibir KPIs e relatórios móveis do Reporting Services móveis
+            - name: Exibir relatórios e KPIs locais
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Exibir o Power BI no Surface Hub
               href: mobile-windows-10-app-presentation-mode.md

@@ -7,17 +7,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ad7e2133d531abcbb2165dc2be9846a6a70f4fc0
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 1ce2445e0b2d92551a5554f32dc3b9e2a751e7b6
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537406"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113540"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Aceitar a versão prévia dos recursos do serviço do Power BI
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 ## <a name="what-are-preview-features"></a>O que é a *versão prévia dos recursos*?
 À medida que fizermos melhorias no serviço do Power BI, lançaremos novas funcionalidades como *versão prévia dos recursos*. A versão prévia dos recursos pode ser ligada e desligada, oferecendo a você a oportunidade de experimentá-la.
 

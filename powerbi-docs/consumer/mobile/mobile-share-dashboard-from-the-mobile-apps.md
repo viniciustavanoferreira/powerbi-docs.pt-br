@@ -1,19 +1,19 @@
 ---
 title: Compartilhar um dashboard ou relatório dos aplicativos móveis do Power BI
 description: Convide outras pessoas para exibir seus dashboards e relatórios compartilhando links nos aplicativos móveis do Power BI. Saiba como.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/20/2018
-ms.author: mshenhav
-ms.openlocfilehash: 70ecd56f2823e608aa62deb4a5033f53272d3382
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 07ddf82b120e0e4b77b7545863b536282f849de3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220945"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114432"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartilhar um dashboard ou relatório dos aplicativos móveis do Power BI
 Aplica-se a:

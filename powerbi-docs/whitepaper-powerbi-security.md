@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75304351"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381389"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper de segurança do Power BI
 
@@ -45,7 +45,7 @@ Cada implantação do Power BI consiste de dois clusters – um cluster da Web d
 
 ![O WFE e o back-end](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-O Power BI usa o **AAD** (Azure Active Directory) para autenticação e gerenciamento de conta. O Power BI também usa o ATM (**Gerenciador de Tráfego do Azure**) para direcionar o tráfego de usuário para o datacenter mais próximo, determinado pelo registro DNS do cliente buscando conectar-se, para o processo de autenticação e para baixar conteúdo estático e arquivos. Power BI usa o WFE geograficamente mais próximo para distribuir com eficiência o conteúdo estático necessário e os arquivos para os usuários, com exceção dos visuais personalizados que são entregues usando a **CDN (rede de distribuição de conteúdo) do Azure**.
+O Power BI usa o **AAD** (Azure Active Directory) para autenticação e gerenciamento de conta. O Power BI também usa o ATM (**Gerenciador de Tráfego do Azure**) para direcionar o tráfego de usuário para o datacenter mais próximo, determinado pelo registro DNS do cliente buscando conectar-se, para o processo de autenticação e para baixar conteúdo estático e arquivos. Power BI usa o WFE geograficamente mais próximo para distribuir com eficiência o conteúdo estático necessário e os arquivos para os usuários, com exceção de elementos visuais Power BI que são entregues usando a **CDN (rede de distribuição de conteúdo) do Azure**.
 
 ### <a name="the-wfe-cluster"></a>O Cluster WFE
 
@@ -127,7 +127,7 @@ A Microsoft também fornece os datacenters para soberanias. Para obter mais info
 
 Para obter mais informações sobre o local em que seus dados serão armazenados e como serão usados, veja [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where). Compromissos sobre o local dos dados em repouso do cliente são especificados nos **Termos de Processamento de Dados** dos [Termos do Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
 
-## <a name="user-authentication"></a>Autenticação de Usuário
+## <a name="user-authentication"></a>Autenticação do usuário
 
 A autenticação do usuário para o serviço do Power BI consiste em uma série de solicitações, respostas e redirecionamentos entre o navegador do usuário e o serviço do Power BI ou os serviços do Azure usados pelo Power BI. Essa sequência descreve o processo de autenticação de usuário no Power BI. Para obter mais informações sobre as opções para modelos de autenticação de usuário da organização (modelos de entrada), veja [Escolhendo um modelo de entrada para o Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
@@ -172,9 +172,9 @@ Uma consulta por um conjunto de dados de importação consiste em uma coleção 
 A tabela a seguir descreve os dados do Power BI com base no tipo de consulta que está sendo usada. Uma **X** indica a presença de dados do Power BI ao usar o tipo de consulta associado.
 
 
-|  |Importar  |DirectQuery  |Live Connect  |
+|  |{1&gt;Importar&lt;1}  |DirectQuery  |Live Connect  |
 |---------|---------|---------|---------|
-|Esquema     |     X    |    X     |         |
+|Schema     |     X    |    X     |         |
 |Dados de linha     |    X     |         |         |
 |Caching de dados de visuais     |    X     |     X    |    X     |
 
@@ -200,7 +200,7 @@ As chaves de criptografia de gateway com base na chave de recuperação nunca sa
 
 Para fontes de dados baseadas em nuvem, a Função de Movimentação de Dados criptografa as chaves de criptografia usando métodos [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx). Você pode aprender mais sobre o [recurso de banco de dados Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx).
 
-#### <a name="datasets"></a>Conjuntos de Dados
+#### <a name="datasets"></a>Conjuntos de dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de conexão etc.)
 
@@ -253,7 +253,7 @@ O Power BI fornece monitoramento de integridade de dados das seguintes maneiras:
 
 2. Dados estáticos
 
-   Dados estáticos incluem artefatos, como imagens de segundo plano e elementos visuais personalizados.
+   Os dados estáticos incluem artefatos como imagens de plano de fundo e elementos visuais de Power BI.
 
     &ensp; &ensp; a. Para relatórios criados com o Excel para o Office 365, nada é armazenado.
 
@@ -274,7 +274,7 @@ O Power BI fornece monitoramento de integridade de dados das seguintes maneiras:
 
 1. Caches – os dados necessários para os elementos visuais no dashboard normalmente são armazenado em cache e armazenados criptografado no Banco de Dados SQL do Azure. Outros blocos, como elementos visuais fixados do Excel ou do SSRS (SQL Server Reporting Services) são armazenados no Blob do Azure, como imagens, e também são criptografados.
 
-2. Dados estáticos – incluem artefatos, como imagens de segundo plano e elementos visuais personalizados que são armazenados criptografados no armazenamento de Blobs do Azure.
+2. Dados estáticos – que incluem artefatos como imagens de plano de fundo e Power BI visuais armazenados, criptografados, no armazenamento de BLOBs do Azure.
 
 Independentemente do método de criptografia usado, a Microsoft gerencia a criptografia de chave em nome dos clientes, em um repositório de segredos ou no Azure Key Vault.
 
@@ -282,7 +282,7 @@ Independentemente do método de criptografia usado, a Microsoft gerencia a cript
 
 Dispositivos não voláteis são dispositivos que têm memória que persiste sem energia constante. O exemplo a seguir descreve os dados armazenados temporariamente em dispositivos não voláteis. 
 
-#### <a name="datasets"></a>Conjuntos de Dados
+#### <a name="datasets"></a>Conjuntos de dados
 
 1. Metadados (tabelas, colunas, medidas, cálculos, cadeias de conexão etc.)
 
@@ -347,8 +347,8 @@ A tabela a seguir lista o suporte a CBA (autenticação baseada em certificado) 
 
 | **Suporte a CBA** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (entrar no serviço) | com suporte | com suporte | Não compatível |
-| **SSRS ADFS** (conectar-se ao servidor do SSRS) | Não compatível | Compatível | Não compatível |
+| **Power BI** (entrar no serviço) | com suporte | com suporte | Sem suporte |
+| **SSRS ADFS** (conectar-se ao servidor do SSRS) | Sem suporte | Com suporte | Sem suporte |
 
 Aplicativos do Power BI Mobile ativamente comunicam-se com o serviço do Power BI. Telemetria é usada para coletar estatísticas de uso do aplicativo móvel e dados semelhantes, que são transmitidos para serviços usados para monitorar o uso e a atividade. Nenhum dado pessoal é enviado com os dados de telemetria.
 
@@ -372,7 +372,7 @@ As perguntas a seguir são perguntas e respostas de segurança comuns para o Pow
 
 **Como os usuários se conectam e obtêm acesso a fontes de dados durante o uso do Power BI?**
 
-* **Credenciais de Power bi e credenciais de domínio:** Os usuários entram no Power BI usando um endereço de email; Quando um usuário tenta se conectar a um recurso de dados, Power BI passa o endereço de email de logon do Power BI como credenciais. Para recursos conectados ao domínio (locais ou baseados em nuvem), o email de logon é combinado com um _nome UPN_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) pelo serviço de diretório para determinar se há credenciais suficientes para permitir o acesso. Para organizações que usam endereços de email com base no trabalho para entrar no Power BI (o mesmo email que usam para fazer logon em recursos de trabalho, como _david@contoso.com_), o mapeamento pode ocorrer diretamente; para organizações que não usam endereços de email baseados no trabalho (como _david@contoso.onmicrosoft.com_), o mapeamento de diretório deve ser estabelecido para permitir o acesso a recursos locais com credenciais de logon do Power BI.
+* **Credenciais de Power bi e credenciais de domínio:** Os usuários entram no Power BI usando um endereço de email; Quando um usuário tenta se conectar a um recurso de dados, Power BI passa o endereço de email de logon do Power BI como credenciais. Para recursos conectados ao domínio (locais ou baseados em nuvem), o email de logon é combinado com um _nome UPN_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) pelo serviço de diretório para determinar se há credenciais suficientes para permitir o acesso. Para organizações que usam endereços de email com base no trabalho para entrar no Power BI (o mesmo email que usam para fazer logon em recursos de trabalho, como _david@contoso.com_ ), o mapeamento pode ocorrer diretamente; para organizações que não usam endereços de email baseados no trabalho (como _david@contoso.onmicrosoft.com_ ), o mapeamento de diretório deve ser estabelecido para permitir o acesso a recursos locais com credenciais de logon do Power BI.
 
 * **SQL Server Analysis Services e Power bi:** Para organizações que usam SQL Server Analysis Services locais, o Power BI oferece o gateway de dados local Power BI (que é um **Gateway**, como referenciado nas seções anteriores).  O gateway de dados local do Power BI pode impor RLS (Segurança em Nível de Função) em fontes de dados. Para obter mais informações sobre RLS, veja **Autenticação do usuário para fontes de dados** anteriormente neste documento. Para obter mais informações sobre gateways, consulte [Gateway de dados local](service-gateway-onprem.md).
 
@@ -394,7 +394,7 @@ As perguntas a seguir são perguntas e respostas de segurança comuns para o Pow
 
 **E quanto à segurança baseada em função, compartilhamento de relatórios ou painéis e conexões de dados? Como isso funciona em termos de acesso a dados, exibição de painel, acesso de relatório ou atualização?**
 
-* Para fontes de dados não habilitadas para **RLS (Segurança em Nível de Função)**, se um dashboard, relatório ou modelo de dados for compartilhado com outros usuários por meio do Power BI, os dados então estarão disponíveis para usuários com os quais eles são compartilhados para exibição e interação. O Power BI *não* autentica novamente os usuários com relação à fonte original dos dados. Depois que os dados são carregados para o Power BI, o usuário autenticado em relação aos dados de origem é responsável por gerenciar que outros usuários e grupos podem ser exibir os dados.
+* Para fontes de dados não habilitadas para **RLS (Segurança em Nível de Função)** , se um dashboard, relatório ou modelo de dados for compartilhado com outros usuários por meio do Power BI, os dados então estarão disponíveis para usuários com os quais eles são compartilhados para exibição e interação. O Power BI *não* autentica novamente os usuários com relação à fonte original dos dados. Depois que os dados são carregados para o Power BI, o usuário autenticado em relação aos dados de origem é responsável por gerenciar que outros usuários e grupos podem ser exibir os dados.
 
   Quando as conexões de dados são feitas em uma fonte de dados com capacidade para **RLS**, como uma fonte de dados do Analysis Services, apenas dados do dashboard são armazenados em cache no Power BI. Sempre que é exibido ou acessado no Power BI um relatório ou conjunto de dados que usa dados da fonte de dados compatíveis com RLS, o serviço do Power BI acessa a fonte de dados para obter os dados com base nas credenciais do usuário e, se houver permissões suficientes, os dados serão carregados no relatório ou modelo de dados para esse usuário. Se a autenticação falhar, o usuário verá um erro.
 
@@ -438,7 +438,7 @@ As perguntas a seguir são perguntas e respostas de segurança comuns para o Pow
 
   Com base nas informações fornecidas durante uma conexão inicial ao serviço do Power BI, o navegador do usuário entra em contato com a **CDN** do Azure especificada (ou para alguns arquivos, o **WFE**) para baixar a coleção de arquivos comuns especificados necessários para habilitar a interação do navegador com o serviço do Power BI. A página do navegador então inclui o token do AAD, as informações de sessão, o local do cluster de **Back-End** associado e a coleção de arquivos baixados da **CDN** do Azure e do cluster **WFE** pela duração da sessão do navegador de serviço do Power BI.
 
-**Para visuais personalizados, a Microsoft executa alguma avaliação de segurança ou privacidade do código visual personalizado antes de publicar itens na Galeria?**
+**Para Power BI visuais, a Microsoft realiza qualquer avaliação de segurança ou privacidade do código Visual personalizado antes de publicar itens na Galeria?**
 
 * Não. É responsabilidade do cliente examinar e determinar se código visual personalizado deve ser usado. Todo o código visual personalizado é operado em um ambiente de área restrita, de modo que qualquer código errôneo em um visual personalizado não afeta negativamente o restante do serviço do Power BI.
 
@@ -480,7 +480,7 @@ Para obter mais informações sobre o Power BI, veja os seguintes recursos.
 - [Introdução ao Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
 - [API REST do Power BI – Visão Geral](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Referência da API do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway (Gateway de dados local)](service-gateway-onprem.md)
+- [Gateway de dados local](service-gateway-onprem.md)
 - [Nuvens nacionais do Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Use o Kerberos para SSO do Power BI para fontes de dados locais](service-gateway-sso-overview.md)

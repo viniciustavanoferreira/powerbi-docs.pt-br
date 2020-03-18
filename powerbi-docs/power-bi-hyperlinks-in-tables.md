@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427796"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381251"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Adicionar hiperlinks (URLs) a uma tabela ou matriz
 Este tópico ensina a adicionar hiperlinks (URLs) a uma tabela. Use o Power BI Desktop para adicionar hiperlinks (URLs) a um conjunto de dados. É possível adicionar esses hiperlinks às suas matrizes e tabelas de relatório no serviço do Power BI ou no Power BI Desktop. Em seguida, você pode exibir a URL ou um ícone de link ou formatar outra coluna como texto de link.
@@ -125,7 +125,7 @@ Outra maneira de adicionar hiperlinks às tabelas e matrizes do Power BI é cria
    
    ![Lista suspensa de categoria de dados no Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 
-6. No Serviço do Power BI ou no Power BI Desktop, conecte-se a essa pasta de trabalho ou importe-a.
+6. No serviço do Power BI ou no Power BI Desktop, conecte-se ou importe essa pasta de trabalho.
 7. Crie uma visualização de tabela que contém o campo de URL.
    
    ![Criar uma tabela no Power BI com o campo de URL](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)

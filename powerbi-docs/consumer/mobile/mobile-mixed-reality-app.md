@@ -1,19 +1,19 @@
 ---
 title: Aplicativo Power BI para Realidade Misturada (versão prévia)
 description: Veja seus dashboards e relatórios no aplicativo Power BI para Realidade Misturada (versão prévia), seja dentro do mundo virtual ou no contexto do seu ambiente.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
-ms.author: mshenhav
-ms.openlocfilehash: 04a77aa9a5a464baf0ce1c9a88604d84ad0feb53
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879139"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205908"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicativo Power BI para Realidade Misturada (versão prévia)
 Veja seus dashboards e relatórios no aplicativo Power BI para Realidade Misturada (versão prévia) enquanto estiver imerso no mundo virtual ou coloque-os em locais específicos no contexto do seu ambiente. 
@@ -70,7 +70,7 @@ Esse comando coloca um dashboard ou relatório em uma parede ou um objeto, ou en
 
 **"Ir para página inicial"**
 
-Diga "ir para página inicial" para retornar à exibição clássica do Windows do Power BI. 
+Diga "ir para página inicial" a fim de retornar à exibição clássica do Windows do Power BI. 
 
 **"Remover"**
 

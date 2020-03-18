@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696590"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380768"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Entender o mapeamento de exibição de dados em visuais do Power BI
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 Como resultado, o visual exibe um único valor do Power BI:
 
-![Exemplo de visual de mapeamento de exibição de dados única](./media/visual-simple-dataview-mapping.png)
+![Exemplo de visual de mapeamento de exibição de dados única](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>Mapeamento de dados categóricos
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 O resultado do visual:
 
-![O visual com mapeamento categórico de exibição de dados](./media/categorical-data-view-mapping-visual.png)
+![O visual com mapeamento categórico de exibição de dados](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>Mapeamento de dados de tabela
 
@@ -508,7 +508,7 @@ Com as funcionalidades fornecidas:
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ Exemplo de dados:
 
 Associação de dados:
 
-![Associações de dados do mapeamento de exibição de dados de tabela](./media/table-dataview-mapping-data.png)
+![Associações de dados do mapeamento de exibição de dados de tabela](media/dataview-mappings/table-dataview-mapping-data.png)
 
 O Power BI exibe os dados como a exibição de dados da tabela. Você não deve presumir que os dados sejam ordenados.
 
@@ -603,7 +603,7 @@ O Power BI exibe os dados como a exibição de dados da tabela. Você não deve 
 
 Você pode agregar os dados selecionando o campo desejado e, em seguida, selecionando soma.  
 
-![Agregação de dados](./media/data-aggregation.png)
+![Agregação de dados](media/dataview-mappings/data-aggregation.png)
 
 Exemplo de código para processar o mapeamento de exibição de dados de tabela.
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![O visual com mapeamento de exibição de dados de tabela](./media/table-dataview-mapping-visual.png)
+![O visual com mapeamento de exibição de dados de tabela](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>Mapeamento de dados de matriz
 
@@ -767,7 +767,7 @@ Conjunto de dados:
 
 O visual de matriz principal do Power BI renderiza os dados como uma tabela.
 
-![Matrix visual](./media/matrix-visual-smaple.png)
+![Matrix visual](media/dataview-mappings/matrix-visual-smaple.png)
 
 O visual obtém sua estrutura de dados conforme descrito no código a seguir (somente as duas primeiras linhas da tabela são mostradas aqui):
 

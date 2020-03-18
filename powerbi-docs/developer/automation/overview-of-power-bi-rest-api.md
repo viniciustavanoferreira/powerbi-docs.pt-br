@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079406"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488422"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>O que os desenvolvedores podem fazer com a API do Power BI?
 
@@ -25,10 +25,10 @@ Aqui estão algumas das coisas que você pode fazer com as APIs do Power BI.
 
 | **Para saber mais** | **Confira estas informações** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Inserir relatórios, dashboards e blocos para usuários do Power BI e usuários que não têm o Power BI. | [Como inserir painéis, relatórios e blocos do Power BI](../embed-sample-for-customers.md) |
+| Inserir relatórios, dashboards e blocos para usuários do Power BI e usuários que não têm o Power BI. | [Como inserir painéis, relatórios e blocos do Power BI](../embedded/embed-sample-for-customers.md) |
 | Realize tarefas de gerenciamento em objetos do Power BI. | [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
 | Estender um fluxo de trabalho de negócios existente para enviar por push dados de chave a um painel do Power BI. | [Enviar dados por push a um painel](walkthrough-push-data.md) |
-| Autentique-se no Power BI. | [Autenticar-se no Power BI](../get-azuread-access-token.md) |
+| Autentique-se no Power BI. | [Autenticar-se no Power BI](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > As APIs do Power BI ainda se referem aos workspaces como grupos. As referências a grupos significam que você está trabalhando com workspaces.

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496743"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205540"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurar remotamente o aplicativo do Power BI usando a ferramenta de MDM (gerenciamento de dispositivo móvel)
 
@@ -22,8 +22,8 @@ O aplicativo Power BI Mobile para iOS e Android dá suporte a configurações qu
 O aplicativo Power BI Mobile é compatível com os cenários de configuração a seguir:
 
 * Configuração de Servidor de Relatório (iOS e Android)
-* Configurações de proteção de dados (iOS e Android)
-* Configurações de interação (Android)
+* Configurações de proteção de dados (iOS)
+* Configurações de interação (iOS e Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configuração de Servidor de Relatório (iOS e Android)
 
@@ -38,20 +38,24 @@ O aplicativo Power BI para iOS e Android permite aos administradores efetuar pus
 
 ## <a name="data-protection-settings-ios"></a>Configurações de proteção de dados (iOS)
 
-O aplicativo Power BI para iOS e Android oferece aos administradores a capacidade de personalizar a configuração padrão de acordo com as configurações de segurança e privacidade. Você pode forçar os usuários a fornecerem o Face ID, o Touch ID ou uma senha ao acessarem o aplicativo do Power BI.
+O aplicativo Power BI para iOS oferece aos administradores a capacidade de personalizar a configuração padrão de acordo com configurações de segurança e privacidade. Você pode forçar os usuários a fornecerem o Face ID, o Touch ID ou uma senha ao acessarem o aplicativo do Power BI.
 
 | Key | Tipo | Descrição |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Booliano | Valor padrão é False. <br><br>Biometria, como TouchID ou FaceID, pode ser necessária para que os usuários acessem o aplicativo em seus dispositivos. Quando for necessária, a biometria será usada, além da autenticação.<br><br>Se você está usando políticas de proteção de aplicativo, a Microsoft recomenda desabilitar essa configuração para evitar duplo prompt de acesso. |
 
-## <a name="interaction-settings-android"></a>Configurações de interação (Android)
+## <a name="interaction-settings-ios-and-android"></a>Configurações de interação (iOS e Android)
 
-O aplicativo Power BI para Android oferecerá aos administradores a capacidade de definir configurações de interação se for decidido que as configurações de interação padrão precisam ser alteradas em grupos de usuários em uma organização. 
+O aplicativo Power BI para iOS e Android oferecerá aos administradores a capacidade de definir configurações de interação se for decidido que as configurações de interação padrão precisam ser alteradas em grupos de usuários em uma organização.
+
+>[!NOTE]
+>Atualmente, nem todas as interações têm suporte em todos os dispositivos. Confira [Definir configurações de interação de relatório](mobile-app-interaction-settings.md) para obter um gráfico que mostra a disponibilidade atual entre os dispositivos.
 
 | Key | Tipo | Valores | Descrição |
 |---|---|---|---|
-| com.microsoft.powerbi.mobile.ReportTapInteraction | Cadeia de caracteres |  <nobr>toque simples</nobr><br><nobr>toque duplo</nobr> | Configure se o toque no visual também fará uma seleção de ponto de dados. |
-| com.microsoft.powerbi.mobile.RefreshAction | Cadeia de caracteres |  <nobr>deslizar para atualizar</nobr><br>. | Configure se o usuário terá um botão para atualizar o relatório ou deverá usará o recurso "deslizar para atualizar". |
+| com.microsoft.powerbi.mobile.ReportTapInteraction | Cadeia de caracteres |  <nobr>toque simples</nobr><br><nobr>toque duplo</nobr> | Configure se um toque no visual também fará uma seleção de ponto de dados. |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | Booliano |  <nobr>Verdadeiro</nobr><br><nobr>Falso</nobr> | Configure se um toque em um ponto de dados substituirá a seleção atual ou será adicionado à seleção atual. |
+| com.microsoft.powerbi.mobile.RefreshAction | Cadeia de caracteres |  <nobr>deslizar para atualizar</nobr><br>. | Configure se o usuário terá um botão para atualizar o relatório ou deverá usar o recurso "deslizar para atualizar". |
 | com.microsoft.powerbi.mobile.FooterAppearance | Cadeia de caracteres |  encaixado<br>dinâmico | Configure se o rodapé do relatório será encaixado na parte inferior do relatório ou ocultado automaticamente. |
 
 ## <a name="deploying-app-configuration-settings"></a>Implantando definições de configuração de aplicativos

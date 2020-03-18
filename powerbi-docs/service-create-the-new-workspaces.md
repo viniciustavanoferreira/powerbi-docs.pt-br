@@ -1,6 +1,6 @@
 ---
-title: Criar novos espaços de trabalho - Power BI
-description: Saiba como criar novos espaços de trabalho, coleções de painéis, relatórios e relatórios paginados criados para oferecer métricas-chave para a organização.
+title: Criar novos workspaces - Power BI
+description: Saiba como criar novos workspaces, coleções de painéis, relatórios e relatórios paginados criados para oferecer métricas-chave para a organização.
 author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
@@ -10,17 +10,17 @@ ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877531"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207817"
 ---
-# <a name="create-the-new-workspaces-in-power-bi"></a>Criar novos espaços de trabalho no Power BI
+# <a name="create-the-new-workspaces-in-power-bi"></a>Criar novos workspaces no Power BI
 
-O Power BI está apresentando uma nova experiência de espaço de trabalho. Espaços de trabalho ainda são locais para colaborar com colegas para criar coleções de painéis, relatórios (paginados ou não). Depois, você pode agrupar essas coleções em *aplicativos* e distribuí-los para toda a organização ou para pessoas ou grupos específicos. 
+O Power BI está apresentando uma nova experiência de workspace. Espaços de trabalho ainda são locais para colaborar com colegas para criar coleções de painéis, relatórios (paginados ou não). Depois, você pode agrupar essas coleções em *aplicativos* e distribuí-los para toda a organização ou para pessoas ou grupos específicos. 
 
-Confira as mudanças. Nos novos espaços de trabalho, é possível:
+Confira as mudanças. Nos novos workspaces, é possível:
 
 - Atribuir funções de workspace a grupos de usuários: grupos de segurança, listas de distribuição, grupos do Office 365 e indivíduos.
 - Criar um workspace no Power BI sem criar um grupo do Office 365.
@@ -31,7 +31,7 @@ Confira as mudanças. Nos novos espaços de trabalho, é possível:
 
 Para saber mais, confira o artigo [Novos espaços de trabalho](service-new-workspaces.md).
 
-## <a name="create-one-of-the-new-workspaces"></a>Criar um dos novos espaços de trabalho
+## <a name="create-one-of-the-new-workspaces"></a>Criar um dos novos workspaces
 
 1. Comece criando o workspace. Selecione **Espaços de trabalho** > **Criar espaço de trabalho**.
    
@@ -45,15 +45,15 @@ Para saber mais, confira o artigo [Novos espaços de trabalho](service-new-works
 
 2. Nomeie o workspace. Se o nome não estiver disponível, edite-o para criar um exclusivo.
    
-     O aplicativo do espaço de trabalho terá o mesmo nome e ícone que o espaço de trabalho.
+     O aplicativo do workspace terá o mesmo nome e ícone que o workspace.
    
-1. Estes são alguns itens opcionais que você pode definir para seu espaço de trabalho:
+1. Estes são alguns itens opcionais que você pode definir para seu workspace:
 
     Carregue uma **Imagem do espaço de trabalho**. Os arquivos podem estar no formato .png ou .jpg. O tamanho do arquivo deve ser inferior a 45 KB.
     
-    [Adicione uma **Lista de contatos**](#workspace-contact-list). Por padrão, os administradores do espaço de trabalho são os contatos. 
+    [Adicione uma **Lista de contatos**](#workspace-contact-list). Por padrão, os administradores do workspace são os contatos. 
     
-    [Especifique um **OneDrive para o espaço de trabalho**](#workspace-onedrive) digitando apenas o nome de um Grupo do Office 365 existente, não a URL. Agora este espaço de trabalho pode usar o local de armazenamento de arquivos desse Grupo do Office 365. 
+    [Especifique um **OneDrive para o espaço de trabalho**](#workspace-onedrive) digitando apenas o nome de um Grupo do Office 365 existente, não a URL. Agora este workspace pode usar o local de armazenamento de arquivos desse Grupo do Office 365. 
 
     ![Especificar um local do OneDrive](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -87,7 +87,7 @@ Você pode especificar quais usuários recebem a notificação sobre problemas q
 
 O recurso OneDrive do Workspace permite que você configure um grupo do Office 365 cujo armazenamento de arquivos da Biblioteca de Documentos do SharePoint esteja disponível para usuários do espaço de trabalho. Cria o grupo fora do Power BI primeiro. 
 
-O Power BI não sincroniza as permissões de usuários ou grupos que estão configurados para ter acesso ao workspace com a associação ao grupo do Office 365. A prática recomendada é dar ao mesmo grupo do Office 365, cujo armazenamento de arquivos você define nessa configuração do grupo do Office 365, [acesso ao mesmo espaço de trabalho](#give-access-to-your-workspace). Em seguida, gerencie o acesso ao espaço de trabalho gerenciando a associação do grupo do Office 365. 
+O Power BI não sincroniza as permissões de usuários ou grupos que estão configurados para ter acesso ao workspace com a associação ao grupo do Office 365. A prática recomendada é dar ao mesmo grupo do Office 365, cujo armazenamento de arquivos você define nessa configuração do grupo do Office 365, [acesso ao mesmo espaço de trabalho](#give-access-to-your-workspace). Em seguida, gerencie o acesso ao workspace gerenciando a associação do grupo do Office 365. 
 
 1. Acesse a nova configuração do **OneDrive do espaço de trabalho** usando uma destas duas maneiras:
 
@@ -103,7 +103,7 @@ O Power BI não sincroniza as permissões de usuários ou grupos que estão conf
 
 3. Selecione **Salvar**.
 
-### <a name="access-the-workspace-onedrive-location"></a>Acessar o local do OneDrive do espaço de trabalho
+### <a name="access-the-workspace-onedrive-location"></a>Acessar o local do OneDrive do workspace
 
 Depois de configurar a localização do OneDrive, você pode acessá-lo da mesma forma que acessa outras fontes de dados no serviço do Power BI.
 
@@ -115,13 +115,13 @@ Depois de configurar a localização do OneDrive, você pode acessá-lo da mesma
 
     ![Local dos arquivos no espaço de trabalho - obter dados](media/service-create-the-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
 
-### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Conectar-se aos serviços de terceiros em novos espaços de trabalho
+### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Conectar-se aos serviços de terceiros em novos workspaces
 
 Na nova experiência de workspaces, estamos mudando o foco para *aplicativos*. Os aplicativos de serviços de terceiros facilitam para que os usuários obtenham dados dos serviços que usam, como o Microsoft Dynamics CRM, o Salesforce ou o Google Analytics.
 
-Na nova experiência de espaços de trabalho, não é possível criar ou consumir pacotes de conteúdo organizacional. Em vez disso, é possível usar os aplicativos fornecidos para conectar-se aos serviços de terceiros ou pedir para suas equipes internas fornecerem aplicativos para quaisquer pacotes de conteúdo que você está usando no momento. 
+Na nova experiência de workspaces, não é possível criar ou consumir pacotes de conteúdo organizacional. Em vez disso, é possível usar os aplicativos fornecidos para conectar-se aos serviços de terceiros ou pedir para suas equipes internas fornecerem aplicativos para quaisquer pacotes de conteúdo que você está usando no momento. 
 
-## <a name="give-access-to-your-workspace"></a>Conceder acesso ao seu espaço de trabalho
+## <a name="give-access-to-your-workspace"></a>Conceder acesso ao seu workspace
 
 1. Na lista de conteúdo do espaço de trabalho, como você é administrador, verá uma nova ação, **Acesso**.
 

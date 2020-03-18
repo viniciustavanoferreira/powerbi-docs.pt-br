@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 6f4aa276438d84825c4c7aba6872210b5f3a6564
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264210"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379158"
 ---
 # <a name="tooltip-utils"></a>Utilitários de dicas de ferramentas
 Este artigo ajuda a instalar, importar e usar utilitários de dicas de ferramentas. Tratam-se de utilitários convenientes para a personalização de qualquer dica de ferramenta em visuais do Power BI.

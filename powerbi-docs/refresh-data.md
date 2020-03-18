@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039037"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488788"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -76,7 +76,7 @@ Uma vez que o Power BI não importa os dados, você não precisa executar uma at
 Conjuntos de dados por push não contêm uma definição formal de fonte de dados e, portanto, não exigem que você execute uma atualização de dados no Power BI. Você os atualiza enviando os dados por push para o conjunto de dados usando um serviço ou processo externo, como o Azure Stream Analytics. Essa é uma abordagem comum para a análise em tempo real com o Power BI. O Power BI ainda executa atualizações de cache para os blocos usados acima de um conjunto de dados por push. Para ver um passo a passo detalhado, confira [Tutorial: Stream Analytics e Power BI: um dashboard de análise em tempo real para dados de streaming](/azure/stream-analytics/stream-analytics-power-bi-dashboard).
 
 > [!NOTE]
-> O Modo de envio por push tem várias limitações, conforme documentado em [Limitações da API REST do Power BI](developer/api-rest-api-limitations.md).
+> O Modo de envio por push tem várias limitações, conforme documentado em [Limitações da API REST do Power BI](developer/automation/api-rest-api-limitations.md).
 
 ### <a name="power-bi-refresh-types"></a>Tipos de atualização do Power BI
 
@@ -317,7 +317,7 @@ O ícone de aviso ajuda a indicar problemas atuais no conjunto de dados, mas tam
 
 ## <a name="automatic-page-refresh"></a>Atualização automática de página
 
-A atualização automática de página funciona em um nível de página de relatório e permite que os autores de relatório definam um intervalo de atualização para visuais em uma página que está ativa apenas quando a página é consumida. A atualização automática de página está disponível apenas para fontes de dados DirectQuery. O intervalo mínimo de atualização depende do tipo de espaço de trabalho em que o relatório está publicado e das configurações de capacidade do administrador para espaços de trabalho Premium e [espaços de trabalho inseridos](developer/embedding.md).
+A atualização automática de página funciona em um nível de página de relatório e permite que os autores de relatório definam um intervalo de atualização para visuais em uma página que está ativa apenas quando a página é consumida. A atualização automática de página está disponível apenas para fontes de dados DirectQuery. O intervalo mínimo de atualização depende do tipo de espaço de trabalho em que o relatório está publicado e das configurações de capacidade do administrador para espaços de trabalho Premium e [espaços de trabalho inseridos](developer/embedded/embedding.md).
 
 Saiba mais no artigo sobre [atualização de página automática](desktop-automatic-page-refresh.md).
 

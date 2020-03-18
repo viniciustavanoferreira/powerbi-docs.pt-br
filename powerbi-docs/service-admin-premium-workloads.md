@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427704"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207955"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho em uma capacidade Premium
 
-Este artigo descreve como habilitar e configurar cargas de trabalho para as capacidades Premium do Power BI. Por padrão, as capacidades dão suporte apenas à carga de trabalho associada à execução de consultas do Power BI. Habilite e configure também as cargas de trabalho adicionais para **[IA (Serviços Cognitivos)](service-cognitive-services.md)** , **[Fluxos de dados](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[Relatórios paginados](paginated-reports-save-to-power-bi-service.md)** .
+Este artigo descreve como habilitar e configurar cargas de trabalho para as capacidades Premium do Power BI. Por padrão, as capacidades dão suporte apenas à carga de trabalho associada à execução de consultas do Power BI. Habilite e configure também as cargas de trabalho adicionais para **[IA (Serviços Cognitivos)](service-cognitive-services.md)** , **[Fluxos de dados](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[Relatórios paginados](paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
 
 ## <a name="default-memory-settings"></a>Configurações de memória padrão
 
@@ -67,7 +67,7 @@ A carga de trabalho de conjuntos de dados está habilitada por padrão e não po
 | **Contagem máxima de conjuntos de linhas intermediárias** | O número máximo de linhas intermediárias retornado por DirectQuery. O valor padrão é de 1.000.000 e o intervalo permitido é de 100.000 a 2.147.483.647. |
 | **Tamanho máximo do conjunto de dados offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Esse é o tamanho compactado em disco. O valor padrão é definido pelo SKU e o intervalo permitido é de 0,1 a 10 GB. |
 | **Contagem máxima do conjunto de linhas de resultado** | O número máximo de linhas retornadas em uma consulta DAX. O valor padrão é -1 (nenhum limite) e o intervalo permitido é de 100.000 a 214.7483.647. |
-| **Limite de memória de consulta (%)** | A porcentagem máxima de memória disponível na carga de trabalho que pode ser usada para executar uma consulta MDX ou DAX. |
+| **Limite de memória de consulta (%)** | A porcentagem máxima de memória disponível na carga de trabalho que pode ser usada para executar uma consulta MDX ou DAX. O valor padrão é 0, o que resulta na aplicação do limite de memória de consulta automática específico do SKU. |
 | **Tempo limite da consulta (segundos)** | A quantidade máxima de tempo antes que uma consulta expire. O padrão é de 3.600 segundos (1 hora). Um valor de 0 especifica que as consultas não atingirão o tempo limite. |
 | **Atualização automática de página (visualização)** | Botão de alternância para permitir que workspaces premium tenham relatórios com atualização automática de página. |
 | **Intervalo mínimo de atualização** | Se a atualização automática de página estiver ativada, esse será o intervalo mínimo permitido para o intervalo de atualização de página. O valor padrão é cinco minutos, e o mínimo permitido é um segundo. |
@@ -102,6 +102,14 @@ Use essa configuração para controlar o impacto de relatórios com uso intensiv
 Essa configuração se aplica a todas as consultas DAX e MDX executadas por relatórios do Power BI, relatórios Analisar no Excel, bem como outras ferramentas que podem se conectar ao ponto de extremidade XMLA.
 
 Observe que as operações de atualização de dados também podem executar consultas DAX como parte da atualização dos caches visuais e dos blocos do dashboard após a atualização dos dados no conjunto de dados. Essas consultas também podem falhar devido a essa configuração, o que pode causar a exibição da operação de atualização de dados em um estado de falha, mesmo que a atualização dos dados no conjunto de dados tenha ocorrido com êxito.
+
+A configuração padrão é 0, o que resulta na aplicação do limite de memória de consulta automática específico do SKU a seguir.
+
+|                              | EM1/A1 | EM2/A2 | EM3/A3 | P1/A4 | P2/A5 | P3/A6 |   
+|------------------------------|----------|----------|----------|---------|---------|---------|
+| Limite de memória de consulta automática | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
+|                              |          |          |          |         |         |         |
+
 
 #### <a name="query-timeout"></a>Tempo Limite da Consulta
 
@@ -200,7 +208,7 @@ O [aplicativo de Métricas de capacidade do Power BI Premium](service-admin-prem
 
 [Otimizar as capacidades do Power BI Premium](service-premium-capacity-optimize.md)     
 [Preparação de dados de autoatendimento no Power BI com Fluxos de dados](service-dataflows-overview.md)   
-[O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
+[O que são relatórios paginados no Power BI Premium?](paginated-reports/paginated-reports-report-builder-power-bi.md)   
 [Atualização automática de página no Power BI Desktop (visualização)](desktop-automatic-page-refresh.md)
 
 Mais perguntas? [Perguntar à Comunidade do Power BI](https://community.powerbi.com/)

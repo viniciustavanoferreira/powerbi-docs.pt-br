@@ -10,11 +10,11 @@ ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853543"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207702"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Criar workspaces clássicos no Power BI
 
@@ -24,18 +24,18 @@ No Power BI, é possível criar *workspaces*, lugares para colaborar com colegas
 
 Quando cria um workspace, você está criando um grupo associado e subjacente do Office 365. Toda a administração do workspace é feita no Office 365. Você pode adicionar colegas a esses workspaces como membros ou administradores. No workspace, todos podem colaborar em dashboards, relatórios e outros artigos que você planeja distribuir para um público-alvo maior. Todas as pessoas que você adiciona a um workspace precisam de uma licença do Power BI Pro. 
 
-## <a name="video-apps-and-workspaces"></a>Vídeo: Aplicativos e espaços de trabalho
+## <a name="video-apps-and-workspaces"></a>Vídeo: Aplicativos e workspaces
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Criar um espaço de trabalho clássico com base em um grupo do Office 365
 
-Quando você cria um espaço de trabalho, ele é criado em um grupo do Office 365.
+Quando você cria um workspace, ele é criado em um grupo do Office 365.
 
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
 
 Ao criá-lo pela primeira vez, talvez seja necessário aguardar uma hora ou mais para que o workspace seja propagado para o Office 365. 
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Adicionar uma imagem ao seu espaço de trabalho do Office 365 (opcional)
+### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Adicionar uma imagem ao seu workspace do Office 365 (opcional)
 Por padrão, o Power BI cria um pequeno círculo colorido com as iniciais do seu aplicativo. Mas talvez você queira personalizá-lo com uma imagem. Para adicionar uma imagem, você precisa de uma licença do Exchange Online.
 
 1. Selecione **Workspaces**, selecione **Mais opções** (...) ao lado do nome do workspace e, em seguida, **Membros**. 
@@ -60,11 +60,11 @@ Por padrão, o Power BI cria um pequeno círculo colorido com as iniciais do seu
    
     Em alguns minutos, ela também será exibida no aplicativo do Power BI.
 
-## <a name="add-content-to-your-workspace"></a>Adicionar conteúdo ao seu espaço de trabalho
+## <a name="add-content-to-your-workspace"></a>Adicionar conteúdo ao seu workspace
 
-Após a criação de um espaço de trabalho, é hora de adicionar conteúdo a ele. É tão simples quanto adicionar conteúdo ao Meu workspace, exceto que outras pessoas também podem ver e trabalhar no workspace. Uma grande diferença é que, quando terminar, você poderá publicar o conteúdo como um aplicativo. Quando você exibe conteúdo na lista de conteúdo de um espaço de trabalho, o nome do espaço de trabalho é listado como o proprietário.
+Após a criação de um workspace, é hora de adicionar conteúdo a ele. É tão simples quanto adicionar conteúdo ao Meu workspace, exceto que outras pessoas também podem ver e trabalhar no workspace. Uma grande diferença é que, quando terminar, você poderá publicar o conteúdo como um aplicativo. Quando você exibe conteúdo na lista de conteúdo de um workspace, o nome do workspace é listado como o proprietário.
 
-### <a name="connect-to-third-party-services-in-workspaces"></a>Conectar-se a serviços de terceiros em espaços de trabalho
+### <a name="connect-to-third-party-services-in-workspaces"></a>Conectar-se a serviços de terceiros em workspaces
 
 Os aplicativos são fornecidos para todos os serviços de terceiros com os quais o Power BI é compatível, tornando fácil para você obter dados dos serviços usados, como o Microsoft Dynamics CRM, Salesforce ou Google Analytics. É possível publicar aplicativos organizacionais para dar aos seus usuários os dados de que precisam.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: eaa4354ed7355c0e01d9f75675cb7fed4bdc9d96
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74133717"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79208001"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Conjuntos de dados no serviço do Power BI
 
@@ -26,7 +26,7 @@ Os conjuntos de dados do Power BI representam uma fonte de dados pronta para ger
 - Com conexão a um modelo de dados existente não hospedado em um recurso do Power BI
 - Com o carregamento de um arquivo do Power BI Desktop que contém um modelo
 - Com o carregamento de uma pasta de trabalho do Excel (que contém uma ou mais tabelas do Excel e/ou um modelo de dados da pasta de trabalho) ou o carregamento de um arquivo CSV (valores delimitados por vírgula)
-- Com o uso do serviço do Power BI para criar um [conjunto de dados por push](developer/walkthrough-push-data.md)
+- Com o uso do serviço do Power BI para criar um [conjunto de dados por push](developer/automation/walkthrough-push-data.md)
 - Com o uso do serviço do Power BI para criar um [conjunto de dados de streaming ou híbrido](service-real-time-streaming.md)
 
 Exceto para conjuntos de dados de streaming, o conjunto de dados representa um modelo de dados que aproveita as tecnologias de modelagem maduras do [Analysis Services](/analysis-services/analysis-services-overview).

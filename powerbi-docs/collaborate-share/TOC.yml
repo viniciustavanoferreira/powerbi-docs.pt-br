@@ -51,6 +51,8 @@
               href: ../service-url-filters.md
             - name: Assine para você e para outras pessoas
               href: ../service-report-subscribe.md
+            - name: Conteúdo do recurso na Página Inicial
+              href: service-featured-content.md
             - name: Inserir o relatório no Microsoft Teams
               href: ../service-embed-report-microsoft-teams.md
             - name: Inserir o relatório no SharePoint Online

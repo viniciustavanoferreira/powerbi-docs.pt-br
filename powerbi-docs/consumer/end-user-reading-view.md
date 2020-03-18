@@ -10,16 +10,19 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2019
+ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862682"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206023"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Início Rápido: saiba mais sobre as funcionalidades do Power BI para *consumidores*
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+
 Neste início rápido, você aprenderá como interagir com o Power BI para descobrir informações de negócios controladas por dados. Este artigo não visa ser um aprofundamento do tema, mas sim uma passagem rápida por muitas das ações disponíveis para **consumidores** do Power BI.
 
 Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
@@ -32,7 +35,7 @@ O Power BI é uma coleção de serviços de software, aplicativos e conectores q
 ## <a name="reading-view"></a>Exibição de leitura
 O Modo de Exibição de Leitura está disponível no serviço do Power BI para *consumidores* de relatório. Quando um colega compartilhar um relatório, um dashboard ou um aplicativo com você, a exibição de Leitura será sua maneira de explorar e interagir com o relatório. 
 
-Basta abrir o Serviço do Power BI em um navegador ou em um dispositivo móvel. Você e seus colegas trabalham sobre os mesmos aplicativos, dashboards e relatórios confiáveis, que são atualizados automaticamente para que todos trabalhem sempre com o conteúdo mais recente.   
+Basta abrir o Serviço do Power BI em um navegador ou em um dispositivo móvel. Você e seus colegas trabalham nos mesmos aplicativos, dashboards e relatórios confiáveis, que são atualizados automaticamente para que todos trabalhem sempre com o conteúdo mais recente.   
 
 Como o conteúdo não é estático, você pode se aprofundar buscando tendências, insights e outros aspectos de business intelligence. Explore cada parte do conteúdo e até mesmo faça perguntas usando suas próprias palavras. Ou apenas relaxe e deixe que seus dados descubram insights interessantes para você, emitam alertas quando os dados forem alterados e enviem relatórios por email com base em um agendamento prévio definido por você. Todos os seus dados, a qualquer momento, na nuvem ou localmente, por meio de qualquer dispositivo. 
 
@@ -186,7 +189,7 @@ Além de mostrar os dados usados para criar um visual, você também pode export
 
 ![dados exportados para o Excel](./media/end-user-reading-view/power-bi-export-powerpoint.png)
 
-<!-- Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
+<!-- Exporting isn't limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 

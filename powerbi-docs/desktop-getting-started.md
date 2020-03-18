@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222187"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133328"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo(a) ao guia de introdução ao Power BI Desktop. Este tour mostra como o Power BI Desktop funciona, o que ele é capaz de fazer e como você pode criar modelos de dados robustos e relatórios incríveis para ampliar seu business intelligence.
 
 Para ter uma visão geral rápida de como o Power BI Desktop funciona e como usá-lo, confira as telas neste guia em apenas alguns minutos. Para ter uma compreensão mais detalhada, você pode ler cada seção, executar as etapas e criar seu próprio arquivo do Power BI Desktop para publicá-lo no [serviço do Power BI](https://app.powerbi.com/) e compartilhá-lo com outras pessoas.
 
-![Relatório do Power BI Desktop](media/desktop-getting-started/hero.png)
+![Relatório do Power BI Desktop](media/desktop-getting-started/hero-02.png)
 
 Você também pode assistir ao vídeo [Introdução ao Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) e baixar a pasta de trabalho do Excel [Exemplo Financeiro](https://go.microsoft.com/fwlink/?LinkID=521962) para acompanhar o vídeo.
 

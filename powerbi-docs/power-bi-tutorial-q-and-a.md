@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875085"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488857"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Usar P e R do Power BI para explorar seus dados e criar visuais
 
 Às vezes, a maneira mais rápida de obter uma resposta de seus dados é fazer uma pergunta usando o idioma natural. O recurso de P e R do Power BI permite que você explore seus dados com suas próprias palavras.  A primeira parte deste artigo mostra como você usa P e R em painéis no serviço do Power BI. A segunda parte mostra o que você pode fazer com P e R ao criar relatórios no serviço do Power BI ou no Power BI Desktop. Para saber mais, confira o artigo [P e R para consumidores](consumer/end-user-q-and-a.md). 
 
-[P e R nos aplicativos móveis do Power BI](consumer/mobile/mobile-apps-ios-qna.md) e [P e R com o Power BI Embedded](developer/qanda.md) são abordadas em artigos separados. 
+[P e R nos aplicativos móveis do Power BI](consumer/mobile/mobile-apps-ios-qna.md) e [P e R com o Power BI Embedded](developer/embedded/qanda.md) são abordadas em artigos separados. 
 
 P e R é interativa, até mesmo divertida. Muitas vezes, uma pergunta leva a outras, pois as visualizações revelam caminhos interessantes a serem seguidos. Veja Amanda demonstrando o uso de P e R para criar visualizações, aprofundando-se nesses elementos visuais e fixando-os nos dashboards.
 

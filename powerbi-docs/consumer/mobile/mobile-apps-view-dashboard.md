@@ -1,19 +1,19 @@
 ---
 title: Exibir painéis e relatórios nos aplicativos móveis do Power BI
 description: Criar e conectar-se aos painéis e relatórios no serviço do Power BI. Em seguida, exiba-os nos aplicativos móveis do Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218298"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205517"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Exibir painéis e relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -74,7 +74,7 @@ Você também pode virar seu telefone para os lados para exibir os dashboards no
 
 ![Exibição de paisagem do dashboard](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 
-Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do seu painel e o movimento panorâmico para navegar por ele. Além disso, também é possível [tocar em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo foco e interagir com os dados.
+Você pode usar o gesto de "pinçar" para ampliar e reduzir áreas diferentes do seu painel e o movimento panorâmico para navegar por ele. Além disso, também é possível [tocar em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo foco e interagir com os dados.
 
 ## <a name="view-dashboards-on-your-ipad"></a>Exibir painéis em seu iPad
 1. Abra o aplicativo Power BI.
@@ -138,12 +138,12 @@ Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do s
    ![Menu de reticências](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Passe o dedo para cima e para baixo para ver todos os [blocos no dashboard](mobile-tiles-in-the-mobile-apps.md). 
    
-   Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do seu painel e o movimento panorâmico para navegar por ele. Além disso, também é possível [tocar em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo foco e interagir com os dados.
+   Você pode usar o gesto de "pinçar" para ampliar e reduzir áreas diferentes do seu painel e o movimento panorâmico para navegar por ele. Além disso, também é possível [tocar em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo foco e interagir com os dados.
 5. Para voltar para a página inicial dos dashboards, toque no nome do dashboard para abrir a trilha de navegação estrutural e, em seguida, toque em **Meu Workspace**:
    
     ![Navegação estrutural](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
-    Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do seu painel e o movimento panorâmico para navegar por ele. Além disso, também é possível [tocar em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo foco e interagir com os dados.
+    Você pode usar o gesto de "pinçar" para ampliar e reduzir áreas diferentes do seu painel e o movimento panorâmico para navegar por ele. Além disso, também é possível [tocar em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo foco e interagir com os dados.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Criar uma exibição de telefone de um dashboard no serviço do Power BI
 Se você for o proprietário do dashboard, *no serviço do Power BI*, poderá criar uma exibição do dashboard, especificamente para telefones no modo retrato. 

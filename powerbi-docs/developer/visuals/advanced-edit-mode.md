@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 19714db2d1307ac9d7eb8861955870ba9988539e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880321"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380538"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Modo de edição avançada em visuais do Power BI
 
@@ -39,7 +39,7 @@ Um botão **Editar** será exibido se:
 
 Se a propriedade `advancedEditModeSupport` estiver ausente no arquivo *capabilities.json* ou definida como `NotSupported`, o botão **Editar** não será exibido.
 
-![Entrar no modo de edição](./media/edit-mode.png)
+![Entrar no modo de edição](media/advanced-edit-mode/edit-mode.png)
 
 Quando você seleciona **Editar**, o visual obtém uma chamada update() com EditMode definido como `Advanced`. Dependendo do valor definido no arquivo *capabilities.json*, as seguintes ações ocorrerão:
 

@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
-ms.author: pashah
-ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.author: parshah
+ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565724"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78402015"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI
 O Servidor de Relatórios do Power BI é uma solução de relatórios corporativos e de BI de autoatendimento que os clientes podem implantar em suas instalações, protegida pelo firewall. Ele combina a funcionalidade de relatório interativo do Power BI Desktop com a plataforma de servidor local do SQL Server Reporting Services. Com o uso intenso e cada vez maior de análises e relatórios nas empresas, a inclusão no orçamento da infraestrutura de hardware e das licenças de software necessárias para dimensionar para uma base de usuários corporativos pode ser um desafio. Este documento tem como objetivo oferecer diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI, com o compartilhamento de resultados de diversas execuções de teste de carga de várias cargas de trabalho em um servidor de relatório. Embora os relatórios, as consultas e os padrões de uso das organizações variem muito, os resultados apresentados neste documento, juntamente com os testes reais usados e uma descrição detalhada de como eles foram executados, servem como um ponto de referência para qualquer pessoa que está no processo de planejamento do estágio inicial da implantação do Servidor de Relatórios do Power BI.
@@ -21,8 +21,8 @@ O Servidor de Relatórios do Power BI é uma solução de relatórios corporativ
 ## <a name="executive-summary"></a>Resumo executivo
 Executamos dois tipos diferentes de cargas de trabalho em um Servidor de Relatórios do Power BI; cada carga de trabalho consistia na renderização de diferentes tipos de relatórios, bem como na execução de várias operações do portal da Web. 
 
-* Na carga de trabalho “Intensa de Relatório do Power BI”, a operação executada com mais frequência (ou seja, a operação foi executada 60% do tempo) renderizou relatórios do Power BI.
-* Na carga de trabalho “Intensa de Relatório Paginado”, a operação executada com mais frequência renderizou relatórios paginados.
+* Na carga de trabalho "Intensa de Relatório do Power BI", a operação executada com mais frequência (ou seja, a operação foi executada 60% do tempo) renderizou relatórios do Power BI.
+* Na carga de trabalho "Intensa de Relatório Paginado", a operação executada com mais frequência renderizou relatórios paginados.
 
 Em uma topologia de quatro servidores do Servidor de Relatórios do Power BI e com a expectativa de que não mais do que 5% dos usuários acessará um servidor de relatório a qualquer momento, a tabela a seguir descreve o número máximo de usuários que pode ser manipulado pelo Servidor de Relatórios do Power BI com, uma confiabilidade de, pelo menos, 99%. 
 
@@ -56,7 +56,7 @@ Os testes usados nas execuções de teste de carga estão disponíveis publicame
 * Testes que simulam a renderização de relatórios paginados pequenos e grandes; e 
 * Testes que simulam a execução de vários tipos de operações do portal da Web. 
 
-Todos os testes foram escritos para executar uma operação de ponta a ponta (como renderização de um relatório, criação de uma nova fonte de dados, etc.). Eles realizam isso fazendo uma ou mais solicitações da Web para o servidor de relatório (por meio de APIs). No mundo real, um usuário pode precisar executar algumas operações intermediárias para concluir uma dessas operações de ponta a ponta. Por exemplo, para renderizar um relatório, um usuário precisará acessar o portal da Web, navegar para a pasta em que o relatório está localizado e, depois, clicar no relatório para renderizá-lo. Embora os testes não executem todas as operações necessárias para realizar uma tarefa de ponta a ponta, eles ainda impõem a maior parte da carga que o Servidor de Relatórios do Power BI experimentará. Saiba mais sobre os diferentes tipos de relatórios usados, bem como a variedade de operações executadas explorando o projeto do GitHub.  
+Todos os testes foram escritos para executar uma operação de ponta a ponta (como renderização de um relatório, criação de uma nova fonte de dados, etc.). Eles realizam isso fazendo uma ou mais solicitações da Web para o servidor de relatório (por meio de APIs). No mundo real, um usuário pode precisar executar algumas operações intermediárias para concluir uma dessas operações de ponta a ponta. Por exemplo, para renderizar um relatório, um usuário precisará acessar o portal da Web, navegar para a pasta em que o relatório está localizado e, depois, clicar no relatório para renderizá-lo. Embora os testes não executem todas as operações necessárias para realizar uma tarefa de ponta a ponta, eles ainda impõem a maior parte da carga que o Servidor de Relatórios do Power BI usará. Saiba mais sobre os diferentes tipos de relatórios usados, bem como a variedade de operações executadas explorando o projeto do GitHub.  
 
 > [!NOTE]
 > A ferramenta não é oficialmente compatível com a Microsoft, mas a equipe de produto contribui com o projeto e responde problemas gerados por outros colaboradores.
@@ -110,13 +110,13 @@ Selecione um relatório para exibir os resultados do teste de carga.
 ## <a name="summary"></a>Resumo
 Para cada execução de teste de carga, a CPU foi o recurso mais sobrecarregado no ponto de carga de pico no computador do Servidor de Relatórios do Power BI. Devido a isso, o primeiro recurso que deve ser aumentado é o número de núcleos. Como alternativa, você pode considerar a possibilidade de expandir com a adição de mais servidores que hospedam o Servidor de Relatórios do Power BI na topologia.
 
-Os resultados apresentados neste documento foram obtidos com a execução de um conjunto específico de relatórios que consumiram um conjunto específico de dados, repetidos de uma maneira específica. É um ponto de referência útil, mas tenha em mente que o uso dependerá dos relatórios, das consultas, dos padrões de uso e da implantação do Servidor de Relatórios do Power BI.
+Os resultados apresentados neste documento foram obtidos com a execução de um conjunto específico de relatórios que consumiram um conjunto específico de dados, repetidos de uma maneira específica. É um ponto de referência útil, mas lembre-se de que o uso dependerá dos relatórios, das consultas, dos padrões de uso e da implantação do Servidor de Relatórios do Power BI.
 
 ## <a name="appendix"></a>Apêndice
 ### <a name="1-topology"></a>1 Topologia
 **1.1 Topologia do Servidor de Relatórios do Power BI**
 
-Para se concentrar apenas no comportamento do Servidor de Relatórios do Power BI em configurações diferentes, a configuração de VM de cada tipo de computador (com exceção do computador que hospeda o Servidor de Relatórios do Power BI) foi corrigida. Cada computador foi provisionado de acordo com os computadores da Série D de segunda geração (v2) com Discos de Armazenamento Premium. Você pode encontrar informações detalhadas sobre cada tamanho da VM na seção "Propósito geral" em https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
+Para se concentrar apenas no comportamento do Servidor de Relatórios do Power BI em configurações diferentes, a configuração de VM de cada tipo de computador (com exceção do computador que hospeda o Servidor de Relatórios do Power BI) foi corrigida. Cada computador foi provisionado de acordo com os computadores da Série D de segunda geração (v2) com Discos de Armazenamento Premium. Você pode encontrar informações detalhadas sobre cada tamanho de VM na seção "Uso geral", em https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Tipo de máquina virtual | Processador | Memória | Tamanho de VM do Azure |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Para se concentrar apenas no comportamento do Servidor de Relatórios do Power B
 
 **1.2 Configuração de máquina virtual do Servidor de Relatórios do Power BI** 
 
-Foram usadas configurações diferentes de processador e memória para a Máquina Virtual que hospeda o Servidor de Relatórios do Power BI. Ao contrário das outras VMs, esse computador foi provisionado de acordo com os Computadores da Série D de terceira geração (v3) máquinas com Discos de Armazenamento Premium. Você pode encontrar informações detalhadas sobre este tamanho da VM na seção "Propósito geral" em https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
+Foram usadas configurações diferentes de processador e memória para a Máquina Virtual que hospeda o Servidor de Relatórios do Power BI. Ao contrário das outras VMs, esse computador foi provisionado de acordo com os Computadores da Série D de terceira geração (v3) máquinas com Discos de Armazenamento Premium. Você pode encontrar informações detalhadas sobre este tamanho de VM na seção "Uso geral", em https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Máquina virtual | Processador | Memória | Tamanho de VM do Azure |
 | --- | --- | --- | --- |
@@ -134,7 +134,7 @@ Foram usadas configurações diferentes de processador e memória para a Máquin
 | **Servidor de Relatórios do Power BI (Grande)** |16 núcleos |64 GB |vStandard_D16S_v3 |
 
 ### <a name="2-run-the-loadtest-tool"></a>2 Executar a ferramenta LoadTest
-Se você deseja executar a ferramenta LoadTest do Reporting Services em uma implantação sua ou uma implantação do Microsoft Azure do Servidor de Relatórios do Power BI, siga estas etapas.
+Para executar a ferramenta LoadTest do Reporting Services em uma implantação própria ou do Microsoft Azure do Servidor de Relatórios do Power BI, faça o seguinte:
 
 1. Clone o projeto Reporting Services LoadTest do GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest).  
 2. No diretório do projeto, você encontrará um arquivo de solução chamado RSLoadTests.sln. Abra esse arquivo no Visual Studio 2015 ou posterior.
@@ -143,4 +143,3 @@ Se você deseja executar a ferramenta LoadTest do Reporting Services em uma impl
 5. Depois de concluir a implantação do ambiente, siga as instruções apresentadas em https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution para executar os testes.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

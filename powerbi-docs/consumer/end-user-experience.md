@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975046"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040133"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido – Explorando o serviço do Power BI
 
@@ -72,7 +72,7 @@ Confira você mesmo ao selecionar **Workspaces** na barra de navegação à esqu
 
 ![Meus Workspaces ](./media/end-user-experience/power-bi-workspaces.png)
 
-O **Meu Workspace** armazena todo o conteúdo que você tem e cria. Pense nele como sua área restrita pessoal ou como área de trabalho para seu próprio conteúdo. Para muitos *consumidores* do Power BI, o **Meu workspace** permanece vazio porque seu trabalho não envolve criar conteúdo.  Os *consumidores*, por definição, consomem dados criados por outras pessoas e usam esses dados para tomar decisões de negócios. Se você acha que está criando conteúdo, considere ler os [artigos do Power BI para *designers*](../power-bi-creator-landing.md).
+O **Meu Workspace** armazena todo o conteúdo que você tem e cria. Pense nele como sua área restrita pessoal ou como área de trabalho para seu próprio conteúdo. Para muitos *consumidores* do Power BI, o **Meu workspace** permanece vazio porque seu trabalho não envolve criar conteúdo.  Os *consumidores*, por definição, consomem dados criados por outras pessoas e usam esses dados para tomar decisões de negócios. Se você acha que está criando conteúdo, considere ler os [artigos do Power BI para *criadores de relatórios*](../index.yml).
 
 Os **workspaces de aplicativo** contêm todo o conteúdo para o aplicativo específico.  Quando um *designer* cria um aplicativo, ele agrupa todo o conteúdo necessário para que o aplicativo seja utilizado.  Selecione o workspace Vendas e Marketing para ver o que o *designer* agrupou no aplicativo. 
 

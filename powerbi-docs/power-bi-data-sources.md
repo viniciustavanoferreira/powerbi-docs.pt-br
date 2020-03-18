@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427083"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041667"
 ---
 # <a name="power-bi-data-sources"></a>Fontes de dados do Power BI
 
@@ -43,7 +43,7 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Azure HDInsight (HDFS) | Sim | Sim | Não | Não | Não |
 | Azure HDInsight Spark | Sim | Sim | Sim | Não | Não |
 | Banco de Dados SQL do Azure | Sim | Sim | Sim | Sim <sup>2</sup> | Não |
-| SQL Data Warehouse do Azure | Sim | Sim | Sim | Não | Não |
+| SQL Data Warehouse do Azure | Sim | Sim | Sim | Sim <sup>2</sup> | Não |
 | Armazenamento de Tabelas do Azure | Sim | Sim | Não | Sim | Não |
 | Conector do BI | Sim | Sim | Sim | Sim | Sim |
 | BI360 – Relatórios financeiros e de orçamento | Sim | Sim | Não | Não | Não |
@@ -134,7 +134,7 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Twilio | Sim | Sim | Não | Não | Não |
 | tyGraph | Sim | Sim | Não | Não | Não |
 | Vertica | Sim | Sim | Sim | Sim | Sim |
-| Web | Sim | Sim | Não | Sim | Sim |
+| Web | Sim | Sim | Não | Sim | Sim <sup>6</sup> |
 | Webtrends | Sim | Sim | Não | Não | Não |
 | Workforce Dimensions | Sim | Sim | Não | Sim | Não |
 | XML | Sim | Sim | Não | Sim | Não <sup>4</sup> |
@@ -143,13 +143,15 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 
 <sup>1</sup> Compatível com o [provedor do ACE OLEDB](https://www.microsoft.com/download/details.aspx?id=54920), instalado no mesmo computador que o gateway.
 
-<sup>2</sup> Compatível com a mesma função M que a versão local.
+<sup>2</sup> Compatível com a mesma função M da versão local, restringindo as opções de autenticação (o gateway não tem suporte para OAuth).
 
 <sup>3</sup> Os arquivos do Excel 1997-2003 (.xls) exigem o [provedor ACE OLEDB](https://www.microsoft.com/download/details.aspx?id=54920).
 
 <sup>4</sup> Necessário para a versão local da tecnologia.
 
 <sup>5</sup> Compatível apenas com o [gateway pessoal](service-gateway-personal-mode.md).
+
+<sup>6</sup> Obrigatório para .html, .xls e Bancos de Dados do Access
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>SSO (logon único) para fontes do DirectQuery
 

@@ -6,17 +6,20 @@ ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099009"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114296"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas na P e R do Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecida pela P e R
 A lista de palavras-chave nesta página não é abrangente.  A melhor maneira de ver se o Power BI reconhece uma palavra-chave é testá-la digitando-a na caixa de perguntas.  Se a palavra ou o termo estiver esmaecido, o Power BI não o reconhece.
 
@@ -33,7 +36,7 @@ A lista abaixo usa o presente do indicativo, mas, na maioria dos casos, todos os
 |     |         |         
 **Artigos**     |  um, uma, o, a              |
 |     |         |         
-|**Em branco e Booliano**     |   em branco, vazio, nulo, prefixado com “não” ou “não-”, cadeia de caracteres vazia, texto vazio, verdadeiro, v, falso, f          |
+|**Em branco e Booliano**     |   em branco, vazio, nulo, prefixado com "não" ou "não-", cadeia de caracteres vazia, texto vazio, verdadeiro, v, falso, f          |
 |     |         |         |
 |**Comparações**     |   vs, versus, comparado a, em comparação com            |
 |     |         |         |

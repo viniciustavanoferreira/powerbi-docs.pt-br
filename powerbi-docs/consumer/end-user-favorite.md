@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852646"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040494"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Adicionar painéis, relatórios e aplicativos aos favoritos no serviço do Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Ao tornar o conteúdo um *favorito*, você poderá acessá-lo rapidamente na lista de conteúdo de **Favoritos** e em **Página Inicial do Power BI** > **Favoritos + frequentes**. Os Favoritos normalmente representam o conteúdo que você visita com mais frequência e são identificados com uma estrela amarela.
 
    ![Ícone Favoritos](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![Ícone Favoritos + frequentes](./media/end-user-favorite/power-bi-home.png)
-
-Você também pode selecionar um único dashboard como um [Dashboard em destaque](end-user-featured.md) no serviço do Power BI.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Adicionar um dashboard ou relatório como um favorito
 
@@ -67,7 +68,7 @@ Se não usa mais um relatório com tanta frequência, você poderá removê-lo d
 2. Selecione a estrela amarela ao lado do conteúdo que deseja remover dos Favoritos.
 
 > [!NOTE]
-> Você também pode remover um dashboard, um relatório ou o próprio aplicativo dos Favoritos. Basta abrir e desmarcar o ícone amarelo. 
+> Você também pode remover um dashboard, um relatório ou o próprio aplicativo dos Favoritos. Basta abrir e selecionar a estrela amarela para transformá-la novamente em uma estrela branca. 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações

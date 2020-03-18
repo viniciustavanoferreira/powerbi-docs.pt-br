@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259814"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041531"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -21,6 +21,29 @@ Para informações sobre “Novidades” relacionadas, consulte:
 * [Blog da equipe do Power BI para os aplicativos móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades no Power BI Desktop](../../desktop-latest-update.md)  
 * [Novidades no serviço do Power BI](../../service-whats-new.md)  
+
+## <a name="february-2020"></a>Fevereiro de 2020
+
+### <a name="multi-select-mode-android-and-ios"></a>Modo de seleção múltipla (Android e iOS)
+
+Adicionamos a capacidade de selecionar vários pontos de dados em uma página de relatório. Quando a opção de seleção múltipla está ativada, cada ponto de dados em que você toca é adicionado aos outros pontos de dados selecionados, e os resultados combinados são realçados automaticamente em todos os visuais da página. Para ativar o modo de seleção múltipla, acesse a página [configurações de aplicativo móvel](./mobile-app-interaction-settings.md).
+
+>[!NOTE]
+>O modo de seleção múltipla terá suporte do Servidor de Relatórios do Power BI no próximo lançamento dessa plataforma.
+
+### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>Agora, o rodapé do relatório fica sempre visível no aplicativo móvel para iPhones
+
+Em seu iPhone, como no telefone Android, agora é possível encaixar o rodapé do relatório na parte inferior da página do relatório, na qual ele estará sempre visível e disponível, independentemente de suas ações na página. Isso facilita o uso de todas as opções que ele fornece. Para encaixar o rodapé, alterne o **Rodapé de relatório encaixado** na página [configurações do aplicativo móvel](./mobile-app-interaction-settings.md).
+
+### <a name="support-for-pbirs-reports-preview-windows"></a>Suporte para relatórios do PBIRS (versão prévia) (Windows)
+
+Agora você pode abrir seus relatórios do PBIRS (Servidor de Relatórios do Power BI) no aplicativo Power BI.
+
+### <a name="quickly-access-your-recent-items-windows"></a>Acessar rapidamente seus itens recentes (Windows)
+
+Clique com o botão direito do mouse no ícone do aplicativo Power BI na barra de tarefas do Windows para obter uma lista de todos os itens exibidos recentemente. Clique em qualquer item na lista para visitá-lo rapidamente.
+
+![Menu de acesso rápido da barra de tarefas](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-windows-taskbar-quick-access.png)
 
 ## <a name="january-2020"></a>Janeiro de 2020
 
@@ -38,7 +61,7 @@ Soubemos dos nossos usuários do Android que a experiência deles com os relató
 
 Os usuários que preferem o comportamento anterior podem restaurar esses comportamentos com as novas e expandidas [configurações de interação](./mobile-app-interaction-settings.md) do aplicativo móvel.
 
-Além disso, os administradores de TI podem [substituir remotamente as novas configurações padrão](./mobile-app-configuration.md#interaction-settings-android) em nome dos usuários, usando a ferramenta de MDM de sua escolha com um arquivo de configuração de aplicativos. Dessa forma, todos os usuários de uma organização podem ter o mesmo comportamento configurado para eles.
+Além disso, os administradores de TI podem [substituir remotamente as novas configurações padrão](./mobile-app-configuration.md#interaction-settings-ios-and-android) em nome dos usuários, usando a ferramenta de MDM de sua escolha com um arquivo de configuração de aplicativos. Dessa forma, todos os usuários de uma organização podem ter o mesmo comportamento configurado para eles.
 
 > [!NOTE]
 > As configurações de interação para o botão Atualizar e para encaixar o rodapé do relatório atualmente não têm efeito sobre os relatórios do Servidor de Relatório. Isso será alterado na versão de janeiro do Servidor de Relatório.
@@ -210,7 +233,7 @@ O painel de filtro do relatório já está disponível para relatórios no modo 
 
 ### <a name="modern-visual-header"></a>Cabeçalho de visual moderno 
 
-Os relatórios que usam o novo “cabeçalho de visual moderno” deixarão de alocar espaço para cabeçalhos, resultando em menos espaço vazio e mais espaço para as visualizações.
+Os relatórios que usam o novo "cabeçalho de visual moderno" deixarão de alocar espaço para cabeçalhos, resultando em menos espaço vazio e mais espaço para as visualizações.
 
 ### <a name="enhance-presentation-mode-windows"></a>Modo de apresentação aprimorada (Windows)
 
@@ -573,7 +596,7 @@ Leia o [resumo de recursos dos aplicativos móveis do Power BI publicado em nove
 Leia o [resumo de recursos dos aplicativos móveis do Power BI publicado em outubro de 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-october-2016/).
 
 #### <a name="all-devices"></a>Todos os dispositivos
-**Favoritos como página de aterrissagem** se você marcou a qualquer um dos seus painéis como favoritos, sua página inicial será a entrada de Favoritos. 
+**Favoritos como página de aterrissagem** se você marcou a qualquer um dos seus dashboards como favoritos, sua página inicial será a entrada de Favoritos. 
 
 **Navegação aprimorada** A navegação principal tem uma nova aparência e a navegação de grupos foi movida para o catálogo de grupos. 
 
@@ -699,11 +722,11 @@ Leia o [blog dos Aplicativos Móveis do Power BI publicado em março de 2016](ht
 
 **iOS 9.0 e posterior** Para acomodar a melhor experiência e os novos recursos para o Power BI, agora damos suporte apenas a dispositivos que executam o iOS 9.0 e posterior.
 
-**Pesquisa global** Adição de uma nova lista de “exibidos recentemente” e a pesquisa global, para que você possa encontrar os dados de que precisa rapidamente.
+**Pesquisa global** Adição de uma nova lista de "exibidos recentemente" e a pesquisa global, para que você possa encontrar os dados de que precisa rapidamente.
 
 **Galeria de relatórios** Abra seus relatórios diretamente na galeria de relatórios.
 
-**Dados atualizados offline** A nova atualização em segundo plano atualiza automaticamente os dados armazenados em cache quando estiver online, para que você tenha os dados mais recentes [mesmo quando estiver offline](mobile-apps-offline-data.md). 
+**Dados atualizados offline** A nova atualização em segundo plano atualiza automaticamente os dados armazenados em cache quando está online, para que você tenha os dados mais recentes [mesmo quando estiver offline](mobile-apps-offline-data.md). 
 
 **Blocos do Bing e do R** Abra blocos do Bing e do R no modo foco.
 
@@ -712,10 +735,10 @@ Leia o [blog dos Aplicativos Móveis do Power BI publicado em março de 2016](ht
 
 **Exibir relatórios** Abra relatórios de blocos em seus dashboards.
 
-**Dados atualizados offline** A nova atualização em segundo plano atualiza automaticamente os dados armazenados em cache quando estiver online, para que você tenha os dados mais recentes [mesmo quando estiver offline](mobile-apps-offline-data.md). 
+**Dados atualizados offline** A nova atualização em segundo plano atualiza automaticamente os dados armazenados em cache quando está online, para que você tenha os dados mais recentes [mesmo quando estiver offline](mobile-apps-offline-data.md). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Aplicativo Power BI para dispositivos Windows 10
-**Acesso rápido** Acesse seus dashboards, relatórios e grupos rapidamente com uma nova lista de “exibidos recentemente” e uma pesquisa global para encontrar os dados necessários.
+**Acesso rápido** Acesse seus dashboards, relatórios e grupos rapidamente com uma nova lista de "exibidos recentemente" e uma pesquisa global para encontrar os dados necessários.
 
 **Blocos do Bing e do R** Abra blocos do Bing e do R no modo foco.
 
@@ -832,4 +855,3 @@ Aprimoramentos nos aplicativos móveis do Power BI, Android, iOS (iPhone e iPad)
 * Melhor experiência de usuário ao acessar painéis usando a segurança baseada em função. 
 * Uma nova funcionalidade permite que você navegue para frente e para trás por meio de blocos de painel explorando-os diretamente no modo em foco sem a necessidade de retornar ao painel para selecionar o próximo bloco.
 * Estabilidade adicional e melhorias de desempenho. 
-

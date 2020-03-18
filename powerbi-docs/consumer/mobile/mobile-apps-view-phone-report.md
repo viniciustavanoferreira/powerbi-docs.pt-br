@@ -1,19 +1,19 @@
 ---
 title: Exibir relatórios do Power BI otimizados para seu telefone
 description: Leia sobre a interação com páginas de relatório otimizadas para exibição em aplicativos do Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: mshenhav
-ms.openlocfilehash: f8dba41a15390e4b52227c7daaa603daf7c08939
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870524"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114891"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Exibir relatórios do Power BI otimizados para seu telefone
 
@@ -27,7 +27,7 @@ Quando você exibe um relatório do Power BI em seu telefone, o Power BI verific
 
 ![Relatório no modo retrato](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
-Se um relatório otimizado para telefone não existir, o relatório será aberto, mas no modo de exibição de paisagem não otimizada. Mesmo em um relatório otimizado para telefones, se você mudar a orientação do telefone, o relatório será aberto na exibição não otimizada com o layout original do relatório. Se somente algumas páginas forem otimizadas, você encontrará uma mensagem na exibição de retrato, indicando que o relatório está disponível em paisagem.
+Caso não haja um relatório otimizado para telefone, o relatório será aberto, mas no modo de exibição de paisagem não otimizada. Mesmo em um relatório otimizado para telefones, se você mudar a orientação do telefone, o relatório será aberto na exibição não otimizada com o layout original do relatório. Se somente algumas páginas forem otimizadas, você encontrará uma mensagem na exibição de retrato, indicando que o relatório está disponível em paisagem.
 
 ![Página de relatório não otimizada](./media/mobile-apps-view-phone-report/06-power-bi-phone-report-page-not-optimized.png)
 

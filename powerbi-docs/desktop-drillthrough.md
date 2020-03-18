@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/08/2019
+ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7b00b0cb611dd3e0921885ddaca6547fdb43fd3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74311021"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401251"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Usar o detalhamento no Power BI Desktop
 Com o *detalhamento* no Power BI Desktop, você pode criar uma página em seu relatório que tenha como foco uma entidade específica, como um fornecedor, cliente ou fabricante. Para usar o detalhamento, selecione-o clicando com o botão direito do mouse em um ponto de dados em outras páginas de relatório e fazendo uma busca detalhada para a página de foco para obter detalhes filtrados para esse contexto.
@@ -33,6 +33,11 @@ Com o *detalhamento* no Power BI Desktop, você pode criar uma página em seu re
     Quando você adiciona um campo à caixa **Filtros de detalhamento**, o Power BI Desktop cria automaticamente um visual do botão *voltar*. Esse elemento visual transforma-se em um botão nos relatórios publicados. Os usuários que consomem seu relatório no serviço do Power BI usam esse botão para voltar para a página do relatório de origem.
 
     ![Imagem do detalhamento](media/desktop-drillthrough/drillthrough_03.png)
+
+> [!IMPORTANT]
+> Você pode configurar e fazer o detalhamento em uma página do mesmo relatório, no entanto, não é possível detalhar uma página em um relatório diferente.  
+
+
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Use sua própria imagem para um botão Voltar    
  Como o botão Voltar é uma imagem, você pode substituir a imagem desse elemento visual por qualquer imagem desejada. Ele ainda funcionará como um botão Voltar para que os consumidores do relatório possam voltar para a página original. 
@@ -54,13 +59,12 @@ Para usar sua própria imagem para um botão voltar, siga estas etapas:
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Passar todos os filtros no detalhamento
 
-Começando com a versão de maio de 2018 do Power BI Desktop, você pode passar todos os filtros aplicados para a janela de detalhamento. Por exemplo, você pode selecionar apenas uma determinada categoria de produtos e os visuais filtrados para essa categoria e, em seguida, selecionar o detalhamento. Provavelmente você vai querer saber como esse detalhamento ficará com todos esses filtros aplicados.
+Você pode passar todos os filtros aplicados para a janela de detalhamento. Por exemplo, você pode selecionar apenas uma determinada categoria de produtos e os visuais filtrados para essa categoria e, em seguida, selecionar o detalhamento. Provavelmente você vai querer saber como esse detalhamento ficará com todos esses filtros aplicados.
 
 Para manter todos os filtros aplicados, na seção **Detalhamento** do painel **Visualizações**, defina o **Manter todos os filtros** como **Ativado**. 
 
 ![Manter todos os filtros](media/desktop-drillthrough/drillthrough_06.png)
 
-Nas versões do Power BI Desktop anteriores à de maio de 2018, o comportamento é o mesmo de quando esse botão de alternância está definido como **Desativado**.
 
 Em seguida, ao fazer o detalhamento em um visual, você poderá ver quais filtros foram aplicados como resultado da aplicação de filtros temporários no visual de origem. Na seção **Detalhamento** do painel **Visualização**, esses filtros transitórios são mostrados em itálico. 
 

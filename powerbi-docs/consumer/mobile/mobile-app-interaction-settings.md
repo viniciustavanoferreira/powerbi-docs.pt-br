@@ -6,30 +6,34 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: fee89c65328b70e1f312b39fbad75d7148bd92f2
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76542279"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041231"
 ---
 # <a name="configure-report-interaction-settings"></a>Definir configurações de interação de relatório
 
 ## <a name="overview"></a>Visão geral
 
-O aplicativo móvel Power BI tem várias definições de "interação" configuráveis que permitem controlar como você interage com seus dados e definir como os elementos do aplicativo móvel Power BI se comportam. No momento, há configurações para
-* [Interação de toque simples versus duplo em visuais de relatório](#single-tap)
-* [Rodapé de relatório encaixado versus dinâmico](#docked-report-footer-android-phones) (Android)
-* [Atualização de relatório iniciada por botão versus atualização por pull](#report-refresh-android-phones) (Android)
+O aplicativo móvel Power BI tem várias definições de "interação" configuráveis que permitem controlar como você interage com seus dados e definir como os elementos do aplicativo móvel Power BI se comportam. A tabela a seguir mostra as configurações de interação que estão disponíveis e os dispositivos que as incluem.
+
+|| Telefone Android | iPhone | Tablet Android  | iPad |
+|-|:-:|:-:|:-:|:-:|
+| [Interação de toque simples versus duplo em visuais de relatório](#single-tap) |✔|✔|||
+| [Seleção múltipla versus seleção única de pontos de dados em visuais de relatório](#multi-select) |✔|✔|✔|✔|
+| [Rodapé de relatório encaixado versus dinâmico](#docked-report-footer) |✔|✔|||
+| [Atualização de relatório iniciada por botão versus deslizar para atualizar](#report-refresh) |✔||||
+|
 
 Para obter as configurações de interação, toque na imagem do seu perfil para abrir o [painel lateral](./mobile-apps-home-page.md#header), escolher **Configurações** e localizar a seção **Interação**.
 
 ![Configurações de interação](./media/mobile-app-interaction-settings/powerbi-mobile-app-interactions-section.png)
 
->[!NOTE]
->As configurações de interação para o botão Atualizar e para encaixar o rodapé do relatório atualmente não têm efeito sobre os relatórios do Servidor de Relatório. Isso será alterado na versão de janeiro de 2020 do Servidor de Relatório.
+As configurações de interação são descritas nas seções a seguir.
 
 ## <a name="interaction-settings"></a>Configurações de interação
 
@@ -38,13 +42,24 @@ Quando você baixa o aplicativo móvel do Power BI, ele é definido com a intera
 
 Se preferir, você poderá desativar a interação de toque simples. Você então terá uma interação de toque duplo. Com a interação de toque duplo, você primeiro toca em um visual para selecioná-lo e, em seguida, toca novamente no visual para executar a ação desejada.
 
-### <a name="docked-report-footer-android-phones"></a>Rodapé de relatório encaixado (telefones Android)
+### <a name="multi-select"></a>Seleção múltipla
+
+Com a opção de seleção múltipla, é possível selecionar vários pontos de dados em uma página de relatório. Quando a opção de seleção múltipla está ativada, cada ponto de dados em que você toca é adicionado aos outros pontos de dados selecionados, e os resultados combinados são realçados automaticamente em todos os visuais da página. Se a opção de seleção múltipla estiver desativada, quando você tocar para selecionar um ponto de dados, a nova seleção substituirá a seleção atual.
+
+Para cancelar a seleção de um ponto de dados, toque nela novamente.
+
+>[!NOTE]
+>O recurso de seleção múltipla não tem suporte em visuais personalizados.
+>
+>O modo de seleção múltipla terá suporte do Servidor de Relatórios do Power BI, no próximo lançamento desta plataforma.
+
+### <a name="docked-report-footer"></a>Rodapé de relatório encaixado
 
 A configuração de rodapé de relatório encaixado determina se o rodapé do relatório permanece encaixado (ou seja, fixo e sempre visível) na parte inferior do relatório ou oculto, reaparecendo com base em suas ações no relatório, como rolagem.
 
 Em telefones Android, a configuração de rodapé de relatório encaixado está **ativada** por padrão, o que significa que o rodapé do relatório fica encaixado e sempre visível na parte inferior do relatório. Alterne a configuração para **desativada** se você preferir um rodapé de relatório dinâmico que apareça e desapareça dependendo de suas ações no relatório.
 
-### <a name="report-refresh-android-phones"></a>Atualização de relatório (telefones Android)
+### <a name="report-refresh"></a>Atualização de relatório
 
 A configuração de atualização de relatório define como você inicia as atualizações de relatório. Você pode optar por ter um botão de atualização em todos os cabeçalhos de relatório ou usar a ação de pull para atualizar (puxar ligeiramente de cima para baixo) na página do relatório para atualizar o relatório. A figura a seguir ilustra as duas alternativas. 
 

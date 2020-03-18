@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888746"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113310"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Localizar dashboards, relatórios e aplicativos
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 No Power BI, o termo *conteúdo* refere-se a aplicativos, dashboards e relatórios. O conteúdo é criado por designers do *Power BI*, que o compartilham com os colegas como você. O conteúdo está acessível e visível no serviço do Power BI, e o melhor lugar para começar a trabalhar no Power BI é na **Página Inicial**.
 
 ## <a name="explore-power-bi-home"></a>Explorar a Página Inicial do Power BI
@@ -29,7 +31,7 @@ O Power BI exibe a tela Página Inicial, conforme mostrado na figura a seguir.
  
 ![Uma captura de tela da Página Inicial do serviço do Power BI.](media/end-user-home/power-bi-home.png)
 
-A Página Inicial do Power BI oferece três maneiras diferentes de localizar e exibir o conteúdo. Todas as três acessam o mesmo pool de conteúdo; são simplesmente maneiras diferentes de acessar esse conteúdo. Ocasionalmente, a pesquisa será a maneira mais fácil e rápida de localizar algo, enquanto outras vezes, a seleção de um *cartão* na tela Página Inicial será a melhor opção.
+A Página Inicial do Power BI oferece três maneiras diferentes de localizar e exibir o conteúdo. Todas as três acessam o mesmo pool de conteúdo. Elas são apenas maneiras diferentes de acessar esse conteúdo. Ocasionalmente, a pesquisa será a maneira mais fácil e rápida de localizar algo, enquanto outras vezes, a seleção de um *cartão* na tela Página Inicial será a melhor opção.
 
 - A tela Página Inicial exibe e organiza seu conteúdo favorito e mais recente, juntamente com o conteúdo e recursos de aprendizado recomendados. Cada parte do conteúdo é exibida como um *cartão*, com um título e um ícone. A seleção de um cartão abre o respectivo conteúdo.
 - No lado esquerdo, encontramos um painel conhecido como painel de navegação. Nesse painel, o mesmo conteúdo é organizado de maneira um pouco diferente, por Favoritos, Recente, Aplicativos e Compartilhado comigo. Nele, você pode exibir listas de conteúdo e selecionar um para abri-lo.
@@ -42,7 +44,7 @@ Na tela Página Inicial, exiba todo o conteúdo que você tem permissão para us
 
 A tela Página Inicial também é atualizada com o conteúdo e recursos de aprendizado recomendados. 
  
-Conforme você usar o serviço do Power BI, receberá dashboards, relatórios e aplicativos de colegas, então a Página Inicial do Power BI acabará sendo preenchida. Ao longo do tempo, ela poderá ficar parecida com a página a seguir.
+À medida que usar o serviço do Power BI, você receberá dashboards, relatórios e aplicativos de colegas, portanto a Página Inicial do Power BI acabará sendo preenchida. Ao longo do tempo, ela poderá ficar parecida com a página a seguir.
 
 ![Uma captura de tela da tela de boas-vindas do serviço do Power BI.](media/end-user-home/power-bi-home-oldest.png)
 
@@ -52,7 +54,7 @@ Os próximos tópicos examinam mais de perto a tela Página Inicial, com todos o
 ## <a name="most-important-content-at-your-fingertips"></a>O conteúdo mais importante ao seu alcance
 
 ### <a name="favorites-and-frequents"></a>Favoritos e frequentes
-A seção superior contém links para o conteúdo visitado com mais frequência ou marcado como [em destaque ou favorito](end-user-favorite.md). Observe que vários cartões têm estrelas amarelas; esses dois aplicativos e esse dashboard foram marcados como favoritos. 
+A seção acima contém links para o conteúdo visitado com mais frequência ou marcado como [em destaque ou favorito](end-user-favorite.md). Observe que vários cartões têm estrelas amarelas; esses dois aplicativos e esse dashboard foram marcados como favoritos. 
 
 ![Submenu Favoritos](./media/end-user-home/power-bi-favorites-frequents.png)
 
@@ -60,7 +62,7 @@ Além disso, você pode marcar o conteúdo como [Em destaque](end-user-featured.
 
 
 ### <a name="recents-and-my-apps"></a>Recente e Meus aplicativos
-A próxima seção exibe o conteúdo visitado mais recentemente. Observe o carimbo de data/hora em cada cartão. A seção **Meus aplicativos** lista os aplicativos que foram compartilhados com você ou que você [baixou no AppSource](end-user-apps.md); os aplicativos mais recentes são listados aqui. Selecione **Ver todos** para exibir uma lista de todos os aplicativos compartilhados com você.
+A seção seguinte exibe o conteúdo visitado mais recentemente. Observe o carimbo de data/hora em cada cartão. A seção **Meus aplicativos** lista os aplicativos que foram compartilhados com você ou que você [baixou no AppSource](end-user-apps.md); os aplicativos mais recentes são listados aqui. Selecione **Ver todos** para exibir uma lista de todos os aplicativos compartilhados com você.
 
 ![aplicativos recentes](./media/end-user-home/power-bi-recent-apps.png)
 
@@ -109,7 +111,7 @@ O painel de navegação organiza o conteúdo em contêineres semelhantes ao que 
 O painel de navegação é outra maneira de localizar o conteúdo desejado rapidamente. O conteúdo é organizado de maneira semelhante à tela Página Inicial, mas é mostrado em listas, em vez de cartões. 
 
 ## <a name="search-all-of-your-content"></a>Pesquisar todo o conteúdo
-Às vezes, a maneira mais rápida de localizar o conteúdo é pesquisá-lo. Por exemplo, talvez você tenha descoberto que um dashboard que você não usou por algum tempo não está sendo mostrado na tela Página Inicial. Ou talvez você se lembre de que seu colega, Davi, compartilhou algo com você, mas você não se lembra do nome dele ou de qual tipo de conteúdo ele compartilhou, seja um dashboard ou um relatório. Ou você pode ter tanto conteúdo que é mais fácil pesquisar do que rolar ou classificar. 
+Às vezes, a maneira mais rápida de localizar o conteúdo é pesquisá-lo. Por exemplo, talvez você tenha descoberto que um dashboard ainda não usado por algum tempo não está sendo mostrado na tela Página Inicial. Mas talvez você se lembre de que seu colega, Davi, compartilhou algo com você, mas você não se lembra do nome dele ou de qual tipo de conteúdo ele compartilhou, seja um dashboard ou relatório. Ou você pode ter tanto conteúdo que é mais fácil pesquisar do que rolar ou classificar. 
  
 O campo de pesquisa está localizado na seção superior direita da barra de menus da Página Inicial. Você pode inserir o nome completo ou parcial do dashboard e pesquisá-lo. Além disso, você pode inserir o nome de seu colega e pesquisar o conteúdo que ele compartilhou com você. A pesquisa tem como escopo a busca de correspondências em todo o conteúdo do qual você seja o proprietário ou ao qual tenha acesso.
 

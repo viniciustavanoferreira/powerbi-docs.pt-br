@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 6844d09c04759f0cdb780b3c1805698f1b1b519f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894650"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401902"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URLs do Power BI para a lista de permissões
 
@@ -85,13 +85,13 @@ O Power BI depende de determinados pontos de extremidade para dar suporte aos se
 | 1 | **Obrigatório:** integração do Excel | Confira a documentação do Office 365 do [Office Online e URLs comuns](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
 | | | |
 
-## <a name="custom-visuals"></a>Visuais personalizados
+## <a name="power-bi-visuals"></a>Visuais do Power BI
 
-O Power BI depende de determinados pontos de extremidade para exibir e acessar os visuais personalizados. Você deve poder se conectar aos pontos de extremidade na tabela e nos sites vinculados abaixo.
+O Power BI depende de determinados pontos de extremidade para exibir e acessar visuais. Você deve poder se conectar aos pontos de extremidade na tabela e nos sites vinculados abaixo.
 
 | Linha | Finalidade | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
-| 1 | **Obrigatório:** Importar um visual personalizado da interface do Marketplace ou de um arquivo | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 1 | **Obrigatório:** Importar um visual personalizado da interface do Marketplace ou de um arquivo | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
 | 2 | **Opcional:** Bing Mapas | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **Opcional:** PowerApps | Consulte a [seção Serviços necessários](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) no site de requisitos de sistema do PowerApps | N/D |
 | 4 | **Opcional:** Visio | Confira a documentação do Office 365 para [Office Online e URLs comuns](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), bem como [SharePoint Online e OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/D |

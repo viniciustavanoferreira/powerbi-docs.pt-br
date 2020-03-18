@@ -7,17 +7,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6fdb336faaceee21347f426beb6fdefc0bdb70f4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d97727969ed48c50a86be032835b237d293a1d96
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861686"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114149"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Exibir os dashboards e relatórios que foram compartilhados comigo
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ Quando um colega compartilhar conteúdo com você usando o botão **Compartilhar
 
 ![Ícone Compartilhar](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Assista à Amanda explicar a lista de conteúdo **Compartilhado comigo** e demonstrar como navegar na lista e filtrá-la. Em seguida, siga as instruções passo a passo abaixo do vídeo para testá-la por conta própria. Para poder exibir os dashboards que são compartilhados com você, você precisa ter uma licença do Power BI Pro. Leia [O que é o Power BI Premium?](../service-premium-what-is.md) para obter detalhes.
+Assista à Amanda explicar a lista de conteúdo **Compartilhado comigo** e demonstrar como navegar na lista e filtrá-la. Em seguida, siga as instruções passo a passo abaixo do vídeo para testá-la por conta própria. Para poder exibir os dashboards que são compartilhados com você, você precisa ter uma licença do Power BI Pro. Para obter mais detalhes, veja o tópico [Qual licença eu tenho?](end-user-license.md)
     
 
 > [!NOTE]

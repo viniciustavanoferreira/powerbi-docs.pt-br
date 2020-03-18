@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851218"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114232"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -41,7 +43,7 @@ O Power BI baseia um relatório em um único conjunto de dados. Os *designers* d
 À medida que você explorar e interagir com seu conteúdo: filtrar, dividir, assinar e exportar, não é possível dividir os relatórios. Seu trabalho não afeta o conjunto de dados subjacente nem o conteúdo compartilhado original. Isso se aplica a dashboards, relatórios e aplicativos.
 
 > [!NOTE]
-> Lembre-se de que você não pode prejudicar os seus dados. O Power BI é um ótimo lugar para que você possa explorar e experimentar sem se preocupar em prejudicar algo.
+> Lembre-se de que você não pode prejudicar seus dados. O Power BI é a ferramenta ideal para explorar e experimentar, e você não precisa se preocupar com o risco de prejudicar algo.
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Salvar as alterações ou reverter para as configurações padrão
 
@@ -78,7 +80,7 @@ Ou você pode ser um *consumidor*, alguém que recebe os relatórios de outras p
 * Para ver qual conjunto de dados o relatório está usando e quais painéis estão exibindo visuais do relatório (*marcações*), confira [Exibir conteúdo relacionado no serviço do Power BI](end-user-related.md).
 
 > [!TIP]
-> Se você não encontrar o que está procurando aqui, use o Sumário à esquerda para procurar todos os artigos de *Relatório*.
+> Se você não encontrar o que está procurando aqui, use o Sumário à esquerda para procurar todos os artigos sobre *Relatório*.
 
 ## <a name="next-steps"></a>Próximas etapas
 

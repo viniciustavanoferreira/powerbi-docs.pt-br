@@ -1,19 +1,19 @@
 ---
 title: O logon único no aplicativo móvel do Windows do Power BI
 description: Leia sobre SSO (Logon Único) no aplicativo móvel do Windows do Power BI. SSO significa que você acessa todos os aplicativos e recursos necessários para fazer negócios entrando apenas uma vez com uma única conta de usuário.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/17/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876668"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114730"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>O logon único no aplicativo móvel do Windows do Power BI
 
@@ -29,7 +29,7 @@ Para simplificar o processo de conexão, quando você instala o aplicativo pela 
 
 Se você já estiver usando o aplicativo móvel do Power BI para Windows, ao atualizar para a nova versão do aplicativo, também poderá usar SSO. Saia do aplicativo, feche-o e reabra-o. Quando o aplicativo é reaberto, ele tenta automaticamente usar suas credenciais atuais do Windows para autenticar-se no serviço do Power BI. 
 
-Se você não quer usar suas credenciais de sessão ativa atuais do Windows para entrar no Power BI, basta ir para **Configurações**, sair e entrar com credenciais diferentes. 
+Se você prefere não usar suas credenciais da sessão ativa atual do Windows para entrar no Power BI, basta ir até **Configurações**, sair e entrar com credenciais diferentes. 
  
 ## <a name="next-steps"></a>Próximas etapas
 

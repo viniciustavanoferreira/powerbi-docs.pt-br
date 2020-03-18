@@ -3,19 +3,18 @@ title: Relatório de métricas de proteção de dados
 description: Saiba mais sobre o relatório de métricas de proteção de dados
 author: paulinbar
 manager: rkarlin
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 952f47f60e14932ce4b22dbd01bf60d9d7243c62
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76542141"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79112487"
 ---
 # <a name="data-protection-metrics-report-preview"></a>Relatório de métricas de proteção de dados (versão prévia)
 
@@ -39,19 +38,20 @@ Para exibir o relatório, vá para **Configurações > Portal de administração
 ![portal de administração de métricas de proteção](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  
  
-Na primeira vez que você abrir o relatório de métricas de proteção de dados, o carregamento poderá levar alguns segundos. Um relatório e um conjunto de dados intitulados **Métricas de proteção de dados (geradas automaticamente)** serão criados em seu ambiente privado em "Meu workspace". Não recomendamos exibi-lo aqui. Esse não é o relatório completo. Em vez disso, exiba o relatório no portal de administração, conforme descrito acima.
+Na primeira vez que você abrir o relatório de métricas de proteção de dados, o carregamento poderá levar alguns segundos. Um relatório e um conjunto de dados chamados de **Métricas de proteção de dados (geradas automaticamente)** serão criados em seu ambiente privado, em "Meu workspace". Não recomendamos exibi-lo aqui. Esse não é o relatório completo. Em vez disso, exiba o relatório no portal de administração, conforme descrito acima.
 
 > [!CAUTION]
-> Não altere o relatório nem o conjunto de dados de nenhuma forma, já que novas versões do relatório são distribuídas de tempos em tempos e qualquer alteração feita ao relatório original será substituída se você atualizar para a nova versão.
+> Não altere o relatório nem o conjunto de dados de nenhuma maneira, já que novas versões do relatório são distribuídas periodicamente, e qualquer alteração feita ao relatório original é substituída quando você atualiza para a nova versão.
 
 ## <a name="report-updates"></a>Atualizações de relatório
 
-Versões aprimoradas do relatório de métricas de proteção de dados são liberadas periodicamente. Quando você abrir o relatório, se uma nova versão estiver disponível, será consultado se deseja abrir a nova versão. Se você responder "Sim", a nova versão do relatório será carregada e substituirá a versão antiga. As alterações que você tiver ao relatório e/ou conjunto de dados antigo serão perdidas. Você poderá optar por não abrir a nova versão, mas nesse caso, não se beneficiará dos aprimoramentos da nova versão. 
+Versões aprimoradas do relatório de métricas de proteção de dados são liberadas periodicamente. Quando você abrir o relatório, se uma nova versão estiver disponível, será consultado se deseja abrir a nova versão. Se você responder "Sim", a nova versão do relatório será carregada e substituirá a versão anterior. As alterações que você tiver ao relatório e/ou conjunto de dados antigo serão perdidas. Você poderá optar por não abrir a nova versão, mas nesse caso, não se beneficiará dos aprimoramentos nela incluídos. 
 ## <a name="notes-and-considerations"></a>Observações e considerações
 * Para que o relatório de métricas de proteção de dados seja gerado com êxito, a [proteção de informações](./service-security-enable-data-sensitivity-labels.md) deve estar habilitada em seu locatário e [rótulos de sensibilidade devem ter sido aplicados](../designer/service-security-apply-data-sensitivity-labels.md). 
 * Para acessar informações do Cloud App Security, sua organização deve ter a [licença do Cloud App Security](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing) apropriada.
 * Se você decidir compartilhar informações do relatório de métricas de proteção de dados com um usuário que não seja um Administrador do Power BI, lembre-se de que esse relatório contém informações confidenciais sobre sua organização.
-* O relatório de métricas de proteção de dados é um tipo especial de relatório e não aparece em listas "Compartilhados comigo", "Recentes" e "Favoritos".
+* O relatório de métricas de proteção de dados é um tipo especial de relatório e não aparece em listas do tipo "Compartilhados comigo", "Recentes" e "Favoritos".
+* O relatório de métricas de proteção de dados não está disponível para [usuários externos (usuários convidados do Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md).
 ## <a name="next-steps"></a>Próximas etapas
 * [Proteção de dados no Power BI (versão prévia)](./service-security-data-protection-overview.md)
 * [Como usar o controles do Microsoft Cloud App Security no Power BI (versão prévia)](./service-security-using-microsoft-cloud-app-security-controls.md)

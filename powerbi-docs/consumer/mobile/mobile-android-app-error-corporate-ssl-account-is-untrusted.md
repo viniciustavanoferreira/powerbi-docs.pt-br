@@ -1,23 +1,23 @@
 ---
 title: Como corrigir "Certificado SSL corporativo não é confiável"
-description: Ao entrar no aplicativo Android para o Power BI, você poderá ver a mensagem “Não foi possível autenticar porque seu certificado SSL corporativo não é confiável
+description: Ao entrar no aplicativo Android para Power BI, você verá a mensagem "Não foi possível autenticar porque o certificado SSL corporativo não é confiável
 .": ''
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/28/2019
-ms.author: mshenhav
-ms.openlocfilehash: cde8a4bbaed9ef10940b7a102d40a8bc6009e9b9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879475"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114609"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Como corrigir "Certificado SSL corporativo não é confiável" – Power BI
-Ao entrar no aplicativo móvel Android para o Microsoft Power BI, você verá a mensagem “Não foi possível autenticar porque o certificado SSL corporativo não é confiável para este dispositivo. Contate o administrador de TI da sua empresa". 
+Ao entrar no aplicativo móvel Android para Microsoft Power BI, você verá a mensagem "Não foi possível autenticar porque o certificado SSL corporativo não é confiável para este dispositivo. Contate o administrador de TI da sua empresa". 
 
 O que você precisa fazer geralmente depende do sistema operacional em seu dispositivo Android, mas há alguns outros problemas que podem causar esse erro.
 

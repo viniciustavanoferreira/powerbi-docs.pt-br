@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 0364fae1648e6155cc5e5a92850861c3bedbabdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871898"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946840"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Conectar-se a conjuntos de dados com aplicativos cliente e ferramentas (versão prévia)
 
-Os workspaces e os conjuntos de dados do Power BI Premium dão suporte a conexões *somente leitura* da Microsoft e a ferramentas e aplicativos cliente de terceiros. Por padrão, as conexões estão habilitadas
+Os workspaces e os conjuntos de dados do Power BI Premium dão suporte a conexões *somente leitura* da Microsoft e a ferramentas e aplicativos cliente de terceiros. As conexões estão habilitadas por padrão.
 
 > [!NOTE]
 > Este artigo pretende apenas apresentar a conectividade somente leitura com workspaces e conjuntos de dados do Power BI Premium. Ele *não* se destina a fornecer informações detalhadas sobre programação, ferramentas e aplicativos específicos, arquitetura e gerenciamento de workspaces e conjuntos de dados. Os assuntos descritos aqui exigem uma compreensão sólida da arquitetura e da administração do modelo de banco de dados de tabela do Analysis Services.
@@ -104,17 +104,13 @@ Os seguintes conjuntos de dados no serviço do Power BI não são compatíveis:
 
 Atualmente, as funções de modelo e as associações de função não podem ser descobertas ou exibidas usando os pontos de extremidade XMLA.
 
-## <a name="disable-connectivity"></a>Desabilitar a conectividade
-
-Por padrão, a conectividade de ponto de extremidade XMLA está habilitada para a carga de trabalho dos conjuntos de dados. Você pode desabilitar a conectividade nas [Configurações de carga de trabalho](service-admin-premium-workloads.md#workload-settings).
-
 ## <a name="audit-logs"></a>Logs de auditoria 
 
 Quando as ferramentas e os aplicativos cliente se conectam a um workspace, o acesso por meio de pontos de extremidade XMLA é registrado nos logs de auditoria do Power BI na operação **GetWorkspaces**. Para saber mais, confira [Como auditar o Power BI](service-admin-auditing.md).
 
 ## <a name="see-also"></a>Consulte também
 
-[Referências do Analysis Services](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[Referências do Analysis Services](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
 [Protocolo Tabular do SQL Server Analysis Services](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [DMVs (exibições de gerenciamento dinâmico)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   

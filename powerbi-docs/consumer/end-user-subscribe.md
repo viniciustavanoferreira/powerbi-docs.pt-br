@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888561"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114024"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Assinar um relatório ou painel no serviço do Power BI 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -34,7 +36,7 @@ Quando você receber o email, ele incluirá um link para "acessar o relatório o
 **Criar** uma assinatura para si mesmo exige um certo tipo de licença. Se você não conseguir criar uma assinatura, entre em contato com o administrador do Power BI. A **Assinatura de terceiros** só está disponível para o proprietário do painel ou do relatório. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Assine um dashboard ou uma página de relatório
-Se você estiver assinando um dashboard ou um relatório, o processo será semelhante. O mesmo botão permite que você assine os dashboards e relatórios do serviço do Power BI.
+Se você estiver assinando um dashboard ou relatório, o processo será semelhante. O mesmo botão permite que você assine os dashboards e relatórios do serviço do Power BI.
  
 ![selecione o ícone Assinar](./media/end-user-subscribe/power-bi-subscribe.png).
 
@@ -63,7 +65,7 @@ Se você estiver assinando um dashboard ou um relatório, o processo será semel
 
 3. Se tudo estiver correto, selecione **Salvar e fechar** para salvar a assinatura. Você receberá um email e um instantâneo do painel ou do relatório no agendamento que definir. Todas as assinaturas com a frequência definida para **Após a atualização de dados** somente enviarão um email após a primeira atualização agendada naquele dia.
    
-   ![instantâneo de email de dashboard](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![instantâneo de email de dashboard](media/end-user-subscribe/power-bi-email.png)
    
     Atualizar a página de relatório não atualiza o conjunto de dados. Somente o proprietário do conjunto de dados pode atualizá-lo manualmente. Para procurar o nome do proprietário dos conjuntos de dados subjacentes, selecione o menu suspenso na barra de menus ou procure o email de assinatura original.
    
@@ -73,11 +75,12 @@ Se você estiver assinando um dashboard ou um relatório, o processo será semel
 ## <a name="manage-your-subscriptions"></a>Gerenciar suas assinaturas
 Você só pode gerenciar as assinaturas criadas por você. Selecione **Assinar** novamente e escolha **Gerenciar todas as assinaturas** no canto inferior esquerdo (veja as capturas de tela acima). 
 
-![veja todas as assinaturas no Meu workspace](./media/end-user-subscribe/power-bi-manage.png)
+![veja todas as assinaturas no Meu workspace](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 Uma assinatura será encerrada se a licença Pro expirar, se o dashboard ou o relatório for excluído pelo proprietário ou se a conta de usuário usada para criar a assinatura for excluída.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
+* Para evitar que os emails da assinatura sejam enviados para a pasta de spam, adicione o alias de email do Power Platform (PowerPlat-noreply@microsoft.com) aos seus contatos. Se estiver usando o Microsoft Outlook, clique com o botão direito do mouse no alias e selecione **Adicionar aos contatos do Outlook**. 
 * Os dashboards com mais de 25 blocos fixos ou quatro páginas de relatório dinâmico fixas podem não ser renderizados totalmente nos emails de assinatura enviados aos usuários. Sugerimos que você contate o designer do dashboard e solicite que ele reduza os blocos fixados para menos de 25 e os relatórios dinâmicos fixados para menos de quatro para garantir que o email seja renderizado corretamente.  
 * Para assinaturas de email do dashboard, se algum bloco tiver a RLS (Segurança em Nível de Linha) aplicada, esse bloco não será exibido.  Para assinaturas de email do relatório, se o conjunto de dados usar a RLS, não será possível criar uma assinatura.
 * Se os links em seu email (para o conteúdo) pararem de funcionar, talvez o conteúdo tenha sido excluído. No email, embaixo da captura de tela, você pode procurar se você se assinou ou se alguém assinou você. Se foi outra pessoa, peça para esse colega de trabalho cancelar os emails ou assinar você novamente.

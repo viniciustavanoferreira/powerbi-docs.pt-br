@@ -1,5 +1,5 @@
 ---
-title: Pesquisar e localizar seu conteúdo
+title: Pesquisar e localizar conteúdo usando a pesquisa global
 description: documentação para pesquisar e localizar conteúdo e navegar por ele no serviço do Power BI
 author: mihart
 ms.reviewer: willt
@@ -7,18 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/27/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 64570b23700e125e9040f493630317c0c6350d0e
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889042"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114134"
 ---
-# <a name="navigation-for-power-bi-consumers-sorting-content"></a>Navegação para consumidores do Power BI: classificar conteúdo
+# <a name="navigation-for-power-bi-consumers-global-search"></a>Navegação para consumidores do Power BI: pesquisa global
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 

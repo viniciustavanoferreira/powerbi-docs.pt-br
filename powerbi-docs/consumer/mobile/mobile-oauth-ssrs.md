@@ -1,19 +1,19 @@
 ---
 title: Usando o OAuth para conectar-se ao Servidor de Relatórios do Power BI e ao SSRS
 description: Saiba como configurar seu ambiente para dar suporte à autenticação OAuth com o aplicativo móvel do Power BI para conectar-se ao SQL Server Reporting Services 2016 ou posterior.
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220598"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114945"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Usando o OAuth para conectar-se ao Servidor de Relatórios do Power BI e ao SSRS
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 Depois de adicionar o aplicativo WAP, é necessário definir BackendServerAuthenticationMode para usar IntegratedWindowsAuthentication. É necessária a ID do aplicativo WAP para defini-la.
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![Adicionar Grupo de Aplicativos](media/mobile-oauth-ssrs/wap-application-id.png)

@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: Criar visuais do Power BI usando o R
               href: ../desktop-r-visuals.md
-            - name: Baixar e usar visuais personalizados baseados em R
+            - name: Baixar e usar visuais do Power BI baseados em R
               href: ../desktop-r-powered-custom-visuals.md
             - name: Aplicar linhas de grade e ajustar à grade
               href: ../desktop-gridlines-snap-to-grid.md

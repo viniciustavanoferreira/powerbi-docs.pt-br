@@ -6,23 +6,23 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264233"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377870"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Como depurar visuais do Power BI
 
 Esta página mostra algumas dicas de depuração ao criar o visual. Ele inclui etapas básicas e mostra as diferenças entre a depuração de visuais de aplicativos de front-end padrão e do Power BI.
-Depois de ler o artigo, você poderá depurar visuais personalizados usando pontos de interrupção, além de registrar exceções em log e capturar exceções no Chrome e no Edge.
+Depois de ler o artigo, você poderá depurar visuais do Power BI usando pontos de interrupção, além de registrar exceções em log e capturar exceções no Chrome e no Edge.
 
 ## <a name="using-breakpoints"></a>Usar pontos de interrupção
 
-Como o JavaScript do visual é totalmente recarregado toda vez que o visual é atualizado, todos os pontos de interrupção que você adicionar serão perdidos quando o visual depurado for atualizado. Como alternativa, use as instruções do `debugger` em seu código. É recomendável desativar o recarregamento automático ao usar `debugger` em seu código.
+Como o JavaScript do visual é totalmente recarregado toda vez que o visual é atualizado, todos os pontos de interrupção que você adicionar serão perdidos quando depurar visual for atualizado. Como alternativa, use as instruções do `debugger` em seu código. É recomendável desativar o recarregamento automático ao usar `debugger` em seu código.
 
 ```typescript
 public update(options: VisualUpdateOptions) {
@@ -80,7 +80,7 @@ Você também pode definir o navegador para interromper nas exceções detectada
 3. Clique no ícone **interromper em exceções** (hexágono com um símbolo de pausa).
 4. Selecione **Interromper em todas as exceções**.
 
-![Campos de função de dados](./media/how-to-debug-edge.png)
+![Campos de função de dados](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ Você também pode definir o navegador para interromper nas exceções detectada
 3. Clique no ícone **interromper em exceções** (sinal de parada com um símbolo de pausa).
 4. Marque a caixa de seleção **Pausar em Exceções Capturadas**.
 
-![Campos de função de dados](./media/how-to-debug-chrome.png)
+![Campos de função de dados](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Solucionar problemas de visuais do Power BI](../power-bi-custom-visuals-troubleshoot.md)
-* Saiba mais e solucione suas dúvidas nas [Perguntas frequentes sobre os visuais do Power BI](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
+* [Solucionar problemas de visuais do Power BI](power-bi-custom-visuals-troubleshoot.md)
+* Saiba mais e solucione suas dúvidas nas [Perguntas frequentes sobre os visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)

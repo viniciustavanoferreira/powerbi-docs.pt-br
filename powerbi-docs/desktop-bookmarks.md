@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761877"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378974"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Criar indicadores no Power BI Desktop para compartilhar insights e criar histórias
 Com *indicadores* no Power BI Desktop, você captura a exibição de uma página de relatório configurada no momento, incluindo a filtragem e o estado dos visuais. Posteriormente, você poderá voltar para esse estado selecionando o indicador salvo. 
@@ -198,7 +198,7 @@ Para habilitar o recurso de indicadores de versão prévia:
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Nesta versão dos recursos de indicadores, há algumas limitações e considerações a se ter em mente.
 
-* A maioria dos visuais personalizados deve funcionar bem com indicadores. No entanto, se você encontrar problemas com o uso de indicadores e um visual personalizado, entre em contato com o criador desse visual personalizado e peça que ele adicione suporte para indicadores ao visual. 
+* A maioria dos visuais do Power BI deve funcionar bem com indicadores. No entanto, se você encontrar problemas com o uso de indicadores e um visual personalizado, entre em contato com o criador desse visual personalizado e peça que ele adicione suporte para indicadores ao visual. 
 * Se você adicionar um visual em uma página de relatório depois de criar um indicador, o visual será exibido em seu estado padrão. Ou seja, se você introduzir uma segmentação de dados em uma página em que você criou indicadores anteriormente, a segmentação de dados se comportará em seu estado padrão.
 * A movimentação de um visual depois que um indicador tiver sido criado será automaticamente refletida no indicador. 
 

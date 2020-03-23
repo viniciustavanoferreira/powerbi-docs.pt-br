@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699534"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381136"
 ---
 # <a name="troubleshooting-tile-errors"></a>Solucionando problemas de erros de bloco
 Veja abaixo os erros comuns que podem ser encontrados com blocos e uma explicação.
@@ -31,13 +31,14 @@ ou **Não foi possível recuperar o modelo de dados. Entre em contato com o prop
 
 Não conseguimos acessar os dados, porque a fonte de dados não estava acessível. Esse problema pode ocorrer se a fonte de dados é removida, renomeada, movida, fica offline ou se as permissões são alteradas. Verifique se a fonte ainda está no local para o qual estamos apontando e se você ainda tem permissão para acessá-la. Se esse não for o problema, a fonte pode estar lenta. Tente novamente mais tarde em um horário em que a carga na fonte é menor. Se for uma origem local, o proprietário da fonte de dados poderá conseguir fornecer mais informações.
 
-**Você não tem permissão para exibir este bloco ou abra a pasta de trabalho.**
+**Você não tem permissão para exibir este bloco ou abrir a pasta de trabalho.**
 
 Contate o proprietário do dashboard para verificar se o modelo e as fontes de dados existem e se estão acessíveis para sua conta.
 
-**Os visuais personalizados foram desabilitados pelo administrador.**
+**Os visuais do Power BI foram desabilitados pelo administrador.**
 
-O administrador do Power BI desabilitou o uso de visuais personalizados para sua organização ou seu grupo de segurança. Você não poderá usar visuais personalizados no [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) nem importar visuais particulares por meio de um arquivo. Você só poderá usar o conjunto pré-empacotado de visuais.
+O administrador do Power BI desabilitou o uso de visuais do Power BI para sua organização ou seu grupo de segurança.
+Você não poderá usar visuais do Power BI no [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) nem importar visuais particulares de um arquivo. Você só poderá usar o conjunto pré-empacotado de visuais.
 
 
 **As formas de dados devem conter ao menos um grupo ou cálculo que produza dados. Entre em contato com o proprietário do painel.**

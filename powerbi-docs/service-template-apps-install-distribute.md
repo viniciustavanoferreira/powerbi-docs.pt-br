@@ -1,134 +1,130 @@
 ---
-title: Distribuir aplicativos de modelo em sua organização – Power BI
+title: Instalar e distribuir aplicativos de modelo em sua organização – Power BI
 description: Saiba mais sobre como instalar, personalizar e distribuir aplicativos de modelo em sua organização no Power BI.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 09/14/2019
-ms.author: tebercov
-ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.topic: how-to
+ms.date: 03/15/2020
+ms.author: painbar
+ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73871417"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436101"
 ---
-# <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalar e distribuir aplicativos de modelo em sua organização – Power BI
+# <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicativos de modelo em sua organização
 
-Você é um analista do Power BI? Caso seja, este artigo explica como instalar *aplicativos de modelo* para se conectar a muitos dos serviços que você usa para administrar sua empresa, como Salesforce, Microsoft Dynamics e Google Analytics. Você pode modificar o dashboard e os relatórios para atender às necessidades da sua organização e, depois, distribuí-los aos seus colegas como um *aplicativo*. 
+Você é um analista do Power BI? Caso seja, este artigo explica como instalar [aplicativos de modelo](service-template-apps-overview.md) para se conectar a muitos dos serviços que você usa para administrar sua empresa, como Salesforce, Microsoft Dynamics e Google Analytics. Em seguida, você pode modificar o dashboard e os relatórios pré-criados do aplicativo de modelo para atender às necessidades da sua organização e distribuí-los para seus colegas como [aplicativos](consumer/end-user-apps.md). 
 
 ![Aplicativos do Power BI instalados](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Caso esteja interessado em criar aplicativos de modelo para distribuí-los por conta própria, confira [Criar um aplicativo de modelo no Power BI](service-template-apps-create.md). Parceiros Power BI podem criar aplicativos do Power BI com pouca ou nenhuma codificação e implantá-los em clientes do Power BI. 
+Se você estiver interessado em criar aplicativos de modelo por conta própria para distribuição fora da sua organização, confira [Criar um aplicativo de modelo no Power BI](service-template-apps-create.md). Com pouca ou nenhuma codificação, parceiros do Power BI podem criar aplicativos do Power BI e disponibilizá-los a clientes do Power BI. 
 
 ## <a name="prerequisites"></a>Pré-requisitos  
 
-Estes são os requisitos para instalar, personalizar e distribuir um aplicativo de modelo: 
+Para instalar, personalizar e distribuir um aplicativo de modelo, você precisa: 
 
-- Uma [licença do Power BI Pro](service-self-service-signup-for-power-bi.md)
-- Familiaridade com os [conceitos básicos do Power BI ](service-basic-concepts.md)
-- Link de instalação válido do criador do aplicativo de modelo ou do AppSource. 
-- Permissões para instalar aplicativos de modelo. 
+* Uma [licença do Power BI Pro](service-self-service-signup-for-power-bi.md).
+* Permissões para instalar aplicativos de modelo no seu locatário.
+* Um link para instalação válido para o aplicativo, que você obtém de AppSource ou do criador de aplicativos.
+* Uma boa familiaridade com os [conceitos básicos do Power BI](service-basic-concepts.md).
 
 ## <a name="install-a-template-app"></a>Instalar um aplicativo de modelo
-
-Você poderá receber um link para um aplicativo de modelo. Caso contrário, você poderá pesquisar no AppSource o aplicativo de seu interesse. De qualquer forma, após a instalação, você poderá modificá-lo e distribuí-lo para sua organização.
-
-### <a name="search-appsource-from-a-browser"></a>Pesquisar no AppSource com um navegador
-
-Em um navegador, selecione este link para abrir o AppSource filtrado para aplicativos do Power BI:
-
-- https://appsource.microsoft.com/marketplace/apps?product=power-bi
-
-### <a name="search-appsource-from-the-power-bi-service"></a>Pesquisar no AppSource com o serviço do Power BI
 
 1. No painel de navegação do serviço do Power BI, selecione **Aplicativos** > **Obter aplicativos**.
 
     ![Obter aplicativos](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-2. No AppSource, selecione **Aplicativos**.
+1. Na janela AppSource que aparece, selecione **Aplicativos**. Procure ou pesquise o aplicativo desejado e selecione **Obter agora**.
 
     ![Pesquisar no AppSource](media/service-template-apps-install-distribute/power-bi-appsource.png)
 
-3. Procure ou pesquise o aplicativo e, em seguida, selecione **Obter agora**.
+1. Na caixa de diálogo que aparece, selecione **Instalar**.
 
-4. Na caixa de diálogo, selecione **Instalar**.
+    ![Instalar aplicativo](media/service-template-apps-install-distribute/power-install-dialog.png)
+    
+    O aplicativo é instalado com um workspace associado. **Se você decidir personalizar o aplicativo, isso será feito neste workspace associado**.
 
-    ![Instalar aplicativo](media/service-template-apps-install-distribute/power-install-dialog.png) Se você já tiver uma licença do Power BI Pro, o aplicativo será instalado com o workspace associado. Personalize o aplicativo no workspace associado.
+    > [!NOTE]
+    > Se você usar um link de instalação para um aplicativo que não esteja listado no AppSource, uma caixa de diálogo de validação solicitará que você confirme sua escolha.
+    >
+    >Para poder instalar um aplicativo de modelo que não esteja listado na AppSource, você precisa solicitar as permissões relevantes ao administrador. Confira [Configurações do aplicativo de modelo](service-admin-portal.md#template-apps-settings) no portal do administrador do Power BI para detalhes.
 
-    Quando a instalação for bem-sucedida, você verá uma notificação indicando que o novo aplicativo está pronto.
-4. Selecione **Ir para o aplicativo**.
-5. Em **Introdução ao novo aplicativo**, selecione uma das três opções:
+    Quando a instalação for concluída com êxito, uma notificação indicará que seu novo aplicativo está pronto.
 
-    ![Introdução ao aplicativo](media/service-template-apps-create/power-bi-template-app-get-started.png)
+    ![Ir para o aplicativo](media/service-template-apps-install-distribute/power-bi-go-to-app.png)
 
-    - **Explorar o aplicativo**: Exploração básica dos dados de exemplo. Comece aqui para conhecer o aspecto geral do aplicativo. 
-    - **Conectar os dados**: Altere a fonte de dados dos dados de exemplo para sua própria fonte de dados. Redefina os parâmetros do conjunto de dados e as credenciais da fonte de dados. Confira [Limitações conhecidas](service-template-apps-tips.md#known-limitations) no artigo sobre dicas de aplicativos de modelo. 
-    - **Ir para o workspace** (opção mais avançada): faça qualquer alteração permitida pelo construtor do aplicativo.
+## <a name="connect-to-data"></a>Conectar aos dados
 
-    Se desejar, ignore esta caixa de diálogo e acesse o workspace associado diretamente por meio de **Workspaces** no painel de navegação.
-    >[!NOTE]
-    >Ao instalar um aplicativo de modelo, são instalados um *aplicativo organizacional* e um *workspace*. Leia mais sobre a [distribuição de aplicativos no Power BI](service-create-distribute-apps.md).
- 
-6. Antes de compartilhá-lo com seus colegas de trabalho, o ideal é conectar-se aos seus próprios dados. Talvez você também deseje modificar o relatório ou o dashboard para adequá-lo à sua organização. Além disso, nesta altura, você poderá adicionar outros relatórios ou dashboards.
+1. Selecione **Ir para o aplicativo**. A janela **Introdução ao novo aplicativo** é exibida.
 
-   Se você selecionar um link de instalação para um aplicativo que não esteja listado no AppSource, será exibida uma caixa de diálogo de validação solicitando a confirmação de sua escolha.
+   ![Introdução ao aplicativo](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
-   ![Instalar aplicativo](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
+1. Clique em **Conectar**.
+    
+    Isso abre uma caixa de diálogo ou uma série de caixas de diálogo em que você altera a fonte de dados dos dados de exemplo para sua própria fonte de dados. Isso geralmente significa a redefinição de parâmetros de conjunto de dados e credenciais de fonte de dados. Confira [Limitações conhecidas](service-template-apps-tips.md#known-limitations).
+    
+    No exemplo a seguir, a conexão a dados envolve duas caixas de diálogo.
 
-   >[!NOTE]
-   >Para instalar aplicativos de modelo que não estejam listados no AppSource, você precisará solicitar permissão ao seu administrador. Confira o [portal de administração do Power BI, configurações de Aplicativo de modelo](service-admin-portal.md#template-apps-settings) para obter mais detalhes.
+   ![Caixas de diálogo Conectar-se a dados](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-## <a name="customize-and-publish-the-app"></a>Personalizar e publicar o aplicativo
+    Depois que você terminar de preencher as caixas de diálogo de conexão, o processo de conexão será iniciado. Uma faixa informa que você está exibindo dados de exemplo.
 
-Depois de atualizar o aplicativo para sua organização, você estará pronto para publicá-lo. As etapas são as mesmas da publicação de qualquer outro aplicativo.
+    ![Como exibir dados de exemplo](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-1. Quando concluir a personalização, na exibição de lista do workspace, selecione **Atualizar aplicativo** no canto superior direito.  
+    Aguarde até que os dados terminem de se conectar e de serem atualizados. Para saber quando esse processo foi concluído, observe o indicador de progresso na linha (aparência nova) ou na guia (aparência antiga) do conjunto de dados.
 
-    ![Iniciar a instalação do aplicativo](media/service-template-apps-install-distribute/power-bi-start-install-app.png)
+   Quando a conexão e a atualização de dados forem concluídas, atualize seu navegador. A faixa agora informa que você precisa atualizar o aplicativo para aplicar as alterações feitas ao aplicativo e compartilhá-las.
 
-2. Em **Detalhes**, modifique a descrição e a cor da tela de fundo.
+    ![Personalizar e compartilhar o aplicativo](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
 
-   ![Definir a descrição e a cor do aplicativo](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
+## <a name="customize-and-share-the-app"></a>Personalizar e compartilhar o aplicativo
 
-3. Em **Navegação**, você pode usar o novo construtor de navegação para seu aplicativo ou selecionar o dashboard ou relatório para a página de aterrissagem. Confira [Projetar a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) para obter mais detalhes.
+Depois de atualizar o navegador após a conexão com os dados e a atualização de dados, você verá o workspace associado ao aplicativo. Neste ponto, você pode editar qualquer um dos artefatos ali exatamente como faria em qualquer workspace. No entanto, todas as alterações feitas serão substituídas quando você atualizar o aplicativo com uma nova versão, a menos que você salve os itens alterados com nomes diferentes. [Veja detalhes sobre a substituição](#overwrite-behavior).
 
-   ![Definir a página de aterrissagem do aplicativo](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+Para obter informações sobre como editar artefatos no workspace, confira
+* [Visão geral do editor de relatório no Power BI](service-the-report-editor-take-a-tour.md)
+* [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
 
-4. Em **Acesso**, permita acesso a usuários selecionados ou a toda a organização.  
-
-   ![Definir o acesso ao aplicativo](media/service-template-apps-install-distribute/power-bi-install-access.png)
-
-5. Selecione **Atualizar aplicativo**. 
-
-6. Depois de publicá-lo com êxito, você poderá copiar o link e compartilhá-lo com as pessoas a quem você permitiu acesso. Se você o compartilhou com elas, elas também podem vê-lo na guia **Minha organização** do AppSource.
+Quando terminar de fazer as alterações desejadas nos artefatos no workspace, você estará pronto para publicar e compartilhar o aplicativo. Confira [Publicar seu aplicativo](service-create-distribute-apps.md#publish-your-app) para saber como fazer isso.
 
 ## <a name="update-a-template-app"></a>Atualizar um aplicativo de modelo
 
-Os criadores de aplicativos de modelo podem liberar novas versões de seus aplicativos de modelo por meio do AppSource ou de um link direto. Quando isso é feito, você pode atualizar o aplicativo de modelo reinstalando-o com a mesma versão ou uma versão mais recente.
+De tempos em tempos, os criadores de aplicativo de modelo lançam novas versões aprimoradas de seus aplicativos de modelo por meio de AppSource, link direto ou ambos.
 
-  >[!NOTE]
-  >A instalação de uma nova versão substitui alterações feitas nos relatórios e dashboards. Para manter seus relatórios e dashboard atualizados, você pode salvá-los com um nome diferente ou em um local diferente antes da instalação.
+Se você originalmente tiver baixado o aplicativo do AppSource, quando uma nova versão do aplicativo de modelo ficar disponível, uma faixa de atualização aparecerá no serviço do Power BI informando que uma nova versão do aplicativo está disponível.
 
-- **Substituir uma versão existente:** substitui o workspace existente pela versão atualizada do aplicativo de modelo.
+  ![Notificação de atualização do aplicativo de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
 
-   ![Atualizar aplicativo de modelo](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+>[!NOTE]
+>Se você obteve originalmente o aplicativo por meio de link direto, em vez de pela AppSource, a única maneira de saber quando uma nova versão está disponível é entrar em contato com o criador do aplicativo de modelo.
 
-- **Instalar em um novo workspace:** instala uma nova versão do workspace e do aplicativo que você precisa reconfigurar
+  Para instalar a atualização, clique em **Obter** na faixa de notificação ou localize o aplicativo novamente na AppSource e escolha **Obter agora**. Se você tem um link direto para a atualização do criador do aplicativo de modelo, basta clicar no link.
+  
+  Você será consultado sobre se deseja substituir a versão atual ou instalar a nova versão em um novo workspace. Por padrão, "substituir" está selecionado.
+
+  ![Atualizar aplicativo de modelo](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **Substituir uma versão existente:** substitui o workspace existente pela versão atualizada do aplicativo de modelo. [Veja detalhes sobre a substituição](#overwrite-behavior).
+
+- **Instalar em um novo workspace:** Instala uma nova versão do workspace e do aplicativo que você precisa reconfigurar (ou seja, conectar-se a dados, definir a navegação e permissões).
 
 ### <a name="overwrite-behavior"></a>Comportamento de substituição
 
-* A substituição atualiza os relatórios, os dashboards e o conjunto de dados dentro do *workspace*, não do aplicativo. A substituição não altera a navegação, a configuração e a permissão do aplicativo.
-* Depois de atualizar o workspace, você precisa *atualizar o aplicativo* para aplicar as alterações do workspace ao aplicativo organizacional.
-* A substituição mantém os parâmetros e a autenticação configurados. Após a atualização, é iniciada uma atualização automática do conjunto de dados. Durante esse tempo, o aplicativo organizacional, os relatórios e os dashboards apresentam a experiência de *dados de exemplo*.
+* A substituição atualiza os relatórios, os dashboards e o conjunto de dados dentro do workspace, não do aplicativo. A substituição não altera a navegação, a configuração e a permissões do aplicativo.
+* Depois de atualizar o workspace, você precisa **atualizar o aplicativo** para aplicar as alterações do workspace ao aplicativo.
+* A substituição mantém os parâmetros e a autenticação configurados. Após a atualização, é iniciada uma atualização automática do conjunto de dados. **Durante essa atualização, o aplicativo, os relatórios e os dashboards apresentam dados de exemplo**.
+
   ![Dados de exemplo](media/service-template-apps-install-distribute/power-bi-sample-data.png)
-* A substituição sempre apresenta dados de exemplo até que a atualização seja concluída. Se o autor do aplicativo de modelo tiver alterado no conjunto de dados ou em parâmetros, os usuários do workspace e do aplicativo continuarão vendo a experiência de *dados de exemplo*.
-* A substituição nunca exclui os *novos* relatórios ou dashboards que você adicionou ao workspace. Ela substitui os relatórios e os dashboards originais por alterações do autor original.
+
+* A substituição sempre apresenta dados de exemplo até que a atualização seja concluída. Se o autor do aplicativo de modelo tiver feito alterações ao conjunto de dados ou aos parâmetros, os usuários do workspace e do aplicativo não verão a nova data até que a atualização seja concluída. Em vez disso, eles continuarão vendo os dados de exemplo durante esse tempo.
+* A substituição nunca exclui os novos relatórios ou dashboards que você adicionou ao workspace. Ela substitui apenas os relatórios e os dashboards originais por alterações do autor original.
 
 >[!IMPORTANT]
->Lembre-se de [atualizar o aplicativo](#customize-and-publish-the-app) após a substituição para aplicar as alterações aos relatórios e ao dashboard para os usuários do aplicativo organizacional.
+>Lembre-se de [atualizar o aplicativo](#customize-and-share-the-app) após a substituição para aplicar as alterações aos relatórios e ao dashboard para os usuários do aplicativo organizacional.
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 03/17/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 11e9bfb2c8dce526ad81395645165c2c7dd70a00
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114024"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525696"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Assinar um relatório ou painel no serviço do Power BI 
 
@@ -65,7 +65,7 @@ Se você estiver assinando um dashboard ou relatório, o processo será semelhan
 
 3. Se tudo estiver correto, selecione **Salvar e fechar** para salvar a assinatura. Você receberá um email e um instantâneo do painel ou do relatório no agendamento que definir. Todas as assinaturas com a frequência definida para **Após a atualização de dados** somente enviarão um email após a primeira atualização agendada naquele dia.
    
-   ![instantâneo de email de dashboard](media/end-user-subscribe/power-bi-email.png)
+   ![instantâneo de email de dashboard](media/end-user-subscribe/power-bi-email-old.png)
    
     Atualizar a página de relatório não atualiza o conjunto de dados. Somente o proprietário do conjunto de dados pode atualizá-lo manualmente. Para procurar o nome do proprietário dos conjuntos de dados subjacentes, selecione o menu suspenso na barra de menus ou procure o email de assinatura original.
    
@@ -80,14 +80,14 @@ Você só pode gerenciar as assinaturas criadas por você. Selecione **Assinar**
 Uma assinatura será encerrada se a licença Pro expirar, se o dashboard ou o relatório for excluído pelo proprietário ou se a conta de usuário usada para criar a assinatura for excluída.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
-* Para evitar que os emails da assinatura sejam enviados para a pasta de spam, adicione o alias de email do Power Platform (PowerPlat-noreply@microsoft.com) aos seus contatos. Se estiver usando o Microsoft Outlook, clique com o botão direito do mouse no alias e selecione **Adicionar aos contatos do Outlook**. 
+* Para evitar que os emails da assinatura sejam enviados para a pasta de spam, adicione o alias de email do Power BI (no-reply-powerbi@microsoft.com) aos seus contatos. Se estiver usando o Microsoft Outlook, clique com o botão direito do mouse no alias e selecione **Adicionar aos contatos do Outlook**. 
 * Os dashboards com mais de 25 blocos fixos ou quatro páginas de relatório dinâmico fixas podem não ser renderizados totalmente nos emails de assinatura enviados aos usuários. Sugerimos que você contate o designer do dashboard e solicite que ele reduza os blocos fixados para menos de 25 e os relatórios dinâmicos fixados para menos de quatro para garantir que o email seja renderizado corretamente.  
 * Para assinaturas de email do dashboard, se algum bloco tiver a RLS (Segurança em Nível de Linha) aplicada, esse bloco não será exibido.  Para assinaturas de email do relatório, se o conjunto de dados usar a RLS, não será possível criar uma assinatura.
 * Se os links em seu email (para o conteúdo) pararem de funcionar, talvez o conteúdo tenha sido excluído. No email, embaixo da captura de tela, você pode procurar se você se assinou ou se alguém assinou você. Se foi outra pessoa, peça para esse colega de trabalho cancelar os emails ou assinar você novamente.
 * As assinaturas da página de relatório são vinculadas ao nome da página de relatório. Se você assinar uma página de relatório e ela for renomeada, você precisará recriar sua assinatura.
 * Se você não conseguir usar o recurso de assinatura, entre em contato com o administrador do sistema. Sua organização pode ter desabilitado esse recurso.  
-* Assinaturas de email não dão suporte à maioria dos [visuais personalizados](../developer/power-bi-custom-visuals.md).  A exceção é para os visuais personalizados que foram [certificados](../developer/power-bi-custom-visuals-certified.md).  
-* No momento, as assinaturas de email não dão suporte a visuais personalizados da plataforma R.  
+* Assinaturas de email não dão suporte à maioria dos [visuais do Power BI](../developer/visuals/power-bi-custom-visuals.md).  A exceção é para os visuais do Power BI que foram [certificados](../developer/visuals/power-bi-custom-visuals-certified.md).  
+* No momento, as assinaturas de email não dão suporte a visuais do Power BI da plataforma R.  
 * Especificamente para assinaturas de dashboards, alguns tipos de blocos ainda não são compatíveis.  Eles incluem: blocos de streaming, blocos de vídeo, blocos de conteúdo da Web personalizado.     
 * As assinaturas poderão falhar em dashboards ou relatórios com imagens extremamente grandes devido aos limites de tamanho de email.    
 * O Power BI pausa a atualização automaticamente em conjuntos de dados associados a dashboards e relatórios que não foram visitados há mais de dois meses.  No entanto, se você adicionar uma assinatura a um dashboard ou um relatório, ele não ficará em pausa mesmo que não seja visitado.

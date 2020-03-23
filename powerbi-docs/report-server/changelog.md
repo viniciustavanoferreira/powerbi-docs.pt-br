@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237950"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381090"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Log de alterações para o Servidor de Relatórios do Power BI
 
@@ -200,7 +200,7 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
         - Recursos
             - O suporte para DirectQuery de SSO do SAP HANA com o Kerberos já está disponível para relatórios do Power BI
             - API de visual personalizado fornecida com a versão 1.13.0
-            - Os visuais personalizados podem voltar a uma versão anterior compatível com a versão atual da API do servidor (se disponível)
+            - Os visuais do Power BI podem voltar para uma versão anterior compatível com a versão atual da API do servidor (se disponível)
 
 - **Power BI Desktop (otimizado para o Servidor de Relatórios do Power BI)**
     - *Versão: 2.61.5192.641 (agosto de 2018), lançamento: 15 de agosto de 2018*
@@ -322,7 +322,7 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
             - A marca `{{UserId}}` resolve para as credenciais armazenadas, em vez do usuário que executa o relatório nos Relatórios do Power BI
             - Algumas imagens apresentam falha ao ser renderizadas em relatórios do Servidor de Relatório do Power BI
             - Não é possível alterar o nome de um Relatório do Power BI no Servidor de Relatório do Power BI
-            - Não é possível carregar visuais personalizados no aplicativo móvel Power BI (isso requer a reinstalação do aplicativo móvel para limpar o cache local)
+            - Não é possível carregar visuais do Power BI no aplicativo móvel Power BI (isso requer a reinstalação do aplicativo móvel para limpar o cache local)
 
     - *Build 14.0.600.271, lançamento: 12 de junho de 2017*
         - Versão inicial do Servidor de Relatório do Power BI

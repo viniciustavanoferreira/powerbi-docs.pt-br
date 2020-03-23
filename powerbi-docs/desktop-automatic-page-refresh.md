@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548554"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488512"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Atualização automática de página no Power BI Desktop (visualização)
 
@@ -35,9 +35,9 @@ A imagem a seguir mostra o cartão **Atualização de página**. As explicaçõe
 
 ![Cartão Atualizar página](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
-1.  Controle deslizante Atualização automática de página: ativa ou desativa a atualização da página
-2.  Valor do intervalo de atualização de página: valor numérico do intervalo de atualização
-3.  Unidade do intervalo de atualização de página: unidade de intervalo para atualização de página
+1.    Controle deslizante Atualização automática de página: ativa ou desativa a atualização da página
+2.    Valor do intervalo de atualização de página: valor numérico do intervalo de atualização
+3.    Unidade do intervalo de atualização de página: unidade de intervalo para atualização de página
 
 Aqui, você pode ativar a atualização de página e selecionar a duração da atualização. O valor padrão é 30 minutos, o intervalo de atualização mínimo é um segundo. O relatório começará a ser atualizado no intervalo que você definir. 
 
@@ -62,10 +62,10 @@ A imagem a seguir mostra os resultados de uma consulta do DirectQuery no Perform
 
 Vamos considerar algumas outras características sobre essa fonte de dados. 
 
-1.  Os dados chegam a uma taxa de dois segundos. 
-2.  O Performance Analyzer mostra a consulta máxima + tempo de exibição de aproximadamente 4,9 segundos (4.688 milissegundos). 
-3.  A fonte de dados está configurada para lidar com aproximadamente 1.000 consultas simultâneas por segundo. 
-4.  Você espera que aproximadamente 10 usuários exibam simultaneamente o relatório.
+1.    Os dados chegam a uma taxa de dois segundos. 
+2.    O Performance Analyzer mostra a consulta máxima + tempo de exibição de aproximadamente 4,9 segundos (4.688 milissegundos). 
+3.    A fonte de dados está configurada para lidar com aproximadamente 1.000 consultas simultâneas por segundo. 
+4.    Você espera que aproximadamente 10 usuários exibam simultaneamente o relatório.
 
 Isso resulta no seguinte:
 
@@ -83,13 +83,13 @@ Em seguida, vamos examinar como é possível detectar e diagnosticar problemas d
 
 Você também pode definir intervalos de atualização automática de página para relatórios criados no Power BI Desktop e publicados no serviço do Power BI. 
 
-A atualização automática de página para relatórios no serviço do Power BI é configurada com etapas semelhantes à configuração no Power BI Desktop. Quando configurada no serviço do Power BI, a atualização automática de página também é compatível com o conteúdo do [Power BI inserido](developer/embedding.md). A imagem a seguir mostra a configuração da **atualização de página** para o serviço do Power BI:
+A atualização automática de página para relatórios no serviço do Power BI é configurada com etapas semelhantes à configuração no Power BI Desktop. Quando configurada no serviço do Power BI, a atualização automática de página também é compatível com o conteúdo do [Power BI inserido](developer/embedded/embedding.md). A imagem a seguir mostra a configuração da **atualização de página** para o serviço do Power BI:
 
 ![Atualização automática de página no serviço do Power BI](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
-1.  Controle deslizante Atualização automática de página: ativa ou desativa a atualização da página
-2.  Valor do intervalo de atualização de página: valor numérico do intervalo de atualização, deve ser um número inteiro
-3.  Unidade do intervalo de atualização de página: unidade de intervalo para atualização de página
+1.    Controle deslizante Atualização automática de página: ativa ou desativa a atualização da página
+2.    Valor do intervalo de atualização de página: valor numérico do intervalo de atualização, deve ser um número inteiro
+3.    Unidade do intervalo de atualização de página: unidade de intervalo para atualização de página
 
 ### <a name="page-refresh-intervals"></a>Intervalos de atualização de página
 

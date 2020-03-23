@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "76753687"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378951"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usar temas de relatório no Power BI Desktop
 
@@ -185,7 +185,7 @@ Para exibir as cores disponíveis em um tema de relatório:
 
 Em nosso exemplo, após você aplicar diversos tons de verde e marrom do tema de relatório Dia de São Patrício, exiba as cores do tema. Viu todo esse verde? Isso ocorre porque essas cores faziam parte do tema de relatório importado e aplicado.
 
-As cores da paleta também têm relação com o tema atual. Por exemplo, suponha que você selecione a terceira cor da linha superior para um ponto de dados. Posteriormente, se você alterar para um tema diferente, a cor desse ponto será atualizada automaticamente para a terceira cor da linha superior no novo tema, assim como você veria ao alterar os temas no Microsoft Office.
+As cores da paleta também têm relação com o tema atual. Por exemplo, suponha que você selecione a terceira cor da linha superior para um ponto de dados. Posteriormente, se você alterar para um tema diferente, a cor desse ponto de dados será atualizada automaticamente para a terceira cor da linha superior no novo tema, assim como você veria ao alterar os temas no Microsoft Office.
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situações em que as cores do tema de relatório não permanecem nos relatórios
 
@@ -195,7 +195,7 @@ Suponha que você também precise definir manualmente a cor de um ponto de dados
 
 ![Reverter para o padrão](media/desktop-report-themes/report-themes_9.png)
 
-Muitos visuais personalizados não se aplicam aos temas de relatório.
+Muitos visuais do Power BI não se aplicam aos temas de relatório.
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>Arquivos de tema de relatório personalizado que você pode usar agora
 
@@ -271,7 +271,7 @@ Exceto por **name**, todo o restante é opcional, ou seja, você pode adicionar 
 
 Em **name**, você pode adicionar algumas propriedades básicas relacionadas à cor dos dados:
 
-- **dataColors**: A lista de códigos hexadecimais de cores a ser usada para colorir formas que representam os dados dos visuais do Power BI Desktop. Essa lista pode ter quantas cores você desejar. Quando todas as cores dessa lista tiverem sido usadas, se o elemento visual ainda precisar de mais cores, ele passará a usar a paleta de cores padrão do Power BI.
+- **dataColors**: A lista de códigos hexadecimais de cores a ser usada para colorir formas que representam os dados dos visuais do Power BI Desktop. Essa lista pode ter quantas cores você desejar. Quando todas as cores dessa lista tiverem sido usadas, se o visual ainda precisar de mais cores, ele passará a usar a paleta de cores padrão do Power BI.
 - **good**, **neutral**, **bad**: Essas propriedades definem as cores de status usadas pelo gráfico de cascata e pelo visual de KPI.
 - **maximum**, **center**, **minimum**, **null**: Definem as diversas cores gradientes na caixa de diálogo de formatação condicional.
 
@@ -312,10 +312,10 @@ A tabela a seguir mostra as seis classes de cores que você pode formatar.  Os n
 |---------|---------|
 | **firstLevelElements** <br> **foreground** (preterido) | Cor do plano de fundo dos rótulos (quando estiverem fora dos pontos de dados) <br> Cor da linha de tendência <br>  Cor padrão da caixa de texto <br> Valores de tabela e matriz e cores de fonte de valores totais, cor do eixo de barras de dados <br> Rótulos de dados de cartão <br> Cor do valor de balão do medidor <br> Cor da meta de KPI <br>  Cor do texto de KPI <br> Cor do item da segmentação (quando estiver no modo de foco)  <br> Cor da fonte do item de menu suspenso da segmentação de dados <br> Cor da fonte de entrada numérica da segmentação de dados <br> Cor da fonte do cabeçalho da segmentação de dados <br> Cor da linha de proporção do gráfico de dispersão <br> Cor da linha de previsão do gráfico de linhas <br> Cor da linha tracejada do mapa <br> Cor do painel do filtro e texto do cartão|
 | **secondLevelElements** <br> **foregroundNeutralSecondary** (preterido) | [classes de texto secundário](#setting-formatted-text-defaults) “claras” <br> Cores do rótulo  <br> Cor do rótulo de legenda <br> Cor do rótulo de eixo <br> Cor da fonte do cabeçalho da tabela e da matriz <br> Cor da linha tracejada de destino e do destino do medidor <br>  Cor do eixo de tendência do KPI <br> Cor do controle deslizante da segmentação de dados <br> Cor da fonte do item da segmentação de dados <br> Cor do contorno da segmentação de dados <br> Cor da focalização do gráfico de linhas <br> Cor do título do cartão de múltiplas linhas <br> Cor do traçado do gráfico de faixas <br> Cor da borda do mapa da forma <br> Cor da fonte do texto do botão <br> Cor da linha do ícone do botão <br> Cor do contorno do botão |
-| **thirdLevelElements** <br >**backgroundLight** (preterido) | Cor da linha de grade do eixo <br> Cor da grade de tabela e da matriz <br> Cor do plano de fundo do cabeçalho da segmentação (no modo de foco)  <br> Cor do contorno do cartão com várias linhas  <br> Cor de preenchimento da forma <br> Cor da tela de fundo do arco do medidor <br> Cor do plano de fundo do cartão de filtro aplicado <br> |
-| **fourthLevelElements** <br> **foregroundNeutralTertiary** (preterido) | Cor esmaecida da legenda <br> Cor do rótulo da categoria do cartão <br> Cor dos rótulos da categoria de cartão com várias linhas <br> Cor da barra do cartão com várias linhas <br> Cor do traçado da taxa de conversão do gráfico de funil
+| **thirdLevelElements** <br >**backgroundLight** (preterido) | Cor da linha de grade do eixo <br> Cor da grade de tabela e da matriz <br> Cor do plano de fundo do cabeçalho da segmentação (no modo de foco)  <br> Cor do contorno do cartão com várias linhas  <br> Cor de preenchimento da forma <br> Cor da tela de fundo do arco do medidor <br> Cor do plano de fundo do cartão de filtro aplicado <br> Quando a tela de fundo = FFFFFF: <br> Cor do preenchimento do botão desabilitada <br> Cor do contorno do botão desabilitada <br> |
+| **fourthLevelElements** <br> **foregroundNeutralTertiary** (preterido) | Cor esmaecida da legenda <br> Cor do rótulo da categoria do cartão <br> Cor dos rótulos da categoria de cartão com várias linhas <br> Cor da barra do cartão com várias linhas <br> Cor do traçado da taxa de conversão do gráfico de funil <br> Cor da fonte do texto do botão desabilitada <br> Cor da linha do ícone do botão desabilitada <br> |
 | **segundo plano** | Cor do plano de fundo dos rótulos (quando estiver dentro dos pontos de dados) <br> Cor do plano de fundo de itens de menu suspenso da segmentação de dados  <br> Cor do traçado do gráfico de rosca <br> Cor do traçado do mapa de árvore <br> Cor do plano de fundo do gráfico de combinação <br> Cor de preenchimento do botão <br> Cor do plano de fundo do painel de filtro e do cartão de filtro disponível |
-| **secondaryBackground** <br> **backgroundNeutral** (preterido) | Cor de contorno da grade da tabela e da matriz <br> Cor padrão do mapa de formas <br> Cor de preenchimento da faixa de opções do gráfico de faixas (quando a opção de série de correspondência estiver desativada) |
+| **secondaryBackground** <br> **backgroundNeutral** (preterido) | Cor de contorno da grade da tabela e da matriz <br> Cor padrão do mapa de formas <br> Cor de preenchimento da faixa de opções do gráfico de faixas (quando a opção de série de correspondência estiver desativada) <br> Quando a tela de fundo != FFFFFF: <br> Cor do preenchimento do botão desabilitada <br> Cor do contorno do botão desabilitada <br> |
 | **tableAccent** | Substitui a cor de contorno da tabela e da grade de matriz, quando estiver presente |
 
 Veja um exemplo de tema que define as classes de cor:

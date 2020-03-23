@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290603"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377732"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Estender visuais com dicas de ferramentas de página de relatório
 
@@ -31,7 +31,7 @@ As dicas de ferramenta da página de relatório podem aprimorar a experiência d
 >
 > As dicas de ferramentas de página não dão suporte à interatividade. Se quiser que os usuários do relatório interajam, crie uma [página de detalhamento](../desktop-drillthrough.md).
 >
-> Visuais personalizados não dão suporte a dicas de ferramenta de página.
+> Visuais do Power BI não dão suporte a dicas de ferramenta de página.
 
 Estes são alguns cenários de design sugeridos:
 

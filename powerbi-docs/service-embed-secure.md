@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919787"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488811"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserir um relatório em um site ou portal seguro
 
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -133,9 +133,9 @@ Você pode adicionar quantos botões desejar para criar uma experiência persona
 
 * Não há suporte para o servidor do SharePoint clássico, pois ele requer versões anteriores ao Internet Explorer 11 ou a habilitação do modo de exibição de compatibilidade.
 
-* Para obter uma experiência de logon único, use a [opção Inserir no SharePoint Online](service-embed-report-spo.md) ou crie uma integração personalizada usando o método de inserção o [usuário possui dados](developer/embed-sample-for-your-organization.md). 
+* Para obter uma experiência de logon único, use a [opção Inserir no SharePoint Online](service-embed-report-spo.md) ou crie uma integração personalizada usando o método de inserção o [usuário possui dados](developer/embedded/embed-sample-for-your-organization.md). 
 
-* O recurso de autenticação automática fornecido com a opção **Inserir** não funciona com a API JavaScript do Power BI. Para a API JavaScript do Power BI, use o método de inserção [o usuário possui dados](developer/embed-sample-for-your-organization.md). 
+* O recurso de autenticação automática fornecido com a opção **Inserir** não funciona com a API JavaScript do Power BI. Para a API JavaScript do Power BI, use o método de inserção [o usuário possui dados](developer/embedded/embed-sample-for-your-organization.md). 
 
 * O tempo de vida do token de autenticação é controlado com base nas configurações do AAD. Quando o token de autenticação expirar, o usuário precisará atualizar o navegador para obter um token de autenticação atualizado. O tempo de vida padrão é de uma hora, mas ele pode ser mais curto ou mais longo na sua organização.
 

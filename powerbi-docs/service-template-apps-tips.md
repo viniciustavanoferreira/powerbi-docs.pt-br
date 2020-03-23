@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: dcb7ba5dabbbb0387b92908f7e299d61f2145d44
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710140"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376582"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Dicas para a criação de aplicativos de modelo no Power BI
 
@@ -157,7 +157,7 @@ Para redirecionar um usuário para o link de download do aplicativo no Power BI,
 | Fontes de dados | Fontes de dados compatíveis com a atualização de Dados Agendada na nuvem são permitidas. <br>Sem suporte: <li> DirectQuery</li><li>Conexões dinâmicas (sem o Azure AS)</li> <li>Fontes de dados locais (não há suporte para gateways pessoais e empresariais)</li> <li>Em tempo real (não há suporte para conjunto de dados de push)</li> <li>Modelos compostos</li></ul> |
 | Conjunto de dados: entre workspaces | Conjuntos de dados entre workspaces não são permitidos  |
 | Parâmetros de consulta | Sem suporte: Parâmetros do tipo "Qualquer" ou "Binário" bloqueiam a operação de atualização do conjunto de dados |
-| Visuais personalizados | Somente há suporte para visuais personalizados disponíveis publicamente. Não há suporte para [visuais personalizados organizacionais](developer/power-bi-custom-visuals-organization.md) |
+| Visuais do Power BI | Somente há suporte para visuais do Power BI disponíveis publicamente. Não há suporte para [visuais do Power BI organizacionais](developer/visuals/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>Próximas etapas
 

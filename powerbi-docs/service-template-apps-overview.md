@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/17/2019
 ms.author: painbar
-ms.openlocfilehash: bfc6a32f7b6ef83e6e69351fb4d87d89c8c2806e
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427566"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376674"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são os aplicativos de modelo do Power BI?
 
@@ -102,7 +102,7 @@ Confira [Dicas para a criação de aplicativos de modelo no Power BI](service-te
 | Fontes de dados | Fontes de dados compatíveis com a atualização de Dados Agendada na nuvem são permitidas. <br>Sem suporte: <li> DirectQuery</li><li>Conexões dinâmicas (sem o Azure AS)</li> <li>Fontes de dados locais (não há suporte para gateways pessoais e empresariais)</li> <li>Em tempo real (não há suporte para conjunto de dados de push)</li> <li>Modelos compostos</li></ul> |
 | Conjunto de dados: entre workspaces | Conjuntos de dados entre workspaces não são permitidos  |
 | Parâmetros de consulta | Sem suporte: Parâmetros do tipo "Qualquer" ou "Binário" bloqueiam a operação de atualização do conjunto de dados |
-| Visuais personalizados | Somente há suporte para visuais personalizados disponíveis publicamente. Não há suporte para [visuais personalizados organizacionais](developer/power-bi-custom-visuals-organization.md) |
+| Visuais do Power BI | Somente há suporte para visuais do Power BI disponíveis publicamente. Não há suporte para [visuais do Power BI organizacionais](developer/visuals/power-bi-custom-visuals-organization.md) |
 
 ## <a name="support"></a>Suporte
 Para obter suporte durante o desenvolvimento, use [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Monitoramos e gerenciamos esse site ativamente. Os incidentes com clientes chegam rapidamente à equipe apropriada.

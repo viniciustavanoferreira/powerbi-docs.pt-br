@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40e11f6423df12355800a2c62876e5de1f8b3f82
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867473"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378583"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Amostragem de linha de alta densidade no Power BI
 Começando com a versão de junho de 2017 do **Power BI Desktop** e as atualizações para o **serviço do Power BI**, um novo algoritmo de amostragem está disponível para melhorar os visuais com amostragem de dados de alta densidade. Por exemplo, é possível criar um gráfico de linhas dos resultados de vendas de suas lojas de varejo, com cada loja tendo mais de dez mil recibos de venda todo ano. Um gráfico de linhas dessas informações de vendas faria a amostragem (selecione uma representação significativa desses dados para ilustrar como as vendas variam ao longo do tempo) dos dados de cada loja e criaria um gráfico de linhas multissérie para representar os dados subjacentes. Essa é uma prática comum na visualização de dados de alta densidade. O Power BI Desktop melhorou sua amostragem de dados de alta densidade, cujos detalhes estão descritos neste artigo.
@@ -46,7 +46,7 @@ Para qualquer visualização fornecida, aplicam-se as seguintes limitações de 
 O número máximo de limites de dados é maior para os seguintes tipos visuais, que são *exceções* ao limite de 3.500 pontos de dados:
 
 * **150.000** pontos de dados no máximo para visuais R.
-* **30.000** pontos de dados para visuais personalizados.
+* **30.000** pontos de dados para visuais do Power BI.
 * **10.000** pontos de dados para gráficos de dispersão (o padrão de gráficos de dispersão é 3.500)
 * **3.500** para todos os outros visuais
 

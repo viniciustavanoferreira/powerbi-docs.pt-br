@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114162"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377180"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de visuais no Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Você encontrará visuais em relatórios, dashboards e P e R. Alguns desses tipos de visuais são empacotados com o Power BI e alguns são *visuais personalizados*. Visuais personalizados são criados fora do Power BI e de uma maneira que permite a *designers de relatório* adicioná-los a relatórios e dashboards do Power BI. 
+Você encontrará visuais em relatórios, dashboards e P e R. Alguns desses tipos de visuais são empacotados com o Power BI e alguns são *visuais do Power BI*. Visuais personalizados são criados fora do Power BI e de uma maneira que permite a *designers de relatório* adicioná-los a relatórios e dashboards do Power BI. 
 
 Este artigo é uma visão geral de visuais empacotados com o serviço do Power BI.  Estas são os visuais que você encontrará com mais frequência. Para obter informações detalhadas sobre qualquer um desses visuais, confira a documentação do [*designer* de relatórios do Power BI sobre tipos visuais](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 > [!NOTE]
-> Para saber mais sobre visuais personalizados, pesquise-os na seção **Visuais do Power BI** do [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada visual, você encontrará uma descrição, informações do criador e capturas de tela ou um vídeo. 
+> Para saber mais sobre visuais do Power BI, pesquise-os na seção **Visuais do Power BI** do [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada visual, você encontrará uma descrição, informações do criador e capturas de tela ou um vídeo. 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lista de visuais disponíveis no Power BI
 Todos esses visuais podem ser encontrados nos relatórios e nos dashboards do Power BI, bem como [especificados em P e R](end-user-q-and-a.md). Para saber como interagir com visuais, confira [Interagir com visuais em relatórios, dashboards e aplicativos](end-user-visualizations.md)
@@ -237,7 +237,7 @@ Os gráficos de cascata são uma ótima opção:
 - para ilustrar o início e final do número de funcionários de sua empresa em um ano
 - para visualizar a quantidade de dinheiro, faça e gaste todo mês e o saldo parcial para sua conta.
 
-## <a name="qna"></a>Dizer a P e R que visual usar
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>Dizer a P e R que visual usar
 Ao digitar consultas em linguagem natural com a P e R do Power BI, você pode especificar o tipo de visual em sua consulta.  Por exemplo:
 
 

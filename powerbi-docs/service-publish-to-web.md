@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237973"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488765"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web por meio do Power BI
 
@@ -112,7 +112,7 @@ Após criar um código de inserção no recurso **Publicar na Web**, será poss�
 
    ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
-4. Se você selecionar **Excluir**, deverá confirmar.
+4. Se você selecionar **Excluir**, será solicitado a confirmar.
 
    ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
@@ -124,9 +124,9 @@ Depois de criar seu código de inserção no recurso **Publicar na Web** e compa
 
 As atualizações de dados são refletidas automaticamente no relatório ou visual inserido. Pode levar aproximadamente uma hora para que os dados atualizados estejam visíveis nos códigos de inserção. Para desabilitar a atualização automática, selecione **não atualizar** no agendamento do conjunto de dados que o relatório usa.  
 
-## <a name="custom-visuals"></a>Visuais personalizados
+## <a name="power-bi-visuals"></a>Visuais do Power BI
 
-Há suporte para visuais personalizados no recurso **Publicar na Web**. Quando você usa o recurso **Publicar na Web**, os usuários com os quais você compartilha seu visual publicado não precisam habilitar visuais personalizados para exibir o relatório.
+Há suporte para visuais do Power BI no recurso **Publicar na Web**. Quando você usa o recurso **Publicar na Web**, os usuários com os quais você compartilha seu visual publicado não precisam habilitar visuais do Power BI para exibir o relatório.
 
 ## <a name="limitations"></a>Limitações
 
@@ -144,7 +144,7 @@ O recurso **Publicar na Web** é compatível com a maioria das fontes de dados e
 - Modelos de consulta de dados de logon único.
 - Informações confidenciais ou proprietárias.
 - [Conjuntos de dados compartilhados e certificados](service-datasets-share.md).
-- O recurso de autenticação automática fornecido com a opção **Inserir** não funciona com a API JavaScript do Power BI. Para a API JavaScript do Power BI, use a abordagem [o usuário possui dados](developer/embed-sample-for-your-organization.md) para inserção.
+- O recurso de autenticação automática fornecido com a opção **Inserir** não funciona com a API JavaScript do Power BI. Para a API JavaScript do Power BI, use a abordagem [o usuário possui dados](developer/embedded/embed-sample-for-your-organization.md) para inserção.
 
 ## <a name="tenant-setting"></a>Configuração de locatário
 
@@ -196,7 +196,7 @@ Você precisa ser um usuário do Microsoft Power BI para usar o recurso **Public
 
 Quando você cria um código de inserção usando **Publicar na Web**, o relatório fica visível para os usuários da Internet. Está disponível publicamente e, portanto, você pode esperar que as pessoas que verão seu relatório o compartilhem com facilidade por meio da mídia social no futuro. Conforme os usuários exibem o relatório, abrindo a URL pública direta ou exibindo-o inserido em uma página da Web ou em um blog, o Power BI armazena em cache a definição do relatório e os resultados das consultas necessárias para exibi-lo. Com isso, milhares de usuários simultâneos podem exibir o relatório sem afetar o desempenho.
 
-O cache é duradouro; portanto, se você atualizar a definição do relatório (por exemplo, alterar seu Modo de exibição) ou atualizar os dados do relatório, poderá levar aproximadamente uma hora até que as alterações sejam refletidas na versão do relatório que seus usuários veem. Portanto, é recomendável que você teste seu trabalho antecipadamente e crie o código de inserção de **Publicar na Web** somente quando estiver satisfeito com as configurações.
+O cache é duradouro; portanto, se você atualizar a definição do relatório (por exemplo, alterar seu Modo de exibição) ou atualizar os dados do relatório, poderá levar aproximadamente uma hora até que as alterações sejam refletidas na versão do relatório que seus usuários veem. Portanto, é recomendável que você prepare seu trabalho antecipadamente e crie o código de inserção de **Publicar na Web** somente quando estiver satisfeito com as configurações.
 
 ## <a name="how-to-find-your-power-bi-administrator"></a>Como encontrar seu administrador do Power BI
 

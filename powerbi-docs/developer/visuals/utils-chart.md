@@ -7,14 +7,14 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: e87235232860897765ef95bf0ec865410adf8fd1
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819481"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379380"
 ---
 # <a name="chart-utils"></a>Utilitários de gráfico
 
@@ -681,7 +681,7 @@ let formattedValue = formatter.format(value);
 
 ## <a name="legend-service"></a>Serviço de legenda
 
-O serviço de `Legend` fornece interfaces auxiliares para criação e gerenciamento de legendas PBI para visuais personalizados
+O serviço `Legend` fornece interfaces auxiliares para criação e gerenciamento de legendas PBI para visuais do Power BI
 
 O módulo fornece as seguintes funções e interfaces:
 

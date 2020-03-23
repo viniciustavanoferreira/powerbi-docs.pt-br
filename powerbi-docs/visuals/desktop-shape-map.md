@@ -2,19 +2,19 @@
 title: Usar mapas de Formas no Power BI Desktop (versão prévia)
 description: Criar comparações relativas de regiões usando mapas de formas no Power BI Desktop
 author: mihart
-ms.reviewer: amanda, justyna, sujata
+ms.reviewer: justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/14/2019
+ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762314"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525650"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Criar visualizações de mapa de formas no Power BI Desktop (versão prévia)
 
@@ -22,7 +22,7 @@ ms.locfileid: "75762314"
 
 Crie um visual de **Mapa de Formas** para comparar as regiões em um mapa usando cores. Ao contrário do visual **Mapa**, o **Mapa de Formas** não consegue mostrar localizações geográficas precisas de pontos de dados em um mapa. Em vez disso, sua finalidade principal é mostrar comparações relativas de regiões em um mapa colorindo-as de modo diferente.
 
-Visuais de **Mapa de Formas** são baseados nos mapas ESRI/TopoJSON, que têm a incrível capacidade de usar mapas personalizados que você pode criar. Exemplos de mapas personalizados são: disposições geográficas, plantas baixas e outros. A capacidade de usar mapas personalizados não está disponível nesta versão prévia do **Mapa de Formas**.
+Visuais de **Mapa de Formas** são baseados nos mapas TopoJSON, que têm a incrível capacidade de usar mapas personalizados que você pode criar. Exemplos de mapas personalizados são: disposições geográficas, plantas baixas e outros. A capacidade de usar mapas personalizados não está disponível nesta versão prévia do **Mapa de Formas**.
 
 ## <a name="creating-shape-maps"></a>Criando Mapas de Formas
 Você pode testar o controle de **Mapa de Formas** com os mapas que são fornecidos com esta versão de visualização ou pode usar seu próprio mapa personalizado, desde que ele atende aos requisitos descritos na seção a seguir, chamada **Usar mapas personalizados**.
@@ -400,7 +400,7 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OU |
+| us-or |Oregon |OR |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

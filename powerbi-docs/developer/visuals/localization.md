@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819113"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379807"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>Adicionar a localidade no Power BI para visuais personalizados
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Adicionar a localidade no Power BI para visuais do Power BI
 
 Os visuais podem recuperar a localidade do Power BI para localizar o conteúdo para o idioma relevante.
 
@@ -24,7 +24,7 @@ Leia mais sobre os [Idiomas e países/regiões com suporte do Power BI](./../../
 
 Por exemplo, obter a localidade no visual de Gráfico de Barras de Exemplo.
 
-![Localização no visual de Gráfico de Barras de Exemplo](media/locale-in-samplebarchart.png)
+![Localização no visual de Gráfico de Barras de Exemplo](media/localization/locale-in-samplebarchart.png)
 
 Cada um desses gráficos de barras foi criado com uma localidade diferente (inglês, basco e híndi) e isso é exibido na dica de ferramenta.
 
@@ -95,13 +95,13 @@ zh-TW | 中國 (chinês tradicional)
 > [!NOTE]
 > Na área de trabalho do PowerBI, a propriedade de localidade conterá o idioma do PowerBI Desktop instalado.
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>Localizando o painel de propriedades para visuais personalizados
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>Localizar o painel de propriedades para visuais do Power BI
 
 Os campos no painel de propriedades podem ser localizados a fim de fornecer uma experiência mais integrada e coerente. Isso faz com que seu visual personalizado se comporte como qualquer outro visual principal do Power BI.
 
 Por exemplo, um visual personalizado não localizado criado usando o comando `pbiviz new` mostrará os seguintes campos no painel de propriedades:
 
-![Localização no painel de propriedades](media/property-pane.png)
+![Localização no painel de propriedades](media/localization/property-pane.png)
 
 Os Dados da categoria e os Dados de medida são definidos no arquivo capabilities.json como `displayName`.
 
@@ -132,7 +132,7 @@ Em seguida, adicione um diretório chamado stringResources. O diretório conter�
 
 Em nosso exemplo, digamos que queremos dar suporte a árabe e hebraico. Será necessário adicionar dois arquivos JSON da seguinte maneira:
 
-![Cadeias de caracteres de localização na pasta de recursos de cadeia de caracteres](media/stringresources-files.png)
+![Cadeias de caracteres de localização na pasta de recursos de cadeia de caracteres](media/localization/stringresources-files.png)
 
 Cada arquivo JSON define uma única localidade (esse arquivo deve ser uma das localidades da lista de suporte acima), com os valores de cadeia de caracteres referente às chaves de nome de exibição desejadas. Em nosso exemplo, o arquivo de recurso de cadeia de caracteres para o hebraico terá a seguinte aparência:
 
@@ -161,13 +161,13 @@ Para uso da área de trabalho, baixe a versão localizada do Power BI Desktop em
 
 Se você usar o cliente Web (navegador) no serviço, altere o idioma nas configurações:
 
-![Localização no serviço Web](media/webservice-settings.png)
+![Localização no serviço Web](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>Arquivo de recurso
 
 Adicione um arquivo resources.resjson a uma pasta com o nome da localidade que você usará dentro da pasta stringResources. Em nosso exemplo, eles são en-US e ru-RU.
 
-![O novo arquivo resjson](media/new-resjson.png)
+![O novo arquivo resjson](media/localization/new-resjson.png)
 
 Depois disso, adicione todas as cadeias de caracteres de localização que você usará no arquivo resources.resjson que adicionou na etapa anterior.
 
@@ -195,7 +195,7 @@ Este exemplo é a versão en-US do arquivo resources.resjson:
 }
 ```
 
-Nova instância do localizationManager Crie uma instância do localizationManager no código do visual da seguinte maneira
+Nova instância do localizationManager Crie uma instância do localizationManager no código do visual como descrito a seguir
 
 ```typescript
 private localizationManager: ILocalizationManager;

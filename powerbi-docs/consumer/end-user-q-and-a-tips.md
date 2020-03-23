@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114296"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376812"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas na P e R do Power BI
 
@@ -67,7 +67,7 @@ A lista abaixo usa o presente do indicativo, mas, na maioria dos casos, todos os
 |  |  |
 |**N superior**     |     (ordem, classificação): superior, inferior, o maior, o menor, o primeiro, o último, o próximo, o mais recente, o mais antigo, o mais novo            |
 |        |         |
-|**Tipos de visual**     |  todos os tipos de visual nativos do Power BI.  Se esta for uma opção no painel Visualizações, você poderá incluí-la em sua pergunta.  A exceção a esta regra são [visuais personalizados](../developer/power-bi-custom-visuals.md) que você adicionou manualmente ao painel Visualização.  |
+|**Tipos de visual**     |  todos os tipos de visual nativos do Power BI.  Se esta for uma opção no painel Visualizações, você poderá incluí-la em sua pergunta.  A exceção a esta regra são [visuais do Power BI](../developer/visuals/power-bi-custom-visuals.md) que você adicionou manualmente ao painel Visualização.  |
 |  |  Exemplo: mostrar distritos por mês e vendas total como um gráfico de barras               |
 |        |         |
 |**Palavras interrogativas (relação, qualificada)**  | quando, onde, qual, quem, quanto, quantos, quantas vezes, com que frequência, qual valor, quantidade, número, valor, quanto tempo, o que                |

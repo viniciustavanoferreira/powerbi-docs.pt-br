@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925684"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379089"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Criar relatórios do Power BI para acessibilidade
 Você pode projetar e criar relatórios atraentes e, ao mesmo tempo, projetá-los para acessibilidade. Sempre que criar um relatório, independentemente de quem é o público-alvo, você deve criá-los para serem utilizáveis pelo máximo de pessoas possíveis, sem a necessidade de ser adaptado para um tipo de design especial.
@@ -108,7 +108,7 @@ O texto Alt deve incluir informações sobre o insight que você gostaria que o 
 
 ![Usar texto Alt descritivo](media/desktop-accessibility/accessibility-creating-reports-06.png)
 
-Entenda que falar um insight ou pontos de dados específicos pode não ser a melhor coisa a se colocar em texto Alt estático, pois os dados são dinâmicos no Power BI. Se você quiser usar texto Alt dinâmico, consulte a próxima seção que descreve a formatação condicional para texto Alt.
+Entenda que falar um insight ou pontos de dados específicos pode não ser a melhor coisa a se colocar em texto Alt estático, pois os dados são dinâmicos no Power BI. Se desejar usar texto Alt dinâmico, confira a próxima seção que descreve a formatação condicional para texto Alt.
 
 ### <a name="conditional-formatting-for-alt-text"></a>Formatação condicional para texto Alt
 
@@ -123,7 +123,7 @@ Para definir a ordem de tabulação, selecione a guia **Exibir** na faixa de op�
 
 ![Menu Exibir para mostrar o Painel de Seleção](media/desktop-accessibility/accessibility-creating-reports-08.png)
 
-No **Painel de Seleção**, selecionar **Ordem de tabulação** exibe a ordem de tabulação atual do relatório. Você pode selecionar um objeto e, em seguida, usar os botões de seta para cima e para baixo para mover o objeto na hierarquia ou pode selecionar um objeto com o mouse e arrastá-lo para a posição que você gostaria da lista. Clicar no número ao lado de um objeto oculta o objeto da ordem de tabulação.
+No **Painel de Seleção**, selecionar **Ordem de tabulação** exibe a ordem de tabulação atual do relatório. Você pode selecionar um objeto e, em seguida, usar os botões de seta para cima e para baixo para mover o objeto na hierarquia ou pode selecionar um objeto com o mouse e arrastá-lo para a posição da lista desejada. Clicar no número ao lado de um objeto oculta o objeto da ordem de tabulação.
 
 ![Ordem de tabulação no Painel de seleção](media/desktop-accessibility/accessibility-creating-reports-09.png)
 
@@ -140,7 +140,7 @@ Com rótulos de dados, você pode até optar por ativar ou desativar os rótulos
 
 ![Rótulos de dados acima ou abaixo](media/desktop-accessibility/accessibility-creating-reports-12.png)
 
-Posicionar os rótulos de dados acima ou abaixo da série poderá ajudar, especialmente se você estiver usando um gráfico de linhas com várias linhas. Com alguns ajustes, os rótulos de dados parecem muito melhores.
+Posicionar os rótulos de dados acima ou abaixo da série poderá ajudar, principalmente se você estiver usando um gráfico de linhas com várias linhas. Com alguns ajustes, os rótulos de dados parecem muito melhores.
 
 ![Rótulos de dados ajustados, muito mais claros agora](media/desktop-accessibility/accessibility-creating-reports-13.png)
 
@@ -253,8 +253,8 @@ Além de fornecer funcionalidades e ferramentas de acessibilidade, o Power BI fo
 * Marque todas as imagens decorativas como ocultas na ordem de tabulação, para que elas não sejam anunciadas por um leitor de tela.
 * Evite usar muitas imagens decorativas ao ponto de causar distração.
 
-### <a name="custom-visuals"></a>Visuais personalizados
-* Verifique a tabela **Mostrar Dados** acessível para visuais personalizados. Se as informações mostradas não forem suficientes, procure outro visual.
+### <a name="power-bi-visuals"></a>Visuais do Power BI
+* Verifique se há visuais do Power BI na tabela **Mostrar Dados** acessível. Se as informações mostradas não forem suficientes, procure outro visual.
 * Se estiver usando o visual personalizado *Eixo de Reprodução*, certifique-se de que ele não seja executado automaticamente. Deixe claro que o usuário deverá pressionar o botão reproduzir/pausar para iniciar/parar os valores sendo alterados.
 
 ### <a name="across-visuals-on-the-page"></a>Entre visuais na página

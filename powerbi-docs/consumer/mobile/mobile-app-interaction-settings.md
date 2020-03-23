@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041231"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377365"
 ---
 # <a name="configure-report-interaction-settings"></a>Definir configurações de interação de relatório
 
@@ -49,9 +49,9 @@ Com a opção de seleção múltipla, é possível selecionar vários pontos de 
 Para cancelar a seleção de um ponto de dados, toque nela novamente.
 
 >[!NOTE]
->O recurso de seleção múltipla não tem suporte em visuais personalizados.
+>O recurso de seleção múltipla não tem suporte em visuais do Power BI.
 >
->O modo de seleção múltipla terá suporte do Servidor de Relatórios do Power BI, no próximo lançamento desta plataforma.
+>O modo de seleção múltipla terá suporte do Servidor de Relatórios do Power BI no próximo lançamento dessa plataforma.
 
 ### <a name="docked-report-footer"></a>Rodapé de relatório encaixado
 

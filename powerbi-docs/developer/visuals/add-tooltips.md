@@ -6,20 +6,20 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880350"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380607"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Dicas de ferramenta em visuais do Power BI
 
-Os visuais agora podem se beneficiar do suporte a dicas de ferramenta do Power BI. As dicas de ferramenta do Power BI são responsáveis pelas seguintes interações:
+Os visuais agora podem se beneficiar do suporte a dicas de ferramenta do Power BI. As dicas de ferramenta do Power BI são responsáveis pelas seguintes interações:'''
 
-* mostrar uma dica de ferramenta;
+* mostrar uma dica de ferramenta.'''
 * ocultar uma dica de ferramenta;
 * mover uma dica de ferramenta.
 
@@ -27,7 +27,7 @@ Dicas de ferramenta podem exibir um elemento textual com um título, um valor em
 
 Uma dica de ferramenta em um gráfico de barras de exemplo é mostrada na imagem a seguir:
 
-![Dicas de ferramentas do gráfico de barras de exemplo](./media/tooltips-in-samplebarchart.png)
+![Dicas de ferramentas do gráfico de barras de exemplo](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 A imagem de dica de ferramenta anterior ilustra uma única categoria de barra e valor. Você pode estender uma única dica de ferramenta para exibir vários valores.
 
@@ -209,7 +209,7 @@ Um exemplo de esquema é
 
 Você pode definir dicas de ferramenta da página de relatório no painel **Formatar**.
 
-![Dica de ferramenta de página de relatório](media/report-page-tooltip.png)
+![Dica de ferramenta de página de relatório](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`: A configuração da dica de ferramenta com suporte no visual e refletida no contêiner de campos. 
    * `default`: Especifica se a associação de dicas de ferramenta "automática" por meio do campo de dados é compatível. 

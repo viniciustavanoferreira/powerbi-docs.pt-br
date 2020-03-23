@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114730"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435917"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>O logon único no aplicativo móvel do Windows do Power BI
 
@@ -21,7 +21,10 @@ Leia sobre SSO (Logon Único) no aplicativo móvel do Windows do Power BI. SSO s
 
 Porque o aplicativo do Windows do Power BI está integrado ao Azure Active Directory, você pode usar suas contas organizacionais primárias não apenas para entrar em seus dispositivos ingressados no domínio, mas também para entrar no serviço do Power BI. Se você estiver exibindo o Power BI no telefone Windows, verifique se a conta usada para o Power BI está configurada como corporativa ou de estudante conta nas configurações do dispositivo.  
 
-SSO é habilitado somente para dispositivos Windows gerenciados pelo Microsoft Azure Active Directory. 
+SSO é habilitado somente para dispositivos Windows gerenciados pelo Microsoft Azure Active Directory.
+
+>[!NOTE]
+>O suporte de aplicativo móvel Power BI para **telefones que usam o Windows 10 Mobile** será descontinuado em 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="sign-in-with-sso"></a>Entrar com SSO
 

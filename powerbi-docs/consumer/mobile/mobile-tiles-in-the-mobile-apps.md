@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0f3aa67ea3d8a1cdf34503a833fad42b2d258859
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114696"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435894"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar blocos nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -85,6 +85,10 @@ Em seguida, nos aplicativos móveis do Power BI, abra os blocos no modo de foco 
 4. Toque na seta no canto superior esquerdo para fechar o bloco e retornar ao dashboard.
 
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Blocos no aplicativo móvel do Windows 10
+
+>[!NOTE]
+>O suporte de aplicativo móvel Power BI para **telefones que usam o Windows 10 Mobile** será descontinuado em 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 1. Abra um [dashboard no aplicativo móvel do Power BI](mobile-apps-view-dashboard.md) para Windows 10.
 2. Toque na reticências vertical no bloco. A partir daqui, você pode: 
    

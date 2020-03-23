@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041713"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436009"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar um aplicativo de modelo no Power BI
 
@@ -30,7 +30,7 @@ Estes são os requisitos para a criação de um aplicativo de modelo:
 - Uma [licença do Power BI Pro](service-self-service-signup-for-power-bi.md)
 - Uma [instalação do Power BI Desktop](desktop-get-the-desktop.md) (opcional)
 - Familiaridade com os [conceitos básicos do Power BI](service-basic-concepts.md)
-- Permissões para compartilhar um aplicativo de modelo publicamente. Confira o [portal de administração do Power BI, configurações de Aplicativo de modelo](service-admin-portal.md#template-apps-settings) para obter mais detalhes.
+- Permissões para compartilhar um aplicativo de modelo publicamente (para obter mais informações, confira [portal de administração, configurações do aplicativo de Modelo](service-admin-portal.md#template-apps-settings) do Power BI)
 
 ## <a name="create-the-template-workspace"></a>Criar o workspace de modelo
 
@@ -87,7 +87,7 @@ Agora que há algum conteúdo no workspace, você está pronto para empacotá-lo
 
     Ative o **Novo construtor de navegação**, no qual você pode definir o painel de navegação do aplicativo (confira [Projetar a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) neste artigo para obter detalhes).
 
-   ![Definir a página de aterrissagem do aplicativo](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![Definir a página de aterrissagem do aplicativo](media/service-template-apps-create/power-bi-install-app-content.png)
     
     **Página de aterrissagem do aplicativo:** Se decidir recusar o construtor de navegação, você terá a opção de selecionar a página de aterrissagem do aplicativo. Defina um relatório ou um dashboard para ser a página de aterrissagem do aplicativo. Use uma página de aterrissagem que dê a impressão certa.
 
@@ -109,7 +109,7 @@ Agora que há algum conteúdo no workspace, você está pronto para empacotá-lo
     - **Obrigatório**: use essa opção para exigir o que o instalador insira um parâmetro específico do usuário.
     - **Bloqueio**: o bloqueio impede que o instalador atualize um parâmetro.
 
-    **Acesso** Na fase de teste, decida quais outras pessoas em sua organização podem instalar e testar o aplicativo. Não se preocupe, você sempre poderá voltar e alterar essas configurações posteriormente (a configuração não afeta o acesso do aplicativo de modelo distribuído).
+    **Acesso** Na fase de teste, decida quais outras pessoas em sua organização podem instalar e testar o aplicativo. Não se preocupe, pois você sempre poderá voltar e alterar essas configurações posteriormente. A configuração não afeta o acesso do aplicativo de Modelo distribuído.
 
 2. Selecione **Criar aplicativo**.
 

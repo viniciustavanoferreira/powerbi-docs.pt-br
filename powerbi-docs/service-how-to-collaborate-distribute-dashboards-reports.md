@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881336"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376743"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Maneiras de compartilhar seu trabalho no Power BI
 
@@ -23,10 +23,12 @@ Você criou painéis e relatórios. Talvez você também tenha colaborado neles 
 * Colabore com colegas de trabalho para criar relatórios e dashboards significativos em *workspaces*.
 * Agrupe esses dashboards e relatórios em *aplicativos* e distribua-os para um grupo maior ou para toda a organização.
 * Crie *conjuntos de dados compartilhados* que seus colegas de trabalho possam usar como base para seus próprios relatórios, em seus próprios workspaces.
-* Criar um *aplicativo de modelo* que você possa distribuir a usuários externos do Power BI por meio do Microsoft AppSource.
 * Compartilhe dashboards ou relatórios com algumas pessoas, por meio do serviço ou de aplicativos móveis do Power BI.
+* Anotar e compartilhar dos aplicativos móveis do Power BI.
+* Inserir um relatório no Microsoft Teams.
 * Imprima relatórios.
 * *Insira* relatórios em portais seguros ou sites públicos.
+* Criar um *aplicativo de modelo* que você possa distribuir a usuários externos do Power BI por meio do Microsoft AppSource.
 
 Não importa qual opção você escolher, para compartilhar seu conteúdo você precisa de uma [licença do Power BI Pro](service-features-license-type.md) ou então o conteúdo precisa estar em uma [capacidade Premium](service-premium-what-is.md). Os requisitos de licença variam para os colegas que exibem o conteúdo que você compartilha, dependendo da opção escolhida. As seções a seguir apresentam mais detalhes. 
 
@@ -64,7 +66,7 @@ Após instalarem um aplicativo, eles poderão vê-lo em seu navegador ou disposi
 
 Para que seus usuários exibam seu aplicativo, eles também precisam ter uma licença do Power BI Pro ou o aplicativo precisa ser armazenado em uma capacidade do Power BI Premium. Leia [O que é o Power BI Premium?](service-premium-what-is.md) para obter detalhes.
 
-É possível publicar aplicativos para as pessoas que estão fora de sua organização também. Eles podem exibir e interagir com o conteúdo do aplicativo, mas não podem compartilhá-lo com outras pessoas. Agora você pode criar *aplicativos de modelo* e implantá-los para qualquer cliente do Power BI.
+É possível publicar aplicativos para as pessoas que estão fora de sua organização também. Eles podem ver e interagir com o conteúdo do aplicativo, mas não podem compartilhá-lo com outras pessoas. Agora você pode criar *aplicativos de modelo* e implantá-los para qualquer cliente do Power BI.
 
 ## <a name="share-a-dataset"></a>Compartilhar um conjunto de dados
 
@@ -97,6 +99,10 @@ Você está compartilhando um instantâneo do bloco, relatório ou visual e seus
 Mais informações sobre [anotação e compartilhamento de blocos, relatórios e visuais](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) nos aplicativos móveis do iOS e Android.
 
 Também é possível [compartilhar um instantâneo de um bloco](consumer/mobile/mobile-windows-10-phone-app-get-started.md) no aplicativo do Power BI para dispositivos Windows 10.
+
+## <a name="embed-a-report-in-microsoft-teams"></a>Inserir um relatório no Microsoft Teams
+
+Aumente a colaboração controlada por dados em sua organização inserindo seus relatórios do Power BI e relatórios paginados do Power BI no Microsoft Teams. Você pode adicionar guias separadas do Power BI para cada relatório individual e dar a cada guia o nome do relatório ou qualquer outro nome. Seus colegas podem ver seus relatórios nas guias do Power BI no Teams. Eles também podem abrir a janela Conversa e comentar sobre o relatório no Teams. Leia mais sobre como [inserir um relatório no Microsoft Teams](service-embed-report-microsoft-teams.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Imprimir ou salvar como PDF ou outro arquivo estático
 

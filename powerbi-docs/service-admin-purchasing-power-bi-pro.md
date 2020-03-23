@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76753181"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525627"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de usuário do Power BI Pro
 
@@ -28,7 +28,7 @@ O Power BI Pro é uma licença individual de usuário que permite que eles leiam
 Este artigo explica como comprar licenças de usuário do Power BI Pro no Centro de administração do Microsoft 365. Após comprar licenças, é possível atribuí-las a usuários no Centro de administração do Microsoft 365 ou no Portal do Azure.
 
 > [!NOTE]
-> Desde 14 de janeiro de 2020, as funcionalidades de compra por autoatendimento, assinatura e gerenciamento de licenças para os produtos da Power Platform (Power BI, Power Apps e Power Automate) estão disponíveis para clientes da nuvem comercial nos Estados Unidos. Confira mais informações, incluindo as etapas de habilitação ou desabilitação de compra por autoatendimento em sua organização, nas [Perguntas frequentes sobre a compra por autoatendimento](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
+> Desde 14 de janeiro de 2020, as funcionalidades de compra por autoatendimento, assinatura e gerenciamento de licenças para os produtos da Power Platform (Power BI, Power Apps e Power Automate) estão disponíveis para clientes da nuvem comercial. Confira mais informações, incluindo as etapas de habilitação ou desabilitação de compra por autoatendimento em sua organização, nas [Perguntas frequentes sobre a compra por autoatendimento](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
 
 ### <a name="prerequisites"></a>Pré-requisitos
 

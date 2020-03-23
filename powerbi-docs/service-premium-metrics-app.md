@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927104"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488673"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Aplicativo de métricas do Power BI Premium
 
@@ -42,7 +42,7 @@ Para abrir a página de detalhes e exibir informações específicas sobre cada 
 
 ## <a name="the-active-memory-metric"></a>A métrica de memória ativa
 
-A métrica de **memória ativa** é parte da categoria de *planejamento de capacidade*, que é um bom indicador de integridade para avaliar o consumo de recursos da sua capacidade quando utilizada, para que você possa ajustar a capacidade conforme a necessidade e planejar sua escala. 
+A métrica de **memória ativa** é parte da categoria de *planejamento da capacidade*, que é um bom indicador de integridade para avaliar o consumo de recursos da sua capacidade quando utilizada, para que você possa ajustar a capacidade conforme a necessidade e planejar sua escala. 
 
 ![O KPI de memória ativa](media/service-premium-metrics-app/premium-metrics-app-02.png)
 
@@ -78,7 +78,7 @@ Ao ver esses casos, você deverá examinar atentamente outros gráficos na pági
 
 O segundo visual na página, **B: Conjuntos de dados ativos carregados por hora**, exibe as contagens do número máximo de conjuntos de dados que foram carregados na memória, em buckets por hora. 
 
-O terceiro visual, **C: Por que os conjuntos de dados estão na memória**, é uma tabela que lista o conjunto de valores por nome do espaço de trabalho, o nome do conjunto de valores, o tamanho descompactado de conjuntos de dados na memória e explica o motivo pelo qual ele foi carregado na memória (por exemplo, por atualização, consulta ou ambos).
+O terceiro visual, **C: Por que os conjuntos de dados estão na memória**, é uma tabela que lista o conjunto de valores por nome do workspace, o nome do conjunto de valores, o tamanho descompactado de conjuntos de dados na memória e explica o motivo pelo qual ele foi carregado na memória (por exemplo, por atualização, consulta ou ambos).
 
 #### <a name="diagnosing-scenario-one"></a>Diagnosticar o cenário um
 
@@ -262,7 +262,7 @@ Se não houver memória suficiente para carregar um conjunto de dados para uma c
 
 Para diagnosticar o cenário um, primeiro determine se a limitação ocorre porque não há memória suficiente. Estas são as etapas para executar o procedimento.
 
-1.  Selecione o conjunto de dados da **Tabela A** desejado clicando nele: 
+1.    Selecione o conjunto de dados da **Tabela A** desejado clicando nele: 
 
     ![Tabela A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ No caso de capacidades dedicadas, o Power BI limita o número de atualizações 
 
 Para diagnosticar o cenário dois, primeiro determine se a limitação ocorre devido ao máximo de execuções de atualização simultâneas. Estas são as etapas para executar o procedimento.
 
-1.  Selecione o conjunto de dados da **Tabela A** desejado clicando nele: 
+1.    Selecione o conjunto de dados da **Tabela A** desejado clicando nele: 
 
     ![Tabela A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ Para diagnosticar o cenário dois, primeiro determine se a limitação ocorre de
 * [White paper do Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 * [Planejando um white paper de implantação do Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
 * [Ativação da Avaliação Pro Estendida](service-extended-pro-trial.md)
-* [Perguntas frequentes do Power BI Embedded](developer/embedded-faq.md)
+* [Perguntas frequentes do Power BI Embedded](developer/embedded/embedded-faq.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

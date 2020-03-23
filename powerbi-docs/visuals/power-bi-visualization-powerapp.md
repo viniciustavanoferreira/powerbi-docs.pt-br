@@ -3,19 +3,19 @@ title: Inserir um novo Power App em um relatório do Power BI
 description: Inserir um aplicativo que usa a mesma fonte de dados e que pode ser filtrado como outros itens de relatório
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036666"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525926"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Inserir um visual do Power Apps em um relatório do Power BI
 
@@ -106,4 +106,5 @@ Caso não deseje mais usar a Amostra de Análise de Oportunidade, exclua o dashb
 
 
 ## <a name="next-steps"></a>Próximas etapas
-[Visual de P e R](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Visual de P e R](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[Tutorial: Inserir um visual do Power Apps em um relatório do Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782443"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381297"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
 
@@ -317,7 +317,7 @@ Suporte para esses recursos em relatórios do Power BI:
 
 **Recursos de acessibilidade** Há muitos recursos de acessibilidade para listar: por exemplo, [suporte de acessibilidade do painel de lista de campos](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). O painel de lista de campos é totalmente acessível. Você pode navegar pelo painel usando apenas o teclado e um leitor de tela e usar o menu de contexto para adicionar campos à sua página de relatório.
 
-#### <a name="custom-visuals"></a>Visuais Personalizados
+#### <a name="power-bi-visuals"></a>Visuais do Power BI
 
 - A versão da API fornecida com esta versão é a 2.3.
 
@@ -381,11 +381,11 @@ O suporte para DirectQuery de SSO do SAP HANA com o Kerberos já está disponív
 >[!Note]
 >Há suporte para esse cenário apenas quando o SAP HANA é tratado como uma fonte de dados relacional com os relatórios que você criou no Power BI Desktop.  Para habilitar isso no Power BI Desktop, no menu do DirectQuery, em Opções, marque "Tratar SAP HANA como uma fonte relacional" e clique em OK.
 
-#### <a name="custom-visuals"></a>Visuais Personalizados
+#### <a name="power-bi-visuals"></a>Visuais do Power BI
 
 - A versão da API fornecida com esta versão é a 1.13.0.
 
-- Agora, os visuais personalizados podem voltar a uma versão anterior compatível com a versão atual da API do servidor (se disponível).
+- Agora, os visuais do Power BI podem voltar a uma versão anterior compatível com a versão atual da API do servidor (se disponível).
 
 ### <a name="reporting"></a>Relatórios 
 
@@ -613,7 +613,7 @@ O Servidor de Relatórios do Power BI agora é compatível com os novos elemento
 
 * Visualização do Servidor de Relatório do Power BI disponibilizada
 * Capacidade de publicar relatórios do Power BI local
-  * suporte para visuais personalizados
+  * Suporte para visuais do Power BI
   * Suporte para **conexões dinâmicas do Analysis Services** somente com as novas fontes de dados que serão fornecidas.
   * Aplicativo Power BI para Celulares atualizado para exibir relatórios do Power BI hospedados no Servidor de Relatório do Power BI
 * Colaboração aprimorada em relatórios com comentários

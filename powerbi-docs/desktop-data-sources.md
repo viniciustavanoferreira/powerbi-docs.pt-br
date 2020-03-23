@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427543"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207242"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 
@@ -90,7 +90,8 @@ A categoria **Banco de dados** fornece as seguintes conexões de dados:
 * Snowflake
 * Essbase
 * Cubos do AtScale
-* BI Connector Data Virtuality LDW (Beta)
+* Conector do BI 
+* Data Virtuality LDW (Beta)
 * Denodo
 * Dremio
 * Exasol
@@ -127,6 +128,7 @@ A categoria **Azure** fornece as seguintes conexões de dados:
 * Banco de dados SQL do Azure
 * SQL Data Warehouse do Azure
 * Banco de Dados do Azure Analysis Services
+* Banco de Dados do Azure para PostgreSQL
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB
@@ -154,8 +156,8 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * Dynamics 365 Business Central
 * Central do Microsoft Dynamics 365 Business (local)
 * Microsoft Azure Consumption Insights (Beta)
-* Azure DevOps (Beta)
-* Azure DevOps Server (Beta)
+* Azure DevOps (somente para o Boards)
+* Azure DevOps Server (somente para o Boards)
 * Objetos do Salesforce
 * Relatórios do Salesforce
 * Google Analytics
@@ -164,7 +166,6 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * Data.World – Obter Conjunto de Dados (Beta)
 * GitHub (Beta)
 * LinkedIn Sales Navigator (Beta)
-* MailChimp (Beta)
 * Merketo (Beta)
 * Mixpanel (Beta)
 * Planview Enterprise One – PRM (Beta)
@@ -178,6 +179,7 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * tyGraph (Beta)
 * Webtrends (Beta)
 * ZenDesk (Beta)
+* Asana (Beta)
 * Dynamics 365 Customer Insights (beta)
 * Fonte de dados do Emigo
 * Entersoft Business Suite (Beta)
@@ -205,6 +207,7 @@ A categoria **Outros** fornece as seguintes conexões de dados:
 * Microsoft Exchange
 * HDFS (Arquivo do Hadoop)
 * Spark
+* Hive LLAP (Beta)
 * Script R
 * Script Python
 * ODBC
@@ -220,6 +223,7 @@ A categoria **Outros** fornece as seguintes conexões de dados:
 * Siteimprove (Beta)
 * SurveyMonkey (Beta)
 * Tenforce (Smart)List (Beta)
+* TIBCO(R) Data Virtualization (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)

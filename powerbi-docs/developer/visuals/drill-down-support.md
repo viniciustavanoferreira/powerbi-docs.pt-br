@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819228"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380337"
 ---
 # <a name="add-drill-down-support"></a>Adicionar suporte a busca detalhada
 
-Os visuais personalizados podem usar o drill-down do Power BI.
+Os visuais do Power BI podem usar o drill-down do Power BI.
 
 Leia mais sobre o drill-down no Power BI [aqui](./../../consumer/end-user-drill.md)
 
@@ -205,38 +205,38 @@ button {
 
 Prepare dados de exemplo para testar o visual:
 
-|   H1  |   H2    | H3  |   VALORES  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 E crie a hierarquia no Power BI Desktop:
 
-![Criar nova hierarquia](./media/create-new-hierarchy.png)
+![Criar nova hierarquia](media/drill-down-support/create-new-hierarchy.png)
 
 Inclua todas as colunas de categoria (H1, H2, H3) para a nova hierarquia:
 
-![Criar nova hierarquia](./media/new-hierarchy.png)
+![Criar nova hierarquia](media/drill-down-support/new-hierarchy.png)
 
 Após essas etapas, você deve obter o seguinte visual:
 
-![Visual de desenvolvimento com botões](./media/dev-visual-drilldown1.png)
+![Visual de desenvolvimento com botões](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>Adicionar menu de contexto aos elementos do visual
 
 Nesta etapa, você adicionará o menu de contexto ao botão do visual:
 
-![Menu de contexto no visual](./media/dev-visual-drilldown-context-menu.png)
+![Menu de contexto no visual](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 Para criar o menu de contexto, salve objeto `host` nas propriedades do visual e chame o método `createSelectionManager` para criar o gerenciador de seleção para exibir um menu de contexto usando a API de Elementos Visuais do Power BI.
 
@@ -305,11 +305,11 @@ Altere o corpo do retorno de chamada da função `forEach` para:
 
 Aplicar os dados ao visual:
 
-![O visual com dados](./media/dev-visual-drilldown-data.png)
+![O visual com dados](media/drill-down-support/dev-visual-drilldown-data.png)
 
 Na etapa final, você deve obter o visual com seleções e o menu de contexto:
 
-![O visual com suporte para drill-down](./media/dev-visual-drilldown-demo.gif)
+![O visual com suporte para drill-down](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Adicionar suporte de drill-down para mapeamento de exibição de dados de matriz
 
@@ -389,7 +389,7 @@ Aplique o seguinte mapeamento de DataView ao visual:
 
 Aplicar os dados ao visual:
 
-![O visual com dados](./media/dev-matrix-visual-drilldown-data.png)
+![O visual com dados](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Importe as interfaces necessárias para processar os mapeamentos de exibição de dados:
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 Na etapa final, você deve obter o visual com o menu de contexto:
 
-![O visual com suporte para drill-down](./media/dev-matrix-visual-drilldown-demo.gif)
+![O visual com suporte para drill-down](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Próximas etapas
 

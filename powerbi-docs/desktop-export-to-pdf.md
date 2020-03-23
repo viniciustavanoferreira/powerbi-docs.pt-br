@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867690"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378721"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Exportar relatórios para PDF do Power BI Desktop
 No **Power BI Desktop** ou no serviço do Power BI, é possível exportar relatórios para um arquivo PDF e, assim, compartilhá-los ou imprimi-los com facilidade desse PDF.
@@ -34,7 +34,7 @@ Quando a exportação for concluída, o PDF será carregado no visualizador de P
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 Há algumas considerações para se ter mente com o recurso **Exportar para PDF**:
 
-* O recurso exporta visuais personalizados, mas *não* exporta nenhum papel de parede que você pode ter aplicado ao relatório.
+* O recurso exporta visuais do Power BI, mas *não* exporta nenhum papel de parede que você pode ter aplicado ao relatório.
 
 Como o papel de parede não é exportado para o PDF, você deve prestar atenção especial nos relatórios que usam um papel de parede escuro. Se o texto no seu relatório estiver claro ou for branco para se destacar sobre o papel de parede escuro, no processo de exportação para PDF será difícil lê-lo ou ele ficará ilegível, uma vez que o papel de parede não será exportado com o restante do relatório. 
 

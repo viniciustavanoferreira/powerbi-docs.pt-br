@@ -10,11 +10,11 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877813"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206759"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Formatar e combinar dados no Power BI Desktop
 
@@ -251,7 +251,7 @@ Há duas maneiras principais de combinar consultas: *mesclagem* e *acréscimo*.
 - Quando você tem uma ou mais colunas que deseja adicionar a outra consulta, você *mescla* as consultas. 
 - Quando você tem linhas adicionais de dados que deseja adicionar a uma consulta existente, você *acrescenta* a consulta.
 
-Nesse caso, desejamos mesclar as consultas. Para se conectar, siga essas etapas:
+Nesse caso, desejamos mesclar as consultas. Para fazer isso, siga estas etapas:
  
 1. No painel esquerdo do Editor de Consultas, selecione a consulta *com a qual* deseja mesclar a outra consulta. Nesse caso, **RetirementStats**. 
 

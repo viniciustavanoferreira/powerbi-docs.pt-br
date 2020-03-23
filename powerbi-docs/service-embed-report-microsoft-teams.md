@@ -1,5 +1,5 @@
 ---
-title: Inserir relatório com a guia Power BI para o Microsoft Teams
+title: Inserir relatórios com a guia Power BI para o Microsoft Teams
 description: Com a guia Power BI para o Microsoft Teams, você pode facilmente inserir relatórios interativos em canais e chats.
 author: LukaszPawlowski-MS
 ms.author: lukaszp
@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530477"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381182"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>Inserir relatório com a guia Power BI para o Microsoft Teams
 
@@ -68,6 +68,18 @@ A inserção de um relatório no Microsoft Teams não concede automaticamente ao
 > Certifique-se de examinar quem pode ver o relatório dentro do serviço do Power BI e de conceder acesso aos que não aparecem na lista.
 
 Uma maneira de garantir que todos em sua equipe tenham acesso aos relatórios inseridos é colocá-los em um único workspace no Power BI e fornecer acesso ao workspace para o grupo do Office 365 da sua equipe.
+
+## <a name="start-a-conversation"></a>Iniciar uma conversa
+
+Quando você adiciona uma guia de relatório do Power BI ao Teams, o Teams automaticamente cria uma conversa de guia para acompanhar o relatório. 
+
+- Selecione **Mostrar conversa de guia** no canto superior direito.
+
+    ![Ícone de Mostrar conversa de guia](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    O primeiro comentário é um link para o relatório. Todos no canal do Teams podem ver e discutir o relatório na conversa.
+
+    ![Conversa de guia](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 

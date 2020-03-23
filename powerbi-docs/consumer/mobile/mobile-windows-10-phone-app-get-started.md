@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: db636f16729847c40806bc328efbbdd700e79083
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114757"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435940"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introdução ao aplicativo móvel do Power BI para Windows 10
 O aplicativo móvel Power BI para Windows 10 traz o Power BI para seu Tablet ou telefone. Você obtém acesso móvel atualizado e habilitado para toque às suas informações empresariais. Veja e interaja com seus dashboards da empresa de qualquer lugar – diretamente na [tela inicial do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -28,6 +28,9 @@ Em seguida, interaja com seus painéis e relatórios, explore os dados e compart
 * [**Obtenha o aplicativo móvel do Power BI para Windows 10**](https://go.microsoft.com/fwlink/?LinkID=526478) na Windows Store.
   
   Seu dispositivo deve executar o Windows 10. O aplicativo pode ser executado em dispositivos com pelo menos 3 GB de RAM e 8 GB de armazenamento interno.
+
+  >[!NOTE]
+  >O suporte de aplicativo móvel Power BI para **telefones que usam o Windows 10 Mobile** será descontinuado em 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
    
 * Descubra as [novidades nos aplicativos móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 

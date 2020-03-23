@@ -11,11 +11,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877485"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207587"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar ou remover um bloco do dashboard
 

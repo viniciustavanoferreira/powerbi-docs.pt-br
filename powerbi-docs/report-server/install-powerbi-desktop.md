@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426646"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381113"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 
@@ -70,7 +70,7 @@ Para o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI, se
 
 ### <a name="report-visuals-in-a-browser"></a>Relatar visuais em um navegador
 
-Os relatórios do Servidor de Relatórios do Power BI dão suporte a quase todas as visualizações, inclusive visuais personalizados. Os relatórios do Servidor de Relatório do Power BI não dão suporte a:
+Os relatórios do Servidor de Relatórios do Power BI dão suporte a quase todas as visualizações, inclusive visuais do Power BI. Os relatórios do Servidor de Relatório do Power BI não dão suporte a:
 
 * Visuais do R
 * Mapas ArcGIS
@@ -89,7 +89,7 @@ Os relatórios do Servidor de Relatório do Power BI não dão suporte a estes r
 
 * Visuais do R
 * Mapas ArcGIS
-* Visuais personalizados
+* Visuais do Power BI
 * Trilhas
 * Filtragem geográfica ou códigos de barra
 

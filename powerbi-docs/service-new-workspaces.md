@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426554"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488719"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho em novos workspaces no Power BI
 
@@ -54,7 +54,7 @@ Os espaços de trabalho novos, atualizados e espaços de trabalho clássicos coe
 
 ## <a name="roles-in-the-new-workspaces"></a>Funções nos novos workspaces
 
-Para conceder acesso a um novo workspace, adicione grupos de usuários ou indivíduos a uma das funções do workspace: visualizadores, membros, colaboradores ou administradores. Todos em um grupo de usuários obtêm a função que você definiu. Se um indivíduo estiver em vários grupos de usuários, ele terá o nível mais alto de permissão fornecido pela função que lhe foi atribuída.
+Para permitir acesso a um novo workspace, adicione grupos de usuários ou indivíduos a uma das funções do workspace: administradores, membros, colaboradores ou visualizadores. Todos em um grupo de usuários obtêm a função que você definiu. Se um indivíduo estiver em vários grupos de usuários, ele terá o nível mais alto de permissão fornecido pela função que lhe foi atribuída.
 
 As funções permitem que você gerencie quem pode fazer o que em um workspace para que as equipes possam colaborar. Os novos workspaces permitem que você atribua funções a indivíduos e a grupos de usuários: grupos de segurança, grupos do Office 365 e listas de distribuição. 
 
@@ -70,11 +70,14 @@ Estas são as capacidades das quatro funções: administradores, membros, colabo
 | Publicar e atualizar um aplicativo. |  X | X  |   |   |
 | Compartilhar um item ou um aplicativo.<sup>1</sup> |  X | X  |   |   |
 | Permitir que outras pessoas compartilhem itens novamente.<sup>1</sup> |  X | X  |   |   |
+| Destacar aplicativos na página inicial de colegas |  X | X  |   |   |
+| Destacar dashboards e relatórios na página inicial de colegas |  X | X  | X |   |
 | Criar, editar e excluir conteúdo no workspace.  |  X | X  | X  |   |
 | Publicar relatórios no workspace, excluir conteúdo.  |  X | X  | X  |   |
 | Criar um relatório em outro workspace com base em um conjunto de dados neste workspace.<sup>1</sup> |  X | X  | X  |   |
 | Copiar um relatório.<sup>2</sup> | X | X | X |  |
 | Exibir e interagir com um item.<sup>3</sup> |  X | X  | X  | X  |
+| Ler dados armazenados em fluxo de trabalho do workspace | X | X | X | X |
 
 1. Colaboradores e Espectadores podem compartilhar itens em um workspace quando têm permissões para Recompartilhar.
 2. Para copiar um relatório e criar um relatório em outro workspace com base em um conjunto de dados nesse workspace, você precisa atender a critérios adicionais:

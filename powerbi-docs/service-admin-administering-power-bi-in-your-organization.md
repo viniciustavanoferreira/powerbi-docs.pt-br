@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115252"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381274"
 ---
 # <a name="what-is-power-bi-administration"></a>O que é administração do Power BI?
 
@@ -59,7 +59,7 @@ Os administradores realizam várias tarefas para oferecer suporte ao locatário 
 | Gerenciar a capacidade Premium |<ul><li>Adquirir e trabalhar com a capacidade Premium<br><li>Garantir a qualidade do serviço|
 | Gerenciar a capacidade Embedded |<ul><li>Adquirir a capacidade Embedded para simplificar como os ISVs e os desenvolvedores usam recursos do Power BI</ul>|
 | Garantir a conformidade com políticas internas, leis e regulamentos | <ul><li>Gerenciar a classificação de dados de negócios<br><li>Ajudar a impor políticas de publicação e compartilhamento de conteúdo</ul>|
-| Gerenciar recursos do Power BI |<ul><li>Gerenciar workspaces<br><li>Publicar visuais personalizados<br><li>Verificar os códigos usados para inserir o Power BI em outros aplicativos|
+| Gerenciar recursos do Power BI |<ul><li>Gerenciar workspaces<br><li>Publicar visuais do Power BI<br><li>Verificar os códigos usados para inserir o Power BI em outros aplicativos|
 | Fornecer ajuda e suporte para usuários de locatário |<ul><li>Solucionar problemas de acesso a dados e outros problemas</ul>|
 | Outras tarefas |<ul><li>Implantar o Power BI Desktop, por exemplo, usando o Microsoft Endpoint Configuration Manager<br><li>Gerenciar a implantação de aplicativos móveis do Power BI com o Intune<br><li>Gerenciar a privacidade e a segurança dos dados, como segurança de dados de origem</ul>|
 
@@ -69,7 +69,7 @@ Há várias ferramentas relacionadas à administração do Power BI, que são ab
 
 | **Ferramenta** | **Tarefas comuns** |
 | --- | --- |
-| Portal de administração do Power BI |<ul><li>Adquirir e trabalhar com a capacidade Premium</li><li>Garantir a qualidade do serviço</li><li>Gerenciar a classificação de dados de negócios</li><li>Ajudar a impor políticas de publicação e compartilhamento de conteúdo</li><li>Gerenciar workspaces<br><li>Publicar visuais personalizados</li><li>Verificar os códigos usados para inserir o Power BI em outros aplicativos</li><li>Solucionar problemas de acesso a dados e outros problemas</li></ul>|
+| Portal de administração do Power BI |<ul><li>Adquirir e trabalhar com a capacidade Premium</li><li>Garantir a qualidade do serviço</li><li>Gerenciar a classificação de dados de negócios</li><li>Ajudar a impor políticas de publicação e compartilhamento de conteúdo</li><li>Gerenciar workspaces<br><li>Publicar visuais do Power BI</li><li>Verificar os códigos usados para inserir o Power BI em outros aplicativos</li><li>Solucionar problemas de acesso a dados e outros problemas</li></ul>|
 | Centro de administração do Microsoft 365 |<ul><li>Gerenciar a inscrição do usuário</li><li>Comprar e atribuir licenças Pro</li><li>Impedir que os usuários acessem o Power BI</li></ul>|
 | Central de Segurança e Conformidade do Office 365 |<ul><li>Analisar e gerenciar a auditoria de eventos</li></ul>|
 | Azure Active Directory (AAD) no portal do Azure |<ul><li>Configurar o acesso condicional a recursos do Power BI por meio do AAD</li><li>Provisionar a capacidade do Power BI Embedded</li></ul>|

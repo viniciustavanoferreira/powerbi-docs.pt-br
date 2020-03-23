@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496614"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205632"
 ---
 # <a name="what-are-bookmarks"></a>O que são indicadores?
 
@@ -157,7 +157,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Nesta versão dos **indicadores**, há algumas limitações e considerações a serem lembradas.
 
-* A maioria dos visuais personalizados deve funcionar bem com indicadores. Se você tiver problemas com o uso de indicadores e de um visual personalizado, entre em contato com o criador do visual personalizado e peça que adicione suporte a indicadores ao seu visual. 
+* A maioria dos visuais do Power BI deve funcionar bem com indicadores. Se você tiver problemas com o uso de indicadores e de um visual do Power BI, entre em contato com o criador do visual do Power BI e peça que adicione suporte a indicadores ao seu visual.
 * Se você adicionar um visual em uma página de relatório depois de criar um indicador, o visual será exibido em seu estado padrão. Isso também significa que, se você introduzir uma segmentação em uma página em que você tiver criado indicadores anteriormente, a segmentação se comportará em seu estado padrão.
 * Em geral, os indicadores não serão afetados se o *designer* de relatórios atualizar ou publicar novamente o relatório. No entanto, se o designer fizer alterações importantes no relatório, como remover os campos usados por um indicador, você receberá uma mensagem de erro na próxima vez que tentar abrir esse indicador. 
 

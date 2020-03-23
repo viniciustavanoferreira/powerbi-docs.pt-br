@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/12/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889387"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381159"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -88,7 +88,7 @@ Os recursos e limites de cada SKU Premium (e o SKU A de tamanho equivalente) sã
 
 ### <a name="capacity-workloads"></a>Cargas de trabalho de capacidade
 
-Cargas de trabalho de capacidade são serviços disponibilizados aos usuários. Por padrão, as capacidades Premium e Azure dão suporte apenas a uma carga de trabalho do conjunto de dados associada à execução de consultas do Power BI. A carga de trabalho do conjunto de dados não pode ser desabilitada. Outras cargas de trabalho podem ser habilitadas para [IA (Serviços Cognitivos)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Fluxos de dados](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) e [Relatórios paginados](paginated-reports-save-to-power-bi-service.md). Essas cargas de trabalho são compatíveis apenas com assinaturas Premium. 
+Cargas de trabalho de capacidade são serviços disponibilizados aos usuários. Por padrão, as capacidades Premium e Azure dão suporte apenas a uma carga de trabalho do conjunto de dados associada à execução de consultas do Power BI. A carga de trabalho do conjunto de dados não pode ser desabilitada. Outras cargas de trabalho podem ser habilitadas para [IA (Serviços Cognitivos)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Fluxos de dados](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) e [Relatórios paginados](paginated-reports/paginated-reports-save-to-power-bi-service.md). Essas cargas de trabalho são compatíveis apenas com assinaturas Premium. 
 
 Cada carga de trabalho adicional permite a configuração da memória máxima (como um percentual do total de memória disponível) que pode ser usada pela carga de trabalho. Os valores padrão para a memória máxima são determinados por SKU. É possível maximizar os recursos disponíveis de sua capacidade habilitando apenas as cargas de trabalho adicionais quando elas são usadas. E você poderá alterar as configurações de memória apenas quando tiver determinado que as configurações padrão não estão atendendo aos requisitos de recursos de capacidade. As cargas de trabalho podem ser habilitadas e configuradas para uma capacidade por administradores de capacidade usando as **Configurações de capacidade** no [portal de administração](service-admin-portal.md) ou usando as [APIs REST de capacidades](https://docs.microsoft.com/rest/api/power-bi/capacities).  
 
@@ -209,7 +209,7 @@ Os relatórios paginados, compatíveis nos SKUs P1-P3 e A4-A6, são baseados na 
 
 No Power BI Premium, relatórios paginados são uma carga de trabalho que deve ser habilitada para uma capacidade usando o portal do administrador. Os administradores de capacidade podem habilitar e especificar a quantidade de memória como um percentual dos recursos de memória geral da capacidade. Diferentemente de outros tipos de cargas de trabalho, o Premium executa relatórios paginados em um espaço contido dentro da capacidade. A memória máxima especificada para este espaço será usada se a carga de trabalho estiver ou não ativa. O padrão é 20%. 
 
-Para saber mais, confira [Relatórios paginados no Power BI Premium](paginated-reports-report-builder-power-bi.md). Para saber mais sobre como habilitar a carga de trabalho de Relatórios paginados, confira [Configurar cargas de trabalho](service-admin-premium-workloads.md).
+Para saber mais, confira [Relatórios paginados no Power BI Premium](paginated-reports/paginated-reports-report-builder-power-bi.md). Para saber mais sobre como habilitar a carga de trabalho de Relatórios paginados, confira [Configurar cargas de trabalho](service-admin-premium-workloads.md).
 
 ## <a name="power-bi-report-server"></a>Servidor de Relatórios do Power BI
  
@@ -227,9 +227,9 @@ O Premium possibilita a distribuição difundida de conteúdo por usuários do P
 
 Para saber mais, confira [Licenciamento do Power BI](service-admin-licensing-organization.md).
 
-## <a name="tool-connectivity-preview"></a>Conectividade da ferramenta (versão prévia)
+## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services no Power BI Premium (versão prévia)
 
-Nos bastidores, o **mecanismo Vertipaq do Analysis Services** da Microsoft comprovado para empresas habilita os conjuntos de dados do Power BI. O Analysis Services oferece capacidade de programação e aplicativo cliente e suporte à ferramenta por meio de bibliotecas de cliente e APIs que dão suporte ao protocolo XMLA de padrão aberto. No momento, os conjuntos de dados do Power BI Premium dão suporte a operações *somente leitura* da Microsoft e a ferramentas e aplicativos cliente de terceiros por meio de **pontos de extremidade XMLA**. 
+Nos bastidores, o **mecanismo Vertipaq do Analysis Services** da Microsoft comprovado para empresas habilita os conjuntos de dados do Power BI. O Analysis Services oferece capacidade de programação e suporte a ferramenta e a aplicativo cliente por meio de bibliotecas de clientes e APIs que dão suporte ao protocolo XMLA de padrão aberto. No momento, os conjuntos de dados do Power BI Premium dão suporte a operações *somente leitura* da Microsoft e a ferramentas e aplicativos cliente de terceiros por meio de **pontos de extremidade XMLA**. 
 
 As ferramentas da Microsoft, como o SQL Server Management Studio e o SQL Server Profiler, e aplicativos de terceiros, como o DAX Studio, e os aplicativos de visualização de dados podem se conectar a conjuntos de dados Premium e consultá-los usando XMLA, DAX, MDX, DMVs e eventos de rastreamento. 
 

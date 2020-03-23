@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3e23f56da424ae18565b6cbec591c9d855f23139
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e45d3e109d072984d6c01b2cbdfdd9b53e936a3b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113130"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377203"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -53,7 +53,7 @@ E isso é tudo para ele. Você pode baixar o arquivo e abri-lo com qualquer visu
 Há algumas considerações e limitações para ter em mente ao trabalhar com o recurso **Exportar para PDF**.
 
 * No momento, não há suporte para visuais de R e Python. No PDF, esses elementos visuais ficam em branco e exibem uma mensagem de erro. 
-* Há suporte para visuais personalizados que foram certificados. Para obter mais informações sobre visuais personalizados certificados, incluindo como obter um visual personalizado certificado, confira [Certificar um visual personalizado](../developer/power-bi-custom-visuals-certified.md). Não há suporte para visuais personalizados que não foram certificados. No PDF, eles são exibidos com uma mensagem de erro.
+* Há suporte para visuais do Power BI que foram certificados. Para obter mais informações sobre visuais do Power BI certificados, incluindo como certificar um visual do Power BI, confira [Certificar um visual do Power BI](../developer/visuals/power-bi-custom-visuals-certified.md). Não há suporte para visuais do Power BI que não foram certificados. No PDF, eles são exibidos com uma mensagem de erro.
 * O visual ESRI não é compatível
 * No momento, não é possível exportar relatórios com mais de 30 páginas.
 * O processo de exportar o relatório para PDF pode levar alguns minutos para ser concluído, seja paciente. Os fatores que podem afetar o tempo necessário incluem a estrutura do relatório e a carga atual no serviço do Power BI.

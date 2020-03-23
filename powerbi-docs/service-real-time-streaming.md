@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115275"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381067"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming em tempo real no Power BI
 Com o streaming em tempo real do Power BI, você pode transmitir dados e atualizar painéis em tempo real. Qualquer visual ou painel que possa ser criado no Power BI também pode ser criado para exibir e atualizar dados e visuais em tempo real. Os dispositivos e fontes de fluxo de dados podem ser sensores de fábrica, fontes de mídia social, métricas de uso do serviço e tudo o mais de que dados sensíveis ao tempo possam ser coletados ou transmitidos.
@@ -33,7 +33,7 @@ Há três tipos de conjuntos de dados em tempo real que são projetados para exi
 Primeiro vamos entender como esses conjuntos de dados são diferentes uns dos outros (nesta seção) e, em seguida, discutiremos como enviar dados por push a cada um desses conjuntos de dados.
 
 ### <a name="push-dataset"></a>Conjunto de dados de push
-Com um **conjunto de dados de push**, os dados são enviados por push ao serviço do Power BI. Quando o conjunto de dados é criado, o serviço do Power BI cria automaticamente um novo banco de dados no serviço para armazenar os dados. Como há um banco de dados subjacente que continua a armazenar os dados conforme eles chegam, os relatórios podem ser criados com os dados. Esses relatórios e seus visuais são exatamente como qualquer outro visual de relatório, o que significa que você pode usar todos os recursos de criação de relatórios do Power BI para criar visuais, incluindo visuais personalizados, alertas de dados, blocos de dashboard fixados e muito mais.
+Com um **conjunto de dados de push**, os dados são enviados por push ao serviço do Power BI. Quando o conjunto de dados é criado, o serviço do Power BI cria automaticamente um novo banco de dados no serviço para armazenar os dados. Como há um banco de dados subjacente que continua a armazenar os dados conforme eles chegam, os relatórios podem ser criados com os dados. Esses relatórios e seus visuais são exatamente como qualquer outro visual de relatório, o que significa que você pode usar todos os recursos de criação de relatórios do Power BI para criar visuais, incluindo visuais do Power BI, alertas de dados, blocos de dashboard fixados e muito mais.
 
 Após um relatório ser criado usando o conjunto de dados de push, qualquer um de seus visuais pode ser fixado a um dashboard. Nesse dashboard, os visuais serão atualizados em tempo real, sempre que os dados forem atualizados. Dentro do serviço, o dashboard dispara uma atualização de bloco sempre que novos dados são recebidos.
 
@@ -45,16 +45,16 @@ Há duas considerações a serem observadas a respeito de blocos fixados de um c
 ### <a name="streaming-dataset"></a>Conjunto de dados de streaming
 Com um **conjunto de dados de streaming**, os dados também são enviados para o serviço do Power BI com uma diferença importante: o Power BI só armazena os dados em um cache temporário, que expira rapidamente. O cache temporário só é usado para exibir visuais que tenham algum sentido de histórico transitório, como um gráfico de linhas que tem uma janela de tempo de uma hora.
 
-Com um **conjunto de dados de streaming**, *não* há banco de dados subjacente, portanto você *não pode* criar visuais de relatório usando os dados que fluem do fluxo. Assim, você não pode fazer uso de funcionalidades de relatório como filtragem, visuais personalizados e outras funções de relatório.
+Com um **conjunto de dados de streaming**, *não* há banco de dados subjacente, portanto você *não pode* criar visuais de relatório usando os dados que fluem do fluxo. Assim, você não pode fazer uso de funcionalidades de relatório como filtragem, visuais do Power BI e outras funções de relatório.
 
-A única maneira de visualizar um conjunto de dados de streaming é adicionar um bloco e usar o conjunto de dados de streaming como uma fonte de dados de **dados streaming personalizados**. Os blocos de streaming personalizados com base em um **conjunto de dados de streaming** são otimizados para exibir rapidamente os dados em tempo real. Há baixíssima latência entre o momento em que os dados são enviados por push ao serviço do Power BI e quando o visual é atualizado, pois não há necessidade dos dados serem inseridos ou lidos em um banco de dados.
+A única maneira de visualizar um conjunto de dados de streaming é adicionar um bloco e usar o conjunto de dados de streaming como uma fonte de dados de **dados streaming personalizados**. Os blocos de streaming personalizados com base em um **conjunto de dados de streaming** são otimizados para exibir rapidamente os dados em tempo real. Há baixíssima latência entre o momento em que os dados são enviados por push ao serviço do Power BI e quando o visual é atualizado, pois não há necessidade de que os dados sejam inseridos ou lidos em um banco de dados.
 
 Na prática, os conjuntos de dados de streaming e os visuais de streaming que o acompanham são melhor utilizados em situações em que é crítico minimizar a latência entre quando os dados são enviados por push e quando eles são visualizados. Além disso, é recomendável que os dados sejam enviados por push em um formato em que possam ser visualizados no estado em que se encontram, sem nenhuma agregação adicional. Exemplos de dados que estão prontos no estado em que se encontram incluem temperaturas e médias pré-calculadas.
 
 ### <a name="pubnub-streaming-dataset"></a>Conjunto de dados de streaming do PubNub
 Com um conjunto de dados de streaming do **PubNub**, o cliente Web do Power BI usa o SDK do PubNub para ler um fluxo de dados PubNub existente e nenhum dado é armazenado pelo serviço do Power BI.
 
-Assim como acontece com o **conjunto de dados de streaming**, no **conjunto de dados de streaming do PubNub** não há banco de dados subjacente no Power BI, portanto você não pode criar visuais de relatório com os dados que entram, e não pode aproveitar as funcionalidades de relatório, como visuais personalizados, filtragem e assim por diante. Sendo assim, o **conjunto de dados de streaming do PubNub** só pode ser visualizado adicionando um bloco ao dashboard e configurando um fluxo de dados do PubNub como a origem.
+Assim como acontece com o **conjunto de dados de streaming**, no **conjunto de dados de streaming do PubNub** não há banco de dados subjacente no Power BI; portanto, você não pode criar visuais de relatório com os dados que entram e não pode aproveitar as funcionalidades de relatório, como visuais do Power BI, filtragem e assim por diante. Sendo assim, o **conjunto de dados de streaming do PubNub** só pode ser visualizado adicionando um bloco ao dashboard e configurando um fluxo de dados do PubNub como a origem.
 
 Os blocos com base em um **conjunto de dados de streaming do PubNub** são otimizados para exibir rapidamente os dados em tempo real. Como o Power BI é conectado diretamente ao fluxo de dados do PubNub, há baixíssima latência entre o momento em que os dados são enviados por push ao serviço do Power BI e quando o visual é atualizado.
 
@@ -64,9 +64,7 @@ A seguinte tabela (ou matriz, se desejar) descreve os três tipos de conjuntos d
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Veja [este artigo](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) para obter informações sobre limites de **Push** em relação à quantidade de dados que pode ser enviada por push.
-> 
-> 
+> Veja [este artigo](developer/automation/api-rest-api-limitations.md) para obter informações sobre limites de **Push** em relação à quantidade de dados que pode ser enviada por push.
 
 ## <a name="pushing-data-to-datasets"></a>Enviar dados por push para conjuntos de dados
 A seção anterior descreveu os três principais tipos de conjuntos de dados em tempo real que você pode usar no streaming em tempo real e as diferenças entre eles. Esta seção descreve como criar e enviar dados por push para esses conjuntos de dados.
@@ -110,7 +108,7 @@ Quando a **Análise de dados histórica** é desabilitada (ela é desabilitada p
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Usando o Stream Analytics do Azure para enviar dados por push
 Você pode adicionar o Power BI como uma saída no ASA (**Stream Analytics do Azure**) e, em seguida, visualizar esses fluxos de dados no serviço do Power BI em tempo real. Esta seção descreve os detalhes técnicos de como esse processo ocorre.
 
-O Stream Analytics do Azure usa as APIs REST do Power BI para criar o fluxo de dados de saída no Power BI com o *defaultMode* definido como *pushStreaming* (consulte as seções anteriores deste artigo para obter informações sobre o *defaultMode*), o que resulta em um conjunto de dados que pode aproveitar tanto o **push** quanto o **streaming**. Durante a criação do conjunto de dados, o Stream Analytics do Azure também define o sinalizador **retentionPolicy* como *basicFIFO*. Com essa configuração, o banco de dados que dá suporte ao conjunto de dados de push armazena 200.000 linhas e, depois que esse limite é atingido, as linhas são descartadas à maneira PEPS (primeiro a entrar, primeiro a sair).
+O Stream Analytics do Azure usa as APIs REST do Power BI para criar o fluxo de dados de saída no Power BI com o *defaultMode* definido como *pushStreaming* (consulte as seções anteriores deste artigo para obter informações sobre o *defaultMode*), o que resulta em um conjunto de dados que pode aproveitar tanto o **push** quanto o **streaming**. Durante a criação do conjunto de dados, o Azure Stream Analytics também define o sinalizador **retentionPolicy** como *basicFIFO*. Com essa configuração, o banco de dados que dá suporte ao conjunto de dados de push armazena 200.000 linhas e, depois que esse limite é atingido, as linhas são descartadas à maneira PEPS (primeiro a entrar, primeiro a sair).
 
 > [!CAUTION]
 > Se a consulta do Azure Stream Analytics resultar em saída muito rápida para o Power BI (por exemplo, uma ou duas vezes por segundo), o Azure Stream Analytics fará envio em lote dessas saídas em uma única solicitação. Isso pode fazer com que o tamanho da solicitação exceda o limite do bloco de streaming. Nesse caso, como mencionado nas seções anteriores, os blocos de streaming falharão ao renderizar. Nesses casos, a prática recomendada é diminuir a taxa de saída de dados para o Power BI. Por exemplo, em vez de um valor máximo a cada segundo, defina a taxa de saída como um valor máximo durante 10 segundos.
@@ -225,7 +223,7 @@ A modelagem não é possível em um conjunto de dados de streaming, pois os dado
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Como faço para limpar todos os valores em um conjunto de dados de push? E nos conjuntos de dados de streaming?
 Em um conjunto de dados de push, você pode usar a chamada à API REST excluir linhas. Atualmente não há nenhuma maneira para limpar os dados de um conjunto de dados de streaming, embora os dados vão se auto limpar após uma hora.
 
-#### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Eu configurei uma saída do Stream Analytics do Azure para o Power BI, mas não a vejo aparecer no Power BI. O que está errado?
+#### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Configurei uma saída do Azure Stream Analytics para o Power BI, mas não a vejo aparecer no Power BI. O que está errado?
 Aqui está uma lista de verificação que você pode usar para solucionar o problema:
 
 1. Reinicie o trabalho do Stream Analytics do Azure (trabalhos criados antes da versão GA do streaming necessitarão reiniciar)

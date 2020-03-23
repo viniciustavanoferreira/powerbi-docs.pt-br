@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 34b409bc6c319594c6b8e79acd48e5ed0d674ced
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698453"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79202012"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Reiniciar uma capacidade do Power BI Premium
 
@@ -30,7 +30,9 @@ O Power BI está melhorando constantemente em relação à maneira de proteger o
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>O processo de reinicialização é seguro? Perderei dados?
 
-Todos os dados, as definições, os relatórios e os dashboards salvos em sua capacidade permanecem totalmente intactos após a reinicialização. Quando você reinicia uma capacidade, todas as atualizações agendadas e ad hoc em andamento são interrompidas. O serviço tenta novas atualizações quando a capacidade está disponível. Os usuários que estiverem interagindo com a capacidade perderão o trabalho não salvo. Eles deverão atualizar seus navegadores após a conclusão da reinicialização.
+Todos os dados, as definições, os relatórios e os dashboards salvos em sua capacidade permanecem totalmente intactos após a reinicialização. Quando você reinicia uma capacidade, as atualizações agendadas e ad hoc em andamento são interrompidas temporariamente pelo mecanismo de atualização, na maioria dos casos. Elas são reiniciadas devido à lógica de repetição de atualização inserida no Power BI. O serviço tentará repetir as atualizações afetadas quando a capacidade se tornar disponível. O estado das atualizações não pode ser alterado na interface do usuário durante o processo de reinicialização. 
+
+Os usuários que interagirem com a capacidade perderão o trabalho não salvo durante um processo de reinicialização. Os usuários deverão atualizar os navegadores deles após a conclusão da reinicialização.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Como reiniciar uma capacidade?
 

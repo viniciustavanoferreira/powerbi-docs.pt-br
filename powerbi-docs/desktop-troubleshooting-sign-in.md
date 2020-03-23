@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401182"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133205"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Solucionar problemas de entrada no Power BI Desktop
 Em alguns momentos, talvez você tente entrar no **Power BI Desktop**, mas receba erros. Há dois motivos principais para problemas de conexão: **erros de autenticação de proxy** e **erros de redirecionamento de URL sem HTTPS**. 
@@ -75,4 +75,37 @@ Para coletar um rastreamento no **Power BI Desktop**, execute estas etapas:
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 A pasta pode conter muitos arquivos de rastreamento. Envie apenas os arquivos recentes ao seu administrador, para facilitar a identificação rápida do erro. 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>Usar as credenciais padrão do sistema para o proxy Web
+
+As solicitações da Web emitidas pelo Power BI Desktop não usam credenciais de proxy da Web. Em redes que usam um servidor proxy, o Power BI Desktop pode não conseguir fazer solicitações da Web com êxito. 
+
+Da versão de março de 2020 em diante do Power BI Desktop, os administradores do sistema ou da rede podem permitir o uso de credenciais padrão do sistema para autenticação de proxy Web. Os administradores podem criar uma entrada de Registro chamada **UseDefaultCredentialsForProxy** e definir o valor como 1 (um) para habilitar o uso de credenciais padrão do sistema para autenticação de proxy Web.
+
+A entrada do Registro pode ser colocada em qualquer um dos seguintes locais:
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+Não é necessário ter a entrada de Registro em ambos os locais.
+
+![Chave do Registro para usar as credenciais do sistema padrão](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+Depois que a entrada do Registro é criada (pode ser necessário reinicializar), as configurações de proxy definidas no Internet Explorer são usadas quando o Power BI Desktop faz solicitações da Web. 
+
+Assim como ocorre com qualquer alteração nas configurações de proxy ou credencial, há implicações de segurança para criar essa entrada do Registro, de modo que os administradores devem verificar se configuraram os proxies do Internet Explorer corretamente antes de habilitar esse recurso.         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>Limitações e considerações para o uso de credenciais padrão do sistema
+
+Há uma coleção de implicações de segurança que os administradores devem considerar antes de habilitar essa funcionalidade. 
+
+As seguintes recomendações devem ser seguidas sempre que você habilitar esse recurso para clientes:
+
+* Use apenas a **Negociação** como o esquema de autenticação no para o servidor proxy, para verificar se somente os servidores proxy que ingressaram na rede do Active Directory são usados pelo cliente. 
+* Não use o **fallback de NTLM** em clientes que usam esse recurso.
+* Se os usuários não estiverem em uma rede com um proxy quando esse recurso estiver habilitado e configurado conforme recomendado nesta seção, o processo de tentar entrar em contato com o servidor proxy e usar as credenciais de sistema padrão não será usado.
+
+
+[Usar as credenciais padrão do sistema para o proxy Web](#using-default-system-credentials-for-web-proxy)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113765"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377145"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar relatórios do Power BI para o PowerPoint
 
@@ -78,7 +78,7 @@ O que fazer com seu material do PowerPoint daí em diante, ou com qualquer uma d
 Há algumas considerações e limitações para ter em mente ao trabalhar com o recurso **Exportar para o PowerPoint**.
 
 * No momento, não há suporte para visuais de R e Python. Esses visuais são exportados como uma imagem em branco para o PowerPoint com uma mensagem de erro que afirma que não há suporte para o visual.
-* Há suporte para visuais personalizados que foram certificados. Para obter mais informações sobre visuais personalizados certificados, incluindo como obter um visual personalizado certificado, confira [Certificar um visual personalizado](../developer/power-bi-custom-visuals-certified.md). Não há suporte para visuais personalizados que não foram certificados. Eles são exportados como uma imagem em branco para o PowerPoint com uma mensagem de erro que afirma que não há suporte para o visual.
+* Há suporte para visuais do Power BI que foram certificados. Para obter mais informações sobre visuais personalizados certificados, incluindo como obter um visual personalizado certificado, confira [Certificar um visual personalizado](../developer/power-bi-custom-visuals-certified.md). Não há suporte para visuais personalizados que não foram certificados. Eles são exportados como uma imagem em branco para o PowerPoint com uma mensagem de erro que afirma que não há suporte para o visual.
 * O visual ESRI não é compatível
 * No momento, não é possível exportar relatórios com mais de 30 páginas de relatório.
 * Visuais com barras de rolagem são exportados no estado padrão. O visual no PowerPoint mostrará somente a parte superior dos dados. A rolagem no PowerPoint não está disponível, pois cada slide é uma imagem. 

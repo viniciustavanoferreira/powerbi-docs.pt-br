@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040102"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377226"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário do serviço do Power BI
 O serviço do Power BI pode apresentar terminologia confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar sobre a terminologia, por isso pode ser útil até mesmo salvá-lo como favorito. Outro excelente recurso para aprender sobre os blocos de construção que compõem o serviço do Power BI são os [Conceitos básicos](end-user-basic-concepts.md). O artigo com Conceitos básicos fornece uma visão geral de alto nível das *partes* do Power BI e como elas estão conectadas.
@@ -188,7 +188,7 @@ Primeira instância: menções subsequentes ou espaços estreitos do painel de n
 
 ## <a name="n"></a>N
 
-**native (nativo)** Incluído no produto. Por exemplo, o Power BI vem com um conjunto de tipos de visualização *nativos*. Contudo, é possível importar outros tipos, como visuais personalizados.
+**native (nativo)** Incluído no produto. Por exemplo, o Power BI vem com um conjunto de tipos de visualização *nativos*. Contudo, é possível importar outros tipos, como visuais do Power BI.
 
 **painel de navegação** ou **painel nav** Os controles na borda esquerda do serviço do Power BI.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4459ae95ccd900b0592dbae1048800bcd4609307
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.openlocfilehash: d349e19e4f5cc73cadf2a281b07a220ff7c076bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "74178241"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376766"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Perguntas frequentes de clientes do Power BI para Germany Cloud
 O **serviço do Power BI** tem uma versão disponível para clientes da UE/EFTA (União Europeia/Associação Europeia de Livre Comércio), geralmente mencionada como MCD (Microsoft Cloud Deutschland). A versão de **serviço do Power BI** discutida neste artigo é específica a clientes da UE/EFTA e separada e diferente da versão comercial do **serviço do Power BI**, ou serviços do Power BI fornecidos a clientes do governo.
@@ -65,7 +65,7 @@ As perguntas e respostas a seguir oferecem informações importantes para o serv
 | Portal do Office para gerenciamento de licenças de usuário, status de integridade do serviço e solicitações de suporte por administradores |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
 | Uri de autoridade do AAD |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
 | Uri de recurso de serviço do Power BI |[https://analysis.cloudapi.de/powerbi/api](https://analysis.cloudapi.de/powerbi/api) |[https://analysis.windows.net/powerbi/api](https://analysis.windows.net/powerbi/api) |
-| Biblioteca de visuais personalizados |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
+| Biblioteca de visuais do Power BI |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Registrar um aplicativo para o Power BI (Embedded) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
 | Portal do Azure (para o Embedded) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | Comunidade |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |

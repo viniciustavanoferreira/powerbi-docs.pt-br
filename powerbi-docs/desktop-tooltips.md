@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f6f0db28103b937d2074e6f339c9aaa61bfd688
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2492996c8bbc6ea7a8d359b4b1015de67bb17430
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879632"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378698"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Criar dicas de ferramenta com base nas páginas de relatório no Power BI Desktop
 Você pode criar **dicas de ferramentas de relatório** visualmente sofisticadas que aparecem ao passar o mouse sobre visuais, com base nas páginas de relatório que você cria no **Power BI Desktop**. Ao criar uma página de relatório que sirva como dica de ferramenta, as dicas de ferramenta personalizadas poderão incluir elementos visuais, imagens e qualquer outra coleção de itens que você criar na página de relatório. 
@@ -112,7 +112,7 @@ Quando se faz realce cruzado em um visual em um relatório, as dicas de ferramen
 Há algumas limitações e considerações para **dicas de ferramentas** para se ter em mente.
 
 * Começando com a versão de dezembro de 2018 do **Power BI Desktop**, os visuais de botão também dão suporte a dicas de ferramenta.
-* Dicas de ferramentas de relatório não são compatíveis com visuais personalizados. 
+* Dicas de ferramentas de relatório não são compatíveis com visuais do Power BI. 
 * Atualmente não há suporte para usar clusters como campos que podem ser mostrados nas dicas de ferramentas de relatório. 
 * Ao escolher um campo a ser mostrado como dicas de ferramentas de relatório, usando-o em vez de usar uma categoria, os visuais que contém esse campo só mostrarão a dica de ferramenta especificada quando houver correspondência entre os campos selecionados e o resumo. 
 

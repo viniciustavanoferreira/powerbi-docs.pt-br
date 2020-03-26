@@ -95,7 +95,7 @@ O relatório de métricas de uso aprimorado inclui as seguintes páginas:
 | Desempenho do relatório | Desempenho diário | O desempenho de 10%, 50% e 90% das ações de abertura do relatório, calculadas por dia. |
 | Desempenho do relatório | Desempenho de 7 dias | O desempenho de 10%, 50% e 90% das ações de abertura do relatório, calculadas por dia nos últimos 7 dias. |
 | Desempenho do relatório | Método de consumo | Forma como os usuários abriram o relatório, como por meio do serviço do Power BI (powerbi.com), do Power BI Embedded ou de um dispositivo móvel. |
-| Desempenho do relatório | Navegadores | Qual navegador os usuários usaram para abrir o relatório, como Firefox, Edge e Chrome. |
+| Desempenho do relatório | Navegadores | Qual navegador os usuários usaram para abrir o relatório, como Firefox, Microsoft Edge e Chrome. |
 
 ## <a name="update-usage-metrics-report-credentials"></a>Atualizar credenciais do relatório de métricas de uso
 

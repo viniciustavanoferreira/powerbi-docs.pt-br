@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 23792d8d132702860c611623fc3888debe07cfed
-  ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+  ms.openlocfilehash: 5f6e5c71f368b5b707534cde769de477bd8fa6a6
+  ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/04/2020
-  ms.locfileid: "78260682"
+  ms.lasthandoff: 03/26/2020
+  ms.locfileid: "80273422"
 landingContent:
 - title: Diretrizes do Power BI
   linkLists:
@@ -89,7 +89,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: Estender visuais com dicas de ferramentas de página de relatório
+    - text: Usar dicas de ferramentas de página de relatório
       url: report-page-tooltips.md
     - text: Usar o detalhamento de página de relatório
       url: report-drillthrough.md
@@ -103,6 +103,10 @@ landingContent:
       url: report-tips-legends.md
     - text: Dicas para otimizar cores do visual
       url: report-tips-visual-colors.md
+    - text: Dicas para classificar e distribuir gráficos de dados
+      url: report-tips-sort-distribute-data-plots.md
+    - text: Dicas para trabalhar com formas, imagens e ícones
+      url: report-tips-shapes-images-icons.md
 - title: Relatórios paginados no Power BI
   linkLists:
   - linkListType: concept

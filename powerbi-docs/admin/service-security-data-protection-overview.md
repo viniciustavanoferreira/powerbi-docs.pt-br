@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02bea09bcd6400b4dc316a08ec74ed2780ad3363
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205264"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273169"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Proteção de dados no Power BI (versão prévia)
 
@@ -105,6 +105,8 @@ A lista a seguir fornece algumas limitações dos rótulos de confidencialidade 
 * A [proteção de HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) não tem suporte para rótulos aplicados no Power BI.
 * A exibição e a aplicação de rótulos em aplicativos do Office têm [requisitos de licenciamento](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Os rótulos de confidencialidade têm suporte apenas para locatários na nuvem global (pública). Os rótulos de confidencialidade não têm suporte para locatários em outras nuvens.
+* Os rótulos de confidencialidade de dados não são compatíveis com os aplicativos de modelo.
+* O Power BI não é compatível com os rótulos de confidencialidade dos tipos de proteção **Não Encaminhar** e **Ad Hoc**.
 
 ## <a name="next-steps"></a>Próximas etapas
 

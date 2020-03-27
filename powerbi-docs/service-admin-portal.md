@@ -10,12 +10,12 @@ ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488696"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114420"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -233,7 +233,12 @@ Os usuários veem diferentes opções na interface do usuário a depender do loc
 
 ### <a name="export-data"></a>Exportar dados
 
-Os usuários da organização podem exportar dados de um bloco ou de uma visualização. Saiba mais sobre [como exportar dados de um bloco ou de um visual](visuals/power-bi-visualization-export-data.md).
+Os usuários da organização podem exportar dados de um bloco ou de uma visualização. Isso controla os recursos: analisar no Excel, exportar para .csv, baixar conjunto de dados (.pbix) e Live Connect do Serviço do Power BI. Saiba mais sobre [como exportar dados de um bloco ou de um visual](visuals/power-bi-visualization-export-data.md).
+
+>[!NOTE]
+> Antes da introdução da configuração Exportar para o Excel, essa configuração também controlava a exportação de dados para arquivos do Excel. Confira a [observação em Exportar para o Excel](#export-to-excel) para obter mais detalhes.
+
+![Configuração Exportar dados](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
 
 A imagem a seguir mostra a opção para exportar dados de um bloco.
 
@@ -241,6 +246,15 @@ A imagem a seguir mostra a opção para exportar dados de um bloco.
 
 > [!NOTE]
 > Desabilitar a opção **Exportar dados** também impede os usuários de usar o recurso [Analisar no Excel](service-analyze-in-excel.md), bem como de usar a conexão dinâmica do serviço do Power BI.
+
+### <a name="export-to-excel"></a>Exportar para Excel
+
+Os usuários na organização podem exportar os dados de uma visualização para um arquivo do Excel.
+
+![Configuração Exportar para o Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+
+>[!IMPORTANT]
+> Antes da introdução da configuração Exportar para o Excel, a exportação para um arquivo do Excel era controlada pela configuração Exportar dados. Portanto, em locatários que existiam antes da introdução da configuração Exportar para o Excel, na primeira vez que os administradores de locatário observarem essa configuração, eles verão que ela tem *Alterações não aplicadas*. Eles deverão aplicar essas alterações para que a nova configuração entre em vigor. Caso contrário, a exportação para um arquivo do Excel continuará sendo controlada pela configuração Exportar dados.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportar relatórios como apresentações do PowerPoint ou documentos PDF
 

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/26/2020
+ms.date: 03/17/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201766"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114007"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Trabalhar com filtros nos relatórios do Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Os filtros no Power BI têm novas funcionalidades e um novo design. Ao escolher a nova experiência de filtro, será possível formatar o painel Filtros para se parecer com o restante do relatório. Você poderá bloquear e ocultar até mesmo filtros. Ao criar seu relatório, você não verá mais o painel Filtros antigo no painel Visualizações. É possível editar e formatar todos os filtros no painel Filtros. 
 
@@ -28,9 +30,9 @@ Como um designer de relatório, veja a seguir algumas das tarefas que você pode
 - Alterar o estado do filtro.
 - Formatar e personalizar o painel Filtros para que ele se integre ao relatório.
 - Definir se o painel Filtros fica aberto ou recolhido por padrão quando um consumidor abre o relatório.
-- Ocultar todo o painel Filtros ou filtros específicos que você não deseja exibir aos consumidores do relatório.
+- Ocultar todo o painel Filtros ou filtros específicos que você não deseja que os consumidores do relatório vejam.
 - Controlar e até mesmo marcar o estado de visibilidade aberto e recolhido do novo painel Filtros.
-- Bloquear filtros os quais você não deseja que os consumidores editem.
+- Bloquear filtros que você não deseja que os consumidores editem.
 
 Com a nova experiência de filtro, os consumidores do relatório podem também passar o mouse sobre qualquer visual para ver uma lista somente leitura de todos os filtros ou segmentações que afetam esse visual.
 
@@ -111,7 +113,7 @@ Você pode bloquear ou ocultar os cartões de filtro individuais. Se você bloqu
 
 À medida que você ativa ou desativa esse novo painel Filtros, pode ver as alterações refletidas no relatório. Os filtros ocultos não aparecem na lista de filtros em pop-up de um visual.
 
-Você também pode configurar o novo painel Filtros para fluir com os indicadores de relatório. Os estados aberto, fechado e de visibilidade do painel podem ser marcados como indicadores.
+Você também pode configurar o novo painel Filtros para fluir com os indicadores de relatório. Os estados de abertura, fechamento e visibilidade do painel podem ser marcados como indicadores.
  
 ## <a name="format-the-new-filters-pane"></a>Formatar o novo painel Filtros
 

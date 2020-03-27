@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710173"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113153"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados
 
@@ -42,12 +42,10 @@ Para usar o Azure Data Lake Storage Gen2 para fluxo de dados, é necessário o s
 
 Antes de configurar o Power BI com uma conta do Azure Data Lake Storage Gen2, você deve criar e configurar uma conta de armazenamento. Vamos examinar os requisitos para o Power BI:
 
-1. A conta de armazenamento deve ser criada no mesmo locatário do AAD que seu locatário do Power BI.
-2. A conta de armazenamento deve ser criada na mesma região do AAD que seu locatário do Power BI. Para determinar onde seu locatário do Power BI está localizado, confira o artigo [Onde meu locatário do Power BI está localizado](service-admin-where-is-my-tenant-located.md).
-3. A conta de armazenamento deve ter o recurso *Namespace hierárquico* habilitado.
-4. O serviço do Power BI deve receber as funções de *Leitor* e *Acesso a Dados* na conta de armazenamento.
-5. Um sistema de arquivos denominado **powerbi** deve ser criado.
-6. Os serviços do Power BI devem estar autorizados para o sistema de arquivos **powerbi** criado.
+1. É necessário ser o proprietário da conta de armazenamento do ADLS. Isso precisa ser atribuído no nível de recurso e não herdado do nível de assinatura.
+2. A conta de armazenamento deve ser criada no mesmo locatário do AAD que seu locatário do Power BI.
+3. A conta de armazenamento deve ser criada na mesma região do AAD que seu locatário do Power BI. Para determinar onde seu locatário do Power BI está localizado, confira o artigo [Onde meu locatário do Power BI está localizado](service-admin-where-is-my-tenant-located.md).
+4. A conta de armazenamento deve ter o recurso *Namespace hierárquico* habilitado.
 
 As seções a seguir percorrem as etapas necessárias para configurar sua conta do Azure Data Lake Storage Gen2 detalhadamente.
 
@@ -59,73 +57,17 @@ Siga as etapas do artigo [Criar uma conta de armazenamento do Azure Data Lake St
 2. Não deixe de habilitar o recurso de namespace hierárquico
 3. É recomendável definir a configuração de replicação como **armazenamento com redundância geográfica com acesso de leitura (RA-GRS)**
 
-### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Conceder as funções de leitor e acesso a dados ao serviço do Power BI
+### <a name="grant-permissions-to-power-bi-services"></a>Conceder permissões para serviços do Power BI
 
 Em seguida, você precisa conceder ao serviço do Power BI as funções de leitor e acesso a dados na conta de armazenamento criada. Eles são funções internas, portanto, as etapas são simples. 
 
 Siga as etapas em [Atribuir uma função RBAC interna](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
 
-Na janela **Adicionar atribuição de função**, selecione a função **Leitor** e **Acesso a Dados** para atribuir ao serviço do Power BI. Em seguida, use a pesquisa para localizar o **serviço do Power BI**. 
+Na janela **Adicionar atribuição de função** selecione a função **Leitor e Acesso a Dados**. Em seguida, use a opção pesquisar para localizar o aplicativo **Serviço do Power BI**.
+Repita as mesmas etapas para a função **Proprietário de Dados do Blob de Armazenamento** e atribua a função aos aplicativos **Serviço do Power BI** e **Power BI Premium**.
 
 > [!NOTE]
 > Aguarde pelo menos 30 minutos para que a permissão seja propagada para o Power BI no Portal. Sempre que você alterar as permissões no portal, aguarde 30 minutos para que elas sejam refletidas no Power BI. 
-
-
-### <a name="create-a-file-system-for-power-bi"></a>Criar um sistema de arquivos para o Power BI
-
-Você deve criar um sistema de arquivos denominado *powerbi* antes que sua conta de armazenamento possa ser adicionada ao Power BI. Há muitas maneiras de criar esse sistema de arquivos, incluindo o uso do Azure Databricks, HDInsight, AZCopy ou Gerenciador de Armazenamento do Microsoft Azure. Esta seção mostra uma maneira simples de criar um sistema de arquivos usando o Gerenciador de Armazenamento do Microsoft Azure.
-
-Esta etapa requer a instalação do Gerenciador de Armazenamento do Microsoft Azure versão 1.6.2 ou superior. Para instalar o Gerenciador de Armazenamento do Microsoft Azure para Windows, Macintosh ou Linux, consulte [Gerenciador de Armazenamento do Microsoft Azure](https://azure.microsoft.com/features/storage-explorer/).
-
-1. Depois de instalar o Gerenciador de Armazenamento do Azure com sucesso, na primeira inicialização, é exibida a janela Gerenciador de Armazenamento do Microsoft Azure – Conectar. Embora o Gerenciador de Armazenamento forneça várias maneiras de se conectar às contas de armazenamento, atualmente apenas uma maneira é compatível com a configuração necessária. 
-
-2. No painel esquerdo, localize e expanda a conta de armazenamento que você criou acima.
-
-3. Clique com o botão direito do mouse nos contêineres de Blob e – no menu de contexto – selecione Criar contêiner de Blob.
-
-   ![clique com o botão direito nos contêineres de Blob](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05a.jpg)
-
-4. Uma caixa de texto será exibida abaixo da pasta de Contêineres de Blob. Insira o nome *powerbi* 
-
-   ![insira o nome "powerbi"](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05b.jpg)
-
-5. Pressione Enter quando terminar de criar o contêiner de blob
-
-   ![pressione Enter para criar o contêiner de BLOB](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05c.jpg)
-
-A próxima seção, conceda à família de serviços do Power BI acesso completo ao sistema de arquivos que você criou. 
-
-### <a name="grant-power-bi-permissions-to-the-file-system"></a>Conceder permissões ao Power BI para o sistema de arquivos
-
-Para conceder permissões ao sistema de arquivos,aplique configurações da Lista de controle de acesso (ACL) que concedam acesso ao serviço do Power BI. A primeira etapa para fazer isso é obter a identidade dos serviços do Power BI em seu locatário. Você pode exibir seus aplicativos do Azure Active Directory (AAD) na seção **Aplicativos empresariais** do portal do Azure.
-
-Para localizar os aplicativos do seu locatário, execute estas etapas:
-
-1. No [portal do Azure](https://portal.azure.com/), selecione **Azure Active Directory** no painel de navegação.
-2. Na folha Azure **Active Directory**, escolha**Aplicativos empresariais**.
-3. No menu suspenso **Tipo de aplicativo**, selecione **Todos os aplicativos** e, em seguida, selecione **Aplicar**. Uma amostra dos aplicativos do seu locatário é exibida, semelhante à imagem a seguir.
-
-    ![Aplicativos empresariais do AAD](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
-
-4. Na barra de pesquisa, digite *Power*, e uma coleção de IDs de objeto para aplicativos do Power BI e do Power Query é exibida. Serão necessários todos os três valores nas etapas subsequentes.  
-
-    ![Procurar aplicativos do Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
-
-5. Selecione e copie as IDs de Objeto do serviço do Power BI Premium e do Power Query online nos resultados da pesquisa. Esteja pronto para colar esses valores nas próximas etapas.
-
-6. Em seguida, use o **Gerenciador de Armazenamento do Azure** para navegar até o sistema de arquivos *powerbi* criado na seção anterior. Siga as instruções na seção [Gerenciamento de acesso](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) do artigo [Definir permissões no nível do arquivo e diretório usando o Gerenciador de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
-
-7. Para cada uma das duas IDs de Objeto do Power BI Premium coletadas na etapa 5, atribua acesso para **Ler**, **Gravar** e **Executar**, bem como ACLs padrão ao sistema de arquivos *powerbi*.
-
-   ![para ambas, atribua as três](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
-
-8. Para a ID de objeto do Power Query Online coletada na etapa 4, atribua acesso para **Gravar** e **Executar**, bem como ACLs padrão ao sistema de arquivos *powerbi*.
-
-   ![em seguida, atribuir acesso para gravar e executar](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
-
-9. Além disso, para as **outras**, atribua o acesso **Executar** e as ACLs padrão também.
-
-    ![por fim, atribua o acesso Executar às outras](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>Conectar seu Azure Data Lake Storage Gen2 ao Power BI
 

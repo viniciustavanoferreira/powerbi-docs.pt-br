@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311695"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273307"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersão, gráficos de bolhas e gráficos de pontos no Power BI
 
@@ -176,7 +176,7 @@ Adicione um campo à caixa **Detalhes** para informar o Power BI como agrupar os
 
 ![Captura de tela de um gráfico de dispersão com RowNum adicionado à caixa Detalhes.](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 
-Se você não tiver isso em seus dados, crie um campo que concatena os valores X e Y juntos em algo exclusivo por ponto:
+Caso não tenha isso em seus dados, crie um campo que concatene os valores de X e Y em algo exclusivo por ponto:
 
 ![Captura de tela de um gráfico de dispersão com TempTime adicionado à caixa Detalhes.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
@@ -184,8 +184,10 @@ Para criar um novo campo, [use o Editor de Consultas do Power BI Desktop para ad
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [Amostragem de alta densidade em gráficos de dispersão do Power BI](desktop-high-density-scatter-charts.md)
+Você também pode estar interessado nos seguintes artigos:
 
+* [Amostragem de alta densidade em gráficos de dispersão do Power BI](desktop-high-density-scatter-charts.md)
 * [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Dicas para classificar e distribuir gráficos de dados nos relatórios do Power BI](../guidance/report-tips-sort-distribute-data-plots.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

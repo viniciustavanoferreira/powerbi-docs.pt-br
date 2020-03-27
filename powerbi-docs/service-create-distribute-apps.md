@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207863"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147367"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar um aplicativo no Power BI
 
@@ -28,6 +28,7 @@ Os usuários empresariais obtêm seus aplicativos de algumas maneiras diferentes
 - Eles podem encontrar e instalar seus aplicativos no Microsoft AppSource.
 - Você pode enviar um link direto para eles.
 - Você poderá instalá-lo automaticamente nas contas do Power BI de seus colegas, se o administrador do Power BI lhe der permissão.
+- O Power BI não envia nenhum email para os usuários internos quando você distribui ou atualiza um aplicativo. Caso distribua um aplicativo para os usuários externos, eles receberão um email com um link direto. 
 
 Você pode criar o aplicativo com sua própria navegação interna, de modo que os usuários possam encontrar o conteúdo com facilidade. Eles não podem modificar o conteúdo do aplicativo. Eles podem interagir com ele no serviço do Power BI ou em um dos aplicativos móveis – filtrando, realçando e classificando os dados por conta própria. Eles recebem atualizações automaticamente e você pode controlar a frequência com que os dados são atualizados. Você também pode conceder a eles permissões de build para que se conectem aos conjuntos de dados subjacentes e criem cópias dos relatórios no aplicativo. Leia mais sobre a [Permissão Criar](service-datasets-build-permissions.md).
 

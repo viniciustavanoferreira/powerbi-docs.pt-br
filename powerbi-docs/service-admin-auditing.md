@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75657180"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113774"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Acompanhar atividades do usuário no Power BI
 
@@ -49,13 +49,13 @@ Você pode usar um aplicativo administrativo com base nas APIs REST do Power BI 
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
 ```
 
-Se o número de entradas for grande, a API **ActivityEvents** retornará apenas cerca de 5.000 a 10.000 entradas e um token de continuação. Em seguida, você deve chamar a API **ActivityEvents** novamente com o token de continuação para obter o próximo lote de entradas e assim por diante, até que você tenha recuperado todas as entradas e deixe de receber um token de continuação. O exemplo a seguir mostra como usar o token de continuação.
+Se o número de entradas for grande, a API **ActivityEvents** retornará apenas cerca de 5.000 a 10.000 entradas e um token de continuação. Chame a API **ActivityEvents** novamente com o token de continuação para obter o próximo lote de entradas e assim por diante, até que você tenha recuperado todas as entradas e não receba mais um token de continuação. O exemplo a seguir mostra como usar o token de continuação.
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
 ```
 
-Independentemente do número de entradas retornadas, se os resultados incluírem um token de continuação, você precisará chamar a API novamente com esse token para recuperar os dados restantes, até que nenhum token de continuação seja retornado. É possível até mesmo que uma chamada retorne um token de continuação sem nenhuma entrada de evento. O exemplo a seguir mostra como executar um loop com um token de continuação retornado na resposta:
+Independentemente do número de entradas retornadas, caso os resultados incluam um token de continuação, certifique-se de chamar a API novamente usando esse token para recuperar os dados restantes até que um token de continuação não retorne mais. É possível até mesmo que uma chamada retorne um token de continuação sem nenhuma entrada de evento. O exemplo a seguir mostra como executar um loop com um token de continuação retornado na resposta:
 
 ```
 while(response.ContinuationToken != null)
@@ -68,12 +68,15 @@ while(response.ContinuationToken != null)
 }
 completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 ```
-
+> [!NOTE]
+> Pode levar até 24 horas para que todos os eventos sejam exibidos, embora os dados completos normalmente estejam disponíveis muito antes.
+>
+>
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
-É simples baixar eventos de atividade usando os cmdlets de gerenciamento do Power BI para o PowerShell, que incluem um cmdlet **Get-PowerBIActivityEvent** que manipula automaticamente o token de continuação para você. O cmdlet **Get-PowerBIActivityEvent** usa um StartDateTime e um parâmetro EndDateTime com as mesmas restrições que a API REST **ActivityEvents**. Em outras palavras, a data de início e a data de término devem referenciar o mesmo valor de data, pois você só pode recuperar os dados da atividade referentes a um dia por vez.
+Baixe eventos de atividade usando os cmdlets de Gerenciamento do Power BI para PowerShell. O cmdlet **Get-PowerBIActivityEvent** lida automaticamente com o token de continuação para você. O cmdlet **Get-PowerBIActivityEvent** usa um StartDateTime e um parâmetro EndDateTime com as mesmas restrições que a API REST **ActivityEvents**. Em outras palavras, a data de início e a data de término devem referenciar o mesmo valor de data, pois você só pode recuperar os dados da atividade referentes a um dia por vez.
 
-O script a seguir demonstra como baixar todas as atividades do Power BI. O comando converte os resultados de JSON em objetos .NET para obter acesso direto a propriedades de atividade individuais.
+O script a seguir demonstra como baixar todas as atividades do Power BI. O comando converte os resultados de JSON em objetos .NET para obter acesso direto a propriedades de atividade individuais. Esses exemplos mostram os menores e os maiores carimbos de data/hora possíveis para um dia com o objetivo de garantir que nenhum evento seja perdido.
 
 ```powershell
 Login-PowerBI
@@ -111,15 +114,15 @@ Você precisa atender a estes requisitos para acessar os logs de auditoria:
 
 - Para acessar o log de auditoria, é necessário ser um administrador global ou ser atribuído à função de Logs de Auditoria ou Logs de Auditoria Somente Exibição no Exchange Online. Por padrão, essas funções são atribuídas a grupos de funções de Gerenciamento de Conformidade e Gerenciamento de Organização, na página **Permissões**, no centro de administração do Exchange.
 
-    Para fornecer contas não administrativas com acesso ao log de auditoria, você deve adicionar o usuário como membro de um desses grupos de função. Como alternativa, crie um grupo de função personalizado no Centro de administração do Exchange, atribua a função de Logs de Auditoria ou Logs de Auditoria Somente Exibição a esse grupo e adicione a conta não administrativa ao novo grupo de função. Para obter mais informações, veja [Gerenciar grupos de função no Exchange Online](/Exchange/permissions-exo/role-groups).
+    Para fornecer contas que não sejam de administrador com acesso ao log de auditoria, adicione o usuário como membro de um desses grupos de função. Como alternativa, crie um grupo de função personalizado no Centro de administração do Exchange, atribua a função de Logs de Auditoria ou Logs de Auditoria Somente Exibição a esse grupo e adicione a conta não administrativa ao novo grupo de função. Para obter mais informações, veja [Gerenciar grupos de função no Exchange Online](/Exchange/permissions-exo/role-groups).
 
     Se você não conseguir acessar o Centro de administração do Exchange no Centro de administração do Microsoft 365, vá para https://outlook.office365.com/ecp e entre usando suas credenciais.
 
-- Caso tenha acesso ao log de auditoria, mas não seja um administrador global ou administrador de serviço do Power BI, você não terá acesso ao portal de administração do Power BI. Nesse caso, você deve usar um link direto para o [Centro de Conformidade e Segurança do Office 365](https://sip.protection.office.com/#/unifiedauditlog).
+- Caso tenha acesso ao log de auditoria, mas não seja um administrador global ou administrador do Serviço do Power BI, você não poderá acessar o Portal de Administração do Power BI. Nesse caso, use um link direto para o [Centro de Segurança e Conformidade do Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
 ### <a name="access-your-audit-logs"></a>Acessar os logs de auditoria
 
-Para acessar os logs, primeiro habilite o log no Power BI. Para saber mais, confira [Logs de auditoria](service-admin-portal.md#audit-logs) na documentação do portal do administrador. Pode haver um atraso de até 48 horas entre o tempo de habilitação da auditoria e a possibilidade de exibir dados de auditoria. Se os dados não forem exibidos imediatamente, verifique os logs de auditoria mais tarde. Pode haver um atraso semelhante entre a obtenção da permissão para exibir os logs de auditoria e a possibilidade de acessá-los.
+Para acessar os logs, primeiro habilite o log no Power BI. Para saber mais, confira [Logs de auditoria](service-admin-portal.md#audit-logs) na documentação do portal do administrador. Pode haver um atraso de até 48 horas entre o horário de habilitação da auditoria e a possibilidade de exibir os dados de auditoria. Se os dados não forem exibidos imediatamente, verifique os logs de auditoria mais tarde. Pode haver um atraso semelhante entre a obtenção da permissão para exibir os logs de auditoria e a possibilidade de acessá-los.
 
 Os logs de auditoria do Power BI estão disponíveis diretamente no [Centro de Conformidade e Segurança do Office 365](https://sip.protection.office.com/#/unifiedauditlog). Há também um link no portal de administração do Power BI:
 
@@ -258,7 +261,7 @@ As operações a seguir estão disponíveis nos logs de auditoria e de atividade
 | Pasta do Power BI criada                           | CreateFolder                                |                                          |
 | Gateway do Power BI criado                          | CreateGateway                               |                                          |
 | Grupo do Power BI criado                            | CreateGroup                                 |                                          |
-| Relatório do Power BI criado                           | CreateReport                                |                                          |
+| Relatório do Power BI criado                           | CreateReport <sup>1</sup>                                |                                          |
 | Fluxo de dados migrado para conta de armazenamento externa     | DataflowMigratedToExternalStorageAccount    | Atualmente não usado                       |
 | Permissões de fluxo de dados adicionadas                        | DataflowPermissionsAdded                    | Atualmente não usado                       |
 | Permissões de fluxo de dados removidas                      | DataflowPermissionsRemoved                  | Atualmente não usado                       |
@@ -294,7 +297,7 @@ As operações a seguir estão disponíveis nos logs de auditoria e de atividade
 | Comentário do Power BI postado                           | PostComment                                 |                                          |
 | Dashboard do Power BI impresso                        | PrintDashboard                              |                                          |
 | Página de relatório do Power BI impressa                      | PrintReport                                 |                                          |
-| Relatório do Power BI publicado na Web                  | PublishToWebReport                          |                                          |
+| Relatório do Power BI publicado na Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Segredo de fluxo de dados do Power BI recebido do Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Fonte de dados removida do gateway do Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Membros de grupo do Power BI removidos                    | DeleteGroupMembers                          |                                          |
@@ -333,6 +336,10 @@ As operações a seguir estão disponíveis nos logs de auditoria e de atividade
 | Bloco do Power BI exibido                              | ViewTile                                    |                                          |
 | Métricas de uso do Power BI exibidas                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
+
+<sup>1</sup> Publicar do Power BI Desktop para o serviço é um evento CreateReport no serviço.
+
+<sup>2</sup> PublishtoWebReport se refere ao recurso [Publicar na Web](service-publish-to-web.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

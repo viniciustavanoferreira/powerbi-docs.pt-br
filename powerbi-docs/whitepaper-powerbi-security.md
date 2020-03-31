@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381389"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404571"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper de segurança do Power BI
 
@@ -135,7 +135,7 @@ A autenticação do usuário para o serviço do Power BI consiste em uma série 
 
 A sequência de autenticação de usuário para o serviço do Power BI ocorre conforme descrito nas próximas etapas, que são ilustradas nas imagens a seguir.
 
-1. Um usuário inicia uma conexão ao serviço do Power BI de um navegador digitando o endereço do Power BI na barra de endereços (como https://app.powerbi.com) ou selecionando _Entrar_ da página de aterrissagem do Power BI https://powerbi.microsoft.com)). A conexão é estabelecida usando HTTPS e TLS 1.2, e todas as comunicações subsequentes entre o navegador e o serviço do Power BI usam HTTPS. A solicitação é enviada para o **Gerenciador de Tráfego do Azure**.
+1. Um usuário inicia uma conexão com o serviço do Power BI de um navegador, seja digitando o endereço Power BI na barra de endereços (como `https://app.powerbi.com`) ou selecionando _entrar_ na página de aterrissagem Power BI (https://powerbi.microsoft.com). A conexão é estabelecida usando HTTPS e TLS 1.2, e todas as comunicações subsequentes entre o navegador e o serviço do Power BI usam HTTPS. A solicitação é enviada para o **Gerenciador de Tráfego do Azure**.
 
 2. O **Gerenciador de Tráfego do Azure** verifica o registro DNS do usuário para determinar o datacenter mais próximo em que o Power BI é implantado e responde ao DNS com o endereço IP do WFE do cluster para o qual o usuário deve ser enviado.
 

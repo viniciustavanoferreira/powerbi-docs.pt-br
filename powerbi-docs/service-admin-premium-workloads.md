@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/14/2020
+ms.date: 03/24/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207955"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329640"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho em uma capacidade Premium
 
@@ -28,7 +28,7 @@ As cargas de trabalho de consulta são otimizadas para os recursos determinados 
 
 |                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| IA | N/D | N/D | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% |
+| IA | Padrão de 40%; mínimo de 40% | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 8% | Padrão de 20%; mínimo de 4% | Padrão de 20%; mínimo de 2% |
 | Fluxos de dados | N/D |Padrão de 20%; mínimo de 12%  | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 3% | Padrão de 20%; mínimo de 2%  |
 | Relatórios paginados | N/D |N/D | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
 | | | | | | |
@@ -37,7 +37,7 @@ As cargas de trabalho de consulta são otimizadas para os recursos determinados 
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| IA | N/D                      | 20% padrão; 100% mínimo                     | 20% padrão; 50% mínimo                     | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% |
+| IA | N/D  | Padrão de 40%; mínimo de 40%  | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 8% | Padrão de 20%; mínimo de 4% | Padrão de 20%; mínimo de 2% |
 | Fluxos de dados         | Padrão de 40%; mínimo de 40% | Padrão de 24%; mínimo de 24% | Padrão de 20%; mínimo de 12% | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 3% | Padrão de 20%; mínimo de 2%   |
 | Relatórios paginados | N/D                      | N/D                      | N/D                     | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
 | | | | | | |

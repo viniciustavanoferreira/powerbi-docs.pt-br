@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492780"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403663"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -96,7 +96,7 @@ O usuário pode resolver esse problema chamando a [API refreshUserPermissions](h
 
 Você pode usar o portal do PBI para localizar sua região de locatário do PBI.
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Sobre o Power BI
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Sobre o Power BI
 
 ![Sobre o Power BI](media/embedded-faq/about-01.png)
 ![Região do locatário](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ Essa situação é importante quando você adiciona a entidade de serviço como 
 
 A **[ID do aplicativo](embed-sample-for-customers.md#application-id)** é usada para criar o token de acesso ao passar a ID do aplicativo para autenticação.
 
-Para fazer referência a uma entidade de serviço para operações ou fazer alterações, você usa a **[ID de objeto de entidade de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id)** – por exemplo, aplicação de uma entidade de serviço como um administrador a um workspace.
+Para fazer referência a uma entidade de serviço para operações ou fazer alterações, você usa a **[ID de objeto de entidade de serviço](embed-service-principal.md)** – por exemplo, aplicação de uma entidade de serviço como um administrador a um workspace.
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>Você pode gerenciar um gateway de dados local com a entidade de serviço?
 

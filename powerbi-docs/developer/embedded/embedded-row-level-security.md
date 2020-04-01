@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492481"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403703"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança em nível de linha com o Power BI Embedded
 
@@ -217,7 +217,7 @@ Aqui estão as etapas para começar a configurar o recurso CustomData() com seu 
 
 7. Use as APIs do Power BI para usar o recurso CustomData em seu aplicativo.  Ao gerar um token com o recurso Custom Data, é preciso ter um nome de usuário. O nome de usuário deve ser igual ao UPN do usuário mestre. O usuário mestre deve ser membro da(s) função(ões) criadas por você. Se nenhuma função for especificada, todas as funções de que usuário mestre for membro serão usadas para avaliação de RLS.
 
-    Ao trabalhar com uma [entidade de serviço](embed-service-principal.md), você também precisará executar as etapas acima em vez de usar uma conta mestre. Ao gerar o token de inserção, use a [ID de objeto da entidade de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id) como o nome de usuário.
+    Ao trabalhar com uma [entidade de serviço](embed-service-principal.md), você também precisará executar as etapas acima em vez de usar uma conta mestre. Ao gerar o token de inserção, use a [ID de objeto da entidade de serviço](embed-service-principal.md) como o nome de usuário.
 
     > [!Note]
     > Quando estiver pronto para implantar o aplicativo para produção, a opção ou o campo de conta de usuário mestre não deverá ficar visível para o usuário final.

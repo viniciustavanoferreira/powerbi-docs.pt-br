@@ -3,23 +3,22 @@ title: Exibir os dashboards e relatórios que foram compartilhados comigo
 description: documentação do que foi compartilhado comigo no Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d97727969ed48c50a86be032835b237d293a1d96
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114149"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302494"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Exibir os dashboards e relatórios que foram compartilhados comigo
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -27,7 +26,7 @@ Quando um colega compartilhar conteúdo com você usando o botão **Compartilhar
 
 ![Ícone Compartilhar](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Assista à Amanda explicar a lista de conteúdo **Compartilhado comigo** e demonstrar como navegar na lista e filtrá-la. Em seguida, siga as instruções passo a passo abaixo do vídeo para testá-la por conta própria. Para poder exibir os dashboards que são compartilhados com você, você precisa ter uma licença do Power BI Pro. Para obter mais detalhes, veja o tópico [Qual licença eu tenho?](end-user-license.md)
+Assista à Amanda explicar a lista de conteúdo **Compartilhado comigo** e demonstrar como navegar na lista e filtrá-la. Em seguida, siga as instruções passo a passo abaixo do vídeo para testá-la por conta própria. Para poder exibir os dashboards que são compartilhados com você, você precisa ter uma licença do Power BI Pro. Leia [O que é o Power BI Premium?](../service-premium-what-is.md) para obter detalhes.
     
 
 > [!NOTE]

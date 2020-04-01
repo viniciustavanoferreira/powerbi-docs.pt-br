@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 29a6e9f67258d4babc58d8195dda59afe97554c6
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205218"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404777"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são os relatórios paginados no Power BI Premium?
 
@@ -25,7 +25,7 @@ Experimente o [Laboratório prático: Criar um relatório paginado do Microsoft 
 
 ![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Você pode visualizar o relatório no Construtor de Relatórios e publicá-lo no serviço do Power BI, https://app.powerbi.com. Você precisa de uma licença do Power BI Pro para publicar um relatório no serviço. É possível publicar e compartilhar relatórios paginados em Meu Workspace ou em workspaces, desde que o workspace esteja em uma capacidade do Power BI Premium. Além disso, um administrador do Power BI precisa habilitar relatórios paginados na [seção de capacidades Premium](../service-admin-premium-workloads.md#paginated-reports) no portal de administração do Power BI. 
+Você pode visualizar o relatório no Construtor de Relatórios e publicá-lo no serviço do Power BI, `https://app.powerbi.com`. Você precisa de uma licença do Power BI Pro para publicar um relatório no serviço. É possível publicar e compartilhar relatórios paginados em Meu Workspace ou em workspaces, desde que o workspace esteja em uma capacidade do Power BI Premium. Além disso, um administrador do Power BI precisa habilitar relatórios paginados na [seção de capacidades Premium](../service-admin-premium-workloads.md#paginated-reports) no portal de administração do Power BI. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Criar relatórios no Construtor de Relatórios do Power BI
 
@@ -61,7 +61,7 @@ Tudo em um relatório paginado, do relatório em si até cada caixa de texto, im
 
 ## <a name="creating-a-report-definition"></a>Como criar uma definição de relatório
 
-Quando você cria um relatório paginado, realmente está criando uma *definição de relatório*. Ele não contém os dados. Especifica onde obter os dados, quais dados devem ser obtidos e como exibir os dados. Quando você executa o relatório, o processador de relatório usa a definição de relatório que você especificou, recupera os dados e combina-os com o layout do relatório para gerar o relatório. Carregue a definição de relatório para o serviço do Power BI, https://app.powerbi.com, para Meu workspace ou um workspace compartilhado com seus colegas. Se a fonte de dados de relatório está no local, depois de carregar o relatório, redirecione a conexão de fonte de dados para passar por um gateway. 
+Quando você cria um relatório paginado, realmente está criando uma *definição de relatório*. Ele não contém os dados. Especifica onde obter os dados, quais dados devem ser obtidos e como exibir os dados. Quando você executa o relatório, o processador de relatório usa a definição de relatório que você especificou, recupera os dados e combina-os com o layout do relatório para gerar o relatório. Carregue a definição de relatório para o serviço do Power BI, `https://app.powerbi.com`, para Meu workspace ou um workspace compartilhado com seus colegas. Se a fonte de dados de relatório está no local, depois de carregar o relatório, redirecione a conexão de fonte de dados para passar por um gateway. 
 
 ## <a name="view-your-paginated-report"></a>Exibir o relatório paginado
 Você exibe seu relatório paginado no serviço do Power BI em um navegador e também nos aplicativos móveis do Power BI. Do serviço do Power BI, você pode exportar o relatório para vários formatos, como HTML, MHTML, PDF, XML, CSV, TIFF, Word e Excel. Você também pode compartilhá-lo com outras pessoas.  

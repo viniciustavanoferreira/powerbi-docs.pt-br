@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: dc429e4147016df07d339468090ad50bb6f14842
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 52f840d5806c10de088838cf64187b953f36aa54
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493884"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550941"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserir conteúdo do Power BI a seu aplicativo para nuvens nacionais
 
@@ -116,7 +116,7 @@ Este artigo mostra o código usado na [amostra O Aplicativo Possui Dados](https:
 
 * Parâmetros do Power BI para nuvem da China
 
-1. Substitua o arquivo Cloud.config pelo conteúdo do [Power BI para a nuvem da China](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
+1. Substitua o arquivo Cloud.config pelo conteúdo do [Power BI para a nuvem da China](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
 
 2. Atualize a applicationId (applicationId do aplicativo nativo), workspaceId, o usuário (seu usuário mestre) e a senha no arquivo Web.config.
 
@@ -143,7 +143,7 @@ Registre o aplicativo no Azure AD para fazer chamadas à API REST. Para obter ma
 
 * Power BI para a nuvem da China – ```https://app.powerbi.cn/apps```
 
-Se você tiver baixado o [Exemplo Inserindo para seu cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), use a **applicationId** obtida, para que o exemplo possa ser autenticado no Azure AD. Para configurar o exemplo, altere a **applicationId** no arquivo *web.config*.
+Se você tiver baixado o [Exemplo Inserindo para seu cliente](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData), use a **applicationId** obtida, para que o exemplo possa ser autenticado no Azure AD. Para configurar o exemplo, altere a **applicationId** no arquivo *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Etapa 2 – Obter um token de acesso do Azure AD
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 Use o objeto de cliente do Power BI para recuperar uma referência ao item que você deseja inserir. É possível inserir dashboards, blocos ou relatórios. Veja a seguir um exemplo de como recuperar o primeiro dashboard, bloco ou relatório de um workspace específico.
 
-Um exemplo está disponível em **Controllers\HomeController.cs** do [exemplo App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Um exemplo está disponível em **Controllers\HomeController.cs** do [exemplo App Owns Data](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 #### <a name="reports"></a>Relatórios
 
@@ -243,7 +243,7 @@ Usando a API JavaScript, é possível gerar um token inserido. O token de inser�
 > [!IMPORTANT]
 > Como os tokens inseridos destinam-se apenas para teste de desenvolvimento, o número de tokens inseridos que uma conta mestre do Power BI pode gerar é limitado. Uma [capacidade deve ser adquirida](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para cenários de integração de produção. Não há nenhum limite para a geração de tokens inseridos quando uma capacidade é adquirida.
 
-Um exemplo está disponível em **Controllers\HomeController.cs** do [exemplo Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Um exemplo está disponível em **Controllers\HomeController.cs** do [exemplo Inserindo para a organização](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 Uma classe é criada para **EmbedConfig** e **TileEmbedConfig**. Um exemplo está disponível em **Models\EmbedConfig.cs** e **Models\TileEmbedConfig.cs**.
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 Você pode usar o JavaScript para carregar um dashboard em um elemento div na sua página da Web. O exemplo usa um modelo de EmbedConfig/TileEmbedConfig, juntamente com as exibições de um dashboard, bloco ou relatório. Para obter uma amostra completa de como usar a API JavaScript, use a [Amostra do Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo).
 
-Um exemplo de aplicativo está disponível no [exemplo Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Um exemplo de aplicativo está disponível no [exemplo Inserindo para a organização](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ Um exemplo de aplicativo está disponível no [exemplo Inserindo para a organiza
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* Um aplicativo de exemplo está disponível no GitHub para você examinar. Os exemplos acima baseiam-se nessa amostra. Para obter mais informações, consulte a [amostra Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+* Um aplicativo de exemplo está disponível no GitHub para você examinar. Os exemplos acima baseiam-se nessa amostra. Para obter mais informações, consulte a [amostra Inserindo para a organização](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 * Para obter mais informações sobre a API de JavaScript, veja [API de JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: a13e48e413f047812d9b00fe67c2ee2b69bbc2dc
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404571"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551108"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper de segurança do Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "80404571"
 
 O **Power BI** é uma oferta de serviço de software online (_SaaS_, ou Software como serviço) da Microsoft que permite que você crie de modo rápido e fácil dashboards, relatórios, conjuntos de dados e visualizações de Business Intelligence de autoatendimento. Com o Power BI, você pode se conectar a várias fontes de dados diferentes, combinar e moldar os dados usando essas conexões e criar relatórios e dashboards que podem ser compartilhados com outras pessoas.
 
-O serviço do Power BI é regido pelos [Termos de Serviços Online da Microsoft](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e a [Política de Privacidade do Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para o local de processamento de dados, consulte os termos de Local de Processamento de Dados nos Termos de Serviços Online da Microsoft. Para obter informações de conformidade, o [Microsoft Trust Center](https://www.microsoft.com/trustcenter) é o principal recurso para o Power BI. A equipe do Power BI está trabalhando duro para trazer a seus clientes as mais recentes inovações e produtividade. O Power BI está atualmente na camada D da [estrutura de conformidade do Office 365](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf).
+O serviço do Power BI é regido pelos [Termos de Serviços Online da Microsoft](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e a [Política de Privacidade do Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para o local de processamento de dados, consulte os termos de Local de Processamento de Dados nos Termos de Serviços Online da Microsoft. Para obter informações de conformidade, o [Microsoft Trust Center](https://www.microsoft.com/trustcenter) é o principal recurso para o Power BI. A equipe do Power BI está trabalhando duro para trazer a seus clientes as mais recentes inovações e produtividade. O Power BI está atualmente na camada D da [estrutura de conformidade do Office 365](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
 Este artigo descreve a segurança do Power BI dando uma explicação da arquitetura do Power BI, então explicando como os usuários são autenticados para o Power BI e as conexões de dados são estabelecidas e, por fim, descrevendo como o Power BI armazena e move os dados pelo serviço. A última seção é dedicada a perguntas relacionadas à segurança, sendo fornecidas respostas para cada uma.
 

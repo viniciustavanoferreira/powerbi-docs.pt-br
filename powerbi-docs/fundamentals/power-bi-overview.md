@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114976"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487761"
 ---
 # <a name="what-is-power-bi"></a>O que é Power BI?
 O **Power BI** é uma coleção de serviços de software, aplicativos e conectores que trabalham juntos para transformar suas fontes de dados não relacionadas em informações coerentes, visualmente envolventes e interativas. Os dados podem estar em uma planilha do Excel ou em uma coleção de data warehouses híbridos locais ou baseados na nuvem. Com o Power BI, você pode se conectar facilmente a fontes de dados, visualizar e descobrir conteúdo importante e compartilhá-lo com todas as pessoas que quiser.
@@ -44,8 +44,12 @@ A maneira de usar o Power BI depende do respectivo recurso ou serviço que seja 
 Explore os documentos pertinentes à sua função:
 - Power BI Desktop para [*designers*](../desktop-what-is-desktop.md)
 - Power BI para [*consumidores*](../consumer/end-user-consumer.md)
-- Power BI para [*desenvolvedores*](../developer/what-can-you-do.md)
 - Power BI para [*administradores*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI para *desenvolvedores*
+    * [Análise integrada com o Power BI](../developer/embedded/embedding.md)
+    * [O que é o Power BI Embedded no Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Visuais no Power BI](../developer/visuals/power-bi-custom-visuals.md)
+    * [O que os desenvolvedores podem fazer com a API do Power BI?](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>O fluxo de trabalho no Power BI
 Um fluxo de trabalho comum no Power BI começa pela conexão com fontes de dados e pela criação de um relatório no Power BI Desktop. Você então publica esse relatório do Power BI Desktop no serviço do Power BI e o compartilha para que os usuários finais no serviço do Power BI e nos dispositivos móveis possam exibir e interagir com o relatório.

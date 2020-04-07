@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 0804650149f98d7f63315025ffe3f8a1771ac2ef
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381021"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302738"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Obtenha uma assinatura para você e outras pessoas de relatórios e dashboards no serviço do Power BI
 
@@ -96,7 +96,7 @@ Uma assinatura será encerrada se a licença Pro expirar, se o proprietário exc
 * As assinaturas da página de relatório são vinculadas ao nome da página de relatório. Se você assinar uma página de relatório e renomeá-la, precisará recriar sua assinatura.
 * Sua organização pode definir certas configurações no Azure Active Directory que limitam a capacidade de usar assinaturas de email no Power BI.  Essas limitações incluem, sem limitação, ter autenticação multifator ou restrições de intervalo de IP ao acessar recursos.
 * Atualmente, assinaturas de email para relatórios/dashboards que usam conjuntos de dados de conexão dinâmica não são compatíveis ao registrar a assinatura de usuários diferentes de você, a menos que esteja usando um relatório paginado, o que lhe permitirá enviar assinaturas a outras pessoas usando o seu contexto de segurança.
-* Assinaturas de email não dão suporte à maioria dos [visuais do Power BI](developer/visuals/power-bi-custom-visuals.md).  A única exceção é para os visuais do Power BI que foram [certificados](developer/visuals/power-bi-custom-visuals-certified.md).  
+* Há suporte apenas para os [visuais padrão e certificados do Power BI](developer/visuals/power-bi-custom-visuals.md) para assinaturas de email.  
 * No momento, as assinaturas de email não dão suporte a visuais do Power BI da plataforma R.  
 * Assinaturas de email são enviadas com estados de segmentação e filtro padrão do relatório. As alterações feitas nos padrões após a assinatura não serão exibidas no email.  Os relatórios paginados são compatíveis com essa funcionalidade e lhe permitem definir os valores de parâmetro específicos por assinatura.
 * Especificamente para assinaturas de dashboards, ainda não há suporte para alguns tipos de blocos.  Eles incluem: blocos de streaming, blocos de vídeo, blocos de conteúdo da Web personalizado.     

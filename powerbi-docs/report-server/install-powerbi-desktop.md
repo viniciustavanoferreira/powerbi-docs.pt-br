@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381113"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404193"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 
@@ -62,7 +62,7 @@ Editar um relatório do Power BI no Servidor de Relatórios do Power BI ou criar
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-Os relatórios do Power BI no Servidor de Relatórios do Microsoft Power BI e no serviço do Power BI (https://app.powerbi.com), assim como nos aplicativos móveis do Power BI) agem praticamente da mesma maneira, mas alguns recursos são diferentes.
+Os relatórios do Power BI no Servidor de Relatórios do Power BI e no serviço do Power BI (`https://app.powerbi.com`, assim como nos aplicativos móveis do Power BI) agem praticamente da mesma maneira, mas alguns recursos são diferentes.
 
 ### <a name="selecting-a-language"></a>Como selecionar um idioma
 

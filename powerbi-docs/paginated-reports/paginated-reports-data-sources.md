@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b4ed632d6106fa552cebf9837ba238bdc7a4d3f1
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113728"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404824"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Fontes de dados com suporte para relatórios paginados do Power BI
 
@@ -32,7 +32,7 @@ Os relatórios paginados oferecem suporte nativo à seguinte lista de fontes de 
 | Conjunto de dados do Power BI Premium (XMLA) | SSO |   |
 | Inserir Dados | N/D | Os dados são inseridos no relatório. |
 
-Exceto para o Banco de Dados SQL do Azure, todas as fontes estão prontas para uso depois que você carrega o relatório para o serviço do Power BI. As fontes de dados assumem como padrão o uso de SSO (logon único), quando aplicável. Para o Azure Analysis Services, você pode alterar o tipo de autenticação para OAuth2.
+Exceto para o Banco de Dados SQL do Azure, todas as fontes estão prontas para uso depois que você carrega o relatório para o serviço do Power BI. As fontes de dados assumem como padrão o uso de SSO (logon único), quando aplicável. Para o Azure Analysis Services, você pode alterar o tipo de autenticação para OAuth2. No entanto, depois que o tipo de autenticação de uma determinada fonte de dados é alterado para OAuth2, ele não pode voltar a usar o SSO.  Além disso, essa alteração se aplica a todos os relatórios que usam essa fonte de dados em todos os espaços de trabalho para um determinado locatário.  A segurança no nível de linha em relatórios paginados não funcionará, a menos que os usuários escolham SSO para o tipo de autenticação.
 
 Para fontes de dados do Banco de Dados SQL do Azure, você precisa fornecer mais informações, conforme descrito na seção [Autenticação do Banco de Dados SQL do Azure](#azure-sql-database-authentication).
 

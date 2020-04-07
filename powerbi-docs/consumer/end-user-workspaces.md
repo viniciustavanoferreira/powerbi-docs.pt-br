@@ -6,22 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/05/2020
+ms.date: 03/10/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0f0957962a761623262268f8c84c338000ba56f2
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6886bc628add44f94c91b77cada97abf81635e78
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79078969"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302274"
 ---
 # <a name="collaborate-in-workspaces"></a>Colaborar em workspaces
 
  *Workspaces* são locais para colaborar com colegas em um conteúdo específico. Os workspaces são criados por *designers* do Power BI para manter coleções de dashboards, relatórios e aplicativos. 
 
+## <a name="types-of-workspaces"></a>Tipos de espaços de trabalho
+O **Meu Workspace** armazena todo o conteúdo que você tem e cria. Pense nele como sua área restrita pessoal ou como área de trabalho para seu próprio conteúdo. Para muitos consumidores do Power BI, o **Meu espaço de trabalho** permanece vazio porque seu trabalho não envolve criar conteúdo. Os consumidores, por definição, consomem dados criados por outras pessoas e usam esses dados para tomar decisões de negócios. Se você acha que está criando conteúdo, considere ler os [artigos do Power BI para designers](../create-reports/index.yml).
 
-<art showing different wss>
+Os **espaços de trabalho de aplicativo** contêm todo o conteúdo para o aplicativo específico. Quando um *designer* cria um aplicativo, ele agrupa todo o conteúdo necessário para que o aplicativo seja utilizado. O conteúdo pode incluir painéis, relatórios, aplicativos e conjuntos de dados. Nem todo aplicativo conterá essas quatro partes de conteúdo. Um aplicativo pode conter apenas um dashboard, três de cada tipo de conteúdo ou até mesmo vinte relatórios. Isso tudo depende do que o *designer* inclui no aplicativo. É mais comum que os espaços de trabalho de aplicativo para *consumidores* não incluam nenhum conjunto de dados.
+
+<!--<art showing different wss> -->
 
 ## <a name="roles-in-the-workspaces"></a>Funções nos workspaces
 
@@ -42,3 +46,16 @@ Talvez você receba um convite para um workspace fora da sua organização. Voc�
 ## <a name="next-steps"></a>Próximas etapas
 * [Aplicativos no Power BI](end-user-apps.md)    
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+
+
+
+
+
+
+
+
+
+
+
+
+

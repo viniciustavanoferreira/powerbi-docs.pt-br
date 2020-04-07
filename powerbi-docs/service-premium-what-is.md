@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381159"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329652"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
-O Power BI Premium oferece recursos dedicados e aprimorados para executar o serviço do Power BI para sua organização. Por exemplo:
+Você pode usar o Power BI Premium para obter recursos dedicados e aprimorados para sua organização, para que os usuários possam usar o serviço do Power BI com melhor desempenho e capacidade de resposta. Por exemplo, com uma assinatura do Power BI Premium, você e os usuários da sua organização têm acesso a:
 
 > [!div class="checklist"]
 > * Maior dimensionamento e desempenho
@@ -29,13 +29,16 @@ O Power BI Premium oferece recursos dedicados e aprimorados para executar o serv
 > * Suporte para residência de dados por região (Multi-Geo)
 > * Compartilhe dados com qualquer pessoa sem comprar uma licença por usuário
 
+
+![Portal de administração](media/service-premium-what-is/premium-admin-portal.png) 
+
 Este artigo apresenta os principais recursos do Power BI Premium. Quando necessário, serão fornecidos links para outros artigos com informações mais detalhadas. Confira mais informações sobre o Power BI Pro e o Power BI Premium na seção _Comparação de recursos do Power BI_ em [Preços do Power BI](https://powerbi.microsoft.com/pricing/).
 
 ## <a name="subscriptions-and-licensing"></a>Assinaturas e licenciamento
 
 O Power BI Premium é uma assinatura do Office 365 de nível de locatário disponível em duas famílias de SKU (Unidade de Manutenção de Estoque):
 
-- SKUs **P** (P1-P3) para recursos corporativos e de inserção, exigindo um compromisso mensal ou anual, cobrado mensalmente, com a inclusão de uma licença para instalar o Servidor de Relatórios do Power BI local.
+- SKUs **P** (P1-P5) para recursos corporativos e de inserção, exigindo um compromisso mensal ou anual, cobrado mensalmente, com a inclusão de uma licença para instalar o Servidor de Relatórios do Power BI local.
 
 - SKUs **EM** (EM1-EM3) para inserção _organizacional_, exigindo um compromisso anual cobrado mensalmente. Os SKUs EM1 e EM2 estão disponíveis somente por meio de planos de licenciamento por volume. Não é possível comprá-los diretamente.
 
@@ -81,6 +84,8 @@ Os recursos e limites de cada SKU Premium (e o SKU A de tamanho equivalente) sã
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -229,13 +234,14 @@ Para saber mais, confira [Licenciamento do Power BI](service-admin-licensing-org
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services no Power BI Premium (versão prévia)
 
-Nos bastidores, o **mecanismo Vertipaq do Analysis Services** da Microsoft comprovado para empresas habilita os conjuntos de dados do Power BI. O Analysis Services oferece capacidade de programação e suporte a ferramenta e a aplicativo cliente por meio de bibliotecas de clientes e APIs que dão suporte ao protocolo XMLA de padrão aberto. No momento, os conjuntos de dados do Power BI Premium dão suporte a operações *somente leitura* da Microsoft e a ferramentas e aplicativos cliente de terceiros por meio de **pontos de extremidade XMLA**. 
+Nos bastidores, o **mecanismo Vertipaq do Analysis Services** da Microsoft comprovado para empresas habilita os espaços de trabalho e conjuntos de dados do Power BI Premium. O Analysis Services oferece capacidade de programação e suporte a ferramenta e a aplicativo cliente por meio de bibliotecas de clientes e APIs que dão suporte ao protocolo XMLA de padrão aberto. Por padrão, as cargas de trabalho dos conjuntos de dados do Power BI Premium dão suporte a operações *somente leitura* da Microsoft e a ferramentas e aplicativos cliente de terceiros por meio de um **ponto de extremidade XMLA**. Os administradores de capacidade também podem optar por desabilitar ou permitir operações de *leitura/gravação* por meio do ponto de extremidade.
 
-As ferramentas da Microsoft, como o SQL Server Management Studio e o SQL Server Profiler, e aplicativos de terceiros, como o DAX Studio, e os aplicativos de visualização de dados podem se conectar a conjuntos de dados Premium e consultá-los usando XMLA, DAX, MDX, DMVs e eventos de rastreamento. 
+Com o acesso somente leitura, as ferramentas da Microsoft, como o SQL Server Management Studio (SSMS) e o SQL Server Profiler, e aplicativos de terceiros, como o DAX Studio, e os aplicativos de visualização de dados podem se conectar a conjuntos de dados Premium e consultá-los usando XMLA, DAX, MDX, DMVs e eventos de rastreamento. Com acesso de leitura/gravação, as ferramentas de modelagem de dados corporativos, como o Visual Studio com extensão de projetos do Analysis Services ou o Editor de Tabelas de código aberto, podem implantar modelos de tabela como um conjunto de dados em um espaço de trabalho Premium. E com ferramentas como o SSMS, os administradores podem usar a TMSL (Tabular Model Scripting Language) para criar scripts para alterações de metadados e cenários avançados de atualização de dados. 
+
+Para saber mais, confira [Conectividade do conjunto de dados com o ponto de extremidade XMLA](service-premium-connect-tools.md).
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-Para saber mais, confira [Conectar-se a conjuntos de dados com ferramentas e aplicativos cliente](service-premium-connect-tools.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

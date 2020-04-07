@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207472"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404725"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Varejo do Power BI: Faça um tour
 
-O pacote de conteúdo de exemplo de Análise de Varejo contém um painel, um relatório e um conjunto de dados que analisa os dados de vendas no varejo de itens vendidos em várias lojas e distritos. As métricas comparam o desempenho deste ano ao do ano passado em vendas, unidades, margem bruta e variação, assim como uma análise da nova loja. 
+O pacote de conteúdo de exemplo de Análise de Varejo contém um painel, um relatório e um conjunto de dados que analisa os dados de vendas no varejo de itens vendidos em várias lojas e distritos. As métricas comparam o desempenho deste ano ao do ano passado em vendas, unidades, margem bruta e variação, além de análises de novas lojas. 
 
 ![Painel para o exemplo de Análise de Varejo](media/sample-retail-analysis/retail1.png)
 
@@ -57,7 +57,7 @@ Como alternativa, você pode baixar o exemplo de Análise de Varejo como um [arq
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529778). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529778). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos do Power View e do Power Pivot, confira [Explorar os exemplos do Excel no Excel](sample-datasets.md#explore-excel-samples-inside-excel) para saber mais.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Iniciar no painel e abrir o relatório
 
@@ -98,7 +98,7 @@ Vamos analisar mais detalhadamente.
 
    Observe como o Power BI responde à pergunta enquanto você digita e exibe o gráfico apropriado.
 3. Experimente mais perguntas e confira que tipo de resultados você recebe.
-4. Quando estiver pronto, retorne ao dashboard.
+4. Quando estiver pronto, retorne ao painel.
 
 ## <a name="dive-deeper-into-the-data"></a>Aprofundar-se nos dados
 Agora vamos explorar em um nível mais detalhado, observando os desempenhos dos distritos.
@@ -136,7 +136,7 @@ Vejamos o desempenho de distritos específicos.
 
    ![Itens Allan Guinot e Womens-10 selecionados](media/sample-retail-analysis/power-bi-allan.png)
 
-   Observe que com relação à categoria Womens-10, o distrito de Allan não alcançou o volume do ano passado.
+   Observe que, em relação à categoria Womens-10, o distrito de Allan não alcançou o volume do ano passado.
 3. Explore os outros gerentes e categorias de distrito – quais outras informações você pode encontrar?
 4. Quando estiver pronto, retorne ao painel.
 

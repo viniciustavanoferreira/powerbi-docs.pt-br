@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207909"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404077"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço do Power BI
 
 O objetivo deste artigo é orientá-lo sobre o serviço do Power BI: quais são os diferentes elementos, como eles funcionam juntos e como você pode trabalhar com eles. Você pode aproveitá-lo ao máximo, se já [se inscreveu no serviço do Power BI](service-self-service-signup-for-power-bi.md) e [adicionou alguns dados](service-get-data.md). Como designer, o fluxo de trabalho típico geralmente é começar criando relatórios no Power BI Desktop. Em seguida, você os publica no serviço do Power BI, onde pode continuar a modificá-los. Além disso, você cria os painéis baseados em relatórios no serviço do Power BI. 
 
-No âmbito deste artigo, caso você ainda não tenha relatórios próprios, tente instalar um [pacote de conteúdo de exemplo do Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs).
+Para este artigo, se você ainda não possui seus próprios relatórios, tente instalar uma das [amostras do Power BI](sample-datasets.md).
 
 ![Tela inicial do serviço do Power BI em um navegador](media/service-basic-concepts/power-bi-home-screen.png)
 
@@ -76,7 +76,7 @@ Você não pode ter dashboards ou relatórios sem dados (bem, você até pode te
 ## <a name="datasets"></a>Conjuntos de dados
 Um *conjunto de dados* é uma coleção de dados que você *importa* ou a que *se conecta*. O Power BI permite que você se conecte a todos os tipos de conjuntos de dados, os importe e os reúna em um único lugar. Os conjuntos de dados também podem obter dados de fluxos de dados.
 
-Conjuntos de dados estão associados aos *workspaces*, e um conjunto de dados exclusivo pode ser parte de muitos workspaces. Ao abrir um workspace, os conjuntos de dados associados estarão listados na guia **Conjuntos de Dados**. Cada conjunto de dados listado representa uma fonte de dados única, por exemplo, uma planilha do Excel no OneDrive, um conjunto de dados de tabela SSAS local ou um conjunto de dados do Salesforce. Há várias diferentes fontes de dados com suporte, e sempre estamos adicionando novas. Veja a lista de [tipos de conjuntos de dados que podem ser usados com o Power BI](service-get-data.md).
+Conjuntos de dados estão associados aos *workspaces*, e um conjunto de dados exclusivo pode ser parte de muitos workspaces. Ao abrir um workspace, os conjuntos de dados associados estarão listados na guia **Conjuntos de Dados**. Cada conjunto de dados listado representa uma fonte de dados única, por exemplo, uma planilha do Excel no OneDrive, um conjunto de dados de tabela SSAS local ou um conjunto de dados do Salesforce. Há muitas fontes de dados diferentes com suporte, e sempre estamos adicionando novas. Veja a lista de [tipos de conjuntos de dados que podem ser usados com o Power BI](service-get-data.md).
 
 No exemplo abaixo, selecionamos o workspace “Vendas e marketing” e clicamos na guia para **Conjuntos de dados**.
 
@@ -165,7 +165,7 @@ Há muitas maneiras diferentes para você ou um colega [compartilhar um painel](
 ## <a name="workbooks"></a>Pastas de trabalho
 Pastas de Trabalho são um tipo especial de conjunto de dados. Se você leu a seção **Conjuntos de dados** anterior, já deve saber praticamente tudo de que precisa sobre pastas de trabalho. Mas você deve estar se perguntando porque algumas vezes o Power BI classifica uma pasta de trabalho do Excel como um **Conjunto de dados** e outras vezes como uma **Pasta de trabalho**.
 
-Ao usar o **Obter dados** com arquivos de Excel, você tem a opção de *Importar* ou *Conectar-se* ao arquivo. Ao escolher Conectar-se, sua pasta de trabalho vai aparecer no Power BI assim como apareceria no Excel Online. Mas, ao contrário do Excel Online, você terá alguns ótimos recursos para ajudá-lo a fixar elementos de suas planilhas diretamente nos dashboards.
+Ao usar o **Obter dados** com arquivos de Excel, você tem a opção de *Importar* ou *Conectar-se* ao arquivo. Ao escolher Conectar-se, sua pasta de trabalho vai aparecer no Power BI assim como apareceria no Excel Online. Mas, ao contrário do Excel Online, você terá a sua disposição recursos ótimos para fixar elementos de suas planilhas diretamente de seus painéis.
 
 Não é possível editar a pasta de trabalho no Power BI. No entanto, se precisar fazer alterações, clique em Editar e escolha a opção para editar a pasta de trabalho no Excel Online ou abri-la no Excel em seu computador. Todas as alterações feitas são salvas na pasta de trabalho no OneDrive.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205287"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404156"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: Faça um tour
 
@@ -56,7 +56,7 @@ Como alternativa, você pode baixar o exemplo de Rentabilidade do Cliente como u
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529781). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529781). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos do Power View e do Power Pivot, confira [Explorar os exemplos do Excel no Excel](sample-datasets.md#explore-excel-samples-inside-excel) para saber mais.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que é nosso painel está dizendo?
 
@@ -141,7 +141,7 @@ Vejamos os dois membros da equipe em detalhes e quais informações podem ser ob
    * O gráfico **% de Variação da Receita do Orçamento por Mês e Executivo** mostra que, exceto por uma queda em fevereiro, Andrew está indo bem. A região mais dominante de Andrew é o leste e ele lida com 49 clientes e com cinco de sete produtos. O percentual de GM de Andrew não é o mais alto nem o mais baixo.
    * O gráfico **RevenueTY e % de Receita Var para Orçamento por Mês** mostra um histórico de lucratividade estável. No entanto, se filtrar selecionando o quadrado referente a **Central** no mapa de árvore da região, você descobrirá que Andrew tem receita apenas em março e apenas em Indiana. Essa tendência é intencional ou é algo que precisa ser examinado?
 
-2. Agora a diante com Valery. Na segmentação **Executivo**, selecione nome de Valery para filtrar a página do relatório e exibir apenas os dados sobre ela. 
+2. Agora a diante com Valery. Na segmentação **Executivo**, selecione o nome de Valery para filtrar a página do relatório e exibir apenas os dados sobre ela. 
 
    ![Dados de Valery](media/sample-customer-profitability/customer3.png)
 
@@ -160,14 +160,14 @@ Esta página de relatório fornece uma fatia diferente dos dados. Examina a marg
 
 1. Como a lucratividade varia por setor? Como os produtos e clientes dividem por setor? Para responder a essas perguntas, selecione um ou mais setores na parte superior esquerda (comece pelo setor CPG). Para limpar o filtro, selecione o ícone de borracha.
 
-2. No gráfico de bolhas **% de Var de Receita para Orçamento, % de GM e RevenueTY por Setor**, a diretora financeira procura as bolhas maiores, porque elas têm o maior impacto na receita. Para ver facilmente o impacto de cada gerente por setor, filtre a página selecionando no nome de cada gerente no gráfico de área.
+2. No gráfico de bolhas **% de Var de Receita para Orçamento, % de GM e RevenueTY por Setor**, a diretora financeira procura as bolhas maiores, porque elas têm o maior impacto na receita. Para ver facilmente o impacto de cada gerente por setor, filtre a página selecionando o nome de cada gerente no gráfico de área.
 
 3. Conforme você seleciona cada gerente no gráfico, observe os seguintes detalhes:
    * A área de Andrew de influência abrange vários setores diferentes com diferentes amplamente % GM (a maioria do lado positivo) e % Var.
    * O gráfico de Annelie é semelhante, exceto pelo fato de que ela se concentra em apenas alguns segmentos de mercado, com foco no segmento Federal e no produto Gladius.
    * Carlos tem um foco claro no segmento de serviços, com bom lucro. Ele aumentou bastante o percentual de variação no segmento de Alta Tecnologia e um novo segmento para ele, Industrial, executado muito bem em relação ao orçamento.
    * Tina trabalha com alguns segmentos e tem o percentual de GM mais alto, mas o tamanho pequeno das suas bolhas mostra que o impacto sobre o resultado da empresa é mínimo.
-   * Valery, que é responsável por apenas um produto, trabalha apenas com cinco segmentos de mercado. Sua influência do setor é sazonal, mas sempre produz uma grande bolha, indicando um impacto significativo sobre o resultado da empresa. Os segmentos de setor explicam o desempenho negativo?
+   * Valery, que é responsável por apenas um produto, trabalha apenas com cinco segmentos de mercado. Sua influência no setor é sazonal, mas sempre produz uma grande bolha, indicando um impacto significativo sobre o resultado da empresa. Os segmentos de setor explicam o desempenho negativo?
 
 ### <a name="executive-scorecard"></a>Scorecard Executivo
 Esta página tem um formato de tamanho da página personalizado.

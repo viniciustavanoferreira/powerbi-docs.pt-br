@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 11e9bfb2c8dce526ad81395645165c2c7dd70a00
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: bfec81aaa47f210855c4db4c8c97ab259b685110
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525696"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302441"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Assinar um relatório ou painel no serviço do Power BI 
 
@@ -23,7 +23,7 @@ ms.locfileid: "79525696"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Nunca foi tão fácil manter-se atualizado sobre seus dashboards e relatórios mais importantes. Assine os dashboards e as páginas de relatório mais importantes para você e o Power BI enviará um email com um instantâneo para sua caixa de entrada. Informe ao Power BI a frequência com que deseja receber os emails: diária, semanal ou quando os dados forem atualizados. Você pode até mesmo definir um horário específico para o Power BI enviar os emails ou executá-lo agora.  No total, você pode configurar até 24 assinaturas diferentes por relatório ou dashboard.  
+Nunca foi tão fácil manter-se atualizado sobre seus dashboards e relatórios mais importantes. Assine os dashboards e as páginas de relatório mais importantes para você e o Power BI enviará um email com um instantâneo para sua caixa de entrada. Informe ao Power BI a frequência com que deseja receber os emails: diária, semanal ou quando os dados forem atualizados. Você pode até mesmo definir um horário específico para o Power BI enviar os emails ou executá-lo agora.  No total, você pode configurar até 24 assinaturas diferentes por relatório ou dashboard.
 
 O instantâneo e o email usarão o idioma definido nas configurações do Power BI (confira [Idiomas e países/regiões com suporte para o Power BI](../supported-languages-countries-regions.md)). Se nenhum idioma for definido, o Power BI usará o idioma de acordo com a configuração de localidade no navegador atual. Para obter ou definir sua preferência de idioma, selecione o ícone de engrenagem ![ícone de engrenagem](./media/end-user-subscribe/power-bi-settings-icon.png) > **Configurações > Geral > Idioma**. 
 
@@ -33,7 +33,7 @@ Quando você receber o email, ele incluirá um link para "acessar o relatório o
 
 
 ## <a name="requirements"></a>Requisitos
-**Criar** uma assinatura para si mesmo exige um certo tipo de licença. Se você não conseguir criar uma assinatura, entre em contato com o administrador do Power BI. A **Assinatura de terceiros** só está disponível para o proprietário do painel ou do relatório. 
+**Criar** uma assinatura para si mesmo exige um certo tipo de [licença](end-user-license.md). Se você não conseguir criar uma assinatura, entre em contato com o administrador do Power BI. A **Assinatura de terceiros** só está disponível para o proprietário do painel ou do relatório. Assinar relatórios paginados é um pouco diferente. Confira  [Obter uma assinatura para você e para outras pessoas de um relatório paginado no serviço do Power BI](paginated-reports-subscriptions.md) para obter detalhes. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Assine um dashboard ou uma página de relatório
 Se você estiver assinando um dashboard ou relatório, o processo será semelhante. O mesmo botão permite que você assine os dashboards e relatórios do serviço do Power BI.
@@ -55,11 +55,11 @@ Se você estiver assinando um dashboard ou relatório, o processo será semelhan
 
     c. Outra opção é adicionar os detalhes da mensagem de email ou o assunto. 
 
-    d. Selecione uma **Frequência** para sua assinatura.  Você pode escolher Diária, Semanal ou Após a atualização de dados (Diária).  Para receber o email de assinatura somente em determinados dias, selecione **Semanal** e escolha em quais dias você gostaria de recebê-lo.  Por exemplo, se você quiser receber o email de assinatura somente em dias úteis, selecione **Semanal** como a sua frequência e desmarque as caixas Sáb e Dom.   
+    d. Selecione uma **Frequência** para sua assinatura.  Você pode escolher Diária, Semanal ou Após a atualização de dados (Diária).  Para receber o email de assinatura somente em determinados dias, selecione **Semanal** e escolha em quais dias você gostaria de recebê-lo.  Por exemplo, se você quiser receber o email de assinatura somente em dias úteis, selecione **Semanal** como a sua frequência e desmarque as caixas Sáb e Dom. Se você selecionar  **Mensal**, insira o(s) dia(s) do mês em que deseja receber o email da assinatura.   
 
-    e. Agende a hora em que o email é enviado selecionando Diária ou Semanal para a sua frequência e inserindo uma **Hora** **Agendada** para a assinatura.  Esta hora refere-se ao momento em que o trabalho de assinatura é iniciado. Podem ser necessários alguns minutos antes que o email seja entregue em sua caixa de entrada em alguns cenários.    
+    e. Se você escolher Diária, Por Hora, Mensal ou Semanal, também poderá selecionar uma Hora Agendada para a assinatura. Você faz com que ela seja executada na hora exata ou após 15, 30 ou 45 minutos. Selecione manhã (A.M.) ou tarde/noite (P.M.). Você também pode especificar o fuso horário. Se você escolher Por Hora, selecione o Horário Agendado em que deseja que a assinatura inicie e ela será executada de hora em hora a partir de então.  
 
-    f. Agende as datas de início e de término, inserindo-as nos respectivos campos. Por padrão, a hora de início para sua assinatura será a data em que você a criar, enquanto a data de término será um ano depois. Quando uma assinatura atinge uma data de término, ela é interrompida até que você a habilite novamente.  Você receberá notificações antes da data de término agendada, perguntando se você deseja estendê-la.     
+    f. Agende as datas de início e de término, inserindo-as nos respectivos campos. Por padrão, a hora de início para sua assinatura será a data em que você a criar, enquanto a data de término será um ano depois. É possível alterar para qualquer data no futuro (até o ano 9999) a qualquer momento antes do término da assinatura. Quando uma assinatura atinge uma data de término, ela é interrompida até que você a habilite novamente.  Você receberá notificações antes da data de término agendada, perguntando se você deseja estendê-la.     
 
     (por exemplo, Para examinar a sua assinatura e testá-la, selecione **Executar agora**.  Isso envia o email a você imediatamente. 
 
@@ -73,7 +73,7 @@ Se você estiver assinando um dashboard ou relatório, o processo será semelhan
 
 
 ## <a name="manage-your-subscriptions"></a>Gerenciar suas assinaturas
-Você só pode gerenciar as assinaturas criadas por você. Selecione **Assinar** novamente e escolha **Gerenciar todas as assinaturas** no canto inferior esquerdo (veja as capturas de tela acima). 
+Você só pode gerenciar as assinaturas criadas por você. Selecione **Assinar** novamente e escolha **Gerenciar todas as assinaturas** no canto inferior esquerdo (veja as capturas de tela acima). As assinaturas específicas exibidas dependerão de qual workspace está ativo no momento. Para ver todas as suas assinaturas de todos os workspaces ao mesmo tempo, verifique se  **Meu Workspace**  está ativo. Para obter ajuda para entender os workspaces, confira  [Workspaces no Power BI](end-user-workspaces.md). 
 
 ![veja todas as assinaturas no Meu workspace](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
@@ -82,11 +82,13 @@ Uma assinatura será encerrada se a licença Pro expirar, se o dashboard ou o re
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 * Para evitar que os emails da assinatura sejam enviados para a pasta de spam, adicione o alias de email do Power BI (no-reply-powerbi@microsoft.com) aos seus contatos. Se estiver usando o Microsoft Outlook, clique com o botão direito do mouse no alias e selecione **Adicionar aos contatos do Outlook**. 
 * Os dashboards com mais de 25 blocos fixos ou quatro páginas de relatório dinâmico fixas podem não ser renderizados totalmente nos emails de assinatura enviados aos usuários. Sugerimos que você contate o designer do dashboard e solicite que ele reduza os blocos fixados para menos de 25 e os relatórios dinâmicos fixados para menos de quatro para garantir que o email seja renderizado corretamente.  
-* Para assinaturas de email do dashboard, se algum bloco tiver a RLS (Segurança em Nível de Linha) aplicada, esse bloco não será exibido.  Para assinaturas de email do relatório, se o conjunto de dados usar a RLS, não será possível criar uma assinatura.
+* Para assinaturas de email do dashboard, se algum bloco tiver a RLS (Segurança em Nível de Linha) aplicada, esse bloco não será exibido.  
 * Se os links em seu email (para o conteúdo) pararem de funcionar, talvez o conteúdo tenha sido excluído. No email, embaixo da captura de tela, você pode procurar se você se assinou ou se alguém assinou você. Se foi outra pessoa, peça para esse colega de trabalho cancelar os emails ou assinar você novamente.
+* Para assinaturas de dashboards, ainda não há suporte para alguns tipos de blocos. Eles incluem: blocos de streaming, blocos de vídeo, blocos de conteúdo da Web personalizado. 
 * As assinaturas da página de relatório são vinculadas ao nome da página de relatório. Se você assinar uma página de relatório e ela for renomeada, você precisará recriar sua assinatura.
 * Se você não conseguir usar o recurso de assinatura, entre em contato com o administrador do sistema. Sua organização pode ter desabilitado esse recurso.  
-* Assinaturas de email não dão suporte à maioria dos [visuais do Power BI](../developer/visuals/power-bi-custom-visuals.md).  A exceção é para os visuais do Power BI que foram [certificados](../developer/visuals/power-bi-custom-visuals-certified.md).  
+* Assinaturas de email não dão suporte à maioria dos [visuais personalizados](../developer/visuals/power-bi-custom-visuals.md).  A exceção é para os visuais personalizados do Power BI que foram [certificados](../developer/visuals/power-bi-custom-visuals-certified.md).    
+* Assinaturas de email são enviadas com estados de segmentação e filtro padrão do relatório. As alterações feitas nos padrões após a assinatura não serão exibidas no email. Os relatórios paginados são compatíveis com essa funcionalidade e lhe permitem definir os valores de parâmetro específicos por assinatura.  
 * No momento, as assinaturas de email não dão suporte a visuais do Power BI da plataforma R.  
 * Especificamente para assinaturas de dashboards, alguns tipos de blocos ainda não são compatíveis.  Eles incluem: blocos de streaming, blocos de vídeo, blocos de conteúdo da Web personalizado.     
 * As assinaturas poderão falhar em dashboards ou relatórios com imagens extremamente grandes devido aos limites de tamanho de email.    

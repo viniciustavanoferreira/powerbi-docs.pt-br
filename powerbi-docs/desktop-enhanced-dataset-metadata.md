@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201391"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464638"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Usar metadados aprimorados de conjunto de dados (versão prévia)
 
@@ -24,6 +24,8 @@ Com o lançamento do recurso de **metadados aprimorados de conjunto de dados**, 
 
 
 O recurso **metadados aprimorados de conjunto de dados** é estratégico e fundamental, pois a funcionalidade futura do Power BI será criada com base nos metadados dela. Algumas funcionalidades adicionais que têm muito a se beneficiar do recurso metadados aprimorados de conjunto de dados incluem [leitura/gravação XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) para o gerenciamento de conjuntos de dados do Power BI e a migração de cargas de trabalho do Analysis Services para o Power BI para se beneficiar de recursos da próxima geração.
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>Habilitar metadados aprimorados de conjunto de dados
 
@@ -36,6 +38,9 @@ Você deverá reiniciar o Power BI Desktop.
 ![Prompt Reiniciar](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 Depois que a versão prévia do recurso estiver habilitada, o Power BI Desktop tentará atualizar os arquivos PBIX e PBIT que usam o formato de metadados anterior. 
+
+> [!IMPORTANT]
+> Habilitar o recurso **metadados aprimorados de conjunto de dados** resulta em uma atualização irreversível para os relatórios. Todos os relatórios do Power BI carregados ou criados com o Power BI Desktop, depois de habilitados os **metadados aprimorados de conjunto de dados**, são irreversivelmente convertidos no formato aprimorado de metadados do conjunto de dados.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 

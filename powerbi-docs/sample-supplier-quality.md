@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51c9b8a570abf2686abe9b26a4d9e111e8ef022a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858422"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404647"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Análise de Varejo de fornecedor para o Power BI: Faça um tour
 
@@ -62,7 +62,7 @@ Como alternativa, você pode baixar o exemplo de Análise de Qualidade do Fornec
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529779). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529779). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos do Power View e do Power Pivot, confira [Explorar os exemplos do Excel no Excel](sample-datasets.md#explore-excel-samples-inside-excel) para saber mais.
 
 ## <a name="downtime-caused-by-defective-materials"></a>Tempo de inatividade causado por materiais com defeito
 Vamos analisar o tempo de inatividade causado por material defeituoso e ver quais fornecedores são responsáveis.  
@@ -96,7 +96,7 @@ Vamos analisar o tempo de inatividade causado por material defeituoso e ver quai
 3. Selecione **Exemplo de Análise da Qualidade do Fornecedor** no painel de navegação superior para voltar ao dashboard.
 
 ### <a name="comparing-plants"></a>Comparando fábricas
-Agora vamos explorar quais fábricas fazem um trabalho de melhor gerenciamento de material com defeito, resultando em menor tempo de inatividade.  
+Agora, vamos explorar quais fábricas fazem um trabalho de melhor gerenciamento de material com defeito, resultando em menor tempo de inatividade.  
 
 1. No dashboard, selecione o título do bloco do mapa **Relatórios de Total de Falhas por Fábrica, Tipo de Falha**.      
 
@@ -109,7 +109,7 @@ Agora vamos explorar quais fábricas fazem um trabalho de melhor gerenciamento d
     ![Selecionar impacto](media/sample-supplier-quality/supplier7.png)  
 
     Observe no gráfico de bolhas que **Logística** é a categoria mais problemática. É a maior em termos de quantidade total de falhas, relatórios de falha e tempo de inatividade em minutos. Vamos explorar mais essa categoria.  
-3. Selecione a bolha de **Logística** no gráfico de bolhas e observa as fábricas em Springfield e Naperville, IL. Naperville parece fazer um trabalho melhor de gerenciamento de fornecimentos com defeitos, uma vez tem um número alto de rejeição e alguns impactos, em comparação com o grande número de impactos de Springfield.  
+3. Selecione a bolha de **Logística** no gráfico de bolhas e observa as fábricas em Springfield e Naperville, IL. Naperville parece fazer um trabalho melhor de gerenciamento de fornecimentos com defeitos, pois possui um grande número de rejeições e poucos impactos, em comparação com o grande número de impactos de Springfield.  
 
    ![Selecionar logística](media/sample-supplier-quality/supplier8.png)  
 4. Selecione **Exemplo de Análise da Qualidade do Fornecedor** no painel de navegação superior para voltar ao dashboard.
@@ -150,7 +150,7 @@ O melhor tipo material gerenciado é aquele com o menor tempo de inatividade ou 
    Observe que o tempo de inatividade para matérias-primas era quase o mesmo em 2013 e 2014, mesmo que houvesse muitos mais defeitos de matérias-primas do que em 2014. Parece que mais defeitos para matérias-primas em 2014 não levaram a muito mais tempo de inatividade para matérias-primas em 2014.
 
 ### <a name="compare-defects-to-downtime-month-to-month"></a>Compare defeitos em tempo de inatividade mês a mês
-Vejamos outro bloco de painel relacionado à quantidade total de defeito.  
+Vejamos outro bloco de painel relacionado à quantidade total com defeito.  
 
 1. Selecione **Sair de P e R** no canto superior esquerdo para retornar ao painel.  
 
@@ -158,12 +158,12 @@ Vejamos outro bloco de painel relacionado à quantidade total de defeito.
 
     ![Bloco de Quantidade Total de Falhas por Mês, Ano](media/sample-supplier-quality/supplier14.png)  
 
-    Vamos ver se esse aumento na quantidade de defeito levou a um aumento igual em minutos do tempo de inatividade.  
+    Vamos ver se esse aumento na quantidade de defeitos levou a um aumento igual nos minutos do tempo de inatividade.  
 2. Na caixa de pergunta, digite *total de minutos de tempo de inatividade por mês e ano como um gráfico de linha*.  
 
    ![Pergunta de P e R: Total de minutos de tempo de inatividade por mês e ano como um gráfico de linhas](media/sample-supplier-quality/supplier15.png)
 
-   Além de um salto no tempo de inatividade em minutos durante junho e outubro, o número de defeitos não resultou em um tempo de inatividade significantemente maior. Esse resultado mostra que estamos gerenciando bem os defeitos.  
+   Além de um salto nos minutos de tempo de inatividade durante junho e outubro, o número de defeitos não resultou em um tempo de inatividade significantemente maior. Esse resultado mostra que estamos gerenciando bem os defeitos.  
 3. Para fixar o gráfico para o painel de controle, selecione o ícone de alfinete ![Ícone de Fixar](media/sample-supplier-quality/pin.png) acima da caixa de pergunta.  
 4. Para explorar os meses de exceções, confira os minutos de tempo de inatividade durante outubro por tipo de material, introduzir local, categoria e assim por diante, fazendo perguntas como *minutos de tempo de inatividade total em outubro pela fábrica*. 
 5. Selecione **Sair de P e R** no canto superior esquerdo para retornar ao painel.

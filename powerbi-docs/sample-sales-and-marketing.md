@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: be4b51629eefe46cb1ecc528951fab9128874a6f
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873809"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404618"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de Vendas e Marketing para o Power BI: Faça um tour
 
 O exemplo de Marketing e Vendas contém um painel de controle e um relatório para uma empresa de fabricação fictícia chamada VanArsdel Ltd. O CMO (diretor executivo de marketing) da VanArsdel criou esse dashboard para ficar atento ao setor e sua participação de mercado da empresa, volume de produto, vendas e sensibilidade.
 
-A VanArsdel tem muitos concorrentes, mas é líder do mercado em seu setor. O CMO quer aumentar a participação no mercado e descobrir as oportunidades de crescimento. Porém, por um motivo desconhecido, a participação no mercado do VanArsdel começou a cair, com uma queda significativa em junho.
+A VanArsdel tem muitos concorrentes, mas é líder do mercado em seu setor. O CMO quer aumentar a participação no mercado e descobrir as oportunidades de crescimento. Porém, por um motivo desconhecido, a participação no mercado da VanArsdel começou a cair, com uma queda significativa em junho.
 
 ![Dashboard para o exemplo de Vendas e Marketing](media/sample-sales-and-marketing/sales1.png)
 
@@ -59,7 +59,7 @@ Como alternativa, você pode baixar o exemplo de Vendas e Marketing como um [arq
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529785). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529785). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos do Power View e do Power Pivot, confira [Explorar os exemplos do Excel no Excel](sample-datasets.md#explore-excel-samples-inside-excel) para saber mais.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que é nosso painel está dizendo?
 Vamos começar nosso tour no painel e examinar as peças que o CMO decidiu fixar. Podemos ver informações sobre nossa participação no mercado, vendas e sensibilidade. Os dados são divididos por região, hora e concorrência.
@@ -102,7 +102,7 @@ Em nosso painel, a linha **Participação de Mercado % em Unidades R12M** no gr�
 O relatório para o exemplo de vendas e marketing tem quatro páginas.
  
 ### <a name="vanarsdel---market-share-page"></a>Página VanArsdel – Participação de Mercado
-A página um do relatório se concentra no mercado do VanArsdel.
+A página um do relatório se concentra no mercado da VanArsdel.
 
 1. No painel, selecione o gráfico **Participação de Mercado % em Unidades vs. Participação de Mercado % em Unidades Dinâmica em 12 meses** para abrir a página **Participação de Mercado da VanArsdel** do relatório de Exemplo de Vendas e Marketing.
 
@@ -110,7 +110,7 @@ A página um do relatório se concentra no mercado do VanArsdel.
 
 2. Examine o gráfico de colunas **Total de unidades por mês e isVanArsdel** na parte inferior do relatório. A coluna preta representa VanArsdel (nossos produtos) e a coluna verde é nossa concorrência. A queda em junho de 2014 que VanArsdel teve não foi apresentada pelos concorrentes.
 
-3. O gráfico de barras **Volume de Categoria Total por Segmento** à direita é filtrado para mostrar os dois principais segmentos de VanArsdel. Dê uma olhada em como esse filtro foi criado:  
+3. O gráfico de barras **Volume de Categoria Total por Segmento** à direita é filtrado para mostrar os dois principais segmentos da VanArsdel. Dê uma olhada em como esse filtro foi criado:  
 
    a. Selecione o gráfico **Volume Total da Categorias por Segmento**.
 
@@ -145,7 +145,7 @@ A página dois do relatório enfoca a tendência de categoria acumulada no ano.
 ![Página Análise de Tendência de Categoria Acumulada no Ano](media/sample-sales-and-marketing/reportpage2.png)
 
 Observe o seguintes detalhes:
-* A VanArsdel é a maior empresa nessa categoria e seus maiores concorrentes são a Natura, a Aliqui e a Pirium. Vamos manter o olhos neles.
+* A VanArsdel é a maior empresa nessa categoria e seus maiores concorrentes são a Natura, a Aliqui e a Pirium. Vamos manter nossos olhos neles.
 * A Aliqui está crescendo, mas o volume de produto em comparada a nós ainda está baixo.
 * O Treemap mostra a VanArsdel em verde. Na região leste, os clientes preferem nossos concorrentes, mas, na região central, estamos nos saindo bem. Nossa participação na região leste é a mais baixa.
 * A geografia tem um impacto em unidades vendidas. A região leste é a dominante para a maioria dos fabricantes e VanArsdel tem uma forte presença na região Central.
@@ -159,7 +159,7 @@ A página quatro do relatório concentra-se em análise de produto.
 Observe o seguintes detalhes:
 * O gráfico **Total de Unidades por Segmento** no canto inferior esquerdo mostra todos os segmentos de categoria, exceto pelos dois segmentos mais fortes da VanArsdel. Selecione cada um dos segmentos, um por vez, para identificar possíveis áreas de expansão para a VanArsdel. 
 * Observe que os segmentos **Extremo** e **Produtividade** estão crescendo mais rapidamente do que outros. No entanto, não competimos nesses segmentos. Se quisermos migrar para esses segmentos, poderemos usar nossos dados para ver quais segmentos são populares em quais regiões. É possível investigar questões como qual região está crescendo mais rapidamente e quem seria o principal concorrente no segmento.
-* Lembra-se da queda na nossa participação no mercado em junho? Junho é um mês significativo para o segmento de **Produtividade**, um segmento que não competimos no todo. Esse detalhe poderia explicar a queda na nossa participação no mercado em junho.
+* Lembra-se da queda na nossa participação no mercado em junho? Junho é um mês significativo para o segmento de **Produtividade**, um segmento em que não competimos no todo. Esse detalhe poderia explicar a queda na nossa participação no mercado em junho.
 
 Filtrando as visualizações por VanArsdel, por segmento, por mês e por região, é possível descobrir as oportunidades de crescimento para VanArsdel.
 

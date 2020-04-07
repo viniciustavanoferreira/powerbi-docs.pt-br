@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873873"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404680"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Varejo para o Power BI: Faça um tour
 
-O pacote de conteúdo de amostra da Análise de Compras contém um painel, relatório e conjunto de dados que analisa os gastos de uma empresa de fabricação em fornecedores por categoria e local. No exemplo, exploraremos essas áreas:
+O pacote de conteúdo de amostra da Análise de Compras contém um painel, um relatório e um conjunto de dados que analisa os gastos de uma empresa de fabricação em fornecedores por categoria e local. No exemplo, exploraremos essas áreas:
 
 * Quem são os principais fornecedores
 * Em quais categorias ocorrem a maioria das despesas
@@ -61,11 +61,11 @@ Como alternativa, você pode baixar o exemplo de Análise de Compras como um [ar
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529784). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529784). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos do Power View e do Power Pivot, confira [Explorar os exemplos no Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 
 ## <a name="spending-trends"></a>Tendências de gastos
-Primeiro, vamos analisar as tendências em gastos por categoria e local.  
+Primeiro vamos analisar as tendências em gastos por categoria e local.  
 
 1. No espaço de trabalho onde você salvou o exemplo, abra a guia **Painéis**, localize o painel **Exemplo de Análise de Compras** e selecione-o. 
 2. Selecione o bloco do painel, **Total da fatura por país/região**, que abre a página **Visão geral de gastos** do relatório **Exemplo de Análise de Compras**.
@@ -109,7 +109,7 @@ Podemos usar o realce para avaliar cidades diferentes.
    ![Cidade vs % de desconto por nível](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>Descontos de fornecedor
-Também vamos explorar os descontos disponíveis de fornecedores e os períodos de tempo quando chegarmos a maioria dos descontos:
+Também vamos explorar os descontos disponíveis de fornecedores e os períodos de tempo quando chegarmos à maioria dos descontos:
 * Os descontos são diferentes a cada mês ou permanecem os mesmos?
 * Algumas cidades obtêm mais descontos do que outras?
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383495"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464587"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Elementos visuais de organização no Power BI
 
@@ -35,7 +35,7 @@ Para saber mais sobre como usar visuais do Power BI da organização nos relató
 Para saber mais sobre como administrar, implantar e gerenciar visuais do Power BI na sua organização, confira o seguinte artigo: [Saiba mais sobre a implantação e o gerenciamento de visuais do Power BI na organização](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
-> Um elemento visual personalizado pode conter código com riscos de segurança ou privacidade. É importante confiar no autor e na origem de qualquer elemento visual personalizado antes de implantá-lo no repositório da organização.
+> Um visual do Power BI instalado a partir de um arquivo pode conter código com riscos de segurança ou de privacidade. É importante confiar no autor e na origem do arquivo visual do Power BI antes de implantá-lo no repositório da organização.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
@@ -45,7 +45,9 @@ Administrador:
 
 * Não há suporte para visuais do Power BI herdados (como visuais do Power BI que não são criados com base nas novas APIs com controle de versão)
 
-* Se um elemento visual personalizado é excluído do repositório, os relatórios existentes que usam o elemento visual excluído param de renderizar. A operação de exclusão do repositório não é reversível. Para desabilitar temporariamente um visual personalizado, use o recurso "Desabilitar".
+* Se um visual do Power BI do ApSource ou um arquivo é excluído do repositório, os relatórios existentes que usam o visual excluído param de renderizar. A exclusão do repositório não é reversível. Para desabilitar temporariamente um visual do Power BI do ApSource ou um arquivo, use o recurso "Desabilitar".
+
+* Não há suporte para visuais do Power BI da organização no Servidor de Relatórios do Power BI.
 
 Usuário final:
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871267"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403401"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: Conectar-se a um repositório GitHub com o Power BI
 Neste tutorial, você se conecta a dados reais no serviço do GitHub com o Power BI, e Power BI cria dashboards e relatórios automaticamente. Conecte-se ao repositório público de conteúdo do Power BI (também conhecido como *repo*) e veja as respostas para perguntas como: Quantas pessoas contribuem com o conteúdo público do Power BI? Quem contribui mais? Qual dia da semana tem mais contribuições? Dentre outras perguntas. 
@@ -43,7 +43,7 @@ Para concluir este tutorial, você precisará de uma conta do GitHub, caso ainda
 
 
 ## <a name="how-to-connect"></a>Como se conectar
-1. Entre no serviço do Power BI (https://app.powerbi.com). 
+1. Entre no serviço do Power BI (`https://app.powerbi.com`). 
 2. No painel de navegação, selecione **Aplicativos** e **Obter aplicativos**.
    
    ![Obter aplicativos do Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
@@ -64,7 +64,7 @@ Para concluir este tutorial, você precisará de uma conta do GitHub, caso ainda
 
 5. Insira as credenciais do GitHub que você criou. O Power BI poderá ignorar esta etapa se você já tiver entrado no GitHub em seu navegador. 
 
-6. Para o **Método de Autenticação**, mantenha **oAuth2** selecionado \> **Entrar**.
+6. Como **Método de Autenticação**, mantenha **oAuth2** selecionado para **Entrar** no \>.
 
 7. Siga as telas de autenticação do GitHub. Conceda permissão para o Power BI aos dados do GitHub.
    

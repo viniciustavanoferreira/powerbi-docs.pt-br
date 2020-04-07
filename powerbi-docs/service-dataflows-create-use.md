@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040438"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404747"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Criação e uso de fluxos de dados no Power BI
 
@@ -57,7 +57,7 @@ Uma **entidade** é um conjunto de campos usados para armazenar dados de maneira
 
 Quando você seleciona uma fonte de dados, precisa fornecer as configurações de conexão, incluindo a conta a ser usada para se conectar à fonte de dados, conforme mostrado na imagem a seguir.
 
-![Conectar-se à fonte de dados](media/service-dataflows-create-use/dataflows-create-use_06.png)
+![Conectar-se a uma fonte de dados](media/service-dataflows-create-use/dataflows-create-use_06.png)
 
 Uma vez conectado, você pode selecionar quais dados deseja usar para sua entidade. Quando você escolhe dados e uma fonte, o Power BI é subsequentemente reconectado à fonte de dados para manter os dados do seu fluxo atualizados, com a frequência que você selecionar mais tarde no processo de configuração.
 
@@ -150,9 +150,9 @@ Pode haver ocasiões em que a conexão a fontes de dados para fluxos de dados ap
 
 * **Conector do SalesForce**: o uso de uma conta de avaliação para o Salesforce com fluxos de dados resulta em uma falha de conexão sem nenhuma informação fornecida. Para resolver esse problema, use uma conta do Salesforce de produção ou uma conta de desenvolvedor para teste.
 
-* **Conector do SharePoint**: verifique se você forneceu o endereço da raiz do site do SharePoint, sem subpastas ou documentos. Por exemplo, use um link semelhante ao seguinte: https://microsoft.sharepoint.com/teams/ObjectModel/ 
+* **Conector do SharePoint**: verifique se você forneceu o endereço da raiz do site do SharePoint, sem subpastas ou documentos. Por exemplo, use um link semelhante ao seguinte: `https://microsoft.sharepoint.com/teams/ObjectModel/` 
 
-* **Conector de arquivo JSON** – Atualmente, você pode se conectar a um arquivo JSON usando somente autenticação básica.  Conectar-se a um arquivo JSON fornecendo as credenciais dentro da URL (por exemplo, https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg...) **não** é atualmente compatível.  
+* **Conector de arquivo JSON** – Atualmente, você pode se conectar a um arquivo JSON usando somente autenticação básica.  Conectar-se a um arquivo JSON fornecendo as credenciais dentro da URL (por exemplo, `https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`... ) **não** é atualmente compatível.  
 
 * **SQL Data Warehouse do Azure** – No momento, os fluxos de dados não oferecem suporte à autenticação do AAD (Azure Active Directory) para o SQL Data Warehouse do Azure. Use a autenticação Básica para este cenário.
 

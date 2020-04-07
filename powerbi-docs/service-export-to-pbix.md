@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881810"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551076"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Baixar um relatório do serviço do Power BI para o Power BI Desktop (versão prévia)
 No Power BI Desktop, você pode publicar um relatório (um arquivo *.pbix*) do seu computador local no serviço do Power BI. Os relatórios do Power BI também podem ir para a outra direção: Você pode baixar um relatório do serviço do Power BI para o Power BI Desktop. A extensão de um relatório do Power BI, em ambos os casos, é. pbix.
 
-Há algumas limitações e considerações a serem feitas, que são abordadas neste artigo.
+Há algumas limitações a serem consideradas, que são abordadas na seção na seção [Considerações e solução de problemas ](#considerations-and-troubleshooting) deste artigo.
 
 ![Lista suspensa de arquivos](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ Há algumas considerações e limitações importantes associadas ao download de
 * Use sempre a última versão do Power BI Desktop ao abrir os arquivos baixados. Talvez não seja possível abrir os arquivos .pbix baixados em versões não atuais do Power BI Desktop.
 * Se o administrador tiver desativado a capacidade de baixar dados, esse recurso não estará visível no serviço do Power BI.
 * Conjuntos de dados com a atualização incremental não podem ser baixados para um arquivo .pbix.
+* Se você criar um relatório do Power BI com base em um conjunto de dados em um espaço de trabalho e publicar em um espaço de trabalho diferente, você e seus usuários não poderão fazer o download. No momento, o recurso de download não tem suporte neste cenário.
 
 ## <a name="next-steps"></a>Próximas etapas
 Assista ao vídeo de um minuto **Guy in a Cube** sobre esse recurso:

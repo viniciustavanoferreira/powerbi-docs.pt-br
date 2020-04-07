@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8124a80f471e33ebbd140a30d6a49e2a762206ee
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858857"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404101"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos do Power BI: Faça um tour
 
@@ -61,7 +61,7 @@ Como alternativa, você pode baixar o exemplo de Recursos Humanos como um [arqui
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529780). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos Power View e Power Pivot, confira [Dar uma olhada nos exemplos do Excel dentro do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529780). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos do Power View e do Power Pivot, confira [Explorar os exemplos do Excel no Excel](sample-datasets.md#explore-excel-samples-inside-excel) para saber mais.
 
 ## <a name="new-hires"></a>Novas contratações
 Primeiro, vamos explorar as novas contratações.
@@ -78,7 +78,7 @@ Primeiro, vamos explorar as novas contratações.
 3. Examine esses itens de interesse:
 
     * O gráfico de combinação **Contagem de novas contratações, Novas contratações no mesmo período do ano passado, Alteração de % de YoY de funcionários ativos por mês** mostra que contratamos mais pessoas a cada mês neste ano, comparado ao ano passado. Significativamente mais pessoas em alguns meses.
-    * No gráfico de combinação **Contagem de novas contratações e Contagem de funcionários ativos por região e etnia**, observe que estamos contratando menos pessoas na região **Leste** .
+    * No gráfico de combinação **Contagem de novas contratações e Contagem de funcionários ativos por região e etnia**, observe que estamos contratando menos pessoas na região **Leste**.
     * O gráfico de cascata **Var. de YoY de novas contratações por faixa etária** mostra que estamos contratando principalmente pessoas mais jovens. Essa tendência pode ser devido à natureza principalmente de meio período dos trabalhos.
     * O gráfico de pizza **Contagem de novas contratações por gênero** mostra uma divisão praticamente uniforme.
 
@@ -108,7 +108,7 @@ Vamos explorar os dados de funcionários ativos atuais e funcionários que não 
     * Examinando os gráficos de pizza, observamos que temos uma divisão, até mesmo em nossos funcionários ativos por grupos de idade e gênero. Selecione diferentes faixas etárias para ver como a divisão de gênero é distinta por idade. Temos uma divisão até mesmo por gênero em cada faixa etária?
 
 ## <a name="reasons-for-separation"></a>Motivos para separação
-Abra novamente no relatório no modo de Exibição de Edição. Você pode alterar os gráficos de pizza para mostrar separações de funcionário em vez de dados de funcionários ativos.
+Abra novamente o relatório no modo de exibição de Edição. Você pode alterar os gráficos de pizza para mostrar separações de funcionário em vez de dados de funcionários ativos.
 
 1. Selecione **Editar relatório** no canto superior esquerdo.
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ccc14cb041c5131d2cb06a8ad362b7054bcde857
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79202012"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464693"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Reiniciar uma capacidade do Power BI Premium
 
@@ -30,7 +30,7 @@ O Power BI está melhorando constantemente em relação à maneira de proteger o
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>O processo de reinicialização é seguro? Perderei dados?
 
-Todos os dados, as definições, os relatórios e os dashboards salvos em sua capacidade permanecem totalmente intactos após a reinicialização. Quando você reinicia uma capacidade, as atualizações agendadas e ad hoc em andamento são interrompidas temporariamente pelo mecanismo de atualização, na maioria dos casos. Elas são reiniciadas devido à lógica de repetição de atualização inserida no Power BI. O serviço tentará repetir as atualizações afetadas quando a capacidade se tornar disponível. O estado das atualizações não pode ser alterado na interface do usuário durante o processo de reinicialização. 
+Todos os dados, as definições, os relatórios e os dashboards salvos em sua capacidade permanecem totalmente intactos após a reinicialização. Quando você reinicia uma capacidade, as atualizações agendadas e ad hoc em andamento são interrompidas temporariamente pelo mecanismo de atualização, na maioria dos casos, em seguida elas são reiniciadas devido à lógica de nova tentativa de atualização incorporada ao Power BI. O serviço tentará repetir as atualizações afetadas quando a capacidade se tornar disponível. O estado das atualizações não pode ser alterado na interface do usuário durante o processo de reinicialização. 
 
 Os usuários que interagirem com a capacidade perderão o trabalho não salvo durante um processo de reinicialização. Os usuários deverão atualizar os navegadores deles após a conclusão da reinicialização.
 
@@ -40,7 +40,7 @@ Siga estas etapas para reiniciar uma capacidade.
 
 1. No portal de administração do Power BI, na guia **Configurações de Capacidade**, navegue até sua capacidade. 
 
-1. Adicione o *sinalizador de recurso* **CapacityRestart** à URL da capacidade: https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.
+1. Adicione o *sinalizador de recurso* **CapacityRestart** à URL da capacidade:`https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
 1. Em **Configurações Avançadas** > **REINICIAR CAPACIDADE**, selecione **Reiniciar capacidade**.
 

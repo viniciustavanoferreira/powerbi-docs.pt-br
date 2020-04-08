@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: Exibir relatórios locais nos aplicativos móveis
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 'Proteção com o Face ID, o Touch ID, a senha ou a ID da impressão digital'
+              href: mobile-native-secure-access.md
             - name: Acessar o conteúdo de uma organização externa (B2B)
               href: mobile-apps-b2b.md
             - name: Escanear um código QR do Power BI usando seu telefone
@@ -76,8 +78,6 @@
           items:
             - name: Introdução ao aplicativo do iOS
               href: mobile-iphone-app-get-started.md
-            - name: 'Proteção com Face ID, Touch ID ou Senha'
-              href: mobile-ios-native-secure-access.md
             - name: Analista virtual de P e R nos aplicativos móveis para iOS
               href: mobile-apps-ios-qna.md
             - name: Integração de aplicativo móvel do Power BI com atalhos da Siri
@@ -90,6 +90,10 @@
           items:
             - name: Introdução ao aplicativo Android
               href: mobile-android-app-get-started.md
+            - name: Usar atalhos do aplicativo Android
+              href: mobile-app-quick-access-shortcuts.md
+            - name: Localizar e acessar conteúdo com a Pesquisa Google
+              href: mobile-app-find-access-google-search.md
             - name: Correção de “Seu certificado SSL corporativo não é confiável”
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: Correção de “É necessário atualizar o Android System Webview”

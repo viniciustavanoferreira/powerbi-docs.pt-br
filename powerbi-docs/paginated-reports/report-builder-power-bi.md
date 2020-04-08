@@ -9,18 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78923001"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621538"
 ---
 # <a name="power-bi-report-builder"></a>Construtor de Relatórios do Power BI
 
  O Power BI Report Builder é uma ferramenta de criação de relatórios paginados.  Quando você cria um relatório paginado, você está criando uma definição de relatório que especifica quais dados serão recuperados, em que local obtê-los e como exibi-los. Quando você executa o relatório, o processador de relatório usa a definição de relatório especificada, recupera os dados e combina-os com o layout do relatório para gerar o relatório. Visualize o relatório no Construtor de Relatórios. Em seguida, publique o relatório no serviço do Power BI.
-
-Experimente o [Laboratório prático: Criar um relatório paginado do Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
 Prefere aprender com vídeos? Confira no YouTube a série de vídeos sobre relatórios paginados do Power BI de Chris Finlan, principal gerente de programas do Power BI.
 
@@ -30,13 +28,13 @@ O relatório paginado a seguir contém uma matriz com grupos de linhas e colunas
 
 ![Relatório paginado no serviço do Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-##  <a name="JumpStartReptCreation"></a> Iniciar a criação de relatório  
+##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> Iniciar a criação de relatório  
  
 -   **Comece com o Assistente de tabela, matriz ou gráfico**. Crie uma conexão de fonte de dados, arraste e solte campos para criar uma consulta de conjunto de dados, selecione um layout e um estilo e personalize seu relatório.  
   
 -   **Comece com o Assistente de mapa** para criar relatórios que exibem dados agregados em uma tela de fundo geográfica ou geométrica. Os dados de mapa podem ser dados espaciais de uma consulta Transact-SQL ou um shapefile do Environmental Systems Research Institute, Inc. (ESRI). Você também pode adicionar um plano de fundo do bloco de mapa do Microsoft Bing.  
 
-##  <a name="DesignRept"></a> Projetar seu relatório  
+##  <a name="design-your-report"></a><a name="DesignRept"></a> Projetar seu relatório  
   
 -   **Crie relatórios paginados com layouts de relatório de tabela, matriz, gráfico e de forma livre.** Crie relatórios de tabela para dados baseados em coluna, relatórios de matriz (como relatórios de Tabela Dinâmica ou referência cruzada) para dados resumidos, relatórios de gráfico para dados gráficos e relatórios de forma livre para qualquer outra coisa. Os relatórios podem inserir outros relatórios e gráficos, junto com listas, gráficos e controles para aplicativos dinâmicos baseados na Web.  
   
@@ -52,7 +50,7 @@ O relatório paginado a seguir contém uma matriz com grupos de linhas e colunas
   
 -   **Insira ou referencie imagens** e outros recursos, incluindo conteúdo externo.  
   
-##  <a name="ManageRpt"></a> Gerenciar seu relatório  
+##  <a name="manage-your-report"></a><a name="ManageRpt"></a> Gerenciar seu relatório  
   
 -   **Salve a definição do relatório** no computador ou no servidor de relatório, no qual você pode gerenciá-lo e compartilhá-lo com outras pessoas.  
   
@@ -63,5 +61,4 @@ O relatório paginado a seguir contém uma matriz com grupos de linhas e colunas
 ## <a name="next-steps"></a>Próximas etapas
 
 - [O que são os relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-- Experimente o [Laboratório prático: Criar um relatório paginado do Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - Assista no YouTube à [série de vídeos sobre relatórios paginados do Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) de Chris Finlan, principal gerente de programas do Power BI

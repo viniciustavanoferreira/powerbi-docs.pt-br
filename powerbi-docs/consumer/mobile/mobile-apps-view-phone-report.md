@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114891"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802108"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Exibir relatórios do Power BI otimizados para seu telefone
 
@@ -39,10 +39,11 @@ Todos os outros recursos de relatórios do Power BI ainda funcionam em relatóri
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrar a página de relatório em um telefone
 Se um relatório otimizado para telefone tiver filtros definidos, quando ele for exibido em um telefone, será possível utilizar esses filtros. O relatório é aberto em seu telefone, filtrado para os valores que estão sendo filtrados no relatório na Web. Você verá uma mensagem informando que existem filtros ativos na página. É possível alterar os filtros no seu telefone.
 
-1. Toque no ícone de filtro ![Ícone de filtro do telefone](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) na parte inferior da página. 
+1. Toque no ícone de filtro ![Ícone de filtro do telefone](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) na parte inferior da página.
+
 2. Use a filtragem básica ou avançada para ver os resultados em que você está interessado.
    
-    ![Filtro avançado do relatório de telefone do BI do telefone](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Filtro avançado do relatório de telefone do BI do telefone](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>Elementos visuais com realce cruzado
 O realce cruzado de visuais na Exibição Retrato funciona da maneira que no serviço do Power BI e em telefones na Exibição Paisagem: quando você seleciona dados em um visual, dados relacionados são realçados em outros visuais nessa página.

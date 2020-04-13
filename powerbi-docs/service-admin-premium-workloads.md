@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/24/2020
+ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329640"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979904"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho em uma capacidade Premium
 
@@ -65,7 +65,7 @@ A carga de trabalho de conjuntos de dados está habilitada por padrão e não po
 | **Memória Máxima (%)** | O percentual máximo de memória disponível que os conjuntos de dados podem usar em uma capacidade. |
 | **Ponto de Extremidade XMLA** | Especifica que as conexões de aplicativos cliente respeitam o conjunto de associação do grupo de segurança nos níveis do workspace e do aplicativo. Para obter mais informações, confira [Conectar-se a conjuntos de dados com ferramentas e aplicativos cliente](service-premium-connect-tools.md). |
 | **Contagem máxima de conjuntos de linhas intermediárias** | O número máximo de linhas intermediárias retornado por DirectQuery. O valor padrão é de 1.000.000 e o intervalo permitido é de 100.000 a 2.147.483.647. |
-| **Tamanho máximo do conjunto de dados offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Esse é o tamanho compactado em disco. O valor padrão é definido pelo SKU e o intervalo permitido é de 0,1 a 10 GB. |
+| **Tamanho máximo do conjunto de dados offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Esse é o tamanho compactado em disco. O valor padrão é 0, que é o limite mais alto definido pelo SKU. O intervalo permitido está entre 0 e o limite de tamanho da capacidade. |
 | **Contagem máxima do conjunto de linhas de resultado** | O número máximo de linhas retornadas em uma consulta DAX. O valor padrão é -1 (nenhum limite) e o intervalo permitido é de 100.000 a 214.7483.647. |
 | **Limite de memória de consulta (%)** | A porcentagem máxima de memória disponível na carga de trabalho que pode ser usada para executar uma consulta MDX ou DAX. O valor padrão é 0, o que resulta na aplicação do limite de memória de consulta automática específico do SKU. |
 | **Tempo limite da consulta (segundos)** | A quantidade máxima de tempo antes que uma consulta expire. O padrão é de 3.600 segundos (1 hora). Um valor de 0 especifica que as consultas não atingirão o tempo limite. |
@@ -203,6 +203,9 @@ As cargas de trabalho podem ser habilitadas e atribuídas a uma capacidade usand
 ## <a name="monitoring-workloads"></a>Monitoramento de cargas de trabalho
 
 O [aplicativo de Métricas de capacidade do Power BI Premium](service-admin-premium-monitor-capacity.md) fornece o conjunto de dados, os fluxos de dados e as métricas de relatórios paginados para monitorar as cargas de trabalho habilitadas para suas capacidades. 
+
+> [!IMPORTANT]
+> Se a capacidade do Power BI Premium estiver enfrentando um alto uso de recursos, resultando em problemas de desempenho ou confiabilidade, você poderá receber emails de notificação para identificar e resolver o problema. Confira [Notificações de capacidade e confiabilidade](service-interruption-notifications.md#capacity-and-reliability-notifications) para obter mais informações.
 
 ## <a name="next-steps"></a>Próximas etapas
 

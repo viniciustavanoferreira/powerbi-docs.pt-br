@@ -7,20 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698867"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813065"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorar as capacidades Premium com o aplicativo
 
 Monitorar suas capacidades é essencial para tomar decisões bem informadas sobre a melhor maneira de utilizar os recursos de capacidade Premium. Você pode monitorar as capacidades no portal do Administrador ou com o aplicativo **Métricas de Capacidade do Power BI Premium**. Este artigo descreve como usar o aplicativo de métricas de capacidade Premium. O aplicativo fornece informações mais detalhadas do desempenho de suas capacidades. Para uma visão geral mais detalhada das métricas de uso médio nos últimos sete dias, você pode usar o portal de Administração. Para saber mais sobre o monitoramento no portal, veja [monitorar capacidades Premium no portal de Administração](service-admin-premium-monitor-portal.md).
 
 O aplicativo é atualizado regularmente com novos recursos e funcionalidades. Verifique se você está executando a última versão. Se você tem uma versão anterior do aplicativo já instalada, é melhor excluí-la de seus aplicativos e, em seguida, pressionar CTRL+F5 para atualizar.
+
+> [!IMPORTANT]
+> Se a capacidade do Power BI Premium estiver enfrentando um alto uso de recursos, resultando em problemas de desempenho ou confiabilidade, você poderá receber emails de notificação para identificar e resolver o problema. Essa pode ser uma forma simplificada de solucionar problemas de capacidades sobrecarregadas. Confira [Notificações de capacidade e confiabilidade](service-interruption-notifications.md#capacity-and-reliability-notifications) para obter mais informações.
 
 ## <a name="install-the-app"></a>Instalar o aplicativo
 
@@ -60,7 +63,7 @@ O dashboard inclui as seguintes métricas:
 
 #### <a name="top"></a>Superior
 
-| Métrica | Descrição |
+| Metric | Descrição |
 | --- | --- |
 | Versão | Versão do aplicativo. | 
 | Capacidades | Número de capacidades das quais você é administrador. | 
@@ -69,7 +72,7 @@ O dashboard inclui as seguintes métricas:
 
 #### <a name="system-summary"></a>Resumo do sistema
 
-| Métrica | Descrição |
+| Metric | Descrição |
 | --- | --- |
 | Maior capacidade de utilização da CPU | Capacidade com o número máximo de vezes que a CPU excedeu 80% dos limites nos últimos sete dias. |
 | Maior contagem de utilização da CPU | Número de vezes que a CPU da capacidade nomeada excedeu 80% dos limites nos últimos sete dias. | 
@@ -79,7 +82,7 @@ O dashboard inclui as seguintes métricas:
 
 #### <a name="dataset-summary"></a>Resumo do conjunto de dados
 
-| Métrica | Descrição |
+| Metric | Descrição |
 | --- | --- |
 | Conjuntos de dados | Número total de conjuntos de dados em todos os workspaces em suas capacidades.|
 | Tamanho médio dos conjuntos de dados (MB) | Tamanho médio dos conjuntos de dados em todos os workspaces em suas capacidades.|  
@@ -106,7 +109,7 @@ O dashboard inclui as seguintes métricas:
 
 #### <a name="dataflow-summary"></a>Resumo do fluxo de dados
 
-| Métrica | Descrição |
+| Metric | Descrição |
 | --- | --- |
 | Fluxos de dados |  Número total de fluxos de dados em todos os workspaces em suas capacidades.|
 | Total de atualizações | Número total de atualizações nos últimos sete dias.|  
@@ -120,7 +123,7 @@ O dashboard inclui as seguintes métricas:
 
 #### <a name="paginated-report-summary"></a>Resumo do relatório paginado
 
-| Métrica | Descrição |
+| Metric | Descrição |
 | --- | --- |
 | Relatórios paginados |  Número total de relatórios paginados em todos os workspaces em suas capacidades. |
 | Total de exibições | Total de vezes que todos os relatórios foram exibidos pelos usuários. | 
@@ -134,7 +137,7 @@ O dashboard inclui as seguintes métricas:
 
 #### <a name="ai-summary"></a>Resumo sobre IA
 
-| Métrica | Descrição |
+| Metric | Descrição |
 | --- | --- |
 | Execução da função de IA | Número total de execuções nos últimos sete dias. |
 | Confiabilidade da execução da função de IA (%) | Número de execuções bem-sucedidas dividido pelo número total de execuções nos últimos sete dias. |

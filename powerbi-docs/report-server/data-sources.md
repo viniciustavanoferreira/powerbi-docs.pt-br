@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237513"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979835"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
 Os relatórios do Power BI podem se conectar a diversas fontes de dados. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis. Os dados podem ser importados ou consultados diretamente usando o DirectQuery ou uma conexão dinâmica ao SQL Server Analysis Services.
@@ -156,7 +156,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 | Lista do SharePoint Online |Não |Não |Não |Não |
 | Snowflake |Não |Não |Não |Não |
 | Banco de dados Sybase |Não |Não |Sim |Sim |
-| Teradata |Não |Não |Sim |Sim |
+| Teradata |Não |Não |Sim |Sim** |
 | appFigures (Beta) |Não |Não |Não |Não |
 | Banco de dados do Analysis Services do Azure (Beta) |Não |Não |Não |Não |
 | Azure Cosmos DB (Beta) |Não |Não |Não |Não |
@@ -189,6 +189,8 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 | Visual Studio Team Services (Beta) |Não |Não |Não |Não |
 | Webtrends (Beta) |Não |Não |Não |Não |
 | ZenDesk (Beta) |Não |Não |Não |Não |
+
+**Não há suporte para o uso da autenticação LDAP com o Teradata (habilitado no Power BI Desktop com o comando do prompt de comando 'setx PBI_EnableTeradataLdap true') na atualização de modelo.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lista de métodos de autenticação compatíveis para DirectQuery
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435963"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802085"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -24,6 +24,20 @@ Para informações sobre “Novidades” relacionadas, consulte:
 
 >[!NOTE]
 >O suporte de aplicativo móvel Power BI para **telefones que usam o Windows 10 Mobile** será descontinuado em 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>Março de 2020
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>Usar atalhos e a Pesquisa Google para iniciar o seu conteúdo (Android)
+Facilitamos a localização e a inicialização dos seus dados integrando atalhos e a Pesquisa Google ao aplicativo do Power BI. Crie atalhos para facilitar o acesso aos seus relatórios e dashboards favoritos diretamente na tela inicial do seu dispositivo. Além disso, use a Pesquisa Google para pesquisar rapidamente e abrir o seu conteúdo do Power BI. Saiba mais sobre os [atalhos de aplicativo do Android](mobile-app-quick-access-shortcuts.md) e a [Pesquisa Google](mobile-app-find-access-google-search.md).
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>Segurança aprimorada usando a proteção do dispositivo (versão prévia) (Android)
+Use as funcionalidades de proteção interna do dispositivo para proteger o seu aplicativo do Power BI e obter a privacidade de que precisa. A exigência da autenticação biométrica (ID da Impressão Digital) para acessar o aplicativo do Power BI garante que os seus dados sejam mantidos privados e sejam vistos apenas por você. [Saiba mais sobre o acesso seguro nativo](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>A digitalização já está disponível no iPad
+Agora, diretamente no seu iPad, você pode digitalizar códigos de barras para filtrar seus relatórios e usar códigos QR para abrir os relatórios rapidamente.  
+
+### <a name="updated-filtering-experience"></a>Experiência de filtragem atualizada
+Os filtros do aplicativo do Power BI têm novas funcionalidades e um novo design. Isso inclui uma visibilidade aprimorada dos filtros aplicados que afetam os visuais do relatório e a capacidade de bloquear e, até mesmo, ocultar os filtros. Essas alterações também fornecem melhor compatibilidade com a filtragem no serviço do Power BI.
 
 ## <a name="february-2020"></a>Fevereiro de 2020
 

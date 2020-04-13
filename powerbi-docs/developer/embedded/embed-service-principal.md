@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403553"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751639"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Conteúdo inserido do Power BI com a entidade de serviço e o segredo do aplicativo
 
-A entidade de serviço é um método de autenticação que pode ser usado para permitir que o aplicativo Azure AD acesse o conteúdo e as APIs do serviço do Power BI.
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-Quando você cria um aplicativo do Azure AD (Azure Active Directory), é criado um [objeto da entidade de serviço](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object). O objeto da entidade de serviço, também conhecida simplesmente como *entidade de serviço*, permite que o Azure AD autentique seu aplicativo. Quando estiver autenticado, o aplicativo poderá acessar os recursos de locatário do Azure AD.
-
-Para fazer a autenticação, a entidade de serviço usa a *ID do Aplicativo* no Azure AD e uma das opções a seguir:
-* Segredo do aplicativo
-* Certificado
-
-Este artigo descreve como a autenticação da entidade de serviço usa a *ID do Aplicativo* e o *Segredo do aplicativo*. Para se autenticar usando a entidade de serviço como um certificado, confira [Autenticação baseada em certificado do Power BI]().
+Este artigo descreve como a autenticação da entidade de serviço usa a *ID do Aplicativo* e o *Segredo do aplicativo*.
 
 ## <a name="method"></a>Método
 
@@ -55,12 +49,12 @@ Para usar a entidade de serviço e uma ID de aplicativo com as análises inserid
 ## <a name="step-1---create-an-azure-ad-app"></a>Etapa 1 – Criar um aplicativo do Azure AD
 
 Crie um aplicativo do Azure AD usando um destes métodos:
-* Crie o aplicativo no [portal do Microsoft Azure](https://ms.portal.azure.com/#allservices)
+* Crie o aplicativo no [portal do Microsoft Azure](https://portal.azure.com/#allservices)
 * Crie um trabalho usando o [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Como criar o aplicativo do Azure AD no portal do Microsoft Azure
 
-1. Entre no [Microsoft Azure](https://ms.portal.azure.com/#allservices).
+1. Entre no [Microsoft Azure](https://portal.azure.com/#allservices).
 
 2. Pesquise **Registros de aplicativo** e clique no link **Registros de aplicativo**.
 
@@ -72,7 +66,7 @@ Crie um aplicativo do Azure AD usando um destes métodos:
 
 4. Preencha as informações obrigatórias:
     * **Nome** – digite um nome para seu aplicativo
-    * **Tipos de conta com suporte** – selecione os tipos de conta com suporte
+    * **Tipos de conta compatíveis**: selecione a conta do Azure AD de que você precisa
     * (Opcional) **URI de redirecionamento** – insira um URI, se necessário
 
 5. Clique em **Registrar**.
@@ -205,5 +199,3 @@ Depois de inserir o conteúdo, você estará pronto para [passar para a produç�
 * [Power BI Embedded para seus clientes](embed-sample-for-customers.md)
 
 * [Segurança em nível de linha usando o gateway de dados local com a entidade de serviço](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [Conteúdo inserido do Power BI com a entidade de serviço e o segredo do aplicativo]()

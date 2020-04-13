@@ -7,21 +7,21 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74163756"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621623"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de dados no serviço do Power BI
 
 Defina alertas para notificá-lo quando os dados em seus dashboards forem alterados além dos limites definidos por você.
 
-Você poderá definir alertas em blocos se tiver uma licença do Power BI Pro. Você também poderá definir alertas se alguém compartilhar um dashboard que esteja em uma [Capacidade Premium](service-premium-what-is.md). Os alertas só podem ser definidos em blocos fixos de visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em visuais criados com base em conjuntos de dados de streaming que você fixa de um relatório em um dashboard. Os alertas não podem ser definidos em blocos de streaming criados diretamente no dashboard usando **Adicionar bloco** > **Dados de streaming personalizados**.
+Você pode definir alertas sobre os blocos em Meu Workspace. Você também pode definir alertas se alguém compartilha um dashboard que está em uma [capacidade Premium](service-premium-what-is.md). Se você tiver uma licença do Power BI Pro, também poderá definir alertas sobre blocos em qualquer outro workspace. Os alertas só podem ser definidos em blocos fixos de visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em visuais criados com base em conjuntos de dados de streaming que você fixa de um relatório em um dashboard. Os alertas não podem ser definidos em blocos de streaming criados diretamente no dashboard usando **Adicionar bloco** > **Dados de streaming personalizados**.
 
 Apenas você poderá ver os alertas que definir, mesmo se compartilhar seu dashboard. Nem mesmo o proprietário do dashboard poderá ver os alertas que você definiu na sua exibição do dashboard dele. Os alertas de dados são totalmente sincronizados nas plataformas; defina e exiba alertas de dados [nos aplicativos móveis do Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço do Power BI. Eles não estão disponíveis para o Power BI Desktop. Você pode, inclusive, automatizar e integrar alertas com o Power Automate. Você pode testá-lo sozinho neste artigo [Power Automate e Power BI](service-flow-integration.md).
 

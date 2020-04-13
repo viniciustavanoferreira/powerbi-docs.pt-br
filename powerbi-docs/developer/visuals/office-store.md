@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80550900"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621452"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar visuais do Power BI no Partner Center
 
@@ -100,6 +100,8 @@ Siga as etapas abaixo para enviar seu visual do Power BI ao Partner Center. Conf
 10. Selecione **Configuração do produto** e clique em **Examinar e publicar**.
 
 ## <a name="tracking-submission-status-and-usage"></a>Acompanhamento do uso e do status do envio
+
+Examine as [políticas de validação](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
 Após o envio, você poderá exibir o status do envio no [dashboard de aplicativos](https://sellerdashboard.microsoft.com/Application/Summary/).
 

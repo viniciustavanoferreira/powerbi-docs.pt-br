@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 061a2a99ad4cc812aac0d66ec4993001187179a0
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114855"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979881"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Criar visuais do Power BI usando o R
 Com o Power BI Desktop, é possível usar o *R* para visualizar seus dados. O [R](https://mran.revolutionanalytics.com/documents/what-is-r) é uma linguagem e um ambiente para gráficos e computação estatística.
@@ -142,6 +142,8 @@ Os visuais do R no Power BI Desktop têm as seguintes limitações:
 * Realces: os visuais do R responderão se você realçar outros visuais, mas não puder selecionar elementos no visual do R para realizar filtragem cruzada de outros elementos.
 
 * Exibir dispositivos: Somente plotagens realizadas no dispositivo de vídeo padrão R são exibidos corretamente na tela. Evite o uso explícito de um dispositivo de vídeo diferente do R.
+
+* Renomeação de coluna: os visuais do R não dão suporte à renomeação de colunas de entrada. As colunas serão referenciadas pelo nome original durante a execução do script.
 
 * Instalações do RRO: nesta versão, a versão de 32 bits do Power BI Desktop não identifica automaticamente as instalações do RRO; você deve fornecer manualmente o caminho para o diretório da instalação do R em **Opções e configurações** > **Opções** > **Script do R**.
 

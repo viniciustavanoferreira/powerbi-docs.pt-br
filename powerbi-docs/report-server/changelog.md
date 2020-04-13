@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
-ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.date: 04/08/2020
+ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381090"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979789"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Log de alterações para o Servidor de Relatórios do Power BI
 
@@ -29,7 +29,7 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
            -  Correção de relatórios do Power BI com falha ao carregar certas fontes de dados
            -  Correção do local de download de links da área de trabalho do Servidor de Relatórios do Power BI no portal
            -  Correção de DynamicImageDPI para renderização de Excel
-           -  Correção de conexões do Oracle que usavam a cultura de thread incorreta em determinados cenários com vários usuários
+           -  Correção de conexões do Oracle que usavam a cultura de thread incorreta em determinados cenários de vários usuários; confira [documentação de UseInstalledUICulture] (https://docs.microsoft.com/power-bi/report-server/connect-data-sources) para obter mais detalhes)
            -  Correção do valor padrão de CustomHeaders que causava falhas na inserção de relatórios
            -  Correção dos nomes de parâmetro SQL que eram gerados incorretamente em alguns casos
     - *Versão: 1.6.7327.3007 (Build 15.0.1102.759), Lançamento: 23 de janeiro de 2020*

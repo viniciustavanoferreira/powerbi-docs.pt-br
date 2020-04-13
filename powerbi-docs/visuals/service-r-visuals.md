@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114832"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979812"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Criar e usar visuais do R no Power BI
 Atualmente, os visuais do R só podem ser criados no **Power BI Desktop** e, em seguida, publicados no serviço do Power BI. Para obter mais informações sobre como criar visuais do R, confira [Criar visuais do Power BI usando o R](../desktop-r-visuals.md).
@@ -93,7 +93,8 @@ Os visuais do R no serviço do Power BI têm algumas limitações:
 * Visuais R são atualizados após atualizações de dados, filtragem e realce. No entanto, a própria imagem não é interativa e não dá suporte a dicas de ferramenta.
 * Visuais R respondem ao realce de outros elementos visuais, mas você não pode clicar em elementos no visual R para fazer filtragem cruzada de outros elementos.
 * Atualmente, não há suporte nos visuais do R para o tipo de dados *Hora*. Em vez disso, use Data/Hora.
-* Os visuais do R não são exibidos quando se usa o recurso **Publicar na Web**.
+* Os visuais do R não são exibidos ao usar o recurso **Publicar na Web**.
+* Os visuais do R não dão suporte à renomeação de colunas de entrada. As colunas serão referenciadas pelo nome original durante a execução do script.
 * Atualmente, os visuais do R não são impressos com a impressão de dashboards e relatórios
 * Atualmente, não há suporte para os visuais do R no modo DirectQuery do Analysis Services
 * Os visuais do R podem converter rótulos de texto em elementos gráficos. Fazer isso na serviço do Power BI requer a seguinte etapa adicional:

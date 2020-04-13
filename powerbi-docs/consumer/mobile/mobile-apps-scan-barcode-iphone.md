@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75217792"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802039"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Digitalizar um código de barras com seu dispositivo no aplicativo móvel do Power BI
 A digitalização de códigos de barras no mundo real o leva para as informações de BI filtradas no aplicativo móvel do Power BI.
@@ -21,9 +21,9 @@ A digitalização de códigos de barras no mundo real o leva para as informaçõ
 
 Aplica-se a:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
-|:--- |:--- |
-| iPhone | Android (celular, tablet) | 
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPads](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Telefone Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Tablet Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+|:--- |:--- |:--- |:--- |
+|iPhones |iPads |Telefones Android |Tablets Android |
 
 Digamos que um colega tenha [marcado um campo de código de barras em um relatório do Power BI Desktop](../../desktop-mobile-barcodes.md) e compartilhou esse relatório com você. 
 
@@ -55,18 +55,18 @@ De qualquer forma, toque no ícone para abrir um pequeno menu com um scanner flu
 ## <a name="issues-with-scanning-a-barcode"></a>Problemas com a digitalização de um código de barras
 Aqui estão algumas mensagens que você poderá ver quando digitalizar um código de barras em um produto.
 
-### <a name="couldnt-filter-report"></a>“Não foi possível filtrar o relatório...”
+### <a name="couldnt-filter-report"></a>"Não foi possível filtrar o relatório..."
 O relatório que você escolher filtrar baseia-se em um modelo de dados que não inclui esse valor de código de barras. Por exemplo, o produto “água mineral” não está incluído no relatório.  
 
-### <a name="allsome-of-the-visuals-in-the-report-dont-contain-any-value"></a>Todos/alguns dos visuais no relatório não contém nenhum valor
-O valor de código de barras digitalizado já existe em seu modelo, mas todos ou alguns dos visuais no relatório não contêm esse valor e, portanto, a filtragem retornará um estado vazio. Tente procurar em outras páginas do relatório ou editar seus relatórios no Power BI Desktop para que ele contenha esse valor 
+### <a name="allsome-of-the-visuals-in-the-report-dont-contain-any-value"></a>Todos os visuais do relatório ou alguns deles não contêm nenhum valor
+O valor de código de barras digitalizado já existe no modelo, mas todos os visuais do relatório ou alguns deles não contêm esse valor e, portanto, a filtragem retornará um estado vazio. Tente procurar em outras páginas do relatório ou editar seus relatórios no Power BI Desktop para que ele contenha esse valor 
 
-### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>“Parece que você não tem relatórios que possam ser filtrados por códigos de barras”.
+### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>"Parece que você não tem relatórios que possam ser filtrados por códigos de barras."
 Isso significa que você não tem nenhum relatório habilitado para código de barras. O scanner de código de barras pode filtrar apenas relatórios que têm uma coluna marcada como **Código de barras**.  
 
 Verifique se você ou o proprietário do relatório marcou uma coluna como **Código de barras** no Power BI Desktop. Saiba mais sobre como [marcar um campo de código de barras no Power BI Desktop](../../desktop-mobile-barcodes.md)
 
-### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>“Não foi possível filtrar o relatório – parece que esse código de barras não existe nos dados do relatório.”
+### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>"Não foi possível filtrar o relatório. Parece que esse código de barras não existe nos dados do relatório."
 O relatório que você escolher filtrar baseia-se em um modelo de dados que não inclui esse valor de código de barras. Por exemplo, o produto “água mineral” não está incluído no relatório. Você poderá digitalizar um produto diferente, escolher outro relatório (se houver mais de um relatório disponível) ou exibir o relatório não filtrado. 
 
 ## <a name="next-steps"></a>Próximas etapas

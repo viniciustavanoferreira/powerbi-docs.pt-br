@@ -96,7 +96,7 @@ O usuário pode resolver esse problema chamando a [API refreshUserPermissions](h
 
 Você pode usar o portal do PBI para localizar sua região de locatário do PBI.
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Sobre o Power BI
+`https://app.powerbi.com/` > ? > Sobre o Power BI
 
 ![Sobre o Power BI](media/embedded-faq/about-01.png)
 ![Região do locatário](media/embedded-faq/tenant-location-01.png)

@@ -33,6 +33,8 @@
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
             - name: Linhagem de dados
               href: service-data-lineage.md
+            - name: Análise do impacto do conjunto de dados
+              href: service-dataset-impact-analysis.md
             - name: Aplicar rótulos de confidencialidade de dados
               href: ../designer/service-security-apply-data-sensitivity-labels.md
             - name: Conectar-se a arquivos no OneDrive do seu grupo

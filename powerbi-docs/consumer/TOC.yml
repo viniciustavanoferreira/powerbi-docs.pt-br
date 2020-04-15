@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: Localize conteúdo usando a Página de aterrissagem inicial
           href: end-user-home.md
-        - name: Saiba como fazer perguntas usando linguagem natural
-          href: end-user-q-and-a.md
+        - name: Lista de recursos disponíveis para consumidores
+          href: end-user-features.md
         - name: Entrar pela primeira vez
           href: end-user-sign-in.md
         - name: Qual licença do Power BI eu tenho?
           href: end-user-license.md
+        - name: Saiba como fazer perguntas usando linguagem natural
+          href: end-user-q-and-a.md
         - name: Navegar pela 'nova aparência'
           href: ../service-new-look.md
         - name: 'A “nova aparência”: aonde foram as ações?'
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: Saiba como elementos visuais de relatório realizam filtragem cruzada entre si
               href: end-user-interactions.md
+            - name: Interagir com segmentações de relatório
+              href: end-user-slicer.md
             - name: Exportar um relatório para PDF
               href: end-user-pdf.md
             - name: Exportar um relatório para o PowerPoint

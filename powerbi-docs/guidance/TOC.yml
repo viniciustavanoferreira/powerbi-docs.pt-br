@@ -108,6 +108,8 @@
               href: gateway-onprem-sizing.md
             - name: Monitorar o desempenho do relatório
               href: monitor-report-performance.md
+            - name: Solucionar problemas de desempenho de relatório
+              href: report-performance-troubleshoot.md
     - name: White papers
       items:
         - name: Visão geral dos white papers

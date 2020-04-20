@@ -1,28 +1,41 @@
 ---
-title: Usar a segmentação de intervalo numérico no Power BI Desktop
-description: Saiba como usar uma segmentação para restringir a intervalos numéricos no Power BI Desktop
+title: Usar a segmentação de intervalo numérico no Power BI
+description: Saiba como usar uma segmentação para aplicar uma restrição a intervalos numéricos no Power BI.
 author: davidiseminger
 ms.reviewer: ''
+featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 04/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0fcc666febb4444b5ee83a1646e1e0c3ef9c6d82
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: bd5f937154edf9f8b6a86fb7f53690943a7f3a53
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539292"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006631"
 ---
-# <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Usar a segmentação de intervalo numérico no Power BI Desktop
+# <a name="use-the-numeric-range-slicer-in-power-bi"></a>Usar a segmentação de intervalo numérico no Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Com a segmentação de intervalo numérico, você pode aplicar todos os tipos de filtros a qualquer coluna numérica em seu modelo de dados. Há três opções para filtrar seus dados numéricos: entre números, menor ou igual a um número ou maior ou igual a um número. Essa técnica simples é uma maneira eficiente de filtrar seus dados.
 
 ![Visual com segmentação de intervalo numérico](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
-## <a name="use-the-numeric-range-slicer"></a>Usar a segmentação de intervalo numérico
+## <a name="video"></a>Vídeo
+
+Neste vídeo, Will descreverá a criação de uma segmentação de intervalo numérico.
+
+> [!NOTE]
+> Este vídeo usa uma versão mais antiga do Power BI Desktop.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
+
+
+## <a name="add-a-numeric-range-slicer"></a>Adicionar uma segmentação de intervalo numérico
 
 Você pode usar a segmentação de intervalo numérico como usaria qualquer outra segmentação. Basta criar um visual de **Segmentação** para o relatório e depois selecionar um valor numérico para o valor **Campo**. Na imagem a seguir, selecionamos o campo **LineTotal**.
 

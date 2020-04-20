@@ -1,22 +1,24 @@
 ---
-title: Usar uma segmentação ou um filtro de datas relativas no Power BI Desktop
-description: Saiba como usar uma segmentação ou um filtro para restringir intervalos de datas relativas no Power BI Desktop
+title: Usar uma segmentação ou um filtro de data relativa no Power BI
+description: Saiba como usar uma segmentação ou um filtro para restringir intervalos de datas relativas no Power BI.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d7173225cc52df5d7221b32a6fad81617afa422
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876818"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006769"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Usar uma segmentação e um filtro de datas relativas no Power BI Desktop
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Usar uma segmentação e um filtro de data relativa no Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
 Com a **segmentação de datas relativas** ou o **filtro de datas relativas**, aplique filtros baseados em tempo a qualquer coluna de data do modelo de dados. Por exemplo, você pode usar a **segmentação de datas relativas** para mostrar apenas os dados de vendas ocorridos nos últimos 30 dias (ou mês, meses do calendário e assim por diante). Quando você atualizar os dados, o período relativo aplicará automaticamente a restrição de datas relativas apropriada.
 
@@ -98,7 +100,7 @@ No momento, as limitações e considerações a seguir aplicam-se ao filtro e à
 
 * Os modelos de dados do **Power BI** não incluem informações de fuso horário. Os modelos podem armazenar horários, mas não há nenhuma indicação do fuso horário em que estão localizados.
 
-* A segmentação e o filtro sempre se baseiam no horário em UTC. Se você definir um filtro em um relatório e enviá-lo para um colega em um fuso horário diferente, ambos verão os mesmos dados. A menos que você esteja no fuso horário UTC, você e seu colega devem considerar a diferença de horário.
+* A segmentação e o filtro sempre se baseiam no horário em UTC. Se você definir um filtro em um relatório e enviá-lo para um colega em um fuso horário diferente, ambos verão os mesmos dados. A menos que você esteja no fuso horário UTC, você e seu colega precisarão considerar a diferença de horário.
 
 * É possível converter dado capturados em um fuso horário local em UTC usando o **Editor de Consultas**.
 

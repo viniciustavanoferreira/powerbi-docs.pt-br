@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80147367"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006287"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar um aplicativo no Power BI
 
@@ -43,25 +43,26 @@ Quando os dashboards e relatórios em seu workspace estiverem prontos, escolha q
 
 1. Na exibição da lista do workspace, decida quais dashboards e relatórios você deseja **incluir no aplicativo**.
 
-     ![Selecionar o dashboard a ser publicado](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![Selecionar o dashboard a ser publicado](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-     Se optar por não incluir um relatório que tenha um dashboard relacionado, você verá um aviso ao lado do relatório. Você ainda poderá publicar o aplicativo, mas o dashboard relacionado não terá os blocos desse relatório.
+    Se optar por não incluir um relatório que tenha um dashboard relacionado, você verá um aviso ao lado do relatório. Você ainda poderá publicar o aplicativo, mas o dashboard relacionado não terá os blocos desse relatório.
 
-     ![Aviso sobre dashboard relacionado](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
+    ![Aviso sobre dashboard relacionado](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
 2. Selecione o botão **Publicar aplicativo** no canto superior direito para iniciar o processo de criação e publicação de um aplicativo por meio do workspace.
    
-     ![Publicar aplicativo](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+    ![Publicar aplicativo](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. Em **Instalação**, preencha o nome e a descrição para ajudar as pessoas a encontrar o aplicativo. Defina uma cor de tema para personalizá-lo. Adicione também um link para um site de suporte.
    
-     ![Criar seu aplicativo](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![Criar seu aplicativo](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. Em **Navegação**, selecione o conteúdo a ser publicado como parte do aplicativo. Em seguida, você adicionará a navegação do aplicativo para organizar o conteúdo em seções. Confira [Projetar a experiência de navegação para seu aplicativo](#design-the-navigation-experience) neste artigo para obter detalhes.
    
-     ![Navegação do aplicativo](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+    ![Navegação do aplicativo](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. Em **Permissões**, decida quem tem acesso ao aplicativo e o que pode ser feito nele. 
+
     - Em [workspaces clássicos](service-create-workspaces.md): todos em sua organização, pessoas específicas ou grupos de segurança do AAD (Azure Active Directory).
     - Em [workspaces da nova experiência](service-create-the-new-workspaces.md): pessoas específicas, listas de distribuição e grupos de segurança do AAD e grupos do Office 365. Todos os usuários do workspace recebem automaticamente acesso ao aplicativo para o workspace.
     - Você pode permitir que os usuários do aplicativo se conectem aos conjuntos de dados subjacentes do aplicativo dando a eles a permissão de build. Eles verão esses conjuntos de dados quando estiverem pesquisando conjuntos de dados compartilhados. Leia mais sobre [como permitir que os usuários se conectem aos conjuntos de dados do aplicativo](#allow-users-to-connect-to-datasets), neste artigo.
@@ -73,24 +74,24 @@ Quando os dashboards e relatórios em seu workspace estiverem prontos, escolha q
 
 6. Você poderá instalar o aplicativo automaticamente para os destinatários se o administrador do Power BI tiver habilitado essa configuração para você no Portal de Administração do Power BI. Leia mais sobre como [instalar um aplicativo automaticamente](#automatically-install-apps-for-end-users) neste artigo.
 
-     ![Permissões ao aplicativo](media/service-create-distribute-apps/power-bi-apps-permissions.png)
+    ![Permissões ao aplicativo](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
 7. Ao selecionar **Publicar aplicativo**, você verá uma mensagem confirmando que ele está pronto para ser publicado. Na caixa de diálogo **Compartilhar este aplicativo**, copie a URL que é um link direto para esse aplicativo.
    
-     ![Término do aplicativo](media/service-create-distribute-apps/power-bi-apps-success.png)
+    ![Término do aplicativo](media/service-create-distribute-apps/power-bi-apps-success.png)
 
 Envie esse link direto para as pessoas com quem você o compartilhou ou elas poderão encontrar seu aplicativo na guia Aplicativos acessando **Baixar e explorar mais aplicativos no AppSource**. Leia mais sobre a [experiência de aplicativo para usuários corporativos](consumer/end-user-apps.md).
 
 ## <a name="change-your-published-app"></a>Alterar o aplicativo publicado
-Depois de publicar seu aplicativo, você talvez queira alterá-lo ou atualizá-lo. Será fácil atualizá-lo se você for um administrador ou membro do novo workspace. 
+Depois de publicar seu aplicativo, você talvez queira alterá-lo ou atualizá-lo. Será fácil atualizá-lo se você for um administrador ou um membro do novo workspace. 
 
 1. Abra o workspace que corresponde ao aplicativo. 
    
-     ![Abrir workspace](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
+    ![Abrir workspace](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. Faça as alterações desejadas nos dashboards ou nos relatórios.
  
-     O workspace é sua área de preparo, portanto, suas alterações não entrarão em vigor no aplicativo até que você publique novamente. Isso permite que você faça alterações sem afetar os aplicativos publicados.  
+    O workspace é sua área de preparo, portanto, suas alterações não entrarão em vigor no aplicativo até que você publique novamente. Isso permite que você faça alterações sem afetar os aplicativos publicados.  
  
     > [!IMPORTANT]
     > Caso você remova um relatório e atualize o aplicativo, mesmo que você adicionar o relatório novamente ao aplicativo, os consumidores do aplicativo perderão todas as personalizações, como indicadores, comentários etc.  
@@ -111,6 +112,7 @@ Ao ativar o **Novo construtor de navegação**, você poderá projetar uma naveg
 ![Navegação do aplicativo](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 Personalize ainda mais a navegação do aplicativo:
+
 * Reordenando os itens usando as setas para cima/para baixo. 
 * Renomeando itens em **Detalhes do relatório**, **Detalhes do dashboard** e **Detalhes da pasta de trabalho**.
 * Ocultando determinados itens do painel de navegação.
@@ -121,16 +123,20 @@ Ao adicionar um **link**, em **Detalhes do link**, você poderá escolher em qua
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>Considerações sobre o uso da opção novo construtor de navegação
 Estes são os itens gerais para ter em mente ao usar o novo construtor de navegação:
-* As páginas do relatório são mostradas na área de navegação do aplicativo como uma seção expansível
-* Se você desligar o novo construtor de navegação e, em seguida, publicar ou atualizar seu aplicativo, você perderá as personalizações feitas. Por exemplo, as seções, a ordenação, os links e os nomes personalizados para itens de navegação são todos perdidos.
+
+* As páginas do relatório são mostradas na área de navegação do aplicativo como uma seção expansível. Quando um relatório tem uma página visível, somente o nome do relatório é mostrado. Se você clicar no nome do relatório na navegação, a primeira página do relatório será aberta. 
+
+    > [!NOTE]
+    > Seu relatório poderá ter apenas uma página visível, porque você configurou a navegação para o restante das páginas com botões ou ações de detalhamento.
+
+* Se você desativar o novo construtor de navegação e publicar ou atualizar seu aplicativo, perderá as personalizações feitas. Por exemplo, as seções, a ordenação, os links e os nomes personalizados para itens de navegação são todos perdidos.
+* A opção de não usar o construtor de aplicativos está disponível.
 
 Ao adicionar links à navegação do aplicativo e selecionar a opção Área de conteúdo:
 * Verifique se o link pode ser inserido. Alguns serviços bloqueiam a inserção de seu conteúdo em sites de terceiros, como o Power BI.
 * A inserção de conteúdo do serviço do Power BI, como relatórios ou dashboards em outros workspaces, não é compatível. 
 * Insira o conteúdo do Servidor de Relatórios do Power BI por meio de seu conteúdo de URL inserido nativo por meio de uma implantação local. Use as etapas descritas em [Como criar a URL do Servidor de Relatórios do Power BI](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) para obter a URL. Lembre-se de que as regras de autenticação normais se aplicam; portanto, a exibição do conteúdo exige uma conexão VPN com o servidor local. 
 * Um aviso de segurança é mostrado na parte superior do conteúdo inserido para indicar que o conteúdo não está no Power BI.
-
-
 
 ## <a name="automatically-install-apps-for-end-users"></a>Instalar aplicativos automaticamente para usuários finais
 Se um administrador conceder permissões a você, você poderá instalar aplicativos automaticamente, *enviando-os por push* aos usuários finais. Essa funcionalidade de push facilita a distribuição dos aplicativos certos para as pessoas ou os grupos certos. Seu aplicativo é exibido automaticamente na lista de conteúdo Aplicativos dos usuários finais. Eles não precisarão encontrá-lo no Microsoft AppSource nem seguir um link de instalação. Veja como os administradores habilitam o [push de aplicativos aos usuários finais](service-admin-portal.md#push-apps-to-end-users) no artigo do portal de administração do Power BI.
@@ -152,9 +158,9 @@ Aqui estão algumas coisas para se ter em mente ao enviar aplicativos por push p
 
 * Atualize o navegador. Antes de ver o aplicativo enviado por push na Lista de aplicativos, talvez o usuário precise atualizar ou fechar e reabrir seu navegador.
 
-* Se os usuários não virem imediatamente o aplicativo na lista Aplicativos, eles deverão atualizar ou fechar e reabrir o navegador.
+* Se os usuários não virem imediatamente o aplicativo na lista Aplicativos, eles deverão atualizar a página ou fechar e reabrir o navegador.
 
-* Tente não sobrecarregar os usuários. Tenha cuidado para não enviar muitos aplicativos por push para que seus usuários entendam que os aplicativos pré-instalados são úteis para eles. É melhor controlar quem pode enviar aplicativos por push para os usuários finais para coordenar o tempo. Estabeleça um ponto de contato para enviar aplicativos por push em sua organização aos usuários finais.
+* Tente não sobrecarregar os usuários. Tenha cuidado para não enviar muitos aplicativos por push para que seus usuários entendam que os aplicativos pré-instalados são úteis para eles. É melhor controlar quem pode enviar aplicativos por push para os usuários finais a fim de coordenar o tempo. Estabeleça um ponto de contato para enviar aplicativos por push em sua organização aos usuários finais.
 
 * Os aplicativos não são instalados automaticamente para os usuários convidados que não aceitaram um convite.  
 
@@ -181,22 +187,28 @@ Qualquer membro de um workspace pode cancelar a publicação do aplicativo.
 
 * Em um workspace, selecione as reticências ( **...** ) no canto superior direito > **Cancelar a publicação do aplicativo**.
   
-     ![Cancelar a publicação do aplicativo](media/service-create-distribute-apps/power-bi-app-unpublish.png)
+    ![Cancelar a publicação do aplicativo](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
 Essa ação desinstala o aplicativo em todos para os quais você o distribuiu e eles não terão mais acesso ao aplicativo. Ela não exclui o workspace nem o conteúdo dele.
 
 ## <a name="view-your-published-app"></a>Exibir o aplicativo publicado
 
-Quando os consumidores do aplicativo abrem seu aplicativo, eles veem a navegação que você criou, em vez do painel de navegação padrão do Power BI. A navegação do aplicativo lista os relatórios e os dashboards nas seções definidas. Ela também lista as páginas individuais em cada relatório, em vez de apenas o nome do relatório.
+Quando os consumidores do aplicativo abrem seu aplicativo, eles veem a navegação que você criou, em vez do painel de navegação padrão do Power BI. A navegação do aplicativo lista os relatórios e os dashboards nas seções definidas. Ela também lista as páginas individuais em cada relatório, em vez de apenas o nome do relatório. Expanda e recolha a navegação à esquerda usando as setas na barra de menus.
 
 ![Aplicativo com navegação](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+No modo de tela inteira, você pode mostrar ou ocultar a navegação selecionando a opção no canto.
+
+![Navegação em tela inteira](media/service-create-distribute-apps/full-screen-app-show-navigation.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 Coisas para se lembrar a respeito da publicação de aplicativos:
 
+* A página de permissões não altera a permissão nos conjuntos de dados em outros workspaces. Você verá um aviso que lembrará você de permitir acesso a esses conjuntos de dados de maneira independente. Uma melhor prática é entrar em contato com o proprietário do conjunto de dados antes de começar a criar seu aplicativo para verificar se não há nenhum problema em permitir acesso a todos os usuários do aplicativo a esses conjuntos de dados. 
 * Você pode ter no máximo 100 usuários ou grupos na lista de acesso do aplicativo. No entanto, você pode conceder acesso a mais de 100 usuários ao aplicativo. Para fazer isso, use um ou mais grupos de usuários que contenham todos os usuários desejados.
 * Para a nova experiência de workspace, se o usuário adicionado à lista de acesso do aplicativo já tiver acesso ao aplicativo por meio do workspace, ele não será mostrado na lista de acesso do aplicativo.  
-
+* Ao usar a nova aparência do serviço do Power BI, a URL do site de suporte é mostrada no cartão de informações do item. Leia mais sobre a ['nova aparência' do Power BI](service-new-look.md).
+* Os aplicativos têm uma opção para permitir que os usuários compartilhem o aplicativo e os conjuntos de dados subjacentes do aplicativo usando a permissão de compartilhamento. Para novos aplicativos, essa opção está desativada por padrão. Recomendamos desativar essa opção para os aplicativos existentes e atualizar a permissão nos conjuntos de dados subjacentes. A opção foi habilitada para os aplicativos existentes porque os aplicativos foram inicialmente projetados para substituir pacotes de conteúdo, que tinham esse comportamento.
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Criar um workspace](service-create-workspaces.md)

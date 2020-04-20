@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: cb58b71d4fe15458516dc0b1d3f25d79e6ef1a62
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 165651beab2e20f033d20480e78a3876931ea806
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79126042"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267263"
 ---
 # <a name="data-lineage-preview"></a>Linhagem de dados (versão prévia)
 Em projetos modernos de BI (business intelligence), entender o fluxo de dados da fonte de dados para o destino pode ser um desafio. O desafio será ainda maior se você tiver criado projetos analíticos avançados que abrangem uma variedade de fontes de dados, artefatos e dependências. Perguntas como "o que acontecerá se eu alterar esses dados?" ou "por que este relatório não está atualizado?" podem ser difíceis de responder. Elas podem exigir uma equipe de especialistas ou uma investigação profunda para serem entendidas. Desenvolvemos uma exibição de linhagem de dados para ajudar você a responder a essas perguntas.
@@ -93,3 +93,4 @@ A exibição de linhagem é uma tela interativa. Use o mouse e o touchpad para n
 ## <a name="next-steps"></a>Próximas etapas
 
 * [Introdução aos conjuntos de dados entre workspaces (versão prévia)](../service-datasets-across-workspaces.md)
+* [Análise do impacto do conjunto de dados](service-dataset-impact-analysis.md)

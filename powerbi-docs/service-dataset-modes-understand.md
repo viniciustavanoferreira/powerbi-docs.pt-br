@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: be8716cebb091dafcc927b4bd1ecd0942ad88b47
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79208047"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267332"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Modos de conjunto de dados no serviço do Power BI
 
@@ -77,18 +77,9 @@ Há diversas vantagens associadas aos modelos DirectQuery:
 - Relatórios em tempo real podem ser desenvolvidos usando o recurso de [Atualização automática de página](desktop-automatic-page-refresh.md)
 - Os blocos de painel, quando baseados em modelos DirectQuery, podem ser atualizados automaticamente, a cada 15 minutos
 
-Porém, há muitas desvantagens e limitações associadas aos modelos DirectQuery:
+No entanto, há algumas limitações associadas aos modelos do DirectQuery:
 
-- O modelo deve ser baseado em uma única fonte de dados com suporte. É por isso que qualquer integração de dados já deve ser obtida na fonte de dados. As fontes de dados com suporte são sistemas relacionais e analíticos, com suporte para vários armazenamentos de dados populares.
-
-    > [!TIP]
-    > Há suporte para muitas fontes de dados da Microsoft. As fontes de dados da Microsoft incluem SQL Server, Azure Data Bricks, Azure HDInsight Spark (Beta), Banco de Dados SQL do Azure e SQL Data Warehouse do Azure. Para obter mais informações, confira o artigo [Fontes de dados com suporte do Direct Query no Power BI](desktop-directquery-data-sources.md).
-
-- O desempenho pode ser lento, afetando potencialmente de forma negativa o serviço do Power BI. Esse problema pode ocorrer porque algumas consultas têm uso intensivo da CPU para o serviço do Power BI. Também pode ocorrer porque a fonte de dados não é otimizada para as consultas que o Power BI envia.
-- As consultas do Power Query devem ser dobráveis. Esse requisito significa que a lógica do Power Query não pode ser excessivamente complexa. Além disso, a lógica deve ser limitada a usar expressões M e funções que podem ser transpostas a consultas nativas compreendidas pela fonte de dados.
-- As fórmulas DAX são limitadas a usar apenas funções que podem ser transpostas para consultas nativas compreendidas pela fonte de dados. Ademais, não há suporte para tabelas calculadas ou funções de inteligência de dados temporais DAX.
-- Consultas de modelo que exigem a recuperação de mais de 1 milhão de linhas falharão
-- Relatórios e painéis com vários visuais poderão exibir resultados inconsistentes, especialmente quando a fonte de dados for volátil
+- As fórmulas DAX são limitadas a usar apenas funções que podem ser transpostas para consultas nativas compreendidas pela fonte de dados. Não há suporte para tabelas calculadas.
 - Não há suporte para os recursos P e R e Insights Rápidos
 
 Da perspectiva de um recurso do serviço do Power BI, os modelos DirectQuery exigem:

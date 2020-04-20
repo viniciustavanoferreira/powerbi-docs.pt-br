@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979904"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267470"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho em uma capacidade Premium
 
@@ -24,23 +24,13 @@ Este artigo descreve como habilitar e configurar cargas de trabalho para as capa
 
 As cargas de trabalho de consulta são otimizadas para os recursos determinados pelo SKU da capacidade Premium e limitadas por esses recursos. As capacidades Premium também dão suporte a cargas de trabalho adicionais que podem usar seus recursos de capacidade. Os valores de memória padrão para essas cargas de trabalho se baseiam nos nós de capacidade disponíveis para o SKU. As configurações de memória máxima não são cumulativas. A memória até o valor máximo especificado é alocada dinamicamente para IA e fluxos de dados, mas é alocada estaticamente para relatórios paginados.
 
-### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>SKUs do Microsoft Office para cenários SaaS (Software como Serviço)
-
-|                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| IA | Padrão de 40%; mínimo de 40% | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 8% | Padrão de 20%; mínimo de 4% | Padrão de 20%; mínimo de 2% |
-| Fluxos de dados | N/D |Padrão de 20%; mínimo de 12%  | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 3% | Padrão de 20%; mínimo de 2%  |
-| Relatórios paginados | N/D |N/D | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
-| | | | | | |
-
-### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>SKUs do Microsoft Azure para cenários PaaS (Plataforma como Serviço)
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| IA | N/D  | Padrão de 40%; mínimo de 40%  | 20% padrão; 20% mínimo | Padrão de 20%; mínimo de 8% | Padrão de 20%; mínimo de 4% | Padrão de 20%; mínimo de 2% |
-| Fluxos de dados         | Padrão de 40%; mínimo de 40% | Padrão de 24%; mínimo de 24% | Padrão de 20%; mínimo de 12% | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 3% | Padrão de 20%; mínimo de 2%   |
-| Relatórios paginados | N/D                      | N/D                      | N/D                     | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5% | Padrão de 20%; mínimo de 2,5% |
-| | | | | | |
+|                   | EM1/A1                  | EM2/A2                  | EM3/A3                  | P1/A4                  | P2/A5                  | P3/A6                   |
+|-------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
+| IA                | Sem suporte               | Padrão de 40%; mínimo de 40%  | 20% padrão; 20% mínimo  | Padrão de 20%; mínimo de 8%  | Padrão de 20%; mínimo de 4%  | Padrão de 20%; mínimo de 2%   |
+| Conjuntos de dados          | 100% padrão; 67% mínimo | 100% padrão; 40% mínimo | 100% padrão; 20% mínimo | 100% padrão; 8% mínimo | 100% padrão; 4% mínimo | 100% padrão; 2% mínimo  |
+| Fluxos de dados         | Padrão de 40%; mínimo de 40%  | Padrão de 24%; mínimo de 24%  | Padrão de 20%; mínimo de 12%  | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 3%  | Padrão de 20%; mínimo de 2%   |
+| Relatórios paginados | Sem suporte               | Sem suporte               | Sem suporte               | Padrão de 20%; mínimo de 10% | Padrão de 20%; mínimo de 5%  | Padrão de 20%; mínimo de 2,5% |
+|                   |                           |                           |                           |                          |                          |                           |
 
 ## <a name="workload-settings"></a>Configurações de carga de trabalho
 
@@ -85,7 +75,14 @@ Observe que essa configuração afeta apenas as consultas do DirectQuery, enquan
 
 Use essa configuração para impedir que os criadores de relatório publiquem um grande conjunto de dados que possa afetar negativamente a capacidade. Observe que o Power BI não pode determinar o tamanho real em memória até que o conjunto de dados seja carregado na memória. É possível que um conjunto de dados com um tamanho offline menor possa ter um volume de memória maior do que um conjunto de dados com um tamanho offline maior.
 
-Se você tiver um conjunto de dados que seja maior que o tamanho especificado para essa configuração, o conjunto de dados falhará ao ser carregado quando um usuário tentar acessá-lo.
+Se você tiver um conjunto de dados que seja maior que o tamanho especificado para essa configuração, o conjunto de dados falhará ao ser carregado quando um usuário tentar acessá-lo. O conjunto de dados também poderá falhar ao ser carregado se for maior do que a memória máxima configurada para a carga de trabalho dos conjuntos de dados.
+
+Para proteger o desempenho do sistema, um limite rígido adicional específico do SKU para o tamanho máximo do conjunto de dados offline é aplicado, seja qual for o valor configurado. Esse limite rígido não se aplica aos conjuntos de dados do Power BI que são otimizados para tamanhos de dados grandes. Para obter mais informações, confira [Modelos grandes no Power BI Premium](service-premium-large-models.md).
+
+|                                           | EM1/A1 | EM2/A2 | EM3/A3 | P1/A4 | P2/A5 | P3/A6 |   
+|-------------------------------------------|----------|----------|----------|---------|---------|---------|
+| Limite rígido de tamanho máximo do conjunto de dados offline | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
+|                                           |          |          |          |         |         |         |
 
 #### <a name="max-result-row-set-count"></a>Contagem Máxima de Conjuntos de Linhas de Resultado
 
@@ -110,6 +107,7 @@ A configuração padrão é 0, o que resulta na aplicação do limite de memóri
 | Limite de memória de consulta automática | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 |                              |          |          |          |         |         |         |
 
+Para proteger o desempenho do sistema, um limite rígido de 10 GB é imposto a todas as consultas executadas por relatórios do Power BI, seja qual for o limite de memória de consulta configurado pelo usuário. Esse limite rígido não se aplica às consultas emitidas por ferramentas que usam o protocolo do Analysis Services (também conhecido como XMLA). Os usuários devem considerar a possibilidade de simplificar a consulta ou os cálculos, caso a consulta faça uso intensivo de memória.
 
 #### <a name="query-timeout"></a>Tempo Limite da Consulta
 
@@ -132,8 +130,8 @@ Observe que os relatórios do Power BI substituem esse padrão com um tempo limi
 
 Quando habilitada, a atualização automática de página permite que os usuários da capacidade Premium atualizem páginas de relatórios em um intervalo definido nas fontes do DirectQuery. Como administrador de capacidade, você pode fazer o seguinte:
 
-1.  Ativar e desativar a atualização automática de página
-2.  Definir um intervalo mínimo de atualização
+- Ativar e desativar a atualização automática de página
+- Definir um intervalo mínimo de atualização
 
 A imagem a seguir mostra o local da configuração do intervalo de atualização automática:
 
@@ -165,9 +163,9 @@ Ao atualizar um fluxo de dados, a carga de trabalho do fluxo de dados gera um co
 
 É recomendável usar o aplicativo [Métricas de capacidade do Power BI Premium](service-admin-premium-monitor-capacity.md) para analisar o desempenho da carga de trabalho Fluxo de dados.
 
-Em alguns casos, aumentar o tamanho do contêiner talvez não melhore o desempenho. Por exemplo, se o fluxo de dados estiver obtendo apenas dado de uma fonte sem executar cálculos significativos, alterar o tamanho do contêiner provavelmente não ajudará. Aumentar o tamanho do contêiner poderá ajudar se permitir que a carga de trabalho Fluxo de Dados aloque mais memória para operações de atualização de entidade. Com mais memória alocada, pode haver redução no tempo necessário para atualizar entidades intensamente computadas.
+Em alguns casos, aumentar o tamanho do contêiner talvez não melhore o desempenho. Por exemplo, se o fluxo de dados estiver obtendo dados apenas de uma fonte sem fazer cálculos significativos, a alteração do tamanho do contêiner provavelmente não será útil. Aumentar o tamanho do contêiner poderá ajudar se permitir que a carga de trabalho Fluxo de Dados aloque mais memória para operações de atualização de entidade. Com mais memória alocada, pode haver redução no tempo necessário para atualizar entidades intensamente computadas.
 
-O valor Tamanho do Contêiner não pode exceder a memória máxima da carga de trabalho Fluxos de Dados. Por exemplo, uma capacidade P1 tem 25 GB de memória. Se a Memória Máx. (%) da carga de trabalho Fluxo de Dados estiver definida como 20%, o Tamanho do Contêiner (MB) não poderá exceder 5000. Em todos os casos, o Tamanho do Contêiner não poderá exceder a Memória Máx., mesmo se você definir um valor mais alto.
+O valor do Tamanho do Contêiner não pode exceder a memória máxima da carga de trabalho de Fluxos de Dados. Por exemplo, uma capacidade P1 tem 25 GB de memória. Se a Memória Máx. (%) da carga de trabalho Fluxo de Dados estiver definida como 20%, o Tamanho do Contêiner (MB) não poderá exceder 5000. Em todos os casos, o Tamanho do Contêiner não poderá exceder a Memória Máx., mesmo se você definir um valor mais alto.
 
 ### <a name="paginated-reports"></a>Relatórios paginados
 
@@ -178,7 +176,7 @@ A carga de trabalho de relatórios paginados permite executar relatórios pagina
 | **Memória Máxima (%)** | O percentual máximo de memória disponível que os relatórios paginados podem usar em uma capacidade. |
 |  |  |
 
-Os relatórios paginados oferecem os mesmos recursos que o SSRS (SQL Server Reporting Services) oferece hoje, incluindo a capacidade de autores de relatórios adicionarem código personalizado.  Isso permite que os autores alterem os relatórios dinamicamente, por exemplo, alterando as cores do texto com base em expressões de código.  Para garantir o isolamento adequado, os relatórios paginados são executados em uma área restrita protegida por capacidade. A execução de relatórios na mesma capacidade pode causar efeitos colaterais entre eles. Da mesma forma que você restringiria os autores que podem publicar conteúdo em uma instância do SSRS, recomendamos que siga uma prática semelhante com os relatórios paginados. Verifique se os autores que publicam conteúdo em uma capacidade são confiáveis para a organização. Você pode proteger ainda mais seu ambiente provisionando várias capacidades e atribuindo autores diferentes a cada uma delas. 
+Os relatórios paginados oferecem os mesmos recursos que o SSRS (SQL Server Reporting Services) oferece hoje, incluindo a capacidade de autores de relatórios adicionarem código personalizado.  Isso permite que os autores alterem os relatórios dinamicamente, por exemplo, alterando as cores do texto com base em expressões de código.  Para garantir o isolamento adequado, os relatórios paginados são executados em uma área restrita protegida por capacidade. A execução de relatórios na mesma capacidade pode causar efeitos colaterais entre eles. Da mesma forma que você restringe os autores que podem publicar o conteúdo em uma instância do SSRS, recomendamos seguir uma prática semelhante com os relatórios paginados. Verifique se os autores que publicam conteúdo em uma capacidade são confiáveis para a organização. Você pode proteger ainda mais seu ambiente provisionando várias capacidades e atribuindo autores diferentes a cada uma delas. 
 
 Em alguns casos, a carga de trabalho de relatórios paginados pode ficar indisponível. Nesse caso, a carga de trabalho mostra um estado de erro no Portal de administração, e os usuários veem tempos limite para renderização de relatório. Para atenuar esse problema, desabilite a carga de trabalho e habilite-a novamente.
 

@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877600"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006493"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Criar uma segmentação responsiva que você possa redimensionar no Power BI
 
-As segmentações responsivas são redimensionadas para se ajustar a qualquer espaço no seu relatório. Com segmentações responsivas, redimensione-as para diferentes tamanhos e formas, de horizontal para quadrado e vertical, e os valores na segmentação são reorganizadas como você faria. No Power BI Desktop e no serviço do Power BI, você pode fazer segmentações horizontais e segmentações de data/intervalo responsivas. Segmentações de data/intervalo também têm áreas de toque aprimoradas para facilitar a alteração com a ponta do dedo. Crie segmentações responsivas pequenas ou grandes; elas também são redimensionadas automaticamente para se ajustar bem a relatórios no serviço do Power BI e também em aplicativos móveis do Power BI. 
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
+
+As segmentações responsivas são redimensionadas para se ajustar a qualquer espaço no seu relatório. Com segmentações responsivas, redimensione-as para diferentes tamanhos e formas, de horizontal para quadrado e vertical, e os valores na segmentação são reorganizadas como você faria. No Power BI Desktop e no serviço do Power BI, você pode fazer segmentações horizontais e segmentações de data/intervalo responsivas. As segmentações de data/intervalo também têm áreas de toque aprimoradas para facilitar a alteração delas com a ponta do dedo. Crie segmentações responsivas pequenas ou grandes; elas também são redimensionadas automaticamente para se ajustar bem a relatórios no serviço do Power BI e também em aplicativos móveis do Power BI. 
 
 ![Segmentações responsivas podem ter uma variedade de formas](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
@@ -73,7 +75,7 @@ Leia mais sobre a criação de [relatórios otimizados para aplicativos móveis 
 Siga as mesmas etapas para fazer com que uma segmentação de tempo ou de intervalo se torne responsiva. Depois de definir **Responsiva** como **Ligado**, observe alguns aspectos:
 
 - Visuais otimizam a ordem das caixas de entrada dependendo do tamanho permitido na tela. 
-- A exibição do elemento de dados é otimizada para tornar a segmentação o mais útil possível, com base no tamanho permitido na tela. 
+- A exibição do elemento de dados é otimizada para tornar a segmentação a mais utilizável possível, com base no tamanho permitido na tela. 
 - Novo guidões arredondados nos controles deslizantes otimizam interações de toque. 
 - Quando um visual fica muito pequeno para ser útil, ele se torna um ícone que representa o tipo de visual em seu lugar. Para interagir com ele, toque duas vezes para abri-lo no modo de foco. Isso economiza espaço valioso na página de relatório sem perder a funcionalidade.
 

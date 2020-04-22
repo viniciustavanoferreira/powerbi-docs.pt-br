@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877063"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637909"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obter dados de arquivos de pasta de trabalho do Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -41,7 +41,7 @@ Se você usar o Excel para se conectar a uma fonte de dados externa, depois de i
 ### <a name="workbooks-with-power-view-sheets-pivottables-and-charts"></a>Pastas de trabalho com planilhas do Power View, Tabelas Dinâmicas e gráficos
 A forma como as planilhas do Power View, as Tabelas Dinâmicas e os gráficos são exibidos ou não no Power BI dependerá do local em que o arquivo de pasta de trabalho é salvo e de como você optar por inseri-los no Power BI. Vamos examinar esse aspecto mais detalhadamente abaixo.
 
-## <a name="data-types"></a>Tipo de dados
+## <a name="data-types"></a>Tipos de dados
 O Power BI oferece suporte aos seguintes tipos de dados: Número Inteiro, Número Decimal, Moeda, Data, Verdadeiro/Falso, Texto. Marcar os dados no Excel como tipos de dados específicos melhora a experiência do Power BI.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Preparar sua pasta de trabalho para o Power BI
@@ -124,8 +124,6 @@ Atualmente, ao escolher a opção Importar, o Power BI importa somente os dados 
 **Agendar atualização** – Se o arquivo de pasta de trabalho do Excel se conectar a fontes de dados externas ou se ele foi importado de uma unidade local, será possível configurar a atualização agendada para garantir que o conjunto de dados ou relatório está sempre atualizado. Na maioria dos casos, é muito fácil configurar a atualização agendada; no entanto, não entraremos em detalhes sobre essa configuração neste artigo, pois isso está fora do escopo. Veja [Atualização de dados no Power BI](refresh-data.md) para saber mais.
 
 [Publicar no Power BI por meio do Excel 2016](service-publish-from-excel.md)
-
-[Editor do Power BI para Excel](publisher-for-excel.md)
 
 [Atualizar dados no Power BI](refresh-data.md)
 

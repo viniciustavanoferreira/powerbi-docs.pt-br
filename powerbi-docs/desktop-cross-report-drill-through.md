@@ -1,20 +1,20 @@
 ---
 title: Usar o detalhamento entre relatórios no Power BI Desktop
 description: Saiba como fazer uma detalhamento de um relatório para outro no Power BI Desktop
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2019
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e500cb29bcc4472c59e7e8215fc0a7e7e728ea0d
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 33d0b7850b5e396d8f03e80cbcb32768fb26bf6d
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538788"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439792"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Usar o detalhamento entre relatórios no Power BI
 

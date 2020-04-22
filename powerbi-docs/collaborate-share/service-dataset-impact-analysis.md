@@ -1,5 +1,5 @@
 ---
-title: Análise do impacto do conjunto de dados (versão prévia)
+title: Análise do impacto do conjunto de dados
 description: Visualize e analise o impacto downstream de fazer alterações em conjuntos de valores.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268019"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525320"
 ---
-# <a name="dataset-impact-analysis-preview"></a>Análise do impacto do conjunto de dados (versão prévia)
+# <a name="dataset-impact-analysis"></a>Análise do impacto do conjunto de dados
 
 Quando você faz alterações em um conjunto de dados ou está considerando fazer alterações, é importante poder avaliar o impacto que essas alterações terão nos relatórios e dashboards downstream que dependem desse conjunto de dados. A **análise de impacto do conjunto de dados** fornece informações que podem ajudar você a fazer essa avaliação.
 * Ela mostra quantos workspaces, relatórios e dashboards podem ser afetados por sua alteração e proporciona uma navegação fácil para os workspaces nos quais os relatórios e dashboards afetados estão localizados para você poder investigar ainda mais.

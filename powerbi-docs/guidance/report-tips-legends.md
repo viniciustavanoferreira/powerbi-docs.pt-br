@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5c026e2b7625a2306092f04e11aa77cb275c1f5f
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006079"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066097"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Dicas para formatar e implementar legendas nos relatórios do Power BI
 
@@ -39,7 +39,7 @@ Em suma, as seis principais dicas para formatar e implementar legendas nos relat
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Dicas para criar relatórios impressionantes](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Dicas para criar relatórios impressionantes](../desktop-tips-and-tricks-for-creating-reports.md)
 - Vídeo do biDezine: [Seis principais dicas para a formatação e implementação de legendas no Power BI](https://www.youtube.com/watch?v=r9XnHmuWkZQ)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com)

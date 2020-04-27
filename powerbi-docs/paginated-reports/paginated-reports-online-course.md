@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267585"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675635"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Curso online: Relatórios paginados no Power BI em um dia
 
@@ -83,7 +83,7 @@ O [curso de 24 vídeos](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhp
 
 Baixe e configure um kit de estudo individual, que consiste no conteúdo da apresentação e em oito laboratórios práticos:
 
-1. Use [este link](https://aka.ms/priad-ilt-student) para baixar o kit de estudo individual (.zip) localmente no computador.
+1. Use [este link](https://aka.ms/priad-student) para baixar o kit de estudo individual (.zip) localmente no computador.
 1. Abra as propriedades do arquivo e marque "Desbloquear" (o Windows poderá sinalizar o arquivo como potencialmente não confiável).
 1. Extraia o conteúdo do arquivo para uma pasta no sistema de arquivos. Recomendamos criar uma pasta que seja fácil de ser encontrada, talvez com o nome **Treinamento**. Os documentos do laboratório vão se referir a essa localização como **&lt;CourseFolder&gt;** .
 
@@ -105,6 +105,10 @@ Quando estiver pronto para iniciar o primeiro laboratório, abra o arquivo **&lt
 > Você precisará entrar no Power BI para publicar um arquivo do Power BI Desktop em um workspace. A publicação resulta em um conjunto de dados que é usado como uma fonte de dados do relatório. Você não precisa ter uma licença do Power BI Pro ou uma assinatura do Power BI Premium para usar um conjunto de dados como uma fonte de dados do relatório.
 >
 > Algumas tarefas de laboratório, no entanto, envolvem a publicação do relatório paginado em um workspace. Você só pode abrir um relatório paginado quando ele é salvo em um workspace em uma [capacidade dedicada](../service-premium-what-is.md#dedicated-capacities), que tem a carga de trabalho de relatórios paginados habilitada. Se você não tiver acesso a um workspace adequado, receberá um link para assistir a um vídeo que demonstra a publicação do relatório.
+
+## <a name="instructor-kit"></a>Kit do instrutor
+
+Use [este link](https://aka.ms/priad-instructor) para baixar o kit do instrutor (.zip) localmente no computador.
 
 ## <a name="next-steps"></a>Próximas etapas
 

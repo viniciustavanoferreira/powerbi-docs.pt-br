@@ -10,18 +10,18 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bfcb88354d542416268ab145a056644db5042b21
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882846"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439976"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>RLS (segurança em nível de linha) com o Power BI
 
 A RLS (segurança em nível de linha) com o Power BI pode ser usada para restringir o acesso a dados para determinados usuários. Os filtros restringem o acesso a dados no nível da linha e você pode definir filtros nas funções. Lembre-se de que, no serviço do Power BI, os membros de um workspace têm acesso a conjuntos de dados no workspace. A RLS não restringe esse acesso a dados.
 
-É possível configurar a RLS de modelos de dados importados para o Power BI com o Power BI Desktop. Você também pode configurar RLS em conjuntos de dados que estão usando DirectQuery, como o SQL Server. Anteriormente, você conseguia apenas implementar a RLS nos modelos do Analysis Services local fora do Power BI. Para as conexões dinâmicas do Analysis Services, configure a Segurança em nível de linha no modelo local. A opção de segurança não será exibida para conjuntos de dados com conexão dinâmica.
+É possível configurar a RLS de modelos de dados importados para o Power BI com o Power BI Desktop. Você também pode configurar RLS em conjuntos de dados que estão usando DirectQuery, como o SQL Server. Anteriormente, você conseguia apenas implementar a RLS nos modelos do Analysis Services local fora do Power BI. Para conexões dinâmicas do Analysis Services ou do Azure Analysis Services, configure a segurança em nível de linha no modelo, não no Power BI Desktop. A opção de segurança não será exibida para conjuntos de dados com conexão dinâmica.
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 

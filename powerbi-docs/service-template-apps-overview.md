@@ -6,24 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 04/16/2020
 ms.author: painbar
-ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376674"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066315"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são os aplicativos de modelo do Power BI?
 
 Os novos *aplicativos de modelo* do Power BI permitem que os parceiros do Power BI criem aplicativos do Power BI com pouca ou nenhuma codificação e implante-os para qualquer cliente do Power BI.  Este artigo é uma visão geral do programa de aplicativos de modelo do Power BI.
 
-Os aplicativos de modelo são uma substituição dos atuais pacotes de conteúdo do serviço. Como parceiro do Power BI, você cria um conjunto de conteúdo pronto para uso por seus clientes e o publica por conta própria.  
+Como parceiro do Power BI, você cria um conjunto de conteúdo pronto para uso por seus clientes e o publica por conta própria.  
 
 Você cria aplicativos de modelo que permitem que seus clientes se conectem e criem instâncias dentro das próprias contas. Como especialistas em domínio, eles podem desbloquear os dados de modo a facilitar o consumo para usuários empresariais.  
 
-Você envia seus aplicativos de modelo ao Portal do Cloud Partner. Os aplicativos são disponibilizados publicamente no [ marketplace de aplicativos do Power BI](https://app.powerbi.com/getdata/services) e no [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Aqui está uma visão de alto nível da experiência de criação do aplicativo de modelo público.
+Você envia um aplicativo de modelo para a Central de Parceiros. Os aplicativos são disponibilizados publicamente no [ marketplace de aplicativos do Power BI](https://app.powerbi.com/getdata/services) e no [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Aqui está uma visão de alto nível da experiência de criação do aplicativo de modelo público.
 
 ## <a name="power-bi-apps-marketplace"></a>Marketplace de aplicativos do Power BI
 
@@ -38,7 +38,7 @@ Os aplicativos de modelo do Power BI permitem que os usuários do Power BI Pro o
 O processo geral para desenvolver e enviar um aplicativo de modelo envolve vários estágios. Alguns estágios podem incluir mais de uma atividade ao mesmo tempo.
 
 
-| Estágio | Power BI Desktop |  |Serviço do Power BI  |  |Portal do Cloud Partner  |
+| Estágio | Power BI Desktop |  |Serviço do Power BI  |  |Central de Parceiros  |
 |---|--------|--|---------|---------|---------|
 | **Um** | Criar um modelo de dados e um relatório em um arquivo .pbix |  | Criar um workspace. Importar um arquivo .pbix. Criar um dashboard complementar  |  | Registrar-se como parceiro |
 | **Dois** |  |  | Criar um pacote de teste e executar a validação interna        |  | |
@@ -49,7 +49,7 @@ O processo geral para desenvolver e enviar um aplicativo de modelo envolve vári
 
 Para criar o aplicativo de modelo, você precisará ter permissões para criar um. Confira o portal de administração do Power BI, configurações de Aplicativo de modelo para obter mais detalhes. 
 
-Para publicar um aplicativo de modelo no serviço do Power BI e no AppSource, é necessário atender aos requisitos para [se tornar um Editor do Marketplace de Nuvem](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Para publicar um aplicativo de modelo no serviço do Power BI e no AppSource, é necessário atender aos requisitos para [se tornar um editor da Central de Parceiros](https://docs.microsoft.com/azure/marketplace/become-publisher).
  
 ## <a name="high-level-steps"></a>Etapas de alto nível
 
@@ -67,7 +67,7 @@ Veja a seguir as etapas de alto nível.
 
 6. Promover o aplicativo de teste à pré-produção para enviá-lo para validação no AppSource e testá-lo fora de seu próprio locatário. 
 
-7. Enviar o conteúdo à Plataforma do Cloud Partner para publicação. 
+7. Enviar o conteúdo à [Central de Parceiros](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) para publicação. 
 
 8. Ative sua oferta no AppSource e mova o aplicativo para produção no Power BI.
 
@@ -75,11 +75,11 @@ Veja a seguir as etapas de alto nível.
 
 ## <a name="requirements"></a>Requisitos
 
-Para criar o aplicativo de modelo, você precisará ter permissões para criar um. Confira o [portal de administração do Power BI, configurações de Aplicativo de modelo](service-admin-portal.md#template-apps-settings) para obter mais detalhes. 
+Para criar o aplicativo de modelo, você precisará ter permissões para criar um. Confira o [portal de administração do Power BI, configurações de Aplicativo de modelo](service-admin-portal.md#template-apps-settings) para obter mais detalhes.
 
-Para publicar um aplicativo de modelo no serviço do Power BI e no AppSource, é necessário atender aos requisitos para [se tornar um Editor do Marketplace de Nuvem](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Para publicar um aplicativo de modelo no serviço do Power BI e no AppSource, é necessário atender aos requisitos para [se tornar um editor da Central de Parceiros](https://docs.microsoft.com/azure/marketplace/become-publisher).
  > [!NOTE] 
- > Envios de aplicativos de modelo são gerenciados no [Portal do Cloud Partner](https://cloudpartner.azure.com). Use a mesma conta de registro da Central de Desenvolvedores para entrar. Você deve ter apenas uma conta da Microsoft para suas ofertas do AppSource. As contas não devem ser específicas para serviços individuais ou ofertas.
+ > Envios de aplicativos de modelo são gerenciados na [Central de Parceiros](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Use a mesma conta de registro da Central de Desenvolvedores para entrar. Você deve ter apenas uma conta da Microsoft para suas ofertas do AppSource. As contas não devem ser específicas para serviços individuais ou ofertas.
 
 ## <a name="tips"></a>Dicas 
 

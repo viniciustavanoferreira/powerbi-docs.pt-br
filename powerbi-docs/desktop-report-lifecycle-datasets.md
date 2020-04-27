@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 278aa4c28db97c348e683b759e8a7f9415f19c3e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 1312e56edfb17c57334af263b9f38c3dd97c1894
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79206828"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525412"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop
 
@@ -91,7 +91,7 @@ Para estabelecer uma conexão com o relatório publicado e criar seu próprio re
 
 Se você não estiver conectado, o Power BI solicitará que você faça o login. Depois de conectado, o Power BI mostra os workspaces dos quais você é membro. Você pode selecionar qual workspace contém o conjunto de conjuntos no qual você deseja estabelecer uma conexão dinâmica do serviço do Power BI.
 
-Os conjuntos de dados na lista são todos os conjuntos de dados compartilhados que você tem permissão de build, em qualquer workspace. Você pode pesquisar um conjunto de dados específico e ver seu nome, proprietário, o workspace no qual ele reside e quando ele foi atualizado pela última vez. Também é possível ver **ENDOSSADO** para os conjuntos de dados, certificados ou promovidos, na parte superior da lista.
+Os conjuntos de dados na lista são todos os conjuntos de dados compartilhados que você tem permissão de build, em qualquer workspace. Você pode pesquisar um conjunto de dados específico e ver seu nome, proprietário, o workspace no qual ele reside e quando ele foi atualizado pela última vez. Também é possível ver o **ENDOSSO** para conjuntos de dados, certificados ou promovidos, na parte superior da lista.
 
 ![Lista de conjuntos de dados disponíveis](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427681"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675679"
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Existem ocasiões em que você talvez queira usar o Excel para exibir e interagir com um conjunto de dados do Power BI. Com o recurso **Analisar no Excel**, você pode fazer isso e acessar recursos de Tabela Dinâmica, gráfico e segmentação no Excel com base no conjunto de dados existente no Power BI.
@@ -68,9 +68,7 @@ Embora você tenha entrado no Power BI em seu navegador, na primeira vez que abr
 ### <a name="users-with-multiple-power-bi-accounts"></a>Usuários com várias contas do Power BI
 Alguns usuários têm várias contas do Power BI e podem estar em uma situação em que se conectam ao Power BI com uma conta, mas a conta que tem acesso ao conjunto de dados usado no recurso Analisar no Excel é uma conta diferente. Nessas situações, é possível obter um erro **Proibido** ou uma falha de entrada ao tentar acessar um conjunto de dados que está sendo usado em uma planilha em Analisar no Excel.
 
-Você terá uma oportunidade para entrar novamente, quando você poderá entrar com a conta do Power BI que tem acesso ao conjunto de dados acessado pelo recurso Analisar no Excel. Também é possível selecionar **Perfil** na guia da faixa de opções **Power BI** no Excel, que identifica a conta à qual você está conectado no momento e que fornece um link que lhe permite sair (e, posteriormente, entrar com uma conta diferente). Você pode [baixar o editor do Power BI para Excel](https://www.microsoft.com/download/details.aspx?id=50729) se ainda não o tiver instalado, que é como a faixa de opções do Power BI no Excel é instalada.
-
-![Exibir seu perfil](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+Você terá uma oportunidade para entrar novamente, quando você poderá entrar com a conta do Power BI que tem acesso ao conjunto de dados acessado pelo recurso Analisar no Excel. Você também pode selecionar seu nome na faixa de opções superior no Excel, que identifica a conta com a qual você está conectado no momento. Saia e entre com uma conta diferente.
 
 ### <a name="enable-data-connections"></a>Habilitar conexões de dados
 Para analisar os dados do Power BI no Excel, será solicitado que você verifique o nome do arquivo e o caminho para o arquivo .odc e, em seguida, selecione **Habilitar**.

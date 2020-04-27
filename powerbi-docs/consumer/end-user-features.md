@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade de recursos para usuários gratuitos
+title: Disponibilidade de recursos para usuários com licenças gratuitas
 description: Explicação e gráfico mostrando os recursos disponíveis para consumidores e usuários gratuitos.
 author: mihart
 ms.reviewer: ''
@@ -7,17 +7,17 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/05/2020
+ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 60ac58c2d1cb815ca322abf6806d9e866f719660
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267996"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065700"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-other-free-users"></a>Lista de recursos do Power BI para *consumidores* e outros usuários gratuitos
+# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de recursos do Power BI para *consumidores* e outros com licenças gratuitas
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -27,40 +27,47 @@ Há muitas maneiras diferentes que os designers podem escolher para compartilhar
 
 ![Painel de navegação do Power BI](media/end-user-features/power-bi-share.png)
 
-O [artigo anterior](end-user-license.md) descreveu os diferentes tipos de licenças do Power BI (gratuita e Pro) e assinaturas (Premium) e ensinou a procurar a licença e a assinatura que está sendo usada. Este artigo lista os recursos do Power BI que estão disponíveis para você, com base na licença e na assinatura.   
+No [artigo anterior](end-user-license.md), você aprendeu que o que pode fazer com dashboards, relatórios e aplicativos (conteúdo) no serviço do Power BI depende de três coisas: suas licenças, suas funções e permissões e o local em que o conteúdo está armazenado.
+
+Este artigo lista quais recursos do serviço do Power BI estão disponíveis para *consumidores* como você. Por definição, *consumidores* usam uma licença gratuita para trabalhar no serviço do Power BI (não no Power BI Desktop) e são membros de organizações que têm capacidade Premium.
 
 <art>
 
 ## <a name="quick-review-of-terminology"></a>Revisão rápida da terminologia
-Vamos examinar alguns conceitos do Power BI antes de passarmos à lista. Esta será uma revisão rápida e, se você precisar de mais detalhes, acesse [Licenças e assinaturas para consumidores](end-user-license.md) ou [Conceitos básicos do Power BI](end-user-basic-concepts.md).
+Vamos examinar alguns conceitos do Power BI antes de passarmos à lista. Esta será uma revisão rápida e, se você precisar de mais detalhes, acesse [Licenças para consumidores](end-user-license.md) ou [Conceitos básicos do Power BI](end-user-basic-concepts.md).
 
 ### <a name="workspaces-and-roles"></a>Workspaces e funções
-Há dois tipos de workspaces: **Meu workspace** e workspaces de aplicativo. Apenas você tem acesso ao **Meu Workspace**. A colaboração e o compartilhamento exigem que o designer de conteúdo use um workspace de aplicativo. 
+Há dois tipos de workspaces: **Meu workspace** e workspaces de aplicativo. Apenas você tem acesso ao seu próprio **Meu workspace**. A colaboração e o compartilhamento exigem que os *designers* de conteúdo, que têm licenças Pro, usem um workspace de aplicativo. 
 
-As funções de *workspace* são usadas pelos designers do Power BI para gerenciar quem pode fazer o que em um workspace. Os *consumidores* recebem a função **Espectador**. 
+Em workspaces de aplicativo, *funções* são atribuídas pelos designers para gerenciar quem pode fazer o que nesse workspace. Os *consumidores* recebem a função **Espectador**. 
 
-### <a name="premium-capacity-subscription"></a>Assinatura na capacidade Premium
-Quando uma organização tem uma assinatura na capacidade Premium, os administradores e os usuários Pro podem atribuir workspaces à *capacidade Premium*. Um workspace em uma capacidade Premium é um espaço em que os usuários Pro podem compartilhar o conteúdo e colaborar com usuários gratuitos, sem exigir que esses usuários tenham licenças Pro. Nesses workspaces, os usuários gratuitos têm permissões elevadas (veja a lista abaixo). 
+### <a name="premium-capacity"></a>Capacidade Premium
+Quando uma organização tem uma assinatura na capacidade Premium, os administradores e os usuários Pro podem atribuir workspaces à *capacidade dedicada*. Um workspace em uma capacidade dedicada é um espaço em que os usuários Pro podem compartilhar o conteúdo e colaborar com usuários gratuitos, sem o requisito de que esses usuários tenham licenças Pro. Nesses workspaces, os usuários gratuitos têm permissões elevadas (veja a lista abaixo). 
 
 ### <a name="licenses"></a>Licenças 
-Cada usuário do serviço do Power BI tem uma licença gratuita ou uma licença Pro. Determinados recursos são reservados para usuários com licenças Pro.
+Cada usuário do serviço do Power BI tem uma licença gratuita ou uma licença Pro. Os *consumidores* têm licenças gratuitas.
 
-- **Licença gratuita**: normalmente atribuídas aos *consumidores* de uma organização. Também usada por qualquer pessoa que se inscreva no Power BI como um indivíduo e deseje experimentar o [serviço do Power BI no modo autônomo](../service-self-service-signup-for-power-bi.md).  
-- **Licença Pro**: normalmente atribuída a designers, analistas e desenvolvedores de uma organização.   
-- **Licença gratuita + capacidade Premium**: permite que os usuários gratuitos (*consumidores*) vejam o conteúdo que os usuários Pro criaram na capacidade Premium e compartilharam, além de interagir com ele. Dessa forma, os usuários Pro podem colaborar com os usuários gratuitos no workspace ou por meio do recurso **Compartilhado comigo**.
+- **Licença gratuita**: normalmente atribuídas aos *consumidores* de uma organização (veja a primeira imagem abaixo). Também atribuída a qualquer pessoa que se inscreva no serviço do Power BI como um indivíduo e deseje experimentar o [serviço do Power BI no modo autônomo](../service-self-service-signup-for-power-bi.md) (veja a segunda imagem abaixo). 
 
-Para os usuários gratuitos, ser membro de uma organização que tenha uma assinatura na capacidade Premium é o que dá a eles superpoderes. Desde que os seus colegas Pro usem workspaces na capacidade Premium para compartilhar o conteúdo, os usuários gratuitos poderão ver o conteúdo e colaborar com eles.  **Dessa forma, o usuário gratuito torna-se um *consumidor* do Power BI, com a capacidade de receber e compartilhar o conteúdo para tomar decisões de negócios.** 
+    ![tela mostrando usuário gratuito](media/end-user-features/power-bi-free-organization.png)
+
+    Para os usuários gratuitos, ser membro de uma organização que tenha uma capacidade Premium é o que dá a eles superpoderes. Desde que os seus colegas Pro usem workspaces na capacidade Premium para compartilhar o conteúdo, os usuários gratuitos poderão ver o conteúdo e colaborar com eles.  **Dessa forma, o usuário gratuito torna-se um *consumidor* do Power BI, com a capacidade de receber e compartilhar o conteúdo para tomar decisões de negócios.** 
+ 
+    ![tela mostrando usuário gratuito](media/end-user-features/power-bi-free-user.png)
+
+
+   
 
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>Lista de recursos do Power BI para *consumidores* e usuários gratuitos
-O gráfico a seguir identifica as tarefas que podem ser executadas por um *consumidor* em uma organização que tenha uma assinatura Premium.    
+O gráfico a seguir identifica quais tarefas podem ser executadas por um *consumidor* interagindo com conteúdo na capacidade Premium e na capacidade compartilhada.    
 
-A primeira coluna representa um usuário gratuito que trabalha com o conteúdo em **Meu workspace**. Esse usuário não pode colaborar com os colegas em workspaces. Os colegas não podem compartilhar diretamente o conteúdo com esse usuário, e esse usuário não pode compartilhar o conteúdo por meio de **Meu workspace**. 
+A primeira coluna representa um usuário gratuito que trabalha com o conteúdo em **Meu workspace**. Esse usuário não pode colaborar com os colegas no serviço do Power BI. Os colegas não podem compartilhar diretamente o conteúdo com esse usuário, e esse usuário não pode compartilhar o conteúdo por meio de **Meu workspace**. 
 
 A segunda coluna representa um *consumidor*.  Um consumidor:
 
 - tem uma licença de usuário gratuito
 - faz parte de uma organização que tem uma assinatura na capacidade Premium
-- obtém o conteúdo (aplicativos, dashboards, relatórios) de usuários Pro que compartilham esse conteúdo usando workspaces de aplicativo na capacidade Premium.
+- obtém o conteúdo (aplicativos, dashboards, relatórios) de usuários Pro que compartilham esse conteúdo usando workspaces de aplicativo na capacidade dedicada.
 - recebeu a função **Espectador** nos workspaces de aplicativo. 
 
 ### <a name="legend"></a>Legenda
@@ -72,7 +79,7 @@ A segunda coluna representa um *consumidor*.  Um consumidor:
 
 ### <a name="feature-list"></a>Lista de recursos
 
-|Recursos   | Cenário 1: o usuário gratuito do Power BI que não tem acesso ao conteúdo hospedado na capacidade Premium.    | Cenário 2: o usuário gratuito do Power BI com permissões de **Espectador** no conteúdo armazenado na capacidade Premium. Essa pessoa é um *consumidor* do Power BI. |
+|Recursos   | Cenário 1: o usuário gratuito do Power BI que não tem acesso ao conteúdo hospedado na capacidade dedicada.    | Cenário 2: o usuário gratuito do Power BI com permissões de **Espectador** no conteúdo armazenado na capacidade dedicada. Essa pessoa é um *consumidor* do Power BI. |
 |---|---|---|
 |**Aplicativos** 
 |Instalação automática | ![orange x](media/end-user-features/orange-x.png) | ![green dot](media/end-user-license/power-bi-green-dot.png)*| 

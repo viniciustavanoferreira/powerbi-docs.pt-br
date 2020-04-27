@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404758"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439332"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (versão prévia)
 
@@ -30,6 +30,12 @@ Há alguns requisitos para criar fluxos de dados a partir de pastas do CDM, conf
 * Você deve ter permissões de leitura e execução em todos os arquivos e pastas da pasta do CDM para adicioná-las ao Power BI.
 
 As seções a seguir descrevem como criar um fluxo de dados de uma pasta do CDM.
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>Como autorizar usuários para pastas CDM a fim de criar um fluxo de dados
+
+Para criar um fluxo de dados de uma pasta do CDM, as seguintes permissões devem ser adicionadas:
+* O usuário que acessará a pasta do CDM por meio do Power BI precisará estar listado na função de **Proprietário de Dados do Storage Blob** da conta de armazenamento.
+* O usuário que acessará a pasta do CDM por meio do Power BI precisará ter as ACLs de **Acesso de Leitura** e de **Acesso de Execução** na pasta do CDM e nos arquivos e pastas contidos nela. 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Criar um fluxo de dados de uma pasta do CDM
 

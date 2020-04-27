@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bfec81aaa47f210855c4db4c8c97ab259b685110
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302441"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525418"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Assinar um relatório ou painel no serviço do Power BI 
 
@@ -33,7 +33,7 @@ Quando você receber o email, ele incluirá um link para "acessar o relatório o
 
 
 ## <a name="requirements"></a>Requisitos
-**Criar** uma assinatura para si mesmo exige um certo tipo de [licença](end-user-license.md). Se você não conseguir criar uma assinatura, entre em contato com o administrador do Power BI. A **Assinatura de terceiros** só está disponível para o proprietário do painel ou do relatório. Assinar relatórios paginados é um pouco diferente. Confira  [Obter uma assinatura para você e para outras pessoas de um relatório paginado no serviço do Power BI](paginated-reports-subscriptions.md) para obter detalhes. 
+**Criar** uma assinatura para si mesmo exige um certo tipo de [licença](end-user-license.md). Se você não conseguir criar uma assinatura, entre em contato com o administrador do Power BI. A **Assinatura de terceiros** só está disponível para o proprietário do painel ou do relatório. Assinar relatórios paginados é um pouco diferente. Confira [Obter uma assinatura para você e para outras pessoas de um relatório paginado no serviço do Power BI](paginated-reports-subscriptions.md) para obter detalhes. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Assine um dashboard ou uma página de relatório
 Se você estiver assinando um dashboard ou relatório, o processo será semelhante. O mesmo botão permite que você assine os dashboards e relatórios do serviço do Power BI.
@@ -55,9 +55,9 @@ Se você estiver assinando um dashboard ou relatório, o processo será semelhan
 
     c. Outra opção é adicionar os detalhes da mensagem de email ou o assunto. 
 
-    d. Selecione uma **Frequência** para sua assinatura.  Você pode escolher Diária, Semanal ou Após a atualização de dados (Diária).  Para receber o email de assinatura somente em determinados dias, selecione **Semanal** e escolha em quais dias você gostaria de recebê-lo.  Por exemplo, se você quiser receber o email de assinatura somente em dias úteis, selecione **Semanal** como a sua frequência e desmarque as caixas Sáb e Dom. Se você selecionar  **Mensal**, insira o(s) dia(s) do mês em que deseja receber o email da assinatura.   
+    d. Selecione uma **Frequência** para sua assinatura.  Você pode escolher Diária, Semanal ou Após a atualização de dados (Diária).  Para receber o email de assinatura somente em determinados dias, selecione **Semanal** e escolha em quais dias você gostaria de recebê-lo.  Por exemplo, se você quiser receber o email de assinatura somente em dias úteis, selecione **Semanal** como a sua frequência e desmarque as caixas Sáb e Dom. Se você selecionar **Mensal**, insira o(s) dia(s) do mês em que deseja receber o email da assinatura.   
 
-    e. Se você escolher Diária, Por Hora, Mensal ou Semanal, também poderá selecionar uma Hora Agendada para a assinatura. Você faz com que ela seja executada na hora exata ou após 15, 30 ou 45 minutos. Selecione manhã (A.M.) ou tarde/noite (P.M.). Você também pode especificar o fuso horário. Se você escolher Por Hora, selecione o Horário Agendado em que deseja que a assinatura inicie e ela será executada de hora em hora a partir de então.  
+    e. Se você escolher Diária, Por Hora, Mensal ou Semanal, também poderá escolher um Horário Agendado para a assinatura. Você faz com que ela seja executada na hora exata ou após 15, 30 ou 45 minutos. Selecione manhã (A.M.) ou tarde/noite (P.M.). Você também pode especificar o fuso horário. Se você escolher Por Hora, selecione o Horário Agendado em que deseja iniciar a assinatura e ela será executada de hora em hora a partir de então.  
 
     f. Agende as datas de início e de término, inserindo-as nos respectivos campos. Por padrão, a hora de início para sua assinatura será a data em que você a criar, enquanto a data de término será um ano depois. É possível alterar para qualquer data no futuro (até o ano 9999) a qualquer momento antes do término da assinatura. Quando uma assinatura atinge uma data de término, ela é interrompida até que você a habilite novamente.  Você receberá notificações antes da data de término agendada, perguntando se você deseja estendê-la.     
 
@@ -73,7 +73,7 @@ Se você estiver assinando um dashboard ou relatório, o processo será semelhan
 
 
 ## <a name="manage-your-subscriptions"></a>Gerenciar suas assinaturas
-Você só pode gerenciar as assinaturas criadas por você. Selecione **Assinar** novamente e escolha **Gerenciar todas as assinaturas** no canto inferior esquerdo (veja as capturas de tela acima). As assinaturas específicas exibidas dependerão de qual workspace está ativo no momento. Para ver todas as suas assinaturas de todos os workspaces ao mesmo tempo, verifique se  **Meu Workspace**  está ativo. Para obter ajuda para entender os workspaces, confira  [Workspaces no Power BI](end-user-workspaces.md). 
+Você só pode gerenciar as assinaturas criadas por você. Selecione **Assinar** novamente e escolha **Gerenciar todas as assinaturas** no canto inferior esquerdo (veja as capturas de tela acima). As assinaturas específicas exibidas dependerão de qual workspace está ativo no momento. Para ver todas as suas assinaturas de todos os workspaces ao mesmo tempo, verifique se **Meu Workspace** está ativo. Para obter ajuda para entender os workspaces, consulte [Workspaces no Power BI](end-user-workspaces.md). 
 
 ![veja todas as assinaturas no Meu workspace](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 

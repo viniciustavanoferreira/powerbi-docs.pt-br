@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2020
+ms.date: 04/22/2020
 ms.author: davidi
-ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427244"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066207"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Dicas e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo seus dados, às vezes você precisa de uma ajuda extra. Reunimos algumas dicas e truques que você pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot habilitado e o Power Query instalado e habilitado. 
@@ -87,7 +87,7 @@ Verifique se o tipo de dados é um número para a coluna agregada resultante. Ag
 
 Definindo um histograma que dá suporte à varredura – Varredura é quando os visuais são vinculados para que, quando um usuário selecionar um ponto de dados em um elemento visual, os outros elementos visuais na página do relatório realcem ou filtrem pontos de dados relacionados ao ponto de dados selecionado. Como estamos manipulando dados no momento da consulta, precisaremos criar uma relação entre tabelas e garantir que saibamos qual item detalhado se relaciona ao bucket no histograma e vice-versa.
 
-Inicie o processo usando a opção “Referência” na consulta que contém o campo no qual você deseja criar um histograma. Nomeie a nova consulta “Buckets”. Para este exemplo, vamos chamar a consulta original “Detalhes”. Em seguida, remova todas as colunas, exceto a coluna que você usará como o bucket do histograma. Agora, use o recurso “Remover Duplicatas” na consulta, no menu de atalho ao selecionar a coluna, para que os valores restantes sejam os valores exclusivos na coluna. Se você tiver números decimais, primeiro você poderá usar a dica para definir buckets para criar um histograma para obter um conjunto gerenciável de buckets. Agora, verifique os dados mostrados na visualização da consulta. Se você vir valores nulos ou em branco, você precisará corrigi-los antes de criar uma relação. Veja “Criando relações quando os dados contêm valores nulos ou em branco”. Usar essa abordagem pode ser problemático devido à necessidade de classificação. Para que os buckets sejam classificados corretamente, veja “Ordem de classificação: fazem com que as categorias apareçam na ordem desejada”. 
+Inicie o processo usando a opção “Referência” na consulta que contém o campo no qual você deseja criar um histograma. Nomeie a nova consulta “Buckets”. Para este exemplo, vamos chamar a consulta original de "Detalhes". Em seguida, remova todas as colunas, exceto a coluna que você usará como o bucket do histograma. Agora, use o recurso “Remover Duplicatas” na consulta, no menu de atalho ao selecionar a coluna, para que os valores restantes sejam os valores exclusivos na coluna. Se você tiver números decimais, poderá primeiro usar a dica para definir buckets para criar um histograma para obter um conjunto gerenciável de buckets. Agora, verifique os dados mostrados na visualização da consulta. Se você vir valores nulos ou em branco, precisará corrigi-los antes de criar uma relação. Veja “Criando relações quando os dados contêm valores nulos ou em branco”. Usar essa abordagem pode ser problemático devido à necessidade de classificação. Para que os buckets sejam classificados corretamente, veja “Ordem de classificação: fazem com que as categorias apareçam na ordem desejada”. 
 
 >[!NOTE]
 >É útil pensar sobre a ordem de classificação antes de compilar visuais. 
@@ -148,10 +148,10 @@ Agora você tem uma tabela de dimensões que pode ser usada para relacionar Cust
 O Editor de Consultas é bastante eficiente em como ele pode manipular dados para formatar e limpá-los para que estejam prontos para serem visualizados ou modelados. Existem alguns padrões que você deve conhecer.
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>As colunas temporárias podem ser excluídas após o cálculo de um resultado
-Geralmente, você precisa criar um cálculo no Power BI Desktop que transforma dados de várias colunas em única nova coluna. Isso pode ser complexo. Uma forma fácil de resolver esse problema é decompor a operação em etapas. Comece duplicando as colunas iniciais. Em seguida, crie nas etapas colunas temporárias. Em seguida, crie uma coluna para o resultado final. Depois, você pode excluir as colunas temporárias para que o conjunto de dados final não seja agrupado. Isso é possível porque a guia de consulta executa as etapas na ordem. 
+Geralmente, você precisa criar um cálculo no Power BI Desktop que transforma dados de várias colunas em única nova coluna. Isso pode ser complexo. Uma forma fácil de resolver esse problema é decompor a operação em etapas. Comece duplicando as colunas iniciais. Em seguida, crie as colunas temporárias. Depois, crie uma coluna para o resultado final. Depois, você pode excluir as colunas temporárias para que o conjunto de dados final não seja agrupado. Isso é possível porque a guia de consulta executa as etapas na ordem. 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>Duplicar ou referenciar consultas seguidas de mesclagem na consulta original
-Às vezes é bastante útil computar estatísticas de resumo para um conjunto de dados. A forma mais fácil de fazer isso é duplicar ou fazer referência à consulta na guia de consulta. Em seguida, use **Agrupar por** para calcular as estatísticas de resumo. As estatísticas de resumo ajudam você a normalizar os dados nos dados originais para que eles sejam mais comparáveis do que em . Isso é especialmente útil para comparar valores individuais com o todo. Para fazer isso, vá para a consulta original e selecione a opção de mesclagem. Em seguida, mescle os dados da consulta de estatísticas de resumo que corresponde aos identificadores apropriados. Agora você está pronto para normalizar os dados conforme necessário para a sua análise.
+Às vezes é bastante útil computar estatísticas de resumo para um conjunto de dados. A forma mais fácil de fazer isso é duplicar ou fazer referência à consulta na guia de consulta. Em seguida, use **Agrupar por** para calcular as estatísticas de resumo. As estatísticas de resumo ajudam você a normalizar os dados nos dados originais para que eles sejam mais comparáveis. Isso é especialmente útil para comparar valores individuais com o todo. Para fazer isso, vá para a consulta original e selecione a opção de mesclagem. Em seguida, mescle os dados da consulta de estatísticas de resumo que corresponde aos identificadores apropriados. Agora você está pronto para normalizar os dados conforme necessário para a sua análise.
 
 ## <a name="using-dax-for-the-first-time"></a>Usando o DAX pela primeira vez
 DAX é a linguagem de fórmula de cálculo no Power BI Desktop. Ele é otimizado para a análise de BI. É um pouco diferente do que você talvez esteja familiarizado se você usou apenas uma linguagem de consulta como SQL. Há muito bons recursos online e na literatura para aprender sobre o DAX. 
@@ -161,3 +161,64 @@ DAX é a linguagem de fórmula de cálculo no Power BI Desktop. Ele é otimizado
 [Referência do DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [Central de recursos do DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+
+## <a name="power-bi-service-and-power-bi-desktop"></a>Serviço do Power BI *e* Power BI Desktop
+
+### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leia e/ou assista a “How to design visually stunning reports (and dashboards) in Power BI” (Como criar relatórios [e dashboards] visualmente impressionantes no Power BI)
+O membro da comunidade Miguel Myers é Cientista de Dados e Designer Gráfico.
+
+![Relatório do Power BI](media/desktop-tips-and-tricks-for-creating-reports/power-bi-reports.png)
+
+* [Ler o blog](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
+* [Assistir ao webinar](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+
+### <a name="consider-your-audience"></a>Considere seu público-alvo
+Quais são as principais métricas que ajudarão a tomar decisões? Como o relatório será usado? Quais suposições aprendidas ou culturais podem afetar nas opções de design? Quais informações o público-alvo precisa para ser bem-sucedido?
+
+Onde o relatório será exibido? Se ele estiver em um monitor grande, você pode colocar mais conteúdo nele. Se os leitores o visualizarem em seus tablets, menos visualizações serão mais legíveis.
+
+### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Conte uma história e mantenha-o na tela
+Cada página do relatório deve contar uma história em uma visão rápida. É possível evitar as barras de rolagem nas suas páginas? O relatório está muito confuso ou muito sobrecarregado?  Remova informações que não são essenciais que podem ser facilmente lidas e interpretadas.
+
+### <a name="make-the-most-important-information-biggest"></a>Adicione as informações mais importantes ao seu painel
+Se o texto e visualizações na sua página de relatório são do mesmo tamanho, os leitores terão dificuldade para se concentrar no que é mais importante. Por exemplo, as visualizações de cartão são uma boa maneira de exibir um número importante em destaque:  
+![Visualização de cartão](media/service-dashboards-design-tips/pbi_card.png)
+
+### <a name="but-be-sure-to-provide-context"></a>Mas não se esqueça de fornecer contexto.  
+
+Use recursos como caixas de texto e dicas de ferramenta para adicionar contexto a suas visualizações.
+
+### <a name="put-the-most-important-information-in-the-upper-corner"></a>Colocar as informações mais importantes no canto superior
+A maioria das pessoas leem de cima para baixo, colocando o nível mais alto de detalhes na parte superior e mostrando mais detalhes à medida que você move na direção que o público-alvo usa para ler (esquerda para direita, direita para esquerda).
+
+### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Usar a visualização da direita para os dados e formatá-la para facilitar a leitura
+Evite a variedade de visualização para fins diversos.  As visualizações devem ter uma visão geral e ser fácil de "ler" e interpretar.  Alguns dados e visualizações, uma visualização gráfica simples é suficiente. Mas podem chamar outros dados para uma visualização mais complexa - Certifique-se de fazer uso de títulos e rótulos e outras personalizações para ajudar o leitor.  
+
+* Tenha cuidado ao usar gráficos que distorçam a realidade, como gráficos em 3D e gráficos que não começam em zero. Tenha em mente que é mais difícil para o cérebro humano interpretar formas circulares. Os gráficos de pizza, os gráficos de rosca, os medidores e outros tipos de gráfico circular podem parecer muito bons, mas será que você não deveria usar um visual diferente?    
+* Seja consistente com escalas de gráfico de eixos, ordenação de dimensão do gráfico e também as cores usadas para valores de dimensão em gráficos.    
+* Certifique-se de codificar os dados quantitativos perfeitamente. Não exceda numerais de três ou quatro ao exibir números. Exibir medidas com um ou dois números à esquerda do ponto decimal e escala de milhares ou milhões, ou seja de 3,4 milhões, não 3.400.000.    
+* Procure não misturar os níveis de precisão e tempo. Certifique-se de que períodos de tempo são bem compreendidos.  Não é necessário um gráfico que tem o mês passado ao lado de gráficos filtrados de um determinado mês do ano.    
+* Além disso, evite misturar medidas grandes e pequenas na mesma escala, como em uma linha ou um gráfico de barras.  Por exemplo, uma medida pode ser em milhões e outras medidas em milhares.  Com grande escala, seria difícil ver as diferenças da medida que está em milhares.  Se você precisar combinar, escolha uma visualização, como um gráfico de combinação, que permite o uso de um segundo eixo.    
+* Evite sobrecarregar os gráficos com rótulos de dados que não são necessários. Os valores em gráficos de barras, ***se forem grandes o suficiente***, são normalmente bem compreendidos sem exibir o número real.   
+* Preste atenção em como os [gráficos são classificados](consumer/end-user-change-sort.md). Se você deseja chamar a atenção para o número mais alto ou mais baixo, classifique pela medida. Se você quiser que as pessoas possam localizar rapidamente uma categoria específica em muitas outras categorias, classifique pelo eixo.  
+* Gráficos de pizza são recomendados se eles tiver menos de oito categorias. Porque você não pode comparar valores lado a lado, é mais difícil comparar valores em um gráfico de pizza do que em gráficos de barras e colunas. Os gráficos de pizza pode ser bons para exibir relações de parte de inteiro em vez de comparar as partes. E gráficos de medidor são ótimos para exibir o status atual no contexto de uma meta.    
+
+Para obter diretrizes específicas da visualização, veja [Tipos de visualização no Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
+
+### <a name="learn-more-about-best-practice-dashboard-design"></a>Saiba mais sobre a Melhor Prática do Painel de Design
+Alguns dos nossos livros favoritos incluem:
+
+* *Storytelling with Data* por Cole Nussbaumer Knafic
+* *Data points* por Nathan Yau
+* *The truthful Art* por Alberto Cairo
+* *Now You See It* de Stephen Few  
+* *Envisioning Information* de Edward Tufte  
+* *Advanced Presentations Design* por Andrew Abela   
+
+## <a name="next-steps"></a>Próximas etapas
+* [Conceitos básicos para designers no serviço do Power BI](service-basic-concepts.md)
+* [Relatórios no Power BI](consumer/end-user-reports.md)
+
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
+
+

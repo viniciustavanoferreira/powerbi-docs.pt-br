@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436335"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256150"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Clientes do Power BI for US Government
 Este artigo se destina aos clientes do Governo dos EUA que estão implantando o Power BI como parte de um plano do Office 365 Government. Os planos governamentais são projetados para as necessidades exclusivas das organizações que devem atender aos padrões de conformidade e segurança dos EUA. O serviço do Power BI projetado para os clientes do Power BI for US Government é diferente da versão comercial do serviço do Power BI. As funcionalidades e diferenças do recurso estão descritas nas seções a seguir.
@@ -88,7 +88,7 @@ Para atender aos requisitos dos clientes de nuvem governamental, existem algumas
 |Criação de relatório|Criar e exibir dashboards e relatórios|Disponível|Disponível|Disponível|
 |  |Atualização de dados agendada|Disponível|Disponível|Disponível|
 |  |Dashboards de equipe atualizáveis|Disponível|Disponível|Disponível|
-|  |Relatórios paginados|Disponível|Disponível|No roteiro|
+|  |Relatórios paginados|Disponível|No roteiro|No roteiro|
 |  |Aplicativos de modelo|Não disponível|Não disponível|Não disponível|
 |Conectar aos dados|Importação de dados e relatórios do Excel|Disponível|Disponível|Disponível|
 |  |Importação de dados de arquivos CSV|Disponível|Disponível|Disponível|

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709560"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584828"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Especificar categorias de dados no Power BI Desktop
 No Power BI Desktop, você pode especificar a *categoria de dados* para uma coluna de modo que o Power BI Desktop saiba como deve tratar seus valores em uma visualização.
@@ -33,7 +33,7 @@ O Power BI Desktop deve mostrar uma imagem do mundo com os países realçados? O
 **Para especificar uma categoria de dados**
 
 1. Na Exibição de **Relatório** ou de **Dados**, na lista **Campos**, selecione o campo que você deseja classificar por uma categorização diferente.
-2. Na faixa de opções, na área **Propriedades** da guia **Modelagem**, selecione a seta suspensa ao lado de **Categoria de Dados**.  Essa lista mostra as categorias de dados possíveis que você pode escolher para a coluna. Algumas seleções podem ser desabilitadas se não funcionarem com o tipo de dados atual da coluna.  Por exemplo, se uma coluna for um tipo de dados binário, o Power BI Desktop não permite que você escolha categorias de dados geográficos. 
+2. Na faixa de opções, na área **Propriedades** da guia **Modelagem**, selecione a seta suspensa ao lado de **Categoria de Dados**.  Essa lista mostra as categorias de dados possíveis que você pode escolher para a coluna. Algumas seleções podem ser desabilitadas se não funcionarem com o tipo de dados atual da coluna.  Por exemplo, se uma coluna for um tipo de dados de data ou hora, o Power BI Desktop não permitirá que você escolha categorias de dados geográficos. 
 3. Selecione a categoria desejada.
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

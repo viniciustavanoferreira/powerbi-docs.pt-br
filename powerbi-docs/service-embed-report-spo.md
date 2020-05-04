@@ -1,23 +1,23 @@
 ---
-title: Inserir com Web Part de Relatório no SharePoint Online
+title: Inserir uma web part de relatório no SharePoint Online
 description: Com a nova Web Part de Relatório do Power BI para o SharePoint Online, você pode facilmente inserir relatórios interativos do Power BI às páginas do SharePoint Online.
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221702"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585205"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>Inserir com Web Part de Relatório no SharePoint Online
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>Inserir uma web part de relatório no SharePoint Online
 
 Com a nova Web Part de Relatório do Power BI para o SharePoint Online, você pode facilmente inserir relatórios interativos do Power BI às páginas do SharePoint Online.
 
@@ -38,9 +38,9 @@ Para inserir seu relatório no SharePoint Online, é necessário obter a URL de 
 
 1. No Power BI, veja o relatório.
 
-2. Selecione o menu suspenso **Arquivo**, selecione **Inserir no SharePoint Online**.
+2. No menu suspenso **Mais opções (...)** , selecione **Inserir** > **SharePoint Online**.
 
-    ![Menu Arquivo](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![Menu Mais opções, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. Copie a URL de relatório da caixa de diálogo.
 

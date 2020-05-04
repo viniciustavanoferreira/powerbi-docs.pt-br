@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42455033a0853cc9a962d3167ed8a69a0f42c4e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496920"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120265"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e usar aplicativos com dashboards e relatórios no Power BI
 
@@ -28,6 +28,11 @@ Agora que você tem uma [noção básica sobre aplicativos](end-user-apps.md), v
 Há várias maneiras de obter um novo aplicativo. Um colega de designer de relatório pode instalar o aplicativo automaticamente em sua conta do Power BI ou enviar um link direto para um aplicativo. Você pode ir para AppSource e pesquisar aplicativos disponibilizados para você pelos designers de aplicativos tanto dentro quanto fora da empresa. 
 
 No Power BI em seu dispositivo móvel, você só pode instalar um aplicativo de um link direto, e não do AppSource. Se o designer de aplicativo instalar o aplicativo automaticamente, você o verá na sua lista de aplicativos.
+
+## <a name="apps-and-licenses"></a>Aplicativos e licenças
+Nem todos os usuários do Power BI podem ver aplicativos e interagir com eles. 
+- Se você tiver uma licença gratuita, poderá abrir aplicativos que foram compartilhados com você e que estão armazenados em um workspace na capacidade Premium.
+- Se você tiver uma licença Pro, poderá abrir aplicativos compartilhados com você.
 
 ## <a name="install-an-app-from-a-direct-link"></a>Instalar um aplicativo por meio de um link direto
 A maneira mais fácil de instalar um novo aplicativo é obter um link direto, no email, do designer de aplicativo.  
@@ -45,7 +50,10 @@ Quando você seleciona o link no email em seu dispositivo móvel, o aplicativo �
 ![Lista de conteúdo do aplicativo no dispositivo móvel](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>Obter o aplicativo no Microsoft AppSource
-Você também pode localizar e instalar aplicativos do Microsoft AppSource. Apenas os aplicativos aos quais você tem acesso (ou seja, quando o autor do aplicativo forneceu permissão a você ou a todos) são exibidos.
+Você também pode localizar e instalar aplicativos do Microsoft AppSource. Apenas os aplicativos aos quais você tem acesso (ou seja, quando o autor do aplicativo forneceu permissão a você ou a todos) são exibidos. 
+
+> [!NOTE]
+> Se você estiver usando uma licença de usuário gratuito, poderá baixar aplicativos, mas não poderá vê-los, a menos que atualize sua conta para uma conta do Power BI Pro ou a menos que o aplicativo esteja armazenado na capacidade Premium. Para obter mais informações, confira [Licenças para consumidores](end-user-license.md).
 
 1. Selecione **Aplicativos**  > **Obter aplicativos**. 
    
@@ -79,7 +87,12 @@ Neste exemplo, vamos abrir um dos aplicativos de exemplo da Microsoft. No AppSou
 
 5. O serviço do Power BI exibirá uma mensagem quando o aplicativo for instalado. Selecione **Ir para o aplicativo** para abri-lo. De acordo com o designer que criou o aplicativo, será exibido o dashboard ou o relatório.
 
+
+
     ![Aplicativo instalado ](./media/end-user-apps/power-bi-app-ready.png)
+
+    > [!NOTE]
+    > Se você estiver usando uma licença de usuário gratuito, poderá baixar aplicativos, mas não poderá vê-los, a menos que atualize sua conta para uma conta do Power BI Pro. 
 
     Também é possível abrir o aplicativo diretamente na lista de conteúdo do aplicativo selecionando **Aplicativos** e escolhendo **Vendas e Marketing**.
 
@@ -123,8 +136,6 @@ Periodicamente, os criadores de aplicativos podem lançar novas versões dos apl
     > A instalação de uma nova versão substitui as alterações que possam ter sido feitas nos relatórios e nos dashboards. Para manter seus relatórios e seus dashboard atualizados, salve-os com outro nome ou em uma localização diferente antes da instalação. 
 
     4. Depois de instalar a versão atualizada, selecione **Atualizar aplicativo** para concluir o processo de atualização. 
-
-    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>Próximas etapas

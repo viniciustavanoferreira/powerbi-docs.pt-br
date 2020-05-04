@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006770"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585074"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 
@@ -131,6 +131,11 @@ No relatório atual, a página **Vendas Mensais Regionais** tem uma segmentaçã
     >[!NOTE]
     >Se você sincronizar uma segmentação de dados com uma página, mas não a deixar visível nessa página, as seleções de segmentações feitas nas outras páginas ainda filtrarão os dados na página.
  
+## <a name="filtering-slicers"></a>Como filtrar segmentações
+Você pode aplicar filtros no nível do visual às segmentações para reduzir a lista de valores exibidos na segmentação. Por exemplo, filtre os valores em branco de uma segmentação de lista ou determinadas datas de uma segmentação de intervalo. Quando você faz isso, isso só afeta *os valores mostrados na segmentação*, não *o filtro que a segmentação aplica aos outros visuais* ao fazer uma seleção. Por exemplo, digamos que você aplique um filtro a uma segmentação de intervalo para mostrar apenas determinadas datas. A seleção na segmentação mostrará apenas a primeira e a última data desse intervalo, mas você ainda verá outras datas nos outros visuais. Depois de alterar o intervalo selecionado na segmentação, você verá os outros visuais serem atualizados. A limpeza da segmentação mostrará todas as datas novamente.
+
+Confira [Tipos de filtro](../power-bi-report-filter-types.md) para obter mais informações sobre filtros no nível do visual.
+
 ## <a name="format-slicers"></a>Formatar segmentações
 Diferentes opções de formatação estão disponíveis dependendo do tipo de segmentação. Usando a orientação **Horizontal**, layout **Dinâmico** e cores **Item**, você pode produzir botões ou blocos em vez de itens de lista padrão e fazer com que os itens da segmentação sejam redimensionados de acordo com diferentes tamanhos de telas e layouts.  
 

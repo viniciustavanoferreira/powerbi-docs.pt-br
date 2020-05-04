@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729703"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584754"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados com suporte no Power BI Desktop e DAX (Data Analysis Expressions). 
@@ -35,6 +35,8 @@ Na área de trabalho do Power BI, você pode determinar e especificar o tipo de 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 A lista suspensa Tipo de Dados no Editor de Consultas tem dois tipos de dados que não estão presentes atualmente nos Modos de Exibição de Dados ou de Relatório: **Data/Hora/Fuso horário** e **Duração**. Quando uma coluna com esses tipos de dados for carregada no modelo e exibida no modo de exibição Dados ou Relatório, uma coluna com o tipo de dados Data/Hora/Fuso Horário será convertida em Data/Hora e uma coluna com o tipo de dados Duração será convertida em um Número Decimal.
+
+Atualmente, não há suporte para o tipo de dados **Binary** fora do Editor de Consultas. No Editor de Consultas, você poderá usá-lo ao carregar arquivos binários se o converter em outros tipos de dados antes de carregá-lo no modelo do Power BI. Ele está localizado nos menus Exibição de Dados e Exibição de Relatório por motivos herdados, mas se você tentar carregar colunas binárias no modelo do Power BI, poderá receber erros.  
 
 ### <a name="number-types"></a>Tipos de número
 O Power BI Desktop dá suporte a três tipos de número:
@@ -71,6 +73,16 @@ O Power BI Desktop dá suporte a cinco tipos de dados de data/hora na Visualiza�
 
 ### <a name="blanksnulls-type"></a>Tipo em branco/nulos
 **Em branco** - é um tipo de dados em DAX que representa e substitui nulos SQL. Você também pode gerar um elemento em branco usando a função [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) e testar elementos em branco usando a função lógica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+
+### <a name="binary-data-type"></a>Tipo de dados Binary
+
+O tipo de dados Binary pode ser usado para representar outros dados com um formato binário. No Editor de Consultas, você poderá usá-lo ao carregar arquivos binários se você o converter em outros tipos de dados antes de carregá-lo no modelo do Power BI. Não há suporte para colunas binárias no modelo de dados do Power BI. Ele está localizado nos menus Exibição de Dados e Exibição de Relatório por motivos herdados, mas se você tentar carregar colunas binárias no modelo do Power BI, poderá receber erros.
+
+
+> [!NOTE]
+>  Se uma coluna binária estiver na saída das etapas de uma consulta, a tentativa de atualizar os dados por meio de um gateway poderá causar erros. Recomendamos que você remova explicitamente todas as colunas binárias como a última etapa nas consultas.    
+> 
+>
 
 ### <a name="table-data-type"></a>Tipo de dados de tabela
 O DAX usa um tipo de dados de tabela em muitas funções, como agregações e cálculos de inteligência de dados temporais. Algumas funções exigem uma referência a uma tabela; outras funções retornam uma tabela que pode ser usada como entrada para outras funções. Em algumas funções que exigem uma tabela como entrada, você pode especificar uma expressão que é avaliada como uma tabela; para algumas funções, é necessária uma referência a uma tabela base. Para obter informações sobre os requisitos de funções específicas, consulte [Referência de função DAX](https://msdn.microsoft.com/library/ee634396.aspx).

@@ -7,26 +7,28 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488811"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585047"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserir um relatório em um site ou portal seguro
 
 Com a nova opção **Inserir** para relatórios do Power BI, você pode inserir relatórios em portais Web internos com facilidade e segurança. Esses portais podem ser **baseados em nuvem** ou **hospedados localmente**, como o SharePoint 2019. Relatórios inseridos respeitam todas as permissões de itens e segurança de dados por meio da [RLS (Segurança em Nível de Linha)](service-admin-rls.md). Eles fornecem a inserção sem código em qualquer portal que aceite uma URL ou iFrame. 
 
-A opção **Inserir** é compatível com [Filtros de URL](service-url-filters.md) e configurações de URL. Ela permite a integração com portais usando uma abordagem de codificação mínima que requer apenas conhecimentos básicos de HTML e JavaScript.
+A opção **Inserir** dá suporte aos [filtros de URL](service-url-filters.md) e às configurações de URL. Ela permite a integração com portais usando uma abordagem de codificação mínima que requer apenas conhecimentos básicos de HTML e JavaScript.
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>Como **Inserir** relatórios do Power BI em portais
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Como inserir relatórios do Power BI em portais
 
-1. A nova opção **Inserir** está disponível no menu **Arquivo** para relatórios no serviço do Power BI.
+1. Abra um relatório no serviço do Power BI.
 
-    ![Opção da lista suspensa da opção Inserir segura](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. No menu **Mais opções (...)** , selecione **Inserir** >  **Site ou portal**.
+
+    ![Opção de site ou portal](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. Escolha a opção **Inserir** para abrir uma caixa de diálogo que fornece um link e um iFrame que podem ser usados para inserir o relatório com segurança.
 

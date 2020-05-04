@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114420"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585442"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -203,32 +203,30 @@ A imagem a seguir mostra a mensagem exibida quando você compartilha com um usu�
 
 ### <a name="publish-to-web"></a>Publicar na Web
 
-Os usuários na organização podem publicar relatórios na Web. [Saiba mais](service-publish-to-web.md). Isso disponibiliza o relatório e os dados contidos nele para qualquer pessoa na Web.
+Como administrador de um locatário do Power BI, usando a configuração **Publicar na Web**, você tem opções para quais usuários podem criar códigos de inserção a fim de publicar relatórios na Web. Essa funcionalidade disponibiliza o relatório e os respectivos dados para qualquer pessoa na Web. Saiba mais sobre a [publicação na Web](service-publish-to-web.md).
 
 > [!NOTE]
-> Um administrador do Power BI deve permitir a criação de novos códigos de inserção de publicação na web. As organizações podem ter códigos de inserção existentes; use a página [Códigos de inserção](service-admin-portal.md#embed-codes) para revisar os relatórios publicados atualmente.
+> Somente os administradores do Power BI podem permitir a criação de códigos de inserção de publicação na Web. As organizações já podem ter códigos de inserção. Confira a seção [Códigos de inserção](service-admin-portal.md#embed-codes) do portal de administração para examinar os relatórios atualmente publicados.
 
-A imagem a seguir mostra o menu **Arquivo** de um relatório quando a configuração **Publicar na Web** está habilitada.
+A imagem a seguir mostra o menu **Mais opções (...)** de um relatório quando a configuração **Publicar na Web** está habilitada.
 
-![Publicar na Web no menu arquivo](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Publicar na Web no menu Mais opções](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
-A configuração **Publicar na Web** fornece opções com as quais os usuários podem criar códigos de inserção.
+A configuração **Publicar na Web** do portal de administração fornece opções para quais usuários podem criar códigos de inserção.
 
 ![Configuração Publicar na Web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-
-Os usuários precisarão entrar em contato com o administrador do Power BI para que ele permita a criação de códigos de inserção se a opção **Escolher como os códigos de inserção funcionam** estiver definida como **Permitir somente código de inserção existentes** e a configuração **Publicar na Web** estiver **Habilitada**.
+Os administradores podem definir **Publicar na Web** como **Habilitado** e **Escolher como os códigos de inserção funcionam** para **Permitir somente os códigos de inserção existentes**. Nesse caso, os usuários podem criar códigos de inserção, mas precisam entrar em contato com o administrador do Power BI para que ele conceda essa permissão.
 
 ![Solicitação Publicar na Web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
 
 Os usuários veem diferentes opções na interface do usuário a depender do local onde se encontra a configuração de **Publicar na Web**.
 
 |Recurso |Habilitado para toda a organização |Desabilitado para toda a organização |Grupos de segurança específicos   |
 |---------|---------|---------|---------|
-|**Publicar na Web** no menu **Arquivo** do relatório.|Habilitado para todos|Não visível para todos|Visível somente para usuários ou grupos autorizados.|
+|**Publicar na Web** no menu **Mais opções (...)** do relatório|Habilitado para todos|Não visível para todos|Visível somente para usuários ou grupos autorizados.|
 |**Gerenciar códigos de inserção** em **Configurações**|Habilitado para todos|Habilitado para todos|Habilitado para todos<br><br>Opção * **Excluir** somente para usuários ou grupos autorizados.<br>* **Obter códigos** habilitados para todos.|
-|**Códigos de inserção** no portal de administração|O status refletirá uma das seguintes opções:<br>* Ativo<br>* Sem suporte<br>* Bloqueado|O status é exibido como **desabilitado**|O status refletirá uma das seguintes opções:<br>* Ativo<br>* Sem suporte<br>* Bloqueado<br><br>Se um usuário não estiver autorizado conforme a configuração do locatário, o status exibirá **violado**.|
+|**Códigos de inserção** no portal de administração|O status refletirá uma das seguintes opções:<br>* Ativo<br>* Sem suporte<br>* Bloqueado|O status é exibido como **desabilitado**|O status refletirá uma das seguintes opções:<br>* Ativo<br>* Sem suporte<br>* Bloqueado<br><br>Se um usuário não estiver autorizado conforme a configuração do locatário, o status exibirá **Violado**.|
 |Relatórios publicados existentes|Tudo habilitado|Tudo desabilitado|Os relatórios continuam a ser renderizados para todos.|
 
 ### <a name="export-data"></a>Exportar dados

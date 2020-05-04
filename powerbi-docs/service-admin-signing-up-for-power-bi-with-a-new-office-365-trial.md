@@ -1,38 +1,62 @@
 ---
-title: Inscrever-se no Power BI com uma nova versão de avaliação do Office 365
-description: Inscrever-se no Power BI com uma nova versão de avaliação do Office 365
+title: Como se inscrever no Power BI com uma nova avaliação do Microsoft 365
+description: Como se inscrever no Power BI com uma nova avaliação do Microsoft 365
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
-ms.author: kfollis
+ms.date: 04/24/2020
+ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: aab3c01abc970261164c5cc225d89db09ce63d12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 667c20c0e904ca9a91aed3c0566f722e54336a9f
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698430"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256176"
 ---
-# <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Inscrever-se no Power BI com uma nova versão de avaliação do Office 365
+# <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Como se inscrever no Power BI com uma nova avaliação do Microsoft 365
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
+Este artigo descreve uma forma alternativa de se inscrever no Power BI, caso você ainda não tenha uma conta de email corporativo ou de estudante. 
 
-Este artigo descreve uma maneira alternativa de se inscrever no Power BI, usando uma versão de avaliação do Office 365. Se você tiver problemas durante a inscrição no Power BI com seu email de trabalho, verifique se é um [endereço de email que pode ser usado com o Power BI](service-self-service-signup-for-power-bi.md#supported-email-addresses). Se não der certo, tente se inscrever para uma versão de avaliação do Office 365 primeiro e, depois, se inscrever no Power BI. Você poderá usar o Power BI mesmo após o vencimento da avaliação do Office 365.
+Se você tiver problemas durante a inscrição no Power BI com o seu endereço de email, verifique se ele é um [endereço de email que pode ser usado com o Power BI](service-self-service-signup-for-power-bi.md#supported-email-addresses). Se isso não for bem-sucedido, inscreva-se para obter uma avaliação do Microsoft 365 e crie uma conta corporativa. Em seguida, use essa nova conta de trabalho para se inscrever no serviço do Power BI. Você poderá usar o Power BI mesmo após o vencimento da avaliação do Microsoft 365.
 
-1. Inscreva-se para uma [versão de avaliação do Office 365 no site do Office 365](https://go.microsoft.com/fwlink/p/?LinkID=403802).
+> [!NOTE]
+> Recentemente, o Office 365 passou a se chamar Microsoft 365. Até que todos os nossos artigos sejam atualizados, você ainda poderá vê-lo sendo chamado de Office 365.
 
-1. Quando concluir esse processo de inscrição, receberá um novo nome de entrada parecido com you@yourcompany.onmicrosoft.com. Essa é a entrada que você usará com o Power BI.
+1. Inscreva-se para obter uma avaliação do Microsoft 365 no [site do Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/business/compare-more-office-365-for-business-plans).
 
-1. Inscreva-se no Power BI [usando este link](https://app.powerbi.com/signupredirect?pbi_source=web). Ao receber a solicitação, entre usando o nome de entrada e a senha que você selecionou para o Office 365 na etapa anterior.
+    ![página inicial](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-now.png)
 
-1. E isso é tudo! Quando terminar, você será redirecionado para o Power BI. Se você tiver problemas para entrar na nova conta, tente usar uma sessão privada do navegador.
+    ![Opte por se inscrever em uma nova conta](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-existing.png)
+
+    ![criar uma conta corporativa ou de estudante](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-email.png)
+
+    ![Opte por se inscrever em uma nova conta](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-no-email.png)
+
+    ![inserir suas informações de contato](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-welcome-you.png)
+
+    
+
+1. Crie um nome de entrada corporativa que seja parecido com you@yourcompany.onmicrosoft.com. Essa é a entrada que você usará com o Power BI.
+
+    ![criar um endereço corporativo](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-address.png)
+
+    ![obter o código por texto](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-robot.png)    
+
+1. Talvez seja necessário aguardar enquanto o locatário é criado. 
+
+Pronto!  Agora você tem um endereço de email que poderá usar para se inscrever no Power BI. Acesse [Inscrever-se no serviço do Power BI como indivíduo](service-self-service-signup-for-power-bi.md)
+
+
+
+
 
 ## <a name="important-considerations"></a>Considerações importantes
+Se você tiver problemas para entrar na nova conta, tente usar uma sessão privada do navegador.    
 
-Usando esse método de inscrição, você está criando um novo locatário organizacional e se tornará o administrador do locatário. Para saber mais, confira [O que é a administração do Power BI?](service-admin-administering-power-bi-in-your-organization.md). Adicione novos usuários ao seu locatário e compartilhe com eles, conforme descrito no [documento de administração do Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).
+Usando esse método de inscrição, você está criando um novo locatário organizacional e se tornará o administrador do locatário. Para saber mais, confira [O que é a administração do Power BI?](service-admin-administering-power-bi-in-your-organization.md). Adicione novos usuários ao seu locatário e compartilhe o conteúdo com eles, conforme descrito na [documentação do administrador do Microsoft 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).
 
 ## <a name="next-steps"></a>Próximas etapas
 

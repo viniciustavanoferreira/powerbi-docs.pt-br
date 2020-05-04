@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766277"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584999"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: Perguntas frequentes 
 
@@ -173,6 +173,11 @@ Não, um controle de visualizador de relatórios não está disponível no momen
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>Você pode pesquisar relatórios paginados a partir da nova experiência inicial no serviço do Power BI?
 
 Sim, agora é possível pesquisar seus relatórios paginados na Página Inicial.  Também é possível vê-los em outras partes da nova experiência com a Página Inicial.
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
+Descubra o que você precisa ter em mente ao trabalhar com os campos DateTime em relatórios paginados.
+
+- Atualmente, há algumas limitações de globalização relacionadas aos parâmetros de DateTime. Todos os parâmetros de DateTime no serviço do Power BI são buscados no formato dos EUA (MM/DD/AAAA), independentemente de como você cria o DataTime no Power BI Report Builder.
 
 ## <a name="next-steps"></a>Próximas etapas
 

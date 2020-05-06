@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871185"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dados dinâmicos do SQL Server Analysis Services no Power BI
@@ -48,7 +48,7 @@ Depois de se conectar ao modelo, ele será exibido no seu site do Power BI em **
 
 ![Conectar-se a um conjunto de dados](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
-## <a name="dashboard-tiles"></a>Blocos de dashboard
+## <a name="dashboard-tiles"></a>Blocos de painel
 
 Se você fixar visuais de um relatório no painel, os blocos fixos serão atualizados automaticamente a cada 10 minutos. Se os dados no servidor do Analysis Services local forem atualizados, os blocos serão atualizados automaticamente após 10 minutos.
 
@@ -58,7 +58,7 @@ Se você fixar visuais de um relatório no painel, os blocos fixos serão atuali
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [On-premises data gateway (Gateway de dados local)](service-gateway-onprem.md)  
+* [Gateway de dados local](service-gateway-onprem.md)  
 * [Gerenciar fontes de dados do Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637703"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Monitorar capacidades no portal de administração
@@ -58,20 +58,20 @@ Cada carga de trabalho tem métricas adicionais. O tipo de métrica mostrado dep
 
 | **Métrica** | **Descrição** |
 | --- | --- |
-| Contagem total | o total é atualizado para cada fluxo de dados. |
+| Contagem Total | o total é atualizado para cada fluxo de dados. |
 | Contagem de Êxito | Total de atualizações bem-sucedidas para cada fluxo de dados.|
 | Duração Média (min) | a duração média da atualização para o fluxo de dados, em minutos |
 | Duração Máxima (min) | a duração da atualização de execução mais longa para o fluxo de dados, em minutos. |
 | Tempo Médio de Espera (min) | a latência média entre o horário agendado e o início de uma atualização para o fluxo de dados, em minutos. |
 | Tempo Máximo de Espera (min) | o tempo de espera máximo para o fluxo de dados, em minutos.  |
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
-##### <a name="refresh"></a>Atualizar
+##### <a name="refresh"></a>Refresh
 
 | **Métrica** | **Descrição** |
 | --- | --- |
-| Contagem total | o total é atualizado para cada conjunto de dados. |
+| Contagem Total | o total é atualizado para cada conjunto de dados. |
 | Contagem de Êxito | Total de atualizações bem-sucedidas para cada conjunto de dados. |
 | Contagem de Falha | Total de atualizações com falha para cada conjunto de dados. |
 | Taxa de êxito  | Número de atualizações bem-sucedidas dividido pelo total de atualizações a serem medidas. confiabilidade. |
@@ -84,7 +84,7 @@ Cada carga de trabalho tem métricas adicionais. O tipo de métrica mostrado dep
 
 | **Métrica** | **Descrição** |
 | --- | --- |
-| Contagem total | o número total de consultas executadas para o conjunto de dados. |
+| Contagem Total | o número total de consultas executadas para o conjunto de dados. |
 | Duração Média (ms) |a duração média de consulta do conjunto de dados, em milissegundos|
 | Duração máxima (ms) |a duração da consulta de execução mais longa no conjunto de dados, em milissegundos. |
 | Tempo de Espera Médio (ms) |o tempo médio de espera da consulta para o conjunto de dados, em milissegundos. |

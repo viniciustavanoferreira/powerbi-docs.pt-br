@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872678"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Conectar-se a fontes de dados para fluxos de dados do Power BI
@@ -50,17 +50,17 @@ As fontes de dados para fluxos de dados são organizadas nas categorias a seguir
 
 * Todas as categorias
 * Arquivo
-* Banco de dados
+* Banco de Dados
 * Power BI
 * Azure
-* Serviços Online
+* Serviços online
 * Outros
 
 A categoria **Todas as categorias** contém todas as fontes de dados de todas as categorias. 
 
 A categoria **Arquivo** inclui as seguintes conexões de dados disponíveis para fluxos de dados:
 
-* Acessar
+* Acesso
 * Excel
 * JSON
 * Texto/CSV
@@ -72,7 +72,7 @@ A categoria **Banco de dados** inclui as seguintes conexões de dados disponíve
 * Banco de dados MySQL
 * Banco de dados Oracle
 * Banco de dados PostgreSQL
-* Banco de Dados do SQL Server
+* Banco de dados do SQL Server
 * Banco de dados Sybase
 * Teradata
 * Vertica
@@ -92,7 +92,7 @@ A categoria **Azure** inclui as seguintes conexões de dados disponíveis para f
 A categoria **Serviços Online** inclui as seguintes conexões de dados disponíveis para fluxos de dados:
 
 * Amazon Redshift
-* Common Data Service para Aplicativos
+* Common Data Service for Apps
 * Microsoft Exchange Online
 * Objetos do Salesforce
 * Relatórios do Salesforce
@@ -170,7 +170,7 @@ A lista a seguir mostra quais conectores você pode usar no momento copiando e c
 Basta fazer isso para conectar-se a fontes de dados no Power BI Desktop.
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximas Etapas
 
 Este artigo mostrou a quais fontes de dados você pode se conectar para fluxos de dados. Os artigos a seguir oferecem mais detalhes sobre cenários de uso comuns para fluxos de dados. 
 
@@ -182,7 +182,7 @@ Este artigo mostrou a quais fontes de dados você pode se conectar para fluxos d
 * [Integração entre fluxos de dados e o Azure Data Lake (versão prévia)](service-dataflows-azure-data-lake-integration.md)
 
 Confira mais informações sobre o Power Query e a atualização agendada nestes artigos:
-* [Visão geral da Consulta no Power BI Desktop](desktop-query-overview.md)
+* [Visão geral de Consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configuração de atualização agendada](refresh-scheduled-refresh.md)
 
 Leia este artigo de visão geral para saber mais sobre o Common Data Service:

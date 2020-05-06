@@ -11,10 +11,10 @@ ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874478"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Exibir imagens em uma tabela, matriz ou segmentação de um relatório

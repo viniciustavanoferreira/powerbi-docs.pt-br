@@ -10,10 +10,10 @@ ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33d0b7850b5e396d8f03e80cbcb32768fb26bf6d
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439792"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Usar o detalhamento entre relatórios no Power BI
@@ -70,7 +70,7 @@ Configure um destino para o detalhamento entre relatórios no Power BI Desktop o
 1. Se estiver usando a página apenas para o detalhamento entre relatórios, exclua o botão **Voltar**, que é adicionado automaticamente à tela. O botão **Voltar** só funciona para a navegação em um relatório. 
 1. Depois de configurar a página de destino, salve o relatório se estiver no serviço do Power BI ou salve o relatório e publique-o se estiver usando o Power BI Desktop.
 
-Isso é tudo. Seus relatórios estão prontos para o detalhamento entre relatórios. 
+É só isso. Seus relatórios estão prontos para o detalhamento entre relatórios. 
 
 ## <a name="use-cross-report-drillthrough"></a>Usar detalhamento de relatório cruzado
 

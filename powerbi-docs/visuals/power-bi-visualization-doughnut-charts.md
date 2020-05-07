@@ -10,10 +10,10 @@ ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75757705"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>Criar e usar gráficos de rosca no Power BI
@@ -32,7 +32,7 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://down
 
 1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Select ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 
 ## <a name="create-a-doughnut-chart"></a>Crie um gráfico de rosca

@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853074"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Fixar uma página inteira do relatório, como um bloco dinâmico, em um painel do Power BI
@@ -37,7 +37,7 @@ Veja Amanda fixar uma página dinâmica do relatório em um dashboard e siga as 
 2. Sem nenhuma visualização selecionada, na barra de menus, selecione **Fixar esta Página em Tempo Real**.
    
    ![Ícone Fixar página em tempo real](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. Fixe o bloco em um painel existente ou em um novo painel. Observe o texto realçado: *A página de fixação em tempo real permitirá que as mudanças aos relatórios apareçam no bloco do dashboard quando a página for atualizada.*
+3. Fixe o bloco em um painel existente ou em um novo painel. Observe o texto realçado: *Fixar esta página em tempo real permite que as alterações nos relatórios sejam exibidas no bloco do painel quando a página é atualizada.*
    
    * Painel existente: selecione o nome do painel no menu suspenso. Painéis que foram compartilhados com você não aparecerão na lista suspensa.
    * Novo painel: digite o nome do novo painel.

@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698752"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base em uma pasta do Excel em uma unidade local
@@ -49,7 +49,7 @@ Quando você usa o Power Query (Obter e transformar dados no Excel 2016) para se
 Em **Navegador**, clique em **Carregar para...**  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-Ou então, se você clicar em **Editar** no Navegador, você abrirá o Editor de Consultas. Lá, é possível clicar em **Fechar e Carregar para...**  
+Ou então, se você clicar em **Editar** no Navegador, você abrirá o Editor de Consultas. Lá, você pode clicar em **Fechar e Carregar para...** .  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 Em seguida, em **Carregar para**, certifique-se de que você selecionou **Adicionar esses dados ao Modelo de Dados**.  

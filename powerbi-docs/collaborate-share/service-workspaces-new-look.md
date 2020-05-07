@@ -10,10 +10,10 @@ ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81638515"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Optar por usar a nova aparência para workspaces (versão prévia)
@@ -44,7 +44,7 @@ Qualquer usuário serviço do Power BI pode optar por usar a nova aparência. Ba
 
 ![Optar por usar a nova aparência](media/service-workspaces-new-look/power-bi-new-look-off.png)
 
-Se você precisar retornar à aparência antiga, deslize o controle deslizante **Nova aparência** de volta para ![desativada](media/service-workspaces-new-look/power-bi-new-look-toggle-on.png). Se você não visualizar essa opção, selecione o menu de reticências no canto superior direito.
+Se você precisar retornar à aparência antiga, deslize o controle deslizante ![Nova aparência](media/service-workspaces-new-look/power-bi-new-look-toggle-on.png) de volta para **desativada**. Se você não visualizar essa opção, selecione o menu de reticências no canto superior direito.
 
 ![Optar por não usar a nova aparência](media/service-workspaces-new-look/power-bi-new-look-on.png)
 

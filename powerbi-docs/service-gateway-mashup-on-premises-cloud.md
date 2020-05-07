@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697878"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Mesclar ou acrescentar fontes de dados locais e na nuvem
@@ -33,7 +33,7 @@ Você pode usar o gateway de dados local para mesclar ou acrescentar fontes de d
 >[!NOTE]
 >Para acessar qualquer fonte de dados de nuvem, você deve garantir que o gateway tenha acesso a essas fontes de dados.
 
-1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Configurações](media/service-gateway-mashup-on-premises-cloud/icon-gear.png)  >  **Gerenciar gateways**.
+1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Ícone de engrenagem de configurações](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **Gerenciar gateways**.
 
     ![Gerenciar gateways](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 

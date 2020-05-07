@@ -73,7 +73,7 @@
               href: ../service-analyze-in-excel.md
             - name: Análise de solução de problemas no Excel
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Erro: Não foi possível localizar nenhum dado na sua pasta de trabalho do Excel'
+            - name: 'Erro: não foi possível encontrar nenhum dado em sua pasta de trabalho do Excel'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate e Power BI
               href: ../service-flow-integration.md

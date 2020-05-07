@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
 ms.openlocfilehash: 9469127ea28b0370edebd4c044bd929ff22c488f
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675709"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Como depurar visuais do Power BI
@@ -71,7 +71,7 @@ public update(options: VisualUpdateOptions) {
 
 Você também pode definir o navegador para interromper nas exceções detectadas. Ele interrompe a execução de código caso ocorra um erro e permite que você depure a partir desse ponto.
 
-### <a name="edge"></a>Microsoft Edge
+### <a name="edge"></a>Edge
 
 1. Abra as ferramentas para desenvolvedores (F12).
 2. Acesse a guia **Depurador**.

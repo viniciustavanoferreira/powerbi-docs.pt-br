@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874071"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Desenvolver com as APIs REST do Servidor de Relatórios do Power BI
@@ -29,10 +29,10 @@ Um par solicitação/resposta da API REST pode ser dividido em cinco componentes
 
 * O **URI da solicitação**, que consiste em: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Embora o URI da solicitação seja incluído no cabeçalho da mensagem de solicitação, vamos chamá-lo separadamente aqui porque a maioria das linguagens ou das estruturas exige que ele seja passado separadamente da mensagem de solicitação.
   
-  * Esquema do URI: indica o protocolo usado para transmitir a solicitação. Por exemplo, `http` ou `https`.
-  * Host do URI: especifica o nome de domínio ou o endereço IP do servidor em que o ponto de extremidade de serviço REST está hospedado, como `myserver.contoso.com`.
+  * Esquema de URI: indica o protocolo usado para transmitir a solicitação. Por exemplo, `http` ou `https`.
+  * URI do host: especifica o nome de domínio ou o endereço IP do servidor, em que o ponto de extremidade de serviço REST está hospedado, como `myserver.contoso.com`.
   * Caminho do recurso: especifica o recurso ou a coleção de recursos, que pode incluir vários segmentos usados pelo serviço para determinar a seleção desses recursos. Por exemplo: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` pode ser usado para obter as propriedades especificadas para o CatalogItem.
-  * Cadeia de consulta (opcional): fornece parâmetros adicionais simples, como os critérios de seleção de recursos ou a versão da API.
+  * Cadeia de caracteres de consulta (opcional): fornece parâmetros adicionais simples, como os critérios de seleção de recursos ou a versão da API.
 * Campos do cabeçalho da mensagem de solicitação HTTP:
   
   * Um [método HTTP](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) necessário (também conhecido como operação ou verbo), que informa o serviço que tipo de operação você está solicitando. As APIs REST do Reporting Services são compatíveis com os métodos DELETE, GET, HEAD, PUT, POST e PATCH.

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637917"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configurar e gerenciar capacidades no Power BI Premium
@@ -126,7 +126,7 @@ Os administradores de capacidade, juntamente com os administradores do Power BI 
 
     ![Atribuir workspaces](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | Seleção | Descrição |
+   | Selection | Descrição |
    | --- | --- |
    | **Workspaces por usuários** | Quando você atribui workspaces por usuário ou grupo, todos os workspaces pertencentes a esses usuários são atribuídos à capacidade Premium, incluindo o workspace pessoal do usuário. Tais usuários obtêm permissões de atribuição de workspace automaticamente.<br>Isso inclui workspaces já atribuídos a uma capacidade diferente. |
    | **Workspaces específicos** | Insira o nome do workspace específico para atribuir à capacidade selecionada. |

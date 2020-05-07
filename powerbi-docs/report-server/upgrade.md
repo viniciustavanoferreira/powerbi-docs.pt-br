@@ -10,13 +10,13 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873953"
 ---
-# <a name="upgrade-power-bi-report-server"></a>Atualizar o Servidor de Relatórios do Power BI
+# <a name="upgrade-power-bi-report-server"></a>Atualizar o Servidor de Relatório do Power BI
 
 Saiba como atualizar o Servidor de Relatório do Power BI.
 
@@ -62,7 +62,7 @@ A atualização do Servidor de Relatório do Power BI é simples. Há apenas alg
 
 2. Selecione **Atualizar o Servidor de Relatório do Power BI**.
 
-    ![Atualizar o Servidor de Relatórios do Power BI](media/upgrade/reportserver-upgrade1.png "Atualizar o Servidor de Relatórios do Power BI")
+    ![Atualizar o Servidor de Relatórios do Power BI](media/upgrade/reportserver-upgrade1.png "Atualizar o Servidor de Relatório do Power BI")
 
 3. Leia e concorde com os termos e condições da licença e, em seguida, selecione **Atualizar**.
 

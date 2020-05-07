@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
 ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79492826"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capacidade e SKUs na análise integrada do Power BI
@@ -148,7 +148,7 @@ A tabela abaixo lista as considerações de pagamento e uso por capacidade.
 <tr>
 <td><p><strong>Oferta</strong></p></td>
 <td style="text-align: center;"><p>Azure</p></td>
-<td style="text-align: center;" colspan="2"><p>Office</p></td>
+<td style="text-align: center;" colspan="2"><p>Escritório</p></td>
 </tr>
 <tr>
 <td><p><strong>SKU</strong></p></td>

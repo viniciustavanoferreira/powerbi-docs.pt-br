@@ -10,10 +10,10 @@ ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79525650"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Criar visualizações de mapa de formas no Power BI Desktop (versão prévia)
@@ -113,12 +113,12 @@ Há algumas considerações e requisitos para essa versão de Preview do **Mapa 
 
 Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa de Formas**.
 
-### <a name="australia-states"></a>Austrália: estados
+### <a name="australia-states"></a>Austrália: Estados
 
-| ID | Abr. | ISO | Nome | CEP |
+| ID | Abr. | ISO | nome | CEP |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Austrália Ocidental |WA |
-| au-vic |Vic |AU-VIC |Victoria |VIC |
+| au-vic |Vic |AU-VIC |Vitória |VIC |
 | au-tas |Tas |AU-TAS |Tasmânia |TAS |
 | au-sa |SA |AU-SA |Sul da Austrália |SA |
 | au-qld |Qld |AU-QLD |Queensland |QLD |
@@ -126,21 +126,21 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | au-nsw |NSW |AU-NSW |Nova Gales do Sul |NSW |
 | au-act |ACT |AU-ACT |Território da Capital Australiana |ACT |
 
-### <a name="austria-states"></a>Áustria: estados
+### <a name="austria-states"></a>Áustria: Estados
 
-| ID | ISO | Nome | Nome (pt) | CEP |
+| ID | ISO | nome | Nome (pt) | CEP |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Viena |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
 | at-tr |AT-7 |Tirol |Tirol |TR |
 | at-st |AT-6 |Steiermark |Estíria |ST |
-| at-sz |AT-5 |Salzburg |Salzburgo |SZ |
+| at-sz |AT-5 |Salzburg |Salzburg |SZ |
 | at-oo |AT-4 |Oberösterreich |Alta Áustria |OO |
-| at-no |AT-3 |Niederösterreich |Baixa Áustria |NO |
+| at-no |AT-3 |Niederösterreich |Baixa Áustria |NÃO |
 | at-ka |AT-2 |Kärnten |Caríntia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brasil: estados
+### <a name="brazil-states"></a>Brasil: Estados
 
 | ID |
 | --- |
@@ -176,9 +176,9 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | Zona em disputa 3 |
 | Zona em disputa 4 |
 
-### <a name="canada-provinces"></a>Canadá: províncias
+### <a name="canada-provinces"></a>Canadá: Províncias
 
-| ID | ISO | Nome | CEP |
+| ID | ISO | nome | CEP |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territórios do Norte |NT |
@@ -186,7 +186,7 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | ca-sk |CA-SK |Saskatchewan |SK |
 | ca-qc |CA-QC |Quebec |QC |
 | ca-pe |CA-PE |Ilha do Príncipe Eduardo |PE |
-| ca-on |CA-ON |Ontário |ON |
+| ca-on |CA-ON |Ontário |LIGADO |
 | ca-ns |CA-NS |Nova Escócia |NS |
 | ca-nl |CA-NL |Terra Nova e Labrador |NL |
 | ca-nb |CA-NB |Nova Brunswick |NB |
@@ -194,14 +194,14 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | ca-bc |CA-BC |Colúmbia Britânica |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>França: regiões
+### <a name="france-regions"></a>França: Regiões
 
-| ID | Nome | Nome (pt) |
+| ID | nome | Nome (pt) |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
 | Bretagne |Bretagne |Bretanha |
-| Centro-Vale do Loire |Centre-Val de Loire |Centro-Vale do Loire |
+| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
 | Corse |Corse |Córsega |
 | Grande Leste |  |  |
 | Guadalupe | |   |
@@ -216,28 +216,28 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>Alemanha: estados
+### <a name="germany-states"></a>Alemanha: Estados
 
-| ID | ISO | Nome | Nome (pt) | CEP |
+| ID | ISO | nome | Nome (pt) | CEP |
 | --- | --- | --- | --- | --- |
-| de-be |DE-BE |Berlin |Berlim |BE |
+| de-be |DE-BE |Berlim |Berlim |BE |
 | de-th |DE-TH |Thüringen |Turíngia |TH |
 | de-st |DE-ST |Sachsen-Anhalt |Saxônia-Anhalt |ST |
 | de-sn |DE-SN |Sachsen |Saxônia |SN |
 | de-mv |DE-MV |Mecklenburg-Vorpommern |Mecklenburg-Vorpommern |MV |
-| de-bb |DE-BB |Brandenburg |Brandemburgo |BB |
+| de-bb |DE-BB |Brandenburg |Brandenburg |BB |
 | de-sh |DE-SH |Schleswig-Holstein |Schleswig-Holstein |SH |
-| de-sl |DE-SL |Saarland |Sarre |SL |
+| de-sl |DE-SL |Saarland |Saarland |SL |
 | de-rp |DE-RP |Rheinland-Pfalz |Renânia-Palatinado |RP |
 | de-nw |DE-NW |Nordrhein-Westfalen |Renânia do Norte-Vestfália |NW |
 | de-ni |DE-NI |Niedersachsen |Baixa Saxônia |NI |
 | de-he |DE-HE |Hessen |Hesse |HE |
-| de-hh |DE-HH |Hamburg |Hamburgo |HH |
+| de-hh |DE-HH |Hamburg |Hamburg |HH |
 | de-hb |DE-HB |Bremen |Bremen |HB |
-| de-by |DE-BY |Bayern |Baviera |BY |
+| de-by |DE-BY |Bayern |Baviera |POR |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
-### <a name="ireland-counties"></a>Irlanda: municípios
+### <a name="ireland-counties"></a>Irlanda: Condados
 
 | ID |
 | --- |
@@ -268,34 +268,34 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Itália: regiões
+### <a name="italy-regions"></a>Itália: Regiões
 
-| ID | ISO | Nome | Nome (pt) | CEP |
+| ID | ISO | nome | Nome (pt) | CEP |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Vale de Aosta |VD |
-| it-um |IT-55 |Umbria |Úmbria |UM |
+| it-um |IT-55 |Úmbria |Úmbria |UM |
 | it-tt |IT-32 |Trentino-Alto Adige |Trentino-Alto Ádige |TT |
 | it-tc |IT-52 |Toscana |Toscana |TC |
 | it-sc |IT-82 |Sicilia |Sicília |SC |
 | it-sd |IT-88 |Sardegna |Sardenha |SD |
 | it-pm |IT-21 |Piemonte |Piemonte |PM |
 | it-ml |IT-67 |Molise |Molise |ML |
-| it-mh |IT-57 |Marche |Marcas |MH |
+| it-mh |IT-57 |Marcas |Marcas |MH |
 | it-lm |IT-25 |Lombardia |Lombardia |LM |
-| it-lg |IT-42 |Liguria |Ligúria |LG |
-| it-lz |IT-62 |Lazio |Lácio |LZ |
-| it-fv |IT-36 |Friuli-Venezia Giulia |Friul-Veneza Júlia |FV |
-| it-er |IT-45 |Emilia-Romagna |Emília-Romanha |ER |
-| it-cm |IT-72 |Campania |Campânia |CM |
-| it-lb |IT-78 |Calabria |Calábria |LB |
+| it-lg |IT-42 |Liguria |Liguria |LG |
+| it-lz |IT-62 |Lazio |Lazio |LZ |
+| it-fv |IT-36 |Friuli-Venezia Giulia |Friuli-Venezia Giulia |FV |
+| it-er |IT-45 |Emilia-Romagna |Emilia-Romagna |ER |
+| it-cm |IT-72 |Campânia |Campânia |CM |
+| it-lb |IT-78 |Calabria |Calabria |LB |
 | it-bc |IT-77 |Basilicata |Basilicata |BC |
 | it-pu |IT-75 |Apulia |Apúlia |PU |
-| it-ab |IT-65 |Abruzzo |Abruzos |AB |
+| it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>México: estados
+### <a name="mexico-states"></a>México: Estados
 
-| ID | Abreviatura | ISO | Nome | Nome (pt) | CEP |
+| ID | Abreviatura | ISO | nome | Nome (pt) | CEP |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatán |YU |
@@ -322,43 +322,43 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | mx-dur |Dgo. |MX-DUR |Durango |Durango |DU |
 | mx-dif |CDMX. |MX-DIF |Ciudad de México |México |DF |
 | mx-col |Col. |MX-COL |Colima |Colima |CL |
-| mx-coa |Coah. |MX-COA |Coahuila |Coahuila |AC |
+| mx-coa |Coah. |MX-COA |Coahuila |Coahuila |CA |
 | mx-chh |Chih. |MX-CHH |Chihuahua |Chihuahua |CH |
 | mx-chp |Chis. |MX-CHP |Chiapas |Chiapas |CP |
 | mx-cam |Camp. |MX-CAM |Campeche |Campeche |CM |
-| mx-bcs |B.C.S. |MX-BCS |Baja California Sur |Baixa Califórnia do Sul |BS |
-| mx-bcn |B.C. |MX-BCN |Baja California |Baixa Califórnia |BN |
+| mx-bcs |B.C.S. |MX-BCS |Baixa Califórnia do Sul |Baixa Califórnia do Sul |BS |
+| mx-bcn |B.C. |MX-BCN |Baixa Califórnia |Baixa Califórnia |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Países Baixos: províncias
+### <a name="netherlands-provinces"></a>Países Baixos: Províncias
 
-| ID | ISO | Nome | Nome (pt) |
+| ID | ISO | nome | Nome (pt) |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Holanda do Sul |
-| nl-ze |NL-ZE |Zeeland |Zelândia |
+| nl-ze |NL-ZE |Zelândia |Zelândia |
 | nl-ut |NL-UT |Utrecht |Utrecht |
 | nl-ov |NL-OV |Overijssel |Overijssel |
 | nl-nh |NL-NH |Noord-Holland |Norte da Holanda |
 | nl-nb |NL-NB |Noord-Brabant |Brabante do Norte |
-| nl-li |NL-LI |Limburg |Limburgo |
+| nl-li |NL-LI |Limburgo |Limburgo |
 | nl-gr |NL-GR |Groningen |Groningen |
-| nl-ge |NL-GE |Gelderland |Guéldria |
+| nl-ge |NL-GE |Guéldria |Guéldria |
 | nl-fr |NL-FR |Fryslân |Frísia |
-| nl-fl |NL-FL |Flevoland |Flevolândia |
-| nl-dr |NL-DR |Drenthe |Drente |
+| nl-fl |NL-FL |Flevolândia |Flevolândia |
+| nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>Reino unido: Países
+### <a name="uk-countries"></a>Reino Unido: Países
 
-| ID | ISO | Nome |
+| ID | ISO | nome |
 | --- | --- | --- |
 | gb-wls |GB-WLS |País de Gales |
 | gb-sct |GB-SCT |Escócia |
 | gb-nir |GB-NIR |Irlanda do Norte |
 | gb-eng |GB-ENG |Inglaterra |
 
-### <a name="usa-states"></a>EUA: estados
+### <a name="usa-states"></a>EUA: Estados
 
-| ID | Nome | CEP |
+| ID | nome | CEP |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alasca |AK |
@@ -400,7 +400,7 @@ Use as **Chaves de região** a seguir nesta versão prévia para testar o **Mapa
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Oregon |OU |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

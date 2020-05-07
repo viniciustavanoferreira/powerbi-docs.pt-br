@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699611"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados criado com base em uma pasta de trabalho do Excel no OneDrive ou SharePoint Online
@@ -47,7 +47,7 @@ No Power BI, há suporte para **Atualizar Agora** e **Agendar Atualização** pa
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive ou OneDrive for Business. Qual é a diferença?
 
-Se você tiver um OneDrive Pessoal e um OneDrive para Empresas, é recomendável manter todos os arquivos que deseja importar no Power BI no OneDrive para Empresas. Eis o porquê: Você provavelmente usa duas contas diferentes para entrar neles.
+Se você tiver um OneDrive Pessoal e um OneDrive para Empresas, é recomendável manter todos os arquivos que deseja importar no Power BI no OneDrive para Empresas. Eis o porquê: você provavelmente usa duas contas diferentes para entrar neles.
 
 A conexão com o OneDrive for Business no Power BI é normalmente contínua, porque a mesma conta que você usa para entrar no Power BI é, geralmente, a mesma conta usada para entrar no OneDrive for Business. Mas, com o OneDrive pessoal, você provavelmente entrará com outra [conta da Microsoft](https://account.microsoft.com).
 
@@ -82,7 +82,7 @@ Em **Navegador**, clique em **Carregar para...**
 
 ![Comando Carregar para...](media/refresh-excel-file-onedrive/refresh_loadtodm_1.png)
 
-Ou então, se você clicar em **Editar** no **Navegador**, você abrirá o Editor de Consultas. Lá, é possível clicar em **Fechar e Carregar para...**  
+Ou então, se você clicar em **Editar** no **Navegador**, você abrirá o Editor de Consultas. Lá, você pode clicar em **Fechar e Carregar para...** .  
 
 ![Comando Fechar e Carregar para...](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 

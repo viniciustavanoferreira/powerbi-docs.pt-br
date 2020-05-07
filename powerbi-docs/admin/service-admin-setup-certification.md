@@ -9,10 +9,10 @@ ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81267835"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Configurar a certificação de fluxos de dados e conjuntos de dados (versão prévia)
@@ -44,4 +44,4 @@ A certificação de fluxos de dados e conjuntos de dados faz parte do *endosso* 
 * [Certificar conjuntos de dados](../service-datasets-certify.md)
 * [Promover fluxos de dados](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [Certificar fluxos de dados](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

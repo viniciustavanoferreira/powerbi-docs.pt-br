@@ -11,14 +11,14 @@ ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 5053386aeb96ba77c4c89f0d5430cfbd20cc795e
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404352"
 ---
 # <a name="get-samples-for-power-bi"></a>Obter exemplos para o Power BI
-Digamos que você seja novo no Power BI e queira experimentá-lo, mas não tenha todos os dados.  Ou quem sabe você queira ver os relatórios que ilustram alguns dos recursos do Power BI. Nós podemos ajudar.
+Digamos que você é novo no Power BI e queira experimentá-lo, mas não tem todos os dados.  Ou quem sabe você queira ver os relatórios que ilustram alguns dos recursos do Power BI. Nós podemos ajudar.
 
 O Power BI oferece diferentes tipos de exemplos, para distintas finalidades: 
 - Um **[relatório do Power BI](#sales--returns-sample-pbix-file) (arquivo .pbix)** que pode ser exibido na Galeria de Histórias de Dados, aberto e explorado no Power BI Desktop ou carregado no serviço do Power BI.
@@ -98,7 +98,7 @@ A empresa obviEnce ([www.obvience.com](http://www.obvience.com/)) e a Microsoft 
 
 ![Exemplos disponíveis](media/sample-datasets/power-bi-samples.png)
 
-Cada um destes exemplos está disponível em vários formatos: como pacote de conteúdo, como planilha do Excel e como arquivo .pbix do Power BI. Não se preocupe se não souber o que são ou como obtê-las. Este artigo explica tudo. Criamos um *tour* para cada um desses exemplos. Os tours são artigos que revelam a história por trás do exemplo e orienta você em diferentes cenários. Um cenário pode responder perguntas para seu gerente, o outro pode procurar por insights competitivos, ou criar relatórios e dashboards para compartilhamento ou explicar um turno de negócios.
+Cada um destes exemplos está disponível em vários formatos: como pacote de conteúdo, como planilha do Excel e como arquivo .pbix do Power BI. Não se preocupe se você não conhece essas coisas ou não sabe como obtê-las. Este artigo explica tudo. Criamos um *tour* para cada um desses exemplos. Os tours são artigos que revelam a história por trás do exemplo e orienta você em diferentes cenários. Um cenário pode responder perguntas para seu gerente, o outro pode procurar por insights competitivos, ou criar relatórios e dashboards para compartilhamento ou explicar um turno de negócios.
 
 Antes de começarmos, leia estas diretrizes jurídicas para uso destes exemplos. Depois disso, apresentaremos os exemplos e mostraremos como usá-los.
 

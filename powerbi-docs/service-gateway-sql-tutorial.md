@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958416"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar os dados de um banco de dados do SQL Server local
@@ -103,7 +103,7 @@ No Power BI Desktop, você se conectou diretamente ao banco de dados do SQL Serv
 
 3. Expanda **Gateway de conexão** e verifique se pelo menos um gateway está listado. Se você não tiver um gateway, consulte a seção [Pré-requisitos](#prerequisites) anteriormente neste tutorial para ver um link para a documentação do produto sobre como instalar e configurar um gateway.
 
-    ![Conexão do gateway](./media/service-gateway-sql-tutorial/gateway-connection.png)
+    ![Conexão de gateway](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
 4. Em **Ações**, expanda o botão de alternância para exibir as fontes de dados e selecione o link **Adicionar ao gateway**.
 
@@ -114,12 +114,12 @@ No Power BI Desktop, você se conectou diretamente ao banco de dados do SQL Serv
 
 5. Na página de gerenciamento **Gateways**, na guia **Configurações de Fonte de Dados**, insira e verifique as informações a seguir e selecione **Adicionar**.
 
-    | Opção | Valor |
+    | Opção | Value |
     | --- | --- |
-    | Nome da Fonte de Dados | AdventureWorksProducts |
-    | Tipo de fonte de dados | SQL Server |
+    | Nome da fonte de dados | AdventureWorksProducts |
+    | Tipo de Fonte de Dados | SQL Server |
     | Servidor | O nome de sua instância do SQL Server, SQLServer01 (deve ser idêntico ao que você especificou no Power BI Desktop). |
-    | Banco de dados | O nome do seu banco de dados do SQL Server, AdventureWorksDW (deve ser idêntico ao que você especificou no Power BI Desktop). |
+    | Banco de Dados | O nome do seu banco de dados do SQL Server, AdventureWorksDW (deve ser idêntico ao que você especificou no Power BI Desktop). |
     | Método de Autenticação | Windows ou Basic (normalmente Windows). |
     | Nome de usuário | A conta de usuário que você usa para se conectar ao SQL Server. |
     | Senha | A senha da conta usada para se conectar ao SQL Server. |

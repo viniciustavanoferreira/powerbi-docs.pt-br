@@ -24,7 +24,7 @@
       items:
         - name: Capacidade e SKUs na análise integrada do Power BI
           href: embedded-capacity.md
-        - name: Planejamento da capacidade
+        - name: planejamento de capacidade
           href: embedded-capacity-planning.md
         - name: Práticas recomendadas de desempenho
           href: embedded-performance-best-practices.md
@@ -52,7 +52,7 @@
           href: export-paginated-report.md
         - name: Instalar aplicativos automaticamente
           href: embed-auto-install-app.md
-        - name: Crie um locatário do Azure Active Directory
+        - name: Criar um locatário do Azure Active Directory
           href: create-an-azure-active-directory-tenant.md
         - name: Registrar um aplicativo
           href: register-app.md
@@ -62,7 +62,7 @@
           href: embed-dynamic-binding.md
         - name: Inserindo Perguntas e Respostas
           href: qanda.md
-        - name: Solucione problemas do aplicativo inserido
+        - name: Solução de problemas de seu aplicativo inserido
           href: embedded-troubleshoot.md
         - name: Gerenciar capacidades no Azure
           items:
@@ -74,9 +74,9 @@
               href: azure-pbie-scale-capacity.md
             - name: Pausar e iniciar uma capacidade no Azure
               href: azure-pbie-pause-start.md
-        - name: Migrar de Coleções de Workspaces
+        - name: Migrar das Coleções de Workspaces
           items:
-            - name: Como migrar de Coleções de workspaces do Power BI?
+            - name: Como migrar de Coleções de Workspaces do Power BI
               href: migrate-from-powerbi-embedded.md
             - name: Ferramenta de migração
               href: migrate-tool.md
@@ -86,7 +86,7 @@
       items:
         - name: APIs
           items:
-            - name: APIs REST do Resource Management do Azure
+            - name: APIs REST de Gerenciamento de Recursos do Azure
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
             - name: APIs REST do Power BI
               href: 'https://msdn.microsoft.com/library/mt147898.aspx'
@@ -100,9 +100,9 @@
           href: 'https://powerbi.microsoft.com/en-us/developers/'
         - name: Ferramenta de configuração de inserção
           href: 'https://aka.ms/embedsetup'
-        - name: Amostra de espaço de JavaScript
+        - name: Exemplo de JavaScript Playground
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Wiki do JavaScript do Power BI
+        - name: Wiki do Power BI JavaScript
           href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
         - name: Exemplos e scripts para desenvolvedores
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'

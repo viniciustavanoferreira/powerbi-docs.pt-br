@@ -10,10 +10,10 @@ ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565634"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Conectar-se ao LinkedIn Sales Navigator no Power BI Desktop
@@ -86,7 +86,7 @@ O aplicativo de modelo fornece quatro guias para ajudar a analisar e compartilha
 
 A guia de **Uso** mostra os dados gerais do LinkedIn Sales Navigator.
 
-![Guia de Uso do LinkedIn Sales Navigator](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
+![Guia de uso do LinkedIn Sales Navigator](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
 
 A guia de **Pesquisa** permite que você faça uma busca detalhada nos resultados da pesquisa:
 

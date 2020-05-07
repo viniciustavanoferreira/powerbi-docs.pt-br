@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979812"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Criar e usar visuais do R no Power BI
@@ -65,7 +65,7 @@ Como outro exemplo, a imagem a seguir mostra a mensagem de erro que aparece quan
 
 ![Captura de tela mostrando um erro de runtime](media/service-r-visuals/r-visuals-service-5.png)
 
-## <a name="licensing"></a>Licenças
+## <a name="licensing"></a>Licenciamento
 Os visuais do R exigem uma licença [Power BI Pro](../service-self-service-signup-for-power-bi.md) para serem renderizados em relatórios, na atualização, no filtro e no filtro cruzado. Para obter mais informações sobre licenças do Power BI Pro e como elas diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro – o que é isto?](../service-admin-purchasing-power-bi-pro.md)
 
 Os usuários da versão gratuita do Power BI só poderão consumir blocos compartilhados com eles nos workspaces Premium. Veja [Comprando o Power BI Pro](../service-admin-purchasing-power-bi-pro.md) para obter mais informações.
@@ -73,12 +73,12 @@ Os usuários da versão gratuita do Power BI só poderão consumir blocos compar
 A tabela a seguir descreve as funcionalidades dos visuais do R com base em licenciamento.
 
 
-|  |Criar visuais do R no Power BI Desktop  | Criar relatórios de serviço PBI com visuais do R |Exibir visuais R em relatórios  | Exibir blocos do R em dashboards |
+|  |Criar visuais do R no Power BI Desktop  | Criar relatórios de serviço PBI com visuais R |Exibir visuais R em relatórios  | Exibir blocos R em dashboards |
 |---------|---------|---------|---------|--------|
-|**Convidado** (Power BI Embedded)     |  Compatível|  Não compatível      | Compatível apenas na capacidade Premium/Azure  | Compatível apenas na capacidade Premium/Azure |
-|**Locatário não gerenciado** (domínio não verificado) | Compatível | Não compatível |  Não compatível |Compatível (cenário B2B) |
-|**Locatário gerenciado** com licença gratuita    |  Compatível       |  Não compatível       |    Compatível apenas na capacidade Premium    | Compatível |
-**Locatário gerenciado** com licença Pro     |   Compatível      | Compatível      | Compatível    |Compatível|
+|**Convidado** (Power BI Embedded)     |  Com suporte|  Sem suporte      | Compatível apenas na capacidade Premium/Azure  | Compatível apenas na capacidade Premium/Azure |
+|**Locatário não gerenciado** (domínio não verificado) | Com suporte | Sem suporte |  Sem suporte |Compatível (cenário B2B) |
+|**Locatário gerenciado** com licença gratuita    |  Com suporte       |  Sem suporte       |    Compatível apenas na capacidade Premium    | Com suporte |
+**Locatário gerenciado** com licença Pro     |   Com suporte      | Com suporte      | Com suporte    |Com suporte|
 
 
 

@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 12/19/2017
 ms.openlocfilehash: e114c208093c9f3401c43e9ea44502e65d6d84fd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493194"
 ---
 # <a name="custom-layouts"></a>Layouts personalizados
@@ -62,8 +62,8 @@ enum DisplayOption {
 ```
 
 - `pageSize`: use o tamanho de página para controlar o tamanho da área da tela (ou seja, a área do relatório em branco).
-- `displayOptions`: os valores possíveis são FitToWidth, FitToPage ou ActualSize. Controla como dimensionar a tela para se ajustar ao iframe.
-- `pagesLayout`: controla o layout de cada visual. Consulte PagesLayout para obter mais detalhes.
+- `displayOptions`: possíveis valores são: FitToWidth, FitToPage ou ActualSize. Controla como dimensionar a tela para se ajustar ao iframe.
+- `pagesLayout`: controla o layout para cada visual. Consulte PagesLayout para obter mais detalhes.
 
 ## <a name="pages-layout"></a>Layout de páginas
 
@@ -170,7 +170,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Veja também
 
 [Inserir painéis, relatórios e blocos do Power BI](embed-sample-for-customers.md)   
 [Perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791985"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Solucionando problemas de fonte de dados sem suporte para atualização
@@ -40,7 +40,7 @@ Se você não tiver certeza de qual fonte de dados foi usada, você pode encontr
 ## <a name="next-steps"></a>Próximas etapas
 [Atualização de dados](refresh-data.md)  
 [Gateway do Power BI – Pessoal](service-gateway-personal-mode.md)  
-[On-premises data gateway (Gateway de dados local)](service-gateway-onprem.md)  
+[Gateway de dados local](service-gateway-onprem.md)  
 [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 [Solução de problemas do Gateway do Power BI – Pessoal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

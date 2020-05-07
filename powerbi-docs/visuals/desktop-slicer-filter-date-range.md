@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006769"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Usar uma segmentação e um filtro de data relativa no Power BI
@@ -44,9 +44,9 @@ Na primeira configuração da *segmentação de datas relativas*, você tem as s
 
 * Último
 
-* Avançar
+* Próximo
 
-* Este
+* Atual
 
 A segunda configuração (no meio) da *segmentação de datas relativas* permite inserir um número para definir o intervalo de datas relativas.
 
@@ -68,7 +68,7 @@ A terceira configuração permite escolher a medida de data. Você tem as seguin
 
 * Anos
 
-* Anos (Calendário)
+* Anos (calendário)
 
 Se você selecionar **Meses** nessa lista e inserir *2* na configuração do meio, acontecerá o seguinte:
 

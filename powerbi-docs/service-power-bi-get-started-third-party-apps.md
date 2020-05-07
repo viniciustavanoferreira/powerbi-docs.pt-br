@@ -11,10 +11,10 @@ ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
 ms.openlocfilehash: ff44527ab0f6c57007db82c79d6b357973eded17
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699166"
 ---
 # <a name="get-started-with-third-party-apps"></a>Introdução a aplicativos de terceiros
@@ -40,7 +40,7 @@ Aqui estão os tipos de acesso que um aplicativo pode solicitar.
   
   * Essa permissão permite a um aplicativo listar todos os conjuntos de dados aos quais você terá acesso. Isso inclui os conjuntos de dados que você tem, que você obteve de pacotes de conteúdo e que estão em grupos aos quais você pertence. Um aplicativo pode ver os nomes de todos os seus conjuntos de dados, bem como sua estrutura, incluindo nomes de tabela e coluna. Essa permissão concede direitos para ler e gravar os dados em um conjunto de dados. O aplicativo também pode criar novos conjuntos de dados ou fazer modificações aos existentes. Isso é normalmente usado por um aplicativo para enviar dados diretamente ao Power BI.
 
-* **Exibir grupos de usuários**
+* **Exibir Grupos de usuários**
   
   * Essa permissão permite a um aplicativo listar todos os grupos dos quais você participa. Ele pode usar essa permissão junto com algumas das outras permissões listadas para exibir ou atualizar o conteúdo de um grupo específico. O aplicativo não pode fazer modificações ao grupo em si.
 

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802016"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurar remotamente o aplicativo do Power BI usando a ferramenta de MDM (gerenciamento de dispositivo móvel)
@@ -28,7 +28,7 @@ O aplicativo Power BI Mobile é compatível com os cenários de configuração a
 
 O aplicativo Power BI para iOS e Android permite aos administradores efetuar push remotamente da configuração do Servidor de Relatório para os dispositivos registrados.
 
-| Key | Tipo | Descrição |
+| Chave | Type | Descrição |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ServerURL | Cadeia de caracteres | URL do Servidor de Relatório.<br><br>Deve começar com http/https.|
 | com.microsoft.powerbi.mobile.ServerUsername | Cadeia de caracteres | [opcional]<br><br>O nome de usuário a ser usado para conectar o servidor.<br><br>Se não existir, o aplicativo solicitará ao usuário que digite o nome de usuário para a conexão.|
@@ -39,7 +39,7 @@ O aplicativo Power BI para iOS e Android permite aos administradores efetuar pus
 
 O aplicativo móvel do Power BI para iOS e Android oferece aos administradores a capacidade de personalizar a configuração padrão de acordo com as configurações de segurança e privacidade. No iOS, você pode forçar os usuários a fornecer o Face ID, o Touch ID ou uma senha ao acessarem o aplicativo móvel do Power BI. No Android, você pode forçar os usuários a usar a autenticação biométrica (ID da Impressão Digital).
 
-| Key | Tipo | Descrição |
+| Chave | Type | Descrição |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Booliano | Valor padrão é False. <br><br>A biometria, como o Touch ID ou o Face ID (iOS) ou a ID da Impressão Digital (Android), pode ser necessária para que os usuários acessem o aplicativo nos próprios dispositivos. Quando for necessária, a biometria será usada, além da autenticação.<br><br>Se você está usando políticas de proteção de aplicativo, a Microsoft recomenda desabilitar essa configuração para evitar duplo prompt de acesso. |
 
@@ -53,7 +53,7 @@ O aplicativo Power BI para iOS e Android oferecerá aos administradores a capaci
 >[!NOTE]
 >Atualmente, nem todas as interações têm suporte em todos os dispositivos. Confira [Definir configurações de interação de relatório](mobile-app-interaction-settings.md) para obter um gráfico que mostra a disponibilidade atual entre os dispositivos.
 
-| Key | Tipo | Valores | Descrição |
+| Chave | Type | Valores | Descrição |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | Cadeia de caracteres |  <nobr>toque simples</nobr><br><nobr>toque duplo</nobr> | Configure se um toque no visual também fará uma seleção de ponto de dados. |
 | com.microsoft.powerbi.mobile.EnableMultiSelect | Booliano |  <nobr>Verdadeiro</nobr><br><nobr>Falso</nobr> | Configure se um toque em um ponto de dados substituirá a seleção atual ou será adicionado à seleção atual. |

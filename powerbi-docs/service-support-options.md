@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
 ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74696523"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Opções de suporte do Power BI Pro e do Power BI Premium
@@ -23,9 +23,9 @@ Este artigo descreve as opções de suporte disponíveis para clientes do Power 
 | --- | --- | --- | --- | --- | --- |
 | **Suporte da comunidade**: Fóruns na Web para os usuários receberem suporte ponto a ponto, diretrizes e melhores práticas com as respostas de uma comunidade global de especialistas no Power BI e funcionários da Microsoft. | X |   |   | Nenhum, a participação é fornecida em uma base de melhor esforço. | [Comunidade do Power BI](https://community.powerbi.com) |
 | **Suporte a usuários finais do Power BI Pro**: Suporte técnico básico para usuários finais que criam e consomem conteúdo no Power BI. | X |   |   | Um dia útil. | [Site de suporte do Power BI](https://support.powerbi.com)  |
-| **Suporte ao administrador do Power BI Premium**: Suporte técnico para administradores que implantam e usam capacidades do Power BI Premium. | X |   |   | Um dia útil ou uma hora, de acordo com a gravidade do caso.\* | [Site de suporte do Power BI](https://support.powerbi.com)<br>OU<br>[Centro de Administração do Microsoft 365](https://portal.office.com/adminportal)<br>OU<br> Telefone |
-| **Suporte ao administrador do Power BI**: Suporte técnico e de cobrança para administradores de implantações do Power BI em organizações.  Para usar essa opção, é necessário ser um Administrador de Empresa do Azure Active Directory, Administrador Global do Office 365, Administrador de Serviços do Office 365 ou Administrador de Serviços do Power BI. | X | X |   | Um dia útil ou uma hora, de acordo com a gravidade do caso.\* | [Centro de Administração do Microsoft 365](https://portal.office.com/adminportal)<br>OU<br> Telefone |
-| **Suporte Premier da Microsoft**: Uma abordagem corporativa ao suporte, com gerenciamento de conta, opção de suporte local e serviços proativos, como treinamento e otimização de desempenho de modelo de dados. | X | X | X | Várias, de acordo com a oferta e a gravidade do caso.\* | Gerente Técnico de Contas <br>OU<br> [Centro de Administração do Microsoft 365](https://portal.office.com/adminportal) |
+| **Suporte ao administrador do Power BI Premium**: Suporte técnico para administradores que implantam e usam capacidades do Power BI Premium. | X |   |   | Um dia útil ou uma hora, de acordo com a gravidade do caso.\* | [Site de suporte do Power BI](https://support.powerbi.com)<br>OR<br>[Centro de Administração do Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> Telefone |
+| **Suporte ao administrador do Power BI**: Suporte técnico e de cobrança para administradores de implantações do Power BI em organizações.  Para usar essa opção, é necessário ser um Administrador de Empresa do Azure Active Directory, Administrador Global do Office 365, Administrador de Serviços do Office 365 ou Administrador de Serviços do Power BI. | X | X |   | Um dia útil ou uma hora, de acordo com a gravidade do caso.\* | [Centro de Administração do Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> Telefone |
+| **Suporte Premier da Microsoft**: Uma abordagem corporativa ao suporte, com gerenciamento de conta, opção de suporte local e serviços proativos, como treinamento e otimização de desempenho de modelo de dados. | X | X | X | Várias, de acordo com a oferta e a gravidade do caso.\* | Gerente Técnico de Contas <br>OR<br> [Centro de Administração do Microsoft 365](https://portal.office.com/adminportal) |
 | | | | | | |
 
 \* Um SLA de uma hora estará disponível somente por meio de _casos Sev A_, o que exige justificativa do impacto comercial direto e imediato da interrupção do trabalho no relatório de produção existente.

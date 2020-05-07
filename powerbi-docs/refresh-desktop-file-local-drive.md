@@ -10,10 +10,10 @@ ms.date: 06/04/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 63d49a439d10acc5d7cda10b76b04a26fcdb085a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698798"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base em um arquivo do Power BI Desktop em uma unidade local
@@ -37,7 +37,7 @@ No Power BI, há suporte para os recursos Atualizar Agora e Agendar Atualizaçã
 
 É possível realizar uma única atualização manual no Power BI Desktop selecionando **Atualizar** na faixa de opções Página Inicial. Ao selecionar **Atualizar** aqui, os dados no modelo *do arquivo* serão atualizados com os dados atualizados da fonte de dados original. Esse tipo de atualização, feita totalmente no próprio aplicativo Power BI Desktop, é diferente da atualização manual ou agendada no Power BI, e é importante compreender a diferença entre elas.
 
-![Atualizar](media/refresh-desktop-file-local-drive/pbix-refresh.png)
+![Refresh](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
 Quando você importa o arquivo do Power BI Desktop de uma unidade local, os dados, juntamente com outras informações sobre o modelo, são carregados em um conjunto de dados no serviço do Power BI. No serviço do Power BI (não o Power BI Desktop), você deseja atualizar os dados no conjunto de dados, visto que são neles que os relatórios contidos no serviço do Power BI se baseiam. Como as fontes de dados são externas, é possível atualizar manualmente o conjunto de dados usando **Atualizar agora** ou configurar um agendamento de atualização usando **Agendar Atualização**.
 

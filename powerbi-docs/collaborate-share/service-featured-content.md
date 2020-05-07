@@ -10,10 +10,10 @@ ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79496253"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Destacar conteúdo na Página Inicial do Power BI de colegas
@@ -60,5 +60,5 @@ Agora, todas as pessoas com acesso a esse aplicativo também o verão na seção
 
 * [Como devo colaborar e compartilhar relatórios e dashboards?](../service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Gerenciar conteúdo em destaque no portal do Administrador](../service-admin-portal.md#manage-featured-content)
-* Dúvidas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -10,10 +10,10 @@ ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 910f52466b4700e4d0cc4168ef80ea5ee0164364
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698384"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Solução de problemas do gateway do Power BI (modo pessoal)
@@ -22,7 +22,7 @@ ms.locfileid: "74698384"
 
 As seções a seguir mostram alguns problemas comuns que você poderá ter ao usar o gateway de dados local (modo pessoal) do Power BI.
 
-## <a name="update-to-the-latest-version"></a>Atualize para a versão mais recente
+## <a name="update-to-the-latest-version"></a>Atualizar para a versão mais recente
 
 A versão atual do gateway para uso pessoal é o gateway de dados local (modo pessoal). Atualize sua instalação para usar essa versão.
 
@@ -127,7 +127,7 @@ O **Gateway do Gerenciamento de Dados** e os logs do **PowerBIGateway** estivere
 ![Gateway do Gerenciamento de Dados e logs do PowerBIGateway](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Rastreamento do Fiddler
-[Fiddler](https://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP. Você pode ver a comunicação com o serviço do Power BI do computador cliente. Essa comunicação pode mostrar erros e outras informações relacionadas.
+O [Fiddler](https://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP. Você pode ver a comunicação com o serviço do Power BI do computador cliente. Essa comunicação pode mostrar erros e outras informações relacionadas.
 
 ![Rastreamento do Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 

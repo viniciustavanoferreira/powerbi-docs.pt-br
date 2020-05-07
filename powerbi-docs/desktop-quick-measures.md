@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415316"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Usar medidas rápidas para cálculos comuns
@@ -53,14 +53,14 @@ Os cinco tipos de cálculo de medida rápida, com seus cálculos, são:
   * Total acumulado no mês
   * Alteração de ano a ano
   * Alteração de trimestre a trimestre
-  * Alteração de mês a mês
+  * Alteração em relação ao mês anterior
   * Média móvel
 * **Totais**
   * Total acumulado
   * Total da categoria (filtros aplicados)
   * Total da categoria (filtros não aplicados)
 * **Operações matemáticas**
-  * Addition
+  * Adição
   * Subtração
   * Multiplicação
   * Divisão

@@ -10,10 +10,10 @@ ms.date: 12/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c79a8ddd68fa64b0a16663500a3f02e9a991835b
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75730174"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Usar a formatação condicional em tabelas 
@@ -63,13 +63,13 @@ A tabela de exemplo com a formatação da fonte de escala de cores na coluna **A
 
 ![Tabela de exemplo com a escala de cores da fonte divergente](media/desktop-conditional-table-formatting/table-formatting-2-table.png)
 
-## <a name="color-by-rules"></a>Colorir segundo regras
+## <a name="color-by-rules"></a>Colorir por regras
 
 Para formatar a cor da tela de fundo ou da fonte da célula por regras, no campo **Formatar por** da caixa de diálogo **Cor da tela de fundo** ou **Cor da fonte**, selecione **Regras**. Novamente, **Com base no campo** mostra o campo no qual a formatação será baseada e **Resumo** mostra o tipo de agregação para o campo. 
 
 Em **Regras**, insira um ou mais intervalos de valores e defina uma cor para cada um. Cada intervalo de valor tem uma condição de *valor If*, uma condição de valor *and* e uma cor. As fontes ou as telas de fundo da célula em cada intervalo de valores são coloridas com a cor especificada. O seguinte exemplo apresenta três regras:
 
-![Colorir segundo regras](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
+![Colorir por regras](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
 
 Uma tabela de exemplo com a formatação da cor da tela de fundo baseada em regras na coluna **Acessibilidade** é semelhante a esta:
 

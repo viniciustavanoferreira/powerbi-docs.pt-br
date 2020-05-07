@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799635"
 ---
 Com o DAX, há muitas funções disponíveis para formatar, formar ou, de outro modo, analisar seus dados. Essas funções podem ser agrupadas em algumas categorias:
@@ -52,8 +52,8 @@ Essas funções contam elementos diferentes, como valores distintos, valores nã
 ## <a name="logical-functions"></a>Funções lógicas
 A coleção de funções **lógicas** no DAX inclui:
 
-* AND
-* OR
+* E
+* OU
 * NOT
 * IF
 * IFERROR

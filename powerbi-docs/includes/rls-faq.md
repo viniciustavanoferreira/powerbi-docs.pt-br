@@ -1,12 +1,12 @@
 ---
 ms.openlocfilehash: cd0696b44e285119193059304c89cfa04c755771
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "71409347"
 ---
-## <a name="faq"></a>PERGUNTAS FREQUENTES
+## <a name="faq"></a>Perguntas frequentes
 **Pergunta:** E se eu já tiver criado funções e regras para um conjunto de dados no serviço do Power BI? Elas ainda funcionariam se eu não fizesse nada?  
 **Resposta:** Não, os visuais não seriam renderizados corretamente. Você precisará recriar as funções e regras no Power BI Desktop e, em seguida, publicá-las no serviço do Power BI.
 

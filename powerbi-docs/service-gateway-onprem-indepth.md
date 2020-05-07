@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699373"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalhes sobre o gateway de dados local
@@ -22,7 +22,7 @@ ms.locfileid: "74699373"
 
 Movemos as informações deste artigo para vários artigos nos documentos gerais e nos do Power BI. Siga os links em cada título para encontrar o conteúdo relevante.
 
-## <a name="how-the-gateway-works"></a>Como funciona o gateway
+## <a name="how-the-gateway-works"></a>Como o gateway funciona
 
 Confira [Arquitetura do gateway de dados local](/data-integration/gateway/service-gateway-onprem-indepth).
 
@@ -81,7 +81,7 @@ Confira [Solucionar problemas do gateway de dados local](/data-integration/gatew
 
 Confira [Conta de entrada](/data-integration/gateway/service-gateway-onprem-indepth#sign-in-account).
 
-## <a name="windows-service-account"></a>Conta do Serviço Windows
+## <a name="windows-service-account"></a>Conta de serviço Windows
 
 Confira [Alterar a conta de serviço do gateway de dados local](/data-integration/gateway/service-gateway-service-account).
 

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762268"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introdução às visualizações de P e R do Power BI
@@ -45,7 +45,7 @@ O visual de P e R consiste em quatro componentes principais:
 
 1. Abrir o arquivo no modo de exibição de relatório ![Captura de tela do ícone da exibição de relatório.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Select ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 
 Se você encontrar um erro ao criar um visual de P e R, confira a seção [limitações](../natural-language/q-and-a-limitations.md) para ver se há suporte para a configuração da fonte de dados.

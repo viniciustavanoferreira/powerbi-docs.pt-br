@@ -9,10 +9,10 @@ ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
 ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73021095"
 ---
 1. Comece criando o workspace. Selecione **Espaços de trabalho** > **Criar espaço de trabalho**. 
@@ -41,7 +41,7 @@ ms.locfileid: "73021095"
    
      ![Definir como edição ou somente exibição](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     Somente adicione pessoas ao espaço de trabalho para que elas possam editar o conteúdo. Caso a pessoa só precise exibir o conteúdo, não adicione-a ao workspace. Você pode incluí-la quando publicar o aplicativo.
+     Somente adicione pessoas ao workspace para que elas possam editar o conteúdo. Caso a pessoa só precise exibir o conteúdo, não adicione-a ao workspace. Você pode incluí-la quando publicar o aplicativo.
 
 5. Adicione os endereços de email das pessoas que você deseja que tenham acesso ao workspace e selecione **Adicionar**. Você não pode adicionar aliases de grupos, apenas indivíduos.
 

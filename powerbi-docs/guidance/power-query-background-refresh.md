@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75623051"
 ---
 # <a name="disable-power-query-background-refresh"></a>Desabilitar atualização em segundo plano do Power Query
@@ -43,4 +43,4 @@ Sempre é possível atualizar o cache de visualização. Você pode atualizá-lo
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
 - [Documentação do Power Query](/power-query/)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

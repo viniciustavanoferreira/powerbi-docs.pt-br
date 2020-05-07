@@ -10,10 +10,10 @@ ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c96b4ebae574a3b6a6fa54c5f5dc99b5bc948a90
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874415"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Tipos de filtros nos relatórios do Power BI
@@ -52,7 +52,7 @@ Os filtros de drill-down são adicionados automaticamente ao painel de filtros q
 
 Os filtros de drill cruzado são adicionados automaticamente ao novo painel quando um filtro de drill-down é passado para outro visual na página do relatório por meio do recurso de filtro ou realce cruzado. Os usuários com permissão de edição para o relatório não podem excluir, limpar, ocultar, bloquear, renomear ou classificar este filtro, pois ele está associado à funcionalidade de drill-down dos visuais. Eles também não podem editar este filtro porque ele vem de um drilling down em outro visual. Para remover o filtro de drill-dow, clique no botão de drill up do visual que está passando o filtro.
 
-## <a name="drillthrough-filters"></a>Filtros de detalhamento
+## <a name="drillthrough-filters"></a>Filtros de Detalhamento
 
 Os filtros de detalhamento são passados de uma página para outra por meio do recurso de detalhamento. Eles aparecem no painel de detalhamento. Há dois tipos de filtros de detalhamento. O primeiro tipo é aquele que invoca o detalhamento. Os editores do relatório podem editar, excluir, limpar, ocultar ou bloquear esse tipo de filtro. O segundo tipo é o filtro de detalhamento que é passado para o destino, com base nos filtros de nível de página da página de origem. Os editores do relatório podem editar, excluir ou limpar, esse tipo transitório de filtro de detalhamento. Eles não podem bloquear ou ocultar esse filtro para os usuários finais.
 
@@ -76,7 +76,7 @@ Os filtros de passagem são filtros de nível visual criados por meio de P e R. 
 
 Esta tabela compara o que os autores podem fazer com os diferentes tipos de filtros.
 
-| Tipo de filtro | Editar | Limpar | Excluir | Ocultar | Bloquear | Classificar | Renomear |
+| Tipo de filtro | Editar | Limpar | Excluir | Ocultar | Bloquear | Classificação | Renomear |
 |----|----|----|----|----|----|----|----|
 | Filtros manuais | Y | Y | Y | Y | Y | Y | Y |
 | Filtros automáticos | Y | Y | N | Y | Y | Y | Y |

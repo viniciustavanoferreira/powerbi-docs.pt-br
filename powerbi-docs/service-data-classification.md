@@ -10,10 +10,10 @@ ms.date: 08/10/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75925729"
 ---
 # <a name="dashboard-data-classification"></a>Classificação de dados no dashboard

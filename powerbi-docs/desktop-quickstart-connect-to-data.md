@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885233"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Início Rápido: Conectar-se a dados no Power BI Desktop
@@ -38,7 +38,7 @@ Depois de instalar o Power BI Desktop, inicie o aplicativo para que ele esteja e
 
 ![Power BI Desktop com tela em branco](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
-## <a name="connect-to-data"></a>Conectar aos dados
+## <a name="connect-to-data"></a>Conectar-se a dados
 
 Com o Power BI Desktop, você pode se conectar a muitos tipos de dados diferentes. Essas fontes incluem fontes de dados básicas, como um arquivo do Microsoft Excel. Você pode se conectar a serviços online que contêm todo tipo de dados, como o Salesforce, o Microsoft Dynamics, o Armazenamento de Blobs do Azure e muito mais.
 
@@ -66,7 +66,7 @@ Depois de fazer suas seleções, selecione **Carregar** para importar os dados n
 
 Depois que você carregar as tabelas, o painel **Campos** mostrará os dados. Você pode expandir cada tabela selecionando a seta ao lado de seu nome. Na imagem a seguir, a tabela *financials* é expandida, mostrando cada um de seus campos.
 
-![Obter Dados](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
+![Obter dados](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 
 E isso é tudo! Você se conectou a dados no Power BI Desktop, carregou esses dados e, agora, pode ver todos os campos disponíveis nessas tabelas.
 

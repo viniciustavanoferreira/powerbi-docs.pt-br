@@ -11,10 +11,10 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907582"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
@@ -56,7 +56,7 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://down
 
 1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Select ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 
 ## <a name="create-a-waterfall-chart"></a>Criar um gráfico de cascata
@@ -73,7 +73,7 @@ Crie um gráfico de cascata que exibe a variação de vendas (vendas estimadas v
 
     ![Modelos de visualização](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. Selecione **Hora** > **FiscalMonth** para adicioná-la à caixa **Categoria**.
+1. Selecione **Hora** > **FiscalMonth** para adicioná-la à seção **Categoria**.
 
     ![cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 

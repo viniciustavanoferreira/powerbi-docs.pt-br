@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
 ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75220005"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Exibir KPIs e relatórios locais do servidor de relatório nos aplicativos móveis do Power BI
@@ -57,7 +57,7 @@ Mesmo que você não tenha acesso a um portal da Web do Reporting Services, aind
    Se já estiver conectado ao seu aplicativo do Power BI, toque na imagem do seu perfil no canto superior esquerdo e, em seguida, toque em **Configurações** no painel de contas que desliza para fora.
 3. Na página de configurações que é aberta, toque em **Conectar ao servidor**.
    
-    ![Conectar ao servidor](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
+    ![Conectar-se ao servidor](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
 
     O aplicativo móvel precisa acessar o servidor de alguma forma. Há algumas maneiras de fazer isso:
      * Permanecer na mesma rede usando VPN é a maneira mais fácil.
@@ -132,5 +132,5 @@ Relatórios do Power BI, relatórios móveis do Reporting Services e KPIs são e
 
 ## <a name="next-steps"></a>Próximas etapas
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)  
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

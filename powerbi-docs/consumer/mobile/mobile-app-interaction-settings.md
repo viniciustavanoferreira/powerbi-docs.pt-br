@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
 ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377365"
 ---
 # <a name="configure-report-interaction-settings"></a>Definir configurações de interação de relatório
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O aplicativo móvel Power BI tem várias definições de "interação" configuráveis que permitem controlar como você interage com seus dados e definir como os elementos do aplicativo móvel Power BI se comportam. A tabela a seguir mostra as configurações de interação que estão disponíveis e os dispositivos que as incluem.
 
@@ -51,7 +51,7 @@ Para cancelar a seleção de um ponto de dados, toque nela novamente.
 >[!NOTE]
 >O recurso de seleção múltipla não tem suporte em visuais do Power BI.
 >
->O modo de seleção múltipla terá suporte do Servidor de Relatórios do Power BI no próximo lançamento dessa plataforma.
+>O modo de seleção múltipla terá suporte do Servidor de Relatórios do Power BI, no próximo lançamento desta plataforma.
 
 ### <a name="docked-report-footer"></a>Rodapé de relatório encaixado
 

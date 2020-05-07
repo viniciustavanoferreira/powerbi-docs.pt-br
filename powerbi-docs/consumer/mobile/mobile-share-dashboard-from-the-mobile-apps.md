@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435779"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartilhar um dashboard ou relatório dos aplicativos móveis do Power BI
@@ -102,5 +102,5 @@ Só será possível descompartilhar se você for o proprietário.
 ## <a name="next-steps"></a>Próximas etapas
 * [Anotar e compartilhar um instantâneo de um bloco, relatório ou visual nos aplicativos móveis](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Compartilhar um dashboard ou relatório no Power BI](../../service-share-dashboards.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

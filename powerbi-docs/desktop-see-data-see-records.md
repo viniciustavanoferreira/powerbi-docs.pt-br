@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877782"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Use Ver Dados e Ver Registros no Power BI Desktop
@@ -30,9 +30,9 @@ No **Power BI Desktop**, é possível analisar em detalhes qualquer visualizaç�
 >  - Gráfico de rosca
 >  - Mapa coroplético
 >  - Funil
->  - Mapear
+>  - Mapa
 >  - Gráfico de pizza
->  - Mapa de árvore
+>  - Treemap
 
 ## <a name="use-see-data-in-power-bi-desktop"></a>Usar Ver Dados no Power BI Desktop
 
@@ -57,7 +57,7 @@ Você pode alternar entre a exibição horizontal e a *exibição vertical* sele
 
 Para retornar ao relatório, selecione **< Voltar ao Relatório** no canto superior esquerdo da tela.
 
-![Voltar ao Relatório](media/desktop-see-data-see-records/see-data5.png)
+![Voltar ao relatório](media/desktop-see-data-see-records/see-data5.png)
 
 ## <a name="use-see-records-in-power-bi-desktop"></a>Usar Ver Registros no Power BI Desktop
 

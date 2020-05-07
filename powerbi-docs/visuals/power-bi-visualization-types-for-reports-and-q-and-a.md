@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381412"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
@@ -25,7 +25,7 @@ Além disso, confira o [Microsoft AppSource](https://appsource.microsoft.com/mar
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista das visualizações disponíveis no Power BI
 Todas essas visualizações podem ser adicionadas aos relatórios do Power BI, especificadas em P e R e fixadas a painéis.
 
-### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: básico (em camadas) e empilhado
+### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: Básico (em camadas) e Empilhado
 ![gráficos de área](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
@@ -110,12 +110,12 @@ Para obter mais informações, veja [KPIs no Power BI](power-bi-visualization-kp
 
 Para obter mais informações, confira as [Dicas e truques para visualizações de mapa](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Mapas: Mapas ArcGIS
+### <a name="maps-arcgis-maps"></a>Mapas: mapas de ArcGIS
 ![Mapa ArcGiS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Para obter mais informações, veja [Mapas de ArcGIS no Power BI](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropléticos)
+### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas coropléticos
 ![mapa coroplético](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]

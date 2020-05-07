@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
 ms.openlocfilehash: 57204602900e76e7bd5034e96f6385e5e944c04e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114786"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Criar uma capacidade do Power BI Embedded no portal do Azure
@@ -29,9 +29,9 @@ Se você não tiver uma assinatura do Azure, crie uma [conta gratuita](https://a
 Para concluir este início rápido, você precisa:
 
 * **Assinatura do Azure:** visite a [Avaliação Gratuita do Azure](https://azure.microsoft.com/free/) para criar uma conta.
-* **Azure Active Directory:** sua assinatura precisa estar associada a um locatário do AAD (Azure Active Directory). Além disso, ***você precisa estar conectado ao Azure com uma conta nesse locatário***. Não há suporte para contas Microsoft. Para obter mais informações, confira [Autenticação e permissões de usuário](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users).
-* **Locatário do Power BI:** pelo menos uma conta no seu locatário do AAD precisa estar inscrita no Power BI.
-* **Grupo de recursos:** use um grupo de recursos existente ou [crie um](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+* **Azure Active Directory:** sua assinatura precisa ser associada a um locatário do AAD (Azure Active Directory). Além disso, ***você precisa estar conectado ao Azure com uma conta nesse locatário***. Não há suporte para contas Microsoft. Para obter mais informações, confira [Autenticação e permissões de usuário](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users).
+* **Locatário do Power BI:** pelo menos uma conta no seu locatário do AAD precisa se inscrever no Power BI.
+* **Grupo de recursos:** use um grupo de recursos que você já tem ou [crie um](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
 
 ## <a name="create-a-capacity"></a>Criar uma capacidade
 

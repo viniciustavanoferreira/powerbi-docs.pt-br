@@ -10,10 +10,10 @@ ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208116"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Preparação de dados de autoatendimento no Power BI
@@ -102,7 +102,7 @@ Ao armazenarem dados comerciais no formato padronizado do **Common Data Service*
 * Introdução aos fluxos de dados para desenvolvedores
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximas Etapas
 
 Este artigo ofereceu uma visão geral da preparação de dados de autoatendimento para big data no Power BI e muitas maneiras de utilizá-la. Os artigos a seguir oferecem mais detalhes sobre cenários de uso comuns para fluxos de dados. 
 
@@ -113,7 +113,7 @@ Este artigo ofereceu uma visão geral da preparação de dados de autoatendiment
 * [Integração entre fluxos de dados e o Azure Data Lake](service-dataflows-azure-data-lake-integration.md)
 
 Confira mais informações sobre o Power Query e a atualização agendada nestes artigos:
-* [Visão geral da Consulta no Power BI Desktop](desktop-query-overview.md)
+* [Visão geral de Consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configuração de atualização agendada](refresh-scheduled-refresh.md)
 
 Leia este artigo de visão geral para saber mais sobre o Common Data Service:

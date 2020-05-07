@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a8d99a041edbbe353badbb580940e918b30a0a9d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73879728"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Mostrar itens sem dados no Power BI
@@ -163,7 +163,7 @@ Por exemplo, em um visual de matriz com quatro campos no bucket de **Linhas**, s
 
 ![Os campos no mesmo visual habilitam automaticamente a opção Mostrar itens sem dados](media/desktop-show-items-no-data/show-items-no-data-05.png)
 
-Por outro lado, o campo *Continente* mostrado no bucket de **Colunas** *não* tem a opção **Mostrar itens sem dados** habilitada automaticamente. 
+Por outro lado, o campo *Continente* mostrado no bucket de **Colunas***não* tem a opção **Mostrar itens sem dados** habilitada automaticamente. 
 
 Esse comportamento visual geralmente é visto quando um Visual é convertido em um tipo diferente, por exemplo, convertendo um visual de matriz em um visual de tabela. Em tais conversões, a opção **Mostrar itens sem dados** é habilitada automaticamente para qualquer campo movido para um bucket em que um campo nesse bucket tem o recurso habilitado. No exemplo anterior, se *SupplierID* tiver o recurso **Mostrar itens sem dados** habilitado e o visual for convertido em uma tabela, o campo *Continente* do bucket de **Colunas** será movido (juntamente com os campos no bucket de **Linhas**) para o único bucket usado em um visual de tabela – o bucket de **Valores**. Assim, todos os campos no bucket de **Valores** terão **Mostrar itens sem dados** habilitada.
 

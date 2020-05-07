@@ -10,10 +10,10 @@ ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877156"
 ---
 # <a name="certify-datasets-preview"></a>Certificar conjuntos de dados (versão prévia)
@@ -22,7 +22,7 @@ Sua organização pode certificar conjuntos de dados que são a fonte autorizada
 
 Agora os usuários do Power BI podem ter acesso a muitos conjuntos de dados diferentes e, portanto, as empresas precisam orientá-los aos conjuntos de dados confiáveis e de alta qualidade. O Power BI fornece duas maneiras de *endossar* conjuntos de dados:
 
-- **Promoção**: Os proprietários de conjuntos de dados e outros em um espaço de trabalho podem promover seus conjuntos de dados quando estiverem prontos para uso generalizado. Confira [Promover seu conjunto de dados](service-datasets-promote.md) para obter detalhes. 
+- **Promoção**: Os proprietários de conjuntos de dados e outros em um workspace podem promover seus conjuntos de dados quando estiverem prontos para uso generalizado. Confira [Promover seu conjunto de dados](service-datasets-promote.md) para obter detalhes. 
 - **Certificação**: Os proprietários de conjuntos de dados podem solicitar a certificação de um conjunto de dados promovido. Um grupo seleto de usuários definidos na configuração do administrador de locatários **Certificação do Conjunto de Dados** decide quais conjuntos de dados serão certificados. O nome da pessoa que certificou um conjunto de dados é exibido em uma dica de ferramenta durante a experiência de descoberta do conjunto de dados; passe o mouse sobre o rótulo **Certificado** e você o verá.
 
 ## <a name="certify-a-dataset"></a>Certificar um conjunto de dados

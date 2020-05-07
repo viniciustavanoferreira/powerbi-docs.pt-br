@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207058"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtros e realce em relatórios do Power BI
@@ -52,7 +52,7 @@ Você pode pesquisar na página, no elemento visual e nos filtros de relatório,
 Se o filtro tiver a palavra **All** ao lado, isso significará que todos os valores no campo serão incluídos no filtro.  Por exemplo, **Chain(All)** na captura de tela abaixo informa que essa página de relatório inclui dados sobre cadeias de armazenamento.  Por outro lado, o filtro de nível de relatório ou **FiscalYear é 2013 ou 2014** informa que o relatório inclui somente dados para os anos fiscais de 2013 e 2014.
 
 ## <a name="filters-in-reading-or-editing-view"></a>Filtros no Modo de Exibição de Leitura ou de Edição
-Há dois modos de interagir com relatórios: [Modo de Exibição de Leitura](consumer/end-user-reading-view.md) e Modo de Exibição de Edição. Os recursos de filtragem disponíveis para você dependem do modo no qual você está.
+Há dois modos de interagir com relatórios: [Modo de Exibição de Leitura e Modo de Exibição de Edição](consumer/end-user-reading-view.md). Os recursos de filtragem disponíveis para você dependem do modo no qual você está.
 
 * No Modo de Exibição de Edição é possível adicionar filtros de relatório, de página, de detalhamento e de visual. Quando você salvar o relatório, os filtros serão salvos com o relatório, mesmo se você os abrir em um aplicativo móvel. Pessoas olhando para o relatório no Modo de Exibição de Leitura podem interagir com os filtros que você adicionou, mas não podem adicionar novos filtros.
 * No Modo de Exibição de Leitura, você pode interagir com todos os filtros já existentes no relatório e salvar a seleção feita por você. Você não pode adicionar novos filtros.

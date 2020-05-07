@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871987"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introdução aos pacotes de conteúdo organizacional no Power BI

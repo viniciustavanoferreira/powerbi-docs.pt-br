@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: edac9f4eb0269e1d6ae359db6e8060b64697658c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878532"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Conectar-se a um banco de dados Impala no Power BI Desktop
@@ -26,7 +26,7 @@ Para se conectar a um banco de dados **Impala**, execute as seguintes etapas:
 
 2. Selecione **Banco de Dados** nas categorias à esquerda. Lá, você verá **Impala**.
 
-    ![Obter Dados](media/desktop-connect-impala/connect_impala_2.png)
+    ![Obter dados](media/desktop-connect-impala/connect_impala_2.png)
 
 3. Na janela **Impala** que será exibida, digite ou cole o nome do servidor Impala na caixa. Selecione **OK**. Você pode **Importar** dados diretamente no Power BI ou usar o **DirectQuery**. Saiba mais sobre [como usar o DirectQuery](desktop-use-directquery.md).
 

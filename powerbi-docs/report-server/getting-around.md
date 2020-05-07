@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859475"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Gerenciar conteúdo no portal da Web 
@@ -22,8 +22,8 @@ O portal da Web do Servidor de Relatório do Power BI é um local para exibir, a
 
 É possível exibir o portal da Web em qualquer navegador moderno. No portal da Web, os KPIs e os relatórios são organizados em pastas e é possível marcá-los como favoritos. Também é possível armazenar as pastas de trabalho do Excel lá. No portal da Web, é possível iniciar as ferramentas necessárias para criar relatórios:
 
-* **Relatórios do Power BI** criados com o Power BI Desktop: exiba-os no portal da Web e nos aplicativos móveis do Power BI.
-* **Relatórios paginados** criados no Construtor de Relatórios: documentos de visual moderno e layout fixo otimizados para impressão.
+* **Relatórios do Power BI** criados com o Power BI Desktop: exiba-os no portal da Web e os aplicativos móveis do Power BI.
+* **Relatórios paginados** criados no Construtor de Relatórios: documentos com aparência moderna e layout fixo otimizados para impressão.
 * **KPIs** criados diretamente no portal da Web.
 
 No portal da web, é possível procurar as pastas do servidor de relatório ou pesquisar relatórios específicos. É possível exibir um relatório, suas propriedades gerais e cópias antigas do relatório capturadas no histórico de relatórios. Dependendo de suas permissões, talvez você também possa assinar relatórios para entrega em sua caixa de entrada de email ou em uma pasta compartilhada no sistema de arquivos.
@@ -48,7 +48,7 @@ O aplicativo do portal da Web é executado em um navegador. Quando você inicia 
    * Relatórios paginados
    * Relatórios do Power BI Desktop
    * Pastas de trabalho do Excel
-   * Conjuntos de dados
+   * Conjuntos de Dados
    * Fontes de dados
    * Recursos
 

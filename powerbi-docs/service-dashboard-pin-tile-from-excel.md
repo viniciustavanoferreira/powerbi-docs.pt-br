@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877423"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Fixar um bloco em um painel do Power BI a partir do Excel
@@ -80,7 +80,7 @@ A seleção de um bloco de pasta de trabalho abre a pasta de trabalho vinculada 
  ![vídeo](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
-Recursos sem suporte: o Power BI usa os Serviços do Excel para recuperar os blocos da pasta de trabalho. Portanto, como não há suporte para alguns recursos na API REST dos Serviços do Excel, eles não serão vistos nos blocos do Power BI. Por exemplo: minigráficos, formatação condicional de conjunto de ícones e segmentações de tempo. Para obter uma lista completa de recursos sem suporte, veja [Recursos sem suporte na API REST dos Serviços do Excel](https://msdn.microsoft.com/library/office/ff394477.aspx)
+Recursos sem suporte: Power BI usa os Serviços do Excel para recuperar os blocos da pasta de trabalho. Portanto, como não há suporte para alguns recursos na API REST dos Serviços do Excel, eles não serão vistos nos blocos do Power BI. Por exemplo: minigráficos, formatação condicional de conjunto de ícones e segmentações de tempo. Para obter uma lista completa de recursos sem suporte, veja [Recursos sem suporte na API REST dos Serviços do Excel](https://msdn.microsoft.com/library/office/ff394477.aspx)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Compartilhar um dashboard que contém links para uma pasta de trabalho do Excel](service-share-dashboard-that-links-to-excel-onedrive.md)

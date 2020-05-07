@@ -10,10 +10,10 @@ ms.date: 05/31/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872575"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces-preview"></a>Controlar o uso de conjuntos de dados em workspaces (versão prévia)
@@ -39,4 +39,4 @@ Como administrador de locatários, você pode fornecer uma URL para o link **Sai
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

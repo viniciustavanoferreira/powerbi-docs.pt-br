@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: eaf2e7fed056653f2ee44e25b493e6b5e170a8dd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761446"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Conectar-se a dados usando as interfaces genéricas do Power BI Desktop 
@@ -56,7 +56,7 @@ A lista a seguir fornece detalhes sobre alguns exemplos de fontes de dados às q
 | ODBC |Hive |[Driver ODBC do Hive](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[Informações sobre o IBM Netezza](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
 | ODBC |Presto |[Driver ODBC do Presto](https://www.simba.com/drivers/presto-odbc-jdbc/) |
-| ODBC |Projeto Online |[Artigo de projeto online](desktop-project-online-connect-to-data.md) |
+| ODBC |Project Online |[Artigo de projeto online](desktop-project-online-connect-to-data.md) |
 | ODBC |Progress OpenEdge |[Postagem do blog de driver ODBC do Progress OpenEdge](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>Fontes de dados acessíveis por meio do OLE DB

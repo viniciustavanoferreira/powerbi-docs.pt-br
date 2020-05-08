@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: ced98b8290059b3098ce83efdd05bb2a20e2d5ee
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761124"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Agrupar visuais nos relatórios do Power BI Desktop

@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: f689ba79f9cce7d6ee815e0712491e7d00647fe8
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82584754"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841654"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados com suporte no Power BI Desktop e DAX (Data Analysis Expressions). 
@@ -79,10 +79,11 @@ O Power BI Desktop dá suporte a cinco tipos de dados de data/hora na Visualiza�
 O tipo de dados Binary pode ser usado para representar outros dados com um formato binário. No Editor de Consultas, você poderá usá-lo ao carregar arquivos binários se você o converter em outros tipos de dados antes de carregá-lo no modelo do Power BI. Não há suporte para colunas binárias no modelo de dados do Power BI. Ele está localizado nos menus Exibição de Dados e Exibição de Relatório por motivos herdados, mas se você tentar carregar colunas binárias no modelo do Power BI, poderá receber erros.
 
 
+
+
 > [!NOTE]
 >  Se uma coluna binária estiver na saída das etapas de uma consulta, a tentativa de atualizar os dados por meio de um gateway poderá causar erros. Recomendamos que você remova explicitamente todas as colunas binárias como a última etapa nas consultas.    
 > 
->
 
 ### <a name="table-data-type"></a>Tipo de dados de tabela
 O DAX usa um tipo de dados de tabela em muitas funções, como agregações e cálculos de inteligência de dados temporais. Algumas funções exigem uma referência a uma tabela; outras funções retornam uma tabela que pode ser usada como entrada para outras funções. Em algumas funções que exigem uma tabela como entrada, você pode especificar uma expressão que é avaliada como uma tabela; para algumas funções, é necessária uma referência a uma tabela base. Para obter informações sobre os requisitos de funções específicas, consulte [Referência de função DAX](https://msdn.microsoft.com/library/ee634396.aspx).

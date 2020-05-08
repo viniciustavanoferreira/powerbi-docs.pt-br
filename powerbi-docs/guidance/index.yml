@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: eecccb15eb48e922fd6b29e703a2bc4f298caa6e
-  ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+  ms.openlocfilehash: 2aba7eb9ff9fbd6941c84a9f3db10758724cdb0c
+  ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/16/2020
-  ms.locfileid: "81525343"
+  ms.lasthandoff: 05/05/2020
+  ms.locfileid: "82841569"
 landingContent:
 - title: Diretrizes do Power BI
   linkLists:
@@ -28,7 +28,7 @@ landingContent:
     - text: Guia de otimização para o Power BI
       url: power-bi-optimization.md
     - text: Visão geral dos white papers
-      url: ../whitepapers.md
+      url: whitepapers.md
 - title: Transformar e formatar dados
   linkLists:
   - linkListType: concept
@@ -53,7 +53,7 @@ landingContent:
       url: auto-date-time.md
     - text: Relações um-para-um
       url: relationships-one-to-one.md
-    - text: Relacionamentos de muitos para muitos
+    - text: Relações muitos para muitos
       url: relationships-many-to-many.md
     - text: Relacionamentos ativos vs inativos
       url: relationships-active-inactive.md
@@ -113,7 +113,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: Quando usar relatórios paginados
+    - text: Quando usar os relatórios paginados
       url: report-paginated-or-power-bi.md
     - text: Diretrizes de recuperação de dados
       url: report-paginated-data-retrieval.md

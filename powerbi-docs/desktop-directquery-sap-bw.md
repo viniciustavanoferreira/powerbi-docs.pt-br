@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761170"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Conectar-se ao SAP Business Warehouse usando o DirectQuery no Power BI
@@ -35,7 +35,7 @@ As principais restrições de modelagem adicionais ao se conectar ao SAP BW usan
 * **Limitações adicionais para medidas:** há limitações adicionais impostas sobre as expressões DAX que podem ser usadas em medidas para refletir o nível de suporte oferecido pelo SAP BW.
 * **Não há suporte para definição de relações:** as relações são inerentes na fonte externa do SAP e relações adicionais não podem ser definidas no modelo.
 * **Não há Exibição de Dados:** a **Exibição de Dados** normalmente exibe dados com nível de detalhe nas tabelas. Dada a natureza das fontes de OLAP como o SAP BW, essa exibição não está disponível com o SAP BW.
-* **Detalhes de coluna e medidas são fixos:** a lista de colunas e medidas vistas na lista de campos são fixas segundo a fonte subjacente e não podem ser modificadas. Por exemplo, não é possível excluir uma coluna ou alterar seu tipo de dados (no entanto, é possível renomeá-la).
+* **Os detalhes das colunas e das medidas são fixos:** a lista de colunas e medidas vistas na lista de campos são fixas segundo a fonte subjacente e não podem ser modificadas. Por exemplo, não é possível excluir uma coluna ou alterar seu tipo de dados (no entanto, é possível renomeá-la).
 * **Limitações adicionais no DAX:** há limitações adicionais no DAX que podem ser usadas em definições de medida para refletir as limitações na fonte. Por exemplo, não é possível usar uma função de agregação em uma tabela.
 
 ## <a name="additional-visualization-restrictions"></a>Restrições de visualização adicionais
@@ -43,7 +43,7 @@ As principais restrições de visualização adicionais ao se conectar ao SAP BW
 
 * **Não há agregação de colunas:** não é possível alterar a agregação para uma coluna em um visual; ela sempre é *Não Resumir*
 * **A filtragem de medidas fica desabilitada:** a filtragem de medidas fica desabilitada para refletir o suporte oferecido pelo SAP BW.
-* **Seleção múltipla e incluir/excluir:** a capacidade de fazer a seleção múltipla de pontos de dados em um visual ficará desabilitada se os pontos representarem valores de mais de uma coluna. Por exemplo, dado um gráfico de barras que mostra Vendas por país, com a Categoria na Legenda, não seria possível selecionar o ponto relativo a (EUA, Bicicletas) e (França, Roupas). Da mesma forma, não seria possível selecionar o ponto relativo a (EUA, Bicicletas) e excluí-lo do visual. As duas limitações são impostas para refletir o suporte oferecido pelo SAP BW.
+* **Seleção múltipla e incluir/excluir:** a capacidade fazer a seleção múltipla de pontos de dados em um visual ficará desabilitada se os pontos representarem valores de mais de uma coluna. Por exemplo, dado um gráfico de barras que mostra Vendas por país, com a Categoria na Legenda, não seria possível selecionar o ponto relativo a (EUA, Bicicletas) e (França, Roupas). Da mesma forma, não seria possível selecionar o ponto relativo a (EUA, Bicicletas) e excluí-lo do visual. As duas limitações são impostas para refletir o suporte oferecido pelo SAP BW.
 
 ## <a name="support-for-sap-bw-features"></a>Suporte para recursos do SAP BW
 A tabela a seguir lista todos os recursos do SAP BW que não têm suporte completo ou que têm comportamento diferente ao usar o Power BI.   

@@ -10,17 +10,17 @@ ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709779"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Usar o Performance Analyzer para examinar o desempenho do elemento de relatório
 
 No **Power BI Desktop**, você pode descobrir como cada um de seus elementos de relatório, como visuais e fórmulas DAX, estão sendo executados. Usando o **Performance Analyzer**, você pode ver e registrar logs que medem como cada um de seus elementos de relatório é executado quando os usuários interagem com eles e quais aspectos de seu desempenho consomem mais (ou menos) recursos.
 
-![Performance analyzer](media/desktop-performance-analyzer/performance-analyzer-01.png)
+![Analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-01.png)
 
 O Performance Analyzer inspeciona e exibe a duração necessária para atualizar ou atualizar todos os visuais que as interações do usuário iniciam e apresenta as informações para que você possa exibir, fazer drill down ou exportar os resultados. O Performance Analyzer pode ajudar a identificar visuais que estão afetando o desempenho de seus relatórios e o motivo do impacto.
 
@@ -38,7 +38,7 @@ O Performance Analyzer mede o tempo de processamento (incluindo o tempo para cri
 
 Para que o Performance Analyzer comece a gravar, basta selecionar **Iniciar gravação**
 
-![Iniciar gravação](media/desktop-performance-analyzer/performance-analyzer-03.png)
+![Iniciar a gravação](media/desktop-performance-analyzer/performance-analyzer-03.png)
 
 As ações executadas no relatório são exibidas e registradas no painel do Performance Analyzer, na ordem em que o visual é carregado pelo Power BI. Por exemplo, talvez os usuários tenham dito que um relatório demora muito para ser atualizado. Ou determinados visuais em um relatório demoram muito para serem exibidos quando uma segmentação é ajustada. O Performance Analyzer pode informar qual visual é o culpado e identificar quais aspectos do visual estão demorando mais para serem processados. 
 

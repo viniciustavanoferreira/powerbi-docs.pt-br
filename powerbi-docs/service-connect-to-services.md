@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975020"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Conectar-se aos serviços que você usa com o Power BI
@@ -29,7 +29,7 @@ Depois de instalar o aplicativo, exiba o dashboard e os relatórios no aplicativ
 
 ![Aplicativo Google Analytics no aplicativo móvel do Power BI](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>Introdução
+## <a name="get-started"></a>Começar
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="edit-the-dashboard-and-reports"></a>Editar o dashboard e os relatórios
@@ -70,5 +70,5 @@ Caso esteja interessado em criar aplicativos de modelo para distribuí-los por c
 ## <a name="next-steps"></a>Próximas etapas
 * [Distribuir aplicativos para seus colegas](service-create-distribute-apps.md)
 * [Criar novos workspaces no Power BI](service-create-the-new-workspaces.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

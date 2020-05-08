@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893438"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizar títulos, telas de fundo e legendas de visualizações
@@ -139,7 +139,7 @@ Veja a seguir uma lista de visualizações e as opções de personalização que
 | Barras | sim | sim |sim |
 | Cartão | sim | sim |n/a |
 | Cartão de múltiplas linhas | sim | sim | n/a |
-| Coluna | sim | sim | sim |
+| Column | sim | sim | sim |
 | Combinação | sim | sim | sim |
 | Donut | sim | sim | sim |
 | Mapa coroplético | sim | sim | sim |
@@ -148,16 +148,16 @@ Veja a seguir uma lista de visualizações e as opções de personalização que
 | Influenciador principal | sim | sim | n/a |
 | KPI | sim | sim | n/a |
 | Linha | sim | sim | sim |
-| Mapear | sim | sim | sim |
+| Mapa | sim | sim | sim |
 | Matriz | sim | sim | n/a |
 | Pizza | sim | sim | sim |
-| P e R | sim | sim | n/a |
+| Perguntas e Respostas | sim | sim | n/a |
 | Dispersão | sim | sim | sim |
 | Forma | sim | sim | sim |
 | Segmentação de Dados | sim | sim | n/a |
-| Tabela | sim | sim | n/a |
+| Table | sim | sim | n/a |
 | Caixa de texto | não | sim | n/a |
-| Mapa de árvore | sim | sim | sim |
+| Treemap | sim | sim | sim |
 | Waterfall | sim | sim | sim |
 
 ## <a name="next-steps"></a>Próximas etapas

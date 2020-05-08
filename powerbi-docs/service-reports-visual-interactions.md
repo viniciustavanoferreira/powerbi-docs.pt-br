@@ -11,10 +11,10 @@ ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 1d723f3dd67eb5e096622c882b5f538a77666d9e
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77036689"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Alterar como os visuais interagem em um relatório do Power BI
@@ -23,7 +23,7 @@ Se você tiver permissões de edição para um relatório, poderá usar as **int
 ## <a name="introduction-to-visual-interactions"></a>Introdução às interações visuais
 Por padrão, as visualizações em uma página de relatório podem ser usadas para filtro cruzado e realce cruzado de outras visualizações na página.
 Por exemplo, selecionar um estado em uma visualização de mapa realça o gráfico de colunas e filtra o gráfico de linhas para exibir apenas os dados que se aplicam a um estado.
-Veja [Sobre filtragem e realce](power-bi-reports-filters-and-highlighting.md). E se você tiver uma visualização que é compatível com [drill down](consumer/end-user-drill.md), por padrão, fazer drill down em uma visualização não afeta as outras visualizações na página do relatório. Mas ambos os comportamentos padrão podem ser substituídos e as interações definidas por visualização.
+Consulte [Sobre filtragem e realce](power-bi-reports-filters-and-highlighting.md). E se você tiver uma visualização que é compatível com [drill down](consumer/end-user-drill.md), por padrão, fazer drill down em uma visualização não afeta as outras visualizações na página do relatório. Mas ambos os comportamentos padrão podem ser substituídos e as interações definidas por visualização.
 
 Este artigo mostra como usar as **interações visuais** no Power BI Desktop. O processo é o mesmo no serviço do Power BI [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md). Se você só tiver acesso ao modo de exibição de Leitura ou se o relatório tiver sido compartilhado com você, não será possível alterar as configurações de interações visuais.
 

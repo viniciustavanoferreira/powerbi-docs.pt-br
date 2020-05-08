@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74410812"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Atualizar workspaces clássicos para os novos workspaces no Power BI
@@ -111,7 +111,7 @@ A nova experiência do workspace tem recursos que os workspaces clássicos não 
 
 1. Selecione **Configurações** na barra de menu na parte superior da lista de conteúdo do workspace para acessar as configurações do workspace.
 
-    ![Configurações do workspace](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
+    ![Configurações de workspace](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
 2. Em **Avançado**, a **Lista de contatos** do workspace está configurada para ser o grupo do Office 365 do qual o workspace foi atualizado. Você pode adicionar mais usuários ou grupos à lista de contatos ou alterá-la para torná-los administradores do workspace.
 
@@ -148,7 +148,7 @@ Para reverter, você precisa ser proprietário do grupo do Office 365 ao qual o 
 
 1. Na lista conteúdo do workspace, selecione **Mais opções** ( **...** ) > **Configurações do workspace**.
 
-    ![Configurações do workspace](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
+    ![Configurações de workspace](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
 1. Expanda **Avançado** e selecione **Reverter para o clássico**. Se essa opção não estiver disponível para você, confira as [Considerações para reverter para o workspace clássico](#considerations-for-switching-back-to-classic) neste artigo.
 
@@ -212,4 +212,4 @@ Há vários problemas conhecidos que você pode encontrar:
 ## <a name="next-steps"></a>Próximas etapas
 * [Criar novos workspaces no Power BI](../service-create-the-new-workspaces.md)
 * [Criar espaços de trabalho clássicos](../service-create-workspaces.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -10,15 +10,15 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 39fa082133b519feab004f475110a3a701ff085c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876113"
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Política de Privacidade referente ao comentário Enviar Comentários Positivos do Power BI Desktop
 
-Começando com a versão de março de 2018 do **Power BI Desktop**, o relatório de erros usa a plataforma de Relatório de Erros do Windows em vez da funcionalidade *Enviar Comentários Positivos* ou *Enviar um Rosto Triste*. Você pode obter mais informações sobre a plataforma de Relatório de Erros do Windows no [blog de privacidade do Windows](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
+Começando com a versão de março de 2018 do **Power BI Desktop**, o relatório de erros usa a plataforma de Relatório de Erros do Windows em vez da funcionalidade *Enviar Comentários Positivos* ou *Enviar um Rosto de Desaprovação*. Você pode obter mais informações sobre a plataforma de Relatório de Erros do Windows no [blog de privacidade do Windows](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
 
 ## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Para versões do Power BI Desktop anteriores a março de 2018
 

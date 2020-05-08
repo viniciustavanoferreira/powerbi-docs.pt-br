@@ -103,7 +103,7 @@
               href: ../service-dataflows-azure-data-lake-integration.md
             - name: Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: Definir configurações de fluxo de dados de workspace (versão prévia)
+            - name: Definir configurações de fluxo de dados de workspace (visualização)
               href: ../service-dataflows-configure-workspace-storage-settings.md
             - name: Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (versão prévia)
               href: ../service-dataflows-add-cdm-folder.md

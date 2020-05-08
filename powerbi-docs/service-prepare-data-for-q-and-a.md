@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 16d58090a9a7c6e64fbf2ace23fdf342d1768a30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881078"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Faça os dados do Excel funcionarem bem com P e R no Power BI
@@ -33,12 +33,12 @@ Perguntas e respostas baseia-se nos nomes das tabelas, colunas e campos calculad
 
 Aqui estão algumas dicas para aproveitar ao máximo de perguntas e respostas em sua pasta de trabalho.
 
-* Verifique se os dados estão em uma tabela do Excel. Veja [como criar uma tabela do Excel](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664).
+* Verifique se os dados estão em uma tabela do Excel. [Como criar uma tabela do Excel](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664).
 * Verifique se os nomes das tabelas, das colunas e dos campos calculados fazem sentido em fala natural.
   
   Por exemplo, se você tiver uma tabela com dados de vendas, colo que o nome da tabela de "Vendas". Nomes de coluna como "Ano", "Produto", "Representante de vendas" e "Valor" funcionaram bem com perguntas e respostas.
 
-* Se sua pasta de trabalho tiver um modelo de dados do Power Pivot, você poderá fazer ainda mais otimizações. Leia mais em [Desmistificando a P e R do Power BI, parte 2](https://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx) de nossa equipe interna de especialistas em linguagem natural.
+* Se sua pasta de trabalho tiver um modelo de dados do Power Pivot, você poderá fazer ainda mais otimizações. Leia mais sobre [Desmistificando o P e R do Power BI, parte 2](https://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx) da nossa equipe interna de especialistas em idioma natural.
 
 * Abra o conjunto de dados no Power BI Desktop e crie novas colunas, crie medidas calculadas, concatene campos para criar valores exclusivos, classifique dados por tipo (por exemplo, datas, cadeias de caracteres, geografia, imagens, URLs) e muito mais.
 

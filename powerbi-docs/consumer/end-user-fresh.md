@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040103"
 ---
 # <a name="your-content-is-up-to-date"></a>O conteúdo está atualizado
@@ -64,7 +64,7 @@ A tela **Compartilhado comigo** mostra o nome do proprietário do conteúdo e a 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>Como pesquisar a data da última atualização
 Caso tenha interesse, você poderá pesquisar a data da última atualização da maior parte do conteúdo. 
 
-### <a name="dashboard-tiles"></a>Blocos de dashboard
+### <a name="dashboard-tiles"></a>Blocos de painel
 Para blocos do dashboard, exiba o bloco no modo de foco para ver o carimbo de data/hora da Última atualização.
 
 1. Em um bloco do dashboard, selecione **Mais opções** (...) e **Abrir no modo de foco**.

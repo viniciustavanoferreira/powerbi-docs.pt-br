@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041667"
 ---
 # <a name="power-bi-data-sources"></a>Fontes de dados do Power BI
@@ -103,11 +103,11 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Fluxos de dados do Power BI | Sim | Sim | Não | Não | Não |
 | Conjuntos de dados do Power BI | Sim | Sim | Sim | Não | Não |
 | Fluxos de dados do Power Platform | Sim | Sim | Não | Não | Não |
-| Script do Python | Sim | Sim <sup>5</sup> | Não | Sim <sup>5</sup> | Sim |
+| Script Python | Sim | Sim <sup>5</sup> | Não | Sim <sup>5</sup> | Sim |
 | QubolePresto | Sim | Sim | Sim | Sim | Sim |
 | Quick Base | Sim | Sim | Não | Sim | Sim |
 | QuickBooks Online | Sim | Sim | Não | Não | Não |
-| Script R | Sim | Sim <sup>5</sup> | Não | Sim <sup>5</sup> | Não |
+| Script do R | Sim | Sim <sup>5</sup> | Não | Sim <sup>5</sup> | Não |
 | Roamler | Sim | Sim | Não | Sim | Não |
 | Objetos do Salesforce | Sim | Sim | Não | Não | Não |
 | Relatórios do Salesforce | Sim | Sim | Não | Não | Não |

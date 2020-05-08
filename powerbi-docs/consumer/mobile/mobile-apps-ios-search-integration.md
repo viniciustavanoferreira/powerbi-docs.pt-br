@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 7d61a57a928df95bd2210bf58cc44e37d14c393d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114464"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Use a integração de Pesquisa de Dispositivo (destaque) do iOS com o aplicativo Power BI Mobile para iOS (versão prévia)
@@ -30,7 +30,7 @@ Como localizar itens usando a pesquisa de dispositivo:
  
    Os resultados da pesquisa incluirão itens do Power BI dos seguintes tipos:
 
-    * Dashboards
+    * Painéis
     * Relatórios
     * Aplicativos
     * Workspaces

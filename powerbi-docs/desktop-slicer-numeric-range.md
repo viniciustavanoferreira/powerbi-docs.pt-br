@@ -1,21 +1,21 @@
 ---
 title: Usar a segmentação de intervalo numérico no Power BI
 description: Saiba como usar uma segmentação para aplicar uma restrição a intervalos numéricos no Power BI.
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/06/2020
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd5f937154edf9f8b6a86fb7f53690943a7f3a53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 51bc2f7e3069302fd4ba7a652ee4350bceb8b7e6
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006631"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866692"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi"></a>Usar a segmentação de intervalo numérico no Power BI
 

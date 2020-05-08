@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889341"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Definir configurações de fluxo de dados de workspace (versão prévia)
@@ -88,7 +88,7 @@ Nas informações exibidas, o local da pasta do CDM do fluxo de dados aparece em
 
 Determinados recursos de fluxo de dados não são compatíveis quando o armazenamento de fluxo de dados está no Azure Data Lake Storage Gen2: 
 
-workspaces do Power BI Pro, Premium e Embedded:
+Os workspaces do Power BI Pro, Premium e Embedded:
 * O recurso **entidades vinculadas** só tem suporte somente entre workspaces na mesma conta de armazenamento
 * Permissões de workspace não se aplicam a fluxos de dados armazenados no Azure Data Lake Storage Gen2; somente o proprietário do fluxo de dados pode acessá-lo.
 * Caso contrário, todos os recursos de preparação de dados são os mesmos para fluxos de dados no armazenamento do Power BI

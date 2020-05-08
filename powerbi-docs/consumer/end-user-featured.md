@@ -10,10 +10,10 @@ ms.date: 03/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4e9bd94a044d88c4f0a767738d07b97ddc989f7e
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82065606"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Painéis em destaque no serviço do Power BI

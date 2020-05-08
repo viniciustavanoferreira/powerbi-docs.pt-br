@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381067"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming em tempo real no Power BI
@@ -43,7 +43,7 @@ Há duas considerações a serem observadas a respeito de blocos fixados de um c
 * Quando um visual é fixado em um dashboard, você pode usar **P e R** para fazer perguntas sobre o conjunto de dados de push em idioma natural. Depois de fazer uma consulta de **P e R**, você pode fixar o visual resultante de volta no dashboard e ele *também* será atualizado em tempo real.
 
 ### <a name="streaming-dataset"></a>Conjunto de dados de streaming
-Com um **conjunto de dados de streaming**, os dados também são enviados para o serviço do Power BI com uma diferença importante: o Power BI só armazena os dados em um cache temporário, que expira rapidamente. O cache temporário só é usado para exibir visuais que tenham algum sentido de histórico transitório, como um gráfico de linhas que tem uma janela de tempo de uma hora.
+Com um **conjunto de dados de streaming**, os dados também são enviados por push ao serviço do Power BI, com uma diferença importante: o Power BI só armazena os dados em um cache temporário, que expira rapidamente. O cache temporário só é usado para exibir visuais que tenham algum sentido de histórico transitório, como um gráfico de linhas que tem uma janela de tempo de uma hora.
 
 Com um **conjunto de dados de streaming**, *não* há banco de dados subjacente, portanto você *não pode* criar visuais de relatório usando os dados que fluem do fluxo. Assim, você não pode fazer uso de funcionalidades de relatório como filtragem, visuais do Power BI e outras funções de relatório.
 

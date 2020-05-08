@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: davidi
 ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439953"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Como configurar a atualização agendada de relatório do Power BI
@@ -78,7 +78,7 @@ Exiba o status de um plano de agendamento de atualização no portal da Web.
    | Atualizando dados |Atualizando os dados no modelo. |
    | Removendo credenciais do modelo |Remoção das credenciais usadas para conectar-se à fonte de dados do modelo. |
    | Salvando modelo no catálogo |A atualização de dados está concluída e o modelo atualizado é salvo no banco de dados de catálogo de servidor de relatório. |
-   | Concluído: Atualização de Dados |A atualização está concluída feita. |
+   | Concluída: Atualização de Dados |A atualização está concluída feita. |
    | Erro: |Ocorreu um erro durante a atualização e ele é exibido. |
 
 Para ver o status atual, a página da Web deverá ser atualizada. O status não será alterado automaticamente.

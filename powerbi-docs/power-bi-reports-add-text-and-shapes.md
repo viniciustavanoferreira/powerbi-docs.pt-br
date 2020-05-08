@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273192"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Adicionar caixas de texto e formas aos relatórios do Power BI
@@ -44,7 +44,7 @@ Veja como Pedro usa o Power BI Desktop para [adicionar imagens estáticas a um r
 
 6. Para fechar a caixa de texto, selecione qualquer espaço em branco na tela de relatório. 
 
-7. Selecione o ícone fixar  ![Ícone de Fixar](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) para fixar a caixa de texto em um dashboard. 
+7. Selecione o ícone fixar  ![Ícone Fixar](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) para fixar a caixa de texto em um dashboard. 
 
 ## <a name="add-a-shape-to-a-report"></a>Adicionar uma forma a um relatório
 1. Posicione seu cursor em qualquer lugar na tela do relatório e selecione **Formas**.

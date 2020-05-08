@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: Relações um-para-um
               href: relationships-one-to-one.md
-            - name: Relacionamentos de muitos para muitos
+            - name: Relações muitos para muitos
               href: relationships-many-to-many.md
             - name: Relacionamentos ativos vs inativos
               href: relationships-active-inactive.md
@@ -88,7 +88,7 @@
               href: report-tips-shapes-images-icons.md
         - name: Relatórios paginados no Power BI
           items:
-            - name: Quando usar relatórios paginados
+            - name: Quando usar os relatórios paginados
               href: report-paginated-or-power-bi.md
             - name: Diretrizes de recuperação de dados
               href: report-paginated-data-retrieval.md
@@ -113,10 +113,10 @@
     - name: White papers
       items:
         - name: Visão geral dos white papers
-          href: ../whitepapers.md
+          href: whitepapers.md
         - name: White paper de segurança do Power BI
-          href: ../whitepaper-powerbi-security.md
+          href: whitepaper-powerbi-security.md
         - name: Implantação premium do Power BI
-          href: ../whitepaper-powerbi-premium-deployment.md
+          href: whitepaper-powerbi-premium-deployment.md
         - name: Distribuir o Power BI externamente usando o Azure Active Directory B2B
-          href: ../whitepaper-azure-b2b-power-bi.md
+          href: whitepaper-azure-b2b-power-bi.md

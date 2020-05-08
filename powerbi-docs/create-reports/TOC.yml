@@ -62,7 +62,7 @@
             - name: P e R de linguagem natural
               items:
                 - name: Introdução às P e R
-                  href: ../natural-language/q-and-a-tooling-intro.md
+                  href: ../natural-language/q-and-a-intro.md
                 - name: Introdução às ferramentas de P e R
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Ferramenta avançada de P e R
@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: Perguntas frequentes sobre relatórios paginados
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: Pipelines de implantação
+          items:
+            - name: Introdução aos pipelines de implantação
+              href: deployment-pipelines-overview.md
+            - name: Compreender o processo de implantação
+              href: deployment-pipelines-process.md
+            - name: Práticas recomendadas
+              href: deployment-pipelines-best-practices.md
     - name: Guias de instruções
       items:
         - name: Relatórios do Power BI
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: Criar botões de drill-through
               href: ../desktop-drill-through-buttons.md
+            - name: Usar o recurso de detalhamento
+              href: ../desktop-drillthrough.md
+            - name: Usar o recurso de detalhamento entre relatórios
+              href: ../desktop-cross-report-drill-through.md
             - name: Criar indicadores para salvar e compartilhar informações
               href: ../desktop-bookmarks.md
             - name: Trabalhar com temas de relatório
               href: ../desktop-report-themes.md
             - name: Trabalhar com filtros em relatórios
               href: ../power-bi-report-filter.md
-            - name: Usar o recurso de detalhamento
-              href: ../desktop-drillthrough.md
-            - name: Usar o recurso de detalhamento entre relatórios
-              href: ../desktop-cross-report-drill-through.md
+            - name: Adicionar um filtro a um relatório
+              href: ../power-bi-report-add-filter.md
             - name: Aplicar agrupamento e compartimentalização
               href: ../desktop-grouping-and-binning.md
-            - name: Criar visuais do Power BI usando o R
-              href: ../desktop-r-visuals.md
-            - name: Baixar e usar visuais do Power BI baseados em R
-              href: ../desktop-r-powered-custom-visuals.md
             - name: Aplicar linhas de grade e ajustar à grade
               href: ../desktop-gridlines-snap-to-grid.md
             - name: Aplicar configurações de exibição de página em relatórios
@@ -147,12 +153,14 @@
               href: ../desktop-add-custom-column.md
             - name: Usar rótulos de hierarquia embutidos
               href: ../desktop-inline-hierarchy-labels.md
-            - name: Segmentações
+            - name: Segmentações de dados
               href: ../visuals/power-bi-visualization-slicers.md
             - name: Segmentações de intervalo numérico
               href: ../desktop-slicer-numeric-range.md
             - name: Segmentações e filtros de data relativa
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: Segmentações e filtros de tempo relativo
+              href: slicer-filter-relative-time.md
             - name: Criar uma segmentação que pode ser redimensionada
               href: ../power-bi-slicer-filter-responsive.md
             - name: Adicionar vários campos a uma segmentação
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: Criar um relatório com base em um conjunto de dados
               href: ../service-report-create-new.md
-            - name: Adicionar um filtro a um relatório
-              href: ../power-bi-report-add-filter.md
             - name: Salvar um relatório
               href: ../service-report-save.md
             - name: Interagir com um relatório no Modo de Exibição de Edição
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: Criar um código QR para um relatório
               href: ../service-create-qr-code-for-report.md
+            - name: Permitir que os consumidores personalizem visuais (Versão prévia)
+              href: power-bi-personalize-visuals.md
             - name: Exportar um relatório para o Power BI Desktop (Versão prévia)
               href: ../service-export-to-pbix.md
             - name: Publicar conjuntos de dados e relatórios
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: Visuais do R
               href: ../visuals/service-r-visuals.md
+            - name: Criar visuais do Power BI usando o R
+              href: ../desktop-r-visuals.md
+            - name: Baixar e usar visuais do Power BI baseados em R
+              href: ../desktop-r-powered-custom-visuals.md
             - name: Gráficos de medidor radial
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Gráfico da faixa de opções
@@ -279,9 +291,9 @@
               href: ../visuals/desktop-shape-map.md
             - name: Tabelas em relatórios e dashboards
               href: ../visuals/power-bi-visualization-tables.md
-            - name: Treemaps
+            - name: Mapas de árvore
               href: ../visuals/power-bi-visualization-treemaps.md
-            - name: Gráfico de cascata
+            - name: Gráficos de cascata
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: P e R de linguagem natural
           items:
@@ -335,7 +347,7 @@
               href: ../paginated-reports/report-builder-url-pass-parameters.md
             - name: Publicar um relatório paginado
               href: ../paginated-reports/paginated-reports-save-to-power-bi-service.md
-        - name: Dashboards
+        - name: Painéis
           items:
             - name: Introdução aos painéis
               href: ../service-dashboards.md
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: Temas de dashboard
               href: ../service-dashboard-themes.md
+        - name: Pipelines de implantação
+          items:
+            - name: Introdução
+              href: deployment-pipelines-get-started.md
+            - name: Solução de problemas
+              href: deployment-pipelines-troubleshooting.md
         - name: Outras tarefas
           items:
             - name: Renomear conteúdo

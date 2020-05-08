@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874963"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867773"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introdução à P e R do Power BI
 
@@ -64,11 +64,11 @@ O segundo tipo de problema é quando a P e R não reconhece a palavra. Você pod
 
 Ao digitar sua pergunta, a P e R tenta interpretar e visualizar instantaneamente a resposta. Como parte das atualizações mais recentes, a P e R agora tenta interpretar a pergunta e plotar os campos automaticamente para o eixo correto. Por exemplo, se você digitar "Vendas por ano", a P e R detectará que o ano é um campo de data e sempre priorizará colocar esse campo no eixo X. Se você quiser alterar o tipo de visualização, digite "como *tipo de gráfico*" após a pergunta. No momento, a P e R é compatível com estes tipos de visualização:
 
-- Gráfico de linhas
+- Gráfico de Linhas
 - Gráfico de barras
 - Matriz
 - Tabela
-- Cartão
+- Card
 - Área
 - Gráfico de pizza
 - Gráfico de dispersão/bolha
@@ -99,7 +99,7 @@ Por padrão, a P e R está disponível na parte superior dos dashboards. Para us
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Você pode integrar o idioma natural a seus relatórios de várias maneiras. Para obter mais informações, confira estes tópicos:
+Você pode integrar o idioma natural a seus relatórios de várias maneiras. Para obter mais informações, consulte estes artigos:
 
 * [Visual de P e R](../visuals/power-bi-visualization-q-and-a.md)
 * [Melhores práticas de P e R](q-and-a-best-practices.md)

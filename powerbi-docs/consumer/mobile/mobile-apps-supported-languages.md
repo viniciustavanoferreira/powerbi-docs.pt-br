@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113190"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Idiomas com suporte nos aplicativos móveis do Power BI
@@ -53,12 +53,12 @@ Atualmente, os aplicativos móveis do Power BI dão suporte aos seguintes idioma
 * Ucraniano - українська
 * Vietnamita - Tiếng Việt
 
-## <a name="notes"></a>Observações
+## <a name="notes"></a>Anotações
 * O Power BI usa o idioma que corresponde à localidade do dispositivo móvel. Não é possível definir outro idioma.
 * As notificações são mostradas apenas em inglês. Por exemplo, se alguém compartilhar um dashboard com você, a notificação será mostrada em inglês. 
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Idiomas com suporte e países/regiões do Power BI](../../supported-languages-countries-regions.md)
-* Dúvidas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
+* Perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 * Ainda tem um problema? Acesse a [página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 

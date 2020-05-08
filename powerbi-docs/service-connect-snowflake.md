@@ -10,10 +10,10 @@ ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77576855"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Conectar-se ao Snowflake no Serviço do Power BI
@@ -29,7 +29,7 @@ Se você tiver interesse em configurar a integração do AAD, bem como poder hab
 
 ## <a name="power-bi-service-configuration"></a>Configuração do Serviço do Power BI
 
-### <a name="admin-portal"></a>Portal de administração
+### <a name="admin-portal"></a>Portal de Administração
 
 Se você quiser habilitar o SSO, o administrador de locatários precisará acessar o Portal de Administração e aprovar o envio das credenciais do AAD do Power BI para o Snowflake.
 

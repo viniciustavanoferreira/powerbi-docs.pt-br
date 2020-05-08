@@ -9,10 +9,10 @@ ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921138"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Exemplos de expressões no Construtor de Relatórios do Power BI
@@ -37,7 +37,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
 ## <a name="functions"></a>Funções  
  Muitas expressões em um relatório contêm funções. Formate dados, aplique lógica e acesse os metadados de relatório usando essas funções. Escreva expressões que usam funções da biblioteca em tempo de execução do Microsoft Visual Basic e dos namespaces `xref:System.Convert` e `xref:System.Math`. Você pode adicionar referências a funções no código personalizado. Use também classes do Microsoft .NET Framework, incluindo `xref:System.Text.RegularExpressions`.  
   
-##  <a name="VisualBasicFunctions"></a> Funções do Visual Basic  
+##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Funções do Visual Basic  
  Use funções do Visual Basic para manipular os dados exibidos em caixas de texto ou usados para parâmetros, propriedades ou outras áreas do relatório. Esta seção fornece exemplos que demonstram algumas dessas funções. Para obter mais informações, confira [Membros da Biblioteca de Runtime do Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) no MSDN.  
   
  O .NET Framework fornece muitas opções de formato personalizado, por exemplo, para formatos de data específicos. Para saber mais, confira [Tipos de formatação](/dotnet/standard/base-types/formatting-types).  
@@ -56,7 +56,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     = Round(1.3*5)/5  
     ```  
   
-###  <a name="DateFunctions"></a> Funções de data  
+###  <a name="date-functions"></a><a name="DateFunctions"></a> Funções de data  
   
 -   A função **Today** fornece a data atual. Esta expressão pode ser usada em uma caixa de texto para exibir a data no relatório ou em um parâmetro para filtrar os dados com base na data atual.  
   
@@ -161,7 +161,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
 |Um ano atrás|`=DateSerial(Year(Parameters!TodaysDate.Value)-1,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
 |Dois anos atrás|`=DateSerial(Year(Parameters!TodaysDate.Value)-2,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
   
-###  <a name="StringFunctions"></a> Funções de cadeia de caracteres  
+###  <a name="string-functions"></a><a name="StringFunctions"></a> Funções de cadeia de caracteres  
   
 -   Combine mais de um campo usando operadores de concatenação e constantes do Visual Basic. A seguinte expressão retorna dois campos, cada um em uma linha separada na mesma caixa de texto:  
   
@@ -227,7 +227,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     =Join(LookupSet(Fields!ContactID.Value, Fields!PersonID.Value, Fields!PhoneNumber.Value, "PhoneList"),",")  
     ```  
   
-###  <a name="ConversionFunctions"></a> Funções de conversão  
+###  <a name="conversion-functions"></a><a name="ConversionFunctions"></a> Funções de conversão  
  Use funções do Visual Basic para converter um campo de um tipo de dados em outro tipo de dados. As funções de conversão podem ser usadas para converter o tipo de dados padrão de um campo no tipo de dados necessário para cálculos ou para combinar texto.  
   
 -   A expressão a seguir converte a constante 500 no tipo Decimal a fim de compará-la com um tipo de dados de dinheiro do Transact-SQL no campo Value em uma expressão de filtro.  
@@ -242,7 +242,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     =CStr(Parameters!MySelection.Count)  
     ```  
   
-###  <a name="DecisionFunctions"></a> Funções de decisão  
+###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> Funções de decisão  
   
 -   A função **Iif** retorna um dos dois valores, dependendo se a expressão é verdadeira ou não. A expressão a seguir usa a função **Iif** para retornar um valor booliano igual a **True** se o valor de `LineTotal` excede 100. Caso contrário, ela retorna **False**:  
   
@@ -297,10 +297,10 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
   
     ```  
   
-##  <a name="ReportFunctions"></a> Funções de relatório  
+##  <a name="report-functions"></a><a name="ReportFunctions"></a> Funções de relatório  
  Em uma expressão, você pode adicionar uma referência a funções de relatório adicionais que manipulam dados em um relatório. Esta seção fornece exemplos para duas dessas funções. 
   
-###  <a name="Sum"></a> Sum  
+###  <a name="sum"></a><a name="Sum"></a> Sum  
   
 -   A função **Sum** pode somar os valores em um grupo ou uma região de dados. Essa função pode ser útil no cabeçalho ou no rodapé de um grupo. A seguinte expressão exibe a soma dos dados no grupo Order ou na região de dados:  
   
@@ -314,7 +314,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     =Sum(IIF(Fields!State.Value = "Finished", 1, 0))  
     ```  
   
-###  <a name="RowNumber"></a> RowNumber  
+###  <a name="rownumber"></a><a name="RowNumber"></a> RowNumber  
   
 -   A função **RowNumber**, quando usada em uma caixa de texto dentro de uma região de dados, exibe o número de linha de cada instância da caixa de texto na qual a expressão aparece. Essa função pode ser útil para numerar linhas em uma tabela. Ela também pode ser útil para tarefas mais complexas, como fornecer quebras de página com base no número de linhas. Para obter mais informações, confira [Quebras de página](#PageBreaks) neste tópico.  
   
@@ -324,10 +324,10 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     =RowNumber(Nothing)  
     ```  
   
-##  <a name="AppearanceofReportData"></a> Aparência dos dados de relatório  
+##  <a name="appearance-of-report-data"></a><a name="AppearanceofReportData"></a> Aparência dos dados de relatório  
  Use expressões para manipular como os dados são exibidos em um relatório. Por exemplo, você pode exibir os valores de dois campos em uma única caixa de texto, exibir informações sobre o relatório ou avaliar o impacto de como as quebras de página são inseridas no relatório.  
   
-###  <a name="PageHeadersandFooters"></a> Cabeçalhos e rodapés de página  
+###  <a name="page-headers-and-footers"></a><a name="PageHeadersandFooters"></a> Cabeçalhos e rodapés de página  
  Ao criar um relatório, talvez você deseje exibir o nome do relatório e o número da página no rodapé do relatório. Para fazer isso, use as seguintes expressões:  
   
 -   A expressão a seguir fornece o nome do relatório e a hora em que ele foi executado. Ela pode ser colocada em uma caixa de texto no rodapé ou no corpo do relatório. A hora é formatada com a cadeia de caracteres de formatação de data abreviada do .NET Framework:  
@@ -367,7 +367,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
 > [!NOTE]  
 >  Só é possível referenciar um item de relatório por expressão em um cabeçalho ou um rodapé de página. Além disso, você pode referenciar o nome da caixa de texto, mas não a expressão de dados real na caixa de texto, nas expressões de cabeçalho e rodapé de página.  
   
-###  <a name="PageBreaks"></a> Quebras de página  
+###  <a name="page-breaks"></a><a name="PageBreaks"></a> Quebras de página  
  Em alguns relatórios, o ideal é colocar uma quebra de página no final de um número especificado de linhas, em vez de em grupos ou itens de relatório ou além deles. Para fazer isso, crie um grupo que contém os grupos ou os registros detalhados desejados, adicione uma quebra de página ao grupo e, em seguida, adicione uma expressão de grupo ao grupo por um número especificado de linhas.  
   
 -   A expressão a seguir, quando colocada na expressão de grupo, atribui um número a cada conjunto de 25 linhas. Quando uma quebra de página é definida para o grupo, esta expressão resulta em uma quebra de página a cada 25 linhas.  
@@ -382,10 +382,10 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     =Ceiling(RowNumber(Nothing)/Parameters!RowsPerPage.Value)  
     ```  
   
-##  <a name="Properties"></a> Propriedades  
+##  <a name="properties"></a><a name="Properties"></a> Propriedades  
  As expressões não são usadas apenas para exibir dados em caixas de texto. Elas também podem ser usadas para alterar como as propriedades são aplicadas aos itens de relatório. Você pode alterar as informações de estilo de um item de relatório ou alterar sua visibilidade.  
   
-###  <a name="Formatting"></a> Formatação  
+###  <a name="formatting"></a><a name="Formatting"></a> Formatação  
   
 -   A seguinte expressão, quando usada na propriedade Color de uma caixa de texto, altera a cor do texto dependendo do valor do campo `Profit`:  
   
@@ -415,7 +415,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
 ### <a name="chart-colors"></a>Cores do gráfico  
  Para especificar cores para um gráfico de formas, você pode usar um código personalizado para controlar a ordem em que as cores são mapeadas para valores de ponto de dados. Isso ajuda você a usar cores consistentes para vários gráficos que tenham os mesmos grupos de categorias. 
   
-###  <a name="Visibility"></a> Visibilidade  
+###  <a name="visibility"></a><a name="Visibility"></a> Visibilidade  
  Você pode mostrar e ocultar itens em um relatório usando as propriedades de visibilidade para o item de relatório. Em uma região de dados como uma tabela, você pode ocultar inicialmente as linhas de detalhes com base no valor em uma expressão.  
   
 -   A seguinte expressão, quando usada para visibilidade inicial das linhas de detalhes em um grupo, mostra as linhas de detalhes de todas as vendas que excedem 90% no campo `PctQuota`:  
@@ -436,7 +436,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     =IIF(Fields!Column_1.IsMissing, true, false)  
     ```  
   
-###  <a name="Hyperlinks"></a> URLs  
+###  <a name="urls"></a><a name="Hyperlinks"></a> URLs  
  Você pode personalizar URLs usando dados de relatório e também controlar condicionalmente se as URLs são adicionadas como uma ação para uma caixa de texto.  
   
 -   A expressão a seguir, quando usada como uma ação em uma caixa de texto, gera uma URL personalizada que especifica o campo de conjunto de dados `EmployeeID` como um parâmetro de URL.  
@@ -451,10 +451,10 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
-##  <a name="ReportData"></a> Dados de relatório  
+##  <a name="report-data"></a><a name="ReportData"></a> Dados de relatório  
  As expressões podem ser usadas para manipular os dados que são usados no relatório. Veja os parâmetros e outras informações de relatório. Você pode, até mesmo, alterar a consulta que é usada para recuperar dados do relatório.  
   
-###  <a name="Parameters"></a> Parâmetros  
+###  <a name="parameters"></a><a name="Parameters"></a> Parâmetros  
  Você pode usar expressões em um parâmetro para variar o valor padrão do parâmetro. Por exemplo, você pode usar um parâmetro para filtrar os dados para um usuário específico com base na ID de usuário que é usada para executar o relatório.  
   
 -   A seguinte expressão, quando usada como o valor padrão de um parâmetro, coleta a ID de usuário da pessoa que executa o relatório:  
@@ -475,7 +475,7 @@ Para obter mais informações sobre expressões simples e complexas, nas quais v
     =Fields(Parameters!ParameterField.Value).Value  
     ```  
   
-##  <a name="CustomCode"></a> Código personalizado  
+##  <a name="custom-code"></a><a name="CustomCode"></a> Código personalizado  
  Use um código personalizado inserido em um relatório. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Como usar variáveis de grupo para agregação personalizada  

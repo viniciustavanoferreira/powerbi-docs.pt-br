@@ -10,17 +10,17 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
 ms.openlocfilehash: 823f2ea621d16eb911284cadeced2fb676fa5c75
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78923047"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parâmetros de relatório no Construtor de Relatórios do Power BI
 
 Este tópico descreve os usos comuns de parâmetros de relatório do Power BI Report Builder, as propriedades que podem ser definidas, entre outros. Os parâmetros de relatório permitem controlar os dados de relatório, conectar relatórios relacionados e variar a apresentação do relatório. Use parâmetros de relatório em relatórios paginados criados no Construtor de Relatórios.
 
-## <a name="bkmk_Common_Uses_for_Parameters"></a> Usos comuns de parâmetros
+## <a name="common-uses-for-parameters"></a><a name="bkmk_Common_Uses_for_Parameters"></a> Usos comuns de parâmetros
 
  Veja a seguir algumas das maneiras mais comuns de usar parâmetros.  
   
@@ -36,7 +36,7 @@ Este tópico descreve os usos comuns de parâmetros de relatório do Power BI Re
   
 - Permita que usuários personalizem os dados de relatório e a aparência incluindo parâmetros em uma expressão.  
   
-## <a name="UserInterface"></a> Como exibir um relatório com parâmetros
+## <a name="viewing-a-report-with-parameters"></a><a name="UserInterface"></a> Como exibir um relatório com parâmetros
 
 Ao exibir um relatório que tenha parâmetros, a barra de ferramentas visualizador de relatório exibe cada parâmetro para que você possa especificar valores de forma interativa. A ilustração a seguir mostra a área de parâmetro para um relatório com parâmetros @ReportMonth, @ReportYear, @EmployeeID, @ShowAll, @ExpandTableRows, @CategoryQuota e @SalesDate.  
 
@@ -54,7 +54,7 @@ Ao exibir um relatório que tenha parâmetros, a barra de ferramentas visualizad
   
 6. **Exibir Relatório** Depois de inserir valores de parâmetro, clique em **Exibir Relatório** para executar o relatório. Se todos os parâmetros tiverem valores padrão, o relatório será executado automaticamente na primeira exibição.  
   
-## <a name="bkmk_Create_Parameters"></a> Como criar parâmetros
+## <a name="creating-parameters"></a><a name="bkmk_Create_Parameters"></a> Como criar parâmetros
 
 Você pode criar parâmetros de relatório de algumas maneiras diferentes.
   
@@ -97,7 +97,7 @@ Crie um parâmetro manualmente por meio do painel de dados do relatório. Config
   
 - Execute o relatório sem precisar primeiro selecionar um valor de parâmetro porque um valor padrão foi criado para o parâmetro.  
   
-## <a name="bkmk_Report_Parameters"></a> Propriedades do parâmetro de relatório
+## <a name="report-parameter-properties"></a><a name="bkmk_Report_Parameters"></a> Propriedades do parâmetro de relatório
 
  Altere as propriedades de parâmetro de relatório usando a caixa de diálogo Propriedades do Relatório. A seguinte tabela resume as propriedades que podem ser definidas para cada parâmetro:  
   
@@ -116,7 +116,7 @@ Crie um parâmetro manualmente por meio do painel de dados do relatório. Config
 |Valores padrão|Defina valores padrão em uma consulta ou uma lista estática.<br /><br /> Quando cada parâmetro tem um valor padrão, o relatório é executado automaticamente na primeira exibição.|  
 |Avançado|Defina o atributo de definição de relatório **UsedInQuery**, um valor que indica se esse parâmetro afeta direta ou indiretamente os dados em um relatório.<br /><br /> **Determinar automaticamente quando atualizar**<br /> Escolha essa opção quando desejar que o processador de relatório determine uma configuração para esse valor. O valor será **True** se o processador de relatório detectar uma consulta de conjunto de dados com uma referência direta ou indireta a esse parâmetro ou se o relatório tiver sub-relatórios.<br /><br /> **Atualizar sempre**<br /> Escolha essa opção quando o parâmetro de relatório é usado direta ou indiretamente em uma expressão de parâmetro ou uma consulta de conjunto de dados. Essa opção define **UsedInQuery** como True.<br /><br /> **Nunca atualizar**<br /> Escolha essa opção quando o parâmetro de relatório não é usado direta ou indiretamente em uma expressão de parâmetro ou uma consulta de conjunto de dados. Essa opção define **UsedInQuery** como False.<br /><br /> **Cuidado** Use a opção **Nunca Atualizar** com cuidado. No servidor de relatório, **UsedInQuery** é usado para ajudar a controlar as opções de cache para dados de relatório e para relatórios renderizados e as opções de parâmetro para relatórios de instantâneo. Se você definir **Nunca Atualizar** incorretamente, poderá fazer com que dados de relatório ou relatórios incorretos sejam armazenados em cache ou fazer com que um relatório de instantâneos tenha dados inconsistentes. |  
   
-##  <a name="bkmk_Dataset_Parameters"></a> Consulta de conjunto de dados  
+##  <a name="dataset-query"></a><a name="bkmk_Dataset_Parameters"></a> Consulta de conjunto de dados  
  Para filtrar os dados na consulta de conjunto de dados, você pode incluir uma cláusula de restrição que limita os dados recuperados especificando valores a serem incluídos ou excluídos do conjunto de resultados.  
   
  Use o designer de consultas da fonte de dados para ajudar a criar uma consulta parametrizada.  
@@ -125,7 +125,7 @@ Crie um parâmetro manualmente por meio do painel de dados do relatório. Config
   
 -   Para consultas que são baseadas em uma fonte de dados multidimensional, como o Microsoft SQL Server Analysis Services, você pode especificar se deseja criar um parâmetro com base em um filtro especificado no designer de consultas. 
   
-##  <a name="bkmk_Manage_Parameters"></a> Gerenciamento de parâmetros para um relatório publicado  
+##  <a name="parameter-management-for-a-published-report"></a><a name="bkmk_Manage_Parameters"></a> Gerenciamento de parâmetros para um relatório publicado  
  Quando você cria um relatório, os parâmetros de relatório são salvos na definição de relatório. Quando você publica um relatório, os parâmetros de relatório são salvos e gerenciados separadamente da definição de relatório.  
   
  Para um relatório publicado, você pode usar o seguinte:  
@@ -140,7 +140,7 @@ Crie um parâmetro manualmente por meio do painel de dados do relatório. Config
   
  As opções de execução de relatório podem afetar como os parâmetros são processados. Um relatório que é executado como um instantâneo não pode usar parâmetros que são derivados de uma consulta, a menos que a consulta inclua valores padrão para os parâmetros.  
   
-##  <a name="bkmk_Parameters_Subscription"></a> Parâmetros para uma assinatura  
+##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> Parâmetros para uma assinatura  
  Você pode definir uma assinatura para um relatório sob demanda ou para um instantâneo e especificar os valores de parâmetro a serem usados durante o processamento da assinatura.  
   
 -   **Relatório sob demanda.**  Para um relatório sob demanda, você pode especificar um valor de parâmetro diferente do valor publicado para cada parâmetro listado para o relatório. Por exemplo, suponha que você tenha um relatório de Serviço de Chamada que usa um parâmetro *Período de Tempo* para retornar solicitações de atendimento ao cliente para o dia, a semana ou o mês atual. Se o valor do parâmetro padrão para o relatório for definido como **hoje**, sua assinatura poderá usar outro valor de parâmetro (como **semana** ou **mês**) para produzir um relatório que contenha estatísticas semanais ou mensais.  

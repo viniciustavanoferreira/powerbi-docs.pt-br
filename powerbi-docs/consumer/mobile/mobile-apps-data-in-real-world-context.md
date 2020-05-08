@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e7d3d19bdef1b19d397ac7db13cdec2317f8ab42
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114570"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Obter dados do mundo real com os aplicativos móveis do Power BI
@@ -37,7 +37,7 @@ Mais sobre como [criar um código QR para um relatório no Power BI](../../servi
 ## <a name="barcodes"></a>Códigos de barras
 Marque os dados do código de barras em seu relatório para que seus colegas possam digitalizar um código de barras em um produto e ir diretamente para esse relatório, filtrado no produto.
 
-![Código de Barras](./media/mobile-apps-data-in-real-world-context/power-bi-barcode-scanner.png)
+![Código de barras](./media/mobile-apps-data-in-real-world-context/power-bi-barcode-scanner.png)
 
 Mais sobre:
 

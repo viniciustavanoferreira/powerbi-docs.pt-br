@@ -10,10 +10,10 @@ ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77427636"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Usar agregações no Power BI Desktop
@@ -46,11 +46,11 @@ Depois de criar a tabela que contém os campos desejados, no painel **Campos** d
 A caixa de diálogo **Gerenciar agregações** mostra uma linha para cada coluna na tabela, na qual você pode especificar o comportamento de agregação. No exemplo a seguir, as consultas à tabela de detalhes **Sales** são redirecionadas internamente para a tabela de agregação **Sales Agg**. 
 
 O menu suspenso **Resumo** na caixa de diálogo **Gerenciar agregações** oferece os seguintes valores:
-- Contagem
+- Count
 - GroupBy
 - Max
-- Mín
-- Soma
+- Min
+- Somar
 - Contar linhas da tabela
 
 ![Gerenciar caixa de diálogo de agregações](media/desktop-aggregations/aggregations_07.jpg)
@@ -119,7 +119,7 @@ Se as tabelas de dimensões a seguir forem as mais comumente usadas para as cons
 - Geografia
 - Cliente
 - Data
-- Subcategoria de Produto
+- Subcategoria de produto
 - Categoria de produto
 
 A imagem a seguir mostra este modelo.

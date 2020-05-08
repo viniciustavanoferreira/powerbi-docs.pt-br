@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79039966"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
@@ -54,7 +54,7 @@ Se sua empresa comprou licenças do Power BI ou uma conta com capacidade Premium
 
 Você pode também se inscrever no serviço do Power BI como indivíduo. Confira [o processo de inscrição para autoatendimento do Power BI](../service-self-service-signup-for-power-bi.md).
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Por que preciso me inscrever com meu email de trabalho?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Por que é necessário se inscrever com meu email corporativo?
 
 O Power BI não dá suporte a endereços de email fornecidos por provedores de telecomunicações e serviços de email para consumidores. Saiba mais sobre [o processo de inscrição por autoatendimento do Power BI](../service-self-service-signup-for-power-bi.md).
 

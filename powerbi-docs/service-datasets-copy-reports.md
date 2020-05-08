@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76268939"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outros workspaces (versão prévia)
@@ -107,4 +107,4 @@ Você pode decidir que não deseja mais o relatório e seu conjunto de dados com
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -10,10 +10,10 @@ ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: ce8a404a53eebb88bbd72998f10fd94a649b8af8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872478"
 ---
 # <a name="share-a-dataset-preview"></a>Compartilhar um conjunto de dados (versão prévia)
@@ -54,4 +54,4 @@ Quando você tiver um conjunto de dados compartilhado em seu workspace, talvez v
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

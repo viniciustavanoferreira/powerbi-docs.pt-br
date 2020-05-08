@@ -10,17 +10,17 @@ ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160778"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introdução a dashboards para designers do Power BI
 
 Um *dashboard* do Power BI é uma página única, geralmente chamada de tela, que conta uma história por meio de visualizações. Por ser limitado a uma única página, um dashboard bem projetado contém apenas os elementos mais importantes da história. Os leitores podem exibir relatórios relacionados para obter detalhes.
 
-![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
+![Painel](media/service-dashboards/power-bi-dashboard2.png)
 
 Dashboards são um recurso do serviço do Power BI apenas. Eles não estão disponíveis no Power BI Desktop. Embora não seja possível criar dashboards em dispositivos móveis, você pode [exibir e compartilhar](mobile-apps-view-dashboard.md) os dashboards lá.
 
@@ -47,12 +47,12 @@ A capacidade de criar um dashboard é considerada um recurso do *criador* e requ
 ## <a name="dashboards-versus-reports"></a>Dashboards versus relatórios
 [Relatórios](service-reports.md) e painéis parecem semelhantes, pois são ambos são telas preenchidas com visualizações. Mas há grandes diferenças, como você pode ver na tabela a seguir.
 
-| **Funcionalidade** | **Dashboards** | **Relatórios** |
+| **Funcionalidade** | **Painéis** | **Relatórios** |
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
 | Fontes de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Disponível no Power BI Desktop |Não | Sim. Pode criar e exibir relatórios no Power BI Desktop |
-| Assinar |Sim. Pode assinar um dashboard |Sim. Pode assinar uma página de relatório |
+| Assinatura |Sim. Pode assinar um dashboard |Sim. Pode assinar uma página de relatório |
 | Filtragem |Não. Não é possível filtrar ou fatiar |Sim. Diferentes maneiras de filtrar, realçar e fatiar |
 | Em destaque |Sim. Pode definir um dashboard como o dashboard *em destaque* |Não |
 | Favorito | Sim. Pode definir vários dashboards como *favoritos* | Sim. Pode definir vários relatórios como *favoritos*

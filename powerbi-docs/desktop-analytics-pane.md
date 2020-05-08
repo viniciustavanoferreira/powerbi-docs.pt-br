@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4ad843078e452502a94aa7d60b3304528fd25496
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038834"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>Usar o painel Análise do Power BI Desktop

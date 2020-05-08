@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496308"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards para consumidores de serviço do Power BI
@@ -46,7 +46,7 @@ Um dashboard não é apenas uma imagem bonita; ele é interativo e os blocos sã
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Dashboards versus relatórios para ***consumidores*** do Power BI
 Os relatórios geralmente são confundidos com os dashboards, já que eles também são telas preenchidas com visualizações. Mas existem algumas diferenças relevantes de ponto de vista entre os *consumidores* do Power BI.
 
-| **Funcionalidade** | **Dashboards** | **Relatórios** |
+| **Funcionalidade** | **Painéis** | **Relatórios** |
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
 | Fontes de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |

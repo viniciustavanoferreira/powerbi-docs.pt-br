@@ -9,10 +9,10 @@ ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73854873"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Conecte-se a arquivos armazenados no OneDrive para seu workspace do Power BI
@@ -61,7 +61,7 @@ Agora que os arquivos estão no OneDrive for Business para o seu workspace, voc�
 4. Selecione **OneDrive** - *Nome do Seu Workspace*.
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
-5. Selecione o arquivo desejado > **Conectar**.
+5. Selecione o arquivo que você deseja > **Conectar**.
    
     Nessa ocasião, você decide se deseja [importar os dados da pasta de trabalho do Excel](service-get-data-from-files.md) ou [conectar-se a pastas de trabalho inteiras do Excel](service-excel-workbook-files.md).
 6. Selecione **Importar** ou **Conectar**.

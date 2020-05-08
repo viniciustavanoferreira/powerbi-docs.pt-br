@@ -1,6 +1,6 @@
 ---
-title: 'Exemplo de Análise de Gastos de TI para o Power BI: Faça um tour'
-description: 'Exemplo de Análise de Gastos de TI para o Power BI: Faça um tour'
+title: 'Exemplo de Análise de Gastos de TI para o Power BI: faça um tour'
+description: 'Exemplo de Análise de Gastos de TI para o Power BI: faça um tour'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404697"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Gastos de TI para o Power BI: Faça um tour
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Gastos de TI para o Power BI: faça um tour
 
 O exemplo de pacote de conteúdo da Análise de Gastos de TI contém um painel, um relatório e um conjunto de dados que analisam os custos planejados vs. reais de um departamento de TI. Essa comparação nos ajuda a entender como a empresa se preparou para o ano e investigar áreas com grandes desvios do plano. A empresa neste exemplo passa por um ciclo de planejamento anual e gera trimestralmente uma nova LE (estimativa mais recente) para ajudar a analisar as alterações nos gastos de TI no ano fiscal.
 
@@ -57,7 +57,7 @@ Como alternativa, você pode baixar o exemplo de Análise de Gastos de TI como u
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529783). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos do Power View e do Power Pivot, confira [Explorar os exemplos do Excel no Excel](sample-datasets.md#explore-excel-samples-inside-excel) para saber mais.
+Se quiser exibir a fonte de dados deste exemplo, ela também está disponível como uma [Pasta de trabalho do Excel](https://go.microsoft.com/fwlink/?LinkId=529783). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, habilite os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerenciar**. Para habilitar os suplementos do Power View e do Power Pivot, confira [Explorar os exemplos no Excel](sample-datasets.md#explore-excel-samples-inside-excel) para obter detalhes.
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>Painel do exemplo de Análise de Gastos de TI
 Os dois blocos de números no lado esquerdo do painel, **% do Plano de Variação** e **% da Estimativa mais Recente da Variação do 3º Trimestre**, nos fornecem uma visão geral de nosso desempenho em relação ao plano e à estimativa mais recente do trimestre (LE3 = estimativa mais recente do 3º trimestre). Em geral, estamos cerca de 6% fora do plano. Vamos explorar a causa dessa variação: quando, onde e qual categoria.
@@ -126,7 +126,7 @@ Selecione **Editar Relatório** no canto superior esquerdo e explore na exibiç�
 * Altere o tipo de visualização para cada gráfico.
 * Fixe gráficos de interesse no seu painel.
 
-## <a name="next-steps-connect-to-your-data"></a>Próximas etapas: Conecte-se aos seus dados
+## <a name="next-steps-connect-to-your-data"></a>Próximas etapas: conectar-se aos seus dados
 Esse ambiente é seguro para teste, pois você pode optar por não salvar as alterações. Mas se você salvá-las, sempre é possível selecionar **Obter Dados** para ter uma nova cópia deste exemplo.
 
 Esperamos que este tour tenha mostrado como os painéis, P e R e relatórios do Power BI podem fornecer informações sobre os dados de exemplo. Agora é sua vez – conecte-se aos seus próprios dados. Com o Power BI, é possível se conectar a uma grande variedade de fontes de dados. Para saber mais, confira [Introdução ao serviço do Power BI](service-get-started.md).

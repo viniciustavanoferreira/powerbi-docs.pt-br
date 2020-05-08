@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925861"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Configurar o acesso do aplicativo móvel do Power BI a um Servidor de Relatório remotamente
@@ -38,7 +38,7 @@ Como administrador, veja as etapas a serem seguidas no Microsoft Intune para cri
 
 A tabela a seguir indica os pares.
 
-|Key  |Tipo  |Descrição  |
+|Chave  |Type  |Descrição  |
 |---------|---------|---------|
 | com.microsoft.powerbi.mobile.ServerURL | Cadeia de caracteres | URL do Servidor de Relatório <br> Deve começar com http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | Cadeia de caracteres | [opcional] <br> O nome de usuário a ser usado para conectar o servidor. <br> Se não existir, o aplicativo solicitará ao usuário que digite o nome de usuário para a conexão.| 

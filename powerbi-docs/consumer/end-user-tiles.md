@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0481a09aaeac4f6c76c49d3a816ac880cdb9d60b
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114064"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Blocos de painel no Power BI
@@ -29,7 +29,7 @@ Um bloco é um instantâneo dos dados fixados no dashboard por um *designer*. Os
 
 Além dos blocos fixados de relatórios, os *designers* podem adicionar blocos autônomos diretamente no dashboard usando **Adicionar bloco**. Os blocos autônomos incluem: caixas de texto, imagens, vídeos, dados de streaming e conteúdo da Web.
 
-Precisa de ajuda para compreender os blocos de construção que compõem o Power BI?  Veja [Power BI – Conceitos básicos](end-user-basic-concepts.md).
+Precisa de ajuda para compreender os blocos de construção que compõem o Power BI?  Veja [Power BI - Conceitos básicos](end-user-basic-concepts.md).
 
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interagir com blocos em um painel
@@ -69,7 +69,7 @@ Precisa de ajuda para compreender os blocos de construção que compõem o Power
 3. Para fechar o menu de ação, selecione uma área em branco na tela.
 
 ### <a name="select-click-a-tile"></a>Selecionar (clicar em) um bloco
-Ao selecionar um bloco, o que ocorre em seguida depende de como o bloco foi criado e se ele tem um [link personalizado](../service-dashboard-edit-tile.md). Se ele tiver um link personalizado, a seleção do bloco levará você para esse link. Caso contrário, selecionar o bloco leva você para o relatório, pasta de trabalho do Excel Online, relatório SSRS local ou P & R que foi usada para criar o bloco.
+Quando você seleciona um bloco, o que acontece em seguida depende de como o bloco foi criado e se ele tem um [link personalizado](../service-dashboard-edit-tile.md). Se ele tiver um link personalizado, a seleção do bloco levará você para esse link. Caso contrário, selecionar o bloco leva você para o relatório, pasta de trabalho do Excel Online, relatório SSRS local ou P & R que foi usada para criar o bloco.
 
 > [!NOTE]
 > Os blocos de vídeo criados diretamente no painel usando **Adicionar bloco** são a exceção. Selecionar um bloco de vídeo (que foi criado dessa forma) faz com que o vídeo seja reproduzido diretamente no dashboard.   

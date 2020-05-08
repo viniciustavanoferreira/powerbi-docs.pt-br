@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079659"
 ---
 # <a name="dataset-properties"></a>Propriedades do conjunto de dados
@@ -24,54 +24,54 @@ O v1 atual da API de conjuntos de dados permite apenas um conjunto de dados a se
 
 ## <a name="dataset"></a>Conjunto de dados
 
-Nome  |Tipo  |Descrição  |Somente leitura  |Obrigatório
+Nome  |Type  |Descrição  |Somente leitura  |Necessário
 ---------|---------|---------|---------|---------
-ID     |  GUID       | Identificador exclusivo do sistema todo para o conjunto de dados.        | True        | Falso        
-Nome     | Cadeia de caracteres        | Nome do conjunto de dados definido pelo usuário.        | Falso        | True        
+id     |  GUID       | Identificador exclusivo do sistema todo para o conjunto de dados.        | Verdadeiro        | Falso        
+nome     | Cadeia de caracteres        | Nome do conjunto de dados definido pelo usuário.        | Falso        | Verdadeiro        
 tabelas     | Tabela[]        | Coleção de tabelas.        |  Falso       | Falso        
 relacionamentos     | Relação[]        | Coleção de relações entre tabelas.        | Falso        |  Falso  
 defaultMode     | Cadeia de caracteres        | Determina se o conjunto de dados é enviado, transmitido ou as duas opções, com valores de "Push" e "Streaming".         | Falso        |  Falso
 
-## <a name="table"></a>Tabela
+## <a name="table"></a>Table
 
-Nome  |Tipo  |Descrição  |Somente leitura  |Obrigatório
+Nome  |Type  |Descrição  |Somente leitura  |Necessário
 ---------|---------|---------|---------|---------
-Nome     | Cadeia de caracteres        |  Nome da tabela definido pelo usuário. Ele também é usado como o identificador da tabela.       | Falso        |  True       
-colunas     |  coluna[]       |  Coleção de colunas.       | Falso        |  True       
+nome     | Cadeia de caracteres        |  Nome da tabela definido pelo usuário. Ele também é usado como o identificador da tabela.       | Falso        |  Verdadeiro       
+colunas     |  coluna[]       |  Coleção de colunas.       | Falso        |  Verdadeiro       
 medidas     | medida[]        |  Coleção de medidas.       | Falso        |  Falso       
 isHidden     | Booliano        | Se for true, a tabela ficará oculta das ferramentas de cliente.        | Falso        | Falso        
 
-## <a name="column"></a>Coluna
+## <a name="column"></a>Column
 
-Nome  |Tipo  |Descrição  |Somente leitura  |Obrigatório
+Nome  |Type  |Descrição  |Somente leitura  |Necessário
 ---------|---------|---------|---------|---------
-Nome     |  Cadeia de caracteres        | Nome da coluna definido pelo usuário.        |  Falso       | True       
-tipo de dados     |  Cadeia de caracteres       |  Suporte para [tipos de dados EDM](https://msdn.microsoft.com/library/ee382832.aspx) e restrições. Consulte [Restrições de tipo de dados](#data-type-restrictions).      |  Falso       | True        
+nome     |  Cadeia de caracteres        | Nome da coluna definido pelo usuário.        |  Falso       | Verdadeiro       
+tipo de dados     |  Cadeia de caracteres       |  Suporte para [tipos de dados EDM](https://msdn.microsoft.com/library/ee382832.aspx) e restrições. Consulte [Restrições de tipo de dados](#data-type-restrictions).      |  Falso       | Verdadeiro        
 formatString     | Cadeia de caracteres        | Uma cadeia de caracteres que descreve como o valor deve ser formatado quando ele for exibido. Para saber mais sobre a formatação da cadeia de caracteres, consulte [conteúdo de FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).      | Falso        | Falso        
 sortByColumn    | Cadeia de caracteres        |   Nome da cadeia de caracteres de uma coluna na mesma tabela para ser usada para classificar a coluna atual.     | Falso        | Falso       
 dataCategory     | Cadeia de caracteres        |  Valor da cadeia de caracteres a ser usada para a categoria de dados que descreve os dados dentro desta coluna. Alguns valores comuns incluem: endereço, cidade, continente, país, imagem, ImageUrl, latitude, longitude, organização, local, código postal, estado ou província, WebUrl       |  Falso       | Falso        
-isHidden    |  Booliano       |  Propriedade que indica se a coluna está oculta da exibição. O padrão é false.       | Falso        | Falso        
+isHidden    |  Booliano       |  Propriedade que indica se a coluna está oculta da exibição. O padrão é falso.       | Falso        | Falso        
 summarizeBy     | Cadeia de caracteres        |  Método de agregação padrão para a coluna. Os valores incluem: padrão, nenhum, soma, mín, máx, contagem, média, contagem distinta     |  Falso       | Falso
 
-## <a name="measure"></a>Medida
+## <a name="measure"></a>Measure
 
-Nome  |Tipo  |Descrição  |Somente leitura  |Obrigatório
+Nome  |Type  |Descrição  |Somente leitura  |Necessário
 ---------|---------|---------|---------|---------
-Nome     | Cadeia de caracteres        |  Nome da medida definido pelo usuário.       |  Falso       | True        
-expressão     | Cadeia de caracteres        | Uma expressão DAX válida.        | Falso        |  True       
+nome     | Cadeia de caracteres        |  Nome da medida definido pelo usuário.       |  Falso       | Verdadeiro        
+expressão     | Cadeia de caracteres        | Uma expressão DAX válida.        | Falso        |  Verdadeiro       
 formatString     | Cadeia de caracteres        |  Uma cadeia de caracteres que descreve como o valor deve ser formatado quando ele for exibido. Para saber mais sobre a formatação da cadeia de caracteres, consulte [conteúdo de FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx).       | Falso        | Falso        
 isHidden     | Cadeia de caracteres        |  Se for true, a tabela ficará oculta das ferramentas de cliente.       |  Falso       | Falso       
 
 ## <a name="relationship"></a>Relação
 
-Nome  |Tipo  |Descrição  |Somente leitura  |Obrigatório 
+Nome  |Type  |Descrição  |Somente leitura  |Necessário 
 ---------|---------|---------|---------|---------
-Nome     | Cadeia de caracteres        | Nome da relação definido pelo usuário. Ele também é usado como o identificador da relação.        | Falso       | True        
-crossFilteringBehavior     | Cadeia de caracteres        |    A direção do filtro da relação: OneDirection (padrão), BothDirections, Automatic       | Falso        | Falso        
-fromTable     | Cadeia de caracteres        | Nome da tabela de chave estrangeira.        | Falso        | True         
-fromColumn    | Cadeia de caracteres        | Nome da coluna de chave estrangeira.        | Falso        | True         
-toTable    | Cadeia de caracteres        | Nome da tabela de chave primária.        | Falso        | True         
-toColumn     | Cadeia de caracteres        | Nome da coluna de chave primária.        | Falso        | True        
+nome     | Cadeia de caracteres        | Nome da relação definido pelo usuário. Ele também é usado como o identificador da relação.        | Falso       | Verdadeiro        
+crossFilteringBehavior     | Cadeia de caracteres        |    A direção do filtro da relação: OneDirection (padrão), BothDirections, automático       | Falso        | Falso        
+fromTable     | Cadeia de caracteres        | Nome da tabela de chave estrangeira.        | Falso        | Verdadeiro         
+fromColumn    | Cadeia de caracteres        | Nome da coluna de chave estrangeira.        | Falso        | Verdadeiro         
+toTable    | Cadeia de caracteres        | Nome da tabela de chave primária.        | Falso        | Verdadeiro         
+toColumn     | Cadeia de caracteres        | Nome da coluna de chave primária.        | Falso        | Verdadeiro        
 
 ## <a name="data-type-restrictions"></a>Restrições de tipo de dados
 

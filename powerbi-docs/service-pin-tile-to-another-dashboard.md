@@ -10,17 +10,17 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881234"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Fixar um bloco de um painel para outro painel
 Uma maneira de adicionar um novo [bloco de painel](consumer/end-user-tiles.md) é copiando-o de outro painel. Ao clicar em cada um desses blocos, haverá um link para onde foi criado – em P e R ou em um relatório. 
 
 > [!NOTE]
-> Não é possível fixar blocos de painéis compartilhados.
+> Não é possível fixar blocos de dashboards compartilhados.
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>Fixar um bloco em outro dashboard
 1. [Obter dados](service-get-data.md). Este modelo usa o [Exemplo de Análise de Gastos de TI](sample-it-spend.md).
@@ -38,7 +38,7 @@ Uma maneira de adicionar um novo [bloco de painel](consumer/end-user-tiles.md) �
    Uma mensagem de êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um bloco, ao painel selecionado.
    
    ![Caixa de diálogo Fixado ao dashboard](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
-6. Selecione **Ir para o dashboard** para ver o bloco fixado. Nele, você poderá [renomear, redimensionar, vincular e mover](service-dashboard-edit-tile.md) a visualização fixada.
+6. Selecione **Ir para o dashboard** para ver o bloco fixado. Assim você pode [renomear, redimensionar, vincular e mover](service-dashboard-edit-tile.md) a visualização fixada.
 
 ## <a name="next-steps"></a>Próximas etapas
 [Blocos no Power BI](consumer/end-user-tiles.md)  

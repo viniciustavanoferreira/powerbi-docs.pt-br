@@ -9,10 +9,10 @@ ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 13b9e37d4a64493dfdcac02d9df86a1e19a1c24b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921161"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Dicas de design de relatório no Construtor de Relatórios do Power BI
@@ -20,7 +20,7 @@ ms.locfileid: "78921161"
   
    
   
-##  <a name="DesigningReports"></a> Como criar relatórios  
+##  <a name="designing-reports"></a><a name="DesigningReports"></a> Como criar relatórios  
   
 -   Um relatório bem projetado transmite informações que resultam em ações. Identifique as perguntas que o relatório ajuda a responder. Mantenha essas perguntas em mente ao projetar o relatório.  
   
@@ -36,7 +36,7 @@ ms.locfileid: "78921161"
   
  Para obter mais informações sobre os aspectos a serem considerados durante o design de seu relatório, confira [Como planejar um relatório no Construtor de Relatórios](report-builder-planning-report.md)).  
   
-##  <a name="NamingConventions"></a> Convenções de nomenclatura para relatórios, fontes de dados e conjuntos de dados  
+##  <a name="naming-conventions-for-reports-data-sources-and-datasets"></a><a name="NamingConventions"></a> Convenções de nomenclatura para relatórios, fontes de dados e conjuntos de dados  
   
 -   Use convenções de nomenclatura para fontes de dados e conjuntos de dados que documentam a fonte de dados.  
   
@@ -44,7 +44,7 @@ ms.locfileid: "78921161"
   
     2.  **Conjuntos de dados.** Use um nome que indique em qual fonte de dados ele se baseia.  
   
-##  <a name="Data"></a> Como trabalhar com os dados  
+##  <a name="working-with-data"></a><a name="Data"></a> Como trabalhar com os dados  
   
 -   Como uma primeira etapa, exiba todos os dados com os quais deseja trabalhar no painel de dados do relatório. Ao refinar as perguntas às quais o relatório foi projetado para responder, pense em como limitar os dados nos conjuntos de dados do relatório para apenas os que são necessários.  
   
@@ -54,7 +54,7 @@ ms.locfileid: "78921161"
   
 -   Dependendo de seus requisitos, você pode exibir os nomes e as localizações de fontes de dados do relatório, o texto de comando de consulta do conjunto de dados e os valores de parâmetro no relatório. A primeira pergunta que muitos usuários novos fazem é sobre a origem dos dados. Para reduzir a desordem no relatório, você pode ocultar caixas de texto condicionalmente com esse tipo de informação e permitir que os usuários escolham se desejam visualizá-lo. Tente adicionar essas informações na última página do relatório. Defina a visibilidade da caixa de texto com base em um parâmetro que o usuário possa alterar.  
   
-##  <a name="DesignSurface"></a> Como interagir com a área de design do relatório  
+##  <a name="interacting-with-the-report-design-surface"></a><a name="DesignSurface"></a> Como interagir com a área de design do relatório  
  A área de design do relatório não é WYSIWIG. Quando você coloca itens de relatório na área de design, sua localização relativa afeta a maneira como os itens são exibidos na página do relatório renderizado. O espaço em branco é preservado.  
   
 -   Use guias de alinhamento e botões de layout para alinhar e organizar itens na área de design do relatório. Por exemplo, alinhe as partes superiores ou as bordas dos itens selecionados, expanda um item para que ele corresponda ao tamanho de outro item ou ajuste o espaçamento entre itens.  
@@ -77,7 +77,7 @@ ms.locfileid: "78921161"
   
 -   Para arrastar campos do painel de dados do relatório para o painel Agrupamento, evite arrastar o campo por outros itens de relatório na área de design, pois isso seleciona os outros itens e desmarca a região de dados Tablix. Arraste o campo para baixo no painel de dados do relatório e, em seguida, para o painel Agrupamento.  
   
-###  <a name="Selecting"></a> Como selecionar itens  
+###  <a name="selecting-items"></a><a name="Selecting"></a> Como selecionar itens  
  Para ajudar a selecionar o objeto desejado na área de design do relatório, use a tecla ESC, o menu de contexto de atalho, o painel Propriedades e o painel Agrupamento.  
   
 -   -   Pressione ESC para percorrer a pilha de itens de relatório que ocupam o mesmo espaço na área de design.  
@@ -89,31 +89,31 @@ ms.locfileid: "78921161"
     -   Para trabalhar com grupos de linhas e grupos de colunas em uma região de dados Tablix, selecione o grupo no painel Agrupamento.  
 
   
-##  <a name="ReportItems"></a> Como trabalhar com tipos específicos de itens de relatório  
+##  <a name="working-with-specific-types-of-report-items"></a><a name="ReportItems"></a> Como trabalhar com tipos específicos de itens de relatório  
   
-###  <a name="Parameters"></a> Como trabalhar com parâmetros  
+###  <a name="working-with-parameters"></a><a name="Parameters"></a> Como trabalhar com parâmetros  
   
 -   O objetivo principal dos parâmetros de relatório é filtrar os dados na fonte de dados e recuperar apenas o que é necessário para os fins do relatório.  
   
 -   Para parâmetros de relatório, encontre um equilíbrio entre habilitar a interatividade e ajudar um usuário a obter os resultados desejados. Por exemplo, você pode definir valores padrão de um parâmetro para valores que você sabe que são populares.  
   
-###  <a name="Text"></a> Como trabalhar com texto  
+###  <a name="working-with-text"></a><a name="Text"></a> Como trabalhar com texto  
   
 -   Quando você cola multilinhas em uma caixa de texto, o texto é adicionado como uma execução de texto. Cada execução de texto só pode ser formatada como uma unidade. Para formatar cada linha de maneira independente, insira uma nova linha pressionando RETURN na execução de texto, conforme necessário. Em seguida, você pode aplicar formatação e estilos a cada linha de texto independente na caixa de texto.  
   
 -   Defina propriedades de formato e ações em uma caixa de texto ou no texto do espaço reservado na caixa de texto. Se houver apenas uma linha de texto, será mais eficiente definir propriedades na caixa de texto do que no texto.  
   
-###  <a name="Expressions"></a> Como trabalhar com expressões  
+###  <a name="working-with-expressions"></a><a name="Expressions"></a> Como trabalhar com expressões  
   
 -   Entenda os formatos de expressões simples e complexas. Digite o formato de expressão simples diretamente nas caixas de texto, nas propriedades no painel Propriedade ou nas localizações em caixas de diálogo que aceitam uma expressão.
   
 -   Quando você cria uma expressão, ela ajuda a criar cada parte de maneira independente e verificar seu valor. Em seguida, você pode combinar todas as partes em uma expressão final. Uma técnica útil é adicionar uma caixa de texto a uma célula de matriz, exibir cada parte da expressão e definir a visibilidade condicional na caixa de texto. Para controlar o estilo de borda e a cor quando a caixa de texto é ocultada, primeiro coloque a caixa de texto em um retângulo e, em seguida, defina o estilo de borda e a cor do retângulo para que correspondam à matriz.  
   
-###  <a name="Indicators"></a> Como trabalhar com indicadores  
+###  <a name="working-with-indicators"></a><a name="Indicators"></a> Como trabalhar com indicadores  
   
 -   Por padrão, um indicador mostra, pelo menos, três estados. Depois de adicionar um indicador a um relatório, você poderá configurá-lo adicionando ou removendo estados. Para facilitar a exibição pelos usuários, escolha um indicador que varie por cor e forma.  
   
-##  <a name="Rendering"></a> Como controlar a renderização de itens de relatório na página do relatório  
+##  <a name="controlling-the-rendering-of-report-items-on-the-report-page"></a><a name="Rendering"></a> Como controlar a renderização de itens de relatório na página do relatório  
   
 -   Na área de design do relatório, os itens de relatório crescem para acomodar o conteúdo do conjunto de dados, da expressão, do sub-relatório ou do texto associado.  
   

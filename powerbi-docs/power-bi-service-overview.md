@@ -10,10 +10,10 @@ ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874980"
 ---
 # <a name="what-is-the-power-bi-service"></a>O que é o serviço do Power BI?
@@ -39,4 +39,4 @@ Depois de criar relatórios e dashboards você pode compartilhá-los para que os
 ## <a name="next-steps"></a>Próximas etapas
 - Início rápido para consumidores: [Saiba como usar o serviço do Power BI](consumer/end-user-experience.md)   
 - [Tutorial: Introdução ao serviço do Power BI](service-get-started.md)
-- [Início Rápido: conectar-se a dados no Power BI Desktop](desktop-quickstart-connect-to-data.md)
+- [Início rápido: conectar-se a dados no Power BI Desktop](desktop-quickstart-connect-to-data.md)

@@ -11,10 +11,10 @@ ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74999780"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Conectar-se à API de Segurança do Microsoft Graph no Power BI Desktop
@@ -28,7 +28,7 @@ A API de Segurança do Microsoft Graph conecta [várias soluções de segurança
 Para usar o conector de segurança do Microsoft Graph, você precisa obter *explicitamente* o consentimento do administrador de locatário do Azure AD (Azure Active Directory). Veja [requisitos de autenticação de Segurança do Microsoft Graph](https://aka.ms/graphsecurityauth).
 O consentimento requer a ID e o nome do aplicativo do conector, sendo que esse nome é citado aqui e está disponível no [portal do Azure](https://portal.azure.com):
 
-| Property | Valor |
+| Property | Value |
 |----------|-------|
 | **Nome do aplicativo** | `MicrosoftGraphSecurityPowerBIConnector` |
 | **ID do Aplicativo** | `cab163b7-247d-4cb9-be32-39b6056d4189` |

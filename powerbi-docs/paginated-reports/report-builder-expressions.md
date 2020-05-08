@@ -9,10 +9,10 @@ ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921115"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Expressões no Construtor de Relatórios do Power BI
@@ -30,7 +30,7 @@ ms.locfileid: "78921115"
   
  Para inserir expressões manualmente, selecione um item na área de design e use os menus de atalho e caixas de diálogo para definir as propriedades do item. Quando vir o botão ***(fx)*** ou o valor `<Expression>` em uma lista suspensa, você saberá que você pode definir a propriedade como uma expressão. 
   
-##  <a name="Types"></a> Reconhecimento expressões simples e complexas  
+##  <a name="understanding-simple-and-complex-expressions"></a><a name="Types"></a> Reconhecimento expressões simples e complexas  
  As expressões começam com um sinal de igual (=) e são escritas no Microsoft Visual Basic. Expressões podem incluir uma combinação de constantes, operadores e referências a valores internos (campos, coleções e funções) e a código externo ou personalizado.  
   
  Você pode usar expressões para especificar o valor das muitas propriedades de item de relatório. As propriedades mais comuns são valores para caixas de texto e texto de espaço reservado. Normalmente, se uma caixa de texto contém apenas uma expressão, a expressão é o valor da propriedade da caixa de texto. Se uma caixa de texto contém várias expressões, cada expressão é o valor do texto de espaço reservado na caixa de texto.  
@@ -50,7 +50,7 @@ ms.locfileid: "78921115"
 ![Formato de exemplo de expressão do Construtor de Relatórios](media/report-builder-expressions/report-builder-expression-sample-values-format.png)  
 
 
-## <a name="DisplayText"></a> Reconhecimento de símbolos de prefixo em expressões simples  
+## <a name="understanding-prefix-symbols-in-simple-expressions"></a><a name="DisplayText"></a> Reconhecimento de símbolos de prefixo em expressões simples  
 
 Expressões simples usam símbolos para indicar se a referência é a um campo, um parâmetro, uma coleção interna ou a coleção ReportItems. A tabela a seguir mostra exemplos de texto de exibição e de expressão:  
   
@@ -61,20 +61,20 @@ Expressões simples usam símbolos para indicar se a referência é a um campo, 
 |Campos internos|`[&ReportName]`|`=Globals!ReportName.Value`|  
 |Caracteres literais usados para o texto de exibição|`\[Sales\]`|`[Sales]`|  
   
-##  <a name="References"></a> Escrevendo expressões complexas  
+##  <a name="writing-complex-expressions"></a><a name="References"></a> Escrevendo expressões complexas  
  Expressões podem incluir referências a funções, operadores, constantes, campos, parâmetros, itens de coleções internas e código personalizado ou assemblies personalizados incorporados.  
   
  A tabela a seguir lista os tipos de referências que podem ser incluídas em uma expressão:  
   
 |Referências|Descrição|Exemplo|  
 |----------------|-----------------|-------------|  
-|Constantes|Descreve as constantes que podem ser acessadas interativamente para propriedades que exigem valores constantes, como cores de fonte.|`="Blue"`|  
-|Operadores|Descreve os operadores que podem ser usados para combinar referências em uma expressão. Por exemplo, o operador **&** é usado para concatenar cadeias de caracteres.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
+|Constants|Descreve as constantes que podem ser acessadas interativamente para propriedades que exigem valores constantes, como cores de fonte.|`="Blue"`|  
+|Operators|Descreve os operadores que podem ser usados para combinar referências em uma expressão. Por exemplo, o operador **&** é usado para concatenar cadeias de caracteres.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
 |Coleções internas|Descreve as coleções internas que podem ser incluídas em uma expressão, como `Fields`, `Parameters` e `Variables`.|`=Fields!Sales.Value`<br /><br /> `=Parameters!Store.Value`<br /><br /> `=Variables!MyCalculation.Value`|  
 |Relatório interno e funções de agregação|Descreve as funções internas, como `Sum` ou `Previous`, que podem ser acessadas de uma expressão.|`=Previous(Sum(Fields!Sales.Value))`|  
 |Referências a assembly e código personalizado em expressões no Construtor de Relatórios |Descreve como você pode acessar as classes de CLR internas `xref:System.Math` e `xref:System.Convert`, outras classes de CLR, funções de biblioteca em tempo de execução do Visual Basic ou métodos de um assembly externo.<br /><br /> Descreve como você pode acessar o código personalizado inserido em seu relatório ou que é compilado e instalado como um assembly personalizado no cliente de relatório e no servidor de relatório.|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  
    
-##  <a name="Valid"></a> Validando expressões  
+##  <a name="validating-expressions"></a><a name="Valid"></a> Validando expressões  
  Quando você cria uma expressão para uma propriedade de item de relatório específica, as referências que podem ser incluídas em uma expressão dependem dos valores que a propriedade de item de relatório pode aceitar e do escopo em que a propriedade é avaliada. Por exemplo:  
   
 -   Por padrão, a expressão [Sum] calcula a soma dos dados que estão no escopo no momento em que a expressão é avaliada. Para uma célula de tabela, o escopo depende de associações a grupos de linhas e colunas. 

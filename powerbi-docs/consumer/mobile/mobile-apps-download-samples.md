@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256783"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>Como baixar amostras em Meu workspace no serviço do Power BI
@@ -28,7 +28,7 @@ Você precisará ter uma conta de serviço do Power BI para baixar os dados. Cas
 
 2. Selecione **Obter dados** no canto inferior esquerdo do painel de navegação. Se o painel de navegação estiver oculto e você não puder ver o link Obter dados, exiba o painel clicando no ícone mostrar/ocultar do painel de navegação ![botão de navegação global](./media/mobile-apps-download-samples/power-bi-iphone-global-nav-button.png).  
    
-    ![Obter Dados](./media/mobile-apps-download-samples/power-bi-get-data.png)
+    ![Obter dados](./media/mobile-apps-download-samples/power-bi-get-data.png)
 
 3. Na página Obter Dados, selecione o link **Amostras**.
    
@@ -46,4 +46,4 @@ Agora você está pronto para exibir as amostras em seu dispositivo móvel.
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Início rápido](mobile-apps-quickstart-view-dashboard-report.md)
-* Dúvidas? Consulte a [seção Aplicativos móveis da comunidade do Power BI](https://go.microsoft.com/fwlink/?linkid=839277)
+* Perguntas? Consulte a [seção Aplicativos móveis da comunidade do Power BI](https://go.microsoft.com/fwlink/?linkid=839277)

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114609"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Como corrigir "Certificado SSL corporativo não é confiável" – Power BI
@@ -44,5 +44,5 @@ Se você estiver usando um servidor de autenticação personalizado, o certifica
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Baixe o aplicativo Android](https://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicativos Android.
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/) 
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/) 
 

@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114232"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
@@ -55,7 +55,7 @@ Isso não significa que não é possível salvar suas alterações. Você pode f
 
 Os [dashboards](end-user-dashboards.md) costumam ser confundidos com relatórios, pois eles também são telas preenchidas com visuais. Mas existem algumas diferenças importantes.  
 
-| **Funcionalidade** | **Dashboards** | **Relatórios** |
+| **Funcionalidade** | **Painéis** | **Relatórios** |
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
 | Fontes de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |

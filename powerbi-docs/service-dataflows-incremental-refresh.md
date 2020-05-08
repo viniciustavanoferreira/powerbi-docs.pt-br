@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: de65fed27260f3e93c4e91fcb680d2e5190543b0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698200"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Usar a atualização incremental com os fluxos de dados do Power BI
@@ -148,7 +148,7 @@ A operação de atualização seguinte, com *Data da Execução 16/1/2017*, apro
 
 ![Recuperação de falha prolongada em fluxos de dados](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_06.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximas Etapas
 
 Este artigo descreveu a atualização incremental para fluxos de dados. Confira outros artigos que podem ser úteis.
 
@@ -159,7 +159,7 @@ Este artigo descreveu a atualização incremental para fluxos de dados. Confira 
 * [Recursos de desenvolvedor para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Confira mais informações sobre o Power Query e a atualização agendada nestes artigos:
-* [Visão geral da Consulta no Power BI Desktop](desktop-query-overview.md)
+* [Visão geral de Consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configuração de atualização agendada](refresh-scheduled-refresh.md)
 
 Leia este artigo de visão geral para saber mais sobre o Common Data Service:

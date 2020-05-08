@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
 ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380337"
 ---
 # <a name="add-drill-down-support"></a>Adicionar suporte a busca detalhada
@@ -315,7 +315,7 @@ Na etapa final, você deve obter o visual com seleções e o menu de contexto:
 
 Prepare dados de exemplo para testar o visual com mapeamentos de exibição de dados de matriz:
 
-|   Row1   |   Row2   |   Row3   |   Coluna1   |   Coluna2   |   Column3   |   Valores   |
+|   Row1   |   Row2   |   Row3   |   Column1   |   Column2   |   Column3   |   Valores   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |

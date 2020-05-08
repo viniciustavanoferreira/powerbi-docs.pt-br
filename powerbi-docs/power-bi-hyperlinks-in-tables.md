@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381251"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Adicionar hiperlinks (URLs) a uma tabela ou matriz
@@ -121,7 +121,7 @@ Outra maneira de adicionar hiperlinks às tabelas e matrizes do Power BI é cria
    > As URLS devem começar com determinados prefixos. Para obter a lista completa, confira [Considerações e solução de problemas](#considerations-and-troubleshooting).
    > 
    
-5. No grupo **Propriedades de relatório** , selecione na lista suspensa **Categoria de dados** e escolha **URL do Web**. 
+5. No grupo **Propriedades de relatório**, selecione na lista suspensa **Categoria de dados** e escolha **URL do Web**. 
    
    ![Lista suspensa de categoria de dados no Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 

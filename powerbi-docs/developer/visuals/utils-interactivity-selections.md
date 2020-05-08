@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
 ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379250"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Utilitários de interatividade de visuais do Power BI
@@ -171,7 +171,7 @@ Geralmente, os pontos de dados contêm seleções e valores. A interface amplia 
     }
     ```
 
-    **Estender a classe `BaseBehavior`**
+    **Estender a classe `BaseBehavior`** 
 
     ```typescript
     import powerbi from "powerbi-visuals-api";
@@ -186,7 +186,7 @@ Geralmente, os pontos de dados contêm seleções e valores. A interface amplia 
     }
     ```
 
-5. Para manipular elementos de clique, chame o método `on` do objeto de seleção *d3*. Isso também se aplica a `elementsSelection` e `clearCatcherSelection`.
+5. Para manipular elementos de clique, chame o método *do objeto de seleção*d3`on`. Isso também se aplica a `elementsSelection` e `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {

@@ -11,10 +11,10 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207449"
 ---
 # <a name="manage-data-sources"></a>Gerenciar fontes de dados
@@ -27,7 +27,7 @@ A maioria das operações de gerenciamento de fontes de dados também pode ser e
 
 ## <a name="add-a-data-source"></a>Adicionar uma fonte de dados
 
-1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Configurações](media/service-gateway-data-sources/icon-gear.png) > **Gerenciar gateways**.
+1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Ícone de engrenagem de configurações](media/service-gateway-data-sources/icon-gear.png) > **Gerenciar gateways**.
 
     ![Gerenciar gateways](media/service-gateway-data-sources/manage-gateways.png)
 
@@ -66,7 +66,7 @@ Caso você use a opção **Usar SSO via Kerberos para consultas de DirectQuery e
 
     ![Conexão bem-sucedida](media/service-gateway-data-sources/connection-successful.png)
 
-Agora, você pode usar essa fonte de dados para incluir dados do SQL Server em seus relatórios e painéis do Power BI.
+Agora, você pode usar essa fonte de dados para incluir dados do SQL Server em seus relatórios e dashboards do Power BI.
 
 ## <a name="remove-a-data-source"></a>Remover uma fonte de dados
 
@@ -87,7 +87,7 @@ O vínculo entre o conjunto de dados e a fonte de dados no gateway baseia-se no 
 
 Se estiver listado na guia **Usuários** da fonte de dados configurada no gateway e houver a correspondência entre os nomes do servidor e do banco de dados, você verá o gateway como uma opção a ser usada com a atualização agendada.
 
-![Conexão do gateway](media/service-gateway-data-sources/gateway-connection.png)
+![Conexão de gateway](media/service-gateway-data-sources/gateway-connection.png)
 
 > [!WARNING]
 > Se seu conjunto de dados contiver várias fontes de dados, cada uma delas deverá ser adicionada ao gateway. Se uma ou mais fontes de dados não forem adicionadas ao gateway, você não o verá como disponível para a atualização agendada.
@@ -104,7 +104,7 @@ Você também pode dar acesso administrativo a usuários e grupos de segurança 
 
 ### <a name="add-users-to-a-data-source"></a>Adicionar usuários a uma fonte de dados
 
-1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Configurações](media/service-gateway-data-sources/icon-gear.png) > **Gerenciar gateways**.
+1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Ícone de engrenagem de configurações](media/service-gateway-data-sources/icon-gear.png) > **Gerenciar gateways**.
 
 2. Selecione a fonte de dados à qual deseja adicionar usuários.
 

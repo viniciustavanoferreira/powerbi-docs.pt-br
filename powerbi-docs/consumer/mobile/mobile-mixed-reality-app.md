@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205908"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicativo Power BI para Realidade Misturada (versão prévia)
 Veja seus dashboards e relatórios no aplicativo Power BI para Realidade Misturada (versão prévia) enquanto estiver imerso no mundo virtual ou coloque-os em locais específicos no contexto do seu ambiente. 
 
-[Baixar o aplicativo Power BI para Realidade Misturada](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) na Windows Store: Na Windows Store, ele é chamado de "Power BI Mobile". Interaja com seus dashboards e relatórios no mundo virtual e, em seguida, selecione aqueles que deseja colocar em seu ambiente. 
+[Baixe o aplicativo Power BI para Realidade Misturada](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) da Windows Store: na Windows Store, seu nome é "Power BI Mobile". Interaja com seus dashboards e relatórios no mundo virtual e, em seguida, selecione aqueles que deseja colocar em seu ambiente. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Dois modos de exibição: holográfico e clássico do Windows
 

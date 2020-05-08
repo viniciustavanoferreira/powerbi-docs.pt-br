@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488604"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
@@ -77,7 +77,7 @@ Agora que você tem uma capacidade, pode adicionar mais conforme suas necessidad
 
 1. Passe o mouse sobre **Mais opções** (...) e, em seguida, selecione **Alterar quantidade de licenças**.
 
-    ![Alterar quantidade de licenças](media/service-admin-premium-purchase/premium-purchase-more.png)
+    ![Alterar a quantidade de licenças](media/service-admin-premium-purchase/premium-purchase-more.png)
 
 1. Altere o número de instâncias que você deseja ter para esse item. Em seguida, selecione **Enviar** quando terminar.
 

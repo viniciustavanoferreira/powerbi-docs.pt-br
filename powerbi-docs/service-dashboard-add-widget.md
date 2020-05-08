@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76282030"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adicionar imagens, vídeos e outros elementos a seu dashboard

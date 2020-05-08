@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040133"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido – Explorando o serviço do Power BI
@@ -127,12 +127,12 @@ Para saber mais, consulte [Favoritos](end-user-favorite.md)
 Para obter mais informações, consulte [Recentes no Power BI](end-user-recent.md)
 
 ### <a name="search-and-sort-content"></a>Pesquisar e classificar conteúdo
-Quando você é novo no serviço do Power BI, tem poucas partes de conteúdo disponíveis. Contudo, conforme os colegas começam a compartilhar conteúdo com você e você começa a baixar aplicativos, é possível ter longas listas de conteúdo. É nesse momento que você descobre que a pesquisa e a classificação são extremamente úteis.
+Quando você é novo no serviço do Power BI, tem poucas partes de conteúdo disponíveis. Porém, conforme os colegas começarem a compartilhar conteúdo com você e você começar a baixar aplicativos, será possível ter longas listas de conteúdo. É nesse momento que você descobrirá que a pesquisa e a classificação são extremamente úteis.
 
 A pesquisa está disponível em quase todas as partes do serviço do Power BI. Procure a caixa de pesquisa ou o ícone de lupa de pesquisa.    
 ![ícone de lupa](./media/end-user-experience/power-bi-search-icon.png)
 
-No campo Pesquisar, digite todo o nome ou apenas parte do nome de um dashboard, um relatório, uma pasta de trabalho, um aplicativo ou um proprietário. O Power BI pesquisa em todo o seu conteúdo.
+No campo Pesquisar, digite todo ou parte do nome de um dashboard, relatório, pasta de trabalho, aplicativo ou proprietário. O Power BI pesquisa em todo o seu conteúdo.
 
 ![pesquisar um relatório](./media/end-user-experience/power-bi-search-field.png)
 

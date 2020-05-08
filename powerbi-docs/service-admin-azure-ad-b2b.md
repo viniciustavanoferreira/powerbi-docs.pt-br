@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.openlocfilehash: d17c6bbe5ddf6cd39626ac0038595543cd2fecfb
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558607"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841056"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B
 
 O Power BI permite o compartilhamento de conteúdo com usuários convidados externos por meio do Azure AD B2B (Azure Active Directory Business-to-business).
 Usando o Azure AD B2B, sua organização habilita e rege o compartilhamento com usuários externos em um local central. Por padrão, os convidados externos têm uma experiência apenas de consumo. Além disso, você pode permitir que usuários convidados fora da sua organização editem e gerenciem o conteúdo dentro de sua organização.
 
-Este artigo fornece uma introdução básica ao Azure AD B2B no Power BI. Para obter mais informações, confira [Distribuir o conteúdo do Power BI para usuários convidados externos usando o Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md).
+Este artigo fornece uma introdução básica ao Azure AD B2B no Power BI. Para obter mais informações, confira [Distribuir o conteúdo do Power BI para usuários convidados externos usando o Azure Active Directory B2B](guidance/whitepaper-azure-b2b-power-bi.md).
 
 ## <a name="enable-access"></a>Habilitar acesso
 

@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: Criar colunas calculadas no Power BI Desktop'
-description: 'Tutorial: Criar colunas calculadas no Power BI Desktop'
+title: 'Tutorial: criar colunas calculadas no Power BI Desktop'
+description: 'Tutorial: criar colunas calculadas no Power BI Desktop'
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: cdd4f4f5058b57cbf59a3a0b35286243bd8c8f37
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731605"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Criar colunas calculadas no Power BI Desktop
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: criar colunas calculadas no Power BI Desktop
 
 Às vezes, os dados que você está analisando não contêm um campo específico, do qual você precisa para obter os resultados que procura. É aqui que entram as *colunas calculadas*. As colunas calculadas usam fórmulas DAX (Data Analysis Expressions) para definir os valores de uma coluna, qualquer coisa desde reunir valores de texto de duas colunas diferentes até calcular um valor numérico de outros valores. Por exemplo, digamos que seus dados tenham os campos **Cidade** e **Estado**, mas você queira um único campo **Local** que tenha ambos, como "Miami, FL". É exatamente para isso que as colunas calculadas servem.
 
@@ -133,4 +133,4 @@ Colunas calculadas podem enriquecer seus dados e facilitar a compreensão das in
 
 Se desejar se aprofundar nas fórmulas DAX e criar colunas calculadas com fórmulas mais avançadas, veja [Noções básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Este artigo enfoca os conceitos fundamentais no DAX, como sintaxe, funções e uma compreensão mais abrangente sobre o contexto.
 
-Certifique-se de adicionar a [Referência ao DAX (Expressões de Análise de Dados)](https://msdn.microsoft.com/library/gg413422.aspx) aos favoritos. É nela que você encontrará informações detalhadas sobre a sintaxe do DAX, os operadores, além de mais de 200 funções DAX.
+Certifique-se de adicionar a [Referência a DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx) aos favoritos. É nela que você encontrará informações detalhadas sobre a sintaxe do DAX, os operadores, além de mais de 200 funções DAX.

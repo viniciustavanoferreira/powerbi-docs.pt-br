@@ -62,7 +62,7 @@
             - name: P e R de linguagem natural
               items:
                 - name: Introdução às P e R
-                  href: ../natural-language/q-and-a-intro.md
+                  href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Introdução às ferramentas de P e R
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Ferramenta avançada de P e R

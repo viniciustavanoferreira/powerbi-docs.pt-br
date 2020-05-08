@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710196"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Always Encrypted em Servidor de Relatórios do Power BI
@@ -27,7 +27,7 @@ Neste momento, o Servidor de Relatórios do Power BI não restringirá o acesso 
 
 ### <a name="key-storage-strategies"></a>Estratégias de armazenamento de chaves
 
-|Armazenamento  |Compatível  |
+|Armazenamento  |Com suporte  |
 |---------|---------|
 |Repositório de Certificados do Windows | Sim |
 |Azure Key Vault | Não |
@@ -69,7 +69,7 @@ O uso do parâmetro aplica-se somente à criptografia determinística.
 
 ## <a name="datatype-support"></a>Suporte a tipo de dados
 
-| Tipo de dados SQL | Compatível com campo de leitura | Compatível com o uso como um elemento Agrupar por | Agregações compatíveis (COUNT, DISTINCT, MAX, MIN, SUM etc.) | Compatível com filtragem por meio de igualdade usando parâmetros | Observações |
+| Tipo de dados SQL | Compatível com campo de leitura | Compatível com o uso como um elemento Agrupar por | Agregações compatíveis (COUNT, DISTINCT, MAX, MIN, SUM etc.) | Compatível com filtragem por meio de igualdade usando parâmetros | Anotações |
 | --- | --- | --- | --- | --- | --- |
 | int | Sim | Sim | COUNT, DISTINCT | Sim, como Inteiro |   |
 | FLOAT | Sim | Sim | COUNT, DISTINCT | Sim, como Float |   |

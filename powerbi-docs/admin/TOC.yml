@@ -30,7 +30,7 @@
               href: service-admin-migrate-data-germany.md
             - name: Perguntas frequentes para os clientes da Nuvem da Alemanha
               href: ../service-govde-faq.md
-        - name: Perguntas frequentes
+        - name: Perguntas frequentes (FAQ)
           href: ../service-admin-faq.md
         - name: Perguntas frequentes sobre alta disponibilidade e failover
           href: ../service-admin-failover.md
@@ -66,7 +66,7 @@
           href: ../service-admin-access-usage.md
         - name: Acompanhar atividades do usuário
           href: ../service-admin-auditing.md
-        - name: Monitorar a integridade do serviço
+        - name: Controlar a integridade do serviço
           href: ../service-admin-health.md
         - name: Fechar sua conta
           href: ../service-admin-closing-your-account.md
@@ -147,5 +147,3 @@
           href: ../service-admin-alternate-email-address-for-power-bi.md
         - name: Como usar o mesmo logon de conta para o Power BI e o Azure
           href: ../service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Office 365 dedicado - problemas conhecidos
-          href: ../service-admin-office-365-dedicated-known-issues.md

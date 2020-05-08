@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609949"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841907"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Melhores práticas para otimizar a P e R no Power BI
 Usar linguagem natural e expressões comuns para fazer perguntas sobre seus dados é eficiente. Ainda mais avançado é quando os seus dados dão as respostas, exatamente o que a P e R no Power BI faz.
@@ -194,6 +194,8 @@ Uma exceção à regra de "normalização é melhor" ocorre quando há mais de u
 Esta etapa aplica-se especificamente a P e R (e não a relatórios do Power BI em geral). Os usuários geralmente têm uma variedade de termos que eles usam para se referir à mesma coisa, como total de vendas, vendas líquidas, total de vendas líquidas. Você pode adicionar esses sinônimos a tabelas e colunas no modelo do Power BI. 
 
 Esta etapa pode ser importante. Mesmo com nomes de tabelas e colunas simples, os usuários da P e R fazem perguntas usando o vocabulário que é primeiramente apresentado a eles. Eles não fazem escolhas em uma lista predefinida de colunas. Quanto mais sinônimos sensatos você adicionar, melhor será a experiência dos usuários com o seu relatório. Para adicionar sinônimos, no Power BI Desktop, acesse a exibição Modelo, selecione a guia Modelagem e selecione um campo ou uma tabela. O painel Propriedades mostra a caixa **Sinônimos**, em que é possível adicionar sinônimos.
+
+
 
 ![Sinônimos no painel Propriedades da P e R](media/qna-modelling-pane-synonyms.png)
 

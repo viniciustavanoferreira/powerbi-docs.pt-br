@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874459"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Criar um visual com P e R do Power BI
@@ -48,7 +48,7 @@ Como poderíamos criar esse gráfico de linha usando P e R?
    
    ![Gráfico de área preenchido por P e R](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
-4. Para fixar o gráfico no dashboard, selecione o ícone de marcador ![Ícone de Fixar](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) no canto superior direito.
+4. Para fixar o gráfico no dashboard, selecione o ícone de marcador ![Ícone Fixar](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) no canto superior direito.
 
 ## <a name="create-a-visual-in-the-report-editor"></a>Criar um visual no editor de relatório
 

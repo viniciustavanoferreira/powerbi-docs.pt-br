@@ -10,14 +10,14 @@ ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133205"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Solucionar problemas de entrada no Power BI Desktop
-Em alguns momentos, talvez você tente entrar no **Power BI Desktop**, mas receba erros. Há dois motivos principais para problemas de conexão: **erros de autenticação de proxy** e **erros de redirecionamento de URL sem HTTPS**. 
+Em alguns momentos, talvez você tente entrar no **Power BI Desktop**, mas receba erros. Há dois motivos principais para os problemas de entrada: **Erros de Autenticação de Proxy** e **Erros de Redirecionamento de URL sem HTTPS**. 
 
 Para determinar qual problema está causando o problema de entrada, a primeira etapa é entrar em contato com seu administrador e fornecer informações de diagnóstico para que eles possam determinar a causa do problema. Ao rastrear problemas associados ao seu problema de entrada, os administradores podem determinar qual dos erros a seguir se aplica a você. 
 
@@ -55,7 +55,7 @@ As versões atuais do **Power BI Desktop** usam a versão atual da autenticaçã
 
 As exceções a seguir em arquivos de rastreamento do *Power BI Desktop* são associadas este erro:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: redirecionamento de URL sem HTTPS não tem suporte no modo de exibição da Web*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: não há suporte para o redirecionamento sem HTTPS no modo de exibição da Web*
 * *ErrorCode: non_https_redirect_failed*
 
 Se *ErrorCode: non_https_redirect_failed* ocorrer, significa que uma ou mais páginas de redirecionamento ou provedores da cadeia de redirecionamento não é um ponto de extremidade HTTPS protegido, ou que um emissor de certificado de um ou mais redirecionamentos não está entre as raízes confiáveis do dispositivo. Todos os provedores em qualquer cadeia de redirecionamento de entrada deve usar uma URL com HTTPS. Para resolver esse problema, contate o administrador e solicite o uso de URLs protegidas em seus sites de autenticação. 

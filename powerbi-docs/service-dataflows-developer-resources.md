@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: cf08f984e98b1497b04d1e19bd870ebcdda010b3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877221"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Recursos de desenvolvedor para fluxos de dados do Power BI
@@ -31,7 +31,7 @@ Os seguintes recursos de desenvolvedor estão disponíveis para o trabalho com f
 | [Referência da API REST do fluxo de dados do Power BI](https://go.microsoft.com/fwlink/?linkid=2047629)    | Um guia de referência completo para a API REST do fluxo de dados.|
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximas Etapas
 
 Este artigo forneceu informações sobre os recursos de desenvolvedor para fluxos de dados. Confira mais informações úteis sobre fluxos de dados nos artigos a seguir:
 
@@ -47,7 +47,7 @@ Para saber mais sobre o desenvolvimento do CDM e recursos do tutorial, confira o
 
 
 Confira mais informações sobre o Power Query e a atualização agendada nestes artigos:
-* [Visão geral da Consulta no Power BI Desktop](desktop-query-overview.md)
+* [Visão geral de Consulta no Power BI Desktop](desktop-query-overview.md)
 * [Configuração de atualização agendada](refresh-scheduled-refresh.md)
 
 

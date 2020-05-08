@@ -10,10 +10,10 @@ ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872537"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Excluir quase tudo no serviço do Power BI
@@ -56,7 +56,7 @@ Se a pasta de trabalho está armazenada no OneDrive for Business, excluí-la do 
 
 ### <a name="to-delete-a-workbook"></a>Para excluir uma pasta de trabalho
 1. Em seu workspace, selecione a guia **Pastas de trabalho**.
-2. Localize a pasta de trabalho a ser excluída e selecione o ícone ![ícone excluir](media/service-delete/power-bi-delete-report2.png) Excluir.
+2. Localize a pasta de trabalho a ser excluída e selecione o ícone ![ícone excluir](media/service-delete/power-bi-delete-report2.png) .
 
     ![Guia Pastas de trabalho](media/service-delete/power-bi-delete-workbooknew.png)
 3. Confirme a exclusão.

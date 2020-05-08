@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113849"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagir com visuais em relatórios, dashboards e aplicativos
@@ -43,7 +43,7 @@ Para muitas dessas opções, o administrador ou o *designer* pode desabilitar su
 
 
 
-|Tarefa  |Em um dashboard  |Em um relatório  | Em P e R
+|Task  |Em um dashboard  |Em um relatório  | Em P e R
 |---------|---------|---------|--------|
 |[Adicionar comentários a um visual por conta própria ou iniciar uma conversa sobre ele com os colegas](end-user-comment.md).     |  sim       |   sim      |  não  |
 |[Abrir e explorar o relatório em que o visual foi criado](end-user-tiles.md).     |    sim     |   N/A      |  não |
@@ -53,7 +53,7 @@ Para muitas dessas opções, o administrador ou o *designer* pode desabilitar su
 |[Pedir ao Power BI para procurar por tendências ou fatos interessantes](end-user-insights.md) nos dados do visual para você.  Esses visuais gerados automaticamente são chamados de *insights*.     |    sim, para blocos    |  não       | não   |
 |[Exibir apenas um visual por vez usando o modo de *foco*](end-user-focus.md).     | sim, para blocos        |   sim, para visuais      | N/A  |
 |[Pesquisar quando o visual foi atualizado pela última vez](end-user-fresh.md).     |  sim       |    sim     | N/A  |
-|[Exibir apenas um visual por vez, sem bordas nem painéis de navegação, usando o ](end-user-focus.md)modo de *tela inteira*.     |   sim      |  sim       | por padrão  |
+|[Exibir apenas um visual por vez, sem bordas nem painéis de navegação, usando o *modo de* tela inteira](end-user-focus.md).     |   sim      |  sim       | por padrão  |
 |[Imprimir](end-user-print.md).     |  sim       |   sim      | não  |
 |[Examinar o visual adicionando e modificando os filtros.](end-user-report-filter.md)     |    não     |   sim      | não  |
 |Focalizar um visual para revelar detalhes adicionais e dicas de ferramentas.     |    sim     |   sim      | sim  |

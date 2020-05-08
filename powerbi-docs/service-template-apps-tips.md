@@ -1,19 +1,19 @@
 ---
 title: Dicas para a criação de aplicativos de modelo no Power BI
 description: Dicas sobre a criação de consultas, modelos de dados, relatórios e dashboards para criar ótimos aplicativos de modelo
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 03/24/2020
-ms.author: tebercov
-ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 266e44b5e5ecff2f86bcd3d43ce91368cc57b9e1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066272"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781284"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Dicas para a criação de aplicativos de modelo no Power BI
 
@@ -142,22 +142,8 @@ Depois de publicar o aplicativo de modelo no AppSource, considere criar um link 
 * Power BI – pode ser exibido por um usuário do Power BI.
 
 Para redirecionar um usuário para o link de download do aplicativo no Power BI, confira o seguinte exemplo de código: [Repositório GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+
 [![Link de download do aplicativo](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
-
-
-
-## <a name="known-limitations"></a>Limitações conhecidas
-
-| Recurso | Limitações conhecidas |
-|---------|---------|
-|Conteúdo:  Conjuntos de dados   | É necessário que exatamente um conjunto de dados esteja presente. Apenas conjuntos de dados criados no Power BI Desktop (arquivos .pbix) são permitidos. <br>Sem suporte: conjuntos de dados de outros aplicativos de modelo, conjuntos de dados entre workspaces, relatórios paginados (arquivos .rdl), pastas de trabalho do Excel e metadados de conjunto de dados aprimorados |
-|Conteúdo: Dashboards | Blocos em tempo real não são permitidos (em outras palavras, não há suporte para conjunto de dados de streaming ou push) |
-|Conteúdo: Fluxos de dados | Sem suporte: Fluxos de dados |
-|Conteúdo de arquivos | Apenas arquivos PBIX são permitidos. <br>Sem suporte: arquivos .rdl (relatórios paginados) e pastas de trabalho do Excel   |
-| Fontes de dados | Fontes de dados compatíveis com a atualização de Dados Agendada na nuvem são permitidas. <br>Sem suporte: <li> DirectQuery</li><li>Conexões dinâmicas (sem o Azure AS)</li> <li>Fontes de dados locais (não há suporte para gateways pessoais e empresariais)</li> <li>Em tempo real (não há suporte para conjunto de dados de push)</li> <li>Modelos compostos</li></ul> |
-| Conjunto de dados: entre workspaces | Conjuntos de dados entre workspaces não são permitidos  |
-| Parâmetros de consulta | Sem suporte: Parâmetros do tipo "Qualquer" ou "Binário" bloqueiam a operação de atualização do conjunto de dados |
-| Visuais do Power BI | Somente há suporte para visuais do Power BI disponíveis publicamente. Não há suporte para [visuais do Power BI organizacionais](developer/visuals/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -23,7 +23,7 @@
           href: ../service-basic-concepts.md
         - name: Dez dicas para obter ajuda
           href: ../service-tips-for-finding-help.md
-        - name: Licenças
+        - name: Licenciamento
           items:
             - name: Inscrever-se no Power BI
               href: ../service-self-service-signup-for-power-bi.md
@@ -39,11 +39,11 @@
       items:
         - name: Idiomas e países/regiões compatíveis
           href: ../supported-languages-countries-regions.md
-        - name: Navegadores incompatíveis
+        - name: Navegadores com suporte
           href: ../power-bi-browsers.md
     - name: Recursos
       items:
-        - name: Vídeos
+        - name: vídeos
           href: ../videos.md
         - name: Webinars
           href: ../webinars.md
@@ -51,5 +51,5 @@
           href: ../desktop-videos.md
         - name: Arquivos de atualizações do Power BI Desktop
           href: ../desktop-latest-update-archive.md
-        - name: Política de Privacidade referente ao comentário Enviar Comentários Positivos do Power BI Desktop
+        - name: Política de Privacidade referente ao comentário Enviar um Smiley do Power BI Desktop
           href: ../desktop-send-smile-privacy-statement.md

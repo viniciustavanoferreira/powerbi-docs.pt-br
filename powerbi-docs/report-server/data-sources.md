@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: maggies
 ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979835"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
@@ -30,7 +30,7 @@ Outras fontes de dados podem funcionar mesmo que não estejam na lista de compat
 
 | **Fonte de dados** | **Dados armazenados em cache** | **Atualização agendada** | **Live/DirectQuery** |
 | --- | --- | --- | --- |
-| Banco de Dados do SQL Server |Sim |Sim |Sim |
+| Banco de dados do SQL Server |Sim |Sim |Sim |
 | SQL Server Analysis Services |Sim |Sim |Sim |
 | Banco de Dados SQL do Azure |Sim |Sim |Sim |
 | SQL Data Warehouse do Azure |Sim |Sim |Sim |
@@ -75,12 +75,12 @@ Outras fontes de dados podem funcionar mesmo que não estejam na lista de compat
 | Web |Sim |Sim |Não |
 | XML |Sim |Sim |Não |
 | appFigures (Beta) |Sim |Não |Não |
-| Banco de Dados do Azure Analysis Services |Sim |Não |Sim |
+| Banco de dados do Azure Analysis Services |Sim |Não |Sim |
 | Azure Cosmos DB (Beta) |Sim |Não |Não |
 | Azure HDInsight Spark (Beta) |Sim |Não |Não |
 | Common Data Service (Beta) |Sim |Não |Não |
 | comScore Digital Analytix (Beta) |Sim |Não |Não |
-| Dynamics 365 for Customer Insights (Beta) |Sim |Não |Não |
+| Dynamics 365 para Customer Insights (Beta) |Sim |Não |Não |
 | Dynamics 365 for Financials (Beta) |Sim |Não |Não |
 | GitHub (Beta) |Sim |Não |Não |
 | Google BigQuery (Beta) |Sim |Não |Não |
@@ -118,7 +118,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 
 | **Fonte de dados** | **Autenticação Anônima** | **Autenticação da Chave** | **Nome de Usuário e Senha** | **Autenticação do Windows** |
 | --- | --- | --- | --- | --- |
-| Banco de Dados do SQL Server |Não |Não |Sim |Sim |
+| Banco de dados do SQL Server |Não |Não |Sim |Sim |
 | SQL Server Analysis Services |Não |Não |Sim |Sim |
 | Web |Sim |Não |Sim |Sim |
 | Banco de Dados SQL do Azure |Não |Não |Sim |Não |
@@ -163,7 +163,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 | Azure HDInsight Spark (Beta) |Não |Não |Não |Não |
 | Common Data Service (Beta) |Não |Não |Não |Não |
 | comScore Digital Analytix (Beta) |Não |Não |Não |Não |
-| Dynamics 365 for Customer Insights (Beta) |Não |Não |Não |Não |
+| Dynamics 365 para Customer Insights (Beta) |Não |Não |Não |Não |
 | Dynamics 365 for Financials (Beta) |Não |Não |Não |Não |
 | GitHub (Beta) |Não |Não |Não |Não |
 | Google BigQuery (Beta) |Não |Não |Não |Não |
@@ -198,7 +198,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 
 | **Fonte de dados** | **Autenticação Anônima** | **Autenticação da Chave** | **Nome de Usuário e Senha** | **Autenticação do Windows** | **Autenticação Integrada do Windows** |
 | --- | --- | --- | --- | --- | --- |
-| Banco de Dados do SQL Server |Não |Não |Sim |Sim |Sim |
+| Banco de dados do SQL Server |Não |Não |Sim |Sim |Sim |
 | SQL Server Analysis Services |Não |Não |Sim |Sim |Sim |
 | Banco de Dados SQL do Azure |Não |Não |Sim |Não |Não |
 | SQL Data Warehouse do Azure |Não |Não |Sim |Não |Não |

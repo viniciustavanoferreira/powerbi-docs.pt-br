@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
 ms.openlocfilehash: fea4e4927b009e30bc040593f9237cc49ff73956
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921437"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Dados de relatório no Construtor de Relatórios do Power BI
@@ -23,7 +23,7 @@ Os dados de relatório podem ser provenientes de várias fontes de dados em sua 
 Saiba como [Criar uma fonte de dados inserida para relatórios paginados no Construtor de Relatórios do Power BI](paginated-reports-embedded-data-source.md).
 
 
-##  <a name="BkMk_ReportDataTerms"></a> Termos  
+##  <a name="terms"></a><a name="BkMk_ReportDataTerms"></a> Termos  
   
 - **Conexão de dados.** Também conhecida como *fonte de dados*. Uma conexão de dados inclui propriedades de nome e de conexão que dependem do tipo de conexão. Por design, uma conexão de dados não inclui credenciais. Uma conexão de dados não especifica quais dados serão recuperados da fonte de dados externa. Para fazer isso, especifique uma consulta quando você criar um conjunto de dados.  
   
@@ -33,7 +33,7 @@ Saiba como [Criar uma fonte de dados inserida para relatórios paginados no Cons
   
 - **Credenciais.** As credenciais são as informações de autenticação que precisam ser fornecidas para permitir acesso a dados externos.  
   
-##  <a name="BkMk_ReportDataTips"></a> Dicas para especificar dados de relatório
+##  <a name="tips-for-specifying-report-data"></a><a name="BkMk_ReportDataTips"></a> Dicas para especificar dados de relatório
 
  Use as informações a seguir para criar sua estratégia de dados de relatório.  
   

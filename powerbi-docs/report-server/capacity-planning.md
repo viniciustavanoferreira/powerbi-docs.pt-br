@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
 ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80647662"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI
@@ -41,7 +41,7 @@ A implantação do Servidor de Relatórios do Power BI consistiu nas seguintes m
 
 * Controlador de Domínio do Active Directory: isso era necessário para o Mecanismo de Banco de Dados do SQL Server, o SQL Server Analysis Services e o Servidor de Relatórios do Power BI para autenticar todas as solicitações com segurança.
 * Mecanismo de Banco de Dados do SQL Server e SQL Server Analysis Services: foi neles que armazenamos todos os bancos de dados para consumo dos relatórios quando os renderizamos.
-* Servidor de Relatório do Power BI
+* Servidor de Relatórios do Power BI
 * Banco de dados do Servidor de Relatórios do Power BI. O banco de dados do servidor de relatório é hospedado em um computador diferente do Servidor de Relatórios do Power BI, de modo que ele não precise competir com o Mecanismo de Banco de Dados do SQL Server por memória, CPU, rede e recursos de disco.
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -62,7 +62,7 @@ Todos os testes foram escritos para executar uma operação de ponta a ponta (co
 > A ferramenta não é oficialmente compatível com a Microsoft, mas a equipe de produto contribui com o projeto e responde problemas gerados por outros colaboradores.
 
 ### <a name="workloads"></a>Cargas de trabalho
-Existem dois perfis de carga de trabalho usados no teste: Intensa de Relatório do Power BI e Intensa de Relatório Paginado. A tabela abaixo descreve a distribuição de solicitações executadas no Servidor de Relatórios.
+Há dois perfis de carga de trabalho usados no teste: Intensa de Relatório do Power BI e Intensa de Relatório Paginado. A tabela abaixo descreve a distribuição de solicitações executadas no Servidor de Relatórios.
 
 | Atividade | Intensa de Relatório do Power BI, Frequência de ocorrência | Intensa de Relatório Paginado, Frequência de ocorrência |
 | --- | --- | --- |

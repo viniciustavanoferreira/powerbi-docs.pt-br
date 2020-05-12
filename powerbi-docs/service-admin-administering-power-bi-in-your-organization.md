@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f7e21f5b9f2ac01fec19a7113cf595464619a0e0
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381274"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841976"
 ---
 # <a name="what-is-power-bi-administration"></a>O que é administração do Power BI?
 
@@ -50,7 +50,7 @@ A função de administrador de serviços do Power BI não concede a capacidade d
 
 ## <a name="administrative-tasks"></a>Tarefas administrativas
 
-Os administradores realizam várias tarefas para oferecer suporte ao locatário do Power BI para sua organização, que são abordadas na tabela a seguir.
+Os administradores realizam várias tarefas para dar suporte ao Power BI para sua organização, que são abordadas na tabela a seguir.
 
 | **Área de tarefa** | **Tarefas comuns** |
 | --- | --- |
@@ -78,7 +78,7 @@ Há várias ferramentas relacionadas à administração do Power BI, que são ab
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Esperamos que este artigo tenha dado a você algumas ideias práticas sobre o trabalho e as funções do administrador do Power BI, as tarefas e as ferramentas específicas que estão envolvidas. Recomendamos os seguintes tópicos de artigos para aprofundar seu entendimento.
+Esperamos que este artigo tenha dado a você algumas ideias práticas sobre o trabalho e as funções do administrador do Power BI, as tarefas e as ferramentas específicas que estão envolvidas. Para saber mais, recomendamos os artigos a seguir.
 
 - [Usar o portal de administração do Power BI](service-admin-portal.md)
 - [Diretrizes de configuração do administrador de locatários](guidance/admin-tenant-settings.md)

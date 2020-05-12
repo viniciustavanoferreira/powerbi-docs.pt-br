@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206943"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866715"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Trabalhar com a exibição Dados no Power BI Desktop
 
 A *exibição de Dados* ajuda você a inspecionar, explorar e compreender os dados no modelo do *Power BI Desktop*. É diferente do modo como você vê tabelas, colunas e dados no *Editor do Power Query*. Com a exibição de Dados, você examina seus dados *depois* que eles são carregados no modelo.
+
+> [!NOTE]
+> Como a exibição de Dados mostra os dados depois que eles são carregados no modelo, o ícone de exibição de Dados não estará visível se todas as fontes de dados forem baseadas no DirectQuery. 
 
 Quando está modelando seus dados, às vezes, você deseja ver o que está realmente em uma tabela ou uma coluna, sem criar um visual na tela de relatório. Talvez você queira ver imediatamente abaixo do nível de linha. Essa habilidade é especialmente útil quando você está criando medidas e colunas calculadas ou precisa identificar um tipo ou uma categoria de dados.
 
@@ -48,3 +51,14 @@ Você pode filtrar valores individuais ou usar a filtragem avançada com base no
 
 > [!NOTE]
 > Quando um modelo do Power BI for criado em uma cultura diferente da interface do usuário atual, a caixa de pesquisa não será exibida na interface do usuário da exibição de Dados em nenhum item que não seja um campo de texto. Por exemplo, isso se aplica a um modelo criado no inglês dos EUA que você vê em espanhol.
+
+
+## <a name="next-steps"></a>Próximas etapas
+
+Você pode fazer de tudo com o Power BI Desktop. Para obter mais informações sobre seus recursos, consulte as seguintes fontes:
+
+* [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
+* [Visão geral de consulta com o Power BI Desktop](desktop-query-overview.md)
+* [Tipos de dados no Power BI Desktop](desktop-data-types.md)
+* [Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80329609"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866784"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Publicar no Power BI do Microsoft Excel
 Com o Microsoft Excel 2016 e posteriores, é possível publicar suas pastas de trabalho do Excel diretamente no seu espaço de trabalho do [Power BI](https://powerbi.microsoft.com), em que é possível criar relatórios e painéis altamente interativos com base nos dados da sua pasta de trabalho. Em seguida, você pode compartilhar suas ideias com outras pessoas em sua organização.
@@ -42,7 +42,7 @@ O Excel dá suporte à publicação de seus arquivos locais. Eles não precisam 
 > Você só poderá publicar arquivos locais se estiver usando o Excel 2016 (ou posterior) com uma assinatura do Office 365. As instalações autônomas do Excel 2016 podem publicar no Power BI, mas somente quando a pasta de trabalho estiver salva no OneDrive for Business ou no SharePoint Online.
 > 
 
-Ao selecionar **Publicar**, você poderá selecionar o espaço de trabalho em que deseja publicar. O espaço de trabalho pode ser seu espaço de trabalho pessoal ou de grupo ao qual você tenha acesso, como mostrado na imagem a seguir.
+Ao selecionar **Publicar**, você poderá selecionar o espaço de trabalho em que deseja publicar. Se o arquivo do Excel residir no OneDrive for Business, você só poderá publicar no seu *Meu Workspace*. Se o arquivo do Excel residir em uma unidade local, você poderá publicar em *Meu Workspace* ou em um workspace compartilhado ao qual você tenha acesso.
 
 ![Publicar no Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
 
@@ -81,7 +81,7 @@ Escolha a opção **Publicar** caso tenha usado os recursos Obter e Transformar 
 
 Usar **Exportar** é praticamente o mesmo que usar **Obter Dados > Arquivo > OneDrive for Business > Exportar dados do Excel para o Power BI**, no Power BI no navegador.
 
-## <a name="publishing"></a>Publicando
+## <a name="publishing"></a>Publicação
 Ao escolher uma dessas opções, o Excel entra no Power BI com sua conta atual e publica sua pasta de trabalho no espaço de trabalho do Power BI. Você pode monitorar a barra de status no Excel para ver como está o andamento do processo de publicação.
 
 ![barra de status para publicação no Power BI](media/service-publish-from-excel/pbi_publishingstatus.png)

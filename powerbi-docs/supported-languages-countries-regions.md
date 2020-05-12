@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 04/23/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 401cc419401756c9576ce6efc25a34b7aa667024
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207725"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781492"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
-Este artigo lista idiomas e países/regiões compatíveis com o serviço do Power BI, o Power BI Desktop e a documentação do Power BI.
+Este artigo aborda idiomas e países/regiões compatíveis com o serviço do Power BI, o Power BI Desktop e a documentação do Power BI.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Países e regiões em que o Power BI está disponível
 Para uma lista de países e regiões em que o Power BI está disponível, consulte a [lista de disponibilidade internacional](https://products.office.com/business/international-availability). 
@@ -72,7 +72,7 @@ O serviço do Power BI (no navegador) está disponível nos seguintes 44 idiomas
 * Vietnamita - Tiếng Việt
 
 ### <a name="whats-translated"></a>O que é traduzido
-O Power BI traduz menus, botões, mensagens e outros elementos da experiência para o seu idioma. Conteúdos de relatório como títulos, filtros e dicas de ferramenta gerados automaticamente são traduzidos, diferentemente dos seus dados, que não são traduzidos automaticamente. Dentro dos relatórios, o layout visual não será alterado se você estiver usando um idioma lido da direita para a esquerda, como o hebraico.
+O Power BI traduz menus, botões, mensagens e outros elementos da experiência para o seu idioma. Por exemplo, Power BI traduz o conteúdo do relatório, como títulos, filtros e dicas de ferramentas gerados automaticamente. No entanto, seus dados não são traduzidos automaticamente. Dentro dos relatórios, o layout visual não será alterado se você estiver usando um idioma lido da direita para a esquerda, como o hebraico.
 
 Neste momento, alguns recursos estão disponíveis apenas em inglês:
 
@@ -118,7 +118,7 @@ O Power BI detecta o idioma com base nas preferências de idioma no seu computad
 Existem duas maneiras de obter o Power BI Desktop: por download como um instalador autônomo ou instalando o programa pela Windows Store.
 
 * Quando você instala o Power BI Desktop por meio da Windows Store, ele instala todos os idiomas por padrão e mostra o idioma correspondente ao idioma padrão do Windows.
-* Quando baixa o Power BI Desktop como um instalador autônomo, você escolhe o idioma padrão quando executa o instalador e pode alterá-lo posteriormente.
+* Quando baixa o Power BI Desktop como um instalador autônomo, você escolhe o idioma padrão quando executa o instalador. Você pode alterá-lo posteriormente.
 * Também é possível [escolher uma localidade a ser usada ao importar dados](#choose-the-locale-for-importing-data-into-power-bi-desktop) para um relatório específico.
 
 > [!NOTE]
@@ -126,11 +126,12 @@ Existem duas maneiras de obter o Power BI Desktop: por download como um instalad
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Escolha um idioma para o Power BI Desktop 
 1. Instale o Power BI Desktop [por meio da Windows Store](https://aka.ms/pbidesktopstore) ou como um [instalador autônomo](https://aka.ms/pbiSingleInstaller).
-2. Para alterar o idioma, em seu computador, pesquise **Configurações do Windows**. 
-3. Selecione **Hora e idioma**.
+2. Para alterar o idioma, no menu do Windows, selecione **Configurações**
+
+3. Em **Configurações do Windows**, selecione **Hora e idioma**.
    
      ![Caixa de diálogo de configurações do Windows](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. Selecione **Região e idioma**, selecione um idioma e selecione **Definir como padrão**.
+4. Selecione **Idioma** e selecione um idioma. Selecione **Adicionar um idioma de exibição do Windows na Microsoft Store**, se necessário.
    
      ![Caixa de diálogo de configurações de idioma do Windows](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
@@ -143,8 +144,30 @@ Para substituir o padrão e usar o Power BI Desktop em um idioma diferente do id
 
 O suporte a idiomas no Power BI Desktop é limitado aos idiomas exibidos na lista suspensa Idioma do Aplicativo.
 
+### <a name="verify-power-bi-desktop-default-number-and-date-formatting"></a>Verificar o número padrão e a formatação de data do Power BI Desktop
+
+O Power BI Desktop obtém seu número padrão e a formatação de data das configurações de região do Windows. Você pode verificar ou alterar essas configurações, se necessário.
+
+1. No menu do Windows, selecione **Configurações**
+
+2. Em **Configurações do Windows**, selecione **Hora e idioma**.
+   
+     ![Caixa de diálogo de configurações do Windows](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+
+3. Selecione **Região** > **Configurações adicionais de data, hora e regionais**.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-region-settings.png" alt-text="Configurações adicionais de data, hora e regionais":::
+
+4. Em **Relógio e Região**, selecione **Alterar formatos de data, hora ou número**.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-check-region-settings.png" alt-text="Configurações de relógio e região":::
+
+5. Verifique se a opção **Coincidir com idioma de exibição do Windows** está selecionada ou altere-a, se necessário.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-match-windows.png" alt-text="Coincidir com idioma de exibição do Windows":::
+
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Escolher a localidade para importar dados para o Power BI Desktop
-Baixando o Power BI Desktop ou instalando-o por meio da Windows Store, é possível escolher que uma localidade de um relatório específico seja algo diferente de localidade na sua versão do Power BI Desktop. A localidade altera a maneira como os dados são interpretados quando são importados da sua fonte de dados, por exemplo, se "3/4/2017" é interpretado como 3 de abril ou 4 de março. 
+Baixando o Power BI Desktop ou instalando-o por meio da Windows Store, é possível escolher que uma localidade de um relatório específico seja algo diferente de localidade na sua versão do Power BI Desktop. A localidade muda a maneira como o Power BI interpreta os dados quando eles são importados de sua fonte de dados. Por exemplo, "3/4/2017" é interpretado como 3 de abril ou 4 de março?
 
 1. No Power BI Desktop, acesse **Arquivo** > **Opções e configurações** > **Opções**.
 2. Em **Arquivo atual**, selecione **Configurações regionais**.
@@ -158,10 +181,10 @@ Baixando o Power BI Desktop ou instalando-o por meio da Windows Store, é possí
 Além de definir o idioma para o aplicativo de do Power BI Desktop, você também pode definir o idioma do modelo. O idioma do modelo afeta principalmente duas coisas:
 
 - Como podemos comparar e classificar cadeias de caracteres. Por exemplo, como o turco tem duas das letras i, dependendo da ordenação do banco de dados, ambas podem terminar em ordens diferentes ao classificar. 
-- O idioma que o Power BI Desktop usa ao criar tabelas de data oculta em campos de data. Por exemplo, os campos são chamados de Mês/Month/Mois, etc.
+- O idioma que o Power BI Desktop usa ao criar tabelas de data oculta em campos de data. Por exemplo, os campos são chamados de Mês/Month/Mois e assim por diante.
 
 > [!NOTE]
-> Atualmente, o modelo do Power BI usa uma localidade que não diferencia maiúsculas de minúsculas (nem caracteres kana), de modo que “ABC” e “abc” serão tratados como equivalentes. Se "ABC" for carregado no banco de dados primeiro, outras cadeias de caracteres cuja única diferença forem as maiúsculas e minúsculas, como "Abc", não serão carregadas como valores separados.
+> Atualmente, o modelo do Power BI usa uma localidade que não diferencia maiúsculas de minúsculas (nem caracteres kana), de modo que "ABC" e "abc" serão tratados como equivalentes. Se "ABC" for carregado no banco de dados primeiro, outras cadeias de caracteres cuja única diferença forem as maiúsculas e minúsculas, como "Abc", não serão carregadas como valores separados.
 > 
 >
 

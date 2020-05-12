@@ -10,10 +10,10 @@ ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873119"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Conectar-se ao Azure Search com o Power BI
@@ -30,7 +30,7 @@ Conectar-se ao [pacote de conteúdo do Azure Search](https://app.powerbi.com/get
 2. Na caixa **Serviços** , selecione **Obter**.
    
    ![](media/service-connect-to-azure-search/pbi_getservices.png) 
-3. Selecione **Azure Search**\>**Obter**.
+3. Selecione **Azure Search** \> **Obter**.
    
    ![](media/service-connect-to-azure-search/azuresearch.png)
 4. Forneça o nome da conta de armazenamento de tabela na qual sua análise do Azure Search está armazenada.
@@ -50,7 +50,7 @@ Conectar-se ao [pacote de conteúdo do Azure Search](https://app.powerbi.com/get
 * [Selecione um bloco](consumer/end-user-tiles.md) para abrir o relatório subjacente.
 * Enquanto seu conjunto de dados será agendado para ser atualizado diariamente, você pode alterar o agendamento de atualização ou tentar atualizá-lo sob demanda usando **Atualizar Agora**
 
-## <a name="system-requirements"></a>Requisitos de sistema
+## <a name="system-requirements"></a>Requisitos do sistema
 O pacote de conteúdo de Azure Search exige que a Análise de Tráfego do Azure Search esteja habilitada na conta.
 
 ## <a name="troubleshooting"></a>Solução de problemas

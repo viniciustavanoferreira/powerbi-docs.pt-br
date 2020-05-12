@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802085"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841700"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -24,6 +24,14 @@ Para informações sobre “Novidades” relacionadas, consulte:
 
 >[!NOTE]
 >O suporte de aplicativo móvel Power BI para **telefones que usam o Windows 10 Mobile** será descontinuado em 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>Abril de 2020
+
+### <a name="sharing-from-workspaces-is-now-available"></a>O compartilhamento de workspaces já está disponível
+Adicionamos a capacidade de compartilhar relatórios e dashboards de workspaces. Agora você pode compartilhar seu conteúdo de "Meu workspace" e de outros workspaces se o proprietário do workspace permitir, da mesma forma que o serviço do Power BI. 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>Os dashboards agora dão suporte ao modo de tela inteira (iOS e Android)
+Agora você pode ver os seus dashboards no modo de tela inteira, o que dá mais espaço para ver o conteúdo do dashboard. 
 
 ## <a name="march-2020"></a>Março de 2020
 
@@ -871,4 +879,4 @@ Aprimoramentos nos aplicativos móveis do Power BI, Android, iOS (iPhone e iPad)
 * Bloco de mapa aprimorada de renderização no modo em foco para aumentar o espaço na tela.
 * Melhor experiência de usuário ao acessar painéis usando a segurança baseada em função. 
 * Uma nova funcionalidade permite que você navegue para frente e para trás por meio de blocos de painel explorando-os diretamente no modo em foco sem a necessidade de retornar ao painel para selecionar o próximo bloco.
-* Estabilidade adicional e melhorias de desempenho. 
+* Estabilidade adicional e melhorias de desempenho.

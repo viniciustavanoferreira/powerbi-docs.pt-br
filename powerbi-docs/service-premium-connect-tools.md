@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fe349e9eb29f85315e568d5851ce8206186cb61b
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 776ef09de58c2bb3b47a6d55ae5e8cf2be0cf228
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302527"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613640"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Conectividade de conjunto de dados com o ponto de extremidade XMLA (Versão prévia)
 
@@ -231,7 +231,20 @@ Ao se conectar a fontes de dados e consultar dados, o Power BI Desktop usa expre
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>Modo de conexão dinâmica do Power BI Desktop
 
-O Power BI Desktop pode se conectar a um conjunto de dados do Power BI Premium como se fosse um banco de dados de modelos implantado para o Azure Analysis Services ou o SQL Server Analysis Services. Nesse caso, o Power BI Desktop usa o ponto de extremidade XMLA. No entanto, é recomendável que os usuários do Power BI Desktop usem o recurso de conexão dinâmica criado especificamente para conjuntos de dados do Power BI. O uso de conexão dinâmica proporciona uma experiência de descoberta aprimorada ao mostrar o nível de endosso dos conjuntos de dados, e os usuários não precisam manter o controle das URLs do espaço de trabalho, pois podem simplesmente digitar o nome do conjunto de dados. Para saber mais, confira [Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop](desktop-report-lifecycle-datasets.md).
+O Power BI Desktop pode conectar-se a um conjunto de dados do Power BI Premium usando uma conexão dinâmica. Ao usarem uma conexão dinâmica, os dados não precisam ser replicados localmente, facilitando o consumo de modelos semânticos pelos usuários. Há duas maneiras pelas quais os usuários podem se conectar:
+
+Selecionando **Conjuntos de dados do Power BI** e, em seguida, selecionando um conjunto de dados para criar um relatório. Essa é a maneira **recomendada** para os usuários se conectarem em tempo real aos conjuntos de dados. Esse método fornece uma experiência de descoberta aprimorada mostrando o nível de endosso dos conjuntos de dados. Os usuários não precisam localizar e controlar as URLs do workspace. Para localizarem um conjunto de dados, os usuários simplesmente digitam o nome do conjunto de dados ou rolam a página para localizar o conjunto de dados que estão procurando.
+
+![Conectar em tempo real ao conjunto de dados](media/service-premium-connect-tools/dataset-live-connect.png)
+
+A outra maneira de os usuários se conectarem é usando **Obter Dados** > **Analysis Services**, especificando um nome de workspace do Power BI Premium como uma URL, selecionando **Conectar em tempo real** e, em seguida, no navegador, selecionando um conjunto de dados. Nesse caso, o Power BI Desktop usa o ponto de extremidade XMLA para conectar-se em tempo real ao conjunto de dados como se fosse um modelo de dados do Analysis Services. 
+
+![Conectar-se em tempo real a um conjunto de dados do Analysis Services](media/service-premium-connect-tools/as-live-connect.png)
+
+As organizações que têm relatórios existentes conectados em tempo real aos modelos de dados do Analysis Services que pretendem migrar para os conjuntos de dados do Power BI Premium precisam apenas alterar a URL do nome do servidor em **Transformar dados** > **Configurações da fonte de dados**.
+
+> [!NOTE]
+> Durante a versão prévia pública de leitura/gravação XMLA, ao usar o Power BI Desktop para se conectar a um conjunto de dados do Power BI Premium usando **Obter Dados** > **Analysis Services** e selecionando a opção **Conectar em tempo real**, a publicação de um relatório no serviço do Power BI ainda não tem suporte.
 
 ## <a name="audit-logs"></a>Logs de auditoria
 

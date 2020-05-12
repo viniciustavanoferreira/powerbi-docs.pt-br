@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 1dfb75595de939f99bf269d67bf9c29a2f0db249
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871622"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Salvar um relatório no serviço do Power BI e no Power BI Desktop
@@ -28,7 +28,7 @@ Depois de fazer alterações em um relatório no Power BI, você poderá salvá-
 1. Se você tentar sair de um relatório e esse relatório tiver alterações, o Power BI exibirá um aviso.
    
    ![Salvar alterações](media/service-report-save/power-bi-unsaved.png)
-2. Outra maneira de salvar o relatório é selecionar **ARQUIVO** \> **Salvar** ou **Salvar Como**. Se você estiver no [Modo de exibição de leitura](consumer/end-user-reading-view.md) você verá somente a opção Salvar Como. 
+2. Outra maneira de salvar o relatório é selecionando **ARQUIVO** \> **Salvar** ou **Salvar Como**. Se você estiver no [Modo de exibição de leitura](consumer/end-user-reading-view.md) você verá somente a opção Salvar Como. 
    
    ![Salvar relatório](media/service-report-save/power-bi-save-new.png)
 3. Se esse for um novo relatório (Salvar) ou uma nova versão de um relatório existente (Salvar como), dê a ele um nome descritivo.  **O relatório será adicionado ao workspace ativo**.

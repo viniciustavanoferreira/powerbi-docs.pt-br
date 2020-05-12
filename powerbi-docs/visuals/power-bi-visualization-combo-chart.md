@@ -7,17 +7,19 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.author: mihart
+ms.date: 04/22/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436078"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866991"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Criar e usar gráficos de combinação no Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -34,6 +36,9 @@ Os gráficos de combinação são uma ótima opção:
 * para verificar se uma medida atende o destino definido pela outra medida
 * para conservar o espaço de tela.
 
+> [!NOTE]
+> Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium.
+
 ### <a name="prerequisites"></a>Pré-requisitos
 Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
@@ -43,7 +48,7 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://down
 
 1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 
 
@@ -68,7 +73,7 @@ Veja Will criar um gráfico de combinação usando a amostra de Vendas e Marketi
     ![exemplo de tutorial de combinação](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selecione **Mais opções** (...) no canto superior direito da visualização e **Classificar por > FiscalMonth**. Para alterar a ordem de classificação, selecione as reticências novamente e escolha **Classificar em ordem crescente** ou **Classificar em ordem decrescente**. Para este exemplo, usaremos **Classificar em ordem crescente**.
 
-6. Converta o gráfico de colunas em um gráfico de combinação. Há dois gráficos de combinação disponíveis: **Colunas empilhadas e linhas** e **Colunas agrupadas e linhas**. Com o gráfico de coluna selecionado, no painel **Visualizações**, selecione o **Gráfico de colunas agrupadas e linha**.
+6. Converta o gráfico de colunas em um gráfico de combinação. Há dois gráficos de combinação disponíveis: **Linha e coluna empilhada** e **Linha e coluna clusterizada**. Com o gráfico de coluna selecionado, no painel **Visualizações**, selecione o **Gráfico de colunas agrupadas e linha**.
 
     ![exemplo de conversão de gráfico de combinação](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. No painel **Campos**, arraste **Sales** \> **Last Year Sales** para o bucket **Valores de Linha**.

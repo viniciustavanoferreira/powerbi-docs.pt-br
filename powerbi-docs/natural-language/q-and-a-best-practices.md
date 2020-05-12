@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841907"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866830"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Melhores práticas para otimizar a P e R no Power BI
 Usar linguagem natural e expressões comuns para fazer perguntas sobre seus dados é eficiente. Ainda mais avançado é quando os seus dados dão as respostas, exatamente o que a P e R no Power BI faz.
@@ -195,8 +195,10 @@ Esta etapa aplica-se especificamente a P e R (e não a relatórios do Power BI e
 
 Esta etapa pode ser importante. Mesmo com nomes de tabelas e colunas simples, os usuários da P e R fazem perguntas usando o vocabulário que é primeiramente apresentado a eles. Eles não fazem escolhas em uma lista predefinida de colunas. Quanto mais sinônimos sensatos você adicionar, melhor será a experiência dos usuários com o seu relatório. Para adicionar sinônimos, no Power BI Desktop, acesse a exibição Modelo, selecione a guia Modelagem e selecione um campo ou uma tabela. O painel Propriedades mostra a caixa **Sinônimos**, em que é possível adicionar sinônimos.
 
-
-
-![Sinônimos no painel Propriedades da P e R](media/qna-modelling-pane-synonyms.png)
+![Sinônimos no painel Propriedades da P e R](media/q-and-a-best-practices/qna-modelling-pane-synonyms.png)
 
  Tenha cuidado ao adicionar sinônimos. A adição do mesmo sinônimo a mais de uma coluna ou tabela introduz ambiguidade. A P e R usa o contexto quando possível para escolher entre sinônimos ambíguos, mas nem todas as perguntas têm contexto suficiente. Por exemplo, quando o usuário solicita " contagem de clientes", se você tiver três itens com o sinônimo "cliente" em seu modelo, talvez ele não receba a resposta que está procurando. Nesses casos, garanta que o sinônimo primário seja exclusivo, pois é ele que será usado na redefinição. Ele pode alertar o usuário da ambiguidade (por exemplo, uma reformulação de "mostrar o número de registros de clientes arquivados"), orientando-os a perguntar de maneira diferente.
+
+## <a name="next-steps"></a>Próximas etapas
+
+[Introdução à P e R do Power BI](q-and-a-intro.md)

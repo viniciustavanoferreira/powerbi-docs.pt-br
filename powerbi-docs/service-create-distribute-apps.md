@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2e68b894c7f3e259fd2236d655d562257383433
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006287"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866554"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar um aplicativo no Power BI
 
@@ -55,7 +55,7 @@ Quando os dashboards e relatórios em seu workspace estiverem prontos, escolha q
 
 3. Em **Instalação**, preencha o nome e a descrição para ajudar as pessoas a encontrar o aplicativo. Defina uma cor de tema para personalizá-lo. Adicione também um link para um site de suporte.
    
-    ![Criar seu aplicativo](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![Compilar seu aplicativo](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. Em **Navegação**, selecione o conteúdo a ser publicado como parte do aplicativo. Em seguida, você adicionará a navegação do aplicativo para organizar o conteúdo em seções. Confira [Projetar a experiência de navegação para seu aplicativo](#design-the-navigation-experience) neste artigo para obter detalhes.
    
@@ -63,8 +63,8 @@ Quando os dashboards e relatórios em seu workspace estiverem prontos, escolha q
 
 5. Em **Permissões**, decida quem tem acesso ao aplicativo e o que pode ser feito nele. 
 
-    - Em [workspaces clássicos](service-create-workspaces.md): todos em sua organização, pessoas específicas ou grupos de segurança do AAD (Azure Active Directory).
-    - Em [workspaces da nova experiência](service-create-the-new-workspaces.md): pessoas específicas, listas de distribuição e grupos de segurança do AAD e grupos do Office 365. Todos os usuários do workspace recebem automaticamente acesso ao aplicativo para o workspace.
+    - Em [workspaces clássicos](service-create-workspaces.md): todos em sua organização, pessoas específicas ou grupos de segurança do Azure AD (Azure Active Directory).
+    - Em [workspaces da nova experiência](service-create-the-new-workspaces.md): pessoas específicas, listas de distribuição e grupos de segurança do Azure AD e grupos do Office 365. Todos os usuários do workspace recebem automaticamente acesso ao aplicativo para o workspace.
     - Você pode permitir que os usuários do aplicativo se conectem aos conjuntos de dados subjacentes do aplicativo dando a eles a permissão de build. Eles verão esses conjuntos de dados quando estiverem pesquisando conjuntos de dados compartilhados. Leia mais sobre [como permitir que os usuários se conectem aos conjuntos de dados do aplicativo](#allow-users-to-connect-to-datasets), neste artigo.
     - Os usuários com permissão de build também podem ser permissão para copiar relatórios deste aplicativo para outro workspace. Leia mais sobre [como permitir que os usuários copiem relatórios no aplicativo](#allow-users-to-copy-reports), neste artigo.
     
@@ -215,4 +215,4 @@ Coisas para se lembrar a respeito da publicação de aplicativos:
 * [Instalar e usar aplicativos no Power BI](consumer/end-user-apps.md)
 * [Aplicativos do Power BI para serviços externos](service-connect-to-services.md)
 * [Portal de administração do Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Experimente perguntar para a Comunidade do Power BI](https://community.powerbi.com/)

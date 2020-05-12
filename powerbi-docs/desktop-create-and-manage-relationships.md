@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710106"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866324"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerenciar relações no Power BI Desktop
 Quando você importa várias tabelas, é provável que você realize algumas análises usando dados de todas essas tabelas. Relações entre essas tabelas são necessárias para calcular os resultados com precisão e exibir as informações corretas em seus relatórios. O Power BI Desktop torna fácil a criação dessas relações. Na verdade, na maioria dos casos, você não precisará fazer nada, o recurso de detecção automática fará tudo por você. No entanto, às vezes você pode precisar criar relações por conta própria ou fazer alterações a uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e compreender como criá-las e editá-las.
@@ -107,9 +107,9 @@ A primeira tabela, **ProjectHours**, é um registro de tíquetes de trabalho que
 | 1002 |Alan Brewer |26 |Vermelho |2/1/2013 |
 | 1003 |Shu Ito |34 |Amarelo |1242012 |
 | 1004 |Alan Brewer |13 |Laranja |1/2/2012 |
-| 1005 |Eli Bowen |29 |Roxo |01/10/2013 |
+| 1005 |Eli Bowen |29 |Roxo |1/10/2013 |
 | 1006 |Nuno Bento |35 |Verde |2/1/2013 |
-| 1007 |David Hamilton |10 |Amarelo |01/10/2013 |
+| 1007 |David Hamilton |10 |Amarelo |1/10/2013 |
 | 1008 |Mu Han |28 |Laranja |1/2/2012 |
 | 1009 |Shu Ito |22 |Roxo |2/1/2013 |
 | 1010 |Eli Bowen |28 |Verde |1012013 |
@@ -119,9 +119,9 @@ Essa segunda tabela, **CompanyProject**, é uma lista de projetos aos quais é a
 
 **CompanyProject**
 
-| **ProjName** | **Priority** |
+| **ProjName** | **Prioridade** |
 | --- | --- |
-| Azul |A |
+| Azul |Um |
 | Vermelho |B |
 | Verde |C |
 | Amarelo |C |
@@ -134,7 +134,7 @@ Agora que temos nossas duas tabelas importadas para um modelo, vamos criar um re
 
 ![Selecionar Prioridade e Horas no painel Campos](media/desktop-create-and-manage-relationships/candmrel_reportfiltersnorel.png)
 
-Se observarmos nossa tabela na tela Relatório, veremos que o número de horas é 256 para cada projeto, que é também o total. Claramente, esse número não está correto. Por que? É porque não podemos calcular uma soma total dos valores de uma tabela (**Hours** na tabela **Project**), dividida por valores em outra tabela (**Priority** na tabela **CompanyProject**) sem que exista uma relação entre essas duas tabelas.
+Se observarmos nossa tabela na tela Relatório, veremos que o número de horas é 256 para cada projeto, que é também o total. Claramente, esse número não está correto. Por quê? É porque não podemos calcular uma soma total dos valores de uma tabela (**Hours** na tabela **Project**), dividida por valores em outra tabela (**Priority** na tabela **CompanyProject**) sem que exista uma relação entre essas duas tabelas.
 
 Portanto, vamos criar uma relação entre essas duas tabelas.
 
@@ -199,9 +199,9 @@ A tabela **CompanyProjectPriority** é uma lista de todos os projetos da empresa
 
 **CompanyProjectPriority**
 
-| **ProjName** | **Priority** |
+| **ProjName** | **Prioridade** |
 | --- | --- |
-| Azul |A |
+| Azul |Um |
 | Vermelho |B |
 | Verde |C |
 | Amarelo |C |
@@ -222,9 +222,9 @@ Se criarmos uma relação entre a coluna **Approved Projects** na tabela **Proje
 
 O motivo pelo qual o Power BI faz essas configurações é que, para o Power BI Desktop, a melhor combinação das duas tabelas é a seguinte:
 
-| **ProjName** | **Priority** | **BudgetAllocation** | **AllocationDate** |
+| **ProjName** | **Prioridade** | **BudgetAllocation** | **AllocationDate** |
 |:--- | --- | ---:| ---:|
-| Azul |A |40.000 |1212012 |
+| Azul |Um |40.000 |1212012 |
 | Vermelho |B |100.000 |1212012 |
 | Verde |C |50.000 |1212012 |
 | Amarelo |C |<br /> |<br /> |
@@ -247,15 +247,15 @@ Mas digamos que você saiba que os dados mudarão na próxima vez que você atua
 
  Essas linhas adicionais significam que a melhor combinação das duas tabelas agora é assim: 
 
-| **ProjName** | **Priority** | **BudgetAllocation** | **AllocationDate** |
+| **ProjName** | **Prioridade** | **BudgetAllocation** | **AllocationDate** |
 | --- | --- | ---:| ---:|
-| Azul |A |40.000 |1212012 |
+| Azul |Um |40.000 |1212012 |
 | Vermelho |B |100.000 |1212012 |
 | Verde |C |50.000 |1212012 |
 | Amarelo |C |<br /> |<br /> |
 | Roxo |B |<br /> |<br /> |
 | Laranja |C |<br /> |<br /> |
-| Azul |A |80000 |6/1/2013 |
+| Azul |Um |80000 |6/1/2013 |
 | Vermelho |B |90000 |6/1/2013 |
 
 Nessa nova tabela combinada, a coluna **ProjName** tem valores repetidos. As duas tabelas originais não terão uma relação de tipo um para um depois que a tabela for atualizada. Nesse caso, por sabermos que as atualizações futuras farão com que a coluna **ProjName** tenha duplicatas, queremos definir a **Cardinalidade** como **Muitos Para Um (\*:1)** , com *muitos* no lado de **ProjectBudget** e *um* no lado de **CompanyProjectPriority**.
@@ -271,7 +271,7 @@ Com filtragem cruzada de direção única, se você criar um relatório que resu
 
  ![Direção da filtragem cruzada](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-A especificação de filtro fluirá de **CompanyProject** para **CompanyEmployee** (conforme mostra a imagem a seguir), porém, não fluirá até **CompanyEmployee**. 
+A especificação de filtro fluirá de **CompanyProject** para **ProjectHours** (conforme mostra a imagem a seguir), porém, não fluirá até **CompanyEmployee**. 
 
  ![Exemplo de filtragem cruzada](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 
@@ -314,9 +314,9 @@ Vejamos um exemplo. A primeira tabela é **ProjectTickets**, a segunda tabela é
 | 1002 |Daniel Romano |Alan Brewer |26 |Vermelho |2/1/2013 |
 | 1003 |Daniel Roth |Shu Ito |34 |Amarelo |1242012 |
 | 1004 |Tom Perham |Alan Brewer |13 |Laranja |1/2/2012 |
-| 1005 |Daniel Romano |Eli Bowen |29 |Roxo |01/10/2013 |
+| 1005 |Daniel Romano |Eli Bowen |29 |Roxo |1/10/2013 |
 | 1006 |Daniel Roth |Nuno Bento |35 |Verde |2/1/2013 |
-| 1007 |Daniel Roth |David Hamilton |10 |Amarelo |01/10/2013 |
+| 1007 |Daniel Roth |David Hamilton |10 |Amarelo |1/10/2013 |
 | 1008 |Tom Perham |Mu Han |28 |Laranja |1/2/2012 |
 | 1009 |Daniel Romano |Shu Ito |22 |Roxo |2/1/2013 |
 | 1010 |Daniel Roth |Eli Bowen |28 |Verde |1012013 |

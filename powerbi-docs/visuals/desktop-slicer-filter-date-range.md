@@ -1,30 +1,32 @@
 ---
 title: Usar uma segmentação ou um filtro de data relativa no Power BI
 description: Saiba como usar uma segmentação ou um filtro para restringir intervalos de datas relativas no Power BI.
-author: mihart
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/06/2020
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f63a56ea350d089b82eb7a18470e1bcc439d1151
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006769"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866508"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Usar uma segmentação e um filtro de data relativa no Power BI
+# <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Como criar uma segmentação e um filtro de data relativa no Power BI
 
-[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 Com a **segmentação de datas relativas** ou o **filtro de datas relativas**, aplique filtros baseados em tempo a qualquer coluna de data do modelo de dados. Por exemplo, você pode usar a **segmentação de datas relativas** para mostrar apenas os dados de vendas ocorridos nos últimos 30 dias (ou mês, meses do calendário e assim por diante). Quando você atualizar os dados, o período relativo aplicará automaticamente a restrição de datas relativas apropriada.
 
-![Captura de tela de um relatório com uma seta apontando para uma segmentação de datas relativas.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
+![Captura de tela de um relatório com uma seta apontando para uma segmentação de data relativa.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-## <a name="use-the-relative-date-range-slicer"></a>Usar a segmentação de intervalo de datas relativas
+Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium.
+
+## <a name="create-the-relative-date-range-slicer"></a>Criar a segmentação de intervalo de data relativa
 
 Use a segmentação de datas relativas como qualquer outra segmentação. Crie um visual de **segmentação** para o relatório e, em seguida, selecione um valor de data no valor **Campo**. Na imagem a seguir, selecionamos o campo *OrderDate*.
 
@@ -46,7 +48,7 @@ Na primeira configuração da *segmentação de datas relativas*, você tem as s
 
 * Próximo
 
-* Atual
+* Esse
 
 A segunda configuração (no meio) da *segmentação de datas relativas* permite inserir um número para definir o intervalo de datas relativas.
 
@@ -56,21 +58,21 @@ A terceira configuração permite escolher a medida de data. Você tem as seguin
 
 ![Captura de tela das opções de configuração relativa com a terceira configuração destacada.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
-* Dias
+* Days (dias)
 
-* Semanas
+* Weeks
 
 * Semanas (calendário)
 
-* Meses
+* Months
 
 * Meses (calendário)
 
-* Anos
+* Years
 
-* Anos (calendário)
+* Anos (Calendário)
 
-Se você selecionar **Meses** nessa lista e inserir *2* na configuração do meio, acontecerá o seguinte:
+Se você selecionar **Meses** nessa lista e inserir *2* na configuração do meio, veja o que acontecerá:
 
 * se hoje for 20 de julho
 
@@ -80,7 +82,7 @@ Se você selecionar **Meses** nessa lista e inserir *2* na configuração do mei
 
 Em comparação, se você selecionou *Meses (calendário)* , os visuais restringidos mostrarão dados de 1º de maio a 30 de junho (os dois últimos meses do calendário completos).
 
-## <a name="using-the-relative-date-range-filter"></a>Usando o filtro de intervalo de datas relativas
+## <a name="create-the-relative-date-range-filter"></a>Criar o filtro de intervalo de data relativa
 
 Você também pode criar um filtro de intervalo de datas relativas para a página de relatório ou para o relatório inteiro. Para fazer isso, arraste um campo de data para as áreas **Filtros no nível de página** ou **Filtros no nível de relatório** do painel **Campo**:
 
@@ -106,4 +108,5 @@ No momento, as limitações e considerações a seguir aplicam-se ao filtro e à
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Saiba como [usar agrupamento e compartimentalização no Power BI Desktop](../desktop-grouping-and-binning.md).
+- [Usar uma segmentação e um filtro de data relativa no Power BI](desktop-slicer-filter-date-range.md)
+- [Segmentações no Power BI](power-bi-visualization-slicers.md)

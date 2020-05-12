@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435756"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841723"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -45,7 +45,7 @@ Há dois ícones para relatórios em aplicativos do Power BI Mobile:
 * ![Ícone de relatório para telefone](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) Indica um relatório que tem pelo menos uma página otimizada para telefone que aparecerá na orientação retrato.
 
 > [!NOTE]
-> Quando você segura o telefone na orientação paisagem, sempre obtém o layout de paisagem, mesmo que a página do relatório esteja no layout do telefone.
+> Quando você segura o telefone na orientação paisagem, sempre obtém o layout de paisagem, mesmo que a página do relatório esteja no layout do dispositivo móvel.
 
 Para ver um relatório no dashboard, toque em **Mais opções** (...) no canto superior direito do bloco e em **Abrir relatório**:
   

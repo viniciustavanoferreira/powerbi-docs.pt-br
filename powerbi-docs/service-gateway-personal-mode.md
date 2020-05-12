@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ee93635abdff63c98eeaaca24640ac229a4dc97c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699258"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Usar gateways pessoais no Power BI
@@ -36,7 +36,7 @@ A tabela a seguir descreve as diferenças entre um gateway de dados local e um g
 |É possível instalar somente como administrador do computador |Sim |Não |
 |Gateway centralizado e gerenciamento de fonte de dados |Sim |Não |
 |Importar dados e agendar atualização |Sim |Sim |
-|Suporte ao DirectQuery |Sim |Não |
+|Suporte a DirectQuery |Sim |Não |
 |Suporte do LiveConnect para o Analysis Services |Sim |Não |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>Instalar o gateway de dados local (modo pessoal)

@@ -4,16 +4,16 @@ description: Saiba mais sobre como instalar, personalizar e distribuir aplicativ
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436101"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781652"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicativos de modelo em sua organização
 
@@ -65,9 +65,9 @@ Para instalar, personalizar e distribuir um aplicativo de modelo, você precisa:
 
 1. Clique em **Conectar**.
     
-    Isso abre uma caixa de diálogo ou uma série de caixas de diálogo em que você altera a fonte de dados dos dados de exemplo para sua própria fonte de dados. Isso geralmente significa a redefinição de parâmetros de conjunto de dados e credenciais de fonte de dados. Confira [Limitações conhecidas](service-template-apps-tips.md#known-limitations).
+    Isso abre uma caixa de diálogo ou uma série de caixas de diálogo em que você altera a fonte de dados dos dados de exemplo para sua própria fonte de dados. Isso geralmente significa a redefinição de parâmetros de conjunto de dados e credenciais de fonte de dados. Confira [Limitações conhecidas](service-template-apps-overview.md#known-limitations).
     
-    No exemplo a seguir, a conexão a dados envolve duas caixas de diálogo.
+    No exemplo a seguir, a conexão com os dados envolve duas caixas de diálogo.
 
    ![Caixas de diálogo Conectar-se a dados](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
@@ -95,14 +95,18 @@ Quando terminar de fazer as alterações desejadas nos artefatos no workspace, v
 
 De tempos em tempos, os criadores de aplicativo de modelo lançam novas versões aprimoradas de seus aplicativos de modelo por meio de AppSource, link direto ou ambos.
 
-Se você originalmente tiver baixado o aplicativo do AppSource, quando uma nova versão do aplicativo de modelo ficar disponível, uma faixa de atualização aparecerá no serviço do Power BI informando que uma nova versão do aplicativo está disponível.
+Se você originalmente baixou o aplicativo do AppSource, quando uma nova versão do aplicativo de modelo for disponibilizada, você será notificado de duas maneiras:
+* Uma faixa de atualização é exibida no serviço do Power BI informando que uma nova versão do aplicativo está disponível.
+  ![Notificação de atualização do aplicativo de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* Você recebe uma notificação no painel de notificação do Power BI.
 
-  ![Notificação de atualização do aplicativo de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![Notificação de atualização do aplicativo de modelo](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Se você obteve originalmente o aplicativo por meio de link direto, em vez de pela AppSource, a única maneira de saber quando uma nova versão está disponível é entrar em contato com o criador do aplicativo de modelo.
 
-  Para instalar a atualização, clique em **Obter** na faixa de notificação ou localize o aplicativo novamente na AppSource e escolha **Obter agora**. Se você tem um link direto para a atualização do criador do aplicativo de modelo, basta clicar no link.
+  Para instalar a atualização, clique em **Obter** na faixa de notificação ou no centro de notificações, ou localize o aplicativo novamente no AppSource e escolha **Obter agora**. Se você tem um link direto para a atualização do criador do aplicativo de modelo, basta clicar no link.
   
   Você será consultado sobre se deseja substituir a versão atual ou instalar a nova versão em um novo workspace. Por padrão, "substituir" está selecionado.
 

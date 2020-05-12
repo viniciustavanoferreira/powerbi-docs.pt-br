@@ -10,10 +10,10 @@ ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881113"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Criar perguntas em destaque para as P e R do Power BI
@@ -31,7 +31,7 @@ Este artigo usa a [amostra de Vendas de Análise de Varejo](sample-datasets.md).
 1. No painel, selecione a caixa de pergunta de P e R.   Observe que a P e R já está sendo útil, exibindo uma lista de termos que aparecem no conjunto de dados.
 2. Para adicionar a esta lista, selecione o ícone de engrenagem no canto superior direito do Power BI.  
    ![ícone de engrenagem](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
-3. Selecione **Configurações** &gt; **Conjuntos de Dados** &gt; **amostra de Análise de Varejo** &gt; **Perguntas da P e R em Destaque**.  
+3. Selecione **Configurações** &gt; **Conjunto de Dados** &gt; **Exemplo de Análise de Varejo** &gt; **Perguntas da P e R em Destaque**.  
 4. Selecione **Adicionar uma pergunta**.
    
    ![Menu Configurações](media/service-q-and-a-create-featured-questions/power-bi-settings.png)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5247b2c990c8c0cfd29da0e8a30cdc8691000106
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207242"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866807"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Fontes de dados no Power BI Desktop
 
@@ -85,7 +85,7 @@ A categoria **Banco de dados** fornece as seguintes conexões de dados:
 * Servidor de Mensagens SAP Business Warehouse
 * Amazon Redshift
 * Impala
-* Google BigQuery
+* BigQuery do Google
 * Vertica
 * Snowflake
 * Essbase
@@ -129,7 +129,7 @@ A categoria **Azure** fornece as seguintes conexões de dados:
 * SQL Data Warehouse do Azure
 * Banco de Dados do Azure Analysis Services
 * Banco de Dados do Azure para PostgreSQL
-* Armazenamento de Blobs do Azure
+* Armazenamento do Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB
 * Azure Data Lake Storage Gen2
@@ -139,7 +139,7 @@ A categoria **Azure** fornece as seguintes conexões de dados:
 * Consulta Interativa do HDInsight
 * Azure Data Explorer (Kusto)
 * Gerenciamento de Custos do Azure
-* Azure Time Series Insights (Beta)
+
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
@@ -191,6 +191,9 @@ A categoria **Serviços Online** fornece as seguintes conexões de dados:
 * Quick Base
 * TeamDesk (Beta)
 * Workplace Analytics (Beta)
+* Projectplace para o Power BI (Beta)
+* Webtrends Analytics (Beta)
+* Zoho Creator (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Online Services**.
 
@@ -210,9 +213,10 @@ A categoria **Outros** fornece as seguintes conexões de dados:
 * Hive LLAP (Beta)
 * Script R
 * Script Python
-* ODBC
+* ODBCODBC
 * OLE DB
 * BI360 – Relatórios Financeiros e Orçamento (Beta)
+* Fusão de Dados Cognite (Beta)
 * FHIR
 * Grade de Informações (Beta)
 * Jamf Pro (Beta)
@@ -220,14 +224,16 @@ A categoria **Outros** fornece as seguintes conexões de dados:
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
-* Siteimprove (Beta)
+* Siteimprove
 * SurveyMonkey (Beta)
-* Tenforce (Smart)List (Beta)
 * TIBCO(R) Data Virtualization (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)
-* Consulta em Branco
+* Tenforce (Smart)List
+* Atalhos para insights de negócios (Beta)
+* Vessel Insight (Beta)
+* Consulta em branco
 
 A imagem a seguir mostra a janela **Obter Dados** para **Outros**.
 
@@ -352,7 +358,7 @@ Esses exemplos são apenas para conveniência; não se espera que eles sejam abr
 } 
 ```
 
-#### <a name="sap-hana"></a>SAP Hana
+#### <a name="sap-hana"></a>Hana SAP
 
 ```json
 { 

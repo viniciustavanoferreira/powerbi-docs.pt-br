@@ -2,27 +2,35 @@
 title: Gráficos de linhas no Power BI
 description: Gráficos de linhas no Power BI
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871068"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867014"
 ---
 # <a name="line-charts-in-power-bi"></a>Gráficos de linhas no Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 Um gráfico de linhas é uma série de pontos de dados representada por pontos e conectada por linhas retas. Um gráfico de linhas pode ter uma ou muitas linhas. Os gráficos de linhas têm um eixo X e um eixo Y. 
 
 ![gráfico de linhas simples](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>Criar um gráfico de linhas
 Essas instruções usam o aplicativo Exemplo de Vendas e Marketing para criar um gráfico de linhas que exibe as vendas deste ano por categoria. Para acompanhar, obtenha o aplicativo de exemplo em appsource.com.
+
+> [!NOTE]
+> Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium.
 
 1. Comece em uma página de relatório em branco. Caso esteja usando o serviço do Power BI, abra o relatório no [Modo de Exibição de Edição](../service-interact-with-a-report-in-editing-view.md).
 
@@ -45,7 +53,7 @@ Essas instruções usam o aplicativo Exemplo de Vendas e Marketing para criar um
 
 6. Opcionalmente, [ajuste o tamanho e a cor do texto do gráfico](power-bi-visualization-customize-title-background-and-legend.md). 
 
-    ![Aumentar o tamanho da fonte e a fonte do eixo Y](media/power-bi-line-charts/power-bi-line-3years.png)
+    ![Aumentar o tamanho da fonte e alterar a fonte do eixo Y](media/power-bi-line-charts/power-bi-line-3years.png)
 
 ## <a name="add-additional-lines-to-the-chart"></a>Adicionar linhas adicionais ao gráfico
 Os gráficos de linhas podem ter muitas linhas diferentes. E, em alguns casos, os valores nas linhas podem ser tão divergentes que não são exibidos bem juntos. Vamos dar uma olhada na adição de linhas adicionais a nosso gráfico atual e, em seguida, saiba como formatar o gráfico quando os valores representados pelas linhas são muito diferentes. 

@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873188"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Colaborar em um workspace clássico

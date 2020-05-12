@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 04/23/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 9a6ca5abf3c26af876666ef45fe7ae192e69f2a3
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.openlocfilehash: 5ed3a65f1ef65640c76ada765931a85714aad3af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82120331"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781330"
 ---
 Estas são as capacidades das quatro funções: administradores, membros, colaboradores e visualizadores. Todos esses recursos, exceto exibição e interação, exigem uma licença Power BI Pro.
 
@@ -31,10 +31,13 @@ Estas são as capacidades das quatro funções: administradores, membros, colabo
 | Publicar relatórios no workspace, excluir conteúdo.  |  X | X  | X  |   |
 | Criar um relatório em outro workspace com base em um conjunto de dados neste workspace.<sup>1</sup> |  X | X  | X  |   |
 | Copiar um relatório.<sup>2</sup> | X | X | X |  |
-| Exibir e interagir com um item.<sup>3</sup> |  X | X  | X  | X  |
+| Agendar atualizações de dados por meio do gateway local.<sup>3</sup> | X | X | X |  |
+| Modificar configurações de conexão do gateway.<sup>3</sup> | X | X | X |  |
+| Exibir e interagir com um item.<sup>4</sup> |  X | X  | X  | X  |
 | Ler dados armazenados em fluxo de trabalho do workspace | X | X | X | X |
 
 1. Colaboradores e Espectadores podem compartilhar itens em um workspace quando têm permissões para Recompartilhar.
 2. Para copiar um relatório e criar um relatório em outro workspace com base em um conjunto de dados desse workspace, você precisará ter a permissão Criar no conjunto de dados. Para os conjuntos de dados desse workspace, as pessoas com as funções Administrador, Membro e Colaborador têm a permissão Criar por meio das respectivas funções de workspace.
-3. Mesmo se não tiver uma licença Power BI Pro, você poderá exibir itens e interagir com eles no serviço do Power BI se os itens estiverem em um workspace em uma capacidade Premium.
+3. Tenha em mente que você também precisa de permissões no gateway. Essas permissões são gerenciadas em outro lugar, independentemente das permissões e das funções do workspace. Confira [Gerenciar um gateway local](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage) para obter detalhes.
+4. Mesmo se não tiver uma licença Power BI Pro, você poderá exibir itens e interagir com eles no serviço do Power BI se os itens estiverem em um workspace em uma capacidade Premium.
 

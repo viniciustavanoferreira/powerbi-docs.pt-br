@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/25/2020
+ms.date: 05/04/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 2c9b7a5d13f2bc0f74d82dd2ad78efdb76ff6a14
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273238"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781402"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar relatórios usando parâmetros da cadeia de caracteres de consulta na URL
 
@@ -156,7 +156,9 @@ Há outras diferenças entre V3 e V4. O OData V3 não dão suporte a Datas, some
 
 ## <a name="special-characters-in-url-filters"></a>Caracteres especiais em filtros de URL
 
-Caracteres especiais e espaços exigem uma formatação adicional. Quando a sua consulta contiver espaços, traços ou outros caracteres não ASCII, prefixe esses caracteres especiais com um *código de escape* começando com um sublinhado e um X (**x**), em seguida, o **Unicode** de quatro dígitos e seguido por outro sublinhado. Se o Unicode tiver menos que quatro caracteres, será necessário preenchê-lo com zeros. Aqui estão alguns exemplos.
+### <a name="special-characters-in-table-and-column-names"></a>Caracteres especiais em nomes de tabela e coluna
+
+Caracteres especiais e espaços em nomes de tabela e coluna exigem uma formatação adicional. Quando a sua consulta contiver espaços, traços ou outros caracteres não ASCII, prefixe esses caracteres especiais com um *código de escape* começando com um sublinhado e um X (**x**), em seguida, o **Unicode** de quatro dígitos e seguido por outro sublinhado. Se o Unicode tiver menos que quatro caracteres, será necessário preenchê-lo com zeros. Aqui estão alguns exemplos.
 
 |Identificador  |Unicode  | Codificação para o Power BI  |
 |---------|---------|---------|
@@ -169,6 +171,24 @@ Table_x0020_Name/Column_x002B_Plus eq 3 ![visual de tabela renderizando caracter
 
 
 Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![visual de tabela renderizando caracteres especiais](media/service-url-filters/power-bi-special-characters2.png)
+
+### <a name="special-characters-in-values"></a>Caracteres especiais em valores
+
+Os filtros de URL já dão suporte a todos os caracteres especiais em valores de campo, exceto a aspa simples ('). Esse é o único caractere que você precisa ignorar. Para procurar um caractere de aspa simples, use duas aspas simples (''). 
+
+Por exemplo:
+
+- `?filter=Table/Name eq 'O''Brien'` torna-se: 
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-obrien.png" alt-text="O nome é O'Brien":::
+
+- `?filter=Table/Name eq 'Lee''s Summit'` torna-se:
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
+
+- O operador `in` também dá suporte a este escape: `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` torna-se:
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit ou O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>Usar o DAX para filtrar vários valores
 

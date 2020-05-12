@@ -3,32 +3,28 @@ title: Visuais de KPI (Indicador Chave de Desempenho)
 description: Criar visuais de KPI (Indicador Chave de Desempenho) no Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6EpqaO0
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76974977"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865152"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Criar visualizações de KPI (indicador chave de desempenho)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Um KPI (Indicador Chave de Desempenho) é uma indicação visual que comunica a quantidade de progresso feito em relação a uma meta mensurável. Para saber mais sobre KPIs, confira [KPIs (Indicadores Chave de Desempenho) no PowerPivot](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)).
 
-Veja Will mostrando como criar elementos visuais de métrica únicos: medidores, cartões e KPIs.
-   > [!NOTE]
-   > Este vídeo usa uma versão mais antiga do Power BI Desktop.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>Quando usar um KPI
 
@@ -55,6 +51,9 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://down
 1. Abra o **arquivo .PBIX de amostra de Análise de Varejo** na exibição de relatório. ![Captura de tela do ícone da exibição de relatório.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. Selecionar **+** para adicionar uma nova página. ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+
+> [!NOTE]
+> Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium.    
 
 ## <a name="how-to-create-a-kpi"></a>Como criar um KPI
 

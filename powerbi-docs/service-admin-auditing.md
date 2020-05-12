@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2a8372a5c31e41b49746ebbea3ba4801eeac493
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113774"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866646"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Acompanhar atividades do usuário no Power BI
 
@@ -179,7 +179,7 @@ A área **Resultados** inclui as seguintes informações sobre cada evento retor
 | Usuário |O usuário (ou a conta de serviço) que executou a ação que acionou o evento. |
 | Atividade |A atividade executada pelo usuário. Esse valor corresponde às atividades que você selecionou na lista suspensa **Atividades**. Para um evento do log de auditoria de administrador do Exchange, o valor desta coluna é um cmdlet do Exchange. |
 | Item |O objeto criado ou modificado devido à atividade correspondente. Por exemplo, o arquivo exibido ou modificado, ou a conta de usuário atualizada. Nem todas as atividades têm um valor nesta coluna. |
-| Detalhe |Detalhes adicionais sobre uma atividade. Novamente, nem todas as atividades têm um valor. |
+| Detalhes |Detalhes adicionais sobre uma atividade. Novamente, nem todas as atividades têm um valor. |
 
 #### <a name="view-the-details-for-an-event"></a>Exibir os detalhes de um evento
 
@@ -239,11 +239,11 @@ As operações a seguir estão disponíveis nos logs de auditoria e de atividade
 | Nome amigável                                     | Nome da operação                              | Observações                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
 | Fonte de dados adicionada ao gateway do Power BI             | AddDatasourceToGateway                      |                                          |
-| Acesso à pasta do Power BI adicionado                      | AddFolderAccess                             | Atualmente não usado                       |
+| Acesso à pasta do Power BI adicionado                      | AddFolderAccess                             | Não usado no momento                       |
 | Adicionados membros de grupo do Power BI                      | AddGroupMembers                             |                                          |
-| Administrador anexou conta de armazenamento de fluxo de dados ao locatário | AdminAttachedDataflowStorageAccountToTenant | Atualmente não usado                       |
+| Administrador anexou conta de armazenamento de fluxo de dados ao locatário | AdminAttachedDataflowStorageAccountToTenant | Não usado no momento                       |
 | Conjunto de dados do Power BI analisado                         | AnalyzedByExternalApplication               |                                          |
-| Relatório do Power BI analisado                          | AnalyzeInExcel                              |                                          |
+| Relatório do Power BI analisado                          | AnalyzeInExcel                              | Gerado quando os usuários interagem com o serviço. O download do arquivo `*.odc` não cria um evento de auditoria                                         |
 | Conta de armazenamento de fluxo de dados anexada                 | AttachedDataflowStorageAccount              |                                          |
 | Conjunto de dados do Power BI associado ao gateway                | BindToGateway                               |                                          |
 | Atualização de fluxo de dados cancelada                        | CancelDataflowRefresh                       |                                          |
@@ -262,33 +262,33 @@ As operações a seguir estão disponíveis nos logs de auditoria e de atividade
 | Gateway do Power BI criado                          | CreateGateway                               |                                          |
 | Grupo do Power BI criado                            | CreateGroup                                 |                                          |
 | Relatório do Power BI criado                           | CreateReport <sup>1</sup>                                |                                          |
-| Fluxo de dados migrado para conta de armazenamento externa     | DataflowMigratedToExternalStorageAccount    | Atualmente não usado                       |
-| Permissões de fluxo de dados adicionadas                        | DataflowPermissionsAdded                    | Atualmente não usado                       |
-| Permissões de fluxo de dados removidas                      | DataflowPermissionsRemoved                  | Atualmente não usado                       |
+| Fluxo de dados migrado para conta de armazenamento externa     | DataflowMigratedToExternalStorageAccount    | Não usado no momento                       |
+| Permissões de fluxo de dados adicionadas                        | DataflowPermissionsAdded                    | Não usado no momento                       |
+| Permissões de fluxo de dados removidas                      | DataflowPermissionsRemoved                  | Não usado no momento                       |
 | Pacote de conteúdo organizacional do Power BI excluído      | DeleteOrgApp                                |                                          |
 | Comentário do Power BI excluído                          | DeleteComment                               |                                          |
-| Dashboard do Power BI excluído                        | DeleteDashboard                             | Atualmente não usado                       |
-| Fluxo de dados do Power BI excluído                         | DeleteDataflow                              | Atualmente não usado                       |
+| Dashboard do Power BI excluído                        | DeleteDashboard                             | Não usado no momento                       |
+| Fluxo de dados do Power BI excluído                         | DeleteDataflow                              | Não usado no momento                       |
 | Conjunto de dados do Power BI excluído                          | DeleteDataset                               |                                          |
 | Assinatura de email do Power BI excluída               | DeleteEmailSubscription                     |                                          |
 | Pasta do Power BI excluída                           | DeleteFolder                                |                                          |
-| Acesso à pasta do Power BI excluído                    | DeleteFolderAccess                          | Atualmente não usado                       |
+| Acesso à pasta do Power BI excluído                    | DeleteFolderAccess                          | Não usado no momento                       |
 | Gateway do Power BI excluído                          | DeleteGateway                               |                                          |
 | Grupo do Power BI excluído                            | DeleteGroup                                 |                                          |
 | Relatório do Power BI excluído                           | DeleteReport                                |                                          |
 | Fontes de dados de conjunto de dados do Power BI descobertas          | GetDatasources                              |                                          |
 | Relatório do Power BI baixado                        | DownloadReport                              |                                          |
 | Propriedades de fluxo de dados editadas                        | EditDataflowProperties                      |                                          |
-| Permissão de certificação do Power BI editada          | EditCertificationPermission                 | Atualmente não usado                       |
-| Dashboard do Power BI editado                         | EditDashboard                               | Atualmente não usado                       |
+| Permissão de certificação do Power BI editada          | EditCertificationPermission                 | Não usado no momento                       |
+| Dashboard do Power BI editado                         | EditDashboard                               | Não usado no momento                       |
 | Conjunto de dados do Power BI editado                           | EditDataset                                 |                                          |
-| Propriedades do conjunto de dados do Power BI editadas                | EditDatasetProperties                       | Atualmente não usado                       |
+| Propriedades do conjunto de dados do Power BI editadas                | EditDatasetProperties                       | Não usado no momento                       |
 | Relatório do Power BI editado                            | EditReport                                  |                                          |
 | Fluxo de dados do Power BI exportado                        | ExportDataflow                              |                                          |
 | Dados visuais de relatório do Power BI exportados              | ExportReport                                |                                          |
 | Dados de bloco do Power BI exportados                       | ExportTile                                  |                                          |
-| Falha ao adicionar permissões de fluxo de dados                | FailedToAddDataflowPermissions              | Atualmente não usado                       |
-| Falha ao remover permissões de fluxo de dados             | FailedToRemoveDataflowPermissions           | Atualmente não usado                       |
+| Falha ao adicionar permissões de fluxo de dados                | FailedToAddDataflowPermissions              | Não usado no momento                       |
+| Falha ao remover permissões de fluxo de dados             | FailedToRemoveDataflowPermissions           | Não usado no momento                       |
 | Token SAS de fluxo de dados do Power BI gerado             | GenerateDataflowSasToken                    |                                          |
 | Token de inserção do Power BI gerado                    | GenerateEmbedToken                          |                                          |
 | Arquivo importado para o Power BI                         | Importar                                      |                                          |
@@ -303,7 +303,7 @@ As operações a seguir estão disponíveis nos logs de auditoria e de atividade
 | Membros de grupo do Power BI removidos                    | DeleteGroupMembers                          |                                          |
 | Workspace removido de uma capacidade                 | RemoveWorkspacesFromCapacity                |                                          |
 | Dashboard do Power BI renomeado                        | RenameDashboard                             |                                          |
-| Atualização de fluxo de dados do Power BI solicitada               | RequestDataflowRefresh                      | Atualmente não usado                       |
+| Atualização de fluxo de dados do Power BI solicitada               | RequestDataflowRefresh                      | Não usado no momento                       |
 | Atualização de conjunto de dados do Power BI solicitada                | RefreshDataset                              |                                          |
 | Workspaces do Power BI recuperados                     | GetWorkspaces                               |                                          |
 | Definir o local de armazenamento do fluxo de dados como um workspace     | SetDataflowStorageLocationForWorkspace      |                                          |
@@ -311,7 +311,7 @@ As operações a seguir estão disponíveis nos logs de auditoria e de atividade
 | Definir atualização agendada no conjunto de dados do Power BI         | SetScheduledRefresh                         |                                          |
 | Dashboard do Power BI compartilhado                         | ShareDashboard                              |                                          |
 | Relatório do Power BI compartilhado                            | ShareReport                                 |                                          |
-| Avaliação estendida do Power BI iniciada                   | OptInForExtendedProTrial                    | Atualmente não usado                       |
+| Avaliação estendida do Power BI iniciada                   | OptInForExtendedProTrial                    | Não usado no momento                       |
 | Avaliação do Power BI iniciada                            | OptInForProTrial                            |                                          |
 | Assumiu uma fonte de dados do Power BI                   | TakeOverDatasource                          |                                          |
 | Assumiu um conjunto de dados do Power BI                        | TakeOverDataset                             |                                          |

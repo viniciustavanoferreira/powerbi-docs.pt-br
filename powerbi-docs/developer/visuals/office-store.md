@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621452"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613547"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar visuais do Power BI no Partner Center
 
@@ -101,9 +101,11 @@ Siga as etapas abaixo para enviar seu visual do Power BI ao Partner Center. Conf
 
 ## <a name="tracking-submission-status-and-usage"></a>Acompanhamento do uso e do status do envio
 
-Examine as [políticas de validação](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
+* Examine as [políticas de validação](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals).
 
-Após o envio, você poderá exibir o status do envio no [dashboard de aplicativos](https://sellerdashboard.microsoft.com/Application/Summary/).
+* Após o envio, você poderá exibir o status do envio no [dashboard de aplicativos](https://sellerdashboard.microsoft.com/Application/Summary/).
+
+* Para entender quando o visual do Power BI estará disponível para download no AppSource, examine a [linha do tempo de publicação](power-bi-custom-visuals-certified.md#publication-timeline) de visuais do Power BI.
 
 ## <a name="certify-your-visual"></a>Certificar seu visual
 

@@ -10,10 +10,10 @@ ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 73e2c923500a2d78072a711bc7662a5923811bba
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699327"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Solucionar problemas de gateways – Power BI
@@ -240,7 +240,7 @@ Para obter mais informações sobre solucionar problemas de cenários de atualiz
 
 ## <a name="fiddler-trace"></a>Rastreamento do Fiddler
 
-[Fiddler](https://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP. Você pode ver a parte de trás e frente com o serviço do Power BI do computador cliente. Essa lista de tráfego pode mostrar erros e outras informações relacionadas.
+O [Fiddler](https://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP. Com ele, você pode ver todas as operações do serviço do Power BI no computador cliente. Essa lista de tráfego pode mostrar erros e outras informações relacionadas.
 
 ![Usando o rastreamento Fiddler](media/service-gateway-onprem-tshoot/fiddler.png)
 

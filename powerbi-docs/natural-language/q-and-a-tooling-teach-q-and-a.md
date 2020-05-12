@@ -1,23 +1,23 @@
 ---
 title: Ensinar as P e R para entender as perguntas e os termos em P e R do Power BI
 description: Como usar a P e R do Power BI para explorar seus dados
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
+ms.date: 04/21/2020
+ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e5b870201943b93bfdaec2881005785c2f3c470b
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874917"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865726"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Ensinar as P e R para entender as perguntas e os termos em P e R do Power BI
 
-Na seção **Ensinar P e R** da configuração de P e R, você treina o P e R para entender as perguntas e os termos em idioma natural que ele não reconheceu. Para começar, você envia uma pergunta que contém uma ou mais palavras que o P e R não reconheceu. O P e R então solicita que você defina esse termo. Você pode inserir um filtro ou um nome de campo que corresponde ao que a palavra representa. O P e R então interpreta novamente a pergunta original. Se estiver satisfeito com os resultados, salve-os.
+Na seção **Ensinar P e R** da configuração de P e R, você treina o P e R para entender as perguntas e os termos em idioma natural que ele não reconheceu. Para começar, você envia uma pergunta que contém uma ou mais palavras que o P e R não reconheceu. O P e R então solicita que você defina esse termo. Você pode inserir um filtro ou um nome de campo que corresponde ao que a palavra representa. O P e R então reinterpreta a pergunta original. Se estiver satisfeito com os resultados, salve-os.
 
 > [!NOTE]
 > A funcionalidade de Ensinar P e R só dá suporte ao modo de importação. Ela também ainda não dá suporte para a conexão a uma fonte de dados local ou Azure Analysis Services. Essa limitação deverá ser removida em versões subsequentes do Power BI.
@@ -26,7 +26,7 @@ Na seção **Ensinar P e R** da configuração de P e R, você treina o P e R pa
 
 1. No Power BI Desktop, na faixa de opções **Modelagem**, selecione **Configuração de P e R** > **Ensinar P e R**.
 
-    ![Sinônimo de Ensinar P e R em vermelho](media/qna-tooling-teach-synonym-red.png)
+    ![Sinônimo de Ensinar P e R em vermelho](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-synonym-red.png)
 
 2. Digite uma frase com um termo que P e R não reconheça e selecione **Enviar**.
 
@@ -36,7 +36,7 @@ Na seção **Ensinar P e R** da configuração de P e R, você treina o P e R pa
     
 3. Em **Definir os termos que P e R não entendeu**, forneça uma definição.
 
-    ![Visualização de sinônimo de Ensinar P e R](media/qna-tooling-teach-fixpreview.png)
+    ![Visualização de sinônimo de Ensinar P e R](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-fixpreview.png)
 
 4. Selecione **Salvar** para visualizar o visual atualizado.
 
@@ -61,7 +61,7 @@ P e R detecta automaticamente quando uma palavra não reconhecida é um substant
 
 Você preenche a caixa com o termo de seus dados.
 
-![Aviso de sinônimo de Ensinar P e R](media/qna-tooling-synonym-prompt.png)
+![Aviso de sinônimo de Ensinar P e R](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Se você fornecer algo diferente de um campo do modelo de dados, poderá obter resultados indesejáveis.
 
@@ -73,17 +73,26 @@ Se você fornecer algo diferente de um campo do modelo de dados, poderá obter r
 
 Você preenche a caixa com a condição.
 
-![Aviso de sinônimo de Ensinar P e R](media/qna-tooling-adjectives.png)
+![Aviso de sinônimo de Ensinar P e R](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Alguns exemplos de condições que você pode definir são:
 
-- 'Country', que é 'USA'
-- 'Country', que não é 'USA'
-- 'Weight' > 2000
-- 'Weight' = 2000
-- 'Weight' < 2000
+- País, que é EUA
+- País, que não é EUA
+- Produtos > 100
+- Produtos maior que 100
+- Produtos = 100
+- Produtos é igual a 100
+- Produtos < 100
+- Produtos menor que 100
 
-Você só pode definir uma única condição em ferramentas. Para definir condições mais complexas, use DAX para criar uma coluna calculada e, em seguida, use a seção de ferramentas para criar uma única condição para a coluna calculada. Não há suporte para medidas. Em vez disso, use colunas calculadas.
+Nestes exemplos, 'Produtos' pode ser um nome de coluna ou uma medida. 
+
+Também é possível especificar uma agregação na expressão de P e R em si. Por exemplo, se 'produtos populares' forem produtos com pelo menos 100 unidades vendidas, você poderá definir produtos com 'soma de unidades vendidas > 100' como populares.  
+
+:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="Definir 'produtos populares'":::
+
+Você só pode definir uma única condição em ferramentas. Para definir condições mais complexas, use DAX para criar uma coluna ou medida calculada e, em seguida, use a seção de ferramentas para criar uma só condição para a coluna ou medida calculada.
 
 ## <a name="manage-terms"></a>Gerenciar termos
 
@@ -93,10 +102,8 @@ Depois de fornecer as definições, você pode voltar para ver todas as correç�
 
 2. Exclua os termos que você não queira mais. No momento, não é possível editar termos. Para redefinir um termo, exclua o termo e defina-o.
 
-    ![Gerenciar termos de P e R](media/qna-manage-terms.png)
+    ![Gerenciar termos de P e R](media/q-and-a-tooling-teach-q-and-a/qna-manage-terms.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Há diversas melhores práticas para melhorar o mecanismo de linguagem natural. Para obter mais informações, consulte o seguinte artigo:
-
-* [Melhores práticas de P e R](q-and-a-best-practices.md)
+Há diversas melhores práticas para melhorar o mecanismo de linguagem natural. Para obter mais informações, confira as [Melhores práticas de P e R](q-and-a-best-practices.md).

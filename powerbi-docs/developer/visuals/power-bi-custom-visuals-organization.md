@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464587"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278803"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Elementos visuais de organização no Power BI
 
@@ -42,8 +42,6 @@ Para saber mais sobre como administrar, implantar e gerenciar visuais do Power B
 Há várias considerações e limitações das quais você precisa estar ciente.
 
 Administrador:
-
-* Não há suporte para visuais do Power BI herdados (como visuais do Power BI que não são criados com base nas novas APIs com controle de versão)
 
 * Se um visual do Power BI do ApSource ou um arquivo é excluído do repositório, os relatórios existentes que usam o visual excluído param de renderizar. A exclusão do repositório não é reversível. Para desabilitar temporariamente um visual do Power BI do ApSource ou um arquivo, use o recurso "Desabilitar".
 

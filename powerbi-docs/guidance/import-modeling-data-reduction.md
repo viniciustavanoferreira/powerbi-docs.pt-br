@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205770"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279470"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Técnicas de redução de dados para Modelagem de importação
 
@@ -23,8 +23,8 @@ Os Modelos de importação são carregados com dados que são compactados e otim
 
 Apesar das eficiências obtidas pelo mecanismo de armazenamento VertiPaq, é importante que você se esforce para minimizar os dados que serão carregados em seus modelos. Isso é válido especialmente para modelos grandes ou modelos que você prevê que crescerão com o passar do tempo. Quatro motivos convincentes incluem:
 
-- Tamanhos de modelos maiores podem não ter suporte de sua capacidade. A capacidade compartilhada pode hospedar modelos de até 1 GB, enquanto capacidades Premium podem hospedar modelos de até 13 GB. Para obter mais informações, leia o artigo [Suporte do Power BI Premium para conjuntos de dados grandes](../service-premium-large-datasets.md).
-- Modelos com tamanhos menores reduzem a contenção de recursos de capacidade, especificamente a memória. Isso permite que mais modelos sejam carregados simultaneamente por períodos mais longos, resultando em taxas de remoção mais baixas. Para obter mais informações, confira [Gerenciar capacidades Premium](../service-premium-capacity-manage.md).
+- Tamanhos de modelos maiores podem não ter suporte de sua capacidade. A capacidade compartilhada pode hospedar modelos de até 1 GB, enquanto capacidades Premium podem hospedar modelos de até 13 GB. Para obter mais informações, leia o artigo [Suporte do Power BI Premium para conjuntos de dados grandes](../admin/service-premium-what-is.md).
+- Modelos com tamanhos menores reduzem a contenção de recursos de capacidade, especificamente a memória. Isso permite que mais modelos sejam carregados simultaneamente por períodos mais longos, resultando em taxas de remoção mais baixas. Para obter mais informações, confira [Gerenciar capacidades Premium](../admin/service-premium-capacity-manage.md).
 - Modelos menores têm uma atualização de dados mais rápida, resultando em relatórios com latência mais baixa, maior taxa de transferência de atualização de conjuntos de dados e menor pressão sobre o sistema de origem e os recursos de capacidade.
 - Tabelas com menos linhas podem resultar em avaliações com cálculo mais rápido, o que pode proporcionar um melhor desempenho de consulta de modo geral.
 
@@ -88,7 +88,7 @@ Consultas do Power Query destinadas a dar suporte à integração de dados com o
 
 ## <a name="disable-auto-datetime"></a>Desabilitar data/hora automática
 
-O Power BI Desktop inclui uma opção chamada de _Data/hora automática_. Quando habilitada, ela cria uma tabela de data/hora automática para colunas de dados darem suporte a autores de relatório ao configurar filtros, o agrupamento e a busca detalhada para períodos de tempo do calendário. As tabelas ocultas são, na verdade, tabelas calculadas que aumentarão o tamanho do modelo. Para obter diretrizes sobre como usar essa opção, consulte as [Diretrizes automáticas de data/hora no artigo Power BI Desktop](../desktop-auto-date-time.md).
+O Power BI Desktop inclui uma opção chamada de _Data/hora automática_. Quando habilitada, ela cria uma tabela de data/hora automática para colunas de dados darem suporte a autores de relatório ao configurar filtros, o agrupamento e a busca detalhada para períodos de tempo do calendário. As tabelas ocultas são, na verdade, tabelas calculadas que aumentarão o tamanho do modelo. Para obter diretrizes sobre como usar essa opção, consulte as [Diretrizes automáticas de data/hora no artigo Power BI Desktop](../transform-model/desktop-auto-date-time.md).
 
 ## <a name="switch-to-mixed-mode"></a>Mudar para o modo misto
 
@@ -96,12 +96,13 @@ No Power BI Desktop, um design de Modo misto produz um Modelo composto. Essencia
 
 Uma técnica eficaz para reduzir o tamanho do modelo é configurar a propriedade de Modo de Armazenamento para tabelas de fatos maiores como DirectQuery. Considere que essa abordagem de design pode funcionar bem em conjunto com a técnica [Agrupar por e resumir](#group-by-and-summarize) introduzida anteriormente. Por exemplo, dados de vendas resumidos podem ser usados para obter relatórios de "resumo" de alto desempenho. Uma página de detalhamento pode exibir vendas granulares para contextos de filtro específicos (e estreitos), exibindo todas as ordens de venda no contexto. Neste exemplo, a página de detalhamento incluiria visuais baseados em uma tabela do DirectQuery para recuperar os dados da ordem de vendas.
 
-No entanto, há muitas implicações de segurança e desempenho relacionadas a Modelos compostos. Para obter mais informações, leia o artigo [Usar modelos compostos no Power BI Desktop](../desktop-composite-models.md).
+No entanto, há muitas implicações de segurança e desempenho relacionadas a Modelos compostos. Para obter mais informações, leia o artigo [Usar modelos compostos no Power BI Desktop](../transform-model/desktop-composite-models.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 
 Para obter mais informações sobre o design de modelo de Importação do Power BI, confira os seguintes artigos:
 
-- [Usar modelos compostos no Power BI Desktop](../desktop-composite-models.md)
-- [Modo de armazenamento no Power BI Desktop](../desktop-storage-mode.md)
+- [Usar modelos compostos no Power BI Desktop](../transform-model/desktop-composite-models.md)
+- [Modo de armazenamento no Power BI Desktop](../transform-model/desktop-storage-mode.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+

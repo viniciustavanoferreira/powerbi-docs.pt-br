@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435802"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279539"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Definir alertas de dados nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -29,7 +29,7 @@ Você pode definir alertas em blocos se tiver uma licença do Power BI Pro ou se
 > [!WARNING]
 > Notificações de alerta controladas por dados fornecem informações sobre seus dados. Se o dispositivo for roubado, recomendamos que você vá para o serviço do Power BI para desligar todas as regras de alerta controladas por dados. 
 > 
-> Saiba mais sobre o [gerenciamento de alertas de dados no serviço do Power BI](../../service-set-data-alerts.md).
+> Saiba mais sobre o [gerenciamento de alertas de dados no serviço do Power BI](../../create-reports/service-set-data-alerts.md).
 > 
 > 
 
@@ -58,7 +58,7 @@ Você pode definir alertas em blocos se tiver uma licença do Power BI Pro ou se
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>Gerenciar alertas no seu iPhone ou iPad
-Você pode gerenciar os alertas individuais no seu dispositivo móvel ou [gerenciar todos os alertas no serviço do Power BI](../../service-set-data-alerts.md).
+Você pode gerenciar os alertas individuais no seu dispositivo móvel ou [gerenciar todos os alertas no serviço do Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. Em um dashboard, toque em um bloco de números ou medidores que tenha um alerta.  
    
@@ -92,7 +92,7 @@ Você pode gerenciar os alertas individuais no seu dispositivo móvel ou [gerenc
 8. Toque em **Salvar**.
 
 ### <a name="manage-alerts-on-an-android-device"></a>Gerenciar alertas em um dispositivo Android
-Você pode gerenciar os alertas individuais no aplicativo móvel do Power BI ou [gerenciar todos os alertas no serviço do Power BI](../../service-set-data-alerts.md).
+Você pode gerenciar os alertas individuais no aplicativo móvel do Power BI ou [gerenciar todos os alertas no serviço do Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. Em um dashboard, toque em um bloco de cartões ou medidores que tenha um alerta.  
 2. Toque no ícone sólido de sino ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
@@ -131,7 +131,7 @@ Você pode gerenciar os alertas individuais no aplicativo móvel do Power BI ou 
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Gerenciar alertas em um dispositivo Windows
-Você pode gerenciar os alertas individuais no aplicativo móvel do Power BI ou [gerenciar todos os alertas no serviço do Power BI](../../service-set-data-alerts.md).
+Você pode gerenciar os alertas individuais no aplicativo móvel do Power BI ou [gerenciar todos os alertas no serviço do Power BI](../../create-reports/service-set-data-alerts.md).
 
 1. Em um dashboard, toque em um bloco de cartões ou medidores que tenha um alerta.  
 2. Toque no ícone de sino ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
@@ -172,7 +172,6 @@ As fontes de dados geralmente são configuradas para atualização diária, embo
 * Os alertas não funcionam com blocos que contêm dados de streaming.
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Gerenciar seus alertas no serviço do Power BI](../../service-set-data-alerts.md)
+* [Gerenciar seus alertas no serviço do Power BI](../../create-reports/service-set-data-alerts.md)
 * [Central de Notificações do Power BI Mobile](mobile-apps-notification-center.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

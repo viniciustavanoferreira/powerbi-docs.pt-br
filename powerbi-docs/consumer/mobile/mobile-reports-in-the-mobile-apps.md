@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841723"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279493"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -27,7 +27,7 @@ Aplica-se a:
 
 Um relatório do Power BI é uma exibição interativa de seus dados, com visuais que representam diferentes descobertas e informações obtidas desses dados. A exibição de relatórios nos aplicativos móveis do Power BI é a terceira etapa de um processo de três etapas:
 
-1. [Criar relatórios no Power BI Desktop](../../desktop-report-view.md). Você pode até mesmo [otimizar um relatório para telefones](mobile-apps-view-phone-report.md) no Power BI Desktop.
+1. [Criar relatórios no Power BI Desktop](../../create-reports/desktop-report-view.md). Você pode até mesmo [otimizar um relatório para telefones](mobile-apps-view-phone-report.md) no Power BI Desktop.
 2. Publique esses relatórios para o serviço do Power BI [(https://powerbi.com)](https://powerbi.com) ou [Servidor de Relatórios do Power BI](../../report-server/get-started.md).  
 3. Interagir com esses relatórios nos aplicativos móveis do Power BI.
 
@@ -100,7 +100,7 @@ Os autores de relatório podem definir hierarquias nos dados e relações entre 
 Quando você toca em uma parte específica de um visual e então toca na opção *Detalhamento*, o Power BI leva a uma página diferente no relatório, filtrada com o valor tocado. O autor de um relatório pode definir uma ou mais opções de detalhamento, cada uma levando a uma página diferente. Nesse caso, você pode escolher para qual opção deseja exibir o detalhamento. O botão voltar retorna à página anterior.
 
 
-Para obter mais informações, leia sobre como [adicionar detalhamento no Power BI Desktop](../../desktop-drillthrough.md).
+Para obter mais informações, leia sobre como [adicionar detalhamento no Power BI Desktop](../../create-reports/desktop-drillthrough.md).
    
    > [!IMPORTANT]
    > Nos aplicativos móveis do Power BI, as ações de detalhamento em visuais de matriz e de tabela são habilitadas somente por meio de valores de célula, não por meio de cabeçalhos de coluna ou linha.
@@ -164,6 +164,5 @@ Confira [Configurações de interação do aplicativo](./mobile-app-interaction-
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Exibir e interagir com relatórios do Power BI otimizados para seu telefone](mobile-apps-view-phone-report.md)
-* [Criar uma versão de um relatório otimizado para telefones](../../desktop-create-phone-report.md)
+* [Criar uma versão de um relatório otimizado para telefones](../../create-reports/desktop-create-phone-report.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

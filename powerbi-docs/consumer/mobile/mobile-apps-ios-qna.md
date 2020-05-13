@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 015c227fd600827e306c8b31b68992e33e6a3206
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114842"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276181"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de P e R nos aplicativos iOS – Power BI
 
@@ -102,7 +102,7 @@ Melhore os resultados que você e seus clientes recebem ao usar o analista virtu
 * Siga estas [dicas para fazer perguntas na P e R](../end-user-q-and-a-tips.md), no serviço do Power BI ou no analista virtual da P e R em seu aplicativo móvel iOS.
 
 ### <a name="how-to-enhance-the-dataset"></a>Como aprimorar o conjunto de dados
-* Aprimore o conjunto de dados no Power BI Desktop ou no serviço do Power BI para [fazer com que seus dados funcionem bem com o analista virtual da P e R](../../service-prepare-data-for-q-and-a.md).
+* Aprimore o conjunto de dados no Power BI Desktop ou no serviço do Power BI para [fazer com que seus dados funcionem bem com o analista virtual da P e R](../../create-reports/service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Q&A no serviço do Power BI](../end-user-q-and-a.md)

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18ca1b58d37fedb2c8246b91dc765168002e163e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381044"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275928"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparando o Servidor de Relatórios do Power BI e o serviço do Power BI
 
@@ -31,26 +31,26 @@ O Servidor de Relatórios do Power BI e o serviço do Power BI têm muitas semel
 | Ciclo de lançamento | Três vezes ao ano (janeiro, maio, setembro) | Uma vez por mês | Correções e recursos mais recentes são fornecidos para o serviço do Power BI primeiro. Um pacote cumulativo de atualizações de recursos das versões de serviço do Power BI Desktop é disponibilizado com cada versão do Servidor de Relatórios do Power BI. A maioria dos outros recursos é disponibilizada somente para o serviço do Power BI. |
 | Criar relatórios do Power BI no Power BI Desktop | Sim | Sim |  |
 | Criar relatórios do Power BI no navegador | Não | Sim |  |
-| Hospedagem e conexão a conjuntos de dados compartilhados do Power BI | Não | Sim | [Introdução aos conjuntos de dados entre espaços de trabalho](../service-datasets-across-workspaces.md) |
+| Hospedagem e conexão a conjuntos de dados compartilhados do Power BI | Não | Sim | [Introdução aos conjuntos de dados entre espaços de trabalho](../connect-data/service-datasets-across-workspaces.md) |
 | Gateway necessário | Não | Sim para fontes de dados locais |  |
-| Streaming em tempo real | Não | Sim | [Streaming em tempo real no Power BI](../service-real-time-streaming.md) |
+| Streaming em tempo real | Não | Sim | [Streaming em tempo real no Power BI](../connect-data/service-real-time-streaming.md) |
 | Painéis | Não | Sim | [Dashboards no serviço do Power BI](../consumer/end-user-dashboards.md) |
-| Distribuir grupo de relatórios usando aplicativos | Não | Sim | [Criar e publicar aplicativos com dashboards e relatórios](../service-create-distribute-apps.md) |
-| Pacotes de Conteúdo | Não | Sim | [Pacotes de conteúdo organizacional: introdução](../service-organizational-content-pack-introduction.md) |
-| Conectar-se a serviços como o Salesforce | Sim | Sim | [Conectar-se aos serviços que você usa](../service-connect-to-services.md) com os pacotes de conteúdos no serviço do Power BI. No Servidor de Relatórios do Microsoft Power BI, use conectores certificados para se conectar aos serviços. Consulte [Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI](data-sources.md) para obter mais informações. |
-| Perguntas e Respostas | Não | Sim | [P e R no serviço do Power BI e Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
+| Distribuir grupo de relatórios usando aplicativos | Não | Sim | [Criar e publicar aplicativos com dashboards e relatórios](../collaborate-share/service-create-distribute-apps.md) |
+| Pacotes de Conteúdo | Não | Sim | [Pacotes de conteúdo organizacional: introdução](../collaborate-share/service-organizational-content-pack-introduction.md) |
+| Conectar-se a serviços como o Salesforce | Sim | Sim | [Conectar-se aos serviços que você usa](../connect-data/service-connect-to-services.md) com os pacotes de conteúdos no serviço do Power BI. No Servidor de Relatórios do Microsoft Power BI, use conectores certificados para se conectar aos serviços. Consulte [Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI](data-sources.md) para obter mais informações. |
+| Perguntas e Respostas | Não | Sim | [P e R no serviço do Power BI e Power BI Desktop](../create-reports/power-bi-tutorial-q-and-a.md) 
 | Insights rápidos | Não | Sim | [Gerar automaticamente as informações sobre os dados com o Power BI](../consumer/end-user-insights.md) |
-| Analisar no Excel | Não | Sim | [Analisar no Excel](../service-analyze-in-excel.md) 
+| Analisar no Excel | Não | Sim | [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md) 
 | Relatórios paginados | Sim | Sim | [Os relatórios paginados estão disponíveis no serviço do Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md) em versão prévia na capacidade Premium |
 | Aplicativos móveis do Power BI | Sim | Sim | [Visão geral de aplicativos móveis no Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | Mapas do ARC GIS | Não | Sim | [Mapas do ArcGIS no serviço do Power BI e no Power BI Desktop pelo ESRI](../visuals/power-bi-visualization-arcgis.md) |
-| Assinaturas de email para relatórios do Power BI | Não | Sim | [Assine para você ou terceiros](../service-report-subscribe.md) um relatório ou um dashboard no serviço do Power BI |
+| Assinaturas de email para relatórios do Power BI | Não | Sim | [Assine para você ou terceiros](../collaborate-share/service-report-subscribe.md) um relatório ou um dashboard no serviço do Power BI |
 | Assinaturas de email para relatórios paginados | Sim | Sim | [Obtenha uma assinatura para você e para outras pessoas de relatórios paginados no Serviço do Power BI](../consumer/paginated-reports-subscriptions.md)<br><br>[Entrega de email no Reporting Services](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
-| Alertas de dados | Não | Sim | [Alertas de dados](../service-set-data-alerts.md) no serviço do Power BI
-| RLS (Segurança em nível de linha) | Sim | Sim | Disponível nos modos de DirectQuery (fonte de dados) e de Importação <br><br>Segurança em nível de linha do [serviço do Power BI](../service-admin-rls.md) <br><br>RLS (Segurança em Nível de Linha) no [Servidor de Relatórios do Power BI](row-level-security-report-server.md) |
+| Alertas de dados | Não | Sim | [Alertas de dados](../create-reports/service-set-data-alerts.md) no serviço do Power BI
+| RLS (Segurança em nível de linha) | Sim | Sim | Disponível nos modos de DirectQuery (fonte de dados) e de Importação <br><br>Segurança em nível de linha do [serviço do Power BI](../admin/service-admin-rls.md) <br><br>RLS (Segurança em Nível de Linha) no [Servidor de Relatórios do Power BI](row-level-security-report-server.md) |
 | Sair do modo de tela inteira | Não | Sim | [Modo de tela inteira](../consumer/end-user-focus.md) no serviço do Power BI |
-| Colaboração avançada com o Office 365 | Não | Sim | [Colaborar em um workspace](../service-collaborate-power-bi-workspace.md) com o Office 365 |
-| Visuais do R | Não | Sim | [Criar visuais R](../desktop-r-visuals.md) no Power BI Desktop e publicá-los no serviço do Power BI. Você não pode salvar relatórios do Power BI com visuais R no Servidor de Relatórios do Power BI.  |
+| Colaboração avançada com o Office 365 | Não | Sim | [Colaborar em um workspace](../collaborate-share/service-collaborate-power-bi-workspace.md) com o Office 365 |
+| Visuais do R | Não | Sim | [Criar visuais R](../create-reports/desktop-r-visuals.md) no Power BI Desktop e publicá-los no serviço do Power BI. Você não pode salvar relatórios do Power BI com visuais R no Servidor de Relatórios do Power BI.  |
 | Recursos de versão prévia | Não | Sim | [Aceitar recursos de visualização do serviço](../consumer/end-user-preview-features.md) do Power BI |
 | Visuais do Power BI | Sim | Sim | [Visuais do Power BI](../developer/visuals/power-bi-custom-visuals.md) |
 | Modelos compostos | Não | Sim |
@@ -59,3 +59,9 @@ O Servidor de Relatórios do Power BI e o serviço do Power BI têm muitas semel
 ## <a name="next-steps"></a>Próximas etapas
 
 [Instalar o Servidor de Relatório do Power BI](install-report-server.md)
+
+
+
+
+
+

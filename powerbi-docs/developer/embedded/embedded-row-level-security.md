@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550961"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277009"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança em nível de linha com o Power BI Embedded
 
@@ -21,7 +21,7 @@ A **Segurança em Nível de Linha (RLS)** pode ser usada para restringir o acess
 
 Se você está fazendo uma inserção para usuários que não têm o Power BI (o aplicativo possui dados), o que normalmente é um cenário de ISV, este artigo é ideal para você! Configure o token de inserção da conta para o usuário e a função.
 
-Se estiver fazendo uma inserção para usuários do Power BI (o usuário possui os dados), em sua organização, a RLS funciona da mesma maneira que no serviço do Power BI diretamente. Não há nada mais que precise ser feito no aplicativo. Para obter mais informações, consulte [RLS (segurança em nível de linha) com o Power BI](../../service-admin-rls.md).
+Se estiver fazendo uma inserção para usuários do Power BI (o usuário possui os dados), em sua organização, a RLS funciona da mesma maneira que no serviço do Power BI diretamente. Não há nada mais que precise ser feito no aplicativo. Para obter mais informações, consulte [RLS (segurança em nível de linha) com o Power BI](../../admin/service-admin-rls.md).
 
 ![Itens envolvidos com a Segurança em Nível de Linha.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -29,7 +29,7 @@ Para aproveitar a RLS, é importante entender os três conceitos principais: Usu
 
 **Usuários** – os usuários finais, exibindo o artefato (dashboard, bloco, relatório ou conjunto de dados). No Power BI Embedded, os usuários são identificados pela propriedade de nome de usuário em um token de inserção.
 
-**Funções** – os usuários pertencem a funções. Uma função é um contêiner de regras e pode ser nomeada como algo parecido com *Gerente de Vendas* ou *Representante de Vendas*. As funções são criadas no Power BI Desktop. Para obter mais informações, consulte [RLS (segurança em nível de linha) com o Power BI Desktop](../../desktop-rls.md).
+**Funções** – os usuários pertencem a funções. Uma função é um contêiner de regras e pode ser nomeada como algo parecido com *Gerente de Vendas* ou *Representante de Vendas*. As funções são criadas no Power BI Desktop. Para obter mais informações, consulte [RLS (segurança em nível de linha) com o Power BI Desktop](../../create-reports/desktop-rls.md).
 
 **Regras** – as funções têm regras e essas regras são os filtros reais que serão aplicados aos dados. As regras podem ser tão simples como "País = EUA" ou algo muito mais dinâmico.
 No restante deste artigo, há um exemplo de como criar a RLS e, em seguida, como consumir isso em um aplicativo inserido. Nosso exemplo usa o arquivo PBIX da [Amostra de Análise de Varejo](https://go.microsoft.com/fwlink/?LinkID=780547).
@@ -135,7 +135,7 @@ A identidade efetiva fornecida para a propriedade de nome de usuário deve ser u
 
 ### <a name="on-premises-data-gateway-configuration"></a>Configuração do gateway de dados local
 
-Um [Gateway de dados local](../../service-gateway-onprem.md) é usado ao trabalhar com as conexões dinâmicas do Analysis Services. Ao gerar um token de inserção, com uma identidade listada, a conta mestra precisa estar listada como um administrador do gateway. Se a conta mestra não estiver listada, a segurança em nível de linha não será aplicada à propriedade dos dados. Um não administrador do gateway pode fornecer funções, mas deve especificar seu próprio nome de usuário para a identidade efetiva.
+Um [Gateway de dados local](../../connect-data/service-gateway-onprem.md) é usado ao trabalhar com as conexões dinâmicas do Analysis Services. Ao gerar um token de inserção, com uma identidade listada, a conta mestra precisa estar listada como um administrador do gateway. Se a conta mestra não estiver listada, a segurança em nível de linha não será aplicada à propriedade dos dados. Um não administrador do gateway pode fornecer funções, mas deve especificar seu próprio nome de usuário para a identidade efetiva.
 
 ### <a name="use-of-roles"></a>Uso de funções
 
@@ -235,9 +235,9 @@ Aqui estão as etapas para começar a configurar o recurso CustomData() com seu 
 
 Ao decidir sobre a filtragem dos dados em um relatório, é possível usar os **filtros de Segurança em Nível de Linha (RLS)** ou **JavaScript**.
 
-A [Segurança em Nível de Linha](../../service-admin-rls.md) é um recurso que filtra os dados no nível do modelo de dados. Sua fonte de dados de back-end controla as configurações de RLS. A geração de token de inserção define o nome de usuário e as funções para a sessão com base em seu modelo de dados. Ela não pode ser substituída, removida ou controlada pelo código do lado do cliente e por isso é considerada segura. É recomendável usar a RLS para filtrar dados com segurança. Filtre os dados com a RLS usando uma das opções a seguir.
+A [Segurança em Nível de Linha](../../admin/service-admin-rls.md) é um recurso que filtra os dados no nível do modelo de dados. Sua fonte de dados de back-end controla as configurações de RLS. A geração de token de inserção define o nome de usuário e as funções para a sessão com base em seu modelo de dados. Ela não pode ser substituída, removida ou controlada pelo código do lado do cliente e por isso é considerada segura. É recomendável usar a RLS para filtrar dados com segurança. Filtre os dados com a RLS usando uma das opções a seguir.
 
-* [Configurar funções em um relatório do Power BI](../../desktop-rls.md).
+* [Configurar funções em um relatório do Power BI](../../create-reports/desktop-rls.md).
 * Configuração de funções no nível da fonte de dados (apenas conexão dinâmica do Analysis Services).
 * Por meio de programação com um [Token de Inserção](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) usando `EffectiveIdentity`. Ao usar um token de inserção, o filtro real passa pelo token de inserção durante uma sessão específica.
 

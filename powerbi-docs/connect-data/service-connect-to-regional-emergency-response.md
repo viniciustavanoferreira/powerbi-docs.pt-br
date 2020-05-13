@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82149660"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279217"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Conectar-se ao Dashboard de Resposta a Emergências Regionais
 O Dashboard de Resposta a Emergências Regionais é o componente de relatório da [solução de Resposta a Emergências Regionais do Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Os administradores da organização regional podem ver o dashboard nos respectivos locatários do Power BI, permitindo a eles que vejam rapidamente dados e métricas importantes que os ajudarão a tomar decisões eficientes.
@@ -82,21 +82,21 @@ Ao instalar a solução de Resposta a Emergências Regionais, anote a [URL da in
 
 ## <a name="schedule-report-refresh"></a>Agendar atualização do relatório
 
-Quando a atualização de dados for concluída, [configure um agendamento de atualização](../refresh-scheduled-refresh.md) para manter os dados do relatório atualizados.
+Quando a atualização de dados for concluída, [configure um agendamento de atualização](../connect-data/refresh-scheduled-refresh.md) para manter os dados do relatório atualizados.
 
 1. Na barra de cabeçalho superior, selecione **Power BI**.
 
    ![Navegação estrutural do Power BI](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-powerbi-breadcrumb.png)
 
-1. No painel de navegação à esquerda, procure o workspace do Dashboard de Resposta a Emergências Regionais em **Workspaces** e siga as instruções descritas no artigo [Configurar a atualização agendada](../refresh-scheduled-refresh.md).
+1. No painel de navegação à esquerda, procure o workspace do Dashboard de Resposta a Emergências Regionais em **Workspaces** e siga as instruções descritas no artigo [Configurar a atualização agendada](../connect-data/refresh-scheduled-refresh.md).
 
 ## <a name="customize-and-share"></a>Personalizar e compartilhar
 
-Confira [Personalizar e compartilhar o aplicativo](../service-template-apps-install-distribute.md#customize-and-share-the-app) para obter detalhes. Examine os [avisos de isenção de responsabilidade do relatório](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) antes de publicar ou distribuir o aplicativo.
+Confira [Personalizar e compartilhar o aplicativo](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) para obter detalhes. Examine os [avisos de isenção de responsabilidade do relatório](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) antes de publicar ou distribuir o aplicativo.
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Noções básicas sobre o dashboard de Resposta a Emergências Regionais](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
 * [Configurar o modelo de exemplo de Comunicação de Crise e aprender sobre ele no Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-* [O que são os aplicativos de modelo do Power BI?](../service-template-apps-overview.md)
-* [Instalar e distribuir aplicativos de modelo na sua organização](../service-template-apps-install-distribute.md)
+* [O que são os aplicativos de modelo do Power BI?](../connect-data/service-template-apps-overview.md)
+* [Instalar e distribuir aplicativos de modelo na sua organização](../connect-data/service-template-apps-install-distribute.md)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751639"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275951"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Conteúdo inserido do Power BI com a entidade de serviço e o segredo do aplicativo
 
@@ -183,14 +183,14 @@ Depois de inserir o conteúdo, você estará pronto para [passar para a produç�
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-* A entidade de serviço só funciona com [novos workspaces](../../service-create-the-new-workspaces.md).
+* A entidade de serviço só funciona com [novos workspaces](../../collaborate-share/service-create-the-new-workspaces.md).
 * Não há suporte para **Meu Workspace** ao usar a entidade de serviço.
 * É necessária capacidade dedicada ao passar para produção.
 * Você não pode entrar no portal do Power BI usando a entidade de serviço.
 * Direitos de administrador do Power BI são necessários para habilitar a entidade de serviço nas configurações do desenvolvedor no portal do administrador do Power BI.
 * Você não pode instalar nem gerenciar um gateway de dados local usando a entidade de serviço.
 * Os aplicativos [inseridos para sua organização](embed-sample-for-your-organization.md) não podem usar a entidade de serviço.
-* Não há suporte para gerenciamento de [fluxos de dados](../../service-dataflows-overview.md).
+* Não há suporte para gerenciamento de [fluxos de dados](../../transform-model/service-dataflows-overview.md).
 * No momento, a entidade de serviço não dá suporte a nenhuma API de administrador.
 * Ao usar uma entidade de serviço com uma fonte de dados do [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), a própria entidade de serviço precisa ter permissões de uma instância do Azure Analysis Services. O uso de um grupo de segurança que contenha a entidade de serviço para essa finalidade não funciona.
 

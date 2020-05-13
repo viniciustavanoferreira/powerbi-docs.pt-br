@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 14e3b0f2956252e0b09abcf314d6e14b9a9709ad
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065982"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83129494"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>Como usar o serviço do Power BI como *consumidor*
 
@@ -47,7 +47,7 @@ O Premium possibilita a distribuição difundida de conteúdo por usuários do P
 
 Dentro desses workspaces, os designers atribuem funções, como **Visualizador**, **Colaborador**, **Membro** e **Administrador**, que determinam a extensão até a qual os colegas podem interagir com o conteúdo. Para obter mais informações, confira [permissões e funções do workspace.](end-user-workspaces.md) 
 
-Para obter mais informações sobre a capacidade Premium, confira [O que é o Microsoft Power BI Premium?](../service-premium-what-is.md).
+Para obter mais informações sobre a capacidade Premium, confira [O que é o Microsoft Power BI Premium?](../admin/service-premium-what-is.md).
 
 
 ## <a name="find-out-which-licenses-you-have"></a>Descubra quais licenças você tem

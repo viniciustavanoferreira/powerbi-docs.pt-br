@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752661"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275468"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Conectar-se ao relatório de acompanhamento da COVID-19 nos EUA
 Este artigo mostra como instalar o aplicativo de modelo para o relatório de acompanhamento da COVID-19 e como se conectar às fontes de dados.
@@ -54,14 +54,14 @@ Depois de instalar o aplicativo de modelo e se conectar às fontes de dados, voc
 
 ## <a name="schedule-report-refresh"></a>Agendar atualização do relatório
 
-Quando a atualização de dados for concluída, você estará no workspace associado ao aplicativo. [Configure um agendamento de atualização](../refresh-scheduled-refresh.md) para manter os dados do relatório atualizados.
+Quando a atualização de dados for concluída, você estará no workspace associado ao aplicativo. [Configure um agendamento de atualização](../connect-data/refresh-scheduled-refresh.md) para manter os dados do relatório atualizados.
 
 ## <a name="customize-and-share"></a>Personalizar e compartilhar
 
-Confira [Personalizar e compartilhar o aplicativo](../service-template-apps-install-distribute.md#customize-and-share-the-app) para obter detalhes. Examine os [avisos de isenção de responsabilidade do relatório](../create-reports/sample-covid-19-us.md#disclaimers) antes de publicar ou distribuir o aplicativo.
+Confira [Personalizar e compartilhar o aplicativo](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) para obter detalhes. Examine os [avisos de isenção de responsabilidade do relatório](../create-reports/sample-covid-19-us.md#disclaimers) antes de publicar ou distribuir o aplicativo.
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Amostra de acompanhamento da COVID-19 para os governos locais e estaduais dos EUA](../create-reports/sample-covid-19-us.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-* [O que são os aplicativos de modelo do Power BI?](../service-template-apps-overview.md)
-* [Instalar e distribuir aplicativos de modelo na sua organização](../service-template-apps-install-distribute.md)
+* [O que são os aplicativos de modelo do Power BI?](../connect-data/service-template-apps-overview.md)
+* [Instalar e distribuir aplicativos de modelo na sua organização](../connect-data/service-template-apps-install-distribute.md)

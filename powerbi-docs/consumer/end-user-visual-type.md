@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377180"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279424"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de visuais no Power BI
 
@@ -152,7 +152,7 @@ Os designers de relatórios podem criar um Power App e incorporá-lo a um relat�
 ![Visuais de P e R](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->Semelhante à [experiência de P e R em dashboards](../power-bi-tutorial-q-and-a.md), o visual d e P e R permite que você faça perguntas sobre seus dados usando linguagem natural. 
+>Semelhante à [experiência de P e R em dashboards](../create-reports/power-bi-tutorial-q-and-a.md), o visual d e P e R permite que você faça perguntas sobre seus dados usando linguagem natural. 
 
 Para saber mais, confira [Visuais de P e R no Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
@@ -248,3 +248,4 @@ Ao digitar consultas em linguagem natural com a P e R do Power BI, você pode es
 ## <a name="next-steps"></a>Próximas etapas
 [Interagir com visuais em relatórios, dashboards e aplicativos](end-user-visualizations.md)    
 [A referência visual correta de sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

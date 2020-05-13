@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866945"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277147"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Criar e usar gráficos básicos de área
 
@@ -68,7 +68,7 @@ Este tutorial usa o [arquivo PBIX de exemplo de Análise de Varejo](https://down
    d.  Para exibir o gráfico por mês, selecione as reticências (canto superior direito do visual) e escolha **Classificar por mês**. Para alterar a ordem de classificação, selecione as reticências novamente e selecione **Classificar em ordem crescente** ou **Classificar em ordem decrescente**.
 
 ## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
-Para obter informações sobre como usar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
+Para obter informações sobre como usar o painel Filtros, veja [Adicionar um filtro a um relatório](../create-reports/power-bi-report-add-filter.md).
 
 Para destacar uma área específica em seu gráfico, selecione essa área ou a respectiva borda superior.  Ao contrário de outros tipos de visualização, se houver outras visualizações na mesma página, destacar um gráfico de área básico não aplicará filtro cruzado às outras visualizações na página do relatório. No entanto, os gráficos de áreas são um alvo de filtragem cruzada acionado por outras visualizações na página do relatório. 
 
@@ -78,7 +78,7 @@ Para destacar uma área específica em seu gráfico, selecione essa área ou a r
 
     ![Exemplos de filtro](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-Para obter mais informações, consulte [Interações visuais em relatórios](../service-reports-visual-interactions.md)
+Para obter mais informações, consulte [Interações visuais em relatórios](../create-reports/service-reports-visual-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas   
@@ -87,4 +87,6 @@ Para obter mais informações, consulte [Interações visuais em relatórios](..
 
 ## <a name="next-step"></a>Próxima etapa
 [Relatórios no Power BI](power-bi-visualization-card.md)  
+
+
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: afc18fa33ec1612900cecc0a34eb50851804fb62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866876"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276687"
 ---
 # <a name="treemaps-in-power-bi"></a>Mapas de árvore no Power BI
 
@@ -120,10 +120,11 @@ Realçar uma **Categoria** ou **Detalhe** em um mapa de árvore filtra e destaca
 1. No gráfico de pizza das **Últimas vendas do ano por cadeia**, selecionar a fatia **Fashions Direct** realiza a filtragem cruzada de um mapa de árvore.
    ![Demonstração de GIF do recurso de filtragem cruzada.](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
-1. Para gerenciar como os gráficos são filtrados e realçados de forma cruzada entre si, veja [Alterar como os visuais interagem em um relatório do Power BI](../service-reports-visual-interactions.md).
+1. Para gerenciar como os gráficos são filtrados e realçados de forma cruzada entre si, veja [Alterar como os visuais interagem em um relatório do Power BI](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 
 * [Gráficos de cascata no Power BI](power-bi-visualization-waterfall-charts.md)
 
 * [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

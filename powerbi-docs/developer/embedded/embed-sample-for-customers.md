@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403819"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349829"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Inserir conteúdo do Power BI em um aplicativo para seus clientes
 
@@ -31,7 +31,7 @@ Neste tutorial, você aprenderá a:
 
 Para começar, você precisa ter:
 
-* Uma [conta Power BI Pro](../../service-self-service-signup-for-power-bi.md) (uma conta mestra que é um nome de usuário e senha para entrar em sua conta do Power BI Pro) ou uma [entidade de serviço (token somente de aplicativo)](embed-service-principal.md).
+* Uma [conta Power BI Pro](../../fundamentals/service-self-service-signup-for-power-bi.md) (uma conta mestra que é um nome de usuário e senha para entrar em sua conta do Power BI Pro) ou uma [entidade de serviço (token somente de aplicativo)](embed-service-principal.md).
 * Você precisa ter seu próprio [locatário do Azure Active Directory](create-an-azure-active-directory-tenant.md) configurado.
 
 Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
@@ -58,7 +58,7 @@ No entanto, se você continuar usando a entidade de serviço, precisará continu
 
 ### <a name="create-a-workspace"></a>Criar um workspace
 
-Se você estiver inserindo relatórios, dashboards ou blocos para seus clientes, precisará colocar o conteúdo dentro de um workspace. Há diferentes tipos de workspaces que você pode configurar: o [workspaces tradicionais](../../service-create-workspaces.md) ou o [novos workspaces](../../service-create-the-new-workspaces.md). Se você está usando uma conta *mestra*, não importa qual tipo de workspaces você usa. No entanto, se você usa *[entidade de serviço](embed-service-principal.md)* para entrar em seu aplicativo, é necessário que você use os novos workspaces. Em qualquer cenário, tanto a conta *mestra* quanto a *entidade de serviço* devem ser administradoras dos workspaces envolvidos com o seu aplicativo.
+Se você estiver inserindo relatórios, dashboards ou blocos para seus clientes, precisará colocar o conteúdo dentro de um workspace. Há diferentes tipos de workspaces que você pode configurar: o [workspaces tradicionais](../../collaborate-share/service-create-workspaces.md) ou o [novos workspaces](../../collaborate-share/service-create-the-new-workspaces.md). Se você está usando uma conta *mestra*, não importa qual tipo de workspaces você usa. No entanto, se você usa *[entidade de serviço](embed-service-principal.md)* para entrar em seu aplicativo, é necessário que você use os novos workspaces. Em qualquer cenário, tanto a conta *mestra* quanto a *entidade de serviço* devem ser administradoras dos workspaces envolvidos com o seu aplicativo.
 
 ### <a name="create-and-publish-your-reports"></a>Crie e publique seus relatórios
 
@@ -409,7 +409,7 @@ Agora que você terminou o desenvolvimento do seu aplicativo, é hora de conferi
 ### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
 
 Ao criar uma capacidade dedicada, é possível tirar proveito de um recurso dedicado para o seu cliente. Há dois tipos de capacidade dentre as quais você pode escolher:
-* **Power BI Premium** – uma assinatura do Office 356 de nível de locatário disponível em duas famílias de SKU, *EM* e *P*. Ao inserir conteúdo do Power BI, essa solução é conhecida como *inserção do Power BI*. Para obter mais informação sobre essa assinatura, consulte [o que é Power BI Premium?](../../service-premium-what-is.md)
+* **Power BI Premium** – uma assinatura do Office 356 de nível de locatário disponível em duas famílias de SKU, *EM* e *P*. Ao inserir conteúdo do Power BI, essa solução é conhecida como *inserção do Power BI*. Para obter mais informação sobre essa assinatura, consulte [o que é Power BI Premium?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** – é possível comprar uma capacidade dedicada no [portal do Microsoft Azure](https://portal.azure.com). Essa assinatura usa os SKUs *A*. Para obter detalhes sobre como criar uma capacidade do Power BI Embedded, veja [Criar capacidade do Power BI Embedded no portal do Azure](azure-pbie-create-capacity.md).
 > [!NOTE]
 > Com SKUs A, não é possível acessar o conteúdo do Power BI com uma licença gratuita do Power BI.

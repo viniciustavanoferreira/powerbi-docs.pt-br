@@ -21,7 +21,7 @@
             - name: Desabilitar atualização em segundo plano do Power Query
               href: power-query-background-refresh.md
             - name: Práticas recomendadas para fluxos de dados
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: Modelagem de dados
           items:
             - name: O que é um esquema em estrela?
@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: Relações um-para-um
               href: relationships-one-to-one.md
-            - name: Relações muitos para muitos
+            - name: Relacionamentos de muitos para muitos
               href: relationships-many-to-many.md
             - name: Relacionamentos ativos vs inativos
               href: relationships-active-inactive.md
@@ -88,7 +88,7 @@
               href: report-tips-shapes-images-icons.md
         - name: Relatórios paginados no Power BI
           items:
-            - name: Quando usar os relatórios paginados
+            - name: Quando usar relatórios paginados
               href: report-paginated-or-power-bi.md
             - name: Diretrizes de recuperação de dados
               href: report-paginated-data-retrieval.md

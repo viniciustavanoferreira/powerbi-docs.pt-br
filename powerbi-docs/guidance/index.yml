@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 2aba7eb9ff9fbd6941c84a9f3db10758724cdb0c
-  ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+  ms.openlocfilehash: 8ca7d8b2d4582b309d06363d0c6b87383e1b2550
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "82841569"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83273329"
 landingContent:
 - title: Diretrizes do Power BI
   linkLists:
@@ -40,7 +40,7 @@ landingContent:
     - text: Referenciar consultas do Power Query
       url: power-query-referenced-queries.md
     - text: Melhores práticas de fluxos de dados
-      url: ../service-dataflows-best-practices.md
+      url: ../transform-model/service-dataflows-best-practices.md
 - title: Modelagem de dados
   linkLists:
   - linkListType: concept
@@ -53,7 +53,7 @@ landingContent:
       url: auto-date-time.md
     - text: Relações um-para-um
       url: relationships-one-to-one.md
-    - text: Relações muitos para muitos
+    - text: Relacionamentos de muitos para muitos
       url: relationships-many-to-many.md
     - text: Relacionamentos ativos vs inativos
       url: relationships-active-inactive.md
@@ -113,7 +113,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: Quando usar os relatórios paginados
+    - text: Quando usar relatórios paginados
       url: report-paginated-or-power-bi.md
     - text: Diretrizes de recuperação de dados
       url: report-paginated-data-retrieval.md

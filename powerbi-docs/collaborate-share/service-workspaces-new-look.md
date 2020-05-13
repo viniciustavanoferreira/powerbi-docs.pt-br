@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638515"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347920"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Optar por usar a nova aparência para workspaces (versão prévia)
 
-Os workspaces têm uma nova aparência que corresponde à [nova aparência](../service-new-look.md) do serviço do Power BI. Qualquer pessoa usando o serviço do Power BI (app.powerbi.com) pode optar por usá-la. Quando você ativa a **Nova aparência** na barra de cabeçalho preta, você opta pela nova aparência de relatórios e workspaces. Todos os workspaces, tanto clássicos quanto novos, podem se beneficiar da nova aparência.
+Os workspaces têm uma nova aparência que corresponde à [nova aparência](../consumer/service-new-look.md) do serviço do Power BI. Qualquer pessoa usando o serviço do Power BI (app.powerbi.com) pode optar por usá-la. Quando você ativa a **Nova aparência** na barra de cabeçalho preta, você opta pela nova aparência de relatórios e workspaces. Todos os workspaces, tanto clássicos quanto novos, podem se beneficiar da nova aparência.
 
-Procurando informações sobre a nova aparência no **Power BI Desktop**? Confira [Usar a faixa de opções atualizada no Power BI Desktop](../desktop-ribbon.md).
+Procurando informações sobre a nova aparência no **Power BI Desktop**? Confira [Usar a faixa de opções atualizada no Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 ## <a name="features-of-the-new-look"></a>Recursos da nova aparência
 
@@ -50,7 +50,6 @@ Se você precisar retornar à aparência antiga, deslize o controle deslizante !
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Usar a faixa de opções atualizada no Power BI Desktop](../desktop-ribbon.md)
-- [A "nova aparência"' do serviço do Power BI](../service-new-look.md)
+- [Usar a faixa de opções atualizada no Power BI Desktop](../create-reports/desktop-ribbon.md)
+- [A "nova aparência"' do serviço do Power BI](../consumer/service-new-look.md)
 - Dúvidas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
-

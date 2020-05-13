@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675635"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349162"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Curso online: Relatórios paginados no Power BI em um dia
 
@@ -100,11 +100,11 @@ Recomendamos assistir ao curso online primeiro. Consulte a teoria da apresentaç
 Quando estiver pronto para iniciar o primeiro laboratório, abra o arquivo **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento descreverá como entrar no serviço do Power BI, carregar um conjunto de dados e instalar o [Power BI Report Builder](report-builder-power-bi.md).
 
 > [!NOTE]
-> Você é responsável por ter uma conta própria do Power BI. Caso ainda não tenha uma, confira [Inscrever-se no Power BI como um indivíduo](../service-self-service-signup-for-power-bi.md).
+> Você é responsável por ter uma conta própria do Power BI. Caso ainda não tenha uma, confira [Inscrever-se no Power BI como um indivíduo](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > Você precisará entrar no Power BI para publicar um arquivo do Power BI Desktop em um workspace. A publicação resulta em um conjunto de dados que é usado como uma fonte de dados do relatório. Você não precisa ter uma licença do Power BI Pro ou uma assinatura do Power BI Premium para usar um conjunto de dados como uma fonte de dados do relatório.
 >
-> Algumas tarefas de laboratório, no entanto, envolvem a publicação do relatório paginado em um workspace. Você só pode abrir um relatório paginado quando ele é salvo em um workspace em uma [capacidade dedicada](../service-premium-what-is.md#dedicated-capacities), que tem a carga de trabalho de relatórios paginados habilitada. Se você não tiver acesso a um workspace adequado, receberá um link para assistir a um vídeo que demonstra a publicação do relatório.
+> Algumas tarefas de laboratório, no entanto, envolvem a publicação do relatório paginado em um workspace. Você só pode abrir um relatório paginado quando ele é salvo em um workspace em uma [capacidade dedicada](../admin/service-premium-what-is.md#dedicated-capacities), que tem a carga de trabalho de relatórios paginados habilitada. Se você não tiver acesso a um workspace adequado, receberá um link para assistir a um vídeo que demonstra a publicação do relatório.
 
 ## <a name="instructor-kit"></a>Kit do instrutor
 

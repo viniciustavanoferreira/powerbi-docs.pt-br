@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922081"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348656"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Inserir dados diretamente em um relatório paginado no Construtor de Relatórios – Power BI
 
@@ -22,7 +22,7 @@ Neste artigo, você aprenderá sobre um recurso na nova versão do SQL Server 20
 ## <a name="prerequisites"></a>Pré-requisitos
 
 - Para inserir dados diretamente em um relatório paginado, instale a nova versão do [Construtor de Relatórios do Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Para salvar seu relatório paginado no serviço do Power BI, você precisa de uma [conta do Power BI Pro](../service-self-service-signup-for-power-bi.md) e acesso de gravação a um workspace em uma [capacidade do Power BI Premium](../service-premium-what-is.md).
+- Para salvar seu relatório paginado no serviço do Power BI, você precisa de uma [conta do Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) e acesso de gravação a um workspace em uma [capacidade do Power BI Premium](../admin/service-premium-what-is.md).
 - Para salvar seu relatório paginado em um servidor de relatório, você precisa de permissões para [editar o arquivo RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Começar

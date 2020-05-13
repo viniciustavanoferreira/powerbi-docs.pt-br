@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525389"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348196"
 ---
 # <a name="data-lineage"></a>Linhagem de dados
 Em projetos modernos de BI (business intelligence), entender o fluxo de dados da fonte de dados para o destino pode ser um desafio. O desafio será ainda maior se você tiver criado projetos analíticos avançados que abrangem uma variedade de fontes de dados, artefatos e dependências. Perguntas como "o que acontecerá se eu alterar esses dados?" ou "por que este relatório não está atualizado?" podem ser difíceis de responder. Elas podem exigir uma equipe de especialistas ou uma investigação profunda para serem entendidas. Desenvolvemos uma exibição de linhagem de dados para ajudar você a responder a essas perguntas.
@@ -88,9 +88,9 @@ A exibição de linhagem é uma tela interativa. Use o mouse e o touchpad para n
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-- A exibição de linhagem não está disponível no Internet Explorer. Confira [Navegadores compatíveis com o Power BI](../power-bi-browsers.md) para obter detalhes.
+- A exibição de linhagem não está disponível no Internet Explorer. Confira [Navegadores compatíveis com o Power BI](../fundamentals/power-bi-browsers.md) para obter detalhes.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [Introdução aos conjuntos de dados entre workspaces (versão prévia)](../service-datasets-across-workspaces.md)
+* [Introdução aos conjuntos de dados entre workspaces (versão prévia)](../connect-data/service-datasets-across-workspaces.md)
 * [Análise do impacto do conjunto de dados](service-dataset-impact-analysis.md)

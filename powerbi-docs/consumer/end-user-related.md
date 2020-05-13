@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3dcd968d00d98106a8b717e635b8a7fdf958dc70
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114371"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347322"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Exibir conteúdo relacionado no serviço do Power BI
 
@@ -47,12 +47,12 @@ O painel **Conteúdo relacionado** é aberto. Para um painel, ele mostra todos o
 
 ![Painel Conteúdo relacionado](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-Neste ponto, você pode controlar diretamente o conteúdo relacionado.  Por exemplo, selecione um nome de relatório ou de painel para abri-lo.  Para um relatório listado, selecione um ícone para [analisar no Excel](../service-analyze-in-excel.md) ou [obter insights](end-user-insights.md). Para um conjunto de dados, você pode ver a data e hora da última atualização, [analisar no Excel](../service-analyze-in-excel.md) e [obter insights](end-user-insights.md).  
+Neste ponto, você pode controlar diretamente o conteúdo relacionado.  Por exemplo, selecione um nome de relatório ou de painel para abri-lo.  Para um relatório listado, selecione um ícone para [analisar no Excel](../collaborate-share/service-analyze-in-excel.md) ou [obter insights](end-user-insights.md). Para um conjunto de dados, você pode ver a data e hora da última atualização, [analisar no Excel](../collaborate-share/service-analyze-in-excel.md) e [obter insights](end-user-insights.md).  
 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>Exibir o conteúdo relacionado de um conjunto de dados
-É preciso ter no mínimo permissões de *exibição* em um conjunto de dados para abrir o painel **Conteúdo relacionado**. Neste exemplo, estamos usando o [Exemplo de Análise de Compras](../sample-procurement.md).
+É preciso ter no mínimo permissões de *exibição* em um conjunto de dados para abrir o painel **Conteúdo relacionado**. Neste exemplo, estamos usando o [Exemplo de Análise de Compras](../create-reports/sample-procurement.md).
 
 No painel de navegação, localize o cabeçalho **Workspaces** e selecione um workspace na lista. Se houver algum conteúdo em um workspace, ele será exibido na tela à direita. 
 
@@ -67,7 +67,7 @@ Selecione o ícone para abrir o painel **Conteúdo relacionado**.
 
 ![O painel de conteúdo relacionado abre na parte superior da exibição de conteúdo do Power BI](media/end-user-related/power-bi-dataset.png)
 
-Neste ponto, você pode controlar diretamente o conteúdo relacionado. Por exemplo, selecione um nome de dashboard ou de relatório para abri-lo.  Em qualquer painel da lista, selecione um ícone para [compartilhar o painel com outras pessoas](../service-share-dashboards.md) ou abrir a janela **Configurações** do painel. Para relatórios, selecione um ícone para [analisar no Excel](../service-analyze-in-excel.md), [renomear](../service-rename.md) ou [obter insights](end-user-insights.md).  
+Neste ponto, você pode controlar diretamente o conteúdo relacionado. Por exemplo, selecione um nome de dashboard ou de relatório para abri-lo.  Em qualquer painel da lista, selecione um ícone para [compartilhar o painel com outras pessoas](../collaborate-share/service-share-dashboards.md) ou abrir a janela **Configurações** do painel. Para relatórios, selecione um ícone para [analisar no Excel](../collaborate-share/service-analyze-in-excel.md), [renomear](../create-reports/service-rename.md) ou [obter insights](end-user-insights.md).  
 
 ## <a name="limitations-and-troubleshooting"></a>Limitações e solução de problemas
 * Se você não vir "Exibição relacionada", procure pelo ícone ![ícone Exibição relacionada](./media/end-user-related/power-bi-view-related-icon-new.png). Selecione o ícone para abrir o painel **Conteúdo relacionado**.
@@ -75,6 +75,5 @@ Neste ponto, você pode controlar diretamente o conteúdo relacionado. Por exemp
 * O recurso Conteúdo relacionado não funciona em conjuntos de dados de streaming.
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Introdução ao serviço do Power BI](../service-get-started.md)
+* [Introdução ao serviço do Power BI](../fundamentals/service-get-started.md)
 * Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 811e0513c1b4a16a731e6d9bd90cbc0689ca76e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496467"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279769"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Altere como um gráfico é classificado em um relatório do Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "77496467"
 
 
 > [!IMPORTANT]
-> **Este artigo é destinado a usuários do Power BI que não têm permissões de edição no relatório ou no conjunto de dados e que trabalham apenas na versão online do Power BI (o serviço do Power BI). Se você é um *designer* de relatórios, *administrador* ou *proprietário*, este artigo pode não ter todas as informações de que você precisa. Como alternativa, leia [Classificar por coluna no Power BI Desktop](../desktop-sort-by-column.md)** .
+> **Este artigo é destinado a usuários do Power BI que não têm permissões de edição no relatório ou no conjunto de dados e que trabalham apenas na versão online do Power BI (o serviço do Power BI). Se você é um *designer* de relatórios, *administrador* ou *proprietário*, este artigo pode não ter todas as informações de que você precisa. Como alternativa, leia [Classificar por coluna no Power BI Desktop](../create-reports/desktop-sort-by-column.md)** .
 
 No serviço do Power BI, é possível alterar a aparência de um visual classificando-o por diferentes campos de dados. Ao alterar a maneira como você classifica um visual, é possível realçar as informações que você deseja transmitir. Se estiver usando dados numéricos (como valores de vendas) ou dados de texto (como nomes de estado), você pode classificar suas visualizações da forma que quiser. O Power BI oferece muita flexibilidade para a classificação e menus rápidos para você usar. 
 
@@ -69,7 +69,7 @@ Somente a pessoa que projetou o relatório pode fazer essas alterações para vo
 
 ![Lista suspensa mostrando as informações de contato](media/end-user-change-sort/power-bi-contact.png)
 
-Se você é um *designer* e tem permissões de edição de conteúdo, leia [Classificar por coluna no Power BI Desktop](../desktop-sort-by-column.md) para saber como atualizar o conjunto de dados e habilitar esse tipo de classificação.
+Se você é um *designer* e tem permissões de edição de conteúdo, leia [Classificar por coluna no Power BI Desktop](../create-reports/desktop-sort-by-column.md) para saber como atualizar o conjunto de dados e habilitar esse tipo de classificação.
 
 ## <a name="next-steps"></a>Próximas etapas
 Mais sobre [Visualizações nos relatórios do Power BI](end-user-visualizations.md).

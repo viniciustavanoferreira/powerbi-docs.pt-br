@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75304181"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279562"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: Função DIVIDE versus operador dividir (/)
 
@@ -58,7 +58,7 @@ Recomendamos que você use a função DIVIDE sempre que o denominador for uma ex
 
 No caso de o denominador ser um valor constante, recomendamos usar o operador de divisão. Neste caso, a divisão tem sucesso garantido e sua expressão terá um desempenho melhor porque evitará testes desnecessários.
 
-Considere cuidadosamente se a função DIVIDE deve retornar um valor alternativo. Para medidas, geralmente é um design melhor que elas retornam EM BRANCO. Retornar EM BRANCO é melhor porque os visuais de relatório eliminam, por padrão, os agrupamentos quando os resumos estão EM BRANCO. Isso permite que o visual se concentre em grupos nos quais existem dados. Quando necessário, você pode configurar o visual para exibir todos os grupos (que retornam valores ou BLANK) no contexto de filtro habilitando a opção [Mostrar itens sem dados](../desktop-show-items-no-data.md).
+Considere cuidadosamente se a função DIVIDE deve retornar um valor alternativo. Para medidas, geralmente é um design melhor que elas retornam EM BRANCO. Retornar EM BRANCO é melhor porque os visuais de relatório eliminam, por padrão, os agrupamentos quando os resumos estão EM BRANCO. Isso permite que o visual se concentre em grupos nos quais existem dados. Quando necessário, você pode configurar o visual para exibir todos os grupos (que retornam valores ou BLANK) no contexto de filtro habilitando a opção [Mostrar itens sem dados](../create-reports/desktop-show-items-no-data.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 
@@ -66,3 +66,4 @@ Para obter mais informações sobre este artigo, confira os seguintes recursos:
 
 - [Referência do DAX (Data Analysis Expressions)](/dax/)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+

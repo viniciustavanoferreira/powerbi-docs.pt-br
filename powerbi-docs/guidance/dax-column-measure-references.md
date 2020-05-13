@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498727"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279608"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Referências de coluna e de medida
 
@@ -43,7 +43,7 @@ Recomendamos que você sempre qualifique totalmente suas referências de coluna.
 
 ## <a name="measures"></a>Medidas
 
-Uma medida é um objeto de nível de modelo. Por esse motivo, os nomes de medidas devem ser exclusivos no modelo. No entanto, no painel **Campos**, os autores de relatório verão cada medida associada a uma única tabela de modelo. Essa associação é definida por motivos superficiais e você pode configurá-la definindo a propriedade **Tabela Inicial** para a medida. Para obter mais informações, confira [Medidas no Power BI Desktop (organizando suas medidas)](../desktop-measures.md#organizing-your-measures).
+Uma medida é um objeto de nível de modelo. Por esse motivo, os nomes de medidas devem ser exclusivos no modelo. No entanto, no painel **Campos**, os autores de relatório verão cada medida associada a uma única tabela de modelo. Essa associação é definida por motivos superficiais e você pode configurá-la definindo a propriedade **Tabela Inicial** para a medida. Para obter mais informações, confira [Medidas no Power BI Desktop (organizando suas medidas)](../transform-model/desktop-measures.md#organizing-your-measures).
 
 É possível usar uma medida totalmente qualificada em suas expressões. O IntelliSense do DAX oferecerá até mesmo a sugestão de fazê-lo. No entanto, isso não é necessário e não é uma prática recomendada. Se você alterar a tabela inicial de uma medida, qualquer expressão que usar uma referência de medida totalmente qualificada para ela será interrompida. Em seguida, você precisará editar cada fórmula quebrada para remover (ou atualizar) a referência de medida.
 
@@ -68,3 +68,4 @@ Para obter mais informações sobre este artigo, confira os seguintes recursos:
 
 - [Referência do DAX (Data Analysis Expressions)](/dax/)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+

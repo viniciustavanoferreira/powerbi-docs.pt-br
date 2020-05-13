@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487799"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279746"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Diretrizes de configuração do administrador de locatários
 
@@ -21,7 +21,7 @@ Este artigo se destina a administradores do Power BI responsáveis por instalar 
 
 Fornecemos diretrizes relacionadas a configurações específicas do locatário que ajudam a aprimorar a experiência do Power BI ou que poderiam expor a organização a riscos. Recomendamos que você sempre configure o locatário de maneira alinhada às políticas e aos processos da organização.
 
-As [configurações de locatário](../service-admin-portal.md#tenant-settings) são gerenciadas no [Portal de administração](https://app.powerbi.com/admin-portal/tenantSettings) e podem ser definidas por um [Administrador de serviços do Power BI](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Muitas configurações de locatário podem restringir as funcionalidades e os recursos a um conjunto limitado de usuários. Sendo assim, recomendamos que primeiro você se familiarize com as configurações para planejar os grupos de segurança de que precisará. Você poderá descobrir que pode aplicar o mesmo grupo de segurança a várias configurações.
+As [configurações de locatário](../admin/service-admin-portal.md#tenant-settings) são gerenciadas no [Portal de administração](https://app.powerbi.com/admin-portal/tenantSettings) e podem ser definidas por um [Administrador de serviços do Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Muitas configurações de locatário podem restringir as funcionalidades e os recursos a um conjunto limitado de usuários. Sendo assim, recomendamos que primeiro você se familiarize com as configurações para planejar os grupos de segurança de que precisará. Você poderá descobrir que pode aplicar o mesmo grupo de segurança a várias configurações.
 
 ## <a name="improve-power-bi-experience"></a>Aprimorar a experiência do Power BI
 
@@ -88,7 +88,7 @@ Recomendamos atribuir um ou mais grupos de segurança. A esses grupos pode ser c
 
 ### <a name="publish-to-web"></a>Publicar na Web
 
-O recurso [publicar na Web](../service-publish-to-web.md) permite publicar relatórios públicos na Web. Se usado de modo inadequado, há um risco de divulgação das informações confidenciais na Web.
+O recurso [publicar na Web](../collaborate-share/service-publish-to-web.md) permite publicar relatórios públicos na Web. Se usado de modo inadequado, há um risco de divulgação das informações confidenciais na Web.
 
 A configuração **Publicar na Web** fica habilitada por padrão para toda a organização, mas restringe a capacidade de usuários não administradores criarem códigos de inserção. Ela é encontrada no grupo **Configurações de exportação e compartilhamento**.
 
@@ -109,7 +109,7 @@ A configuração **Exportar dados** fica habilitada por padrão para toda a orga
 Recomendamos atribuir um ou mais grupos de segurança. A esses grupos pode ser concedida _ou negada_ a permissão para publicar relatórios.
 
 > [!IMPORTANT]
-> Desabilitar essa configuração também restringe o uso dos recursos [Analisar no Excel](../service-analyze-in-excel.md) e [conexão dinâmica](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) do serviço do Power BI.
+> Desabilitar essa configuração também restringe o uso dos recursos [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md) e [conexão dinâmica](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) do serviço do Power BI.
 
 ![A configuração "Exportar dados" é mostrada.](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ Recomendamos atribuir um ou mais grupos de segurança. A esses grupos pode ser c
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir que os usuários externos convidados editem e gerenciem o conteúdo da organização
 
-É possível que usuários convidados externos editem e gerenciem conteúdo do Power BI. Para obter mais informações, veja [Distribuição do conteúdo do Power BI para usuários convidados externos com o Azure AD B2B](../service-admin-azure-ad-b2b.md).
+É possível que usuários convidados externos editem e gerenciem conteúdo do Power BI. Para obter mais informações, veja [Distribuição do conteúdo do Power BI para usuários convidados externos com o Azure AD B2B](../admin/service-admin-azure-ad-b2b.md).
 
 A configuração **Permitir que os usuários convidados externos editem e gerenciem o conteúdo da organização** fica desabilitada por padrão para toda a organização. Ela é encontrada no grupo **Configurações de exportação e compartilhamento**.
 
@@ -141,7 +141,8 @@ Se você não tem intenção de usar as APIs de desenvolvedor para inserir conte
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [O que é administração do Power BI?](../service-admin-administering-power-bi-in-your-organization.md)
-- [Como administrar o Power BI no portal de administração](../service-admin-portal.md)
+- [O que é administração do Power BI?](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [Como administrar o Power BI no portal de administração](../admin/service-admin-portal.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com)
+

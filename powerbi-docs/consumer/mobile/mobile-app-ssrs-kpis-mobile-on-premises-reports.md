@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220005"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278849"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Exibir KPIs e relatórios locais do servidor de relatório nos aplicativos móveis do Power BI
 
@@ -107,7 +107,7 @@ Relatórios do Power BI, relatórios móveis do Reporting Services e KPIs são e
   > Fazer drill down e up não está habilitado nos relatórios do Power BI em um Servidor de Relatórios do Power BI.
   
     ![Relatório do Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* No Power BI Desktop, os proprietários de relatório podem [otimizar um relatório](../../desktop-create-phone-report.md) para os aplicativos móveis do Power BI. Em seu telefone celular, os relatórios otimizados têm um ícone especial chamado ![Ícone de relatório otimizado do Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) e um layout.
+* No Power BI Desktop, os proprietários de relatório podem [otimizar um relatório](../../create-reports/desktop-create-phone-report.md) para os aplicativos móveis do Power BI. Em seu telefone celular, os relatórios otimizados têm um ícone especial chamado ![Ícone de relatório otimizado do Power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) e um layout.
   
     ![Relatório do Power BI otimizado para dispositivos móveis](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * Toque em um KPI para vê-lo no modo de foco.
@@ -133,4 +133,3 @@ Relatórios do Power BI, relatórios móveis do Reporting Services e KPIs são e
 ## <a name="next-steps"></a>Próximas etapas
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)  
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

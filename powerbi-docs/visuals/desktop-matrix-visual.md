@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866577"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279171"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -62,7 +62,7 @@ O estado de expansão da matriz será salvo com o seu relatório. Uma matriz pod
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Se você estiver criando um relatório sobre um modelo multidimensional do Analysis Services, haverá algumas considerações especiais para expandir/recolher se o modelo usar o recurso de membro padrão. Para obter mais informações, confira [Trabalhar com modelos multidimensionais no Power BI](../desktop-default-member-multidimensional-models.md)
+> Se você estiver criando um relatório sobre um modelo multidimensional do Analysis Services, haverá algumas considerações especiais para expandir/recolher se o modelo usar o recurso de membro padrão. Para obter mais informações, confira [Trabalhar com modelos multidimensionais no Power BI](../connect-data/desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Como usar drill down com o visual de matriz
 Com o visual de matriz, é possível realizar todos os tipos de atividade de drill down interessantes que antes não estavam disponíveis. Isso inclui a capacidade de fazer drill down usando linhas, colunas e até mesmo células e seções individuais. Vamos dar uma olhada em como cada uma delas funciona.
@@ -211,7 +211,7 @@ Se você tiver uma coluna ou uma medida que contenha URLs de site, use a formata
 
 Ative a **URL da Web** e selecione um campo para usar como URL da coluna. Depois de aplicados, os valores nesse campo (coluna) se tornam links ativos. Passe o mouse para ver o link e selecione a página para a qual você quer ir. 
 
-Para mais informações, confira [Formatação condicional da tabela](../desktop-conditional-table-formatting.md)
+Para mais informações, confira [Formatação condicional da tabela](../create-reports/desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Sombreamento e cores da fonte com visuais de matriz
 Com o visual de matriz, você pode aplicar a formatação condicional (cores e sombreamento e barras de dados) ao plano de fundo das células na matriz, bem como pode aplicar formatação condicional aos próprios valores e texto.
@@ -233,3 +233,5 @@ Selecione *Controles avançados* para exibir uma caixa de diálogo que permite f
 [Visual do Power Apps para Power BI](power-bi-visualization-powerapp.md)
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

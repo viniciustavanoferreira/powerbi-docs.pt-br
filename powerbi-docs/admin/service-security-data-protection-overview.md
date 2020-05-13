@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637599"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83132052"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Proteção de dados no Power BI (versão prévia)
 
@@ -113,6 +113,6 @@ A lista a seguir fornece algumas limitações dos rótulos de confidencialidade 
 Este artigo forneceu uma visão geral da proteção de dados no Power BI. Os artigos a seguir fornecem mais detalhes sobre a proteção de dados no Power BI. 
 
 * [Habilitar rótulos de confidencialidade de dados no Power BI](service-security-enable-data-sensitivity-labels.md)
-* [Aplicar rótulos de confidencialidade de dados no Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Aplicar rótulos de confidencialidade de dados no Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Usando controles do Microsoft Cloud App Security no Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Relatório de métricas de proteção de dados](service-security-data-protection-metrics-report.md)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 639999044da94c3f31abdf63737a876b63dc83c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065929"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278895"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Dicas para classificar e distribuir gráficos de dados nos relatórios do Power BI
 
@@ -42,7 +42,8 @@ Em resumo, as nove dicas mais importantes para classificar e distribuir gráfico
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Dicas para criar relatórios impressionantes](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Dicas para criar relatórios impressionantes](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - Vídeo do biDezine: [As nove dicas mais importantes para classificar e distribuir gráficos de dados no Power BI](https://www.youtube.com/watch?v=BnhA4qa-9Jk)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)
+

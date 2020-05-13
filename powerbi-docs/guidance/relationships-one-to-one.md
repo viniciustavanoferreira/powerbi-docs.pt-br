@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263796"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278251"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Diretrizes de relação um-para-um
 
@@ -99,7 +99,7 @@ Quando possível, recomendamos que você evite criar relações de modelo um-par
 - Limitar a capacidade de criar hierarquias, pois seus níveis devem ser baseados em colunas da _mesma tabela_
 - Gerar resultados inesperados quando não houver uma correspondência completa de linhas entre as tabelas
 
-As recomendações específicas diferem dependendo se a relação um-para-um é _intrailha_ ou _entre ilhas_. Para obter mais informações sobre a avaliação de relação, confira [Relações de modelo no Power BI Desktop (avaliação de relação)](../desktop-relationships-understand.md#relationship-evaluation).
+As recomendações específicas diferem dependendo se a relação um-para-um é _intrailha_ ou _entre ilhas_. Para obter mais informações sobre a avaliação de relação, confira [Relações de modelo no Power BI Desktop (avaliação de relação)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ### <a name="intra-island-one-to-one-relationship"></a>Relação um-para-um intrailha
 
@@ -107,7 +107,7 @@ Quando existe uma relação um-para-um _intrailha_ entre as tabelas, é recomend
 
 As etapas a seguir apresentam uma metodologia para consolidar e modelar os dados com relação um-para-um:
 
-1. **Mesclar consultas**: ao [combinar as duas consultas](../desktop-shape-and-combine-data.md#combine-queries), considere a integridade dos dados em cada consulta. Se uma consulta contiver um conjunto completo de linhas (como uma lista mestra), mescle a outra consulta com ela. Configure a transformação de mesclagem para usar uma _junção externa esquerda_, que é o tipo de junção padrão. Esse tipo de junção garante que você mantenha todas as linhas da primeira consulta e as complete com as linhas correspondentes da segunda consulta. Expanda todas as colunas necessárias da segunda consulta na primeira consulta.
+1. **Mesclar consultas**: ao [combinar as duas consultas](../connect-data/desktop-shape-and-combine-data.md#combine-queries), considere a integridade dos dados em cada consulta. Se uma consulta contiver um conjunto completo de linhas (como uma lista mestra), mescle a outra consulta com ela. Configure a transformação de mesclagem para usar uma _junção externa esquerda_, que é o tipo de junção padrão. Esse tipo de junção garante que você mantenha todas as linhas da primeira consulta e as complete com as linhas correspondentes da segunda consulta. Expanda todas as colunas necessárias da segunda consulta na primeira consulta.
 2. **Desabilitar o carregamento de consulta**: certifique-se de [desabilitar o carregamento](import-modeling-data-reduction.md#disable-power-query-query-load) da segunda consulta. Dessa forma, não haverá o carregamento de seu resultado como uma tabela de modelo. Essa configuração reduz o tamanho do armazenamento do modelo de dados e ajuda a organizar o painel **Campos**.
 
     Em nosso exemplo, os autores de relatório agora encontram uma única tabela chamada **Product** no painel **Campos**. Contém todos os campos relacionados ao produto.
@@ -131,11 +131,11 @@ Em nosso exemplo, os autores de relatório podem encontrar o campo **Category** 
 
 ![O painel Campos mostra o campo Category em uma pasta de exibição chamada Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Se você ainda decidir definir relações um-para-um intrailha em seu modelo, quando possível, verifique se há linhas correspondentes nas tabelas relacionadas. Como uma relação um-para-um intrailha é avaliada como [relação forte](../desktop-relationships-understand.md#strong-relationships), problemas de integridade de dados podem surgir nos visuais do relatório como valores em BRANCO. (Você pode ver um exemplo de um agrupamento EM BRANCO no primeiro visual da tabela apresentada neste artigo.)
+Se você ainda decidir definir relações um-para-um intrailha em seu modelo, quando possível, verifique se há linhas correspondentes nas tabelas relacionadas. Como uma relação um-para-um intrailha é avaliada como [relação forte](../transform-model/desktop-relationships-understand.md#strong-relationships), problemas de integridade de dados podem surgir nos visuais do relatório como valores em BRANCO. (Você pode ver um exemplo de um agrupamento EM BRANCO no primeiro visual da tabela apresentada neste artigo.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>Relação um-para-um entre ilhas
 
-Quando existe uma relação um-para-um _entre ilhas_ entre tabelas, não há design de modelo alternativo, a menos que você pré-consolide os dados em suas fontes de dados. O Power BI avaliará a relação de modelo um-para-um como uma [relação fraca](../desktop-relationships-understand.md#weak-relationships). Portanto, garanta que haja linhas correspondentes nas tabelas relacionadas, pois as linhas não correspondentes serão eliminadas dos resultados da consulta.
+Quando existe uma relação um-para-um _entre ilhas_ entre tabelas, não há design de modelo alternativo, a menos que você pré-consolide os dados em suas fontes de dados. O Power BI avaliará a relação de modelo um-para-um como uma [relação fraca](../transform-model/desktop-relationships-understand.md#weak-relationships). Portanto, garanta que haja linhas correspondentes nas tabelas relacionadas, pois as linhas não correspondentes serão eliminadas dos resultados da consulta.
 
 Vejamos o que acontece quando os campos de ambas as tabelas são adicionados a um visual de tabela e existe uma relação fraca entre as tabelas.
 
@@ -147,7 +147,7 @@ A tabela exibe somente duas linhas. A SKU do produto RO-02 está ausente porque 
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Modelar relações no Power BI Desktop](../desktop-relationships-understand.md)
+- [Modelar relações no Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Entender o esquema em estrela e a importância para o Power BI](star-schema.md)
 - [Diretrizes da solução de problemas de relação](relationships-troubleshoot.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

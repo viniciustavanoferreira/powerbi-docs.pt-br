@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31a899001b5a821a38a3de01db0357c26f2e58dc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205494"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149199"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotar e compartilhar um bloco, relatório ou visual nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -28,7 +28,7 @@ Aplica-se a:
 
 *Um relatório com anotações*
 
-O email com o instantâneo do bloco, relatório ou visual também inclui um link para o objeto real no serviço do Power BI ([https://powerbi.com](https://powerbi.com)). Se você e seus destinatários tiverem licenças do Power BI Pro ou se o conteúdo estiver em uma [capacidade Premium](../../service-premium-what-is.md) e você já tiver compartilhado um item com eles, eles poderão clicar no link e ir diretamente para o bloco, relatório ou visual. 
+O email com o instantâneo do bloco, relatório ou visual também inclui um link para o objeto real no serviço do Power BI ([https://powerbi.com](https://powerbi.com)). Se você e seus destinatários tiverem licenças do Power BI Pro ou se o conteúdo estiver em uma [capacidade Premium](../../admin/service-premium-what-is.md) e você já tiver compartilhado um item com eles, eles poderão clicar no link e ir diretamente para o bloco, relatório ou visual. 
 
 Você também pode [compartilhar um bloco do aplicativo móvel do Power BI para dispositivos Windows 10](mobile-windows-10-phone-app-get-started.md), mas não pode anotá-los.
 
@@ -74,4 +74,3 @@ Você também pode [compartilhar um bloco do aplicativo móvel do Power BI para 
 ## <a name="next-steps"></a>Próximas etapas
 * [Compartilhar um dashboard dos aplicativos móveis do Power BI](mobile-share-dashboard-from-the-mobile-apps.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 007f91a0f220ce7482600ac284336a3ac1cbfa0f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7e8526e5e8acf45afe125495cf8eca4628b70a06
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065491"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278872"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>Dicas para otimizar cores de visuais nos relatórios do Power BI
 
@@ -41,7 +41,8 @@ Em resumo, as oito dicas principais para otimizar as cores de visuais em relató
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Dicas para criar relatórios impressionantes](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Dicas para criar relatórios impressionantes](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - Vídeo do biDezine: [Oito principais dicas para otimizar cores de visuais no Power BI](https://www.youtube.com/watch?v=RhYcEsdPqJg)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com)
+

@@ -4,22 +4,24 @@ description: Visão geral de visualizações (visuais) de relatório no Microsof
 author: mihart
 ms.author: mihart
 ms.reviewer: ''
-featuredvideoid: SYk_gWrtKvM
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 65a6ab132cccc56d96f5ac22fef5d80f59f96ca9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381458"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277538"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizações em relatórios do Power BI
 
-Visualizações (também conhecidas como visuais) exibem insights que foram descobertos nos dados. Um relatório do Power BI pode ter uma única página com um visual ou então páginas repletas de visuais. No serviço do Power BI, os visuais podem ser [fixados dos relatórios nos dashboards](../service-dashboard-pin-tile-from-report.md).
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
+Visualizações (também conhecidas como visuais) exibem insights que foram descobertos nos dados. Um relatório do Power BI pode ter uma única página com um visual ou então páginas repletas de visuais. No serviço do Power BI, os visuais podem ser [fixados dos relatórios nos dashboards](../create-reports/service-dashboard-pin-tile-from-report.md).
 
 É importante fazer a distinção entre *designers* de relatórios e *consumidores* de relatórios.  Se estiver criando ou modificando o relatório, você será um designer.  Designers têm permissões de edição para o relatório e para o respectivo conjunto de dados subjacente. No Power BI Desktop, isso significa que você pode abrir o conjunto de dados no modo de exibição de dados e criar elementos visuais no modo de exibição de Relatório. No serviço do Power BI, isso significa que você pode abrir o relatório ou conjunto de dados no editor de relatório no [Modo de Exibição de Edição](../consumer/end-user-reading-view.md). Se um relatório ou dashboard foi [compartilhado com você](../consumer/end-user-shared-with-me.md), você é um *consumidor* de relatório. Você poderá exibir e interagir com o relatório e os respectivos visuais, mas não poderá fazer tantas alterações quanto um *designer*.
 
@@ -28,9 +30,6 @@ Há muitos tipos de visual diferentes disponíveis diretamente no painel Visuali
 ![painel com ícones para cada tipo de visualização](media/power-bi-report-visualizations/power-bi-icons.png)
 
 Para ainda mais opções, visite o [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com) para localizar e [baixar](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [visuais do Power BI](../developer/visuals/custom-visual-develop-tutorial.md) fornecidos pela Microsoft e pela comunidade.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
-
 
 Se você não estiver familiarizado com o Power BI ou precisar de um lembrete, use os links abaixo para aprender os fundamentos de visualizações de Power BI.  Como alternativa, use o Sumário (no lado esquerdo deste artigo) para encontrar informações ainda mais úteis.
 
@@ -60,7 +59,7 @@ Tente [alterar o tipo de visualização](power-bi-report-change-visualization-ty
 
 ## <a name="pin-the-visualization"></a>Fixe a visualização
 
-No serviço do Power BI, quando a visualização estiver da forma que deseja, é possível [fixá-la em um dashboard](../service-dashboard-pin-tile-from-report.md) como um bloco. Se você alterar a visualização usada no relatório depois de fixá-lo, o bloco no dashboard não será alterado – se fosse um gráfico de linhas, ele permaneceria um gráfico de linhas, mesmo que você o alterasse para um gráfico de rosca no relatório.
+No serviço do Power BI, quando a visualização estiver da forma que deseja, é possível [fixá-la em um dashboard](../create-reports/service-dashboard-pin-tile-from-report.md) como um bloco. Se você alterar a visualização usada no relatório depois de fixá-lo, o bloco no dashboard não será alterado – se fosse um gráfico de linhas, ele permaneceria um gráfico de linhas, mesmo que você o alterasse para um gráfico de rosca no relatório.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 - Dependendo da fonte de dados e do número de campos (medidas ou colunas), um visual pode ser carregado lentamente.  É recomendável limitar os visuais para 10 a 20 campos no total, por motivos de desempenho e legibilidade. 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260430"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278320"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Diretrizes de relação muitos para muitos
 
@@ -161,7 +161,7 @@ O visual fornece um resultado preciso. No entanto, a utilidade do modelo é limi
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Diretrizes para relacionar fatos muitos-para-muitos
 
-Em geral, não recomendamos relacionar duas tabelas de tipo de fato diretamente usando a cardinalidade muitos-para-muitos. O principal motivo é que o modelo não fornecerá flexibilidade para as maneiras em que seus visuais de relatório filtrarão ou agruparão. No exemplo, só é possível que os visuais filtrem ou agrupem pela coluna **OrderID** da tabela **Ordem**. Um motivo adicional está relacionado à qualidade de seus dados. Se seus dados tiverem problemas de integridade, algumas linhas poderão ser omitidas durante a consulta devido à natureza da _relação fraca_. Para saber mais, confira [Relações de modelo no Power BI Desktop (avaliação de relações)](../desktop-relationships-understand.md#relationship-evaluation).
+Em geral, não recomendamos relacionar duas tabelas de tipo de fato diretamente usando a cardinalidade muitos-para-muitos. O principal motivo é que o modelo não fornecerá flexibilidade para as maneiras em que seus visuais de relatório filtrarão ou agruparão. No exemplo, só é possível que os visuais filtrem ou agrupem pela coluna **OrderID** da tabela **Ordem**. Um motivo adicional está relacionado à qualidade de seus dados. Se seus dados tiverem problemas de integridade, algumas linhas poderão ser omitidas durante a consulta devido à natureza da _relação fraca_. Para saber mais, confira [Relações de modelo no Power BI Desktop (avaliação de relações)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 Em vez de relacionar as tabelas de tipo de fato diretamente, recomendamos que você adote princípios de design de [esquema em estrela](star-schema.md). Você faz isso adicionando tabelas de tipo de dimensão. As tabelas de tipo de dimensão se relacionam então às tabelas de tipo de fato usando relações um-para-muitos. Essa abordagem de design é robusta, pois fornece opções de relatório flexíveis. Ele permite filtrar ou agrupar usando qualquer uma das colunas de tipo de dimensão e resumir qualquer tabela de tipo de fato relacionada.
 
@@ -184,7 +184,7 @@ Dedicar o tempo necessário para aplicação de princípios de design de esquema
 - Seus visuais de relatório podem _filtrar ou agrupar_ por qualquer coluna visível das tabelas de tipo de dimensão
 - Seus visuais de relatório podem _resumir_ qualquer coluna visível das tabelas de tipo de fato
 - Filtros aplicados às tabelas **OrderLine**, **OrderDate** ou **Produto** serão propagados para ambas as tabelas de tipo de fato
-- Todas as relações são um-para-muitos e cada relação é uma _relação forte_. Eventuais problemas de integridade de dados não serão mascarados. Para saber mais, confira [Relações de modelo no Power BI Desktop (avaliação de relações)](../desktop-relationships-understand.md#relationship-evaluation).
+- Todas as relações são um-para-muitos e cada relação é uma _relação forte_. Eventuais problemas de integridade de dados não serão mascarados. Para saber mais, confira [Relações de modelo no Power BI Desktop (avaliação de relações)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Relacionar fatos com granulação mais alta
 
@@ -209,7 +209,7 @@ Uma relação entre as tabelas **Data** e **Destino** devem ser uma relação um
 
 É preciso ter cuidado para garantir que os filtros de nível de mês ou de data produzam um resultado significativo. Sem nenhuma lógica especial de cálculo, os visuais de relatório podem relatar que as datas de destino são literalmente o primeiro dia de cada ano. Todos os outros dias, bem como todos os meses, exceto janeiro, resumirão a quantidade de destino como BLANK.
 
-O visual de matriz a seguir mostra o que acontece quando o usuário do relatório faz um detalhamento de um ano para os respectivos meses. O visual está resumindo a coluna **TargetQuantity**. (A opção [Mostrar itens sem dados](../desktop-show-items-no-data.md) foi habilitada para as linhas de matriz.)
+O visual de matriz a seguir mostra o que acontece quando o usuário do relatório faz um detalhamento de um ano para os respectivos meses. O visual está resumindo a coluna **TargetQuantity**. (A opção [Mostrar itens sem dados](../create-reports/desktop-show-items-no-data.md) foi habilitada para as linhas de matriz.)
 
 ![Um visual de matriz revela a quantidade de destino do ano de 2020 como 270. Quando expandido para revelar os meses de 2020, janeiro equivale a 270 e todas as outras quantidades de destino no nível do mês equivalem a BLANK.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ Quando você precisa relacionar uma tabela de tipo de dimensão a uma tabela de 
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Modelar relações no Power BI Desktop](../desktop-relationships-understand.md)
+- [Modelar relações no Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Entender o esquema em estrela e a importância para o Power BI](star-schema.md)
 - [Diretrizes da solução de problemas de relação](relationships-troubleshoot.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

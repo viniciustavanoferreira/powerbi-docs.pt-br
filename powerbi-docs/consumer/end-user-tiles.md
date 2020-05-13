@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0481a09aaeac4f6c76c49d3a816ac880cdb9d60b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e82c82430b42874e512265b9dae113b86925a51d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114064"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273260"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Blocos de painel no Power BI
 
@@ -69,7 +69,7 @@ Precisa de ajuda para compreender os blocos de construção que compõem o Power
 3. Para fechar o menu de ação, selecione uma área em branco na tela.
 
 ### <a name="select-click-a-tile"></a>Selecionar (clicar em) um bloco
-Quando você seleciona um bloco, o que acontece em seguida depende de como o bloco foi criado e se ele tem um [link personalizado](../service-dashboard-edit-tile.md). Se ele tiver um link personalizado, a seleção do bloco levará você para esse link. Caso contrário, selecionar o bloco leva você para o relatório, pasta de trabalho do Excel Online, relatório SSRS local ou P & R que foi usada para criar o bloco.
+Quando você seleciona um bloco, o que acontece em seguida depende de como o bloco foi criado e se ele tem um [link personalizado](../create-reports/service-dashboard-edit-tile.md). Se ele tiver um link personalizado, a seleção do bloco levará você para esse link. Caso contrário, selecionar o bloco leva você para o relatório, pasta de trabalho do Excel Online, relatório SSRS local ou P & R que foi usada para criar o bloco.
 
 > [!NOTE]
 > Os blocos de vídeo criados diretamente no painel usando **Adicionar bloco** são a exceção. Selecionar um bloco de vídeo (que foi criado dessa forma) faz com que o vídeo seja reproduzido diretamente no dashboard.   
@@ -85,6 +85,8 @@ Quando você seleciona um bloco, o que acontece em seguida depende de como o blo
 * Se a visualização original usada para criar o bloco for alterada, o bloco não será alterado.  Por exemplo, se o *designer* fixar um gráfico de linhas de um relatório e, em seguida, alterar o gráfico de linhas para um gráfico de barras, o bloco do dashboard continuará mostrando um gráfico de linhas. Os dados são atualizados, mas o tipo de visualização não.
 
 ## <a name="next-steps"></a>Próximas etapas
-[Atualização de dados](../refresh-data.md)
+[Atualização de dados](../connect-data/refresh-data.md)
 
 [Power BI – conceitos básicos](end-user-basic-concepts.md)
+
+

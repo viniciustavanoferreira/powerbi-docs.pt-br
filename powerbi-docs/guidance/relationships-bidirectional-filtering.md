@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263681"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273169"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Diretrizes de relação bidirecional
 
@@ -134,10 +134,11 @@ O visual da tabela a seguir apresenta as estatísticas de cada produto vendido. 
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Modelar relações no Power BI Desktop](../desktop-relationships-understand.md)
+- [Modelar relações no Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Entender o esquema em estrela e a importância para o Power BI](star-schema.md)
 - [Diretrizes de relação um-para-um](relationships-one-to-one.md)
 - [Diretrizes da relação muitos para muitos](relationships-many-to-many.md)
 - [Diretrizes da solução de problemas de relação](relationships-troubleshoot.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)
+

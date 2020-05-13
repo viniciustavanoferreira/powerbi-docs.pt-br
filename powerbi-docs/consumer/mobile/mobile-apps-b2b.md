@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219816"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148199"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Exibir conteúdo do Power BI compartilhado com você de uma organização externa
 
@@ -28,7 +28,7 @@ Aplica-se a:
 
 ## <a name="accessing-shared-content"></a>Acessando conteúdo compartilhado
 
-**Primeiro, você precisa que alguém de uma organização externa compartilhe um item com você.** Quando alguém [compartilha um item com você](../../service-share-dashboards.md), seja da mesma organização ou de uma organização externa, você recebe um email com um link para esse item compartilhado. Seguir esse link em seu dispositivo móvel abre o aplicativo móvel do Power BI. Se reconhecer que o item foi compartilhado de uma organização externa, o aplicativo se reconectará a essa organização com sua identidade. Em seguida, o aplicativo carrega todos os itens que foram compartilhados com você dessa organização.
+**Primeiro, você precisa que alguém de uma organização externa compartilhe um item com você.** Quando alguém [compartilha um item com você](../../collaborate-share/service-share-dashboards.md), seja da mesma organização ou de uma organização externa, você recebe um email com um link para esse item compartilhado. Seguir esse link em seu dispositivo móvel abre o aplicativo móvel do Power BI. Se reconhecer que o item foi compartilhado de uma organização externa, o aplicativo se reconectará a essa organização com sua identidade. Em seguida, o aplicativo carrega todos os itens que foram compartilhados com você dessa organização.
 
 ![O Power BI abre o item compartilhado do email ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

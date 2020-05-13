@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114336"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277607"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Exiba um relatório no serviço do Power BI para *consumidores*
 
@@ -99,14 +99,14 @@ Relatórios podem ser abertos de um dashboard. A maioria dos [blocos](end-user-t
     ![abertura de relatório no modo de exibição de Leitura](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> Nem todos os blocos levam a um relatório. Se você selecionar um bloco que foi [criado com a P e R](end-user-q-and-a.md), a tela da P e R será aberta. Se você tiver selecionado um bloco que foi [criado usando um widget de dashboard **Adicionar bloco**](../service-dashboard-add-widget.md), várias coisas poderão acontecer: um vídeo poderá ser reproduzido, um site aberto e muito mais.  
+> Nem todos os blocos levam a um relatório. Se você selecionar um bloco que foi [criado com a P e R](end-user-q-and-a.md), a tela da P e R será aberta. Se você tiver selecionado um bloco que foi [criado usando um widget de dashboard **Adicionar bloco**](../create-reports/service-dashboard-add-widget.md), várias coisas poderão acontecer: um vídeo poderá ser reproduzido, um site aberto e muito mais.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Outras maneiras de abrir um relatório
 Conforme você ficar mais familiarizado com a navegação no serviço do Power BI, descobrirá os fluxos de trabalho que funcionam melhor para você. Algumas outras maneiras de acessar relatórios:
 - No painel de navegação, usando [Favoritos](end-user-favorite.md) e [Recentes](end-user-recent.md)    
 - Usando [Exibição relacionada](end-user-related.md)    
-- Em um email, quando alguém [compartilha com você](../service-share-reports.md) ou [define um alerta](end-user-alerts.md)    
+- Em um email, quando alguém [compartilha com você](../collaborate-share/service-share-reports.md) ou [define um alerta](end-user-alerts.md)    
 - No [Centro de notificações](end-user-notification-center.md)    
 - Em um workspace
 - e muito mais

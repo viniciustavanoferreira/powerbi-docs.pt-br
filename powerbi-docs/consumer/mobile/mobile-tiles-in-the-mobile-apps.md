@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435894"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273076"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar blocos nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -52,7 +52,7 @@ Em seguida, nos aplicativos móveis do Power BI, abra os blocos no modo de foco 
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    Os links podem levar a outros dashboards do Power BI ou a uma URL externa. Você pode [tocar no link](../../service-dashboard-edit-tile.md#hyperlink) para abri-lo no aplicativo do Power BI. Se for um site externo, o Power BI lhe pede para permiti-lo.
+    Os links podem levar a outros dashboards do Power BI ou a uma URL externa. Você pode [tocar no link](../../create-reports/service-dashboard-edit-tile.md#hyperlink) para abri-lo no aplicativo do Power BI. Se for um site externo, o Power BI lhe pede para permiti-lo.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ Em seguida, nos aplicativos móveis do Power BI, abra os blocos no modo de foco 
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    Os links podem levar a outros dashboards do Power BI ou a uma URL externa. Você pode [tocar no link](../../service-dashboard-edit-tile.md#hyperlink) para abri-lo no aplicativo do Power BI. Se for um site externo, o Power BI lhe pede para permiti-lo.
+    Os links podem levar a outros dashboards do Power BI ou a uma URL externa. Você pode [tocar no link](../../create-reports/service-dashboard-edit-tile.md#hyperlink) para abri-lo no aplicativo do Power BI. Se for um site externo, o Power BI lhe pede para permiti-lo.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ Em seguida, nos aplicativos móveis do Power BI, abra os blocos no modo de foco 
    
     Toque em **Abrir Relatório** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) para [exibir o relatório subjacente](mobile-reports-in-the-mobile-apps.md).
    
-    [Abra o link](../../service-dashboard-edit-tile.md#hyperlink), se houver um link. Os links podem levar a painéis do Power BI ou para uma URL externa.
+    [Abra o link](../../create-reports/service-dashboard-edit-tile.md#hyperlink), se houver um link. Os links podem levar a painéis do Power BI ou para uma URL externa.
 3. Toque em **Expandir Bloco** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). Ele é aberto no modo de foco, no qual é mais fácil exibir e explorar os dados do bloco. Nesse modo você pode:
    
    Gire o gráfico de pizza para mostrar os valores da fatia na parte superior da pizza.  
@@ -130,4 +130,3 @@ Em seguida, nos aplicativos móveis do Power BI, abra os blocos no modo de foco 
 ## <a name="next-steps"></a>Próximas etapas
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

@@ -6,21 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/31/2018
+ms.date: 12/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: eeb02715fa205d7fb9f6a3107998feb3d87a9d7b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880786"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83271949"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Mover e redimensionar uma visualização em um relatório
 
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Os designers e proprietários de relatórios podem mover e redimensionar as visualizações. Se você estiver trabalhando no serviço do Power BI (app.powerbi.com), será necessário abrir o relatório no [Modo de exibição de edição](../service-interact-with-a-report-in-editing-view.md). 
+Os designers e proprietários de relatórios podem mover e redimensionar as visualizações. Se você estiver trabalhando no serviço do Power BI (app.powerbi.com), será necessário abrir o relatório no [Modo de exibição de edição](../create-reports/service-interact-with-a-report-in-editing-view.md). 
 
 ## <a name="open-the-report"></a>Abra o relatório
 No Power BI Desktop, abra um relatório que tenha pelo menos uma visualização ou [crie uma nova visualização](power-bi-report-add-visualizations-i.md). 
@@ -37,8 +39,9 @@ No Power BI Desktop, abra um relatório que tenha pelo menos uma visualização 
   ![Ícone do modo de foco](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>Próximas etapas
-[Redimensionar uma visualização em um dashboard](../service-dashboard-edit-tile.md)  
+[Redimensionar uma visualização em um dashboard](../create-reports/service-dashboard-edit-tile.md)  
 
 [Modo de foco](../consumer/end-user-focus.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
+

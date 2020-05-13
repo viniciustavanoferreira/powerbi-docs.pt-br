@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841769"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273513"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Exibir relatórios do Power BI otimizados para seu telefone
 
@@ -48,7 +48,7 @@ Se um relatório otimizado para telefone tiver filtros definidos, quando ele for
 ## <a name="cross-highlight-visuals"></a>Elementos visuais com realce cruzado
 O realce cruzado de visuais na Exibição Retrato funciona da maneira que no serviço do Power BI e em telefones na Exibição Paisagem: quando você seleciona dados em um visual, dados relacionados são realçados em outros visuais nessa página.
 
-Leia mais sobre [filtragem e realce no Power BI](../../power-bi-reports-filters-and-highlighting.md).
+Leia mais sobre [filtragem e realce no Power BI](../../create-reports/power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="select-visuals"></a>Selecionar elementos visuais
 Em relatórios de telefone quando você seleciona um elemento visual, o relatório realça o elemento visual e foca nele, neutralizando gestos da tela.
@@ -131,8 +131,7 @@ Os autores de relatório podem [definir o drill-through](https://docs.microsoft.
 
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Criar relatórios otimizados para os aplicativos móveis do Power BI](../../desktop-create-phone-report.md)
-* [Criar uma exibição de telefone de um dashboard no Power BI](../../service-create-dashboard-mobile-phone-view.md)
+* [Criar relatórios otimizados para os aplicativos móveis do Power BI](../../create-reports/desktop-create-phone-report.md)
+* [Criar uma exibição de telefone de um dashboard no Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [Criar visuais responsivos otimizados para qualquer tamanho](../../visuals/desktop-create-responsive-visuals.md)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

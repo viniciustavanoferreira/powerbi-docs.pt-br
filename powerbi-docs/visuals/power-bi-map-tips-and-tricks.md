@@ -2,22 +2,25 @@
 title: Dicas e truques para mapas (incluindo a integração do Bing Maps)
 description: 'Dicas e truques para visualizações de mapa, visuais, locais, longitude e latitude do Power BI, e como eles funcionam com o Bing Mapas. '
 author: mihart
-ms.reviewer: ''
+ms.reviewer: rien
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e5c89a8089929b7d87d2a1291ef2c5d3a5b012b7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525903"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277814"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Dicas e truques para visualizações de mapa do Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 O Power BI é integrado ao Bing Mapas para fornecer as coordenadas de mapa padrão (um processo chamado codificação geográfica) para a criação de mapas. Juntos, eles usam algoritmos para identificar a localização correta, mas, às vezes, é a melhor estimativa. Se o Power BI tentar, mas não puder criar a visualização de mapa por conta própria, ele conseguirá a ajuda do Bing Mapas. 
 
 Você ou seu administrador talvez precise atualizar o firewall para permitir o acesso às URLs usadas pelo Bing para geocodificação.  Essas URLs são:
@@ -47,7 +50,7 @@ Se você tiver acesso ao conjunto de dados que está sendo usado para criar a vi
 
 **1. Categorizar campos geográficos no Power BI Desktop**
 
-No Power BI Desktop, é possível assegurar que os campos sejam codificados geograficamente de maneira correta definindo a *Categoria de Dados* nos campos de dados. Na exibição de dados, selecione a coluna desejada. Na faixa de opções, selecione a guia **Modelagem** e então defina a **Categoria de Dados** como **Endereço**, **Cidade**, **Continente**, **País/Região**, **Condado**, **Código Postal**, **Estado** ou **Província**. Essas categorias de dados ajudam o Bing a codificar corretamente a data. Para saber mais, veja [Categorização de dados no Power BI Desktop](../desktop-data-categorization.md). Se você estiver se conectando dinamicamente ao SQL Server Analysis Services, precisará definir a categorização de dados fora do Power BI usando o [SSDT (SQL Server Data Tools)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
+No Power BI Desktop, é possível assegurar que os campos sejam codificados geograficamente de maneira correta definindo a *Categoria de Dados* nos campos de dados. Na exibição de dados, selecione a coluna desejada. Na faixa de opções, selecione a guia **Modelagem** e então defina a **Categoria de Dados** como **Endereço**, **Cidade**, **Continente**, **País/Região**, **Condado**, **Código Postal**, **Estado** ou **Província**. Essas categorias de dados ajudam o Bing a codificar corretamente a data. Para saber mais, veja [Categorização de dados no Power BI Desktop](../transform-model/desktop-data-categorization.md). Se você estiver se conectando dinamicamente ao SQL Server Analysis Services, precisará definir a categorização de dados fora do Power BI usando o [SSDT (SQL Server Data Tools)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
 
 **2. Use mais de uma coluna de localização.**     
  Às vezes, até mesmo definir as categorias de dados de mapeamento não é suficiente para o Bing adivinhar corretamente a intenção. Algumas designações são ambíguas porque a localização existe em vários países ou regiões. Por exemplo, há um ***Southampton*** na Inglaterra, Pensilvânia e em Nova York.
@@ -94,4 +97,5 @@ Ao analisar hierarquias geográficas, é importante saber como cada botão de an
 [Visualizações do Power BI](power-bi-report-visualizations.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
+
 

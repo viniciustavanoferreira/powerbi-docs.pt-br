@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: e7d3d19bdef1b19d397ac7db13cdec2317f8ab42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 512d9f5662a87b3819b7151eb0fc3a4d6a540dd6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114570"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278504"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Obter dados do mundo real com os aplicativos móveis do Power BI
 Os aplicativos móveis do Power BI podem conectar o mundo real diretamente às informações de BI relacionadas, de várias maneiras diferentes. 
@@ -25,14 +25,14 @@ Crie um código QR para um relatório ou para um bloco em um dashboard e coloque
 
 Mais sobre:
 
-* [Criando um código QR para um bloco no Power BI](../../service-create-qr-code-for-tile.md)
+* [Criando um código QR para um bloco no Power BI](../../create-reports/service-create-qr-code-for-tile.md)
 * [Verificar um código QR do Power BI em seu dispositivo móvel](mobile-apps-qr-code.md)
 * [Digitalizar um código QR de relatório com o aplicativo Power BI para Realidade Misturada](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="qr-codes-for-reports"></a>Códigos de barras QR para relatórios
 Crie um código QR para um relatório.  Quando seus colegas digitalizam o código com seus iPhones (em breve para telefones Android), eles veem o relatório que você associou a esse código QR. 
 
-Mais sobre como [criar um código QR para um relatório no Power BI](../../service-create-qr-code-for-report.md)
+Mais sobre como [criar um código QR para um relatório no Power BI](../../create-reports/service-create-qr-code-for-report.md)
 
 ## <a name="barcodes"></a>Códigos de barras
 Marque os dados do código de barras em seu relatório para que seus colegas possam digitalizar um código de barras em um produto e ir diretamente para esse relatório, filtrado no produto.
@@ -41,7 +41,7 @@ Marque os dados do código de barras em seu relatório para que seus colegas pos
 
 Mais sobre:
 
-* [Marcação de dados do código de barras em um relatório](../../desktop-mobile-barcodes.md)
+* [Marcação de dados do código de barras em um relatório](../../transform-model/desktop-mobile-barcodes.md)
 * [Digitalização de um código de barras no aplicativo do Power BI no iPhone](mobile-apps-scan-barcode-iphone.md)
 
 ## <a name="filter-by-location"></a>Filtrar por localização
@@ -50,6 +50,5 @@ Categorize dados geográficos em um relatório do Power BI Desktop. Em seguida, 
 Mais sobre como [filtrar por localização](mobile-apps-geographic-filtering.md).
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Criar um código QR para um bloco no Power BI](../../service-create-qr-code-for-tile.md)
-* [Criar um código QR para um relatório no Power BI](../../service-create-qr-code-for-report.md)
-
+* [Criar um código QR para um bloco no Power BI](../../create-reports/service-create-qr-code-for-tile.md)
+* [Criar um código QR para um relatório no Power BI](../../create-reports/service-create-qr-code-for-report.md)

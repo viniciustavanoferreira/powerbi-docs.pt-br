@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525366"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145208"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserir conteúdo do Power BI a seu aplicativo para nuvens nacionais
 
@@ -38,7 +38,7 @@ As diferentes nuvens nacionais são:
 
 ![Dashboard inserido](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Para começar este passo a passo, você precisará de uma conta do **Power BI**. Se você não tiver uma conta configurada, dependendo do tipo de governo ou país, você poderá escolher a nuvem nacional certa para você. Você pode se inscrever para uma [conta do Power BI do governo dos EUA](../../service-govus-signup.md), uma [conta de nuvem do Power BI para a Alemanha](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) ou uma [conta do Power BI para a nuvem da China](https://www.21vbluecloud.com/powerbi/).
+Para começar este passo a passo, você precisará de uma conta do **Power BI**. Se você não tiver uma conta configurada, dependendo do tipo de governo ou país, você poderá escolher a nuvem nacional certa para você. Você pode se inscrever para uma [conta do Power BI do governo dos EUA](../../admin/service-govus-signup.md), uma [conta de nuvem do Power BI para a Alemanha](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) ou uma [conta do Power BI para a nuvem da China](https://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Buscando inserir um dashboard para sua organização em vez disso? Consulte [Inserir um dashboard do Power BI em um aplicativo para sua organização](embed-sample-for-your-organization.md).

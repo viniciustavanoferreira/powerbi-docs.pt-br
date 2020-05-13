@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a8c8c50369911e76376ccbda3a95743813fde6bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263658"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273214"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Diretrizes de relações ativas vs inativas
 
@@ -114,7 +114,7 @@ Esse design de modelo é compatível com a produção do design de relatório a 
 
 A página do relatório é filtrada pelo 4º trimestre de 2019. O visual da tabela é agrupado por mês e exibe várias estatísticas de vendas. As medidas **Orders** e **Orders Shipped** produzem resultados diferentes. Cada uma delas usa a mesma lógica de resumo (contagem de linhas da tabela **Sales**), mas diferentes propagações de filtro da tabela **Date**.
 
-Observe que a segmentação de trimestre inclui um item EM BRANCO. Esse item de segmentação é exibido como resultado da [expansão da tabela](../desktop-relationships-understand.md#strong-relationships). Embora cada linha da tabela **Sales** tenha uma data do pedido, algumas linhas têm uma data de envio EM BRANCO – esses pedidos ainda não foram enviados. A expansão da tabela também considera as relações inativas e, portanto, os espaços EM BRANCO podem aparecer devido a itens EM BRANCO no lado "muitos" da relação ou devido a problemas de integridade de dados.
+Observe que a segmentação de trimestre inclui um item EM BRANCO. Esse item de segmentação é exibido como resultado da [expansão da tabela](../transform-model/desktop-relationships-understand.md#strong-relationships). Embora cada linha da tabela **Sales** tenha uma data do pedido, algumas linhas têm uma data de envio EM BRANCO – esses pedidos ainda não foram enviados. A expansão da tabela também considera as relações inativas e, portanto, os espaços EM BRANCO podem aparecer devido a itens EM BRANCO no lado "muitos" da relação ou devido a problemas de integridade de dados.
 
 ## <a name="recommendations"></a>Recomendações
 
@@ -129,7 +129,7 @@ Em circunstâncias específicas, no entanto, é possível definir uma ou mais re
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Modelar relações no Power BI Desktop](../desktop-relationships-understand.md)
+- [Modelar relações no Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Entender o esquema em estrela e a importância para o Power BI](star-schema.md)
 - [Diretrizes da solução de problemas de relação](relationships-troubleshoot.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

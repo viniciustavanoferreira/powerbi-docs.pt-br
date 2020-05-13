@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79496253"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83142305"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Destacar conteúdo na Página Inicial do Power BI de colegas
 
@@ -24,9 +24,9 @@ Você pode destacar dashboards, relatórios e aplicativos para que eles apareça
 
 ## <a name="who-can-feature-content"></a>Quem pode destacar conteúdo
 
-Cabe ao seu administrador de locatário do Power BI habilitar a capacidade de destacar conteúdo em seu locatário. O administrador também escolhe quem pode destacar o conteúdo. Consulte o artigo [portal de administração](../service-admin-portal.md#featured-content) para obter detalhes.
+Cabe ao seu administrador de locatário do Power BI habilitar a capacidade de destacar conteúdo em seu locatário. O administrador também escolhe quem pode destacar o conteúdo. Consulte o artigo [portal de administração](../admin/service-admin-portal.md#featured-content) para obter detalhes.
 
-Se você for um dos grupos selecionados em sua organização com essa responsabilidade, precisará ter uma licença do Power BI Pro. Para destacar dashboards e relatórios, você precisa da função de administrador, Membro ou colaborador no workspace. Para destacar o aplicativo em si, você precisa ter a função de Administrador ou Membro no workspace. Confira [Funções nos novos workspaces](../service-new-workspaces.md#roles-in-the-new-workspaces) para obter detalhes.
+Se você for um dos grupos selecionados em sua organização com essa responsabilidade, precisará ter uma licença do Power BI Pro. Para destacar dashboards e relatórios, você precisa da função de administrador, Membro ou colaborador no workspace. Para destacar o aplicativo em si, você precisa ter a função de Administrador ou Membro no workspace. Confira [Funções nos novos workspaces](service-new-workspaces.md#roles-in-the-new-workspaces) para obter detalhes.
 
 ## <a name="who-sees-featured-content"></a>Quem vê o conteúdo em destaque
 
@@ -58,7 +58,6 @@ Agora, todas as pessoas com acesso a esse aplicativo também o verão na seção
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [Como devo colaborar e compartilhar relatórios e dashboards?](../service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Gerenciar conteúdo em destaque no portal do Administrador](../service-admin-portal.md#manage-featured-content)
+* [Como devo colaborar e compartilhar relatórios e dashboards?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Gerenciar conteúdo em destaque no portal do Administrador](../admin/service-admin-portal.md#manage-featured-content)
 * Perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
-

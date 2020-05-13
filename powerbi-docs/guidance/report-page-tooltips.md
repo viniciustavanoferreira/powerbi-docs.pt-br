@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377732"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277837"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Estender visuais com dicas de ferramentas de página de relatório
 
-Este artigo é voltado a você como um autor de relatórios que elabora relatórios do Power BI. Ele fornece sugestões e recomendações para criar [dicas de ferramenta da página de relatório](../desktop-tooltips.md).
+Este artigo é voltado a você como um autor de relatórios que elabora relatórios do Power BI. Ele fornece sugestões e recomendações para criar [dicas de ferramenta da página de relatório](../create-reports/desktop-tooltips.md).
 
 ## <a name="suggestions"></a>Sugestões
 
@@ -29,7 +29,7 @@ As dicas de ferramenta da página de relatório podem aprimorar a experiência d
 > [!NOTE]
 > Um visual de relatório só pode revelar uma dica de ferramenta de da página quando os filtros da página de dica de ferramenta são compatíveis com o design do visual. Por exemplo, um visual que agrupa por _produto_ é compatível com uma página de dica de ferramenta que filtra por _produto_.
 >
-> As dicas de ferramentas de página não dão suporte à interatividade. Se quiser que os usuários do relatório interajam, crie uma [página de detalhamento](../desktop-drillthrough.md).
+> As dicas de ferramentas de página não dão suporte à interatividade. Se quiser que os usuários do relatório interajam, crie uma [página de detalhamento](../create-reports/desktop-drillthrough.md).
 >
 > Visuais do Power BI não dão suporte a dicas de ferramenta de página.
 
@@ -65,7 +65,7 @@ Os cabeçalhos dos visuais podem ser configurados para revelar dicas de ferramen
 
 Curiosamente, botões, imagens, caixas de texto e formas também podem revelar uma dica de ferramenta de página de cabeçalho do visual.
 
-O exemplo a seguir mostra o que acontece quando o usuário do relatório passa o cursor sobre o [ícone de cabeçalho do visual](../desktop-visual-elements-for-reports.md).
+O exemplo a seguir mostra o que acontece quando o usuário do relatório passa o cursor sobre o [ícone de cabeçalho do visual](../create-reports/desktop-visual-elements-for-reports.md).
 
 ![Um usuário de relatório passou o cursor sobre o ícone de cabeçalho do visual (ícone de ponto de interrogação). Uma dica de ferramenta com formatação avançada apareceu.](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ No momento de design do relatório, recomendamos as seguintes práticas:
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Criar dicas de ferramenta com base nas páginas de relatório no Power BI Desktop](../desktop-tooltips.md)
-- [Personalizando dicas de ferramenta no Power BI Desktop](../desktop-custom-tooltips.md)
-- [Usar elementos visuais para aprimorar os relatórios do Power BI](../desktop-visual-elements-for-reports.md)
+- [Criar dicas de ferramenta com base nas páginas de relatório no Power BI Desktop](../create-reports/desktop-tooltips.md)
+- [Personalizando dicas de ferramenta no Power BI Desktop](../create-reports/desktop-custom-tooltips.md)
+- [Usar elementos visuais para aprimorar os relatórios do Power BI](../create-reports/desktop-visual-elements-for-reports.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)

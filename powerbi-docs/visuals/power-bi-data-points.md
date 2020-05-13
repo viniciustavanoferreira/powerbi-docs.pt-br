@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381435"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274157"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicar limites de ponto de dados e estratégias por tipo de visual
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 Ao renderizar um visual no Power BI, a visualização deve ser rápida e precisa. Isso requer algoritmos subjacentes configurados para cada tipo de visual. Os visuais do Power BI devem ser flexíveis o suficiente para lidar com tamanhos diferentes de conjuntos de dados. Alguns conjuntos de dados têm apenas um alguns pontos de dados, enquanto outros conjuntos de dados têm petabytes de pontos de dados. Este artigo explica as estratégias usadas pelo Power BI para renderizar as visualizações.
 
@@ -57,7 +59,7 @@ Os limites dinâmicos são aplicados automaticamente quando o servidor é capaz,
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>Estratégias e limites de pontos de dados por tipo de visual
 
 ### <a name="area-chart"></a>Gráfico da área
-Confira [Como funciona a amostragem de linhas](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Confira [Como funciona a amostragem de linhas](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>Gráfico de barras/colunas
 - Quando no modo categórico
@@ -97,10 +99,10 @@ O mapa preenchido pode usar estatísticas ou limites dinâmicos. O Power BI tent
 - 3\.500 inferiores
 
 ### <a name="line-chart"></a>Gráfico de linhas
-Confira [Como funciona a amostragem de linhas](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Confira [Como funciona a amostragem de linhas](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="line-chart-high-density"></a>Gráfico de linhas, alta densidade
-Confira [Amostragem de alta densidade](../desktop-high-density-sampling.md)
+Confira [Amostragem de alta densidade](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>Mapear 
 - Máximo de pontos: 3,500
@@ -109,9 +111,9 @@ Dependendo da configuração, um mapa pode ter:
 - Localização: 3.500 superiores
 - Localização, Tamanho: 3.500 superiores
 - Agregações de Localização, Latitude e Longitude (+ /-tamanho): 3.500 superiores
-- Latitude, Longitude: consulte [Dispersão de alta densidade](desktop-high-density-scatter-charts.md)
+- Latitude, Longitude: consulte [Dispersão de alta densidade](../create-reports/desktop-high-density-scatter-charts.md)
 - Latitude, Longitude, Tamanho: 3.500 superiores
-- Legenda, Latitude, Longitude: consulte [Dispersão de alta densidade](desktop-high-density-scatter-charts.md)
+- Legenda, Latitude, Longitude: consulte [Dispersão de alta densidade](../create-reports/desktop-high-density-scatter-charts.md)
 - Legenda, Latitude, Longitude, Tamanho: 233 principais legendas, 15 principais latitudes e longitudes (estatísticas ou limites dinâmicos podem ser usados)
 - Localização, Legenda, Latitude e Longitude como agregações (+ /-tamanho): 233 principais locais, 15 principais legendas (pode usar limites dinâmicos ou estatísticas)
 

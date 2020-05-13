@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290563"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278067"
 ---
 # <a name="use-report-page-drillthrough"></a>Usar o detalhamento de página de relatório
 
-Este artigo é voltado a você como um autor de relatórios que elabora relatórios do Power BI. Ele fornece sugestões e recomendações para criar [detalhamentos da página de relatório](../desktop-drillthrough.md).
+Este artigo é voltado a você como um autor de relatórios que elabora relatórios do Power BI. Ele fornece sugestões e recomendações para criar [detalhamentos da página de relatório](../create-reports/desktop-drillthrough.md).
 
 É recomendável que você projete seu relatório para permitir que os usuários alcancem o seguinte fluxo:
 
@@ -58,8 +58,8 @@ No momento de design do relatório, recomendamos as seguintes práticas:
 - **Filtros de detalhamento:** defina filtros de detalhamento para que você possa visualizar um resultado realista ao criar a página de detalhamento. Não deixe de remover esses filtros antes de publicar o relatório.
 - **Funcionalidades adicionais:** uma página de detalhamento é como qualquer página de relatório. Você pode até mesmo aprimorá-la com funcionalidades interativas adicionais, incluindo segmentações ou filtros.
 - **Valores em branco:** evite adicionar visuais que podem exibir valores em branco ou gerar erros quando os filtros de detalhamento são aplicados.
-- **Visibilidade da página:** considere ocultar as páginas de detalhamento. Se você decidir manter uma página de detalhamento visível, adicione um botão que permita aos usuários limpar os filtros de detalhamento definidos anteriormente. Atribua um [indicador](../desktop-bookmarks.md) ao botão. O indicador deve ser configurado para remover todos os filtros.
-- **Botão Voltar:** Um botão [Voltar](../desktop-buttons.md) é adicionado automaticamente quando você atribui um filtro de detalhamento. É uma boa ideia mantê-lo. Dessa forma, os usuários do relatório podem retornar facilmente para a página de origem.
+- **Visibilidade da página:** considere ocultar as páginas de detalhamento. Se você decidir manter uma página de detalhamento visível, adicione um botão que permita aos usuários limpar os filtros de detalhamento definidos anteriormente. Atribua um [indicador](../create-reports/desktop-bookmarks.md) ao botão. O indicador deve ser configurado para remover todos os filtros.
+- **Botão Voltar:** Um botão [Voltar](../create-reports/desktop-buttons.md) é adicionado automaticamente quando você atribui um filtro de detalhamento. É uma boa ideia mantê-lo. Dessa forma, os usuários do relatório podem retornar facilmente para a página de origem.
 - **Descoberta:** ajude a promover a conscientização sobre a página de detalhamento definindo o texto do ícone do cabeçalho visual ou adicionando instruções a uma caixa de texto. Você também pode criar uma sobreposição, conforme descrito [nesta postagem de blog](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/).
 
 > [!TIP]
@@ -69,6 +69,6 @@ No momento de design do relatório, recomendamos as seguintes práticas:
 
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
-- [Usar o detalhamento no Power BI Desktop](../desktop-drillthrough.md)
+- [Usar o detalhamento no Power BI Desktop](../create-reports/desktop-drillthrough.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)

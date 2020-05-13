@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8c91e2a07143a6355b7049e80cbdc3e4ba906013
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114309"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145381"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Impressão no serviço do Power BI
 
@@ -116,7 +116,6 @@ Somente uma página de relatório pode ser impressa por vez.
 * R: Volte para o dashboard ou relatório na exibição padrão e abra o visual novamente no modo de foco e, em seguida, no modo de tela inteira. 
 
 ## <a name="next-steps"></a>Próximas etapas
-[Compartilhar relatórios e dashboards com seus colegas e outras pessoas](../service-share-dashboards.md)
+[Compartilhar relatórios e dashboards com seus colegas e outras pessoas](../collaborate-share/service-share-dashboards.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
-

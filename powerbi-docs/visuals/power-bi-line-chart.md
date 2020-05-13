@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867014"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274180"
 ---
 # <a name="line-charts-in-power-bi"></a>Gráficos de linhas no Power BI
 
@@ -32,7 +32,7 @@ Essas instruções usam o aplicativo Exemplo de Vendas e Marketing para criar um
 > [!NOTE]
 > Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium.
 
-1. Comece em uma página de relatório em branco. Caso esteja usando o serviço do Power BI, abra o relatório no [Modo de Exibição de Edição](../service-interact-with-a-report-in-editing-view.md).
+1. Comece em uma página de relatório em branco. Caso esteja usando o serviço do Power BI, abra o relatório no [Modo de Exibição de Edição](../create-reports/service-interact-with-a-report-in-editing-view.md).
 
 2. No painel Campos, selecione **SalesFact** \> **Total de unidades**e selecione **Data** > **Mês**.  O Power BI cria um gráfico de colunas na tela do relatório.
 
@@ -74,7 +74,7 @@ Para exibir valores altamente divergentes em um gráfico, use um gráfico de com
    ![valores altamente divergentes](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
-Para obter informações sobre como usar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
+Para obter informações sobre como usar o painel Filtros, veja [Adicionar um filtro a um relatório](../create-reports/power-bi-report-add-filter.md).
 
 Selecionar um ponto de dados em um gráfico de linhas realiza o realce cruzado e a filtragem cruzada das outras visualizações na página do relatório e vice-versa. Para acompanhar, abra a guia **Participação no mercado**.  
 
@@ -86,7 +86,7 @@ Neste exemplo, selecionamos um ponto de dados que abrange: Julho de 2014, percen
 
 Observe como o gráfico de colunas é realçado de forma cruzada, e o medidor é filtrado de forma cruzada.
 
-Para gerenciar como os gráficos são filtrados e realçados de forma cruzada entre si, veja [Interações de visualização em um relatório do Power BI](../service-reports-visual-interactions.md)
+Para gerenciar como os gráficos são filtrados e realçados de forma cruzada entre si, veja [Interações de visualização em um relatório do Power BI](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 * Um gráfico de linhas não pode ter dois eixos Y.  Você precisará usar um gráfico de combinação em vez disso.
@@ -95,5 +95,8 @@ Para gerenciar como os gráficos são filtrados e realçados de forma cruzada en
 ## <a name="next-steps"></a>Próximas etapas
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

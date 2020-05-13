@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ae47c6ea0c7b9bf629f55701ba4242a195dc164d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81267835"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274387"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Configurar a certificação de fluxos de dados e conjuntos de dados (versão prévia)
 
@@ -24,7 +24,7 @@ Como administrador de locatários do Power BI, você é responsável por configu
 * Definir uma lista de grupos e usuários que estão autorizados a certificar conjuntos de dados e fluxos de dados.
 * Para conjuntos de dados, fornecer a URL da política de certificação de conjuntos de dados da organização, se houver.
 
-A certificação de fluxos de dados e conjuntos de dados faz parte do *endosso* de fluxos de dados e conjuntos de dados. Confira [Endosso de conjuntos de dados](../service-datasets-promote.md) e [Endosso de fluxos de dados](../transform-model/service-dataflows-promote-certify.md) para obter mais informações.
+A certificação de fluxos de dados e conjuntos de dados faz parte do *endosso* de fluxos de dados e conjuntos de dados. Confira [Endosso de conjuntos de dados](../connect-data/service-datasets-promote.md) e [Endosso de fluxos de dados](../transform-model/service-dataflows-promote-certify.md) para obter mais informações.
 
 
 ## <a name="set-up-certification"></a>Configurar a certificação
@@ -35,13 +35,13 @@ A certificação de fluxos de dados e conjuntos de dados faz parte do *endosso* 
    ![Configurar a certificação de fluxos de dados e conjuntos de dados](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
 1. Defina a alternância como **Habilitado**.
-1. Para a certificação de conjuntos de dados, se a sua organização tiver uma política de certificação publicada, forneça a URL dela aqui. Isso se tornará o link **Saiba mais** na seção de certificação da [caixa de diálogo das configurações do endosso de fluxos de dados](../service-datasets-promote.md#request-dataset-certification) 
-1. Especifique os usuários ou os grupos que estão autorizados a certificar fluxos de dados e conjuntos de dados. Esses certificadores autorizados poderão usar o botão Certificação na seção de certificação da caixa de diálogo das configurações do endosso de [conjuntos de dados](../service-datasets-promote.md#request-dataset-certification) ou [fluxos de dados](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow).
+1. Para a certificação de conjuntos de dados, se a sua organização tiver uma política de certificação publicada, forneça a URL dela aqui. Isso se tornará o link **Saiba mais** na seção de certificação da [caixa de diálogo das configurações do endosso de fluxos de dados](../connect-data/service-datasets-promote.md#request-dataset-certification) 
+1. Especifique os usuários ou os grupos que estão autorizados a certificar fluxos de dados e conjuntos de dados. Esses certificadores autorizados poderão usar o botão Certificação na seção de certificação da caixa de diálogo das configurações do endosso de [conjuntos de dados](../connect-data/service-datasets-promote.md#request-dataset-certification) ou [fluxos de dados](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow).
 1. Clique em **Aplicar**.
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Promover conjuntos de dados](../service-datasets-promote.md)
-* [Certificar conjuntos de dados](../service-datasets-certify.md)
+* [Promover conjuntos de dados](../connect-data/service-datasets-promote.md)
+* [Certificar conjuntos de dados](../connect-data/service-datasets-certify.md)
 * [Promover fluxos de dados](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [Certificar fluxos de dados](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

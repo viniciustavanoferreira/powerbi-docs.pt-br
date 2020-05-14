@@ -12,6 +12,10 @@
       items:
         - name: Desenvolver um visual do Power BI
           href: custom-visual-develop-tutorial.md
+        - name: Criar visuais com base no React
+          href: create-react-visual.md
+        - name: Criar um gráfico de barras
+          href: create-bar-chart.md
         - name: Adicionar opções de formatação
           href: custom-visual-develop-tutorial-format-options.md
         - name: Adicionar testes de unidade para o projeto visual
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: Modo de edição avançada
           href: advanced-edit-mode.md
+        - name: Recurso supportsKeyboardFocus
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: Como
       items:
         - name: Certificar um visual do Power BI
           href: power-bi-custom-visuals-certified.md
         - name: Publicar visuais do Power BI no AppSource
           href: office-store.md
+        - name: Testar seu visual do Power BI
+          href: submission-testing.md
         - name: Usar visuais do Power BI baseados em R no Power BI
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: Interações visuais
           href: visuals-interactions.md
         - name: Adicionar seleções
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: Adicionar suporte a busca detalhada
           href: drill-down-support.md
+        - name: Adicionar cores ao seu visual
+          href: add-colors-power-bi-visual.md
         - name: Realçar dados em visuais
           href: highlight.md
         - name: Adicionar suporte ao modo de alto contraste
@@ -78,11 +90,15 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Referência
       items:
+        - name: Log de alteração
+          href: changelog.md
         - name: Página de aterrissagem
           href: landing-page.md
         - name: URL de inicialização
           href: launch-url.md
-        - name: API de armazenamento local
+        - name: API do Visual
+          href: visual-api.md
+        - name: API de Armazenamento Local
           href: local-storage.md
         - name: Renderização de eventos
           href: event-service.md
@@ -119,8 +135,8 @@
         - name: Centro de Desenvolvimento
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Exemplos de visuais do Power BI
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Repositório Git de elementos visuais do Power BI
+          href: samples.md
+        - name: Repositório Git de visuais personalizados
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: Criação de um certificado SSL
           href: create-ssl-certificate.md

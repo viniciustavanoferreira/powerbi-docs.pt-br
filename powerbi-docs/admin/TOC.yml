@@ -112,8 +112,10 @@
               href: service-encryption-byok.md
             - name: Reiniciar uma capacidade Premium
               href: service-admin-premium-restart.md
-            - name: Conectividade de conjunto de dados com o ponto de extremidade XMLA (Versão prévia)
+            - name: Conectividade do conjunto de dados com o ponto de extremidade XMLA
               href: service-premium-connect-tools.md
+            - name: Automação com entidades de serviço
+              href: service-premium-service-principal.md
     - name: Referência
       items:
         - name: 'SDK do .NET, PowerShell e APIs REST'

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279079"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407527"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper de segurança do Power BI
 
@@ -263,7 +263,7 @@ O Power BI fornece monitoramento de integridade de dados das seguintes maneiras:
 
     &ensp;&ensp;a. Para relatórios criados com o Excel para o Office 365, nada é armazenado em cache.
 
-    &ensp;&ensp;b. Para relatórios do Power BI, dados para os elementos visuais mostrados são armazenados em cache criptografadas no Banco de Dados SQL do Azure.
+    &ensp;&ensp;b. Para Power BI relatórios, os dados dos visuais dos relatórios mostrados são armazenados em cache e armazenado no cache de dados Visual descrito na seção a seguir.
  
 
 4. Arquivos originais do Power BI Desktop (.pbix) ou do Excel (.xlsx) publicados no Power BI
@@ -272,11 +272,20 @@ O Power BI fornece monitoramento de integridade de dados das seguintes maneiras:
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Dashboards e blocos de dashboard
 
-1. Caches – os dados necessários para os elementos visuais no dashboard normalmente são armazenado em cache e armazenados criptografado no Banco de Dados SQL do Azure. Outros blocos, como elementos visuais fixados do Excel ou do SSRS (SQL Server Reporting Services) são armazenados no Blob do Azure, como imagens, e também são criptografados.
+1. Caches – os dados necessários para os visuais no painel geralmente são armazenados em cache e armazenado no cache de dados Visual descrito na seção a seguir. Outros blocos, como elementos visuais fixados do Excel ou do SSRS (SQL Server Reporting Services) são armazenados no Blob do Azure, como imagens, e também são criptografados.
 
 2. Dados estáticos – que incluem artefatos como imagens de plano de fundo e Power BI visuais armazenados, criptografados, no armazenamento de BLOBs do Azure.
 
-Independentemente do método de criptografia usado, a Microsoft gerencia a criptografia de chave em nome dos clientes, em um repositório de segredos ou no Azure Key Vault.
+Independentemente do método de criptografia usado, a Microsoft gerencia a criptografia de chave em nome dos clientes.
+
+#### <a name="visual-data-cache"></a>Cache de dados Visual
+
+Os dados visuais são armazenados em cache em locais diferentes, dependendo se o conjunto é hospedado em uma capacidade de Power BI Premium. Para conjuntos de dados que não são hospedados em uma capacidade do, eles são armazenados em cache e armazenado criptografados em um banco de dados SQL do Azure. Para conjuntos de dados que são hospedados em uma capacidade, é possível armazená-los em cache em qualquer um dos seguintes locais:
+
+* Armazenamento do Blobs do Azure
+* Arquivos premium do Azure
+* O nó de capacidade de Power BI Premium
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Dados armazenados temporariamente em dispositivos não voláteis
 

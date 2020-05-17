@@ -53,7 +53,7 @@ Para muitas dessas opções, o administrador ou o *designer* pode desabilitar su
 |[Pedir ao Power BI para procurar por tendências ou fatos interessantes](end-user-insights.md) nos dados do visual para você.  Esses visuais gerados automaticamente são chamados de *insights*.     |    sim, para blocos    |  não       | não   |
 |[Exibir apenas um visual por vez usando o modo de *foco*](end-user-focus.md).     | sim, para blocos        |   sim, para visuais      | N/A  |
 |[Pesquisar quando o visual foi atualizado pela última vez](end-user-fresh.md).     |  sim       |    sim     | N/A  |
-|[Exibir apenas um visual por vez, sem bordas nem painéis de navegação, usando o *modo de* tela inteira](end-user-focus.md).     |   sim      |  sim       | por padrão  |
+|[Exibir apenas um visual por vez, sem bordas nem painéis de navegação, usando o ](end-user-focus.md)modo de *tela inteira*.     |   sim      |  sim       | por padrão  |
 |[Imprimir](end-user-print.md).     |  sim       |   sim      | não  |
 |[Examinar o visual adicionando e modificando os filtros.](end-user-report-filter.md)     |    não     |   sim      | não  |
 |Focalizar um visual para revelar detalhes adicionais e dicas de ferramentas.     |    sim     |   sim      | sim  |

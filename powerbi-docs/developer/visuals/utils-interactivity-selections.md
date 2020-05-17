@@ -171,7 +171,7 @@ Geralmente, os pontos de dados contêm seleções e valores. A interface amplia 
     }
     ```
 
-    **Estender a classe `BaseBehavior`** 
+    **Estender a classe `BaseBehavior`**
 
     ```typescript
     import powerbi from "powerbi-visuals-api";
@@ -186,7 +186,7 @@ Geralmente, os pontos de dados contêm seleções e valores. A interface amplia 
     }
     ```
 
-5. Para manipular elementos de clique, chame o método *do objeto de seleção*d3`on`. Isso também se aplica a `elementsSelection` e `clearCatcherSelection`.
+5. Para manipular elementos de clique, chame o método `on` do objeto de seleção *d3*. Isso também se aplica a `elementsSelection` e `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {

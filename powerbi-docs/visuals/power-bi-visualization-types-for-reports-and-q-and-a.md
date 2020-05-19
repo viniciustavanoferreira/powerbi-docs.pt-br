@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381412"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276802"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
@@ -25,7 +25,7 @@ Além disso, confira o [Microsoft AppSource](https://appsource.microsoft.com/mar
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista das visualizações disponíveis no Power BI
 Todas essas visualizações podem ser adicionadas aos relatórios do Power BI, especificadas em P e R e fixadas a painéis.
 
-### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: Básico (em camadas) e Empilhado
+### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: básico (em camadas) e empilhado
 ![gráficos de área](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
@@ -110,12 +110,12 @@ Para obter mais informações, veja [KPIs no Power BI](power-bi-visualization-kp
 
 Para obter mais informações, confira as [Dicas e truques para visualizações de mapa](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Mapas: mapas de ArcGIS
+### <a name="maps-arcgis-maps"></a>Mapas: Mapas ArcGIS
 ![Mapa ArcGiS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Para obter mais informações, veja [Mapas de ArcGIS no Power BI](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas coropléticos
+### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropléticos)
 ![mapa coroplético](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -157,7 +157,7 @@ Confira mais informações em [Adicionar um visual do Power Apps a seu relatóri
 ![Visuais de P e R](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->Semelhante à [experiência de P e R em dashboards](../power-bi-tutorial-q-and-a.md), o visual d e P e R permite que você faça perguntas sobre seus dados usando linguagem natural. 
+>Semelhante à [experiência de P e R em dashboards](../create-reports/power-bi-tutorial-q-and-a.md), o visual d e P e R permite que você faça perguntas sobre seus dados usando linguagem natural. 
 
 Para saber mais, confira [Visuais de P e R no Power BI](power-bi-visualization-q-and-a.md).
 
@@ -191,7 +191,7 @@ Para obter mais informações, veja [Gráficos de dispersão no Power BI](power-
 >[!TIP]
 >Pontos de dados demais em um visual podem sobrecarregá-lo, portanto, um algoritmo de amostragem sofisticado é usado para garantir a precisão da visualização.
 
-Para obter mais informações, veja [Gráficos de dispersão de alta densidade no Power BI](desktop-high-density-scatter-charts.md).
+Para obter mais informações, veja [Gráficos de dispersão de alta densidade no Power BI](../create-reports/desktop-high-density-scatter-charts.md).
 
 ### <a name="slicers"></a>Segmentações
 ![segmentação de dados](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -201,7 +201,7 @@ Para obter mais informações, veja [Segmentação de dados no Power BI](power-b
 ### <a name="standalone-images"></a>Imagens autônomas
 ![visual de imagem autônoma](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-Para obter mais informações, veja [Adicionar um widget de imagem a um dashboard](../service-dashboard-add-widget.md).
+Para obter mais informações, veja [Adicionar um widget de imagem a um dashboard](../create-reports/service-dashboard-add-widget.md).
 
 ### <a name="tables"></a>Tabelas
 ![tabela visual](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -232,8 +232,11 @@ Ao digitar consultas em linguagem natural com a P e R do Power BI, você pode es
 
 “***vendas por estado como um treemap***”
 
+Caso seu dashboard não tenha um campo de P e R, isso pode ter sido desabilitado pelo administrador de locatários. 
+
 ![Caixa de pergunta de P e R mostrando o tipo de visualização especificado](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)    
 [A referência visual correta de sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

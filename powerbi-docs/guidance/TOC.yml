@@ -110,6 +110,8 @@
               href: monitor-report-performance.md
             - name: Solucionar problemas de desempenho de relatório
               href: report-performance-troubleshoot.md
+            - name: Melhores práticas de pipelines de implantação
+              href: ../create-reports/deployment-pipelines-best-practices.md
     - name: White papers
       items:
         - name: Visão geral dos white papers

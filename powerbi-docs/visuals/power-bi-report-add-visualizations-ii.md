@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2018
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8b0012224d145f40cb6b9784da1a40957efce50
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758412"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277768"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Adicionar visuais a um relatório do Power BI (parte 2)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -36,7 +38,7 @@ Este tutorial usa o [Arquivo PBIX de exemplo de análise de varejo](https://down
 
 1. Abra o **arquivo PBIX de exemplo de Análise de Varejo** na exibição de relatório ![Captura de tela do ícone de exibição de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 ## <a name="add-visualizations-to-the-report"></a>Adicionar visualizações ao relatório
 
@@ -59,7 +61,7 @@ Crie uma visualização selecionando um campo no painel **Campos** . O tipo de v
 5. [Redimensione a visualização](power-bi-visualization-move-and-resize.md) selecionando a visualização, captando um dos círculos da estrutura de tópicos e arrastando-o. Torne-a grande o suficiente para eliminar a barra de rolagem e pequeno o suficiente para nos dar espaço suficiente para adicionar outra visualização.
    
    ![captura de tela do visual de gráfico de área](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
-6. [Salve o relatório](../service-report-save.md).
+6. [Salve o relatório](../create-reports/service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Adicionar uma visualização do mapa que analisa as vendas por local
 
@@ -68,6 +70,9 @@ Crie uma visualização selecionando um campo no painel **Campos** . O tipo de v
 
 2. Adicione uma legenda.  Para ver os dados por nome de loja, arraste a **Cadeia** > **de Lojas** para a área de Legenda.  
    ![tela de relatório com uma seta da Cadeia na lista de campos para a Cadeia no bucket de Legenda](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+
+> [!NOTE]
+> Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium. Confira [compartilhamento de relatórios](../collaborate-share/service-share-reports.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 * Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md).  

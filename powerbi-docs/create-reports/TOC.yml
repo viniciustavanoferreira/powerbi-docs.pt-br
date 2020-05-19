@@ -12,7 +12,7 @@
       expanded: true
       items:
         - name: 'Curso online: Relatórios paginados'
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: Criar e carregar um relatório paginado
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Exemplos

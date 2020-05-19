@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 12/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33511dd5a61882de77d6089a5f77e70361f3cbed
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871036"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277584"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Alterar o tipo de visualização em um relatório do Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -29,10 +31,12 @@ Tente diferentes tipos de visualizações no serviço do Power BI e do Power BI 
 3. No painel de Visualizações, selecione o novo tipo de visualização. 
    
    ![vídeo mostrando uma alteração de gráfico de colunas para gráfico de linhas](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif).
-4. (Opcional) [Fixe a visualização](../service-dashboard-pin-tile-from-report.md) ao dashboard como um bloco. 
+4. (Opcional) [Fixe a visualização](../create-reports/service-dashboard-pin-tile-from-report.md) ao dashboard como um bloco. 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 Se você alterar o tipo de visualização do relatório depois de tê-lo fixado em seu dashboard, o bloco não atualizará automaticamente. Portanto, se você usou o serviço do Power BI para fixar a visualização como um gráfico de linhas e em seguida, no relatório, alterou-o para um gráfico de barras, a versão fixada desses dados permanecerá um gráfico de linhas. Fixe o gráfico de barras para vê-lo também no painel.
+
+Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium. Confira [Compartilhamento de relatórios](../collaborate-share/service-share-reports.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)

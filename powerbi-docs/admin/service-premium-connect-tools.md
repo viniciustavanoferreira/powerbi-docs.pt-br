@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7bb3dc401fedbb55f5ed81fa5e859cbfee5a1a26
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274433"
+ms.locfileid: "83382728"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Conectividade de conjunto de dados com o ponto de extremidade XMLA (Versão prévia)
 
@@ -29,6 +29,9 @@ Os espaços de trabalho e conjuntos de clientes do Power BI Premium no nível de
 O Power BI Premium usa o protocolo XMLA ([XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current)) para a comunicação entre aplicativos cliente e o mecanismo que gerencia seus espaços de trabalho e conjuntos de dados do Power BI. Essa comunicação é feita por meio do que é normalmente conhecido como pontos de extremidade XMLA. O XMLA é o mesmo protocolo de comunicação usado pelo mecanismo do Microsoft Analysis Services, que, nos bastidores, executa a modelagem semântica, a governança, o ciclo de vida e o gerenciamento de dados do Power BI.
 
 Por padrão, a conectividade *somente leitura* usando o ponto de extremidade está habilitada para a **Carga de trabalho dos conjuntos de dados** em uma capacidade. Com dados somente leitura, as ferramentas e os aplicativos de visualização de dados podem consultar dados de modelos, metadados, eventos e esquema do conjunto de dados. As operações de *leitura/gravação* usando o ponto de extremidade podem ser habilitadas, fornecendo gerenciamento, governança, modelagem semântica avançada, depuração e monitoramento adicionais para os conjunto de dados. Com a leitura/gravação habilitadas, os conjuntos de dados do Power BI Premium têm mais paridade com processos e ferramentas de modelagem de tabela de nível empresarial do Azure Analysis Services e do SQL Server Analysis Services.
+
+> [!NOTE]
+> Recomendamos que você use a experiência de workspace moderno, especialmente ao conectar-se a seus conjuntos de dados usando o ponto de extremidade XMLA. Nos workspaces clássicos, não há suporte para operações como criar ou excluir conjuntos de dados. Para atualizar os workspaces clássicos para a experiência moderna, confira [Atualizar workspaces clássicos no Power BI](../collaborate-share/service-upgrade-workspaces.md).
 
 ## <a name="data-modeling-and-management-tools"></a>Ferramentas de gerenciamento e modelagem de dados
 

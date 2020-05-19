@@ -7,23 +7,26 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4cad37b9d4a7bf9e74a29312786a02b26fce5463
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496532"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83382751"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Tutorial: definir alertas nos dashboards do Power BI
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Defina alertas para receber notificações quando os dados nos dashboards forem alterados além ou aquém dos limites definidos por você. Os alertas funcionam em medidores, KPIs e cartões. Este recurso ainda está em evolução, portanto, confira a [seção abaixo: Dicas e solução de problemas](#tips-and-troubleshooting).
+Defina alertas para receber notificações quando os dados nos dashboards forem alterados além ou aquém dos limites definidos por você. Os alertas só podem ser definidos em blocos fixos de visuais de relatório e apenas em medidores, KPIs e cartões. 
+
+Os *consumidores* podem adicionar alertas aos blocos nos dashboards que eles criaram no **Meu workspace**. Os *consumidores* também podem adicionar alertas aos blocos em dashboards que foram compartilhados com eles em uma [capacidade Premium](end-user-license.md). Se você tiver uma licença do Power BI Pro, também poderá definir alertas sobre blocos em qualquer outro workspace.
+Este recurso ainda está em evolução, portanto, confira a [seção abaixo: Dicas e solução de problemas](#tips-and-troubleshooting).
 
 ![bloco, cartão, KPI](media/end-user-alerts/card-gauge-kpi.png)
 
@@ -44,12 +47,12 @@ Este tutorial aborda o seguinte.
 
 Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
-Este exemplo usa um bloco de cartão do dashboard do aplicativo de exemplo Vendas e Marketing. Este aplicativo está disponível no [Microsoft AppSource](https://appsource.microsoft.com). Para ajuda ao obter o aplicativo, confira [Instalar e usar aplicativos com o Power BI](end-user-app-view.md).
+Este exemplo usa um bloco de cartão do dashboard do aplicativo de exemplo Vendas e Marketing. Este aplicativo está disponível no [Microsoft AppSource](https://appsource.microsoft.com). Para ajuda ao obter o aplicativo, confira [Instalar e usar aplicativos de Vendas e Marketing](end-user-app-marketing.md).
 
 1. Em um medidor, KPI ou bloco de cartão do dashboard, selecione as reticências.
    
    ![bloco de cartão](media/end-user-alerts/power-bi-cards.png)
-2. Selecione o ícone de sino ![ícone de Alerta](media/end-user-alerts/power-bi-bell-icon.png) ou **Gerenciar alertas** para adicionar um ou mais alertas para **Total de lojas**.
+2. Selecione o ícone de sino ![ícone de Alerta](media/end-user-alerts/power-bi-bell-icon.png) ou **Gerenciar alertas** para adicionar um ou mais alertas para **% de unidades de participação no mercado**.
 
    ![bloco de cartão com reticências selecionadas](media/end-user-alerts/power-bi-ellipses.png)
 
@@ -85,7 +88,7 @@ Em seguida, o Power BI enviará um alerta para o centro de notificações e, com
 
 ## <a name="managing-alerts"></a>Gerenciando alertas
 
-Há várias maneiras de gerenciar seus alertas: No próprio bloco do painel, no menu Configurações do Power BI, em um bloco individual no [aplicativo móvel do Power BI no iPhone](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) ou no [aplicativo móvel do Power BI para Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
+Há várias maneiras de gerenciar seus alertas: No próprio bloco do dashboard, no menu Configurações do Power BI, em um bloco individual no [aplicativo móvel do Power BI no iPhone](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) ou no [aplicativo móvel do Power BI para Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>No próprio bloco
 
@@ -111,10 +114,10 @@ Há várias maneiras de gerenciar seus alertas: No próprio bloco do painel, no 
 
 ## <a name="tips-and-troubleshooting"></a>Dicas e solução de problemas 
 
-* Os alertas só podem ser definidos em medidores, KPIs e cartões.
-* Se não for possível definir um alerta para um medidor, KPI ou cartão, fale com o administrador do sistema para obter ajuda. Às vezes, os alertas são desativados ou ficam indisponíveis para o dashboard ou para tipos específicos de blocos de dashboard.
+* Se não for possível definir um alerta para um medidor, KPI ou cartão, fale com o administrador dos locatários para obter ajuda. Às vezes, os alertas são desativados ou ficam indisponíveis para o dashboard ou para tipos específicos de blocos de dashboard.
 * Os alertas funcionam somente em dados que estão atualizados. Eles não funcionam em dados estáticos. A maioria dos exemplos fornecidos pela Microsoft são estáticos. 
-* Os *consumidores* não criam os próprios dashboards, os *designers* criam dashboards e os compartilham com os consumidores. A capacidade de receber e exibir conteúdo compartilhado requer uma licença Power BI Pro ou Premium. Para obter mais informações, leia [Qual licença tenho?](end-user-license.md) 
+* A capacidade de receber e exibir conteúdo compartilhado requer uma licença Power BI Pro ou Premium. Para obter mais informações, leia [Qual licença tenho?](end-user-license.md).
+* Os alertas podem ser definidos em visuais criados com base em conjuntos de dados de streaming que estão fixados de um relatório em um dashboard. Os alertas não podem ser definidos em blocos de streaming criados diretamente no dashboard usando **Adicionar bloco** > **Dados de streaming personalizados**.
 
 
 ## <a name="clean-up-resources"></a>Limpar recursos

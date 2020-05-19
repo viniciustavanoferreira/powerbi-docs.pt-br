@@ -7,17 +7,19 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/3/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6504e49c67d3c2344033f0cad53394ec5ae87e21
+ms.sourcegitcommit: 52177142c3e1f49147dff08fe48600a85a814a2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758096"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82944810"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizar as propriedades dos eixos X e Y
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -216,13 +218,12 @@ Com uma visualização complexa, convém adicionar títulos de eixos.  Os títul
 
 1. Formate os títulos. Neste exemplo, resumimos um dos títulos e reduzimos o tamanho da fonte para ambos. 
     - Tamanho da fonte: **9**
-    - Reduzimos o **Título do eixo** para o primeiro eixo Y (o gráfico de colunas): Vendas no ano passado e neste ano
+    - Reduzimos o **Título do eixo** para o primeiro eixo Y (o gráfico de colunas): Vendas no ano passado e neste ano. 
+    
+     ![Captura de tela do gráfico de combinação com títulos completos sendo exibidos.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-    ![Captura de tela do gráfico de combinação com títulos completos sendo exibidos.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
-
-
-
-Para obter mais informações, confira [Dicas e truques para formatação de cores no Power BI](service-tips-and-tricks-for-color-formatting.md) e [Personalizar títulos de visualização, legendas e planos de fundo](power-bi-visualization-customize-title-background-and-legend.md). Procure também novas atualizações para formatar títulos em breve. 
+    Para obter mais informações, confira [Dicas e truques para formatação de cores no Power BI](service-tips-and-tricks-for-color-formatting.md) e [Personalizar títulos de visualização, legendas e planos de fundo](power-bi-visualization-customize-title-background-and-legend.md). 
+    
 
 ## <a name="next-steps"></a>Próximas etapas
 

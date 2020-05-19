@@ -1,20 +1,23 @@
 ---
 title: Usar o visual de P e R do Power BI
 description: Como configurar o visual de P e R do Power BI
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762268"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148360"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Introdução às visualizações de P e R do Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -45,10 +48,12 @@ O visual de P e R consiste em quatro componentes principais:
 
 1. Abrir o arquivo no modo de exibição de relatório ![Captura de tela do ícone da exibição de relatório.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Selecionar ![Captura de tela da guia amarela.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
+Se você encontrar um erro ao criar um visual de P e R, confira a seção [limitações](../natural-language/q-and-a-limitations.md) para ver se há suporte para a configuração da fonte de dados.    
 
-Se você encontrar um erro ao criar um visual de P e R, confira a seção [limitações](../natural-language/q-and-a-limitations.md) para ver se há suporte para a configuração da fonte de dados.
+> [!NOTE]
+> Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium. Confira [Compartilhamento de relatórios](../collaborate-share/service-share-reports.md).
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Criar um visual de P e R usando uma pergunta sugerida
 Neste exercício, selecionaremos uma das perguntas sugeridas para criar nosso visual de P e R. 

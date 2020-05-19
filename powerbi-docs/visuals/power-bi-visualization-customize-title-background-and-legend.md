@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5a55fca07e4a0e5f9c027bcd17c3fba66a09958e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78893438"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277124"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizar títulos, telas de fundo e legendas de visualizações
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 
 Neste tutorial, você aprenderá várias maneiras diferentes de personalizar as visualizações. Há muitas opções para personalizar as visualizações. A melhor maneira de aprender sobre elas é explorando o painel **Formatar** (selecione o ícone de rolo de tinta). Para que você possa começar, este artigo mostrará como personalizar o título, a legenda e a tela de fundo de uma de visualização, bem como adicionar um tema.
 
@@ -30,12 +33,15 @@ Não é possível personalizar todas as visualizações. Confira a [lista comple
 
 - Relatório Exemplo de Análise de Varejo
 
+> [!NOTE]
+> Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium. Confira [Compartilhamento de relatórios](../collaborate-share/service-share-reports.md).
+
 ## <a name="customize-visualization-titles-in-reports"></a>Personalizar títulos de visualização em relatórios
 
-Para acompanhar, entre no Power BI Desktop e abra o relatório [Exemplo de Análise de Varejo](../sample-datasets.md).
+Para acompanhar, entre no Power BI Desktop e abra o relatório [Exemplo de Análise de Varejo](../create-reports/sample-datasets.md).
 
 > [!NOTE]
-> Ao fixar uma visualização em um dashboard, ela se torna um bloco do dashboard. Você também pode personalizar os blocos em si com [novos títulos e subtítulos, hiperlinks e redimensionamento](../service-dashboard-edit-tile.md).
+> Ao fixar uma visualização em um dashboard, ela se torna um bloco do dashboard. Você também pode personalizar os blocos em si com [novos títulos e subtítulos, hiperlinks e redimensionamento](../create-reports/service-dashboard-edit-tile.md).
 
 1. Vá para a página **Novas Lojas** do relatório **Exemplo de Análise de Varejo**.
 
@@ -139,7 +145,7 @@ Veja a seguir uma lista de visualizações e as opções de personalização que
 | Barras | sim | sim |sim |
 | Cartão | sim | sim |n/a |
 | Cartão de múltiplas linhas | sim | sim | n/a |
-| Column | sim | sim | sim |
+| Coluna | sim | sim | sim |
 | Combinação | sim | sim | sim |
 | Donut | sim | sim | sim |
 | Mapa coroplético | sim | sim | sim |
@@ -148,16 +154,16 @@ Veja a seguir uma lista de visualizações e as opções de personalização que
 | Influenciador principal | sim | sim | n/a |
 | KPI | sim | sim | n/a |
 | Linha | sim | sim | sim |
-| Mapa | sim | sim | sim |
+| Mapear | sim | sim | sim |
 | Matriz | sim | sim | n/a |
 | Pizza | sim | sim | sim |
-| Perguntas e Respostas | sim | sim | n/a |
+| P e R | sim | sim | n/a |
 | Dispersão | sim | sim | sim |
 | Forma | sim | sim | sim |
 | Segmentação de Dados | sim | sim | n/a |
-| Table | sim | sim | n/a |
+| Tabela | sim | sim | n/a |
 | Caixa de texto | não | sim | n/a |
-| Treemap | sim | sim | sim |
+| Mapa de árvore | sim | sim | sim |
 | Waterfall | sim | sim | sim |
 
 ## <a name="next-steps"></a>Próximas etapas
@@ -167,3 +173,5 @@ Veja a seguir uma lista de visualizações e as opções de personalização que
 - [Introdução com propriedades de eixo e formatação de cor](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
+
+

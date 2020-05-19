@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895133"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276572"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Introdução ao painel de formatação
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Se você tem permissões de edição para um relatório, há várias opções de formatação disponíveis. Nos relatórios do Power BI, você pode alterar a cor da série de dados, dos pontos de dados e até mesmo da tela de fundo das visualizações. Você pode alterar a forma como os eixos x e y são apresentados. Também é possível formatar as propriedades de fonte de visualizações, formas e títulos. O Power BI oferece controle total sobre como seus relatórios são exibidos.
 
 Para começar, abra um relatório no Power BI Desktop ou no serviço do Power BI. Ambos oferecem opções de formatação quase idênticas. Ao abrir um relatório no serviço do Power BI, selecione **Editar** na barra de menus. 
@@ -154,8 +157,10 @@ Selecionamos a visualização para ativá-la e abrimos a guia Formatação.  Sel
 Essas são apenas algumas das tarefas de formatação possíveis. Abra um relatório no modo de edição e divirta-se explorando o painel Formatação para criar visualizações lindas e informativas.
 
 ## <a name="next-steps"></a>Próximas etapas
-Para obter mais informações, consulte o seguinte artigo:  
+Para obter mais informações, consulte o seguinte artigo: 
+
+* [Compartilhamento de relatórios](../collaborate-share/service-share-reports.md)
 
 * [Dicas e truques para formatação com cores no Power BI](service-tips-and-tricks-for-color-formatting.md)  
-* [Formatação condicional em tabelas](../desktop-conditional-table-formatting.md)
+* [Formatação condicional em tabelas](../create-reports/desktop-conditional-table-formatting.md)
 

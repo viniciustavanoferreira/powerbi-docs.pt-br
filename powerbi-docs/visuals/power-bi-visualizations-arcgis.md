@@ -7,18 +7,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/18/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 59685b4c3ceab4b60cba92ec1d3924b902c1426a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5783df071830cdb19ef124ebb908f53955823c69
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77115298"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83130974"
 ---
 # <a name="interact-with-arcgis-maps-in-power-bi"></a>Interagir com mapas do ArcGIS no Power BI
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
 Este tópico foi escrito do ponto de vista de uma pessoa que está usando um mapa do ArcGIS no serviço do Power BI, no Desktop ou em um dispositivo móvel. Quando um designer compartilha um visual do ArcGIS Map for Power BI com você, há muitas maneiras de interagir com esse visual.  Para saber mais sobre como criar um mapa do ArcGIS, confira [Tutorial de mapas do ArcGIS pela Esri](../visuals/power-bi-visualization-arcgis.md).
+
+> [!NOTE]
+> Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium. Confira [compartilhamento de relatórios](../collaborate-share/service-share-reports.md).
 
 A combinação de mapas do ArcGIS e do Power BI leva o mapeamento para além da apresentação de pontos em um mapa, para um nível totalmente novo. Os designers de relatório começam com um mapa e anexam camadas de dados demográficos a esse mapa. A combinação de camadas de dados baseadas em local (como dados de censo) em um mapa com análise espacial transmite uma compreensão mais profunda dos dados nas visualizações.
 

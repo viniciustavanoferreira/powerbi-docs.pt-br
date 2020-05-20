@@ -118,7 +118,9 @@
           href: whitepapers.md
         - name: White paper de segurança do Power BI
           href: whitepaper-powerbi-security.md
-        - name: Implantação premium do Power BI
+        - name: White paper de implantação do Power BI Enterprise
+          href: whitepaper-powerbi-enterprise-deployment.md
+        - name: Implantação do Power BI Premium
           href: whitepaper-powerbi-premium-deployment.md
         - name: Distribuir o Power BI externamente usando o Azure Active Directory B2B
           href: whitepaper-azure-b2b-power-bi.md

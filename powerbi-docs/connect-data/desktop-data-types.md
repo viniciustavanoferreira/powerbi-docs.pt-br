@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 27509d42b09b9524b204da5ab0ce76f3d180a057
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293158"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561560"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados com suporte no Power BI Desktop e DAX (Data Analysis Expressions). 
@@ -72,7 +72,7 @@ O Power BI Desktop dá suporte a cinco tipos de dados de data/hora na Visualiza�
 **Verdadeiro/Falso** – um valor Booliano de Verdadeiro ou Falso.
 
 ### <a name="blanksnulls-type"></a>Tipo em branco/nulos
-**Em branco** - é um tipo de dados em DAX que representa e substitui nulos SQL. Você também pode gerar um elemento em branco usando a função [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) e testar elementos em branco usando a função lógica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+**Em branco** - é um tipo de dados em DAX que representa e substitui nulos SQL. Você também pode gerar um elemento em branco usando a função [BLANK](/dax/blank-function-dax) e testar elementos em branco usando a função lógica [ISBLANK](/dax/isblank-function-dax).
 
 ### <a name="binary-data-type"></a>Tipo de dados Binary
 
@@ -86,7 +86,7 @@ O tipo de dados Binary pode ser usado para representar outros dados com um forma
 > 
 
 ### <a name="table-data-type"></a>Tipo de dados de tabela
-O DAX usa um tipo de dados de tabela em muitas funções, como agregações e cálculos de inteligência de dados temporais. Algumas funções exigem uma referência a uma tabela; outras funções retornam uma tabela que pode ser usada como entrada para outras funções. Em algumas funções que exigem uma tabela como entrada, você pode especificar uma expressão que é avaliada como uma tabela; para algumas funções, é necessária uma referência a uma tabela base. Para obter informações sobre os requisitos de funções específicas, consulte [Referência de função DAX](https://msdn.microsoft.com/library/ee634396.aspx).
+O DAX usa um tipo de dados de tabela em muitas funções, como agregações e cálculos de inteligência de dados temporais. Algumas funções exigem uma referência a uma tabela; outras funções retornam uma tabela que pode ser usada como entrada para outras funções. Em algumas funções que exigem uma tabela como entrada, você pode especificar uma expressão que é avaliada como uma tabela; para algumas funções, é necessária uma referência a uma tabela base. Para obter informações sobre os requisitos de funções específicas, consulte [Referência de função DAX](/dax/dax-function-reference).
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>Conversão implícita e explícita de tipo de dados em fórmulas DAX
 Cada função DAX tem requisitos específicos quanto aos tipos de dados que são usados como entradas e saídas. Por exemplo, algumas funções exigem inteiros para alguns argumentos e datas para outros; outras funções exigem texto ou tabelas.
@@ -197,4 +197,3 @@ O modo como os elementos em branco são tratados em operações como adição ou
 | TRUE AND BLANK |FALSO |VERDADEIRO |
 | BLANK OR BLANK |BLANK |Erro |
 | BLANK AND BLANK |BLANK |Erro |
-

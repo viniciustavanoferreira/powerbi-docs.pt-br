@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279240"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407581"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Conectar-se ao Dashboard de Suporte a Decisões de Resposta a Emergências Hospitalares
 O aplicativo de modelo do Dashboard de Suporte a Decisões de Resposta a Emergências Hospitalares é o componente de relatório da [solução do Microsoft Power Platform para a resposta de emergência de serviços de saúde](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). O dashboard mostra aos gestores de emergência os dados agregados no sistema de saúde para ajudá-los a tomar decisões corretas e em tempo hábil.
@@ -32,11 +32,11 @@ Ao instalar a solução do Power Platform de Resposta a Emergências Hospitalare
 
 ## <a name="install-the-app"></a>Instalar o aplicativo
 
-1. Clique no seguinte link para acessar o aplicativo: [Aplicativo de modelo Dashboard de Suporte a Decisões de Resposta a Emergências Hospitalares](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+1. Clique no seguinte link para acessar o aplicativo: [Aplicativo de modelo Dashboard de Suporte a Decisões de Resposta a Emergências Hospitalares](https://aka.ms/AppSource_Hospital_offer)
 
-1. Na página do aplicativo no AppSource, selecione [**OBTER AGORA**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare).
+1. Na página do aplicativo no AppSource, selecione [**OBTER AGORA**](https://aka.ms/AppSource_Hospital_offer).
 
-    [![Aplicativo Dashboard de Suporte a Decisões de Resposta a Emergências Hospitalares no AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+    [![Aplicativo Dashboard de Suporte a Decisões de Resposta a Emergências Hospitalares no AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 
 1. Leia as informações em **Mais uma coisa** e selecione **Continuar**.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: a29dcd8c89d064678e558d5ebfee7ccb3cc8a8e0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330096"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438075"
 ---
 # <a name="power-bi-data-sources"></a>Fontes de dados do Power BI
 
@@ -66,7 +66,7 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Pasta | Sim | Sim | Não | Sim | Sim |
 | GitHub | Sim | Sim | Não | Não | Não |
 | Google Analytics | Sim | Sim | Não | Não | Não |
-| Google BigQuery | Sim | Sim | Não | Não | Não |
+| Google BigQuery | Sim | Sim | Sim | Não | Não |
 | HDFS (Arquivo do Hadoop) | Sim | Não | Não | Não | Não |
 | Consulta Interativa do HDInsight | Sim | Sim | Sim | Não | Não |
 | IBM DB2 | Sim | Sim | Sim | Sim | Não |

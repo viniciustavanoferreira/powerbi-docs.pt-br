@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 45395fbb9d815580132ea254812fddec4cec4ba5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 555d203cfa8bd00e745c0dcff5de7f7e8d48f06c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275261"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563174"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Solução de problemas para Analisar no Excel
 
@@ -84,7 +84,7 @@ Se receber um erro **Token expirado**, isso significa você não usou recentemen
 Se estiver tentando acessar um conjunto de dados que tem conexões com dados do Analysis Services local, você poderá receber uma mensagem de erro. **Analisar no Excel** dá suporte à conexão a conjuntos de dados e relatórios no **Analysis Services** local com uma cadeia de conexão, desde que o computador esteja no mesmo domínio que o servidor do **Analysis Services** e sua conta tenha acesso a este servidor do **Analysis Services**.
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>Não é possível arrastar para a área de valores da Tabela Dinâmica (não há medidas)
-Quando **Analisar no Excel** se conecta a um modelo OLAP externo (que é como o Excel se conecta ao Power BI), a *Tabela Dinâmica* [requer **medidas** a serem definidas no modelo externo](https://support.microsoft.com/kb/234700), uma vez que todos os cálculos são executados no servidor. Isso é diferente de quando você trabalha com uma fonte de dados local (como tabelas no Excel, ou quando você está trabalhando com conjuntos de dados no **Power BI Desktop** ou no **serviço do Power BI**), caso em que o modelo de tabela está disponível localmente, e [você pode usar medidas implícitas](https://msdn.microsoft.com/library/gg399077.aspx), que são as medidas geradas dinamicamente e não armazenadas no modelo de dados. Nesses casos, o comportamento no Excel é diferente do comportamento no **Power BI Desktop** ou no **serviço do Power BI**: pode haver colunas nos dados que podem ser tratados como medidas no Power BI, mas não podem ser usados como valores (medidas) no Excel.
+Quando **Analisar no Excel** se conecta a um modelo OLAP externo (que é como o Excel se conecta ao Power BI), a *Tabela Dinâmica* [requer **medidas** a serem definidas no modelo externo](https://support.microsoft.com/kb/234700), uma vez que todos os cálculos são executados no servidor. Isso é diferente de quando você trabalha com uma fonte de dados local (como tabelas no Excel, ou quando você está trabalhando com conjuntos de dados no **Power BI Desktop** ou no **serviço do Power BI**), caso em que o modelo de tabela está disponível localmente, e [você pode usar medidas implícitas](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4), que são as medidas geradas dinamicamente e não armazenadas no modelo de dados. Nesses casos, o comportamento no Excel é diferente do comportamento no **Power BI Desktop** ou no **serviço do Power BI**: pode haver colunas nos dados que podem ser tratados como medidas no Power BI, mas não podem ser usados como valores (medidas) no Excel.
 
 Para resolver esse problema, você tem algumas opções:
 
@@ -99,7 +99,7 @@ Depois que suas medidas são definidas no modelo de serviço do Power BI, você 
 
 [Tutorial: criar suas próprias medidas no Power BI Desktop](../transform-model/desktop-tutorial-create-measures.md)
 
-[Medidas no PowerPivot](https://msdn.microsoft.com/library/gg399077.aspx)
+[Medidas no PowerPivot](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)
 
 [Criar uma medida no PowerPivot](https://support.office.com/article/Create-a-Measure-in-Power-Pivot-d3cc1495-b4e5-48e7-ba98-163022a71198)
 

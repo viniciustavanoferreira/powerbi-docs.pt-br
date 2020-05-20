@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377134"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561956"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceitos básicos para consumidores do serviço do Power BI
 
@@ -116,7 +116,7 @@ Alguns exemplos das visualizações que você encontrará no Power BI são: casc
 
    ![Uma captura de tela de oito visuais de exemplo.](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Confira a [lista completa de visualizações incluídas com o Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
+Confira a [lista completa de visualizações incluídas com o Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 As visualizações chamadas de *visuais do Power BI* também estão disponíveis na comunidade. Se você receber um relatório com um visual que não reconhece, provavelmente será um visual personalizado. Se você precisar de ajuda para interpretar o visual personalizado, procure o nome do relatório ou o *designer* do painel e entre em contato com eles.
 

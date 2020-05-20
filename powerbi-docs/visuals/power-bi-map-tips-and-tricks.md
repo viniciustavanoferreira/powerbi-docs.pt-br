@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8a7b5785712aeac318b3d8a2bbd14ab7170a435f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277814"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565892"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Dicas e truques para visualizações de mapa do Power BI
 
@@ -55,7 +55,7 @@ No Power BI Desktop, é possível assegurar que os campos sejam codificados geog
 **2. Use mais de uma coluna de localização.**     
  Às vezes, até mesmo definir as categorias de dados de mapeamento não é suficiente para o Bing adivinhar corretamente a intenção. Algumas designações são ambíguas porque a localização existe em vários países ou regiões. Por exemplo, há um ***Southampton*** na Inglaterra, Pensilvânia e em Nova York.
 
-O Power BI usa o [serviço de modelo de URL não estruturado](https://msdn.microsoft.com/library/ff701714.aspx) do Bing para obter as coordenadas de latitude e longitude com base em um conjunto de valores de endereço para qualquer país. Se seus dados não contiverem dados de local suficientes, adicione essas colunas e categorize-as corretamente.
+O Power BI usa o [serviço de modelo de URL não estruturado](/bingmaps/rest-services/locations/find-a-location-by-address) do Bing para obter as coordenadas de latitude e longitude com base em um conjunto de valores de endereço para qualquer país. Se seus dados não contiverem dados de local suficientes, adicione essas colunas e categorize-as corretamente.
 
  Por exemplo, se você tiver apenas uma coluna Cidade, o Bing poderá ter dificuldades para realizar o geocódigo. Adicione outras colunas geográficas para tornar a localização inequívoca.  Às vezes, basta adicionar mais uma coluna de localização ao conjunto de dados – nesse caso, estado/província. E não se esqueça de categorizá-la corretamente. Consulte a etapa 1 acima.
 
@@ -97,5 +97,3 @@ Ao analisar hierarquias geográficas, é importante saber como cada botão de an
 [Visualizações do Power BI](power-bi-report-visualizations.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
-
-

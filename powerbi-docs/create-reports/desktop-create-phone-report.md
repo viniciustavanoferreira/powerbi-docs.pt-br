@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297965"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564736"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Otimizar relatórios do Power BI para o aplicativo móvel
 É possível melhorar a experiência de exibição de relatórios nos aplicativos móveis criando um layout de retrato. No Power BI Desktop e no serviço do Power BI, você reorganiza e redimensiona os visuais de relatório para obter uma experiência ideal no modo retrato.  
@@ -58,7 +58,7 @@ Após criar um relatório, é possível otimizá-lo para telefones e tablets.
 
 ![Redimensionamento do visual responsivo](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-Você opta por ativar a capacidade de resposta para cada visual. Leia mais sobre a [otimização de visuais](../visuals/desktop-create-responsive-visuals.md).
+Você opta por ativar a capacidade de resposta para cada visual. Leia mais sobre a [otimização de visuais](../visuals/power-bi-report-visualizations.md).
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Considerações ao criar layouts de relatório do telefone
 * Para relatórios com várias páginas, você pode otimizar todas as páginas ou apenas algumas. 
@@ -108,5 +108,5 @@ Leitores de relatórios podem girar seus telefones ou tablets para o lado para v
 ## <a name="next-steps"></a>Próximas etapas
 * [Criar uma exibição de telefone de um dashboard no Power BI](service-create-dashboard-mobile-phone-view.md).
 * [Exibir relatórios do Power BI otimizados para seu telefone](../consumer/mobile/mobile-apps-view-phone-report.md).
-* [Criar visuais dinâmicos otimizados para qualquer tamanho](../visuals/desktop-create-responsive-visuals.md).
+* [Criar visuais dinâmicos otimizados para qualquer tamanho](../visuals/power-bi-report-visualizations.md).
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/).

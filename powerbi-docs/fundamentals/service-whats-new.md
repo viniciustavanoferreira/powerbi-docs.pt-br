@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b89c64caa7a4f8fe846cca488164758550a4869a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361188"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566053"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
@@ -224,7 +224,7 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 
 ### <a name="june-2017"></a>Junho de 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) disponibilizado para o público geral.
-* Várias melhorias na API para [automatizar a atualização agendada](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), para [clonar e reassociar relatórios](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), para [atualizar as associações do gateway](https://msdn.microsoft.com/library/mt784650.aspx) e muito mais
+* Várias melhorias na API para [automatizar a atualização agendada](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), para [clonar e reassociar relatórios](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), para [atualizar as associações do gateway](/rest/api/power-bi/) e muito mais
 * Links relativos nos aplicativos do Power BI nos blocos de dashboard a outros dashboards e relatórios.
 * [Conector do Impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) disponível ao público geral no Power BI Desktop.
 * Estenda as funcionalidades visuais do Power BI com [elementos visuais interativos e do Power BI do R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).

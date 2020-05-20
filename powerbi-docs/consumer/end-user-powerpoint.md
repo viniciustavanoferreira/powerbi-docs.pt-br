@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348357"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565731"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportar relatórios para o PowerPoint
 
@@ -31,7 +31,7 @@ Com o serviço do Power BI (app.powerbi.com), é possível publicar seu relatór
 
 Obter o **relatório do Power BI** exportado no **PowerPoint** é rápido. Siga as etapas descritas na próxima seção.
 
-Você também pode copiar um visual por vez do serviço do Power BI e colá-lo no PowerPoint (ou em qualquer outro programa que ofereça suporte à colagem). Selecione o ícone **Copiar como imagem** para copiar o visual para a área de transferência. Em seguida, abra o PowerPoint e cole o visual. Para obter mais informações, confira [Copiar visuais como imagens estáticas](../power-bi-visualization-copy-paste.md).
+Você também pode copiar um visual por vez do serviço do Power BI e colá-lo no PowerPoint (ou em qualquer outro programa que ofereça suporte à colagem). Selecione o ícone **Copiar como imagem** para copiar o visual para a área de transferência. Em seguida, abra o PowerPoint e cole o visual. Para obter mais informações, confira [Copiar visuais como imagens estáticas](../visuals/power-bi-visualization-copy-paste.md).
 
 ![Selecione o ícone Copiar como imagem](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ O que fazer com seu material do PowerPoint daí em diante, ou com qualquer uma d
 Há algumas considerações e limitações para ter em mente ao trabalhar com o recurso **Exportar para o PowerPoint**.
  
 
-* No momento, os [filtros de URL](../service-url-filters.md) não são respeitados quando você escolhe **Valores atuais** para a exportação.
+* No momento, os [filtros de URL](../collaborate-share/service-url-filters.md) não são respeitados quando você escolhe **Valores atuais** para a exportação.
 
 * Ao exportar para o PowerPoint, se o relatório usar uma fonte personalizada, essa fonte será substituída por uma fonte padrão.
 
 * Os seguintes tipos de visuais não têm suporte e não serão exportados para o PowerPoint:
-   - Não há suporte para [visuais personalizados que não foram certificados](../developer/power-bi-custom-visuals-certified.md). 
+   - Não há suporte para [visuais personalizados que não foram certificados](../developer/visuals/power-bi-custom-visuals-certified.md). 
    - O [visual ESRI ArcGIS](../visuals/power-bi-visualizations-arcgis.md) não é compatível
    - Não há suporte para visuais R e Python.
    - As imagens de segundo plano são cortadas com a área delimitadora do gráfico. Recomendamos que você remova as imagens de segundo plano antes de exportar para o PowerPoint.
@@ -109,5 +109,5 @@ Há algumas considerações e limitações para ter em mente ao trabalhar com o 
 
 
 ## <a name="next-steps"></a>Próximas etapas
-[Copiar visuais como imagens estáticas](../power-bi-visualization-copy-paste.md)    
+[Copiar visuais como imagens estáticas](../visuals/power-bi-visualization-copy-paste.md)    
 [Imprimir um relatório](end-user-print.md)

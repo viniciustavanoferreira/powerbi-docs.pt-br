@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 16d62af90855c99f9d50c35dd411ef50f2a9a4e6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205655"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565159"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Um tour rápido pela home page do aplicativo Mobile
 Neste tour, você se familiariza com a home page do aplicativo Power BI Mobile e com os recursos de navegação que ele oferece a você, para que você obtenha rapidamente o que precisa.
@@ -41,7 +41,7 @@ O feed de atividades ajuda você a acompanhar o que está acontecendo com o seu 
 As atualizações no feed incluem:
 * **Dados atualizados**: quando os dados subjacentes em um dos relatórios ou dashboards em seus itens favoritos ou acessados recentemente são atualizados.
 * **Novos comentários**: quando as pessoas criam um comentário em um relatório ou dashboard que está nos seus favoritos ou itens recentemente acessados, ou quando alguém menciona você em um comentário.
-* **Alertas de dados**: quando os dados atingem um limite que você definiu anteriormente em um [alerta de dados](../../mobile-set-data-alerts-in-the-mobile-apps.md).
+* **Alertas de dados**: quando os dados atingem um limite que você definiu anteriormente em um [alerta de dados](mobile-set-data-alerts-in-the-mobile-apps.md).
 * **Atualizações de aplicativo**: quando um criador de aplicativo publica uma atualização em um aplicativo que você está usando.
 
  Toque em um item de atividade para ir para o local relevante a fim de explorar mais detalhadamente.
@@ -57,13 +57,13 @@ Na parte inferior da página, você encontra a barra de navegação.
 A barra de navegação fornece acesso rápido a:
 
 * ![ícone de página inicial](./media/mobile-apps-home-page/powerbi-mobile-app-home-icon.png) **Página inicial** – retorna à home page.
-* ![ícone de favoritos](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **Favoritos** – os relatórios, dashboards e aplicativos que você marcou como [favoritos](../../mobile-apps-favorites.md).
+* ![ícone de favoritos](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **Favoritos** – os relatórios, dashboards e aplicativos que você marcou como [favoritos](mobile-apps-favorites.md).
 * ![ícone de aplicativos](./media/mobile-apps-home-page/powerbi-mobile-app-apps-icon.png) **Aplicativos** – os aplicativos que você instalou em sua conta.
 * ![ícone de workspaces](./media/mobile-apps-home-page/powerbi-mobile-app-workspaces-icon.png) **Workspaces** – as pastas de trabalho que mantêm os relatórios e dashboards que os criadores de conteúdo estão criando.
 * ![o ícone recentes](./media/mobile-apps-home-page/powerbi-mobile-app-recents-icon.png) **Recentes** – os itens que você exibiu recentemente.
 * ![ícone compartilhado comigo](./media/mobile-apps-home-page/powerbi-mobile-app-shared-with-me-icon.png) **Compartilhado comigo** – os itens que outras pessoas compartilharam com você.
 * ![ícone de exemplos](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **Exemplos** – exemplos do Power BI que você pode usar para saber mais sobre as funcionalidades do Power BI.
-* ![ícone de scanner](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **Scanner** – a câmera do dispositivo que você pode usar como um scanner para digitalizar [códigos de barras](../../mobile-apps-scan-barcode-iphone.md) e [códigos QR](../../mobile-apps-qr-code.md).
+* ![ícone de scanner](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **Scanner** – a câmera do dispositivo que você pode usar como um scanner para digitalizar [códigos de barras](mobile-apps-scan-barcode-iphone.md) e [códigos QR](mobile-apps-qr-code.md).
 
 ## <a name="header"></a>Cabeçalho
 
@@ -72,11 +72,11 @@ Na parte superior da página, o cabeçalho mostra o nome da página, relatório 
 ![header](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
 
 O cabeçalho fornece os seguintes itens de navegação:
-* **Imagem de perfil ou avatar** – abre o painel lateral, no qual é possível [alternar entre o serviço do Power BI e as contas de Servidor de Relatório](../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md), bem como acessar as configurações de aplicativo do Power BI Mobile.
+* **Imagem de perfil ou avatar** – abre o painel lateral, no qual é possível [alternar entre o serviço do Power BI e as contas de Servidor de Relatório](mobile-app-ssrs-kpis-mobile-on-premises-reports.md), bem como acessar as configurações de aplicativo do Power BI Mobile.
 
     ![painel lateral](./media/mobile-apps-home-page/powerbi-mobile-app-side-panel.png)
 
-* **Notificações** – abre a [página de notificações](../../mobile-apps-notification-center.md) em que você pode exibir e acessar suas notificações. Um ponto no sino de notificações indica que você tem novas notificações.
+* **Notificações** – abre a [página de notificações](mobile-apps-notification-center.md) em que você pode exibir e acessar suas notificações. Um ponto no sino de notificações indica que você tem novas notificações.
 
     ![página de notificações](./media/mobile-apps-home-page/powerbi-mobile-app-notifications-page.png)
 
@@ -86,5 +86,5 @@ O cabeçalho fornece os seguintes itens de navegação:
 
 ## <a name="next-steps"></a>Próximas etapas
 Neste Tour, você explorou a home page do aplicativo Power BI Mobile. Leia mais sobre o uso do aplicativo Power BI Mobile. 
-* [Explorar dashboards e relatórios](../../mobile-apps-quickstart-view-dashboard-report.md)
-* [Explorar relatórios nos aplicativos móveis do Power BI](../../mobile-reports-in-the-mobile-apps.md)
+* [Explorar dashboards e relatórios](mobile-apps-quickstart-view-dashboard-report.md)
+* [Explorar relatórios nos aplicativos móveis do Power BI](mobile-reports-in-the-mobile-apps.md)

@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 583d33a1d28fa926bdea41988d651f12de5a8e92
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a490951808271cb845c1ec558344bcf5fdc6c145
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309120"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564936"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solucionar problemas de atualização
 
@@ -33,7 +33,7 @@ Se você acessou este artigo de uma notificação por email e não deseja mais r
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>A atualização usando o conector da Web não funciona corretamente
 
-Se você tiver um script de conector da Web usando a função [**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) e tiver atualizado o seu conjunto de dados ou relatório após 18 de novembro de 2016, você deverá usar um gateway para que a atualização funcione corretamente.
+Se você tiver um script de conector da Web usando a função [**Web.Page**](/powerquery-m/web-page) e tiver atualizado o seu conjunto de dados ou relatório após 18 de novembro de 2016, você deverá usar um gateway para que a atualização funcione corretamente.
 
 ## <a name="unsupported-data-source-for-refresh"></a>Fonte de dados sem suporte para atualização
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f36b0a92d09330b4efec078ae5bc767fed434393
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 835feb7c7535a50a10c736464d8366f1f7bf910a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325634"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565869"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Editor de fórmulas no Power BI Desktop
 
@@ -62,5 +62,4 @@ Os artigos a seguir fornecem mais informações sobre fórmulas e DAX no Power B
 
 * [Noções básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 * [Aprenda DAX para o Power BI](https://docs.microsoft.com/power-bi/guided-learning/introductiontodax?tutorial-step=1)
-* [Referência do DAX](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)
-
+* [Referência do DAX](/dax/)

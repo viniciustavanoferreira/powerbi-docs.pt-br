@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273513"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565113"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Exibir relatórios do Power BI otimizados para seu telefone
 
@@ -60,7 +60,7 @@ Os relatórios do telefone também oferecem um modo de foco: Você obtém uma ex
 
 * Em um relatório de telefone, toque no botão de reticências ( **...** ) no canto superior direito de um visual > **Expandir para o modo de foco**.
   
-    ![Expandir para o modo de foco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Expandir para o modo de foco](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 O que você faz no modo de foco é transferido para a tela de relatório e vice-versa. Por exemplo, se você realçar um valor em um visual e, em seguida, retornar para o relatório inteiro, o relatório será filtrado para o valor realçado no visual.
 
@@ -72,7 +72,7 @@ Algumas ações somente são possíveis no modo de foco, devido às restrições
   
     Para limpar toda a exploração de um visual, toque no botão de reticências ( **...** ) > **Reverter**.
   
-    ![Reverter](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Reverter](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     A reversão está disponível no nível do relatório, limpando toda a exploração de todos os visuais ou, no nível do visual, limpando toda a exploração do visual selecionado.   
 
@@ -86,14 +86,14 @@ Há alguns tipos de drill down:
 2. A dica de ferramenta será exibida e, se a hierarquia for definida, o rodapé da dica de ferramenta mostrará a seta de drill down e up.
 3. Toque na seta para baixo para fazer drill down
 
-    ![Tocar em drill down](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Tocar em drill down](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. Toque na seta para cima para fazer drill up.
 
 ### <a name="drill-to-next-level"></a>Analisar o próximo nível
 1. Em um relatório em um telefone, toque no botão de reticências ( **...** ) no canto superior direito > **Expandir para o modo de foco**.
    
-    ![Expandir para o modo de foco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Expandir para o modo de foco](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     Neste exemplo, as barras mostram os valores de estados.
 2. Toque no ícone Explorar ![ícone Explorar](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) no canto inferior esquerdo.
@@ -111,7 +111,7 @@ Há alguns tipos de drill down:
     ![Ainda expandido para um nível inferior](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. Para voltar ao nível original, toque no botão de reticências ( **...** ) novamente > **Reverter**.
    
-    ![Reverter](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Reverter](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>Executar uma consulta drill-through de um valor
 O drill-through conecta os valores de uma página de relatório a outras páginas de relatório. Quando você executa uma consulta drill-through de um ponto de dados para outra página de relatório, os valores de ponto de dados são usados para filtrar a página detalhada ou eles estarão no contexto dos dados selecionados.
@@ -121,11 +121,11 @@ Os autores de relatório podem [definir o drill-through](https://docs.microsoft.
 2. A dica de ferramenta será exibida e, se o drill-through estiver definido, o rodapé da dica de ferramenta mostrará a seta de drill-through.
 3. Toque na seta para fazer drill-through
 
-    ![Tocar em drill-through](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Tocar em drill-through](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. Escolher a página de relatório para fazer drill-through
 
-    ![Escolher página do relatório](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Escolher página do relatório](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. Use o botão Voltar no cabeçalho do aplicativo para voltar à página na qual você iniciou a navegação.
 
@@ -133,5 +133,5 @@ Os autores de relatório podem [definir o drill-through](https://docs.microsoft.
 ## <a name="next-steps"></a>Próximas etapas
 * [Criar relatórios otimizados para os aplicativos móveis do Power BI](../../create-reports/desktop-create-phone-report.md)
 * [Criar uma exibição de telefone de um dashboard no Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [Criar visuais responsivos otimizados para qualquer tamanho](../../visuals/desktop-create-responsive-visuals.md)
+* [Criar visuais responsivos otimizados para qualquer tamanho](../../visuals/power-bi-report-visualizations.md)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348840"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564542"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introdução a dashboards para designers do Power BI
 
 Um *dashboard* do Power BI é uma página única, geralmente chamada de tela, que conta uma história por meio de visualizações. Por ser limitado a uma única página, um dashboard bem projetado contém apenas os elementos mais importantes da história. Os leitores podem exibir relatórios relacionados para obter detalhes.
 
-![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
+![Painel](media/service-dashboards/power-bi-dashboard2.png)
 
-Dashboards são um recurso do serviço do Power BI apenas. Eles não estão disponíveis no Power BI Desktop. Embora não seja possível criar dashboards em dispositivos móveis, você pode [exibir e compartilhar]../consumer/mobile/mobile-apps-view-dashboard.md) os dashboards lá.
+Dashboards são um recurso do serviço do Power BI apenas. Eles não estão disponíveis no Power BI Desktop. Embora não seja possível criar dashboards em dispositivos móveis, você pode [exibir e compartilhar](../consumer/mobile/mobile-apps-view-dashboard.md) os dashboards lá.
 
 ## <a name="dashboard-basics"></a>Noções básicas de dashboard 
 
@@ -47,9 +47,9 @@ A capacidade de criar um dashboard é considerada um recurso do *criador* e requ
 ## <a name="dashboards-versus-reports"></a>Dashboards versus relatórios
 [Relatórios](../consumer/end-user-reports.md) e painéis parecem semelhantes, pois são ambos são telas preenchidas com visualizações. Mas há grandes diferenças, como você pode ver na tabela a seguir.
 
-| **Funcionalidade** | **Dashboards** | **Relatórios** |
+| **Recurso** | **Painéis** | **Relatórios** |
 | --- | --- | --- |
-| Páginas |Uma página |Uma ou mais páginas |
+| Pages (Páginas) |Uma página |Uma ou mais páginas |
 | Fontes de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Disponível no Power BI Desktop |Não | Sim. Pode criar e exibir relatórios no Power BI Desktop |
 | Assinar |Sim. Pode assinar um dashboard |Sim. Pode assinar uma página de relatório |

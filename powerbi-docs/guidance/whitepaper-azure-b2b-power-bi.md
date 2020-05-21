@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82843631"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565427"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure Active Directory B2B
 
@@ -415,7 +415,7 @@ Agora, quando esse usuário abrir o aplicativo que foi compartilhado com ele, el
 
 Outro tópico interessante é ver como a RLS (segurança em nível de linha) dinâmica funciona com o B2B do Azure AD.
 
-Em resumo, a segurança dinâmica em nível de linha funciona filtrando os dados no modelo com base no nome de usuário da pessoa que está se conectando ao Power BI. Em vez de adicionar várias funções para grupos de usuários, você define os usuários no modelo. Não descreveremos o padrão em detalhes aqui. O Kasper de Jong oferece uma gravação detalhada em todos os tipos de segurança de nível de linha em Power BI Desktop folha de consulta de [segurança dinâmica](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)e neste [White Paper](https://msdn.microsoft.com/library/jj127437.aspx) .
+Em resumo, a segurança dinâmica em nível de linha funciona filtrando os dados no modelo com base no nome de usuário da pessoa que está se conectando ao Power BI. Em vez de adicionar várias funções para grupos de usuários, você define os usuários no modelo. Não descreveremos o padrão em detalhes aqui. O Kasper de Jong oferece uma gravação detalhada em todos os tipos de segurança de nível de linha em Power BI Desktop folha de consulta de [segurança dinâmica](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)e neste [White Paper](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) .
 
 Vejamos um pequeno exemplo – a contoso tem um relatório simples sobre vendas por grupos:
 
@@ -504,7 +504,7 @@ Para usuários convidados habilitados por meio do permitir que usuários convida
 
 - Publicação direta do Power BI Desktop para o serviço do Power BI
 - Usuários convidados não podem usar o Power BI Desktop para se conectar a conjuntos de dados de serviço no serviço do Power BI
-- Espaços de trabalho clássicos vinculados a grupos do Office 365: o usuário convidado não pode criar ou ser administradores desses espaços de trabalho. Eles podem ser membros.
+- Espaços de trabalho clássicos vinculados a grupos de Microsoft 365: o usuário convidado não pode criar ou ser administradores desses espaços de trabalho. Eles podem ser membros.
 - O envio de convites ad-hoc para listas de acesso do workspace não é uma ação compatível
 - O Power BI Publisher para Excel não é compatível com usuários convidados
 - Usuários convidados não podem instalar um Power BI Gateway e conectá-lo à sua organização

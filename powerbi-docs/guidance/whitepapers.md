@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2019
+ms.date: 05/19/2020
 ms.author: maggies
-ms.openlocfilehash: 8b103902f7a151dcbfee9fa6ff54830129a65c14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 98b5323efa8b6c6c0e1d6f1dbab640fe5f4cae4c
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279056"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693975"
 ---
 # <a name="whitepapers-for-power-bi"></a>White papers para o Power BI
 
@@ -21,7 +21,7 @@ White papers permitem que você explore os tópicos do Power BI em um nível mai
 
 | White paper | Descrição | Data |
 | --- | --- | --- |
-| [Planejando uma implantação do Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |Este white paper técnico descreve as considerações para uma implantação organizacional segura e com bom desempenho do Power BI. | Julho de 2018 |
+| [Planejando uma implantação do Power BI Enterprise](https://aka.ms/PBIEnterpriseDeploymentWP) |Este white paper técnico atualizado descreve as considerações e as práticas recomendadas para uma implantação de Power BI organizacional e com bom desempenho. | Maio de 2020 |
 | [Os fluxos de dados e o Power BI](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Este white paper descreve em detalhes técnicos os fluxos de dados e as funcionalidades e iniciativas por trás dos recursos e funções dos fluxo de dados. | Novembro de 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Descreve o Power BI Premium, tanto como ele é quando lançado quanto como ele evoluirá. | Outubro de 2017 |
 | [Planejamento e Implantação do Power BI Premium](whitepaper-powerbi-premium-deployment.md)| Este documento fornece diretrizes e as melhores práticas para o planejamento e a implantação da capacidade premium para cargas de trabalho bem definidas.| Março de 2019 |
@@ -38,4 +38,4 @@ White papers permitem que você explore os tópicos do Power BI em um nível mai
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-Mais perguntas? [Experimente perguntar para a Comunidade do Power BI](https://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

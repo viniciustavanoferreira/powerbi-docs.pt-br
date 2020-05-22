@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565267"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792903"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper de segurança do Power BI
 
@@ -91,11 +91,11 @@ Metadados sobre a assinatura do Power BI de um usuário, como dashboards, relat�
 
 ## <a name="tenant-creation"></a>Criação de locatário
 
-Um locatário é uma instância dedicada do serviço do Azure AD que uma organização recebe e detém quando se inscreve em um serviço de nuvem da Microsoft, como o Azure, Microsoft Intune, Power BI ou Office 365. Cada locatário do AD do Azure é distinto e separado de outros diretórios do AD do Azure.
+Um locatário é uma instância dedicada do serviço do Azure AD que uma organização recebe e possui quando se inscreve em um serviço de nuvem da Microsoft, como o Azure, Microsoft Intune, Power BI ou Microsoft 365. Cada locatário do AD do Azure é distinto e separado de outros diretórios do AD do Azure.
 
 Um locatário acomoda os usuários em uma empresa e as informações sobre eles - suas senhas, dados de perfil do usuário, permissões e assim por diante. Ele também contém grupos, aplicativos e outras informações referentes a uma organização e à sua segurança. Para obter mais informações, consulte [o que é um locatário do Azure ad](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings).
 
-Um locatário do Power BI é criado no datacenter considerado mais próximo das informações de país (ou região) e Estado fornecidas para o locatário no Azure Active Directory que foram fornecidas quando o serviço do Office 365 ou do Power BI foi inicialmente provisionado. O locatário do Power BI não se move desse local de datacenter atualmente.
+Um locatário Power BI é criado no datacenter considerado mais próximo ao país (ou região) e às informações de estado fornecidas para o locatário no Azure Active Directory, que foi fornecido quando o Microsoft 365 ou serviço do Power BI foi inicialmente provisionado. O locatário do Power BI não se move desse local de datacenter atualmente.
 
 ### <a name="multiple-geographies-multi-geo"></a>Múltiplas Áreas Geográficas (Multi-Geo)
 
@@ -129,7 +129,7 @@ Para obter mais informações sobre o local em que seus dados serão armazenados
 
 ## <a name="user-authentication"></a>Autenticação de usuário
 
-A autenticação do usuário para o serviço do Power BI consiste em uma série de solicitações, respostas e redirecionamentos entre o navegador do usuário e o serviço do Power BI ou os serviços do Azure usados pelo Power BI. Essa sequência descreve o processo de autenticação de usuário no Power BI. Para obter mais informações sobre as opções para modelos de autenticação de usuário da organização (modelos de entrada), veja [Escolhendo um modelo de entrada para o Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
+A autenticação do usuário para o serviço do Power BI consiste em uma série de solicitações, respostas e redirecionamentos entre o navegador do usuário e o serviço do Power BI ou os serviços do Azure usados pelo Power BI. Essa sequência descreve o processo de autenticação de usuário no Power BI. Para obter mais informações sobre as opções para os modelos de autenticação de usuário de uma organização (modelos de entrada), consulte [escolhendo um modelo de entrada para Microsoft 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
 ### <a name="authentication-sequence"></a>Sequência de autenticação
 
@@ -245,9 +245,9 @@ O Power BI fornece monitoramento de integridade de dados das seguintes maneiras:
 
 1. Metadados (definição de relatório)
 
-   a. Os relatórios podem estar em Excel para relatórios do Office 365 ou relatórios do Power BI. O seguinte se aplica a metadados com base no tipo de relatório:
+   a. Os relatórios podem ser do Excel para Microsoft 365 relatórios ou Power BI relatórios. O seguinte se aplica a metadados com base no tipo de relatório:
         
-    &ensp;&ensp;a. Os metadados de relatório do Excel são armazenados criptografados em SQL Azure. Os metadados também são armazenados no Office 365.
+    &ensp;&ensp;a. Os metadados de relatório do Excel são armazenados criptografados em SQL Azure. Os metadados também são armazenados em Microsoft 365.
 
     &ensp;&ensp;b. Power BI relatórios são armazenados criptografados no banco de dados SQL do Azure.
 
@@ -255,13 +255,13 @@ O Power BI fornece monitoramento de integridade de dados das seguintes maneiras:
 
    Os dados estáticos incluem artefatos como imagens de plano de fundo e elementos visuais de Power BI.
 
-    &ensp;&ensp;a. Para relatórios criados com o Excel para o Office 365, nada é armazenado.
+    &ensp;&ensp;a. Para relatórios criados com o Excel para Microsoft 365, nada é armazenado.
 
     &ensp;&ensp;b. Relatórios do Power BI, os dados estáticos são armazenados e criptografados no armazenamento de Blobs do Azure.
 
 3. Caches
 
-    &ensp;&ensp;a. Para relatórios criados com o Excel para o Office 365, nada é armazenado em cache.
+    &ensp;&ensp;a. Para relatórios criados com o Excel para Microsoft 365, nada é armazenado em cache.
 
     &ensp;&ensp;b. Para Power BI relatórios, os dados dos visuais dos relatórios mostrados são armazenados em cache e armazenado no cache de dados Visual descrito na seção a seguir.
  

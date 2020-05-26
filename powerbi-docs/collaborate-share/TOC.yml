@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Colaborar em um workspace clássico
               href: service-collaborate-power-bi-workspace.md
-            - name: Gerenciar seu grupo no Power BI e no Office 365
+            - name: Gerenciar seu grupo no Power BI e no Microsoft 365
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: Publicar e compartilhar seu trabalho
           items:
@@ -71,9 +71,11 @@
           items:
             - name: Analisar no Excel
               href: service-analyze-in-excel.md
+            - name: Tabelas em destaque do Power BI no Excel
+              href: service-excel-featured-tables.md
             - name: Análise de solução de problemas no Excel
               href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Erro: Não foi possível localizar nenhum dado na sua pasta de trabalho do Excel'
+            - name: 'Erro: não foi possível localizar dados na sua pasta de trabalho do Excel'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate e Power BI
               href: service-flow-integration.md

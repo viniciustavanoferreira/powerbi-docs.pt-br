@@ -4,17 +4,17 @@ description: O serviço do Power BI (app.powerbi.com) tem uma nova aparência. E
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 33100ff8c9209b0aac693188c551b9c7cf84ad3d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 188f4bfb5e54d3b132d77dbf7229e58491281042
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83359624"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813889"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>A "nova aparência"' do serviço do Power BI
 

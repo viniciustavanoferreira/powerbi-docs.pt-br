@@ -1,22 +1,22 @@
 ---
-title: Permissão Criar para conjuntos de dados compartilhados (versão prévia)
+title: Compilar permissão para conjuntos de dados compartilhados
 description: Saiba como você pode controlar o acesso aos dados usando a permissão Criar.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af2e4c865609846d8fcfc792eee4f483afef2160
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 84f6a9d152151c6d6f44bcbad9e0a4d54fc0c293
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285338"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792999"
 ---
-# <a name="build-permission-for-shared-datasets-preview"></a>Permissão Criar para conjuntos de dados compartilhados (versão prévia)
+# <a name="build-permission-for-shared-datasets"></a>Compilar permissão para conjuntos de dados compartilhados
 
 Quando você cria um relatório no Power BI Desktop, os dados nesse relatório são armazenados em um *modelo de dados*. Ao publicar seus relatórios no serviço do Power BI, você também está publicando os dados como um *conjunto de dados*. Você pode conceder a outras pessoas a *permissão Criar* para esse relatório, para que elas possam descobrir e reutilizar o conjunto de dados que você compartilhou. Este artigo explica como controlar o acesso aos dados usando a permissão Criar.
 
@@ -107,5 +107,5 @@ Você pode remover a permissão Criar. Se você fizer isso, as pessoas cujas per
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- [Usar conjuntos de dados em workspaces](service-datasets-across-workspaces.md)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

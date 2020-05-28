@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dd7387bcb008d10ec8887ac777431b5423d43f4c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274847"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120341"
 ---
 # <a name="dataset-impact-analysis"></a>Análise do impacto do conjunto de dados
 
@@ -54,7 +54,7 @@ As métricas de uso estão relacionadas aos últimos 30 dias, exceto o dia atual
 
 ## <a name="notify-contacts"></a>Notificar contatos
 
-Se você fez uma alteração em um conjunto de dados ou está pensando em fazer uma alteração, talvez seja interessante entrar em contato com os usuários relevantes para informá-los sobre isso. Quando você notifica os contatos, um email é enviado para as [listas de contatos](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) de todos os workspaces afetados. Seu nome é exibido no email para que os contatos possam encontrá-lo e responder de volta em um novo thread de email. 
+Se você fez uma alteração em um conjunto de dados ou está pensando em fazer uma alteração, talvez seja interessante entrar em contato com os usuários relevantes para informá-los sobre isso. Quando você notifica os contatos, um email é enviado para as [listas de contatos](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list) de todos os workspaces afetados. Seu nome é exibido no email para que os contatos possam encontrá-lo e responder de volta em um novo thread de email. 
 
 1. Clique em **Notificar contatos** no painel lateral da análise de impacto. A caixa de diálogo notificar contatos será exibida.
 

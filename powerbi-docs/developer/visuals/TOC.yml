@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: Publicar visuais do Power BI no AppSource
           href: office-store.md
+        - name: Criar visuais baseados em R
+          href: create-r-based-power-bi-desktop.md
         - name: Testar seu visual do Power BI
           href: submission-testing.md
         - name: Usar visuais do Power BI baseados em R no Power BI
@@ -92,7 +94,7 @@
       items:
         - name: Log de alteração
           href: changelog.md
-        - name: Página de aterrissagem
+        - name: Página de aterrisagem
           href: landing-page.md
         - name: URL de inicialização
           href: launch-url.md

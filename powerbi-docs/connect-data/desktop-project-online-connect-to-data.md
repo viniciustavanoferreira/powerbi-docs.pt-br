@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291916"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563042"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Conectar-se aos dados do Project Online por meio do Power BI Desktop
 Você pode conectar-se a dados no Project Online por meio do Power BI Desktop.
 
-## <a name="step-1-download-power-bi-desktop"></a>Etapa 1: Baixar o Power BI Desktop
+## <a name="step-1-download-power-bi-desktop"></a>Etapa 1: Baixe o Power BI Desktop
 1. [Baixar o Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521662) e, em seguida, execute o instalador para obter o **Power BI Desktop** em seu computador.
 
 ## <a name="step-2-connect-to-project-online-with-odata"></a>Etapa 2: Conectar-se ao Project Online com o OData
@@ -35,7 +35,7 @@ Você pode conectar-se a dados no Project Online por meio do Power BI Desktop.
 
     `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 
-5. O Power BI Desktop solicitará que você se autentique com sua conta do Office 365. Selecione Conta organizacional e, em seguida, insira suas credenciais.
+5. O Power BI Desktop solicitará que você se autentique com sua conta corporativa ou de estudante. Selecione Conta organizacional e, em seguida, insira suas credenciais.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 

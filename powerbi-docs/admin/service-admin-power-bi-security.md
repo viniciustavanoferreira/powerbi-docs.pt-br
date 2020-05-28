@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275399"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564376"
 ---
 # <a name="power-bi-security"></a>Segurança do Power BI
 
@@ -43,11 +43,11 @@ O Power BI usa dois repositórios primários para armazenar e gerenciar dados: o
 
 A linha pontilhada na imagem do cluster de **Back-End**, representada acima, esclarece o limite entre apenas dois componentes que podem ser acessados por usuários (à esquerda da linha pontilhada) e funções que só podem ser acessadas pelo sistema. Quando um usuário autenticado se conecta ao Serviço do Power BI a conexão, assim como qualquer solicitação feita pelo cliente, é aceita e gerenciada pela **Função do Gateway** (para ser eventualmente tratada pelo **Gerenciamento de API do Azure**), que então interage em nome do usuário com o restante do Serviço do Power BI. Por exemplo, quando um cliente tenta exibir um painel, a **Função do Gateway** aceita a solicitação e envia separadamente uma solicitação para a **Função de Apresentação** para recuperar os dados necessários para que o navegador renderize o painel.
 
-## <a name="user-authentication"></a>Autenticação de Usuário
+## <a name="user-authentication"></a>Autenticação de usuário
 
-O Power BI usa o [AAD](https://azure.microsoft.com/services/active-directory/) (Azure Active Directory) para autenticar os usuários que entram no serviço do Power BI e, em seguida, usa as credenciais de logon do Power BI sempre que um usuário tenta acessar recursos que exigem autenticação. Os usuários entram no serviço do Power BI usando o endereço de email usado para estabelecer sua conta do Power BI; o Power BI usa esse email de logon como o *usuário efetivo*, que é passado para os recursos sempre que um usuário tenta se conectar a dados. O *nome de usuário efetivo* é então mapeado para um *UPN* ([Nome UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) e resolvido para a conta de domínio do Windows associada, na qual a autenticação é aplicada.
+O Power BI usa o [AAD](https://azure.microsoft.com/services/active-directory/) (Azure Active Directory) para autenticar os usuários que entram no serviço do Power BI e, em seguida, usa as credenciais de logon do Power BI sempre que um usuário tenta acessar recursos que exigem autenticação. Os usuários entram no serviço do Power BI usando o endereço de email usado para estabelecer sua conta do Power BI; o Power BI usa esse email de logon como o *usuário efetivo*, que é passado para os recursos sempre que um usuário tenta se conectar a dados. O *nome de usuário efetivo* é então mapeado para um [UPN (*Nome UPN*)](/windows/win32/secauthn/user-name-formats) e resolvido para a conta de domínio do Windows associada, na qual a autenticação é aplicada.
 
-Para organizações que usaram emails de trabalho para o logon do Power BI (como <em>david@contoso.com</em>), o mapeamento de *usuário efetivo* para UPN é simples. Para organizações que não usaram emails de trabalho para efetuar logon no Power BI (como <em>david@contoso.onmicrosoft.com</em>), o mapeamento entre o AAD e as credenciais locais exigirá que a [sincronização de diretório](https://technet.microsoft.com/library/jj573653.aspx) funcione corretamente.
+Para organizações que usaram emails de trabalho para o logon do Power BI (como <em>david@contoso.com</em>), o mapeamento de *usuário efetivo* para UPN é simples. Para organizações que não usaram emails de trabalho para efetuar logon no Power BI (como <em>david@contoso.onmicrosoft.com</em>), o mapeamento entre o AAD e as credenciais locais exigirá que a [sincronização de diretório](/azure/active-directory-domain-services/synchronization) funcione corretamente.
 
 A segurança da plataforma para o Power BI também inclui a segurança do ambiente multilocatário, a segurança de rede e a capacidade de adicionar medidas de segurança adicionais baseadas no AAD.
 
@@ -68,4 +68,3 @@ Essa imposição pode ser feita definindo administrativamente chaves do Registro
 O **Power BI Desktop** respeita as configurações de chave do Registro descritas nesses artigos e apenas as conexões criadas usando a versão do TLS permitida com base nessas configurações do Registro, quando existirem.
 
 Para obter mais informações sobre como definir essas chaves do Registro, confira o artigo [Configurações de Registro do TLS](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
-

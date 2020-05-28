@@ -1,6 +1,6 @@
 ---
-title: Gerenciar seu workspace no Power BI e no Office 365
-description: Os workspaces no Power BI são uma experiência de colaboração criada com base em grupos do Office 365. Gerencie seus workspaces no Power BI e também no Office 365.
+title: Gerenciar seu workspace no Power BI e no Microsoft 365
+description: Os workspaces no Power BI são uma experiência de colaboração criada com base em grupos do Microsoft 365. Gerencie seus workspaces no Power BI e também no Microsoft 365.
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27f3c88607f57be8b5abffdbec71ecfe80beea23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1365eba697538255ea8c23b03f0b5db71a7ba1cd
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348058"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693798"
 ---
-# <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Gerenciar seu workspace no Power BI e no Office 365
+# <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Gerenciar seu workspace no Power BI e no Microsoft 365
 
-Como criador ou administrador de um [workspace no Power BI](service-create-distribute-apps.md) ou no Office 365, você gerencia alguns aspectos do seu workspace no Power BI. Outros aspectos que você gerencia no Office 365.
+Como criador ou administrador de um [workspace no Power BI](service-create-distribute-apps.md) ou no Microsoft 365, você gerencia alguns aspectos do seu workspace no Power BI. Outros aspectos que você gerencia no Microsoft 365.
 
 > [!NOTE]
-> A nova experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Office 365. Você não cria automaticamente um grupo do Office 365 sempre que cria um dos novos espaços de trabalho. Leia sobre [criar os workspaces](service-create-the-new-workspaces.md).
+> A nova experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Microsoft 365. Você não cria automaticamente um grupo do Microsoft 365 sempre que cria um dos workspaces. Leia sobre [criar os workspaces](service-create-the-new-workspaces.md).
 
 No **Power BI**, você pode:
 
 * Adicionar ou remover membros do workspace, incluindo tornar um membro do workspace um administrador.
 * Edite o nome do workspace.
-* Excluir o workspace, o que também exclui o grupo do Office 365.
+* Excluir o workspace, o que também exclui o grupo do Microsoft 365.
 
-No **Office 365**, você pode:
+No **Microsoft 365** é possível:
 
 * Adicionar ou remover membros do grupo do workspace e também fazer com que um membro seja o proprietário.
 * Edite o nome do grupo, a imagem, a descrição e outras configurações.
@@ -53,9 +53,9 @@ Você precisa de uma licença do [Power BI Pro](../fundamentals/service-features
 
 1. Selecione **Salvar** ou **Cancelar**.
 
-## <a name="edit-power-bi-workspace-properties-in-office-365"></a>Editar as propriedades do workspace do Power BI no Office 365
+## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>Editar as propriedades do workspace do Power BI no Microsoft 365
 
-Você também pode editar aspectos de um workspace diretamente no Outlook para Office 365.
+Você também pode editar aspectos de um workspace diretamente no Outlook para Microsoft 365.
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>Editar os membros do grupo de workspaces
 
@@ -63,17 +63,17 @@ Você também pode editar aspectos de um workspace diretamente no Outlook para O
 
    ![Editar workspaces no Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
-   Isso abre a exibição de grupo do Outlook para Office 365 do seu workspace. Talvez seja necessário entrar em sua conta corporativa.
+   Isso abre a exibição de grupo do Outlook para Microsoft 365 do seu workspace. Talvez seja necessário entrar em sua conta corporativa.
 
 1. Selecione a função ao lado do nome de um colega da equipe para tornar a pessoa um **Membro** ou um **Proprietário**. Selecione o **X** para remover a pessoa do grupo.
 
-   ![Editar um grupo no Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Editar um grupo no Microsoft 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Adicionar uma imagem e definir outras propriedades do workspace
 
-Quando você distribuir seu aplicativo do workspace, a imagem que você adicionar aqui será a imagem de seu aplicativo. Confira [Adicionar uma imagem ao workspace do Office 365](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) do artigo **Criar workspaces**.
+Quando você distribuir seu aplicativo do workspace, a imagem que você adicionar aqui será a imagem de seu aplicativo. Confira [Adicionar uma imagem ao workspace do Microsoft 365](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional) do artigo **Criar workspaces**.
 
-1. Na exibição do Outlook para Office 365 do seu workspace, acesse a guia **Sobre** e selecione **Editar**.
+1. Na exibição do Outlook para Microsoft 365 do seu workspace, acesse a guia **Sobre** e selecione **Editar**.
 
     ![Editar ícone do grupo](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. Você pode editar o nome, a descrição e o idioma de notificações relacionadas ao grupo. Você pode adicionar uma imagem e definir outras propriedades aqui.

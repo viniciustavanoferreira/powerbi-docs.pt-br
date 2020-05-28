@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275583"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564462"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
 O portal de administração permite que você gerencie um *locatário* do Power BI para sua organização. O portal inclui itens como métricas de uso, acesso ao centro de administração do Microsoft 365 e configurações.
 
-O portal de administração completo é acessível a todos os usuários que sejam administradores globais no Office 365 ou que detenham a função de administrador de serviços do Power BI. Se você não estiver em uma dessas funções, verá apenas **Configurações de capacidade** no portal. Para obter mais informações sobre a função de administrador de serviços do Power BI, consulte [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md).
+O portal de administração completo é acessível a todos os usuários que sejam administradores globais ou que detenham a função de Administrador de serviços do Power BI. Se você não estiver em uma dessas funções, verá apenas **Configurações de capacidade** no portal. Para obter mais informações sobre a função de administrador de serviços do Power BI, consulte [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Como obter o portal de administração
 
-Sua conta precisa ser marcada como **Administrador Global**, no Office 365 ou no Azure AD, ou ter recebido a função Administrador de serviços do Power BI para obter acesso ao portal de administração do Power BI. Para obter mais informações sobre a função de administrador de serviços do Power BI, consulte [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md). Para acessar o portal de administração do Power BI, faça o seguinte:
+Sua conta precisa ser marcada como **Administrador Global** no Microsoft 365 ou no Azure AD (Active Directory) ou ter recebido a função Administrador de serviços do Power BI para obter acesso ao portal de administração do Power BI. Para obter mais informações sobre a função de administrador de serviços do Power BI, consulte [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md). Para acessar o portal de administração do Power BI, faça o seguinte:
 
 1. Selecione a engrenagem de configurações na parte superior direita do serviço do Power BI.
 
@@ -85,7 +85,7 @@ Com essas informações, você fica sabendo como as pessoas estão usando o Powe
 
 ## <a name="control-usage-metrics"></a>Controlar métricas de uso
 
-Os relatórios de métrica de uso são um recurso que o administrador do Power BI ou do Office 365 pode ativar ou desativar. Os administradores têm controle granular sobre quais usuários dispõem de acesso às métricas de uso. Eles estão **ativados** por padrão para todos os usuários na organização.
+Os relatórios de métricas de uso são um recurso que o administrador do Power BI ou do Microsoft 365 pode ativar ou desativar. Os administradores têm controle granular sobre quais usuários dispõem de acesso às métricas de uso. Eles estão **ativados** por padrão para todos os usuários na organização.
 
 Os administradores também podem determinar se os criadores de conteúdo podem ver dados por usuário nas métricas de uso. 
 
@@ -189,10 +189,10 @@ Os workspaces são locais onde os usuários podem colaborar em dashboards, relat
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Criar as experiências de workspace":::
 
-Para espaços de trabalho clássicos com base em grupos do Office 365, a administração continuará a ser feita no portal de administração do Office 365 e no Azure Active Directory.
+Para workspaces clássicos com base em grupos do Microsoft 365, a administração continuará a ser feita no portal de administração e no Azure Active Directory.
 
 > [!NOTE]
-> Por padrão, a configuração **Criar workspaces (nova experiência de workspace)** permite que somente usuários autorizados a criar Grupos do Office 365 possam criar workspaces do Power BI. Certifique-se de definir um valor no portal de administração do Power BI para garantir que os usuários adequados possam criá-los.
+> Por padrão, a configuração **Criar workspaces (nova experiência de workspace)** permite que somente usuários autorizados a criar Grupos do Microsoft 365 possam criar workspaces do Power BI. Certifique-se de definir um valor no portal de administração do Power BI para garantir que os usuários adequados possam criá-los.
 
 **Lista de workspaces**
 
@@ -334,7 +334,7 @@ A imagem a seguir mostra a opção **Minha organização inteira** durante a cri
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>Criar aplicativos de modelo e pacotes de conteúdo organizacional
 
-Os usuários na organização podem criar aplicativos de modelo e pacotes de conteúdo organizacional que usam conjuntos de dados criados em uma fonte de dados no Power BI Desktop. Saiba mais sobre [aplicativos de modelo](../template-content-pack-authoring.md).
+Os usuários na organização podem criar aplicativos de modelo e pacotes de conteúdo organizacional que usam conjuntos de dados criados em uma fonte de dados no Power BI Desktop. Saiba mais sobre [aplicativos de modelo](../connect-data/service-template-apps-create.md).
 
 ### <a name="push-apps-to-end-users"></a>Enviar aplicativos por push para usuários finais
 
@@ -625,7 +625,3 @@ Confira [Conteúdo em destaque](#featured-content) neste artigo para obter infor
 [Auditoria do Power BI em sua organização](service-admin-auditing.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-
-
-
-

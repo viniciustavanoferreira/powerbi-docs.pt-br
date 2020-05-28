@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: e2c59ba84700aaf83c4cc9d16d009696c42dfc54
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 26823061a6c0b92b1a6159a75e26f79232bf3ebc
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114579"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407605"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Conectar um relatório a um conjunto de dados usando associação dinâmica 
 
@@ -28,7 +28,7 @@ Como parte do processo de inserção, certifique-se de *gerar um token com permi
 
 ## <a name="generating-a-token-with-sufficient-permissions"></a>Gerar um token com permissões suficientes
 
-A associação dinâmica tem suporte para os cenários de *Inserção para a sua organização* e *Inserção para seus clientes*. A tabela abaixo descreve as considerações para cada cenário.
+A associação dinâmica é compatível com os cenários de *Inserção para a sua organização* e *Inserção para seus clientes*. A tabela abaixo descreve as considerações para cada cenário.
 
 |Cenário  |Propriedade dos dados  |Token  |Requisitos  |
 |---------|---------|---------|---------|

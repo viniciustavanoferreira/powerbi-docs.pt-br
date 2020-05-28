@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/19/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 562e011bf280930fdcaf19cc87edc97b2bec131b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301507"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694035"
 ---
-# <a name="create-a-drill-through-button-in-power-bi-preview"></a>Criar um botão de drill-through no Power BI (versão prévia)
+# <a name="create-a-drill-through-button-in-power-bi"></a>Criar um botão de drill-through no Power BI
 
-Ao criar um botão no Power BI, você pode selecionar a ação **Executar uma consulta drill-through (versão prévia)** . Esse tipo de ação cria um botão que executa uma consulta drill-through em uma página de foco para obter detalhes filtrados para um contexto específico.
+Ao criar um botão no Power BI, você pode selecionar a ação **Executar uma consulta drill-through**. Esse tipo de ação cria um botão que executa uma consulta drill-through em uma página de foco para obter detalhes filtrados para um contexto específico.
 
 Um botão de drill-through poderá ser útil se você desejar aumentar a capacidade de descoberta de cenários de drill-through importantes em seus relatórios.
 

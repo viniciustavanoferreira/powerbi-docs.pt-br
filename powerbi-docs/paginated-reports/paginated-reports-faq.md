@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584999"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565616"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: Perguntas frequentes 
 
@@ -41,7 +41,7 @@ O administrador de capacidade pode ativar ou desativar a carga de trabalho de re
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>Como posso monitorar o uso de relatórios paginados no meu locatário?
 
-Os logs de auditoria do Office 365 detalham o uso desse tipo de relatório nos seguintes eventos: 
+Os logs de auditoria detalham o uso desse tipo de relatório nos seguintes eventos:
 
 - Exibir relatório do Power BI
 - Excluir relatório do Power BI
@@ -152,7 +152,7 @@ Sim, oferecemos suporte à capacidade de executar código em seus relatórios, c
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Posso usar o Power BI Embedded para inserir meus relatórios paginados em um aplicativo que estou hospedando?
 
-A incorporação de SaaS, incluindo o suporte à Inserção Segura, já está disponível. Para a inserção de PaaS, veja o tutorial [Inserir relatórios paginados do Power BI em um aplicativo para seus clientes](../developer/embed-paginated-reports-customers.md).
+A incorporação de SaaS, incluindo o suporte à Inserção Segura, já está disponível. Para a inserção de PaaS, veja o tutorial [Inserir relatórios paginados do Power BI em um aplicativo para seus clientes](../developer/embedded/embed-paginated-reports-customers.md).
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Posso fazer uma consulta detalhada de um relatório do Power BI para um relatório paginado?
 

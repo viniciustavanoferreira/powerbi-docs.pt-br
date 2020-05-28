@@ -9,34 +9,34 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c534a72594692c5cf404b095492e7d6425f23329
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 701f478ce4dd59d77c1722b1386cd79ad3fbf2a0
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273651"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693786"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho em novos workspaces no Power BI
 
 *Workspaces* são locais para colaborar com colegas e criar coleções de painéis, relatórios, conjuntos de dados e relatórios paginados. A nova experiência com o workspace ajuda você a gerenciar melhor o acesso ao conteúdo. Este artigo descreve os novos espaços de trabalho e como eles diferem dos clássicos.  Como ocorre com espaços de trabalho clássicos, você ainda os usa para criar e distribuir aplicativos. Pronto para criar um workspace? Leia [Criar uma experiência de workspace](service-create-the-new-workspaces.md).
 
-Os workspaces novos e atualizados podem coexistir lado a lado com os clássicos. A nova experiência de workspace é o tipo de workspace padrão. Caso precise, você ainda pode criar e usar [workspaces clássicos](service-create-workspaces.md) com base em Grupos do Office 365. Pronto para migrar seu workspace clássico? Confira [Atualizar workspaces clássicos para os novos workspaces no Power BI](service-upgrade-workspaces.md) para obter detalhes.
+Os workspaces novos e atualizados podem coexistir lado a lado com os clássicos. A nova experiência de workspace é o tipo de workspace padrão. Caso precise, você ainda pode criar e usar [workspaces clássicos](service-create-workspaces.md) com base em Grupos do Microsoft 365. Pronto para migrar seu workspace clássico? Confira [Atualizar workspaces clássicos para os novos workspaces no Power BI](service-upgrade-workspaces.md) para obter detalhes.
 
 Com os novos workspaces, é possível:
 
-- Atribuir funções de workspace a grupos de usuários: grupos de segurança, listas de distribuição, grupos do Office 365 e indivíduos.
-- Criar um workspace no Power BI sem criar um grupo do Office 365 associado e subjacente. Toda a administração do workspace está no Power BI, não no Office 365.
-- Continuar a gerenciar o acesso de usuários ao conteúdo por meio dos Grupos do Office 365, se desejar. Basta adicionar um grupo do Office 365 à lista de acesso ao workspace.
+- Atribuir funções de workspace a grupos de usuários: grupos de segurança, listas de distribuição, grupos do Microsoft 365 e indivíduos.
+- Criar um workspace no Power BI sem criar um grupo do Microsoft 365 associado e subjacente. Toda a administração do workspace está no Power BI, não no Microsoft 365.
+- Continuar a gerenciar o acesso de usuários ao conteúdo por meio dos Grupos do Microsoft 365, se desejar. Basta adicionar um grupo do Microsoft 365 à lista de acesso ao workspace.
 - Usar funções de workspace mais granulares para obter um gerenciamento de permissões mais flexível em um workspace.
 
-O Power BI continua a listar todos os Grupos do Office 365 dos quais você é membro. Isso evita a alteração de fluxos de trabalho existentes.
+O Power BI continua a listar todos os Grupos do Microsoft 365 dos quais você é membro. Isso evita a alteração de fluxos de trabalho existentes.
 
 ## <a name="new-and-classic-workspace-differences"></a>Diferenças entre workspaces novos e clássicos
 
 Com os novos workspaces, reformulamos alguns recursos. Aqui estão as principais diferenças:
 
-* Criar esses workspaces não cria grupos do Office 365, como ocorre com os workspaces clássicos. No entanto, agora você pode usar um grupo do Office 365 para dar aos usuários acesso ao workspace, atribuindo a ele uma função. 
-* Nos espaços de trabalho clássicos, é possível adicionar apenas indivíduos às listas de membros e administradores. Nos workspaces novos, é possível adicionar a essas listas vários grupos de segurança do Active Directory, listas de distribuição ou grupos do Office 365, para facilitar o gerenciamento de usuários. 
+- Criar esses workspaces não cria grupos do Microsoft 365, como ocorre com os workspaces clássicos. No entanto, agora você pode usar um grupo do Microsoft 365 para dar aos usuários acesso ao workspace, atribuindo a ele uma função.
+- Nos espaços de trabalho clássicos, é possível adicionar apenas indivíduos às listas de membros e administradores. Nos workspaces novos, é possível adicionar a essas listas vários grupos de segurança do Active Directory, listas de distribuição ou grupos do Microsoft 365, para facilitar o gerenciamento de usuários.
 - É possível criar um pacote de conteúdo organizacional de um espaço de trabalho clássico. Não é possível criar um dos novos workspaces.
 - É possível consumir um pacote de conteúdo organizacional de um espaço de trabalho clássico. Não é possível consumir um dos novos workspaces.
 
@@ -47,7 +47,7 @@ Alguns recursos funcionam de forma diferente dos workspaces atuais nos novos wor
 - **Imposição de licenciamento**: a publicação de relatórios em uma nova experiência de workspace impõe as regras de licenciamento existentes. Os usuários que colaboram em workspaces ou compartilham conteúdo com outras pessoas no serviço do Power BI precisam de uma licença Power BI Pro. Os usuários sem licença Pro veem o erro "Somente usuários com licenças Power BI Pro podem publicar neste workspace".
 - **Os membros podem ou não compartilhar novamente**: a função de Colaborador substitui esta configuração.
 - **Workspaces somente leitura**: em vez de conceder aos usuários acesso somente leitura a um workspace, atribua a eles a função de Visualizador. Ela permite acesso ao conteúdo de um workspace semelhante ao acesso somente leitura.
-- **Usuários sem uma licença Pro** poderão acessar o workspace se este estiver em uma capacidade Power BI Premium, mesmo que os usuários tenham apenas a função de Visualizador.
+- **Usuários sem uma licença Pro** poderão acessar o workspace se este estiver em uma capacidade Power BI Premium, mas somente se eles tiverem a função de Visualizador.
 - **Permitir que os usuários exportem dados**: os usuários com a função de Visualizador poderão exportar dados se tiverem a permissão Compilar nos conjuntos de dados do workspace. Leia mais sobre a [Permissão Criar em conjuntos de dados](../connect-data/service-datasets-build-permissions.md).
 - Nenhum botão **Sair do workspace**.
 
@@ -59,9 +59,9 @@ Saiba mais sobre a [configuração da lista de contatos do workspace](service-cr
 
 ### <a name="workspace-onedrive"></a>OneDrive do Workspace
 
-O recurso OneDrive do Workspace permite que você configure um grupo do Office 365 cujo armazenamento de arquivos da Biblioteca de Documentos do SharePoint esteja disponível para usuários do espaço de trabalho. É possível criar o grupo fora do Power BI.
+O recurso OneDrive do Workspace permite que você configure um grupo do Microsoft 365 cujo armazenamento de arquivos da Biblioteca de Documentos do SharePoint esteja disponível para usuários do workspace. É possível criar o grupo fora do Power BI.
 
-O Power BI não sincroniza as permissões de usuários ou grupos que estão configurados para ter acesso ao workspace com a associação ao grupo do Office 365. A prática recomendada é gerenciar o acesso ao workspace por meio do mesmo grupo do Office 365 cujo armazenamento de arquivos você define nessa configuração. 
+O Power BI não sincroniza as permissões de usuários ou grupos que estão configurados para ter acesso ao workspace com a associação ao grupo do Microsoft 365. A prática recomendada é gerenciar o acesso ao workspace por meio do mesmo grupo do Microsoft 365 cujo armazenamento de arquivos você define nessa configuração.
 
 Confira como [definir e acessar o OneDrive do Workspace](service-create-the-new-workspaces.md#workspace-onedrive).  
 
@@ -69,7 +69,7 @@ Confira como [definir e acessar o OneDrive do Workspace](service-create-the-new-
 
 Para permitir acesso a um novo workspace, adicione grupos de usuários ou indivíduos a uma das funções do workspace: administradores, membros, colaboradores ou visualizadores. Todos em um grupo de usuários obtêm a função que você definiu. Se um indivíduo estiver em vários grupos de usuários, ele receberá o nível mais alto de permissão fornecido pelas funções que foram atribuídas a ele.
 
-As funções permitem que você gerencie quem pode fazer o que em um workspace para que as equipes possam colaborar. Os novos workspaces permitem que você atribua funções a indivíduos e a grupos de usuários: grupos de segurança, grupos do Office 365 e listas de distribuição. 
+As funções permitem que você gerencie quem pode fazer o que em um workspace para que as equipes possam colaborar. Os novos workspaces permitem que você atribua funções a indivíduos e a grupos de usuários: grupos de segurança, grupos do Microsoft 365 e listas de distribuição.
 
 Ao atribuir funções a um grupo de usuários, os indivíduos no grupo têm acesso ao conteúdo. Se você aninhar grupos de usuários, todos os usuários contidos terão permissão.
 
@@ -125,11 +125,11 @@ Não. Os links para itens existentes em espaços de trabalho clássicos não sã
 
 **Os workspaces existentes foram atualizados para a nova experiência de workspace com GA?**
 
-Não. A nova experiência de workspace com GA altera apenas o tipo de workspace padrão para a nova experiência de workspace. Os espaços de trabalho clássicos existentes com base em grupos do Office 365 permanecem inalterados.
+Não. A nova experiência de workspace com GA altera apenas o tipo de workspace padrão para a nova experiência de workspace. Os workspaces clássicos existentes com base em grupos do Microsoft 365 permanecem inalterados.
 
-**Os workspaces ainda são criados automaticamente para grupos do Office 365?**
+**Os workspaces ainda são criados automaticamente para grupos do Microsoft 365?**
 
-Sim. Como damos suporte a ambos os tipos de workspaces lado a lado, continuamos a listar todos os Grupos do Office 365 aos quais você tem acesso na lista de workspaces.
+Sim. Como damos suporte a ambos os tipos de workspaces lado a lado, continuamos a listar todos os Grupos do Microsoft 365 aos quais você tem acesso na lista de workspaces.
 
 ## <a name="next-steps"></a>Próximas etapas
 

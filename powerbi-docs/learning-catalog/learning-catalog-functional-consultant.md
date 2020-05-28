@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268502"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564056"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>Catálogo de aprendizagem para consultores de aplicativos funcionais
 
@@ -82,7 +82,7 @@ Para consultores funcionais, nossa pesquisa de análise de tarefa de trabalho mo
 | [Melhor em conjunto: cinco benefícios que os usuários do Excel obterão ao usar o Power BI](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | O Excel é um dos programas mais populares do mundo. Milhões de indivíduos e empresas o utilizam para tudo, desde a entrada de dados e contabilidade simples até estatísticas e análise de dados mais avançadas. No entanto, muitas pessoas não percebem que podem expandir drasticamente a funcionalidade do Excel, além de economizar tempo e aumentar a eficiência delas, quando o emparelham com outro programa da Microsoft: Power BI. Vamos explorar cinco motivos diferentes pelos quais você e sua empresa podem se beneficiar com o uso do Excel e do Power BI juntos. No fim, você deverá ter todo o conhecimento de que precisa para impulsionar a capacidade da sua organização de analisar e interpretar seus dados, além de se beneficiar deles. | Webinar |   |
 | [Além da planilha](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html)  | Chamando todos os analistas e usuários do Excel: trabalhem de maneira mais inteligente, ofereçam mais valor e se concentrem no que importa. Aprenda a criar belos relatórios que as pessoas queiram usar, a compartilhar dados visualmente de modo que os colegas possam entender sem explicação e a tornar insights acessíveis a todas as pessoas que precisem interpretar informações, onde quer que elas estejam. Veja o Microsoft Power BI em ação nessa sessão online.  | Webinar |   |
 | [Tenha os insights certos com o Power BI e o Visio](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) | Junte-se a nós neste webinar para aprender a combinar dashboards do Power BI e diagramas do Microsoft Visio para criar insights visuais avançados. O Visio e o Power BI são altamente visuais e naturalmente complementares. O Visio permite criar diagramas ilustrativos, como fluxos de trabalho interconectados e layouts do mundo real. O Power BI ajuda a criar dashboards intuitivos usando gráficos e mapas para medir indicadores chave de desempenho e acompanhar metas.| Webinar |   |
-| [Power BI, Excel e Office 365: otimize os dados corporativos](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | Nessa sessão repleta de demonstrações, aprenda a usar a força exclusiva do Microsoft Excel no Power BI para impulsionar seus insights e sua análise de negócios.  | Webinar |   |
+| [Power BI, Excel e Microsoft 365: otimize os dados corporativos](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | Nessa sessão repleta de demonstrações, aprenda a usar a força exclusiva do Microsoft Excel no Power BI para impulsionar seus insights e sua análise de negócios.  | Webinar |   |
 | [Usando o Power BI com o Dynamics 365 Finance and Operations](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)   | Registre-se nesse webinar para saber como as soluções de relatório do Power BI podem ser inseridas e gerenciadas no Dynamics 365 para Finanças e Operações usando o Azure Data Lake. Descubra como fornecer insights acionáveis com rapidez e sem interrupções de serviço e como compartilhar soluções de análise com a empresa usando o Power BI.  | Webinar |   |
 ## <a name="security"></a>Segurança<a name="security"></a>
 | Conteúdo   | Descrição  | Formatar   | Tamanho   |

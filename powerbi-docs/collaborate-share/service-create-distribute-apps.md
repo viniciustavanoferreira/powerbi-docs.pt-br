@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348265"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693574"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar um aplicativo no Power BI
 
@@ -64,7 +64,7 @@ Quando os dashboards e relatórios em seu workspace estiverem prontos, escolha q
 5. Em **Permissões**, decida quem tem acesso ao aplicativo e o que pode ser feito nele. 
 
     - Em [workspaces clássicos](service-create-workspaces.md): todos em sua organização, pessoas específicas ou grupos de segurança do Azure AD (Azure Active Directory).
-    - Em [workspaces da nova experiência](service-create-the-new-workspaces.md): pessoas específicas, listas de distribuição e grupos de segurança do Azure AD e grupos do Office 365. Todos os usuários do workspace recebem automaticamente acesso ao aplicativo para o workspace.
+    - Em [workspaces da nova experiência](service-create-the-new-workspaces.md): pessoas específicas, listas de distribuição e grupos de segurança do Azure AD e grupos do Microsoft 365. Todos os usuários do workspace recebem automaticamente acesso ao aplicativo para o workspace.
     - Você pode permitir que os usuários do aplicativo se conectem aos conjuntos de dados subjacentes do aplicativo dando a eles a permissão de build. Eles verão esses conjuntos de dados quando estiverem pesquisando conjuntos de dados compartilhados. Leia mais sobre [como permitir que os usuários se conectem aos conjuntos de dados do aplicativo](#allow-users-to-connect-to-datasets), neste artigo.
     - Os usuários com permissão de build também podem ser permissão para copiar relatórios deste aplicativo para outro workspace. Leia mais sobre [como permitir que os usuários copiem relatórios no aplicativo](#allow-users-to-copy-reports), neste artigo.
     

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a362861aecda7fc9f7cac4820d4826d640a9dd6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 700b9a5dffc3abff00fb2ea738d0517a676a689b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144027"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693752"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar novos workspaces no Power BI
 
@@ -22,8 +22,8 @@ O Power BI está apresentando uma nova experiência de workspace. Espaços de tr
 
 Confira as mudanças. Nos novos workspaces, é possível:
 
-- Atribuir funções de workspace a grupos de usuários: grupos de segurança, listas de distribuição, grupos do Office 365 e indivíduos.
-- Criar um workspace no Power BI sem criar um grupo do Office 365.
+- Atribuir funções de workspace a grupos de usuários: grupos de segurança, listas de distribuição, grupos do Microsoft 365 e indivíduos.
+- Criar um workspace no Power BI sem criar um grupo do Microsoft 365.
 - Usar funções de workspaces mais granulares para obter um gerenciamento de permissões mais flexível em um workspace.
 
 Pronto para migrar seu workspace clássico? Confira [Atualizar workspaces clássicos para os novos workspaces no Power BI](service-upgrade-workspaces.md) para obter detalhes.
@@ -43,7 +43,7 @@ Para saber mais, confira o artigo [Novos espaços de trabalho](service-new-works
    
      ![Nova experiência de workspace](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     Se você selecionar **Reverter para clássico**, criará um [workspace baseado em um Grupo do Office 365](service-create-workspaces.md). 
+     Se você selecionar **Reverter para clássico**, criará um [workspace baseado em um Grupo do Microsoft 365](service-create-workspaces.md). 
 
 2. Nomeie o workspace. Se o nome não estiver disponível, edite-o para criar um exclusivo.
    
@@ -55,7 +55,7 @@ Para saber mais, confira o artigo [Novos espaços de trabalho](service-new-works
     
     [Adicione uma **Lista de contatos**](#workspace-contact-list). Por padrão, os administradores do workspace são os contatos. 
     
-    [Especifique um **OneDrive para o espaço de trabalho**](#workspace-onedrive) digitando apenas o nome de um Grupo do Office 365 existente, não a URL. Agora este workspace pode usar o local de armazenamento de arquivos desse Grupo do Office 365. 
+    [Especifique um **OneDrive para o Workspace**](#workspace-onedrive) digitando apenas o nome de um Grupo do Microsoft 365 existente, não a URL. Agora este workspace pode usar o local de armazenamento de arquivos desse Grupo do Microsoft 365.
 
     ![Especificar um local do OneDrive](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -87,9 +87,9 @@ Você pode especificar quais usuários recebem a notificação sobre problemas q
 
 ## <a name="workspace-onedrive"></a>OneDrive do Workspace
 
-O recurso OneDrive do Workspace permite que você configure um grupo do Office 365 cujo armazenamento de arquivos da Biblioteca de Documentos do SharePoint esteja disponível para usuários do espaço de trabalho. Cria o grupo fora do Power BI primeiro. 
+O recurso OneDrive do Workspace permite que você configure um grupo do Microsoft 365 cujo armazenamento de arquivos da Biblioteca de Documentos do SharePoint esteja disponível para usuários do workspace. Cria o grupo fora do Power BI primeiro.
 
-O Power BI não sincroniza as permissões de usuários ou grupos que estão configurados para ter acesso ao workspace com a associação ao grupo do Office 365. A prática recomendada é dar ao mesmo grupo do Office 365, cujo armazenamento de arquivos você define nessa configuração do grupo do Office 365, [acesso ao mesmo espaço de trabalho](#give-access-to-your-workspace). Em seguida, gerencie o acesso ao workspace gerenciando a associação do grupo do Office 365. 
+O Power BI não sincroniza as permissões de usuários ou grupos que estão configurados para ter acesso ao workspace com a associação ao grupo do Microsoft 365. A prática recomendada é dar ao mesmo grupo do Microsoft 365, cujo armazenamento de arquivos você define nessa configuração do grupo do Microsoft 365, [acesso ao mesmo workspace](#give-access-to-your-workspace). Em seguida, gerencie o acesso ao workspace gerenciando a associação do grupo do Microsoft 365.
 
 1. Acesse a nova configuração do **OneDrive do espaço de trabalho** usando uma destas duas maneiras:
 
@@ -99,7 +99,7 @@ O Power BI não sincroniza as permissões de usuários ou grupos que estão conf
 
     ![Configurações do workspace](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. Em **Avançado** > **OneDrive do espaço de trabalho**, digite o nome do grupo do Office 365 que você criou anteriormente. O Power BI seleciona automaticamente o OneDrive para o grupo.
+2. Em **Avançado** > **OneDrive do Workspace**, digite o nome do grupo do Microsoft 365 que você criou anteriormente. O Power BI seleciona automaticamente o OneDrive para o grupo.
 
     ![Especificar um local do OneDrive](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -129,7 +129,7 @@ Na nova experiência de workspaces, não é possível criar ou consumir pacotes 
 
     ![Lista de conteúdo de espaço de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. Adicione grupos de segurança, listas de distribuição, grupos do Office 365 ou indivíduos nesses workspaces como membros, espectadores, colaboradores ou administradores. Consulte [Funções nos novos workspaces](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação das diferentes funções.
+1. Adicione grupos de segurança, listas de distribuição, grupos do Microsoft 365 ou indivíduos nesses workspaces como membros, espectadores, colaboradores ou administradores. Consulte [Funções nos novos workspaces](service-new-workspaces.md#roles-in-the-new-workspaces) para obter uma explicação das diferentes funções.
 
     ![Os workspaces adicionam membros, administradores, colaboradores](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

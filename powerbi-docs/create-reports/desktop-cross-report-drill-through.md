@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c9f9c0f24ad40fadb7d0bd61cd6a6ce7d318e74
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178ad340a9a3ccd9d6427dc6bad03b6d8d08ce90
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297827"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694058"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Usar o detalhamento entre relatórios no Power BI
 
@@ -31,7 +31,7 @@ A ação de detalhamento abre a *página de destino* no *relatório de destino*.
 Este artigo mostra como configurar e usar o detalhamento entre relatórios nos relatórios do Power BI.
 
 > [!NOTE]
-> Não é possível usar o detalhamento entre relatórios com [relatórios Compartilhados comigo](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) compartilhados individualmente em **Meu Workspace**. Para usar o detalhamento entre relatórios, é necessário acessar os relatórios no workspace em que eles foram compartilhados.
+> Não é possível usar o detalhamento entre relatórios com [relatórios Compartilhados comigo](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) compartilhados individualmente. Para usar o detalhamento entre relatórios, é necessário acessar os relatórios em workspaces dos quais você é membro.
 
 ## <a name="enable-cross-report-drillthrough"></a>Habilitar o detalhamento entre relatórios
 
@@ -70,7 +70,7 @@ Configure um destino para o detalhamento entre relatórios no Power BI Desktop o
 1. Se estiver usando a página apenas para o detalhamento entre relatórios, exclua o botão **Voltar**, que é adicionado automaticamente à tela. O botão **Voltar** só funciona para a navegação em um relatório. 
 1. Depois de configurar a página de destino, salve o relatório se estiver no serviço do Power BI ou salve o relatório e publique-o se estiver usando o Power BI Desktop.
 
-É só isso. Seus relatórios estão prontos para o detalhamento entre relatórios. 
+É isso. Seus relatórios estão prontos para o detalhamento entre relatórios. 
 
 ## <a name="use-cross-report-drillthrough"></a>Usar detalhamento de relatório cruzado
 

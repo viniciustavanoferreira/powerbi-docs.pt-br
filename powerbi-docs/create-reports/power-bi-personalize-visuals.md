@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/09/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: abc936c6ea4b61e4837e05fbde110e5159296815
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867106"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407583"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Permitir que os usuários personalizem visuais em um relatório
 
@@ -26,7 +26,7 @@ Quando você compartilha um relatório com um público amplo, alguns de seus usu
  
 ## <a name="what-report-consumers-can-change"></a>O que os consumidores de relatório podem alterar
 
-Esse recurso permite que os consumidores recebam insights adicionais por meio da exploração ad hoc de visuais em um relatório Power BI. O recurso é ideal para criadores de relatório que desejam habilitar cenários de exploração básica de seus leitores de relatório. Aqui estão as modificações que os leitores de relatório podem fazer:
+Esse recurso permite que os consumidores recebam insights adicionais por meio da exploração ad hoc de visuais em um relatório Power BI. Para saber como usar esse recurso como um consumidor, confira [Personalizar elementos visuais em seus relatórios](../consumer/end-user-personalize-visuals.md). O recurso é ideal para criadores de relatório que desejam habilitar cenários de exploração básica de seus leitores de relatório. Aqui estão as modificações que os leitores de relatório podem fazer:
 
 - Altere o tipo de visualização
 - Alternar uma medida ou dimensão
@@ -84,69 +84,6 @@ Deslize **Personalizar visual** >  **Ligado** ou **Desligado**.
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Controle deslizante de Personalizar visual ligado ou desligado":::
 
-## <a name="personalize-visuals-in-the-power-bi-service"></a>Personalizar visuais no serviço do Power BI
-
-Ao personalizar um visual, seus consumidores podem explorar os dados de várias maneiras, sem deixar a exibição de leitura do relatório. Os exemplos a seguir mostram diferentes maneiras como os usuários podem modificar uma visualização para atender às necessidades deles. 
-
-1. Abra um relatório no modo de exibição de leitura no serviço do Power BI.
-
-2. No canto superior direito do visual, selecione o ícone **Personalizar este visual** ![Personalizar este visual](media/power-bi-personalize-visuals/power-bi-personalize-visual-icon.png). 
-
-### <a name="change-the-visualization-type"></a>Altere o tipo de visualização
-
-É possível exibir a visualização para uma representação diferente alterando o **Tipo de visualização**.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Alterar o tipo de visualização":::
- 
-### <a name="swap-out-a-measure-or-dimension"></a>Alternar uma medida ou dimensão
-É possível substituir uma medida ou dimensão no eixo X selecionando o campo que você deseja substituir e, em seguida, selecionando outra medida ou dimensão.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="Alterar o eixo":::
- 
-### <a name="add-or-remove-a-legend"></a>Adicionar ou remover uma legenda
-Ao adicionar uma legenda, você pode codificar por cores um visual com base em uma categoria. É possível eliminar a codificação por cores categórica desmarcando a caixa **Legenda** no painel **Personalizar**. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Adicionar ou remover a legenda":::
-
-### <a name="compare-two-or-more-different-measures"></a>Comparar duas ou mais medidas diferentes
-É possível comparar e contrastar os valores para medidas diferentes usando o ícone + para adicionar várias medidas a um visual.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Comparar medidas":::
-
-### <a name="change-aggregations"></a>Alterar agregações
-É possível alterar a forma como uma medida é calculada alterando a agregação no painel **Personalizar**.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Alterar agregações":::
-
-### <a name="capture-changes"></a>Capturar alterações 
-Usando indicadores pessoais, capture as alterações para que você possa retornar à exibição personalizada. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Criar um indicador":::
- 
-Também é possível tornar o indicador seu modo de exibição padrão.
-
-### <a name="share-changes"></a>Compartilhar alterações 
-Se você tiver permissões de leitura e recompartilhamento, ao compartilhar o relatório, poderá optar por incluir as alterações.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Compartilhar alterações":::
- 
-### <a name="reset-all-your-changes-to-a-report"></a>Redefinir todas as suas alterações para um relatório
-
-Selecione **Redefinir para o padrão** para remover todas as suas alterações no relatório e defini-las de volta para a exibição do relatório salva pela última vez do autor.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Redefinir todas as alterações":::
- 
-### <a name="reset-all-your-changes-to-a-visual"></a>Redefinir todas as suas alterações para um visual
-
-Selecione **Redefinir este visual** para remover todas as suas alterações em um visual específico e defini-las de volta para a exibição do visual salva pela última vez do autor.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Redefinir todas as alterações visuais":::
- 
-### <a name="clear-recent-changes"></a>Limpar alterações recentes
-
-Selecione o ícone de borracha para limpar todas as alterações recentes feitas desde que você abriu o painel **Personalizar**.  
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Reverter alterações recentes":::
 
 ## <a name="limitations-and-known-issues"></a>Limitações e problemas conhecidos
 
@@ -164,7 +101,8 @@ Há também alguns problemas conhecidos que estamos abordando:
 
 ## <a name="next-steps"></a>Próximas etapas
 
+[Personalize os visuais em seus relatórios](../consumer/end-user-personalize-visuals.md).     
+
 Experimente a nova experiência de personalização visual. Forneça seus comentários sobre esse recurso e como podemos continuar melhorando, [no site Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi). 
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
-

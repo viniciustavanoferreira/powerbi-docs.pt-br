@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129969"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438006"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Solucionar problemas de entrada no Power BI
 
@@ -26,7 +26,7 @@ No entanto, se você for um **administrador de locatário** da organização e a
 
 Primeiro, tente criar um tíquete de suporte por meio da [página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 
-Se não for possível percorrer a página de suporte do Power BI, tente criar um tíquete na [página de suporte do Office 365](https://support.office.com/home/contact).
+Se não for possível percorrer a página de suporte do Power BI, tente criar um tíquete por meio do [suporte do Office](https://support.office.com/home/contact).
 
 Se não conseguir criar um tíquete em nenhuma dessas páginas, tente entrar em contato com o suporte por telefone:
 
@@ -34,7 +34,7 @@ Se não conseguir criar um tíquete em nenhuma dessas páginas, tente entrar em 
 * Para clientes na EMEA (Europa, Oriente Médio e Ásia): +44-844-800-2400
 * Para clientes na Índia: +1-800-419-5666
 
-Outra opção para entrar em contato com o Suporte da Microsoft para obter ajuda é comprar o [Suporte Microsoft Premier](https://support.microsoft.com/premier). Se você sabe que sua organização comprou o Suporte Microsoft Premier e ainda não consegue criar um caso usando nenhum canal do Office 365 nem do Power BI, entre em contato com o Suporte Premier por telefone:
+Outra opção para entrar em contato com o Suporte da Microsoft para obter ajuda é comprar o [Suporte Microsoft Premier](https://support.microsoft.com/premier). Caso saiba que sua organização comprou o Suporte Premier da Microsoft, mas ainda não consegue criar um caso usando nenhum canal do Power BI nem o suporte do Office, entre em contato com o Suporte Premier por telefone:
 
 * Para os clientes nos EUA (Estados Unidos) e no restante das Américas: + 1-800-936-3100
 * Para clientes na EMEA (Europa, Oriente Médio e Ásia): +44-844-800-8338

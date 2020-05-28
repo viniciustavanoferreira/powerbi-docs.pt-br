@@ -4,17 +4,17 @@ description: Tenha uma visão geral do Servidor de Relatórios do Power BI para 
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 04/29/2020
+ms.date: 05/14/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 39ccb9120b7dd61d7f160c296d2de799b7f3fe23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 55a3614c5da2ea8b5ea1a8cbb6ee87b20c542df4
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141097"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438282"
 ---
 # <a name="what-is-power-bi-report-server"></a>O que é o Servidor de Relatórios do Power BI?
 
@@ -26,7 +26,7 @@ O Servidor de Relatórios do Power BI é um servidor de relatório local com um 
 O Servidor de Relatórios do Power BI é semelhante ao SQL Server Reporting Services e ao serviço do Power BI online, mas de maneiras diferentes. Assim como o serviço do Power BI, o Servidor de Relatórios do Power BI hospeda relatórios do Power BI (.pbix), arquivos do Excel e relatórios paginados (.rdl). Assim como o Reporting Services, o Servidor de Relatórios do Power BI é local. Os recursos do Servidor de Relatórios do Power BI são um superconjunto do Reporting Services: tudo o que você pode fazer no Reporting Services, pode fazer com o Servidor de Relatórios do Power BI, além do suporte para relatórios do Power BI. Confira [Comparando o Servidor de Relatórios do Power BI e o serviço do Power BI](compare-report-server-service.md) para obter detalhes.
 
 ## <a name="licensing-power-bi-report-server"></a>Licenciando o Servidor de Relatórios do Power BI
-O Servidor de Relatórios do Power BI está disponível por meio de duas licenças diferentes: [Power BI Premium](../admin/service-premium-what-is.md) e [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) com Software Assurance. Com uma licença do Power BI Premium, você pode criar uma implantação híbrida combinando recursos locais e na nuvem.  
+O Servidor de Relatórios do Power BI está disponível por meio de duas licenças diferentes: [Power BI Premium](../admin/service-premium-what-is.md) e SQL Server Enterprise Edition com Software Assurance. Confira [Licenciamento por Volume da Microsoft](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True). Com uma licença do Power BI Premium, você pode criar uma implantação híbrida combinando recursos locais e na nuvem.  
 
 > [!NOTE]
 > Para o Power BI Premium, o Servidor de Relatórios do Power BI só está incluído com os SKUs P. Ele não está incluído com SKUs EM.

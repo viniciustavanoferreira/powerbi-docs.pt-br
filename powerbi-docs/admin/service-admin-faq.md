@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 459eaf6ba8b4f6e09b2df5f55956dc77adee9667
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344378"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563762"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrando o Power BI – perguntas frequentes
 
@@ -81,7 +81,7 @@ Há três cenários que podem se aplicar aos usuários em sua organização:
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant"></a>Como impedir que os usuários ingressem em meu locatário existente do Microsoft 365?
 
-Há etapas que você pode tomar, como administrador Global do Microsoft 365, para impedir que os usuários ingressem em seu locatário existente do Microsoft 365. Se você bloquear o acesso, as tentativas de inscrição dos usuários falharão e eles verão uma mensagem orientando a entrar em contato com o administrador da organização. Não será preciso repetir esse processo se você já tiver desabilitado a distribuição automática de licenças (por exemplo, pelo Office 365 Education para estudantes, docentes e funcionários).
+Há etapas que você pode realizar, enquanto administrador global, para impedir que os usuários ingressem em seu locatário existente do Microsoft 365. Se você bloquear o acesso, as tentativas de inscrição dos usuários falharão e eles verão uma mensagem orientando a entrar em contato com o administrador da organização. Não será preciso repetir esse processo se você já tiver desabilitado a distribuição automática de licenças (por exemplo, pelo Office 365 Education para estudantes, docentes e funcionários).
 
 Use o seguinte script do PowerShell para impedir que novos usuários ingressem em um locatário gerenciado. ([Saiba mais sobre o PowerShell][1].)
 
@@ -184,7 +184,7 @@ Quando um usuário de autoatendimento se inscreve em um serviço de nuvem que us
 Se você não fizer nada, o serviço criará um locatário para cada domínio e subdomínio de email de usuários. Se você desejar que todos os usuários estejam no mesmo locatário independentemente de suas extensões de endereço de email: Crie um locatário de destino antecipadamente ou use um locatário existente. Em seguida, adicione todos os domínios e subdomínios existentes que deseja consolidar neste locatário. Todos os usuários com endereços de email que terminam com esses domínios e subdomínios ingressam automaticamente no locatário de destino ao se inscreverem.
 
 > [!IMPORTANT]
-> Após a criação dos usuários, não há nenhum mecanismo automatizado compatível para movê-los entre locatários. Para saber mais sobre a adição de domínios a um único locatário do Microsoft 365, consulte [Adicionar usuários e domínio ao Office 365](/office365/admin/setup/add-domain/).
+> Após a criação dos usuários, não há nenhum mecanismo automatizado compatível para movê-los entre locatários. Para saber mais sobre a adição de domínios a um locatário do Microsoft 365, confira [Adicionar usuários e domínio ao Microsoft 365](/office365/admin/setup/add-domain/).
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>Como remover o Power BI para usuários que já se inscreveram?
 
@@ -259,9 +259,9 @@ A Microsoft criou o Power BI de acordo com o Microsoft 365, que por sua vez base
 [O que é o Power BI Premium?](service-premium-what-is.md)  
 [Como comprar o Power BI Premium](service-admin-premium-purchase.md)  
 [White paper do Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
-[Gerenciar seu grupo no Power BI e no Office 365](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
-[Gerenciamento de contas de usuário do Office 365](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
-[Gerenciamento de grupo do Office 365](/office365/admin/email/create-edit-or-delete-a-security-group/)  
+[Gerenciar seu grupo no Power BI e no Microsoft 365](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
+[Gerenciamento de contas corporativas ou de estudante](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
+[Gerenciamento de grupos do Microsoft 365](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

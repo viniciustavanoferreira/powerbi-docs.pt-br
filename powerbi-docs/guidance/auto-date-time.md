@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a143a9b158d8a00fc129953a601f9e4c8f19875f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279700"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565984"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Diretrizes de data/hora automática no Power BI Desktop
 
@@ -34,7 +34,10 @@ A lista com marcadores a seguir descreve as considerações, e possíveis limita
     É por isso que é importante que os filtros ou agrupamentos ocorram na coluna de **Ano**. Ao fazer a busca detalhada usando o ano, a hierarquia será filtrada, a menos que o nível de **Ano** seja intencionalmente removido. Se não houver filtro ou grupo por ano, um agrupamento por mês, por exemplo, resumirá os valores de todos os anos nesse mês.
 - **Filtragem de data de tabela única:** como cada coluna de data produz sua própria tabela de data/hora automática (oculta), não é possível aplicar um filtro de hora a uma tabela e propagá-lo para várias tabelas de modelo. Esse tipo de filtragem é um requisito de modelagem comum ao relatar vários assuntos (tabelas do tipo fato), como vendas e orçamento de vendas. Ao usar a data/hora automática, o autor do relatório precisará aplicar filtros a cada coluna de data diferente.
 - **Tamanho do modelo:** para cada coluna de data que gera uma tabela de data/hora automática oculta, isso resultará em um tamanho de modelo aumentado e também estenderá o tempo de atualização de dados.
-- **Outras ferramentas de relatório:** não é possível trabalhar com tabelas de data/hora automática usando [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md) nem conectar-se ao modelo usando designers de relatórios que não são do Power BI.
+- **Outras ferramentas de relatório:** Não é possível trabalhar com tabelas de data/hora automática ao:
+  - usar [Analisar no Excel](../collaborate-share/service-analyze-in-excel.md);
+  - usar designers de consulta do Analysis Services para relatórios paginados do Power BI;
+  - conectar-se ao modelo usando designers de relatório que não são do Power BI.
 
 ## <a name="recommendations"></a>Recomendações
 
@@ -42,7 +45,7 @@ Recomendamos manter a opção de _Data/hora automática_ habilitada somente ao t
 
 Quando sua fonte de dados já define uma tabela de dimensões de data, essa tabela deve ser usada para definir consistentemente o tempo dentro da sua organização. Se sua fonte de dados for um data warehouse, esse certamente será o caso. Do contrário, você pode gerar tabelas de datas no seu modelo usando as funções DAX [CALENDAR](/dax/calendar-function-dax) ou [CALENDARAUTO](/dax/calendarauto-function-dax). Você pode adicionar colunas calculadas para dar suporte aos requisitos conhecidos de agrupamento e filtragem de tempo. Essa abordagem de projeto pode permitir que você crie uma única tabela de datas que se propague para todas as tabelas de fatos, possivelmente resultando em uma única tabela para aplicar filtros de tempo. Leia mais informações sobre a criação de tabelas de datas no artigo [Definir e usar tabelas de datas no Power BI Desktop](../transform-model/desktop-date-tables.md).
 
-Se a opção de _Data/hora automática_ não for relevante para seus projetos, recomendamos desativá-la globalmente __ . Isso garantirá que todos os novos arquivos do Power BI Desktop criados por você não habilitem a opção de _Data/hora automática_.
+Se a opção de _Data/hora automática_ não for relevante para seus projetos, recomendamos desativá-la globalmente. Isso garantirá que todos os novos arquivos do Power BI Desktop criados por você não habilitem a opção de _Data/hora automática_.
 
 ## <a name="next-steps"></a>Próximas etapas
 
@@ -50,5 +53,5 @@ Para obter mais informações relacionadas a este artigo, confira os seguintes r
 
 - [Data/hora automática no Power BI Desktop](../transform-model/desktop-auto-date-time.md)
 - [Definir e usar tabelas de datas no Power BI Desktop](../transform-model/desktop-date-tables.md)
-- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Perguntas? [Experimente perguntar para a Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284786"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565450"
 ---
 # <a name="share-a-dataset-preview"></a>Compartilhar um conjunto de dados (versão prévia)
 
@@ -24,7 +24,7 @@ Como um criador de *modelos de dados* no Power BI Desktop, você cria *conjuntos
 
 1. Comece criando um arquivo .pbix com um modelo de dados no Power BI Desktop. Se pretende oferecer esse conjunto de dados para outras pessoas criarem relatórios, talvez você nem mesmo projete um relatório no arquivo .pbix.
 
-    Uma melhor prática é salvar o arquivo .pbix em um grupo do Office 365.
+    Uma melhor prática é salvar o arquivo .pbix em um grupo do Microsoft 365.
 
 1. Publique o arquivo .pbix em um [workspace da nova experiência](../collaborate-share/service-create-the-new-workspaces.md) no serviço do Power BI.
     
@@ -54,4 +54,4 @@ Quando você tiver um conjunto de dados compartilhado em seu workspace, talvez v
 ## <a name="next-steps"></a>Próximas etapas
 
 - [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

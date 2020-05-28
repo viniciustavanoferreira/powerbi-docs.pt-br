@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: b6b84d9e6c5f0dee912ccf80cf6949618b16d8c5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149004"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564163"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Ferramenta de migração Power BI Embedded
 
@@ -49,7 +49,7 @@ Comece criando um novo plano de migração. Para criar um novo plano de migraç�
 3. Será solicitado que você entre. Você usará seu logon de assinatura do Azure.
 
    > [!IMPORTANT]
-   > **Não** se trata da conta da organização do Office 365 que você usa para entrar no Power BI.
+   > **Não** se trata da conta da organização que você usa para entrar no Power BI.
 
 4. Selecione a assinatura do Azure que armazena suas coleções de workspaces do Power BI Embedded.
 

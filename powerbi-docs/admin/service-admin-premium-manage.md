@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f4bf863d7d87bd908165976940b868be55e367f9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6155453f00ae64eee2cf74db7426b36248def796
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138364"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564399"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configurar e gerenciar capacidades no Power BI Premium
 
@@ -24,11 +24,11 @@ Saiba como gerenciar as capacidades do Power BI Premium e do Power BI Embedded, 
 
 ![Tela de configurações de capacidade do Power BI](media/service-admin-premium-manage/premium-capacity-management.png)
 
-A *capacidade* é a essência das ofertas do Power BI Premium e do Power BI Embedded. É um conjunto de recursos reservados para uso exclusivo de sua organização. Ter capacidade dedicada permite publicar dashboards, relatórios e conjuntos de dados para usuários de toda a organização sem precisar comprar licenças por usuário para eles. Ela também oferece desempenho confiável e consistente para o conteúdo hospedado na capacidade. Para obter mais informações, consulte [O que é Power BI Premium?](../service-premium.md).
+A *capacidade* é a essência das ofertas do Power BI Premium e do Power BI Embedded. É um conjunto de recursos reservados para uso exclusivo de sua organização. Ter capacidade dedicada permite publicar dashboards, relatórios e conjuntos de dados para usuários de toda a organização sem precisar comprar licenças por usuário para eles. Ela também oferece desempenho confiável e consistente para o conteúdo hospedado na capacidade. Para obter mais informações, consulte [O que é Power BI Premium?](service-premium-what-is.md).
 
 ## <a name="manage-capacity"></a>Gerenciar a capacidade
 
-Após a compra de nós de capacidade no Office 365, configure a capacidade no portal de administração do Power BI. Você gerencia as capacidades do Power BI Premium na seção **Configurações de capacidade** do portal.
+Após a compra de nós de capacidade no Microsoft 365, configure a capacidade no portal de administração do Power BI. Você gerencia as capacidades do Power BI Premium na seção **Configurações de capacidade** do portal.
 
 ![Configurações de capacidade no portal de administração](media/service-admin-premium-manage/admin-portal-premium.png)
 
@@ -60,7 +60,7 @@ Se você tiver núcleos virtuais disponíveis, configure a nova capacidade segui
 
     ![Configurar uma nova capacidade](media/service-admin-premium-manage/set-up-capacity.png)
 
-Administradores de capacidade, bem como administradores do Power BI e Administradores Globais do Office 365, verão a capacidade listada no portal do administrador.
+Administradores de capacidade, bem como administradores do Power BI e administradores globais, verão a capacidade listada no portal do administrador.
 
 ### <a name="capacity-settings"></a>Configurações de capacidade
 
@@ -81,7 +81,7 @@ Administradores de capacidade, bem como administradores do Power BI e Administra
 
 ### <a name="change-capacity-size"></a>Alterar tamanho da capacidade
 
-Administradores do Power BI e Administradores Globais do Office 365 podem alterar a capacidade do Power BI Premium. Os administradores de capacidade que não são administradores do Power BI ou Administradores Globais do Office 365 não têm essa opção.
+Administradores do Power BI e administradores globais podem alterar a capacidade do Power BI Premium. Os administradores de capacidade que não são administradores do Power BI nem administradores globais não têm essa opção.
 
 1. Selecione **Alterar o tamanho da capacidade**.
 
@@ -118,7 +118,7 @@ Há duas maneiras de atribuir um workspace a uma capacidade: no portal de admini
 
 ### <a name="assign-from-the-admin-portal"></a>Atribuir do portal de administração
 
-Os administradores de capacidade, juntamente com os administradores do Power BI e os Administradores Globais do Office 365, podem atribuir workspaces em massa na seção de gerenciamento da capacidade Premium do portal de administração. Ao gerenciar uma capacidade, você verá uma seção **Workspaces** que permite atribuir workspaces.
+Os administradores de capacidade, juntamente com os administradores do Power BI e os administradores globais, podem atribuir workspaces em massa na seção de gerenciamento da capacidade Premium do portal de administração. Ao gerenciar uma capacidade, você verá uma seção **Workspaces** que permite atribuir workspaces.
 
 ![Área de atribuição de workspace do gerenciamento de capacidade](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 
@@ -135,7 +135,7 @@ Os administradores de capacidade, juntamente com os administradores do Power BI 
    | **Workspaces de toda a organização** | Atribuir workspaces de toda a organização à capacidade Premium atribuirá todos os workspaces e Meus Workspaces em sua organização a essa capacidade Premium. Além disso, todos os usuários atuais e futuros terão permissão para reatribuir workspaces individuais a essa capacidade. |
    | | |
 
-1. Selecione **Aplicar**.
+1. Escolha **Aplicar**.
 
 ### <a name="assign-from-workspace-settings"></a>Atribuir das configurações de workspace
 
@@ -151,7 +151,7 @@ Também é possível atribuir um workspace a uma capacidade Premium das configur
 
     ![Lista suspensa de seleção de capacidade](media/service-admin-premium-manage/app-workspace-advanced.png)
 
-1. Selecione **Salvar**.
+1. Clique em **Salvar**.
 
 Depois de salvo, o workspace e todo o seu conteúdo serão movidos para a capacidade Premium sem qualquer interrupção para os usuários finais.
 

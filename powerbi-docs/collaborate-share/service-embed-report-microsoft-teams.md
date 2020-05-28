@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143826"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693897"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Inserir relatórios no Microsoft Teams com a guia do Power BI
 
@@ -28,11 +28,12 @@ Para que a **guia do Power BI para o Microsoft Teams** funcione, verifique se:
 - Os usuários têm uma licença do Power BI Pro ou se o relatório está contido em uma [capacidade do Power BI Premium (SKU P ou EM)](../admin/service-premium-what-is.md) com uma licença do Power BI.
 - O Microsoft Teams tem a guia do Power BI.
 - O usuário entrou no serviço do Power BI para ativar a licença do Power BI a fim de consumir o relatório.
-- Os usuários precisam ter permissão para ver o relatório.
+- Para adicionar um relatório no Microsoft Teams com a guia Power BI, você precisa ter no mínimo uma função de Visualizador no workspace que hospeda o relatório. Confira [Funções nos novos workspaces](service-new-workspaces.md#roles-in-the-new-workspaces) para obter informações sobre as diferentes funções.
+- Para ver o relatório na guia Power BI no Microsoft Teams, os usuários precisam ter permissão para exibir o relatório.
 
 Além disso, para que as **visualizações de link** funcionem, verifique se:
 - Os usuários atendem aos requisitos de uso da guia do Power BI para o Microsoft Teams.
-- Os usuários entraram no serviço de bot do Power BI. 
+- Os usuários entraram no serviço do Power BI. 
 
 
 ## <a name="embed-your-report"></a>Insira seu relatório
@@ -90,12 +91,12 @@ Siga estas etapas para obter uma visualização de link para o conteúdo no serv
 
 ## <a name="grant-access-to-reports"></a>Conceder acesso aos relatórios
 
-A inserção de um relatório no Microsoft Teams ou o envio de um link a um item não concede automaticamente aos usuários a permissão para ver o relatório. É necessário [permitir que os usuários vejam o relatório no Power BI](service-share-dashboards.md). Você pode usar um grupo do Office 365 para sua equipe para facilitar. 
+A inserção de um relatório no Microsoft Teams ou o envio de um link a um item não concede automaticamente aos usuários a permissão para ver o relatório. É necessário [permitir que os usuários vejam o relatório no Power BI](service-share-dashboards.md). Você pode usar um grupo do Microsoft 365 para sua equipe para facilitar.
 
 > [!IMPORTANT]
 > Certifique-se de examinar quem pode ver o relatório dentro do serviço do Power BI e de conceder acesso aos que não aparecem na lista.
 
-Uma forma de garantir que todos da sua equipe tenham acesso aos relatórios é colocar os relatórios em um só workspace no Power BI e fornecer à sua equipe o acesso ao workspace no Grupo do Office 365.
+Uma forma de garantir que todos da sua equipe tenham acesso aos relatórios é colocá-los em um só workspace no Power BI e fornecer à sua equipe o acesso ao workspace no Grupo do Microsoft 365.
 
 ## <a name="link-previews"></a>Visualizações de link 
 
@@ -123,7 +124,7 @@ Quando você adiciona uma guia de relatório do Power BI ao Teams, o Teams autom
 - O Power BI não dá suporte aos mesmos idiomas localizados que o Microsoft Teams. Como resultado, você não verá a localização correta no relatório inserido.
 - Os dashboards do Power BI não podem ser inseridos na guia do Power BI para o Microsoft Teams.
 - Um usuário sem uma licença do Power BI ou uma permissão no relatório verá uma mensagem "O conteúdo não está disponível".
-- Você poderá ter problemas se usar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- Você poderá ter problemas se usar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - Não há suporte para os [filtros de URL](service-url-filters.md) na guia do Power BI para o Microsoft Teams.
 - Em nuvens nacionais, a nova guia do Power BI não está disponível. Pode estar disponível uma versão mais antiga que não dá suporte à nova experiência de workspace nem a relatórios em aplicativos do Power BI. 
 - Depois de salvar a guia, você não poderá alterar o nome da guia por meio das configurações dela. Use a opção de renomear para alterá-lo.

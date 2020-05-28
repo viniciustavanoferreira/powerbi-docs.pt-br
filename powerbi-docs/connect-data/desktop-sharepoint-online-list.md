@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4fd350ae5d4a916e6753f7cd66e1fca52137efd5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2657580a27eb1be42c96ffad5881555df168d459
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83288650"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83562117"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>Criar um relatório em uma Lista do SharePoint
 
@@ -44,7 +44,7 @@ Assista a este vídeo de tutorial de cinco minutos ou role para baixo para obter
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-auth1.png" alt="choose Microsoft account" width="500"/>
 
-7. Selecione **Entrar** e insira o nome de usuário e a senha usados para entrar no Microsoft Office 365.
+7. Selecione **Entrar** e insira o nome de usuário e a senha usados para entrar no Microsoft 365.
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-auth2.png" alt="sign in" width="500"/>
 

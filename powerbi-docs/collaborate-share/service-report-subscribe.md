@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/10/2020
+ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9ee04211c44fb342e4baf904bcfa73bab489a1ba
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273628"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438213"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Obtenha uma assinatura para você e outras pessoas de relatórios e dashboards no serviço do Power BI
 
@@ -105,12 +105,13 @@ Os administradores do Power BI podem usar os logs de auditoria do Power BI para 
 
 ### <a name="general"></a>Geral
 
-- Em raras ocasiões, as assinaturas de email podem levar mais de quinze minutos para serem entregues aos destinatários. Caso isso aconteça, recomendamos a execução da atualização de dados e da assinatura de email em momentos diferentes para garantir a entrega em tempo hábil. Se o problema persistir, contate o suporte do Power BI.
-- Para evitar que os emails da assinatura sejam enviados para a pasta de spam, adicione o alias de email do Power BI ([no-reply-powerbi@microsoft.com](mailto:no-reply-powerbi@microsoft.com)) aos seus contatos. Se estiver usando o Microsoft Outlook, clique com o botão direito do mouse no alias e selecione **Adicionar aos contatos do Outlook**.
+- Assim como ocorre com outros produtos de BI, a hora para a qual você define sua assinatura é quando o processamento da assinatura começa.  Quando o processamento do relatório for concluído, a assinatura será enfileirada e enviada aos destinatários do email.  Nos esforçamos para processar e entregar todas as assinaturas o mais rápido possível. No entanto, às vezes, na demanda de pico, um atraso maior poderá ocorrer devido ao número de assinaturas que o Power BI pode enviar de uma vez. A maioria dos clientes não deve enfrentar um atraso de mais de 15 minutos para processar e enviar relatórios. Pode levar até 30 minutos para determinados tempos e locatários que têm uso significativo.  Nunca esperamos que nenhum atraso na entrega seja superior a 60 minutos a contar do momento em que a assinatura é agendada.  Se você experienciar um atraso longo, primeiro verifique se o endereço `no-reply-powerbi@microsoft.com` está na lista de permissões do seu provedor de email.  Se ele estiver, entre em contato com o suporte do Power BI para obter assistência.
 - Atualmente, não há suporte para assinaturas de email de relatórios e dashboards que usam conjuntos de dados de conexão dinâmica ao fazer uma assinatura para outros usuários que não sejam a própria pessoa, exceto para relatórios paginados. Você pode assinar um relatório paginado para outras pessoas usando o contexto de segurança. Leia mais sobre [como assinar relatórios paginados](../consumer/paginated-reports-subscriptions.md).
 - O Power BI pausa a atualização automaticamente em conjuntos de dados associados a dashboards e relatórios que não foram visitados há mais de dois meses. No entanto, se você adicionar uma assinatura a um dashboard ou um relatório, ele não ficará em pausa mesmo que não seja visitado.
 - Se você não estiver recebendo emails de assinatura, verifique se o nome UPN pode receber emails.
 - Se o painel ou o relatório estiver na capacidade Premium, você poderá usar o alias de email de grupo para assinaturas, em vez de inserir um endereço de email de colega de cada vez na assinatura. Os aliases são baseados no Active Directory atual.
+- Se o conteúdo não estiver em uma capacidade Premium, somente usuários do Power BI Pro poderão receber assinaturas de email. 
+- Atualmente, as assinaturas não dão suporte a indicadores.
 
 ### <a name="dashboards"></a>Dashboards
 
@@ -118,7 +119,7 @@ Os administradores do Power BI podem usar os logs de auditoria do Power BI para 
 - Em raras ocasiões, as assinaturas de email podem levar mais de quinze minutos para serem entregues aos destinatários. Caso isso aconteça, recomendamos a execução da atualização de dados e da assinatura de email em momentos diferentes para garantir a entrega em tempo hábil. Se o problema persistir, contate o suporte do Power BI.
 - Para assinaturas de email do dashboard, se os blocos tiverem a RLS (segurança em nível de linha) aplicada, esses blocos não serão exibidos.
 - Para assinaturas de dashboards, ainda não há suporte para alguns tipos de blocos. Eles incluem: blocos de streaming, blocos de vídeo e blocos de conteúdo da Web personalizados.
-- Se você compartilhar um dashboard com um colega fora de seu locatário, não será possível criar uma assinatura para esse colega, *a menos* que o dashboard esteja em um workspace ou aplicativo Premium. Portanto, se você for aaron@contoso.com, poderá compartilhar com anyone@fabrikam.com, mas ainda não poderá incluir anyone@fabrikam.com, e ele não poderá assinar o conteúdo compartilhado.
+- Se você compartilhar um dashboard com um colega fora de seu locatário, não será possível criar uma assinatura para esse colega, *a menos* que o dashboard esteja em um workspace ou aplicativo Premium. Portanto, se você for `aaron@contoso.com`, poderá compartilhar com `anyone@fabrikam.com`, mas ainda não poderá incluir `anyone@fabrikam.com`, e ele não poderá assinar o conteúdo compartilhado.
 
 ### <a name="reports"></a>Relatórios
 

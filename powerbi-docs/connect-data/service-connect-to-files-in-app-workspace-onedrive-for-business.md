@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4995671fe5a3a4af0e74ce97d3227f73f005dc3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348518"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564086"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Conecte-se a arquivos armazenados no OneDrive para seu workspace do Power BI
 Após você [criar um workspace no Power BI](../collaborate-share/service-create-distribute-apps.md), é possível armazenar os arquivos do Excel, de CSV e do Power BI Desktop no OneDrive for Business para o seu workspace do Power BI. Você pode continuar atualizando os arquivos armazenados no OneDrive, e essas atualizações serão refletidas automaticamente nos relatórios e painéis do Power BI com base nos arquivos. 
 
 > [!NOTE]
-> A nova experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Office 365. Você não criará automaticamente um grupo do Office 365 sempre que criar um dos novos workspaces. Leia sobre [como criar os novos espaços de trabalho](../collaborate-share/service-create-the-new-workspaces.md)
+> A nova experiência de workspace mudará a relação entre os workspaces do Power BI e os grupos do Microsoft 365. Você não criará automaticamente um grupo do Microsoft 365 sempre que criar um dos workspaces. Leia sobre [como criar os novos espaços de trabalho](../collaborate-share/service-create-the-new-workspaces.md)
 
 A adição de arquivos ao seu workspace consiste em um processo de duas etapas: 
 
@@ -34,10 +34,10 @@ A adição de arquivos ao seu workspace consiste em um processo de duas etapas:
 1. No serviço do Power BI, selecione a seta ao lado de Workspaces &gt; selecione as reticências ( **...** ) ao lado do nome do workspace. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. Selecione **Arquivos** para abrir o OneDrive para Negócios do workspace no Office 365.
+2. Selecione **Arquivos** para abrir o OneDrive for Business do workspace no Microsoft 365.
    
    > [!NOTE]
-   > Se você não vir **Arquivos** no menu do workspace, selecione **Membros** para abrir o OneDrive for Business para o seu workspace. Nele, selecione **Arquivos**. O Office 365 configura um local de armazenamento do OneDrive para seus arquivos do workspace de grupo do aplicativo. Esse processo pode levar algum tempo. 
+   > Se você não vir **Arquivos** no menu do workspace, selecione **Membros** para abrir o OneDrive for Business para o seu workspace. Nele, selecione **Arquivos**. O Microsoft 365 configura um local de armazenamento do OneDrive para seus arquivos do workspace de grupo do aplicativo. Esse processo pode levar algum tempo.
    > 
    > 
 3. Aqui você pode carregar seus arquivos no OneDrive for Business para o seu workspace. Selecione **Carregar**e navegue até os arquivos.
@@ -61,7 +61,7 @@ Agora que os arquivos estão no OneDrive for Business para o seu workspace, voc�
 4. Selecione **OneDrive** - *Nome do Seu Workspace*.
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
-5. Selecione o arquivo que você deseja > **Conectar**.
+5. Selecione o arquivo desejado > **Conectar**.
    
     Nessa ocasião, você decide se deseja [importar os dados da pasta de trabalho do Excel](service-get-data-from-files.md) ou [conectar-se a pastas de trabalho inteiras do Excel](service-excel-workbook-files.md).
 6. Selecione **Importar** ou **Conectar**.

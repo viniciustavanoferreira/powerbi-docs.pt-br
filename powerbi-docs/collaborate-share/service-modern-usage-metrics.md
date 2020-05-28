@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdb6ee8f50eaf70c9180e2c5a01cefef1143aa0d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83142700"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693856"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Monitorar métricas de uso na nova experiência de workspace
 
@@ -82,13 +82,13 @@ O relatório de métricas de uso aprimorado inclui as seguintes páginas:
 | Uso de relatórios | Visualizadores únicos | Um visualizador é alguém que abriu o relatório pelo menos uma vez durante determinado período (com base na conta de usuário do Azure Active Directory). |
 | Uso de relatórios | Tendência de visualização | A tendência da visualização reflete as alterações na contagem de visualizações ao longo do tempo. Ela compara a primeira metade do período selecionado com a segunda metade. |
 | Uso de relatórios | Segmentação de datas | Você pode alterar os períodos na página de uso do Relatório, por exemplo, para calcular as tendências semanal ou quinzenalmente. No canto inferior esquerdo da página de Uso do relatório, é possível determinar as datas mais antiga e mais recente entre as quais os dados de uso estarão disponíveis no relatório selecionado. |
-| Uso de relatórios | Classificação | Com base na contagem de visualizações, a classificação mostra a popularidade de um relatório em comparação com todos os outros relatórios da organização.   |
+| Uso de relatórios | Rank | Com base na contagem de visualizações, a classificação mostra a popularidade de um relatório em comparação com todos os outros relatórios da organização.   |
 | Uso de relatórios | Visualizações do relatório por dia | Número total de visualizações por dia. |
 | Uso de relatórios | Visualizadores diários do relatório | Número total de usuários diferentes que visualizaram o relatório (com base na conta de usuário do Azure Active Directory). |
 | Uso de relatórios | Método de distribuição | Forma como os usuários obtêm acesso ao relatório, por exemplo, na condição de membros de um workspace, ao ter o relatório compartilhado com eles ou ao instalar um aplicativo. |
 | Uso de relatórios | Segmentação de plataforma | Se o relatório foi acessado por meio do serviço do Power BI (powerbi.com), do Power BI Embedded ou de um dispositivo móvel. |
 | Uso de relatórios | Usuários com visualizações do relatório | Mostra a lista de usuários que abriram o relatório classificada por contagem de visualizações. |
-| Uso de relatórios | Páginas | Se o relatório tiver mais de uma página, segmente o relatório por página(s) que foi exibido. Se houver uma opção de lista "Em Branco", isso significará que uma página de relatório foi adicionada recentemente (em até 24 horas, o nome real da nova página será exibido na lista de segmentação) e/ou que páginas do relatório foram excluídas. "Em branco" captura esses tipos de situações. |
+| Uso de relatórios | Pages (Páginas) | Se o relatório tiver mais de uma página, segmente o relatório por página(s) que foi exibido. Se houver uma opção de lista "Em Branco", isso significará que uma página de relatório foi adicionada recentemente (em até 24 horas, o nome real da nova página será exibido na lista de segmentação) e/ou que páginas do relatório foram excluídas. "Em branco" captura esses tipos de situações. |
 | Desempenho do relatório | Horário de abertura típico | O horário de abertura típico do relatório corresponde ao 50º percentil do tempo necessário para abri-lo. Em outras palavras, é o tempo abaixo do qual 50% das ações de abertura do relatório são concluídas. A página Desempenho do relatório também divide o horário de abertura típico do relatório por método de consumo e tipo de navegador.   |
 | Desempenho do relatório | Tendência de horário de abertura | A tendência de horário de abertura reflete as alterações no desempenho de abertura do relatório ao longo do tempo. Ela compara os horários de abertura do relatório da primeira metade do período selecionado com os horários de abertura da segunda metade. |
 | Desempenho do relatório | Segmentação de datas | Você pode alterar o período na página de Desempenho do relatório, por exemplo, para calcular tendências semanal ou quinzenalmente. No canto inferior esquerdo da página de Desempenho do relatório, é possível determinar as datas mais antiga e mais recente entre as quais os dados de uso estarão disponíveis no relatório selecionado. |
@@ -104,7 +104,7 @@ Use o procedimento a seguir para assumir o controle de um conjunto de dados do R
 1. Abra o workspace que contém o relatório para o qual você deseja atualizar o conjunto de dados do Relatório de Métricas de Uso.
 2. Na barra de cabeçalho preta na parte superior, selecione o ícone **Configurações** e selecione **Configurações**.
 
-    ![selecione Configurações](media/service-modern-usage-metrics/power-bi-settings-settings.png)
+    ![Escolha Configurações](media/service-modern-usage-metrics/power-bi-settings-settings.png)
 
 3. Alterne para a guia **Conjuntos de dados**.
 
@@ -132,7 +132,7 @@ Use o procedimento a seguir para assumir o controle de um conjunto de dados do R
 
 ## <a name="disable-usage-metrics-reports"></a>Desabilitar relatórios de métricas de uso
 
-Os relatórios de métrica de uso são um recurso que o administrador do Power BI ou do Office 365 pode ativar ou desativar. Os administradores têm controle granular sobre quais usuários terão acesso às métricas de uso. Elas são ativadas por padrão para todos os usuários na organização. Confira [Controlar métricas de uso](../admin/service-admin-portal.md#control-usage-metrics) no artigo do portal de administração para obter detalhes sobre essas configurações.
+Os relatórios de métricas de uso são um recurso que o administrador do Power BI ou do Microsoft 365 pode ativar ou desativar. Os administradores têm controle granular sobre quais usuários terão acesso às métricas de uso. Elas são ativadas por padrão para todos os usuários na organização. Confira [Controlar métricas de uso](../admin/service-admin-portal.md#control-usage-metrics) no artigo do portal de administração para obter detalhes sobre essas configurações.
 
 > [!NOTE]
 > Somente administradores do locatário do Power BI podem ver o portal do administrador e editar as configurações.
@@ -336,7 +336,7 @@ Se você suspeitar de problemas de consistência ou atualização de dados, talv
 
 2. Na barra de cabeçalho preta na parte superior, selecione o ícone **Configurações** e selecione **Configurações**.
 
-    ![selecione Configurações](media/service-modern-usage-metrics/power-bi-settings-settings.png)
+    ![Escolha Configurações](media/service-modern-usage-metrics/power-bi-settings-settings.png)
 
 3. Alterne para a guia **Conjuntos de dados** e selecione o conjunto de dados Relatório de Métricas de Uso. 
 

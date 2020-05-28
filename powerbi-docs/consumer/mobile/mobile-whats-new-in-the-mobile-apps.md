@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349254"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565290"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -274,7 +274,7 @@ O link de abertura do relatório que inclui a cadeia de consulta agora será abe
 
 ### <a name="shared-credentials-now-in-android"></a>Credenciais compartilhadas (agora no Android)
 
-Entrar no Power BI pelo aplicativo móvel nunca foi tão fácil. Graças às credenciais compartilhadas, simplificamos o processo de entrada por meio do uso de outras credenciais de aplicativo do Office 365 no dispositivo para autenticar você no serviço do Power BI.
+Entrar no Power BI pelo aplicativo móvel nunca foi tão fácil. Graças às credenciais compartilhadas, simplificamos o processo de entrada por meio do uso de outras credenciais de aplicativo do Microsoft 365 no dispositivo para autenticar você no serviço do Power BI.
 
 ### <a name="in-app-urls-now-in-android"></a>URLs no aplicativo (agora no Android) 
 
@@ -294,7 +294,7 @@ Leia a [postagem do blog do Power BI sobre os relatórios paginados no ambiente 
 
 ### <a name="shared-credentials-ios"></a>Credenciais compartilhadas (iOS)
 
-Entrar no Power BI pelo aplicativo móvel nunca foi tão fácil. Graças às credenciais compartilhadas, simplificamos o processo de entrada por meio do uso de outras credenciais de aplicativo do Office 365 no dispositivo para autenticar você no serviço do Power BI.
+Entrar no Power BI pelo aplicativo móvel nunca foi tão fácil. Graças às credenciais compartilhadas, simplificamos o processo de entrada por meio do uso de outras credenciais de aplicativo do Microsoft 365 no dispositivo para autenticar você no serviço do Power BI.
 
 ### <a name="in-app-urls-ios"></a>URLs no aplicativo (iOS) 
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360912"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566030"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 [//]: # "Tatevik Tatero é um fornecedor que trabalha com a Chauncy Freels e ajuda a manter esta lista de webinars"
@@ -22,13 +22,20 @@ Registre-se para os próximos webinars ao vivo ou assista a nossas sessões grav
 
 ## <a name="upcoming-webinars"></a>Próximos webinars
 
-Nenhum webinar agendado ainda. Volte em breve para saber se há eventos futuros.
+**Qual é a diferença entre o Analytics e o BI?**
+<br>por Nate Findley e Charles Feddersen, Microsoft
+<br>[Registre-se para assistir em 3 de junho de 2020, das 10:00 às 11:00 PDT]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[Próximos webinars na comunidade do Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Webinars em destaque
 
 Tenha uma introdução com estes webinars populares sob demanda
+
+**Explore o impacto econômico total do Microsoft Power BI**
+<br>por Megan Tomlin (Microsoft) e Jonathan Lipsitz (Forrester Consulting)
+<br>[Assista agora]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Análises em evento virtual do Azure: acelere o tempo de insight com o Azure Synapse Analytics**
 <br>por Gayle Sheppard e John Macintyre
@@ -86,7 +93,7 @@ Tenha uma introdução com estes webinars populares sob demanda
 <br>por Nimrod Shalit
 <br>[Registre-se e assista agora](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI, Excel e Office 365: otimize os dados corporativos**
+**Power BI, Excel e Microsoft 365: otimize os dados corporativos**
 <br>por Olaf Hubel e Miguel Martinez
 <br>[Registre-se e assista agora](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 

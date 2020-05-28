@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e621deb2cc2db74d8836900aa65105a075d4cd3c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c7d1c9a29c95cb039c90fd339f6e6a38de111916
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139572"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563685"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicativos móveis com o Microsoft Intune
 
@@ -24,12 +24,12 @@ O Microsoft Intune permite que as organizações gerenciem dispositivos e aplica
 
 Este artigo pressupõe que o Intune está configurado corretamente e que você tem dispositivos registrados com o Intune. O artigo não serve como um guia de configuração completo para o Microsoft Intune. Para saber mais sobre o Intune, confira [O que é o Intune?](/intune/introduction-intune/).
 
-O Microsoft Intune pode coexistir com o MDM (Gerenciamento de Dispositivo Móvel) no Office 365. Se estiver usando o MDM, o dispositivo será exibido como registrado no MDM, mas estará disponível para gerenciar no Intune.
+O Microsoft Intune pode coexistir com o MDM (Gerenciamento de Dispositivo Móvel) no Microsoft 365. Se estiver usando o MDM, o dispositivo será exibido como registrado no MDM, mas estará disponível para gerenciar no Intune.
 
 > [!NOTE]
 > Após a configuração do Intune, a atualização de dados em segundo plano é desativada para o aplicativo móvel do Power BI em seu dispositivo Android ou iOS. O Power BI atualiza os dados do serviço do Power BI na Web quando você entra no aplicativo.
 
-## <a name="step-1-get-the-url-for-the-application"></a>Etapa 1: Obter a URL do aplicativo
+## <a name="step-1-get-the-url-for-the-application"></a>Etapa 1: obter a URL do aplicativo
 
 Antes de criar o aplicativo no Intune, precisamos obter as URLs para os aplicativos. Para iOS, elas serão obtidas pelo iTunes. Para o Android, você pode obtê-las no página móvel do Power BI.
 
@@ -67,7 +67,7 @@ Você pode criar o aplicativo ou a política primeiro. Não importa a ordem que 
 
 1. Selecione **Adicionar...** .
 
-1. Em **Software**, você pode selecionar o Gerenciamento de aplicativos móveis para Android ou iOS. Para começar rapidamente, você pode selecionar **Criar uma política com as configurações recomendadas**, ou você pode criar uma política personalizada.
+1. Em **Software** , você pode selecionar o Gerenciamento de aplicativos móveis para Android ou iOS. Para começar rapidamente, você pode selecionar **Criar uma política com as configurações recomendadas**, ou você pode criar uma política personalizada.
 
 1. Edite a política para configurar as restrições desejadas no aplicativo.
 
@@ -79,7 +79,7 @@ Você pode criar o aplicativo ou a política primeiro. Não importa a ordem que 
 
 1. Acesse o portal Intune e selecione **Aplicativos** no menu à esquerda.
 
-1. Selecione **Adicionar aplicativo**. Isso inicializará o aplicativo **Adicionar Software**.
+1. Selecione **Adicionar aplicativo**. Isso inicializará o aplicativo **Adicionar Software** .
 
 ### <a name="create-for-ios"></a>Criar para iOS
 
@@ -93,9 +93,9 @@ Você pode criar o aplicativo ou a política primeiro. Não importa a ordem que 
 
 1. Você pode decidir se deseja publicar o aplicativo como **Qualquer** (padrão), **iPad** ou **iPhone**. Por padrão, ele mostrará **Qualquer** e funcionará para ambos os tipos de dispositivo. O aplicativo Power BI utiliza a mesma URL para o iPhone e o iPad. Selecione **Avançar**.
 
-1. Selecione **Carregar**.
+1. Escolha **Carregar**.
 
-1. Se você não vir o aplicativo na lista, atualize a página: acesse **Visão geral**, depois volte para **Aplicativos**.
+1. Se o aplicativo não estiver na lista, atualize a página: acesse **Visão geral** e volte para **Aplicativos**.
 
     ![Guia Aplicativos](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -109,9 +109,9 @@ Você pode criar o aplicativo ou a política primeiro. Não importa a ordem que 
 
 1. Forneça um **Editor**, um **Nome** e uma **Descrição**. Como alternativa, você pode fornecer um **Ícone**. A **Categoria** se refere ao aplicativo do Portal da Empresa. Ao terminar, selecione **Avançar**.
 
-1. Selecione **Carregar**.
+1. Escolha **Carregar**.
 
-1. Se você não vir o aplicativo na lista, atualize a página: acesse **Visão geral**, depois volte para **Aplicativos**.
+1. Se o aplicativo não estiver na lista, atualize a página: acesse **Visão geral** e volte para **Aplicativos**.
 
     ![Guia Aplicativos](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
@@ -125,19 +125,19 @@ Depois de ter adicionado o aplicativo, você precisará implantá-lo para que el
 
     ![Gerenciar Implantação](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 
-1. Na tela **Selecionar Grupos**, você pode escolher em quais grupos deseja implantar esse aplicativo. Selecione **Avançar**.
+1. Na tela **Selecionar Grupos** , você pode escolher em quais grupos deseja implantar esse aplicativo. Selecione **Avançar**.
 
-1. Na tela **Ação de Implantação**, você pode escolher como deseja implantar esse aplicativo. Ao selecionar **Instalação Disponível** ou **Instalação Obrigatória**, o aplicativo será disponibilizado no Portal da Empresa para que os usuários instalem sob demanda. Ao terminar de fazer sua escolha, selecione **Avançar**.
+1. Na tela **Ação de Implantação** , você pode escolher como deseja implantar esse aplicativo. Ao selecionar **Instalação Disponível**ou **Instalação Obrigatória**, o aplicativo será disponibilizado no Portal da Empresa para que os usuários instalem sob demanda. Ao terminar de fazer sua escolha, selecione **Avançar**.
 
     ![Ação de implantação](media/service-admin-mobile-intune/intune-deploy-ios2.png)
 
-1. Na tela **Gerenciamento de Aplicativo Móvel**, você pode selecionar a política de gerenciamento de aplicativo móvel criada na [Etapa 2](#step-2-create-a-mobile-application-management-policy). O padrão será a política que você criou, se for a única política iOS disponível. Selecione **Avançar**.
+1. Na tela **Gerenciamento de Aplicativo Móvel**, é possível selecionar a política de Gerenciamento de Aplicativo Móvel criada na [Etapa 2](#step-2-create-a-mobile-application-management-policy). O padrão será a política que você criou, se for a única política iOS disponível. Selecione **Avançar**.
 
     ![Gerenciamento de aplicativo móvel](media/service-admin-mobile-intune/intune-deploy-ios3.png)
 
-1. Na tela **Perfil VPN**, você pode selecionar uma política, se tiver uma para sua organização. O padrão é **Nenhum**. Selecione **Avançar**.
+1. Na tela **Perfil VPN** , você pode selecionar uma política, se tiver uma para sua organização. O padrão é **Nenhum**. Selecione **Avançar**.
 
-1. Na tela **Configuração de Aplicativo Móvel**, você pode selecionar uma **Política de Configuração do Aplicativo**, se tiver criado uma. O padrão é **Nenhum**. Isso não é necessário. Selecione **Concluir**.
+1. Na tela **Configuração de Aplicativo Móvel** , você pode selecionar uma **Política de Configuração do Aplicativo** , se tiver criado uma. O padrão é **Nenhum**. Isso não é necessário. Selecione **Concluir**.
 
 Depois que você implantou o aplicativo, ele deverá mostrar **Sim** para a opção Implantado, na página de aplicativos.
 
@@ -146,13 +146,13 @@ Depois que você implantou o aplicativo, ele deverá mostrar **Sim** para a opç
 1. Na tela de aplicativos, selecione o aplicativo que você criou. Selecione o link **Gerenciar implantação…** .
 
     ![Gerenciar Implantação](media/service-admin-mobile-intune/intune-deploy-android1.png)
-1. Na tela **Selecionar Grupos**, você pode escolher em quais grupos deseja implantar esse aplicativo. Selecione **Avançar**.
+1. Na tela **Selecionar Grupos** , você pode escolher em quais grupos deseja implantar esse aplicativo. Selecione **Avançar**.
 
-1. Na tela **Ação de Implantação**, você pode escolher como deseja implantar esse aplicativo. Ao selecionar **Instalação Disponível** ou **Instalação Obrigatória**, o aplicativo será disponibilizado no Portal da Empresa para que os usuários instalem sob demanda. Ao terminar de fazer sua escolha, selecione **Avançar**.
+1. Na tela **Ação de Implantação** , você pode escolher como deseja implantar esse aplicativo. Ao selecionar **Instalação Disponível**ou **Instalação Obrigatória**, o aplicativo será disponibilizado no Portal da Empresa para que os usuários instalem sob demanda. Ao terminar de fazer sua escolha, selecione **Avançar**.
 
     ![Ação de implantação](media/service-admin-mobile-intune/intune-deploy-android2.png)
 
-1. Na tela **Gerenciamento de Aplicativo Móvel**, você pode selecionar a política de gerenciamento de aplicativo móvel criada na [Etapa 2](#step-2-create-a-mobile-application-management-policy). O padrão será a política que você criou, se for a única política Android disponível. Selecione **Concluir**.
+1. Na tela **Gerenciamento de Aplicativo Móvel**, é possível selecionar a política de Gerenciamento de Aplicativo Móvel criada na [Etapa 2](#step-2-create-a-mobile-application-management-policy). O padrão será a política que você criou, se for a única política Android disponível. Selecione **Concluir**.
 
     ![Gerenciamento de aplicativo móvel](media/service-admin-mobile-intune/intune-deploy-android3.png)
 

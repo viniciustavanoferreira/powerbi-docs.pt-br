@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 706703985242284725fb4fc2d42bf46e54c605c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285798"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564142"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Usar os links do OneDrive for Business no Power BI Desktop
 Muitas pessoas têm pastas de trabalho do Excel armazenadas no OneDrive for Business que seriam ótimas para uso com o Power BI Desktop. Com o Power BI Desktop, você pode usar links online para arquivos do Excel armazenados no OneDrive for Business para criar relatórios e visuais. Você pode usar uma conta de grupo do OneDrive for Business ou sua conta individual do OneDrive for Business.
@@ -44,7 +44,7 @@ No Power BI Desktop, você pode usar o link que acabou de copiar para a área de
 3. Remova a cadeia de caracteres *?web=1* no final do link para que o Power BI Desktop possa navegar corretamente até o arquivo e, em seguida, selecione **OK**.
    
     ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
-4. Se o Power BI Desktop solicitar suas credenciais, escolha **Windows** (para sites locais do SharePoint) ou **Conta Organizacional** (para sites do Office 365 ou OneDrive for Business).
+4. Se o Power BI Desktop solicitar suas credenciais, escolha **Windows** (para sites locais do SharePoint) ou **Conta Organizacional** (para sites do Microsoft 365 ou do OneDrive for Business).
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
 

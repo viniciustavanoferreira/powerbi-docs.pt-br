@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ebdd84dd4de054df08ac79dc2d28f7862cbb284b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120104"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564885"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário do serviço do Power BI
 O serviço do Power BI pode apresentar terminologia confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar sobre a terminologia, por isso pode ser útil até mesmo salvá-lo como favorito. Outro excelente recurso para aprender sobre os blocos de construção que compõem o serviço do Power BI são os [Conceitos básicos](end-user-basic-concepts.md). O artigo com Conceitos básicos fornece uma visão geral de alto nível das *partes* do Power BI e como elas estão conectadas.
@@ -26,7 +26,7 @@ Este glossário é um esforço conjunto da comunidade.  Não encontrou uma palav
 
 A assinatura organizacional *Premium* (também conhecida como *capacidade Premium*) adiciona uma camada de recursos às licenças de usuário. Por exemplo, os titulares de contas de usuário *gratuito* em uma organização que tenha a assinatura *Premium* podem fazer muito mais com o Power BI do que os usuários *gratuitos* sem o *Premium*. Por exemplo, os usuários *gratuitos* em contas organizacionais *Premium* podem colaborar com os colegas e ver o conteúdo hospedado na capacidade Premium do Power BI. 
 
-**admin portal (portal de administração)** O local em que os administradores do Power BI gerenciam usuários, recursos e configurações para o Power BI na sua organização. (Observação: o Office 365, o Azure e o PowerApps usam o Centro de Administração.)
+**admin portal (portal de administração)** O local em que os administradores do Power BI gerenciam usuários, recursos e configurações para o Power BI na sua organização. (Observação: o Microsoft 365, o Azure e o PowerApps usam o Centro de Administração.)
 
 **aggregates (agregação)** Quando os valores de várias linhas são agrupados como entrada em critérios para formar um único valor de sentido ou medida mais significativos.
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/04/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 762d88789bb68777886a126589802b9e8d854879
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347437"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83692945"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicativos de modelo em sua organização
 
@@ -59,11 +59,19 @@ Para instalar, personalizar e distribuir um aplicativo de modelo, você precisa:
 
 ## <a name="connect-to-data"></a>Conectar aos dados
 
-1. Selecione **Ir para o aplicativo**. A janela **Introdução ao novo aplicativo** é exibida.
+1. Selecione **Ir para o aplicativo**.
 
-   ![Introdução ao aplicativo](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+1. Na janela **Introdução ao novo aplicativo**, selecione **Explorar**.
 
-1. Clique em **Conectar**.
+   ![Tela inicial do aplicativo de modelo](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+
+   O aplicativo é aberto, mostrando os dados de exemplo.
+
+1. Selecione o link **Conectar seus dados** na barra de notificação na parte superior da página.
+
+   ![Aplicativo GitHub conectar o link de dados](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
+
+
     
     Isso abre uma caixa de diálogo ou uma série de caixas de diálogo em que você altera a fonte de dados dos dados de exemplo para sua própria fonte de dados. Isso geralmente significa a redefinição de parâmetros de conjunto de dados e credenciais de fonte de dados. Confira [Limitações conhecidas](service-template-apps-overview.md#known-limitations).
     
@@ -71,19 +79,20 @@ Para instalar, personalizar e distribuir um aplicativo de modelo, você precisa:
 
    ![Caixas de diálogo Conectar-se a dados](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-    Depois que você terminar de preencher as caixas de diálogo de conexão, o processo de conexão será iniciado. Uma faixa informa que você está exibindo dados de exemplo.
+    Depois que você terminar de preencher as caixas de diálogo de conexão, o processo de conexão será iniciado. Uma faixa informa que os dados estão sendo atualizados e, enquanto isso, você está exibindo dados de exemplo.
 
     ![Como exibir dados de exemplo](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-    Aguarde até que os dados terminem de se conectar e de serem atualizados. Para saber quando esse processo foi concluído, observe o indicador de progresso na linha (aparência nova) ou na guia (aparência antiga) do conjunto de dados.
-
-   Quando a conexão e a atualização de dados forem concluídas, atualize seu navegador. A faixa agora informa que você precisa atualizar o aplicativo para aplicar as alterações feitas ao aplicativo e compartilhá-las.
-
-    ![Personalizar e compartilhar o aplicativo](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
+   Os dados de relatório serão atualizados automaticamente uma vez por dia, a menos que você tenha desabilitado isso durante o processo de entrada. Você também poderá [configurar sua agenda de atualização](./refresh-scheduled-refresh.md) para manter os dados do relatório atualizados, se assim desejar.
 
 ## <a name="customize-and-share-the-app"></a>Personalizar e compartilhar o aplicativo
 
-Depois de atualizar o navegador após a conexão com os dados e a atualização de dados, você verá o workspace associado ao aplicativo. Neste ponto, você pode editar qualquer um dos artefatos ali exatamente como faria em qualquer workspace. No entanto, todas as alterações feitas serão substituídas quando você atualizar o aplicativo com uma nova versão, a menos que você salve os itens alterados com nomes diferentes. [Veja detalhes sobre a substituição](#overwrite-behavior).
+Depois que você tiver se conectado aos seus dados e a atualização de dados estiver concluída, você poderá personalizar qualquer um dos relatórios e dashboards incluídos pelos aplicativos, bem como compartilhar o aplicativo com seus colegas. No entanto, todas as alterações feitas serão substituídas quando você atualizar o aplicativo com uma nova versão, a menos que você salve os itens alterados com nomes diferentes. [Veja detalhes sobre a substituição](#overwrite-behavior).
+
+Para personalizar e compartilhar seu aplicativo, selecione o ícone de lápis no canto superior direito da página.
+
+![Editar o aplicativo](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
 
 Para obter informações sobre como editar artefatos no workspace, confira
 * [Visão geral do editor de relatório no Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
@@ -132,4 +141,4 @@ Se você originalmente baixou o aplicativo do AppSource, quando uma nova versão
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[Criar workspaces com seus colegas no Power BI](../collaborate-share/service-create-workspaces.md)
+[Criar workspaces com seus colegas no Power BI](../collaborate-share/service-create-the-new-workspaces.md)

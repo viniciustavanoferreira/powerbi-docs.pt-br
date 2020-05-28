@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 09b2f8afd78eda244a6862459a85558efa0fa1c2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129252"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564485"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B
 
@@ -130,7 +130,7 @@ Para ajudar os convidados autorizados a entrar no Power BI, forneça a eles a UR
 * Algumas experiências não estão disponíveis para [usuários convidados que podem editar e gerenciar conteúdo na organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Para atualizar ou publicar relatórios, eles precisarão usar a interface do usuário da Web do serviço do Power BI, incluindo Obter Dados para carregar arquivos do Power BI Desktop.  Não há suporte para as seguintes experiências:
     * Publicação direta do Power BI Desktop para o serviço do Power BI
     * Os usuários convidados não podem usar o Power BI Desktop para se conectar a conjuntos de dados de serviço no serviço do Power BI
-    * Workspaces clássicos associados a Grupos do Office 365:
+    * Workspaces clássicos associados a Grupos do Microsoft 365:
         * O usuário convidado não pode criar nem ser administrador desses workspaces
         * Os usuários convidados podem ser membros
     * O envio de convites ad hoc para listas de acesso do workspace não é uma ação compatível

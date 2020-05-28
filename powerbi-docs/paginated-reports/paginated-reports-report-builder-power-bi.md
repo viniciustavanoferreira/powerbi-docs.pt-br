@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144743"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565496"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são os relatórios paginados no Power BI Premium?
 
@@ -76,7 +76,7 @@ Aqui estão alguns outros recursos que não têm suporte na versão inicial:
 
 - Fixar páginas de relatório ou visuais em painéis do Power BI. Você ainda pode fixar visualizações a um painel do Power BI de um relatório paginado local em um Servidor de Relatórios do Microsoft Power BI ou em um Servidor de Relatórios do Reporting Services. Confira [Fixar itens do Reporting Services em painéis do Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) para obter mais informações.
 - Mapas do Documento.
-- Sub-relatórios e relatórios detalhados.  No entanto, você pode considerar o uso de parâmetros de URL com relatórios paginados para chegar aos cenários de detalhamento.
+- Relatórios de detalhamento.  Considere o uso de parâmetros de URL com relatórios paginados para cenários de detalhamento.
 - Fontes de dados compartilhadas e conjuntos de dados compartilhados.
 
  
@@ -85,4 +85,4 @@ Aqui estão alguns outros recursos que não têm suporte na versão inicial:
 - [Instale o Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Tutorial: Criar um relatório paginado](paginated-reports-quickstart-aw.md)
 - [Inserir dados diretamente em um relatório paginado](paginated-reports-enter-data.md)
-- [Tutorial: Inserir relatórios paginados do Power BI em um aplicativo para seus clientes](../developer/embed-paginated-reports-customers.md)
+- [Tutorial: Inserir relatórios paginados do Power BI em um aplicativo para seus clientes](../developer/embedded/embed-paginated-reports-customers.md)

@@ -5,18 +5,20 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/25/2020
+ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1be2d3db9dbf341def86c087344ef7a32cd006a0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337709"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693396"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Conectar-se ao GitHub com o Power BI
 Este artigo explica como extrair seus dados da sua conta do GitHub com um aplicativo de modelo do Power BI. O aplicativo de modelo gera um workspace com um dashboard, um conjunto de relatórios e um conjunto de dados para permitir que você explore seus dados do GitHub. O aplicativo do GitHub para o Power BI mostra insights de seu repositório do GitHub, também conhecido como repositório, contendo dados sobre contribuições, problemas, solicitações pull e usuários ativos.
+
+![Aplicativo de modelo do GitHub](media/service-connect-to-github/service-github-app-report.png)
 
 Depois de instalar o aplicativo de modelo, você pode alterar o dashboard e o relatório. Em seguida, pode distribuí-lo como um aplicativo para os colegas de sua organização.
 
@@ -27,55 +29,69 @@ Você também pode experimentar o [tutorial do GitHub](service-tutorial-connect-
 >[!NOTE]
 >Este aplicativo de modelo exige que a conta do GitHub tenha acesso ao repositório. Mais detalhes sobre os requisitos abaixo.
 >
->Este aplicativo de modelo não dá suporte ao GitHub Enterprise. 
+>Este aplicativo de modelo não dá suporte ao GitHub Enterprise.
 
-## <a name="how-to-connect"></a>Como se conectar
-[!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
-   
-3. Selecione **GitHub** \> **Obter agora**.
-4. Em **Instalar este aplicativo do Power BI?** selecione **Instalar**.
-4. No painel **Aplicativos**, selecione o bloco **GitHub**.
+## <a name="install-the-app"></a>Instalar o aplicativo
 
-    ![Bloco do GitHub do Power BI](media/service-connect-to-github/power-bi-github-tile.png)
+1. Clique no seguinte link para acessar o aplicativo: [Aplicativo de modelo do GitHub](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-6. Em **Introdução a seu novo aplicativo**, selecione **Conectar**.
+1. Na página do aplicativo no AppSource, selecione [**OBTER AGORA**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github).
 
-    ![Introdução ao novo aplicativo](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
+    [![Aplicativo de modelo do GitHub no AppSource](media/service-connect-to-github/service-github-template-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-5. Digite o nome do repositório e também o seu proprietário. Veja detalhes sobre [como encontrar esses parâmetros](#FindingParams) abaixo.
-   
-    ![Nome do repositório do GitHub do Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
+1. Selecione **Instalar**. 
 
-5. Insira suas credenciais do GitHub (essa etapa poderá ser ignorada se você já tiver entrado com seu navegador). 
-6. Para o **Método de Autenticação**, selecione **oAuth2** \> **Entrar**. 
-7. Siga as telas de autenticação do GitHub. Conceda ao aplicativo de modelo do GitHub para o Power BI permissão de acesso aos dados do GitHub.
-   
-   ![Autorizar GitHub do Power BI](media/service-connect-to-github/github_authorize.png)
-   
-    O Power BI se conecta ao GitHub e aos seus dados.  Os dados são atualizados uma vez por dia. Depois que o Power BI importa os dados, você vê os conteúdos de seu novo workspace do GitHub.
+    ![Instale o aplicativo de modelo do GitHub](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
 
-## <a name="modify-and-distribute-your-app"></a>Modificar e distribuir seu aplicativo
+    Depois que o aplicativo for instalado, você o verá na página Aplicativos.
 
-Você instalou o aplicativo de modelo do GitHub. Isso significa que você também criou o workspace do GitHub. No workspace, você pode alterar o relatório e o dashboard e, em seguida, distribuí-lo como um *aplicativo* para os colegas em sua organização. 
+   ![Aplicativo do GitHub na página Aplicativos](media/service-connect-to-github/service-github-app-apps-page-icon.png)
 
-1. Selecione a seta ao lado do nome do workspace no painel de navegação. Você vê que o workspace contém um dashboard e um relatório.
+## <a name="connect-to-data-sources"></a>Conectar-se às fontes de dados
 
-    ![Aplicativo no painel de navegação](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+1. Selecione o ícone da página Aplicativos para abrir o aplicativo.
 
-8. Selecione o novo [dashboard do GitHub](https://powerbi.microsoft.com/integrations/github).    
-    ![Dashboard do GitHub no Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
+1. Na tela inicial, selecione **Explorar aplicativo**.
 
-3. Para exibir todo o conteúdo do seu novo workspace do GitHub, no painel de navegação, selecione **Workspaces** > **GitHub**.
- 
-   ![Workspace do GitHub no painel de navegação](media/service-connect-to-github/power-bi-github-left-nav.png)
+   ![Tela inicial do aplicativo de modelo](media/service-connect-to-github/service-github-app-splash-screen.png)
 
-    Esta exibição é a lista de conteúdo do workspace. No canto superior direito, você verá **Atualizar aplicativo**. Quando você estiver pronto para distribuir seu aplicativo para seus colegas, é aí que você começará. 
+   O aplicativo é aberto, mostrando os dados de exemplo.
 
-    ![Lista de conteúdo do GitHub](media/service-connect-to-github/power-bi-github-content-list.png)
+1. Selecione o link **Conectar seus dados** na barra de notificação na parte superior da página.
 
-2. Selecione **Relatórios** e **Conjunto de dados** para ver os outros elementos no workspace.
+   ![Aplicativo GitHub conectar o link de dados](media/service-connect-to-github/service-github-app-connect-data.png)
 
-    Leia sobre [como distribuir aplicativos](../collaborate-share/service-create-distribute-apps.md) para seus colegas.
+1. Na caixa de diálogo, que aparece, insira o nome do repositório e também o seu proprietário. Veja detalhes sobre [como encontrar esses parâmetros](#FindingParams) abaixo. Quando terminar, clique em **Avançar**.
+
+   ![Nome do repositório do GitHub do Power BI](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+
+1. Na próxima caixa de diálogo exibida, defina o método de autenticação como **OAuth2**. Você não precisará fazer nada na configuração de privacidade. Quando estiver pronto, clique em **Entrar**.
+
+   ![Método de autenticação GitHub do Power BI](media/service-connect-to-github/power-bi-github-authentication.png)
+
+1. Insira suas credenciais do GitHub e siga o processo de autenticação GitHub (essa etapa poderá ser ignorada se você já tiver entrado com seu navegador).
+
+   ![Processo de autenticação GitHub do Power BI](media/service-connect-to-github/power-bi-github-authenticate-process.png)
+
+
+Depois que você se conectar, o relatório se conectará às fontes de dados e será preenchido com os dados atualizados. Durante esse período, o monitor de atividade é ativado.
+
+![Atualização do aplicativo GitHub do Power BI em andamento](media/service-connect-to-github/service-github-app-refresh-monitor.png)
+
+Os dados de relatório serão atualizados automaticamente uma vez por dia, a menos que você tenha desabilitado isso durante o processo de entrada. Você também poderá [configurar sua agenda de atualização](./refresh-scheduled-refresh.md) para manter os dados do relatório atualizados, se assim desejar.
+
+## <a name="customize-and-share"></a>Personalizar e compartilhar
+
+Para personalizar e compartilhar seu aplicativo, selecione o ícone de lápis no canto superior direito da página.
+
+![Editar o aplicativo](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
+
+Para obter informações sobre como editar artefatos no workspace, confira
+* [Visão geral do editor de relatório no Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
+* [Conceitos básicos para designers no serviço do Power BI](../fundamentals/service-basic-concepts.md)
+
+Quando terminar de fazer as alterações desejadas nos artefatos no workspace, você estará pronto para publicar e compartilhar o aplicativo. Confira [Publicar seu aplicativo](../collaborate-share/service-create-distribute-apps.md#publish-your-app) para saber como fazer isso.
 
 ## <a name="whats-included-in-the-app"></a>O que está incluído no aplicativo
 Os dados a seguir estão disponíveis no GitHub no Power BI:     
@@ -83,10 +99,10 @@ Os dados a seguir estão disponíveis no GitHub no Power BI:
 | Nome da tabela | Descrição |
 | --- | --- |
 | Contribuições |A tabela de contribuições apresenta o total de adições, exclusões e confirmações criadas pelo colaborador agregadas por semana. Os 100 principais colaboradores são incluídos. |
-| Questões |Lista todos os problemas do repositório selecionado e contém cálculos como os tempos total e médio para encerramento de um problema, Total de problemas em aberto e Total de problemas encerrados. Esta tabela estará vazia quando não houver nenhum problema no repositório. |
+| Problemas |Lista todos os problemas do repositório selecionado e contém cálculos como os tempos total e médio para encerramento de um problema, Total de problemas em aberto e Total de problemas encerrados. Esta tabela estará vazia quando não houver nenhum problema no repositório. |
 | Solicitações pull |Esta tabela contém todas as Solicitações Pull para o repositório e quem realizou a solicitação. Ela também contém cálculos de quantas solicitações pull abertas, fechadas e totais existem, quanto tempo demorou para efetuar o pull das solicitações e quanto tempo levou cada solicitação pull em média. Esta tabela estará vazia quando não houver nenhum problema no repositório. |
 | Usuários |Esta tabela fornece uma lista de colaboradores ou usuários do GitHub que fizeram contribuições, arquivaram problemas ou resolveram Solicitações pull para o repositório selecionado. |
-| Etapas |Contém todas as Etapas para o repositório selecionado. |
+| Marcos |Contém todas as Etapas para o repositório selecionado. |
 | DateTable |Esta tabela contém datas do presente e de anos no passado, que permitem a você analisar seus dados GitHub por data. |
 | ContributionPunchCard |Essa tabela pode ser usada como um cartão perfurado de colaborações para o repositório selecionado. Ele mostra as confirmações por dia da semana e horas do dia. Esta tabela não está conectada a outras tabelas presentes no modelo. |
 | RepoDetails |Esta tabela fornece detalhes sobre o repositório selecionado. |
@@ -124,4 +140,4 @@ Se necessário, é possível verificar suas credenciais do GitHub.
 * [Criar novos workspaces no Power BI](../collaborate-share/service-create-the-new-workspaces.md)
 * [Instalar e usar aplicativos no Power BI](../consumer/end-user-apps.md)
 * [Conectar-se a aplicativos do Power BI para serviços externos](service-connect-to-services.md)
-* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Perguntas? [Experimente perguntar para a Comunidade do Power BI](https://community.powerbi.com/)

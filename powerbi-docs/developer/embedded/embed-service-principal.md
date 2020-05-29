@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275951"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121201"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Conteúdo inserido do Power BI com a entidade de serviço e o segredo do aplicativo
 
@@ -188,7 +188,6 @@ Depois de inserir o conteúdo, você estará pronto para [passar para a produç�
 * É necessária capacidade dedicada ao passar para produção.
 * Você não pode entrar no portal do Power BI usando a entidade de serviço.
 * Direitos de administrador do Power BI são necessários para habilitar a entidade de serviço nas configurações do desenvolvedor no portal do administrador do Power BI.
-* Você não pode instalar nem gerenciar um gateway de dados local usando a entidade de serviço.
 * Os aplicativos [inseridos para sua organização](embed-sample-for-your-organization.md) não podem usar a entidade de serviço.
 * Não há suporte para gerenciamento de [fluxos de dados](../../transform-model/service-dataflows-overview.md).
 * No momento, a entidade de serviço não dá suporte a nenhuma API de administrador.

@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/28/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273007"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813590"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportar os dados que foram usados para criar uma visualização
 
@@ -30,7 +30,7 @@ Se você tiver permissões para os dados, poderá ver e exportar os dados que o 
 
 ## <a name="viewing-and-exporting-data"></a>Como exibir e exportar dados
 
-Se desejar ver os dados usados pelo Power BI para criar uma visualização, [poderá exibi-los no Power BI](service-reports-show-data.md). Você também pode exportá-los para o Excel como um arquivo *.xlsx* ou *.csv*. A opção de exportação de dados requer uma licença Pro ou Premium, bem como permissões de edição para o conjunto de dados e o relatório. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
+Se desejar ver os dados usados pelo Power BI para criar uma visualização, [poderá exibi-los no Power BI](service-reports-show-data.md). Você também pode exportá-los para o Excel como um arquivo *.xlsx* ou *.csv*. A opção de exportação de dados requer uma licença Pro ou Premium, bem como permissões de edição para o conjunto de dados e o relatório. Se você tiver acesso ao dashboard ou relatório, mas os dados forem classificados como *altamente confidenciais*, o Power BI não permitirá que você os exporte.
 
 Assista a Will exportar os dados de uma das visualizações de seu relatório, salvá-los como um arquivo *.xlsx* e abri-lo no Excel. Em seguida, siga as instruções passo a passo abaixo do vídeo para testá-la por conta própria. Observe que este vídeo usa uma versão mais antiga do Power BI.
 
@@ -244,7 +244,7 @@ Essas considerações e limitações se aplicam ao Power BI Desktop e ao serviç
 
 - Quando o DirectQuery é usado, a quantidade máxima de dados que o Power BI pode exportar é 16 MB em dados descompactados. Um resultado não intencional pode ser a exportação de um número de linhas inferior ao máximo de 150 mil. É provável que isso aconteça se:
 
-    - Houver muitas colunas.
+    - Houver demasiadas colunas. Tente reduzir o número de colunas e exportar novamente.
 
     - Houver dados difíceis de compactar.
 

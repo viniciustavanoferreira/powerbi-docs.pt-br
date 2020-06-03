@@ -1,22 +1,22 @@
 ---
-title: Introdução ao uso de conjuntos de dados entre workspaces (versão prévia)
+title: Introdução a conjuntos de dados entre workspaces
 description: Saiba como você pode compartilhar um conjunto de dados com usuários em toda a organização. Em seguida, eles podem criar relatórios com base no conjunto de dados em seus próprios workspaces.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fe0478a7fa570b4d88f4493c4b27fec083041ae
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0458498b5677f20bac3a2e50f884d820ef1c3648
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285453"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793621"
 ---
-# <a name="intro-to-datasets-across-workspaces-preview"></a>Introdução ao uso de conjuntos de dados entre workspaces (versão prévia)
+# <a name="intro-to-datasets-across-workspaces"></a>Introdução a conjuntos de dados entre workspaces
 
 Business intelligence é uma atividade colaborativa. É importante estabelecer conjuntos de dados padronizados que possam ser a 'única fonte de verdade'. Em seguida, descobrir e reutilizar esses conjuntos de dados padronizados é fundamental. Quando os modeladores de dados especialistas em sua organização criam e compartilham conjuntos de dados otimizados, os criadores de relatórios podem começar com esses conjuntos de dados para criar relatórios precisos. Em seguida, sua organização terá dados consistentes para tomar decisões e uma cultura de dados íntegra.
 
@@ -33,9 +33,9 @@ A criação de relatórios com base em conjuntos de dados em diferentes workspac
 - No Power BI Desktop, você pode publicar relatórios do Live Connect em diferentes workspaces, desde que os conjuntos de dados estejam em workspaces da nova experiência.
 - Ao copiar relatórios em workspaces, o workspace de destino precisa ser um workspace da nova experiência.
 
-## <a name="discover-datasets-preview"></a>Descobrir conjuntos de dados (versão prévia)
+## <a name="discover-datasets"></a>Descobrir conjuntos de dados
 
-Ao criar um relatório com base em um conjunto de dados existente, a primeira etapa é se conectar ao conjunto de dados, no serviço do Power BI ou no Power BI Desktop. Leia mais sobre [como descobrir conjuntos de dados em diferentes workspaces (versão prévia)](service-datasets-discover-across-workspaces.md)
+Ao criar um relatório com base em um conjunto de dados existente, a primeira etapa é se conectar ao conjunto de dados, no serviço do Power BI ou no Power BI Desktop. Leia mais sobre [como descobrir conjuntos de dados em diferentes workspaces](service-datasets-discover-across-workspaces.md)
 
 ## <a name="copy-a-report"></a>Copiar um relatório
 

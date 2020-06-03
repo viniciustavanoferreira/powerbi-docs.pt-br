@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 73aade0ee10fe47ff669ccd6bd8c8ab0482f1f78
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274479"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121016"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Atualização incremental no Power BI
 
@@ -172,13 +172,9 @@ O [ponto de extremidade XMLA](service-premium-connect-tools.md) para conjuntos d
 
 ### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>Gerenciamento de atualizações com o SSMS (SQL Server Management Studio)
 
-Com o ponto de extremidade XMLA habilitado para leitura/gravação, o SSMS pode ser usado para exibir e gerenciar partições geradas pelo aplicativo de políticas de atualização incremental.
+Com o ponto de extremidade XMLA habilitado para leitura/gravação, o SSMS pode ser usado para exibir e gerenciar partições geradas pelo aplicativo de políticas de atualização incremental. Isso permite, por exemplo, atualizar uma partição histórica específica que não esteja no intervalo incremental de modo a executar uma atualização retroativa sem precisar atualizar todos os dados. Você também pode usar o SSMS para carregar os dados históricos em conjuntos muito grandes, adicionando/atualizando de forma incremental as partições históricas em lotes.
 
 ![Partições no SSMS](media/service-premium-incremental-refresh/ssms-partitions.png)
-
-#### <a name="refresh-historical-partitions"></a>Atualizar partições históricas
-
-Isso permite, por exemplo, atualizar uma partição histórica específica que não esteja no intervalo incremental de modo a executar uma atualização retroativa sem precisar atualizar todos os dados.
 
 #### <a name="override-incremental-refresh-behavior"></a>Substituir comportamento de atualização incremental
 

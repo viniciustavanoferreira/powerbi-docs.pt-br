@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324714"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119934"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Agrupar visuais nos relatórios do Power BI Desktop
 Com o **agrupamento** no **Power BI Desktop**, você pode agrupar visuais em seu relatório, como botões, caixas de texto, imagens de forma e qualquer visual que você criar, assim como você agrupa itens no PowerPoint. O agrupamento de visuais em um relatório permite que você trate o grupo como um único objeto, de modo que mover, redimensionar e trabalhar com camadas em seu relatório se torna mais fácil, mais rápido e mais intuitivo.
@@ -33,6 +33,8 @@ Os grupos são exibidos no painel **Seleção**. Você pode ter quantos grupos d
 ![aninhando grupos](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
 Dentro do painel **Seleção**, você também pode arrastar e soltar visuais individuais para incluí-los em um grupo, removê-los de um grupo, aninhar um grupo ou remover um grupo ou visual individual de um aninhamento. Basta arrastar o visual que você deseja ajustar e colocá-lo onde desejar. A disposição dos visuais em camada, se houver sobreposição, é determinada pela ordem na lista *Ordem das camadas*.
+
+É fácil renomear um grupo: basta clicar duas vezes no nome do grupo no painel **Seleção** e, em seguida, digitar o novo nome do grupo.
 
 ![arrastar e soltar grupos](media/desktop-grouping-visuals/grouping-visuals-04.png)
 

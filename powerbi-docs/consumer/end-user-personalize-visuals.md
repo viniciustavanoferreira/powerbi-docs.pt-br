@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83f040fd021a3d3e1cd6ce344c84051c7ff58bb0
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 9599d9b96b98feed4a8751c6bd028ca8b3f77ed3
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83383147"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793580"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Personalizar visuais em um relatório
 
@@ -117,7 +117,7 @@ Atualmente, o recurso tem algumas limitações a serem consideradas.
 
 - **Personalizar este visual** pode ser desativado para um relatório inteiro ou para um visual específico. Se você não tiver uma opção para personalizar um visual, verifique com seu administrador de locatários ou com o proprietário do relatório. Para exibir as informações de contato do proprietário do relatório, selecione o nome do relatório na barra de menus do Power BI.
 - As explorações de usuário não persistem automaticamente. Você precisa salvar sua exibição como um indicador pessoal para capturar suas alterações.
-- Você não pode alterar visuais enquanto estiver nos aplicativos móveis do Power BI. No entanto, todas as alterações visuais salvas em um indicador pessoal no serviço do Power BI são respeitadas nos aplicativos móveis.
+- Esse recurso tem suporte nos aplicativos móveis do Power BI para tablets Android e iOS, e no aplicativo Power BI Windows. Não tem suporte nos aplicativos móveis do Power BI para telefones. No entanto, todas as alterações em um visual salvas em um indicador pessoal no serviço do Power BI são respeitadas em todos os aplicativos móveis do Power BI.
 
 Há também alguns problemas conhecidos que estamos abordando:
 

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: 67a9725e55f82e325466789064f5738222919ac8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114717"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794103"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Criar um locatário do Azure Active Directory para usar com o Power BI
 
 Saiba como criar um novo locatário do Azure AD (Azure Active Directory) para um aplicativo personalizado que chama [APIs REST do Power BI](../automation/rest-api-reference.md).
 
-Um locatário representa uma organização no Azure Active Directory. Ele é uma instância de serviço dedicada do Azure AD que uma organização recebe e detém quando se inscreve em um serviço de nuvem da Microsoft, como o Azure, Microsoft Intune ou Office 365. Cada locatário do Azure AD é diferente e separado de outros locatários do Azure AD.
+Um locatário representa uma organização no Azure Active Directory. Ele é uma instância de serviço dedicada do Azure AD que uma organização recebe e detém quando se inscreve em um serviço de nuvem da Microsoft, como o Azure, Microsoft Intune ou Microsoft 365. Cada locatário do Azure AD é diferente e separado de outros locatários do Azure AD.
 
 Quando você tiver um locatário do Azure AD, será possível definir um aplicativo e atribuir permissões para ele usar para chamar [APIs REST do Power BI](../automation/rest-api-reference.md).
 
@@ -27,7 +27,7 @@ Sua organização talvez já tenha um locatário do Azure AD que você pode usar
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Crie um locatário do Azure Active Directory
 
-Para integrar o Power BI em seu aplicativo personalizado, é necessário definir um aplicativo no Azure AD, o que exige um diretório do Azure AD. Esse diretório é o *locatário*. Caso sua organização ainda não tenha um locatário, porque não usa o Power BI nem o Office 365, [será necessário configurar um ambiente de desenvolvimento](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Também é necessário criar um locatário se você não quer que seu aplicativo se misture com o locatário da sua organização, permitindo manter as coisas isoladas. Ou talvez você apenas deseje criar um locatário para fins de testes.
+Para integrar o Power BI em seu aplicativo personalizado, é necessário definir um aplicativo no Azure AD, o que exige um diretório do Azure AD. Esse diretório é o *locatário*. Caso sua organização ainda não tenha um locatário, porque não usa o Power BI nem o Microsoft 365, [será necessário configurar um ambiente de desenvolvimento](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Também é necessário criar um locatário se você não quer que seu aplicativo se misture com o locatário da sua organização, permitindo manter as coisas isoladas. Ou talvez você apenas deseje criar um locatário para fins de testes.
 
 Para criar um novo locatário do Azure AD:
 

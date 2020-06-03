@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/12/2020
+ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1a6cf5cad4fe4b76d44dcfaecd81324003687b10
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407876"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120940"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Automatizar tarefas de conjunto de dados e workspace Premium com entidades de serviço
 
@@ -29,7 +29,7 @@ No **Power BI Premium**, as entidades de serviço também podem ser usadas com o
 - Aplicativos Lógicos do Azure
 - Aplicativos cliente personalizados
 
-As entidades de serviço só podem ser usadas com o ponto de extremidade XMLA contra [Novos workspaces](../collaborate-share/service-new-workspaces.md). Os workspaces clássicos não são compatíveis. Uma entidade de serviço tem apenas as permissões necessárias para executar tarefas para workspaces aos quais ela é atribuída. As permissões são atribuídas por meio do acesso ao workspace, assim como contas UPN regulares.
+Somente [novos workspaces](../collaborate-share/service-new-workspaces.md) dão suporte a conexões de ponto de extremidade XMLA usando entidades de serviço. Os workspaces clássicos não são compatíveis. Uma entidade de serviço tem apenas as permissões necessárias para executar tarefas para workspaces aos quais ela é atribuída. As permissões são atribuídas por meio do acesso ao workspace, assim como contas UPN regulares.
 
 Para executar operações de gravação, a **Carga de trabalho de conjuntos de dados** da capacidade precisa ter o [ponto de extremidade XMLA habilitado para leitura/gravação](service-premium-connect-tools.md#enable-xmla-read-write). Os conjuntos de dados publicados do Power BI Desktop devem ter o recurso de [Formato avançado de metadados](../connect-data/desktop-enhanced-dataset-metadata.md) habilitado.
 
@@ -91,7 +91,7 @@ $PWord = ConvertTo-SecureString -String $AppSecret -AsPlainText -Force
 
 $Credential = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $AppId, $PWord
 
-Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -Database "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
+Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -DatabaseName "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
 ```
 
 ### <a name="amo-and-adomd"></a>AMO e ADOMD

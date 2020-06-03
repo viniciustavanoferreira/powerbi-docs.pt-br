@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1cd90c4348c33726cdf171f4948b617498c63a1f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3fcf15d7179c86b2c6859fe3c5704ac2cf1b9ce5
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348035"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733061"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Compartilhar um dashboard do Power BI que vincula-se a um arquivo do Excel no OneDrive
 No Power BI, você pode [se conectar a pastas de trabalho do Excel no OneDrive for Business](../connect-data/service-excel-workbook-files.md) e fixar blocos em um dashboard por meio da pasta de trabalho. Quando você compartilha esse painel ou cria um pacote de conteúdo que o inclui:
@@ -49,7 +49,7 @@ Ao [publicar um pacote de conteúdo](service-organizational-content-pack-create-
 5. Selecione **Publicar**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Compartilhar um dashboard de um workspace do Power BI
-O compartilhamento de um dashboard de um workspace do Power BI é semelhante ao compartilhamento de um dashboard de seu próprio workspace, com a exceção de que os arquivos estão localizados em um site de workspace do Office 365, em vez de seu OneDrive para Empresas privado. Modifique as permissões da pasta de trabalho do Excel antes de compartilhar o dashboard com pessoas fora do workspace.
+O compartilhamento de um dashboard de um workspace do Power BI é semelhante ao compartilhamento de um dashboard de seu workspace, com a exceção de que os arquivos estão localizados em um site de workspace do Microsoft 365, em vez de estarem em seu OneDrive for Business privado. Modifique as permissões da pasta de trabalho do Excel antes de compartilhar o dashboard com pessoas fora do workspace.
 
 ![Compartilhar do OneDrive](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 

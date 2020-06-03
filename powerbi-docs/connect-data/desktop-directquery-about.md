@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563277"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120569"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Sobre o uso do DirectQuery no Power BI
 
@@ -184,7 +184,7 @@ Cada interação do usuário no relatório pode resultar na atualização de vis
 
 Da mesma forma, a edição de um novo relatório exige o envio de consultas para cada etapa no caminho para produzir o visual final.
 
-Ocorre o cache dos resultados. A atualização de um visual é instantânea se exatamente os mesmos resultados foram obtidos recentemente. Se a Segurança em Nível de Linha não estiver definida, esses caches não serão compartilhados entre os usuários.
+Ocorre o cache dos resultados. A atualização de um visual é instantânea se exatamente os mesmos resultados foram obtidos recentemente. Se a segurança em nível de linha não estiver definida, esses caches não serão compartilhados entre os usuários.
 
 #### <a name="dashboard-refresh"></a>Atualização do dashboard
 
@@ -381,7 +381,7 @@ Para abrir o arquivo de rastreamento, execute as seguintes etapas:
 
 1. No SQL Server Profiler, selecione **Arquivo** > **Abrir** > **Arquivo de rastreamento**.
 
-1. Insira o caminho até o arquivo de rastreamento da sessão atualmente aberta do Power BI, como abaixo: *C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
+1. Insira o caminho até o arquivo de rastreamento da sessão atualmente aberta do Power BI, como abaixo: *C:\Usuários\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
 
 1. Abra *FlightRecorderCurrent.trc*.
 

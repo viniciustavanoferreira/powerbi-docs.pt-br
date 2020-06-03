@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f001c91c89b18b43c953669272b4d5be37dd154
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2701765ce9d9a059016265049ddecf444a0640ea
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135549"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792955"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrar sua organização do Governo dos EUA no serviço do Power BI
 
-Há uma versão do serviço do Power BI como parte dos [planos do Office 365 Government](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1). Este artigo foi desenvolvido para clientes do Governo dos EUA, e o processo de registro descrito aqui é diferente da versão comercial do serviço do Power BI.
+Há uma versão do serviço do Power BI como parte dos [planos do Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1). Este artigo foi desenvolvido para clientes do Governo dos EUA, e o processo de registro descrito aqui é diferente da versão comercial do serviço do Power BI.
 
 Para obter mais informações sobre o serviço do Power BI para o Governo dos Estados Unidos, confira [Power BI para clientes do Governo dos Estados Unidos – visão geral](service-govus-overview.md).
 
@@ -29,19 +29,19 @@ Para obter mais informações sobre o serviço do Power BI para o Governo dos Es
 
 ## <a name="select-the-right-sign-up-process-for-your-us-government-organization"></a>Selecione o processo de inscrição certo para a sua organização do Governo dos EUA
 
-Sua organização do Governo dos EUA pode ser nova na comunidade de nuvem do governo ou talvez já tenha uma assinatura. As seções a seguir detalham as etapas de inscrição com base no seu estágio atual com os planos do Office 365 Government e o Power BI. Dependendo do seu registro atual, as etapas são diferentes.
+Sua organização do Governo dos EUA pode ser nova na comunidade de nuvem do governo ou talvez já tenha uma assinatura. As seções a seguir detalham as etapas de inscrição com base no seu estágio atual com os planos do Microsoft 365 Government e o Power BI. Dependendo do seu registro atual, as etapas são diferentes.
 
 Depois de se inscrever para o Power BI for US Government, trabalhe com sua equipe de contas para iniciar o [processo de *inclusão em lista de permissões*](#additional-signup-information) descrito neste artigo. Essa etapa é necessária para habilitar totalmente sua organização na nuvem da comunidade governamental.
 
-## <a name="sign-up-for-a-new-office-365-government-plan"></a>Inscreva-se em um novo plano do Office 365 Government
+## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>Inscrever-se em um novo plano do Microsoft 365 Government
 
-Se sua organização for nova na comunidade de nuvem governamental, siga estas etapas para obter um plano do Office 365 Government:
+Se a sua organização for nova na comunidade de nuvem governamental, siga estas etapas para obter um plano do Microsoft 365 Government:
 
 > [!NOTE]
 > Essas etapas devem ser realizadas pelo administrador global.
 >
 
-1. Acesse [Planos do Office 365 Government](https://products.office.com/government/office-365-web-services-for-government).
+1. Vá para [Planos do Microsoft 365 Government](https://products.office.com/government/office-365-web-services-for-government).
 2. Selecione **Começar a usar uma avaliação gratuita**.
 3. Preencha o formulário para nos contar sobre sua organização. Use a lista suspensa para selecionar o tipo da sua organização.
 
@@ -49,11 +49,11 @@ Se sua organização for nova na comunidade de nuvem governamental, siga estas e
 
 4. Envie o formulário para iniciar o processo de integração. Seu representante ou parceiro da Microsoft pode ajudar com eventuais perguntas.
 
-Depois que esse processo for concluído, siga as etapas para os clientes existentes do Office 365 Government adicionarem uma assinatura do Power BI.
+Depois que esse processo for concluído, siga as etapas para os clientes existentes do Microsoft 365 Government adicionarem uma assinatura do Power BI.
 
-## <a name="add-power-bi-to-an-office-365-government-plan"></a>Adicionar o Power BI a um plano do Office 365 Government
+## <a name="add-power-bi-to-a-microsoft-365-government-plan"></a>Adicionar o Power BI a um plano do Microsoft 365 Government
 
-Se sua organização já tiver um plano do Office 365 Government, siga estas etapas para adicionar uma assinatura do Power BI:
+Se a sua organização já tiver um plano do Microsoft 365 Government, siga estas etapas para adicionar uma assinatura do Power BI:
 
 > [!NOTE]
 > Essas etapas devem ser realizadas pelo administrador global.

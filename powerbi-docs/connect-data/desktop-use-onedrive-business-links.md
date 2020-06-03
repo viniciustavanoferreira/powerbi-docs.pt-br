@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 71acc85ecd74b2606d00c4e3b63b6f7532c9487c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564142"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120012"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Usar os links do OneDrive for Business no Power BI Desktop
 Muitas pessoas têm pastas de trabalho do Excel armazenadas no OneDrive for Business que seriam ótimas para uso com o Power BI Desktop. Com o Power BI Desktop, você pode usar links online para arquivos do Excel armazenados no OneDrive for Business para criar relatórios e visuais. Você pode usar uma conta de grupo do OneDrive for Business ou sua conta individual do OneDrive for Business.
@@ -26,11 +26,10 @@ Obter um link online do OneDrive for Business requer algumas etapas específicas
    
    > [!NOTE]
    > A interface do navegador pode não ser exatamente igual à imagem a seguir. Há várias maneiras de selecionar **Abrir no Excel** para arquivos em sua interface de navegador do OneDrive for Business. Você pode usar qualquer opção que permite abrir o arquivo no Excel.
-   > 
-   > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. No Excel, selecione **Arquivo** > **Informações** e, em seguida, selecione **Copiar caminho** acima de **Proteger a Pasta de Trabalho**.
+
+2. No Excel, selecione **Arquivo** > **Informações** e selecione o botão **Copiar caminho**, conforme mostrado na imagem a seguir.
    
    ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d70262908df5568066533d1b638c7a1495a3f30b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132052"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733222"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Proteção de dados no Power BI (versão prévia)
 
@@ -23,7 +23,7 @@ Empresas modernas têm regulamentações e requisitos de negócios restritivos s
 
 Com a proteção de dados para o Power BI, você pode fazer o seguinte:
 
-* Usar os rótulos de confidencialidade da Microsoft para classificar e rotular o conteúdo no serviço do Power BI (dashboards, relatórios, conjuntos de dados e fluxos de dados), usando a mesma taxonomia usada para classificar e proteger arquivos no Office 365. 
+* Usar os rótulos de confidencialidade da Microsoft para classificar e rotular o conteúdo no serviço do Power BI (dashboards, relatórios, conjuntos de dados e fluxos de dados), usando a mesma taxonomia usada para classificar e proteger arquivos no Microsoft 365.
 
 * Impor as configurações de proteção, como criptografia ou marcas d'água ao exportar dados do serviço do Power BI para arquivos aplicando o rótulo de confidencialidade e a proteção do conteúdo (Excel, PowerPoint e PDF). 
 
@@ -35,7 +35,7 @@ Com a proteção de dados para o Power BI, você pode fazer o seguinte:
 
 Os rótulos de confidencialidade são criados e gerenciados na [central de segurança do Microsoft 365](https://security.microsoft.com/) ou na [central de conformidade do Microsoft 365](https://compliance.microsoft.com/).
 
-Para acessar os rótulos de confidencialidade em qualquer uma dessas centrais, navegue para **Classificação > Rótulos de confidencialidade**. Esses rótulos de confidencialidade podem ser usados por vários serviços da Microsoft, como a Proteção de Informações do Azure, os aplicativos do Office e os serviços do Office 365.
+Para acessar os rótulos de confidencialidade em qualquer uma dessas centrais, navegue para **Classificação** > **Rótulos de confidencialidade**. Esses rótulos de confidencialidade podem ser usados por vários serviços da Microsoft, como a Proteção de Informações do Azure, os aplicativos do Office e os serviços do Microsoft 365.
 
 > [!IMPORTANT]
 > Os clientes da Proteção de Informações do Azure precisarão migrar os rótulos para um dos serviços listados anteriormente para que eles sejam usados no Power BI. Além disso, os rótulos de confidencialidade têm suporte apenas em nuvens públicas e não têm suporte para locatários em nuvens, como em nuvens soberanas.

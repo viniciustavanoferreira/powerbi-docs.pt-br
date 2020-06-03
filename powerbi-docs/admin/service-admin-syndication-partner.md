@@ -1,6 +1,6 @@
 ---
 title: Não é possível adicionar o Power BI ao parceiro do O365
-description: Não é possível adicionar o Power BI a um parceiro de sindicalização do Office 365. O modelo de sindicalização é um modelo de compra usado pelo Office 365.
+description: Não é possível adicionar o Power BI a um parceiro de sindicalização do Microsoft 365. O modelo de sindicalização é um modelo de compra usado pelo Microsoft 365.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5907f23bb5bf1bcdc5a4ca3412e5331a09d145c9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344930"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812325"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Não é possível adicionar o Power BI a uma assinatura de parceiro do Office 365
 
-O Office 365 permite que as empresas o revendam acompanhado e integrado às suas próprias soluções, fornecendo aos clientes finais um único ponto de contato para compra, cobrança e suporte.
+O Microsoft 365 permite que as empresas o revendam integrado às soluções delas, fornecendo aos clientes finais um único ponto de contato para compra, cobrança e suporte.
 
 Se estiver interessado em adquirir o Power BI, juntamente com sua assinatura do Office 365, recomendamos que entre em contato com seu parceiro. Se o seu parceiro não oferecer o Power BI, há opções diferentes que você pode considerar.
 
@@ -52,13 +52,13 @@ Inscreva-se para uma avaliação gratuita do Power BI. Se você não comprar o P
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Habilitar assinaturas ad-hoc
 
-Por padrão, inscrições individuais (também conhecidas como assinaturas ad hoc) estão desabilitadas. Nesse caso, você verá a seguinte mensagem quando tentar se inscrever: *Seu departamento de TI desativou a inscrição para o Microsoft Power BI*.
+Por padrão, inscrições individuais (também conhecidas como assinaturas ad hoc) estão desabilitadas. Nesse caso, você vê a seguinte mensagem quando tentar se inscrever: *O departamento de TI desativou a inscrição no Microsoft Power BI*.
 
 ![Imagem de "sinto muito"](media/service-admin-syndication-partner/sorry.png)
 
 Para habilitar assinaturas ad hoc, entre em contato com seu parceiro solicitando a ativação delas. Se você for um administrador de seu locatário e souber como usar comandos do PowerShell no Azure Active Directory, poderá habilitar assinaturas ad hoc por conta própria. [Azure Active Directory PowerShell para Graph](/powershell/azure/active-directory/install-adv2/)
 
-1. Entre no Azure Active Directory usando suas credenciais do Office 365. A primeira linha do script abaixo solicita suas credenciais. Na segunda linha, você será conectado ao Azure Active Directory.
+1. Entre no Azure Active Directory usando suas credenciais do Microsoft 365. A primeira linha do script abaixo solicita suas credenciais. Na segunda linha, você será conectado ao Azure Active Directory.
 
     ```powershell
     $msolcred = get-credential

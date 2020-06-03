@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 119571e49b69ad6e3c6cfa0a7d3758912ebec0dc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348104"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733544"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Compartilhe os painéis e os relatórios do Power BI com colegas e outras pessoas
 O *compartilhamento* é uma boa maneira de conceder acesso a algumas pessoas aos dashboards e relatórios. O Power BI também oferece [várias outras maneiras para colaborar e distribuir painéis e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -127,7 +127,7 @@ Coisas para se lembrar a respeito do compartilhamento de painéis e relatórios:
 * Todas as pessoas com quem você compartilha o dashboard podem vê-lo e interagir com os relatórios relacionados no [Modo de Exibição de Leitura](../consumer/end-user-reading-view.md#reading-view). Em geral, elas não podem criar relatórios nem salvar alterações nos relatórios existentes. No entanto, se você selecionar **Permitir que os usuários criem conteúdo usando os conjuntos de dados subjacentes**, eles poderão criar os próprios relatórios em outros workspaces com base no conjunto de dados para o dashboard ou o relatório.
 * Ninguém pode ver nem baixar o conjunto de dados, mas é possível acessá-lo diretamente usando o recurso Analisar no Excel. Um administrador pode restringir a capacidade de usar o Analisar no Excel de todos em um grupo. No entanto, a restrição é para todos nesse grupo e para cada workspace ao qual ele pertence.
 * Qualquer pessoa pode [atualizar os dados](../connect-data/refresh-data.md) manualmente.
-* Se você usar o Office 365 para email, poderá compartilhar com os membros de um grupo de distribuição inserindo o endereço de email associado ao grupo de distribuição.
+* Se usar o Microsoft 365 para email, você poderá compartilhar com os membros de um grupo de distribuição inserindo o endereço de email associado a esse grupo.
 * Os colegas de trabalho que têm o mesmo domínio de email que você e os colegas cujos domínios são diferentes, mas estão registrados no mesmo locatário, podem compartilhar o dashboard com outras pessoas. Por exemplo, digamos que os domínios contoso.com e contoso2.com estejam registrados no mesmo locatário e seu endereço de email é konrads@contoso.com. ravali@contoso.com e gustav@contoso2.com podem compartilhar seu dashboard, contanto que você dê a eles permissões para compartilhar.
 * Se seus colegas de trabalho já tiverem acesso a um dashboard ou relatório específico, você poderá enviar um link direto copiando a URL quando estiver no dashboard ou relatório. Por exemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`.
 * Da mesma forma, se seus colegas de trabalho já tiverem acesso a um dashboard específico, você poderá [enviar um link direto para o relatório subjacente](service-share-reports.md). 

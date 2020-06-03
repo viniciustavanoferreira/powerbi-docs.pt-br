@@ -7,47 +7,53 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 753458b4db621fff5a4bba4aebb96543284013ff
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd919c622ecb1e7906a8e352936c6b4d549ca691
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114110"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812739"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Entrar no serviço do Power BI
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 ## <a name="power-bi-accounts"></a>Contas do Power BI
-Antes de poder entrar no Power BI, você precisará de uma conta. Há duas maneiras de obter a conta do Power BI. A primeira é quando sua empresa compra de licenças do Power BI para seus funcionários. E a segunda é quando indivíduos se inscrevem gratuitamente para licenças pessoais ou avaliações gratuitas. Este artigo aborda o primeiro cenário.
+Antes de poder entrar no Power BI, você precisará de uma conta. Há duas maneiras de obter a conta do Power BI. A primeira é quando sua organização compra licenças do Power BI para seus funcionários. E a segunda é quando [indivíduos se inscrevem para licenças pessoais ou avaliações gratuitas](../fundamentals/service-self-service-signup-for-power-bi.md). Este artigo aborda o primeiro cenário.
 
 ## <a name="sign-in-for-the-first-time"></a>Entrar pela primeira vez
 
-### <a name="step-1-open-a-browser"></a>Etapa 1: abra um navegador
-O serviço do Power BI é executado em um navegador.  Portanto, a primeira etapa é abrir seu navegador favorito e digitar **app.powerbi.com**.
+### <a name="step-1-open-the-power-bi-service"></a>Etapa 1: abra o serviço do Power BI
+O serviço do Power BI é executado em um navegador. 
 
-![campo de navegador com digitação](media/end-user-sign-in/power-bi-sign-in.png)
+- Se você recebeu um email de um colega, com um link para um dashboard ou relatório, selecione o link para **Abrir este relatório** ou **Abrir este dashboard**.
+
+    ![campo de navegador com digitação](media/end-user-sign-in/power-bi-share.png)    
+
+- Caso contrário, abra seu navegador favorito e digite **app.powerbi.com**.
+
+    ![campo de navegador com digitação](media/end-user-sign-in/power-bi-sign-in.png)    
+
 
 ### <a name="step-2-type-your-email-address"></a>Etapa 2: digite seu endereço de email
-Na primeira vez em que entrar, será solicitado que você insira seu endereço de email.  Esse endereço de email é a conta corporativa ou de estudante que você usou para inscrever-se no Power BI.  
+Na primeira vez que você entrar, a Microsoft verificará se você já tem uma conta do Microsoft 365. No exemplo a seguir, Marina já tem uma licença para outros serviços da Microsoft. 
 
-Procure na caixa de entrada por um email do administrador do Power BI. A maioria dos administradores enviará um email de boas-vindas contendo sua senha temporária. Use esta conta de email para entrar. 
+![Tela de entrada](media/end-user-sign-in/power-bi-already.png)
 
-![campo de navegador com digitação](media/end-user-sign-in/power-bi-password.png)
+Digite sua senha. Esta é sua senha da conta do Microsoft 365. É o mesmo email e senha que usa para outros produtos da Microsoft, como o Outlook e o Office.  Dependendo de como sua conta está configurada, você também pode ser solicitado a inserir um código enviado para seu email ou dispositivo móvel.   
 
+![Tela de entrada](media/end-user-sign-in/power-bi-pass.png)
 
+Às vezes, seu administrador global atribuirá uma licença a você e enviará um email com essas informações. Procure um email de boas-vindas em sua Caixa de Entrada e siga as instruções para entrar pela primeira vez. Use essa conta de email para entrar. 
  
-### <a name="step-3-create-a-new-password"></a>Etapa 3: crie uma nova senha
-Se o administrador do Power BI enviou a você uma senha temporária, insira-a no campo **Senha atual**. Se você não recebeu nenhuma senha no email, entre em contato com o administrador do Power BI.
+### <a name="step-3-review-the-terms-and-conditions"></a>Etapa 3: revise os termos e condições
+Revise os termos e condições e, se concordar, marque a caixa de seleção e escolha **Iniciar**.
 
-![endereço de email digitado no campo de entrada](media/end-user-sign-in/power-bi-login.png)
+![tela de termos e condições](media/end-user-sign-in/power-bi-term.png)
 
-Se você quiser que o Power BI memorize suas credenciais, selecione **Sim**. 
-
-![decida se você quer que o Power BI memorize suas credenciais](media/end-user-sign-in/power-bi-stay-signed-in.png)
 
 
 ### <a name="step-4-review-your-home-landing-page"></a>Etapa 4: revise sua página inicial
@@ -55,9 +61,9 @@ Na sua primeira visita, o Power BI abre sua **Página Inicial**. Se a **Página 
 
 ![captura de tela mostrando a Página Inicial selecionada](media/end-user-sign-in/power-bi-home-selected.png)
 
-Na Página Inicial, você verá todo o conteúdo que tem permissão para usar. No início, pode não haver muito conteúdo, mas não se preocupe, isso mudará quando você começar a usar o Power BI com seus colegas. 
+Na Página Inicial, você verá todo o conteúdo que tem permissão para usar. No início, pode não haver muito conteúdo, mas não se preocupe, isso mudará quando você começar a usar o Power BI com seus colegas. Lembra-se do relatório que seu colega compartilhou com você por email? Ele está em sua Página Inicial, no cabeçalho **Compartilhado comigo**.
 
-![Página Inicial](media/end-user-sign-in/power-bi-home-landing.png)
+![Página Inicial](media/end-user-sign-in/power-bi-home.png)
 
 Se não quiser que o Power BI abra a Página Inicial, você poderá [definir um relatório ou um painel **Em destaque**](end-user-featured.md) para ser aberto. 
 
@@ -66,14 +72,14 @@ Como um ***consumidor***, outras pessoas compartilharão conteúdo com você e v
 
 ![Redefinir para o botão padrão](media/end-user-sign-in/power-bi-reset.png)
 
-## <a name="sign-out-of-power-bi-service"></a>Sair do serviço do Power BI
+## <a name="sign-out-of-the-power-bi-service"></a>Sair do serviço do Power BI
 Quando você fecha ou sai do Power BI, suas alterações são salvas para que você possa recomeçar bem do ponto em que parou.
 
 Para fechar o Power BI, feche a guia do navegador em que você está trabalhando. 
 
 ![Selecione o x para fechar a guia](media/end-user-sign-in/power-bi-close.png) 
 
-Se você compartilha um computador, é recomendável sair sempre que fechar o Power BI.  Para sair, no canto superior direito, selecione sua imagem de perfil e escolha **Sair**. Caso contrário, quando terminar, feche a guia do navegador.
+Se você compartilha um computador, é recomendável sair sempre que fechar o Power BI.  Para sair, no canto superior direito, selecione sua imagem de perfil e escolha **Sair**.  
 
 ![perfil selecionado](media/end-user-sign-in/power-bi-sign-out.png) 
 

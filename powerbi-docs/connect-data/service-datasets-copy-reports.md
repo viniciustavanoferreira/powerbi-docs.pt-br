@@ -1,22 +1,22 @@
 ---
-title: Copiar relatórios de outros aplicativos e workspaces (versão prévia) – Power BI
+title: Copiar relatórios de outros aplicativos e workspaces – Power BI
 description: Saiba como você pode criar e salvar uma cópia do relatório em seu próprio workspace.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d70f029568dca578bb76350a42b5146ecc335759
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83312616"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793099"
 ---
-# <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outros workspaces (versão prévia)
+# <a name="copy-reports-from-other-workspaces"></a>Copiar relatórios de outros workspaces
 
 Quando encontrar um relatório de sua preferência em um workspace ou aplicativo, você poderá fazer uma cópia dele e salvá-lo em um workspace diferente. Em seguida, você pode modificar esse relatório, adicionando ou excluindo visuais e outros elementos. Você não precisa se preocupar com a criação do modelo de dados. Ele já foi criado para você. Além disso, é muito mais fácil modificar um relatório existente do que começar do zero. No entanto, ao criar um aplicativo no seu workspace, algumas vezes você não pode publicar sua cópia do relatório no aplicativo. Para ver detalhes, confira [Considerações e limitações no artigo "Usar conjuntos de dados em workspaces"](service-datasets-across-workspaces.md#considerations-and-limitations).
 
@@ -106,5 +106,5 @@ Você pode decidir que não deseja mais o relatório e seu conjunto de dados com
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- [Usar conjuntos de dados em workspaces](service-datasets-across-workspaces.md)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

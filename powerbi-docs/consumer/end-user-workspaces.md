@@ -4,21 +4,21 @@ description: Saiba mais sobre workspaces e funções de workspace
 author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/22/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 801b5cf5400bbe1cc0487eef596ea3d1cdc5fb1e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a255ae90bd9ba429937582b0d11ccfb8944aecc4
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120129"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121151"
 ---
 # <a name="collaborate-in-workspaces"></a>Colaborar em workspaces
 
- *Workspaces* são locais para colaborar com colegas em um conteúdo específico. Os workspaces são criados por *designers* do Power BI para armazenar coleções de dashboards e relatórios. Em seguida, o designer pode agrupar essa coleção em um *aplicativo* e distribuí-lo para toda a organização ou para pessoas ou grupos específicos. 
+ *Workspaces* são locais para colaborar com colegas em um conteúdo específico. Os workspaces são criados por *designers* do Power BI para armazenar coleções de dashboards e relatórios. O designer pode compartilhar o workspace com colegas e também agrupar essa coleção em um *aplicativo* e distribuí-lo para toda a organização ou para pessoas ou grupos específicos. 
 
  Todos que usam o serviço do Power BI também têm um **Meu workspace**.  Meu workspace é a sua área restrita pessoal na qual você pode criar conteúdo para uso próprio.
 
@@ -29,9 +29,9 @@ ms.locfileid: "82120129"
 ## <a name="types-of-workspaces"></a>Tipos de espaços de trabalho
 O **Meu Workspace** armazena todo o conteúdo que você tem e cria. Pense nele como sua área restrita pessoal ou como área de trabalho para seu próprio conteúdo. Para muitos *consumidores* do Power BI, o **Meu workspace** permanece vazio porque seu trabalho não envolve criar conteúdo. Os *consumidores*, por definição, consomem dados criados por outras pessoas e usam esses dados para tomar decisões de negócios. Se você acha que está criando conteúdo, considere ler os [artigos do Power BI para designers](../create-reports/index.yml).
 
-Os **espaços de trabalho de aplicativo** contêm todo o conteúdo para o aplicativo específico. Quando um *designer* cria um aplicativo, ele agrupa todo o conteúdo necessário para que o aplicativo seja utilizado. O conteúdo poderá incluir dashboards, relatórios e conjuntos de dados. Nem todo aplicativo conterá essas três partes de conteúdo. Um aplicativo pode conter apenas um dashboard, três de cada tipo de conteúdo ou até mesmo vinte relatórios. Isso tudo depende do que o *designer* inclui no aplicativo. É mais comum que os workspaces de aplicativo para *consumidores* não incluam os conjuntos de dados.
+Os **workspaces** contêm todo o conteúdo para o aplicativo específico. Quando um *designer* cria um aplicativo, ele agrupa todo o conteúdo necessário para que o aplicativo seja utilizado. O conteúdo poderá incluir dashboards, relatórios e conjuntos de dados. Nem todo aplicativo conterá essas três partes de conteúdo. Um aplicativo pode conter apenas um dashboard, três de cada tipo de conteúdo ou até mesmo vinte relatórios. Isso tudo depende do que o *designer* inclui no aplicativo. É mais comum que os workspaces de aplicativo para *consumidores* não incluam os conjuntos de dados.
 
-O workspace de aplicativo Vendas em números abaixo contém três relatórios e um dashboard. 
+O workspace de Vendas em números abaixo contém três relatórios e um dashboard. 
 
 ![painel de navegação mostrando dois tipos de workspaces](media/end-user-workspaces/power-bi-app-workspace.png)
 
@@ -47,28 +47,10 @@ Para obter uma lista detalhada do que você pode fazer como *consumidor* com a f
 
 
 ### <a name="workspace-roles"></a>Funções de workspace
-Estas são as capacidades das quatro funções: administradores, membros, colaboradores e visualizadores. Todos esses recursos, exceto exibição e interação, exigem uma licença Power BI Pro.
 
-|Funcionalidade   | Administrador  | Membro  | Colaborador  | Visualizador |
-|---|---|---|---|---|
-| Atualizar e excluir o workspace.  | X  |   |   |   | 
-| Adicionar/remover pessoas, incluindo outros administradores.  | X  |   |   |   |
-| Adicionar membros ou outras pessoas com permissões inferiores.  |  X | X  |   |   |
-| Publicar e atualizar um aplicativo. |  X | X  |   |   |
-| Compartilhar um item ou um aplicativo.<sup>1</sup> |  X | X  |   |   |
-| Permitir que outras pessoas compartilhem itens novamente.<sup>1</sup> |  X | X  |   |   |
-| Destacar aplicativos na página inicial de colegas |  X | X  |   |   |
-| Destacar dashboards e relatórios na página inicial de colegas |  X | X  | X |   |
-| Criar, editar e excluir conteúdo no workspace.  |  X | X  | X  |   |
-| Publicar relatórios no workspace, excluir conteúdo.  |  X | X  | X  |   |
-| Criar um relatório em outro workspace com base em um conjunto de dados neste workspace.<sup>1</sup> |  X | X  | X  |   |
-| Copiar um relatório. | X | X | X |  |
-| Exibir e interagir com um item.<sup>2</sup> |  X | X  | X  | X  |
-| Ler dados armazenados em fluxo de trabalho do workspace | X | X | X | X |
+Aqui estão os recursos das quatro funções: Administradores, Membros, Colaboradores e Visualizadores. Todos esses recursos, exceto exibição e interação, exigem uma licença Power BI Pro.
 
-1. Os Colaboradores e os Membros podem compartilhar itens em um workspace quando têm permissões Recompartilhar.
-
-2. Mesmo se você não tiver uma licença do Power BI Pro, poderá ver itens e interagir com eles no serviço do Power BI se os itens estiverem em um workspace na capacidade Premium.
+[!INCLUDE[power-bi-workspace-roles-table](../includes/power-bi-workspace-roles-table.md)]
 
 ## <a name="licensing-workspaces-and-capacity"></a>Licenciamento, workspaces e capacidade
 O licenciamento também desempenha um papel para determinar o que você pode e não pode fazer em um workspace. Muitos recursos exigem que o usuário tenha uma licença do Power BI *Pro*. A maioria dos *consumidores* trabalha com uma licença *gratuita*. 

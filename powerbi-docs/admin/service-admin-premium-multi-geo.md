@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 05/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 45229edbc6ed2c9e9c4618d44b4b74e42d0037b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9df00079488b248f2e5bab52395a637e37045a24
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274594"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119984"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar o suporte Multi-Geo para o Power BI Premium
 
@@ -68,6 +68,8 @@ Os próximos itens permanecem na região de residência do locatário:
 - Permissões
 - Credenciais de conjunto de dados
 
+
+
 ## <a name="view-capacity-regions"></a>Exibir regiões de capacidade
 
 No Portal de administração, você pode exibir todas as capacidades do locatário do Power BI e as regiões em que estão atualmente localizadas.
@@ -93,6 +95,7 @@ Se for preciso alterar a região de um conteúdo existente, existem duas opçõe
 - Confirme que toda movimentação iniciada entre as regiões seguem todos os requisitos de conformidade corporativos e governamentais antes de iniciar a transferência de dados.
 - Uma consulta em cache armazenada em uma região remota permanece nessa região em repouso. No entanto, outros dados em trânsito podem ir e voltar entre várias regiões geográficas.
 - Ao mover dados de uma região para outra em um ambiente Multi-Geo, os dados de origem podem permanecer na região da qual foram movidos por até 30 dias. Durante esse período, os usuários finais não terão acesso a eles. Eles foram removidos desta região e destruídos durante o período de 30 dias.
+- O texto da consulta e o tráfego do resultado da consulta para modelos de dados importados não transitam pela região inicial. Os metadados do relatório ainda são provenientes da região remota, e determinados estados de roteamento de DNS podem retirar o tráfego da região. 
 
 - No momento, o recurso de [fluxos de dados](../transform-model/service-dataflows-overview.md) não é compatível com o Multi-Geo.
 

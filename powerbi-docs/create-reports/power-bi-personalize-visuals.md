@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 27f71da8a8396de30254c1a02307aa48281db5a8
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407583"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793613"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Permitir que os usuários personalizem visuais em um relatório
 
@@ -91,7 +91,7 @@ Atualmente, o recurso tem algumas limitações a serem consideradas.
 
 - Não há suporte para esse recurso em cenários de inserção, incluindo publicar na Web.
 - As explorações de usuário não persistem automaticamente. Você precisa salvar sua exibição como um indicador pessoal para capturar suas alterações.
-- Você não pode alterar visuais enquanto estiver nos aplicativos móveis do Power BI. No entanto, todas as alterações visuais salvas em um indicador pessoal no serviço do Power BI são respeitadas nos aplicativos móveis.
+- Esse recurso tem suporte nos aplicativos móveis do Power BI para tablets Android e iOS e no aplicativo Power BI Windows; não tem suporte nos aplicativos móveis do Power BI para telefones. No entanto, todas as alterações em um visual salvas em um indicador pessoal no serviço do Power BI são respeitadas em todos os aplicativos móveis do Power BI.
 
 Há também alguns problemas conhecidos que estamos abordando:
 

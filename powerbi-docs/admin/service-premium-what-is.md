@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438236"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812440"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -50,7 +50,7 @@ O Azure Power BI Embedded está amplamente fora do escopo deste artigo, mas é d
 
 ### <a name="purchasing"></a>Compra
 
-As assinaturas do Power BI Premium são compradas por administradores no centro de administração do Microsoft 365. Especificamente, apenas administradores globais do Office 365 ou de Cobrança podem comprar SKUs. Quando adquiridos, o locatário recebe um número correspondente de núcleos virtuais a ser atribuído a capacidades, conhecido como *pool de núcleos virtuais*. Por exemplo, adquirir um SKU P3 fornece ao locatário 32 núcleos virtuais. Para saber mais, confira [Como comprar o Power BI Premium](service-admin-premium-purchase.md).
+As assinaturas do Power BI Premium são compradas por administradores no centro de administração do Microsoft 365. Especificamente, apenas administradores globais ou de cobrança podem comprar SKUs. Quando adquiridos, o locatário recebe um número correspondente de núcleos virtuais a ser atribuído a capacidades, conhecido como *pool de núcleos virtuais*. Por exemplo, adquirir um SKU P3 fornece ao locatário 32 núcleos virtuais. Para saber mais, confira [Como comprar o Power BI Premium](service-admin-premium-purchase.md).
 
 ## <a name="dedicated-capacities"></a>Capacidades dedicadas
 
@@ -127,13 +127,13 @@ Notas da seção:
 
 ### <a name="regional-support"></a>Suporte regional
 
-Ao criar uma capacidade, os Administradores globais do Office 365 e os administradores de serviços do Power BI podem especificar uma região em que os workspaces atribuídos à capacidade residirão. Isso é conhecido como **Multi-Geo**. Com o Multi-Geo, as organizações poderão atender aos requisitos de residência de dados implantando conteúdo em datacenters em uma região específica, mesmo se ela for diferente da região na qual a Assinatura do Office 365 reside. Para saber mais, confira [Suporte Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
+Quando você cria uma capacidade, os administradores globais e os administradores de serviços do Power BI podem especificar uma região em que os workspaces atribuídos à capacidade residirão. Isso é conhecido como **Multi-Geo**. Com o Multi-Geo, as organizações poderão atender aos requisitos de residência de dados implantando conteúdo em datacenters em uma região específica, mesmo se ela for diferente da região na qual a Assinatura do Office 365 reside. Para saber mais, confira [Suporte Multi-Geo para o Power BI Premium](service-admin-premium-multi-geo.md).
 
 ### <a name="capacity-management"></a>Gerenciamento de capacidade
 
 O gerenciamento de capacidades Premium envolve a criação ou a exclusão de capacidades, a atribuição de administradores e de workspaces, a configuração de cargas de trabalho, o monitoramento e a realização de ajustes para otimizar o desempenho da capacidade. 
 
-Os Administradores globais do Office 365 e os administradores de serviços do Power BI podem criar capacidades Premium com base em núcleos virtuais disponíveis ou modificar capacidades Premium existentes. Quando uma capacidade é criada, seu tamanho e região geográfica são especificados e pelo menos um administrador de capacidade é atribuído. 
+Os administradores globais e os administradores de serviços do Power BI podem criar capacidades Premium com base em núcleos virtuais disponíveis ou modificar capacidades Premium existentes. Quando uma capacidade é criada, seu tamanho e região geográfica são especificados e pelo menos um administrador de capacidade é atribuído. 
 
 Quando forem criadas capacidades, a maioria das tarefas administrativas será concluída no [portal de Administração](service-admin-portal.md).
 

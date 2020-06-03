@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a1922dabc267249dc4ae419f295d2c05e30d5fd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: faa4c567af6cf27ea852f17a2ba3a11e4f651dc3
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83146214"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733521"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Atualizar workspaces clássicos para os novos workspaces no Power BI
 
-Este artigo explica como atualizar ou *migrar* um workspace clássico para a nova experiência de workspace. É possível atualizar qualquer workspace clássico. Os novos workspaces têm funções de workspace mais granulares para que você possa gerenciar melhor o acesso ao conteúdo. Você também tem mais flexibilidade para gerenciar os workspaces atualizados porque eles estão conectados mais livremente ao grupo original do Office 365. Saiba mais sobre a [nova experiência de workspace](service-new-workspaces.md). 
+Este artigo explica como atualizar ou *migrar* um workspace clássico para a nova experiência de workspace. É possível atualizar qualquer workspace clássico. Os novos workspaces têm funções de workspace mais granulares para que você possa gerenciar melhor o acesso ao conteúdo. Você também tem mais flexibilidade para gerenciar os workspaces atualizados porque eles estão conectados mais livremente ao grupo original do Microsoft 365. Saiba mais sobre a [nova experiência de workspace](service-new-workspaces.md).
 
 >[!NOTE]
 >A atualização do workspace está disponível como uma Versão Prévia Pública. 
@@ -36,7 +36,7 @@ Há várias tarefas que devem ser realizadas *depois* da atualização. É melho
 
 ## <a name="upgrade-a-classic-workspace"></a>Atualizar um workspace clássico
 
-Qualquer administrador de workspace pode atualizá-lo. Para ser administrador do workspace, no caso dos clássicos, você precisar ser proprietário do grupo subjacente do Office 365. Para atualizar um workspace, siga estas etapas.
+Qualquer administrador de workspace pode atualizá-lo. Para ser administrador do workspace, no caso dos clássicos, você precisará ser proprietário do grupo subjacente do Microsoft 365. Para atualizar um workspace, siga estas etapas.
 
 1. Na lista conteúdo do workspace, selecione **Mais opções** ( **...** ) > **Editar este workspace**.
 
@@ -64,7 +64,7 @@ Os usuários que estiverem usando ativamente o workspace serão solicitados a at
 
 - As URLs e IDs de seu workspace, o conteúdo que ele contém e o aplicativo publicado a partir do workspace não são alterados. O conteúdo dos pacotes de conteúdo instalados em seu workspace é tratado separadamente. Confira a seção [Pacotes de conteúdo durante a atualização](#content-packs-during-upgrade), neste artigo, para obter detalhes.
 - Não há suporte para pacotes de conteúdo na nova experiência do workspace. Leia as seções sobre os [pacotes de conteúdo publicados](#published-content-packs) ou [pacotes de conteúdo instalados](#installed-content-packs) para saber mais sobre como eles são tratados durante a atualização. Recomendamos excluir os pacotes de conteúdo instalados ou publicados em seu workspace antes de fazer a atualização.
-- O grupo do Office 365 de seu workspace clássico não é afetado pela atualização de workspace no Power BI. Todas as equipes, os sites do SharePoint, as caixas de correio ou outros recursos gerenciados pelo Office 365 não são alterados. Eles permanecem intactos depois da atualização do workspace no Power BI. O grupo do Office 365 continuará existindo como antes.
+- O grupo do Microsoft 365 de seu workspace clássico não é afetado pela atualização de workspace no Power BI. Todas as equipes, os sites do SharePoint, as caixas de correio ou outros recursos gerenciados pelo Microsoft 365 não são alterados. Eles permanecem intactos depois da atualização do workspace no Power BI. O grupo do Microsoft 365 continuará existindo como antes.
 - Há alterações em relação à proteção de seu workspace após a atualização. Confira a seção [Permissões do workspace após a atualização](#permissions-after-upgrade) para obter detalhes.
 - Existe a opção de **reverter para o workspace clássico**, caso necessário. No entanto, ela não restaura totalmente alguns aspectos do workspace como estavam antes da atualização. Se você começar a usar os recursos que funcionam apenas na nova experiência de workspace, não será possível reverter. A opção de reversão fica disponível por 30 dias após a atualização.
 
@@ -74,26 +74,26 @@ Selecione **Acesso** na barra de menus na parte superior da lista de conteúdo d
 
 ![Acesso na barra de menus](media/service-upgrade-workspaces/power-bi-workspace-access-menu-bar.png)
 
-Cada proprietário de grupo do Office 365 é adicionado individualmente à função de administrador do workspace atualizado. O grupo do Office 365 é adicionado a uma função de workspace. A função à qual ele é adicionado dependerá se o workspace clássico é *somente leitura* ou *leitura/gravação*:
+Cada proprietário de grupo do Microsoft 365 é adicionado individualmente à função de administrador do workspace atualizado. O grupo do Microsoft 365 é adicionado a uma função de workspace. A função à qual ele é adicionado dependerá se o workspace clássico é *somente leitura* ou *leitura/gravação*:
 
-- Quando o workspace é definido como **Membros podem editar o conteúdo do Power BI**, após a atualização, o grupo do Office 365 é adicionado à lista de acesso do workspace com a função de **Membro**.
-- Quando o workspace é definido como **Membros podem somente ler o conteúdo do Power BI**, após a atualização, o grupo do Office 365 é adicionado à lista de acesso do workspace com a função de **Visualizador**.
+- Quando o workspace é definido como **Membros podem editar o conteúdo do Power BI**, após a atualização, o grupo do Microsoft 365 é adicionado à lista de acesso do workspace com a função de **Membro**.
+- Quando o workspace é definido como **Os membros só podem ler o conteúdo do Power BI**, após a atualização, o grupo do Microsoft 365 é adicionado à lista de acesso do workspace com a função **Visualizador**.
 
-Como o grupo do Office 365 recebe uma função no workspace, qualquer usuário adicionado ao grupo do Office 365 após a atualização tem essa função no workspace. No entanto, se você adicionar novos proprietários ao grupo do Office 365 após a atualização, eles não terão a função de administrador do workspace.
+Como o grupo do Microsoft 365 recebe uma função no workspaces, qualquer usuário adicionado ao grupo do Microsoft 365 após a atualização tem essa função no workspace. No entanto, se você adicionar novos proprietários ao grupo do Microsoft 365 após a atualização, eles não terão a função de administrador do workspace.
 
 
 ### <a name="differences-in-roles-before-and-after-upgrade"></a>Diferenças nas funções antes e depois da atualização
 
-As funções do workspace são diferentes nos workspaces clássicos e novos. A nova experiência do workspace permite que você forneça funções de workspace a grupos, grupos de segurança ou listas de distribuição do Office 365.
+As funções do workspace são diferentes nos workspaces clássicos e novos. A nova experiência de workspace permite que você forneça funções de workspace a grupos, grupos de segurança ou listas de distribuição do Microsoft 365.
 
 - Os **membros** podem compartilhar itens individuais e conceder acesso a todo o workspace por meio das funções Membro, Colaborador ou Visualizador
 - Os **visualizadores** só podem ver o conteúdo e não podem exportar ou analisar no Excel os dados subjacentes de nenhum conjunto de dados do workspace, a menos que tenham a permissão de Build.
 
 Todos os usuários que tenham acesso aos itens no workspace por meio da permissão de compartilhamento ou de aplicativo continuarão a ter acesso a esses itens. Qualquer pessoa com acesso ao workspace também tem acesso ao aplicativo publicado a partir do workspace. Esses usuários não constam na lista de acesso do aplicativo.
 
-Recomendamos avaliar se a nova função de Colaborador deve ser usada. Após a atualização, você poderá alterar o grupo do Office 365 para ter a função de Colaborador no painel de acesso.
+Recomendamos avaliar se a nova função de Colaborador deve ser usada. Após a atualização, você poderá alterar o grupo do Microsoft 365 para ter a função de colaborador no painel de acesso.
 
-Após a atualização, considere criar um grupo de segurança ou do Office 365, ou ainda uma lista de distribuição dos administradores de workspace, em vez de gerenciar o acesso por meio de atribuições de função a usuários individuais.
+Após a atualização, considere criar um grupo de segurança ou do Microsoft 365 ou ainda uma lista de distribuição dos administradores de workspace, em vez de gerenciar o acesso por meio de atribuições de função a usuários individuais.
 
 Leia mais sobre as [funções nos novos workspaces](service-new-workspaces.md#roles-in-the-new-workspaces).
 
@@ -105,7 +105,7 @@ Se o workspace estiver na capacidade compartilhada, os usuários que estiverem c
 
 ## <a name="other-new-workspace-features"></a>Outros novos recursos do workspace
 
-A nova experiência do workspace tem recursos que os workspaces clássicos não têm. Uma diferença é a capacidade de definir uma lista de contatos diferente dos administradores ou proprietários do workspace. Uma semelhança é que ele ainda está conectado à biblioteca de documentos do SharePoint do grupo do Office 365. 
+A nova experiência do workspace tem recursos que os workspaces clássicos não têm. Uma diferença é a capacidade de definir uma lista de contatos diferente dos administradores ou proprietários do workspace. Uma semelhança é que ele ainda está conectado à biblioteca de documentos do SharePoint do grupo do Microsoft 365.
 
 ### <a name="modify-the-contact-list"></a>Modificar a lista de contatos
 
@@ -113,13 +113,13 @@ A nova experiência do workspace tem recursos que os workspaces clássicos não 
 
     ![Configurações do workspace](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
-2. Em **Avançado**, a **Lista de contatos** do workspace está configurada para ser o grupo do Office 365 do qual o workspace foi atualizado. Você pode adicionar mais usuários ou grupos à lista de contatos ou alterá-la para torná-los administradores do workspace.
+2. Em **Avançado**, a **Lista de contatos** do workspace está configurada para ser o grupo do Microsoft 365 do qual o workspace foi atualizado. Você pode adicionar mais usuários ou grupos à lista de contatos ou alterá-la para torná-los administradores do workspace.
 
     ![Lista de contatos](media/service-upgrade-workspaces/power-bi-contact-list-workspace.png)
 
 ### <a name="the-workspace-onedrive"></a>O OneDrive do workspace 
 
-Após a atualização, o **OneDrive** do workspace estará conectado à biblioteca de documentos do SharePoint do grupo do Office 365. Essa biblioteca de documentos mostra a opção **OneDrive** na experiência **Obter dados > Arquivos**. Lembre-se de que é possível que nem todos os usuários do workspace tenham permissão para essa biblioteca de documentos, caso não estejam no grupo do Office 365.
+Após a atualização, o **OneDrive** do workspace estará conectado à biblioteca de documentos do SharePoint do grupo do Microsoft 365. Essa biblioteca de documentos mostra a opção **OneDrive** na experiência **Obter dados > Arquivos**. Lembre-se de que é possível que nem todos os usuários do workspace tenham permissão para essa biblioteca de documentos, caso não estejam no grupo do Microsoft 365.
 
 ## <a name="content-packs-during-upgrade"></a>Pacotes de conteúdo durante a atualização
 
@@ -142,9 +142,9 @@ Porém, há alterações importantes:
 
 ## <a name="go-back-to-a-classic-workspace"></a>Reverter para o workspace clássico
 
-Como parte da experiência de atualização, você tem a opção de reverter para o workspace clássico em até 30 dias após a atualização. Esse recurso restaura a associação do conteúdo do workspace com o grupo original do Office 365. Ele está disponível caso a sua organização encontre problemas sérios ao usar a nova experiência de workspace. Porém, há limitações. Primeiro, leia as [Considerações para reverter para o workspace clássico](#considerations-for-switching-back-to-classic) neste artigo.
+Como parte da experiência de atualização, você tem a opção de reverter para o workspace clássico em até 30 dias após a atualização. Esse recurso restaura a associação do conteúdo do workspace com o grupo original do Microsoft 365. Ele está disponível caso a sua organização encontre problemas sérios ao usar a nova experiência de workspace. Porém, há limitações. Primeiro, leia as [Considerações para reverter para o workspace clássico](#considerations-for-switching-back-to-classic) neste artigo.
 
-Para reverter, você precisa ser proprietário do grupo do Office 365 ao qual o workspace foi associado antes de ser atualizado. Siga estas etapas.
+Para reverter, você precisa ser proprietário do grupo do Microsoft 365 ao qual o workspace foi associado antes de ser atualizado. Siga estas etapas.
 
 1. Na lista conteúdo do workspace, selecione **Mais opções** ( **...** ) > **Configurações do workspace**.
 
@@ -166,7 +166,7 @@ Para reverter, você precisa ser proprietário do grupo do Office 365 ao qual o 
 
 A reversão não será possível se qualquer uma das seguintes afirmações sobre seu workspace for verdadeira:
 
-- O grupo do Office 365 foi excluído.
+- O grupo do Microsoft 365 foi excluído.
 - Faz mais de 30 dias que você fez a atualização.
 - Os conjuntos de dados no workspace são usados por relatórios ou painéis em outros workspaces. Como isso acontece? Digamos que você publicou um pacote de conteúdo no workspace antes da atualização e alguém instalou o pacote de conteúdo em outro workspace. Logo após a atualização, os conjuntos de dados são usados pelos relatórios e painéis naquele pacote de conteúdo.
 - O workspace faz parte de um pipeline de gerenciamento de ciclo de vida do aplicativo.
@@ -176,17 +176,17 @@ A reversão não será possível se qualquer uma das seguintes afirmações sobr
 
 Ao reverter para o workspace clássico, você não estará restaurando uma cópia exata do workspace original. As seguintes alterações ocorrem:
 
-- As permissões para o workspace são definidas pelo grupo do Office 365 ao qual o workspace atualizado foi originalmente conectado.
-  - Todos os administradores do grupo do Office 365 se tornam administradores do workspace clássico.
-  - Todos os membros do grupo do Office 365 se tornam membros do workspace clássico. Se o workspace clássico foi definido como **Membros só podem ler o conteúdo do Power BI**, essa configuração é restaurada.
-  - Todos os usuários ou grupos de usuários adicionados ao workspace após a atualização ser concluída (fora do grupo do Office 365) perdem o acesso ao workspace. Adicione-os ao grupo do Office 365 para conceder acesso a eles. Observe que os grupos do Office 365 não permitem aninhar grupos de distribuição ou de segurança na associação.
+- As permissões para o workspace são definidas pelo grupo do Microsoft 365 ao qual o workspace atualizado foi originalmente conectado.
+  - Todos os administradores do grupo do Microsoft 365 se tornam administradores do workspace clássico.
+  - Todos os membros do grupo do Microsoft 365 se tornam membros do workspace clássico. Se o workspace clássico foi definido como **Membros só podem ler o conteúdo do Power BI**, essa configuração é restaurada.
+  - Todos os usuários ou grupos de usuários adicionados ao workspace após a atualização ser concluída (fora do grupo do Microsoft 365) perdem o acesso ao workspace. Adicione-os ao grupo do Microsoft 365 para conceder acesso a eles. Observe que os grupos do Microsoft 365 não permitem aninhar grupos de distribuição ou de segurança na associação.
   - Os usuários que receberam acesso ao aplicativo para o workspace continuam a ter acesso ao aplicativo.
   - Os usuários que receberam acesso a itens no workspace continuam a ter acesso a eles.
 - Os pacotes de conteúdo publicados a partir de workspaces clássicos antes da atualização não são restaurados.
 - Os pacotes de conteúdo instalados nos workspaces clássicos antes da atualização não são restaurados.
 - As assinaturas criadas por usuários no workspace após a atualização são removidas. As assinaturas que existiam antes da atualização continuam a funcionar conforme o esperado.
 - Os alertas de dados não são preservados. Eles são removidos.
-- Se você renomeou o workspace após a atualização, o nome do workspace é restaurado para corresponder ao nome do grupo do Office 365.
+- Se você tiver renomeado o workspace após a atualização, o nome do workspace será restaurado para corresponder ao nome do grupo do Microsoft 365.
 - As operações em andamento, como atualizações, não são afetadas pela atualização do workspace.
 
 
@@ -195,9 +195,9 @@ Ao reverter para o workspace clássico, você não estará restaurando uma cópi
 Algumas organizações querem mover muitos ou todos os workspaces para a nova experiência de workspace. As ferramentas de atualização do workspace permitem que os administradores de workspace façam a atualização. As organizações que desejam gerenciar esse processo podem executar as etapas a seguir.
 
 1. A lista de workspaces no portal de administração do Power BI e a API correspondente fornecem uma lista de todos os workspace no Power BI. Os workspaces clássicos são mostrados como Grupo de tipos na lista.
-2. Trabalhe em conjunto com os proprietários individuais de grupo do Office 365 ou com seu administrador do Office 365 para que eles façam a atualização dos workspaces. Se você quiser fazer a atualização do workspace, precisará se tornar proprietário do grupo.
+2. Trabalhe em conjunto com os proprietários individuais de grupo ou com seu administrador no Microsoft 365 para que eles façam a atualização dos workspaces. Se você quiser fazer a atualização do workspace, precisará se tornar proprietário do grupo.
 
-A funcionalidade de atualização do workspace não fornece ferramentas para a atualização em massa ou programática. Além disso, os novos grupos do Office 365 criados em sua organização continuarão a aparecer no Power BI. 
+A funcionalidade de atualização do workspace não fornece ferramentas para a atualização em massa ou programática. Além disso, os novos grupos do Microsoft 365 criados em sua organização continuarão a aparecer no Power BI.
    
    
 ## <a name="known-issues"></a>Problemas conhecidos

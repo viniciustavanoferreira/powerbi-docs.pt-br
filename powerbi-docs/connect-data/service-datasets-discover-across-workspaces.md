@@ -1,22 +1,22 @@
 ---
-title: Criar relatórios com base em conjuntos de dados de diferentes workspaces (versão prévia) – Power BI
+title: Criar relatórios com base em conjuntos de dados de diferentes workspaces – Power BI
 description: Saiba como você pode compartilhar um conjunto de dados com usuários em toda a organização. Em seguida, eles podem criar relatórios com base no conjunto de dados em seus próprios workspaces.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af8cab7403a0ee34505ff395248aec188fd54666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e7574f9f1d3b4d6c818115af1f2cb4dcd7b8374
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284717"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793023"
 ---
-# <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Criar relatórios com base em conjuntos de dados de diferentes workspaces (versão prévia)
+# <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Criar relatórios com base em conjuntos de dados de diferentes workspaces
 
 Saiba como você pode criar relatórios em seus próprios workspaces com base em conjuntos de dados de outros workspaces. Para criar um relatório baseado em um conjunto de dados existente, você pode começar no Power BI Desktop ou no serviço do Power BI, em Meu Workspace ou em uma [nova experiência de workspace](../collaborate-share/service-create-the-new-workspaces.md).
 
@@ -61,5 +61,5 @@ Há dois tipos diferentes de conjuntos de dados endossados. Os proprietários de
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
+- [Usar conjuntos de dados em workspaces](service-datasets-across-workspaces.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

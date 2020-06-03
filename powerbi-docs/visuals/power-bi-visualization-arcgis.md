@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: willt
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34c0287c8a4df296e41826f32de95b0c050c8d08
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dbdf9ea9d0bd93efef16d6924d2b78865a566111
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277285"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812532"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Criar ArcGIS Maps no Power BI Desktop
 
@@ -283,7 +283,7 @@ O Power BI Desktop dá suporte ao uso de **Política de Grupo** para desabilitar
 </tr>
 <tr>
 <td>chave</td>
-<td>Software\Políticas\Microsoft\Power BI Desktop&lt;/td&gt;
+<td>Software\Policies\Microsoft\Power BI Desktop</td>
 </tr>
 <tr>
 <td>valueName</td>

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/01/2018
-ms.openlocfilehash: 51c43a19613381d39e0397864e55baed2022663c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/19/2020
+ms.openlocfilehash: 7d33a8ee54595870850accc52f4aabb82d195b62
+ms.sourcegitcommit: 4a975334d5b94144f4570a6435574d4484b77af2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79491354"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83838504"
 ---
 # <a name="power-bi-permissions"></a>Permissões do Power BI
 
@@ -30,13 +30,15 @@ As permissões do Power BI fornecem a um aplicativo a capacidade de executar det
 | Exibir grupos de usuários |O aplicativo pode exibir todos os grupos aos quais o usuário conectado pertence. |Group.Read |
 | Exibir todos os grupos |O aplicativo pode exibir todos os grupos aos quais o usuário conectado pertence. |Group.Read.All |
 | Ler e gravar todos os Grupos |O aplicativo pode exibir e gravar em todos os grupos para o usuário conectado e em todos os grupos aos quais o usuário tenha acesso. |Group.ReadWrite.All |
-| Exibir todos os Dashboards |O aplicativo pode exibir todos os painéis para o usuário conectado e os painéis aos quais o usuário tem acesso. |Dashboard.Read.All |
+| Exibir todos os Dashboards |O aplicativo pode exibir todos os dashboards para o usuário conectado e os dashboards aos quais o usuário tem acesso. |Dashboard.Read.All |
+| Ler e gravar todos os dashboards | O aplicativo pode exibir e editar todos os dashboards para o usuário conectado e os dashboards aos quais o usuário tem acesso. | Dashboard.ReadWrite.All |
 | Exibir todos os Relatórios |O aplicativo pode exibir todos os relatórios para o usuário conectado e os relatórios aos quais o usuário tem acesso. O aplicativo também pode ver os dados nos relatórios, bem como sua estrutura. |Report.Read.All |
 | Ler e gravar todos os relatórios |O aplicativo pode exibir e gravar em todos os relatórios para o usuário conectado e em todos relatórios a que o usuário tem acesso. Isso não fornece direitos para criar um novo relatório. |Report.ReadWrite.All |
 | Ler e gravar todas as Capacidades |O aplicativo pode exibir e gravar em todas as capacidades para o usuário conectado e em qualquer capacidade à qual o usuário tenha acesso. Isso não fornece direitos para criar uma nova capacidade. |Capacities.ReadWrite.All |
 | Ler todas as Capacidades |O aplicativo pode exibir e gravar em todas as capacidades para o usuário conectado e em quaisquer capacidades às quais o usuário tenha acesso. Isso não fornece direitos para criar uma nova capacidade. |Capacities.Read.All |
 | Ler e gravar todo o conteúdo no locatário |O aplicativo pode exibir e gravar em todos os artefatos, como grupos, relatórios, dashboards e conjuntos de dados no Power BI. Desde que o usuário conectado seja um administrador de serviços do Power BI. |Tenant.ReadWrite.All |
-| Exibir todo o conteúdo no locatário |O aplicativo pode exibir todos os artefatos, como grupos, relatórios, dashboards e conjuntos de dados no Power BI. Desde que o usuário conectado seja um administrador de serviços do Power BI. |Tenant.Read.All |
+| Exibir todo o conteúdo no locatário |Se o usuário conectado for um administrador de serviços do Power BI, o aplicativo poderá exibir e gravar em todos os artefatos&mdash;incluindo grupos, relatórios, dashboards e conjuntos de dados&mdash;no Power BI. |Tenant.Read.All |
+| Ler e gravar todos os workspaces | O aplicativo pode exibir e editar todos os workspaces aos quais o usuário conectado tem acesso. | Workspace.ReadWrite.All |
 
 Um aplicativo pode solicitar permissões ao tentar entrar na página do usuário pela primeira vez ao passar as permissões solicitadas no parâmetro de escopo da chamada. Se as permissões forem concedidas, um token de acesso será retornado ao aplicativo, e poderá ser usado em chamadas à API futuras. O acesso pode ser usado somente por um aplicativo específico.
 
@@ -53,4 +55,4 @@ Embora você possa chamar a API para autenticar com um nome de usuário e senha,
 * **Token de Autorização** - São usados para autenticar chamadas de API em nome de outro usuário. Eles terão escopo para um aplicativo específico. Os tokens têm um tempo de vida definido e quando expiram precisam ser atualizados.
 * **Atualizar Token** - Quando os tokens expiram, há um processo para atualizá-los.
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/).

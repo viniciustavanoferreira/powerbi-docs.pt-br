@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349783"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794128"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Inserir conteúdo do Power BI em um aplicativo para sua organização
 
@@ -383,7 +383,7 @@ Agora que você terminou o desenvolvimento do seu aplicativo, é hora de conferi
 
 Ao criar uma capacidade dedicada, você pode usufruir de um recurso dedicado ao conteúdo no workspace. Para relatórios paginados, você precisa dar suporte ao workspace com, pelo menos, uma capacidade P1. Você pode criar uma capacidade dedicada usando o [Power BI Premium](../../admin/service-premium-what-is.md).
 
-A tabela a seguir lista os SKUs do Power BI Premium disponíveis no [Microsoft Office 365](../../admin/service-admin-premium-purchase.md):
+A tabela a seguir lista os SKUs do Power BI Premium disponíveis no [Microsoft 365](../../admin/service-admin-premium-purchase.md):
 
 | Nó de capacidade | Total de vCores<br/>(back-end + front-end) | vCores de back-end | vCores de front-end | Limites de conexão dinâmica/DirectQuery |
 | --- | --- | --- | --- | --- | --- |

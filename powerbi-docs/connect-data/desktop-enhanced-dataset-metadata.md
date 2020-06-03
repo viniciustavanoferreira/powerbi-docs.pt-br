@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 87b4be55b1b811f63dbb7fe271bc3c3fa4af2755
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347414"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793398"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Usar metadados aprimorados de conjunto de dados (versão prévia)
 
@@ -42,6 +42,23 @@ Depois que a versão prévia do recurso estiver habilitada, o Power BI Desktop t
 > [!IMPORTANT]
 > Habilitar o recurso **metadados aprimorados de conjunto de dados** resulta em uma atualização irreversível para os relatórios. Todos os relatórios do Power BI carregados ou criados com o Power BI Desktop, depois de habilitados os **metadados aprimorados de conjunto de dados**, são irreversivelmente convertidos no formato aprimorado de metadados do conjunto de dados.
 
+## <a name="report-backup-files"></a>Arquivos de backup de relatório
+
+A atualização de um relatório para usar o recurso **metadados de conjunto de dados aprimorados** é irreversível. No entanto, durante a atualização, um arquivo de backup de relatório é criado para salvar uma versão do relatório em seu formato original (pré-atualização). O arquivo de backup é removido após 30 dias. 
+
+Para localizar o arquivo de relatório de backup, faça o seguinte:
+
+1. Navegue até o seguinte local: ```C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\TempSaves\Backup```. Se estiver usando a versão Microsoft Store do Power BI Desktop, use o seguinte local: ```C:\Users\<user>\Microsoft\Power BI Desktop Store App\TempSaves\Backups``` 
+
+2. Localize uma cópia do relatório com o nome e o carimbo de data/hora do arquivo original.
+
+3. Copie o arquivo para um local que você preferir, para preservá-lo.
+
+4. Verifique se a versão prévia do recurso do **formato de metadados aprimorados** está desabilitada no Power BI Desktop se você optar por abrir ou usar esse arquivo original. 
+
+O arquivo de backup é criado quando o relatório é atualizado, portanto, as alterações feitas após a atualização não são incluídas. Novos relatórios criados quando o recurso do **formato de metadados aprimorados** está habilitado não têm um arquivo de backup.
+
+
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
 Na versão prévia, as limitações a seguir se aplicam quando o recurso de versão prévia do recurso está habilitado.
@@ -49,6 +66,7 @@ Na versão prévia, as limitações a seguir se aplicam quando o recurso de vers
 ### <a name="unsupported-features-and-connectors"></a>Recursos e conectores sem suporte
 Ao abrir um arquivo PBIX ou PBIT existente que não foi atualizado, a atualização falhará se o conjunto de dados contiver qualquer um dos recursos ou conectores a seguir. Se essa falha ocorrer, não deverá haver nenhum impacto imediato na experiência do usuário e o Power BI Desktop continuará usando o formato de metadados anterior.
 
+* Todos os conectores personalizados
 * Scripts do Python
 * Conectores personalizados
 * Azure DevOps Server
@@ -66,7 +84,16 @@ Ao abrir um arquivo PBIX ou PBIT existente que não foi atualizado, a atualizaç
 * Expressões M que contêm determinadas combinações de caracteres, como "\\n" em nomes de colunas
 * Ao usar conjuntos de dados com o recurso **metadados aprimorados de conjunto de dados** habilitado, as fontes de dados de SSO (logon único) não podem ser configuradas no serviço do Power BI
 
+Os relatórios que usam esses conectores listados não serão atualizados para o novo formato. Os relatórios que já foram atualizados ou criados após a habilitação desse novo recurso não darão suporte à adição de conectores ou recursos sem suporte listados. 
+
+Não há suporte para consultas com fontes de dados dinâmicas. Os relatórios com fontes de dados dinâmicas não serão atualizados para o novo formato e os relatórios que já foram atualizados ou criados recentemente com o recurso habilitado não darão suporte à adição de fontes de dados dinâmicas. Uma consulta terá uma fonte de dados dinâmica se a fonte for alterada dependendo de um parâmetro, entrada de função ou função volátil. 
+
+Não há suporte para consultas com erros em etapas de upstream ou ramificações. 
+
 Além disso, os arquivos PBIX e PBIT que foram atualizados com êxito para usar os **metadados aprimorados de conjunto de dados** *não podem* usar os recursos ou conectores acima na versão atual.
+
+
+
 
 ### <a name="lineage-view"></a>Exibição de linhagem
 Atualmente, os conjuntos de dados que usam o novo formato de metadados não mostram links para os fluxos de entrada na exibição de linhagem do serviço do Power BI.

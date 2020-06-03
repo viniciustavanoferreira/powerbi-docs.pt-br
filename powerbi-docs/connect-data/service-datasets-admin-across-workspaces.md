@@ -1,22 +1,22 @@
 ---
-title: Controlar o uso de conjuntos de dados em workspaces (versão prévia) – Power BI
+title: Controlar o uso de conjuntos de dados em workspaces – Power BI
 description: Saiba como restringir o fluxo de informações no locatário do Power BI.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4599b5aa8961c5a6526f5de6a07815355e6e41db
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285430"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793547"
 ---
-# <a name="control-the-use-of-datasets-across-workspaces-preview"></a>Controlar o uso de conjuntos de dados em workspaces (versão prévia)
+# <a name="control-the-use-of-datasets-across-workspaces"></a>Controlar o uso de conjuntos de dados em workspaces
 
 O uso de conjuntos de dados em workspaces é uma maneira eficiente de promover a cultura de dados e a democratização de dados em uma organização. Apesar disso, se você for um administrador do Power BI, às vezes desejará restringir o fluxo de informações em seu locatário do Power BI. Com a configuração de locatário **Usar conjuntos de dados em workspaces**, você poderá restringir a reutilização do conjunto de dados total ou parcialmente por grupos de segurança.
 
@@ -38,5 +38,5 @@ Como administrador de locatários, você pode fornecer uma URL para o link **Sai
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Usar conjuntos de dados em workspaces (versão prévia)](service-datasets-across-workspaces.md)
-- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- [Usar conjuntos de dados em workspaces](service-datasets-across-workspaces.md)
+- Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5368370cc25e12fdeab333b42a064ec4db66c301
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8db571d3635ad224c293a4d2ab86f4bcb9197fe0
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347368"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120071"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Obter dados de arquivos do Power BI Desktop
 ![](media/service-desktop-files/pbid_file_icon.png)
@@ -47,7 +47,9 @@ Depois de inserir dados no **Power BI Desktop** e criar alguns relatórios, é h
    ![](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Publicar um arquivo em seu site do Power BI por meio do Power BI Desktop
-O uso do recurso Publicar por meio do Power BI Desktop é praticamente o mesmo que usar o recurso Obter Dados no Power BI para importar o arquivo de uma unidade local ou se conectar a ele no OneDrive.  Apresentamos aqui o passo a passo rápido, mas é possível ver [Publicar por meio do Power BI Desktop](../create-reports/desktop-upload-desktop-files.md) para saber mais.
+O uso de Publicar do Power BI Desktop é semelhante ao uso de Obter Dados no Power BI: seus dados de arquivo são inicialmente importados de uma unidade local ou por meio da conexão com eles no OneDrive. No entanto, há diferenças: se você carregar de uma unidade local, será conveniente atualizar esses dados com frequência para garantir que as cópias online e locais dos dados sejam atuais entre si. 
+
+Apresentamos aqui o passo a passo rápido, mas é possível ver [Publicar por meio do Power BI Desktop](../create-reports/desktop-upload-desktop-files.md) para saber mais.
 
 1. No Power BI Desktop, clique em **Arquivo** > **Publicar** > **Publicar no Power BI** ou clique em **Publicar** na faixa de opções.
    

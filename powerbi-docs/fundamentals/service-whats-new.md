@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566053"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813337"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
@@ -174,7 +174,7 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 
 ### <a name="april-2018"></a>Abril de 2018
 * [Whitepaper do Power BI sobre a proteção de dados](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* [Logs de auditoria](../admin/service-admin-auditing.md) do serviço do Power BI habilitados por padrão para o locatário do Office 365.
+* [Logs de auditoria](../admin/service-admin-auditing.md) do serviço do Power BI ativados por padrão para a organização.
 
 ### <a name="march-2018"></a>Março de 2018
 * [Filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) no Serviço do Power BI.
@@ -188,7 +188,7 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 ### <a name="january-2018"></a>Janeiro de 2018
 *    Compartilhar e marcar como favoritos os relatórios do Power BI.
 *    Suporte a logon único (SSO) de OAuth2 e DirectQuery para Banco de dados SQL do Azure e Data Warehouse.
-*    Auditoria na região: os logs de auditoria agora serão armazenados na mesma região do Office 365 como seu locatário.
+*    Auditoria na região: os logs de auditoria agora serão armazenados na mesma região do Microsoft 365 como seu locatário.
 *    GA do SharePoint Online [web part de relatório do Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698).
 *    Controle de administração para desativar a exibição de visuais do Power BI para todos os usuários em um locatário.
 *    Suporte à atualização agendada para o Azure Analysis Services (AAS).
@@ -254,7 +254,7 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 
 ### <a name="january-2017"></a>Janeiro de 2017
 * Administre o Power BI usando a [função de administrador do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole).
-* [Logs de auditoria do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) no portal de auditoria do Office 365 estão disponíveis globalmente.
+* [Logs de auditoria do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) no portal de auditoria estão disponíveis globalmente.
 * Versão 1.4 das [APIs de visuais do Power BI e ferramentas para desenvolvedores](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) liberada.
 * [Conjunto de recursos de streaming em tempo real](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) liberado para disponibilidade geral.
 * [Envie dados por push ao Power BI usando o Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) sem escrever uma linha de código.
@@ -277,7 +277,7 @@ Confira também os canais do YouTube para obter informações sobre as "Novidade
 * Aproveite a [integração do Power BI com o novo Microsoft Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/).
 * Crie [visualizações do R](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/) no Power BI sem precisar ter noções básicas sobre o R.
 * Versão prévia: com o [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/), os profissionais de BI podem criar modelos semânticos de BI com base em dados que residem na nuvem ou localmente, para fornecer aos usuários empresariais uma visão simplificada de seus dados.
-* A nova [Função Administrador de Serviços do Power BI](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) pode ser atribuída aos usuários que devem ter acesso ao Portal de Administração do Power BI, mas não outro acesso administrativo do Office 365.
+* A nova [Função Administrador de serviços do Power BI](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) pode ser atribuída aos usuários que devem ter acesso ao Portal de Administração do Power BI, mas não outro acesso administrativo.
 * Explore seus [dados avançados MYOB com o Power BI](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/).
 * Como um não administrador pode examinar o [log de auditoria do Power BI](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/)
 * Exiba [colunas de texto como Dicas de Ferramenta](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/).
@@ -693,7 +693,7 @@ Confira o [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 **4 de agosto de 2015**
 
 * Power BI agora oferece aos usuários de [identificação de circuito](https://powerbi.microsoft.com/blog/circuit-id-data-with-power-bi/) a capacidade de controlar e monitorar todos os seus serviços de comunicações de nuvem de ID de Circuito para fazer as decisões comerciais certas. Para obter detalhes adicionais sobre como começar, consulte a página de ajuda do pacote de conteúdo de ID de Circuito para o [Power BI](../connect-data/service-connect-to-services.md).
-* Hoje, já lançamos uma melhoria do recurso de Compartilhar Dashboard para torná-lo ainda mais fácil de usar.  Se sua organização usa o Office 365 para email, você pode agora [compartilhar a um grupo de distribuição de email](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/) da mesma forma você poderia enviar um email no Outlook.  Basta inserir o endereço do grupo de distribuição e clicar em compartilhamento.  Todos os membros do grupo de distribuição receberão um convite por email para exibir o painel.
+* Hoje, já lançamos uma melhoria do recurso de Compartilhar Dashboard para torná-lo ainda mais fácil de usar.  Caso sua organização use o Microsoft 365 para email, agora você pode [compartilhar com um grupo de distribuição de email](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/) da mesma forma que enviaria um email no Outlook.  Basta inserir o endereço do grupo de distribuição e clicar em compartilhamento.  Todos os membros do grupo de distribuição receberão um convite por email para exibir o painel.
 
 **28 de julho de 2015**
 
@@ -703,7 +703,7 @@ Confira o [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 
 * Estamos felizes em anunciar nossa versão de "disponibilidade geral" (GA) do Power BI. Inscreva-se hoje no [Power BI Pro](service-self-service-signup-for-power-bi.md). Como parte da versão GA, estamos oferecendo alguns excelentes novos recursos:
 * Uma nova visualização e experiência de criação de relatório: a nova tela de relatório tem uma seleção maior de visualizações, mais controle sobre a formatação de títulos, legendas, eixos, cores, planos de fundo e muito mais.
-* [Grupos do Power BI](../collaborate-share/service-create-distribute-apps.md): os grupos oferecem uma experiência de colaboração eficiente criada nos grupos do Office 365.
+* [Os grupos do Power BI](../collaborate-share/service-create-distribute-apps.md): oferecem uma experiência de colaboração eficiente criada nos grupos do Microsoft 365.
 * [Pacotes de conteúdo organizacionais](../collaborate-share/service-organizational-content-pack-introduction.md): o Power BI torna a criação de dashboards e relatórios extremamente simples e agora os usuários podem publicar esse conteúdo na galeria do conteúdo organizacional.
 * [Exibir em arquivos de Excel inteiros](../connect-data/service-excel-workbook-files.md): você pode colocar qualquer pasta de trabalho do Excel armazenada no OneDrive for Business no Power BI e exibir a pasta de trabalho inteira, exatamente como você faria no Excel Online.
 * [Colocar em arquivos CSV](../connect-data/service-get-data-from-files.md): o arquivo Excel ou do Power BI Desktop, como um arquivo de texto (CSV) de valores separados por vírgula, também pode ser um conjunto de dados para seus relatórios e dashboards do Power BI.
@@ -714,7 +714,7 @@ Confira o [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 
 * A Acumatica Cloud ER fornece um conjunto de aplicativos de gerenciamento de negócios totalmente integrada como finanças, distribuição, CRM e contabilidade de projeto, com uma plataforma robusta e flexível. Com o [pacote de conteúdo do Acumatica](https://powerbi.microsoft.com/blog/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi/) do Power BI, você pode se conectar e obter informações rapidamente sobre os dados de sua oportunidade. Esse conteúdo inclui um painel fora da caixa, um conjunto de relatórios e um conjunto de dados estruturados para explorar e fornecer detalhes como seu total ganho de oportunidades por data. Leia mais [aqui](../connect-data/service-connect-to-services.md). 
 * O [Azure HDInsight](https://powerbi.microsoft.com/blog/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight/) agora oferece um serviço do Spark totalmente gerenciado. Essa funcionalidade permite cenários como o aprendizado de máquina iterativo e análise de dados interativa. O Power BI permite que você se conectar diretamente aos dados no Spark oferecendo uma exploração simples e simultânea do HDInsght. Leia nosso [documento de ajuda](../connect-data/power-bi-data-sources.md) para obter mais informações.
-* [Integração da navegação do Office 365 e iniciador do aplicativo](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher). Com um único clique, você pode navegar em todos os aplicativos do Office 365.
+* [Integração do inicializador de aplicativos e da navegação do Microsoft 365](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher). Com um único clique, agora você pode navegar em todos os aplicativos do Microsoft 365.
 * [Especificando uma URL personalizada](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#url) que os usuários navegam quando ao clicar em um bloco. Agora você tem a capacidade de controlar exatamente onde os usuários estão: um relatório específico, outro painel, um relatório do SSRS ou um site externo. 
 * [Visibilidade e gerenciamento de armazenamento](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#storage) está consumindo no Power BI
 * [Configuração do elemento visual e campos exibidos em P e R](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#visual)

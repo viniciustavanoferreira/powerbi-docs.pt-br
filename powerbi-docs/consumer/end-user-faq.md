@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 530b1dd757f8fe0bfdb120601ae8ea28d95ed835
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564976"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793690"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 
@@ -27,14 +27,14 @@ ms.locfileid: "83564976"
 
 O serviço do Power BI é um serviço de análise de negócios baseado em nuvem que permite que qualquer pessoa visualize e analise dados com maior velocidade, eficiência e compreensão. Ele conecta os usuários a uma ampla variedade de dados locais e na nuvem por meio de dashboards fáceis de usar, relatórios interativos e visualizações atraentes para dar vida aos dados. Leia mais sobre o [Power BI](../fundamentals/power-bi-overview.md).
 
-## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>O que é o serviço do Microsoft Power BI para *consumidores*?
+## <a name="what-is-a-power-bi-consumers"></a>O que é um *consumidor* do Power BI?
 
 A maneira como você interage com o Power BI dependerá da sua função de trabalho. Como um usuário final ou *consumidor*, você é a pessoa que recebe o conteúdo (dashboards, relatórios e aplicativos) de seus colegas. Você trabalha na versão online ou móvel do Power BI, que é chamada de Serviço do Power BI, revisando e interagindo com o conteúdo a fim de tomar decisões de negócios.  Saiba mais sobre o [Power BI para consumidores](index.yml).
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Qual é a diferença entre o Power BI Pro e o Power BI Premium?
 
-O Power BI Pro é uma licença de usuário individual que permite o acesso a todo o conteúdo e recursos, no serviço do Power BI. Você pode até compartilhar conteúdo e colaborar com outros usuários do Pro. Somente usuários Pro podem publicar conteúdo em workspaces, compartilhar dashboards e assinar dashboards e relatórios. Normalmente, esse tipo de licença é atribuída a *designers*, desenvolvedores e administradores de relatórios do Power BI. 
+O Power BI Pro é uma licença de usuário individual que permite o acesso a todo o conteúdo e recursos, no serviço do Power BI. Você pode até compartilhar conteúdo e colaborar com outros usuários do Pro. Somente usuários Pro podem publicar conteúdo em workspaces, compartilhar dashboards e assinar dashboards e relatórios. 
 
 O Power BI Premium oferece capacidade dedicada para entregar um desempenho mais consistente. Ele também dá suporte a volumes de dados maiores no Power BI. No caso dos usuários individuais, a versão Premium permite uma ampla distribuição de conteúdo por usuários da versão Pro e não exige licença de usuário Pro para que os destinatários exibam o conteúdo. Isso significa que os *consumidores* podem colaborar com colegas, além de exibir e interagir com dashboards, relatórios e aplicativos que foram compartilhados com eles. 
 
@@ -54,7 +54,7 @@ Se sua empresa comprou licenças do Power BI ou uma conta com capacidade Premium
 
 Você pode também se inscrever no serviço do Power BI como indivíduo. Confira [o processo de inscrição para autoatendimento do Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Por que é necessário se inscrever com meu email corporativo?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Por que preciso me inscrever com meu email de trabalho?
 
 O Power BI não dá suporte a endereços de email fornecidos por provedores de telecomunicações e serviços de email para consumidores. Saiba mais sobre [o processo de inscrição por autoatendimento do Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
 

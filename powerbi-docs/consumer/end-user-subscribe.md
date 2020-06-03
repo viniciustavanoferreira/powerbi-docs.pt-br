@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/24/2020
+ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e5d87e3b41d6048b214fca45fc99df35f997d3c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dfb307a53ac4fd75188965618a08bb4bdee5689b
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347277"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794188"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Assinar um relatório ou painel no serviço do Power BI 
 
@@ -93,7 +93,7 @@ Uma assinatura será encerrada se a licença Pro expirar, se o dashboard ou o re
 * Especificamente para assinaturas de dashboards, alguns tipos de blocos ainda não são compatíveis.  Eles incluem: blocos de streaming, blocos de vídeo, blocos de conteúdo da Web personalizado.     
 * As assinaturas poderão falhar em dashboards ou relatórios com imagens extremamente grandes devido aos limites de tamanho de email.    
 * O Power BI pausa a atualização automaticamente em conjuntos de dados associados a dashboards e relatórios que não foram visitados há mais de dois meses.  No entanto, se você adicionar uma assinatura a um dashboard ou um relatório, ele não ficará em pausa mesmo que não seja visitado.
-* Em raras ocasiões, as assinaturas de email podem levar mais de quinze minutos para serem entregues aos destinatários.  Caso isso aconteça, recomendamos a execução da atualização de dados e da assinatura de email em momentos diferentes para garantir a entrega em tempo hábil.  Se o problema persistir, contate o suporte do Power BI.
+* Assim como ocorre com outros produtos de BI, a hora para a qual você define sua assinatura é quando o processamento da assinatura começa.  Após a conclusão do processamento do relatório, a assinatura será enfileirada e enviada aos destinatários do email.  Embora nos esforcemos para processar e entregar todas as assinaturas o mais rápido possível, há momentos de alta demanda em que você pode notar um atraso maior devido ao número de assinaturas que podem ser enviadas de uma só vez.  Para a maioria dos clientes, o atraso não deve ultrapassar mais de 15 minutos para processar e enviar os relatórios deles, embora possa levar até 30 minutos para determinados tempos e locatários que têm uso significativo.  Nunca esperamos que nenhum atraso na entrega seja superior a 60 minutos a contar do momento em que a assinatura é agendada.  Se algum cliente experimentar um atraso nessa dimensão, será necessário verificar se o endereço no-reply-powerbi@microsoft.com está na lista de permissões do provedor de email.  Se ele estiver, ele deve contatar o suporte do Power BI para obter assistência.
 
 ## <a name="next-steps"></a>Próximas etapas
 

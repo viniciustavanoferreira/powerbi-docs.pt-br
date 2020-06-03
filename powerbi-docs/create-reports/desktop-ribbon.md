@@ -1,37 +1,32 @@
 ---
-title: Usar a faixa de opções atualizada no Power BI Desktop (versão prévia)
+title: Usar a faixa de opções atualizada no Power BI Desktop
 description: Navegue facilmente por menus e comandos com a nova faixa de opções no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/20/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c406782d8e27cf57a60504c2cf05a5079e3580ce
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349185"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793970"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Usar a faixa de opções atualizada no Power BI Desktop
 
-Da atualização de março de 2020 em diante, o Power BI Desktop está revisando sua faixa de opções para alinhar melhor a aparência e experiência dele com outros produtos da Microsoft, como o Microsoft Office. A faixa de opções atualizada aparece em atualizações mensais de novembro de 2019 em diante como uma versão prévia do recurso; da atualização de março de 2020 em diante, a nova faixa de opções é a experiência padrão.
+A faixa de opções do Power BI Desktop revisado para alinhar melhor a aparência e experiência dele com outros produtos da Microsoft, como o Microsoft Office.
 
 ![Nova faixa de opções no Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
 
 ## <a name="how-to-enable-the-updated-ribbon"></a>Como habilitar a faixa de opções atualizada
 
-Da atualização de março de 2020 em diante, a faixa de opções atualizada está ativada por padrão. Para versões do Power BI Desktop anteriores a essa (começando com a atualização de novembro de 2019), a faixa de opções atualizada no Power BI era uma versão prévia do recurso e deve estar habilitada. Para habilitá-los nessas atualizações anteriores, selecione **Arquivo > Opções e configurações > Opções** e, em seguida, selecione **Versões prévias do recurso** na coluna esquerda. No painel direito, há uma seleção **Faixa de opções atualizada**. Marque a caixa ao lado de **Faixa de opções atualizada** para ativar o recurso de visualização. Será preciso reiniciar o Power BI Desktop para que a alteração do recurso de visualização tenha efeito.
+A faixa de opções atualizada está geralmente disponível a partir da versão de maio de 2020 do Power BI Desktop. A partir da atualização de março de 2020, a faixa de opções atualizada está ativada por padrão. 
 
-![A opção de faixa de opções atualizada para o Power BI Desktop](media/desktop-ribbon/desktop-ribbon-01.png)
-
-> [!NOTE]
-> Para versões do Power BI Desktop que começam com março de 2020, não há a necessidade de habilitar a faixa de opções atualizada porque, a partir de março de 2020, a nova faixa de opções é a experiência padrão.
-
-## <a name="features-of-the-new-ribbon"></a>Recursos da nova faixa de opções
+## <a name="features-of-the-updated-ribbon"></a>Recursos da faixa de opções atualizada
 
 Os benefícios da atualização de nossa faixa de opções destinam-se a tornar a experiência no Power BI Desktop, bem como em outros produtos da Microsoft, fácil e familiar. 
 

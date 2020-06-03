@@ -9,21 +9,18 @@ ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: 9db228253e0e88105108a1b3a5eaf725c73e0abb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563580"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812202"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Como se inscrever no Power BI com uma nova avaliação do Microsoft 365
 
 Este artigo descreve uma forma alternativa de se inscrever no Power BI, caso você ainda não tenha uma conta de email corporativo ou de estudante.
 
 Se você tiver problemas durante a inscrição no Power BI com o seu endereço de email, verifique se ele é um [endereço de email que pode ser usado com o Power BI](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses). Se isso não for bem-sucedido, inscreva-se para obter uma avaliação do Microsoft 365 e crie uma conta corporativa. Em seguida, use essa nova conta de trabalho para se inscrever no serviço do Power BI. Você poderá usar o Power BI mesmo após o vencimento da avaliação do Microsoft 365.
-
-> [!NOTE]
-> Recentemente, o Office 365 passou a se chamar Microsoft 365. Até que todos os nossos artigos sejam atualizados, você ainda poderá vê-lo sendo chamado de Office 365.
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Inscreva-se para obter uma avaliação do Microsoft 365 do Office
 Inscreva-se para obter uma avaliação do Microsoft 365 no [site do Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Se você ainda não tiver uma conta, a Microsoft orientará você pelas etapas para criar uma. Já que as contas de email comercial (como Hotmail e Gmail) não funcionarão com o Microsoft 365, você criará uma conta que funcionará.  Essa conta de email terá uma aparência semelhante a *zalan@onmicrosoft.com* .
@@ -42,7 +39,7 @@ Se você selecionar **Office 365 E5**, sua avaliação incluirá o Power BI Pro.
 
     ![criar uma conta corporativa ou de estudante](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-enter-info.png)
 
-3. Crie seu endereço de email e senha. Crie um nome de entrada que seja parecido com you@yourcompany.onmicrosoft.com. Esta é a entrada que você usará com sua nova conta do Office 365 e com o Power BI.
+3. Crie seu endereço de email e senha. Crie um nome de entrada que seja parecido com you@yourcompany.onmicrosoft.com. Esta é a entrada que você usará com sua nova conta corporativa ou de estudante e com o Power BI.
 
     ![Opte por se inscrever em uma nova conta](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 

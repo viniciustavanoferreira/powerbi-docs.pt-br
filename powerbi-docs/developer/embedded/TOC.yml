@@ -28,8 +28,6 @@
           href: embedded-capacity-planning.md
         - name: Práticas recomendadas de desempenho
           href: embedded-performance-best-practices.md
-        - name: Entidade de serviço
-          href: embed-service-principal.md
         - name: Segurança em nível de linha
           href: embedded-row-level-security.md
         - name: Segurança em nível de linha dos relatórios paginados
@@ -44,6 +42,10 @@
           href: power-bi-permissions.md
     - name: Como
       items:
+        - name: Inserir usando a entidade de serviço com um certificado
+          href: embed-service-principal-certificate.md
+        - name: Inserir usando a entidade de serviço com um segredo de aplicativo
+          href: embed-service-principal.md
         - name: Inserir de um aplicativo
           href: embed-from-apps.md
         - name: Exportar relatório para arquivo

@@ -20,6 +20,8 @@
           href: custom-visual-develop-tutorial-format-options.md
         - name: Adicionar testes de unidade para o projeto visual
           href: unit-tests-introduction.md
+        - name: Criar um gráfico de funil do script do R ao visual do R
+          href: funnel-plot-from-r.md
     - name: Conceitos
       items:
         - name: Estrutura do projeto do visual do Power BI
@@ -94,7 +96,7 @@
       items:
         - name: Log de alteração
           href: changelog.md
-        - name: Página de aterrisagem
+        - name: Página de aterrissagem
           href: landing-page.md
         - name: URL de inicialização
           href: launch-url.md

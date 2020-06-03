@@ -3,19 +3,19 @@ title: Disponibilidade de recursos para usuários com licenças gratuitas
 description: Explicação e gráfico mostrando os recursos disponíveis para consumidores e usuários gratuitos.
 author: mihart
 ms.reviewer: ''
-ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cea72988c812bd4628e62600c6585e93e7fecc11
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348403"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160193"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lista de recursos do Power BI para *consumidores* e outros com licenças gratuitas
 

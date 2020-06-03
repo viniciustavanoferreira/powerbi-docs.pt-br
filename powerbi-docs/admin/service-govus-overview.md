@@ -6,15 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/07/2020
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 9f94d6a1b99bce40d3f901dd71877da3f6b236af
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792898"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159687"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Clientes do Power BI for US Government
 Este artigo se destina aos clientes do Governo dos EUA que estão implantando o Power BI como parte de um plano do Microsoft 365 Government. Os planos governamentais são projetados para as necessidades exclusivas das organizações que devem atender aos padrões de conformidade e segurança dos EUA. O serviço do Power BI projetado para os clientes do Power BI for US Government é diferente da versão comercial do serviço do Power BI. As funcionalidades e diferenças do recurso estão descritas nas seções a seguir.
@@ -97,7 +98,7 @@ Para atender aos requisitos dos clientes de nuvem governamental, existem algumas
 |Gerenciamento de dados|Gateway de gerenciamento de dados|Disponível|Disponível|Disponível|
 |  |Criptografia de dados no Banco de Dados SQL do Azure|Disponível|Disponível|Disponível|
 |  |Criptografia de dados no Armazenamento de Blobs para Power BI|Disponível|Disponível|Disponível|
-|Integração entre produtos|Inserção no SharePoint Online usando a Web Part do Power BI|Não disponível|Não disponível|Não disponível|
+|Integração entre produtos|Inserção no SharePoint Online usando a Web Part do Power BI|Disponível|Não disponível|Não disponível|
 |  |Inserção no SharePoint Online usando a Web Part|Disponível|Disponível|Disponível|
 |  |Funções de IA e fluxos de dados|Não disponível|Não disponível|Não disponível|
 |  |Conectividade do Power Automate para alertas controlados por dados|Não disponível|Não disponível|Não disponível|

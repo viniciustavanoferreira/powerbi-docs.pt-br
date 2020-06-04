@@ -38,8 +38,6 @@
           href: azure-pbie-diag-logs.md
         - name: Perguntas frequentes sobre incorporação
           href: embedded-faq.md
-        - name: Permissões do Power BI
-          href: power-bi-permissions.md
     - name: Como
       items:
         - name: Inserir usando a entidade de serviço com um certificado

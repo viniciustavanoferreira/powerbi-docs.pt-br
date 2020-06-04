@@ -1,6 +1,6 @@
 ---
 title: arquivo de inclusão
-description: incluir arquivo
+description: arquivo de inclusão
 services: ''
 author: mihart
 ms.service: powerbi

@@ -156,4 +156,4 @@ Leia mais sobre como [criar uma exibição de telefone de um dashboard](../../cr
 * [Baixar o aplicativo Android](https://go.microsoft.com/fwlink/?LinkID=544867) no Google Play  
 * [Introdução ao aplicativo do Android para o Power BI](mobile-android-app-get-started.md)  
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

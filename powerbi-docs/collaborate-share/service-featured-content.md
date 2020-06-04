@@ -60,4 +60,4 @@ Agora, todas as pessoas com acesso a esse aplicativo também o verão na seção
 
 * [Como devo colaborar e compartilhar relatórios e dashboards?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Gerenciar conteúdo em destaque no portal do Administrador](../admin/service-admin-portal.md#manage-featured-content)
-* Perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

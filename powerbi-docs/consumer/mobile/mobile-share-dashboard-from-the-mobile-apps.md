@@ -102,4 +102,4 @@ Só será possível descompartilhar se você for o proprietário.
 ## <a name="next-steps"></a>Próximas etapas
 * [Anotar e compartilhar um instantâneo de um bloco, relatório ou visual nos aplicativos móveis](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Compartilhar um dashboard ou relatório no Power BI](../../collaborate-share/service-share-dashboards.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

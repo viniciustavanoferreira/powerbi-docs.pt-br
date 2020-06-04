@@ -44,4 +44,4 @@ A certificação de fluxos de dados e conjuntos de dados faz parte do *endosso* 
 * [Certificar conjuntos de dados](../connect-data/service-datasets-certify.md)
 * [Promover fluxos de dados](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [Certificar fluxos de dados](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

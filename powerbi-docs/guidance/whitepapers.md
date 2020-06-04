@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/03/2020
 ms.author: maggies
-ms.openlocfilehash: f0bf8edc3c954bf5c79d76c1a3bdba1a08ae40ae
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 529be27d10a5ac1a352473be14e6e7184493bdf9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121090"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336787"
 ---
 # <a name="whitepapers-for-power-bi"></a>White papers para o Power BI
 
@@ -21,7 +21,7 @@ White papers permitem que você explore os tópicos do Power BI em um nível mai
 
 | White paper | Descrição | Data |
 | --- | --- | --- |
-| [Planejando uma implantação do Power BI Enterprise](https://aka.ms/PBIEnterpriseDeploymentWP) |Este white paper técnico atualizado descreve as considerações e as práticas recomendadas para uma implantação de Power BI organizacional e com bom desempenho. | Maio de 2020 |
+| [Planejando uma implantação do Power BI Enterprise](https://aka.ms/PBIEnterpriseDeploymentWP) |Este white paper técnico atualizado descreve as considerações e as práticas recomendadas para uma implantação de Power BI organizacional e com bom desempenho. | Junho de 2020 |
 | [Os fluxos de dados e o Power BI](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Este white paper descreve em detalhes técnicos os fluxos de dados e as funcionalidades e iniciativas por trás dos recursos e funções dos fluxo de dados. | Novembro de 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Descreve o Power BI Premium, tanto como ele é quando lançado quanto como ele evoluirá. | Outubro de 2017 |
 | [Planejamento e Implantação do Power BI Premium](whitepaper-powerbi-premium-deployment.md)| O conteúdo deste White Paper foi incorporado em diretrizes gerais. Consulte o link para obter diretrizes e práticas recomendadas para planejar e implantar a capacidade Premium para cargas de trabalho bem definidas.| Março de 2019 |

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: b6e45113662117d5c6c793211644c4895f666a40
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794081"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273335"
 ---
 # <a name="share-a-dataset"></a>Compartilhar um conjunto de dados
 
@@ -28,7 +28,7 @@ Como um criador de *modelos de dados* no Power BI Desktop, você cria *conjuntos
 
 1. Publique o arquivo .pbix em uma [nova experiência do workspace](../collaborate-share/service-create-the-new-workspaces.md) no serviço do Power BI.
     
-    Os outros membros desse workspace já podem criar relatórios em outros workspaces com base nesse conjunto de dados.
+    Os outros membros desse workspace já podem criar relatórios em outros workspaces com base nesse conjunto de dados. Use a opção Gerenciar Permissões no conjunto de dados na lista de conteúdo do workspace para permitir acesso de usuários adicionais ao conjunto de dados. 
 
 1. Você também pode [publicar um aplicativo](../collaborate-share/service-create-distribute-apps.md) usando esse workspace. Quando fizer isso, na página **Permissões**, especifique quem tem permissões e o que eles podem fazer.
 
@@ -50,6 +50,11 @@ Quando você tiver um conjunto de dados compartilhado em seu workspace, talvez v
 1. A caixa de diálogo **Conteúdo relacionado** mostra todos os itens relacionados. Nessa lista, você verá os itens relacionados nesse workspace e em **Outros workspaces**.
  
     ![Caixa de diálogo Conteúdo relacionado](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
+
+## <a name="limitations-and-considerations"></a>Limitações e considerações
+O que lembrar a respeito do compartilhamento de conjuntos de dados:
+
+* Quando você compartilha um conjunto de dados gerenciando permissões, compartilhando relatórios ou dashboards, ou publicando um aplicativo, você está permitindo o acesso a todo o conjunto de dados, a menos que a [RLS (segurança em nível de linha)](../admin/service-admin-rls.md) limite o acesso. Os autores de relatório podem usar funcionalidades que personalizam experiências do usuário ao exibir ou interagir com relatórios, por exemplo, ocultar colunas, limitar as ações em visuais e outras. Essa experiência de usuário personalizada não restringe quais dados os usuários podem acessar no conjunto de dados. Use a [RLS (segurança em nível de linha)](../admin/service-admin-rls.md) no conjunto de dados para que as credenciais de cada pessoa determinem quais dados elas podem acessar.
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: cce546b489e0f49ff87af22f4955af1922f628e5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fc0bfea05449b3169e7a5f73a4c096d28579b35c
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344953"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159664"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de usuário do Power BI Pro
 
@@ -38,6 +39,9 @@ Para atribuir licenças no portal do Azure, você precisa ser um proprietário d
 
 ### <a name="purchase-licenses-in-microsoft-365"></a>Comprar licenças no Microsoft 365
 
+> [!NOTE]
+> Se você geralmente compra licenças por meio de um contrato de licenciamento por volume, como um Enterprise Agreement, e deseja receber uma fatura em vez de comprar com um cartão de crédito ou uma conta bancária, você precisa enviar o pedido de um modo diferente. Fale com o seu Revendedor da Microsoft ou acesse o Centro de Serviços de Licenciamento por Volume para adicionar ou remover licenças. Para obter mais informações, consulte [Gerenciar as licenças de assinatura](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide).
+
 Siga estas etapas para comprar licenças do Power BI Pro no centro de administração do Microsoft 365:
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com).
@@ -57,6 +61,7 @@ Siga estas etapas para comprar licenças do Power BI Pro no centro de administra
 8. Verifique sua compra acessando **Cobrança** > **Produtos e serviços** e procure **Power BI Pro**.
 
 9. Para adicionar mais licenças posteriormente, localize **Power BI Pro** na página **Produtos e serviços** e selecione **Adicionar/remover licenças**.
+
 
 ## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Atribuir licenças no centro de administração do Microsoft 365
 

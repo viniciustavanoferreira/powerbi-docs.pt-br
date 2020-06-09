@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438213"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315938"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Obtenha uma assinatura para você e outras pessoas de relatórios e dashboards no serviço do Power BI
 
@@ -71,6 +71,10 @@ Assinar relatórios paginados é um pouco diferente. Confira [Obter uma assinatu
 1. (Opcional) Escolha se deseja incluir um link de volta para o conteúdo no Power BI e se deseja permitir aos usuários o acesso ao conteúdo do qual você está fazendo uma assinatura para eles.  Se você optar por incluir um link, para obter a melhor experiência, verifique se todos os usuários têm acesso ao relatório.
 2. Selecione **Salvar e fechar**. Os inscritos receberão um email e o instantâneo da página de relatório ou dashboard para a frequência e a hora que você selecionou. No total, você pode criar até 24 assinaturas por relatório ou dashboard e pode fornecer frequências, horas e destinatários exclusivos para cada assinatura. Todas as assinaturas definidas como **Após a Atualização de Dados** do dashboard ou do relatório continuarão somente enviando um email após a primeira atualização agendada.
 
+    > [!NOTE]
+    > Se você editar a assinatura após salvar e fechar, a seleção para permitir acesso aos usuários ao conteúdo que você está assinando será habilitada, independentemente das seleções anteriores.
+    >
+
     > [!TIP]
     > Deseja enviar o email de uma assinatura imediatamente ou sob demanda a qualquer momento? Selecione **Executar Agora** nas assinaturas do dashboard ou do relatório que deseja enviar. Você verá uma notificação indicando que um email está sendo enviado a todos para essa assinatura específica. A execução dessa ação não é calculada no limite de 24 execuções de assinatura agendadas por dia e por relatório ou dashboard. Isso NÃO dispara uma atualização de dados do conjunto de dados subjacente.
     >
@@ -112,6 +116,7 @@ Os administradores do Power BI podem usar os logs de auditoria do Power BI para 
 - Se o painel ou o relatório estiver na capacidade Premium, você poderá usar o alias de email de grupo para assinaturas, em vez de inserir um endereço de email de colega de cada vez na assinatura. Os aliases são baseados no Active Directory atual.
 - Se o conteúdo não estiver em uma capacidade Premium, somente usuários do Power BI Pro poderão receber assinaturas de email. 
 - Atualmente, as assinaturas não dão suporte a indicadores.
+- A opção de fornecer acesso ao relatório/dashboard sempre é exibida como habilitada quando você edita uma assinatura existente.  Se você desmarcar essa opção e salvar a assinatura, ela salvará esse estado. No entanto, quando você for editar o relatório novamente, ela estará marcada por padrão.
 
 ### <a name="dashboards"></a>Dashboards
 

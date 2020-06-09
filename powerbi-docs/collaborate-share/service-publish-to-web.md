@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28e19c750819b883adc2319c171ef1cb7b3125f1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273881"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272967"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web por meio do Power BI
 
@@ -169,8 +169,7 @@ Para organizações menores ou indivíduos que se inscreveram no Power BI, talve
 
 As organizações estabelecidas geralmente já têm um administrador do Power BI. As pessoas em qualquer uma das seguintes funções podem atuar como administradoras do Power BI:
 
-- Administradores do Office 365
-- Administradores do Azure Active Directory
+- Administradores globais
 - Usuários com a função de administrador de serviço do Power BI no Azure Active Directory
 
 Você precisará [encontrar uma dessas pessoas](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) na sua organização e solicitar a elas que atualizem as [configurações de locatário de Publicar na Web](../admin/service-admin-portal.md#publish-to-web) no portal de administração.

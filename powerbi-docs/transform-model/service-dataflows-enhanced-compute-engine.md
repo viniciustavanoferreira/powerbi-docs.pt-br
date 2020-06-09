@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320505"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315892"
 ---
 # <a name="the-enhanced-compute-engine"></a>O mecanismo de computação aprimorado
 
@@ -31,6 +31,9 @@ As seções a seguir descrevem como habilitar o mecanismo de computação aprimo
 O mecanismo de computação aprimorado é habilitado na página **Configurações de Capacidade** do serviço do Power BI, na seção **Fluxos de dados**. Por padrão, o mecanismo de computação aprimorado está **Desativado**. Para ativá-lo, **ative** a alternância, conforme mostrado na imagem a seguir, e salve as configurações. 
 
 ![Ativar o mecanismo de computação aprimorado](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
+
+> [!IMPORTANT]
+> O mecanismo de computação aprimorado funciona apenas para capacidades A3 e superior do Power BI.
 
 Depois de ativar o mecanismo de computação aprimorado, retorne aos fluxos de entrada e você deverá ver uma melhoria no desempenho de qualquer entidade computada que execute operações complexas, como *junções* ou *agrupar por*, para fluxos de dados criados com base nas entidades vinculadas existentes na mesma capacidade. 
 

@@ -1,6 +1,6 @@
 ---
-title: Entidade de serviço com o Power BI
-description: Saiba como registrar um aplicativo no Azure Active Directory usando a entidade de serviço e o segredo de um aplicativo para usar com o conteúdo inserido do Power BI.
+title: Conteúdo inserido do Power BI com a entidade de serviço e um segredo do aplicativo
+description: Saiba como autenticar para a análise integrada usando uma entidade de serviço do aplicativo do Azure Active Directory e um segredo do aplicativo.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/30/2020
-ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.date: 05/12/2020
+ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121201"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315736"
 ---
-# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Conteúdo inserido do Power BI com a entidade de serviço e o segredo do aplicativo
+# <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Conteúdo inserido do Power BI com a entidade de serviço e um segredo do aplicativo
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 Este artigo descreve como a autenticação da entidade de serviço usa a *ID do Aplicativo* e o *Segredo do aplicativo*.
+
+>[!NOTE]
+>Recomendamos que você proteja os seus serviços de back-end usando certificados, em vez de chaves secretas.
+>* [Saiba mais sobre como obter tokens de acesso do Azure AD usando chaves secretas ou certificados](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>* [Conteúdo inserido do Power BI com a entidade de serviço e um certificado](embed-service-principal-certificate.md).
 
 ## <a name="method"></a>Método
 
@@ -54,30 +59,12 @@ Crie um aplicativo do Azure AD usando um destes métodos:
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Como criar o aplicativo do Azure AD no portal do Microsoft Azure
 
-1. Entre no [Microsoft Azure](https://portal.azure.com/#allservices).
-
-2. Pesquise **Registros de aplicativo** e clique no link **Registros de aplicativo**.
-
-    ![registro de aplicativo do azure](media/embed-service-principal/azure-app-registration.png)
-
-3. Clique em **Novo registro**.
-
-    ![novo registro](media/embed-service-principal/new-registration.png)
-
-4. Preencha as informações obrigatórias:
-    * **Nome** – digite um nome para seu aplicativo
-    * **Tipos de conta compatíveis**: selecione a conta do Azure AD de que você precisa
-    * (Opcional) **URI de redirecionamento** – insira um URI, se necessário
-
-5. Clique em **Registrar**.
-
-6. Após o registro, a *ID do Aplicativo* estará disponível na guia **Visão geral**. Copie e salve a *ID do Aplicativo* para uso posterior.
-
-    ![id do aplicativo](media/embed-service-principal/application-id.png)
+[!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
 7. Clique na guia **Certificados e segredos**.
 
      ![id do aplicativo](media/embed-service-principal/certificates-and-secrets.png)
+
 
 8. Clique em **Novo segredo do cliente**
 
@@ -157,7 +144,7 @@ Adicione o grupo de segurança que você criou no Azure AD à seção de grupo d
 
 ![Portal de administração](media/embed-service-principal/admin-portal.png)
 
-## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>Etapa 4 – Adicionar a entidade de serviço como um administrador do novo espaço de trabalho
+## <a name="step-4---add-the-service-principal-to-your-workspace"></a>Etapa 4 – Adicione a entidade de serviço ao seu workspace
 
 Para habilitar seus artefatos de acesso do aplicativo do Azure AD, como relatórios, painéis e conjuntos de dados no serviço do Power BI, adicione a entidade de serviço como um membro ou administrador do seu espaço de trabalho.
 
@@ -181,20 +168,21 @@ Você pode inserir o conteúdo em um aplicativo de exemplo ou em seu próprio ap
 
 Depois de inserir o conteúdo, você estará pronto para [passar para a produção](embed-sample-for-customers.md#move-to-production).
 
-## <a name="considerations-and-limitations"></a>Considerações e limitações
-
-* A entidade de serviço só funciona com [novos workspaces](../../collaborate-share/service-create-the-new-workspaces.md).
-* Não há suporte para **Meu Workspace** ao usar a entidade de serviço.
-* É necessária capacidade dedicada ao passar para produção.
-* Você não pode entrar no portal do Power BI usando a entidade de serviço.
-* Direitos de administrador do Power BI são necessários para habilitar a entidade de serviço nas configurações do desenvolvedor no portal do administrador do Power BI.
-* Os aplicativos [inseridos para sua organização](embed-sample-for-your-organization.md) não podem usar a entidade de serviço.
-* Não há suporte para gerenciamento de [fluxos de dados](../../transform-model/service-dataflows-overview.md).
-* No momento, a entidade de serviço não dá suporte a nenhuma API de administrador.
-* Ao usar uma entidade de serviço com uma fonte de dados do [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), a própria entidade de serviço precisa ter permissões de uma instância do Azure Analysis Services. O uso de um grupo de segurança que contenha a entidade de serviço para essa finalidade não funciona.
+[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>Próximas etapas
 
-* [Power BI Embedded para seus clientes](embed-sample-for-customers.md)
+>[!div class="nextstepaction"]
+>[Registrar um aplicativo](register-app.md)
 
-* [Segurança em nível de linha usando o gateway de dados local com a entidade de serviço](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+> [!div class="nextstepaction"]
+>[Power BI Embedded para seus clientes](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Aplicativo e objetos de entidade de serviço no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
+>[!div class="nextstepaction"]
+>[Segurança em nível de linha usando o gateway de dados local com a entidade de serviço](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+>[!div class="nextstepaction"]
+>[Conteúdo inserido do Power BI com a entidade de serviço e um certificado](embed-service-principal-certificate.md)

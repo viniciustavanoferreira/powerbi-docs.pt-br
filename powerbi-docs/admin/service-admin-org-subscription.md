@@ -1,5 +1,5 @@
 ---
-title: Obter uma assinatura do Power BI para sua organização
+title: Obter uma assinatura do serviço do Power BI para a sua organização
 description: Saiba como se inscrever para uma assinatura de serviço do Power BI como um administrador e adquirir licenças em massa.
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438098"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160032"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>Obter uma assinatura do Power BI para sua organização
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Obter uma assinatura do serviço do Power BI para a sua organização
 
-Administradores podem se inscrever no Power BI na página **Comprar serviços** do Centro de administração do Microsoft 365. Quando um administrador se inscreve para o Power BI, ele pode atribuir licenças para usuários que devem ter acesso.
+Os administradores podem se inscrever no serviço do Power BI na página **Comprar serviços** do centro de administração do Microsoft 365. Quando um administrador se inscreve para o Power BI, ele pode atribuir licenças para usuários que devem ter acesso.
 
 Usuários em sua organização podem se inscrever para o Power BI pelo site do Power BI. Quando usuários em sua organização se inscrevem para o Power BI, eles recebem automaticamente uma licença do Power BI. Se você quiser desligar as funcionalidades de autoatendimento, siga as etapas em [Habilitar ou desabilitar a inscrição e compra por autoatendimento](service-admin-disable-self-service.md).
 

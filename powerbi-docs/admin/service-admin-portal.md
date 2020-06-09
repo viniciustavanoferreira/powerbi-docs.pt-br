@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 460ab380798975065eb90bf904b2b5bacd1edd2c
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733568"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315961"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Como administrar o Power BI no portal de administração
 
@@ -85,7 +85,7 @@ Com essas informações, você fica sabendo como as pessoas estão usando o Powe
 
 ## <a name="control-usage-metrics"></a>Controlar métricas de uso
 
-Os relatórios de métricas de uso são um recurso que o administrador do Power BI ou do Microsoft 365 pode ativar ou desativar. Os administradores têm controle granular sobre quais usuários dispõem de acesso às métricas de uso. Eles estão **ativados** por padrão para todos os usuários na organização.
+Os relatórios de métricas de uso são um recurso que o administrador global ou do Power BI pode ativar ou desativar. Os administradores têm controle granular sobre quais usuários dispõem de acesso às métricas de uso. Eles estão **ativados** por padrão para todos os usuários na organização.
 
 Os administradores também podem determinar se os criadores de conteúdo podem ver dados por usuário nas métricas de uso. 
 
@@ -132,6 +132,9 @@ Para usar os logs de auditoria, verifique se a configuração [**Criar logs de a
 ## <a name="tenant-settings"></a>Configurações de locatário
 
 A guia **Configurações de locatário** possibilita um controle refinado sobre os recursos disponibilizados para sua organização. Se você tiver dúvidas relacionadas a dados confidenciais, talvez alguns dos nossos recursos não sejam adequados para sua organização, ou talvez você queira apenas que um recurso em particular esteja disponível para um grupo específico.
+
+> [!NOTE]
+> As configurações de locatário que controlam a disponibilidade de recursos na interface do usuário do Power BI podem ajudar a estabelecer políticas de governança, mas elas não são uma medida de segurança. Por exemplo, a configuração **Exportar dados** não restringe as permissões de um usuário do Power BI em um conjunto de dados. Os usuários do Power BI com acesso de leitura a um conjunto de dados têm a permissão para consultar esse conjunto de dados e podem persistir os resultados sem usar o recurso **Exportar dados** na interface do usuário do Power BI.
 
 A imagem a seguir mostra as diversas configurações na guia **Configurações de locatário**.
 

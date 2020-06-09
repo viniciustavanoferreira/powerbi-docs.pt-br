@@ -6,19 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3544a5330a21036e0ddecb351fd67b424ca6ebc7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cceeb3c874bf3320b7c826790c46b4cafd6d45a2
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348863"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219481"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Habilitar P e R para conexões dinâmicas no Power BI
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>O que é o gateway de dados local?  O que é uma conexão dinâmica?
-Os conjuntos de dados no Power BI podem ser importados para o Power BI, ou você pode criar uma conexão dinâmica com eles. Conjuntos de dados de conexão dinâmica geralmente são denominados “locais”. As conexões dinâmicas são gerenciadas usando um [gateway](../connect-data/service-gateway-onprem.md) e os dados e as consultas são enviados e recebidos usando consultas dinâmicas.
+
+Você pode importar os conjuntos de dados no Power BI ou criar uma *conexão dinâmica* para eles. Os conjuntos de dados de conexão dinâmica geralmente são locais. Nesse caso, você gerencia conexões dinâmicas usando um [gateway](../connect-data/service-gateway-onprem.md). Os dados e as consultas são enviados e recebidos usando consultas dinâmicas.
+
+> [!NOTE]
+> As conexões dinâmicas também dão suporte a conjuntos de dados do Azure Analysis Services, que não exigem um gateway.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>P e R para conjuntos de dados do gateway de dados local
 Se você quiser usar a P e R com conjuntos de dados que você acessa por meio de um gateway, será necessário habilitá-los primeiro.
@@ -60,7 +63,7 @@ O recurso tem algumas limitações:
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Gateway de dados local](../connect-data/service-gateway-onprem.md)  
+- [On-premises data gateway (Gateway de dados local)](../connect-data/service-gateway-onprem.md)  
 - [Gerenciar sua fonte de dados – Analysis Services](../connect-data/service-gateway-enterprise-manage-ssas.md)  
 - [Conceitos básicos para designers no serviço do Power BI](../fundamentals/service-basic-concepts.md)  
 - [Visão geral de P e R do Power BI](../consumer/end-user-q-and-a.md)  

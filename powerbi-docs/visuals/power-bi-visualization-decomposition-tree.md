@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 7e93e8a08b6dd662f3ada089c5ee8745bb24b3e2
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865558"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337040"
 ---
-# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Criar e exibir visuais de árvore de decomposição no Power BI (versão prévia)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Criar e exibir visuais de árvore hierárquica no Power BI
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
@@ -32,6 +32,9 @@ Este tutorial usa dois exemplos:
 - Um cenário de cadeia de fornecimento que analisa a porcentagem de produtos que uma empresa tem em ordem pendente (fora de estoque).  
 - Um cenário de vendas que divide as vendas de videogames por vários fatores, como gênero e distribuidor do jogo.
 
+Você pode localizar o pbix usado no cenário da cadeia de fornecedores aqui: [Supply Chain Sample.pbix](
+https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix).
+
 > [!NOTE]
 > Compartilhar seu relatório com um colega do Power BI exige que você tenha licenças de Power BI Pro individuais ou que o relatório seja salvo na capacidade Premium.    
 
@@ -39,18 +42,22 @@ Este tutorial usa dois exemplos:
 Selecione o ícone de árvore de decomposição no painel Visualizações.
 ![Marca d' água da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-watermark.png)
 
-A visualização requer dois tipos de entrada.
+A visualização requer dois tipos de entrada:
 
-**Analisar** – a métrica que você gostaria de analisar. Deve ser uma medida ou uma agregação.  
-**Explicar por** – uma ou mais dimensões em que você gostaria de fazer uma busca detalhada.
+ - **Analisar** – a métrica que você gostaria de analisar. Deve ser uma medida ou uma agregação.  
+ - **Explicar por** – uma ou mais dimensões em que você gostaria de fazer uma busca detalhada.
 
-Depois de arrastar a medida para o campo, as atualizações visuais mostram a medida agregada. No exemplo a seguir, estamos visualizando a % média de produtos em ordem pendente (5,07%) ![Nó raiz da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-root.png)
+Depois de arrastar a medida para o campo, as atualizações visuais mostram a medida agregada. No exemplo a seguir, estamos visualizando a porcentagem média de produtos em ordem pendente (5,07%).
+
+![Nó raiz da árvore hierárquica](media/power-bi-visualization-decomposition-tree/tree-root.png)
 
 A próxima etapa é colocar uma ou mais dimensões nas quais você deseja fazer uma busca detalhada. Adicione esses campos ao bucket **Explicar por**. Observe que um sinal de adição aparece ao lado do nó raiz. Selecione o + para escolher qual campo analisar (você pode analisar os campos na ordem que preferir).
+
 ![Menu da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 Selecionar **Desvio de previsão** resulta na expansão da árvore e na divisão da medida pelos valores na coluna. Para repetir esse processo, escolha outro nó para análise.
-![Expansão da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-expansion.png)
+
+![Expansão da árvore hierárquica](media/power-bi-visualization-decomposition-tree/tree-expansion.png)
 
 Selecionar um nó do último nível filtra os dados de forma cruzada. A seleção de um nó de um nível anterior altera o caminho.
 
@@ -72,10 +79,12 @@ Você pode usar "Divisões de IA" para descobrir onde deve procurar os próximos
 
 A análise pode funcionar de duas maneiras, dependendo das suas preferências. O comportamento padrão é o seguinte:
 
-**Valor alto**: considera todos os campos disponíveis e determina qual deles analisar para obter o valor mais alto da medida que está sendo analisada.  
-**Valor baixo**: considera todos os campos disponíveis e determina qual deles analisar para obter o valor mais baixo da medida que está sendo analisada.  
+ - **Valor alto**: considera todos os campos disponíveis e determina qual deles analisar para obter o valor mais alto da medida que está sendo analisada.  
+ - **Valor baixo**: considera todos os campos disponíveis e determina qual deles analisar para obter o valor mais baixo da medida que está sendo analisada.  
 
-A seleção de **Valor alto** no exemplo de ordens pendentes resulta no seguinte: ![Divisão de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
+A seleção de **Valor alto** no exemplo de ordens pendentes resulta no seguinte:
+
+![Divisão de IA da árvore hierárquica](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
 Uma lâmpada aparece ao lado de **Tipo de produto** indicando que foi uma "Divisão de IA". A árvore também fornece uma linha pontilhada que recomenda o nó **Monitoramento do paciente** porque isso resulta no valor mais alto de ordens pendentes (9,2%). 
 
@@ -83,7 +92,9 @@ Passe o mouse sobre a lâmpada para ver uma dica de ferramenta. Neste exemplo, a
 
 Você pode configurar o visual para localizar divisões de IA **Relativas**, ao contrário das **Absolutas**. 
 
-O modo relativo procura valores altos que se destacam (em comparação com o restante dos dados na coluna). Para ilustrar isso, veja um exemplo: ![Divisão absoluta da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
+O modo relativo procura valores altos que se destacam (em comparação com o restante dos dados na coluna). Para ilustrar isso, veja um exemplo:
+
+![Divisão absoluta da árvore hierárquica](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
 Na captura de tela acima, vemos as vendas de videogames na América do Norte. Primeiro, dividimos a árvore por **Nome do distribuidor** e, em seguida, detalhamos Nintendo. A seleção de **Valor alto** resulta na expansão de **Plataforma é Nintendo**. Como Nintendo (o distribuidor) apenas desenvolve os consoles, há apenas um valor presente e, portanto, não é surpreendente ser o valor mais alto.
 
@@ -111,9 +122,13 @@ Se preferir não usar nenhuma divisão de IA na árvore, você também terá a o
 
 ## <a name="tree-interactions-with-ai-splits"></a>Interações de árvore com divisões de IA
 
-Você pode ter vários níveis de IA subsequentes. Você também pode combinar tipos diferentes de níveis de IA (vá de Valor alto para Valor baixo e retorne para Valor alto): ![Caminhos variados de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+Você pode ter vários níveis de IA subsequentes. Você também pode combinar tipos diferentes de níveis de IA (vá de Valor alto para Valor baixo e retorne para Valor alto):
 
-Se você selecionar um nó diferente na árvore, as Divisões de IA serão recalculadas do zero. No exemplo a seguir, alteramos o nó selecionado no nível de **Desvio de previsão**. Os níveis subsequentes são alterados para produzir os Valores altos e baixos corretos nas ![interações de IA da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
+![Múltiplos caminhos de IA da árvore hierárquica](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+
+Se você selecionar um nó diferente na árvore, as Divisões de IA serão recalculadas do zero. No exemplo a seguir, alteramos o nó selecionado no nível de **Desvio de previsão**. Os níveis subsequentes são alterados para suspender os Valores Altos e Baixos corretos.
+
+![Interações de IA da árvore hierárquica](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
 
 Os níveis de IA também são recalculados quando você faz a filtragem cruzada da árvore de decomposição com outro visual. No exemplo a seguir, podemos ver que a % de ordem pendente é mais alta na fábrica 0477.
 
@@ -144,15 +159,11 @@ Não há suporte para a árvore de decomposição nos seguintes cenários:
 
 Não há suporte para as divisões de IA nos seguintes cenários:  
 -   Azure Analysis Services
--   Consulta direta
 -   Servidor de Relatórios do Power BI
 -   Publicar na Web
 -   Medidas e medidas complexas de esquemas de extensões em "Analisar"
 
-Outras limitações de visualização:
-- Power BI Mobile  
-- Fixação no painel
-- Mostrar funcionalidade de dados
+Outras limitações:
 - Suporte dentro de P e R
 
 ## <a name="next-steps"></a>Próximas etapas

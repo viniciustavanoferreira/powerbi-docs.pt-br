@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 09/13/2019
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 38f3b9e40001b5cc3d90d35ed56e768237345e5d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: f28182b8ecfcadae92f64a725622493ebd7a6c61
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119793"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160239"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solucionar problemas de atualização
 
@@ -23,7 +23,14 @@ Aqui você pode encontrar informações sobre cenários diferentes que você pod
 > [!NOTE]
 > Se você encontrar um cenário que não esteja listado abaixo e que esteja causando problemas, solicite ajuda no [site da comunidade](https://community.powerbi.com/) ou crie um [tíquete de suporte](https://powerbi.microsoft.com/support/).
 >
->
+
+Você deve sempre garantir que os requisitos básicos para atualização sejam atendidos e verificados. Esses requisitos básicos incluem:
+
+* Verifique se a versão do gateway está atualizada
+* Verifique se o relatório tem um gateway selecionado. Caso não tenha, a fonte de dados pode ter sido alterada ou pode estar ausente
+
+Depois de confirmar que esses requisitos foram atendidos, dê uma olhada nas seções a seguir para obter mais soluções de problemas. 
+
 
 ## <a name="email-notifications"></a>Notificações por email
 

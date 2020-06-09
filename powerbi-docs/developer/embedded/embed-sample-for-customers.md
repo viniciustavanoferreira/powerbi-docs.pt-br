@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/12/2019
-ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/02/2020
+ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349829"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337063"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Inserir conteúdo do Power BI em um aplicativo para seus clientes
 
@@ -46,7 +46,7 @@ No entanto, se você optar por configurar o ambiente manualmente, você poderá 
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registrar um aplicativo no Azure AD (Azure Active Directory)
 
-[Registre seu aplicativo](register-app.md) no Azure Active Directory para permitir que ele tenha acesso às [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/). Registrando o aplicativo, você pode estabelecer uma identidade para ele e especificar permissões para recursos REST do Power BI. Dependendo de se você deseja usar uma conta mestra ou [entidade de serviço](embed-service-principal.md), determine como começar a registrar um aplicativo.
+[Registre seu aplicativo](register-app.md) no Azure Active Directory para permitir que ele tenha acesso às [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/). Registrando o aplicativo, você pode estabelecer uma identidade para ele e especificar [permissões para recursos REST do Power BI](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Dependendo de se você deseja usar uma conta mestra ou [entidade de serviço](embed-service-principal.md), determine como começar a registrar um aplicativo.
 
 O método você adota afeta o tipo de aplicativo que você registra no Azure.
 
@@ -135,7 +135,7 @@ Para obter a **applicationId**, siga estas etapas:
 
 Esse atributo é necessário para ambos os AuthenticationTypes (conta mestra e [entidade de serviço](embed-service-principal.md)).
 
-Preencha as informações de **workspaceId** com o GUID do workspace (grupo) do Power BI. Você pode obter essas informações da URL quando conectado ao serviço do Power BI ou usando o Powershell.
+Preencha as informações de **workspaceId** com o GUID do workspace (grupo) do Power BI. Você pode obter essas informações da URL, quando estiver conectado ao serviço do Power BI ou quando estiver usando o PowerShell.
 
 URL <br>
 
@@ -147,13 +147,13 @@ PowerShell <br>
 Get-PowerBIworkspace -name "App Owns Embed Test"
 ```
 
-   ![workspaceId do powershell](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
+   ![workspaceId do PowerShell](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
 
 ### <a name="report-id"></a>ID do Relatório
 
 Esse atributo é necessário para ambos os AuthenticationTypes (conta mestra e [entidade de serviço](embed-service-principal.md)).
 
-Preencha as informações de **reportId** com o GUID de relatório do Power BI. Você pode obter essas informações da URL quando conectado ao serviço do Power BI ou usando o Powershell.
+Preencha as informações de **reportId** com o GUID de relatório do Power BI. Você pode obter essas informações da URL, quando estiver conectado ao serviço do Power BI ou quando estiver usando o PowerShell.
 
 URL<br>
 
@@ -165,7 +165,7 @@ PowerShell <br>
 Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 ```
 
-![reportId do powershell](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
+![reportId do PowerShell](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
 
 ### <a name="power-bi-username-and-password"></a>Nome de usuário e senha do Power BI
 
@@ -206,7 +206,7 @@ Para obter o **ApplicationSecret**, siga estas etapas:
 
 Esse atributo é necessário somente para a [entidade de serviço](embed-service-principal.md) AuthenticationType.
 
-Preencha as informações do **locatário** com sua ID de locatário do Azure. Essas informações podem ser obtidas no [centro de administração do Azure AD](/onedrive/find-your-office-365-tenant-id) quando você estiver conectado ao serviço do Power BI ou usando o Powershell.
+Preencha as informações do **locatário** com a sua ID de locatário do Azure. Essas informações estão disponíveis no [Centro de administração do Microsoft Azure AD](/onedrive/find-your-office-365-tenant-id), quando você está conectado ao serviço do Power BI ou quando está usando o PowerShell.
 
 ### <a name="run-the-application"></a>Execute o aplicativo
 

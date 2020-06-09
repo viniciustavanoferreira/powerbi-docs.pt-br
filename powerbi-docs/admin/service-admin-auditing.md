@@ -8,14 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812417"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272668"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Acompanhar atividades do usuário no Power BI
 
@@ -133,9 +133,9 @@ Os logs de auditoria do Power BI estão disponíveis diretamente no [Centro de C
 
 1. Selecione **Logs de Auditoria**.
 
-1. Selecione **Ir para o Centro de Administração do O365**.
+1. Selecione **Acessar o Centro de Administração do Microsoft 365**.
 
-   ![Captura de tela do portal de administração com as opções Logs de auditoria e Ir para o Centro de administração do Microsoft Office 365 exibidas.](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Captura de tela do Portal de administração com as opções Logs de auditoria e Acessar o Centro de Administração do Microsoft 365 exibidas.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ### <a name="search-only-power-bi-activities"></a>Pesquisar somente as atividades do Power BI
 

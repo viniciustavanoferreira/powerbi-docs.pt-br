@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693574"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336810"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar um aplicativo no Power BI
 
@@ -55,7 +55,7 @@ Quando os dashboards e relatórios em seu workspace estiverem prontos, escolha q
 
 3. Em **Instalação**, preencha o nome e a descrição para ajudar as pessoas a encontrar o aplicativo. Defina uma cor de tema para personalizá-lo. Adicione também um link para um site de suporte.
    
-    ![Compilar seu aplicativo](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![Criar seu aplicativo](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. Em **Navegação**, selecione o conteúdo a ser publicado como parte do aplicativo. Em seguida, você adicionará a navegação do aplicativo para organizar o conteúdo em seções. Confira [Projetar a experiência de navegação para seu aplicativo](#design-the-navigation-experience) neste artigo para obter detalhes.
    
@@ -209,10 +209,11 @@ Coisas para se lembrar a respeito da publicação de aplicativos:
 * Para a nova experiência de workspace, se o usuário adicionado à lista de acesso do aplicativo já tiver acesso ao aplicativo por meio do workspace, ele não será mostrado na lista de acesso do aplicativo.  
 * Ao usar a nova aparência do serviço do Power BI, a URL do site de suporte é mostrada no cartão de informações do item. Leia mais sobre a ['nova aparência' do Power BI](../consumer/service-new-look.md).
 * Os aplicativos têm uma opção para permitir que os usuários compartilhem o aplicativo e os conjuntos de dados subjacentes do aplicativo usando a permissão de compartilhamento. Para novos aplicativos, essa opção está desativada por padrão. Recomendamos desativar essa opção para os aplicativos existentes e atualizar a permissão nos conjuntos de dados subjacentes. A opção foi habilitada para os aplicativos existentes porque os aplicativos foram inicialmente projetados para substituir pacotes de conteúdo, que tinham esse comportamento.
+* Os aplicativos podem ter no máximo 200 dashboards. 
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Criar um workspace](service-create-workspaces.md)
 * [Instalar e usar aplicativos no Power BI](../consumer/end-user-apps.md)
 * [Aplicativos do Power BI para serviços externos](../connect-data/service-connect-to-services.md)
 * [Portal de administração do Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)
-* Perguntas? [Experimente perguntar para a Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

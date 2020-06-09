@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d0dcc80c358fa4c6f0768d515c399a3f381bfe7
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301323"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273358"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Solução de problemas de importação de arquivos .xls do Access e do Excel no Power BI Desktop
 
@@ -30,7 +30,7 @@ Se a mensagem de erro do Power BI Desktop indicar que o mecanismo de banco de da
 
 ## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>Situação 2: A versão de bits do mecanismo de banco de dados do Access (32 ou 64 bits) é diferente da versão de bits do Power BI Desktop
 
-Essa situação geralmente ocorre quando a versão instalada do Microsoft Office é de 32 bits e a versão do Power BI Desktop instalada é de 64 bits. O oposto pode ocorrer também e a incompatibilidade de versão de bits ocorrerá em ambos os casos. Se você estiver usando uma assinatura do Office 365, confira a [Situação 3](#situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription) para ver um problema diferente e a resolução. Qualquer uma das seguintes soluções pode corrigir esse erro de incompatibilidade de versão de bits:
+Essa situação geralmente ocorre quando a versão instalada do Microsoft Office é de 32 bits e a versão do Power BI Desktop instalada é de 64 bits. O oposto pode ocorrer também e a incompatibilidade de versão de bits ocorrerá em ambos os casos. Se você estiver usando uma assinatura do Microsoft 365, confira a [Situação 3](#situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription) para ver um problema diferente e a resolução. Qualquer uma das seguintes soluções pode corrigir esse erro de incompatibilidade de versão de bits:
 
 ### <a name="solution-1"></a>Solução 1
 
@@ -79,9 +79,9 @@ Para instalar as duas versões de bits do mecanismo de banco de dados do Access,
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Situação 3: Problemas para utilizar o Access ou arquivos .XLS com uma assinatura do Office 365
+## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>Situação 3: Problemas para usar arquivos .XLS ou o Access com uma assinatura do Microsoft 365
 
-Se você estiver usando uma assinatura do Office 365, **Office 2013** ou **Office 2016**, o provedor do mecanismo de banco de dados do Access será registrado em uma localização do Registro virtual que *só* pode ser acessada pelos processos do Microsoft Office. Como resultado, o Mecanismo de Mashup (que é responsável por executar o Excel fora do Office 365 e o Power BI Desktop e não é um processo do Office) não pode usar o provedor do mecanismo de banco de dados do Access.
+Se você estiver usando uma assinatura do Microsoft 365, seja ela o **Office 2013** ou o **Office 2016**, o provedor do Mecanismo de Banco de Dados do Access será registrado em uma localização do Registro virtual que *só* poderá ser acessada pelos processos do Microsoft Office. Como resultado, o Mecanismo de Mashup (que é responsável por executar o Excel fora do Office 365 e o Power BI Desktop e não é um processo do Office) não pode usar o provedor do mecanismo de banco de dados do Access.
 
 Para corrigir essa situação, [baixe e instale o componente redistribuível do mecanismo de banco de dados do Access](https://www.microsoft.com/download/details.aspx?id=13255) que corresponde à versão de bits da instalação do Power BI Desktop. Para obter mais informações sobre versões de bits, confira as seções anteriores deste artigo.
 

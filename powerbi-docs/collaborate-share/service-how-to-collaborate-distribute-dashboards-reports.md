@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c71467a279ed3a2304d6af82f7493dac97425c4f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 68ead14063c290c8ec9db5cb24814b93e493ea6b
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348081"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272944"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Maneiras de compartilhar seu trabalho no Power BI
 
@@ -82,7 +82,7 @@ Digamos que você tenha finalizado um dashboard e um relatório em seu próprio 
 
 ![Compartilhar um relatório](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-É necessário ter uma licença do Power BI Pro para compartilhar o conteúdo e as pessoas com quem você o compartilha também precisam ou o conteúdo precisa estar em um espaço de trabalho em uma [capacidade Premium](../admin/service-premium-what-is.md). Quando você compartilha um dashboard ou relatório, os destinatários podem exibi-lo e interagir com ele, mas não podem editá-lo. Elas veem os mesmos dados que você no dashboard e nos relatórios, a menos que a RLS (Segurança em Nível de Linha) seja aplicada ao conjunto de dados subjacente. Os colegas com quem você o compartilha podem compartilhá-lo com os colegas deles, se você permitir. 
+É necessário ter uma licença do Power BI Pro para compartilhar o conteúdo e as pessoas com quem você o compartilha também precisam ou o conteúdo precisa estar em um espaço de trabalho em uma [capacidade Premium](../admin/service-premium-what-is.md). Quando você compartilha um dashboard ou relatório, os destinatários podem exibi-lo e interagir com ele, mas não podem editá-lo. Eles veem os mesmos dados que você no dashboard ou relatam e obtêm acesso a todos os dados no conjunto de dados subjacente, a menos que a [RLS (segurança em nível de linha)](../admin/service-admin-rls.md) seja aplicada. Os colegas com quem você o compartilha podem compartilhá-lo com os colegas deles, se você permitir. 
 
 Você também pode compartilhar com pessoas de fora da sua organização. Elas também podem exibir o dashboard ou relatório ou interagir com ele também, mas não podem compartilhá-lo. 
 

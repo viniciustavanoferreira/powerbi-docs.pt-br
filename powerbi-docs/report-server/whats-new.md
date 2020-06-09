@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/27/2020
-ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/27/2020
+ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
+ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565136"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126286"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
 
@@ -23,9 +23,56 @@ Baixe o [Servidor de Relatórios do Power BI e o Power BI Desktop otimizado para
 
 Para saber mais sobre as “Novidades” do Power BI, consulte:
 
-* [Novidades no serviço do Power BI](../fundamentals/service-whats-new.md)
-* [Novidades no Power BI Desktop](../fundamentals/desktop-latest-update.md)
-* [Novidades em aplicativos móveis para o Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+- [Novidades no serviço do Power BI](../fundamentals/service-whats-new.md)
+- [Novidades no Power BI Desktop](../fundamentals/desktop-latest-update.md)
+
+## <a name="may-2020"></a>Maio de 2020
+
+Entre os destaques dessa atualização estão os visuais de segmentação hierárquica e de árvore hierárquica e o diagnóstico de consulta. O que vem a seguir é uma lista completa de recursos novos e atualizados. Para obter detalhes, confira a [postagem no blog de maio de 2020 sobre o Servidor de Relatórios do Power BI](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/). 
+
+### <a name="reporting"></a>Relatórios
+
+- Segmentação hierárquica
+- Novos tipos de ação para botões:
+
+    - Navegação na página
+    - Detalhamento
+
+- Os botões agora são compatíveis com imagens de preenchimento
+- Classificação de várias colunas para tabelas
+- Eixo duplo para gráficos de linhas
+- Seleção de retângulo para visuais
+- Formatação condicional para totais e subtotais em tabelas e matrizes
+- Personalizar a caixa de diálogo do tema
+- Capacidade de descoberta da formatação condicional
+- Árvore de decomposição
+- Atualizações do painel de filtro:
+
+    - Nova experiência do painel de filtro
+    - Pesquisa do painel de filtro
+    
+### <a name="modeling"></a>Modelagem
+
+- Novas funções do DAX:
+
+    - FirstNonBlankValue
+    - LastNonBlankValue
+    - Coalesce
+
+- Separadores DAX padrão
+
+### <a name="visualizations"></a>Visualizações
+
+- Novos ícones de visualização
+- Sombras visuais
+
+### <a name="data-preparation"></a>Preparação de dados
+
+- Diagnóstico de consulta
+
+### <a name="other"></a>Outros
+
+- Usar as credenciais padrão do sistema para o proxy Web
 
 ## <a name="january-2020"></a>Janeiro de 2020
 
@@ -561,13 +608,13 @@ Esta versão é compatível com escalabilidade horizontal. Use um balanceador de
 
 Os administradores podem definir as seguintes propriedades nas Propriedades Avançadas do SSMS para o farm de servidores:
 
-* EnableCustomVisuals: Verdadeiro/Falso
-* EnablePowerBIReportEmbeddedModels: Verdadeiro/Falso
-* EnablePowerBIReportExportData: Verdadeiro/Falso
-* MaxFileSizeMb: agora, o padrão é 1000
-* ModelCleanupCycleMinutes: a frequência de verificação para remover modelos da memória
-* ModelExpirationMinutes: quanto tempo levará até o modelo expirar e ser removido, com base no último uso
-* ScheduleRefreshTimeoutMinutes: quanto tempo pode demorar a atualização de dados para um modelo. O padrão é duas horas.  Não há nenhum limite máximo.
+- EnableCustomVisuals: Verdadeiro/Falso
+- EnablePowerBIReportEmbeddedModels: Verdadeiro/Falso
+- EnablePowerBIReportExportData: Verdadeiro/Falso
+- MaxFileSizeMb: agora, o padrão é 1000
+- ModelCleanupCycleMinutes: a frequência de verificação para remover modelos da memória
+- ModelExpirationMinutes: quanto tempo levará até o modelo expirar e ser removido, com base no último uso
+- ScheduleRefreshTimeoutMinutes: quanto tempo pode demorar a atualização de dados para um modelo. O padrão é duas horas.  Não há nenhum limite máximo.
 
 **Arquivo de configuração rsreportserver.config**
 
@@ -597,9 +644,9 @@ O Excel e o Power BI contêm um portfólio de ferramentas que é exclusivo no se
 
 Publicamos um [passo a passo de como adicionar um OOS (Servidor do Office Online) em seu ambiente de versão prévia do Servidor de Relatórios do Power BI](excel-oos.md). Os clientes que têm uma conta de Licenciamento por Volume podem baixar o OOS do Centro de Manutenção da Licença de Volume sem nenhum custo e terão a funcionalidade somente exibição. Uma vez configuradas, os usuários poderão exibir e interagir com as pastas de trabalho do Excel que:
 
-* Não tiverem nenhuma dependência de fonte de dados externa
-* Tiverem uma conexão dinâmica com uma fonte de dados externa do SQL Server Analysis Services
-* Tiver um modelo de dados PowerPivot
+- Não tiverem nenhuma dependência de fonte de dados externa
+- Tiverem uma conexão dinâmica com uma fonte de dados externa do SQL Server Analysis Services
+- Tiver um modelo de dados PowerPivot
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>Suporte para os novos elementos visuais de matriz e de tabela
 
@@ -607,22 +654,21 @@ O Servidor de Relatórios do Power BI agora é compatível com os novos elemento
 
 ## <a name="june-2017"></a>Junho de 2017
 
-* Servidor de Relatório do Power BI disponibilizado para o público geral (GA).
+- Servidor de Relatório do Power BI disponibilizado para o público geral (GA).
 
 ## <a name="may-2017"></a>Maio de 2017
 
-* Visualização do Servidor de Relatório do Power BI disponibilizada
-* Capacidade de publicar relatórios do Power BI local
-  * Suporte para visuais do Power BI
-  * Suporte para **conexões dinâmicas do Analysis Services** somente com as novas fontes de dados que serão fornecidas.
-  * Aplicativo Power BI para Celulares atualizado para exibir relatórios do Power BI hospedados no Servidor de Relatório do Power BI
-* Colaboração aprimorada em relatórios com comentários
+- Visualização do Servidor de Relatório do Power BI disponibilizada
+- Capacidade de publicar relatórios do Power BI local
+  - Suporte para visuais do Power BI
+  - Suporte para **Conexões dinâmicas do Analysis Services* – somente com as novas fontes de dados que serão fornecidas.
+  - Aplicativo Power BI para Celulares atualizado para exibir relatórios do Power BI hospedados no Servidor de Relatório do Power BI
+- Colaboração aprimorada em relatórios com comentários
 
 ## <a name="next-steps"></a>Próximas etapas
 
 Verifique essas fontes para ficar atualizado sobre os novos recursos no Servidor de Relatórios do Power BI.
 
-* [Blog do Microsoft Power BI](https://powerbi.microsoft.com/blog/)
-* O [canal do YouTube Guy in a Cube](https://aka.ms/guyinacube)
+- [Blog do Microsoft Power BI](https://powerbi.microsoft.com/blog/)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

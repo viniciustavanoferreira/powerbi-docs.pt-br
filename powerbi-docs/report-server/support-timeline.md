@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/03/2020
-ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/27/2020
+ms.openlocfilehash: 288e511c38df0326d07fad87f5d239cd5b0cfec0
+ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77527558"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126263"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Linha do tempo de suporte para Servidor de Relatório do Power BI
 
@@ -35,9 +35,10 @@ Essa política de suporte nos permite fornecer inovação para os clientes em ri
 | Março de 2018 | 19 de março de 2018 | Não é mais compatível |
 | Agosto de 2018 | 15 de agosto de 2018 | Não é mais compatível |
 | Janeiro de 2019 | 23 de janeiro de 2019 | Não é mais compatível |
-| Maio de 2019 | 22 de maio de 2019 | 22 de maio de 2020 |
+| Maio de 2019 | 22 de maio de 2019 | Não é mais compatível |
 | Setembro de 2019 | Setembro de 2019 | Setembro de 2020 
 | Janeiro de 2020 | Janeiro de 2020 | Janeiro de 2021
+| Maio de 2020 | Maio de 2020 | Maio de 2021
 
 Para baixar o Servidor de Relatório do Power BI e o Power BI Desktop otimizado para o Servidor de Relatório do Power BI, acesse [Relatórios locais com o Servidor de Relatório do Power BI](https://powerbi.microsoft.com/report-server/).
 

@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/26/2019
+ms.date: 06/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7c9ba490a2cc30d42fee4f2317dbf5d4026ab59a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1ff21d0508889fecda5022edb0e48714c8be3ed6
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83299690"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337086"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Atualização automática de página no Power BI Desktop (visualização)
 
@@ -25,7 +25,7 @@ O recurso APR (Atualização automática de página) do Power BI permite que a p
 
 ## <a name="using-automatic-page-refresh"></a>Uso da atualização automática de página
 
-Nesta versão prévia, você deve habilitar o recurso de atualização automática de página no Power BI Desktop. Vá para **Arquivo > Opções e configurações** e selecione **Opções** e **Recursos de visualização** no painel à esquerda. Habilite o recurso marcando a caixa de seleção ao lado de *Atualização automática de página*. A atualização automática de página está disponível somente para fontes de dados do DirectQuery.
+Nesta versão prévia, você deve habilitar o recurso de atualização automática de página no Power BI Desktop. Vá para **Arquivo > Opções e configurações** e selecione **Opções** e **Recursos de visualização** no painel à esquerda. Habilite o recurso marcando a caixa de seleção ao lado de *Atualização automática de página*. A atualização automática de página está disponível *somente* para fontes de dados do DirectQuery.
 
 Para usar a atualização automática de página, selecione a página de relatório cuja atualização você deseja habilitar. No painel de **Visualizações**, selecione o ícone **Formatação** (um rolo de pintura) e localize **Atualização de página** próximo da parte inferior do painel. 
 
@@ -121,15 +121,15 @@ Confira alguns detalhes dos dois cenários de workspaces:
 
  1. *Ativar/desativar recurso*: se o administrador da capacidade decidiu desabilitar o recurso, você não conseguirá configurar nenhum tipo de atualização de página em seu relatório publicado.
 
- 2. *Intervalo mínimo de atualização*: ao habilitar esse recurso, o administrador da capacidade deve configurar um intervalo mínimo de atualização. Se o intervalo for menor do que o mínimo, o serviço do Power BI substituirá o intervalo para respeitar o intervalo mínimo definido pelo administrador de capacidade.
+ 2. *Intervalo mínimo de atualização*: ao habilitar esse recurso, o administrador da capacidade deve configurar um intervalo mínimo de atualização. Se o intervalo for menor do que o mínimo, o serviço do Power BI *substituirá* o seu intervalo para respeitar o intervalo mínimo definido pelo administrador de capacidade. Essa substituição é conhecida como *Substituição do administrador de capacidade* na tabela a seguir. 
 
-A tabela a seguir descreve com mais detalhes onde esse recurso está disponível e os limites para cada tipo de capacidade e [modo de armazenamento](../connect-data/service-dataset-modes-understand.md)
+A tabela a seguir descreve com mais detalhes onde esse recurso está disponível e os limites para cada tipo de capacidade e [modo de armazenamento](../connect-data/service-dataset-modes-understand.md):
 
 | Modo de armazenamento | Capacidade dedicada | Capacidade compartilhada |
 | --- | --- | --- |
 | Consulta direta | **Compatível**: sim. <br>**Intervalo mínimo de atualização**: 1 segundo <br>**Substituição da capacidade pelo administrador**: sim. | **Compatível**: sim. <br>**Intervalo mínimo de atualização**: 30 minutos <br>**Substituição da capacidade pelo administrador**: não. |
 | Importar | **Compatível**: não. <br>**Intervalo mínimo de atualização**: N/D. <br>**Substituição da capacidade pelo administrador**: N/D. | **Compatível**: não. <br>**Intervalo mínimo de atualização**: N/D. <br>**Substituição da capacidade pelo administrador**: N/D. |
-| Modo misto (DQ + outros) | **Compatível**: sim. <br>**Intervalo mínimo de atualização**: 1 segundo <br>**Substituição da capacidade pelo administrador**: sim. | **Compatível**: sim. <br>**Intervalo mínimo de atualização**: 30 minutos <br>**Substituição da capacidade pelo administrador**: não. |
+| Modo Misto (DirectQuery + outras fontes de dados) | **Compatível**: sim. <br>**Intervalo mínimo de atualização**: 1 segundo <br>**Substituição da capacidade pelo administrador**: sim. | **Compatível**: sim. <br>**Intervalo mínimo de atualização**: 30 minutos <br>**Substituição da capacidade pelo administrador**: não. |
 | Live Connect | **Compatível**: não. <br>**Intervalo mínimo de atualização**: N/D. <br>**Substituição da capacidade pelo administrador**: N/D. | **Compatível**: não. <br>**Intervalo mínimo de atualização**: N/D. <br>**Substituição da capacidade pelo administrador**: N/D. |
 | Live Connect PBI | **Compatível**: não. <br>**Intervalo mínimo de atualização**: N/D. <br>**Substituição da capacidade pelo administrador**: N/D. | **Compatível**: não. <br>**Intervalo mínimo de atualização**: N/D. <br>**Substituição da capacidade pelo administrador**: N/D. |
 
@@ -186,7 +186,7 @@ Esta seção fornece perguntas comuns e suas respostas
     * As alterações de configuração de atualização automática de página feitas na interface do usuário do administrador de capacidade demoram até 5 minutos para serem propagadas para relatórios.
     * Além de ativar a atualização automática de página para a capacidade, você também precisa ativá-la para as páginas de um relatório em que deseja que ela ocorra.
 
-3. Meu relatório está operando no modo misto (DQ + Importar). Nem todos os visuais estão sendo atualizados.
+3. O meu relatório está operando no modo misto (o modo misto significa que o relatório tem uma conexão DirectQuery e uma fonte de dados de Importação). Nem todos os visuais estão sendo atualizados.
 
     * Se os elementos visuais fizerem referência a tabelas do Importar, isso será esperado. O Importar não dá suporte à atualização automática de página.
     * Confira a pergunta 1 nesta seção.
@@ -211,6 +211,7 @@ Esta seção fornece perguntas comuns e suas respostas
 Para obter mais informações, consulte os seguintes artigos:
 
 * [Usar o DirectQuery no Power BI](../connect-data/desktop-directquery-about.md)
+* [Usar modelos compostos no Power BI Desktop](../transform-model/desktop-composite-models.md)
 * [Usar o Performance Analyzer para examinar o desempenho do elemento de relatório](desktop-performance-analyzer.md)
 * [Implantar e gerenciar capacidades do Power BI Premium](../guidance/whitepaper-powerbi-premium-deployment.md)
 * [Fontes de dados no Power BI Desktop](../connect-data/desktop-data-sources.md)

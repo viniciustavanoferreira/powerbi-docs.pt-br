@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e8c45145695d61bcd7173e2202db98ec306c4b4d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404021"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336856"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registrar um aplicativo do Azure AD para usar com o Power BI
 
@@ -54,7 +54,7 @@ Veja aqui como registrar seu aplicativo com a Ferramenta de Registro de Aplicati
 
 5. Se você selecionou **Aplicativo Web do lado do servidor** para o tipo de aplicativo, continue com a inserção de um valor para **URL da Página Inicial** e **URL de Redirecionamento**. A **URL de redirecionamento** funciona com qualquer URL válida e deve corresponder ao aplicativo que você criou. Se você selecionou **nativo**, vá para a etapa 6.
 
-6. Escolha as APIs do Power BI de que seu aplicativo precisa. Para obter mais informações sobre as permissões de acesso do Power BI, veja [Permissões do Power BI](power-bi-permissions.md). Em seguida, selecione **Registrar**.
+6. Escolha as APIs do Power BI de que seu aplicativo precisa. Para obter mais informações sobre permissões de acesso do Power BI, consulte [Permissões e consentimento no ponto de extremidade da plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Em seguida, selecione **Registrar**.
 
     ![Escolher APIs para registrar](media/register-app/register-app-new-app-registration-apis-register.png)
 

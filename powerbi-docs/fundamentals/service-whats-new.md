@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813337"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273059"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
@@ -646,7 +646,7 @@ Confira o [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 * Com a atualização do serviço da semana, ao criar novos relatórios, agora você pode escolher entre vários tamanhos de página, bem como definir seu próprio tamanho de página. Isso controla o tamanho e a taxa de proporção de cada página no relatório.
 * Adicionamos mais suporte à formatação de visual para imagens e gráficos de bolhas. Você pode bloquear a proporção durante o redimensionamento de imagens para evitar a distorção da imagem, e as bolhas do gráfico de dispersão podem ser configuradas para serem preenchidas ou não.
 * Atualmente, o Power BI enviará convites de compartilhamento para um endereço de email alternativo. Quando um painel é compartilhado com você, enviaremos o link de convite de compartilhamento para seu endereço de email original e seu endereço de email alternativo (se você o tiver configurado).
-* O Power BI está disponível para todos os clientes, incluindo aqueles na arquitetura de Dedicado no Multilocatário (DonMT) O365. Você usará o Power BI como um serviço compartilhado no modo de multilocatário. Na maioria dos casos, você pode se registrar no Power BI seguindo o [processo de inscrição por autoatendimento](https://powerbi.microsoft.com/) simples – basta inserir seu endereço de email de trabalho, inserir seu nome e senha para começar. Se você é o administrador de locatário, você pode atribuir licenças aos usuários usando as instruções descritas [aqui](https://go.microsoft.com/fwlink/?LinkId=627174).
+* O Power BI está disponível a todos os clientes, incluindo aqueles na arquitetura de DonMT (Dedicado no Multilocatário) do Microsoft 365. Você usará o Power BI como um serviço compartilhado no modo de multilocatário. Na maioria dos casos, você pode se registrar no Power BI seguindo o [processo de inscrição por autoatendimento](https://powerbi.microsoft.com/) simples – basta inserir seu endereço de email de trabalho, inserir seu nome e senha para começar. Se você é o administrador de locatário, você pode atribuir licenças aos usuários usando as instruções descritas [aqui](https://go.microsoft.com/fwlink/?LinkId=627174).
 * Os Logs de Auditoria do Azure permitem que você exiba logs operacionais do plano de controle em sua assinatura do Azure. O conteúdo de pacote dos Logs de Auditoria do Azure do Power BI pode ajudá-lo a analisar e visualizar facilmente a riqueza das informações contidas nesses logs. O pacote de conteúdo permite que você se conecte aos seus dados e comece a descobrir informações com o painel e relatórios prontos para uso. Leia nosso [blog](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) e a [documentação online](../connect-data/service-connect-to-services.md) para obter mais informações.
 
 [Saiba mais em nosso blog](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).

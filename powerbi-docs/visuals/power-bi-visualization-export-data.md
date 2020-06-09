@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813590"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337017"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportar os dados que foram usados para criar uma visualização
 
@@ -154,24 +154,26 @@ Quando você seleciona **Exportar**, o Power BI exporta os dados para um arquivo
 
     - Uma vez que aplicamos filtros à visualização, os dados serão exportados da maneira que foram filtrados. Observe que a primeira linha exibe **Filtros aplicados: a cidade não é Atlanta, GA**. 
 
-## <a name="protecting-proprietary-data"></a>Como proteger dados proprietários
+## <a name="customize-the-export-data-user-experience"></a>Personalizar a experiência do usuário de exportação de dados
 
-Seu conjunto de dados pode ter conteúdo que não deve ser visto por todos os usuários. Se você não tiver cuidado, a exportação de dados subjacentes poderá permitir que os usuários vejam todos os dados detalhados desse visual, cada coluna e cada linha nos dados. 
+Os usuários com acesso permitido a um relatório têm o **acesso permitido a todo o conjunto de dados subjacente**, a menos que a RLS (segurança em nível de linha) (../admin/service-admin-rls.md) limite o acesso. Os autores de relatório e os administradores do Power BI podem usar as funcionalidades descritas abaixo para personalizar a experiência do usuário.
 
-Há várias estratégias que os administradores e designers do Power BI devem usar para proteger os dados proprietários. 
+- Os autores de relatório [decidem quais *opções de exportação*](#set-the-export-options) estão disponíveis para os usuários.  
 
-- Os designers [decidem quais *opções de exportação*](#set-the-export-options) estão disponíveis para os usuários.  
-
-- Os administradores do Power BI podem desligar a exportação de dados para sua organização. 
+- Os administradores do Power BI podem desligar a algumas ou todas as opções de exportação de dados da organização.  
 
 - Os proprietários do conjunto de dados podem definir a RLS (Segurança em Nível de Linha). A RLS restringirá o acesso a usuários somente leitura. Porém, se você tiver configurado um workspace de aplicativo e os membros receberem permissões para editar, as funções RLS não serão aplicadas a eles. Para saber mais, confira [Segurança em nível de linha](../admin/service-admin-rls.md).
 
-- Os designers de relatórios podem ocultar colunas para que não apareçam na lista **Campos**. Para obter mais informações, confira [Propriedades do conjunto de dados](../developer/automation/api-dataset-properties.md)
+- Os autores de relatórios podem ocultar colunas para que elas não apareçam na lista **Campos**. Para obter mais informações, confira [Propriedades do conjunto de dados](../developer/automation/api-dataset-properties.md)
 
-- Os administradores do Power BI podem adicionar [rótulos de sensibilidade](../admin/service-security-data-protection-overview.md) a dashboards, relatórios, conjuntos de gráficos e fluxos de dados. Em seguida, eles podem impor as configurações de proteção, como criptografia ou marcas d'água, ao exportar dados. 
 
-- Os administradores do Power BI pode usar o [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) para monitorar o acesso e a atividade do usuário, executar a análise de risco em tempo real e definir controles específicos do rótulo. Por exemplo, as organizações podem usar o Microsoft Cloud App Security para configurar uma política que impede que os usuários baixem dados confidenciais do Power BI para dispositivos não gerenciados. 
+**Essa experiência de usuário personalizada não restringe quais dados os usuários podem acessar no conjunto de dados. Use a [RLS (segurança em nível de linha)](../admin/service-admin-rls.md) no conjunto de dados para que as credenciais de cada pessoa determinem quais dados elas podem acessar.**
 
+## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>Proteger dados quando eles são exportados do Power BI
+
+- Os autores de relatório podem aplicar [rótulos de confiabilidade](../admin/service-security-data-protection-overview.md) a relatórios.  Esses rótulos determinam quem pode acessar os dados do relatório e como esses dados são exportados para Excel, PowerPoint e PDF. Alguns níveis de confiabilidade incluem configurações de proteção (por exemplo, permissões, criptografia) que são aplicadas quando os dados são exportados. Se o nível de confiabilidade incluir configurações de proteção, essas configurações serão aplicadas quando você exportar dados para Excel, PowerPoint e PDF. Somente aqueles com as permissões apropriadas poderão exportar, exibir, salvar e compartilhar os dados do relatório. 
+
+- Os administradores do Power BI e de segurança podem usar o [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) para monitorar o acesso e a atividade do usuário, executar a análise de risco em tempo real e definir controles específicos do rótulo. Por exemplo, as organizações podem usar o Microsoft Cloud App Security para configurar uma política que impede que os usuários baixem dados confidenciais do Power BI para dispositivos não gerenciados.
 
 ## <a name="export-underlying-data-details"></a>Exportar detalhes dos dados subjacentes
 

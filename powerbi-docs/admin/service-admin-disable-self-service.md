@@ -1,6 +1,6 @@
 ---
 title: Habilitar ou desabilitar a inscrição e a compra por autoatendimento
-description: Informações sobre como os administradores podem desativar a capacidade dos usuários de se inscreverem para o Power BI e comprarem uma licença.
+description: Informações sobre como os administradores podem desligar a capacidade dos usuários de se inscreverem para o serviço do Power BI e comprarem ou atualizarem uma licença.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 561d8b6cd0e17e885ced984315a04376400a2a58
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 751db634ceb9e7d6349b35f7348b09e0c0d648ed
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447500"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160055"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>Habilitar ou desabilitar a inscrição e a compra por autoatendimento
 

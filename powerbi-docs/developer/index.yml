@@ -13,15 +13,15 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
+  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80487804"
+  ms.lasthandoff: 06/16/2020
+  ms.locfileid: "84795037"
 highlightedContent:
   items:
-  - title: Análise de Texto com o Power BI
+  - title: Análise integrada com o Power BI
     itemType: overview
     url: embedded/embedding.md
   - title: O que é o Power BI Embedded no Azure?
@@ -39,7 +39,7 @@ conceptualContent:
     links:
     - url: embedded/embedding.md
       itemType: overview
-      text: Análise de Texto com o Power BI
+      text: Análise integrada com o Power BI
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
       text: O que é o Power BI Embedded no Azure?
@@ -48,7 +48,7 @@ conceptualContent:
       text: Capacidade e SKUs
     footerLink:
       url: embedded/index.yml
-      text: Ver mais
+      text: Veja mais
   - title: Visuais do Power BI
     links:
     - url: visuals/power-bi-custom-visuals.md
@@ -62,7 +62,7 @@ conceptualContent:
       text: Publicar visuais do Power BI no Partner Center
     footerLink:
       url: visuals/index.yml
-      text: Ver mais
+      text: Veja mais
   - title: Automação
     links:
     - url: automation/overview-of-power-bi-rest-api.md
@@ -76,7 +76,7 @@ conceptualContent:
       text: Configurar credenciais
     footerLink:
       url: automation/index.yml
-      text: Ver mais
+      text: Veja mais
 additionalContent:
   sections:
   - title: Ferramentas relacionadas
@@ -95,7 +95,7 @@ additionalContent:
       url: https://powerbi.microsoft.com/developers/
     - title: Exemplos de visuais do Power BI
       summary: Uma coleção de exemplos do Power BI e as respectivas bibliotecas de códigos.
-      url: https://microsoft.github.io/PowerBI-visuals/samples/
+      url: visuals/samples.md
     - title: Bibliotecas do Power BI
       summary: Bibliotecas do Power BI (NuGet).
       url: https://www.nuget.org/profiles/powerbi

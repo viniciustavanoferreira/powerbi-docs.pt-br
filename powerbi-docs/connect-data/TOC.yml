@@ -122,6 +122,8 @@
               href: desktop-connect-to-web.md
             - name: Conectar-se a um depósito de computação Snowflake
               href: desktop-connect-snowflake.md
+            - name: Conectar-se ao Snowflake no serviço do Power BI
+              href: service-connect-snowflake.md
             - name: Criar visuais com o conector Gerenciamento de Custos do Azure
               href: desktop-connect-azure-cost-management.md
             - name: Conectar-se aos dados do Azure Consumption Insights

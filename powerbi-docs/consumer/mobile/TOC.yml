@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: Conheça a página inicial
           href: mobile-apps-home-page.md
-    - name: Inícios rápidos
+    - name: Início rápido
       expanded: true
       items:
         - name: Explorar painéis e relatórios
@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: integração de pesquisa de dispositivo iOS
               href: mobile-apps-iOS-search-integration.md
+            - name: Modo escuro
+              href: mobile-apps-dark-mode.md
             - name: Aplicativo Power BI Apple Watch
               href: mobile-apple-watch.md
         - name: Dispositivos Android
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: Exibir relatórios e KPIs locais
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Exibir o Power BI no Surface Hub
+            - name: Modo de apresentação em dispositivos Surface Hub e Windows 10
               href: mobile-windows-10-app-presentation-mode.md
             - name: Logon único no aplicativo do Windows
               href: mobile-windows-10-app-single-sign-on-sso.md

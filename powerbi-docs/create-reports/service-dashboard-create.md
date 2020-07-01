@@ -6,15 +6,15 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 4b75e0058c1624040ab037d5f64ac0275788576d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 18fae9e7bca385ee10fed90649430a8062054b2e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349553"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219564"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI de um relatório
 Você já leu [Introdução a dashboards no Power BI](service-dashboards.md) e agora deseja criar o seu próprio. Há diferentes maneiras de criar um painel. Por exemplo, é possível criar um dashboard com base em um relatório, do zero, com base em um conjunto de dados ou duplicando um existente.  

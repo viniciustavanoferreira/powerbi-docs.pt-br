@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d4d01c7c8b57dda6667ffcd744a7d914ff936b09
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565800"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231049"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Otimizar um painel para telefones celulares – Power BI 
 Ao exibir painéis no modo retrato em um celular, observe que os blocos do painel são dispostos um após o outro, todos com o mesmo tamanho. No serviço do Power BI, você pode criar uma exibição personalizada de painel, especificamente para o modo retrato em telefones. Ao virar o telefone para os lados, você verá o painel da forma como ele está disposto no serviço, mesmo que você tenha projetado uma exibição para telefone.

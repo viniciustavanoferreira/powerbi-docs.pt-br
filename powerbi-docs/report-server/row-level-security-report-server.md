@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/22/2019
-ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba0cf6b450720e0564b5d476f57d91a4f070391c
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277975"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238059"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>RLS (Segurança em Nível de Linha) no Servidor de Relatórios do Power BI
 

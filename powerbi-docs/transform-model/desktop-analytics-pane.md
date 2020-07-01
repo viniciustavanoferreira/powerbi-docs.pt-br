@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 71fbdfda6675585d861b1447ce3d37e83b660825
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a7744c32242cd2cde4659269cd85037fed1f0cce
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349530"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237958"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>Usar o painel Análise do Power BI Desktop
 

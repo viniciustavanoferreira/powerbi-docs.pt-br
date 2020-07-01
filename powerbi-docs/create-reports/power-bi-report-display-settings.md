@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 601e23fae6579344afa83799b04fbcba3f81a6b4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c08d4959b8e3958651282ac0fd52e6ed80a6b345
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344562"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237251"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>Aplicar as configurações de exibição da página em um relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Às vezes, isso pode ser desafiador, porque você e seus colegas podem exibir esses relatórios em telas com taxas de proporção e tamanhos diferentes. 

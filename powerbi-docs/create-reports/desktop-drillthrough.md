@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9f017a4e93e76d91949b3cc3e12ef0c652664a91
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281428"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239178"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Configurar o drill-through nos relatórios do Power BI
 Com o *drill-through* nos relatórios do Power BI, você pode criar uma página em seu relatório que tenha como foco uma entidade específica, como um fornecedor, cliente ou fabricante. Quando seus leitores de relatório usam o drill-through, clique com o botão direito do mouse em um ponto de dados em outras páginas de relatório e execute uma consulta drill-through na página de foco para obter detalhes filtrados para esse contexto. Você também pode [criar um botão que executa uma consulta drill-through](desktop-drill-through-buttons.md) para obter detalhes quando se clica neles.

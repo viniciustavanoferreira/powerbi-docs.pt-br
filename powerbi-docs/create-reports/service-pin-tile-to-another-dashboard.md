@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 332b179c1eb097883592d1d1df531b525df585c2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: baf48e1cfa2bc37652880c9ab4201f2f49ff3c32
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323265"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218644"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Fixar um bloco de um painel para outro painel
 Uma maneira de adicionar um novo [bloco de painel](../consumer/end-user-tiles.md) é copiando-o de outro painel. Ao clicar em cada um desses blocos, haverá um link para onde foi criado – em P e R ou em um relatório. 

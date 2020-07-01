@@ -3,19 +3,19 @@ title: Entrar e sair
 description: Saiba como entrar no serviço do Power BI na Web e como sair.
 author: mihart
 ms.reviewer: ''
-ms.custom: ''
+Ms.custom: css_fy20Q4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cd919c622ecb1e7906a8e352936c6b4d549ca691
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: fffffff689d7b7a5180b2302c5f6ea278ad69b98
+ms.sourcegitcommit: 3e7e3cb2c2e398cffe8733d99e3ac832ee056dc9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812739"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "84973420"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Entrar no serviço do Power BI
 

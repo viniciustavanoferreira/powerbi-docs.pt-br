@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435710"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84685274"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: Explorar dashboards e relatórios nos aplicativos móveis do Power BI
 Neste início rápido, você faz um breve tour do aplicativo do Power BI Mobile e explora um exemplo de dashboard e relatório. O aplicativo do Power BI para iOS é mostrado, mas você pode acompanhar facilmente em outros dispositivos.
@@ -47,8 +47,6 @@ Depois de concluir os pré-requisitos e baixar o Exemplo de Análise de Varejo p
     ![Dashboards em Meu Workspace](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
     Os dashboards do Power BI parecem um pouco diferentes em seu dispositivo móvel do que no serviço do Power BI. Todos os blocos aparecem com a mesma largura e são dispostos um após o outro, de cima para baixo.
-
-5. Toque no ícone de estrela ![Ícone de estrela de favorito](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) na barra de ferramentas inferior para fazer deste um dashboard favorito. Quando você marcar um favorito no aplicativo móvel, ele se tornará um favorito no serviço do Power BI e vice-versa.
 
 6. Role para baixo e toque no gráfico de linhas "Vendas deste ano, vendas do ano passado".
 

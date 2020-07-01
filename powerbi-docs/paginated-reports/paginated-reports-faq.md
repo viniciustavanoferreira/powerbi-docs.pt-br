@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565616"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427553"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: Perguntas frequentes 
 
@@ -96,7 +96,7 @@ Sim, mas o serviço do Power BI permite somente que você carregue um único ite
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Quais versões do Construtor de Relatórios têm suporte?
 
-Lançamos o Construtor de Relatórios do Power BI como a principal ferramenta de criação para relatórios paginados no serviço do Power BI. Instale o [Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513).
+Lançamos o Construtor de Relatórios do Power BI como a principal ferramenta de criação para relatórios paginados no serviço do Power BI. Instale o [Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://aka.ms/pbireportbuilder).
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>Como fazer para mover os relatórios existentes que salvei no SQL Server Reporting Services para o Power BI?
 
@@ -181,5 +181,5 @@ Descubra o que você precisa ter em mente ao trabalhar com os campos DateTime em
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Instale o Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Instale o Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://aka.ms/pbireportbuilder)
 - [Tutorial: Criar um relatório paginado](paginated-reports-quickstart-aw.md)

@@ -1,17 +1,17 @@
 ---
 title: Catálogo de aprendizagem para analistas de dados
 description: Encontre todas as opções de treinamento para o Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 97ecff0abf13ff72d7794b06085be077efbe9027
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.author: margoc
+ms.openlocfilehash: 4664966098089d564e82207eb7aac923bc626b77
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565754"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532179"
 ---
 # <a name="data-analyst-learning-catalog"></a>Catálogo de aprendizagem para analistas de dados
 
@@ -55,6 +55,11 @@ O catálogo a seguir é organizado do conhecimento essencial aos domínios espec
 | [Crie dados visuais no Power BI: principais tipos de gráficos e como usá-los](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-OnDemandRegistration.html)  | O tipo de gráfico é um dos blocos de construção mais fundamentais da análise visual. Com o uso certo dos gráficos, criamos os padrões e a clareza certos e fornecemos as respostas certas para nossos usuários.  | Webinar |             |
 | [Visualizar conjuntos de dados públicos ou privados com o novo conector do Power BI e data.world](https://info.microsoft.com/data-world-connector-powerbi-ondemand.html)  | Em colaboração com data.world, a Microsoft lançou um novo conector de dados que permite importar conjuntos de dados do data.world no Power BI Desktop. Junto com a data.world, estamos empolgados em ajudar os fãs a coletar, gerenciar, explorar, visualizar e compartilhar insights facilmente com outras pessoas.  | Webinar |             |
 | [Obtenha insights acionáveis usando visualizações do mundo real no dashboard do Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/8-10-18-Webinar-Get-actionable-insights-using-real-world/td-p/480242) | Junte-se a Charles Sterling e Shakun Grover enquanto eles explicam como usar visualizações do mundo real no dashboard do Power BI.  O Microsoft Visio oferece a tela perfeita para contextualizar visualmente os dados e representar fluxos de processo. Usando o novo visual do Visio para Power BI, você pode dar vida às funcionalidades avançadas de visualização do Visio diretamente em seus dashboards do Power BI para promover insights e impulsionar a ação.                              | Webinar | 34min19s |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| Conteúdo | Descrição | Formatar  | Tamanho      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [DAX prático para Power BI, por Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs)  | Para acompanhar seu novo livro, Phil Seamark vai examinar algumas práticas recomendadas para o DAX prático no Power BI   | Vídeo do YouTube | 59min41s |
+| [Soluções DAX criativas, por Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | Você sabia que a linguagem DAX é capaz de fazer muito mais do que simplesmente executar uma SUM em uma coluna ou contar linhas em uma tabela? O DAX se encontra na parte superior de um dos bancos de dados mais rápidos que há. Junte-se a Charles Sterling e a Philip Seamark para explorar alguns cenários incomuns e criativos que você talvez não tenha imaginado serem viáveis. | Webinar       | 58min12s |
 ## <a name="governance-and-deployment"></a>Governança e implantação<a name="governance-deployment"></a>
 | Conteúdo  | Descrição   | Formatar  | Tamanho |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|

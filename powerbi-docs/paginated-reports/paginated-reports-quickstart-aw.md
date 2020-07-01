@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83565639"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427735"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Criar um relatório paginado e fazer upload dele no serviço do Power BI
 
@@ -36,7 +36,7 @@ Se você não tiver uma assinatura do Azure, crie uma [conta gratuita](https://a
 
 Aqui estão os pré-requisitos para criar o relatório paginado:
 
-- Instale o [Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513). 
+- Instale o [Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://aka.ms/pbireportbuilder). 
 
 - Siga o guia de início rápido [Criar um exemplo de banco de dados SQL do Azure no portal do Azure](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal). Copie e salve o valor na caixa **Nome do servidor** na guia **Visão geral**. Lembre-se do nome de usuário e da senha que você criou no Azure.
 

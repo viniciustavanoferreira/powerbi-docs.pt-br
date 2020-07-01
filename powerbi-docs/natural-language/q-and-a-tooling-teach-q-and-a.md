@@ -4,16 +4,16 @@ description: Como usar a P e R do Power BI para explorar seus dados
 author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: e5b870201943b93bfdaec2881005785c2f3c470b
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865726"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239927"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Ensinar as P e R para entender as perguntas e os termos em P e R do Power BI
 

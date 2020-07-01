@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/03/2019
-ms.openlocfilehash: 50de63aed17d9fab695119d5c94fa4a5d9312702
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85cbca003ed4950495e75ce44f3368ede021afa7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74834576"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240236"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Exibir parâmetros de relatórios paginados no serviço do Power BI
 

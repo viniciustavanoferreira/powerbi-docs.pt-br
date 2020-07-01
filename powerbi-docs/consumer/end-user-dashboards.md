@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496308"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354905"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards para consumidores de serviço do Power BI
 
@@ -32,7 +32,6 @@ As visualizações exibidas no dashboard são chamadas de *blocos* e são *fixad
 > Os dashboards podem ser [exibidos e compartilhados em dispositivos móveis](mobile/mobile-apps-view-dashboard.md).
 >
 > É necessário ter o Power BI Pro para exibir um dashboard que tenha sido compartilhado com você.
-> 
 
 As visualizações em um dashboard vêm de relatórios e cada relatório é baseado em um conjunto de dados. Na verdade, uma maneira de pensar em um dashboard é como uma porta de entrada para os relatórios e os conjuntos de dados subjacentes. Selecionar uma visualização leva você para o relatório (e o conjunto de dados) que foi usado para criá-lo.
 

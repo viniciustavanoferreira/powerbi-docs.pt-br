@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7c34403f4e729696034a94999280b799ebbf0b90
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83341251"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239762"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Definir configurações de fluxo de dados de workspace (versão prévia)
 

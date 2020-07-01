@@ -1,21 +1,21 @@
 ---
 title: Solucionando problemas da atualização agendada para Bancos de Dados SQL do Azure
 description: Solucionando problemas em atualização agendada para bancos de dados SQL Azure no Power BI
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 09/04/2019
-ms.author: maggies
+ms.author: davidi
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 292f80b4fec7da9ff6ce42e3611bf4d6353bae2d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6efc7b031b9eb5708fe55c5b4167af0428ff7c19
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280462"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485704"
 ---
 # <a name="troubleshooting-scheduled-refresh-for-azure-sql-databases-in-power-bi"></a>Solucionando problemas em atualização agendada para bancos de dados SQL Azure no Power BI
 

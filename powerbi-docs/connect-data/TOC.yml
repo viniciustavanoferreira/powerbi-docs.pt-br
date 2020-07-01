@@ -94,6 +94,8 @@
                   href: desktop-python-ide.md
                 - name: Criar visuais com o Python
                   href: desktop-python-visuals.md
+                - name: Saiba quais pacotes do Python têm suporte
+                  href: service-python-packages-support.md
             - name: Executar scripts do R
               href: desktop-r-scripts.md
             - name: Uso do R no Editor de Consultas

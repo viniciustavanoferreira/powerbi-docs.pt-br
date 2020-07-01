@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: e066ea5128709a0e16873bba5f025e96938cac54
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bfdca7f5652106271ba46f0cffd2759b7b4595eb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113636"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485612"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Solucionar problemas de visuais do Power BI
 

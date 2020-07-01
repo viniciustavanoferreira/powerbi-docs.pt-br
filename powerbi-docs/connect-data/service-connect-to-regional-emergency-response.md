@@ -4,16 +4,16 @@ description: Como obter e instalar o Dashboard de Suporte a Decisões sobre a CO
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279217"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229681"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Conectar-se ao Dashboard de Resposta a Emergências Regionais
 O Dashboard de Resposta a Emergências Regionais é o componente de relatório da [solução de Resposta a Emergências Regionais do Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Os administradores da organização regional podem ver o dashboard nos respectivos locatários do Power BI, permitindo a eles que vejam rapidamente dados e métricas importantes que os ajudarão a tomar decisões eficientes.

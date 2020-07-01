@@ -4,16 +4,16 @@ description: Como usar a P e R do Power BI para criar visualizações em dashboa
 author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b98d3b154d779a9b9ae04dfa00a6033d59c45c9c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309580"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234705"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Usar P e R do Power BI para explorar seus dados e criar visuais
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9758f706b90f74c7c7f9d1feff2b00516e6c324c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc9f8fd66360377e7ed166bf5cfa5c8ddec2c4d6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347483"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236719"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Da pasta de trabalho do Excel para um relatório incrível no serviço do Power BI
 Sua gerente deseja ver um relatório sobre os números de vendas mais recentes combinado com as impressões da última campanha no final do dia. Porém, os dados mais recentes residem em vários sistemas de terceiros e em arquivos em seu laptop. No passado, levava várias horas para criar visuais e formatar um relatório e você começava a se sentir ansioso.

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 116aac1bf661f07b30208f943b27eddbf172da00
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 28eb1efb28a1b8d394d68a9c57a9c2733cc08972
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347782"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224529"
 ---
 # <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>Conectar-se a pastas de trabalho do Excel no Power BI Desktop
 É simples se conectar a uma pasta de trabalho do Excel no Power BI Desktop, e este artigo explica as etapas para você.

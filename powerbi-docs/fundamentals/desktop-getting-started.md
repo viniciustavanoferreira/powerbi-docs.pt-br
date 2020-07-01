@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 26e9e130c4dc2f19684626144bfbce7f2838a18b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 409771c8786fb704fbf2a882353e8e3f20ec2437
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83359532"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222189"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo(a) ao guia de introdução ao Power BI Desktop. Este tour mostra como o Power BI Desktop funciona, o que ele é capaz de fazer e como você pode criar modelos de dados robustos e relatórios incríveis para ampliar seu business intelligence.

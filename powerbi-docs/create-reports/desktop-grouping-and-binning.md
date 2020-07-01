@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525f7bf4c967722d8f98a9184127bc8c7907cea1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0beca84bc95c2947fef500fb9e3a9e5c377a0a46
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309465"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234029"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Usar agrupamento e compartimentalização no Power BI Desktop
 Quando o Power BI Desktop cria visuais, ele agrega os dados em partes (ou grupos) com base nos valores encontrados nos dados subjacentes. Geralmente isso fica bom, mas pode haver ocasiões nas quais você deseja refinar a maneira como essas partes são apresentadas. Por exemplo, você pode querer colocar três categorias de produtos em uma categoria maior (um *grupo*). Ou talvez você queira ver os valores de vendas colocados em tamanhos de compartimentos de 1.000.000 dólares, em vez de partes de tamanhos de 923.983 dólares.

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b2094b2438966bd2da88de032fd7b7979065746b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a043e230ba74432254248ee70db495bc75a3d28b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83359371"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85232505"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
 O Power BI Desktop permite a criação de consultas, modelos e relatórios avançados que visualizam dados. Com o Power BI Desktop, você pode criar modelos de dados, criar relatórios e compartilhar seu trabalho publicando-o no serviço do Power BI. O Power BI Desktop é um download gratuito.

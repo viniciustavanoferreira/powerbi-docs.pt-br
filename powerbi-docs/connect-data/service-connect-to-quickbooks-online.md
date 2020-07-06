@@ -4,16 +4,16 @@ description: QuickBooks Online para o Power BI
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 05/04/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7153d663d54924aa9d13a1e60fd303d667c65b8c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4c21c36694f36e4d6f95b8edc920648313dc8a7a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229750"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348495"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Conectar-se ao QuickBooks Online com o Power BI
 Quando você se conecta aos seus dados do QuickBooks Online por meio do Power BI, você obtém imediatamente um painel e relatórios do Power BI que fornecem informações sobre o fluxo de caixa de sua empresa, rentabilidade, clientes e muito mais. Use o painel e os relatórios como fornecidos, ou então personalize-os para realçar as informações que mais importam a você. Os dados são atualizados automaticamente uma vez por dia.
@@ -80,7 +80,7 @@ O aplicativo já foi assinado para esta empresa por outro usuário. Entre em con
 
 ... esse erro significa que outro administrador em sua empresa já se conectou aos dados da empresa com o Power BI. Peça ao admin que compartilhe o painel com você. Atualmente, apenas um usuário administrador pode se conectar a um determinado conjunto de dados corporativos do QuickBooks Online para o Power BI. Depois que o Power BI cria o dashboard, o administrador pode compartilhá-lo com vários colegas no mesmos locatários do Power BI.
 
-**"Este aplicativo não está configurado para permitir conexões por meio de seu país"**
+**"Este aplicativo não está configurado para permitir conexões por meio de seu país/região"**
 
 Atualmente o Power BI só dá suporte às edições estadunidenses do QuickBooks Online. 
 

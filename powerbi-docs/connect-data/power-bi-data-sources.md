@@ -1,19 +1,18 @@
 ---
 title: Fontes de dados do Power BI
 description: Este artigo lista as fontes de dados compatíveis com o Power BI, incluindo informações sobre o DirectQuery e o gateway de dados local.
-author: kfollis
+author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2020
-ms.author: kfollis
-ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.date: 06/10/2020
+ms.author: davidi
+ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
+ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273381"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84681849"
 ---
 # <a name="power-bi-data-sources"></a>Fontes de dados do Power BI
 
@@ -90,7 +89,7 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Segurança do Microsoft Graph | Sim | Sim | Não | Sim | Não |
 | Mixpanel | Sim | Sim | Não | Não | Não |
 | MySQL | Sim | Sim | Não | Sim | Sim |
-| OData | Sim | Sim | Não | Sim | Não |
+| OData | Sim | Sim <sup>7</sup> | Não | Sim | Não |
 | ODBC | Sim | Sim | Não | Sim | Sim |
 | OleDb | Sim | Sim | Não | Sim | Sim |
 | Oracle | Sim | Sim | Sim | Sim | Sim |
@@ -103,11 +102,11 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 | Fluxos de dados do Power BI | Sim | Sim | Não | Não | Não |
 | Conjuntos de dados do Power BI | Sim | Sim | Sim | Não | Não |
 | Fluxos de dados do Power Platform | Sim | Sim | Não | Não | Não |
-| Script Python | Sim | Sim <sup>5</sup> | Não | Sim <sup>5</sup> | Sim |
+| Script do Python | Sim | Sim <sup>5</sup> | Não | Sim <sup>5</sup> | Sim |
 | QubolePresto | Sim | Sim | Sim | Sim | Sim |
 | Quick Base | Sim | Sim | Não | Sim | Sim |
 | QuickBooks Online | Sim | Sim | Não | Não | Não |
-| Script do R | Sim | Sim <sup>5</sup> | Não | Sim <sup>5</sup> | Não |
+| Script R | Sim | Sim <sup>5</sup> | Não | Sim <sup>5</sup> | Não |
 | Roamler | Sim | Sim | Não | Sim | Não |
 | Objetos do Salesforce | Sim | Sim | Não | Não | Não |
 | Relatórios do Salesforce | Sim | Sim | Não | Não | Não |
@@ -152,6 +151,8 @@ A tabela a seguir mostra as fontes de dados para as quais o Power BI dá suporte
 <sup>5</sup> Compatível apenas com o [gateway pessoal](service-gateway-personal-mode.md).
 
 <sup>6</sup> Obrigatório para .html, .xls e Bancos de Dados do Access
+
+<sup>7</sup> O serviço do Power BI não dá suporte a feeds OData que exigem autenticação.
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>SSO (logon único) para fontes do DirectQuery
 

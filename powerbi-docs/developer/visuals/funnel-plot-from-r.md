@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 42304e60740c215b1300e66f074807aea10ec6f9
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84317042"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354468"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Tutorial: Criar um gráfico de funil do script do R ao visual do R
 Este artigo descreve como criar um gráfico de funil usando o passo a passo do script R no visual do R.
@@ -89,13 +88,13 @@ O visual ainda não é amigável porque o usuário precisa saber a ordem das col
 
    Você precisará atualizar as seções: `dataRoles` e `dataViewMappings`, que definem os nomes, os tipos, as dicas de ferramentas e as colunas máximas para cada campo de entrada.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
+   ![antes e depois](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
    
    Para obter mais informações, consulte [funcionalidades](./capabilities.md).
 
 1. Edite *script.r* para dar suporte a `Population`, `Number` e `Tooltips` como dataframes de entrada em vez de `dataset` ou baixe [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r).
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
+   ![Script](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
    > [!TIP]
    > Para seguir as alterações no script R, pesquise os blocos de comentário: 
@@ -125,7 +124,7 @@ O visual ainda não é amigável porque o usuário precisa saber a ordem das col
 
    baixe [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json). Consulte [propriedades do objeto](./objects-properties.md) para obter mais informações
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
+   ![funcionalidades](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
 1. Edite *src/settings.ts* para espelhar [este settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts). Esse arquivo é gravado em TypeScript.  
 
@@ -133,7 +132,7 @@ O visual ainda não é amigável porque o usuário precisa saber a ordem das col
    - Declarar que a nova interface deve reter o valor da propriedade
    - Definir uma propriedade de membro e valores padrão
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
+   ![configurações](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
 1. Edite *script.r* para espelhar [este script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r). Isso dá suporte para os parâmetros na interface do usuário adicionando `if.exists` chamadas por parâmetro de usuário.
 
@@ -150,7 +149,7 @@ O visual ainda não é amigável porque o usuário precisa saber a ordem das col
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![script antes e depois](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    Você pode optar por não expor os parâmetros à interface do usuário, como fizemos.  
 

@@ -6,16 +6,15 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563042"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223331"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Conectar-se aos dados do Project Online por meio do Power BI Desktop
 Você pode conectar-se a dados no Project Online por meio do Power BI Desktop.
@@ -29,7 +28,7 @@ Você pode conectar-se a dados no Project Online por meio do Power BI Desktop.
 3. Escolha **feed OData** e selecione **Conectar**.
 4. Insira o endereço para o feed OData na caixa URL e, em seguida, clique em OK.
    
-   Se o endereço do seu site do Project Web App for semelhante a *https://\<nomedolocatário\>.sharepoint.com/sites/pwa*, o endereço que você inserirá para o Feed OData será *https://\<nomedolocatário\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
+   Se o endereço do seu site do Project Web App for semelhante a *https://\<tenantname\>.sharepoint.com/sites/pwa*, o endereço que você inserirá para o Feed OData será *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
    Para nosso exemplo, estamos usando:
 

@@ -1,6 +1,6 @@
 ---
 title: Usar segurança em nível de linha com conteúdo inserido do Power BI
-description: Saiba mais sobre as etapas necessárias para inserir o conteúdo do Power BI em seu aplicativo.
+description: Saiba mais sobre as etapas necessárias para inserir conteúdo do Power BI em seu aplicativo
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
+ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277009"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84795129"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança em nível de linha com o Power BI Embedded
 
@@ -88,16 +87,19 @@ A API aceita uma lista de identidades com a indicação dos conjuntos de dados r
 
 Crie o token de inserção usando o método **GenerateTokenInGroup** em **PowerBIClient.Reports**.
 
-Por exemplo, você poderá alterar a amostra [PowerBIEmbedded_AppOwnsData](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData). As *linhas 76 e 77 de Services\EmbedService.cs* podem ser atualizadas de:
+Por exemplo, você pode alterar o exemplo *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > Inserir para seus clientes > **PowerBIEmbedded_AppOwnsData***.
+
+**Antes da alteração**
 
 ```csharp
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+// Generate Embed Token with effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view", identities: new List<EffectiveIdentity> { rls });
 
-var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
+// Generate Embed Token for reports without effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
 ```
 
-to
+**Após a alteração**
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -144,6 +146,9 @@ As funções podem ser fornecidas com a identidade em um token de inserção. Se
 ### <a name="using-the-customdata-feature"></a>Usando o recurso CustomData
 
 O recurso CustomData funciona apenas para os modelos que residem no **Azure Analysis Services** e funciona apenas no modo **Conectar em tempo real**. Ao contrário dos usuários e das funções, o recurso Custom Data não pode ser definido dentro de um arquivo .pbix. Ao gerar um token com o recurso Custom Data, é preciso ter um nome de usuário.
+
+>[!NOTE]
+>O nome de usuário CustomData pode ter apenas 256 caracteres.
 
 O recurso CustomData permite adicionar um filtro de linha ao exibir dados do Power BI em seu aplicativo ao usar o **Azure Analysis Services** como sua fonte de dados (exibição de dados do Power BI conectados ao Azure Analysis Services em seu aplicativo).
 

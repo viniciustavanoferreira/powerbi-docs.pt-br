@@ -6,14 +6,13 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149249"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238769"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Suporte Multi-Geo para o Power BI Embedded
 
@@ -80,6 +79,8 @@ Para dar suporte ao gerenciamento de capacidades com Multi-Geo por meio da API, 
 * Quando dados de uma região são movidos para outra em um ambiente Multi-Geo, os dados de origem podem permanecer na região da qual foram movidos por até 30 dias. Durante esse período, os usuários não têm acesso a eles. Eles foram removidos desta região e destruídos durante o período de 30 dias.
 
 * O Multi-Geo não resulta em um melhor desempenho no geral. O carregamento de relatórios e painéis ainda envolve solicitações de metadados para a região de residência.
+
+* Em uma inserção para o cenário de seu cliente, o texto e o resultado da consulta continuam a transitar pelo locatário inicial.
 
 ## <a name="next-steps"></a>Próximas etapas
 

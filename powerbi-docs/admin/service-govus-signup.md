@@ -10,12 +10,11 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f494533c8b79dce250f3f25c706896d542f01f26
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159549"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485451"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrar sua organização do Governo dos EUA no serviço do Power BI
 
@@ -32,7 +31,7 @@ Para obter mais informações sobre o serviço do Power BI para o Governo dos Es
 
 Sua organização do Governo dos EUA pode ser nova na comunidade de nuvem do governo ou talvez já tenha uma assinatura. As seções a seguir detalham as etapas de inscrição com base no seu estágio atual com os planos do Microsoft 365 Government e o Power BI. Dependendo do seu registro atual, as etapas são diferentes.
 
-Depois de se inscrever para o Power BI for US Government, trabalhe com sua equipe de contas para iniciar o [processo de *inclusão em lista de permissões*](#additional-signup-information) descrito neste artigo. Essa etapa é necessária para habilitar totalmente sua organização na nuvem da comunidade governamental.
+Depois de se inscrever no Power BI for US Government, trabalhe com sua equipe de conta para iniciar o [processo de lista de permissões](#additional-signup-information) descrito neste artigo. Essa etapa é necessária para habilitar totalmente sua organização na nuvem da comunidade governamental.
 
 ## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>Inscrever-se em um novo plano do Microsoft 365 Government
 
@@ -69,9 +68,9 @@ Se a sua organização já tiver um plano do Microsoft 365 Government, siga esta
 
 ## <a name="additional-signup-information"></a>Informações adicionais de inscrição
 
-Antes de poder usar os serviços do Power BI for US Government, você precisa trabalhar com sua equipe de conta Microsoft para iniciar a *inclusão em lista de permissões* para sua organização. A inclusão em lista de permissões é um processo que a equipe de engenharia do Power BI usa para mover clientes do ambiente de nuvem comercial para o ambiente da nuvem de comunidade governamental segura. Essa etapa garante que os recursos disponíveis na nuvem do Governo dos EUA funcionem conforme o esperado. 
+Antes de poder usar os serviços do Power BI for US Government, você precisa trabalhar com sua equipe de contas da Microsoft para que sua organização seja adicionada à nossa lista de permissões. O processo de lista de permissões é usado pela equipe de engenharia do Power BI para mover os clientes do ambiente de nuvem comercial para a nuvem segura da comunidade governamental. Essa etapa garante que os recursos disponíveis na nuvem do Governo dos EUA funcionem conforme o esperado. 
 
-Para iniciar o processo de inclusão em lista de permissões, entre em contato com a equipe da conta Microsoft para obter assistência. Somente administradores podem solicitar inclusão em lista de permissões. O processo leva cerca de três semanas. Durante esse período, a equipe de engenharia do Power BI faz as alterações apropriadas para garantir que seu locatário opere adequadamente na nuvem do Governo dos EUA.
+Para iniciar o processo de lista de permissões, entre em contato com sua equipe de contas da Microsoft para obter assistência. Somente os administradores podem solicitar adição à lista de permissões. O processo leva cerca de três semanas. Durante esse período, a equipe de engenharia do Power BI faz as alterações apropriadas para garantir que seu locatário opere adequadamente na nuvem do Governo dos EUA.
 
 
 ## <a name="next-steps"></a>Próximas etapas

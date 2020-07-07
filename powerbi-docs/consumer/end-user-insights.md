@@ -7,15 +7,14 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377273"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354491"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Exibir insights de dados em blocos do painel com o Power BI
 
@@ -61,9 +60,11 @@ Depois que você tiver um insight aberto, continue a explorar.
 Para retornar ao relatório, no canto superior esquerdo, selecione **Sair do modo de foco**.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
-- **Exibir insights** não funciona com todos os tipos de bloco do dashboard. Por exemplo, ele não está disponível para visuais do Power BI.<!--[Power BI visuals](end-user-custom-visuals.md)-->
+- **Exibir insights** não funciona com todos os tipos de bloco do dashboard. Por exemplo, ele não está disponível para visuais personalizados do Power BI.<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Próximas etapas
+
+Executar insights sobre visuais de relatórios [usando o recurso Analisar](end-user-analyze-visuals.md)    
 Saiba mais sobre os [tipos de Insights Rápidos disponíveis](end-user-insight-types.md)
 

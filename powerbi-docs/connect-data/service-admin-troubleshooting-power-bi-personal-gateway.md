@@ -5,16 +5,15 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: da21acf2c37136b70bdb7ab70060422655ac879c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323863"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231066"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Solução de problemas do gateway do Power BI (modo pessoal)
 
@@ -47,7 +46,7 @@ Muitos problemas podem surgir quando a versão do gateway está desatualizada. �
 ## <a name="schedule-refresh"></a>Agendar atualização
 **Erro: As credenciais armazenadas na nuvem estão ausentes.**
 
-Você poderá obter esse erro nas configurações de \<conjunto de dados\> se tiver uma atualização agendada e tiver desinstalado e reinstalado o gateway (modo pessoal). Ao desinstalar um gateway (modo pessoal), as credenciais da fonte de dados de um conjunto de dados que foram configuradas para atualização são removidas do serviço do Power BI.
+Você poderá obter esse erro nas configurações de \<dataset\> se tiver uma atualização agendada e tiver desinstalado e reinstalado o gateway (modo pessoal). Ao desinstalar um gateway (modo pessoal), as credenciais da fonte de dados de um conjunto de dados que foram configuradas para atualização são removidas do serviço do Power BI.
 
 **Solução:** No Power BI, vá para as configurações de atualização de um conjunto de dados. Em **Gerenciar Fontes de Dados**, para qualquer fonte de dados com um erro, selecione **Editar credenciais**. Em seguida, entre novamente na fonte de dados.
 

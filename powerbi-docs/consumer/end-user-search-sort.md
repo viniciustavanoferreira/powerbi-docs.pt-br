@@ -6,16 +6,15 @@ ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114134"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782541"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Navegação para consumidores do Power BI: pesquisa global
 
@@ -39,11 +38,11 @@ Quando você é novo no serviço Power BI, tem pouco conteúdo (dashboards, rela
 
 ## <a name="sorting-content-lists"></a>Classificar listas de conteúdo
 
-Se você tiver pouco conteúdo, não será necessário classificar.  Porém, quando você tiver listas longas de dashboards e relatórios, a classificação o ajudará a encontrar o que você precisa. Por exemplo, esta lista de conteúdo **Compartilhado comigo** tem 63 itens. 
+Se você tiver pouco conteúdo, não será necessário classificar.  Porém, quando você tiver listas longas de dashboards e relatórios, a classificação o ajudará a encontrar o que você precisa. Por exemplo, esta lista de conteúdo **Compartilhado comigo** tem 257 itens. 
 
-![lista de conteúdo compartilhado comigo](./media/end-user-search-sort/power-bi-long-lists.png)
+![lista de conteúdo compartilhado comigo](./media/end-user-search-sort/power-bi-all-shared.png)
 
-No momento, essa lista de conteúdo está classificada por data, da mais recente à mais antiga. Para alterar os critérios de classificação, selecione a seta à direita de **Data (mais recente)** .
+No momento, essa lista de conteúdo é classificada alfabeticamente por nome, de A a Z. Para alterar os critérios de classificação, selecione a seta à direita de **Nome (A-Z)** .
 
 ![Menu suspenso de classificação](./media/end-user-search-sort/power-bi-sort-date.png)
 
@@ -60,5 +59,7 @@ Nem todas as colunas podem ser classificadas. Posicione o cursor sobre os títul
 
 ## <a name="next-steps"></a>Próximas etapas
 [Classificar visuais em relatórios](end-user-change-sort.md)
+
+[Classificação de dados em visuais](end-user-change-sort.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)

@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ecd5b71d0b64e235d69d2b6d3933d393cb684b04
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079245"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355020"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Etapa 5: Adicionar linhas a uma tabela do Power BI
 
@@ -23,7 +22,7 @@ Na **etapa 4**, [Obter um conjunto de dados para adicionar linhas a uma tabela d
 
 Ao chamar a operação [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), você adiciona linhas a um conjunto de dados.
 
-![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
+![adicionar linhas](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
 Veja como adicionar linhas a um conjunto de dados usando a API do Power BI.
 

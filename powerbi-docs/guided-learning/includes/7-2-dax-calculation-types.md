@@ -1,17 +1,16 @@
 ---
-ms.openlocfilehash: 4ea1b2141cf9a072f11a3a62789c7c0ec5b500a4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 0296512b59baf828dd284088e0109af819aee261
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73799632"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84562307"
 ---
 Há dois cálculos principais que podem ser criados usando o DAX:
 
 * **colunas calculadas**
-* **medidas calculadas**
+* **medidas**
 
-Antes de nos aprofundarmos na criação deles, é bom ter uma compreensão profunda sobre a sintaxe do DAX em tabelas e colunas, que você usará ao criar **colunas calculadas** ou **medidas calculadas**.
+Antes de se aprofundar na criação deles, é bom ter uma compreensão sólida sobre a sintaxe DAX em tabelas e colunas, que você usará ao criar **colunas calculadas** ou **medidas**.
 
 ## <a name="dax-table-and-column-name-syntax"></a>Sintaxe de nome de tabela e coluna do DAX
 Se você estiver criando uma nova coluna ou medida, é importante saber o formato geral dos nomes de tabela no DAX:
@@ -51,8 +50,8 @@ Os elementos necessários para uma coluna calculada são os seguintes:
 
 Se você fizer referência a uma tabela ou coluna na fórmula da coluna calculada, não será necessário especificar uma linha na tabela – para cada cálculo, o Power BI calculará a coluna da linha atual.
 
-## <a name="creating-calculated-measures"></a>Criando medidas calculadas
-Use uma **medida calculada** quando estiver calculando percentuais ou taxas ou se precisar de agregações complexas. Para criar uma medida usando uma fórmula DAX, selecione o botão **Nova Medida** na guia **Modelagem**. Mais uma vez, é melhor estar na exibição **Dados** do Power BI Desktop, já que ela mostra a **Barra de Fórmula** e facilita o trabalho de escrever sua fórmula DAX.
+## <a name="creating-measures"></a>Criar medidas
+Use uma **medida** quando estiver calculando porcentagens ou proporções ou se precisar de agregações complexas. Para criar uma medida usando uma fórmula DAX, selecione o botão **Nova Medida** na guia **Modelagem**. Mais uma vez, é melhor estar na exibição **Dados** do Power BI Desktop, já que ela mostra a **Barra de Fórmula** e facilita o trabalho de escrever sua fórmula DAX.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_4.png)
 
@@ -60,7 +59,7 @@ Com **medidas**, você verá um novo ícone de medidas aparecer no painel **Camp
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_5.png)
 
-Os elementos necessários para uma medida calculada são os mesmos usados para uma coluna calculada:
+Os elementos necessários para uma medida são os mesmos usados em uma coluna calculada:
 
 * um novo nome de medida
 * pelo menos uma função ou expressão

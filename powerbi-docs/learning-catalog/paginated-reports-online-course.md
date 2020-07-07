@@ -1,6 +1,6 @@
 ---
-title: Curso Relatórios paginados no Power BI em um dia
-description: Este curso online tem como objetivo capacitar você, como autor de relatório, com o conhecimento técnico necessário para criar, publicar e distribuir relatórios paginados do Power BI.
+title: Curso Relatórios paginados do Power BI em um dia
+description: Esse curso em vídeo tem como objetivo capacitar você, como autor de relatório, com o conhecimento técnico necessário para criar, publicar e distribuir relatórios paginados do Power BI.
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,16 +9,15 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693225"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427467"
 ---
-# <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Relatórios paginados no Power BI em um dia
+# <a name="power-bi-paginated-reports-in-a-day-course"></a>Curso Relatórios paginados do Power BI em um dia
 
-O curso baseado em vídeo **Relatórios paginados do Power BI em um dia** capacita você, como autor de relatório, com o conhecimento técnico necessário para criar, publicar e distribuir relatórios paginados do Power BI. Ele é composto por quase 4 horas 20 minutos de conteúdo visível – disponível sob demanda e sem encargos. Também há um [kit de estudo individual](#self-study-kit), que pode ser baixado e usado para concluir oito laboratórios práticos.
+O curso baseado em vídeo **Relatórios paginados do Power BI em um dia** capacita você, como autor de relatório, com o conhecimento técnico necessário para criar, publicar e distribuir relatórios paginados do Power BI. Ele é composto por quase 4 horas 20 minutos de conteúdo visível – disponível sob demanda e sem encargos. Também há um [kit de estudo individual](#self-study-kit) que pode ser baixado e usado para concluir oito laboratórios práticos.
 
 Especificamente, o curso tem como alvo:
 
@@ -87,17 +86,17 @@ Baixe e configure um kit de estudo individual, que consiste no conteúdo da apre
 1. Abra as propriedades do arquivo e marque "Desbloquear" (o Windows poderá sinalizar o arquivo como potencialmente não confiável).
 1. Extraia o conteúdo do arquivo para uma pasta no sistema de arquivos. Recomendamos criar uma pasta que seja fácil de ser encontrada, talvez com o nome **Treinamento**. Os documentos do laboratório vão se referir a essa localização como **&lt;CourseFolder&gt;** .
 
-Após a extração, você terá a pasta **PowerBIPRIAD** e, nela, encontrará as seguintes pastas:
+Após a extração, você terá a pasta **PowerBIPRIAD**. Nela encontrará as seguintes pastas:
 
 - **Lab01A** (e todas as outras pastas do laboratório). As pastas do laboratório contêm o documento e os recursos do laboratório, que podem incluir ativos e arquivos de solução.
 - **MySolution**: essa pasta armazena os arquivos de solução. As instruções do laboratório vão orientar você de quando usá-la.
 - **Presentation**: essa pasta contém o arquivo de apresentação do curso, que está disponível como um documento PDF.
 
-### <a name="getting-started-with-the-kit"></a>Introdução ao kit
+### <a name="get-started-with-the-kit"></a>Introdução ao kit
 
 Recomendamos assistir ao curso online primeiro. Consulte a teoria da apresentação abrindo o arquivo **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf**. A apresentação inclui oito slides de laboratório, que indicam quando é hora de colocar a teoria em prática. Também inclui muitos links de recursos para ajudar você a encontrar outros tipos de conteúdo relacionado.
 
-Quando estiver pronto para iniciar o primeiro laboratório, abra o arquivo **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento descreverá como entrar no serviço do Power BI, carregar um conjunto de dados e instalar o [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
+Quando estiver pronto para iniciar o primeiro laboratório, abra o arquivo **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Este documento descreverá como entrar no serviço do Power BI, carregar um conjunto de dados e instalar o [Power BI Report Builder](https://aka.ms/pbireportbuilder).
 
 > [!NOTE]
 > Você é responsável por ter uma conta própria do Power BI. Caso ainda não tenha uma, confira [Inscrever-se no Power BI como um indivíduo](../fundamentals/service-self-service-signup-for-power-bi.md).

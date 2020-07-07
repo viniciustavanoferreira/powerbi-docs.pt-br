@@ -1,36 +1,35 @@
 ---
-title: URLs do Power BI para a lista de permissões
-description: Este artigo lista os pontos de extremidade de URL e as portas em uma lista segura para conexão com o Power BI.
+title: Adicionar URLs do Power BI à lista de permissões
+description: Este artigo lista as portas e os pontos de extremidade de URL a serem adicionados à sua lista de permissões para conexão com o Power BI.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: 38e6668c0fb15d1279923b77042cdedebe6dd139
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315915"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485060"
 ---
-# <a name="power-bi-urls-for-whitelisting"></a>URLs do Power BI para a lista de permissões
-[//]: # "suparnap e miwehnia são contatos para manter esta lista"
+# <a name="add-power-bi-urls-to-your-allow-list"></a>Adicionar URLs do Power BI à sua lista de permissões
+[//]: # "suparnap, miwehnia, natham são contatos para manter essa lista"
 
-**O serviço online do Power BI**, também conhecido como aplicativo SaaS (Software como serviço) do Power BI, requer conectividade com a Internet. Os pontos de extremidade abaixo devem ser acessíveis para clientes que usam o serviço online do Power BI.
+O serviço do Power BI requer conectividade com a Internet. Os pontos de extremidade listados nas tabelas deste artigo devem ser acessíveis para clientes que usam o serviço do Power BI.
 
-Para usar o serviço online do Power BI, é necessário conseguir se conectar aos pontos de extremidade marcados como **necessários** nas tabelas abaixo e a quaisquer pontos de extremidade marcados como **necessários** nos sites vinculados. Se o link para um site externo se referir a uma seção específica, será necessário apenas analisar os pontos de extremidade nessa seção.
+Para usar o serviço do Power BI, é necessário conseguir se conectar aos pontos de extremidade marcados como **obrigatórios** nas tabelas abaixo e aos pontos de extremidade marcados como **obrigatórios** nos sites vinculados. Se o link para um site externo se referir a uma seção específica, será necessário apenas analisar os pontos de extremidade nessa seção.
 
-Os pontos de extremidade marcados como **opcionais** também podem ser adicionados à **lista de permissões** para uma funcionalidade específica funcionar.
+Os pontos de extremidade marcados como **opcionais** também podem ser adicionados às listas de permissões para habilitar uma funcionalidade específica.
 
-O serviço online do Power BI requer apenas que a porta TCP 443 seja aberta para os pontos de extremidade listados.
+O serviço do Power BI requer apenas que a porta TCP 443 seja aberta para os pontos de extremidade listados.
 
-Caracteres curinga (*) representam todos os níveis sob o domínio raiz, e usaremos N/D quando as informações não estiverem disponíveis. A coluna **Destino(s)** é uma lista com domínios/FQDN e links para sites externos, que contêm mais informações sobre o ponto de extremidade.
+Caracteres curinga (*) representam todos os níveis sob o domínio raiz, e usaremos N/D quando as informações não estiverem disponíveis. A coluna **Destino(s)** lista os nomes de domínios e os links para sites externos que contêm mais informações sobre o ponto de extremidade.
 
 >[!Important]
->As informações nas tabelas abaixo não representam a **nuvem do Governo dos EUA**, **a nuvem da Alemanha** ou a **nuvem da China**.
+>As informações nas tabelas abaixo não se aplicam ao Power BI Alemanha, Power BI China operado pela 21Vianet ou Power BI for US Government. Leia [Conectar os serviços de nuvem do Azure globais e governamentais](service-govus-overview.md#connect-government-and-global-azure-cloud-services) para saber mais sobre a comunicação entre os serviços de nuvem.
 
 ## <a name="authentication"></a>Autenticação
 
@@ -51,7 +50,7 @@ Para o uso geral do Power BI, conecte-se aos pontos de extremidade na tabela e n
 | 3 | **Obrigatório:** APIs de back-end | *.pbidedicated.windows.net | TCP 443 |
 | 4 | **Obrigatório:** CDN (Rede de Distribuição de Conteúdo) | content.powerapps.com | TCP 443 |
 | 5 | **Obrigatório:** integração do Microsoft 365 | Confira a documentação com as [URLs do Microsoft 365 Common e do Office Online](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
-| 6 | **Obrigatório:** Portal | app.powerbi.com | TCP 443 |
+| 6 | **Obrigatório:** Portal | *.powerbi.com | TCP 443 |
 | 7 | **Obrigatório:** Telemetria do serviço | dc.services.visualstudio.com | TCP 443 |
 | 8 | **Opcional:** Mensagens informativas | dynmsg.modpim.com | TCP 443 |
 | 9 | **Opcional:** pesquisas NPS | nps.onyx.azure.net | TCP 443 |
@@ -102,7 +101,7 @@ O Power BI depende de determinados pontos de extremidade para exibir e acessar v
 
 ## <a name="related-external-sites"></a>Sites externos relacionados
 
-O Power BI contém links para outros sites relacionados. Esses sites hospedam documentação, suporte, solicitações de novos recursos e muito mais. O acesso a esses sites não afetará a funcionalidade do Power BI, portanto, a lista de permissões é opcional.
+O Power BI contém links para outros sites relacionados. Esses sites hospedam documentação, suporte, solicitações de novos recursos e muito mais. O acesso a esses sites não afetará a funcionalidade do Power BI, portanto, adicioná-los à lista de permissões é opcional.
 
 | Linha | Finalidade | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |

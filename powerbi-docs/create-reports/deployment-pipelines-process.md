@@ -6,13 +6,12 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: c4a823b0b41def6c10cd8f932bb97e91eb977ecb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.date: 06/25/2020
+ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148610"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782560"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Compreender o processo de implantação (versão prévia)
 
@@ -60,7 +59,7 @@ No estágio de destino, [propriedades do item que não são copiadas](deployment
 
 Os dados no conjunto de dados de destino são mantidos quando possível. Se não houver alterações em um conjunto de dados, os dados serão mantidos como antes da implantação.
 
-Com pequenas alterações, como a adição de uma tabela ou medidas calculadas, o Power BI mantém os dados originais e a atualização é otimizada para atualizar apenas o que é necessário. Para interromper alterações de esquema ou alterações na conexão da fonte de dados, é necessária uma atualização completa.
+Com pequenas alterações, como a adição de uma tabela ou de medidas, o Power BI mantém os dados originais e a atualização é otimizada para atualizar apenas o que é necessário. Para interromper alterações de esquema ou alterações na conexão da fonte de dados, é necessária uma atualização completa.
 
 ### <a name="requirements-for-deploying-to-a-stage-with-an-existing-workspace"></a>Requisitos para a implantação em um estágio com um workspace existente
 
@@ -152,11 +151,11 @@ As seguintes propriedades do conjunto de dados também não são copiadas durant
 
 Crie um aplicativo para cada estágio do pipeline de implantação, para que você possa testar cada atualização de aplicativo do ponto de vista do usuário final. Um pipeline de implantação permite que você gerencie esse processo facilmente. Use o botão Publicar ou Exibir no cartão do workspace para publicar ou exibir o aplicativo em um estágio específico do pipeline.
 
-[![](media/deployment-pipelines-process/publish.png "Publish app")](media/deployment-pipelines-process/publish.png#lightbox)
+[![publicar aplicativo](media/deployment-pipelines-process/publish.png "Publicar aplicativo")](media/deployment-pipelines-process/publish.png#lightbox)
 
 No estágio de produção, o botão de ação principal no canto inferior esquerdo abre a página de atualização do aplicativo no Power BI, para que qualquer atualização de conteúdo fique disponível para os usuários do aplicativo.
 
-[![](media/deployment-pipelines-process/update-app.png "Update app")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![atualizar aplicativo](media/deployment-pipelines-process/update-app.png "Atualizar aplicativo")](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >O processo de implantação não inclui a atualização do conteúdo ou das configurações do aplicativo. Para alterar o conteúdo ou as configurações, você precisa atualizar manualmente o aplicativo no estágio de pipeline necessário.
@@ -236,13 +235,23 @@ Esta seção lista a maioria das limitações nos pipelines de implantação.
 
 * Os itens do Power BI, como relatórios e painéis que possuem [rótulos de sensibilidade](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi) do Power BI, não podem ser implantados.
 
-* Os conjuntos de dados configurados com [atualização incremental](../admin/service-premium-incremental-refresh.md) não podem ser implantados.
+* O número máximo de itens do Power BI que podem ser implantados em uma única implantação é 300.
 
 * Para obter uma lista de limitações do workspace, confira [Limitações de atribuição do workspace](deployment-pipelines-get-started.md#workspace-assignment-limitations).
 
-* Para obter uma lista de limitações da regra do conjunto de dados, confira [Limitações da regra de conjunto de dados](deployment-pipelines-get-started.md#dataset-rule-limitations)
-
 * Para obter uma lista de itens sem suporte, confira [Itens sem suporte](#unsupported-items).
+
+### <a name="dataset-limitations"></a>Limitações de conjunto de dados
+
+* Os conjuntos de dados configurados com [atualização incremental](../admin/service-premium-incremental-refresh.md) não podem ser implantados.
+
+* Não é possível implantar conjuntos de dados que usam a conectividade em tempo real.
+
+* Durante a implantação, se o conjunto de dados de destino estiver usando uma [conexão dinâmica](../connect-data/desktop-report-lifecycle-datasets.md), o conjunto de dados de origem também deverá usar esse modo de conexão.
+
+* Após a implantação, não há suporte para o download de um conjunto de dados (do estágio em que ele foi implantado).
+
+* Para obter uma lista de limitações da regra de conjunto de dados, confira [limitações da regra de conjunto de dados](deployment-pipelines-get-started.md#dataset-rule-limitations).
 
 ## <a name="next-steps"></a>Próximas etapas
 

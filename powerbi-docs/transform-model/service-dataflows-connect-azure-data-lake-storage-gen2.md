@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e24888d4be0a527bd7af6a28fd28795b516b2020
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309258"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354744"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Conectar-se ao Azure Data Lake Storage Gen2 para armazenamento de fluxo de dados
 
@@ -42,7 +41,7 @@ Para usar o Azure Data Lake Storage Gen2 para fluxo de dados, é necessário o s
 
 Antes de configurar o Power BI com uma conta do Azure Data Lake Storage Gen2, você deve criar e configurar uma conta de armazenamento. Vamos examinar os requisitos para o Power BI:
 
-1. É necessário ser o proprietário da conta de armazenamento do ADLS. Isso precisa ser atribuído no nível de recurso e não herdado do nível de assinatura.
+1. É necessário ser o proprietário da conta de armazenamento do ADLS. Isso precisa ser atribuído no nível de recurso, e não herdado do nível de assinatura.
 2. A conta de armazenamento deve ser criada no mesmo locatário do AAD que seu locatário do Power BI.
 3. A conta de armazenamento deve ser criada na mesma região do AAD que seu locatário do Power BI. Para determinar onde seu locatário do Power BI está localizado, confira o artigo [Onde meu locatário do Power BI está localizado](../admin/service-admin-where-is-my-tenant-located.md).
 4. A conta de armazenamento deve ter o recurso *Namespace hierárquico* habilitado.

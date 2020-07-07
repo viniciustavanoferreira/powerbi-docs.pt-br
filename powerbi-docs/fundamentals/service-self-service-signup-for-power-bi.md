@@ -1,21 +1,20 @@
 ---
 title: Inscrever-se no serviço do Power BI como indivíduo
 description: Saiba como se inscrever no serviço do Power BI e começar a usá-lo de acordo com as suas necessidades de análise e visualização de dados.
-author: kfollis
+author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 7134db4e582d7d6020ef2ff133981b275adb231b
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: 033ddd99061bde70070061fab4e19250f5fb4591
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272576"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354445"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>Inscrever-se no serviço do Power BI como indivíduo
 
@@ -95,7 +94,6 @@ Parabéns por entrar na sua conta do Power BI pela primeira vez! Agora você tem
 <sup>2</sup> Em algumas organizações, sua conta padrão do Power BI poderá ser uma licença do Power BI **Pro**. Por exemplo, algumas versões do Microsoft 365 incluem uma licença do Power BI Pro. Para saber como pesquisar sua licença de usuário, confira [Qual licença eu tenho?](../consumer/end-user-license.md)
 
 
-
 ## <a name="trial-expiration"></a>Término da avaliação
 
 Quando a sua avaliação individual gratuita do Power BI Pro expirar, a licença mudará para uma licença do Power BI (Gratuito). A avaliação não poderá ser estendida. Você deixará de ter acesso aos recursos que exigem uma licença do Power BI Pro. Para obter mais informações, veja [Recursos por tipo de licença](service-features-license-type.md).    
@@ -108,14 +106,43 @@ Se a compra de autoatendimento não estiver disponível, entre em contato com o 
 
 ## <a name="troubleshooting-the-sign-up-process"></a>Solução de problemas do processo de inscrição
 
-Na maioria dos casos, você pode se inscrever para o Power BI seguindo o processo descrito. Alguns dos problemas que podem impedir você de se inscrever estão descritos na tabela a seguir, com possíveis soluções alternativas.
+Na maioria dos casos, você pode se inscrever para o Power BI seguindo o processo descrito. Alguns dos problemas que podem impedir você de se inscrever estão descritos abaixo, com possíveis soluções alternativas.
 
-| Sintoma / mensagem de erro | Causa e Solução |
-| ----------------------- | -------------------- |
-| <strong>Endereços de email pessoais (por exemplo, nancy@gmail.com)</strong> você receberá uma mensagem semelhante a esta durante a inscrição: <br /><br /> *Você inseriu um endereço de email pessoal: Digite seu endereço de email comercial para que possamos armazenar os dados da sua empresa de forma segura.* <br /><br /> ou <br /><br /> *Isso se parece com um endereço de email pessoal. Digite seu endereço de trabalho para que possa se conectar com outras pessoas em sua empresa. Não se preocupe. Não compartilharemos seu endereço com ninguém.* | O Power BI não dá suporte a endereços de email fornecidos por provedores de telecomunicações e serviços de email para consumidores. <br /><br /> Para concluir a inscrição, tente novamente usando um endereço de email atribuído por seu trabalho ou sua escola. <br /><br /> Se você ainda não conseguiu se inscrever e desejar concluir um processo de configuração mais avançado, será possível [registrar-se para obter uma nova assinatura de avaliação do Microsoft 365 e usar esse endereço de email para se inscrever](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Também é possível que um usuário existente [convide-o como um convidado](../admin/service-admin-azure-ad-b2b.md). |
-| **Inscrição por autoatendimento desabilitada**: Você receberá uma mensagem semelhante a esta durante a inscrição: <br /><br /> *Não podemos concluir sua inscrição. O departamento de TI desativou a inscrição para o Microsoft Power BI. Entre em contato com eles para concluir a inscrição.* <br /><br /> | O [administrador global](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md) da sua organização desabilitou a inscrição para autoatendimento no Power BI. <br /><br /> Para concluir a inscrição, entre em contato com o administrador global e peça a ele que [siga as instruções para habilitar a inscrição](../admin/service-admin-disable-self-service.md). <br/><br/> Você também poderá ter esse problema se tiver se inscrito no Microsoft 365 por meio de um parceiro. Nesse caso, contate o responsável da organização por fornecer o Microsoft 365. |
-| **O endereço de email não é uma ID do Microsoft 365** – Você receberá uma mensagem semelhante a esta durante a inscrição: <br /><br /> *Não foi possível encontrá-lo em contoso.com.  Você usa uma ID diferente no trabalho ou escola? <br /><br /> Tente entrar com essa ID, e se não funcionar, entre em contato com o departamento de TI.* | Sua organização usa IDs para entrar no Microsoft 365 e em outros serviços da Microsoft que são diferentes de seu endereço de email.  Por exemplo, seu endereço de email pode ser Nancy.Smith@contoso.com mas sua ID é nancys@contoso.com. <br /><br /> Para concluir a inscrição, use a ID atribuída pela sua organização para entrar no Microsoft 365 ou outros serviços da Microsoft.  Se não souber o que é isso, entre em contato com o administrador global. <br /><br /> Se você ainda não conseguiu se inscrever e desejar concluir um processo de configuração mais avançado, será possível [registrar-se para obter uma nova assinatura de avaliação do Microsoft 365 e usar esse endereço de email para se inscrever](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
-A entrada no Power BI não reconhece a sua senha  |  Às vezes, são necessárias algumas tentativas. Se você tentar inserir a senha novamente várias vezes e ainda não puder fazer logon, tente executar o navegador no modo anônimo (Chrome) ou InPrivate (Edge).
+**Endereços de email pessoais**   
+ Você tenta se inscrever usando um endereço de email pessoal (por exemplo nancy@gmail.com) e recebe uma mensagem semelhante a uma destas: 
+
+*Você inseriu um endereço de email pessoal: Digite seu endereço de email comercial para que possamos armazenar os dados da sua empresa de forma segura*.
+
+ou 
+
+*Isso se parece com um endereço de email pessoal. Digite seu endereço de trabalho para que possa se conectar com outras pessoas em sua empresa. Não se preocupe. Não compartilharemos seu endereço com ninguém*.
+
+**Solução**    
+O Power BI não dá suporte a endereços de email fornecidos por provedores de telecomunicações e serviços de email para consumidores. Para concluir a inscrição, tente novamente usando um endereço de email atribuído por seu trabalho ou sua escola. 
+
+Se você ainda não conseguiu se inscrever e desejar concluir um processo de configuração mais avançado, será possível [registrar-se para obter uma nova assinatura de avaliação do Microsoft 365 e usar esse endereço de email para se inscrever](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). 
+
+Também é possível que um usuário existente [convide-o como um convidado](../admin/service-admin-azure-ad-b2b.md). 
+
+
+[!INCLUDE[self-service-signup](../includes/self-service-signup-help.md)]
+
+**Seu endereço de email não é uma ID do Microsoft 365**    
+Você tenta se inscrever e recebe uma mensagem como esta: 
+
+*Não foi possível encontrá-lo em contoso.com.  Você usa uma ID diferente no trabalho ou escola?  Tente entrar com ela e se não funcionar, entre em contato com seu departamento de TI.* 
+
+**Solução**    
+Sua organização usa IDs (que são diferentes de seu endereço de email) para entrar no Microsoft 365 e em outros serviços da Microsoft.  Por exemplo, seu endereço de email pode ser zalan.bola@contoso.com mas sua ID é zalanb@contoso.com. 
+
+Para concluir a inscrição, use a ID atribuída pela sua organização para entrar no Microsoft 365 ou outros serviços da Microsoft.  Se não souber o que é isso, entre em contato com o administrador global.  
+
+Se você ainda não conseguiu se inscrever e desejar concluir um processo de configuração mais avançado, será possível [registrar-se para obter uma nova assinatura de avaliação do Microsoft 365 e usar esse endereço de email para se inscrever](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). 
+
+**A entrada no Power BI não reconhece sua senha**  
+
+**Solução**    
+Às vezes, são necessárias algumas tentativas. Se você tentar inserir a senha novamente várias vezes e ainda não puder fazer logon, tente executar o navegador no modo anônimo (Chrome) ou InPrivate (Microsoft Edge).
 
 ## <a name="next-steps"></a>Próximas etapas
 

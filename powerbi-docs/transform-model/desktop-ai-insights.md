@@ -1,22 +1,21 @@
 ---
-title: Conectar-se aos Insights da IA no Power BI Desktop (versão prévia)
+title: Conectar-se aos Insights da IA no Power BI Desktop
 description: Conecte-se facilmente e use dados dos Insights da IA no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
-ms.date: 11/12/2019
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fec1a1a632244ef0c1923e2d68f76a7364d3c7b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 7f067e87bf155b45be1d4c34f27d41649b6247df
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311719"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237975"
 ---
-# <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Usar os Insights da IA no Power BI Desktop (versão prévia)
+# <a name="use-ai-insights-in-power-bi-desktop"></a>Usar os Insights da IA no Power BI Desktop
 
 No Power BI, você pode usar os Insights da IA para obter acesso a uma coleção de modelos de machine learning pré-treinados que aprimoram seus esforços de preparação de dados. Os Insights da IA são acessados no **Editor do Power Query**, e seus recursos e funções associados são acessados por meio das guias **Página Inicial** e **Adicionar Coluna** no **Editor do Power Query**. 
 
@@ -26,7 +25,10 @@ Este artigo descreve as funções Análise de Texto e Pesquisa Visual, ambas dos
 
 ## <a name="how-to-enable-ai-insights"></a>Como habilitar os Insights da IA
 
-Os Insights da IA no Power BI são um recurso de visualização e devem ser habilitados. Para habilitá-los, selecione **Arquivo > Opções e configurações > Opções** e, em seguida, selecione **Recursos de visualização** na coluna esquerda. No painel direito, há uma seleção **Navegador de funções dos Insights da IA**. Marque a caixa ao lado de **Navegador de funções dos Insights da IA** para habilitar o recurso de visualização. Será preciso reiniciar o Power BI Desktop para que a alteração do recurso de visualização tenha efeito.
+Os Insights da IA foram disponibilizados para o público geral na versão de junho de 2020 do Power BI Desktop. Em versões anteriores do Power BI Desktop, os Insights da IA no Power BI devem ser habilitados selecionando **Arquivo > Opções e configurações > Opções** e **Versão prévia dos recursos** na coluna à esquerda. No painel direito, há uma seleção **Navegador de funções dos Insights da IA**. Marque a caixa ao lado de **Navegador de funções dos Insights da IA** para habilitar o recurso de visualização. Será preciso reiniciar o Power BI Desktop para que a alteração do recurso de visualização tenha efeito.
+
+> [!NOTE]
+> Os Insights da IA estão disponíveis para o público geral em todas as versões do Power BI Desktop a partir da versão de junho de 2020 e, nessas versões, não precisam ser habilitados como versão prévia do recurso.
 
 ![Opção de Insights da IA para o Power BI Desktop](media/desktop-ai-insights/ai-insights-01.png)
 

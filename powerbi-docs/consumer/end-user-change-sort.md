@@ -6,19 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a84ebd1374cab596023f55024eb9368a69daab0d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
-ms.translationtype: HT
+ms.openlocfilehash: 10db78c01ea074e2b3fab71715a3df92ae207f8e
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236009"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782503"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Altere como um gráfico é classificado em um relatório do Power BI
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 
 > [!IMPORTANT]
@@ -26,7 +25,7 @@ ms.locfileid: "85236009"
 
 No serviço do Power BI, é possível alterar a aparência de um visual classificando-o por diferentes campos de dados. Ao alterar a maneira como você classifica um visual, é possível realçar as informações que você deseja transmitir. Se estiver usando dados numéricos (como valores de vendas) ou dados de texto (como nomes de estado), você pode classificar suas visualizações da forma que quiser. O Power BI oferece muita flexibilidade para a classificação e menus rápidos para você usar. 
 
-Visuais em um dashboard não podem ser classificados, mas em um relatório do Power BI, você pode classificar a maioria das visualizações 
+Não é possível classificar visuais em um dashboard. Mas, em um relatório do Power BI, você pode classificar a maioria das visualizações por um e, às vezes, dois campos de cada vez. Em determinados tipos de visuais, a classificação não está disponível: mapas de árvore, medidores, mapas etc. 
 
 ## <a name="get-started"></a>Introdução
 
@@ -51,6 +50,19 @@ Se necessário, altere a ordem de classificação entre crescente e decrescente.
 
 > [!NOTE]
 > Nem todos os visuais podem ser classificados. Por exemplo, os seguintes visuais não podem ser classificados: mapa de árvore, mapa, mapa coroplético, dispersão, medidor, cartão e cascata.
+
+## <a name="sorting-by-multiple-columns"></a>Classificar por várias colunas
+Os dados nesta tabela são classificados por **Número de clientes**.  Sabemos disso por causa da pequena seta abaixo da palavra *Número*. A seta está apontando para baixo, o que significa que a coluna está sendo classificada em ordem *decrescente*.
+
+![captura de tela mostrando a primeira coluna sendo usada para classificação](media/end-user-change-sort/power-bi-sort-first.png)
+
+
+Para adicionar mais colunas à ordem de classificação, pressione Shift e clique no cabeçalho da coluna que você deseja adicionar em seguida na ordem de classificação. Por exemplo, se você clicar em **Número de clientes** e pressionar Shift enquanto clica em **Receita total**, a tabela será classificada primeiro pelos clientes e, em seguida, pela receita. O contorno vermelho mostra áreas em que a ordem de classificação foi alterada.
+
+![captura de tela mostrando a segunda coluna sendo usada para classificação](media/end-user-change-sort/power-bi-sort-second.png)
+
+Se você pressionar Shift e clicar uma segunda vez na mesma coluna, isso alterará a direção da classificação nessa coluna. Além disso, se você pressionar Shift e clicar em uma coluna adicionada anteriormente à ordem de classificação, isso moverá a coluna para trás na ordem de classificação.
+
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Salvar as alterações feitas na ordem de classificação
 Os relatórios do Power BI retêm os filtros, as segmentações, as classificações e outras alterações de exibição de dados que você faz – mesmo que você esteja trabalhando na [Exibição de leitura](end-user-reading-view.md). Portanto, se você sair de um relatório e retornar mais tarde, suas alterações de classificação serão salvas.  Se você quiser reverter as alterações para as configurações do *designer* do relatório, selecione **Redefinir para padrão** na barra de menus superior. 

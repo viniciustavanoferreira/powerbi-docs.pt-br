@@ -5,27 +5,28 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/24/2020
 ms.author: mihart
+ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279424"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393831"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de visuais no Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Você encontrará visuais em relatórios, dashboards e P e R. Alguns desses tipos de visuais são empacotados com o Power BI e alguns são *visuais do Power BI*. Visuais personalizados são criados fora do Power BI e de uma maneira que permite a *designers de relatório* adicioná-los a relatórios e dashboards do Power BI. 
+Visuais (também conhecidos como *gráficos* e *visualizações*) são representações de imagem de seus dados. Alguns exemplos comuns são gráficos de colunas, mapas, gráficos de dispersão e medidores radiais. Você encontrará visuais em relatórios, dashboards e P e R.
 
-Este artigo é uma visão geral de visuais empacotados com o serviço do Power BI.  Estas são os visuais que você encontrará com mais frequência. Para obter informações detalhadas sobre qualquer um desses visuais, confira a documentação do [*designer* de relatórios do Power BI sobre tipos visuais](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
+Os visuais descritos nesta página são os empacotados com o Power BI. Eles são os visuais que você encontrará com mais frequência. Esta página fornece uma visão geral rápida desses visuais predefinidos. Para obter informações detalhadas sobre qualquer um desses visuais, confira a [documentação do *designer* de relatórios do Power BI sobre tipos de visuais](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-> [!NOTE]
-> Para saber mais sobre visuais do Power BI, pesquise-os na seção **Visuais do Power BI** do [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada visual, você encontrará uma descrição, informações do criador e capturas de tela ou um vídeo. 
+Os visuais que não são incluídos automaticamente com o Power BI são chamados de *visuais personalizados*. Os visuais personalizados podem ser importados para o Power BI de sites externos, como o Microsoft AppSource, ou de fontes internas, como seu repositório organizacional. A importação de visuais personalizados requer permissões de edição no relatório. Para saber mais sobre esses visuais suplementares, visite [Visuais no Power BI](../developer/visuals/power-bi-custom-visuals.md).
+
+
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lista de visuais disponíveis no Power BI
 Todos esses visuais podem ser encontrados nos relatórios e nos dashboards do Power BI, bem como [especificados em P e R](end-user-q-and-a.md). Para saber como interagir com visuais, confira [Interagir com visuais em relatórios, dashboards e aplicativos](end-user-visualizations.md)
@@ -64,6 +65,12 @@ Os gráficos de combinação são uma ótima opção:
 - para ilustrar a correlação entre duas medidas em um visual
 - para verificar se uma medida atende o destino definido pela outra medida
 - para conservar o espaço de tela
+
+
+### <a name="decomposition-tree"></a>Árvore de decomposição
+![árvore de decomposição](media/end-user-visual-type/power-bi-decomposition.png)
+
+O visual da árvore de decomposição permite visualizar dados em várias dimensões. Ele agrega dados automaticamente e permite fazer busca detalhada em suas dimensões em qualquer ordem. Também é uma visualização de IA (inteligência artificial), para que você possa encontrar a próxima dimensão para fazer busca detalhada com base em determinados critérios. Isso o torna uma ferramenta valiosa para exploração ad hoc e condução de análises de causas raiz.
 
 ### <a name="doughnut-charts"></a>Gráficos de rosca
 ![gráfico de rosca](media/end-user-visual-type/donut-small.png)
@@ -210,12 +217,12 @@ As tabelas são uma ótima opção:
 - para exibir dados em um formato tabular
 - para exibir dados numéricos por categorias
 
-### <a name="treemaps"></a>Treemaps
-![gráfico de mapa de árvore](media/end-user-visual-type/pbi-nancy-viz-tree.png)
+### <a name="tree-maps"></a>Mapas de árvore
+![Gráfico de mapa de árvore](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
-Gráficos de mapa de árvore são gráficos de retângulos coloridos, com um tamanho que representa o valor.  Eles podem ser hierárquicos, com retângulos aninhados nos retângulos principais. O espaço dentro de cada retângulo é alocado com base no valor que está sendo medido. E os retângulos são organizados no tamanho da parte superior esquerda (maior) à parte inferior direita (menor).
+Mapas de árvore são gráficos de retângulos coloridos, com um tamanho que representa o valor.  Eles podem ser hierárquicos, com retângulos aninhados nos retângulos principais. O espaço dentro de cada retângulo é alocado com base no valor que está sendo medido. E os retângulos são organizados no tamanho da parte superior esquerda (maior) à parte inferior direita (menor).
 
-Os treemps são uma ótima opção:
+Os mapas de árvore são uma ótima opção:
 - para exibir grandes quantidades de dados hierárquicos;
 - quando um gráfico de barras não puder lidar efetivamente com grande número de valores;
 - para mostrar as proporções entre cada parte e o todo;
@@ -241,7 +248,7 @@ Os gráficos de cascata são uma ótima opção:
 Ao digitar consultas em linguagem natural com a P e R do Power BI, você pode especificar o tipo de visual em sua consulta.  Por exemplo:
 
 
-“***vendas por estado como um treemap***”
+"***vendas por estado como um mapa de árvore***"
 
 ![sessão de P e R](media/end-user-visual-type/qa-treemap.png)
 

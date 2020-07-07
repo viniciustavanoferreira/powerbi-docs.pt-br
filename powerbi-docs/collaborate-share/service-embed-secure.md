@@ -6,15 +6,14 @@ ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693841"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226204"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserir um relatório em um site ou portal seguro
 
@@ -139,7 +138,7 @@ Você pode adicionar quantos botões desejar para criar uma experiência persona
 
 * O recurso de autenticação automática fornecido com a opção **Inserir** não funciona com a API JavaScript do Power BI. Para a API JavaScript do Power BI, use o método de inserção [o usuário possui dados](../developer/embedded/embed-sample-for-your-organization.md). 
 
-* O tempo de vida do token de autenticação é controlado com base nas configurações do AAD. Quando o token de autenticação expirar, o usuário precisará atualizar o navegador para obter um token de autenticação atualizado. O tempo de vida padrão é de uma hora, mas ele pode ser mais curto ou mais longo na sua organização.
+* O tempo de vida do token de autenticação é controlado com base nas configurações do AAD. Quando o token de autenticação expirar, o usuário precisará atualizar o navegador para obter um token de autenticação atualizado. O tempo de vida padrão é de uma hora, mas ele pode ser mais curto ou mais longo na sua organização.  Não há capacidade de atualizar automaticamente o token nesse cenário.
 
 ## <a name="next-steps"></a>Próximas etapas
 

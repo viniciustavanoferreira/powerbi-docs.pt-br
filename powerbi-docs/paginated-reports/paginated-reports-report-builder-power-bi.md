@@ -1,6 +1,6 @@
 ---
 title: O que são os relatórios paginados no Power BI Premium?
-description: Os relatórios paginados, o formato longo de relatório padrão no SQL Server Reporting Services, agora estão disponíveis no serviço do Power BI. Esses relatórios podem ser impressos ou compartilhados. Você pode controlar o layout do relatório de maneira exata. Eles exibem todos os dados em uma tabela, por exemplo, mesmo se a tabela abranger várias páginas.
+description: Os relatórios paginados agora estão disponíveis no serviço do Power BI. O formato de relatório padrão no SQL Server Reporting Services já existe há muito tempo. Esses relatórios podem ser impressos ou compartilhados. Você pode controlar o layout do relatório de maneira exata. Eles exibem todos os dados em uma tabela, por exemplo, mesmo se a tabela abranger várias páginas.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,11 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
-ms.translationtype: HT
+ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733406"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393762"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são os relatórios paginados no Power BI Premium?
 
@@ -95,7 +94,8 @@ Aqui estão alguns outros recursos que não têm suporte na versão inicial:
  
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Instale o Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Instale o Construtor de Relatórios do Power BI no Centro de Download da Microsoft](https://aka.ms/pbireportbuilder)
 - [Tutorial: Criar um relatório paginado](paginated-reports-quickstart-aw.md)
+- [Curso online: Relatórios paginados do Power BI em um dia](../learning-catalog/paginated-reports-online-course.md)
 - [Inserir dados diretamente em um relatório paginado](paginated-reports-enter-data.md)
 - [Tutorial: Inserir relatórios paginados do Power BI em um aplicativo para seus clientes](../developer/embedded/embed-paginated-reports-customers.md)

@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/10/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279171"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354698"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -49,17 +48,17 @@ Ao examinar totais e subtotais, lembre-se de que esses valores são baseados nos
 ## <a name="expanding-and-collapsing-row-headers"></a>Expandir e recolher cabeçalhos de linha
 Há duas maneiras de expandir os cabeçalhos de linha. A primeira é por meio do menu de clique com o botão direito do mouse. Você verá opções para expandir o cabeçalho da linha específica que você selecionou, o nível inteiro ou todo o conteúdo até o último nível da hierarquia. As opções de recolha dos cabeçalhos são semelhantes.
 
-![](media/desktop-matrix-visual/power-bi-expand1.png)
+![menu mostrando Expandir e Seleção](media/desktop-matrix-visual/power-bi-expand1.png)
 
 Você também pode adicionar botões +/- aos cabeçalhos de linha por meio do painel de formatação no cartão **Cabeçalhos de linha**. Por padrão, os ícones corresponderão à formatação do cabeçalho da linha, mas você poderá personalizar as cores e os tamanhos dos ícones separadamente, se desejar.
 
 Depois que os ícones são ativados, eles funcionam de maneira semelhante aos ícones da Tabela Dinâmica no Excel.
 
-![](media/desktop-matrix-visual/power-bi-expand2.png)
+![matriz mostrando ícones ativados](media/desktop-matrix-visual/power-bi-expand2.png)
 
 O estado de expansão da matriz será salvo com o seu relatório. Uma matriz pode ser fixada a um painel expandido ou recolhido. Quando esse bloco do painel é selecionado e o relatório é aberto, o estado de expansão ainda pode ser alterado no relatório. 
 
-![](media/desktop-matrix-visual/power-bi-expand3.png)
+![matriz mostrando estado de expansão](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
 > Se você estiver criando um relatório sobre um modelo multidimensional do Analysis Services, haverá algumas considerações especiais para expandir/recolher se o modelo usar o recurso de membro padrão. Para obter mais informações, confira [Trabalhar com modelos multidimensionais no Power BI](../connect-data/desktop-default-member-multidimensional-models.md)

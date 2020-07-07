@@ -5,16 +5,15 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276549"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239368"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Exibir os dados subjacentes de uma visualização
 
@@ -70,7 +69,7 @@ Também é possível enfocar um registro de dados em uma visualização e detalh
 
 - Se o botão **Ver registros** na faixa de opções estiver desabilitado e esmaecido, isso significará que a visualização selecionada não oferece suporte a Ver Registros.
 - Você não pode alterar os dados na exibição Ver Registros e salvá-los novamente no relatório.
-- Não é possível usar Ver Registros quando seu visual usa uma medida calculada.
+- Não é possível usar Ver Registros quando seu visual usa uma medida calculada em um modelo multidimensional.
 - Não é possível usar Ver Registros quando você está conectado a um modelo MD (multidimensional) dinâmico.  
 
 ## <a name="next-steps"></a>Próximas etapas

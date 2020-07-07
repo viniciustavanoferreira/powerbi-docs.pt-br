@@ -6,18 +6,21 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114763"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354997"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configurar credenciais de forma programática para o Power BI
 
-Siga estas etapas para configurar as credenciais programaticamente para o Power BI.
+Siga as etapas deste artigo e configure as credenciais programaticamente para o Power BI.
+
+>[!NOTE]
+>* O usuário da chamada deve ser proprietário de um conjunto de dados ou administrador de gateway. Você também pode usar uma [entidade de serviço](../embedded/embed-service-principal-certificate.md). Por exemplo, a entidade de serviço pode ser o proprietário do conjunto de dados.
+>* As fontes de dados de nuvem e suas credenciais correspondentes são gerenciadas no nível do usuário.
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Atualizar fluxo de credenciais para fontes de dados
 

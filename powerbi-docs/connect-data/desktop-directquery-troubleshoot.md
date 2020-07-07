@@ -5,15 +5,14 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292491"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485543"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Solução de problemas de desenvolvimento de modelos do DirectQuery no Power BI Desktop
 
@@ -42,13 +41,13 @@ Para algumas fontes do DirectQuery, esse log inclui todas as consultas enviadas 
 - Teradata
 - SAP HANA
 
-O arquivo de rastreamento pode ser encontrado na pasta **AppData** do usuário atual: _\\\<Usuário>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
+O arquivo de rastreamento pode ser encontrado na pasta **AppData** para o usuário atual: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
 
 Veja como acessar facilmente essa pasta: No Power BI Desktop, selecione _Arquivo > Opções e configurações > Opções_ e, em seguida, selecione a página **Diagnóstico**. A janela de diálogo a seguir será exibida:
 
 ![A janela do Power BI Desktop está aberta e a página de Diagnóstico Global está selecionada. A seção Opções de Diagnóstico tem duas propriedades: Habilitar o rastreamento e Cache de geocódigo de bypass. A opção Habilitar o rastreamento está habilitada. A seção Coleta de Despejo de Memória tem um botão Habilitar Agora, bem como um link para abrir a pasta despejo/rastreamentos de memória.](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-Ao selecionar o link **Abrir pasta de rastreamentos/despejo de memória** em Coleta de Despejo de Memória, a pasta a seguir é aberta: _\\\<Usuário>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+Ao selecionar o link **Abrir a pasta de rastreamentos/despejo de memória** em Opções de Diagnóstico, a seguinte pasta é aberta: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 Ao navegar até a pasta pai, o conteúdo da pasta pai exibirá a pasta contendo _AnalysisServicesWorkspaces_, com uma subpasta do workspace para cada instância aberta do Power BI Desktop. Essas subpastas são nomeadas com um sufixo de inteiro, como _AnalysisServicesWorkspace2058279583_.
 
@@ -63,7 +62,7 @@ Depois de baixar e instalar o SQL Server Management Studio, execute o SQL Server
 Para abrir o arquivo de rastreamento, execute as seguintes etapas:
 
 1. No SQL Server Profiler, selecione _Arquivo > Abrir > Rastreamento_
-2. Insira o caminho até o arquivo de rastreamento da sessão atualmente aberta do Power BI, como abaixo: _\\\<Usuário>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
+2. Insira o caminho para o arquivo de rastreamento da sessão do Power BI aberta no momento, como: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
 3. Abra _FlightRecorderCurrent.trc_
 
 Todos os eventos da sessão atual são exibidos. Um exemplo anotado está mostrado abaixo, destacando os grupos de eventos. Cada grupo tem o seguinte:

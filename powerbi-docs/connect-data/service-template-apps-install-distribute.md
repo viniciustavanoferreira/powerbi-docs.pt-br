@@ -5,15 +5,14 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692945"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235706"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Instalar e distribuir aplicativos de modelo em sua organização
 
@@ -38,15 +37,19 @@ Para instalar, personalizar e distribuir um aplicativo de modelo, você precisa:
 
     ![Obter aplicativos](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. Na janela AppSource que aparece, selecione **Aplicativos**. Procure ou pesquise o aplicativo desejado e selecione **Obter agora**.
+1. No Marketplace de aplicativos do Power BI que aparece, selecione **Aplicativos de modelo**. Todos os aplicativos de modelo disponíveis no AppSource serão exibidos. Navegue para localizar o aplicativo de modelo que você está procurando ou obtenha uma seleção filtrada usando a caixa de pesquisa. Digitar parte do nome de um aplicativo de modelo ou de uma categoria, como finanças, análise, marketing etc., facilitará a localização do item que você está procurando.
 
     ![Pesquisar no AppSource](media/service-template-apps-install-distribute/power-bi-appsource.png)
+
+1. Ao encontrar o aplicativo de modelo que você está procurando, clique nele. A oferta do aplicativo de modelo será exibida. Clique em **OBTER AGORA**.
+
+   ![Oferta do aplicativo de modelo](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
 1. Na caixa de diálogo que aparece, selecione **Instalar**.
 
     ![Instalar aplicativo](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    O aplicativo é instalado com um workspace associado. **Se você decidir personalizar o aplicativo, isso será feito neste workspace associado**.
+    O aplicativo é instalado, junto ao workspace com o mesmo nome que tem todos os artefatos necessários para maior [personalização](#customize-and-share-the-app).
 
     > [!NOTE]
     > Se você usar um link de instalação para um aplicativo que não esteja listado no AppSource, uma caixa de diálogo de validação solicitará que você confirme sua escolha.

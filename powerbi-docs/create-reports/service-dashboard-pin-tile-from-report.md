@@ -6,16 +6,15 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e3a9d6db1b7f51f02f3dbc94da1d6b35eac3222
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348886"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354307"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Fixar um bloco em um painel do Power BI por meio de um relatório
 
@@ -57,6 +56,11 @@ Agora crie seu próprio dashboard usando um dos relatórios de exemplo do Power 
 Outra opção é fixar uma página inteira de relatório em um dashboard, que é uma maneira fácil de fixar mais de uma visualização por vez. Quando você fixa uma página inteira, os blocos são *dinâmicos*. Ou seja, você pode interagir com eles lá no dashboard. As alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos usados no gráfico, também são refletidas no bloco do dashboard.  
 
 Para saber mais, confira [Fixar uma página inteira de relatório](service-dashboard-pin-live-tile-from-report.md).
+
+> [!NOTE]
+> Algumas opções de formatação não são aplicadas aos visuais quando eles estão fixados em um dashboard. As configurações de borda, sombra e tela de fundo serão ignoradas no bloco fixado. Em visuais de cartão, o texto usado para o valor é sempre mostrado em dashboards usando a família de fontes "DIN". 
+> 
+>
 
 ## <a name="next-steps"></a>Próximas etapas
 - [Dashboards para consumidores de serviço do Power BI](../consumer/end-user-dashboards.md)

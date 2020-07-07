@@ -6,16 +6,15 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315938"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485658"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Obtenha uma assinatura para você e outras pessoas de relatórios e dashboards no serviço do Power BI
 
@@ -109,7 +108,7 @@ Os administradores do Power BI podem usar os logs de auditoria do Power BI para 
 
 ### <a name="general"></a>Geral
 
-- Assim como ocorre com outros produtos de BI, a hora para a qual você define sua assinatura é quando o processamento da assinatura começa.  Quando o processamento do relatório for concluído, a assinatura será enfileirada e enviada aos destinatários do email.  Nos esforçamos para processar e entregar todas as assinaturas o mais rápido possível. No entanto, às vezes, na demanda de pico, um atraso maior poderá ocorrer devido ao número de assinaturas que o Power BI pode enviar de uma vez. A maioria dos clientes não deve enfrentar um atraso de mais de 15 minutos para processar e enviar relatórios. Pode levar até 30 minutos para determinados tempos e locatários que têm uso significativo.  Nunca esperamos que nenhum atraso na entrega seja superior a 60 minutos a contar do momento em que a assinatura é agendada.  Se você experienciar um atraso longo, primeiro verifique se o endereço `no-reply-powerbi@microsoft.com` está na lista de permissões do seu provedor de email.  Se ele estiver, entre em contato com o suporte do Power BI para obter assistência.
+- Assim como ocorre com outros produtos de BI, a hora para a qual você define sua assinatura é quando o processamento da assinatura começa.  Quando o processamento do relatório for concluído, a assinatura será enfileirada e enviada aos destinatários do email.  Nos esforçamos para processar e entregar todas as assinaturas o mais rápido possível. No entanto, às vezes, na demanda de pico, um atraso maior poderá ocorrer devido ao número de assinaturas que o Power BI pode enviar de uma vez. A maioria dos clientes não deve enfrentar um atraso de mais de 15 minutos para processar e enviar relatórios. Pode levar até 30 minutos para determinados tempos e locatários que têm uso significativo.  Nunca esperamos que nenhum atraso na entrega seja superior a 60 minutos a contar do momento em que a assinatura é agendada.  Se você tiver um atraso longo, primeiro verifique se o endereço `no-reply-powerbi@microsoft.com` está na lista de remetentes seguros e se não está bloqueado pelo seu provedor de email.  Se o email não estiver sendo bloqueado, entre em contato com o suporte do Power BI para obter assistência.
 - Atualmente, não há suporte para assinaturas de email de relatórios e dashboards que usam conjuntos de dados de conexão dinâmica ao fazer uma assinatura para outros usuários que não sejam a própria pessoa, exceto para relatórios paginados. Você pode assinar um relatório paginado para outras pessoas usando o contexto de segurança. Leia mais sobre [como assinar relatórios paginados](../consumer/paginated-reports-subscriptions.md).
 - O Power BI pausa a atualização automaticamente em conjuntos de dados associados a dashboards e relatórios que não foram visitados há mais de dois meses. No entanto, se você adicionar uma assinatura a um dashboard ou um relatório, ele não ficará em pausa mesmo que não seja visitado.
 - Se você não estiver recebendo emails de assinatura, verifique se o nome UPN pode receber emails.
@@ -134,6 +133,7 @@ Os administradores do Power BI podem usar os logs de auditoria do Power BI para 
 - Assinaturas de email não dão suporte à maioria dos [visuais personalizados](../developer/power-bi-custom-visuals.md). A única exceção é para os elementos visuais personalizados que foram [certificados](../developer/power-bi-custom-visuals-certified.md).
 - No momento, as assinaturas de email não dão suporte a visuais personalizados da plataforma R.
 - Assinaturas de email são enviadas com estados de segmentação e filtro padrão do relatório. As alterações feitas nos padrões após a assinatura não serão exibidas no email. Os relatórios paginados dão suporte a essa funcionalidade e permitem que você defina os valores de parâmetro específicos por assinatura.
+- Digamos que você tenha um relatório com uma conexão dinâmica com o Analysis Services e a assinatura configurada para ser executada após a atualização de dados. Ele será executado na primeira vez que o serviço do Power BI detectar uma alteração em seu modelo local quando pesquisar a instância do Analysis Services.  O Power BI verifica a cada hora se há uma alteração no modelo de dados do Analysis Services, para determinar quando enviar a assinatura.
 
 ## <a name="next-steps"></a>Próximas etapas
 

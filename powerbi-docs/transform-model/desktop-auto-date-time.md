@@ -5,15 +5,14 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ea3d786642d969eb8f0879bd336a49c486b3f95c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349507"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393808"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Aplicar data/hora automáticas no Power BI Desktop
 
@@ -24,7 +23,6 @@ A Data/hora automática é uma opção de carregamento de dados no Power BI Desk
 Quando a opção está habilitada, o Power BI Desktop cria uma tabela de data/hora oculta automática para cada coluna de data, desde que todas as condições a seguir sejam verdadeiras:
 
 - O modo de armazenamento de tabela é Import
-- A coluna não é calculada
 - O tipo de dados da coluna é data ou data/hora
 - A coluna não é o lado de "muitos" de um relacionamento de modelo
 
@@ -99,6 +97,7 @@ No Power BI Desktop, selecione _Arquivo > Opções e configurações > Opções_
 Para obter mais informações relacionadas a este artigo, confira os seguintes recursos:
 
 - [Diretrizes de data/hora automática no Power BI Desktop](../guidance/auto-date-time.md)
+- [Criar tabelas de data no Power BI Desktop](../guidance/model-date-tables.md)
 - [Definir e usar tabelas de datas no Power BI Desktop](desktop-date-tables.md)
 - Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para aprimorar o Power BI](https://ideas.powerbi.com/)

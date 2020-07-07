@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2020
+ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793398"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739243"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Usar metadados aprimorados de conjunto de dados (versão prévia)
 
@@ -64,11 +63,13 @@ O arquivo de backup é criado quando o relatório é atualizado, portanto, as al
 Na versão prévia, as limitações a seguir se aplicam quando o recurso de versão prévia do recurso está habilitado.
 
 ### <a name="unsupported-features-and-connectors"></a>Recursos e conectores sem suporte
+
+As seguintes limitações se aplicam:
+
 Ao abrir um arquivo PBIX ou PBIT existente que não foi atualizado, a atualização falhará se o conjunto de dados contiver qualquer um dos recursos ou conectores a seguir. Se essa falha ocorrer, não deverá haver nenhum impacto imediato na experiência do usuário e o Power BI Desktop continuará usando o formato de metadados anterior.
 
-* Todos os conectores personalizados
+* Todos os conectores personalizados (limitação de versão de maio de 2020)
 * Scripts do Python
-* Conectores personalizados
 * Azure DevOps Server
 * Conector do BI
 * Denodo
@@ -84,16 +85,15 @@ Ao abrir um arquivo PBIX ou PBIT existente que não foi atualizado, a atualizaç
 * Expressões M que contêm determinadas combinações de caracteres, como "\\n" em nomes de colunas
 * Ao usar conjuntos de dados com o recurso **metadados aprimorados de conjunto de dados** habilitado, as fontes de dados de SSO (logon único) não podem ser configuradas no serviço do Power BI
 
-Os relatórios que usam esses conectores listados não serão atualizados para o novo formato. Os relatórios que já foram atualizados ou criados após a habilitação desse novo recurso não darão suporte à adição de conectores ou recursos sem suporte listados. 
+Se você estiver usando a versão do Power BI Desktop de **junho de 2020** (ou posterior), *haverá* suporte para todos os conectores personalizados e internos no Power BI Desktop e no serviço do Power BI. Durante o processo de publicação ao usar a versão de junho de 2020 ou posterior, se o gateway encontrar problemas, o conjunto de dados será publicado com êxito, mas os usuários deverão republicar o relatório para atualizar os dados. A caixa de diálogo **Configurações de fonte de dados** é o único indicador de que ocorreram problemas com o processo de publicação.
+
+Relatórios que usam conectores ou recursos sem suporte não serão atualizados para o novo formato. Os relatórios que já foram atualizados ou criados após a habilitação desse novo recurso não darão suporte à adição de conectores ou recursos sem suporte listados. 
 
 Não há suporte para consultas com fontes de dados dinâmicas. Os relatórios com fontes de dados dinâmicas não serão atualizados para o novo formato e os relatórios que já foram atualizados ou criados recentemente com o recurso habilitado não darão suporte à adição de fontes de dados dinâmicas. Uma consulta terá uma fonte de dados dinâmica se a fonte for alterada dependendo de um parâmetro, entrada de função ou função volátil. 
 
 Não há suporte para consultas com erros em etapas de upstream ou ramificações. 
 
-Além disso, os arquivos PBIX e PBIT que foram atualizados com êxito para usar os **metadados aprimorados de conjunto de dados** *não podem* usar os recursos ou conectores acima na versão atual.
-
-
-
+Além disso, os arquivos PBIX e PBIT que já foram atualizados com êxito para usar **metadados aprimorados de conjunto de dados** *não podem* usar os recursos acima (ou conectores sem suporte).
 
 ### <a name="lineage-view"></a>Exibição de linhagem
 Atualmente, os conjuntos de dados que usam o novo formato de metadados não mostram links para os fluxos de entrada na exibição de linhagem do serviço do Power BI.

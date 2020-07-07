@@ -5,17 +5,16 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/19/2020
 ms.author: mihart
-ms.custom: licensing support
+ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: baa556b1db10827b5979331ddcc22fa1e111a661
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160147"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236547"
 ---
 # <a name="apps-in-power-bi"></a>Aplicativos no Power BI
 
@@ -43,15 +42,17 @@ Com os aplicativos, sempre que o autor do aplicativo liberar atualizações, voc
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Obter um novo aplicativo
-Você pode obter aplicativos de algumas maneiras diferentes. Algumas das maneiras estão listadas abaixo.  No entanto, para ver instruções passo a passo detalhadas de como obter e explorar um aplicativo, confira [Abrir e interagir com um aplicativo](end-user-app-view.md).
+A melhor maneira de obter um novo aplicativo é por meio do [marketplace de aplicativos do Power BI](https://app.powerbi.com/groups/me/getapps/apps).
 
-- O designer de aplicativo pode instalá-lo automaticamente na sua conta do Power BI e, na próxima vez que você abrir o serviço do Power BI, verá o novo aplicativo na lista de conteúdo **Aplicativos**. 
-- O designer de aplicativo pode enviar um link direto para um aplicativo. A seleção do link abre o aplicativo no serviço do Power BI.
-- No Power BI em seu dispositivo móvel, você só pode instalar um aplicativo de um link direto, e não do AppSource. Se o autor do aplicativo instalar o aplicativo automaticamente, você o verá na sua lista de aplicativos.
-- Você pode procurar aplicativos no [AppSource](https://appsource.microsoft.com). O AppSource contém aplicativos publicados por designers de relatório dentro e fora de sua empresa. Por exemplo, você pode encontrar um aplicativo no AppSource para um serviço que você já usa, como Google Analytics, GitHub ou Microsoft Dynamics. Você também encontrará aplicativos de exemplo que podem ser usados para aprender a usar o Power BI.  
+![Marketplace de aplicativos do Power BI](./media/end-user-apps/power-bi-app-marketplace.png)
 
+Há algumas outras maneiras de obter aplicativos. Algumas dessas maneiras estão listadas abaixo. No entanto, para ver instruções passo a passo detalhadas de como obter e explorar um aplicativo, confira [Abrir e interagir com um aplicativo](end-user-app-view.md).
 
-## <a name="next-step"></a>Próxima etapa
+* O designer de aplicativo pode instalá-lo automaticamente na sua conta do Power BI e, na próxima vez que você abrir o serviço do Power BI, verá o novo aplicativo na lista de conteúdo **Aplicativos**. 
+* O designer de aplicativo pode enviar um link direto para um aplicativo. A seleção do link abre o aplicativo no serviço do Power BI.
+* No Power BI em seu dispositivo móvel, você só pode instalar um aplicativo de um link direto, e não do AppSource. Se o autor do aplicativo instalar o aplicativo automaticamente, você o verá na sua lista de aplicativos. 
+
+## <a name="next-steps"></a>Próximas etapas
 * [Abrir e interagir com um aplicativo](end-user-app-view.md)
 * [Outras maneiras de compartilhar conteúdo](end-user-shared-with-me.md)
 

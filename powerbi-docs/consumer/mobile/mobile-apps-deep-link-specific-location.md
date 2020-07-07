@@ -5,15 +5,14 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114500"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393763"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Criar um link para um local específico nos aplicativos móveis do Power BI
 Use links para acessar diretamente itens específicos no Power BI: Relatório, Dashboard e Bloco.
@@ -33,7 +32,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
 
 > [!IMPORTANT]
-> Se o conteúdo estiver hospedado em um datacenter especial como Governo, China etc. O link deverá começar com o endereço correto do Power BI, como `app.powerbigov.us` ou `app.powerbi.cn`.   
+> Se o conteúdo estiver hospedado em um datacenter especial, como Governo, China etc. O link deverá começar com o endereço correto do Power BI, como `app.powerbigov.us` ou `app.powerbi.cn`.   
 >
 
 

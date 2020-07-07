@@ -6,16 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/14/2020
+ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159986"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85484922"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Como licenciar o serviço do Power BI para usuários na sua organização
 
@@ -39,6 +38,8 @@ Essas funções gerenciam a organização. Para obter informações sobre a fun�
 
 ## <a name="get-power-bi-for-your-organization"></a>Obter o Power BI para sua organização
 
+Para saber mais sobre preços, confira [Preços e comparação de produtos](https://powerbi.microsoft.com/pricing/).
+
 Um administrador global ou um administrador de cobrança pode se inscrever para o serviço do Power BI e comprar as licenças para os usuários em sua própria organização. Se você não estiver pronto para comprar, selecione a avaliação do Power BI Pro. Você receberá 25 licenças para usar por um mês. Para obter instruções passo a passo sobre como se inscrever, confira [Obter uma assinatura do Power BI para sua organização](service-admin-org-subscription.md).
 
 ## <a name="about-self-service-sign-up"></a>Sobre a inscrição por autoatendimento
@@ -46,6 +47,16 @@ Um administrador global ou um administrador de cobrança pode se inscrever para 
 Os usuários individuais podem obter suas próprias licenças do Power BI inscrevendo-se com as respectivas contas corporativas ou de estudante. Com uma licença gratuita, os usuários podem explorar o Power BI para visualização e análise de dados pessoais usando o Meu Workspace, mas não podem compartilhar com outros usuários. Para compartilhar conteúdo, uma licença do Power BI Pro é necessária. Os usuários podem atualizar o tipo das próprias licenças para Pro ou inscrever-se para a Pro diretamente, caso a organização esteja usando a nuvem comercial. A compra direta ou a atualização para o Pro não está disponível para organizações educacionais ou organizações implantadas em nuvens do Azure Government, Azure Alemanha ou Azure China 21Vianet.
 
 Se você não quiser que os usuários em sua organização usem a inscrição por autoatendimento, confira [Habilitar ou desabilitar a inscrição por autoatendimento](service-admin-disable-self-service.md) para saber como desativá-la.
+
+Desativar a inscrição de autoatendimento impede que os usuários explorem o Power BI para análise e visualização de dados. Se você bloquear a inscrição individual, obtenha licenças do Power BI (Gratuito) para sua organização e as atribua a todos os usuários. Siga estas etapas para atribuir automaticamente uma licença do Power BI (Gratuito) a todos os usuários existentes:
+
+1. Entre no [Centro de administração do Microsoft 365](https://admin.microsoft.com) usando credenciais de administrador global ou de administrador de cobrança.
+1. No menu da barra lateral esquerda, selecione **Cobrança** > **Serviços de compra**.
+1. Pesquise ou role para localizar a oferta do Power BI (Gratuito). Selecione a oferta e **Obter agora**.
+1. Insira o número de licenças necessárias para abranger todos os usuários.
+1. Selecione **Atribuir automaticamente a todos os usuários sem licenças** e faça check-out.
+
+  ![Assinatura gratuita do Power BI atribuída automaticamente](media/service-admin-licensing-organization/m365-auto-assign.png) 
 
 Se você quiser saber como ver quais usuários em sua organização podem já ter uma licença, confira [Exibir e gerenciar licenças de usuário](service-admin-manage-licenses.md).
 

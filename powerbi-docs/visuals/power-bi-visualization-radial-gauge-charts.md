@@ -7,15 +7,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276342"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354882"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidor radial no Power BI
 
@@ -70,9 +69,9 @@ Este tutorial usa o [arquivo do Excel de Exemplo Financeiro](https://download.mi
 
 1. No painel **Campos**, selecione **Vendas Brutas**.
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
+   ![tabela financeira expandida e Vendas Brutas selecionadas](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
-1. Altere a agregação para **Média**.
+1. Altere a agregação para **Médio**.
 
    ![Captura de tela do painel Campos com Vendas Brutas e a Agregação de Média destacada.](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
@@ -89,7 +88,7 @@ Este tutorial usa o [arquivo do Excel de Exemplo Financeiro](https://download.mi
 
 1. Arraste **COGS** do painel **Campos** para o contêiner **Valor de destino**.
 
-1. Altere a agregação para **Média**.
+1. Altere a agregação para **Médio**.
 
    O Power BI adiciona uma agulha para representar o valor de destino de **US$ 145.480**.
 

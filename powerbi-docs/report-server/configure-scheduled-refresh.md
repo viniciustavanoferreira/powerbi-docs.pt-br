@@ -5,22 +5,23 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
-ms.date: 11/01/2017
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81439953"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236078"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Como configurar a atualização agendada de relatório do Power BI
-Para atualizar dados em um relatório do Power BI, um plano de atualização agendado deverá ser criado. Isso é feito na área *Gerenciar* de um relatório do Power BI.
+Para atualizar dados em um relatório do Power BI no Servidor de Relatórios do Power BI, você deve criar um plano de atualização agendada. Crie esse plano na área *Gerenciar* de um relatório do Power BI no servidor de relatório.
 
 ![Atualização agendada bem-sucedida de um relatório do Power BI](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>Configurar credenciais da fonte de dados
+Você precisa das permissões necessárias para criar um plano de atualização agendada. As permissões são configuradas nas definições de função do servidor de relatório. Confira [Definições de função – funções predefinidas](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles) na documentação do SQL Server Reporting Services para obter detalhes.
+
 Antes de criar um plano de atualização de dados de agendamento, você precisará definir as credenciais para **cada fonte de dados** usada no relatório do Power BI.
 
 1. No portal da Web, clique com o botão direito do mouse no relatório do Power BI e selecione **Gerenciar**.
@@ -78,7 +79,7 @@ Exiba o status de um plano de agendamento de atualização no portal da Web.
    | Atualizando dados |Atualizando os dados no modelo. |
    | Removendo credenciais do modelo |Remoção das credenciais usadas para conectar-se à fonte de dados do modelo. |
    | Salvando modelo no catálogo |A atualização de dados está concluída e o modelo atualizado é salvo no banco de dados de catálogo de servidor de relatório. |
-   | Concluída: Atualização de Dados |A atualização está concluída feita. |
+   | Concluído: Atualização de Dados |A atualização está concluída feita. |
    | Erro: |Ocorreu um erro durante a atualização e ele é exibido. |
 
 Para ver o status atual, a página da Web deverá ser atualizada. O status não será alterado automaticamente.

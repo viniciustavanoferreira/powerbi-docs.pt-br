@@ -7,14 +7,13 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113682"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238046"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Adicione interatividade ao visual pelas seleções de visuais do Power BI
 
@@ -81,7 +80,7 @@ Esse objeto tem métodos correspondentes para criar `selections` para diferentes
 
 Vamos examinar como as seleções são representadas no mapeamento de exibição de dados categóricos para o conjunto de dados de amostra:
 
-| Fabricante | Type | Value |
+| Fabricante | Tipo | Valor |
 | - | - | - |
 | Chrysler | Carro nacional | 28883 |
 | Chrysler | Caminhonete nacional | 117131 |
@@ -161,7 +160,7 @@ E o elemento visual deve ser capaz de dividir dados por `Manufacturer` e `Type` 
 
 Por exemplo, quando o usuário seleciona `Chrysler` por `Manufacturer`, outros elementos visuais devem mostrar os seguintes dados:
 
-| Fabricante | Type | Value |
+| Fabricante | Tipo | Valor |
 | - | - | - |
 | **Chrysler** | Carro nacional | 28883 |
 | **Chrysler** | Caminhonete nacional | 117131 |
@@ -170,7 +169,7 @@ Por exemplo, quando o usuário seleciona `Chrysler` por `Manufacturer`, outros e
 
 Quando o usuário seleciona `Import Car` por `Type` (seleciona dados por série), outros elementos visuais devem mostrar os seguintes dados:
 
-| Fabricante | Type | Value |
+| Fabricante | Tipo | Valor |
 | - | - | - |
 | Chrysler | **Carro importado** | 0 |
 | Ford | **Carro importado** | 0 |
@@ -188,7 +187,7 @@ Quando o usuário seleciona `Import Car` por `Type` (seleciona dados por série)
 Há `Manufacturer` como categoria (colunas), `Type` como série (linhas) e `Value` como `Values` para a série.
 
 > [!NOTE]
-> Os `Values` são necessários para séries, porque, de acordo com o mapeamento da exibição de dados, o visual espera que `Values` sejam agrupados pelos dados das `Rows`.
+> Os `Values` são necessários para séries porque, de acordo com o mapeamento da exibição de dados, o visual espera que `Values` sejam agrupados pelos dados das `Rows`.
 
 #### <a name="create-selections-for-categories"></a>Criar seleções para categorias
 

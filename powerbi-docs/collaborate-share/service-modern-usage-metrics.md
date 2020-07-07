@@ -10,12 +10,11 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316053"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299608"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Monitorar métricas de uso na nova experiência de workspace
 
@@ -257,6 +256,7 @@ Além das diferenças acima entre os relatórios de métricas de uso anteriores 
 - O mascaramento do usuário não funciona conforme o esperado ao usar grupos aninhados. Se a sua organização tiver desabilitado os dados por usuário nas métricas de uso de criadores de conteúdo nas configurações de locatário do portal de administração do Power BI, apenas os membros no nível superior serão mascarados. Membros de subgrupos ainda ficarão visíveis.
 - A inicialização do conjunto de dados do Relatório de Métricas de Uso pode levar alguns minutos, resultando na exibição de um relatório de métricas de uso em branco porque a interface do usuário do Power BI não aguarda o término da atualização. Verifique o histórico de atualização nas configurações do conjunto de dados do Relatório de Métricas de Uso para verificar se a operação de atualização foi bem-sucedida.
 - A inicialização do conjunto de dados do Relatório de Métricas de Uso pode falhar por tempo limite esgotado durante a atualização. Confira a seção Solução de problemas abaixo para resolver esse problema.
+- O compartilhamento é desabilitado para o relatório de métricas de uso. Para dar às pessoas acesso de leitura ao relatório, primeiro você precisa dar a elas acesso ao workspace.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

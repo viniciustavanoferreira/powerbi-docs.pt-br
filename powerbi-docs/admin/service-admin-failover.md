@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128548"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782348"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Perguntas frequentes de recuperação de desastre, failover e alta disponibilidade do Power BI
 
@@ -38,7 +37,7 @@ Todos os componentes do serviço do Power BI sincronizam regularmente suas inst�
 
 Instâncias de backup residem no mesmo local geográfico (área geográfica) que você selecionou quando sua organização se inscreveu no Power BI, exceto quando observado no [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Uma área geográfica pode conter várias regiões, e a Microsoft pode replicar dados para qualquer uma das regiões dentro de um determinado local para resiliência de dados. A Microsoft não replicará nem moverá dados do cliente para fora da área geográfica. Para um mapeamento das áreas geográficas oferecidas pelo Power BI e das regiões dentro delas, veja o [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
 
-## <a name="how-does-microsoft-decide-to-failover"></a>Como a Microsoft decide fazer failover?
+## <a name="how-does-microsoft-decide-to-fail-over"></a>Como a Microsoft decide fazer failover?
 
 Há dois sistemas diferentes que indicam quando um failover pode ser necessário:
 
@@ -57,6 +56,9 @@ O Power BI leva aproximadamente 15 minutos para se tornar operacional novamente 
 
 Depois que um failover é executado, o Power BI usa a replicação geográfica do Armazenamento do Azure para executar o failover. Essas replicações geralmente têm um ponto de retorno de 15 minutos. No entanto, o [Armazenamento do Azure não garante esse período](https://docs.microsoft.com/azure/storage/common/storage-redundancy) com um SLA e, portanto, o Power BI também não é capaz de garantir um período. 
 
+## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>O que acontecerá com workspaces e relatórios se minha capacidade Premium ficar indisponível? 
+
+Se uma capacidade Premium ficar indisponível, os workspaces e relatórios permanecerão acessíveis e visíveis para todos os usuários licenciados do Power BI Pro que tinham acesso a eles anteriormente.
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>Quando a minha instância do Power BI retorna para a região original?
 

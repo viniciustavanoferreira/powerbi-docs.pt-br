@@ -5,17 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
-ms.translationtype: HT
+ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120577"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354422"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar novos workspaces no Power BI
 
@@ -144,6 +143,20 @@ Qualquer um que tenha função de administrador em um workspace pode fornecer a 
 Se quiser distribuir conteúdo oficial para um grande público em sua organização, você poderá publicar um *aplicativo* do seu workspace.  Quando o conteúdo estiver pronto, escolha quais dashboards e relatórios você deseja publicar e publique como um aplicativo. Você pode criar um aplicativo de cada workspace.
 
 Leia sobre como [publicar um aplicativo nos novos workspaces](service-create-distribute-apps.md).
+
+## <a name="security-settings"></a>Configurações de segurança
+
+A configuração **Permitir que os colaboradores atualizem o aplicativo para este workspace** permite que os Administradores do workspace deleguem aos usuários na função Colaborador a capacidade de atualizar o aplicativo para o workspace. Por padrão, somente Administradores e Membros do workspace podem publicar e atualizar o aplicativo para o workspace. 
+
+Quando habilitados, os Colaboradores podem:
+* Atualizar os metadados do aplicativo, como nome, ícone, descrição, site de suporte e cor
+* Adicionar ou remover itens incluídos no aplicativo, como adicionar relatórios ou conjuntos de dados
+* Alterar o item padrão ou de navegação do aplicativo no qual o aplicativo é aberto
+
+No entanto, os Colaboradores não podem:
+* Publicar o aplicativo pela primeira vez
+* Alterar quem tem permissão para o aplicativo
+
 
 ## <a name="next-steps"></a>Próximas etapas
 * Leia sobre [Organizar o trabalho na nova experiência de espaços de trabalho no Power BI](service-new-workspaces.md)

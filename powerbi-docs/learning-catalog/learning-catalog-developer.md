@@ -1,17 +1,16 @@
 ---
 title: Catálogo de aprendizagem para desenvolvedores
 description: Encontre todas as opções de treinamento para o Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 6262b7ba0f3d01db6f9f5ff24f411de6ec4f35cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.author: margoc
+ms.openlocfilehash: edc2e40c219a8bbe1d57a5cfda774e7f9f87856d
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268594"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532616"
 ---
 # <a name="developer-learning-catalog"></a>Catálogo de aprendizagem para desenvolvedores
 
@@ -27,17 +26,13 @@ O catálogo a seguir é organizado do conhecimento essencial aos domínios espec
 ## <a name="embedded"></a>Inserido<a name="embedded"></a>
 | Conteúdo | Descrição | Formatar  | Tamanho      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+|[Curso online: Desenvolvedor do Power BI em um dia](developer-online-course.md)|Um curso em vídeo que capacita você, como desenvolvedor de aplicativos, com o conhecimento técnico necessário para inserir conteúdo do Power BI. Recomendamos que você assista aos vídeos na sequência gravada, começando com o vídeo 1 e terminando com o vídeo 20.|Playlist do YouTube e kit de estudo individual|3h20min|
 | [Melhores práticas de gerenciamento de análises do Power BI Embedded para implantações de multilocatário](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html) | O Power BI Embedded é um serviço poderoso que permite que você coloque o Power BI com rótulo em branco em seus próprios aplicativos. Assista a este webinar para aprender a gerenciar implantações do Power BI Embedded.   | Webinar       |                |
 | [Saiba sobre o Power BI Embedded em 20 minutos](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Este webinar está sendo apresentado para introduzir o Power BI Embedded. No final desse webinar, os usuários devem ser capazes de compreender o que é o Power BI Embedded, as próximas etapas para começar com o produto e onde obter ajuda/recursos. | Webinar       |                |
 | [Como desenvolver com a Inserção do Power BI, por Ted Pattison – atualização de abril de 2018](https://www.youtube.com/watch?v=swnGlrRy588)  | Neste webinar orientado ao desenvolvedor, Ted Pattison discutirá os aprimoramentos recentes na plataforma de incorporação do Power BI e como eles podem ser aproveitados por ISVs e desenvolvedores corporativos. | Vídeo do YouTube | 59min49s  |
 | [Inserção do Power BI Versão 2 – a história completa](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | O webinar foi apresentado em 10 de agosto de 2017 pelo MVP de Power BI Ted Pattison, de Treinamento de Caminho Crítico. O webinar aborda como desenvolver usando os novos recursos de incorporação do Power BI disponíveis por meio do Power BI Premium.  | Webinar       | 1h7min23s |
 | [Tutorial: Inserir conteúdo do Power BI em um aplicativo para seus clientes](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | Com o Power BI Embedded no Azure ou a Inserção do Power BI no Office, você pode inserir relatórios, dashboards ou blocos em um aplicativo usando app owns data.  | Documentação |                |
 | [Saiba sobre o Power BI Embedded em 20 minutos](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Este webinar está sendo apresentado para introduzir o Power BI Embedded. No final desse webinar, os usuários devem ser capazes de compreender o que é o Power BI Embedded, as próximas etapas para começar com o produto e onde obter ajuda/recursos. | Webinar       |                |
-## <a name="dax"></a>DAX<a name="dax"></a>
-| Conteúdo | Descrição | Formatar  | Tamanho      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-| [DAX prático para Power BI, por Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs)  | Para acompanhar seu novo livro, Phil Seamark vai examinar algumas práticas recomendadas para o DAX prático no Power BI   | Vídeo do YouTube | 59min41s |
-| [Soluções DAX criativas, por Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | Você sabia que a linguagem DAX é capaz de fazer muito mais do que simplesmente executar uma SUM em uma coluna ou contar linhas em uma tabela? O DAX se encontra na parte superior de um dos bancos de dados mais rápidos que há. Junte-se a Charles Sterling e a Philip Seamark para explorar alguns cenários incomuns e criativos que você talvez não tenha imaginado serem viáveis. | Webinar       | 58min12s |
 ## <a name="development"></a>Desenvolvimento<a name="development"></a>
 | Conteúdo | Descrição | Formatar  | Tamanho      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|

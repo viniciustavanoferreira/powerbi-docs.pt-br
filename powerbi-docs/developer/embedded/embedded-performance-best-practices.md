@@ -8,19 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279378"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299562"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Práticas recomendadas de desempenho do Power BI Embedded
 
 Este artigo fornece recomendações para renderização mais rápida de relatórios, painéis e blocos em seu aplicativo.
 
 > [!Note]
-> O tempo de carregamento depende principalmente dos elementos relevantes para o relatório e dos próprios dados, como visuais, tamanho e complexidade das consultas e medidas calculadas dos dados. Para obter mais informações, confira o [Guia de otimização do Power BI](../../guidance/power-bi-optimization.md).
+> O tempo de carregamento depende principalmente dos elementos relevantes para o relatório e dos próprios dados, como visuais, tamanho e complexidade das consultas e medidas dos dados. Para obter mais informações, confira o [Guia de otimização do Power BI](../../guidance/power-bi-optimization.md).
 
 ## <a name="update-tools-and-sdk-packages"></a>Atualizar ferramentas e pacotes SDK
 
@@ -36,7 +35,7 @@ O método `powerbi.embed(element, config)` recebe um elemento e uma configuraç�
 
 ### <a name="embed-url"></a>URL de inserção
 
-Evite gerar a URL de inserção sozinho. Em vez disso, obtenha a URL de Inserção chamando a API [Obter relatórios](/rest/api/power-bi/reports/getreportsingroup), [Obter painéis](/rest/api/power-bi/dashboards/getdashboardsingroup) ou [Obter blocos](/rest/api/power-bi/dashboards/gettilesingroup). Adicionamos um novo parâmetro à URL chamado **_config_** , que é usado para aprimoramentos de desempenho.
+Evite gerar a URL de inserção sozinho. Em vez disso, obtenha a URL de Inserção chamando a API [Obter relatórios](/rest/api/power-bi/reports/getreportsingroup), [Obter painéis](/rest/api/power-bi/dashboards/getdashboardsingroup) ou [Obter blocos](/rest/api/power-bi/dashboards/gettilesingroup). Adicionamos um novo parâmetro à URL chamado **_config_**, que é usado para aprimoramentos de desempenho.
 
 ### <a name="permissions"></a>Permissões
 
@@ -53,7 +52,7 @@ Se você inserir relatórios com os mesmos filtros, indicadores e segmentações
 Se inserir vários relatórios no mesmo iframe, não gere um novo iframe para cada relatório. Em vez disso, use `powerbi.embed(element, config)` com uma configuração diferente para inserir o novo relatório.
 
 > [!NOTE]
-> A alternância entre relatórios em um cenário do tipo "o aplicativo possui dados" pode não ser muito eficaz devido à necessidade de gerar um novo token de inserção.
+> Alternar entre relatórios ao inserir para seus clientes (também conhecido como um cenário "o aplicativo possui dados") requer o uso de um token de inserção com permissões para todos os relatórios e conjuntos de dados. Para obter mais informações, confira [Gerar API de token](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken).
 
 ## <a name="query-caching"></a>Cache de consulta
 

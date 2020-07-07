@@ -9,15 +9,14 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: e1358cb8cbe37e0b44cd6a60069ad9ec707d12d8
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83287523"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485497"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Solucionar problemas de entrada no Power BI Desktop
-Em alguns momentos, talvez você tente entrar no **Power BI Desktop**, mas receba erros. Há dois motivos principais para os problemas de entrada: **Erros de Autenticação de Proxy** e **Erros de Redirecionamento de URL sem HTTPS**. 
+Em alguns momentos, talvez você tente entrar no **Power BI Desktop**, mas receba erros. Há dois motivos principais para problemas de conexão: **erros de autenticação de proxy** e **erros de redirecionamento de URL sem HTTPS**. 
 
 Para determinar qual problema está causando o problema de entrada, a primeira etapa é entrar em contato com seu administrador e fornecer informações de diagnóstico para que eles possam determinar a causa do problema. Ao rastrear problemas associados ao seu problema de entrada, os administradores podem determinar qual dos erros a seguir se aplica a você. 
 
@@ -37,13 +36,13 @@ As exceções a seguir em arquivos de rastreamento do *Power BI Desktop* são as
 
 Quando esse erro ocorre, o motivo mais provável é que um servidor de autenticação de proxy em sua rede está bloqueando as solicitações Web emitidas pelo **Power BI Desktop**. 
 
-Se sua rede usar um servidor de autenticação de proxy, o administrador poderá corrigir esse problema incluindo em uma lista de permissão os seguintes domínios do servidor de autenticação de proxy:
+Se a sua rede usar um servidor de autenticação de proxy, o administrador poderá corrigir esse problema incluindo os seguintes domínios à lista de permissões no servidor de autenticação de proxy:
 
 * app.powerbi.com
 * api.powerbi.com
 * domínios no namespace *.analysis.windows.net
 
-Para clientes que fazem parte de uma nuvem governamental, a correção desse problema pode ser feita incluindo em uma lista de permissão os seguintes domínios do servidor de autenticação de proxy:
+Para clientes que fazem parte de uma nuvem governamental, a correção desse problema pode ser feita incluindo os seguintes domínios à lista de permissões do servidor de autenticação de proxy:
 
 * app.powerbigov.us
 * api.powerbigov.us
@@ -55,7 +54,7 @@ As versões atuais do **Power BI Desktop** usam a versão atual da autenticaçã
 
 As exceções a seguir em arquivos de rastreamento do *Power BI Desktop* são associadas este erro:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: não há suporte para o redirecionamento sem HTTPS no modo de exibição da Web*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: redirecionamento de URL sem HTTPS não tem suporte no modo de exibição da Web*
 * *ErrorCode: non_https_redirect_failed*
 
 Se *ErrorCode: non_https_redirect_failed* ocorrer, significa que uma ou mais páginas de redirecionamento ou provedores da cadeia de redirecionamento não é um ponto de extremidade HTTPS protegido, ou que um emissor de certificado de um ou mais redirecionamentos não está entre as raízes confiáveis do dispositivo. Todos os provedores em qualquer cadeia de redirecionamento de entrada deve usar uma URL com HTTPS. Para resolver esse problema, contate o administrador e solicite o uso de URLs protegidas em seus sites de autenticação. 

@@ -1,7 +1,7 @@
 ---
 title: Construtor de Relatórios do Power BI
 description: O Power BI Report Builder é uma ferramenta de criação de relatórios paginados.
-ms.date: 11/27/2019
+ms.date: 06/29/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,17 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621538"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782748"
 ---
 # <a name="power-bi-report-builder"></a>Construtor de Relatórios do Power BI
 
- O Power BI Report Builder é uma ferramenta de criação de relatórios paginados.  Quando você cria um relatório paginado, você está criando uma definição de relatório que especifica quais dados serão recuperados, em que local obtê-los e como exibi-los. Quando você executa o relatório, o processador de relatório usa a definição de relatório especificada, recupera os dados e combina-os com o layout do relatório para gerar o relatório. Visualize o relatório no Construtor de Relatórios. Em seguida, publique o relatório no serviço do Power BI.
+ O Power BI Report Builder é uma ferramenta para a criação de relatórios paginados que você pode publicar no serviço do Power BI.  Quando você cria um relatório paginado, você está criando uma definição de relatório que especifica quais dados serão recuperados, em que local obtê-los e como exibi-los. Quando você executa o relatório, o processador de relatório usa a definição de relatório especificada, recupera os dados e combina-os com o layout do relatório para gerar o relatório. Visualize o relatório no Construtor de Relatórios. Em seguida, publique o relatório no serviço do Power BI.
+ 
+Pronto para começar a criar? [Instale o Power BI Report Builder](https://aka.ms/pbireportbuilder) do Centro de Download da Microsoft.
 
 Prefere aprender com vídeos? Confira no YouTube a série de vídeos sobre relatórios paginados do Power BI de Chris Finlan, principal gerente de programas do Power BI.
 

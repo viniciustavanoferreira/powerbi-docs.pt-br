@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/27/2020
-ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
-ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
-ms.translationtype: HT
+ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84126286"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739220"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
 
@@ -215,7 +214,7 @@ O Servidor de Relatórios do Power BI agora dá suporte ao recurso de Transparen
 
 #### <a name="power-bi-visuals-api"></a>API de visuais do Power BI
 
-A versão da API fornecida com esta versão é a 2.6.
+A versão de API fornecida com esta versão é a 2.6.0.
 
 #### <a name="microsoft-report-builder-update"></a>Atualização do Construtor de Relatórios da Microsoft
 
@@ -366,7 +365,7 @@ Suporte para esses recursos em relatórios do Power BI:
 
 #### <a name="power-bi-visuals"></a>Visuais do Power BI
 
-- A versão da API fornecida com esta versão é a 2.3.
+- A versão da API fornecida com esta versão é a 2.3.0.
 
 ### <a name="administrator-settings"></a>Configurações do administrador
 

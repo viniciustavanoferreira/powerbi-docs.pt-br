@@ -6,14 +6,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/24/2020
 ms.author: painbar
-ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565290"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782590"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -24,6 +23,20 @@ Para informações sobre “Novidades” relacionadas, consulte:
 
 >[!NOTE]
 >O suporte de aplicativo móvel Power BI para **telefones que usam o Windows 10 Mobile** será descontinuado em 16 de março de 2021. [Saiba mais](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="june-2020"></a>Junho de 2020
+### <a name="show-your-bookmarks-in-slideshows-windows"></a>Mostrar seus indicadores em apresentações de slides (Windows)
+Agora você pode incluir relatórios e indicadores pessoais nas apresentações de slides, automaticamente como parte da apresentação, para realçar insights específicos nos seus dados.
+[Confira!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
+
+## <a name="may-2020"></a>Maio de 2020
+### <a name="weve-added-dark-mode-to-power-bi-mobile-ios"></a>Adicionamos o modo escuro ao Power BI móvel (iOS)
+Experimente o novo modo escuro no aplicativo móvel do Power BI para iOS13. No modo escuro, você verá texto claro em uma tela de fundo escura, o que reduz o brilho da tela e facilita a visualização do conteúdo. Você pode alternar entre temas nas configurações de aparência do aplicativo. [Saiba mais](mobile-apps-dark-mode.md)
+
+![Modo escuro nos aplicativos móveis do Power BI](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode.png)
+
+### <a name="apply-bookmarks-in-presentation-mode-windows"></a>Aplicar indicadores no modo de apresentação (Windows)
+Agora, ao apresentar um relatório no modo de apresentação, você pode aplicar indicadores pessoais e de relatório a páginas de relatório, contando a história dos seus dados. [Confira!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="april-2020"></a>Abril de 2020
 

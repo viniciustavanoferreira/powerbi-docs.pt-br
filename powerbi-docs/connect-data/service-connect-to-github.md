@@ -8,12 +8,11 @@ ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 56e0c3c6dde3a745448092ad118275ed847506fa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
-ms.translationtype: HT
+ms.openlocfilehash: 706e4221c131f1743ff00bb9a7b6c0812394cbb8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230220"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782432"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Conectar-se ao GitHub com o Power BI
 Este artigo explica como extrair seus dados da sua conta do GitHub com um aplicativo de modelo do Power BI. O aplicativo de modelo gera um workspace com um dashboard, um conjunto de relatórios e um conjunto de dados para permitir que você explore seus dados do GitHub. O aplicativo do GitHub para o Power BI mostra insights de seu repositório do GitHub, também conhecido como repositório, contendo dados sobre contribuições, problemas, solicitações pull e usuários ativos.
@@ -47,7 +46,7 @@ Você também pode experimentar o [tutorial do GitHub](service-tutorial-connect-
 
    ![Aplicativo do GitHub na página Aplicativos](media/service-connect-to-github/service-github-app-apps-page-icon.png)
 
-## <a name="connect-to-data-sources"></a>Conectar-se às fontes de dados
+## <a name="connect-to-data-sources"></a>Conectar-se a fontes de dados
 
 1. Selecione o ícone da página Aplicativos para abrir o aplicativo.
 
@@ -99,10 +98,10 @@ Os dados a seguir estão disponíveis no GitHub no Power BI:
 | Nome da tabela | Descrição |
 | --- | --- |
 | Contribuições |A tabela de contribuições apresenta o total de adições, exclusões e confirmações criadas pelo colaborador agregadas por semana. Os 100 principais colaboradores são incluídos. |
-| Problemas |Lista todos os problemas do repositório selecionado e contém cálculos como os tempos total e médio para encerramento de um problema, Total de problemas em aberto e Total de problemas encerrados. Esta tabela estará vazia quando não houver nenhum problema no repositório. |
-| Solicitações pull |Esta tabela contém todas as Solicitações Pull para o repositório e quem realizou a solicitação. Ela também contém cálculos de quantas solicitações pull abertas, fechadas e totais existem, quanto tempo demorou para efetuar o pull das solicitações e quanto tempo levou cada solicitação pull em média. Esta tabela estará vazia quando não houver nenhum problema no repositório. |
+| Questões |Lista todos os problemas do repositório selecionado e contém cálculos como os tempos total e médio para encerramento de um problema, Total de problemas em aberto e Total de problemas encerrados. Esta tabela estará vazia quando não houver nenhum problema no repositório. |
+| Solicitações pull |Esta tabela contém todas as Solicitações Pull para o repositório e quem realizou a solicitação. Ela também contém cálculos de quantas solicitações pull abertas, fechadas e totais existem, quanto tempo demorou para efetuar o pull das solicitações e quanto tempo levou cada solicitação pull em média. Essa tabela estará vazia quando não houver nenhuma solicitação de pull no repositório. |
 | Usuários |Esta tabela fornece uma lista de colaboradores ou usuários do GitHub que fizeram contribuições, arquivaram problemas ou resolveram Solicitações pull para o repositório selecionado. |
-| Marcos |Contém todas as Etapas para o repositório selecionado. |
+| Etapas |Contém todas as Etapas para o repositório selecionado. |
 | DateTable |Esta tabela contém datas do presente e de anos no passado, que permitem a você analisar seus dados GitHub por data. |
 | ContributionPunchCard |Essa tabela pode ser usada como um cartão perfurado de colaborações para o repositório selecionado. Ele mostra as confirmações por dia da semana e horas do dia. Esta tabela não está conectada a outras tabelas presentes no modelo. |
 | RepoDetails |Esta tabela fornece detalhes sobre o repositório selecionado. |
@@ -140,4 +139,4 @@ Se necessário, é possível verificar suas credenciais do GitHub.
 * [Criar novos workspaces no Power BI](../collaborate-share/service-create-the-new-workspaces.md)
 * [Instalar e usar aplicativos no Power BI](../consumer/end-user-apps.md)
 * [Conectar-se a aplicativos do Power BI para serviços externos](service-connect-to-services.md)
-* Perguntas? [Experimente perguntar para a Comunidade do Power BI](https://community.powerbi.com/)
+* Dúvidas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

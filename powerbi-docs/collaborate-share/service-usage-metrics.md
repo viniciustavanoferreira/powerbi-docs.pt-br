@@ -10,12 +10,11 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: af095964846cad264d1ac0ffd82e0c2ac6988a0e
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: b5f4d615c04583e59b618b415c8c239c9295c8a8
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273404"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299585"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorar as métricas de uso de relatórios e dashboards do Power BI
 
@@ -158,6 +157,7 @@ O Power BI está disponível em nuvens nacionais separadas. Essas nuvens oferece
 * Às vezes, as métricas de uso podem apresentar uma contagem inferior de atividades devido a conexões de rede inconsistentes, bloqueadores de anúncios ou outros problemas que podem interromper o envio de eventos do cliente.
 * Certos tipos de modos de exibição não são incluídos em métricas de uso, conforme descrito anteriormente neste artigo.
 * Às vezes, as métricas de uso podem apresentar uma contagem superior de atividades, em situações nas quais o cliente é atualizado sem a necessidade de envio de uma solicitação de volta ao serviço do Power BI.
+* O compartilhamento é desabilitado para o relatório de métricas de uso. Para dar às pessoas acesso de leitura ao relatório, primeiro você precisa dar a elas acesso ao workspace.
 
 ### <a name="other-considerations"></a>Outras considerações
 

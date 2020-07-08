@@ -7,11 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782560"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034280"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Compreender o processo de implantação (versão prévia)
 
@@ -233,7 +234,7 @@ Esta seção lista a maioria das limitações nos pipelines de implantação.
 
 * O workspace deve residir em uma [capacidade premium](../admin/service-premium-what-is.md).
 
-* Os itens do Power BI, como relatórios e painéis que possuem [rótulos de sensibilidade](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi) do Power BI, não podem ser implantados.
+* Os itens do Power BI, como relatórios e painéis que possuem [rótulos de sensibilidade](../admin/service-security-sensitivity-label-overview.md) do Power BI, não podem ser implantados.
 
 * O número máximo de itens do Power BI que podem ser implantados em uma única implantação é 300.
 

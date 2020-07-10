@@ -7,12 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739220"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034027"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
 
@@ -27,9 +28,11 @@ Para saber mais sobre as “Novidades” do Power BI, consulte:
 
 ## <a name="may-2020"></a>Maio de 2020
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop otimizado para o Servidor de Relatórios do Power BI
+
 Entre os destaques dessa atualização estão os visuais de segmentação hierárquica e de árvore hierárquica e o diagnóstico de consulta. O que vem a seguir é uma lista completa de recursos novos e atualizados. Para obter detalhes, confira a [postagem no blog de maio de 2020 sobre o Servidor de Relatórios do Power BI](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/). 
 
-### <a name="reporting"></a>Relatórios
+#### <a name="reporting"></a>Relatórios
 
 - Segmentação hierárquica
 - Novos tipos de ação para botões:
@@ -50,7 +53,7 @@ Entre os destaques dessa atualização estão os visuais de segmentação hierá
     - Nova experiência do painel de filtro
     - Pesquisa do painel de filtro
     
-### <a name="modeling"></a>Modelagem
+#### <a name="modeling"></a>Modelagem
 
 - Novas funções do DAX:
 
@@ -60,18 +63,24 @@ Entre os destaques dessa atualização estão os visuais de segmentação hierá
 
 - Separadores DAX padrão
 
-### <a name="visualizations"></a>Visualizações
+#### <a name="visualizations"></a>Visualizações
 
 - Novos ícones de visualização
 - Sombras visuais
 
-### <a name="data-preparation"></a>Preparação de dados
+#### <a name="data-preparation"></a>Preparação de dados
 
 - Diagnóstico de consulta
 
-### <a name="other"></a>Outros
+#### <a name="other"></a>Outros
 
 - Usar as credenciais padrão do sistema para o proxy Web
+
+### <a name="power-bi-report-server"></a>Servidor de Relatórios do Power BI
+
+#### <a name="power-bi-visuals-api"></a>API de visuais do Power BI
+
+A versão da API fornecida com esta versão é a 3.2.
 
 ## <a name="january-2020"></a>Janeiro de 2020
 

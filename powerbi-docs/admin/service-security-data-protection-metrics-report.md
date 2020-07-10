@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 759957b6412f4835aaf170fcebb7fd2beac4e234
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0452dabef54cc899abf7a6cbbd6ab718bf22524e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227174"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034303"
 ---
 # <a name="data-protection-metrics-report"></a>Relatório de métricas de proteção de dados
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>O que é o relatório de métricas de proteção de dados?
-O relatório de métricas de proteção de dados é um relatório dedicado que os [administradores do Power BI](../service-admin-role.md) podem usar para monitorar e acompanhar o uso e a adoção de rótulos de confidencialidade de dados em seus locatários.
+O relatório de métricas de proteção de dados é um relatório dedicado que os [administradores do Power BI](../service-admin-role.md) podem usar para monitorar e acompanhar o uso e a adoção de rótulos de confidencialidade em seus locatários.
 
 ![Relatório de métricas de proteção de dados](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
@@ -47,13 +47,13 @@ Na primeira vez que você abrir o relatório de métricas de proteção de dados
 
 Versões aprimoradas do relatório de métricas de proteção de dados são liberadas periodicamente. Quando você abrir o relatório, se uma nova versão estiver disponível, será consultado se deseja abrir a nova versão. Se você responder "Sim", a nova versão do relatório será carregada e substituirá a versão anterior. As alterações que você tiver ao relatório e/ou conjunto de dados antigo serão perdidas. Você poderá optar por não abrir a nova versão, mas nesse caso, não se beneficiará dos aprimoramentos nela incluídos. 
 ## <a name="notes-and-considerations"></a>Observações e considerações
-* Para que o relatório de métricas de proteção de dados seja gerado com êxito, a [proteção de informações](./service-security-enable-data-sensitivity-labels.md) deve estar habilitada em seu locatário e [rótulos de sensibilidade devem ter sido aplicados](../collaborate-share/service-security-apply-data-sensitivity-labels.md). 
+* Para que o relatório de métricas de proteção de dados seja gerado com êxito, a [proteção de informações](./service-security-enable-data-sensitivity-labels.md) deve estar habilitada em seu locatário e [rótulos de sensibilidade devem ter sido aplicados](./service-security-apply-data-sensitivity-labels.md). 
 * Para acessar informações do Cloud App Security, sua organização deve ter a [licença do Cloud App Security](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing) apropriada.
 * Se você decidir compartilhar informações do relatório de métricas de proteção de dados com um usuário que não seja um Administrador do Power BI, lembre-se de que esse relatório contém informações confidenciais sobre sua organização.
 * O relatório de métricas de proteção de dados é um tipo especial de relatório e não aparece em listas do tipo "Compartilhados comigo", "Recentes" e "Favoritos".
 * O relatório de métricas de proteção de dados não está disponível para [usuários externos (usuários convidados do Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md).
 ## <a name="next-steps"></a>Próximas etapas
-* [Proteção de dados no Power BI](./service-security-data-protection-overview.md)
+* [Rótulos de confidencialidade no Power BI](./service-security-sensitivity-label-overview.md)
 * [Como usar controles do Microsoft Cloud App Security no Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Noções básicas sobre a função de Administrador de serviços do Power BI](service-admin-role.md)
-* [Habilitar rótulos de confidencialidade de dados no Power BI](service-security-enable-data-sensitivity-labels.md)
+* [Habilitar rótulos de confidencialidade no Power BI](service-security-enable-data-sensitivity-labels.md)

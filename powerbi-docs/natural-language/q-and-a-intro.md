@@ -5,20 +5,20 @@ author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867773"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939649"
 ---
 # <a name="intro-to-power-bi-qa"></a>Introdução à P e R do Power BI
 
 Às vezes, a maneira mais rápida de obter uma resposta de seus dados é fazer uma pesquisa em seus dados usando o idioma natural. O recurso de P e R do Power BI permite que você explore seus dados com suas próprias palavras usando o idioma natural. A P e R é interativa e até mesmo divertida. Muitas vezes, uma pergunta leva a outras, pois as visualizações revelam caminhos interessantes a serem seguidos. A pergunta é apenas o começo. Explore seus dados refinando ou expandindo sua pergunta, descobrindo novas informações, concentrando-se em detalhes e afastando-se para obter uma visão mais ampla. A experiência é interativa e rápida, alimentada por armazenamento na memória. 
 
-A P e R do Power BI é gratuita e está disponível para todos os usuários. No Power BI Desktop, os designers de relatórios podem usar P e R para explorar dados e criar visualizações. No serviço do Power BI, todos podem explorar dados com P e R. Se você tiver permissão para editar um dashboard ou relatório, também poderá fixar seus resultados de P e R.
+A P e R do Power BI é gratuita e está disponível para todos os usuários. No Power BI Desktop, os designers de relatórios podem usar P e R para explorar dados e criar visualizações. No serviço do Power BI, todos podem explorar dados com P e R. Nossos aplicativos móveis também dão suporte a P e R, com o assistente virtual de P e R no iOS e o visual de P e R em dispositivos Android. Se você tiver permissão para editar um dashboard ou relatório, também poderá fixar seus resultados de P e R.
 
 ## <a name="how-to-use-qa"></a>Como usar a P e R
 
@@ -64,11 +64,11 @@ O segundo tipo de problema é quando a P e R não reconhece a palavra. Você pod
 
 Ao digitar sua pergunta, a P e R tenta interpretar e visualizar instantaneamente a resposta. Como parte das atualizações mais recentes, a P e R agora tenta interpretar a pergunta e plotar os campos automaticamente para o eixo correto. Por exemplo, se você digitar "Vendas por ano", a P e R detectará que o ano é um campo de data e sempre priorizará colocar esse campo no eixo X. Se você quiser alterar o tipo de visualização, digite "como *tipo de gráfico*" após a pergunta. No momento, a P e R é compatível com estes tipos de visualização:
 
-- Gráfico de Linhas
+- Gráfico de linhas
 - Gráfico de barras
 - Matriz
 - Tabela
-- Card
+- Cartão
 - Área
 - Gráfico de pizza
 - Gráfico de dispersão/bolha
@@ -99,7 +99,7 @@ Por padrão, a P e R está disponível na parte superior dos dashboards. Para us
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Você pode integrar o idioma natural a seus relatórios de várias maneiras. Para obter mais informações, consulte estes artigos:
+Você pode integrar o idioma natural a seus relatórios de várias maneiras. Para obter mais informações, confira estes tópicos:
 
 * [Visual de P e R](../visuals/power-bi-visualization-q-and-a.md)
 * [Melhores práticas de P e R](q-and-a-best-practices.md)

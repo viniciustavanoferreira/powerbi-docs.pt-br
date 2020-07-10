@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354997"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034050"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configurar credenciais de forma programática para o Power BI
 
@@ -48,13 +49,16 @@ Siga as etapas deste artigo e configure as credenciais programaticamente para o 
 
     ---
 
-2. Chame [Obter Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) para recuperar a chave pública do gateway.
+    >[!NOTE]
+    >Se você estiver usando fontes de dados de nuvem, não siga as próximas etapas nesta seção. Defina as credenciais usando a ID do gateway e a ID da fonte de dados obtidas na etapa 1 chamando [Atualizar DataSource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource). 
+
+3. Chame [Obter Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) para recuperar a chave pública do gateway.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. Criptografe as credenciais.
+4. Criptografe as credenciais.
 
     # <a name="net-sdk-v3"></a>[SDK v3 do .NET](#tab/sdk3)
 
@@ -72,7 +76,7 @@ Siga as etapas deste artigo e configure as credenciais programaticamente para o 
 
     ---  
 
-4. Compile detalhes de credenciais com credenciais criptografadas.
+5. Compile detalhes de credenciais com credenciais criptografadas.
 
     # <a name="net-sdk-v3"></a>[SDK v3 do .NET](#tab/sdk3)
 
@@ -100,7 +104,7 @@ Siga as etapas deste artigo e configure as credenciais programaticamente para o 
 
     ---
 
-5. Chame [Atualizar Fonte de Dados](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) para definir credenciais.
+6. Chame [Atualizar Fonte de Dados](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) para definir credenciais.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);

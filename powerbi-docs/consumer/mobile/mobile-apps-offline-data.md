@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148426"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034234"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Exibir os dados offline em aplicativos móveis do Power BI
 Aplica-se a:
@@ -35,6 +35,9 @@ Por padrão, o Power BI atualiza os dados com frequência para que você obtenha
 Enquanto estiver offline, você poderá acessar e interagir com os painéis que tenha acessado anteriormente por meio do aplicativo móvel.
 
 Você também tem acesso somente leitura a todos os relatórios do Power BI que tiver acessado anteriormente do aplicativo móvel. Você pode ver o relatório completo, mas não filtrar, aplicar filtro cruzado, classificar ou usar segmentações de dados nele.
+
+>[!NOTE]
+> Os relatórios baseados no DirectQuery não são armazenados em cache e não estão disponíveis offline.
 
 ## <a name="background-data-refresh"></a>Atualização de dados em segundo plano
 A atualização em segundo plano atualiza seus dashboard favoritos, assim como os dashboards e relatórios que você exibiu nas últimas duas semanas, com os dados no serviço do Power BI (não a fonte de dados). Se você estiver conectado ao Wi-Fi, a atualização em segundo plano atualizará a cada duas horas. Caso contrário, se você estiver em uma rede 3G, o Power BI atualizará o conteúdo a cada 24 horas.

@@ -7,18 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782523"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837029"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportar relatórios para o PowerPoint
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 Com o serviço do Power BI (app.powerbi.com), é possível publicar seu relatório no Microsoft PowerPoint e criar facilmente um conjunto de slides com base em seu relatório do Power BI. Quando você exporta para o PowerPoint, ocorre o seguinte:
@@ -39,7 +40,7 @@ No **serviço do Power BI**, selecione um relatório para exibi-lo na tela. Voc�
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Quando o relatório que você deseja exportar para o PowerPoint for exibido na tela, selecione **Exportar** > **PowerPoint** na barra de menus.
+Quando o relatório que você deseja exportar para o PowerPoint for exibido na tela, selecione **Arquivo** > **Exportar para o PowerPoint** na barra de menus.
 
 ![Selecione Exportar na barra de menus](media/end-user-powerpoint/power-bi-export.png)
 
@@ -85,6 +86,10 @@ O que fazer com seu material do PowerPoint daí em diante, ou com qualquer uma d
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 Há algumas considerações e limitações para ter em mente ao trabalhar com o recurso **Exportar para o PowerPoint**.
  
+
+* Se você não vir a opção **Exportar**, verifique se ativou a "Nova aparência" e que está exibindo um relatório (não um dashboard).
+
+    ![Captura de tela da opção Nova aparência](media/end-user-powerpoint/power-bi-new-look.png)
 
 * No momento, os [filtros de URL](../collaborate-share/service-url-filters.md) não são respeitados quando você escolhe **Valores atuais** para a exportação.
 

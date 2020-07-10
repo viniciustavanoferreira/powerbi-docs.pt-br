@@ -9,19 +9,19 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130271"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033774"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Níveis de privacidade do Power BI Desktop
 No **Power BI Desktop**, os níveis de privacidade especificam um nível de isolamento que define o grau que uma fonte de dados será isolada de outras fontes de dados. Apesar de o nível de isolamento restrito bloquear a troca de informações entre as fontes de dados, ele poderá reduzir a funcionalidade e causar um impacto no desempenho.
 
 A configuração **Níveis de Privacidade**, encontrada em **Arquivo > Opções e configurações > Opções** e, em seguida, em **Arquivo atual > Privacidade** determina se o Power BI Desktop usa suas configurações de Nível de Privacidade ao combinar dados. Essa caixa de diálogo inclui um link para a documentação do Power BI Desktop sobre Níveis de Privacidade (este artigo).
 
-![](media/desktop-privacy-levels/desktop_privacylevels1.png)
+![Captura de tela da caixa de diálogo Opções.](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
 ## <a name="configure-a-privacy-level"></a>Configurar um nível de privacidade
 Com as configurações de nível de privacidade, você pode especificar um nível de isolamento que define o grau que uma fonte de dados deve ser isolada de outras fontes de dados.
@@ -37,7 +37,7 @@ O diálogo de configurações de **Privacidade** para cada fonte de dados pode s
 
 Para configurar um nível de privacidade da fonte de dados, selecione a fonte de dados e selecione **Editar**. O diálogo **Configurações de fonte de dados** é exibida e nele você pode selecionar o nível de privacidade adequado no menu suspenso na parte inferior da caixa de diálogo, como mostrado na imagem a seguir.
 
-![](media/desktop-privacy-levels/desktop_privacylevels2.png)
+![Captura de tela da caixa de diálogo Configurações da Fonte de Dados.](media/desktop-privacy-levels/desktop_privacylevels2.png)
 
 > [!CAUTION]
 > Configure uma fonte de dados que contenha dados altamente confidenciais como **Privada**.
